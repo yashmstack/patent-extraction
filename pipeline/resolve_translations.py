@@ -902,12 +902,18 @@ PERCENT = ("％", "%")
 # concentrate", the verb that starts a dozen procedure quotations, and those resolve
 # through source_mt to a whole paragraph where a prefix test means nothing. Scoping
 # to names is what keeps this rule at four hits instead of twenty.
+# The VALUE is every English rendering that counts as carrying the qualifier, because
+# one Chinese modifier does not always come out as one English word. 冰 is the case
+# that forced this: 冰水 is ice water, but 冰醋酸 is glacial acetic acid, and demanding
+# the literal "ice" called a correct name a defect. Measured over every run in this
+# repo, 冰 occurs twice, and this turns one false positive into a pass while leaving
+# the true one failing.
 QUALIFIERS = {
-    "无水": "anhydrous",
-    "饱和": "saturated",
-    "稀": "dilute",
-    "浓": "concentrated",
-    "冰": "ice",
+    "无水": ("anhydrous",),
+    "饱和": ("saturated",),
+    "稀": ("dilute",),
+    "浓": ("concentrated",),
+    "冰": ("ice", "glacial"),
 }
 
 
@@ -971,9 +977,9 @@ def name_fidelity_gate(entries, biblio, patent, keys):
         if any(p in text for p in PERCENT) and not any(p in entry["en"] for p in PERCENT):
             dropped.append((text, entry["en"], "a strength"))
             continue
-        for zh, word in QUALIFIERS.items():
-            if text.startswith(zh) and word not in english:
-                dropped.append((text, entry["en"], f"{zh!r}, {word}"))
+        for zh, words in QUALIFIERS.items():
+            if text.startswith(zh) and not any(w in english for w in words):
+                dropped.append((text, entry["en"], f"{zh!r}, {' or '.join(words)}"))
                 break
 
     # THE PAIRS, DECLARED RATHER THAN DISCOVERED. Each is a place where the same

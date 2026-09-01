@@ -1,0 +1,236 @@
+{
+  "patent_id": "CN106008290A",
+  "patent_uuid": "65ba7e38-ed48-5620-a211-f35707a3636b",
+  "title": "A method for preparing tembotrione",
+  "abstract": "本发明公开了一种环磺酮的制备方法,属于有机化工技术领域,该方法采用三氟乙醇钠与2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯反应,生成的2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸与1,3-环己二酮缩合重排制备环磺酮。本发明提供的环磺酮的制备方法,克服了传统方法中用2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯和三氟乙醇、叔丁醇钾制备2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸收率低,叔丁醇钾试剂贵的缺点,同时也克服了羧基酰氯化成酯后重排法中需要剧毒催化剂丙酮氰醇的缺点,具有收率高、成本低、易操作、污染少、安全环保等优点,适合大规模工业化生产。",
+  "language": "zh",
+  "bibliographic": {
+    "publication_date": "2016-10-12",
+    "priority_date": "2016-05-16",
+    "filing_date": "2016-05-16",
+    "grant_date": null,
+    "jurisdiction": "cn",
+    "patent_type": null,
+    "legal_status": "Pending (Google Patents, retrieved 2026-08-28). Published application; no grant publication on the family page.",
+    "family_id": "57098239",
+    "ipc_codes": [
+      "C07C 315/04",
+      "C07C 317/24",
+      "C07C 317/46"
+    ],
+    "cpc_codes": null
+  },
+  "parties": {
+    "assignees": [
+      {
+        "name": "Anhui Jiuyi Agriculture Co., Ltd.",
+        "country": "CN",
+        "type": "sme"
+      }
+    ],
+    "inventors": [
+      {
+        "name": "Shen Yunhe",
+        "country": "CN"
+      },
+      {
+        "name": "Xiong Guoyin",
+        "country": "CN"
+      },
+      {
+        "name": "Zhao Xiaojun",
+        "country": "CN"
+      },
+      {
+        "name": "Fan Fuyun",
+        "country": "CN"
+      }
+    ],
+    "examiners": null
+  },
+  "patent_summary": "The document discloses a two-step preparation of tembotrione in which methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate is etherified with sodium trifluoroethoxide in the presence of MOH or M2CO3 (M = Li, Na or K) to give 2-chloro-3-(trifluoroethoxymethyl)-4-methylsulfonylbenzoic acid, which is then condensed with 1,3-cyclohexanedione in a reaction solvent under a condensing agent (CDI, HBTU, HOBT or DBU) and a base catalyst (sodium carbonate, potassium carbonate, calcium hydroxide, triethylamine or pyridine) to give the product. Dependent claims specify the molar ratios, solvent choices, solvent-to-substrate weight ratio and the temperature and time windows for each of the two steps.",
+  "novelty_claims": "The patent positions its advance as the choice of reagent in step a: claim 1 requires \"methyl 2-chloro-3-bromomethyl-4-(methanesulfonyl)benzoate and sodium trifluoroethoxide as the reaction substrates\", the preformed alkoxide replacing the trifluoroethanol plus potassium tert-butoxide combination that the abstract objects to as giving \"low yield\" with an \"expensive\" potassium tert-butoxide reagent. Against the second prior-art route it cites, in which the carboxyl group is converted to the acid chloride and then to an ester before rearrangement, the abstract's stated advantage is that this process needs no acetone cyanohydrin, which it describes as a highly toxic catalyst. On that basis it asserts high yield, low cost, ease of operation, little pollution and safety, and suitability for large-scale industrial production. These are the document's own assertions: the example yields it prints are claims read off the page and are not verified here, and nine of the eighteen annotated reaction steps carry a molar_mass_inconsistent flag and five a mass_balance_implausible flag, so nothing in this annotation confirms them. Examples 1 to 5 are five alternative runs of the same two-step route, differing in base, condensing agent, solvent and temperature, not a longer sequence.",
+  "key_examples": [],
+  "extraction_rollup": {
+    "reaction_count": 18,
+    "compound_count": 51,
+    "pathway_count": 9,
+    "section_summary": {
+      "background": 4,
+      "experimental_example": 10,
+      "summary_of_invention": 4
+    },
+    "target_compounds": [
+      {
+        "identifier": "tembotrione",
+        "smiles": null,
+        "compound_uuid": "77571259-2087-5d76-a520-45a10c2b29ec"
+      }
+    ],
+    "key_starting_materials": [
+      {
+        "identifier": "sodium trifluoroethoxide",
+        "smiles": null,
+        "compound_uuid": "a134f03f-1a47-55aa-b383-aad42553b73b"
+      },
+      {
+        "identifier": "methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate",
+        "smiles": null,
+        "compound_uuid": "d7fb7ba0-ef82-5223-8db9-2c8d01c37fcf"
+      },
+      {
+        "identifier": "1,3-cyclohexanedione",
+        "smiles": null,
+        "compound_uuid": "7959a162-ae2c-5abf-b1c1-b78da4f96d29"
+      },
+      {
+        "identifier": "2,2,2-trifluoroethanol",
+        "smiles": null,
+        "compound_uuid": "77d86e44-6883-5adf-80d9-0fb08a0c5c3e"
+      },
+      {
+        "identifier": "sodium 2,2,2-trifluoroethoxide",
+        "smiles": null,
+        "compound_uuid": "a5181cbc-f6b6-5638-a126-1b3868bac03f"
+      },
+      {
+        "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+        "smiles": null,
+        "compound_uuid": "31d0be86-870c-5daf-9101-afd2635b330b"
+      },
+      {
+        "identifier": "methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate",
+        "smiles": null,
+        "compound_uuid": "2fa51fc1-4c82-52f2-b9ac-50bc656f2fda"
+      },
+      {
+        "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+        "smiles": null,
+        "compound_uuid": "481c72d9-dfcb-5138-96c7-5c4245526449"
+      }
+    ],
+    "chemistry_focus": [
+      "nucleophilic_substitution",
+      "acylation",
+      "ester_formation",
+      "other",
+      "hydrolysis"
+    ],
+    "best_overall_yield_pct": 79.98,
+    "best_overall_yield_pathway_uuid": "5ec1dfc6-28c5-529e-b830-c09e69594aba",
+    "scale_distribution": {
+      "not_specified": 8,
+      "pilot": 10
+    }
+  },
+  "tags": [
+    "domain:agrochemical",
+    "target_class:herbicide",
+    "claim_type:process",
+    "novelty:new_process",
+    "novelty:improved_yield",
+    "novelty:green_chemistry",
+    "process_focus:batch",
+    "process_focus:scalable",
+    "jurisdiction:cn",
+    "patent_family:57098239",
+    "time_period:2016",
+    "assignee:anhui_jiuyi_agriculture_co_ltd",
+    "assignee_type:sme",
+    "compound_class:reagent",
+    "functional_group:trifluoromethyl",
+    "functional_group:ether",
+    "compound_class:starting_material",
+    "chemical_family:alkoxide",
+    "chemical_family:alkoxide_salt",
+    "chemical_family:benzoic_acid",
+    "functional_group:ester",
+    "functional_group:sulfone",
+    "functional_group:halide_chloro",
+    "functional_group:halide_bromo",
+    "compound_class:intermediate",
+    "functional_group:carboxylic_acid",
+    "chemical_family:cyclohexanedione",
+    "functional_group:ketone",
+    "compound_class:active_ingredient",
+    "chemical_family:triketone",
+    "compound_class:base",
+    "compound_class:catalyst",
+    "functional_group:nitrile",
+    "hazard:toxic",
+    "hazard:cyanide_handling",
+    "hazard:corrosive",
+    "chemical_family:benzyl_halide",
+    "chemical_family:aryl_sulfone",
+    "chemical_family:carbonate_salt",
+    "chemical_family:metal_carbonate",
+    "chemical_family:hydroxide_salt",
+    "chemical_family:tertiary_amine",
+    "chemical_family:trialkylamine",
+    "chemical_family:pyridine",
+    "chemical_family:imidazole",
+    "chemical_family:benzotriazole",
+    "chemical_family:amidine",
+    "compound_class:solvent",
+    "chemical_family:alkane",
+    "chemical_family:cycloalkane",
+    "chemical_family:amide",
+    "functional_group:amide",
+    "chemical_family:benzene",
+    "chemical_family:arene",
+    "chemical_family:toluene",
+    "chemical_family:xylene",
+    "chemical_family:chloroalkane",
+    "chemical_family:ether",
+    "chemical_family:nitrile",
+    "compound_class:workup_agent",
+    "compound_class:acid",
+    "chemical_family:alcohol",
+    "chemical_family:metal_hydroxide",
+    "chemical_family:benzoate_ester",
+    "transformation:etherification",
+    "mechanism:ionic",
+    "scale:not_specified",
+    "catalyst_class:base",
+    "step_role:first_step",
+    "linkage:standalone",
+    "is_one_pot:false",
+    "step_role:intermediate_step",
+    "linkage:precursor_linked",
+    "transformation:esterification",
+    "transformation:rearrangement",
+    "mechanism:catalytic",
+    "safety:cyanide_handling",
+    "step_role:final_step",
+    "transformation:hydrolysis",
+    "named_rxn:williamson_ether_synthesis",
+    "scale:pilot",
+    "solvent_class:aprotic_polar",
+    "workup_type:distillation",
+    "workup_type:crystallisation",
+    "workup_type:filtration",
+    "purification:recrystallisation",
+    "is_one_pot:true",
+    "transformation:acylation",
+    "solvent_class:halogenated",
+    "workup_type:aqueous_extraction",
+    "workup_type:trituration",
+    "purification:trituration",
+    "solvent_class:hydrocarbon",
+    "workup_type:none",
+    "purification:none",
+    "chain_length:4",
+    "branching:linear",
+    "convergence:linear",
+    "lcl:medium",
+    "chain_length:2",
+    "lcl:short"
+  ],
+  "source_refs": {
+    "patent_summary_doc_id": null,
+    "blob_root": "manual_annotations/output",
+    "extracted_at": null,
+    "extractor_commit_sha": null
+  },
+  "honest_uncertainty_flags": []
+}

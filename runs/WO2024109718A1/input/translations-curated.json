@@ -1,0 +1,195 @@
+{
+  "_readme": [
+    "Hand-authored English for the Chinese strings of one patent that",
+    "resolve_translations.py cannot get any other way. One entry per exact Chinese",
+    "string, keyed by the string as the gold spells it, byte for byte.",
+    "",
+    "WHY THIS FILE EXISTS: the gold keeps the patent's Chinese, because the Chinese",
+    "is the authoritative text and at least one finding in FINDINGS.md was only",
+    "catchable by reading it. The consuming team cannot read Chinese. Almost all of",
+    "the gap closes from data already in the pipeline: the enriched source carries a",
+    "machine translation of nearly every line, and most Chinese aliases sit on a",
+    "record that already names the same molecule in English. What is left is the",
+    "handful of class terms and misprints that neither can reach.",
+    "",
+    "TRANSLATE THESE AS CHEMISTRY, NOT AS TEXT. Check every name against the",
+    "structure or against the context in the patent rather than word by word. There",
+    "is no OPSIN and no network here, so nothing verifies a hand-authored name",
+    "except a human doing it, and a wrong chemical translation reads exactly as",
+    "convincingly as a right one. A wrong translation is worse than an admitted gap:",
+    "the gap is visible in the report, the wrong name is not.",
+    "",
+    "PRESERVE THE PATENT'S ERRORS. Where the Chinese itself is wrong, translate the",
+    "error faithfully and explain it in 'note'. Silently correcting it would make the",
+    "gold agree with chemistry instead of agreeing with the document, which is the",
+    "one thing a reference annotation may never do.",
+    "",
+    "WHAT NOT TO PUT HERE: anything the pipeline already resolves. A quotation whose",
+    "source line carries a '> EN:' line resolves with origin 'source_mt'. A Chinese",
+    "alias of a compound the gold also names in English resolves with origin",
+    "'gold_alias'. Both are stronger provenance claims than 'curated', because both",
+    "are the document's or the annotation's own words rather than ours. An entry here",
+    "for one of those is harmless, and is reported as overridden, but it is work you",
+    "did not need to do.",
+    "",
+    "OVERRIDE, and when it is honest to use it. An entry may carry",
+    "'override': true, which makes it beat the source and the gold instead of",
+    "losing to them. That is normally exactly backwards, because both are",
+    "better provenance than we are. The one shape that earns it is a SHORT",
+    "PHRASE whose source-line answer is the translation of the WHOLE PARAGRAPH",
+    "it was quoted out of. A consumer substitutes the index into the",
+    "annotator's English commentary, and a 695-character paragraph spliced into",
+    "the middle of a sentence is not a translation of a 14-character phrase, it",
+    "is a different and much worse answer. 'override' requires both an 'en' and",
+    "a 'note', so the reasoning is attached to the decision in the artifact.",
+    "",
+    "FIELDS: 'en' is the English form and must contain no Chinese. 'note' is free",
+    "text and is appended to the entry's note whichever tier ends up supplying the",
+    "English, so it is the right place for anything a reader has to know about the",
+    "string. Set 'en' to null, with a note, to record a gap deliberately left open:",
+    "the coverage gate still reports it, and the reasoning travels with it instead",
+    "of being lost.",
+    "",
+    "NOT EVERY ENTRY IS A MOLECULE. [0002] ends with a list of the weeds the",
+    "target herbicide controls, and the source's machine translation keeps the",
+    "Chinese plant names beside their English glosses, so those runs reach a",
+    "screen too and are indexed here. They are translated as botany on the same",
+    "terms the compounds are translated as chemistry: against what the name",
+    "denotes, with the genus-versus-species distinction the Chinese makes",
+    "preserved rather than flattened.",
+    "",
+    "Each name below was worked out from the patent's own context, and the",
+    "confidence in each is stated in its note.",
+    "",
+    "alias spellings of the formula (V) acid and the formula (VIII) ester, eight short",
+    "provenance quotes, and four fragments the annotator quoted inside English prose.",
+    "The other nine exist to keep a qualifier that the gold's own shorter name drops:",
+    "a solution strength, anhydrous, glacial. The substance was right in every one of",
+    "those nine; what was missing is a fact about what was actually charged.",
+    "",
+    "ONE MISPRINT RECORDED RATHER THAN PROPAGATED: 式(V III)化合物 on line 512 is",
+    "printed with a space inside the roman numeral. It is formula (VIII), as the",
+    "following line spells it. The English says so and the note keeps the misprint",
+    "visible.",
+    "",
+    "ON THIS RUN'S ENTRIES. Seventeen are strings that had no English anywhere: five",
+    "alias spellings of the formula (V) acid and the formula (VIII) ester, eight short",
+    "provenance quotes, and four fragments the annotator quoted inside English prose.",
+    "One more, 冰醋酸, is here because it is glacial acetic acid and not ice acetic acid.",
+    "",
+    "EIGHT ENTRIES WERE WRITTEN AND THEN REMOVED, and the reason is worth keeping. They",
+    "translated strings like 20％NaNO2水溶液 and 无水四氢呋喃, which the gold carried as",
+    "ALIASES of the pure substance. A curated translation could not fix that: the alias",
+    "tier outranks this file, so the index kept resolving them to the bare name and the",
+    "name fidelity gate kept failing. The real defect was upstream, in calling a charged",
+    "solution or a grade another NAME for the molecule. Those aliases were removed from",
+    "the compound records instead, the strength stays in the quantity note and in",
+    "purity_pct, and these entries then had nothing left to key on.",
+    "",
+    "fragments such as 式, 权利要求, 其中步骤 and 的一锅法方式实施. They are not names of",
+    "anything. They are here because the visual evidence pack quotes drawing labels and",
+    "sentence pieces verbatim, and its own gate refuses to let a single Han character",
+    "reach a reviewer who cannot read one. Each is translated as the fragment it is,",
+    "not as the sentence it came from."
+  ],
+  "patent_id": "WO2024109718A1",
+  "entries": {
+    "中间体酯化合物": {
+      "en": "intermediate ester compound",
+      "note": "an alias on a gold compound record. The 3-oxocyclohex-1-en-1-yl ester of formula (VIII), which the patent calls an intermediate because the route carries it on to tembotrione without isolating it in the one-pot variant."
+    },
+    "式(V)羧酸化合物": {
+      "en": "carboxylic acid compound of formula (V)",
+      "note": "an alias on a gold compound record. Formula (V) is the benzoic acid, 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid."
+    },
+    "式(V)的羧酸化合物": {
+      "en": "carboxylic acid compound of formula (V)",
+      "note": "an alias on a gold compound record. The same substance as 式(V)羧酸化合物; the patent prints both forms, with and without 的."
+    },
+    "式(V III)化合物": {
+      "en": "compound of formula (VIII)",
+      "note": "an alias on a gold compound record. PRINTED WITH A SPACE INSIDE THE NUMERAL, 式(V III), on line 512. It is the formula (VIII) ester: the same compound the next line spells 式(VIII)化合物. Translated to the intended label and the misprint recorded rather than propagated."
+    },
+    "式(VIII)酯中间体": {
+      "en": "ester intermediate of formula (VIII)",
+      "note": "an alias on a gold compound record. Another of the patent's several spellings for the formula (VIII) enol ester."
+    },
+    "水洗": {
+      "en": "washed with water",
+      "note": "quote_zh on a provenance row, the evidence for a record."
+    },
+    "加水淬灭": {
+      "en": "quenched by adding water",
+      "note": "quote_zh on a provenance row, the evidence for a record."
+    },
+    "水20g": {
+      "en": "20 g of water",
+      "note": "quote_zh on a provenance row, the evidence for a record. A charge, not a wash: this is the water that supplies the carboxyl oxygen in the hydroxycarbonylation."
+    },
+    "氮气置换": {
+      "en": "replaced with nitrogen",
+      "note": "quote_zh on a provenance row, the evidence for a record. The autoclave is evacuated and its atmosphere replaced with nitrogen before CO is admitted."
+    },
+    "加入水": {
+      "en": "water was added",
+      "note": "quote_zh on a provenance row, the evidence for a record."
+    },
+    "通入CO": {
+      "en": "CO was introduced",
+      "note": "quote_zh on a provenance row, the evidence for a record. Carbon monoxide admitted to the autoclave under pressure."
+    },
+    "如下方法": {
+      "en": "the following method",
+      "note": "quote_zh on a provenance row, the evidence for a record."
+    },
+    "如下路线": {
+      "en": "the following route",
+      "note": "quote_zh on a provenance row, the evidence for a record."
+    },
+    "大量": {
+      "en": "a large amount",
+      "note": "a Chinese term quoted inside the annotator's English commentary on a provenance row."
+    },
+    "方法": {
+      "en": "Method",
+      "note": "a Chinese term quoted inside the annotator's English commentary on a provenance row. Used as the label of the alternative procedures the patent numbers 方法1 and 方法2."
+    },
+    "其它与方法": {
+      "en": "the rest being as in Method",
+      "note": "a Chinese term quoted inside the annotator's English commentary on a provenance row. A fragment of 其它与方法1相同, everything else the same as in Method 1, which is how Example 9's second method inherits the first method's charges."
+    },
+    "相同": {
+      "en": "the same",
+      "note": "a Chinese term quoted inside the annotator's English commentary on a provenance row."
+    },
+    "冰醋酸": {
+      "en": "glacial acetic acid",
+      "note": "supplied so the English keeps a qualifier the gold's own shorter name drops. The strength or state is a fact about what was charged, not decoration. 冰 is glacial here, not ice."
+    },
+    "式(I)化合物": {
+      "en": "compound of formula (I)",
+      "note": "The patent's own label for this compound, rendered as the label it is. OVERRIDE, because the automatic answer was the molecular formula: the gold carries this molecule under several identifiers and the alias tier picked the formula-shaped one. A reviewer reading the claims meets 式(I)化合物 as a LABEL, and 'compound of formula (I)' is what the patent says; the formula is a fact about the molecule, not a translation of its name. Three of the eight labels already resolved this way on their own, so this also makes the eight consistent with each other.",
+      "override": true
+    },
+    "式(II)化合物": {
+      "en": "compound of formula (II)",
+      "note": "The patent's own label for this compound, rendered as the label it is. OVERRIDE, because the automatic answer was the molecular formula: the gold carries this molecule under several identifiers and the alias tier picked the formula-shaped one. A reviewer reading the claims meets 式(I)化合物 as a LABEL, and 'compound of formula (I)' is what the patent says; the formula is a fact about the molecule, not a translation of its name. Three of the eight labels already resolved this way on their own, so this also makes the eight consistent with each other.",
+      "override": true
+    },
+    "式(III)化合物": {
+      "en": "compound of formula (III)",
+      "note": "The patent's own label for this compound, rendered as the label it is. OVERRIDE, because the automatic answer was the molecular formula: the gold carries this molecule under several identifiers and the alias tier picked the formula-shaped one. A reviewer reading the claims meets 式(I)化合物 as a LABEL, and 'compound of formula (I)' is what the patent says; the formula is a fact about the molecule, not a translation of its name. Three of the eight labels already resolved this way on their own, so this also makes the eight consistent with each other.",
+      "override": true
+    },
+    "式(IV)化合物": {
+      "en": "compound of formula (IV)",
+      "note": "The patent's own label for this compound, rendered as the label it is. OVERRIDE, because the automatic answer was the molecular formula: the gold carries this molecule under several identifiers and the alias tier picked the formula-shaped one. A reviewer reading the claims meets 式(I)化合物 as a LABEL, and 'compound of formula (I)' is what the patent says; the formula is a fact about the molecule, not a translation of its name. Three of the eight labels already resolved this way on their own, so this also makes the eight consistent with each other.",
+      "override": true
+    },
+    "式(V)化合物": {
+      "en": "compound of formula (V)",
+      "note": "The patent's own label for this compound, rendered as the label it is. OVERRIDE, because the automatic answer was the molecular formula: the gold carries this molecule under several identifiers and the alias tier picked the formula-shaped one. A reviewer reading the claims meets 式(I)化合物 as a LABEL, and 'compound of formula (I)' is what the patent says; the formula is a fact about the molecule, not a translation of its name. Three of the eight labels already resolved this way on their own, so this also makes the eight consistent with each other.",
+      "override": true
+    }
+  }
+}

@@ -1,0 +1,386 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 10_Step 1",
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "acylation",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "lab",
+    "is_one_pot": true,
+    "one_pot_steps": [
+      "Stage 1, palladium-catalysed carbonylation of 式(IV)化合物 with CO and cyclohexane-1,3-dione over PdCl2 and 1,4-bis(diphenylphosphino)butane with triethylamine in 1,4-dioxane, run at 80 to 85 C under CO at about 1 to 4 MPa for about 8 h",
+      "Stage 2, acetone-cyanohydrin-promoted rearrangement of that enol ester to the 2-acyl-1,3-dione tembotrione, the batch cooled to 70 C, the acetone cyanohydrin added and the reaction continued for 5 h, with no workup and no isolation between the two stages"
+    ],
+    "conditions": {
+      "temperature": {
+        "type": "exact",
+        "value_c": 70.0,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "elevated",
+        "value_kpa": null,
+        "qualitative_text": "CO introduced at a pressure of about 1-4 MPa"
+      },
+      "atmosphere": "nitrogen purge (3 vacuum/nitrogen replacement cycles), then carbon monoxide",
+      "time_h": 5.0,
+      "reactor_type": "autoclave",
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "cooled to room temperature",
+        "pressure released and the reactor opened",
+        "filtered to remove triethylamine hydrobromide",
+        "dioxane stripped by rotary evaporation",
+        "residue dissolved in aqueous methanol",
+        "pH adjusted to 8-9 with sodium hydroxide solution",
+        "heated to 50 C and stirred",
+        "insolubles filtered off",
+        "acidified to pH 2-3, precipitating a white solid",
+        "cooled to room temperature and stirred in an ice bath for 0.5 h",
+        "filtered, washed with water, filtered",
+        "dried at 60 C"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "water"
+      ],
+      "drying_agent": null,
+      "filtration": "filtered to remove triethylamine hydrobromide, filtered again to remove insolubles at pH 8-9, and the precipitated product collected by filtration",
+      "concentration_method": "rotary evaporation",
+      "ph_target": 2.0
+    },
+    "purification": "precipitated from aqueous methanol by acidification to pH 2-3, granulated in an ice bath, filtered, washed with water and dried at 60 C",
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "reaction complete"
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(IV)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 56.84,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave at the start, with the base, catalyst, ligand and solvent",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CO",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "introduced under pressure of about 1 to 4 MPa after three vacuum/nitrogen purge cycles, for the first stage of the one-pot sequence",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "cyclohexane-1,3-dione",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "triethylamine",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 37.95,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave at the start",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "PdCl2",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 0.4,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave at the start",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,4-bis(diphenylphosphino)butane",
+        "role": "ligand",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 3.98,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave at the start",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,4-dioxane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 300.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave at the start; stripped off by rotary evaporation in the workup",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "nitrogen",
+        "role": "other",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "three vacuum/nitrogen replacement cycles before CO was admitted",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "acetone cyanohydrin",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 2.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added after the carbonylation stage, once the batch had been cooled to 70 C, without isolating the intermediate",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "triethylamine hydrobromide",
+        "role": "by_product",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "methanol",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added as aqueous methanol to dissolve the residue after the dioxane was stripped",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "aqueous component of the methanol/water dissolution, and the wash of the filter cake",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium hydroxide",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added as a solution in the workup to bring the pH to 8-9",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tembotrione",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": 64.67
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(IV)化合物",
+      "CO",
+      "cyclohexane-1,3-dione"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "tembotrione",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": 64.67,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "向高压釜中加入式(IV)化合物56.84g、三乙胺37.95g、PdCl2催化剂0.4g、配体1,4-双(二苯基膦)丁烷3.98g、溶剂1,4-二氧六环300g，抽真空，氮气置换3次，以约1～4MPa的压力通入CO，在80～85℃反应约8h后降温至70℃，加入2g丙酮氰醇，继续反应5h。通过高效液相色谱监测反应完成后，降至室温，卸去压力，打开反应釜，过滤，除去三乙胺氢溴酸盐，旋蒸除去溶剂二氧六环，加入甲醇水溶解，用氢氧化钠溶液调节pH至8～9，加热至50℃搅拌，过滤掉不溶物，调酸至pH为2～3，析出白色固体，将溶液冷却到室温并冰浴搅拌0.5h，过滤，水洗，过滤，60℃干燥，得到黄白色粉末状固体环磺酮，收率64.67％，熔点120～122℃。",
+    "procedure_summary": "In one pot, the aryl bromide of formula (IV) is carbonylated under CO pressure over a palladium chloride catalyst with a bisphosphine ligand and triethylamine in dioxane, and the resulting ester is rearranged in the same vessel by adding acetone cyanohydrin without isolation. The triethylamine hydrobromide by-product is filtered off, the solvent stripped, and tembotrione recovered by dissolving in aqueous methanol, basifying, filtering off insolubles and reprecipitating with acid.",
+    "precursor_step": "Example 5::Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "reagent_drawn_not_written"
+    ],
+    "tags": [
+      "transformation:carbonylation",
+      "transformation:esterification",
+      "transformation:rearrangement",
+      "transformation:acylation",
+      "mechanism:ionic",
+      "analytics:hplc",
+      "analytics:nmr",
+      "scale:lab",
+      "atmosphere:carbon_monoxide",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:palladium",
+      "workup_type:filtration",
+      "purification:precipitation",
+      "safety:cyanide_handling",
+      "safety:high_pressure",
+      "step_role:final_step",
+      "linkage:cross_section_linked",
+      "is_one_pot:true"
+    ],
+    "notes": "A0 estimated 2 steps for this section; this record is 1. The section carries no numbered step markers at all: it is a single continuous paragraph headed 一锅法 (one-pot method), and the two transformations A0 counted are the carbonylative esterification of 式(IV)化合物 with CO and the subsequent acetone-cyanohydrin-promoted rearrangement of that ester to tembotrione. There is no workup between them - the batch is only cooled from 80-85 C to 70 C and the acetone cyanohydrin is added to the same pot - so rule 5 makes it one record with is_one_pot true and the two transformations listed in one_pot_steps. reaction_class and the temperature are taken from the final transformation, per rules 5 and 9, so the structured temperature and time are the 70 C and 5 h of the rearrangement. Both stages are nonetheless recoverable from this record: one_pot_steps carries each stage in document order with its own conditions, the first stage running at 80 to 85 C for about 8 h under CO at about 1 to 4 MPa and the second at 70 C for 5 h after the acetone cyanohydrin was added, and conditions.pressure and the CO and acetone cyanohydrin addition profiles say which stage each belongs to. Reaction class: the carbonylation stage here is the same transformation that Examples 6, 7, 9 and 11 record as other_cross_coupling, but this record is one-pot and rule 5 assigns the class from the final transformation, so the class is acylation for the rearrangement and the carbonylation is carried in one_pot_steps and in the tags instead. Linkage: 式(IV)化合物 is the section product of Example 5 under the identical A1 identifier and the identical drawn SMILES, so the charge is matched by compound identity rather than by the sections being near each other; precursor_step is Example 5::Step 1 and linkage_confirmed is true. Drawing: the scheme on line 535 has one arrow, 式(IV)化合物 to tembotrione, and its conditions list CO, cyclohexane-1,3-dione and acetone cyanohydrin. Reactant, product and two of the three drawn reagents agree with the prose. Cyclohexane-1,3-dione is drawn on the arrow but never written in this section's procedure, which is why reagent_drawn_not_written is raised; it is chemically required for the drawn product and is carried as a reactant with no quantity. That single arrow also corroborates treating the paragraph as one record. Translation: 环磺酮 is tembotrione. The vision pass originally rendered it as sulcotrione (磺草酮) on these lines; the English was corrected during this run and the Chinese is authoritative, so no translation_conflict is raised. 丙酮氰醇 is acetone cyanohydrin, not cyanoacetone. Reactor: an autoclave (高压釜); no volume is printed. A stirrer is used in the workup (加热至50℃搅拌, 冰浴搅拌) but the type is never named, so stirring.type is left null. The page break between line 539 and line 542 splits the sentence 过|滤; procedure_text rejoins it and drops the vision pass's 'None' page-break artifact at the head of line 542."
+  }
+]

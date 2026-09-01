@@ -1,0 +1,1274 @@
+{
+ "patent_id": "US20040236146A1",
+ "reader": "llm",
+ "what_this_is_en": "Every substance named on every line of the enriched read, taken a second time and asked only that: not roles, not quantities, not whether it matters. `specific` names one substance you could draw; `generic` refers to a substance without naming one, which on this Markush disclosure covers the formula I and formula II classes, the solvent and radical initiator slots, and the process anaphors. An as-printed line and its `> EN:` line are separate keys, and each carries the string as it appears there, misprint included.",
+ "verified_en": "Every span below was checked to be a literal substring of the line it is filed under before this file was written. A span that is not on the line fails the build rather than reaching a reviewer.",
+ "lines": {
+  "1": [],
+  "4": [],
+  "6": [],
+  "7": [],
+  "8": [],
+  "9": [],
+  "10": [],
+  "11": [],
+  "12": [],
+  "13": [],
+  "14": [],
+  "15": [],
+  "16": [
+   {
+    "span": "3-BROMOMETHYLBENZOIC ACIDS",
+    "kind": "generic"
+   }
+  ],
+  "17": [
+   {
+    "span": "3-BROMOMETHYLBENZOIC ACIDS",
+    "kind": "generic"
+   }
+  ],
+  "18": [],
+  "19": [],
+  "20": [],
+  "21": [],
+  "22": [],
+  "23": [],
+  "24": [],
+  "25": [],
+  "26": [],
+  "27": [],
+  "28": [],
+  "29": [],
+  "30": [],
+  "31": [],
+  "32": [],
+  "33": [],
+  "34": [],
+  "35": [],
+  "36": [],
+  "37": [],
+  "38": [],
+  "39": [],
+  "40": [
+   {
+    "span": "3-bromomethylbenzoic acids",
+    "kind": "generic"
+   }
+  ],
+  "41": [
+   {
+    "span": "3-bromomethylbenzoic acids",
+    "kind": "generic"
+   }
+  ],
+  "42": [],
+  "44": [
+   {
+    "span": "3-methylbenzoic acids",
+    "kind": "generic"
+   }
+  ],
+  "45": [
+   {
+    "span": "3-methylbenzoic acids",
+    "kind": "generic"
+   }
+  ],
+  "46": [
+   {
+    "span": "compounds of the formula II",
+    "kind": "generic"
+   }
+  ],
+  "47": [
+   {
+    "span": "compounds of the formula II",
+    "kind": "generic"
+   }
+  ],
+  "49": [],
+  "51": [
+   {
+    "span": "3-BROMOMETHYLBENZOIC ACIDS",
+    "kind": "generic"
+   }
+  ],
+  "52": [
+   {
+    "span": "3-BROMOMETHYLBENZOIC ACIDS",
+    "kind": "generic"
+   }
+  ],
+  "53": [
+   {
+    "span": "3-bromomethylbenzoic acids",
+    "kind": "generic"
+   },
+   {
+    "span": "3-methylbenzoic acids",
+    "kind": "generic"
+   }
+  ],
+  "54": [
+   {
+    "span": "3-bromomethylbenzoic acids",
+    "kind": "generic"
+   },
+   {
+    "span": "3-methylbenzoic acids",
+    "kind": "generic"
+   }
+  ],
+  "55": [
+   {
+    "span": "3-bromomethylbenzoic acid",
+    "kind": "specific"
+   },
+   {
+    "span": "herbicides",
+    "kind": "generic"
+   },
+   {
+    "span": "Bromomethyl aromatics",
+    "kind": "generic"
+   },
+   {
+    "span": "methyl aromatics",
+    "kind": "generic"
+   },
+   {
+    "span": "benzyl bromides",
+    "kind": "generic"
+   },
+   {
+    "span": "azocarboxylic esters",
+    "kind": "generic"
+   },
+   {
+    "span": "azonitriles",
+    "kind": "generic"
+   },
+   {
+    "span": "an oxidizing agent",
+    "kind": "generic"
+   },
+   {
+    "span": "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate",
+    "kind": "specific"
+   },
+   {
+    "span": "radical initiator",
+    "kind": "generic"
+   },
+   {
+    "span": "methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate",
+    "kind": "specific"
+   },
+   {
+    "span": "carbon tetrachloride",
+    "kind": "specific"
+   },
+   {
+    "span": "3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid",
+    "kind": "specific"
+   }
+  ],
+  "56": [
+   {
+    "span": "3-bromomethylbenzoic acid",
+    "kind": "specific"
+   },
+   {
+    "span": "herbicides",
+    "kind": "generic"
+   },
+   {
+    "span": "Bromomethyl aromatics",
+    "kind": "generic"
+   },
+   {
+    "span": "methyl aromatics",
+    "kind": "generic"
+   },
+   {
+    "span": "benzyl bromides",
+    "kind": "generic"
+   },
+   {
+    "span": "azocarboxylic esters",
+    "kind": "generic"
+   },
+   {
+    "span": "azonitriles",
+    "kind": "generic"
+   },
+   {
+    "span": "an oxidizing agent",
+    "kind": "generic"
+   },
+   {
+    "span": "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate",
+    "kind": "specific"
+   },
+   {
+    "span": "radical initiator",
+    "kind": "generic"
+   },
+   {
+    "span": "methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate",
+    "kind": "specific"
+   },
+   {
+    "span": "carbon tetrachloride",
+    "kind": "specific"
+   },
+   {
+    "span": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "kind": "specific"
+   }
+  ],
+  "57": [
+   {
+    "span": "herbicides",
+    "kind": "generic"
+   },
+   {
+    "span": "3-bromomethylbenzoic acids",
+    "kind": "generic"
+   },
+   {
+    "span": "2-halo-3-methyl4-alkylsulfonylbenzoic acids",
+    "kind": "generic"
+   },
+   {
+    "span": "3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids",
+    "kind": "generic"
+   }
+  ],
+  "58": [
+   {
+    "span": "herbicides",
+    "kind": "generic"
+   },
+   {
+    "span": "3-bromomethylbenzoic acids",
+    "kind": "generic"
+   },
+   {
+    "span": "2-halo-3-methyl-4-alkylsulfonylbenzoic acids",
+    "kind": "generic"
+   },
+   {
+    "span": "3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids",
+    "kind": "generic"
+   }
+  ],
+  "59": [
+   {
+    "span": "3-bromomethylbenzoic acids",
+    "kind": "generic"
+   }
+  ],
+  "60": [
+   {
+    "span": "3-bromomethylbenzoic acids",
+    "kind": "generic"
+   }
+  ],
+  "61": [],
+  "63": [
+   {
+    "span": "3-methylbenzoic acids",
+    "kind": "generic"
+   }
+  ],
+  "64": [
+   {
+    "span": "3-methylbenzoic acids",
+    "kind": "generic"
+   }
+  ],
+  "65": [],
+  "67": [],
+  "68": [],
+  "69": [
+   {
+    "span": "N-bromosuccimide",
+    "kind": "specific"
+   },
+   {
+    "span": "a radical initiator",
+    "kind": "generic"
+   }
+  ],
+  "70": [
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "a radical initiator",
+    "kind": "generic"
+   }
+  ],
+  "71": [
+   {
+    "span": "elemental bromine",
+    "kind": "specific"
+   }
+  ],
+  "72": [
+   {
+    "span": "elemental bromine",
+    "kind": "specific"
+   }
+  ],
+  "73": [],
+  "74": [],
+  "75": [],
+  "76": [],
+  "77": [],
+  "78": [],
+  "79": [
+   {
+    "span": "radical initiators",
+    "kind": "generic"
+   },
+   {
+    "span": "diaroyl peroxides",
+    "kind": "generic"
+   },
+   {
+    "span": "azocarboxylic esters",
+    "kind": "generic"
+   },
+   {
+    "span": "azonitriles",
+    "kind": "generic"
+   },
+   {
+    "span": "azoisobutyronitrile",
+    "kind": "specific"
+   },
+   {
+    "span": "dibenzoyl peroxide",
+    "kind": "specific"
+   }
+  ],
+  "80": [
+   {
+    "span": "radical initiators",
+    "kind": "generic"
+   },
+   {
+    "span": "diaroyl peroxides",
+    "kind": "generic"
+   },
+   {
+    "span": "azocarboxylic esters",
+    "kind": "generic"
+   },
+   {
+    "span": "azonitriles",
+    "kind": "generic"
+   },
+   {
+    "span": "azoisobutyronitrile",
+    "kind": "specific"
+   },
+   {
+    "span": "dibenzoyl peroxide",
+    "kind": "specific"
+   }
+  ],
+  "81": [
+   {
+    "span": "solvents",
+    "kind": "generic"
+   },
+   {
+    "span": "the end products",
+    "kind": "generic"
+   }
+  ],
+  "82": [
+   {
+    "span": "solvents",
+    "kind": "generic"
+   },
+   {
+    "span": "the end products",
+    "kind": "generic"
+   }
+  ],
+  "83": [
+   {
+    "span": "solvents",
+    "kind": "generic"
+   },
+   {
+    "span": "halogenated hydrocarbons",
+    "kind": "generic"
+   },
+   {
+    "span": "methylene chloride",
+    "kind": "specific"
+   },
+   {
+    "span": "chloroform",
+    "kind": "specific"
+   },
+   {
+    "span": "carbon tetrachloride",
+    "kind": "specific"
+   },
+   {
+    "span": "1,2-dichloroethane",
+    "kind": "specific"
+   },
+   {
+    "span": "chlorobenzene",
+    "kind": "specific"
+   },
+   {
+    "span": "acetonitrile",
+    "kind": "specific"
+   }
+  ],
+  "84": [
+   {
+    "span": "solvents",
+    "kind": "generic"
+   },
+   {
+    "span": "halogenated hydrocarbons",
+    "kind": "generic"
+   },
+   {
+    "span": "methylene chloride",
+    "kind": "specific"
+   },
+   {
+    "span": "chloroform",
+    "kind": "specific"
+   },
+   {
+    "span": "carbon tetrachloride",
+    "kind": "specific"
+   },
+   {
+    "span": "1,2-dichloroethane",
+    "kind": "specific"
+   },
+   {
+    "span": "chlorobenzene",
+    "kind": "specific"
+   },
+   {
+    "span": "acetonitrile",
+    "kind": "specific"
+   }
+  ],
+  "85": [
+   {
+    "span": "solvents",
+    "kind": "generic"
+   },
+   {
+    "span": "acetonitrile",
+    "kind": "specific"
+   },
+   {
+    "span": "1,2-dichloroethane",
+    "kind": "specific"
+   },
+   {
+    "span": "methylene chloride",
+    "kind": "specific"
+   }
+  ],
+  "86": [
+   {
+    "span": "solvents",
+    "kind": "generic"
+   },
+   {
+    "span": "acetonitrile",
+    "kind": "specific"
+   },
+   {
+    "span": "1,2-dichloroethane",
+    "kind": "specific"
+   },
+   {
+    "span": "methylene chloride",
+    "kind": "specific"
+   }
+  ],
+  "87": [
+   {
+    "span": "a compound of the formula I",
+    "kind": "generic"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "NBS",
+    "kind": "specific"
+   },
+   {
+    "span": "radical initiator",
+    "kind": "generic"
+   },
+   {
+    "span": "solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   }
+  ],
+  "88": [
+   {
+    "span": "a compound of the formula I",
+    "kind": "generic"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "NBS",
+    "kind": "specific"
+   },
+   {
+    "span": "radical initiator",
+    "kind": "generic"
+   },
+   {
+    "span": "solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   }
+  ],
+  "89": [
+   {
+    "span": "a compound of the formula I",
+    "kind": "generic"
+   },
+   {
+    "span": "solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   }
+  ],
+  "90": [
+   {
+    "span": "a compound of the formula I",
+    "kind": "generic"
+   },
+   {
+    "span": "solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   }
+  ],
+  "91": [
+   {
+    "span": "the compounds of the formulae I and II",
+    "kind": "generic"
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "92": [
+   {
+    "span": "the compounds of the formulae I and II",
+    "kind": "generic"
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "93": [
+   {
+    "span": "the reaction mixture",
+    "kind": "generic"
+   }
+  ],
+  "94": [
+   {
+    "span": "the reaction mixture",
+    "kind": "generic"
+   }
+  ],
+  "96": [],
+  "98": [
+   {
+    "span": "sodium bisulfate",
+    "kind": "specific"
+   },
+   {
+    "span": "solvents",
+    "kind": "generic"
+   },
+   {
+    "span": "the product",
+    "kind": "generic"
+   },
+   {
+    "span": "the reaction product",
+    "kind": "generic"
+   },
+   {
+    "span": "ethyl acetate",
+    "kind": "specific"
+   },
+   {
+    "span": "butyl acetate",
+    "kind": "specific"
+   }
+  ],
+  "99": [
+   {
+    "span": "sodium bisulfate",
+    "kind": "specific"
+   },
+   {
+    "span": "solvents",
+    "kind": "generic"
+   },
+   {
+    "span": "the product",
+    "kind": "generic"
+   },
+   {
+    "span": "the reaction product",
+    "kind": "generic"
+   },
+   {
+    "span": "ethyl acetate",
+    "kind": "specific"
+   },
+   {
+    "span": "butyl acetate",
+    "kind": "specific"
+   }
+  ],
+  "100": [
+   {
+    "span": "3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid",
+    "kind": "specific"
+   },
+   {
+    "span": "compounds of the formula II",
+    "kind": "generic"
+   }
+  ],
+  "101": [
+   {
+    "span": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "kind": "specific"
+   },
+   {
+    "span": "compounds of the formula II",
+    "kind": "generic"
+   }
+  ],
+  "102": [],
+  "104": [],
+  "105": [],
+  "106": [],
+  "107": [],
+  "108": [],
+  "109": [],
+  "110": [
+   {
+    "span": "3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid",
+    "kind": "specific"
+   }
+  ],
+  "111": [
+   {
+    "span": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "kind": "specific"
+   }
+  ],
+  "112": [],
+  "113": [],
+  "114": [],
+  "115": [],
+  "116": [],
+  "117": [
+   {
+    "span": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic",
+    "kind": "specific"
+   }
+  ],
+  "118": [],
+  "119": [
+   {
+    "span": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic Acid",
+    "kind": "specific"
+   }
+  ],
+  "120": [],
+  "121": [],
+  "122": [
+   {
+    "span": "2-chloro-3-methyl4-sulfonylmethylbenzoic acid",
+    "kind": "specific"
+   },
+   {
+    "span": "chlorobenzene",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "azoisobutyroniltrile",
+    "kind": "specific"
+   },
+   {
+    "span": "the mixture",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "the reaction mixture",
+    "kind": "generic"
+   },
+   {
+    "span": "sodium bisulfite",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "The suspension",
+    "kind": "generic"
+   },
+   {
+    "span": "the solid",
+    "kind": "generic"
+   }
+  ],
+  "123": [
+   {
+    "span": "2-chloro-3-methyl-4-(methylsulfonyl)benzoic acid",
+    "kind": "specific"
+   },
+   {
+    "span": "chlorobenzene",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "azoisobutyronitrile",
+    "kind": "specific"
+   },
+   {
+    "span": "the mixture",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "the reaction mixture",
+    "kind": "generic"
+   },
+   {
+    "span": "sodium bisulfite",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "The suspension",
+    "kind": "generic"
+   },
+   {
+    "span": "the solid",
+    "kind": "generic"
+   }
+  ],
+  "124": [
+   {
+    "span": "3-bromomethyl-2-chloro4-methylsulfonyl-benzoic acid",
+    "kind": "specific"
+   }
+  ],
+  "125": [
+   {
+    "span": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "kind": "specific"
+   }
+  ],
+  "126": [],
+  "127": [],
+  "128": [],
+  "129": [],
+  "130": [
+   {
+    "span": "2-chloro-3-methyl-4-sulfonylmethylbenzoic acid",
+    "kind": "specific"
+   },
+   {
+    "span": "methylene chloride",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "the mixture",
+    "kind": "generic"
+   },
+   {
+    "span": "the reaction mixture",
+    "kind": "generic"
+   },
+   {
+    "span": "product",
+    "kind": "generic"
+   },
+   {
+    "span": "reactant",
+    "kind": "generic"
+   }
+  ],
+  "131": [
+   {
+    "span": "2-chloro-3-methyl-4-(methylsulfonyl)benzoic acid",
+    "kind": "specific"
+   },
+   {
+    "span": "methylene chloride",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "the mixture",
+    "kind": "generic"
+   },
+   {
+    "span": "the reaction mixture",
+    "kind": "generic"
+   },
+   {
+    "span": "product",
+    "kind": "generic"
+   },
+   {
+    "span": "reactant",
+    "kind": "generic"
+   }
+  ],
+  "132": [],
+  "133": [],
+  "134": [],
+  "135": [],
+  "136": [],
+  "137": [
+   {
+    "span": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic",
+    "kind": "specific"
+   }
+  ],
+  "138": [],
+  "139": [
+   {
+    "span": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic Acid",
+    "kind": "specific"
+   }
+  ],
+  "140": [
+   {
+    "span": "2-chloro-3-methyl-4-sulfonylethylbenzoic acid",
+    "kind": "specific"
+   },
+   {
+    "span": "acetonitrile",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "dibenzoyl peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "the mixture",
+    "kind": "generic"
+   },
+   {
+    "span": "the reaction mixture",
+    "kind": "generic"
+   },
+   {
+    "span": "sodium bisulfite",
+    "kind": "specific"
+   },
+   {
+    "span": "ethyl acetate",
+    "kind": "specific"
+   },
+   {
+    "span": "The organic phase",
+    "kind": "generic"
+   },
+   {
+    "span": "The solid residue",
+    "kind": "generic"
+   },
+   {
+    "span": "diethyl ether",
+    "kind": "specific"
+   },
+   {
+    "span": "heptane",
+    "kind": "specific"
+   },
+   {
+    "span": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+    "kind": "specific"
+   }
+  ],
+  "141": [
+   {
+    "span": "2-chloro-3-methyl-4-(ethylsulfonyl)benzoic acid",
+    "kind": "specific"
+   },
+   {
+    "span": "acetonitrile",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "dibenzoyl peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "the mixture",
+    "kind": "generic"
+   },
+   {
+    "span": "the reaction mixture",
+    "kind": "generic"
+   },
+   {
+    "span": "sodium bisulfite",
+    "kind": "specific"
+   },
+   {
+    "span": "ethyl acetate",
+    "kind": "specific"
+   },
+   {
+    "span": "The organic phase",
+    "kind": "generic"
+   },
+   {
+    "span": "The solid residue",
+    "kind": "generic"
+   },
+   {
+    "span": "diethyl ether",
+    "kind": "specific"
+   },
+   {
+    "span": "heptane",
+    "kind": "specific"
+   },
+   {
+    "span": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+    "kind": "specific"
+   }
+  ],
+  "142": [],
+  "143": [],
+  "144": [],
+  "146": [],
+  "148": [],
+  "149": [],
+  "150": [
+   {
+    "span": "3-bromomethylbenzoic acid",
+    "kind": "generic"
+   }
+  ],
+  "151": [
+   {
+    "span": "3-bromomethylbenzoic acid",
+    "kind": "generic"
+   }
+  ],
+  "152": [
+   {
+    "span": "3-methylbenzoic acid",
+    "kind": "generic"
+   }
+  ],
+  "153": [
+   {
+    "span": "3-methylbenzoic acid",
+    "kind": "generic"
+   }
+  ],
+  "154": [
+   {
+    "span": "N-bromosuccimide",
+    "kind": "specific"
+   },
+   {
+    "span": "a radical initiator",
+    "kind": "generic"
+   }
+  ],
+  "155": [
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "a radical initiator",
+    "kind": "generic"
+   }
+  ],
+  "156": [],
+  "157": [],
+  "158": [],
+  "159": [],
+  "160": [
+   {
+    "span": "radical initiator",
+    "kind": "generic"
+   },
+   {
+    "span": "azoisobutyronitrile",
+    "kind": "specific"
+   },
+   {
+    "span": "dibenzoyl peroxide",
+    "kind": "specific"
+   }
+  ],
+  "161": [
+   {
+    "span": "radical initiator",
+    "kind": "generic"
+   },
+   {
+    "span": "azoisobutyronitrile",
+    "kind": "specific"
+   },
+   {
+    "span": "dibenzoyl peroxide",
+    "kind": "specific"
+   }
+  ],
+  "163": [],
+  "165": [
+   {
+    "span": "a solvent",
+    "kind": "generic"
+   }
+  ],
+  "166": [
+   {
+    "span": "a solvent",
+    "kind": "generic"
+   }
+  ],
+  "167": [
+   {
+    "span": "chlorobenzene",
+    "kind": "specific"
+   }
+  ],
+  "168": [
+   {
+    "span": "chlorobenzene",
+    "kind": "specific"
+   }
+  ],
+  "169": [
+   {
+    "span": "acetonitrile",
+    "kind": "specific"
+   }
+  ],
+  "170": [
+   {
+    "span": "acetonitrile",
+    "kind": "specific"
+   }
+  ],
+  "171": [],
+  "172": [],
+  "173": [
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "174": [
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "175": [
+   {
+    "span": "3-bromomethylbenzoic acid",
+    "kind": "generic"
+   },
+   {
+    "span": "3-methylbenzoic acid",
+    "kind": "generic"
+   },
+   {
+    "span": "elemental bromine",
+    "kind": "specific"
+   }
+  ],
+  "176": [
+   {
+    "span": "3-bromomethylbenzoic acid",
+    "kind": "generic"
+   },
+   {
+    "span": "3-methylbenzoic acid",
+    "kind": "generic"
+   },
+   {
+    "span": "elemental bromine",
+    "kind": "specific"
+   }
+  ],
+  "177": [],
+  "179": [],
+  "181": [
+   {
+    "span": "a solvent",
+    "kind": "generic"
+   }
+  ],
+  "182": [
+   {
+    "span": "a solvent",
+    "kind": "generic"
+   }
+  ],
+  "183": [
+   {
+    "span": "chlorobenzene",
+    "kind": "specific"
+   }
+  ],
+  "184": [
+   {
+    "span": "chlorobenzene",
+    "kind": "specific"
+   }
+  ],
+  "185": [
+   {
+    "span": "methylene chloride",
+    "kind": "specific"
+   }
+  ],
+  "186": [
+   {
+    "span": "methylene chloride",
+    "kind": "specific"
+   }
+  ],
+  "187": [],
+  "188": [],
+  "189": [
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "190": [
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "191": [
+   {
+    "span": "compound of formula II",
+    "kind": "generic"
+   },
+   {
+    "span": "3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid",
+    "kind": "specific"
+   }
+  ],
+  "192": [
+   {
+    "span": "compound of formula II",
+    "kind": "generic"
+   },
+   {
+    "span": "3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid",
+    "kind": "specific"
+   }
+  ],
+  "193": [],
+  "195": [],
+  "196": [],
+  "197": [],
+  "198": []
+ }
+}

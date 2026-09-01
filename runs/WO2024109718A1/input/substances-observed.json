@@ -1,0 +1,6391 @@
+{
+ "patent_id": "WO2024109718A1",
+ "reader": "llm",
+ "what_this_is_en": "Every substance named on every line, read a second time and asked only that: not roles, not quantities, not whether it matters. `specific` names one substance you could draw; `generic` refers to a substance without naming one, and is counted apart because `the catalyst` is sometimes an anaphor and sometimes the finding.",
+ "verified_en": "Every span below was checked to be a literal substring of the English rendering of the line it is filed under before this file was written, using the same Source the verification engine uses. A span that is not on the line fails the build rather than reaching a reviewer.",
+ "how_read_en": "Six readers, each given a disjoint range of lines as plain text and nothing else. None of them saw any extraction output: this pass was run before A1 existed, so it could not have been derived from the records it is used to measure. The reader is a language model, the same family that produced the vision and extraction passes, so where it and the extraction agree that agreement is weaker evidence than it looks.",
+ "lines": {
+  "1": [],
+  "2": [],
+  "3": [],
+  "4": [],
+  "5": [],
+  "6": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "7": [],
+  "8": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "9": [],
+  "10": [],
+  "11": [],
+  "12": [],
+  "13": [],
+  "14": [],
+  "15": [],
+  "16": [],
+  "17": [],
+  "18": [],
+  "19": [],
+  "20": [],
+  "21": [],
+  "22": [],
+  "23": [],
+  "24": [],
+  "25": [],
+  "26": [],
+  "27": [],
+  "28": [],
+  "29": [],
+  "30": [],
+  "31": [],
+  "32": [],
+  "33": [],
+  "34": [],
+  "35": [],
+  "36": [],
+  "37": [],
+  "38": [],
+  "39": [],
+  "40": [
+   {
+    "span": "CYCLOSULFONONE",
+    "kind": "specific"
+   },
+   {
+    "span": "INTERMEDIATES",
+    "kind": "generic"
+   }
+  ],
+  "41": [
+   {
+    "span": "CYCLOSULFONONE",
+    "kind": "specific"
+   },
+   {
+    "span": "INTERMEDIATES",
+    "kind": "generic"
+   }
+  ],
+  "42": [
+   {
+    "span": "cyclosulfonone",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediates",
+    "kind": "generic"
+   }
+  ],
+  "43": [
+   {
+    "span": "cyclosulfonone",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediates",
+    "kind": "generic"
+   }
+  ],
+  "44": [
+   {
+    "span": "cyclosulfonone",
+    "kind": "specific"
+   }
+  ],
+  "45": [
+   {
+    "span": "cyclosulfonone",
+    "kind": "specific"
+   }
+  ],
+  "46": [
+   {
+    "span": "cyclosulfonone",
+    "kind": "specific"
+   }
+  ],
+  "47": [
+   {
+    "span": "cyclosulfonone",
+    "kind": "specific"
+   }
+  ],
+  "48": [],
+  "49": [],
+  "50": [],
+  "51": [],
+  "52": [],
+  "53": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediates",
+    "kind": "generic"
+   }
+  ],
+  "54": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediates",
+    "kind": "generic"
+   }
+  ],
+  "55": [],
+  "56": [],
+  "57": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediate compounds",
+    "kind": "generic"
+   }
+  ],
+  "58": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediate compounds",
+    "kind": "generic"
+   }
+  ],
+  "59": [],
+  "60": [],
+  "61": [
+   {
+    "span": "Tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "62": [
+   {
+    "span": "Tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "63": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "64": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "65": [
+   {
+    "span": "Cc1c(Cl)cccc1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(C(C)=O)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "66": [],
+  "67": [
+   {
+    "span": "dichlorotoluene",
+    "kind": "specific"
+   }
+  ],
+  "68": [
+   {
+    "span": "dichlorotoluene",
+    "kind": "specific"
+   }
+  ],
+  "69": [],
+  "70": [],
+  "71": [],
+  "72": [],
+  "73": [],
+  "74": [
+   {
+    "span": "Cc1c(N)cccc1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(C(C)=O)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "75": [],
+  "76": [
+   {
+    "span": "acetyl chloride",
+    "kind": "specific"
+   },
+   {
+    "span": "aluminium trichloride",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium hypochlorite",
+    "kind": "specific"
+   },
+   {
+    "span": "haloform",
+    "kind": "generic"
+   },
+   {
+    "span": "sodium chloride",
+    "kind": "specific"
+   }
+  ],
+  "77": [
+   {
+    "span": "acetyl chloride",
+    "kind": "specific"
+   },
+   {
+    "span": "aluminium trichloride",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium hypochlorite",
+    "kind": "specific"
+   },
+   {
+    "span": "haloform",
+    "kind": "generic"
+   },
+   {
+    "span": "sodium chloride",
+    "kind": "specific"
+   }
+  ],
+  "78": [],
+  "79": [],
+  "80": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediate compounds",
+    "kind": "generic"
+   }
+  ],
+  "81": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediate compounds",
+    "kind": "generic"
+   }
+  ],
+  "82": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediates",
+    "kind": "generic"
+   }
+  ],
+  "83": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediates",
+    "kind": "generic"
+   }
+  ],
+  "84": [],
+  "85": [],
+  "86": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "87": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "88": [],
+  "89": [],
+  "90": [],
+  "91": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "92": [],
+  "93": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "94": [],
+  "95": [],
+  "96": [],
+  "97": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "98": [],
+  "99": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "100": [],
+  "101": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediate",
+    "kind": "generic"
+   }
+  ],
+  "102": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediate",
+    "kind": "generic"
+   }
+  ],
+  "103": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "104": [],
+  "105": [],
+  "106": [],
+  "107": [],
+  "108": [
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   }
+  ],
+  "109": [],
+  "110": [
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   }
+  ],
+  "111": [],
+  "112": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "113": [],
+  "114": [],
+  "115": [],
+  "116": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "117": [],
+  "118": [
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   }
+  ],
+  "119": [],
+  "120": [
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   }
+  ],
+  "121": [],
+  "122": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "123": [],
+  "124": [
+   {
+    "span": "brominating reagent",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen bromide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OM",
+    "kind": "generic"
+   },
+   {
+    "span": "CF3CH2ONa",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OK",
+    "kind": "specific"
+   }
+  ],
+  "125": [
+   {
+    "span": "brominating reagent",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen bromide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OM",
+    "kind": "generic"
+   },
+   {
+    "span": "CF3CH2ONa",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OK",
+    "kind": "specific"
+   }
+  ],
+  "126": [
+   {
+    "span": "intermediate",
+    "kind": "generic"
+   }
+  ],
+  "127": [
+   {
+    "span": "intermediate",
+    "kind": "generic"
+   }
+  ],
+  "128": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "129": [],
+  "130": [],
+  "131": [],
+  "132": [],
+  "133": [
+   {
+    "span": "intermediate",
+    "kind": "generic"
+   }
+  ],
+  "134": [
+   {
+    "span": "intermediate",
+    "kind": "generic"
+   }
+  ],
+  "135": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "136": [],
+  "137": [
+   {
+    "span": "brominating agent",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen bromide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OM",
+    "kind": "generic"
+   },
+   {
+    "span": "CF3CH2ONa",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OK",
+    "kind": "specific"
+   }
+  ],
+  "138": [
+   {
+    "span": "brominating agent",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen bromide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OM",
+    "kind": "generic"
+   },
+   {
+    "span": "CF3CH2ONa",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OK",
+    "kind": "specific"
+   }
+  ],
+  "139": [],
+  "140": [],
+  "141": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "142": [],
+  "143": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "144": [],
+  "145": [],
+  "146": [],
+  "147": [
+   {
+    "span": "intermediate ester compound",
+    "kind": "generic"
+   }
+  ],
+  "148": [
+   {
+    "span": "intermediate ester compound",
+    "kind": "generic"
+   }
+  ],
+  "149": [],
+  "150": [],
+  "151": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "152": [],
+  "153": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "O=C1CCCC(=O)C1",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "154": [],
+  "155": [],
+  "156": [],
+  "157": [],
+  "158": [
+   {
+    "span": "intermediate ester compound",
+    "kind": "generic"
+   }
+  ],
+  "159": [
+   {
+    "span": "intermediate ester compound",
+    "kind": "generic"
+   }
+  ],
+  "160": [
+   {
+    "span": "compound",
+    "kind": "generic"
+   }
+  ],
+  "161": [
+   {
+    "span": "compound",
+    "kind": "generic"
+   }
+  ],
+  "162": [
+   {
+    "span": "A drawn structure on the page",
+    "kind": "generic"
+   }
+  ],
+  "163": [],
+  "164": [],
+  "165": [],
+  "166": [],
+  "167": [],
+  "168": [],
+  "169": [],
+  "170": [],
+  "171": [],
+  "172": [],
+  "173": [],
+  "174": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "compound",
+    "kind": "generic"
+   }
+  ],
+  "175": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "compound",
+    "kind": "generic"
+   }
+  ],
+  "176": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "compound",
+    "kind": "generic"
+   }
+  ],
+  "177": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "compound",
+    "kind": "generic"
+   }
+  ],
+  "178": [],
+  "179": [],
+  "180": [
+   {
+    "span": "compound of formula (VI)",
+    "kind": "generic"
+   }
+  ],
+  "181": [
+   {
+    "span": "compound of formula (VI)",
+    "kind": "generic"
+   }
+  ],
+  "182": [
+   {
+    "span": "compound of formula (VI)",
+    "kind": "generic"
+   }
+  ],
+  "183": [
+   {
+    "span": "compound of formula (VI)",
+    "kind": "generic"
+   }
+  ],
+  "184": [
+   {
+    "span": "compound of formula (I)",
+    "kind": "generic"
+   }
+  ],
+  "185": [
+   {
+    "span": "compound of formula (I)",
+    "kind": "generic"
+   }
+  ],
+  "186": [
+   {
+    "span": "compound of formula (I)",
+    "kind": "generic"
+   }
+  ],
+  "187": [
+   {
+    "span": "compound of formula (I)",
+    "kind": "generic"
+   }
+  ],
+  "188": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "generic"
+   }
+  ],
+  "189": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "generic"
+   }
+  ],
+  "190": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "generic"
+   }
+  ],
+  "191": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   }
+  ],
+  "192": [
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   }
+  ],
+  "193": [
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   }
+  ],
+  "194": [
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   }
+  ],
+  "195": [
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   }
+  ],
+  "196": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   }
+  ],
+  "197": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   }
+  ],
+  "198": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   }
+  ],
+  "199": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   }
+  ],
+  "200": [
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   }
+  ],
+  "201": [
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   }
+  ],
+  "202": [
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   }
+  ],
+  "203": [
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   }
+  ],
+  "204": [
+   {
+    "span": "compound of formula (VIII)",
+    "kind": "specific"
+   }
+  ],
+  "205": [
+   {
+    "span": "compound of formula (VIII)",
+    "kind": "specific"
+   }
+  ],
+  "206": [],
+  "207": [],
+  "208": [],
+  "209": [
+   {
+    "span": "compound of formula (VIII)",
+    "kind": "specific"
+   }
+  ],
+  "210": [
+   {
+    "span": "compound of formula (VIII)",
+    "kind": "specific"
+   }
+  ],
+  "211": [
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   }
+  ],
+  "212": [
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   }
+  ],
+  "213": [
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   }
+  ],
+  "214": [
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   }
+  ],
+  "215": [],
+  "216": [],
+  "217": [
+   {
+    "span": "compound of the following formula (A)",
+    "kind": "generic"
+   }
+  ],
+  "218": [
+   {
+    "span": "compound of the following formula (A)",
+    "kind": "generic"
+   }
+  ],
+  "219": [],
+  "220": [],
+  "221": [],
+  "222": [],
+  "223": [
+   {
+    "span": "CF3-CH2-O-CH2-",
+    "kind": "specific"
+   },
+   {
+    "span": "CH3-SO2-",
+    "kind": "specific"
+   }
+  ],
+  "224": [
+   {
+    "span": "CF3-CH2-O-CH2-",
+    "kind": "specific"
+   },
+   {
+    "span": "CH3-SO2-",
+    "kind": "specific"
+   }
+  ],
+  "225": [
+   {
+    "span": "Br-CH2-",
+    "kind": "specific"
+   },
+   {
+    "span": "CH3-SO2-",
+    "kind": "specific"
+   }
+  ],
+  "226": [
+   {
+    "span": "Br-CH2-",
+    "kind": "specific"
+   },
+   {
+    "span": "CH3-SO2-",
+    "kind": "specific"
+   }
+  ],
+  "227": [
+   {
+    "span": "CH3-",
+    "kind": "specific"
+   },
+   {
+    "span": "CH3-SO2-",
+    "kind": "specific"
+   }
+  ],
+  "228": [
+   {
+    "span": "CH3-",
+    "kind": "specific"
+   },
+   {
+    "span": "CH3-SO2-",
+    "kind": "specific"
+   }
+  ],
+  "229": [
+   {
+    "span": "CH3-",
+    "kind": "specific"
+   },
+   {
+    "span": "CH3-S-",
+    "kind": "specific"
+   }
+  ],
+  "230": [
+   {
+    "span": "CH3-",
+    "kind": "specific"
+   },
+   {
+    "span": "CH3-S-",
+    "kind": "specific"
+   }
+  ],
+  "231": [
+   {
+    "span": "compound of formula (A)",
+    "kind": "generic"
+   },
+   {
+    "span": "compounds of the following formulae (I)-(IV)",
+    "kind": "specific"
+   }
+  ],
+  "232": [
+   {
+    "span": "compound of formula (A)",
+    "kind": "generic"
+   },
+   {
+    "span": "compounds of the following formulae (I)-(IV)",
+    "kind": "specific"
+   }
+  ],
+  "233": [
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "234": [],
+  "235": [
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   }
+  ],
+  "236": [
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   }
+  ],
+  "237": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "238": [],
+  "239": [
+   {
+    "span": "compound of formula (VI)",
+    "kind": "specific"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   }
+  ],
+  "240": [
+   {
+    "span": "compound of formula (VI)",
+    "kind": "specific"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   }
+  ],
+  "241": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "242": [],
+  "243": [],
+  "244": [],
+  "245": [],
+  "246": [
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (VI)",
+    "kind": "specific"
+   },
+   {
+    "span": "alkali solution",
+    "kind": "generic"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   },
+   {
+    "span": "aqueous NaOH",
+    "kind": "specific"
+   }
+  ],
+  "247": [
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (VI)",
+    "kind": "specific"
+   },
+   {
+    "span": "alkali solution",
+    "kind": "generic"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   },
+   {
+    "span": "aqueous NaOH",
+    "kind": "specific"
+   }
+  ],
+  "248": [],
+  "249": [],
+  "250": [
+   {
+    "span": "dichloromethane",
+    "kind": "specific"
+   },
+   {
+    "span": "1,2-dichloroethane",
+    "kind": "specific"
+   }
+  ],
+  "251": [
+   {
+    "span": "dichloromethane",
+    "kind": "specific"
+   },
+   {
+    "span": "1,2-dichloroethane",
+    "kind": "specific"
+   }
+  ],
+  "252": [
+   {
+    "span": "compound of formula (VI)",
+    "kind": "specific"
+   }
+  ],
+  "253": [
+   {
+    "span": "compound of formula (VI)",
+    "kind": "specific"
+   }
+  ],
+  "254": [
+   {
+    "span": "Cc1c(N)cccc1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "255": [],
+  "256": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   }
+  ],
+  "257": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   }
+  ],
+  "258": [
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   }
+  ],
+  "259": [],
+  "260": [
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   }
+  ],
+  "261": [
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   }
+  ],
+  "262": [
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   }
+  ],
+  "263": [],
+  "264": [
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "an optionally used catalyst",
+    "kind": "generic"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   }
+  ],
+  "265": [
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "an optionally used catalyst",
+    "kind": "generic"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   }
+  ],
+  "266": [
+   {
+    "span": "a tungstate",
+    "kind": "generic"
+   },
+   {
+    "span": "metatungstate",
+    "kind": "generic"
+   },
+   {
+    "span": "vanadate",
+    "kind": "generic"
+   },
+   {
+    "span": "metavanadate",
+    "kind": "generic"
+   },
+   {
+    "span": "the sodium salt",
+    "kind": "generic"
+   },
+   {
+    "span": "potassium salt",
+    "kind": "generic"
+   },
+   {
+    "span": "ammonium salt",
+    "kind": "generic"
+   },
+   {
+    "span": "Sodium tungstate dihydrate",
+    "kind": "specific"
+   }
+  ],
+  "267": [
+   {
+    "span": "a tungstate",
+    "kind": "generic"
+   },
+   {
+    "span": "metatungstate",
+    "kind": "generic"
+   },
+   {
+    "span": "vanadate",
+    "kind": "generic"
+   },
+   {
+    "span": "metavanadate",
+    "kind": "generic"
+   },
+   {
+    "span": "the sodium salt",
+    "kind": "generic"
+   },
+   {
+    "span": "potassium salt",
+    "kind": "generic"
+   },
+   {
+    "span": "ammonium salt",
+    "kind": "generic"
+   },
+   {
+    "span": "Sodium tungstate dihydrate",
+    "kind": "specific"
+   }
+  ],
+  "268": [
+   {
+    "span": "glacial acetic acid",
+    "kind": "specific"
+   },
+   {
+    "span": "formic acid",
+    "kind": "specific"
+   }
+  ],
+  "269": [
+   {
+    "span": "glacial acetic acid",
+    "kind": "specific"
+   },
+   {
+    "span": "formic acid",
+    "kind": "specific"
+   }
+  ],
+  "270": [],
+  "271": [],
+  "272": [],
+  "273": [],
+  "274": [],
+  "275": [
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   }
+  ],
+  "276": [
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   }
+  ],
+  "277": [
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   }
+  ],
+  "278": [
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   }
+  ],
+  "279": [
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   }
+  ],
+  "280": [],
+  "281": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   },
+   {
+    "span": "a brominating reagent",
+    "kind": "generic"
+   }
+  ],
+  "282": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   },
+   {
+    "span": "a brominating reagent",
+    "kind": "generic"
+   }
+  ],
+  "283": [
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   }
+  ],
+  "284": [],
+  "285": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   },
+   {
+    "span": "a solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "an optionally used initiator",
+    "kind": "generic"
+   },
+   {
+    "span": "the brominating reagent",
+    "kind": "generic"
+   },
+   {
+    "span": "alkali solution",
+    "kind": "generic"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   },
+   {
+    "span": "aqueous NaOH solution",
+    "kind": "specific"
+   }
+  ],
+  "286": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   },
+   {
+    "span": "a solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "an optionally used initiator",
+    "kind": "generic"
+   },
+   {
+    "span": "the brominating reagent",
+    "kind": "generic"
+   },
+   {
+    "span": "alkali solution",
+    "kind": "generic"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   },
+   {
+    "span": "aqueous NaOH solution",
+    "kind": "specific"
+   }
+  ],
+  "287": [
+   {
+    "span": "elemental bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen bromide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "the brominating reagent",
+    "kind": "generic"
+   }
+  ],
+  "288": [
+   {
+    "span": "elemental bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen bromide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "the brominating reagent",
+    "kind": "generic"
+   }
+  ],
+  "289": [
+   {
+    "span": "benzoyl peroxide (BPO)",
+    "kind": "specific"
+   },
+   {
+    "span": "azobisisobutyronitrile (AIBN)",
+    "kind": "specific"
+   }
+  ],
+  "290": [
+   {
+    "span": "benzoyl peroxide (BPO)",
+    "kind": "specific"
+   },
+   {
+    "span": "azobisisobutyronitrile (AIBN)",
+    "kind": "specific"
+   }
+  ],
+  "291": [
+   {
+    "span": "dichloromethane",
+    "kind": "specific"
+   },
+   {
+    "span": "dichloroethane",
+    "kind": "specific"
+   },
+   {
+    "span": "carbon tetrachloride",
+    "kind": "specific"
+   }
+  ],
+  "292": [
+   {
+    "span": "dichloromethane",
+    "kind": "specific"
+   },
+   {
+    "span": "dichloroethane",
+    "kind": "specific"
+   },
+   {
+    "span": "carbon tetrachloride",
+    "kind": "specific"
+   }
+  ],
+  "293": [],
+  "294": [],
+  "295": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   }
+  ],
+  "296": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   }
+  ],
+  "297": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "298": [],
+  "299": [],
+  "300": [],
+  "301": [],
+  "302": [
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium trifluoroethoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium trifluoroethoxide",
+    "kind": "specific"
+   }
+  ],
+  "303": [
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium trifluoroethoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium trifluoroethoxide",
+    "kind": "specific"
+   }
+  ],
+  "304": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "305": [],
+  "306": [
+   {
+    "span": "CF3CH2OM",
+    "kind": "generic"
+   },
+   {
+    "span": "CF3CH2ONa",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OK",
+    "kind": "specific"
+   }
+  ],
+  "307": [
+   {
+    "span": "CF3CH2OM",
+    "kind": "generic"
+   },
+   {
+    "span": "CF3CH2ONa",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OK",
+    "kind": "specific"
+   }
+  ],
+  "308": [
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium trifluoroethoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium trifluoroethoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "a solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "saturated brine",
+    "kind": "specific"
+   },
+   {
+    "span": "methanol",
+    "kind": "specific"
+   },
+   {
+    "span": "ethanol",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   }
+  ],
+  "309": [
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium trifluoroethoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium trifluoroethoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "a solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "saturated brine",
+    "kind": "specific"
+   },
+   {
+    "span": "methanol",
+    "kind": "specific"
+   },
+   {
+    "span": "ethanol",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   }
+  ],
+  "310": [
+   {
+    "span": "tetrahydrofuran",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "diethyl ether",
+    "kind": "specific"
+   }
+  ],
+  "311": [
+   {
+    "span": "tetrahydrofuran",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "diethyl ether",
+    "kind": "specific"
+   }
+  ],
+  "312": [
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium trifluoroethoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium trifluoroethoxide",
+    "kind": "specific"
+   }
+  ],
+  "313": [
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium trifluoroethoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium trifluoroethoxide",
+    "kind": "specific"
+   }
+  ],
+  "314": [
+   {
+    "span": "sodium trifluoroethoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium trifluoroethoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium hydride",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium hydride",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium methoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium methoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium hydroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium hydroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "trifluoroethanol",
+    "kind": "specific"
+   }
+  ],
+  "315": [
+   {
+    "span": "sodium trifluoroethoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium trifluoroethoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium hydride",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium hydride",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium methoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium methoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium hydroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium hydroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "trifluoroethanol",
+    "kind": "specific"
+   }
+  ],
+  "316": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "carboxylic acid compound of formula (V)",
+    "kind": "specific"
+   }
+  ],
+  "317": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "carboxylic acid compound of formula (V)",
+    "kind": "specific"
+   }
+  ],
+  "318": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "319": [],
+  "320": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "an acid-binding agent",
+    "kind": "generic"
+   },
+   {
+    "span": "a catalyst",
+    "kind": "generic"
+   },
+   {
+    "span": "a ligand",
+    "kind": "generic"
+   },
+   {
+    "span": "a first solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "nitrogen",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   },
+   {
+    "span": "a second solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "acid is added",
+    "kind": "generic"
+   },
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   }
+  ],
+  "321": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "an acid-binding agent",
+    "kind": "generic"
+   },
+   {
+    "span": "a catalyst",
+    "kind": "generic"
+   },
+   {
+    "span": "a ligand",
+    "kind": "generic"
+   },
+   {
+    "span": "a first solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "nitrogen",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   },
+   {
+    "span": "a second solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "acid is added",
+    "kind": "generic"
+   },
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   }
+  ],
+  "322": [],
+  "323": [],
+  "324": [],
+  "325": [
+   {
+    "span": "a noble metal catalyst",
+    "kind": "generic"
+   },
+   {
+    "span": "palladium",
+    "kind": "specific"
+   },
+   {
+    "span": "rhodium",
+    "kind": "specific"
+   },
+   {
+    "span": "ruthenium",
+    "kind": "specific"
+   },
+   {
+    "span": "copper",
+    "kind": "specific"
+   },
+   {
+    "span": "cobalt",
+    "kind": "specific"
+   }
+  ],
+  "326": [
+   {
+    "span": "a noble metal catalyst",
+    "kind": "generic"
+   },
+   {
+    "span": "palladium",
+    "kind": "specific"
+   },
+   {
+    "span": "rhodium",
+    "kind": "specific"
+   },
+   {
+    "span": "ruthenium",
+    "kind": "specific"
+   },
+   {
+    "span": "copper",
+    "kind": "specific"
+   },
+   {
+    "span": "cobalt",
+    "kind": "specific"
+   }
+  ],
+  "327": [
+   {
+    "span": "a palladium catalyst",
+    "kind": "generic"
+   },
+   {
+    "span": "palladium chloride (PdCl2)",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium carbonate (PdCO3)",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium acetate [Pd(OAc)2]",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium on carbon (Pd/C)",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium trifluoroacetate [Pd(OTFA)2]",
+    "kind": "specific"
+   },
+   {
+    "span": "bis(dibenzylideneacetone)palladium [Pd(dba)2]",
+    "kind": "specific"
+   }
+  ],
+  "328": [
+   {
+    "span": "a palladium catalyst",
+    "kind": "generic"
+   },
+   {
+    "span": "palladium chloride (PdCl2)",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium carbonate (PdCO3)",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium acetate [Pd(OAc)2]",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium on carbon (Pd/C)",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium trifluoroacetate [Pd(OTFA)2]",
+    "kind": "specific"
+   },
+   {
+    "span": "bis(dibenzylideneacetone)palladium [Pd(dba)2]",
+    "kind": "specific"
+   }
+  ],
+  "329": [
+   {
+    "span": "a phosphine ligand",
+    "kind": "generic"
+   },
+   {
+    "span": "1,3-(bis(diphenylphosphino))propane",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-bis(diphenylphosphino)butane",
+    "kind": "specific"
+   },
+   {
+    "span": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+    "kind": "specific"
+   }
+  ],
+  "330": [
+   {
+    "span": "a phosphine ligand",
+    "kind": "generic"
+   },
+   {
+    "span": "1,3-(bis(diphenylphosphino))propane",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-bis(diphenylphosphino)butane",
+    "kind": "specific"
+   },
+   {
+    "span": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+    "kind": "specific"
+   }
+  ],
+  "331": [
+   {
+    "span": "the acid-binding agent",
+    "kind": "generic"
+   },
+   {
+    "span": "triethylamine",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium carbonate",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium carbonate",
+    "kind": "specific"
+   },
+   {
+    "span": "cesium carbonate (CsCO3)",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium phosphate",
+    "kind": "specific"
+   },
+   {
+    "span": "N,N-dimethylacetamide (DMAC)",
+    "kind": "specific"
+   },
+   {
+    "span": "N,N-diisopropylethylamine (DIPEA)",
+    "kind": "specific"
+   },
+   {
+    "span": "1,8-diazabicycloundec-7-ene (DBU)",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylenediamine (DABCO)",
+    "kind": "specific"
+   }
+  ],
+  "332": [
+   {
+    "span": "the acid-binding agent",
+    "kind": "generic"
+   },
+   {
+    "span": "triethylamine",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium carbonate",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium carbonate",
+    "kind": "specific"
+   },
+   {
+    "span": "cesium carbonate (CsCO3)",
+    "kind": "specific"
+   },
+   {
+    "span": "potassium phosphate",
+    "kind": "specific"
+   },
+   {
+    "span": "N,N-dimethylacetamide (DMAC)",
+    "kind": "specific"
+   },
+   {
+    "span": "N,N-diisopropylethylamine (DIPEA)",
+    "kind": "specific"
+   },
+   {
+    "span": "1,8-diazabicycloundec-7-ene (DBU)",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylenediamine (DABCO)",
+    "kind": "specific"
+   }
+  ],
+  "333": [
+   {
+    "span": "the first solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "aromatic hydrocarbons",
+    "kind": "generic"
+   },
+   {
+    "span": "sulfoxides",
+    "kind": "generic"
+   },
+   {
+    "span": "ethers",
+    "kind": "generic"
+   },
+   {
+    "span": "amides",
+    "kind": "generic"
+   },
+   {
+    "span": "toluene",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "ethylene glycol dimethyl ether",
+    "kind": "specific"
+   },
+   {
+    "span": "ethylene glycol diethyl ether",
+    "kind": "specific"
+   },
+   {
+    "span": "dimethyl sulfoxide (DMSO)",
+    "kind": "specific"
+   },
+   {
+    "span": "tetrahydrofuran (THF)",
+    "kind": "specific"
+   },
+   {
+    "span": "N,N-dimethylformamide (DMF)",
+    "kind": "specific"
+   }
+  ],
+  "334": [
+   {
+    "span": "the first solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "aromatic hydrocarbons",
+    "kind": "generic"
+   },
+   {
+    "span": "sulfoxides",
+    "kind": "generic"
+   },
+   {
+    "span": "ethers",
+    "kind": "generic"
+   },
+   {
+    "span": "amides",
+    "kind": "generic"
+   },
+   {
+    "span": "toluene",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "ethylene glycol dimethyl ether",
+    "kind": "specific"
+   },
+   {
+    "span": "ethylene glycol diethyl ether",
+    "kind": "specific"
+   },
+   {
+    "span": "dimethyl sulfoxide (DMSO)",
+    "kind": "specific"
+   },
+   {
+    "span": "tetrahydrofuran (THF)",
+    "kind": "specific"
+   },
+   {
+    "span": "N,N-dimethylformamide (DMF)",
+    "kind": "specific"
+   }
+  ],
+  "335": [
+   {
+    "span": "CO",
+    "kind": "specific"
+   }
+  ],
+  "336": [
+   {
+    "span": "CO",
+    "kind": "specific"
+   }
+  ],
+  "337": [
+   {
+    "span": "the first solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "an alcohol solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "methanol",
+    "kind": "specific"
+   },
+   {
+    "span": "ethanol",
+    "kind": "specific"
+   }
+  ],
+  "338": [
+   {
+    "span": "the first solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "an alcohol solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "methanol",
+    "kind": "specific"
+   },
+   {
+    "span": "ethanol",
+    "kind": "specific"
+   }
+  ],
+  "339": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "ester compound of formula (VIII)",
+    "kind": "specific"
+   }
+  ],
+  "340": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "ester compound of formula (VIII)",
+    "kind": "specific"
+   }
+  ],
+  "341": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "342": [],
+  "343": [
+   {
+    "span": "carboxylic acid compound of formula (V)",
+    "kind": "specific"
+   },
+   {
+    "span": "ester compound of formula (VIII)",
+    "kind": "specific"
+   },
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "344": [
+   {
+    "span": "carboxylic acid compound of formula (V)",
+    "kind": "specific"
+   },
+   {
+    "span": "ester compound of formula (VIII)",
+    "kind": "specific"
+   },
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "345": [],
+  "346": [],
+  "347": [],
+  "348": [
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   },
+   {
+    "span": "ester compound of formula (VIII)",
+    "kind": "specific"
+   },
+   {
+    "span": "a cyanide-type catalyst",
+    "kind": "generic"
+   },
+   {
+    "span": "acetone cyanohydrin",
+    "kind": "specific"
+   }
+  ],
+  "349": [
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   },
+   {
+    "span": "ester compound of formula (VIII)",
+    "kind": "specific"
+   },
+   {
+    "span": "a cyanide-type catalyst",
+    "kind": "generic"
+   },
+   {
+    "span": "acetone cyanohydrin",
+    "kind": "specific"
+   }
+  ],
+  "350": [
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "351": [],
+  "352": [
+   {
+    "span": "water",
+    "kind": "specific"
+   }
+  ],
+  "353": [
+   {
+    "span": "water",
+    "kind": "specific"
+   }
+  ],
+  "354": [
+   {
+    "span": "ester compound of formula (VIII)",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   }
+  ],
+  "355": [
+   {
+    "span": "ester compound of formula (VIII)",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   }
+  ],
+  "356": [
+   {
+    "span": "CO",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediate acid compound shown by formula (V)",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediate ester compound of formula (VIII)",
+    "kind": "specific"
+   }
+  ],
+  "357": [
+   {
+    "span": "CO",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediate acid compound shown by formula (V)",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "intermediate ester compound of formula (VIII)",
+    "kind": "specific"
+   }
+  ],
+  "358": [
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   },
+   {
+    "span": "compounds of the above formulae (I) to (IV)",
+    "kind": "specific"
+   }
+  ],
+  "359": [
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   },
+   {
+    "span": "compounds of the above formulae (I) to (IV)",
+    "kind": "specific"
+   }
+  ],
+  "360": [
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   }
+  ],
+  "361": [
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   }
+  ],
+  "362": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "363": [],
+  "364": [],
+  "365": [],
+  "366": [],
+  "367": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "368": [],
+  "369": [
+   {
+    "span": "carboxylic acid compound of formula (V)",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "ester compound of formula (VIII)",
+    "kind": "specific"
+   }
+  ],
+  "370": [
+   {
+    "span": "carboxylic acid compound of formula (V)",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "ester compound of formula (VIII)",
+    "kind": "specific"
+   }
+  ],
+  "371": [],
+  "372": [],
+  "373": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "374": [],
+  "375": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "376": [],
+  "377": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "378": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "379": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "380": [],
+  "381": [
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   }
+  ],
+  "382": [],
+  "383": [],
+  "384": [],
+  "385": [],
+  "386": [
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   }
+  ],
+  "387": [],
+  "388": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "389": [],
+  "390": [],
+  "391": [],
+  "392": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "393": [],
+  "394": [
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   }
+  ],
+  "395": [],
+  "396": [
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   }
+  ],
+  "397": [],
+  "398": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "399": [],
+  "400": [],
+  "401": [],
+  "402": [],
+  "403": [],
+  "404": [],
+  "405": [
+   {
+    "span": "Cc1c(N)cccc1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "406": [],
+  "407": [
+   {
+    "span": "Cc1c(N)cccc1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "408": [],
+  "409": [],
+  "410": [],
+  "411": [],
+  "412": [],
+  "413": [],
+  "414": [
+   {
+    "span": "Cc1c(N)cccc1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "415": [],
+  "416": [
+   {
+    "span": "Cc1c(N)cccc1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "417": [],
+  "418": [
+   {
+    "span": "the brominating agent",
+    "kind": "generic"
+   },
+   {
+    "span": "CF3CH2OM",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen bromide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2ONa",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OK",
+    "kind": "specific"
+   }
+  ],
+  "419": [
+   {
+    "span": "the brominating agent",
+    "kind": "generic"
+   },
+   {
+    "span": "CF3CH2OM",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen bromide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2ONa",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OK",
+    "kind": "specific"
+   }
+  ],
+  "420": [
+   {
+    "span": "compounds of formula (I) to formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "421": [
+   {
+    "span": "compounds of formula (I) to formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "422": [],
+  "423": [],
+  "424": [
+   {
+    "span": "compound of formula (VI)",
+    "kind": "specific"
+   }
+  ],
+  "425": [
+   {
+    "span": "compound of formula (VI)",
+    "kind": "specific"
+   }
+  ],
+  "426": [
+   {
+    "span": "Cc1c(N)cccc1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "427": [],
+  "428": [
+   {
+    "span": "hydrochloric acid",
+    "kind": "specific"
+   },
+   {
+    "span": "3-chloro-2-methylaniline",
+    "kind": "specific"
+   },
+   {
+    "span": "NaNO2",
+    "kind": "specific"
+   }
+  ],
+  "429": [
+   {
+    "span": "hydrochloric acid",
+    "kind": "specific"
+   },
+   {
+    "span": "3-chloro-2-methylaniline",
+    "kind": "specific"
+   },
+   {
+    "span": "NaNO2",
+    "kind": "specific"
+   }
+  ],
+  "430": [],
+  "431": [],
+  "432": [],
+  "433": [
+   {
+    "span": "diazonium salt solution",
+    "kind": "generic"
+   },
+   {
+    "span": "CH3SNa",
+    "kind": "specific"
+   },
+   {
+    "span": "NaOH",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrochloric acid",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (VI)",
+    "kind": "specific"
+   }
+  ],
+  "434": [
+   {
+    "span": "diazonium salt solution",
+    "kind": "generic"
+   },
+   {
+    "span": "CH3SNa",
+    "kind": "specific"
+   },
+   {
+    "span": "NaOH",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrochloric acid",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (VI)",
+    "kind": "specific"
+   }
+  ],
+  "435": [
+   {
+    "span": "acetonitrile",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "formic acid",
+    "kind": "specific"
+   }
+  ],
+  "436": [
+   {
+    "span": "acetonitrile",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "formic acid",
+    "kind": "specific"
+   }
+  ],
+  "437": [
+   {
+    "span": "CDCl3",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (VI)",
+    "kind": "specific"
+   }
+  ],
+  "438": [
+   {
+    "span": "CDCl3",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (VI)",
+    "kind": "specific"
+   }
+  ],
+  "439": [
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   }
+  ],
+  "440": [
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   }
+  ],
+  "441": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "442": [],
+  "443": [
+   {
+    "span": "compound of formula (VI)",
+    "kind": "specific"
+   },
+   {
+    "span": "dichloromethane",
+    "kind": "specific"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "NaOH",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "444": [
+   {
+    "span": "compound of formula (VI)",
+    "kind": "specific"
+   },
+   {
+    "span": "dichloromethane",
+    "kind": "specific"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "NaOH",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "445": [],
+  "446": [],
+  "447": [
+   {
+    "span": "CDCl3",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   }
+  ],
+  "448": [
+   {
+    "span": "CDCl3",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   }
+  ],
+  "449": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   }
+  ],
+  "450": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   }
+  ],
+  "451": [
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   }
+  ],
+  "452": [],
+  "453": [
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium tungstate dihydrate",
+    "kind": "specific"
+   },
+   {
+    "span": "glacial acetic acid",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   }
+  ],
+  "454": [
+   {
+    "span": "compound of formula (I)",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium tungstate dihydrate",
+    "kind": "specific"
+   },
+   {
+    "span": "glacial acetic acid",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   }
+  ],
+  "455": [],
+  "456": [],
+  "457": [],
+  "458": [
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   }
+  ],
+  "459": [
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   }
+  ],
+  "460": [],
+  "461": [],
+  "462": [
+   {
+    "span": "CDCl3",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   }
+  ],
+  "463": [
+   {
+    "span": "CDCl3",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   }
+  ],
+  "464": [
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   }
+  ],
+  "465": [
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   }
+  ],
+  "466": [
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   }
+  ],
+  "467": [],
+  "468": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   },
+   {
+    "span": "benzoyl peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "1,2-dichloroethane",
+    "kind": "specific"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "NaOH",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "469": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   },
+   {
+    "span": "benzoyl peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "1,2-dichloroethane",
+    "kind": "specific"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "NaOH",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "470": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   },
+   {
+    "span": "benzoyl peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "carbon tetrachloride",
+    "kind": "specific"
+   },
+   {
+    "span": "ethanol",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   },
+   {
+    "span": "solvent",
+    "kind": "generic"
+   }
+  ],
+  "471": [
+   {
+    "span": "compound of formula (II)",
+    "kind": "specific"
+   },
+   {
+    "span": "benzoyl peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "carbon tetrachloride",
+    "kind": "specific"
+   },
+   {
+    "span": "ethanol",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   },
+   {
+    "span": "solvent",
+    "kind": "generic"
+   }
+  ],
+  "472": [],
+  "473": [],
+  "474": [
+   {
+    "span": "CDCl3",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   }
+  ],
+  "475": [
+   {
+    "span": "CDCl3",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   }
+  ],
+  "476": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   }
+  ],
+  "477": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   }
+  ],
+  "478": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "479": [],
+  "480": [],
+  "481": [],
+  "482": [],
+  "483": [
+   {
+    "span": "sodium hydride",
+    "kind": "specific"
+   },
+   {
+    "span": "anhydrous tetrahydrofuran",
+    "kind": "specific"
+   },
+   {
+    "span": "trifluoroethanol",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "saturated brine",
+    "kind": "specific"
+   },
+   {
+    "span": "methanol",
+    "kind": "specific"
+   },
+   {
+    "span": "ethanol",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "484": [
+   {
+    "span": "sodium hydride",
+    "kind": "specific"
+   },
+   {
+    "span": "anhydrous tetrahydrofuran",
+    "kind": "specific"
+   },
+   {
+    "span": "trifluoroethanol",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (III)",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "saturated brine",
+    "kind": "specific"
+   },
+   {
+    "span": "methanol",
+    "kind": "specific"
+   },
+   {
+    "span": "ethanol",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "485": [
+   {
+    "span": "acetonitrile",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "formic acid",
+    "kind": "specific"
+   }
+  ],
+  "486": [
+   {
+    "span": "acetonitrile",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "formic acid",
+    "kind": "specific"
+   }
+  ],
+  "487": [
+   {
+    "span": "DMSO",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   }
+  ],
+  "488": [
+   {
+    "span": "DMSO",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   }
+  ],
+  "489": [
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   }
+  ],
+  "490": [
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   }
+  ],
+  "491": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "492": [],
+  "493": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylamine",
+    "kind": "specific"
+   },
+   {
+    "span": "PdCl₂",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-bis(diphenylphosphino)butane",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "nitrogen",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   },
+   {
+    "span": "methanol",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   },
+   {
+    "span": "a white solid",
+    "kind": "generic"
+   }
+  ],
+  "494": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylamine",
+    "kind": "specific"
+   },
+   {
+    "span": "PdCl₂",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-bis(diphenylphosphino)butane",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "nitrogen",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   },
+   {
+    "span": "methanol",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   },
+   {
+    "span": "a white solid",
+    "kind": "generic"
+   }
+  ],
+  "495": [],
+  "496": [],
+  "497": [
+   {
+    "span": "DMSO",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   }
+  ],
+  "498": [
+   {
+    "span": "DMSO",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   }
+  ],
+  "499": [
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   }
+  ],
+  "500": [
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   }
+  ],
+  "501": [],
+  "502": [],
+  "503": [],
+  "504": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "505": [],
+  "506": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylamine",
+    "kind": "specific"
+   },
+   {
+    "span": "PdCl2",
+    "kind": "specific"
+   },
+   {
+    "span": "1,3-bis(diphenylphosphino)propane",
+    "kind": "specific"
+   },
+   {
+    "span": "tetrahydrofuran",
+    "kind": "specific"
+   },
+   {
+    "span": "nitrogen",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   },
+   {
+    "span": "methanol",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   },
+   {
+    "span": "a white solid",
+    "kind": "generic"
+   }
+  ],
+  "507": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylamine",
+    "kind": "specific"
+   },
+   {
+    "span": "PdCl2",
+    "kind": "specific"
+   },
+   {
+    "span": "1,3-bis(diphenylphosphino)propane",
+    "kind": "specific"
+   },
+   {
+    "span": "tetrahydrofuran",
+    "kind": "specific"
+   },
+   {
+    "span": "nitrogen",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   },
+   {
+    "span": "methanol",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   },
+   {
+    "span": "a white solid",
+    "kind": "generic"
+   }
+  ],
+  "508": [
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   }
+  ],
+  "509": [
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   }
+  ],
+  "510": [
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "511": [],
+  "512": [
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "thionyl chloride",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (VII)",
+    "kind": "specific"
+   },
+   {
+    "span": "1,3-cyclohexanedione",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylamine",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (V III)",
+    "kind": "specific"
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "513": [
+   {
+    "span": "compound of formula (V)",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "thionyl chloride",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (VII)",
+    "kind": "specific"
+   },
+   {
+    "span": "1,3-cyclohexanedione",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylamine",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (V III)",
+    "kind": "specific"
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "514": [
+   {
+    "span": "compound of formula (VIII)",
+    "kind": "specific"
+   },
+   {
+    "span": "acetone cyanohydrin",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrochloric acid",
+    "kind": "specific"
+   },
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "the solid",
+    "kind": "generic"
+   }
+  ],
+  "515": [
+   {
+    "span": "compound of formula (VIII)",
+    "kind": "specific"
+   },
+   {
+    "span": "acetone cyanohydrin",
+    "kind": "specific"
+   },
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrochloric acid",
+    "kind": "specific"
+   },
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "the solid",
+    "kind": "generic"
+   }
+  ],
+  "516": [],
+  "517": [],
+  "518": [
+   {
+    "span": "the ester intermediate of formula (VIII)",
+    "kind": "specific"
+   }
+  ],
+  "519": [
+   {
+    "span": "the ester intermediate of formula (VIII)",
+    "kind": "specific"
+   }
+  ],
+  "520": [],
+  "521": [],
+  "522": [],
+  "523": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "524": [],
+  "525": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "1,3-cyclohexanedione",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylamine",
+    "kind": "specific"
+   },
+   {
+    "span": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride",
+    "kind": "specific"
+   },
+   {
+    "span": "dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "nitrogen",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   },
+   {
+    "span": "ethanol",
+    "kind": "specific"
+   },
+   {
+    "span": "(VIII) ester compound",
+    "kind": "specific"
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "526": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "1,3-cyclohexanedione",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylamine",
+    "kind": "specific"
+   },
+   {
+    "span": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride",
+    "kind": "specific"
+   },
+   {
+    "span": "dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "nitrogen",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   },
+   {
+    "span": "ethanol",
+    "kind": "specific"
+   },
+   {
+    "span": "(VIII) ester compound",
+    "kind": "specific"
+   },
+   {
+    "span": "the solvent",
+    "kind": "generic"
+   }
+  ],
+  "527": [
+   {
+    "span": "ethylene glycol diethyl ether",
+    "kind": "specific"
+   },
+   {
+    "span": "(VIII) ester compound",
+    "kind": "specific"
+   },
+   {
+    "span": "The solvent",
+    "kind": "generic"
+   }
+  ],
+  "528": [
+   {
+    "span": "ethylene glycol diethyl ether",
+    "kind": "specific"
+   },
+   {
+    "span": "(VIII) ester compound",
+    "kind": "specific"
+   },
+   {
+    "span": "The solvent",
+    "kind": "generic"
+   }
+  ],
+  "529": [],
+  "530": [],
+  "531": [
+   {
+    "span": "DMSO",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (VIII)",
+    "kind": "specific"
+   }
+  ],
+  "532": [
+   {
+    "span": "DMSO",
+    "kind": "specific"
+   },
+   {
+    "span": "compound of formula (VIII)",
+    "kind": "specific"
+   }
+  ],
+  "533": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "534": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "535": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "536": [],
+  "537": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylamine",
+    "kind": "specific"
+   },
+   {
+    "span": "PdCl2",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-bis(diphenylphosphino)butane",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "nitrogen",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   },
+   {
+    "span": "acetone cyanohydrin",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylamine hydrobromide",
+    "kind": "specific"
+   },
+   {
+    "span": "methanol",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium hydroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "a white solid",
+    "kind": "generic"
+   }
+  ],
+  "538": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylamine",
+    "kind": "specific"
+   },
+   {
+    "span": "PdCl2",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-bis(diphenylphosphino)butane",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "nitrogen",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   },
+   {
+    "span": "acetone cyanohydrin",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylamine hydrobromide",
+    "kind": "specific"
+   },
+   {
+    "span": "methanol",
+    "kind": "specific"
+   },
+   {
+    "span": "sodium hydroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "a white solid",
+    "kind": "generic"
+   }
+  ],
+  "539": [],
+  "540": [],
+  "541": [],
+  "542": [
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   }
+  ],
+  "543": [
+   {
+    "span": "water",
+    "kind": "specific"
+   },
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   }
+  ],
+  "544": [
+   {
+    "span": "DMSO",
+    "kind": "specific"
+   },
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   }
+  ],
+  "545": [
+   {
+    "span": "DMSO",
+    "kind": "specific"
+   },
+   {
+    "span": "tembotrione",
+    "kind": "specific",
+    "note": "re-pointed: the reader copied the vision pass's English for 环磺酮, which was corrected to tembotrione during the run. Same substance, same line."
+   }
+  ],
+  "546": [],
+  "547": [],
+  "548": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "1,3-cyclohexanedione",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylamine",
+    "kind": "specific"
+   },
+   {
+    "span": "PdCl₂",
+    "kind": "specific"
+   },
+   {
+    "span": "2-dicyclohexylphosphino-2',6'-dimethoxybiphenyl",
+    "kind": "specific"
+   },
+   {
+    "span": "4,5-bis(diphenylphosphino)-9,9-dimethylxanthene",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "nitrogen",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   }
+  ],
+  "549": [
+   {
+    "span": "compound of formula (IV)",
+    "kind": "specific"
+   },
+   {
+    "span": "1,3-cyclohexanedione",
+    "kind": "specific"
+   },
+   {
+    "span": "triethylamine",
+    "kind": "specific"
+   },
+   {
+    "span": "PdCl₂",
+    "kind": "specific"
+   },
+   {
+    "span": "2-dicyclohexylphosphino-2',6'-dimethoxybiphenyl",
+    "kind": "specific"
+   },
+   {
+    "span": "4,5-bis(diphenylphosphino)-9,9-dimethylxanthene",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "nitrogen",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   }
+  ],
+  "550": [],
+  "551": [],
+  "552": [],
+  "553": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "554": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "555": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "556": [],
+  "557": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "558": [],
+  "559": [],
+  "560": [],
+  "561": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "562": [],
+  "563": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "O=C1CCCC(=O)C1",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "564": [],
+  "565": [
+   {
+    "span": "a noble metal catalyst",
+    "kind": "generic"
+   },
+   {
+    "span": "a phosphine ligand",
+    "kind": "generic"
+   },
+   {
+    "span": "palladium",
+    "kind": "specific"
+   },
+   {
+    "span": "rhodium",
+    "kind": "specific"
+   },
+   {
+    "span": "ruthenium",
+    "kind": "specific"
+   },
+   {
+    "span": "copper",
+    "kind": "specific"
+   },
+   {
+    "span": "cobalt",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium chloride",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium carbonate",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium acetate",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium on carbon",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium trifluoroacetate",
+    "kind": "specific"
+   },
+   {
+    "span": "bis(dibenzylideneacetone)palladium",
+    "kind": "specific"
+   }
+  ],
+  "566": [
+   {
+    "span": "a noble metal catalyst",
+    "kind": "generic"
+   },
+   {
+    "span": "a phosphine ligand",
+    "kind": "generic"
+   },
+   {
+    "span": "palladium",
+    "kind": "specific"
+   },
+   {
+    "span": "rhodium",
+    "kind": "specific"
+   },
+   {
+    "span": "ruthenium",
+    "kind": "specific"
+   },
+   {
+    "span": "copper",
+    "kind": "specific"
+   },
+   {
+    "span": "cobalt",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium chloride",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium carbonate",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium acetate",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium on carbon",
+    "kind": "specific"
+   },
+   {
+    "span": "palladium trifluoroacetate",
+    "kind": "specific"
+   },
+   {
+    "span": "bis(dibenzylideneacetone)palladium",
+    "kind": "specific"
+   }
+  ],
+  "567": [],
+  "568": [],
+  "569": [],
+  "570": [
+   {
+    "span": "The phosphine ligand",
+    "kind": "generic"
+   },
+   {
+    "span": "1,3-(bis(diphenylphosphino))propane",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-bis(diphenylphosphino)butane",
+    "kind": "specific"
+   },
+   {
+    "span": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+    "kind": "specific"
+   }
+  ],
+  "571": [
+   {
+    "span": "The phosphine ligand",
+    "kind": "generic"
+   },
+   {
+    "span": "1,3-(bis(diphenylphosphino))propane",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-bis(diphenylphosphino)butane",
+    "kind": "specific"
+   },
+   {
+    "span": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+    "kind": "specific"
+   }
+  ],
+  "572": [
+   {
+    "span": "the reaction solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "toluene",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "ethylene glycol dimethyl ether",
+    "kind": "specific"
+   },
+   {
+    "span": "ethylene glycol diethyl ether",
+    "kind": "specific"
+   },
+   {
+    "span": "dimethyl sulfoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "tetrahydrofuran",
+    "kind": "specific"
+   },
+   {
+    "span": "N,N-dimethylformamide",
+    "kind": "specific"
+   }
+  ],
+  "573": [
+   {
+    "span": "the reaction solvent",
+    "kind": "generic"
+   },
+   {
+    "span": "toluene",
+    "kind": "specific"
+   },
+   {
+    "span": "1,4-dioxane",
+    "kind": "specific"
+   },
+   {
+    "span": "ethylene glycol dimethyl ether",
+    "kind": "specific"
+   },
+   {
+    "span": "ethylene glycol diethyl ether",
+    "kind": "specific"
+   },
+   {
+    "span": "dimethyl sulfoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "tetrahydrofuran",
+    "kind": "specific"
+   },
+   {
+    "span": "N,N-dimethylformamide",
+    "kind": "specific"
+   }
+  ],
+  "574": [],
+  "575": [],
+  "576": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "577": [],
+  "578": [],
+  "579": [],
+  "580": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "581": [],
+  "582": [],
+  "583": [],
+  "584": [],
+  "585": [
+   {
+    "span": "the brominating reagent",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen bromide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   }
+  ],
+  "586": [
+   {
+    "span": "the brominating reagent",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen bromide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   }
+  ],
+  "587": [
+   {
+    "span": "CF3CH2OM",
+    "kind": "generic"
+   },
+   {
+    "span": "CF3CH2ONa",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OK",
+    "kind": "specific"
+   }
+  ],
+  "588": [
+   {
+    "span": "CF3CH2OM",
+    "kind": "generic"
+   },
+   {
+    "span": "CF3CH2ONa",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OK",
+    "kind": "specific"
+   }
+  ],
+  "589": [
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   }
+  ],
+  "590": [],
+  "591": [
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   }
+  ],
+  "592": [],
+  "593": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "594": [],
+  "595": [],
+  "596": [],
+  "597": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "598": [],
+  "599": [],
+  "600": [],
+  "601": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "602": [],
+  "603": [
+   {
+    "span": "the brominating reagent",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen bromide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OM",
+    "kind": "generic"
+   },
+   {
+    "span": "CF3CH2ONa",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OK",
+    "kind": "specific"
+   }
+  ],
+  "604": [
+   {
+    "span": "the brominating reagent",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen bromide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OM",
+    "kind": "generic"
+   },
+   {
+    "span": "CF3CH2ONa",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OK",
+    "kind": "specific"
+   }
+  ],
+  "605": [],
+  "606": [],
+  "607": [],
+  "608": [],
+  "609": [],
+  "610": [
+   {
+    "span": "the intermediate ester compound",
+    "kind": "generic"
+   }
+  ],
+  "611": [
+   {
+    "span": "the intermediate ester compound",
+    "kind": "generic"
+   }
+  ],
+  "612": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "613": [],
+  "614": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "615": [],
+  "616": [],
+  "617": [],
+  "618": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "619": [],
+  "620": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "O=C1CCCC(=O)C1",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "621": [],
+  "622": [
+   {
+    "span": "the intermediate ester compound",
+    "kind": "generic"
+   }
+  ],
+  "623": [
+   {
+    "span": "the intermediate ester compound",
+    "kind": "generic"
+   }
+  ],
+  "624": [
+   {
+    "span": "A compound of the following formula (A)",
+    "kind": "generic"
+   }
+  ],
+  "625": [
+   {
+    "span": "A compound of the following formula (A)",
+    "kind": "generic"
+   }
+  ],
+  "626": [
+   {
+    "span": "A drawn structure on the page",
+    "kind": "generic"
+   }
+  ],
+  "627": [],
+  "628": [],
+  "629": [],
+  "630": [],
+  "631": [],
+  "632": [],
+  "633": [],
+  "634": [],
+  "635": [],
+  "636": [],
+  "637": [],
+  "638": [],
+  "639": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "640": [],
+  "641": [
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   }
+  ],
+  "642": [],
+  "643": [
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   }
+  ],
+  "644": [],
+  "645": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "646": [],
+  "647": [],
+  "648": [],
+  "649": [
+   {
+    "span": "the compound of formula (A)",
+    "kind": "generic"
+   }
+  ],
+  "650": [
+   {
+    "span": "the compound of formula (A)",
+    "kind": "generic"
+   }
+  ],
+  "651": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "652": [],
+  "653": [
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   },
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   }
+  ],
+  "654": [],
+  "655": [
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   }
+  ],
+  "656": [],
+  "657": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   },
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "658": [],
+  "659": [],
+  "660": [],
+  "661": [],
+  "662": [],
+  "663": [],
+  "664": [
+   {
+    "span": "the brominating reagent",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen bromide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   }
+  ],
+  "665": [
+   {
+    "span": "the brominating reagent",
+    "kind": "generic"
+   },
+   {
+    "span": "bromine",
+    "kind": "specific"
+   },
+   {
+    "span": "N-bromosuccinimide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen bromide",
+    "kind": "specific"
+   },
+   {
+    "span": "hydrogen peroxide",
+    "kind": "specific"
+   }
+  ],
+  "666": [
+   {
+    "span": "CF3CH2OM",
+    "kind": "generic"
+   },
+   {
+    "span": "CF3CH2ONa",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OK",
+    "kind": "specific"
+   }
+  ],
+  "667": [
+   {
+    "span": "CF3CH2OM",
+    "kind": "generic"
+   },
+   {
+    "span": "CF3CH2ONa",
+    "kind": "specific"
+   },
+   {
+    "span": "CF3CH2OK",
+    "kind": "specific"
+   }
+  ],
+  "668": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "the compound of claim 11",
+    "kind": "generic"
+   }
+  ],
+  "669": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "the compound of claim 11",
+    "kind": "generic"
+   }
+  ],
+  "670": [
+   {
+    "span": "the compound of claim 11",
+    "kind": "generic"
+   },
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "671": [
+   {
+    "span": "the compound of claim 11",
+    "kind": "generic"
+   },
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   }
+  ],
+  "672": [],
+  "673": [],
+  "674": [],
+  "675": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "676": [],
+  "677": [
+   {
+    "span": "CSc1cccc(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "678": [],
+  "679": [],
+  "680": [],
+  "681": [],
+  "682": [
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "683": [],
+  "684": [
+   {
+    "span": "CSc1ccc(Br)c(Cl)c1C",
+    "kind": "specific"
+   }
+  ],
+  "685": [],
+  "686": [],
+  "687": [],
+  "688": [],
+  "689": [
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   }
+  ],
+  "690": [],
+  "691": [
+   {
+    "span": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "kind": "specific"
+   }
+  ],
+  "692": [],
+  "693": [],
+  "694": [],
+  "695": [],
+  "696": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   }
+  ],
+  "697": [],
+  "698": [],
+  "699": [],
+  "700": [],
+  "701": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "kind": "specific"
+   }
+  ],
+  "702": [],
+  "703": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "704": [],
+  "705": [],
+  "706": [],
+  "707": [],
+  "708": [
+   {
+    "span": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "709": [],
+  "710": [
+   {
+    "span": "A drawn structure on the page",
+    "kind": "generic"
+   }
+  ],
+  "711": [],
+  "712": [],
+  "713": [],
+  "714": [],
+  "715": [],
+  "716": [],
+  "717": [],
+  "718": [],
+  "719": [],
+  "720": [],
+  "721": [],
+  "722": [
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "723": [],
+  "724": [
+   {
+    "span": "A drawn structure on the page",
+    "kind": "generic"
+   }
+  ],
+  "725": [],
+  "726": [],
+  "727": [],
+  "728": [],
+  "729": [],
+  "730": [],
+  "731": [],
+  "732": [],
+  "733": [],
+  "734": [],
+  "735": [],
+  "736": [
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "737": [],
+  "738": [
+   {
+    "span": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "kind": "specific"
+   }
+  ],
+  "739": [],
+  "740": [],
+  "741": [],
+  "742": [],
+  "743": [],
+  "744": [],
+  "745": [],
+  "746": [],
+  "747": [],
+  "748": [],
+  "749": [],
+  "750": [],
+  "751": [],
+  "752": [
+   {
+    "span": "A drawn structure on the page",
+    "kind": "generic"
+   }
+  ],
+  "753": [],
+  "754": [
+   {
+    "span": "A drawn structure on the page",
+    "kind": "generic"
+   }
+  ],
+  "755": [],
+  "756": [],
+  "757": [],
+  "758": [],
+  "759": [],
+  "760": [],
+  "761": [],
+  "762": [],
+  "763": [],
+  "764": [],
+  "765": [],
+  "766": [],
+  "767": [],
+  "768": [
+   {
+    "span": "A drawn structure",
+    "kind": "generic"
+   }
+  ],
+  "769": [],
+  "770": [],
+  "771": [],
+  "772": [],
+  "773": [],
+  "774": [],
+  "775": [],
+  "776": [],
+  "777": [],
+  "778": [],
+  "779": [],
+  "780": [],
+  "781": [],
+  "782": [],
+  "783": [],
+  "784": [],
+  "785": [],
+  "786": [],
+  "787": [],
+  "788": [],
+  "789": [],
+  "790": [],
+  "791": [],
+  "792": [],
+  "793": [],
+  "794": [],
+  "795": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "trione",
+    "kind": "generic"
+   },
+   {
+    "span": "carbon monoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   }
+  ],
+  "796": [],
+  "797": [
+   {
+    "span": "tembotrione",
+    "kind": "specific"
+   },
+   {
+    "span": "trione",
+    "kind": "generic"
+   },
+   {
+    "span": "carbon monoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   }
+  ],
+  "798": [],
+  "799": [],
+  "800": [],
+  "801": [],
+  "802": [],
+  "803": [],
+  "804": [],
+  "805": [],
+  "806": [],
+  "807": [],
+  "808": [],
+  "809": [],
+  "810": [],
+  "811": [],
+  "812": [],
+  "813": [],
+  "814": [],
+  "815": [],
+  "816": [],
+  "817": [],
+  "818": [],
+  "819": [],
+  "820": [],
+  "821": [],
+  "822": [],
+  "823": [],
+  "824": [],
+  "825": [],
+  "826": [],
+  "827": [],
+  "828": [],
+  "829": [],
+  "830": [],
+  "831": [],
+  "832": [],
+  "833": [],
+  "834": [],
+  "835": [],
+  "836": [],
+  "837": [],
+  "838": [],
+  "839": [],
+  "840": [],
+  "841": [],
+  "842": [],
+  "843": [],
+  "844": [],
+  "845": [],
+  "846": [],
+  "847": [],
+  "848": [],
+  "849": [],
+  "850": [],
+  "851": [],
+  "852": [],
+  "853": [],
+  "854": [],
+  "855": [],
+  "856": [],
+  "857": [],
+  "858": [],
+  "859": [],
+  "860": [],
+  "861": [],
+  "862": [],
+  "863": [],
+  "864": [],
+  "865": [],
+  "866": [],
+  "867": [],
+  "868": [],
+  "869": [],
+  "870": [],
+  "871": [],
+  "872": [],
+  "873": [],
+  "874": [],
+  "875": [],
+  "876": [],
+  "877": [],
+  "878": [],
+  "879": [],
+  "880": [],
+  "881": [],
+  "882": [],
+  "883": [],
+  "884": [],
+  "885": [],
+  "886": [],
+  "887": [],
+  "888": [],
+  "889": [],
+  "890": [],
+  "891": [],
+  "892": [],
+  "893": [],
+  "894": [],
+  "895": [],
+  "896": [],
+  "897": [],
+  "898": [],
+  "899": [],
+  "900": [],
+  "901": [],
+  "902": [],
+  "903": [],
+  "904": [],
+  "905": [],
+  "906": [],
+  "907": [],
+  "908": [],
+  "909": [],
+  "910": [],
+  "911": [],
+  "912": [],
+  "913": [],
+  "914": [],
+  "915": [],
+  "916": [],
+  "917": [],
+  "918": [],
+  "919": [
+   {
+    "span": "tembotrione (huanhuangtong)",
+    "kind": "specific"
+   },
+   {
+    "span": "trione",
+    "kind": "generic"
+   },
+   {
+    "span": "carbon monoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   }
+  ],
+  "920": [
+   {
+    "span": "tembotrione (huanhuangtong)",
+    "kind": "specific"
+   },
+   {
+    "span": "trione",
+    "kind": "generic"
+   },
+   {
+    "span": "carbon monoxide",
+    "kind": "specific"
+   },
+   {
+    "span": "CO",
+    "kind": "specific"
+   }
+  ],
+  "921": [],
+  "922": [],
+  "923": [],
+  "924": [],
+  "925": [],
+  "926": [],
+  "927": [],
+  "928": [],
+  "929": [],
+  "930": [],
+  "931": [],
+  "932": [],
+  "933": [],
+  "934": [],
+  "935": [],
+  "936": [],
+  "937": [],
+  "938": [],
+  "939": [],
+  "940": [],
+  "941": [],
+  "942": [],
+  "943": [],
+  "944": [],
+  "945": [],
+  "946": [],
+  "947": [],
+  "948": [],
+  "949": [],
+  "950": [],
+  "951": [],
+  "952": [],
+  "953": [],
+  "954": [],
+  "955": [],
+  "956": [],
+  "957": [],
+  "958": [],
+  "959": [],
+  "960": [],
+  "961": [],
+  "962": [],
+  "963": [],
+  "964": [],
+  "965": [],
+  "966": [],
+  "967": [],
+  "968": [],
+  "969": [],
+  "970": [],
+  "971": [],
+  "972": [],
+  "973": [],
+  "974": [],
+  "975": [],
+  "976": [],
+  "977": [],
+  "978": [],
+  "979": [],
+  "980": [],
+  "981": [],
+  "982": [],
+  "983": [],
+  "984": [],
+  "985": [],
+  "986": [],
+  "987": [],
+  "988": [],
+  "989": [],
+  "990": [],
+  "991": [],
+  "992": [],
+  "993": [],
+  "994": [],
+  "995": [],
+  "996": [],
+  "997": [],
+  "998": [],
+  "999": [],
+  "1000": [],
+  "1001": [],
+  "1002": [],
+  "1003": [],
+  "1004": [],
+  "1005": [],
+  "1006": [],
+  "1007": [],
+  "1008": [],
+  "1009": [],
+  "1010": [],
+  "1011": [],
+  "1012": [],
+  "1013": [],
+  "1014": [],
+  "1015": [],
+  "1016": [],
+  "1017": [],
+  "1018": [],
+  "1019": [],
+  "1020": [],
+  "1021": [],
+  "1022": [],
+  "1023": [],
+  "1024": [],
+  "1025": [],
+  "1026": [],
+  "1027": [],
+  "1028": [],
+  "1029": [],
+  "1030": [],
+  "1031": [],
+  "1032": [],
+  "1033": [],
+  "1034": [],
+  "1035": [],
+  "1036": [],
+  "1037": [],
+  "1038": [],
+  "1039": [],
+  "1040": [],
+  "1041": [],
+  "1042": [],
+  "1043": [],
+  "1044": [],
+  "1045": [],
+  "1046": [],
+  "1047": [],
+  "1048": [],
+  "1049": [],
+  "1050": [],
+  "1051": [],
+  "1052": [],
+  "1053": [],
+  "1054": [],
+  "1055": [],
+  "1056": [],
+  "1057": [],
+  "1058": [],
+  "1059": [],
+  "1060": [],
+  "1061": [],
+  "1062": [],
+  "1063": [],
+  "1064": [],
+  "1065": [],
+  "1066": [],
+  "1067": [],
+  "1068": [],
+  "1069": [],
+  "1070": [],
+  "1071": [],
+  "1072": [],
+  "1073": [],
+  "1074": [],
+  "1075": [],
+  "1076": [],
+  "1077": [],
+  "1078": [],
+  "1079": [],
+  "1080": [],
+  "1081": [],
+  "1082": [],
+  "1083": [],
+  "1084": [],
+  "1085": [],
+  "1086": [],
+  "1087": [],
+  "1088": [],
+  "1089": [],
+  "1090": [],
+  "1091": [],
+  "1092": [],
+  "1093": [],
+  "1094": [],
+  "1095": [],
+  "1096": [],
+  "1097": [],
+  "1098": [],
+  "1099": [],
+  "1100": [],
+  "1101": [],
+  "1102": [],
+  "1103": [],
+  "1104": [],
+  "1105": [],
+  "1106": [],
+  "1107": [],
+  "1108": [],
+  "1109": [],
+  "1110": [],
+  "1111": [],
+  "1112": [],
+  "1113": [],
+  "1114": [],
+  "1115": [],
+  "1116": [],
+  "1117": [],
+  "1118": [],
+  "1119": [],
+  "1120": [],
+  "1121": [],
+  "1122": []
+ }
+}

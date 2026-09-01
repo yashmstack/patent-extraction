@@ -1,0 +1,63 @@
+{
+ "page": "p31.png",
+ "page_label": "2/10",
+ "doc_part": "description",
+ "header": "2/10 (top centre); WO 2024/109718 (upper left); PCT/CN2023/132821 (upper right)",
+ "footer": "",
+ "paragraphs": [],
+ "drawings": [
+  {
+   "kind": "structure",
+   "between_markers": [],
+   "presented_as": "intermediate_structure",
+   "structures": [
+    {
+     "position_in_drawing": "1st, upper-left inset of the [Figure 3] panel, drawn beside the NMR trace",
+     "core": "benzene",
+     "substituents": [
+      "Cl at the top ring vertex (call it C1)",
+      "Br at the upper-left vertex, ortho to the Cl-bearing carbon (C6)",
+      "CH3 at the upper-right vertex, ortho to the Cl-bearing carbon (C2)",
+      "SCH3 at the lower-right vertex, meta to the Cl-bearing carbon and para to Br (C3)",
+      "H at the lower-left and bottom vertices (C5, C4)"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+     "smiles": "Clc1c(C)c(SC)ccc1Br",
+     "confidence": "medium"
+    }
+   ],
+   "arrows": [],
+   "notes": "Panel labelled [图 3]. It is an NMR spectrum: a single trace with a chemical-shift axis running 9.0 down to 0.0, axis caption 'f1 (ppm)', i.e. a 1H NMR. Visible peaks near ~7.4 and ~7.25 (aromatic) and a very tall peak near ~2.5, with small satellites. No integrals or peak-value labels are printed, so no shift values are transcribed as data. The structure is an inset identifying the sample, not a reaction. Substituent labels read Br, Cl, CH3 and S-CH3; the top label is two characters, a rounded 'C' followed by a tall thin stroke, read as 'Cl' - the scan is degraded there, hence medium confidence on that atom. Positions above are read off the drawing geometry only."
+  },
+  {
+   "kind": "structure",
+   "between_markers": [],
+   "presented_as": "intermediate_structure",
+   "structures": [
+    {
+     "position_in_drawing": "1st, upper-left inset of the [Figure 4] panel, drawn beside the NMR trace",
+     "core": "benzene",
+     "substituents": [
+      "Cl at the top ring vertex (call it C1)",
+      "Br at the upper-left vertex, ortho to the Cl-bearing carbon (C6)",
+      "CH3 at the upper-right vertex, ortho to the Cl-bearing carbon (C2)",
+      "SCH3 at the lower-right vertex, meta to the Cl-bearing carbon and para to Br (C3)",
+      "H at the lower-left and bottom vertices (C5, C4)"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+     "smiles": "Clc1c(C)c(SC)ccc1Br",
+     "confidence": "medium"
+    }
+   ],
+   "arrows": [],
+   "notes": "Panel labelled [图 4]. NMR spectrum with a chemical-shift axis running 170 down to 0, axis caption 'f1 (ppm)', i.e. a 13C NMR. Peaks appear roughly in the 120-140 region (several), a cluster near ~77 (solvent), and two tall peaks near ~20-25. No numeric peak labels are printed. Same inset structure as [图 3], drawn identically."
+  }
+ ],
+ "discrepancies": [],
+ "illegible": [
+  "Top substituent label on both inset structures ([图 3] and [图 4]): a rounded glyph plus a tall thin stroke, most consistent with 'Cl' but the scan is broken up at that size. Read as Cl with medium confidence.",
+  "Chemical-shift axis tick numerals on both spectra are heavily degraded; they are legible only as an approximate scale (9.0-0.0 for [图 3], 170-0 for [图 4]) and individual digits cannot be guaranteed.",
+  "No peak-position or integral annotations are printed on either spectrum, so no shift values are recoverable from this page."
+ ],
+ "page_confidence": "medium"
+}

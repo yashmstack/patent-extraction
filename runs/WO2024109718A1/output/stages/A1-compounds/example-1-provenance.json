@@ -1,0 +1,13 @@
+[
+  { "identifier": "compound of formula (VI)", "source_lines": [426, 433, 437], "quote_zh": "得到式(VI)化合物" },
+  { "identifier": "3-chloro-2-methylaniline", "source_lines": [426, 428], "quote_zh": "滴加3-氯-2-甲基苯胺100g" },
+  { "identifier": "hydrochloric acid", "source_lines": [426, 428, 433], "quote_zh": "在20℃下将5.1％盐酸1165g加入到四口瓶中" },
+  { "identifier": "NaNO2", "source_lines": [426, 428], "quote_zh": "在0℃进一步滴加20％NaNO2水溶液251.41g" },
+  { "identifier": "CH3SNa", "source_lines": [426, 433], "quote_zh": "称量20％CH3SNa水溶液273g" },
+  { "identifier": "NaOH", "source_lines": [433], "quote_zh": "32％NaOH水溶液26.62g" },
+  { "identifier": "重氮盐", "source_lines": [433], "quote_zh": "得到重氮盐溶液" },
+  { "identifier": "acetonitrile", "source_lines": [435], "quote_zh": "流动相为乙腈：水" },
+  { "identifier": "water", "source_lines": [435], "quote_zh": "流动相为乙腈：水" },
+  { "identifier": "formic acid", "source_lines": [435], "quote_zh": "用甲酸调节pH至3.7～4.1" },
+  { "identifier": "CDCl3", "source_lines": [437], "quote_zh": "式(VI)化合物的1HNMR(CDCl3)谱图如图1所示" }
+]

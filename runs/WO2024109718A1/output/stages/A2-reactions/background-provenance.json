@@ -1,0 +1,222 @@
+[
+  {
+    "reaction_id": "Background_Scheme A Step 1",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "原研专利文献DE19846792A1公开了如下方法",
+    "arithmetic_check": "No charge, mass, mole or yield is printed for any arrow of this overview scheme, so there is nothing to check and no mass-balance flag is raised.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, reactions[0] step_id 1 (Cc1c(Cl)cccc1Cl + CH3SNa -> CSc1cccc(Cl)c1C); vision p02 arrow 1st->2nd, reagents_above CH3SNa. No prose procedure exists for this arrow, so there is nothing for the drawing to disagree with."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 2",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "公开了如下方法",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 2, conditions CH3COCl and AlCl3; vision p02 arrow 2nd->3rd has CH3COCl above and AlCl3 below. The drawing and the prose do not conflict because the prose gives no procedure for this arrow."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 3",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "作为环磺酮的制备方法",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 3, condition H2O2; vision p02 arrow 3rd->4th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 4",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "原研专利文献DE19846792A1",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 4, condition NaClO; vision p02 arrow 4th->5th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 5",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "如下方法",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 5, condition CH3OH; vision p02 arrow 5th->6th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 6",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "DE19846792A1公开了如下方法",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 6, condition NBS; vision p02 arrow 6th->7th. The corresponding arrow of the second background scheme carries Br2 instead, which is a difference between two prior-art documents, not a drawing/text conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 7",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "作为环磺酮的制备方法，原研专利文献",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 7, condition CF3CH2ONa; vision p02 arrow 7th->8th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 8",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "环磺酮的制备方法",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 8, condition NaOH; vision p02 arrow 8th->9th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 9",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "原研专利文献DE19846792A1公开",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 9, condition (COCl)2; vision p02 arrow 9th->10th. The corresponding arrow of the second background scheme carries SOCl2 instead."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 10",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "公开了如下方法：",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 10, condition text 'cyclohexane-1,3-dione (drawn as a structure above the arrow, not written as text)'; vision p02 arrow 10th->12th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 11",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "环磺酮",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check. The drawn reactant and product share the molecular formula C17H16ClF3O6S, which is consistent with a rearrangement and not with an added or lost fragment.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 11, empty conditions array; vision p02 arrow 12th->13th with no reagents above or below. The drawn product matches the tembotrione SMILES A1 carries for 环磺酮."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 1",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "目前广泛报道和采用的是如下路线",
+    "arithmetic_check": "No charge, mass, mole or yield is printed for any arrow of this overview scheme, so there is nothing to check and no mass-balance flag is raised.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, reactions[0] step_id 1 (Cc1c(N)cccc1Cl + NaNO2/CH3SNa/HCl -> CSc1cccc(Cl)c1C); vision p03 arrow 1st->2nd, reagents_above NaNO2 and CH3SNa, reagents_below HCl. No prose procedure exists for this arrow, so there is nothing for the drawing to disagree with."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 2",
+    "source_lines": [
+      69,
+      76
+    ],
+    "quote_zh": "目前广泛报道和采用的是如下路线(参见例如200510030163.5号中国专利申请)",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 2, condition CH3COCl only; vision p03 arrow 2nd->3rd has CH3COCl above and nothing below. [0006] on line 76 names 三氯化铝 as the catalyst of this route's F-C reaction, so the prose adds a reagent the arrow omits: reagent_written_not_drawn."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 3",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "如下路线",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 3, condition H2O2; vision p03 arrow 3rd->4th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 4",
+    "source_lines": [
+      69,
+      76
+    ],
+    "quote_zh": "参见例如200510030163.5号中国专利申请",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check. [0006] quantifies nothing either, it only says 大量 (a large amount) of waste water.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 4, condition NaClO; vision p03 arrow 4th->5th. The drawing gives only NaClO; [0006] on line 76 adds the aqueous phase and the two by-products, which extend the record rather than contradicting the arrow, so no drawing_text_conflict is raised."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 5",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "目前广泛报道和采用的",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 5, condition CH3OH; vision p03 arrow 5th->6th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 6",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "采用的是如下路线",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 6, condition Br2; vision p03 arrow 6th->7th. The DE19846792A1 scheme draws NBS on the same transformation; that is a difference between two prior-art routes, not a drawing/text conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 7",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "广泛报道和采用",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 7, condition CF3CH2ONa; vision p03 arrow 7th->8th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 8",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "如下路线(参见例如",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 8, condition NaOH; vision p03 arrow 8th->9th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 9",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "号中国专利申请",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 9, condition SOCl2; vision p03 arrow 9th->10th. The DE19846792A1 scheme draws (COCl)2 on the same transformation."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 10",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "中国专利申请)：",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 10, condition text 'cyclohexane-1,3-dione, drawn as a structure above the arrow'; vision p03 arrow 10th->12th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 11",
+    "source_lines": [
+      69,
+      76
+    ],
+    "quote_zh": "然而，上述方法一共有11步，步骤多",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check. The drawn reactant and product share the molecular formula C17H16ClF3O6S, consistent with a rearrangement. The only number [0006] prints is the step count 11, which equals the number of arrows annotated for this scheme.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 11, empty conditions array; vision p03 arrow 12th->13th with no reagents. The drawn product matches the tembotrione SMILES A1 carries for 环磺酮, and [0006]'s count of 11 steps agrees with the arrow count."
+  }
+]

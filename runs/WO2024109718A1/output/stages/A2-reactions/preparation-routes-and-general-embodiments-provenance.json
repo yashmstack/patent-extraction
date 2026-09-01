@@ -1,0 +1,182 @@
+[
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 1",
+    "source_lines": [
+      246,
+      251
+    ],
+    "quote_zh": "[0056] 在更具体的实施方式中，上述反应如下执行但不限于此：往式(VI)化合物中滴加溴素，反应完成后，用碱液淬灭，依次用碱液和水洗涤，分液，得到式(I)化合物。所述碱液的具体例子包括但不限于NaOH水溶液等。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield or molar ratio is printed for this step. The only numbers printed are the temperature range 10-30 degrees C at line 248, recorded as a range.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 237 (arrow with no reagent) and at line 241 (same arrow carrying Br2), both CSc1cccc(Cl)c1C to CSc1ccc(Br)c(Cl)c1C. Agrees with the prose, which names bromine and gives the compound of formula (I) as product. The same arrow reappears at lines 379, 392 and as step 2 of the consolidated scheme at lines 405/414. No conflict, so no flag."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 2",
+    "source_lines": [
+      252,
+      254
+    ],
+    "quote_zh": "[0059] 作为原料的式(VI)化合物可以参照例如专利文献CN106631941A等中记载的公知方法通过如下反应制备：",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield, temperature, time or ratio is printed for this step at all.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 254, Cc1c(N)cccc1Cl to CSc1cccc(Cl)c1C with NaNO2, CH3SNa and HCl on the arrow. It is the only source of reagents for this step; the prose names none, so the two cannot conflict, but the reagents are drawn and not written. The same arrow is step 1 of the consolidated scheme at lines 405 and 414."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 3",
+    "source_lines": [
+      264,
+      276
+    ],
+    "quote_zh": "[0062] 在更具体的实施方式中，上述反应可以如下执行但不限于此：将式(I)化合物和溶剂以及任选使用的催化剂混合，升温，往混合物中滴加双氧水，反应完成后，降温过滤，水洗，干燥，得到式(II)化合物。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent or yield is printed. The numbers printed are the temperature range 40-100 degrees C with a preferred 70-90 (line 270) and the molar ratio range about 1-5, preferably 2-3 (line 275). Both are ranges, so no charge and no mass balance exists to check; the ratio is held as text.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 258 (arrow with no reagent) and line 262 (same arrow with H2O2), CSc1ccc(Br)c(Cl)c1C to Cc1c(S(C)(=O)=O)ccc(Br)c1Cl. Agrees with the prose, which names hydrogen peroxide as the oxidant. Repeated at lines 381 and 394 and as step 3 of the consolidated scheme at lines 405/414."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 4",
+    "source_lines": [
+      285,
+      294
+    ],
+    "quote_zh": "[0069] 在更具体的实施方式中，上述反应可以如下执行但不限于此：将式(II)化合物和溶剂以及任选使用的引发剂混合，升温，往混合物中滴加溴代试剂。反应完成后，用碱液淬灭，依次用碱液和水洗涤，蒸发除去溶剂，所得固体干燥，得到式(III)化合物。所述碱液的具体例子包括但不限于NaOH水溶液等。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield or molar ratio is printed for this step. The only numbers are the temperature range 40-100 degrees C with a preferred 50-80 at line 293.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 279 (arrow with no reagent) and line 283 (same arrow with 溴代试剂), Cc1c(S(C)(=O)=O)ccc(Br)c1Cl to CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr. Agrees with the prose, and the drawn product confirms that the bromination is on the benzylic methyl and not on the ring. Repeated at lines 386 and 396 and as step 4 of the consolidated scheme at lines 405/414."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 5",
+    "source_lines": [
+      308,
+      313
+    ],
+    "quote_zh": "[0077] 在更具体的实施方式中，上述反应可以如下执行但不限于此：将式(III)化合物和三氟乙醇钠或三氟乙醇钾分别溶于溶剂中，将式(III)化合物的溶液滴加到三氟乙醇钠或三氟乙醇钾溶液中。反应完毕后，加水淬灭，分液，用饱和食盐水洗涤有机层，蒸除溶剂，用甲醇或乙醇重结晶，干燥，得到式(IV)化合物。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield or molar ratio is printed. The only numbers are the addition temperature range -5 to 15 degrees C at line 312.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 297 (arrow with no reagent) and line 304 (same arrow with CF3CH2OM), CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr to CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F. Agrees with the prose, and the drawn product confirms that the aryl bromide is untouched and only the benzylic bromide is displaced. Repeated at lines 388 and 398 and as step 5 of the consolidated scheme at lines 405/414."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 6",
+    "source_lines": [
+      314,
+      315
+    ],
+    "quote_zh": "[0080] 在更具体的实施方式中，三氟乙醇钠或三氟乙醇钾通过使氢化钠或氢化钾、甲醇钠或甲醇钾、氢氧化钠或氢氧化钾与三氟乙醇反应制备。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield, ratio, temperature or time is printed for this step.",
+    "drawing_evidence": "None. No IMAGE_EXTRACT span in lines 235-421 depicts trifluoroethanol or its alkoxide; the drawings show CF3CH2OM only as a reagent label on the step (iv) arrow at lines 304 and 398."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 7",
+    "source_lines": [
+      320,
+      338
+    ],
+    "quote_zh": "[0082] 在更具体的实施方式中，上述(v-1)的反应可以如下执行但不限于此：向高压釜中加入式(IV)化合物、水、缚酸剂、催化剂、配体和第一溶剂，抽真空，氮气置换，通入CO，在80～120℃、优选80～90℃反应10～20h。过滤，蒸除第一溶剂后，加入第二溶剂溶解，调酸至pH为2～3，析出白色固体，过滤，得到式(V)化合物。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield or molar ratio is printed for this step. Every number printed is a range or a target: 80-120 degrees C preferred 80-90 and 10-20 h (line 320), pH 2-3 (line 320), CO pressure about 1-4 MPa (line 335). None of them is a charge, so there is no mass balance and no molar-mass pair to test.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 318, CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F to CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F with H2O and CO on the arrow. Agrees with the prose, which charges water and admits CO. Repeated with the same two reagents at line 373, unlabelled at line 362, and as step 6 of the consolidated scheme at lines 405/414. The drawing shows no catalyst, ligand or base, which the prose supplies; that is the drawing being less detailed, not a disagreement, so no flag is raised."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 8",
+    "source_lines": [
+      339,
+      357
+    ],
+    "quote_zh": "[0090] 在其他实施方式中，本发明的式(IV)化合物可以通过但不限于如下插羰反应直接制备式(VIII)的酯化合物。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield, ratio, temperature or time is printed for this step at all; line 352 delegates every condition to reaction (v-1) at line 320.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 341 and again at line 375, CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F to CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F with CO and a cyclohexane-1,3-dione drawn as a structure on the arrow. The drawing supplies a reactant the prose never names, which is recorded as reagent_drawn_not_written rather than as a conflict, since the prose does not contradict it. This arrow is absent from the consolidated nine-arrow scheme at lines 405 and 414, which routes the compound of formula (IV) to the ester through the acid and the acid chloride instead; that difference between prose and drawing is noted on Scheme Step 6."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 9",
+    "source_lines": [
+      343,
+      350
+    ],
+    "quote_zh": "[0091] 式(V)的羧酸化合物和式(VIII)的酯化合物是环磺酮的重要制备中间体，可以参照例如专利文献DE19846792A1等中公开的已知方法通过如下路线制备环磺酮。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield, ratio, temperature or time is printed. The only formula-level check available is that the drawn ester and the drawn product share the molecular formula C17H16ClF3O6S at line 350, consistent with a rearrangement; it closes.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 350, step_id 3, CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F to CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F, drawn with no reagent on the arrow. The same arrow appears as step 9 of the consolidated scheme at line 414 with 丙酮氰醇 (acetone cyanohydrin) on it, which agrees with the prose at line 348. No conflict."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 1",
+    "source_lines": [
+      409,
+      416
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 1 (and identically at line 416; the same arrow appears without reagent labels at lines 405, 407 and 379-onwards). Agrees with the prose Step 2 and with the standalone drawing at line 254."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 2",
+    "source_lines": [
+      409,
+      416
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 2, reagent Br2. Agrees with the prose Step 1 and with the drawings at lines 241 and 392."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 3",
+    "source_lines": [
+      409,
+      416
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 3, reagent H2O2. Agrees with the prose Step 3 and with the drawings at lines 262 and 394."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 4",
+    "source_lines": [
+      409,
+      418
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 4, reagent 溴代试剂. Agrees with the prose Step 4 and with the drawings at lines 283 and 396; line 418 defines the label."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 5",
+    "source_lines": [
+      409,
+      418
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 5, reagent CF3CH2OM. Agrees with the prose Step 5 and with the drawings at lines 304 and 398; line 418 defines the label."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 6",
+    "source_lines": [
+      409,
+      416
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 6, reagents H2O and CO. Agrees with the prose Step 7 and with the drawings at lines 318 and 373. The direct (IV) to (VIII) arrow drawn at lines 341 and 375 has no counterpart in this nine-arrow scheme."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 7",
+    "source_lines": [
+      409,
+      416
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 7, reagent SOCl2, CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F to CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F. The same arrow appears with no reagent at line 350, step_id 1. No prose counterpart anywhere in the section."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 8",
+    "source_lines": [
+      409,
+      416
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 8, condition text naming cyclohexane-1,3-dione drawn as a structure above the arrow. The same arrow appears with no reagent at line 350, step_id 2. No prose counterpart."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 9",
+    "source_lines": [
+      409,
+      416
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close on charges. The one check the drawing does permit closes: the reactant and product molecular formulae are both C17H16ClF3O6S, consistent with a rearrangement.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 9, reagent 丙酮氰醇 (acetone cyanohydrin). Agrees with the prose at line 348. The same arrow appears with no reagent at line 350, step_id 3."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "reaction_id": "Example 3_Step 1",
+    "source_lines": [
+      453,
+      458
+    ],
+    "quote_zh": "将式(I)化合物146g、二水合钨酸钠1.91g和冰醋酸600mL加入到四口烧瓶中，升温至80℃，滴加23％的双氧水224g，通过高效液相色谱监测反应完成后，停止反",
+    "arithmetic_check": "Stated inputs: 146 g of the formula (I) compound, 1.91 g sodium tungstate dihydrate, 600 mL glacial acetic acid, 224 g of 23％ aqueous hydrogen peroxide. No moles are printed for any input, no isolated product mass is printed and no yield is printed, so there is no stated mass/mole pair to test and no mass balance to close or fail. Nothing is derived: in particular the contained H2O2 mass is not computed from the 23％ and the 224 g. mass_balance_implausible and molar_mass_inconsistent are therefore not raised, on absence of any conflicting printed pair rather than on a check that passed.",
+    "drawing_evidence": "The [IMAGE_EXTRACT: reactions] span on line 451 is the only drawing in this section. Its single arrow takes CSc1ccc(Br)c(Cl)c1C to Cc1c(S(C)(=O)=O)ccc(Br)c1Cl over H2O2, i.e. a methylthio arene to the corresponding methanesulfonyl arene. That agrees with the prose, which oxidises formula (I) to formula (II) with 23％ hydrogen peroxide, and it corroborates the one-step boundary, so no drawing_text_conflict is raised. The arrow carries H2O2 only: the sodium tungstate dihydrate catalyst and the glacial acetic acid solvent that the prose charges are absent from it, which is why reagent_written_not_drawn is flagged. No reagent appears on the arrow that the prose lacks."
+  }
+]

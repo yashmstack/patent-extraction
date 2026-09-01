@@ -1,0 +1,843 @@
+[
+  {
+    "patent_id": "CN106008290A",
+    "reaction_id": "Summary of the Invention_Step 1",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "nucleophilic_substitution",
+    "reaction_class_confidence": "medium",
+    "named_reaction": "Williamson ether synthesis",
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": true,
+    "one_pot_steps": [
+      "nucleophilic substitution of the benzylic bromide of compound I by trifluoroethoxide, installing the trifluoroethoxymethyl group",
+      "cleavage of the methyl ester of compound I to the free carboxylic acid of compound II"
+    ],
+    "conditions": {
+      "temperature": {
+        "type": "range",
+        "value_c": null,
+        "min_c": 0.0,
+        "max_c": 5.0
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": "三氟乙醇钠与化合物I的摩尔比为1.1-1.2:1；MOH/M2CO3与化合物I的摩尔比为1-1.5:1；反应溶剂与化合物I或化合物II的重量比为2-8:1",
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium trifluoroethoxide",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "MOH/M2CO3",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "加入MOH或M2CO3 (added); the text states no order, rate or temperature of addition",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+      "sodium trifluoroethoxide"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "步骤a：以2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯（化合物I）与三氟乙醇钠为反应底物，加入MOH或M2CO3，在反应溶剂中进行反应，获得2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸（化合物II），具体化学反应式如下式（1）所示：",
+    "procedure_summary": "Compound I and sodium trifluoroethoxide are reacted in a reaction solvent with an alkali metal hydroxide or carbonate added, giving the trifluoroethoxymethyl benzoic acid. No workup, isolation or yield is stated.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "a1_missing_compound"
+    ],
+    "tags": [
+      "transformation:etherification",
+      "transformation:hydrolysis",
+      "mechanism:ionic",
+      "named_rxn:williamson_ether_synthesis",
+      "scale:not_specified",
+      "catalyst_class:base",
+      "workup_type:none",
+      "purification:none",
+      "step_role:first_step",
+      "linkage:standalone",
+      "is_one_pot:true"
+    ],
+    "notes": "PROSE step, from the numbered recitation of the route in 发明内容. The document's own marker is 步骤a, not a digit; step_label is normalised to Step 1 so prose steps and scheme arrows stay apart under rule 5f, and the Chinese marker is recorded here. The prose step count is 2 and agrees with A0's estimate of 2; the two further records in this file are the two drawn arrows required by rule 5f and are not a disagreement about the prose. ONE POT, and the reason matters. The prose describes one operation and names one product, but compound I is a methyl ester and compound II is the free acid, and equation (1) writes CH3OH and NaBr as by-products, so two transformations occur under one charge with no workup between them. The text does not state their order, so rule 5's FINAL transformation cannot be identified; reaction_class was therefore taken from the ether-forming substitution, which is the transformation the step exists to perform, and the ester cleavage is kept in one_pot_steps rather than dropped. reaction_class_confidence is medium for that reason alone, not because the chemistry is unclear. CONDITIONS come from the qualifying paragraph [0014] (反应温度为0-5℃，反应时间为2-10小时) and not from the step sentence; procedure_text holds the step sentence verbatim, as in the reference run. time_h is null because the stated time is a range of 2 to 10 hours and no field holds a range. M IS A VARIABLE: [0011] says M is one of the Li, Na and K ions, so the base is recorded exactly as the text prints it, MOH/M2CO3, and no enumerated hydroxide or carbonate is emitted. A1 MISSING COMPOUND: A1 recorded no compound for MOH/M2CO3 at all, although the prose charges it (加入MOH或M2CO3) and [0013] states its molar ratio to compound I. That is a real A1 recall miss and the only reason this record is not complete. SOLVENT: the step says only 反应溶剂. [0019] permits one or more of thirteen solvents for step a or/and step b without saying which, so no solvent compound is recorded and no solvent_class tag is emitted, because the permitted list spans hydrocarbon, aprotic_polar, aprotic_apolar and halogenated classes. This follows the reference run, which recorded no compound for an unspecified permitted solvent list. DRAWING: agrees with this step in every structural and reagent term; see Scheme Step 1, where the check is written out. No drawing_text_conflict is raised. Cross-section linkage is null: the prior-sections reaction registry supplied to this pass was empty, because the sections are being annotated in parallel, so precursor_step is set within this section only and no cross-section link is asserted. cross_reference_unresolved stays false because this section refers to no material from another section."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "reaction_id": "Summary of the Invention_Step 2",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "step_index": 2,
+    "step_label": "Step 2",
+    "reaction_class": "acylation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "range",
+        "value_c": null,
+        "min_c": -10.0,
+        "max_c": 30.0
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": "化合物III与化合物II的摩尔比为1-1.3:1；所述碱催化剂与化合物II的摩尔比为1-3:1；所述缩合剂与化合物II的摩尔比为1-2:1；反应溶剂与化合物I或化合物II的重量比为2-8:1",
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,3-cyclohexanedione",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "condensing agent",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "base catalyst",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tembotrione",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+      "1,3-cyclohexanedione"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "tembotrione",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "步骤b：以步骤a的化合物II与1,3-环己二酮（化合物III）为反应底物，在缩合剂和碱催化剂的作用下，在反应溶剂中进行缩合反应，获得环磺酮（化合物IV），具体化学反应式如下式（2）所示：",
+    "procedure_summary": "The benzoic acid from the preceding step is condensed with cyclohexanedione in a reaction solvent under a condensing agent and a base catalyst, giving tembotrione. No workup, isolation or yield is stated.",
+    "precursor_step": "Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "a1_missing_compound"
+    ],
+    "tags": [
+      "transformation:acylation",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "catalyst_class:base",
+      "workup_type:none",
+      "purification:none",
+      "step_role:final_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "PROSE step, document marker 步骤b. The text calls it a 缩合反应; structurally it is C-acylation of the 1,3-dione at C2 by the activated benzoic acid, so reaction_class is acylation and no named reaction is claimed, since no widely accepted name covers this aroylation. LINKAGE is confirmed by the text itself, 以步骤a的化合物II, an explicit reference back to the product of Step 1, and the identifier matches. CONDITIONS come from [0018] (缩合反应的温度为-10-30℃，反应时间为0.5-12h): the printed range reads as -10 to 30 C, as the EN line confirms. time_h is null because 0.5 to 12 h is a range. REAGENTS AT THE GRANULARITY THE STEP PRINTS: the step sentence names only the classes 缩合剂 and 碱催化剂, and [0016] and [0017] permit one or more of five bases (sodium carbonate, potassium carbonate, calcium hydroxide, triethylamine, pyridine) and one or more of four condensing agents (CDI, HBTU, HOBT, DBU) without saying which. Choosing one would invent a reagent, so the two generic identifiers are recorded and the permitted lists are left here. A1 took the other granularity and recorded all nine permitted species as separate compounds, so the identifiers condensing agent and base catalyst are absent from A1 and a1_missing_compound is raised mechanically under rule 7. It is a join-granularity difference, not a recall miss by A1: the information is present in both artifacts, and a reviewer should reconcile granularity rather than go looking for a compound nobody recorded. SOLVENT: the step says only 反应溶剂. [0019] permits one or more of thirteen solvents for step a or/and step b without saying which, so no solvent compound is recorded and no solvent_class tag is emitted, because the permitted list spans hydrocarbon, aprotic_polar, aprotic_apolar and halogenated classes. This follows the reference run, which recorded no compound for an unspecified permitted solvent list. DRAWING: agrees; see Scheme Step 2. No drawing_text_conflict is raised. Cross-section linkage is null: the prior-sections reaction registry supplied to this pass was empty, because the sections are being annotated in parallel, so precursor_step is set within this section only and no cross-section link is asserted. cross_reference_unresolved stays false because this section refers to no material from another section."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "reaction_id": "Summary of the Invention_Scheme Step 1",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "step_index": 1,
+    "step_label": "Scheme Step 1",
+    "reaction_class": "nucleophilic_substitution",
+    "reaction_class_confidence": "medium",
+    "named_reaction": "Williamson ether synthesis",
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": true,
+    "one_pot_steps": [
+      "nucleophilic substitution of the benzylic bromide of compound I by trifluoroethoxide, installing the trifluoroethoxymethyl group",
+      "cleavage of the methyl ester of compound I to the free carboxylic acid of compound II"
+    ],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium trifluoroethoxide",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "MOH/M2CO3",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "methanol",
+        "role": "byproduct",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium bromide",
+        "role": "byproduct",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+      "sodium trifluoroethoxide"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "",
+    "procedure_summary": "Drawn equation: the benzylic bromide of compound I is displaced by trifluoroethoxide over an alkali metal hydroxide or carbonate and the methyl ester is cleaved, giving compound II with methanol and sodium bromide written as by-products. No procedure accompanies the drawing.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions",
+      "a1_missing_compound"
+    ],
+    "tags": [
+      "transformation:etherification",
+      "transformation:hydrolysis",
+      "mechanism:ionic",
+      "named_rxn:williamson_ether_synthesis",
+      "scale:not_specified",
+      "catalyst_class:base",
+      "workup_type:none",
+      "purification:none",
+      "step_role:first_step",
+      "linkage:standalone",
+      "is_one_pot:true"
+    ],
+    "notes": "SCHEME record, the single arrow of equation (1) at line 98. The scheme belongs to this section, 发明内容 / Summary of the Invention, and it is an overview, not a procedure: it carries connectivity and the arrow reagent but no charges, no conditions and no yields, so no_conditions is raised and scale is not_specified. Its numbering is independent of the prose steps and of any experimental section. ATTRIBUTION, from the evidence on the page: this is the invention's own route, not prior art, and not left open. [0006] at line 93 introduces the numbered steps as 本发明提供了一种环磺酮的制备方法，包括以下步骤, and each drawing is introduced by its own step sentence as the specific chemical equation OF THAT STEP (具体化学反应式如下式（1）所示： at line 95, 具体化学反应式如下式（2）所示： at line 100). The p04 vision read marks both drawings presented_as invention_route, at page_confidence medium, and records that the prior-art route of [0002] is described in prose only with no prior-art scheme drawn on the page. Nothing on the page reads the other way and the vision pass did not mark either scheme unclear, so route_attribution_unclear is not raised. THE MACHINE SPAN UNDER-READS THE DRAWING, and this is the finding to carry forward. The IMAGE_EXTRACT span at line 98 lists one reactant, one condition MOH/M2CO3 and one product, so read from the span alone the scheme would appear not to depict sodium trifluoroethoxide even though the drawn product carries the trifluoroethoxy group, which would look like reagent_written_not_drawn or drawing_text_conflict. The page says otherwise. The p04 vision read of this drawing lists five structures: compound I, the written formula CF3CH2ONa (sodium 2,2,2-trifluoroethoxide, confidence high), compound II, and the written formulae CH3OH and NaBr on the product side, with MOH/M2CO3 above the arrow and nothing below it. Sodium trifluoroethoxide IS drawn, as a written formula rather than a skeletal structure, which is the likely reason the span missed it. No flag is raised for it: raising one would be inventing a defect out of an incomplete machine read. The defect is in the span, and any consumer reading only the span will draw the wrong conclusion here. AGREEMENT WITH THE PROSE, checked term by term: the substrates compound I and sodium trifluoroethoxide agree with the two the prose calls 反应底物 in [0007]; the arrow reagent MOH/M2CO3 agrees with 加入MOH或M2CO3 and with [0013]; the product agrees with compound II. So no drawing_text_conflict and no reagent_drawn_not_written. The one difference is by-products: the drawing writes CH3OH and NaBr, the prose names only compound II. That is the drawing carrying more than the prose rather than the two contradicting, and the p04 vision read lists it as such, so it is noted and not flagged. ATOM BALANCE, as an observation and not a flag: as drawn, C10H10BrClO4S plus CF3CH2ONa going to C11H10ClF3O5S plus CH3OH plus NaBr leaves the left side two hydrogens and one oxygen short. The equation closes only if the water or hydroxide implied by MOH is consumed, which the drawing does not write. Recorded as printed and unrepaired. No flag in the closed list covers an unbalanced drawn equation, and the two mass-related flags need stated masses or moles, of which this section has none. This is independent support for the ester cleavage kept in one_pot_steps. A1 MISSING COMPOUND: MOH/M2CO3, methanol and sodium bromide are all absent from the A1 file for this section. Cross-section linkage is null: the prior-sections reaction registry supplied to this pass was empty, because the sections are being annotated in parallel, so precursor_step is set within this section only and no cross-section link is asserted. cross_reference_unresolved stays false because this section refers to no material from another section."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "reaction_id": "Summary of the Invention_Scheme Step 2",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "step_index": 2,
+    "step_label": "Scheme Step 2",
+    "reaction_class": "acylation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,3-cyclohexanedione",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "condensing agent",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "base catalyst",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tembotrione",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "byproduct",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+      "1,3-cyclohexanedione"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "tembotrione",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "",
+    "procedure_summary": "Drawn equation: the benzoic acid of the preceding arrow and cyclohexanedione are joined over a condensing agent written above the arrow and a base catalyst written below it, giving tembotrione with water written as a by-product. No procedure accompanies the drawing.",
+    "precursor_step": "Scheme Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions",
+      "a1_missing_compound"
+    ],
+    "tags": [
+      "transformation:acylation",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "catalyst_class:base",
+      "workup_type:none",
+      "purification:none",
+      "step_role:final_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "SCHEME record, the single arrow of equation (2) at line 103. It belongs to this section, 发明内容 / Summary of the Invention, and is an overview rather than a procedure, so no_conditions is raised and scale is not_specified. Numbering is independent of the prose steps. ATTRIBUTION, from the evidence on the page: this is the invention's own route, not prior art, and not left open. [0006] at line 93 introduces the numbered steps as 本发明提供了一种环磺酮的制备方法，包括以下步骤, and each drawing is introduced by its own step sentence as the specific chemical equation OF THAT STEP (具体化学反应式如下式（1）所示： at line 95, 具体化学反应式如下式（2）所示： at line 100). The p04 vision read marks both drawings presented_as invention_route, at page_confidence medium, and records that the prior-art route of [0002] is described in prose only with no prior-art scheme drawn on the page. Nothing on the page reads the other way and the vision pass did not mark either scheme unclear, so route_attribution_unclear is not raised. LINKAGE is confirmed by the drawing itself: the product of Scheme Step 1 and the first reactant here are the same structure, with identical SMILES and InChIKey in the two spans, and the page labels both II. AGREEMENT WITH THE PROSE, checked term by term: the substrates compound II and 1,3-cyclohexanedione agree with [0009]; the arrow carries 缩合剂 above and 碱催化剂 below, which is exactly what the prose names and at the same generic granularity, so the drawing adds no specific reagent the prose lacks and withholds none; the product agrees with 环磺酮（化合物IV）. So no drawing_text_conflict, no reagent_drawn_not_written and no reagent_written_not_drawn. The one difference is the drawn by-product H2O, which the prose does not name; that is the drawing carrying more, not a contradiction, and the p04 vision read records it the same way. ATOM BALANCE, as an observation: C11H10ClF3O5S plus C6H8O2 going to C17H16ClF3O6S plus H2O closes exactly, C17H18ClF3O7S on both sides, and the drawn product formula C17H16ClF3O6S is that of tembotrione. Nothing further can be checked: no mass, mole, equivalent or yield figure is stated anywhere in this section. The vision pass puts confidence medium on the drawn product because the C2 attachment point of the dione is not crisply resolved in the scan, while noting that the reading recorded is the only one consistent with the drawing. A1 MISSING COMPOUND: the identifiers condensing agent, base catalyst and water are absent from the A1 file for this section; see Step 2 on the granularity question. Cross-section linkage is null: the prior-sections reaction registry supplied to this pass was empty, because the sections are being annotated in parallel, so precursor_step is set within this section only and no cross-section link is asserted. cross_reference_unresolved stays false because this section refers to no material from another section."
+  }
+]

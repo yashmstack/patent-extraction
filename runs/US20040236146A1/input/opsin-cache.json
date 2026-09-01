@@ -1,0 +1,366 @@
+{
+ "service": "https://opsin.ch.cam.ac.uk/opsin/",
+ "what": "OPSIN's answer for one exact query string. Written so that a re-run needs no network and returns exactly what this run saw.",
+ "answers": {
+  "1,2-dichloroethane": {
+   "status": "SUCCESS",
+   "smiles": "ClCCCl",
+   "message": ""
+  },
+  "2-chloro-3-methyl-4-(ethylsulfonyl)benzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)S(=O)(=O)CC",
+   "message": ""
+  },
+  "2-chloro-3-methyl-4-(methylsulfonyl)benzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-chloro-3-methyl-4-ethylsulfonylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)S(=O)(=O)CC",
+   "message": ""
+  },
+  "2-chloro-3-methyl-4-methylsulfonylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-chloro-3-methyl-4-sulfonylethylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)CC=S(=O)=O",
+   "message": ""
+  },
+  "2-chloro-3-methyl-4-sulfonylmethylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)C=S(=O)=O",
+   "message": ""
+  },
+  "2-chloro-3-methyl4-sulfonylmethylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)C=S(=O)=O",
+   "message": ""
+  },
+  "2-halo-3-methyl-4-alkylsulfonylbenzoic acids": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "2-halo-3-methyl4-alkylsulfonylbenzoic acids": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "3-BROMOMETHYLBENZOIC ACIDS": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic Acid": {
+   "status": "SUCCESS",
+   "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)CC)Cl",
+   "message": ""
+  },
+  "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)CC)Cl",
+   "message": ""
+  },
+  "3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)C)Cl",
+   "message": ""
+  },
+  "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic Acid": {
+   "status": "SUCCESS",
+   "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)C)Cl",
+   "message": ""
+  },
+  "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)C)Cl",
+   "message": ""
+  },
+  "3-bromomethyl-2-chloro4-methylsulfonyl-benzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)C)Cl",
+   "message": ""
+  },
+  "3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)C)Cl",
+   "message": ""
+  },
+  "3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "3-bromomethylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+   "message": ""
+  },
+  "3-bromomethylbenzoic acid of formula II": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "3-bromomethylbenzoic acids": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "3-bromomethylbenzoic acids of the formula II": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "3-methylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "CC=1C=C(C(=O)O)C=CC1",
+   "message": ""
+  },
+  "3-methylbenzoic acid of formula I": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "3-methylbenzoic acids": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "3-methylbenzoic acids of the formula I": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "Bromomethyl aromatics": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "N-bromosuccimide": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "N-bromosuccinimide": {
+   "status": "SUCCESS",
+   "smiles": "BrN1C(CCC1=O)=O",
+   "message": ""
+  },
+  "NBS": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "a radical initiator": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "acetonitrile": {
+   "status": "SUCCESS",
+   "smiles": "C(C)#N",
+   "message": ""
+  },
+  "additional oxidizing agent": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "an additional oxidizing agent": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "an oxidizing agent": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "azocarboxylic esters": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "azoisobutyroniltrile": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "azoisobutyronitrile": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "azonitriles": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "bromine": {
+   "status": "SUCCESS",
+   "smiles": "[Br]",
+   "message": ""
+  },
+  "bromomethyl aromatics": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "butyl acetate": {
+   "status": "SUCCESS",
+   "smiles": "C(C)(=O)OCCCC",
+   "message": ""
+  },
+  "carbon tetrachloride": {
+   "status": "SUCCESS",
+   "smiles": "C(Cl)(Cl)(Cl)Cl",
+   "message": ""
+  },
+  "chlorobenzene": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=CC=CC=C1",
+   "message": ""
+  },
+  "chloroform": {
+   "status": "SUCCESS",
+   "smiles": "C(Cl)(Cl)Cl",
+   "message": ""
+  },
+  "compound of the formula I": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "compound of the formula II": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "compounds of the formula II": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "compounds of the formulae I": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "compounds of the formulae II": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "diaroyl peroxides": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "dibenzoyl peroxide": {
+   "status": "SUCCESS",
+   "smiles": "C(C1=CC=CC=C1)(=O)OOC(C1=CC=CC=C1)=O",
+   "message": ""
+  },
+  "diethyl ether": {
+   "status": "SUCCESS",
+   "smiles": "C(C)OCC",
+   "message": ""
+  },
+  "elemental bromine": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "ethyl acetate": {
+   "status": "SUCCESS",
+   "smiles": "C(C)(=O)OCC",
+   "message": ""
+  },
+  "halogenated hydrocarbons": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "heptane": {
+   "status": "SUCCESS",
+   "smiles": "CCCCCCC",
+   "message": ""
+  },
+  "methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)OC)C=CC(=C1C)S(=O)(=O)C",
+   "message": ""
+  },
+  "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate": {
+   "status": "SUCCESS",
+   "smiles": "BrCC=1C(=C(C(=O)OC)C=CC1S(=O)(=O)C)Cl",
+   "message": ""
+  },
+  "methyl aromatics": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "methylene chloride": {
+   "status": "SUCCESS",
+   "smiles": "C(Cl)Cl",
+   "message": ""
+  },
+  "oxidizing agent": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "radical initiator": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "radical initiators": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "sodium bisulfate": {
+   "status": "SUCCESS",
+   "smiles": "S([O-])(O)(=O)=O.[Na+]",
+   "message": ""
+  },
+  "sodium bisulfite": {
+   "status": "SUCCESS",
+   "smiles": "S([O-])(O)=O.[Na+]",
+   "message": ""
+  },
+  "substituted benzyl bromides": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "the radical initiator": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "water": {
+   "status": "SUCCESS",
+   "smiles": "O",
+   "message": ""
+  }
+ }
+}

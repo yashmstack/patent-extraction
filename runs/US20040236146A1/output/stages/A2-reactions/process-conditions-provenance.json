@@ -1,0 +1,22 @@
+[
+  {
+    "reaction_id": "Process Conditions_Step 1",
+    "source_lines": [
+      79,
+      98
+    ],
+    "quote_zh": "[0016] In process variant A), it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent, and then to heat gradually. The reaction may optionally be accelerated by adding a little bromine. Preference is given to using NBS in excess.",
+    "arithmetic_check": "Nothing to check. The section states no quantity of any kind: no charge, no mass, no volume, no mole count, no yield and no purity. The only stoichiometric statement is qualitative, an excess, recorded in molar_ratio_text, and an excess with no number cannot be balanced against anything. No mass balance, no molar mass and no yield reconciliation is possible or attempted here. No quantity attaches to the solvents either: [0014] names chlorobenzene and acetonitrile as advantageous for variant A but gives no volume, no ratio and no concentration for either, and line 98 names ethyl acetate and butyl acetate for the recrystallization with no volume. They are on the record as named substances with an empty quantity, which is what the section supports.",
+    "drawing_evidence": "The section spans lines 79 to 99 and contains no IMAGE_EXTRACT span at all. The nearest spans are at lines 61, 65 and 102, outside it, and each is a single Markush structure of formula I or formula II with variable R1 and R2 carrying an empty molecules list, so they support nothing. This patent contains no drawn reaction scheme at all, so drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear have no subject on this record."
+  },
+  {
+    "reaction_id": "Process Conditions_Step 2",
+    "source_lines": [
+      79,
+      98
+    ],
+    "quote_zh": "[0017] In process variant B), it is appropriate to initially charge a compound of the formula I in solvent and then, after heating under irradiation with a photolamp, to add bromine dropwise. Preference is given to using bromine in excess.",
+    "arithmetic_check": "Nothing to check. The section states no quantity of any kind: no charge, no mass, no volume, no mole count, no yield and no purity. The only stoichiometric statement is qualitative, an excess, recorded in molar_ratio_text, and an excess with no number cannot be balanced against anything. No mass balance, no molar mass and no yield reconciliation is possible or attempted here. No quantity attaches to the solvents either: [0014] names chlorobenzene, methylene chloride and 1,2-dichloroethane as advantageous for variant B but gives no volume, no ratio and no concentration for any of them, and line 98 names ethyl acetate and butyl acetate for the recrystallization with no volume. They are on the record as named substances with an empty quantity, which is what the section supports.",
+    "drawing_evidence": "The section spans lines 79 to 99 and contains no IMAGE_EXTRACT span at all. The nearest spans are at lines 61, 65 and 102, outside it, and each is a single Markush structure of formula I or formula II with variable R1 and R2 carrying an empty molecules list, so they support nothing. This patent contains no drawn reaction scheme at all, so drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear have no subject on this record."
+  }
+]

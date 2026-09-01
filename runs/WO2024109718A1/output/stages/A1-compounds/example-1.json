@@ -1,0 +1,434 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "compound of formula (VI)",
+    "identifier_type": "local_label",
+    "aliases": [
+      "式(VI)化合物",
+      "CSc1cccc(Cl)c1C"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Example 1",
+    "section_type": "experimental_intermediate",
+    "is_section_product": true,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": {
+      "h1": null,
+      "c13": null,
+      "raw_text": "式(VI)化合物的1HNMR(CDCl3)谱图如图1所示，13CNMR(CDCl3)谱图如图2所示。",
+      "solvent": "CDCl3",
+      "frequency_mhz": null
+    },
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [
+      {
+        "method": "hplc",
+        "value": null,
+        "unit": null,
+        "conditions": "in-process monitoring of the coupling of the diazonium salt with aqueous CH3SNa",
+        "raw_text": "通过高效液相色谱监测反应"
+      },
+      {
+        "method": "hplc",
+        "value": null,
+        "unit": null,
+        "conditions": "Kromasil C18 reversed-phase column, acetonitrile:water (pH 3.7 to 4.1 with formic acid) 80:20 (V:V), 1.0 mL/min, 30 degrees C, 210 nm, 5 microlitre injection",
+        "raw_text": "高效液相色谱条件：Kromasil的C18反相色谱柱，流动相为乙腈：水(用甲酸调节pH至3.7～4.1)＝80：20(V：V)，流速1.0mL/min，柱温30℃，检测波长210nm，进样体积5μL。"
+      },
+      {
+        "method": "nmr",
+        "value": null,
+        "unit": null,
+        "conditions": "1H and 13C spectra reported only as Figures 1 and 2; no shift data printed",
+        "raw_text": "式(VI)化合物的1HNMR(CDCl3)谱图如图1所示，13CNMR(CDCl3)谱图如图2所示。"
+      }
+    ],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:aryl_sulfide",
+      "functional_group:thioether",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Section product, isolated by layer separation and distillation. The prose never names it beyond the label, so it is left unresolved; the SMILES alias is the product of the reaction scheme drawn immediately before the step and matches an aryl methyl sulfide bearing chloro and methyl. No mass, yield or melting point is printed."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "3-chloro-2-methylaniline",
+    "identifier_type": "iupac",
+    "aliases": [
+      "3-氯-2-甲基苯胺",
+      "Cc1c(N)cccc1Cl"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_intermediate",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 100.0,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:aniline",
+      "functional_group:amine",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Carbon skeleton source, diazotised in situ. SMILES alias taken from the reactant of the scheme drawn before the step."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "hydrochloric acid",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "盐酸",
+      "HCl"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_intermediate",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "acid",
+    "quantity": {
+      "mass_g": 1165.0,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:acid",
+      "hazard:corrosive"
+    ],
+    "notes": "Merged across two uses: 1165 g of 5.1% hydrochloric acid charged for the diazotisation, and hydrochloric acid again in the workup to adjust to pH 2 to 3 with no quantity printed. The mass recorded is the mass of the 5.1% solution as printed. Also named as HCl in the drawn scheme conditions."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "NaNO2",
+    "identifier_type": "formula",
+    "aliases": [
+      "sodium nitrite"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_intermediate",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": 251.41,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Diazotising agent. The printed 251.41 g is the mass of the 20% aqueous solution, not of NaNO2; it is transcribed as printed. Also named in the drawn scheme conditions. The patent charges this as a 20% aqueous solution; the strength is recorded here and in the quantity note rather than as an alias, because a solution of a substance is not another name for it."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CH3SNa",
+    "identifier_type": "formula",
+    "aliases": [
+      "sodium methanethiolate"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_intermediate",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": 273.0,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:thiolate"
+    ],
+    "notes": "Sulfur nucleophile for the diazonium displacement. The printed 273 g is the mass of the 20% aqueous solution, not of CH3SNa. Also named in the drawn scheme conditions. The patent charges this as a 20% aqueous solution; the strength is recorded here and in the quantity note rather than as an alias, because a solution of a substance is not another name for it."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "NaOH",
+    "identifier_type": "formula",
+    "aliases": [
+      "sodium hydroxide"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_intermediate",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": 26.62,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "hazard:corrosive"
+    ],
+    "notes": "Charged with the CH3SNa solution in the receiving flask. The printed 26.62 g is the mass of the 32% aqueous solution, not of NaOH. The patent charges this as a 32% aqueous solution; the strength is recorded here and in the quantity note rather than as an alias, because a solution of a substance is not another name for it."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "重氮盐",
+    "identifier_type": "other",
+    "aliases": [
+      "diazonium salt"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Example 1",
+    "section_type": "experimental_intermediate",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate"
+    ],
+    "notes": "In-situ intermediate, obtained as a solution from the aniline and NaNO2 and then added to the CH3SNa flask. The text names only the compound class, not a specific salt, so it is left unresolved."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "acetonitrile",
+    "identifier_type": "iupac",
+    "aliases": [
+      "乙腈"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_intermediate",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:nitrile",
+      "functional_group:nitrile"
+    ],
+    "notes": "HPLC mobile phase component, 80 parts by volume. Not a reaction solvent."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "water",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "水"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_intermediate",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "HPLC mobile phase component, 20 parts by volume. Water is also the medium of the aqueous NaNO2, CH3SNa and NaOH solutions, but is named as a compound only in the mobile phase."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "formic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "甲酸"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_intermediate",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "acid",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:carboxylic_acid",
+      "functional_group:carboxylic_acid"
+    ],
+    "notes": "Used only to adjust the HPLC mobile phase to pH 3.7 to 4.1, not in the reaction."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CDCl3",
+    "identifier_type": "formula",
+    "aliases": [
+      "chloroform-d",
+      "deuterated chloroform"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_intermediate",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:chloroalkane",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "NMR solvent for the 1H and 13C spectra of the compound of formula (VI)."
+  }
+]

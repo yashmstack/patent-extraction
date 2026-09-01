@@ -1,0 +1,251 @@
+{
+  "artifact": "reactions.json",
+  "records_audited": 13,
+  "findings": [
+    {
+      "check": "recall",
+      "severity": "major",
+      "record": "Process Conditions_Step 1",
+      "field": "compounds",
+      "problem": "Not one of the six solvents [0014] names is carried as a compound on either Process Conditions record, although both records emit solvent_class tags derived from those very solvents and the parallel Claims records do carry their claimed solvents with role solvent.",
+      "source_line": 83,
+      "quote": "It has been found that the solvents chlorobenzene and acetonitrile are advantageous for process variant A), and the solvents chlorobenzene, methylene chloride and 1,2-dichloroethane for process variant B).",
+      "artifact_says": "compounds[] holds only compound of the formula I, N-bromosuccinimide, radical initiator, bromine and compound of the formula II; tags hold solvent_class:halogenated and solvent_class:aprotic_polar",
+      "should_be": "Add chlorobenzene and acetonitrile with role solvent to Process Conditions_Step 1 and chlorobenzene, methylene chloride and 1,2-dichloroethane to Step 2, the way Claims_Step 1 and Claims_Step 2 already carry the equally alternative solvents of claims 9, 10, 15 and 16. A solvent_class tag with no solvent behind it asserts a class the record cannot evidence.",
+      "confidence": "medium"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "Process Conditions_Step 1",
+      "field": "compounds",
+      "problem": "The two initiators the section names, and the three initiator classes above them, appear on no Process Conditions record, although Claims_Step 1 carries the identical two names when claim 7 lists them.",
+      "source_line": 79,
+      "quote": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide.",
+      "artifact_says": "compounds[] holds the class term radical initiator only",
+      "should_be": "Carry azoisobutyronitrile and dibenzoyl peroxide with role reagent alongside the class term, as Claims_Step 1 does. A1 already holds both against this section, so the two artifacts currently disagree about what the section contains.",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "Process Conditions_Step 1",
+      "field": "compounds",
+      "problem": "The two recrystallisation solvents survive only inside the free-text purification string and are on no compounds[] entry, so no structured consumer can see them.",
+      "source_line": 98,
+      "quote": "In both cases, the reaction product is washed and, if necessary, further purified by recrystallization, for example from ethyl acetate or butyl acetate.",
+      "artifact_says": "purification: \"recrystallization if necessary, for example from ethyl acetate or butyl acetate\"",
+      "should_be": "Add ethyl acetate and butyl acetate with role solvent, as Example 2_Step 1 does for its own isolation solvents diethyl ether and heptane.",
+      "confidence": "medium"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "Example 2_Step 1",
+      "field": "tags",
+      "problem": "The melting point printed for this product is recorded nowhere on the record, while the melting point printed for Example 1's product is tagged analytics:melting_point.",
+      "source_line": 142,
+      "quote": "[0034] Purity: 88% (HPLC) Melting point: 103° C.",
+      "artifact_says": "tags carry analytics:hplc but not analytics:melting_point",
+      "should_be": "Add analytics:melting_point to Example 2_Step 1's tags. The schema has no melting point field, so the tag is the only carrier and its absence makes the two examples look different when they are not.",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "Claims_Step 2",
+      "field": "conditions.light_source.type",
+      "problem": "One light source is encoded three different ways across the artifact, and two records that read the identical printed word photolamp disagree with each other.",
+      "source_line": 175,
+      "quote": "with elemental bromine and irradiation with a photolamp, where, in formulae I and II R1 is fluorine, chlorine or bromine, and R2 is (C1-C4)alkyl.",
+      "artifact_says": "Claims_Step 2 \"other\"; Process Conditions_Step 2 and Summary of the Invention_Step 2 \"photolamp\"; Example 1_Step 2 \"lamp\"",
+      "should_be": "Pick one value and use it on all four records. Claims_Step 2's own notes state the closed list is LED, UV, mercury_lamp, sunlight, tungsten, fluorescent, other, in which case other is the only permitted value and photolamp and lamp are outside the list; if that list is not the governing one, then other is the value that discards information the page prints.",
+      "confidence": "high"
+    },
+    {
+      "check": "fidelity",
+      "severity": "minor",
+      "record": "Claims_Step 2",
+      "field": "conditions",
+      "problem": "The record asserts a 70 to 100 C reaction temperature and reflux heating together, but the two come from dependent claims on different chains and no claimed embodiment holds both, since claim 18 hangs off claim 16 and so means the reflux of methylene chloride at about 40 C.",
+      "source_line": 189,
+      "quote": "18. The process as claimed in claim 16, wherein the brominating is carried out at the reflux temperature of the solvent.",
+      "artifact_says": "temperature {type: range, min_c: 70.0, max_c: 100.0} and heating_method \"reflux\" on the same record",
+      "should_be": "Keep the claim 17 range as the temperature and drop heating_method, or keep both and say in a structured field rather than only in notes that they are alternative embodiments. As it stands a consumer reading conditions alone gets a condition set the patent never claims.",
+      "confidence": "medium"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "Example 2_Step 1",
+      "field": "compounds[dibenzoyl peroxide].quantity.mass_g",
+      "problem": "2.8 is a total the patent never prints; it is this pass's arithmetic on the printed 0.7 g and the printed count of portions, sitting in a numeric field alongside numbers that are all quoted from the page.",
+      "source_line": 140,
+      "quote": "At room temperature, 17.6 g of N-bromosuccinimide and 0.7 g of dibenzoyl peroxide were added and the mixture was subsequently heated to reflux. After in each case 1 h, further dibenzoyl peroxide was added in 3 portions each of 0.7 g",
+      "artifact_says": "mass_g: 2.8",
+      "should_be": "Either hold the printed 0.7 g and leave the total to addition_profile, or keep 2.8 and mark it derived. The record's own notes concede the patent never prints 2.8, which makes the field the one place in the artifact where a computed number is indistinguishable from a quoted one.",
+      "confidence": "medium"
+    },
+    {
+      "check": "fidelity",
+      "severity": "minor",
+      "record": "Example 1_Step 1",
+      "field": "compounds[sodium bisulfite].quantity.volume_ml",
+      "problem": "100 ml is the volume of a 2% solution, not of sodium bisulfite, so the numeric field attributes a solution volume to the solute.",
+      "source_line": 122,
+      "quote": "After the reaction mixture had been cooled, 100 ml of a 2% sodium bisulfite solution and 400 ml of water were added in succession and stirred well.",
+      "artifact_says": "compounds[sodium bisulfite].quantity.volume_ml: 100.0",
+      "should_be": "Leave the quantity null and keep the 100 ml of 2% solution in addition_profile and workup.quenching_agent where it already is. The same mis-attribution stands on Example 2_Step 1, which also gives sodium bisulfite volume_ml 100.",
+      "confidence": "medium"
+    },
+    {
+      "check": "drawings",
+      "severity": "minor",
+      "record": "Claims_Step 1",
+      "field": null,
+      "problem": "Claim 6 does have two drawings on the page, one after each of its two formula references, but the enriched markdown hoists both above the start of the claims and the provenance for this record consequently states the opposite.",
+      "source_line": 148,
+      "quote": "None 1-5 (Canceled)",
+      "artifact_says": "reactions-provenance drawing_evidence for Claims_Step 1: \"Claim 6 itself has no span beside it at all; the two spans in this part of the section stand at L177 and L179, after claim 13\"",
+      "should_be": "The spans at L144 and L146 are claim 6's formula II and formula I. On p03 they print inside claim 6, between \"of formula II\" and \"which comprises brominating a 3-methylbenzoic acid of formula I\" and after that phrase, not above \"1-5 (Canceled)\". Nothing structural is lost, because both spans carry an empty molecules list, but the Example 2 record's account of the page layout and this record's account of it contradict each other and both misplace the drawings.",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "Example 1_Step 1",
+      "field": "scale",
+      "problem": "A 100 g charge sits exactly on the boundary A2 rule 21 draws between lab, 1 to 100 g, and pilot, 100 g to 10 kg, and pilot is asserted for a bench run in a one litre flask.",
+      "source_line": 122,
+      "quote": "In a 1 I stirred apparatus, 100g of 2-chloro-3-methyl4-sulfonylmethylbenzoic acid were suspended in 400 ml of chlorobenzene.",
+      "artifact_says": "scale: \"pilot\", tag scale:pilot",
+      "should_be": "lab, with the boundary noted, so that this example and Example 2's 20 g run of the same chemistry are comparable. What would settle it is whichever endpoint convention the reference run uses; the rule as written puts 100 g in both buckets.",
+      "confidence": "medium"
+    },
+    {
+      "check": "schema",
+      "severity": "minor",
+      "record": null,
+      "field": "byproduct_recovery",
+      "problem": "The field is an empty list on three records and null on the other ten, for the same fact that no by-product is recovered anywhere in this patent.",
+      "source_line": 0,
+      "quote": "n/a - an internal shape inconsistency across records, no single source line applies",
+      "artifact_says": "[] on Abstract_Step 1, Claims_Step 1 and Claims_Step 2; null on the remaining ten records",
+      "should_be": "One representation on all thirteen. A2 rule 14 says otherwise null, so null throughout.",
+      "confidence": "high"
+    },
+    {
+      "check": "schema",
+      "severity": "minor",
+      "record": null,
+      "field": "selectivity.stereo",
+      "problem": "The sub-object is an object of nulls on six records and null on seven, again for the same fact that the patent reports no stereochemistry.",
+      "source_line": 0,
+      "quote": "n/a - an internal shape inconsistency across records, no single source line applies",
+      "artifact_says": "stereo: {type: null, value_pct: null} on Abstract_Step 1, Claims_Step 1, Claims_Step 2, Example 1_Step 1, Example 1_Step 2; stereo: null elsewhere",
+      "should_be": "One representation on all thirteen. The A2 output schema shows the object form, and the run's own convention elsewhere is to prefer null over an object of nulls, so either is defensible but the split is not.",
+      "confidence": "high"
+    },
+    {
+      "check": "schema",
+      "severity": "minor",
+      "record": "Example 1_Step 1",
+      "field": "procedure_text",
+      "problem": "Paragraph markers are stripped from procedure_text on the three example records but kept on the Summary of the Invention and Process Conditions records, so the field is not built the same way twice.",
+      "source_line": 122,
+      "quote": "[0027] In a 1 I stirred apparatus, 100g of 2-chloro-3-methyl4-sulfonylmethylbenzoic acid were suspended in 400 ml of chlorobenzene.",
+      "artifact_says": "Example 1_Step 1 procedure_text begins \"In a 1 I stirred apparatus\"; Process Conditions_Step 1 procedure_text begins \"[0012] Suitable radical initiators\"",
+      "should_be": "Strip the markers everywhere or keep them everywhere. The example records also join their paragraphs with a space and the summary records with a newline, which is the same inconsistency in a second place.",
+      "confidence": "high"
+    }
+  ],
+  "checks_passed": [
+    {
+      "check": "arithmetic",
+      "what_was_verified": "Recomputed both examples from the printed masses and from molecular weights derived atom by atom, without reading the provenance's conclusion first. Example 1: 2-chloro-3-methyl-4-methylsulfonylbenzoic acid is C9H9ClO4S, MW 248.68, so 100 g is 0.40213 mol; the product C9H8BrClO4S is MW 327.57, so theory is 131.73 g; 121.3 g at the printed 96% purity is 116.45 g, which is 88.401% against the 88.4% printed at line 124. Example 2: C10H11ClO4S, MW 262.70, 20 g is 0.07613 mol; product C10H10BrClO4S, MW 341.60, theory 26.006 g; 28.2 g at the printed 88% purity is 24.82 g, which is 95.42% against the 95.6% printed at line 140. The residual 0.18 points is rounding on the printed purity: 88.16% would reproduce 95.6% exactly. Both close. mass_balance_implausible and molar_mass_inconsistent are correctly absent from both records and their absence is not a missing flag."
+    },
+    {
+      "check": "arithmetic",
+      "what_was_verified": "Established independently that both printed yields are purity-corrected, and that the two examples are consistent with each other on that point. Uncorrected, Example 1's 121.3 g would be 92.08% and Example 2's 28.2 g would be 108.43% of theory, the second of which is impossible on the stated charge. Applying the printed HPLC purity to each reproduces the printed figure in both. No third convention appears anywhere in the patent."
+    },
+    {
+      "check": "arithmetic",
+      "what_was_verified": "Reagent stoichiometry checked for plausibility against the substrate charge, none of it stated by the patent and none of it written into the artifact: Example 1 has 1.200 eq N-bromosuccinimide, 0.041 eq bromine and 0.100 eq azoisobutyronitrile; Example 2 has 1.299 eq N-bromosuccinimide and 0.152 eq dibenzoyl peroxide over four portions. Nothing exceeds what the substrate could consume and nothing is sub-stoichiometric in a way the text does not support."
+    },
+    {
+      "check": "arithmetic",
+      "what_was_verified": "Step-to-step continuity: there is no chain to check. Example 1's two records are Process Variants A and B, separate charges of purchased substrate in separate vessels, and Example 2 starts from a different substrate. Background Steps 2 and 3 are a genuine two-stage chain but the patent prints no mass for either. scale_discontinuity is correctly unraised on all thirteen records."
+    },
+    {
+      "check": "precision",
+      "what_was_verified": "reactant_smiles, smiles_source, product_smiles, product_smiles_source and canonical_rxn are null on all thirteen records. No molecular formula, no molecular weight and no computed mole figure appears in any structured field; the only derived number anywhere in the data is the 2.8 g dibenzoyl peroxide total raised as a finding above."
+    },
+    {
+      "check": "precision",
+      "what_was_verified": "conditions.atmosphere is null on all thirteen records and the patent names no atmosphere. pressure.type is not_specified on all thirteen, with the reduced pressure of Example 1's drying and Example 2's concentration correctly held as workup rather than as a reaction pressure. cooling_method, concentration, ph_value and ph_target_stage are null throughout, and stirring is left null on the two records whose text says only that the apparatus was stirred. No condition reads as a default."
+    },
+    {
+      "check": "fidelity",
+      "what_was_verified": "No stated temperature range is flattened to a point. Claims_Step 1 and Claims_Step 2 hold 70 to 100 C as a range from claims 11 and 17; Process Conditions holds 40 to 100 C as a range from [0015]; Example 1_Step 1's 90 C is a point the page prints as a point. Reflux is recorded as heating_method and never as a temperature, on all five records where the text says reflux, and temperature stays not_specified on the three of those that print no number."
+    },
+    {
+      "check": "linkage",
+      "what_was_verified": "The one asserted link is substantiated. Background_Step 3 names precursor_step Step 2 with linkage_confirmed true, and Step 2's product identifier, methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate, is literally Step 3's reactant identifier, with the text referring back at line 55 in the words \"is then obtained from this latter compound by hydrolysis\". No other genuine link exists to have been missed: this patent is one transformation, the two process variants are alternatives rather than a sequence, and the two examples start from different substrates, so precursor_step null on the other twelve records is correct rather than a gap."
+    },
+    {
+      "check": "recall",
+      "what_was_verified": "Counted the transformations in the source independently, section by section: abstract 1, background 3 (the WO 99/06339 disclosure, the EP-A 0 292 944 ester bromination and its hydrolysis), summary 2 (variants A and B), process conditions 2, example 1 two (variants A and B), example 2 one, claims 2 (independent claims 6 and 13). Thirteen, against thirteen records. The Houben-Weyl sentence at line 55 was weighed as a possible fourth background record and rejected on the same grounds the record states: it cites a handbook chapter, discloses no process, names no substrate or reagent, and the next sentence withdraws it. Claims 1 to 5 are cancelled and claims 19 and 20 are compound claims, so neither yields a reaction."
+    },
+    {
+      "check": "recall",
+      "what_was_verified": "Washes, quenches and drying checked explicitly rather than skimmed. Example 1's cooling, 100 ml of 2% sodium bisulfite, 400 ml of water, filtration, unnamed wash and drying at 60 C under reduced pressure are all on the record; Example 2's cooling, sodium bisulfite, 300 ml ethyl acetate, phase separation, unnamed wash, concentration under reduced pressure and the diethyl ether and heptane trituration are all on the record. Neither example names a drying agent and neither record invents one. The unnamed wash media are recorded as unnamed rather than assumed to be water."
+    },
+    {
+      "check": "fidelity",
+      "what_was_verified": "The as-printed and EN lines diverge in five places and the artifact followed the as-printed line in procedure_text every time, while using the repaired spelling as the identifier and saying so in notes: N-bromosuccimide at L154, sulfonylmethyl and sulfonylethyl at L122, L130 and L140, 1 I and 0.5 I for the litre unit at L122 and L140, 3-methyl4- and 2-chloro4- missing hyphens at L57, L110 and L124, and II g of bromine at L130. procedure_text for the three example records was diffed character for character against the as-printed source lines with only the paragraph marker removed, and matched exactly. No translation_conflict arises: this is an English document and the EN lines are normalisations, not a second language."
+    },
+    {
+      "check": "fidelity",
+      "what_was_verified": "Opened p03 and enlarged the bromine charge at 5x. The page prints \"with a 300 W lamp, II g of bromine were gradually metered in over 3 h\", and the two glyphs carry symmetric top and bottom serifs, unlike the digit 1 in \"1 I stirred apparatus\" and \"100g\" three paragraphs above on the same page and in the same face. The reading is capital I, not 11. Example 1_Step 2 leaving compounds[bromine].quantity.mass_g null and substituting no number is the correct treatment, and mass_balance_implausible is correctly not raised, because the value is absent rather than implausible."
+    },
+    {
+      "check": "drawings",
+      "what_was_verified": "Opened p01 to p04. There are nine drawings on the four pages: one in the abstract, two at [0004] and [0005], one at [0020], two inside claim 6, two inside claim 13 and one at claim 19. The enriched markdown carries exactly nine IMAGE_EXTRACT spans, at L42, L61, L65, L102, L144, L146, L177, L179 and L193, so none is lost. Every one is a Markush generic of formula I or formula II with variable R1 and R2 and an empty molecules list. There is no arrow and no reaction scheme anywhere in this patent, so no scheme could have been merged across an arrow and none could have been misattributed between prior art and the invention; drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear are correctly absent from all thirteen records."
+    },
+    {
+      "check": "drawings",
+      "what_was_verified": "Read the substituent positions off the page rather than inferring them. Formula I is drawn with HOOC on C1, R1 on C2, CH3 on C3 and SO2R2 on C4, and formula II identically with CH2Br in place of CH3 on C3; C5 and C6 are unsubstituted. That is what the names the artifact uses assert, so no record carries a position that was inferred from chemical knowledge rather than read. The empty molecules lists mean no drawn structure could contradict a written name in the first place."
+    },
+    {
+      "check": "vocabulary",
+      "what_was_verified": "Every enum-valued field checked against A2's closed lists. reaction_class is halogenation on twelve and hydrolysis on one, both listed. mechanism_type takes radical, ionic, photochemical and not_determinable, all listed. scale, temperature.type and pressure.type are all inside their lists. Every compounds[].role is one of reactant, reagent, solvent, product and oxidant, all five of which are on the A1 closed list. Every tag matches category:value with a lowercase snake_case ASCII value, with no casing errors, and the thirteen categories used are all among A2 rule 26's sixteen; no seventeenth category was invented to hold the prior-art attribution, which is instead carried by section_type and in notes."
+    },
+    {
+      "check": "vocabulary",
+      "what_was_verified": "Tag values checked against the closed value lists inside the categories that have one: solvent_class takes only halogenated, aprotic_polar and aqueous; catalyst_class only none; workup_type only filtration, aqueous_extraction and none; purification only none, recrystallisation and trituration; step_role only first_step and final_step; linkage only standalone and precursor_linked. All are listed values."
+    },
+    {
+      "check": "schema",
+      "what_was_verified": "procedure_text carries no [IMAGE_EXTRACT: ...] span on any of the thirteen records. The inline placeholders [drawing, formula (II)] and [drawing, formula (I)] kept in Claims_Step 2 are part of the as-printed L175 and are not IMAGE_EXTRACT spans, so keeping them is right. All thirteen records carry the identical key set, with no enrichment or vector field present. id and reaction_uuid are present but are computed by finalise.py from patent_id and reaction_id, which is what A2's Output section says happens, so they are not fields the extraction emitted."
+    },
+    {
+      "check": "schema",
+      "what_was_verified": "Validation flag bookkeeping checked against A2 rules 27 and 28. no_conditions is raised on exactly the five records whose every condition field is null, Abstract, the three Background steps and Summary of the Invention_Step 1, and is correctly withheld from Summary of the Invention_Step 2, whose light_source is populated. is_complete is false on exactly those five and true on the other eight, matching rule 28 in every case. Every compounds[] identifier joins compounds.json exactly, so a1_missing_compound is correctly unraised."
+    },
+    {
+      "check": "schema",
+      "what_was_verified": "House style checked on the raw file: no em dash character, no en dash, and no non-ASCII character other than the degree sign carried inside verbatim quoted procedure_text."
+    }
+  ],
+  "recall_estimate": {
+    "found_in_text": 13,
+    "present_in_artifact": 13,
+    "missing": [
+      "chlorobenzene and acetonitrile as solvents of Process Conditions_Step 1 (line 83)",
+      "chlorobenzene, methylene chloride and 1,2-dichloroethane as solvents of Process Conditions_Step 2 (line 83)",
+      "azoisobutyronitrile and dibenzoyl peroxide as the named initiators of Process Conditions_Step 1 (line 79)",
+      "ethyl acetate and butyl acetate as the recrystallisation solvents of both Process Conditions records (line 98)",
+      "the melting point of Example 2's product, which reaches no field and no tag (line 142)"
+    ]
+  }
+}

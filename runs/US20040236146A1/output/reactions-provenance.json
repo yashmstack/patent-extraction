@@ -1,0 +1,145 @@
+[
+  {
+    "reaction_id": "Abstract_Step 1",
+    "source_lines": [
+      40,
+      44
+    ],
+    "quote_zh": "A process is described for preparing 3-bromomethylbenzoic acids of the formula II by brominating the corresponding 3-methylbenzoic acids.",
+    "arithmetic_check": "Nothing to check. The abstract states no quantity of any kind: no mass, no volume, no molar amount, no equivalents, no molar ratio, no temperature, no time and no yield. There is no arithmetic to close and no mass balance or molar-mass check can be computed, which is why no_conditions is raised and mass_balance_implausible is not.",
+    "drawing_evidence": "Nothing. The single IMAGE_EXTRACT span in this section stands at L42, between the two halves of the abstract's one sentence, and is the Markush structure of formula II with variable R1 and R2. It carries {\"molecules\": []} because the vision pass refused a SMILES for a generic, so it supports no reagent, no condition and no connectivity, and it is stripped from procedure_text under rule 5h. This patent contains no drawn reaction scheme anywhere."
+  },
+  {
+    "reaction_id": "Background_Step 1",
+    "source_lines": [
+      55,
+      56
+    ],
+    "quote_zh": "WO 99/06339 discloses a process for preparing substituted benzyl bromides by brominating the corresponding methyl aromatics in the presence of azocarboxylic esters or azonitriles and in the presence of an oxidizing agent. In this case, one substituent is electronegative and is from the group fluorine, chlorine, bromine, alkoxycarbonyl, cyano and nitro. Disadvantages of this process are the use of an additional oxidizing agent and the not always satisfactory yields.",
+    "arithmetic_check": "Nothing to check. The section states no quantity of any kind: no mass, no volume, no moles, no equivalents, no molar ratio, no yield, no purity, no temperature and no time. With no numbers printed there is no arithmetic to close or fail, so no mass balance was attempted and mass_balance_implausible, molar_mass_inconsistent and scale_discontinuity are all left unraised. The only numerals on line 55 are the citation identifiers WO 99/06339, EP-A 0 292 944, Vol. 5, page 331 and the year 1960, and the locants inside chemical names; none of these is a quantity.",
+    "drawing_evidence": "None. The section carries no drawing: lines 55 and 56 contain no [IMAGE_EXTRACT: ...] span, so there is no drawn structure and no scheme to corroborate or contradict this record. Per PROMPT-CORRECTIONS section 3 this patent has no drawn reaction scheme anywhere and its only image spans are single Markush generics with no SMILES, so drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear cannot arise here."
+  },
+  {
+    "reaction_id": "Background_Step 2",
+    "source_lines": [
+      55,
+      56
+    ],
+    "quote_zh": "EP-A 0 292 944 describes the preparation of methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate by radical initiator-induced bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride.",
+    "arithmetic_check": "Nothing to check. The section states no quantity of any kind: no mass, no volume, no moles, no equivalents, no molar ratio, no yield, no purity, no temperature and no time. With no numbers printed there is no arithmetic to close or fail, so no mass balance was attempted and mass_balance_implausible, molar_mass_inconsistent and scale_discontinuity are all left unraised. The only numerals on line 55 are the citation identifiers WO 99/06339, EP-A 0 292 944, Vol. 5, page 331 and the year 1960, and the locants inside chemical names; none of these is a quantity.",
+    "drawing_evidence": "None. The section carries no drawing: lines 55 and 56 contain no [IMAGE_EXTRACT: ...] span, so there is no drawn structure and no scheme to corroborate or contradict this record. Per PROMPT-CORRECTIONS section 3 this patent has no drawn reaction scheme anywhere and its only image spans are single Markush generics with no SMILES, so drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear cannot arise here."
+  },
+  {
+    "reaction_id": "Background_Step 3",
+    "source_lines": [
+      55,
+      56
+    ],
+    "quote_zh": "The free acid, 3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid is then obtained from this latter compound by hydrolysis.",
+    "arithmetic_check": "Nothing to check. The section states no quantity of any kind: no mass, no volume, no moles, no equivalents, no molar ratio, no yield, no purity, no temperature and no time. With no numbers printed there is no arithmetic to close or fail, so no mass balance was attempted and mass_balance_implausible, molar_mass_inconsistent and scale_discontinuity are all left unraised. The only numerals on line 55 are the citation identifiers WO 99/06339, EP-A 0 292 944, Vol. 5, page 331 and the year 1960, and the locants inside chemical names; none of these is a quantity.",
+    "drawing_evidence": "None. The section carries no drawing: lines 55 and 56 contain no [IMAGE_EXTRACT: ...] span, so there is no drawn structure and no scheme to corroborate or contradict this record. Per PROMPT-CORRECTIONS section 3 this patent has no drawn reaction scheme anywhere and its only image spans are single Markush generics with no SMILES, so drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear cannot arise here."
+  },
+  {
+    "reaction_id": "Claims_Step 1",
+    "source_lines": [
+      150,
+      152,
+      154,
+      156,
+      158,
+      160,
+      165,
+      167,
+      169,
+      171,
+      173
+    ],
+    "quote_zh": "6. A process for preparing a 3-bromomethylbenzoic acid of formula II which comprises brominating a 3-methylbenzoic acid of formula I with N-bromosuccimide in the presence of a radical initiator, where, in formulae I and II R1 is fluorine, chlorine or bromine, and R2 is (C1-C4)alkyl. 11. The process as claimed in claim 6, wherein the brominating is carried out at a temperature of from 70 to 100° C. 12. The process as claimed in claim 10, wherein the brominating reaction is carried out at the reflux temperature of the solvent.",
+    "arithmetic_check": "Nothing to check. This is a process claim set: it states no charge, no mass, no volume, no molar ratio, no reaction time and no yield, so there is no arithmetic to close and no mass balance or molar-mass check can be computed. The only quantities printed anywhere in the section are the temperature bounds 70 and 100 degrees C and the claim numbers themselves.",
+    "drawing_evidence": "Nothing. Every IMAGE_EXTRACT span in this section is a single Markush structure of formula I or formula II with variable R1 and R2, and each carries {\"molecules\": []} because the vision pass refused a SMILES for a generic. There is no drawn reaction scheme in this patent, so the spans corroborate no step boundary, contribute no reagent and support no connectivity, and none of the drawing-related validation flags can arise. Claim 6 itself has no span beside it at all; the two spans in this part of the section stand at L177 and L179, after claim 13, and a third at L193 belongs to compound claim 19."
+  },
+  {
+    "reaction_id": "Claims_Step 2",
+    "source_lines": [
+      175,
+      181,
+      183,
+      185,
+      187,
+      189
+    ],
+    "quote_zh": "13. A process for preparing a 3-bromomethylbenzoic acid of formula II [drawing, formula (II)] which comprises brominating a 3-methylbenzoic acid of formula I [drawing, formula (I)] with elemental bromine and irradiation with a photolamp, where, in formulae I and II R1 is fluorine, chlorine or bromine, and R2 is (C1-C4)alkyl. 17. The process as claimed in claim 13, wherein the brominating is carried out at a temperature of from 70 to 100° C. 18. The process as claimed in claim 16, wherein the brominating is carried out at the reflux temperature of the solvent.",
+    "arithmetic_check": "Nothing to check. This is a process claim set: it states no charge, no mass, no volume, no molar ratio, no reaction time and no yield, so there is no arithmetic to close and no mass balance or molar-mass check can be computed. The only quantities printed anywhere in the section are the temperature bounds 70 and 100 degrees C and the claim numbers themselves. Open point for A5, and not an arithmetic one: claim 18 puts the bromination at the reflux temperature of methylene chloride while claim 17 puts it between 70 and 100 degrees C, and those two dependent claims of claim 13 cannot both describe one run.",
+    "drawing_evidence": "Nothing. Every IMAGE_EXTRACT span in this section is a single Markush structure of formula I or formula II with variable R1 and R2, and each carries {\"molecules\": []} because the vision pass refused a SMILES for a generic. There is no drawn reaction scheme in this patent, so the spans corroborate no step boundary, contribute no reagent and support no connectivity, and none of the drawing-related validation flags can arise. The spans nearest this claim are L177 and L179, which are the formula II and formula I generics that the inline placeholders in claim 13 point at; both are empty and neither adds a reagent, a substituent or a connectivity that the claim text does not state."
+  },
+  {
+    "reaction_id": "Example 1_Step 1",
+    "source_lines": [
+      120,
+      127
+    ],
+    "quote_zh": "Process Variant A): In a 1 I stirred apparatus, 100g of 2-chloro-3-methyl4-sulfonylmethylbenzoic acid were suspended in 400 ml of chlorobenzene. At room temperature, 85.9 g of N-bromosuccinimide and 6.6 g of azoisobutyroniltrile were added and the mixture was subsequently heated to 60° C. Afterwards, 2.6 g of bromine were added and the reaction mixture was further heated gradually to 90° C. The mixture was stirred at 90° C. for 2 h; after this time, HPLC analysis indicated a conversion of more than 98%. After the reaction mixture had been cooled, 100 ml of a 2% sodium bisulfite solution and 400 ml of water were added in succession and stirred well. The suspension was filtered, and the solid was washed and dried at 60° C. under reduced pressure. 121.3 g (88.4% of theory) of 3-bromomethyl-2-chloro4-methylsulfonyl-benzoic acid were obtained. Purity: 96% (HPLC) Melting point: 207-208° C.",
+    "arithmetic_check": "IT CLOSES, EXACTLY, AND NOTHING IS FLAGGED. No mole figure is printed anywhere in this step, so there is no mass/mole pair to test and molar_mass_inconsistent cannot arise. Substrate: 2-chloro-3-methyl-4-methylsulfonylbenzoic acid is C9H9ClO4S, MW 9(12.011) + 9(1.008) + 35.453 + 4(15.999) + 32.06 = 248.68; 100 g is 0.40212 mol. Product: 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid is C9H8BrClO4S, MW 327.58, the substrate less one hydrogen plus one bromine (79.904 - 1.008 = 78.90, and 248.68 + 78.90 = 327.58). One bromine enters the side-chain methyl, so the transformation is one to one and the theoretical product is 0.40212 x 327.58 = 131.73 g. Stated isolate: 121.3 g at the stated 96% HPLC purity is 121.3 x 0.96 = 116.45 g of the named compound. Closure: 116.45 / 131.73 = 0.88400, i.e. 88.40% of theory, against the 88.4% printed at line 124. Agreement to three significant figures. Note that the crude 121.3 g uncorrected for purity would be 92.1% of theory, so the printed 88.4% is only reproducible once the printed 96% purity is applied, which is itself evidence that the two printed figures were computed against each other and against the correctly ordered methylsulfonyl structure rather than the as-printed sulfonylmethyl one. Reagent stoichiometry, checked for plausibility rather than flagged: 85.9 g of N-bromosuccinimide, MW 177.99, is 0.4826 mol, 1.20 equivalents against the substrate; 2.6 g of bromine, MW 159.81, is 0.0163 mol, 0.040 equivalents, consistent with the text's use of it as an accelerant alongside the N-bromosuccinimide rather than as the brominating charge; 6.6 g of azoisobutyronitrile, MW 164.21, is 0.0402 mol, 0.100 equivalents, a tenth of a mole of initiator per mole of substrate. Nothing is sub-stoichiometric in a way the text does not support and nothing exceeds what the substrate could consume. VERDICT: mass_balance_implausible is NOT raised, molar_mass_inconsistent is NOT raised, scale_discontinuity is NOT raised (no prior step feeds this one), and validation_flags is empty. Per A2 rule 29's second half, a step whose arithmetic closes gets no flag; inventing one here would be a false finding and would send a reviewer to a page where there is nothing to see.",
+    "drawing_evidence": "THIS SECTION CARRIES NO DRAWING. No [IMAGE_EXTRACT: ...] span falls anywhere inside lines 114 to 131; the nearest spans are at line 102, before the section, and at lines 144 and 146, after it. There is therefore no drawn structure and no drawn scheme supporting, corroborating or contradicting this step, and the record rests entirely on the prose at lines 120 to 127. More generally, every IMAGE_EXTRACT span in this patent is a single Markush structure of formula I or formula II with variable R1 and R2, each carrying an empty molecules list because the vision pass correctly refused a SMILES for a generic. Consequently A2 rules 5a, 5c, 5e, 5f and 5g have no subject in this run, and the flags drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear are not raised, not because they were checked and passed but because there is nothing in this document for them to be about."
+  },
+  {
+    "reaction_id": "Example 1_Step 2",
+    "source_lines": [
+      128,
+      131
+    ],
+    "quote_zh": "Process Variant B): A 250 ml glass flask was initially charged with 5 g of 2-chloro-3-methyl-4-sulfonylmethylbenzoic acid in 50 ml of methylene chloride and 50 ml of water. Under irradiation with a 300 W lamp, II g of bromine were gradually metered in over 3 h, and the mixture boiled under reflux. After a further 2 h of irradiation, the reaction mixture had been substantially decolorized. According to HPLC analysis, the reaction mixture contained 87% of product and 10% of reactant.",
+    "arithmetic_check": "NOT CHECKABLE, AND THAT IS THE DOCUMENT RATHER THAN A DEFECT. Two of the three quantities a balance would need are simply not printed. Input: 5 g of C9H9ClO4S, MW 248.68, is 0.02011 mol, the one figure that is available. Brominating charge: line 130 prints 'II g of bromine', two capital-I letterforms and not the digits 11, verified on the pixels at 8x and restated nowhere in the document, so the bromine charge is unknown and is recorded with mass_g null. No number is substituted for it. For reference only, and NOT recorded on the artifact: were it 11 g, that would be 0.0688 mol of Br2, about 3.4 equivalents, which is a plausible photobromination charge, but plausibility is not evidence and the letterforms are what the page prints. Output: nothing is isolated. There is no product mass, no yield, no purity of an isolated solid and no melting point. The only outcome the step reports is an in-process HPLC composition of the reaction mixture, 87% product and 10% unconverted reactant, which is a composition and not a yield; converting it into one would require the mixture mass, which is not printed either. Step 1's 121.3 g and 88.4% belong to a different charge in a different vessel and are not carried across. So there is no stated product mass to test against the stated input moles and no stated mass/yield pair to test for internal agreement. VERDICT: mass_balance_implausible is NOT raised. The flag means the printed numbers contradict each other or exceed what the input could give; here the numbers are absent, and absence is not implausibility. Raising it would report a defect the patent does not contain and would mislabel a missing value as a wrong one. molar_mass_inconsistent is likewise not raised: no mass/mole pair is printed in this step at all. scale_discontinuity is not raised: this step's 5 g charge is an independent charge of purchased substrate, not material handed over from Step 1, because variants A and B are alternatives and no material flows between them. validation_flags is empty.",
+    "drawing_evidence": "THIS SECTION CARRIES NO DRAWING. No [IMAGE_EXTRACT: ...] span falls anywhere inside lines 114 to 131, so nothing was drawn for Process Variant B) and the record rests entirely on the prose at lines 128 to 131. In particular there is no drawn structure that could have supplied the bromine charge that the text prints illegibly, and no scheme that could confirm the side-chain rather than ring position of the bromination; the position is taken from the example's own title at lines 116 to 118 and from the product name, not from any picture. Every IMAGE_EXTRACT span in this patent is a single Markush structure of formula I or formula II with an empty molecules list, so drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear have no subject here and are not raised."
+  },
+  {
+    "reaction_id": "Example 2_Step 1",
+    "source_lines": [
+      134,
+      142
+    ],
+    "quote_zh": "In a 0.5 I stirred apparatus, 20 g of 2-chloro-3-methyl-4-sulfonylethylbenzoic acid were suspended in 150 ml of acetonitrile. At room temperature, 17.6 g of N-bromosuccinimide and 0.7 g of dibenzoyl peroxide were added and the mixture was subsequently heated to reflux. After in each case 1 h, further dibenzoyl peroxide was added in 3 portions each of 0.7 g and the mixture was stirred for a further 2 h after the last addition. After this time, HPLC analysis indicated complete conversion. After the reaction mixture had been cooled, 100 ml of a 2% sodium bisulfite solution and 300 ml of ethyl acetate were added in succession. The organic phase was removed, washed and concentrated under reduced pressure. The solid residue was suspended in 50 ml of diethyl ether and 20 ml of heptane, filtered off and dried. 28.2 g (95.6% of theory) of 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid were obtained. Purity: 88% (HPLC) Melting point: 103° C.",
+    "arithmetic_check": "It closes, once the stated purity is applied, so nothing is raised. Stated input: 20 g of the substrate 2-chloro-3-methyl-4-ethylsulfonylbenzoic acid, C10H11ClO4S, MW 262.70, which is 0.07613 mol. The patent states no mole figure; this one is computed here. Stated output: 28.2 g of 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid, C10H10BrClO4S, MW 341.60, at 88% purity by HPLC, with a printed yield of 95.6% of theory. Taken at face value the 28.2 g alone is 0.08255 mol, which is 108.4% of the 0.07613 mol charged and therefore impossible, so the printed yield cannot be a raw mass yield. Purity-corrected, 28.2 g at 88% is 24.82 g, or 0.07265 mol, giving 95.42% of theory against the 95.6% printed. The two agree to within rounding, which confirms that the patent's stated yield is purity-corrected. Both mass_balance_implausible and molar_mass_inconsistent are therefore correctly absent: the mass/mole pairs imply exactly the molecular weights of the compounds named, and this also independently confirms the ethylsulfonyl reading of the substrate name, since the sulfonylethyl misprint would name the same formula but the Example 1 methylsulfonyl homologue, MW 248.7 and 327.6, does not fit these masses. Secondary checks, all consistent, none stated by the patent: 17.6 g of N-bromosuccinimide, MW 177.98, is 0.09888 mol or 1.30 equivalents, a normal slight excess for a benzylic bromination; dibenzoyl peroxide, MW 242.23, totals 2.8 g over four 0.7 g portions, which is 0.01156 mol or 0.152 equivalents overall and 0.038 equivalents per portion, an initiator loading and not a stoichiometric charge. The 2.8 g total is arithmetic on the printed 0.7 g and 3 portions; the patent never prints the total, which is why the record itself carries only the printed 0.7 g single charge in quantity.mass_g and the computed total stays here, where computed figures belong. The 100 ml of 2% sodium bisulfite solution is a volume of solution, so no mass of the salt can be derived and none was. Time, computed here for the same reason the initiator total is. The section prints four intervals, 1 h, 1 h and 1 h between the four initiator portions and then a further 2 h after the last addition, which sum to 5 h at reflux. That 5 h is arithmetic on printed intervals and the digit 5 appears nowhere in [0033] or [0034], so it stays in this sidecar: conditions.time_h on the record carries the printed final 2 h, and the interval structure is carried in words in the record's notes and in the initiator's addition_profile. An earlier version of the record put the 5.0 total in time_h, which is the same class of defect as the 2.8 g initiator total, and both are now confined to this field.",
+    "drawing_evidence": "None. No drawing supports this step, because this patent contains no drawn reaction scheme at all. The two IMAGE_EXTRACT spans that fall inside this section's line range, at lines 144 and 146, are the Markush generic formulae II and I belonging to claim 6, printed above the claim text by the two-column page layout and filed into Example 2 only because A0 rule 7 forbids leaving a span stranded between sections. Each carries {\"molecules\": []}, the vision pass having correctly refused a SMILES for a generic with variable R1 and R2. They depict no specific compound, no arrow, no reagent and no connectivity, so they corroborate nothing in this record and contradict nothing in it either. Accordingly there is no drawing-versus-prose comparison to report, and drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear are all correctly absent from validation_flags, per PROMPT-CORRECTIONS.md section 3. Every structural claim in this record rests on the prose of [0033] and [0034] alone."
+  },
+  {
+    "reaction_id": "Process Conditions_Step 1",
+    "source_lines": [
+      79,
+      98
+    ],
+    "quote_zh": "[0016] In process variant A), it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent, and then to heat gradually. The reaction may optionally be accelerated by adding a little bromine. Preference is given to using NBS in excess.",
+    "arithmetic_check": "Nothing to check. The section states no quantity of any kind: no charge, no mass, no volume, no mole count, no yield and no purity. The only stoichiometric statement is qualitative, an excess, recorded in molar_ratio_text, and an excess with no number cannot be balanced against anything. No mass balance, no molar mass and no yield reconciliation is possible or attempted here. No quantity attaches to the solvents either: [0014] names chlorobenzene and acetonitrile as advantageous for variant A but gives no volume, no ratio and no concentration for either, and line 98 names ethyl acetate and butyl acetate for the recrystallization with no volume. They are on the record as named substances with an empty quantity, which is what the section supports.",
+    "drawing_evidence": "The section spans lines 79 to 99 and contains no IMAGE_EXTRACT span at all. The nearest spans are at lines 61, 65 and 102, outside it, and each is a single Markush structure of formula I or formula II with variable R1 and R2 carrying an empty molecules list, so they support nothing. This patent contains no drawn reaction scheme at all, so drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear have no subject on this record."
+  },
+  {
+    "reaction_id": "Process Conditions_Step 2",
+    "source_lines": [
+      79,
+      98
+    ],
+    "quote_zh": "[0017] In process variant B), it is appropriate to initially charge a compound of the formula I in solvent and then, after heating under irradiation with a photolamp, to add bromine dropwise. Preference is given to using bromine in excess.",
+    "arithmetic_check": "Nothing to check. The section states no quantity of any kind: no charge, no mass, no volume, no mole count, no yield and no purity. The only stoichiometric statement is qualitative, an excess, recorded in molar_ratio_text, and an excess with no number cannot be balanced against anything. No mass balance, no molar mass and no yield reconciliation is possible or attempted here. No quantity attaches to the solvents either: [0014] names chlorobenzene, methylene chloride and 1,2-dichloroethane as advantageous for variant B but gives no volume, no ratio and no concentration for any of them, and line 98 names ethyl acetate and butyl acetate for the recrystallization with no volume. They are on the record as named substances with an empty quantity, which is what the section supports.",
+    "drawing_evidence": "The section spans lines 79 to 99 and contains no IMAGE_EXTRACT span at all. The nearest spans are at lines 61, 65 and 102, outside it, and each is a single Markush structure of formula I or formula II with variable R1 and R2 carrying an empty molecules list, so they support nothing. This patent contains no drawn reaction scheme at all, so drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear have no subject on this record."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Step 1",
+    "source_lines": [
+      57,
+      69
+    ],
+    "quote_zh": "[0007] A) N-bromosuccimide in the presence of a radical initiator, or",
+    "arithmetic_check": "Nothing to check. The section states no quantity of any kind: no charge, no mass, no volume, no mole count, no molar ratio, no yield and no purity. [0003] on line 57 says only in very good yields and in very high purities, which carries no number, so no mass balance, no molar mass and no yield reconciliation is possible or attempted here. This is generic process disclosure and the absence of numbers is the document, not a reading failure.",
+    "drawing_evidence": "The section carries two IMAGE_EXTRACT spans, at line 61 for formula II and line 65 for formula I. Both are single Markush structures with variable R1 and R2 and both carry an empty molecules list, so they support nothing: they give no SMILES, no reagent and no connectivity. This patent contains no drawn reaction scheme at all, so there is no arrow to corroborate the step boundary or to disagree with the prose, and drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear have no subject on this record."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Step 2",
+    "source_lines": [
+      57,
+      71
+    ],
+    "quote_zh": "[0008] B) elemental bromine and irradiation with a photolamp,",
+    "arithmetic_check": "Nothing to check. The section states no quantity of any kind: no charge, no mass, no volume, no mole count, no molar ratio, no yield and no purity. [0003] on line 57 says only in very good yields and in very high purities, which carries no number, so no mass balance, no molar mass and no yield reconciliation is possible or attempted here. This is generic process disclosure and the absence of numbers is the document, not a reading failure.",
+    "drawing_evidence": "The section carries two IMAGE_EXTRACT spans, at line 61 for formula II and line 65 for formula I. Both are single Markush structures with variable R1 and R2 and both carry an empty molecules list, so they support nothing. This patent contains no drawn reaction scheme at all, so there is no arrow to corroborate the step boundary or to disagree with the prose, and drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear have no subject on this record."
+  }
+]

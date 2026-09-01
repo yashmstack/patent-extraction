@@ -1,0 +1,22 @@
+[
+  {
+    "reaction_id": "Example 3_Step a",
+    "source_lines": [
+      157,
+      158
+    ],
+    "quote_zh": "步骤a:取1.1mol(134.2g)三氟乙醇钠,1.2mol(129.6g)碳酸钠,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中,然后50℃保温2小时后,将反应液中的N,N-二甲基甲酰胺减压蒸除后,将残液加入300mL水中,用35％的盐酸调pH至弱酸性,冷却结晶,过滤,水洗,干燥得化合物II,称重得311.4g,收率90％。",
+    "arithmetic_check": "Stated input 1.0 mol (318 g) of methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate as the limiting reagent, with 1.1 mol (134.2 g) sodium trifluoroethoxide and 1.2 mol (129.6 g) sodium carbonate; stated product 311.4 g of compound II at 90%. Reagent pairs recomputed: 134.2/1.1 = 122.0 against 122.02 for C2H2F3ONa, closes; 129.6/1.2 = 108.0 against 105.99 for Na2CO3, high by 1.9%, does not close; 318/1.0 = 318.0 against 341.60 for C10H10BrClO4S, low by 6.9%, does not close. Two failures, so molar_mass_inconsistent is raised. Product: 311.4 g at 90% of 1.0 mol implies 0.90 mol and 346.0 g/mol; the two printed figures are mutually consistent, and compound II is never defined in this section, so no formula-based check is possible and no mass balance flag is raised on this step. For the reviewer only: 346.0 is within 0.2% of 346.70 for the free acid C11H10ClF3O5S and 4.1% from 360.73 for the methyl ester C12H12ClF3O5S. All numbers kept as printed.",
+    "drawing_evidence": "No IMAGE_EXTRACT span occurs anywhere in lines 153-160, so there is no drawing for this step, no prose-versus-drawing comparison is possible and no drawing flag is raised."
+  },
+  {
+    "reaction_id": "Example 3_Step b",
+    "source_lines": [
+      159,
+      160
+    ],
+    "quote_zh": "步骤b:取1mol上述反应所得的化合物II,溶解在1000mL的二氯乙烷中,然后在15-20℃温度条件下,半小时内加入含1.5mol(147g)1,3-环己二酮(化合物III)和3mol(405g)缩合剂HOBT及3mol(222g)氢氧化钙,再在15-20℃温度条件下搅拌反应8小时,然后水洗、减压浓缩加甲、醇打浆、过滤、干燥得到成品环磺酮(化合物IV)375.4g,纯度97.5％,收率87.5％。",
+    "arithmetic_check": "Stated input 1 mol of compound II from step a, with 1.5 mol (147 g) 1,3-cyclohexanedione, 3 mol (405 g) HOBT and 3 mol (222 g) calcium hydroxide; stated product 375.4 g tembotrione, purity 97.5%, yield 87.5%. Reagent pairs recomputed: 147/1.5 = 98.0 against 112.13 for C6H8O2, low by 12.6%, does not close, so molar_mass_inconsistent is raised; 405/3 = 135.0 against 135.13 for HOBT C6H5N3O, closes; 222/3 = 74.0 against 74.09 for Ca(OH)2, closes. Product: tembotrione is C17H16ClF3O6S, 440.82; 87.5% of 1 mol would be 385.71 g, but 375.4 g is 0.8516 mol, that is 85.16% on the 1 mol charge, and 375.4/0.875 implies 429.03 g/mol; correcting for the stated 97.5% purity gives 366.01 g and 83.03%, further away. The mass does not exceed what the charge could give, but the stated mass and the stated yield do not close, so mass_balance_implausible is raised. Continuity, computed three ways: step a prints 90% yield on a 1.0 mol charge, so it isolates 0.90 mol; on the 346.0 g/mol that step a's own 311.4 g and 90% imply, 311.4/346.0 = 0.8999 mol; on 346.70 for the free acid C11H10ClF3O5S, 311.4/346.70 = 0.8982 mol. This step charges 1 mol, so the over-draw is 0.10 mol on the printed yield and 0.1018 mol on the acid molecular weight, about 10% of the charge and the largest deficit of the five examples. Example 2 raises scale_discontinuity on a 0.07 mol deficit, so the flag is raised here. The earlier annotation of this section omitted it and that omission was an error. All numbers kept as printed.",
+    "drawing_evidence": "No IMAGE_EXTRACT span occurs anywhere in lines 153-160, so there is no drawing for this step, no prose-versus-drawing comparison is possible and no drawing flag is raised."
+  }
+]

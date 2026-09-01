@@ -1,0 +1,32 @@
+[
+  {
+    "reaction_id": "Example 8_Step 1",
+    "source_lines": [
+      512,
+      512
+    ],
+    "quote_zh": "将式(V)化合物1.5g溶于20mL 1,4-二氧六环中，在5℃下滴加氯化亚砜1.03g，升温至55℃反应，通过高效液相色谱监测反应完成后，旋蒸除去溶剂，得到式(VII)化合物。",
+    "arithmetic_check": "Stated input 1.5 g of the compound of formula (V) and 1.03 g of thionyl chloride. No product mass, no moles and no yield are printed for this step, so no mass balance can be closed or contradicted. Nothing implausible: 1.03 g of thionyl chloride is a modest excess over 1.5 g of the acid on any reading of the drawn structure.",
+    "drawing_evidence": "Arrow step_id 1 of the [IMAGE_EXTRACT: {\"reactions\": ...}] span on line 510: the benzoic acid to benzoyl chloride with SOCl2 over the arrow. It agrees with the prose in reactant, reagent and product."
+  },
+  {
+    "reaction_id": "Example 8_Step 2",
+    "source_lines": [
+      512,
+      512
+    ],
+    "quote_zh": "另将0.5g 1,3-环己二酮溶于15mL二氧六环中，加入0.44g三乙胺，冰浴下滴加到上述制备的式(VII)化合物中。",
+    "arithmetic_check": "Stated input 0.5 g of 1,3-cyclohexanedione and 0.44 g of triethylamine against an unweighed charge of the acid chloride from Step 1. No product mass, no moles and no yield are printed, so nothing can be closed. The printed masses are mutually consistent with roughly one equivalent each of dione and base against the 1.5 g of the formula (V) compound charged in Step 1, but no equivalents are printed and none are recorded.",
+    "drawing_evidence": "Arrow step_id 2 of the line 510 span: acid chloride plus cyclohexane-1,3-dione drawn over the arrow, giving the enol ester. Product and reactants agree with the prose; the arrow carries no triethylamine and no solvent, which the prose states, so reagent_written_not_drawn is raised."
+  },
+  {
+    "reaction_id": "Example 8_Step 3",
+    "source_lines": [
+      514,
+      514
+    ],
+    "quote_zh": "往上述得到的式(VIII)化合物溶液中加入0.1mL丙酮氰醇，60℃反应4h，通过高效液相色谱监测反应完成后，过滤，滤液旋蒸除去溶剂，加入水，用盐酸调节pH为2～3，过滤得到的固体并干燥，得到环磺酮，收率76.59％。",
+    "arithmetic_check": "The only quantities printed for this step are 0.1 mL of acetone cyanohydrin and the 76.59% yield. No input charge, no input moles and no product mass are printed for this step, so the yield cannot be checked against a mass and nothing here can be shown not to close. The yield is stated for this step alone and is not an overall yield from the compound of formula (V); it is recorded on this record only. mass_balance_implausible is not raised because there is no mass to test.",
+    "drawing_evidence": "Arrow step_id 3 of the line 510 span: the enol ester to the C-acylated triketone, structures agreeing with the prose. The reagent over that arrow was recorded by the vision pass as [illegible], so it neither corroborates nor contradicts the acetone cyanohydrin the prose names."
+  }
+]

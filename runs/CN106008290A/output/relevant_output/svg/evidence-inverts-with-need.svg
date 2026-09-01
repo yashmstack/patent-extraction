@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500"
+     font-family="Helvetica, Arial, sans-serif" role="img"
+     aria-label="Bar chart of claims by auto status. Only the not_checkable row has claims with no evidence: 15 of 78. All other rows are at zero.">
+  <title>Evidence attachment inverts with need</title>
+  <desc>Claims grouped by auto status. Bars show claim counts. The hatched segment marks
+  claims carrying no evidence lines. Only not_checkable, the population routed to a
+  human, has any: 15 of 78. found, not_found, not_reconciled and partial are all at zero.</desc>
+
+  <defs>
+    <pattern id="hatch" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="7" height="7" fill="#D55E00"/>
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#000000" stroke-width="3"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="500" fill="#ffffff"/>
+
+  <text x="30" y="38" font-size="19" font-weight="bold" fill="#000000">Evidence is attached to every claim that did not need it</text>
+  <text x="30" y="60" font-size="13" fill="#333333">185 claims served by /CN104292137A/review, grouped by `auto`. Hatched = carries no evidence line at all.</text>
+
+  <!-- legend -->
+  <rect x="30" y="76" width="16" height="12" fill="#0072B2"/>
+  <text x="52" y="86" font-size="12" fill="#000000">has evidence</text>
+  <rect x="160" y="76" width="16" height="12" fill="url(#hatch)" stroke="#000000" stroke-width="1"/>
+  <text x="182" y="86" font-size="12" fill="#000000">no evidence (hatched)</text>
+
+  <!-- rows: x0=210, scale 5.12 px per claim -->
+  <!-- found 82 / 0 -->
+  <text x="200" y="130" font-size="13" text-anchor="end" fill="#000000">found</text>
+  <rect x="210" y="118" width="420" height="18" fill="#0072B2"/>
+  <text x="640" y="131" font-size="12" fill="#000000">82 claims</text>
+  <text x="740" y="131" font-size="12" font-weight="bold" fill="#000000">0 missing</text>
+
+  <!-- not_checkable 78 / 15 -->
+  <text x="200" y="174" font-size="13" text-anchor="end" font-weight="bold" fill="#000000">not_checkable</text>
+  <rect x="210" y="162" width="322" height="18" fill="#0072B2"/>
+  <rect x="532" y="162" width="77" height="18" fill="url(#hatch)" stroke="#000000" stroke-width="1"/>
+  <text x="619" y="175" font-size="12" fill="#000000">78 claims</text>
+  <text x="740" y="175" font-size="12" font-weight="bold" fill="#000000">15 missing</text>
+
+  <!-- not_found 5 / 0 -->
+  <text x="200" y="218" font-size="13" text-anchor="end" fill="#000000">not_found</text>
+  <rect x="210" y="206" width="26" height="18" fill="#0072B2"/>
+  <text x="246" y="219" font-size="12" fill="#000000">5 claims</text>
+  <text x="740" y="219" font-size="12" font-weight="bold" fill="#000000">0 missing</text>
+
+  <!-- not_reconciled 8 / 0 -->
+  <text x="200" y="262" font-size="13" text-anchor="end" fill="#000000">not_reconciled</text>
+  <rect x="210" y="250" width="41" height="18" fill="#0072B2"/>
+  <text x="261" y="263" font-size="12" fill="#000000">8 claims</text>
+  <text x="740" y="263" font-size="12" font-weight="bold" fill="#000000">0 missing</text>
+
+  <!-- partial 12 / 0 -->
+  <text x="200" y="306" font-size="13" text-anchor="end" fill="#000000">partial</text>
+  <rect x="210" y="294" width="61" height="18" fill="#0072B2"/>
+  <text x="281" y="307" font-size="12" fill="#000000">12 claims</text>
+  <text x="740" y="307" font-size="12" font-weight="bold" fill="#000000">0 missing</text>
+
+  <!-- bracket marking the human row -->
+  <path d="M 855 118 L 868 118 L 868 136 L 855 136" fill="none" stroke="#000000" stroke-width="1.5"/>
+  <path d="M 855 162 L 872 162 L 872 180 L 855 180" fill="none" stroke="#D55E00" stroke-width="2.5"/>
+  <text x="884" y="133" font-size="11" fill="#000000" transform="rotate(90 884 133)">machine settled</text>
+  <text x="890" y="150" font-size="11" font-weight="bold" fill="#D55E00" transform="rotate(90 890 150)">human only</text>
+
+  <!-- the mechanism -->
+  <line x1="30" y1="345" x2="870" y2="345" stroke="#cccccc" stroke-width="1"/>
+  <text x="30" y="372" font-size="14" font-weight="bold" fill="#000000">Why it sorts that way</text>
+  <text x="30" y="394" font-size="13" fill="#000000">Evidence lines come from the string-matching machinery. A claim is `not_checkable` precisely because no string</text>
+  <text x="30" y="412" font-size="13" fill="#000000">match settles it. So the property that routes a claim to a person is the property that leaves that person nothing to read.</text>
+
+  <rect x="30" y="428" width="840" height="52" fill="#F0E442" stroke="#000000" stroke-width="1.5"/>
+  <text x="44" y="450" font-size="13" font-weight="bold" fill="#000000">The metric that would have reassured you: 170 of 185 claims carry evidence = 91.9%.</text>
+  <text x="44" y="470" font-size="13" fill="#000000">That 8.1% is not a tail of stragglers. It is 100% of the only population that depends on it.</text>
+</svg>

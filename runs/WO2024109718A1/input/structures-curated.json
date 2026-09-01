@@ -1,0 +1,70 @@
+{
+  "_readme": [
+    "Hand-authored structures for the molecules of one patent that resolve_structures.py",
+    "cannot get any other way. One entry per MOLECULE, keyed by an exact identifier string",
+    "from gold/compounds.json.",
+    "",
+    "WHY THIS FILE EXISTS: 0 of the 75 compound records carry smiles, inchi or",
+    "molecular_formula, and gold/structures.json only covers what the patent DRAWS. Every",
+    "reagent that is named but never drawn (methanesulfonyl chloride, thionyl chloride,",
+    "triethylamine and the rest) has no structure anywhere in the pipeline, and half of them",
+    "carry a mass/mole pair that the downstream mass-balance check cannot use without a",
+    "formula. Those are the entries below.",
+    "",
+    "WHAT NOT TO PUT HERE: spelling variants. The pipeline already knows that",
+    "'2-chloro-6-(methanesulfonyl)toluene' and '2-chloro-6-(methylsulfonyl)toluene' are one",
+    "molecule, because finalise.py wrote that out to provenance/compounds-equivalence.json.",
+    "resolve_structures.py propagates a structure across each equivalence group and tags the",
+    "copies origin 'derived'. Write one entry, for one spelling, and let it propagate. The",
+    "optional 'aliases' list is only for synonyms the equivalence index misses, such as",
+    "'anhydrous aluminium trichloride' against 'aluminium trichloride'.",
+    "",
+    "WHAT NOT TO PUT HERE EITHER: molecules the patent draws. Those come out of",
+    "gold/structures.json with origin 'patent_drawing', which is a stronger provenance claim",
+    "than 'curated'. An entry here for a drawn molecule is harmless (the join is on RDKit",
+    "canonical SMILES, so it lands on the same molecule and keeps the stronger origin) but it",
+    "is work you did not need to do.",
+    "",
+    "DELIBERATELY ABSENT: 'cyclohexanedione' (Claims). The gold records it resolved:false",
+    "because the patent prints it with no ring locants, so which isomer is meant is not",
+    "stated. Supplying the 1,3-dione here would silently resolve what the annotator",
+    "deliberately left open. It gets origin 'none'. Same for the unresolved Chinese class",
+    "terms, and for water, HCl, MgSO4 and the other trivial reagents, which carry no",
+    "chemistry and are noise when drawn.",
+    "",
+    "FIELDS: 'smiles' is required and must parse in RDKit. 'slug' is optional and names the",
+    "SVG file; omit it and one is derived from the identifier. 'aliases' and 'note' are",
+    "optional. formula, mw and canonical are NOT stored here: resolve_structures.py computes",
+    "them with RDKit on every run and writes them into gold/structures-resolved.json, so",
+    "there is one place they can be wrong instead of two.",
+    "",
+    "Every SMILES below was checked atom by atom against its IUPAC name before it was",
+    "committed. A wrong structure here silently corrupts a mass-balance check downstream.",
+    "",
+    "DELIBERATELY ABSENT, and listed in no_structure_needed: CF3CH2OM. M is not defined anywhere in this patent. The text offers two named alternatives, CF3CH2ONa and CF3CH2OK, and both already have their own records with their own structures. Giving the placeholder a single SMILES would resolve a choice the document deliberately leaves open, which is the one thing this file must not do.",
+    "",
+    "ON THE FOUR ENTRIES BELOW: all four are also DRAWN in this patent, so each note records a comparison between the hand-authored SMILES and what the vision pass read off the drawing, canonicalised in RDKit. All four agree. The gate has no OPSIN and no network, so this comparison is the only independent check available here, and it is a real one: the drawn read was made by a different pass that never saw these names."
+  ],
+  "patent_id": "WO2024109718A1",
+  "no_structure_needed": [
+    "CF3CH2OM"
+  ],
+  "entries": {
+    "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene": {
+      "smiles": "Brc1ccc(SC)c(C)c1Cl",
+      "note": "Product, formula (I) on the route. Ring numbered from the bromine: C1 Br, C2 Cl, C3 the varying substituent, C4 the sulfur, C5 and C6 unsubstituted. Read off the drawn scheme, not inferred from what the molecule should be. SMILES gives C8H8BrClS, which is what the name implies: benzene ring plus Br, Cl, CH3 and SCH3. CHECKED AGAINST THE PATENT'S OWN DRAWING: the vision pass read this molecule off the schemes on pages 9 and 10 as CSc1ccc(Br)c(Cl)c1C, and the two canonicalise identically in RDKit, so the hand-authored structure and the drawn structure are the same molecule. That comparison is an independent check the gate itself cannot make."
+    },
+    "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene": {
+      "smiles": "Brc1ccc(S(C)(=O)=O)c(C)c1Cl",
+      "note": "Product, formula (II), the sulfone from oxidising formula (I). Ring numbered from the bromine: C1 Br, C2 Cl, C3 the varying substituent, C4 the sulfur, C5 and C6 unsubstituted. Read off the drawn scheme, not inferred from what the molecule should be. SMILES gives C8H8BrClO2S, which is what the name implies: the methylsulfanyl of formula (I) with the sulfur oxidised to methanesulfonyl. CHECKED AGAINST THE DRAWING: the vision pass read Cc1c(S(C)(=O)=O)ccc(Br)c1Cl off the same schemes and the two canonicalise identically."
+    },
+    "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene": {
+      "smiles": "Brc1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "note": "Product, formula (III), the benzylic bromide. Ring numbered from the bromine: C1 Br, C2 Cl, C3 the varying substituent, C4 the sulfur, C5 and C6 unsubstituted. Read off the drawn scheme, not inferred from what the molecule should be. SMILES gives C8H7Br2ClO2S, which is what the name implies: formula (II) with the C3 methyl brominated once. Two bromines, one on the ring and one on the benzylic carbon, which is the point of the name and the thing a careless reading would get wrong. CHECKED AGAINST THE DRAWING: the vision pass read CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr and the two canonicalise identically."
+    },
+    "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene": {
+      "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+      "note": "Product, formula (IV), the trifluoroethyl ether and the hinge of the whole route. Ring numbered from the bromine: C1 Br, C2 Cl, C3 the varying substituent, C4 the sulfur, C5 and C6 unsubstituted. Read off the drawn scheme, not inferred from what the molecule should be. SMILES gives C10H9BrClF3O3S, which is what the name implies: formula (III) with the benzylic bromide displaced by trifluoroethoxide, so CH2-O-CH2-CF3 at C3. CHECKED AGAINST THE DRAWING: the vision pass read CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F and the two canonicalise identically."
+    }
+  }
+}

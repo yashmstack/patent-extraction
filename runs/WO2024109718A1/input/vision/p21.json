@@ -1,0 +1,224 @@
+{
+ "page": "p21.png",
+ "page_label": "20",
+ "doc_part": "description",
+ "header": "20 / WO 2024/109718 / PCT/CN2023/132821",
+ "footer": "",
+ "paragraphs": [
+  {
+   "marker": "[0132]",
+   "zh": "向高压釜中加入式(IV)化合物40g、水20g、三乙胺26.49g、PdCl2催化剂0.4g、配体1,3-双(二苯基膦)丙烷3.95g、溶剂四氢呋喃400g，抽真空，氮气置换，以约1～4MPa的压力通入CO，在80℃反应约12h。通过高效液相色谱监测反应完成后，过滤，旋蒸除去溶剂四氢呋喃，加入甲醇溶解，调酸至pH为2～3，析出白色固体，过滤，滤饼经水洗、打浆后过滤，得到式(V)化合物，收率67.57％，熔点155-157℃。",
+   "en": "Into an autoclave were added 40 g of the compound of formula (IV), 20 g of water, 26.49 g of triethylamine, 0.4 g of PdCl2 catalyst, 3.95 g of the ligand 1,3-bis(diphenylphosphino)propane and 400 g of the solvent tetrahydrofuran; vacuum was applied and the atmosphere replaced with nitrogen, CO was introduced at a pressure of about 1 to 4 MPa, and the reaction was run at 80 degrees C for about 12 h. After completion of the reaction as monitored by HPLC, the mixture was filtered, the solvent tetrahydrofuran was removed by rotary evaporation, methanol was added to dissolve the residue, the acidity was adjusted to pH 2 to 3, a white solid precipitated, it was filtered, and the filter cake was washed with water, slurried and filtered to give the compound of formula (V), yield 67.57%, melting point 155-157 degrees C.",
+   "notes": "The PdCl2 subscript is printed as a subscript 2. The dash in 155-157℃ is printed as a short dash/en-dash glyph; transcribed as a plain hyphen because the exact glyph cannot be distinguished in the scan."
+  },
+  {
+   "marker": "[0133]",
+   "zh": "实施例8 环磺酮的制备1",
+   "en": "Example 8 Preparation of tembotrione 1",
+   "notes": "环磺酮 translated literally as the compound named in the text; no English name is printed on the page. English rendering corrected during the run: the vision pass wrote 'sulcotrione' for 环磺酮. 环磺酮 is the Chinese common name of tembotrione; sulcotrione is 磺草酮, a different registered triketone herbicide, and 'cyclic sulfone ketone' is a character gloss that names no compound. The Chinese is unchanged and is authoritative. See NOTES.md."
+  },
+  {
+   "marker": "[0134]",
+   "zh": "将式(V)化合物1.5g溶于20mL 1,4-二氧六环中，在5℃下滴加氯化亚砜1.03g，升温至55℃反应，通过高效液相色谱监测反应完成后，旋蒸除去溶剂，得到式(VII)化合物。另将0.5g 1,3-环己二酮溶于15mL二氧六环中，加入0.44g三乙胺，冰浴下滴加到上述制备的式(VII)化合物中。滴加完毕后，室温搅拌约2h后，通过高效液相色谱监测反应完成后，旋蒸除去溶剂，得到式(V III)化合物的溶液。",
+   "en": "1.5 g of the compound of formula (V) was dissolved in 20 mL of 1,4-dioxane, 1.03 g of thionyl chloride was added dropwise at 5 degrees C, the temperature was raised to 55 degrees C for reaction, and after completion of the reaction as monitored by HPLC the solvent was removed by rotary evaporation to give the compound of formula (VII). Separately, 0.5 g of 1,3-cyclohexanedione was dissolved in 15 mL of dioxane, 0.44 g of triethylamine was added, and the mixture was added dropwise under ice bath to the compound of formula (VII) prepared above. After the addition was complete, the mixture was stirred at room temperature for about 2 h, and after completion of the reaction as monitored by HPLC the solvent was removed by rotary evaporation to give a solution of the compound of formula (V III).",
+   "notes": "The last formula reference is printed with a space, 式(V III), unlike 式(VIII) used elsewhere on the page; transcribed as printed."
+  },
+  {
+   "marker": "[0135]",
+   "zh": "往上述得到的式(VIII)化合物溶液中加入0.1mL丙酮氰醇，60℃反应4h，通过高效液相色谱监测反应完成后，过滤，滤液旋蒸除去溶剂，加入水，用盐酸调节pH为2～3，过滤得到的固体并干燥，得到环磺酮，收率76.59％。",
+   "en": "To the solution of the compound of formula (VIII) obtained above was added 0.1 mL of acetone cyanohydrin, and the reaction was run at 60 degrees C for 4 h. After completion of the reaction as monitored by HPLC, the mixture was filtered, the solvent was removed from the filtrate by rotary evaporation, water was added, the pH was adjusted to 2 to 3 with hydrochloric acid, and the solid obtained by filtration was dried to give tembotrione, yield 76.59%.",
+   "notes": "English rendering corrected during the run: the vision pass wrote 'sulcotrione' for 环磺酮. 环磺酮 is the Chinese common name of tembotrione; sulcotrione is 磺草酮, a different registered triketone herbicide, and 'cyclic sulfone ketone' is a character gloss that names no compound. The Chinese is unchanged and is authoritative. See NOTES.md."
+  },
+  {
+   "marker": "[0136]",
+   "zh": "高效液相色谱条件：与实施例5相同。",
+   "en": "HPLC conditions: the same as in Example 5.",
+   "notes": null
+  },
+  {
+   "marker": "[0137]",
+   "zh": "实施例9 式(VIII)酯中间体的直接制备",
+   "en": "Example 9 Direct preparation of the ester intermediate of formula (VIII)",
+   "notes": "Last line on the page; the example body continues on the next page."
+  }
+ ],
+ "drawings": [
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "(top of page, preceding marker is not printed on this page)",
+    "[0132]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, labelled formula (IV)",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "1-bromo-2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+     "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right of arrow, labelled formula (V)",
+     "core": "benzene",
+     "substituents": [
+      "COOH at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+     "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [
+      "H2O"
+     ],
+     "reagents_below": [
+      "CO"
+     ],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Formula labels 式（IV）and 式（V）are printed below the two structures with full-width parentheses. The carboxyl in 式（V）is drawn as HO-C(=O)- attached to the ring carbon that bore Br."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0133]",
+    "[0134]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, top row far left, labelled formula (V)",
+     "core": "benzene",
+     "substituents": [
+      "COOH at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+     "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, top row middle, labelled formula (VII)",
+     "core": "benzene",
+     "substituents": [
+      "COCl at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+     "smiles": "ClC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "reagent drawn above the second arrow, top row",
+     "core": "cyclohexane-1,3-dione",
+     "substituents": [],
+     "name": "cyclohexane-1,3-dione",
+     "smiles": "O=C1CCCC(=O)C1",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "3rd, top row far right, labelled formula (VIII)",
+     "core": "benzene ester of a cyclohex-2-en-1-one (enol ester); benzoate O attached to the cyclohexenone ring carbon that carries the ring C=C",
+     "substituents": [
+      "C(=O)O-(3-oxocyclohex-1-en-1-yl) at C1 of the benzene",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4",
+      "ketone at C3 of the cyclohexenone ring, counting the ester-bearing carbon as C1"
+     ],
+     "name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+     "smiles": "O=C1CCCC(OC(=O)c2ccc(S(C)(=O)=O)c(COCC(F)(F)F)c2Cl)=C1",
+     "confidence": "medium"
+    },
+    {
+     "position_in_drawing": "4th, second row, product, labelled tembotrione",
+     "core": "cyclohexane-1,3-dione acylated at C2, benzene",
+     "substituents": [
+      "aroyl C(=O)Ar at C2 of cyclohexane-1,3-dione",
+      "Cl at C2 of the benzene",
+      "CH2OCH2CF3 at C3 of the benzene",
+      "SO2CH3 at C4 of the benzene",
+      "the carbonyl link is at C1 of the benzene"
+     ],
+     "name": "2-[2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl]cyclohexane-1,3-dione",
+     "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "medium"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [
+      "SOCl2"
+     ],
+     "reagents_below": [],
+     "arrow_style": "dashed",
+     "confidence": "high"
+    },
+    {
+     "from_structure": "2nd",
+     "to_structure": "3rd",
+     "reagents_above": [
+      "cyclohexane-1,3-dione, drawn as a structure above the arrow"
+     ],
+     "reagents_below": [],
+     "arrow_style": "dashed",
+     "confidence": "high"
+    },
+    {
+     "from_structure": "3rd",
+     "to_structure": "4th",
+     "reagents_above": [
+      "[illegible]"
+     ],
+     "reagents_below": [],
+     "arrow_style": "dashed",
+     "confidence": "low"
+    }
+   ],
+   "notes": "The scheme wraps onto a second row: the last arrow and the product 环磺酮 are drawn below the first row. All three arrows are drawn as dotted/dashed lines in this scan; that is how they are printed, not a scan artifact of a solid line, as the arrow in the [0132] scheme on the same page is clearly solid. The label above the third arrow is a short run of Chinese characters that is too degraded to read."
+  }
+ ],
+ "discrepancies": [
+  {
+   "what": "The reagent above the third arrow of the [0133] scheme cannot be read; the corresponding prose names acetone cyanohydrin.",
+   "drawing_says": "[illegible] label above the third arrow",
+   "text_says": "[0135] 往上述得到的式(VIII)化合物溶液中加入0.1mL丙酮氰醇 (0.1 mL acetone cyanohydrin)"
+  },
+  {
+   "what": "Triethylamine and the dioxane solvent are written in the prose but not drawn anywhere in the [0133] scheme.",
+   "drawing_says": "second arrow carries only the drawn cyclohexane-1,3-dione",
+   "text_says": "[0134] 0.5g 1,3-环己二酮溶于15mL二氧六环中，加入0.44g三乙胺"
+  },
+  {
+   "what": "The prose prints the formula label with an internal space where the drawing does not.",
+   "drawing_says": "式（VIII）",
+   "text_says": "[0134] 得到式(V III)化合物的溶液"
+  }
+ ],
+ "illegible": [
+  "The reagent label above the third (second-row) arrow of the scheme between [0133] and [0134]: roughly four to five Chinese characters, printed at small size and broken up by the scan."
+ ],
+ "page_confidence": "low"
+}

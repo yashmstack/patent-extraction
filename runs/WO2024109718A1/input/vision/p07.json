@@ -1,0 +1,177 @@
+{
+ "page": "p07.png",
+ "page_label": "6",
+ "doc_part": "description",
+ "header": "6\nWO 2024/109718                    PCT/CN2023/132821",
+ "footer": "",
+ "paragraphs": [
+  {
+   "marker": "[0022]",
+   "zh": "其中步骤(vi′-1)以分离中间体酯化合物的分步方式实施、或以不分离中间体酯化合物的一锅法方式实施。",
+   "en": "Wherein step (vi'-1) is carried out in a stepwise manner with isolation of the intermediate ester compound, or in a one-pot manner without isolation of the intermediate ester compound.",
+   "notes": "The prime on (vi′-1) is printed as a full-width/typographic prime; the hyphen before 1 is printed as a wide dash-like glyph."
+  },
+  {
+   "marker": "[0023]",
+   "zh": "(9)下式(A)所示的化合物：",
+   "en": "(9) A compound represented by the following formula (A):",
+   "notes": null
+  },
+  {
+   "marker": "[0024]",
+   "zh": "式中，R1和R2为以下任意一项：",
+   "en": "In the formula, R1 and R2 are any one of the following:",
+   "notes": "R1 and R2 are printed with subscript 1 and 2."
+  },
+  {
+   "marker": "[0025]",
+   "zh": "R1为CF3-CH2-O-CH2-、且R2为CH3-SO2-；",
+   "en": "R1 is CF3-CH2-O-CH2-, and R2 is CH3-SO2-;",
+   "notes": "Subscripts printed as subscripts (CF3, CH2, CH3, SO2); the semicolon is full-width ；"
+  },
+  {
+   "marker": "[0026]",
+   "zh": "R1为Br-CH2-、且R2为CH3-SO2-；",
+   "en": "R1 is Br-CH2-, and R2 is CH3-SO2-;",
+   "notes": null
+  },
+  {
+   "marker": "[0027]",
+   "zh": "R1为CH3-、且R2为CH3-SO2-；",
+   "en": "R1 is CH3-, and R2 is CH3-SO2-;",
+   "notes": null
+  },
+  {
+   "marker": "[0028]",
+   "zh": "R1为CH3-、且R2为CH3-S-。",
+   "en": "R1 is CH3-, and R2 is CH3-S-.",
+   "notes": null
+  },
+  {
+   "marker": "[0029]",
+   "zh": "(10)环磺酮制备方法，其特征在于，使用上述(9)所述的化合物作为中间体。",
+   "en": "(10) A process for preparing tembotrione, characterised in that the compound according to (9) above is used as an intermediate.",
+   "notes": "环磺酮 is translated literally as 'cyclic sulfone ketone'; it is the Chinese common name for the herbicide tembotrione. Translation left literal per the ambiguity rule. English rendering corrected during the run: the vision pass wrote 'cyclic sulfone ketone' for 环磺酮. 环磺酮 is the Chinese common name of tembotrione; sulcotrione is 磺草酮, a different registered triketone herbicide, and 'cyclic sulfone ketone' is a character gloss that names no compound. The Chinese is unchanged and is authoritative. See NOTES.md."
+  },
+  {
+   "marker": "[0030]",
+   "zh": "(11)根据上述(9)所述的化合物用作环磺酮制备中间体的用途。",
+   "en": "(11) Use of the compound according to (9) above as an intermediate for the preparation of tembotrione.",
+   "notes": "English rendering corrected during the run: the vision pass wrote 'cyclic sulfone ketone' for 环磺酮. 环磺酮 is the Chinese common name of tembotrione; sulcotrione is 磺草酮, a different registered triketone herbicide, and 'cyclic sulfone ketone' is a character gloss that names no compound. The Chinese is unchanged and is authoritative. See NOTES.md."
+  },
+  {
+   "marker": null,
+   "zh": "附图说明",
+   "en": "Brief description of the drawings",
+   "notes": "Section heading, larger type, no paragraph marker."
+  },
+  {
+   "marker": "[0031]",
+   "zh": "图1为实施例1中制备的式(VI)化合物的1HNMR谱图。",
+   "en": "Figure 1 is the 1H NMR spectrum of the compound of formula (VI) prepared in Example 1.",
+   "notes": "The 1 in 1HNMR is printed as a superscript."
+  },
+  {
+   "marker": "[0032]",
+   "zh": "图2为实施例1中制备的式(VI)化合物的13CNMR谱图。",
+   "en": "Figure 2 is the 13C NMR spectrum of the compound of formula (VI) prepared in Example 1.",
+   "notes": "The 13 in 13CNMR is printed as a superscript."
+  },
+  {
+   "marker": "[0033]",
+   "zh": "图3为实施例2中制备的式(I)化合物的1HNMR谱图。",
+   "en": "Figure 3 is the 1H NMR spectrum of the compound of formula (I) prepared in Example 2.",
+   "notes": null
+  },
+  {
+   "marker": "[0034]",
+   "zh": "图4为实施例2中制备的式(I)化合物的13CNMR谱图。",
+   "en": "Figure 4 is the 13C NMR spectrum of the compound of formula (I) prepared in Example 2.",
+   "notes": null
+  },
+  {
+   "marker": "[0035]",
+   "zh": "图5为实施例3中制备的式(II)化合物的1HNMR谱图。",
+   "en": "Figure 5 is the 1H NMR spectrum of the compound of formula (II) prepared in Example 3.",
+   "notes": null
+  },
+  {
+   "marker": "[0036]",
+   "zh": "图6为实施例3中制备的式(II)化合物的13CNMR谱图。",
+   "en": "Figure 6 is the 13C NMR spectrum of the compound of formula (II) prepared in Example 3.",
+   "notes": null
+  },
+  {
+   "marker": "[0037]",
+   "zh": "图7为实施例4中制备的式(III)化合物的1HNMR谱图。",
+   "en": "Figure 7 is the 1H NMR spectrum of the compound of formula (III) prepared in Example 4.",
+   "notes": null
+  },
+  {
+   "marker": "[0038]",
+   "zh": "图8为实施例4中制备的式(III)化合物的13CNMR谱图。",
+   "en": "Figure 8 is the 13C NMR spectrum of the compound of formula (III) prepared in Example 4.",
+   "notes": null
+  },
+  {
+   "marker": "[0039]",
+   "zh": "图9为实施例5中制备的式(IV)化合物的1HNMR谱图。",
+   "en": "Figure 9 is the 1H NMR spectrum of the compound of formula (IV) prepared in Example 5.",
+   "notes": null
+  },
+  {
+   "marker": "[0040]",
+   "zh": "图10为实施例5中制备的式(IV)化合物的13CNMR谱图。",
+   "en": "Figure 10 is the 13C NMR spectrum of the compound of formula (IV) prepared in Example 5.",
+   "notes": null
+  },
+  {
+   "marker": "[0041]",
+   "zh": "图11为实施例6中制备的式(V)化合物的1HNMR谱图。",
+   "en": "Figure 11 is the 1H NMR spectrum of the compound of formula (V) prepared in Example 6.",
+   "notes": null
+  },
+  {
+   "marker": "[0042]",
+   "zh": "图12为实施例6中制备的式(V)化合物的13CNMR谱图。",
+   "en": "Figure 12 is the 13C NMR spectrum of the compound of formula (V) prepared in Example 6.",
+   "notes": null
+  },
+  {
+   "marker": "[0043]",
+   "zh": "图13为实施例9中制备的式(VIII)化合物的1HNMR谱图。",
+   "en": "Figure 13 is the 1H NMR spectrum of the compound of formula (VIII) prepared in Example 9.",
+   "notes": "Example number jumps from 6 to 9 here; transcribed as printed."
+  }
+ ],
+ "drawings": [
+  {
+   "kind": "structure",
+   "between_markers": [
+    "[0023]",
+    "[0024]"
+   ],
+   "presented_as": "intermediate_structure",
+   "structures": [
+    {
+     "position_in_drawing": "1st, only structure on the page, left of centre under [0023]",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1 (upper-left vertex)",
+      "Cl at C2 (top vertex, adjacent to Br)",
+      "R1 at C3 (upper-right vertex, adjacent to Cl)",
+      "R2 at C4 (lower-right vertex, adjacent to R1)"
+     ],
+     "name": null,
+     "smiles": null,
+     "confidence": "high"
+    }
+   ],
+   "arrows": [],
+   "notes": "Labelled (A) to the right of the drawing. Hexagon drawn with three inner double-bond lines (Kekule benzene). Four substituents occupy four consecutive ring positions; the two remaining vertices (bottom and lower-left) carry no substituent. R1 and R2 are variables defined in [0025]-[0028], so no SMILES or name is given. Positions read off the drawing only, not inferred."
+  }
+ ],
+ "discrepancies": [],
+ "illegible": [],
+ "page_confidence": "high"
+}

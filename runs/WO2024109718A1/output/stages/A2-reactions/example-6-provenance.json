@@ -1,0 +1,9 @@
+[
+  {
+    "reaction_id": "Example 6_Step 1",
+    "source_lines": [489, 498],
+    "quote_zh": "向高压釜中加入式(IV)化合物40g、水20g、三乙胺26.49g、PdCl₂催化剂0.4g、配体1,4-双(二苯基膦)丁烷4.65g、溶剂1,4-二氧六环400g，抽真空，氮气置换，以约1～4MPa的压力通入CO，在80℃反应约12h。",
+    "arithmetic_check": "Stated inputs: 40 g of the compound of formula (IV), 20 g water, 26.49 g triethylamine, 0.4 g PdCl2, 4.65 g dppb, 400 g dioxane. Stated output: no mass, yield 81.13 percent, melting point 155-157 C. No mole figure is printed for any charge, so no stated mass/mole pair exists to test and molar_mass_inconsistent cannot arise. With the scheme formulae, C10H9BrClF3O3S (MW about 381.6) gives 40 g = about 0.105 mol, and 81.13 percent to C11H10ClF3O5S (MW about 346.7) would be about 29.5 g; since no product mass is printed there is nothing for that to contradict, so mass_balance_implausible is not raised. Triethylamine 26.49 g is about 0.262 mol, roughly 2.5 equivalents to the bromide, consistent with a base that must take up the HBr formed; the text states no ratio, so molar_ratio_text is left null.",
+    "drawing_evidence": "The [IMAGE_EXTRACT: {\"reactions\": ...}] span on line 491, one arrow, step_id 1: reactant CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F, conditions H2O and CO, product CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F. It agrees with the prose of line 493 in connectivity and in the two reagents it shows: the bromine is replaced by a carboxylic acid. The drawing carries no catalyst, ligand, base, solvent, temperature, pressure or time, but omission on an overview arrow is not a contradiction of the procedure, so no drawing_text_conflict and no reagent_written_not_drawn is raised; the prose is the source of every structured field."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "tembotrione",
+    "identifier_type": "trivial_name",
+    "aliases": ["环磺酮"],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Technical Field",
+    "section_type": "technical_field",
+    "is_section_product": true,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": ["compound_class:active_ingredient", "chemical_family:triketone"],
+    "notes": "Only compound named in the section. 环磺酮 is the standard Chinese common name for tembotrione, so the resolution is unambiguous; the Chinese is kept as an alias. The EN line renders it as \"tembotrione (huanhuangtong)\", a pinyin gloss rather than a conflicting name. 有机化工技术领域 (field of organic chemical technology) is a field-of-art term, not a compound, so it is not extracted. is_section_product is true because the section states the invention is a process for preparing this compound and names no other."
+  }
+]

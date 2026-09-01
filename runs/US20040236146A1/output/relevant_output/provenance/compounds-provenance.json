@@ -1,0 +1,565 @@
+[
+  {
+    "identifier": "3-bromomethylbenzoic acids of the formula II",
+    "source_lines": [
+      40,
+      42
+    ],
+    "quote_zh": "A process is described for preparing 3-bromomethylbenzoic acids of the formula II"
+  },
+  {
+    "identifier": "3-methylbenzoic acids",
+    "source_lines": [
+      44
+    ],
+    "quote_zh": "by brominating the corresponding 3-methylbenzoic acids."
+  },
+  {
+    "identifier": "compounds of the formula II",
+    "source_lines": [
+      46
+    ],
+    "quote_zh": "In addition, compounds of the formula II are described where R1 is fluorine chlorine or bromine, and R2 is (C1-C4)alkyl."
+  },
+  {
+    "identifier": "3-bromomethylbenzoic acid",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "Derivatives of 3-bromomethylbenzoic acid constitute valuable reactants in the synthesis of certain herbicides."
+  },
+  {
+    "identifier": "bromomethyl aromatics",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "Bromomethyl aromatics may in principle be prepared from the corresponding methyl aromatics by side chain bromination; on this subject, cf. Houben-Weyl, Vol. 5, page 331 ff. (1960)."
+  },
+  {
+    "identifier": "methyl aromatics",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "Bromomethyl aromatics may in principle be prepared from the corresponding methyl aromatics by side chain bromination[...]WO 99/06339 discloses a process for preparing substituted benzyl bromides by brominating the corresponding methyl aromatics"
+  },
+  {
+    "identifier": "substituted benzyl bromides",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "WO 99/06339 discloses a process for preparing substituted benzyl bromides by brominating the corresponding methyl aromatics"
+  },
+  {
+    "identifier": "azocarboxylic esters",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "in the presence of azocarboxylic esters or azonitriles and in the presence of an oxidizing agent"
+  },
+  {
+    "identifier": "azonitriles",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "in the presence of azocarboxylic esters or azonitriles and in the presence of an oxidizing agent"
+  },
+  {
+    "identifier": "oxidizing agent",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "in the presence of azocarboxylic esters or azonitriles and in the presence of an oxidizing agent. [...] Disadvantages of this process are the use of an additional oxidizing agent and the not always satisfactory yields."
+  },
+  {
+    "identifier": "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "EP-A 0 292 944 describes the preparation of methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate by radical initiator-induced bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride."
+  },
+  {
+    "identifier": "radical initiator",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "EP-A 0 292 944 describes the preparation of methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate by radical initiator-induced bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride."
+  },
+  {
+    "identifier": "methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "EP-A 0 292 944 describes the preparation of methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate by radical initiator-induced bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride."
+  },
+  {
+    "identifier": "carbon tetrachloride",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "by radical initiator-induced bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride."
+  },
+  {
+    "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "source_lines": [
+      55,
+      56
+    ],
+    "quote_zh": "L55 as printed: The free acid, 3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid is then obtained from this latter compound by hydrolysis. | L56 EN: The free acid, 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid is then obtained from this latter compound by hydrolysis."
+  },
+  {
+    "identifier": "3-bromomethylbenzoic acid of formula II",
+    "source_lines": [
+      150,
+      175,
+      191,
+      195
+    ],
+    "quote_zh": "6. A process for preparing a 3-bromomethylbenzoic acid of formula II"
+  },
+  {
+    "identifier": "3-methylbenzoic acid of formula I",
+    "source_lines": [
+      152,
+      175
+    ],
+    "quote_zh": "which comprises brominating a 3-methylbenzoic acid of formula I"
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      154
+    ],
+    "quote_zh": "with N-bromosuccimide in the presence of a radical initiator, where, in formulae I and II"
+  },
+  {
+    "identifier": "radical initiator",
+    "source_lines": [
+      154,
+      160
+    ],
+    "quote_zh": "with N-bromosuccimide in the presence of a radical initiator, where, in formulae I and II"
+  },
+  {
+    "identifier": "azoisobutyronitrile",
+    "source_lines": [
+      160
+    ],
+    "quote_zh": "7. The process as claimed in claim 6, wherein the radical initiator is azoisobutyronitrile or dibenzoyl peroxide."
+  },
+  {
+    "identifier": "dibenzoyl peroxide",
+    "source_lines": [
+      160
+    ],
+    "quote_zh": "7. The process as claimed in claim 6, wherein the radical initiator is azoisobutyronitrile or dibenzoyl peroxide."
+  },
+  {
+    "identifier": "chlorobenzene",
+    "source_lines": [
+      167,
+      183
+    ],
+    "quote_zh": "9. The process as claimed in claim 8, wherein the solvent is chlorobenzene."
+  },
+  {
+    "identifier": "acetonitrile",
+    "source_lines": [
+      169
+    ],
+    "quote_zh": "10. The process as claimed in claim 8, wherein the solvent is acetonitrile."
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [
+      175
+    ],
+    "quote_zh": "which comprises brominating a 3-methylbenzoic acid of formula I [drawing, formula (I)] with elemental bromine and irradiation with a photolamp"
+  },
+  {
+    "identifier": "methylene chloride",
+    "source_lines": [
+      185
+    ],
+    "quote_zh": "16. The process as claimed in claim 14, wherein the solvent is methylene chloride."
+  },
+  {
+    "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "source_lines": [
+      191
+    ],
+    "quote_zh": "19. A compound of formula II [drawing, formula (II)] wherein R1 is fluorine, chlorine or bromine, and R2 is (C1-C4)alkyl, excluding 3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid."
+  },
+  {
+    "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "source_lines": [
+      116,
+      117,
+      118,
+      124,
+      126,
+      130
+    ],
+    "quote_zh": "Preparation of / 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic / Acid (the centred title as printed, one fragment per line, lines 116, 117 and 118) ... 121.3 g (88.4% of theory) of 3-bromomethyl-2-chloro4-methylsulfonyl-benzoic acid were obtained. Purity: 96% (HPLC) Melting point: 207-208° C. According to HPLC analysis, the reaction mixture contained 87% of product and 10% of reactant."
+  },
+  {
+    "identifier": "2-chloro-3-methyl-4-methylsulfonylbenzoic acid",
+    "source_lines": [
+      122,
+      130
+    ],
+    "quote_zh": "100g of 2-chloro-3-methyl4-sulfonylmethylbenzoic acid were suspended in 400 ml of chlorobenzene. A 250 ml glass flask was initially charged with 5 g of 2-chloro-3-methyl-4-sulfonylmethylbenzoic acid in 50 ml of methylene chloride and 50 ml of water."
+  },
+  {
+    "identifier": "chlorobenzene",
+    "source_lines": [
+      122
+    ],
+    "quote_zh": "100g of 2-chloro-3-methyl4-sulfonylmethylbenzoic acid were suspended in 400 ml of chlorobenzene."
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      122
+    ],
+    "quote_zh": "At room temperature, 85.9 g of N-bromosuccinimide and 6.6 g of azoisobutyroniltrile were added and the mixture was subsequently heated to 60° C."
+  },
+  {
+    "identifier": "azoisobutyronitrile",
+    "source_lines": [
+      122
+    ],
+    "quote_zh": "At room temperature, 85.9 g of N-bromosuccinimide and 6.6 g of azoisobutyroniltrile were added and the mixture was subsequently heated to 60° C."
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [
+      122,
+      130
+    ],
+    "quote_zh": "Afterwards, 2.6 g of bromine were added and the reaction mixture was further heated gradually to 90° C. Under irradiation with a 300 W lamp, II g of bromine were gradually metered in over 3 h, and the mixture boiled under reflux."
+  },
+  {
+    "identifier": "sodium bisulfite",
+    "source_lines": [
+      122
+    ],
+    "quote_zh": "100 ml of a 2% sodium bisulfite solution and 400 ml of water were added in succession and stirred well."
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      122,
+      130
+    ],
+    "quote_zh": "100 ml of a 2% sodium bisulfite solution and 400 ml of water were added in succession and stirred well. A 250 ml glass flask was initially charged with 5 g of 2-chloro-3-methyl-4-sulfonylmethylbenzoic acid in 50 ml of methylene chloride and 50 ml of water."
+  },
+  {
+    "identifier": "methylene chloride",
+    "source_lines": [
+      130
+    ],
+    "quote_zh": "A 250 ml glass flask was initially charged with 5 g of 2-chloro-3-methyl-4-sulfonylmethylbenzoic acid in 50 ml of methylene chloride and 50 ml of water."
+  },
+  {
+    "identifier": "2-chloro-3-methyl-4-ethylsulfonylbenzoic acid",
+    "source_lines": [
+      136,
+      137,
+      140
+    ],
+    "quote_zh": "20 g of 2-chloro-3-methyl-4-sulfonylethylbenzoic acid were suspended in 150 ml of acetonitrile"
+  },
+  {
+    "identifier": "acetonitrile",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "were suspended in 150 ml of acetonitrile"
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "At room temperature, 17.6 g of N-bromosuccinimide and 0.7 g of dibenzoyl peroxide were added"
+  },
+  {
+    "identifier": "dibenzoyl peroxide",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "0.7 g of dibenzoyl peroxide were added and the mixture was subsequently heated to reflux. After in each case 1 h, further dibenzoyl peroxide was added in 3 portions each of 0.7 g"
+  },
+  {
+    "identifier": "sodium bisulfite",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "100 ml of a 2% sodium bisulfite solution and 300 ml of ethyl acetate were added in succession"
+  },
+  {
+    "identifier": "ethyl acetate",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "300 ml of ethyl acetate were added in succession. The organic phase was removed, washed and concentrated under reduced pressure"
+  },
+  {
+    "identifier": "diethyl ether",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "The solid residue was suspended in 50 ml of diethyl ether and 20 ml of heptane, filtered off and dried"
+  },
+  {
+    "identifier": "heptane",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "The solid residue was suspended in 50 ml of diethyl ether and 20 ml of heptane, filtered off and dried"
+  },
+  {
+    "identifier": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+    "source_lines": [
+      136,
+      137,
+      138,
+      140,
+      142
+    ],
+    "quote_zh": "Preparation of / 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic / Acid (the title as printed, one fragment per line, lines 136, 137 and 138) ... 28.2 g (95.6% of theory) of 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid were obtained. ... Purity: 88% (HPLC) Melting point: 103° C."
+  },
+  {
+    "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "source_lines": [
+      100,
+      110
+    ],
+    "quote_zh": "With the exception of the compound 3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid which is disclosed by EP-A 0 292 944 ... excluding the compound 3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid."
+  },
+  {
+    "identifier": "compounds of the formula II",
+    "source_lines": [
+      100,
+      102
+    ],
+    "quote_zh": "compounds of the formula II are novel. The present invention therefore further provides compounds of the formula II [IMAGE_EXTRACT: {\"molecules\": []}]"
+  },
+  {
+    "identifier": "radical initiator",
+    "source_lines": [
+      79,
+      87
+    ],
+    "quote_zh": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art / it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent"
+  },
+  {
+    "identifier": "diaroyl peroxides",
+    "source_lines": [
+      79
+    ],
+    "quote_zh": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide."
+  },
+  {
+    "identifier": "azocarboxylic esters",
+    "source_lines": [
+      79
+    ],
+    "quote_zh": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide."
+  },
+  {
+    "identifier": "azonitriles",
+    "source_lines": [
+      79
+    ],
+    "quote_zh": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide."
+  },
+  {
+    "identifier": "azoisobutyronitrile",
+    "source_lines": [
+      79
+    ],
+    "quote_zh": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide."
+  },
+  {
+    "identifier": "dibenzoyl peroxide",
+    "source_lines": [
+      79
+    ],
+    "quote_zh": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide."
+  },
+  {
+    "identifier": "halogenated hydrocarbons",
+    "source_lines": [
+      83
+    ],
+    "quote_zh": "These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile."
+  },
+  {
+    "identifier": "methylene chloride",
+    "source_lines": [
+      83,
+      85
+    ],
+    "quote_zh": "These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile. It has been found that the solvents chlorobenzene and acetonitrile are advantageous for process variant A), and the solvents chlorobenzene, methylene chloride and 1,2-dichloroethane for process variant B). In the case of the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride, preference is given to working under reflux."
+  },
+  {
+    "identifier": "chloroform",
+    "source_lines": [
+      83
+    ],
+    "quote_zh": "These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile."
+  },
+  {
+    "identifier": "carbon tetrachloride",
+    "source_lines": [
+      83
+    ],
+    "quote_zh": "These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile."
+  },
+  {
+    "identifier": "1,2-dichloroethane",
+    "source_lines": [
+      83,
+      85
+    ],
+    "quote_zh": "These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile. It has been found that the solvents chlorobenzene and acetonitrile are advantageous for process variant A), and the solvents chlorobenzene, methylene chloride and 1,2-dichloroethane for process variant B). In the case of the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride, preference is given to working under reflux."
+  },
+  {
+    "identifier": "chlorobenzene",
+    "source_lines": [
+      83
+    ],
+    "quote_zh": "These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile. It has been found that the solvents chlorobenzene and acetonitrile are advantageous for process variant A), and the solvents chlorobenzene, methylene chloride and 1,2-dichloroethane for process variant B)."
+  },
+  {
+    "identifier": "acetonitrile",
+    "source_lines": [
+      83,
+      85
+    ],
+    "quote_zh": "These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile. It has been found that the solvents chlorobenzene and acetonitrile are advantageous for process variant A), and the solvents chlorobenzene, methylene chloride and 1,2-dichloroethane for process variant B). In the case of the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride, preference is given to working under reflux."
+  },
+  {
+    "identifier": "compound of the formula I",
+    "source_lines": [
+      87,
+      89,
+      91
+    ],
+    "quote_zh": "In process variant A), it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent, and then to heat gradually. The reaction may optionally be accelerated by adding a little bromine. Preference is given to using NBS in excess. In process variant B), it is appropriate to initially charge a compound of the formula I in solvent and then, after heating under irradiation with a photolamp, to add bromine dropwise. Preference is given to using bromine in excess. Depending on the solubilities of the compounds of the formulae I and II in the solvent used, these compounds are completely or partly dissolved."
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      87
+    ],
+    "quote_zh": "In process variant A), it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent, and then to heat gradually. The reaction may optionally be accelerated by adding a little bromine. Preference is given to using NBS in excess."
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [
+      87,
+      89
+    ],
+    "quote_zh": "In process variant A), it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent, and then to heat gradually. The reaction may optionally be accelerated by adding a little bromine. Preference is given to using NBS in excess. In process variant B), it is appropriate to initially charge a compound of the formula I in solvent and then, after heating under irradiation with a photolamp, to add bromine dropwise. Preference is given to using bromine in excess."
+  },
+  {
+    "identifier": "compound of the formula II",
+    "source_lines": [
+      91,
+      98
+    ],
+    "quote_zh": "Depending on the solubilities of the compounds of the formulae I and II in the solvent used, these compounds are completely or partly dissolved. The precise time at which the reaction is completed may be monitored, for example, by thin-film chromatography or by HPLC."
+  },
+  {
+    "identifier": "sodium bisulfate",
+    "source_lines": [
+      98
+    ],
+    "quote_zh": "None A), it is appropriate to initially add sodium bisulfate solution and optionally solvents. In both cases, the reaction product is washed and, if necessary, further purified by recrystallization, for example from ethyl acetate or butyl acetate."
+  },
+  {
+    "identifier": "ethyl acetate",
+    "source_lines": [
+      98
+    ],
+    "quote_zh": "None A), it is appropriate to initially add sodium bisulfate solution and optionally solvents. In both cases, the reaction product is washed and, if necessary, further purified by recrystallization, for example from ethyl acetate or butyl acetate."
+  },
+  {
+    "identifier": "butyl acetate",
+    "source_lines": [
+      98
+    ],
+    "quote_zh": "None A), it is appropriate to initially add sodium bisulfate solution and optionally solvents. In both cases, the reaction product is washed and, if necessary, further purified by recrystallization, for example from ethyl acetate or butyl acetate."
+  },
+  {
+    "identifier": "2-halo-3-methyl4-alkylsulfonylbenzoic acids",
+    "source_lines": [
+      57,
+      58
+    ],
+    "quote_zh": "L57 as printed: It has now been found that 2-halo-3-methyl4-alkylsulfonylbenzoic acids can be converted in very good yields and in very high purities by bromination | L58 EN: It has now been found that 2-halo-3-methyl-4-alkylsulfonylbenzoic acids can be converted"
+  },
+  {
+    "identifier": "3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids",
+    "source_lines": [
+      57
+    ],
+    "quote_zh": "to the corresponding 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids."
+  },
+  {
+    "identifier": "3-bromomethylbenzoic acids of the formula II",
+    "source_lines": [
+      57,
+      59,
+      61
+    ],
+    "quote_zh": "L57: processes for directly preparing 3-bromomethylbenzoic acids are desirable. | L59: The present invention therefore provides a process for preparing 3-bromomethylbenzoic acids of the formula II | L61: [IMAGE_EXTRACT: {\"molecules\": []}]"
+  },
+  {
+    "identifier": "3-methylbenzoic acids of the formula I",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "L63: by brominating 3-methylbenzoic acids of the formula I | L65: [IMAGE_EXTRACT: {\"molecules\": []}]"
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      69,
+      70
+    ],
+    "quote_zh": "L69 as printed: A) N-bromosuccimide in the presence of a radical initiator, or | L70 EN: A) N-bromosuccinimide in the presence of a radical initiator, or"
+  },
+  {
+    "identifier": "radical initiator",
+    "source_lines": [
+      69
+    ],
+    "quote_zh": "A) N-bromosuccimide in the presence of a radical initiator, or"
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "B) elemental bromine and irradiation with a photolamp,"
+  },
+  {
+    "identifier": "3-bromomethylbenzoic acids",
+    "source_lines": [
+      51,
+      53
+    ],
+    "quote_zh": "METHOD FOR PRODUCING 3-BROMOMETHYLBENZOIC ACIDS / [0001] The invention relates to a process for preparing 3-bromomethylbenzoic acids by brominating the corresponding 3-methylbenzoic acids. It further relates to certain 3-bromomethylbenzoic acids."
+  },
+  {
+    "identifier": "3-methylbenzoic acids",
+    "source_lines": [
+      53
+    ],
+    "quote_zh": "[0001] The invention relates to a process for preparing 3-bromomethylbenzoic acids by brominating the corresponding 3-methylbenzoic acids."
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "page": "p37.png",
+  "page_label": "8/10",
+  "doc_part": "drawings",
+  "header": "8/10\nWO 2024/109718                    PCT/CN2023/132821",
+  "footer": "",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "［图 12］",
+      "en": "[Figure 12]",
+      "notes": "Figure caption printed at the top left of the sheet, above the first structure and spectrum. This is a drawings sheet of the PCT publication, not description prose; there are no [00NN] paragraph markers anywhere on the page."
+    },
+    {
+      "marker": null,
+      "zh": "［图 13］",
+      "en": "[Figure 13]",
+      "notes": "Second figure caption, printed in the left margin roughly halfway down the sheet, above the second structure and spectrum."
+    },
+    {
+      "marker": null,
+      "zh": "细则 26,\n26.12.2023",
+      "en": "Rule 26, 26.12.2023",
+      "notes": "Replacement-sheet stamp in the right margin, beside a heavy vertical rule. It appears twice on this sheet, once beside each figure. A page artifact, not content."
+    },
+    {
+      "marker": null,
+      "zh": "f1（ppm）",
+      "en": "f1 (ppm)",
+      "notes": "Axis label under each of the two spectra. The glyphs are broken in the scan; the two-character token before the parenthesis and the three-letter token inside it are consistent with \"f1\" and \"ppm\" but no single letter is crisply readable in isolation. Parenthesis width cannot be judged from the scan."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "structure",
+      "between_markers": [],
+      "presented_as": "intermediate_structure",
+      "structures": [
+        {
+          "position_in_drawing": "1st, top-left of the sheet, drawn above the upper spectrum as the compound that spectrum belongs to (Figure 12)",
+          "core": "benzene",
+          "substituents": [
+            "COOH at C1",
+            "Cl at C2",
+            "CH2OCH2CF3 at C3",
+            "SO2CH3 at C4",
+            "H at C5",
+            "H at C6"
+          ],
+          "name": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+          "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [],
+      "notes": "Numbering is read off the drawing only: the carboxyl-bearing vertex (upper-left of the hexagon) is called C1 and the ring is walked clockwise through the substituted vertices. As drawn, four substituents occupy four consecutive vertices: COOH at the upper-left vertex, then Cl at the top vertex, then the side chain at the upper-right vertex, then the sulfonyl at the lower-right vertex; the bottom and lower-left vertices carry no label. The side chain is drawn ring-CH2-O-CH2-C(F)(F)F: two apexes flank the labelled O, and the terminal carbon carries three separate F labels (upper right, lower right, and lower left). The sulfonyl is drawn as S with two double-bonded O labels and a CH3 label. This drawing is larger and cleaner than the Figure 13 drawing and every label including the Cl is crisply readable, so confidence is high; it is the same compound drawn on sheet 7/10 for Figure 11."
+    },
+    {
+      "kind": "structure",
+      "between_markers": [],
+      "presented_as": "intermediate_structure",
+      "structures": [
+        {
+          "position_in_drawing": "2nd, upper-left of the lower half of the sheet, drawn above the lower spectrum as the compound that spectrum belongs to (Figure 13)",
+          "core": "benzene (benzoate ester) linked through an ester oxygen to a cyclohex-2-en-1-one ring",
+          "substituents": [
+            "C(=O)O-(3-oxocyclohex-1-en-1-yl) at C1 of the benzene ring",
+            "Cl at C2 of the benzene ring",
+            "CH2OCH2CF3 at C3 of the benzene ring",
+            "SO2CH3 at C4 of the benzene ring",
+            "H at C5 of the benzene ring",
+            "H at C6 of the benzene ring",
+            "O-ester at C1 of the cyclohexene ring",
+            "C1=C2 double bond in the cyclohexene ring",
+            "=O at C3 of the cyclohexene ring"
+          ],
+          "name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+          "smiles": "O=C(OC1=CC(=O)CCC1)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium"
+        }
+      ],
+      "arrows": [],
+      "notes": "Benzene numbering is read off the drawing only, exactly as for Figure 12: the acyl-bearing vertex (upper-left of the hexagon) is called C1, then the top vertex, then the upper-right vertex, then the lower-right vertex; the bottom and lower-left vertices carry no label. The acyl group is drawn as a carbon with a double-bonded O pointing up and a single bond to a labelled O on its left, and that O connects down to the top vertex of the left-hand six-membered carbocycle. In that carbocycle the O-bearing vertex is called C1; a double bond is drawn inside the ring from C1 to the vertex clockwise from it (C2), and the next vertex round (C3) carries an exocyclic double bond to a labelled O. The remaining three vertices are unsubstituted CH2. This drawing is smaller and more degraded than the Figure 12 drawing: the Cl, CF3 and CH3 labels are at the resolution limit of the scan and were read at 8x magnification on glyph shape, so the structure is recorded at medium confidence. Connectivity, ring sizes, the ester linkage and both double bonds are unambiguous."
+    }
+  ],
+  "discrepancies": [],
+  "illegible": [
+    "Figure 13 structure: the halogen label at the top vertex of the benzene ring is two small broken glyphs. It reads as \"Cl\" at 8x magnification and matches the same position in the Figure 12 drawing on this sheet, but no single letter is crisply resolved.",
+    "Figure 13 structure: the terminal side-chain label reads as \"CF3\" and the sulfonyl methyl as \"CH3\" on glyph shape at high magnification; the subscripts are not individually resolved.",
+    "Upper spectrum (Figure 12) axis tick numbers run 200 down to 10 in steps of 10, but the digits are broken dotted glyphs; the sequence is legible as a whole and no single tick is crisply readable in isolation.",
+    "Lower spectrum (Figure 13) axis tick numbers run from roughly 9.5 down to 1.0 in steps of 0.5, but the digits are broken dotted glyphs and no single tick is crisply readable in isolation.",
+    "Neither spectrum carries any printed peak position, integral or multiplicity label; there are no numeric peak annotations on this sheet to transcribe.",
+    "The axis label under each trace is broken; transcribed as \"f1 (ppm)\" on shape alone."
+  ],
+  "page_confidence": "medium"
+}

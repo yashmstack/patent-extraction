@@ -1,0 +1,323 @@
+[
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      553,
+      612,
+      668,
+      670
+    ],
+    "quote_zh": "环磺酮制备方法"
+  },
+  {
+    "identifier": "palladium",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "所述贵金属选自钯、铑、钌、铜、钴"
+  },
+  {
+    "identifier": "rhodium",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "所述贵金属选自钯、铑、钌、铜、钴"
+  },
+  {
+    "identifier": "ruthenium",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "所述贵金属选自钯、铑、钌、铜、钴"
+  },
+  {
+    "identifier": "copper",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "所述贵金属选自钯、铑、钌、铜、钴"
+  },
+  {
+    "identifier": "cobalt",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "所述贵金属选自钯、铑、钌、铜、钴"
+  },
+  {
+    "identifier": "palladium(II) chloride",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "氯化钯"
+  },
+  {
+    "identifier": "palladium(II) carbonate",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "碳酸钯"
+  },
+  {
+    "identifier": "palladium(II) acetate",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "醋酸钯"
+  },
+  {
+    "identifier": "palladium on carbon",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "钯/碳"
+  },
+  {
+    "identifier": "palladium(II) trifluoroacetate",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "三氟乙酸钯"
+  },
+  {
+    "identifier": "bis(dibenzylideneacetone)palladium(0)",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "双二亚苄基丙酮钯"
+  },
+  {
+    "identifier": "1,3-bis(diphenylphosphino)propane",
+    "source_lines": [
+      570
+    ],
+    "quote_zh": "1,3-(双二苯基膦)丙烷"
+  },
+  {
+    "identifier": "1,4-bis(diphenylphosphino)butane",
+    "source_lines": [
+      570
+    ],
+    "quote_zh": "1,4-双(二苯基膦)丁烷"
+  },
+  {
+    "identifier": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+    "source_lines": [
+      570
+    ],
+    "quote_zh": "双[(4-N,N-二甲氨基)苯基]二叔丁基膦"
+  },
+  {
+    "identifier": "toluene",
+    "source_lines": [
+      572
+    ],
+    "quote_zh": "甲苯"
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "source_lines": [
+      572
+    ],
+    "quote_zh": "1,4-二氧六环"
+  },
+  {
+    "identifier": "ethylene glycol dimethyl ether",
+    "source_lines": [
+      572
+    ],
+    "quote_zh": "乙二醇二甲醚"
+  },
+  {
+    "identifier": "ethylene glycol diethyl ether",
+    "source_lines": [
+      572
+    ],
+    "quote_zh": "乙二醇二乙醚"
+  },
+  {
+    "identifier": "dimethyl sulfoxide",
+    "source_lines": [
+      572
+    ],
+    "quote_zh": "二甲基亚砜"
+  },
+  {
+    "identifier": "tetrahydrofuran",
+    "source_lines": [
+      572
+    ],
+    "quote_zh": "四氢呋喃"
+  },
+  {
+    "identifier": "N,N-dimethylformamide",
+    "source_lines": [
+      572
+    ],
+    "quote_zh": "N,N-二甲基甲酰胺"
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [
+      585,
+      603,
+      664,
+      580,
+      639
+    ],
+    "quote_zh": "溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素"
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      585,
+      603,
+      664
+    ],
+    "quote_zh": "溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素"
+  },
+  {
+    "identifier": "hydrogen bromide",
+    "source_lines": [
+      585,
+      603,
+      664
+    ],
+    "quote_zh": "溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素"
+  },
+  {
+    "identifier": "hydrogen peroxide",
+    "source_lines": [
+      585,
+      603,
+      664,
+      589,
+      641
+    ],
+    "quote_zh": "溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素"
+  },
+  {
+    "identifier": "CF3CH2ONa",
+    "source_lines": [
+      587,
+      603,
+      666
+    ],
+    "quote_zh": "CF3CH2OM为CF3CH2ONa或CF3CH2OK"
+  },
+  {
+    "identifier": "CF3CH2OK",
+    "source_lines": [
+      587,
+      603,
+      666
+    ],
+    "quote_zh": "CF3CH2OM为CF3CH2ONa或CF3CH2OK"
+  },
+  {
+    "identifier": "CF3CH2OM",
+    "source_lines": [
+      587,
+      593,
+      603,
+      645,
+      666
+    ],
+    "quote_zh": "CF3CH2OM为CF3CH2ONa或CF3CH2OK"
+  },
+  {
+    "identifier": "CO",
+    "source_lines": [
+      561,
+      563,
+      618,
+      620
+    ],
+    "quote_zh": "{\"text\": \"CO\"}"
+  },
+  {
+    "identifier": "H2O",
+    "source_lines": [
+      561,
+      618
+    ],
+    "quote_zh": "{\"text\": \"H2O\"}"
+  },
+  {
+    "identifier": "CSc1cccc(Cl)c1C",
+    "source_lines": [
+      576
+    ],
+    "quote_zh": "{\"smiles\": \"CSc1cccc(Cl)c1C\", \"molecular_formula\": \"C8H9ClS\", \"inchi_key\": \"QNMYJMZVOFQIRD-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "CSc1ccc(Br)c(Cl)c1C",
+    "source_lines": [
+      576
+    ],
+    "quote_zh": "{\"smiles\": \"CSc1ccc(Br)c(Cl)c1C\", \"molecular_formula\": \"C8H8BrClS\", \"inchi_key\": \"VEKIRHPKUFHYGT-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "source_lines": [
+      576
+    ],
+    "quote_zh": "{\"smiles\": \"Cc1c(S(C)(=O)=O)ccc(Br)c1Cl\", \"molecular_formula\": \"C8H8BrClO2S\", \"inchi_key\": \"KHLKTMJARYUXKF-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "source_lines": [
+      576
+    ],
+    "quote_zh": "{\"smiles\": \"CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr\", \"molecular_formula\": \"C8H7Br2ClO2S\", \"inchi_key\": \"GXQKMZQAWXBWBB-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "source_lines": [
+      576
+    ],
+    "quote_zh": "{\"smiles\": \"CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F\", \"molecular_formula\": \"C10H9BrClF3O3S\", \"inchi_key\": \"VHLAIVUXGGOCMJ-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "source_lines": [
+      555
+    ],
+    "quote_zh": "{\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F\", \"molecular_formula\": \"C11H10ClF3O5S\", \"inchi_key\": \"YGMJOCQCLVNPOD-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "source_lines": [
+      612
+    ],
+    "quote_zh": "{\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F\", \"molecular_formula\": \"C11H9Cl2F3O4S\", \"inchi_key\": \"YGWVWXIUXUSKSY-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "source_lines": [
+      557
+    ],
+    "quote_zh": "{\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F\", \"molecular_formula\": \"C17H16ClF3O6S\", \"inchi_key\": \"OBAMHTWSCBVWGB-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "O=C1CCCC(=O)C1",
+    "source_lines": [
+      563
+    ],
+    "quote_zh": "{\"smiles\": \"O=C1CCCC(=O)C1\", \"molecular_formula\": \"C6H8O2\", \"inchi_key\": \"HJSLFCCWAKVHIW-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "compound of formula (A)",
+    "source_lines": [
+      624,
+      626,
+      628,
+      630,
+      632,
+      634,
+      647,
+      649
+    ],
+    "quote_zh": "下式(A)所示的化合物"
+  }
+]

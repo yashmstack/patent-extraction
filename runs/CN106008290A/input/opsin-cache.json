@@ -1,0 +1,361 @@
+{
+ "service": "https://opsin.ch.cam.ac.uk/opsin/",
+ "what": "OPSIN's answer for one exact query string. Written so that a re-run needs no network and returns exactly what this run saw.",
+ "answers": {
+  "1,1'-carbonyldiimidazole": {
+   "status": "SUCCESS",
+   "smiles": "C(=O)(N1C=NC=C1)N1C=NC=C1",
+   "message": ""
+  },
+  "1,2-dichloroethane": {
+   "status": "SUCCESS",
+   "smiles": "ClCCCl",
+   "message": ""
+  },
+  "1,3-cyclohexanedione": {
+   "status": "SUCCESS",
+   "smiles": "C1(CC(CCC1)=O)=O",
+   "message": ""
+  },
+  "1,4-dioxane": {
+   "status": "SUCCESS",
+   "smiles": "O1CCOCC1",
+   "message": ""
+  },
+  "1,8-diazabicyclo[5.4.0]undec-7-ene": {
+   "status": "SUCCESS",
+   "smiles": "N12CCCCCC2=NCCC1",
+   "message": ""
+  },
+  "1,8-diazabicycloundec-7-ene": {
+   "status": "SUCCESS",
+   "smiles": "N1(CCCCCC=NCCC1)C1CCCCCCCCCC1",
+   "message": ""
+  },
+  "1-hydroxybenzotriazole": {
+   "status": "SUCCESS",
+   "smiles": "ON1N=NC2=C1C=CC=C2",
+   "message": ""
+  },
+  "2,2,2-trifluoroethanol": {
+   "status": "SUCCESS",
+   "smiles": "FC(CO)(F)F",
+   "message": ""
+  },
+  "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-methylsulfonylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-chloro-3-(trifluoroethoxymethyl)-4-(methanesulfonyl)benzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-chloro-3-(trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "message": ""
+  },
+  "CDI": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "DBU": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "HBTU": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "HOBT": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "Huanhuangtong": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "K": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "Li": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "MOH/M2CO3": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "N,N'-carbonyldiimidazole": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "N,N-dimethylformamide": {
+   "status": "SUCCESS",
+   "smiles": "CN(C=O)C",
+   "message": ""
+  },
+  "Na": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "O-benzotriazol-tetramethyluronium hexafluorophosphate": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "O-benzotriazolyl-tetramethyluronium hexafluorophosphate": {
+   "status": "WARNING",
+   "smiles": "F[P-](F)(F)(F)(F)F.N1N=NC2=C1C=CC=C2OC(=[N+](C)C)N(C)C",
+   "message": "APPEARS_AMBIGUOUS: Positioning of radical on: azazazol"
+  },
+  "Tembotrione": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "acetone cyanohydrin": {
+   "status": "SUCCESS",
+   "smiles": "CC(C#N)(O)C",
+   "message": ""
+  },
+  "acetonitrile": {
+   "status": "SUCCESS",
+   "smiles": "C(C)#N",
+   "message": ""
+  },
+  "base catalyst": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "benzene": {
+   "status": "SUCCESS",
+   "smiles": "C1=CC=CC=C1",
+   "message": ""
+  },
+  "calcium hydroxide": {
+   "status": "SUCCESS",
+   "smiles": "[OH-].[Ca+2].[OH-]",
+   "message": ""
+  },
+  "chloroform": {
+   "status": "SUCCESS",
+   "smiles": "C(Cl)(Cl)Cl",
+   "message": ""
+  },
+  "compound II": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "compound IV": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "condensing agent": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "cyclic sulfone ketone": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "cyclohexane": {
+   "status": "SUCCESS",
+   "smiles": "C1CCCCC1",
+   "message": ""
+  },
+  "dichloroethane": {
+   "status": "WARNING",
+   "smiles": "ClC(C)Cl",
+   "message": "APPEARS_AMBIGUOUS: Connection of chloro to eth"
+  },
+  "dichloromethane": {
+   "status": "SUCCESS",
+   "smiles": "ClCCl",
+   "message": ""
+  },
+  "diethyl ether": {
+   "status": "SUCCESS",
+   "smiles": "C(C)OCC",
+   "message": ""
+  },
+  "hexane": {
+   "status": "SUCCESS",
+   "smiles": "CCCCCC",
+   "message": ""
+  },
+  "huanhuangtong": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "hydrochloric acid": {
+   "status": "SUCCESS",
+   "smiles": "Cl",
+   "message": ""
+  },
+  "lithium hydroxide": {
+   "status": "SUCCESS",
+   "smiles": "[OH-].[Li+]",
+   "message": ""
+  },
+  "methanol": {
+   "status": "SUCCESS",
+   "smiles": "CO",
+   "message": ""
+  },
+  "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)OC)C=CC(=C1CBr)S(=O)(=O)C",
+   "message": ""
+  },
+  "methyl 2-chloro-3-bromomethyl-4-(methanesulfonyl)benzoate": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)OC)C=CC(=C1CBr)S(=O)(=O)C",
+   "message": ""
+  },
+  "methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)OC)C=CC(=C1CBr)S(=O)(=O)C",
+   "message": ""
+  },
+  "methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)OC)C=CC(=C1CBr)S(=O)(=O)C",
+   "message": ""
+  },
+  "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)OC)C=CC(=C1CBr)S(=O)(=O)C",
+   "message": ""
+  },
+  "potassium carbonate": {
+   "status": "SUCCESS",
+   "smiles": "C([O-])([O-])=O.[K+].[K+]",
+   "message": ""
+  },
+  "potassium hydroxide": {
+   "status": "SUCCESS",
+   "smiles": "[OH-].[K+]",
+   "message": ""
+  },
+  "potassium tert-butoxide": {
+   "status": "SUCCESS",
+   "smiles": "CC(C)(C)[O-].[K+]",
+   "message": ""
+  },
+  "pyridine": {
+   "status": "SUCCESS",
+   "smiles": "N1=CC=CC=C1",
+   "message": ""
+  },
+  "sodium 2,2,2-trifluoroethoxide": {
+   "status": "SUCCESS",
+   "smiles": "FC(C[O-])(F)F.[Na+]",
+   "message": ""
+  },
+  "sodium bromide": {
+   "status": "SUCCESS",
+   "smiles": "[Br-].[Na+]",
+   "message": ""
+  },
+  "sodium carbonate": {
+   "status": "SUCCESS",
+   "smiles": "C([O-])([O-])=O.[Na+].[Na+]",
+   "message": ""
+  },
+  "sodium hydroxide": {
+   "status": "SUCCESS",
+   "smiles": "[OH-].[Na+]",
+   "message": ""
+  },
+  "sodium trifluoroethoxide": {
+   "status": "WARNING",
+   "smiles": "FC(C[O-])(F)F.[Na+]",
+   "message": "APPEARS_AMBIGUOUS: Connection of fluoro to ethoxide"
+  },
+  "tembotrione": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "not parsed"
+  },
+  "tetrahydrofuran": {
+   "status": "SUCCESS",
+   "smiles": "O1CCCC1",
+   "message": ""
+  },
+  "thionyl chloride": {
+   "status": "SUCCESS",
+   "smiles": "S(=O)(Cl)Cl",
+   "message": ""
+  },
+  "toluene": {
+   "status": "SUCCESS",
+   "smiles": "CC1=CC=CC=C1",
+   "message": ""
+  },
+  "triethylamine": {
+   "status": "SUCCESS",
+   "smiles": "C(C)N(CC)CC",
+   "message": ""
+  },
+  "trifluoroethanol": {
+   "status": "WARNING",
+   "smiles": "FC(CO)(F)F",
+   "message": "APPEARS_AMBIGUOUS: Connection of fluoro to eth"
+  },
+  "water": {
+   "status": "SUCCESS",
+   "smiles": "O",
+   "message": ""
+  },
+  "xylene": {
+   "status": "WARNING",
+   "smiles": "C=1(C(=CC=CC1)C)C",
+   "message": "APPEARS_AMBIGUOUS: xylen describes multiple structures"
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "page": "p03.png",
+  "page_label": "权 利 要 求 书 2/2 页",
+  "doc_part": "claims",
+  "header": "CN 106008290 A    权 利 要 求 书    2/2 页",
+  "footer": "3    (below the page number the header band is repeated at the foot of the scan: CN 106008290 A    权 利 要 求 书    2/2 页)",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "1。",
+      "en": "1.",
+      "notes": "This is the entire body text of the page. The scan shows a single short line at the top left, reading the numeral 1 followed by a full-width ideographic full stop, and nothing else. There is no [00NN] paragraph marker, as this is the claims section. The rest of the page below this line is blank white space, not illegible: no faint text, rules, tables or drawings are visible anywhere on it. Read as printed; the terminating mark is the full-width period 。 rather than the 、 that normally follows a claim number, and it is not normalised here."
+    }
+  ],
+  "drawings": [],
+  "discrepancies": [],
+  "illegible": [],
+  "page_confidence": "high"
+}

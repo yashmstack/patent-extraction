@@ -1,0 +1,22 @@
+[
+  {
+    "reaction_id": "Example 4_Step a",
+    "source_lines": [
+      165,
+      166
+    ],
+    "quote_zh": "步骤a:取1.1mol(134.2g)三氟乙醇钠,1.2mol(166.8g)碳酸钾,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中,然后30℃保温5小时后,将反应液中的N,N-二甲基甲酰胺减压蒸除后,将残液加入300mL水中,用35％的盐酸调pH至弱酸性,冷却结晶,过滤,水洗,干燥得化合物II,称重得321.7g,收率93％。",
+    "arithmetic_check": "Every printed mass/mole pair in this step was checked by division. 三氟乙醇钠 1.1mol/134.2g gives 122.0 g/mol against 122.02 for C2H2F3ONa, so it closes. 碳酸钾 1.2mol/166.8g gives 139.0 g/mol against 138.20 for K2CO3, a deviation of 0.58 percent, which is inside the rounding of the printed mass, so no flag is raised on it; A1 read the same pair as disagreeing and that disagreement is recorded rather than resolved. 化合物I 1.0mol/318g gives 318.0 g/mol against 341.60 for C10H10BrClO4S, the formula the name requires, a deviation of 6.91 percent low, which is far outside rounding, so molar_mass_inconsistent is raised on this record and both printed numbers are kept as printed. The product side cannot be closed from the page: 化合物II is a local label the section never defines chemically, so the printed 321.7g at 93 percent from 1.0mol of 化合物I can only be turned into an implied molecular weight, 321.7/0.93 = 345.9 g/mol, with nothing stated in the document to compare it against. This is a could-not-check and not a pass. For a reviewer only, and from inference not from the page: if 化合物II is the 2,2,2-trifluoroethyl ether the route implies, C12H12ClF3O5S at 360.73 g/mol, then 321.7g would be 89.18 percent and not the printed 93 percent, and 93 percent would require 335.5g. That inference is not evidence and no flag was raised from it. Mass balance in the strict sense holds either way: 321.7g does not exceed what 1.0mol of a compound of that size could give.",
+    "drawing_evidence": "None. Lines 161 to 168 contain no [IMAGE_EXTRACT] span, so there is no scheme or structure to corroborate the step boundary or the connectivity, and no drawing flag is raised. The step boundary comes from the document's own 步骤a marker alone."
+  },
+  {
+    "reaction_id": "Example 4_Step b",
+    "source_lines": [
+      167,
+      168
+    ],
+    "quote_zh": "步骤b:取1mol上述反应所得的化合物II,溶解在1000mL的环己烷中,然后在-10-8℃温度条件下,半小时内加入含1mol(98g)1,3-环己二酮(化合物III)和1mol(152g)缩合剂DBU以及1mol(152g)吡啶,再在-10-8℃温度条件下搅拌反应24小时,然后经过水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)332.9g,纯度94.6％,收率80.1％。",
+    "arithmetic_check": "Every printed mass/mole pair was checked by division. 1,3-环己二酮 1mol/98g gives 98.0 g/mol against 112.13 for C6H8O2, 12.60 percent low, outside rounding, so it contributes to molar_mass_inconsistent. 缩合剂DBU 1mol/152g gives 152.0 g/mol against 152.24 for C9H16N2, 0.16 percent, so DBU closes. 吡啶 1mol/152g gives 152.0 g/mol against 79.10 for C5H5N, 92.16 percent high, roughly a factor of two, and it is the same mass printed for DBU on the same line; the vision pass raised exactly this and the arithmetic confirms it, so pyridine also contributes to molar_mass_inconsistent. Of the two identical printed masses only the DBU one can be right. Product: tembotrione is 440.82 g/mol, so 1mol of 化合物II at the printed 80.1 percent should give 0.801 x 440.82 = 353.1g, while the text prints 332.9g. Read the other way, 332.9/440.82 = 0.7552mol, that is 75.52 percent and not 80.1 percent, and 332.9/0.801 implies 415.6 g/mol for a compound that is 440.82. Taking the printed 94.6 percent purity into account moves them further apart still: 332.9 x 0.946 = 314.9g of tembotrione, 71.44 percent. The printed mass, yield and purity therefore cannot all hold at once, so mass_balance_implausible is raised and nothing is changed. Separately, the charge does not carry over: step a states 93 percent on 1.0mol, that is 0.93mol available, while this step charges 1mol of that same material, a deficit of 0.07mol, so scale_discontinuity is raised. Note that neither the printed reagent mole ratio nor the temperature enters this arithmetic; the temperature as printed, -10-8℃, is ambiguous between minus ten to eight degrees and minus ten to minus eight degrees, and is deliberately left unresolved in the record.",
+    "drawing_evidence": "None. Lines 161 to 168 contain no [IMAGE_EXTRACT] span, so nothing in a drawing corroborates the 化合物II to 化合物IV connectivity; it rests on the prose phrase 上述反应所得的化合物II and on the product identifier. No drawing flag is raised."
+  }
+]

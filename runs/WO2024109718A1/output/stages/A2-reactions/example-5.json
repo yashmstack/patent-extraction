@@ -1,0 +1,340 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 5_Step 1",
+    "section_label": "Example 5",
+    "section_type": "experimental_intermediate",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "nucleophilic_substitution",
+    "reaction_class_confidence": "high",
+    "named_reaction": "Williamson ether synthesis",
+    "mechanism_type": "ionic",
+    "scale": "lab",
+    "is_one_pot": true,
+    "one_pot_steps": [
+      "deprotonation of 2,2,2-trifluoroethanol by sodium hydride to generate the trifluoroethoxide in situ",
+      "O-alkylation of that alkoxide by the benzylic bromide of 式(III)化合物 to give the trifluoroethyl ether 式(IV)化合物"
+    ],
+    "conditions": {
+      "temperature": {
+        "type": "range",
+        "value_c": null,
+        "min_c": null,
+        "max_c": 15.0
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": 60.0,
+        "unit": "%",
+        "reagent": "sodium hydride",
+        "text": "60％氢化钠 (60% sodium hydride)"
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "quenched by adding water once HPLC showed the reaction complete",
+        "layers separated",
+        "organic phase washed twice with saturated brine",
+        "solvent removed by rotary evaporation"
+      ],
+      "quenching_agent": "water",
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "saturated brine, twice, 40 mL each"
+      ],
+      "drying_agent": null,
+      "filtration": "filtered after recrystallisation",
+      "concentration_method": "rotary evaporation",
+      "ph_target": null
+    },
+    "purification": "recrystallised from 120 g of methanol or ethanol, filtered, filter cake dried at 60 C",
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "complete conversion"
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(III)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 83.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added dropwise as a solution in 400 mL anhydrous tetrahydrofuran, reaction mixture kept below 15 C during the addition",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "2,2,2-trifluoroethanol",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 24.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added dropwise as a solution in 20 mL anhydrous tetrahydrofuran to the sodium hydride charge at -5 to 5 C",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium hydride",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 9.2,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged first at -5 to 5 C, the text saying it was dissolved in 80 mL anhydrous tetrahydrofuran",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": 60.0,
+        "purity_method": null
+      },
+      {
+        "identifier": "tetrahydrofuran",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 80.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "anhydrous grade, first portion: the charge the 60% sodium hydride was taken up in at -5 to 5 C",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tetrahydrofuran",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 20.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "anhydrous grade, second portion: the solvent of the trifluoroethanol solution added dropwise to the sodium hydride charge",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tetrahydrofuran",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 400.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "anhydrous grade, third portion: the solvent of the 式(III)化合物 solution added dropwise last, the mixture kept below 15 C",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CF3CH2ONa",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "quenching_agent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added to quench once HPLC showed the reaction complete",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "saturated brine",
+        "role": "wash",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 40.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "organic phase washed twice",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "methanol",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 120.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "recrystallisation solvent, offered as an alternative to ethanol",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "ethanol",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 120.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "recrystallisation solvent, offered as an alternative to methanol",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(IV)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(III)化合物",
+      "2,2,2-trifluoroethanol"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(IV)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "在-5～5℃将60％氢化钠9.2g溶于80mL无水四氢呋喃中，往该溶液中滴加三氟乙醇24g的20mL无水四氢呋喃溶液，滴加完毕后，进一步滴加式(III)化合物83g的400mL无水四氢呋喃溶液，滴加时控制反应物温度不超过15℃。滴加完毕后，搅拌，通过高效液相色谱监测反应完成后加水淬灭。分液，有机相用40mL饱和食盐水洗涤两次，旋蒸除去溶剂，残余物用120g甲醇或乙醇重结晶，过滤，滤饼于60℃烘干，得到式(IV)化合物。熔点80-82℃。",
+    "procedure_summary": "Sodium hydride and 2,2,2-trifluoroethanol are combined in anhydrous tetrahydrofuran at low temperature to form the trifluoroethoxide in situ, and a tetrahydrofuran solution of the compound of formula (III) is then added dropwise under temperature control. After the reaction is judged complete by HPLC the mixture is quenched with water, the organic phase washed with brine and concentrated, and the residue recrystallised to give the compound of formula (IV).",
+    "precursor_step": "Example 4::Method 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "reagent_drawn_not_written",
+      "reagent_written_not_drawn"
+    ],
+    "tags": [
+      "transformation:etherification",
+      "mechanism:ionic",
+      "named_rxn:williamson_ether_synthesis",
+      "analytics:hplc",
+      "analytics:nmr",
+      "analytics:melting_point",
+      "scale:lab",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:base",
+      "workup_type:aqueous_extraction",
+      "purification:recrystallisation",
+      "step_role:intermediate_step",
+      "linkage:cross_section_linked",
+      "is_one_pot:true"
+    ],
+    "notes": "One numbered example, one record, matching A0's estimate of one step. Treated as one pot: the alkoxide is generated in situ and the benzylic bromide is added to the same flask with no workup between the two transformations, so reaction_class is taken from the final O-alkylation. Temperature is taken from that final transformation, 不超过15℃ (not above 15 C) during the addition of 式(III)化合物, which is an upper bound only and so is recorded as a range with no lower limit; the -5 to 5 C printed earlier belongs to the sodium hydride and trifluoroethanol charge and is kept in those compounds' addition_profile. The prose states 将60％氢化钠9.2g溶于80mL无水四氢呋喃中, that the sodium hydride was dissolved in tetrahydrofuran; sodium hydride does not dissolve in tetrahydrofuran, and the wording is transcribed as printed rather than corrected. The drawn scheme on line 478 agrees with the prose on the transformation and on both structures, but gives CF3CH2ONa over the arrow, a pre-formed sodium trifluoroethoxide the prose never names, while the sodium hydride and trifluoroethanol the prose does charge appear nowhere on the arrow: hence reagent_drawn_not_written and reagent_written_not_drawn. CF3CH2ONa is carried in compounds as a drawing-only reagent and is deliberately absent from reactant_names, which follows the prose. No product mass and no yield are printed, only the melting point 80-82℃, so no mass balance can be computed. The reactant 式(III)化合物 is the section product of Example 4 under the identical A1 identifier and the identical drawn SMILES, so the link is by compound identity. Example 4 prints two alternative preparations of that same compound, labelled 方法1 and 方法2, and either could have supplied this charge; precursor_step names the first, Example 4::Method 1, and linkage_confirmed is true, with Example 4::Method 2 recorded here as an equally valid precursor that the document does not distinguish between. 搅拌 records that the mixture was stirred without naming a stirrer type, so stirring.type is null. No atmosphere, reaction time, reactor or pressure is stated. Tetrahydrofuran is charged in three separate portions and each is carried as its own compounds[] entry with its own printed volume and its own addition_profile: the portion the sodium hydride is taken up in, the portion carrying the trifluoroethanol added dropwise to it, and the portion carrying the 式(III)化合物 solution added dropwise last. The patent prints no combined charge and none is summed here, so recording a single entry would have had to pick one portion and drop the other two."
+  }
+]

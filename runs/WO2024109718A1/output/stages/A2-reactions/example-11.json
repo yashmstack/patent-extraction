@@ -1,0 +1,279 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 11_Step 1",
+    "section_label": "Example 11",
+    "section_type": "comparative_example",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "other_cross_coupling",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "lab",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "exact",
+        "value_c": 85.0,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "elevated",
+        "value_kpa": null,
+        "qualitative_text": "CO introduced at 1-4 MPa"
+      },
+      "atmosphere": "carbon monoxide, after evacuation and three nitrogen purges",
+      "time_h": 10.0,
+      "reactor_type": "autoclave",
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(IV)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 56.84,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,3-cyclohexanedione",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 21.84,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "carbon monoxide",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "introduced into the sealed autoclave at 1-4 MPa after nitrogen purging",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "triethylamine",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 37.95,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "palladium(II) chloride",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 0.5,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "2-dicyclohexylphosphino-2',6'-dimethoxybiphenyl",
+        "role": "ligand",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 4.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave; the text offers this ligand or the xanthene ligand as alternatives and prints one 4 g charge for whichever is used",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "4,5-bis(diphenylphosphino)-9,9-dimethylxanthene",
+        "role": "ligand",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 4.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "alternative to the biphenyl phosphine; the same printed 4 g charge applies to whichever ligand is used and is not a sum",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,4-dioxane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 290.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "nitrogen",
+        "role": "other",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "vessel evacuated and purged three times",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(IV)化合物",
+      "1,3-cyclohexanedione",
+      "carbon monoxide"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": null,
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "向高压釜中加入式(IV)化合物56.84g、1,3-环己二酮21.84g、三乙胺37.95g、PdCl₂催化剂0.5g、配体2-双环己基膦-2',6'-二甲氧基联苯或4,5-双二苯基膦-9,9-二甲基氧杂蒽4g、溶剂1,4-二氧六环290g，抽真空，氮气置换3次，通入1～4MPa的CO，在85℃反应约10h。收率低于10％，不理想。",
+    "procedure_summary": "A palladium-catalysed carbonylative coupling of the formula (IV) aryl bromide with 1,3-cyclohexanedione under carbon monoxide pressure in dioxane with triethylamine and a phosphine ligand, run in an autoclave after nitrogen purging. The text reports only that the yield was low and the result unsatisfactory; no product is isolated and no workup is described.",
+    "precursor_step": "Example 5::Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "missing_product"
+    ],
+    "tags": [
+      "transformation:carbonylation",
+      "mechanism:catalytic",
+      "scale:lab",
+      "atmosphere:carbon_monoxide",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:palladium",
+      "workup_type:none",
+      "purification:none",
+      "step_role:final_step",
+      "linkage:cross_section_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "Section label disagreement, recorded not resolved: the patent prints 实施例11 (Example 11), but the step reports a yield below 10% described as 不理想 (unsatisfactory) and A0 typed the section comparative_example on that content. Both readings stand. No numeric yield is recorded: 低于10％ (below 10%) is a bound, not a printed yield figure, and no product mass, name or workup is given, so product_name is null and missing_product is raised. A0 estimated 1 step and this is 1 step; the whole section is a single charge with a single transformation and no workup between operations, so is_one_pot is false. The starting material 式(IV)化合物 is a bare formula label whose structure this section does not give; the same identifier is the section product of Example 5 and the substrate of Examples 6, 7, 9 and 10. It is the identical A1 identifier in every one of those sections, so the charge here is matched to Example 5 by compound identity and not by adjacency: precursor_step is Example 5::Step 1 and linkage_confirmed is true. cross_reference_unresolved is false because the reference is locatable in the patent. reaction_class is other_cross_coupling with medium confidence: the transformation is a Pd/phosphine carbonylative coupling of an aryl halide with a 1,3-diketone under CO, which is a cross-coupling with CO insertion and matches no more specific class in the list; acylation would describe the bond formed at the diketone but not the catalytic aryl-halide coupling that defines the step. The two phosphine ligands are printed as alternatives joined by 或 (or) with one 4 g charge, so both carry 4.0 g and it is not a sum. The 1-4 MPa CO charge is recorded as elevated pressure with the range in qualitative_text because no single value_kpa is printed. Time is 约10h (about 10 h), recorded as 10.0. A stirrer is not mentioned, so stirring.type is left null. This section contains no IMAGE_EXTRACT span, so there is no drawing to corroborate or contradict the prose. reaction_class is the same value used for the palladium-catalysed carbonylations of this same aryl bromide in Examples 6, 7 and 9, so that one transformation does not appear under two classes across the worked examples."
+  }
+]

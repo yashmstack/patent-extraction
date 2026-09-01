@@ -1,0 +1,353 @@
+[
+  {
+    "patent_id": "US20040236146A1",
+    "reaction_id": "Summary of the Invention_Step 1",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": "Wohl-Ziegler bromination",
+    "mechanism_type": "radical",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "3-methylbenzoic acids of the formula I",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "N-bromosuccinimide",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "radical initiator",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "3-bromomethylbenzoic acids of the formula II",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "3-methylbenzoic acids of the formula I",
+      "N-bromosuccinimide",
+      "radical initiator"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "3-bromomethylbenzoic acids of the formula II",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0003] Specifically with regard to the preparation of certain herbicides, processes for directly preparing 3-bromomethylbenzoic acids are desirable. It has now been found that 2-halo-3-methyl4-alkylsulfonylbenzoic acids can be converted in very good yields and in very high purities by bromination to the corresponding 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids.\n[0004] The present invention therefore provides a process for preparing 3-bromomethylbenzoic acids of the formula II\n[0005] by brominating 3-methylbenzoic acids of the formula I\n[0006] with\n[0007] A) N-bromosuccimide in the presence of a radical initiator, or\n[0008] B) elemental bromine and irradiation with a photolamp,",
+    "procedure_summary": "The invention brominates the methyl-substituted benzoic acid genus to the corresponding bromomethyl genus using N-bromosuccinimide in the presence of a radical initiator.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:radical",
+      "named_rxn:wohl_ziegler_bromination",
+      "scale:not_specified",
+      "catalyst_class:none",
+      "step_role:final_step",
+      "linkage:standalone",
+      "is_one_pot:false"
+    ],
+    "notes": "PROSE step, variant A of the two alternative reagent systems this section provides. The transformation is stated at [0004] and [0005] on lines 59 and 63, formula I to formula II, and this record's reagent system is [0007] on line 69. Step 1 and Step 2 of this section are ALTERNATIVES, not a sequence: the same substrate genus goes to the same product genus by two different reagent systems. Neither is the other's precursor, so precursor_step is null on both and linkage is standalone. PROCEDURE TEXT: the section states one transformation with two reagent options in a single continuous passage, so procedure_text carries the whole as-printed passage on both records rather than an excised half of it, and the paragraph that belongs to this record is [0007]. NAMING: line 69 prints N-bromosuccimide, with the n of succinimide missing; the identifier is the corrected form fixed by PROMPT-CORRECTIONS section 2, which is a spelling this document itself prints, and A1 carries the as-printed line 69 variant as an alias. The initiator is recorded under the bare class term radical initiator, with no leading article, per PROMPT-CORRECTIONS section 9; it takes role reagent and not catalyst per PROMPT-CORRECTIONS section 8, because an initiator is consumed in initiating. This section names no member of the class. DRAWINGS: every IMAGE_EXTRACT span in this patent is a single Markush structure of formula I or formula II with variable R1 and R2, and each carries an empty molecules list because the vision pass refused a SMILES for a generic. There is no drawn reaction scheme anywhere in this document, so no drawing corroborates or contradicts this record and none of the scheme flags is raised. That is why no structure reached this record. YIELD: [0003] on line 57 states the outcome qualitatively, in very good yields and in very high purities, with no number anywhere, so product_yield_pct and product_purity_pct stay null and nothing is inferred from the phrase. SCOPE: [0003] states the same finding over a narrower genus, 2-halo-3-methyl4-alkylsulfonylbenzoic acids to 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids, which A1 records as two separate compounds. That is the same transformation stated more narrowly, not a third reaction, so it gets no record of its own and those two identifiers are deliberately kept off compounds[] rather than conflated with the formula I and formula II genera A1 kept apart from them. R1 and R2 are defined at lines 75 and 77, outside this section's bounds. CONDITIONS: the section states no temperature, no time, no solvent, no charge and no workup for this variant, so every condition field is null and no_conditions is raised. That is generic process disclosure, not a gap in the reading, and no condition has been carried in from the Process Conditions section. STEP ROLE: the step_role category holds ONE value per record, as it does on every one of the 33 reactions of the reference run, and the route this record belongs to is a chain of one step, so the value is step_role:final_step. The step is equally the first step of that route; the field cannot hold both and final_step is recorded because the category exists to locate a step within a chain, and first_step on a route that is already over would imply that something follows it. That is a convention over a single-valued field, not a claim about the chemistry. CONVENTION: reactant_names lists every compounds[] entry that is not the product, not a catalyst and not a solvent, which is the convention the reference run uses. ATTRIBUTION: [0004] reads the present invention therefore provides, so this is the invention's own route and not prior art. The prior art route is in the Background section, at line 55, and is not recorded here."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "reaction_id": "Summary of the Invention_Step 2",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "step_index": 2,
+    "step_label": "Step 2",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "photochemical",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": "other",
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "3-methylbenzoic acids of the formula I",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bromine",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "3-bromomethylbenzoic acids of the formula II",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "3-methylbenzoic acids of the formula I",
+      "bromine"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "3-bromomethylbenzoic acids of the formula II",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0003] Specifically with regard to the preparation of certain herbicides, processes for directly preparing 3-bromomethylbenzoic acids are desirable. It has now been found that 2-halo-3-methyl4-alkylsulfonylbenzoic acids can be converted in very good yields and in very high purities by bromination to the corresponding 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids.\n[0004] The present invention therefore provides a process for preparing 3-bromomethylbenzoic acids of the formula II\n[0005] by brominating 3-methylbenzoic acids of the formula I\n[0006] with\n[0007] A) N-bromosuccimide in the presence of a radical initiator, or\n[0008] B) elemental bromine and irradiation with a photolamp,",
+    "procedure_summary": "The same substrate genus is brominated to the same bromomethyl product genus using elemental bromine under irradiation with a photolamp.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:photochemical",
+      "scale:not_specified",
+      "catalyst_class:none",
+      "step_role:final_step",
+      "linkage:standalone",
+      "is_one_pot:false"
+    ],
+    "notes": "PROSE step, variant B of the two alternative reagent systems this section provides. The transformation is stated at [0004] and [0005] on lines 59 and 63, formula I to formula II, and this record's reagent system is [0008] on line 71. Step 1 and Step 2 of this section are ALTERNATIVES, not a sequence: the same substrate genus goes to the same product genus by two different reagent systems. Neither is the other's precursor, so precursor_step is null on both and linkage is standalone. PROCEDURE TEXT: the section states one transformation with two reagent options in a single continuous passage, so procedure_text carries the whole as-printed passage on both records rather than an excised half of it, and the paragraph that belongs to this record is [0008]. NAMING: line 71 prints elemental bromine; elemental describes the form and is not part of a name, so the identifier is the bare name A1 recorded and the as-printed phrase is its alias. The photolamp is equipment, not a compound, so it is recorded as conditions.light_source and gets no compounds[] entry. DRAWINGS: every IMAGE_EXTRACT span in this patent is a single Markush structure of formula I or formula II with variable R1 and R2, and each carries an empty molecules list because the vision pass refused a SMILES for a generic. There is no drawn reaction scheme anywhere in this document, so no drawing corroborates or contradicts this record and none of the scheme flags is raised. That is why no structure reached this record. YIELD: [0003] on line 57 states the outcome qualitatively, in very good yields and in very high purities, with no number anywhere, so product_yield_pct and product_purity_pct stay null and nothing is inferred from the phrase. SCOPE: [0003] states the same finding over a narrower genus, 2-halo-3-methyl4-alkylsulfonylbenzoic acids to 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids, which A1 records as two separate compounds. That is the same transformation stated more narrowly, not a third reaction, so it gets no record of its own. R1 and R2 are defined at lines 75 and 77, outside this section's bounds. CONDITIONS: irradiation with a photolamp is the one condition this section states for this variant, so light_source.type is photolamp and, because a condition field is populated, no_conditions is NOT raised on this record although it is raised on Step 1. No temperature, time, solvent, charge or workup is stated, and none has been carried in from the Process Conditions section. MECHANISM: photochemical rather than radical, because the section states initiation by light and names no chemical initiator. The chain that follows is a radical chain and the single-valued field cannot say both; the more specific value is recorded here. STEP ROLE: the step_role category holds ONE value per record, as it does on every one of the 33 reactions of the reference run, and the route this record belongs to is a chain of one step, so the value is step_role:final_step. The step is equally the first step of that route; the field cannot hold both and final_step is recorded because the category exists to locate a step within a chain, and first_step on a route that is already over would imply that something follows it. That is a convention over a single-valued field, not a claim about the chemistry. CONVENTION: reactant_names lists every compounds[] entry that is not the product, not a catalyst and not a solvent, which is the convention the reference run uses. ATTRIBUTION: [0004] reads the present invention therefore provides, so this is the invention's own route and not prior art. LIGHT SOURCE: [0008] at line 71 prints \"elemental bromine and irradiation with a photolamp\"; light_source.type is recorded as other because the schema enum holds only LED, UV, mercury_lamp, sunlight, tungsten, fluorescent and other, and has no value for a photolamp."
+  }
+]

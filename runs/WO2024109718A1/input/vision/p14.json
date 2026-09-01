@@ -1,0 +1,301 @@
+{
+ "page": "p14.png",
+ "page_label": "13",
+ "doc_part": "description",
+ "header": "13 / WO 2024/109718    PCT/CN2023/132821",
+ "footer": "",
+ "paragraphs": [
+  {
+   "marker": "[0097]",
+   "zh": "其中，路线(v)表示由式(IV)化合物制备式(V)的羧酸化合物，路线(v′)表示由式(IV)化合物直接制备式(VIII)的酯化合物。",
+   "en": "Wherein, route (v) represents the preparation of the carboxylic acid compound of formula (V) from the compound of formula (IV), and route (v') represents the direct preparation of the ester compound of formula (VIII) from the compound of formula (IV).",
+   "notes": null
+  },
+  {
+   "marker": "[0098]",
+   "zh": "在更具体的实施方式中，所述步骤(v)和(v′)分别为以下步骤，这些步骤的更具体实施方式如前文所述。",
+   "en": "In more specific embodiments, said steps (v) and (v') are respectively the following steps; more specific embodiments of these steps are as described above.",
+   "notes": null
+  },
+  {
+   "marker": "[0099]",
+   "zh": "本发明制备环磺酮的新方法可以进一步包括如下(i)～(iv)中任意一个或两个以上的中间体制备步骤：",
+   "en": "The novel process of the present invention for preparing tembotrione may further comprise any one or two or more of the following intermediate preparation steps (i) to (iv):",
+   "notes": "环磺酮 is the Chinese common name of the herbicide; translated here as tembotrione, which is what the name denotes literally (cyclo-sulfonyl-trione)."
+  }
+ ],
+ "drawings": [
+  {
+   "kind": "scheme",
+   "between_markers": [
+    null,
+    "[0097]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, top-left; labelled formula (IV)",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "1-bromo-2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+     "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, top-right; labelled formula (VIII)",
+     "core": "benzene ester-linked to cyclohex-2-en-1-one (enol ester of cyclohexane-1,3-dione)",
+     "substituents": [
+      "C(=O)O-(3-oxocyclohex-1-en-1-yl) at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+     "smiles": "O=C1CCCC(=C1)OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Scheme is labelled (v′) at its right-hand end. Structure labels 式（IV）and 式（VIII）are printed beneath, followed by a full-width 。 This is the tail of a scheme that begins on the preceding page; the arrow carries no written reagents here."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0098]",
+    "[0099]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left; labelled formula (IV)",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "1-bromo-2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+     "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right; labelled formula (V)",
+     "core": "benzene",
+     "substituents": [
+      "COOH at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+     "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [
+      "H2O"
+     ],
+     "reagents_below": [
+      "CO"
+     ],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Scheme labelled (v-1) at its right-hand end. The carboxyl is drawn as HO-C(=O)- attached to the ring."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0098]",
+    "[0099]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left; labelled formula (IV)",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "S(=O)(=O)CH3 at C4"
+     ],
+     "name": "1-bromo-2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+     "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, below the arrow (reagent drawn as a structure)",
+     "core": "cyclohexane-1,3-dione",
+     "substituents": [
+      "=O at C1",
+      "=O at C3"
+     ],
+     "name": "cyclohexane-1,3-dione",
+     "smiles": "O=C1CCCC(=O)C1",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "3rd, right; labelled formula (VIII)",
+     "core": "benzene ester-linked to cyclohex-2-en-1-one (enol ester of cyclohexane-1,3-dione)",
+     "substituents": [
+      "C(=O)O-(3-oxocyclohex-1-en-1-yl) at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "S(=O)(=O)CH3 at C4"
+     ],
+     "name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+     "smiles": "O=C1CCCC(=C1)OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "3rd",
+     "reagents_above": [
+      "CO"
+     ],
+     "reagents_below": [
+      "cyclohexane-1,3-dione (drawn as a structure, not written as text)"
+     ],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Scheme labelled (v′-1) at its right-hand end, followed by a full-width 。 In this scheme the methylsulfonyl group is drawn out explicitly as -S(=O)(=O)-CH3 rather than written as the SO2CH3 label used in the schemes above."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0099]",
+    null
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left",
+     "core": "benzene",
+     "substituents": [
+      "Cl at C1",
+      "CH3 at C2",
+      "SCH3 at C3"
+     ],
+     "name": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+     "smiles": "Clc1cccc(SC)c1C",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH3 at C3",
+      "SCH3 at C4"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+     "smiles": "Brc1ccc(SC)c(C)c1Cl",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Step labelled (i) at its right-hand end. Bromination; no reagent is written on the arrow. Br is drawn on the ring carbon adjacent to the Cl-bearing carbon, on the side away from the CH3."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0099]",
+    null
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH3 at C3",
+      "SCH3 at C4"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+     "smiles": "Brc1ccc(SC)c(C)c1Cl",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfonyl)benzene",
+     "smiles": "Brc1ccc(S(C)(=O)=O)c(C)c1Cl",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Step labelled (ii) at its right-hand end. Oxidation of the methylthio group to the methylsulfonyl group; no reagent is written on the arrow."
+  }
+ ],
+ "discrepancies": [
+  {
+   "what": "Paragraph [0099] announces intermediate steps (i) to (iv), but only steps (i) and (ii) are drawn on this page.",
+   "drawing_says": "two schemes, labelled (i) and (ii)",
+   "text_says": "如下(i)～(iv)中任意一个或两个以上的中间体制备步骤"
+  },
+  {
+   "what": "The reagents drawn on the arrows of schemes (v-1) and (v'-1) are not written anywhere in the prose on this page.",
+   "drawing_says": "H2O above / CO below for (v-1); CO above / cyclohexane-1,3-dione structure below for (v'-1)",
+   "text_says": "[0098] only says the more specific embodiments of these steps are as described above (前文所述), giving no reagents on this page"
+  },
+  {
+   "what": "Steps (i) and (ii) are drawn with bare arrows carrying no reagents at all.",
+   "drawing_says": "unlabelled solid arrows",
+   "text_says": "no reagents given in [0099]"
+  }
+ ],
+ "illegible": [],
+ "page_confidence": "high"
+}

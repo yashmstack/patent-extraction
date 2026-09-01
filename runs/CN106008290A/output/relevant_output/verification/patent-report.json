@@ -1,0 +1,200 @@
+{
+  "artifact": "patent",
+  "records_audited": 1,
+  "audit_grounding_note": "There is no provenance sidecar for output/patent.json. Its grounding is input/CN106008290A-biblio.json plus the document itself, and every bibliographic field was therefore checked directly against the page image input/pages/p01.png rather than against a recorded provenance trail. The absence of a sidecar is recorded here as an unverifiable gap, not treated as a pass.",
+  "findings": [
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "CN106008290A",
+      "field": "parties.assignees[0].type",
+      "problem": "The assignee is typed as an SME, which is neither printed on the cover sheet nor present in the biblio file that A4 rule 5 says finalise.py takes this value from.",
+      "source_line": 18,
+      "quote": "（71）申请人 安徽久易农业股份有限公司",
+      "artifact_says": "\"type\": \"sme\" (and the derived tag \"assignee_type:sme\")",
+      "should_be": "\"type\": \"company\", matching input/CN106008290A-biblio.json, with the tag corrected to assignee_type:company. 股份有限公司 on p01 says joint stock limited company and says nothing about size.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "major",
+      "record": "CN106008290A",
+      "field": "extraction_rollup.key_starting_materials",
+      "problem": "2,2,2-trifluoroethanol is listed as a key starting material of this patent, but the document charges it in no step and names it only as the prior-art reagent this invention replaces.",
+      "source_line": 85,
+      "quote": "其工业制备方法主要是三氟乙醇、叔丁醇钾法制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸",
+      "artifact_says": "{\"identifier\": \"2,2,2-trifluoroethanol\", \"compound_uuid\": \"77d86e44-6883-5adf-80d9-0fb08a0c5c3e\"}",
+      "should_be": "Drop 2,2,2-trifluoroethanol from key_starting_materials. output/compounds-sections.json confirms it is seen only in Background and Beneficial Effects, so the rollup is promoting a background reagent into the invention's route.",
+      "confidence": "high"
+    },
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "CN106008290A",
+      "field": "extraction_rollup.compound_count",
+      "problem": "The compound count of 54 includes three identifiers that are not distinct compounds but transcription residue, each of which is already present under its proper name.",
+      "source_line": 159,
+      "quote": "溶解在1000mL的二氯乙烷中 ... 然后水洗、减压浓缩加甲、醇打浆、过滤、干燥",
+      "artifact_says": "\"compound_count\": 54",
+      "should_be": "52 or fewer. output/compounds.json carries 化合物II (the document's own label for the intermediate, already recorded under four chemical names), 二氯乙烷 (already recorded as 1,2-dichloroethane) and 甲、醇 (an OCR mis-segmentation of 加甲醇打浆, i.e. methanol, already recorded). The fix belongs in compounds.json; the count in patent.json is wrong as a consequence. These three also violate the English-only rule in CLAUDE.md.",
+      "confidence": "high"
+    },
+    {
+      "check": "drawings",
+      "severity": "major",
+      "record": null,
+      "field": "IMAGE_EXTRACT spans on lines 49, 53, 98, 103",
+      "problem": "The vision read of both drawn equations drops species that are printed on the page: equation (1) draws a second reactant and two byproducts, equation (2) draws a byproduct, and none of the four appear in the extracted reactants or products.",
+      "source_line": 49,
+      "quote": "[IMAGE_EXTRACT: {\"reactions\": [{\"step_id\": 1, \"reactants\": [{\"smiles\": \"COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl\", ...}], \"conditions\": [{\"text\": \"MOH/M2CO3\"}], ...",
+      "should_be": "Equation (1) on p02 and p04 is drawn as ester I + CF3CH2ONa, arrow labelled MOH/M2CO3, giving acid II + CH3OH + NaBr. Equation (2) is drawn as II + III giving IV + H2O. Add CF3CH2ONa as a reactant of scheme 1 and record CH3OH, NaBr and H2O as byproducts. Ring system and every substituent position in both extracts are correct as drawn, so this is a completeness defect and not a misread structure.",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "CN106008290A",
+      "field": "novelty_claims",
+      "problem": "The narrative addresses two of the background's three specific objections to the prior art and omits the third, which the background states in the same sentence.",
+      "source_line": 85,
+      "quote": "且需要用二氯亚砜作酰氯化试剂，而二氯亚砜对环境有很大危害",
+      "artifact_says": "The novelty narrative cites only low yield plus expensive potassium tert-butoxide, and the acetone cyanohydrin toxicity.",
+      "should_be": "Add one clause noting that the background also objects to thionyl chloride as the acyl chlorinating agent on environmental grounds. A4 rule 2 requires a faithful novelty statement to address the specific objections the background states, and output/compounds.json already carries thionyl chloride as a Background reagent.",
+      "confidence": "high"
+    },
+    {
+      "check": "schema",
+      "severity": "minor",
+      "record": "CN106008290A",
+      "field": "honest_uncertainty_flags",
+      "problem": "key_examples is empty but the flag A4 rule 6 provides for that case is absent, and the reference run sets it in exactly this situation.",
+      "source_line": 45,
+      "quote": "1.本发明提供了一种环磺酮的制备方法，其特征在于，包括以下步骤：",
+      "artifact_says": "\"key_examples\": [], \"honest_uncertainty_flags\": []",
+      "should_be": "[\"key_examples_not_referenced\"]. The claims genuinely cite no example, which is correct per A4 rule 3, but runs/CN104292137A/output/patent.json pairs the same empty key_examples with this flag, so the reference format expects it.",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "CN106008290A",
+      "field": "novelty_claims",
+      "problem": "novelty_claims is five sentences where A4 rule 2 sets a ceiling of four.",
+      "source_line": 128,
+      "quote": "本发明相比现有技术具有以下优点：本发明提供了一种环磺酮的制备方法，该方法以三氟乙醇钠作为反应物",
+      "artifact_says": "Five sentences, the last two being the validation-flag caveat and the note that Examples 1 to 5 are parallel runs.",
+      "should_be": "Merge to at most four sentences. Keep the caveat sentence: it is the one that stops the printed yields from reading as verified.",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "CN106008290A",
+      "field": "bibliographic.patent_type",
+      "problem": "patent_type is null although the cover sheet prints the document type in field (12).",
+      "source_line": 8,
+      "quote": "（12）发明专利申请",
+      "artifact_says": "\"patent_type\": null",
+      "should_be": "An invention patent application. The biblio file has no patent_type key so finalise.py had nothing to union in, but the value is legible on p01. Low priority because the reference run also leaves this null.",
+      "confidence": "medium"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "CN106008290A",
+      "field": "extraction_rollup.key_starting_materials",
+      "problem": "Sodium trifluoroethoxide appears twice under two spellings and the pair is not recorded in the equivalence file, so this fragmentation is undetected rather than deliberate.",
+      "source_line": 47,
+      "quote": "以2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯与三氟乙醇钠为反应底物",
+      "artifact_says": "Both \"sodium trifluoroethoxide\" and \"sodium 2,2,2-trifluoroethoxide\" are listed as separate key starting materials.",
+      "should_be": "Add the pair to output/compounds-equivalence.json. The four spellings of compound I and the five of compound II are already recorded there, which is why they are noted and not raised as defects; this pair is the one omission.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "CN106008290A",
+      "field": "bibliographic.priority_date",
+      "problem": "A priority date is asserted that the publication does not print anywhere; the cover sheet carries no (30) 优先权 field.",
+      "source_line": 16,
+      "quote": "（22）申请日 2016.05.16",
+      "artifact_says": "\"priority_date\": \"2016-05-16\"",
+      "should_be": "Either null, or kept with a note that it is the Google Patents convention of equating priority to filing date for a CN first filing. Verified against p01: fields (10), (43), (21), (22), (71), (72), (51), (54) and (57) are the only numbered fields printed, and there is no (30).",
+      "confidence": "high"
+    }
+  ],
+  "checks_passed": [
+    {
+      "check": "translation - target compound identity",
+      "what_was_verified": "The printed Chinese title on p01 is 一种环磺酮的制备方法 and the artifact renders it as a method for preparing tembotrione. This was checked from the chemistry rather than from any gloss. Equation (2) on p02 and p04 draws 1,3-cyclohexanedione C-acylated at its 2-position by the benzoyl group of a benzene ring bearing Cl ortho to the carbonyl, CH2OCH2CF3 meta and SO2CH3 para, which is 2-[2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl]cyclohexane-1,3-dione, that is tembotrione and no other compound. The artifact agrees. The enriched markdown's own EN gloss at line 37 reads 'A process for preparing a cyclic sulfone ketone', a literal character-by-character rendering of 环磺酮 that names no real compound, and the artifact correctly did not follow it."
+    },
+    {
+      "check": "precision - novelty assertions are attributed, not endorsed",
+      "what_was_verified": "Every advantage in novelty_claims is traceable to the document asserting it: 收率高、成本低、易操作、污染少、安全环保 and 适合大规模工业化生产 at line 39 and again at line 128. The narrative attributes them explicitly ('it asserts', 'These are the document's own assertions') and states that the printed yields are unverified. No yield or result is asserted as verified anywhere in the record. patent_summary carries no yield, mass or temperature value, as A4 rule 1 requires."
+    },
+    {
+      "check": "fidelity - validation flag counts quoted in the narrative",
+      "what_was_verified": "novelty_claims states that nine of eighteen reaction steps carry molar_mass_inconsistent and five carry mass_balance_implausible. Counted directly in output/reactions.json: 18 records, molar_mass_inconsistent 9, mass_balance_implausible 5. Both figures are exact."
+    },
+    {
+      "check": "arithmetic - best_overall_yield_pct and its pathway",
+      "what_was_verified": "Recomputed from the printed step yields: Example 1 0.91 x 0.863 = 78.53, Example 2 0.93 x 0.86 = 79.98, Example 3 0.90 x 0.875 = 78.75, Example 4 0.93 x 0.801 = 74.49, Example 5 0.92 x 0.839 = 77.19. The maximum is 79.98 and output/pathways.json attaches it to pathway_uuid 5ec1dfc6-28c5-529e-b830-c09e69594aba, which is the uuid the artifact names. Both fields are correct."
+    },
+    {
+      "check": "arithmetic - rollup counts and distributions close",
+      "what_was_verified": "reaction_count 18 equals the length of reactions.json. section_summary background 4 plus experimental_example 10 plus summary_of_invention 4 equals 18, and matches the section_type of each record. scale_distribution not_specified 8 plus pilot 10 equals 18 and matches the per-record scale. pathway_count 9 equals the length of pathways.json."
+    },
+    {
+      "check": "recall - step a is genuinely one step and not two",
+      "what_was_verified": "Step a as drawn converts a methyl ester to a free carboxylic acid while etherifying the benzylic bromide, and the examples confirm both happen in one charge with a single hold. The intermediate mass closes on this reading: 314.8 g at 91 percent, 321.7 g at 93 percent, 311.4 g at 90 percent, 321.7 g at 93 percent and 318.3 g at 92 percent all imply 346 g per mol, against 346.7 for C11H10ClF3O5S. The artifact's treatment of step a as one pot with an etherification and an ester hydrolysis is what the page supports."
+    },
+    {
+      "check": "drawings - reagents above and below the arrow were not merged",
+      "what_was_verified": "In equation (2) on p02 and p04 the arrow carries 缩合剂 above and 碱催化剂 below. The IMAGE_EXTRACT spans on lines 53 and 103 record them as two separate condition entries, not one merged string. Equation (1) carries a single label MOH/M2CO3 on the arrow and is recorded as one entry."
+    },
+    {
+      "check": "drawings - substituent positions read off the page, not inferred",
+      "what_was_verified": "Compound I as drawn on p02: ester carbonyl at ring position 1, Cl at 2, CH2Br at 3, SO2CH3 at 4. The extracted SMILES COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl places the same four groups at the same four positions. Compound II as drawn: COOH at 1, Cl at 2, CH2OCH2CF3 at 3, SO2CH3 at 4, matching CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F. Compound IV matches likewise. No position was inferred."
+    },
+    {
+      "check": "drawings - the background route was not annotated as the invention's",
+      "what_was_verified": "The only drawn schemes are equations (1) and (2), both in the claims and the summary of the invention. The prior-art route at line 85 is prose only and is never drawn, and no IMAGE_EXTRACT span sits in a background section. patent_summary describes only the two-step claimed route."
+    },
+    {
+      "check": "fidelity - bibliographic fields against the cover sheet image",
+      "what_was_verified": "Read from input/pages/p01.png directly. Publication number CN 106008290 A, publication date 2016.10.12 (artifact 2016-10-12), application number 201610321517.X, filing date 2016.05.16 (artifact 2016-05-16), applicant 安徽久易农业股份有限公司 (artifact Anhui Jiuyi Agriculture Co., Ltd.), inventors 沈运河 熊国银 赵晓俊 范富云 in that printed order (artifact Shen Yunhe, Xiong Guoyin, Zhao Xiaojun, Fan Fuyun, same order), Int.Cl. C07C 315/04, C07C 317/24 and C07C 317/46 all three present in printed order, title 一种环磺酮的制备方法, abstract character-for-character as the artifact's abstract field. jurisdiction cn and language zh are correct. Only the assignee type and the priority date failed, both raised above."
+    },
+    {
+      "check": "fidelity - the enriched transcription against the page images",
+      "what_was_verified": "Spot-checked p06 against lines 145 to 174. Every quantity for Examples 2, 3 and 4 transcribes exactly, including the awkward ones: 1.3mol(145.6g), 2mol(758g)HBTU, 1.5mol(147g), 3mol(405g)HOBT, 1mol(152g)吡啶, the temperature written -10-8℃, and the OCR-faithful 减压浓缩加甲、醇打浆. The transcription is not the source of any number defect in this run."
+    },
+    {
+      "check": "vocabulary - closed lists in the A4 prompt",
+      "what_was_verified": "domain:agrochemical, target_class:herbicide, claim_type:process, novelty:new_process, novelty:improved_yield, novelty:green_chemistry, process_focus:batch and process_focus:scalable are all inside their A4 lists, one value for the single-valued categories. All 101 tags are category:value with lowercase snake_case ASCII values, no case mismatch and no bare value. The metadata tags jurisdiction:cn, patent_family:57098239, time_period:2016 and assignee:anhui_jiuyi_agriculture_co_ltd agree with the biblio file; assignee_type:sme does not and is raised above."
+    },
+    {
+      "check": "schema - fields present and absent",
+      "what_was_verified": "patent_uuid and the compound_uuid entries inside extraction_rollup are present. Checked against runs/CN104292137A/output/patent.json, which carries both under the same key names, so these are the record shape and not stray enrichment. No vector or embedding field is present. Every key in the reference run's PatentRecord is present here."
+    },
+    {
+      "check": "precision - no structures in the patent record",
+      "what_was_verified": "Every smiles field in extraction_rollup.target_compounds and key_starting_materials is null. No molecular formula, molecular weight or InChI appears anywhere in patent.json."
+    }
+  ],
+  "recall_estimate": {
+    "found_in_text": 14,
+    "present_in_artifact": 12,
+    "missing": [
+      "bibliographic.patent_type: the cover sheet field (12) 发明专利申请 is legible on p01 and the field is null",
+      "novelty_claims: the background's objection to 二氯亚砜 as an environmentally harmful acyl chlorinating agent, line 85"
+    ],
+    "basis": "Counted over the document-level facts a PatentRecord is shaped to carry: the nine numbered cover-sheet fields (10), (43), (21), (22), (71), (72), (51), (54), (57), the document type (12), the two claimed steps, and the three specific prior-art objections in the background. The application number 201610321517.X is legible on p01 but has no field in the PatentRecord schema and the reference run has none either, so it is not counted as missing."
+  },
+  "could_not_check": [
+    "Whether patent.json's narrative fields were produced from the inputs A4 declares or from something else. There is no provenance sidecar for this artifact, so no line-level grounding trail exists for patent_summary or novelty_claims and every claim in them had to be re-derived from the document by hand.",
+    "legal_status \"Pending (Google Patents, retrieved 2026-08-28)\" and family_id 57098239. Neither is printed on the publication and this audit has no network, so both rest entirely on the biblio file's own record of its retrieval. They are unverified here.",
+    "cpc_codes null and examiners null. CN A-publications print neither, so absence on p01 is consistent with null but is not positive evidence that no CPC assignment exists.",
+    "Whether the printed yields are true. The document asserts 91, 93, 90, 93 and 92 percent for step a and 86.3, 86, 87.5, 80.1 and 83.9 percent for step b; the step b masses imply 416 to 429 g per mol against 440.8 for C17H16ClF3O6S, so the product numbers do not close. That inconsistency is recorded on the reaction records and the narrative says so, which is the correct outcome. Nothing in this pass can determine which of the mass, the yield or the assumed molecular weight the patent got wrong.",
+    "Line 73 to 78: claim 10's weight ratio is split across a page break as \"2-8:\" then \"1。\" on p03. The reassembly to 2-8:1 is supported by line 126 in the description, but the claims-page text itself is broken and no single line carries the whole value."
+  ]
+}

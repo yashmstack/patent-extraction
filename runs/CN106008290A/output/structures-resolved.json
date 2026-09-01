@@ -1,0 +1,1028 @@
+[
+  {
+    "identifier": "sodium trifluoroethoxide",
+    "smiles": "FC(C[O-])(F)F.[Na+]",
+    "canonical": "[Na+].[O-]CC(F)(F)F",
+    "formula": "C2H2F3NaO",
+    "mw": 122.02,
+    "origin": "name_parsed",
+    "svg": "structures/sodium-trifluoroethoxide.svg",
+    "aliases": [
+      "sodium 2,2,2-trifluoroethoxide"
+    ],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN (parsed as 'sodium 2,2,2-trifluoroethoxide'), independently of any reading of this document.",
+    "name_check": {
+      "query": "sodium 2,2,2-trifluoroethoxide",
+      "via": "alias",
+      "outcome": "is_the_source",
+      "opsin_canonical": "[Na+].[O-]CC(F)(F)F",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate",
+    "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "formula": "C10H10BrClO4S",
+    "mw": 341.61,
+    "origin": "derived",
+    "svg": "structures/methyl-2-chloro-3-bromomethyl-4-methylsulfonylbenzoate.svg",
+    "aliases": [
+      "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+      "methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate",
+      "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate"
+    ],
+    "note": "Same molecule as 'methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate', via provenance/compounds-equivalence.json. It is drawn in the patent.",
+    "name_check": {
+      "query": "methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate",
+      "via": "verbatim",
+      "outcome": "agree",
+      "opsin_canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "note_en": "An independent parse of the name lands on the same molecule."
+    }
+  },
+  {
+    "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "formula": "C11H10ClF3O5S",
+    "mw": 346.71,
+    "origin": "derived",
+    "svg": "structures/compound-ii-benzoic-acid.svg",
+    "aliases": [
+      "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+      "2-chloro-3-(trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+      "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+      "化合物II",
+      "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid"
+    ],
+    "note": "Same molecule as '2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid', via provenance/compounds-equivalence.json. It is drawn in the patent.",
+    "name_check": {
+      "query": "2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid",
+      "via": "verbatim",
+      "outcome": "agree",
+      "opsin_canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "note_en": "An independent parse of the name lands on the same molecule."
+    }
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "smiles": "O=C1CCCC(=O)C1",
+    "canonical": "O=C1CCCC(=O)C1",
+    "formula": "C6H8O2",
+    "mw": 112.13,
+    "origin": "patent_drawing",
+    "svg": "structures/1-3-cyclohexanedione.svg",
+    "aliases": [],
+    "note": "Drawn in the patent on p02, p04. Structure from the record's own aliases[].",
+    "name_check": {
+      "query": "1,3-cyclohexanedione",
+      "via": "verbatim",
+      "outcome": "agree",
+      "opsin_canonical": "O=C1CCCC(=O)C1",
+      "note_en": "An independent parse of the name lands on the same molecule."
+    }
+  },
+  {
+    "identifier": "tembotrione",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "canonical": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "formula": "C17H16ClF3O6S",
+    "mw": 440.82,
+    "origin": "patent_drawing",
+    "svg": "structures/tembotrione.svg",
+    "aliases": [],
+    "note": "Drawn in the patent on p02, p04. Structure from the record's own aliases[].",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'tembotrione'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "2,2,2-trifluoroethanol",
+    "smiles": "FC(CO)(F)F",
+    "canonical": "OCC(F)(F)F",
+    "formula": "C2H3F3O",
+    "mw": 100.04,
+    "origin": "name_parsed",
+    "svg": "structures/2-2-2-trifluoroethanol.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "2,2,2-trifluoroethanol",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "OCC(F)(F)F",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "potassium tert-butoxide",
+    "smiles": "CC(C)(C)[O-].[K+]",
+    "canonical": "CC(C)(C)[O-].[K+]",
+    "formula": "C4H9KO",
+    "mw": 112.21,
+    "origin": "name_parsed",
+    "svg": "structures/potassium-tert-butoxide.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "potassium tert-butoxide",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CC(C)(C)[O-].[K+]",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "acetone cyanohydrin",
+    "smiles": "CC(C#N)(O)C",
+    "canonical": "CC(C)(O)C#N",
+    "formula": "C4H7NO",
+    "mw": 85.11,
+    "origin": "name_parsed",
+    "svg": "structures/acetone-cyanohydrin.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "acetone cyanohydrin",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CC(C)(O)C#N",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "formula": "C11H10ClF3O5S",
+    "mw": 346.71,
+    "origin": "derived",
+    "svg": "structures/compound-ii-benzoic-acid.svg",
+    "aliases": [
+      "2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid",
+      "2-chloro-3-(trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+      "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+      "化合物II",
+      "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid"
+    ],
+    "note": "Same molecule as '2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid', via provenance/compounds-equivalence.json. It is drawn in the patent.",
+    "name_check": {
+      "query": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+      "via": "verbatim",
+      "outcome": "agree",
+      "opsin_canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "note_en": "An independent parse of the name lands on the same molecule."
+    }
+  },
+  {
+    "identifier": "thionyl chloride",
+    "smiles": "S(=O)(Cl)Cl",
+    "canonical": "O=S(Cl)Cl",
+    "formula": "Cl2OS",
+    "mw": 118.97,
+    "origin": "name_parsed",
+    "svg": "structures/thionyl-chloride.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "thionyl chloride",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "O=S(Cl)Cl",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "sodium 2,2,2-trifluoroethoxide",
+    "smiles": "FC(C[O-])(F)F.[Na+]",
+    "canonical": "[Na+].[O-]CC(F)(F)F",
+    "formula": "C2H2F3NaO",
+    "mw": 122.02,
+    "origin": "name_parsed",
+    "svg": "structures/sodium-trifluoroethoxide.svg",
+    "aliases": [
+      "sodium trifluoroethoxide"
+    ],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "sodium 2,2,2-trifluoroethoxide",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "[Na+].[O-]CC(F)(F)F",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "2-chloro-3-(trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "formula": "C11H10ClF3O5S",
+    "mw": 346.71,
+    "origin": "derived",
+    "svg": "structures/compound-ii-benzoic-acid.svg",
+    "aliases": [
+      "2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid",
+      "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+      "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+      "化合物II",
+      "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid"
+    ],
+    "note": "Same molecule as '2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid', via provenance/compounds-equivalence.json. It is drawn in the patent.",
+    "name_check": {
+      "query": "2-chloro-3-(trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+      "via": "verbatim",
+      "outcome": "agree",
+      "opsin_canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "note_en": "An independent parse of the name lands on the same molecule."
+    }
+  },
+  {
+    "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+    "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "formula": "C10H10BrClO4S",
+    "mw": 341.61,
+    "origin": "patent_drawing",
+    "svg": "structures/methyl-2-chloro-3-bromomethyl-4-methylsulfonylbenzoate.svg",
+    "aliases": [
+      "methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate",
+      "methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate",
+      "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate"
+    ],
+    "note": "Drawn in the patent on p02, p04. Structure from the record's own aliases[].",
+    "name_check": {
+      "query": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+      "via": "verbatim",
+      "outcome": "agree",
+      "opsin_canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "note_en": "An independent parse of the name lands on the same molecule."
+    }
+  },
+  {
+    "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "formula": "C11H10ClF3O5S",
+    "mw": 346.71,
+    "origin": "patent_drawing",
+    "svg": "structures/compound-ii-benzoic-acid.svg",
+    "aliases": [
+      "2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid",
+      "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+      "2-chloro-3-(trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+      "化合物II",
+      "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid"
+    ],
+    "note": "Drawn in the patent on p02, p04. Structure from the record's own aliases[].",
+    "name_check": {
+      "query": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+      "via": "verbatim",
+      "outcome": "agree",
+      "opsin_canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "note_en": "An independent parse of the name lands on the same molecule."
+    }
+  },
+  {
+    "identifier": "sodium carbonate",
+    "smiles": "C([O-])([O-])=O.[Na+].[Na+]",
+    "canonical": "O=C([O-])[O-].[Na+].[Na+]",
+    "formula": "CNa2O3",
+    "mw": 105.99,
+    "origin": "name_parsed",
+    "svg": "structures/sodium-carbonate.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "sodium carbonate",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "O=C([O-])[O-].[Na+].[Na+]",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "potassium carbonate",
+    "smiles": "C([O-])([O-])=O.[K+].[K+]",
+    "canonical": "O=C([O-])[O-].[K+].[K+]",
+    "formula": "CK2O3",
+    "mw": 138.2,
+    "origin": "name_parsed",
+    "svg": "structures/potassium-carbonate.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "potassium carbonate",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "O=C([O-])[O-].[K+].[K+]",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "calcium hydroxide",
+    "smiles": "[OH-].[Ca+2].[OH-]",
+    "canonical": "[Ca+2].[OH-].[OH-]",
+    "formula": "H2CaO2",
+    "mw": 74.09,
+    "origin": "name_parsed",
+    "svg": "structures/calcium-hydroxide.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "calcium hydroxide",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "[Ca+2].[OH-].[OH-]",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "triethylamine",
+    "smiles": "C(C)N(CC)CC",
+    "canonical": "CCN(CC)CC",
+    "formula": "C6H15N",
+    "mw": 101.19,
+    "origin": "name_parsed",
+    "svg": "structures/triethylamine.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "triethylamine",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CCN(CC)CC",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "pyridine",
+    "smiles": "N1=CC=CC=C1",
+    "canonical": "c1ccncc1",
+    "formula": "C5H5N",
+    "mw": 79.1,
+    "origin": "name_parsed",
+    "svg": "structures/pyridine.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "pyridine",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "c1ccncc1",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "N,N'-carbonyldiimidazole",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried \"N,N'-carbonyldiimidazole\". Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "O-benzotriazolyl-tetramethyluronium hexafluorophosphate",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure, because the NAME does not pin one molecule down. OPSIN will not pin this name down to one molecule. OPSIN parsed this name but warned that it does not pin one molecule down. Its guess is recorded and is deliberately NOT used as a structure.",
+    "name_check": {
+      "query": "O-benzotriazolyl-tetramethyluronium hexafluorophosphate",
+      "via": "verbatim",
+      "outcome": "ambiguous",
+      "opsin_canonical": "CN(C)C(Oc1cccc2[nH]nnc12)=[N+](C)C.F[P-](F)(F)(F)(F)F",
+      "note_en": "OPSIN will not pin this name down to one molecule. OPSIN parsed this name but warned that it does not pin one molecule down. Its guess is recorded and is deliberately NOT used as a structure."
+    }
+  },
+  {
+    "identifier": "1-hydroxybenzotriazole",
+    "smiles": "ON1N=NC2=C1C=CC=C2",
+    "canonical": "On1nnc2ccccc21",
+    "formula": "C6H5N3O",
+    "mw": 135.13,
+    "origin": "name_parsed",
+    "svg": "structures/hobt.svg",
+    "aliases": [
+      "HOBT"
+    ],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "1-hydroxybenzotriazole",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "On1nnc2ccccc21",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "1,8-diazabicycloundec-7-ene",
+    "smiles": "N1(CCCCCC=NCCC1)C1CCCCCCCCCC1",
+    "canonical": "C1=NCCCN(C2CCCCCCCCCC2)CCCCC1",
+    "formula": "C20H38N2",
+    "mw": 306.54,
+    "origin": "name_parsed",
+    "svg": "structures/1-8-diazabicycloundec-7-ene.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "1,8-diazabicycloundec-7-ene",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "C1=NCCCN(C2CCCCCCCCCC2)CCCCC1",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "hexane",
+    "smiles": "CCCCCC",
+    "canonical": "CCCCCC",
+    "formula": "C6H14",
+    "mw": 86.18,
+    "origin": "name_parsed",
+    "svg": "structures/hexane.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "hexane",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CCCCCC",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "cyclohexane",
+    "smiles": "C1CCCCC1",
+    "canonical": "C1CCCCC1",
+    "formula": "C6H12",
+    "mw": 84.16,
+    "origin": "name_parsed",
+    "svg": "structures/cyclohexane.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "cyclohexane",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "C1CCCCC1",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "N,N-dimethylformamide",
+    "smiles": "CN(C=O)C",
+    "canonical": "CN(C)C=O",
+    "formula": "C3H7NO",
+    "mw": 73.09,
+    "origin": "name_parsed",
+    "svg": "structures/n-n-dimethylformamide.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "N,N-dimethylformamide",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CN(C)C=O",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "benzene",
+    "smiles": "C1=CC=CC=C1",
+    "canonical": "c1ccccc1",
+    "formula": "C6H6",
+    "mw": 78.11,
+    "origin": "name_parsed",
+    "svg": "structures/benzene.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "benzene",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "c1ccccc1",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "toluene",
+    "smiles": "CC1=CC=CC=C1",
+    "canonical": "Cc1ccccc1",
+    "formula": "C7H8",
+    "mw": 92.14,
+    "origin": "name_parsed",
+    "svg": "structures/toluene.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "toluene",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "Cc1ccccc1",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "xylene",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure, because the NAME does not pin one molecule down. OPSIN will not pin this name down to one molecule. OPSIN parsed this name but warned that it does not pin one molecule down. Its guess is recorded and is deliberately NOT used as a structure.",
+    "name_check": {
+      "query": "xylene",
+      "via": "verbatim",
+      "outcome": "ambiguous",
+      "opsin_canonical": "Cc1ccccc1C",
+      "note_en": "OPSIN will not pin this name down to one molecule. OPSIN parsed this name but warned that it does not pin one molecule down. Its guess is recorded and is deliberately NOT used as a structure."
+    }
+  },
+  {
+    "identifier": "dichloromethane",
+    "smiles": "ClCCl",
+    "canonical": "ClCCl",
+    "formula": "CH2Cl2",
+    "mw": 84.93,
+    "origin": "name_parsed",
+    "svg": "structures/dichloromethane.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "dichloromethane",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "ClCCl",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "1,2-dichloroethane",
+    "smiles": "ClCCCl",
+    "canonical": "ClCCCl",
+    "formula": "C2H4Cl2",
+    "mw": 98.96,
+    "origin": "name_parsed",
+    "svg": "structures/1-2-dichloroethane.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "1,2-dichloroethane",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "ClCCCl",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "chloroform",
+    "smiles": "C(Cl)(Cl)Cl",
+    "canonical": "ClC(Cl)Cl",
+    "formula": "CHCl3",
+    "mw": 119.38,
+    "origin": "name_parsed",
+    "svg": "structures/chloroform.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "chloroform",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "ClC(Cl)Cl",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "smiles": "O1CCOCC1",
+    "canonical": "C1COCCO1",
+    "formula": "C4H8O2",
+    "mw": 88.11,
+    "origin": "name_parsed",
+    "svg": "structures/1-4-dioxane.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "1,4-dioxane",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "C1COCCO1",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "diethyl ether",
+    "smiles": "C(C)OCC",
+    "canonical": "CCOCC",
+    "formula": "C4H10O",
+    "mw": 74.12,
+    "origin": "name_parsed",
+    "svg": "structures/diethyl-ether.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "diethyl ether",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CCOCC",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "tetrahydrofuran",
+    "smiles": "O1CCCC1",
+    "canonical": "C1CCOC1",
+    "formula": "C4H8O",
+    "mw": 72.11,
+    "origin": "name_parsed",
+    "svg": "structures/tetrahydrofuran.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "tetrahydrofuran",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "C1CCOC1",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "acetonitrile",
+    "smiles": "C(C)#N",
+    "canonical": "CC#N",
+    "formula": "C2H3N",
+    "mw": 41.05,
+    "origin": "name_parsed",
+    "svg": "structures/acetonitrile.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "acetonitrile",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CC#N",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "sodium hydroxide",
+    "smiles": "[OH-].[Na+]",
+    "canonical": "[Na+].[OH-]",
+    "formula": "HNaO",
+    "mw": 40.0,
+    "origin": "name_parsed",
+    "svg": "structures/sodium-hydroxide.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "sodium hydroxide",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "[Na+].[OH-]",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate",
+    "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "formula": "C10H10BrClO4S",
+    "mw": 341.61,
+    "origin": "derived",
+    "svg": "structures/methyl-2-chloro-3-bromomethyl-4-methylsulfonylbenzoate.svg",
+    "aliases": [
+      "methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate",
+      "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+      "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate"
+    ],
+    "note": "Same molecule as 'methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate', via provenance/compounds-equivalence.json. It is drawn in the patent.",
+    "name_check": {
+      "query": "methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate",
+      "via": "verbatim",
+      "outcome": "agree",
+      "opsin_canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "note_en": "An independent parse of the name lands on the same molecule."
+    }
+  },
+  {
+    "identifier": "water",
+    "smiles": "O",
+    "canonical": "O",
+    "formula": "H2O",
+    "mw": 18.02,
+    "origin": "name_parsed",
+    "svg": "structures/water.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "water",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "O",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "hydrochloric acid",
+    "smiles": "Cl",
+    "canonical": "Cl",
+    "formula": "HCl",
+    "mw": 36.46,
+    "origin": "name_parsed",
+    "svg": "structures/hydrochloric-acid.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "hydrochloric acid",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "Cl",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "化合物II",
+    "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+    "canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "formula": "C11H10ClF3O5S",
+    "mw": 346.71,
+    "origin": "patent_drawing",
+    "svg": "structures/compound-ii-benzoic-acid.svg",
+    "aliases": [
+      "2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid",
+      "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+      "2-chloro-3-(trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+      "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+      "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid"
+    ],
+    "note": "Drawn in the patent on p02, p04. Structure from input/structures-curated.json. Reaction product. 2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid. The five example sections use the bare local label and never define it; the definition is at line 95 of the summary, 2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸, the free acid. Checked atom by atom against that name: ring C1 carboxyl, C2 chloro, C3 (2,2,2-trifluoroethoxy)methyl, C4 methylsulfonyl. Formula from the SMILES is C11H10ClF3O5S at 346.71, and the formula the name implies is the same. Corroborated by the patent's own arithmetic rather than by the name alone: step a prints 314.8 g at 91 percent, 321.7 at 93, 311.4 at 90, 321.7 at 93 and 318.3 at 92 on a 1.0 mol charge, which imply 346 g/mol in all five examples. The methyl ester would be 360.73 and does not fit any of them. Both A5 audits reached the free acid independently.",
+    "name_check": {
+      "query": "2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid",
+      "via": "alias",
+      "outcome": "agree",
+      "opsin_canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "note_en": "An independent parse of the name lands on the same molecule."
+    }
+  },
+  {
+    "identifier": "CDI",
+    "smiles": "O=C(n1ccnc1)n1ccnc1",
+    "canonical": "O=C(n1ccnc1)n1ccnc1",
+    "formula": "C7H6N4O",
+    "mw": 162.15,
+    "origin": "curated",
+    "svg": "structures/cdi.svg",
+    "aliases": [],
+    "note": "Named in the patent but never drawn. Structure from input/structures-curated.json. Carries a mass and a mole count. 1,1'-carbonyldiimidazole, the condensing agent of examples 1 and 5. Checked atom by atom: a carbonyl bridging the N1 of two imidazoles. Formula from the SMILES is C7H6N4O at 162.15, and the formula the name implies is the same. Corroborated by the patent's own charge rather than by the name alone: example 1 prints 194.6 g for 1.2 mol, which is 162.2 g/mol, and example 5 prints 291.6 g for 1.8 mol, which is 162.0. The step 6 reader, which never saw the extraction, authored the same structure independently.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'CDI'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "methanol",
+    "smiles": "CO",
+    "canonical": "CO",
+    "formula": "CH4O",
+    "mw": 32.04,
+    "origin": "name_parsed",
+    "svg": "structures/methanol.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "methanol",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CO",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "potassium hydroxide",
+    "smiles": "[OH-].[K+]",
+    "canonical": "[K+].[OH-]",
+    "formula": "HKO",
+    "mw": 56.11,
+    "origin": "name_parsed",
+    "svg": "structures/potassium-hydroxide.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "potassium hydroxide",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "[K+].[OH-]",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "HBTU",
+    "smiles": "CN(C)C(=[N+](C)C)On1nnc2ccccc21.F[P-](F)(F)(F)(F)F",
+    "canonical": "CN(C)C(On1nnc2ccccc21)=[N+](C)C.F[P-](F)(F)(F)(F)F",
+    "formula": "C11H16F6N5OP",
+    "mw": 379.24,
+    "origin": "curated",
+    "svg": "structures/hbtu.svg",
+    "aliases": [],
+    "note": "Named in the patent but never drawn. Structure from input/structures-curated.json. Carries a mass and a mole count. O-(benzotriazol-1-yl)-N,N,N',N'-tetramethyluronium hexafluorophosphate, the condensing agent of example 2. Checked atom by atom: tetramethyluronium cation O-linked at benzotriazole N1, hexafluorophosphate counter-ion. Formula from the SMILES is C11H16F6N5OP at 379.24, and the formula the name implies is the same. The full salt rather than the bare cation, because example 2 prints 758 g for 2 mol at line 151, which is 379.0 g/mol; the cation alone would be 234.28. The patent's printed Chinese name is incomplete against the standard one, omitting the benzotriazol-1-yl attachment locant and the N,N,N',N' locants and reading 六氟磷酸酯 as an ester where this is a salt; A1 recorded that and it is not corrected here.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'HBTU'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "dichloroethane",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure, because the NAME does not pin one molecule down. OPSIN will not pin this name down to one molecule. OPSIN parsed this name but warned that it does not pin one molecule down. Its guess is recorded and is deliberately NOT used as a structure.",
+    "name_check": {
+      "query": "dichloroethane",
+      "via": "verbatim",
+      "outcome": "ambiguous",
+      "opsin_canonical": "CC(Cl)Cl",
+      "note_en": "OPSIN will not pin this name down to one molecule. OPSIN parsed this name but warned that it does not pin one molecule down. Its guess is recorded and is deliberately NOT used as a structure."
+    }
+  },
+  {
+    "identifier": "HOBT",
+    "smiles": "ON1N=NC2=C1C=CC=C2",
+    "canonical": "On1nnc2ccccc21",
+    "formula": "C6H5N3O",
+    "mw": 135.13,
+    "origin": "name_parsed",
+    "svg": "structures/hobt.svg",
+    "aliases": [
+      "1-hydroxybenzotriazole"
+    ],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN (parsed as '1-hydroxybenzotriazole'), independently of any reading of this document.",
+    "name_check": {
+      "query": "1-hydroxybenzotriazole",
+      "via": "alias",
+      "outcome": "is_the_source",
+      "opsin_canonical": "On1nnc2ccccc21",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "DBU",
+    "smiles": "C1CCC2=NCCCN2CC1",
+    "canonical": "C1CCC2=NCCCN2CC1",
+    "formula": "C9H16N2",
+    "mw": 152.24,
+    "origin": "curated",
+    "svg": "structures/dbu.svg",
+    "aliases": [],
+    "note": "Named in the patent but never drawn. Structure from input/structures-curated.json. Carries a mass and a mole count. 1,8-diazabicyclo[5.4.0]undec-7-ene, the condensing agent of example 4. Checked atom by atom: the bicyclic amidine, C=N at the 7-position, the two nitrogens bridged in a 5.4.0 fusion. Formula from the SMILES is C9H16N2 at 152.24, and the formula the name implies is the same. Corroborated by the patent's own charge: example 4 prints 152 g for 1 mol. The patent's printed Chinese name omits the [5.4.0] bridge descriptor and A1 recorded that; it is not corrected here. Note that the same 152 g is printed for 1 mol of pyridine on the same line, where it does not fit, pyridine being 79.10, and that stays a recorded finding rather than something this structure resolves. The step 6 reader authored the same structure independently.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'DBU'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "lithium hydroxide",
+    "smiles": "[OH-].[Li+]",
+    "canonical": "[Li+].[OH-]",
+    "formula": "HLiO",
+    "mw": 23.95,
+    "origin": "name_parsed",
+    "svg": "structures/lithium-hydroxide.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "lithium hydroxide",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "[Li+].[OH-]",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+    "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "formula": "C10H10BrClO4S",
+    "mw": 341.61,
+    "origin": "patent_drawing",
+    "svg": "structures/methyl-2-chloro-3-bromomethyl-4-methylsulfonylbenzoate.svg",
+    "aliases": [
+      "methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate",
+      "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+      "methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate"
+    ],
+    "note": "Drawn in the patent on p02, p04. Structure from the record's own aliases[].",
+    "name_check": {
+      "query": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+      "via": "verbatim",
+      "outcome": "agree",
+      "opsin_canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "note_en": "An independent parse of the name lands on the same molecule."
+    }
+  },
+  {
+    "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "formula": "C11H10ClF3O5S",
+    "mw": 346.71,
+    "origin": "patent_drawing",
+    "svg": "structures/compound-ii-benzoic-acid.svg",
+    "aliases": [
+      "2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid",
+      "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+      "2-chloro-3-(trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+      "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+      "化合物II"
+    ],
+    "note": "Drawn in the patent on p02, p04. Structure from the record's own aliases[].",
+    "name_check": {
+      "query": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+      "via": "verbatim",
+      "outcome": "agree",
+      "opsin_canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "note_en": "An independent parse of the name lands on the same molecule."
+    }
+  },
+  {
+    "identifier": "MOH/M2CO3",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'MOH/M2CO3'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "condensing agent",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'condensing agent'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "base catalyst",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'base catalyst'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "sodium bromide",
+    "smiles": "[Br-].[Na+]",
+    "canonical": "[Br-].[Na+]",
+    "formula": "BrNa",
+    "mw": 102.89,
+    "origin": "name_parsed",
+    "svg": "structures/sodium-bromide.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "sodium bromide",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "[Br-].[Na+]",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  }
+]

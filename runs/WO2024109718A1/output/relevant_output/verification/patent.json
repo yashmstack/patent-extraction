@@ -1,0 +1,185 @@
+{
+  "artifact": "patent",
+  "records_audited": 1,
+  "findings": [
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "WO2024109718A1",
+      "field": "extraction_rollup.scale_distribution",
+      "problem": "Two reactions are counted as pilot scale when every example in the patent is a bench run in a four-necked flask or a laboratory autoclave, and the two so counted are smaller than Example 1, which is counted as lab.",
+      "source_line": 443,
+      "quote": "将式(VI)化合物100.75g、400g二氯甲烷置于四口圆底烧瓶中，于10℃左右滴加溴素98.4g。",
+      "artifact_says": "\"scale_distribution\": {\"not_specified\": 56, \"lab\": 13, \"pilot\": 2}",
+      "should_be": "Reclassify Example 2_Step 1 and Example 3_Step 1 in reactions.json from pilot to lab (Example 3 at line 453 is likewise 146 g in a 四口烧瓶), so the recomputed rollup reads lab 15, pilot 0. Example 1 at line 428 charges 1165 g of acid and 100 g of aniline and is already lab, which makes the present split self-contradictory.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "WO2024109718A1",
+      "field": "novelty_claims",
+      "problem": "The record singles out 1,4-bis(diphenylphosphino)butane as the preferred ligand, but the claim and the description list three phosphine ligands with no preference expressed among them.",
+      "source_line": 570,
+      "quote": "所述磷配体或其盐优选为1,3-(双二苯基膦)丙烷、1,4-双(二苯基膦)丁烷或者双[(4-N,N-二甲氨基)苯基]二叔丁基膦。",
+      "artifact_says": "preferably palladium with 1,4-bis(diphenylphosphino)butane or a related ligand",
+      "should_be": "preferably palladium, with the phosphine ligand being any of 1,3-bis(diphenylphosphino)propane, 1,4-bis(diphenylphosphino)butane or bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine. The one preference the patent does state for this step is the palladium source, PdCl2, at [0084] line 327.",
+      "confidence": "medium"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "WO2024109718A1",
+      "field": "tags",
+      "problem": "The tag novelty:green_chemistry asserts an environmental advantage for the invention that the patent never claims for its own route.",
+      "source_line": 82,
+      "quote": "[0009] 通过本发明的新方法和新中间体，可以比上述现有工艺路线更少的步骤制备环磺酮，节约成本，提高生产效率。",
+      "artifact_says": "\"novelty:green_chemistry\"",
+      "should_be": "Drop novelty:green_chemistry and keep novelty:new_process and novelty:new_compound. The pollution objections at [0006] line 76 are levelled at the prior-art route, and the only advantages the patent asserts for the invention at [0009] are fewer steps, cost saving and production efficiency. What would settle it: any sentence in the description claiming reduced waste or pollution for the new route; I found none.",
+      "confidence": "medium"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "WO2024109718A1",
+      "field": "tags",
+      "problem": "The tag claim_type:composition is unsupported; the patent claims no composition or formulation, and the only non-process claim is a compound per se already covered by claim_type:intermediate.",
+      "source_line": 624,
+      "quote": "[权利要求 11] 下式(A)所示的化合物：",
+      "artifact_says": "\"claim_type:composition\"",
+      "should_be": "Drop claim_type:composition; keep claim_type:process (claims 1 to 10, 12, 13), claim_type:intermediate (claim 11) and claim_type:use (claim 14). Fourteen claims were checked one by one against pages 24 to 29 and none recites a composition or a formulation.",
+      "confidence": "medium"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "WO2024109718A1",
+      "field": "patent_summary",
+      "problem": "The summary opens the disclosed route with the diazotisation of 3-chloro-2-methylaniline to compound (VI) without recording that the patent presents that step as a known prior-art method, not as part of its invention.",
+      "source_line": 252,
+      "quote": "[0059] 作为原料的式(VI)化合物可以参照例如专利文献CN106631941A等中记载的公知方法通过如下反应制备：",
+      "artifact_says": "from 3-chloro-2-methylaniline: diazotisation and reaction with sodium methanethiolate to the aryl methyl sulfide (VI), ring bromination to (I)",
+      "should_be": "Say that (VI) is the starting material of the invention and that its preparation from 3-chloro-2-methylaniline is a known method the patent cites to CN106631941A, then begin the invention's own route at the bromination (i) of (VI) to (I). The claimed steps are (i) to (iv), (v)/(v') and (vi)/(vi') only.",
+      "confidence": "medium"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "WO2024109718A1",
+      "field": "patent_summary",
+      "problem": "The tail of the route, acid chloride formation and O-acylation of cyclohexane-1,3-dione followed by the cyanide-catalysed rearrangement, is presented as the document's own chemistry when the patent attributes it to a known method.",
+      "source_line": 343,
+      "quote": "[0091] 式(V)的羧酸化合物和式(VIII)的酯化合物是环磺酮的重要制备中间体，可以参照例如专利文献DE19846792A1等中公开的已知方法通过如下路线制备环磺酮。",
+      "artifact_says": "which is taken on through the acid chloride and O-acylation of cyclohexane-1,3-dione, or directly to the enol ester (VIII) ... a cyanide source then effecting the rearrangement",
+      "should_be": "Mark the conversion of (V) and (VIII) to tembotrione as carried out by methods the patent cites to DE19846792A1. Note that this is a downgrade of the finding, not a full pass: the patent does run these steps in its own Examples 8 and 10, so the summary is not fabricating chemistry, only losing the attribution.",
+      "confidence": "medium"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "WO2024109718A1",
+      "field": "novelty_claims",
+      "problem": "The claim that the carbonylation replaces the Friedel-Crafts acetylation and haloform pair is the annotator's inference; the patent nowhere maps its new step onto the prior-art steps it displaces.",
+      "source_line": 82,
+      "quote": "[0009] 通过本发明的新方法和新中间体，可以比上述现有工艺路线更少的步骤制备环磺酮，节约成本，提高生产效率。",
+      "artifact_says": "the carbonylation of the aryl bromide standing in for the Friedel-Crafts acetylation and haloform oxidation pair",
+      "should_be": "Delete the clause, or mark it explicitly as a reading of the two schemes rather than a statement of the patent. The inference is chemically correct on comparing the p03 scheme with steps (i) to (v), but no sentence in the document makes it.",
+      "confidence": "medium"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "WO2024109718A1",
+      "field": "tags",
+      "problem": "The tag named_rxn:fries_rearrangement names a reaction the patent does not name; it calls the (VIII) to tembotrione step only a rearrangement run over a cyanide-type catalyst.",
+      "source_line": 348,
+      "quote": "由式(VIII)的酯化合物重排制备环磺酮时，优选使用氰类催化剂，特别优选使用丙酮氰醇作为催化剂。",
+      "artifact_says": "\"named_rxn:fries_rearrangement\"",
+      "should_be": "Set named_reaction to null on the (VIII) to tembotrione step in reactions.json, which is where this tag originates, and let the transformation:rearrangement tag carry it. The enol ester to triketone rearrangement is conventionally called a Fries-type rearrangement, so this is an accepted-knowledge label rather than a read of the page.",
+      "confidence": "medium"
+    },
+    {
+      "check": "fidelity",
+      "severity": "minor",
+      "record": "WO2024109718A1",
+      "field": "extraction_rollup.best_overall_yield_pct",
+      "problem": "The best overall yield is taken from a single-step pathway that stops at the intermediate acid (V), not from any pathway that reaches the patent's target compound.",
+      "source_line": 493,
+      "quote": "得到式(V)化合物，收率81.13％，熔点155-157℃。",
+      "artifact_says": "\"best_overall_yield_pct\": 81.13 (pathway 0067ac9a, section Example 6, ksm 式(IV)化合物, product 式(V)化合物, one step)",
+      "should_be": "Leave the number if the field is defined as the maximum over all pathways, which is how it reads, but the highest yield to tembotrione itself is 76.59 per cent at Example 8 line 514 and 64.67 per cent for the one-pot Example 10 at line 542. What would settle it: the A3 definition of overall_yield_pct for a single-step pathway.",
+      "confidence": "low"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "WO2024109718A1",
+      "field": "extraction_rollup.key_starting_materials",
+      "problem": "Nine entries cover only four distinct molecules, and compound (VI) appears in both key_starting_materials and target_compounds under three different spellings.",
+      "source_line": 493,
+      "quote": "向高压釜中加入式(IV)化合物40g、水20g、三乙胺26.49g",
+      "artifact_says": "cyclohexane-1,3-dione, O=C1CCCC(=O)C1 and 1,3-cyclohexanedione are three entries; CO and carbon monoxide are two; 3-chloro-2-methylaniline and Cc1c(N)cccc1Cl are two; 式(VI)化合物 and CSc1cccc(Cl)c1C are starting materials while compound of formula (VI) is a target compound",
+      "should_be": "Merge the spellings, or record them in compounds-equivalence.json, which currently holds one entry only and does not pair any name with its SMILES or with its Chinese formula label. The reference run runs/CN104292137A shows the same pattern (2-chlorotoluene beside Cc1c(Cl)cccc1Cl, unpaired in its equivalence file), so this may be the production behaviour the CLAUDE.md note describes rather than a defect of this run; that is why it is filed minor and not major.",
+      "confidence": "medium"
+    }
+  ],
+  "checks_passed": [
+    {
+      "check": "bibliographic dates, read off page 1 with my own eyes",
+      "what_was_verified": "Crops of runs/WO2024109718A1/input/pages/p01.png read directly. (43) 国际公布日 2024 年 5 月 30 日 (30.05.2024) matches publication_date 2024-05-30. (22) 国际申请日 2023 年 11 月 21 日 (21.11.2023) matches filing_date 2023-11-21. (30) 优先权 202211487542.7 2022年11月22日 (22.11.2022) CN matches priority_date 2022-11-22. grant_date null is right for a WO A1 publication with no grant."
+    },
+    {
+      "check": "IPC codes against the printed front page",
+      "what_was_verified": "(51) prints C07C 319/20, C07C 317/24, C07C 15/04, C07C 315/04, all (2006.01). The artifact carries exactly those four in that order, no extras and none dropped. No CPC is printed anywhere on page 1, so cpc_codes null is correct rather than a null that could have been populated."
+    },
+    {
+      "check": "applicants and inventors against the printed front page",
+      "what_was_verified": "(71) prints two applicants, LANSHENG BIOTECHNOLOGY GROUP CO., LTD [CN/CN] and HEBEI UNIVERSITY OF SCIENCE AND TECHNOLOGY [CN/CN], matching the two assignees with country CN. (72) prints exactly five inventors, LI Liuliu, ZHAO Yaran, GUO Qingchun, SONG Haiwen, ZHANG Yue, in that order, matching the artifact's five in the same order with country CN. No sixth inventor and no agent misfiled as an inventor; (74) names the applicant as common representative and is correctly not carried as a party. examiners null is right for an unexamined PCT publication."
+    },
+    {
+      "check": "title, and whether the title_en_note justification holds",
+      "what_was_verified": "It holds. Page 1 prints (54) Title: METHOD FOR PREPARING CYCLOSULFONONE, AND INTERMEDIATES and (54) 发明名称: 环磺酮的制备方法和中间体, and the artifact's title reads Method for preparing tembotrione, and intermediates. The substitution is justified by the chemistry, not by outside authority: the front-page scheme on page 1 and the p03 background scheme both end at CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F, which is tembotrione, and [0002] line 61 calls 环磺酮 a 三酮类除草剂. Cyclosulfonone is a character gloss of 环 plus 磺 plus 酮 and names no registered herbicide. The disagreement is not resolved silently either: patent_summary states the publication's own English renders it cyclosulfonone. The abstract field reproduces the printed (57) 摘要 character for character."
+    },
+    {
+      "check": "claim count and claim types against the printed claims",
+      "what_was_verified": "Pages 24 to 29 carry exactly 14 claims, numbered 权利要求 1 to 14 with no gaps. Types read off the claims themselves: 1 to 10 process (1 independent, 2 to 10 dependent), 11 a compound of formula (A) per se with four R1/R2 combinations at lines 630 to 635 and 647, which the artifact's four is correct on, 12 a process for preparing that compound, 13 a process using it as an intermediate, 14 a use claim. novelty_claims cites claims 1, 3, 9, 11, 13 and 14 and each citation was checked against its printed text; the one-pot language it attributes to claim 9 is genuinely inside claim 9 at line 610, before claim 10 opens at line 616, and is not the near-identical sentence in claim 10 at line 622."
+    },
+    {
+      "check": "drawings, invention scheme substituent positions",
+      "what_was_verified": "Read p01 and p05 as images. On p01 the (v) and (v') schemes draw Br, Cl, CH2OCH2CF3, SO2CH3 consecutively round the ring, and the IMAGE_EXTRACT SMILES CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F gives the identical adjacency, as does the acid product. On p05 the (ii), (iii) and (iv) schemes were checked substituent by substituent: SMe to SO2Me with Br, Cl, CH3 fixed; CH3 to CH2Br; CH2Br to CH2OCH2CF3, each matching its extracted SMILES ring order exactly. No position was inferred rather than read. Pages 30 to 39 are NMR spectra with inset structures only and produced molecules, not reactions, so no drawn scheme was invented from a spectrum page."
+    },
+    {
+      "check": "background scheme not annotated as the invention",
+      "what_was_verified": "The eleven-step prior-art scheme at line 74 on p03 is bucketed as section_type background, 22 reactions, and its steps do not appear in the invention's step list. novelty_claims quotes the [0006] objections as objections to the prior art, which is what they are. The two lapses found are attribution of known methods inside patent_summary, filed separately above, not a background scheme relabelled as the invention."
+    },
+    {
+      "check": "schema, against the reference run's PatentRecord shape",
+      "what_was_verified": "patent_uuid, compound_uuid inside target_compounds and key_starting_materials, best_overall_yield_pathway_uuid, and bare SMILES strings used as identifiers all appear identically in runs/CN104292137A/output/patent.json, so they are the format, not stray enrichment fields, and are deliberately not filed as schema defects. Every key in bibliographic and source_refs matches the reference run key for key. No smiles value is populated anywhere in this record, and no molecular weight or formula appears, as required."
+    },
+    {
+      "check": "key_examples empty",
+      "what_was_verified": "Not a defect. The A4 rule is that key_examples lists example labels the claims cite, empty when the claims cite none, and explicitly warns against manufacturing one. Claims 1 to 14 were read; none cites an example. The honest_uncertainty_flags entry key_examples_not_referenced is a permitted code and is the correct disclosure. The reference run is identical on both fields."
+    },
+    {
+      "check": "extraction_rollup arithmetic against the other three artifacts",
+      "what_was_verified": "Recounted from disk: reactions.json 71 records, compounds.json 137, pathways.json 27, matching reaction_count, compound_count and pathway_count. section_summary reproduces the section_type counter exactly (summary_of_invention 26, background 22, experimental_intermediate 10, claims 8, experimental_example 4, comparative_example 1). best_overall_yield_pct 81.13 is genuinely the maximum overall_yield_pct across the 27 pathways and best_overall_yield_pathway_uuid points at the pathway holding it. scale_distribution sums to 71 and reproduces the scale counter; the counter itself is what the major finding disputes, not the arithmetic."
+    },
+    {
+      "check": "translation, Chinese against English on the same line",
+      "what_was_verified": "Every quoted phrase in patent_summary and novelty_claims was traced to its Chinese, not to the EN convenience line alone. 环磺酮 is rendered tembotrione throughout, consistently with the compound identity established from the drawn structures. 一共有11步 gives eleven steps, 刺激性大 gives highly irritating, 含有催化剂三氯化铝的废水 gives waste water containing the catalyst aluminium trichloride, 含有氯化钠的废水 gives waste water containing sodium chloride, 从原料经济性方面考虑不合理 gives unreasonable from the point of view of raw-material economy, 更少的步骤 gives fewer steps. No case was found where the Chinese and the English on a line name different things and the artifact followed the English."
+    },
+    {
+      "check": "no fabricated advantage in patent_summary",
+      "what_was_verified": "patent_summary carries no yield, mass or temperature, as its rule requires, and makes no efficiency, purity or environmental claim of its own; it describes chemistry only. The advantage sentences are confined to novelty_claims, where they are quoted from [0006] and [0009]. The two unsupported assertions found are the green_chemistry tag and the standing-in clause, both filed above."
+    },
+    {
+      "check": "narrative length and vocabulary limits",
+      "what_was_verified": "patent_summary is two sentences and novelty_claims is four, both inside their stated ranges. Every tag is category:value with a lowercase snake_case ASCII value; the five LLM-owned categories resolve inside their closed lists (domain agrochemical, target_class herbicide, claim_type from the six-value list, novelty from the nine-value list, process_focus batch and one_pot from the eleven-value list). process_focus:batch is supported by the flask and autoclave charges in Examples 1 to 11 and is not filed. The remaining categories are unioned in by finalise.py from the other artifacts and from the biblio file, as the A4 prompt states."
+    }
+  ],
+  "recall_estimate": {
+    "found_in_text": 22,
+    "present_in_artifact": 22,
+    "missing": []
+  }
+}

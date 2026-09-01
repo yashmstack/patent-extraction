@@ -1,0 +1,59 @@
+{
+ "page": "p30.png",
+ "page_label": "1/10",
+ "doc_part": "drawings",
+ "header": "1/10 (top centre) / WO 2024/109718 (left) / PCT/CN2023/132821 (right) / right margin, printed twice beside a heavy vertical bar, once next to each figure: 细则 26, 26.12.2023 (set on two lines) (Rule 26 replacement-sheet stamp)",
+ "footer": "",
+ "paragraphs": [],
+ "drawings": [
+  {
+   "kind": "structure",
+   "between_markers": [],
+   "presented_as": "intermediate_structure",
+   "structures": [
+    {
+     "position_in_drawing": "1st, top-left, inset on the [Figure 1] spectrum",
+     "core": "benzene",
+     "substituents": [
+      "Cl at C1",
+      "CH3 at C2",
+      "SCH3 at C3"
+     ],
+     "name": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+     "smiles": "Cc1c(Cl)cccc1SC",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [],
+   "notes": "Figure label [图 1] (Figure 1). The figure is a 1H NMR spectrum with the structure drawn as an inset at top-left. Three contiguous substituents on the ring (1,2,3-pattern) read directly off the drawing: Cl drawn straight up from the top-left ring vertex, CH3 drawn to the upper right from the adjacent vertex, and S-CH3 drawn down-right from the next vertex round. The remaining three ring positions carry no drawn substituent. Spectrum: x axis runs left to right from 8.5 down to 2.0 ppm in 0.5 steps, axis title reads 'f1 (ppm)'. Two signal groups only: a multiplet cluster at roughly 7.1-7.2 ppm and a very tall sharp singlet at roughly 2.4-2.5 ppm. No integrals, no peak-picked numbers and no solvent or frequency annotation are printed on the plot. Tick labels are badly degraded in the scan and were read from spacing as well as from the glyphs."
+  },
+  {
+   "kind": "structure",
+   "between_markers": [],
+   "presented_as": "intermediate_structure",
+   "structures": [
+    {
+     "position_in_drawing": "1st, mid-left, inset on the [Figure 2] spectrum",
+     "core": "benzene",
+     "substituents": [
+      "Cl at C1",
+      "CH3 at C2",
+      "SCH3 at C3"
+     ],
+     "name": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+     "smiles": "Cc1c(Cl)cccc1SC",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [],
+   "notes": "Figure label [图 2] (Figure 2). Same structure as drawn for [图 1], inset at the left of a 13C NMR spectrum. x axis runs left to right from 150 down to 10 ppm in steps of 10, axis title reads 'f1 (ppm)'. Peaks visible at roughly 140, 137, 127-125 (a tall close pair plus a third line), a triplet-looking solvent signal near 77, and a tall line near 16 with a shorter companion just to its left. No numeric peak labels are printed."
+  }
+ ],
+ "discrepancies": [],
+ "illegible": [
+  "All x-axis tick labels on both spectra are heavily broken up by the scan. The values given (8.5 to 2.0 in 0.5 steps for [图 1]; 150 to 10 in steps of 10 for [图 2]) were reconstructed from tick spacing and partial glyphs, not read cleanly character by character.",
+  "The axis titles under both plots are degraded; they are read as 'f1 (ppm)' from shape and position, and the leading character could equally be a lowercase f or a numeral.",
+  "Peak positions quoted in the drawing notes are estimated by eye against the tick marks. No numeric peak labels are printed anywhere on either plot, so no chemical shift on this page is transcribed from printed text."
+ ],
+ "page_confidence": "medium"
+}

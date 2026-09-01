@@ -175,6 +175,43 @@ _UNION = ("aliases", "tags", "analytics")
 _KEEP_FIRST = ("id", "patent_id", "identifier")
 
 
+def populated(v) -> bool:
+    """Whether a value carries information, looking INSIDE a nested object.
+
+    THE BUG THIS FIXES. The scalar rule below used to read
+    `v not in (None, "", [], {})`. `quantity` is a nested object, and one whose every
+    member is null is not literally `{}`, so it passed that test and REPLACED a
+    populated one. A1 runs per section, most sections print no numbers, and whichever
+    section merges last wins, so a section with nothing in it overwrote the section
+    that had everything.
+
+    Measured on CN106008290A before the fix: `tembotrione` is read with a mass, a
+    yield and a purity in all five examples, and reached the deliverable as
+    mass_g null, yield_pct null, section_label "Technical Field". Five product masses
+    and five yields, correctly extracted, were absent from the gold. `purity_pct`
+    survived only because it is a top level scalar rather than a member of the dict.
+    The reference run has the same hole: `tembotrione` there has seven raw section
+    rows, one of them carrying a mass, and mass_g null in its finalised record.
+
+    It is a silent loss of the kind CLAUDE.md is about. Nothing failed, every record
+    validated, and the numbers were simply gone. It also inflated the review census
+    past its pinned budget, because the sweep then asked a reviewer about every
+    printed quantity "the annotation does not record anywhere" for quantities the
+    annotation did record.
+
+    WHY NOT MERGE THE MEMBERS FIELD BY FIELD. That would restore the numbers too, and
+    it would let a mass from Example 1 sit beside a yield from Example 3, asserting a
+    pair no example printed. A quantity block has to stay internally consistent, so
+    the whole block still moves as one unit. All that changes is that a block with
+    nothing in it no longer counts as something.
+    """
+    if isinstance(v, dict):
+        return any(populated(x) for x in v.values())
+    if isinstance(v, (list, tuple)):
+        return any(populated(x) for x in v)
+    return v not in (None, "", [], {})
+
+
 def merge_compound(existing, incoming):
     """Merge two extractions of the same compound from different sections.
 
@@ -184,6 +221,10 @@ def merge_compound(existing, incoming):
     function of the identifier and duplicates would otherwise collide in the store.
     Semantics copied from there: incoming wins on a populated scalar, lists are
     unioned, is_section_product is a logical OR, and identity fields never change.
+
+    "Populated" is decided by populated() above, which looks inside a nested object.
+    Read its docstring before changing this: the naive test dropped five product
+    masses on the floor.
     """
     out = dict(existing)
     for k, v in incoming.items():
@@ -205,7 +246,7 @@ def merge_compound(existing, incoming):
             notes = [n for n in (existing.get("notes"), v) if n]
             # keep both section's observations rather than letting one overwrite
             out[k] = " | ".join(dict.fromkeys(notes)) or None
-        elif v not in (None, "", [], {}):
+        elif populated(v):
             out[k] = v
     # record every section the compound was seen in - production keeps only the last
     secs = list(dict.fromkeys(

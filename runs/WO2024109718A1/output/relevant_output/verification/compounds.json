@@ -1,0 +1,345 @@
+{
+  "artifact": "compounds",
+  "records_audited": 137,
+  "findings": [
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "式(V)化合物",
+      "field": "quantity",
+      "problem": "The record for the formula (V) carboxylic acid is role product yet carries mass_g 1.5, which is the amount charged as a REACTANT in Example 8, while both yields printed for it as a product (81.13% and 67.57%) are dropped, and the record's own notes assert the opposite of what it emits.",
+      "source_line": 493,
+      "quote": "得到式(V)化合物，收率81.13％，熔点155-157℃。",
+      "artifact_says": "quantity = {mass_g: 1.5, yield_pct: null}; notes say \"Only a yield percentage is printed; no isolated mass is given, so mass_g is null.\"",
+      "should_be": "yield_pct: 81.13 (Example 6, line 493) with the 67.57% of Example 7 (line 506) recorded in notes; mass_g should not carry the Example 8 charge of 1.5 g on a product record.",
+      "confidence": "high"
+    },
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "hydrochloric acid",
+      "field": "quantity.mass_g",
+      "problem": "mass_g records the mass of a 5.1% aqueous solution as though it were the mass of HCl charged, overstating the reagent by roughly twentyfold.",
+      "source_line": 428,
+      "quote": "在20℃下将5.1％盐酸1165g加入到四口瓶中",
+      "artifact_says": "quantity.mass_g = 1165.0",
+      "should_be": "Either leave mass_g null and keep \"1165 g of 5.1% hydrochloric acid\" in notes, or record the solution strength in a dedicated field. The notes already say the value is the solution mass; the numeric field does not.",
+      "confidence": "medium"
+    },
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "NaNO2",
+      "field": "quantity.mass_g",
+      "problem": "mass_g is the mass of a 20% aqueous solution, not of NaNO2 (about 50.3 g of NaNO2 is contained).",
+      "source_line": 428,
+      "quote": "在0℃进一步滴加20％NaNO2水溶液251.41g",
+      "artifact_says": "quantity.mass_g = 251.41",
+      "should_be": "mass_g null with the solution charge in notes, or a field that distinguishes solution mass from solute mass. Same judgement call as the hydrochloric acid finding.",
+      "confidence": "medium"
+    },
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "CH3SNa",
+      "field": "quantity.mass_g",
+      "problem": "mass_g is the mass of a 20% aqueous solution, not of sodium methanethiolate (about 54.6 g contained).",
+      "source_line": 433,
+      "quote": "称量20％CH3SNa水溶液273g和32％NaOH水溶液26.62g置于另一四口烧瓶中",
+      "artifact_says": "quantity.mass_g = 273.0",
+      "should_be": "mass_g null with the solution charge kept in notes.",
+      "confidence": "medium"
+    },
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "NaOH",
+      "field": "quantity.mass_g",
+      "problem": "mass_g is the mass of a 32% aqueous solution, not of NaOH (about 8.5 g contained).",
+      "source_line": 433,
+      "quote": "称量20％CH3SNa水溶液273g和32％NaOH水溶液26.62g置于另一四口烧瓶中",
+      "artifact_says": "quantity.mass_g = 26.62",
+      "should_be": "mass_g null with the solution charge kept in notes.",
+      "confidence": "medium"
+    },
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "hydrogen peroxide",
+      "field": "quantity.mass_g",
+      "problem": "mass_g is the mass of a 23% aqueous solution, not of H2O2 (about 51.5 g contained); the contained value is what makes the patent's own stated molar ratio of 2-3 come out right.",
+      "source_line": 453,
+      "quote": "升温至80℃，滴加23％的双氧水224g",
+      "artifact_says": "quantity.mass_g = 224.0",
+      "should_be": "mass_g null with the solution charge kept in notes. 146 g of formula (I) is 0.580 mol; 224 g of 23% H2O2 is 1.51 mol, ratio 2.6, inside the 2-3 the patent states at line 275, which confirms 224 g is the solution.",
+      "confidence": "medium"
+    },
+    {
+      "check": "fidelity",
+      "severity": "minor",
+      "record": "sodium hydride",
+      "field": "purity_pct",
+      "problem": "The 60% strength of the sodium hydride dispersion is recorded in purity_pct, a field A1 rule 16 defines as characterisation of a compound, and none of the five other percentage-strength reagents in this patent is treated the same way, so reagent strength is captured inconsistently across the artifact.",
+      "source_line": 483,
+      "quote": "在-5～5℃将60％氢化钠9.2g溶于80mL无水四氢呋喃中",
+      "artifact_says": "purity_pct = 60.0 on sodium hydride; purity_pct null on hydrochloric acid, NaNO2, CH3SNa, NaOH and hydrogen peroxide, all of which are charged as stated-strength solutions",
+      "should_be": "One convention for all six. Either record every stated strength or none, and say which in notes.",
+      "confidence": "high"
+    },
+    {
+      "check": "translation",
+      "severity": "major",
+      "record": "compound of formula (VI)",
+      "field": "identifier",
+      "problem": "The identifier is the English of the EN convenience line; the patent prints only the Chinese 式(VI)化合物, which is carried by a SECOND record, so one compound occupies two records with two different join keys.",
+      "source_line": 433,
+      "quote": "分层，收集有机层，蒸馏，得到式(VI)化合物。",
+      "artifact_says": "record 70 identifier \"compound of formula (VI)\" (is_section_product true, no quantity) and record 88 identifier \"式(VI)化合物\" (mass_g 100.75); each carries the other as an alias",
+      "should_be": "One record with identifier 式(VI)化合物 as the Chinese prints it, English as an alias. If the split is kept, it must appear in compounds-equivalence.json, and it does not.",
+      "confidence": "high"
+    },
+    {
+      "check": "translation",
+      "severity": "major",
+      "record": "compound of formula (A)",
+      "field": "identifier",
+      "problem": "Same defect for the Markush parent: the English rendering of the EN line is a separate record from the Chinese 式(A)所示的化合物, and neither is listed in the equivalence file.",
+      "source_line": 624,
+      "quote": "[权利要求 11] 下式(A)所示的化合物：",
+      "artifact_says": "record 69 \"compound of formula (A)\" and record 136 \"式(A)所示的化合物\"",
+      "should_be": "One record keyed on the Chinese as printed, English as an alias.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "major",
+      "record": "palladium(II) chloride / PdCl2 / PdCl₂",
+      "field": "identifier",
+      "problem": "One catalyst occupies three records under three spellings, with three different masses attached (0.5 g, 0.4 g, 0.4 g), and compounds-equivalence.json does not list the group, so the fragmentation is undetected rather than recorded.",
+      "source_line": 493,
+      "quote": "PdCl₂催化剂0.4g",
+      "artifact_says": "\"palladium(II) chloride\" (mass_g 0.5), \"PdCl2\" (mass_g 0.4), \"PdCl₂\" (mass_g 0.4)",
+      "should_be": "Add the three-way group to compounds-equivalence.json. The subscript variant PdCl₂ differs from PdCl2 only in Unicode and is the clearest case.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "major",
+      "record": "cyclohexane-1,3-dione / 1,3-cyclohexanedione / O=C1CCCC(=O)C1",
+      "field": "identifier",
+      "problem": "One molecule occupies three records: the vision-read name, the Chinese-derived name, and the bare SMILES, all cross-referenced in aliases but absent from the equivalence file.",
+      "source_line": 525,
+      "quote": "1,3-环己二酮29.41g",
+      "artifact_says": "three separate records, only \"1,3-cyclohexanedione\" carrying the 29.41 g charge",
+      "should_be": "Add the group to compounds-equivalence.json.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "major",
+      "record": "式(VIII)化合物 / 式(VIII)的酯化合物 / (VIII)酯化合物",
+      "field": "identifier",
+      "problem": "The formula (VIII) ester occupies three records because the patent spells its label three ways; the 80% yield sits on only one of them and the equivalence file records none of the three.",
+      "source_line": 525,
+      "quote": "70℃烘干固体，得到(VIII)酯化合物，收率为80％。",
+      "artifact_says": "\"式(VIII)化合物\", \"式(VIII)的酯化合物\", \"(VIII)酯化合物\" (yield_pct 80.0)",
+      "should_be": "Add the group to compounds-equivalence.json.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "major",
+      "record": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F and nine other SMILES-identifier records",
+      "field": "identifier",
+      "problem": "Ten records are keyed on a raw SMILES string read from the drawings and each duplicates a compound that another record keys on its formula label, so a benchmark counts these molecules twice; none of the ten pairs appears in compounds-equivalence.json.",
+      "source_line": 233,
+      "quote": "[IMAGE_EXTRACT: {\"molecules\": [{\"smiles\": \"CSc1ccc(Br)c(Cl)c1C\", ...}, {\"smiles\": \"CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F\", ...}]}]",
+      "artifact_says": "records 60-68 and 110 are identifier_type \"smiles\"; e.g. CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F duplicates 式(IV)化合物, CSc1ccc(Br)c(Cl)c1C duplicates 式(I)化合物, Cc1c(N)cccc1Cl duplicates 3-chloro-2-methylaniline",
+      "should_be": "Keep the drawing-only records (A1 rule 4f requires them) but list every SMILES/label pair in compounds-equivalence.json so the duplication is recorded rather than silent.",
+      "confidence": "medium"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "palladium(II) carbonate / palladium carbonate",
+      "field": "identifier",
+      "problem": "The same claim-3 catalyst list was extracted twice under two English renderings, producing two records for one compound, not listed in the equivalence file. The same happened to bis(dibenzylideneacetone)palladium(0) / bis(dibenzylideneacetone)palladium.",
+      "source_line": 327,
+      "quote": "具体例子包括但不限于氯化钯(PdCl₂)、碳酸钯(PdCO₃)、醋酸钯[Pd(OAc)₂]、钯/碳(Pd/C)、三氟乙酸钯[Pd(OTFA)₂]、双二亚苄基丙酮钯[Pd(dba)₂]等",
+      "artifact_says": "records 37 \"palladium(II) carbonate\" and 124 \"palladium carbonate\"; records 41 and 125 for the dba complex",
+      "should_be": "Add both pairs to compounds-equivalence.json.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "CF3CH2ONa / sodium 2,2,2-trifluoroethoxide",
+      "field": "identifier",
+      "problem": "The trifluoroethoxide is recorded once as the printed formula and once as the English name; the potassium salt is split the same way. Neither pair is in the equivalence file.",
+      "source_line": 302,
+      "quote": "上述路线以式(III)化合物和三氟乙醇钠或三氟乙醇钾为原料",
+      "artifact_says": "records 19 \"CF3CH2ONa\" / 117 \"sodium 2,2,2-trifluoroethoxide\"; records 56 \"CF3CH2OK\" / 118 \"potassium 2,2,2-trifluoroethoxide\"",
+      "should_be": "Add both pairs to compounds-equivalence.json.",
+      "confidence": "high"
+    },
+    {
+      "check": "drawings",
+      "severity": "major",
+      "record": "式(A)所示的化合物",
+      "field": "notes",
+      "problem": "The formula (A) drawing is legible on page p07 (a benzene bearing Br, Cl, R1 and R2 on four consecutive ring positions) but the vision read returned an empty molecule list, and the artifact records the scaffold as unavailable rather than as read off the page.",
+      "source_line": 219,
+      "quote": "[IMAGE_EXTRACT: {\"molecules\": []}]",
+      "artifact_says": "notes: \"The structure of (A) itself is a drawing whose vision read at line 162 returned no molecule, so the core is not available and none of the four pairs can be written out as a complete compound.\"",
+      "should_be": "Keep resolved:false, but record in notes what page p07 actually draws: Br at C1, Cl at C2, R1 at C3, R2 at C4 of a benzene ring. With the four R1/R2 pairs at lines 223-229 that scaffold enumerates exactly formulae (I) to (IV) as drawn on page p08. Verified by opening p07.png and p08.png.",
+      "confidence": "high"
+    },
+    {
+      "check": "fidelity",
+      "severity": "minor",
+      "record": "tembotrione",
+      "field": "quantity / melting_point",
+      "problem": "The merged tembotrione record pairs Example 8's yield with Example 10's melting point, appearance and colour, so one record presents numbers from two different batches as one measurement set, and Example 10's own yield of 64.67% appears nowhere in compounds.json.",
+      "source_line": 542,
+      "quote": "得到黄白色粉末状固体环磺酮，收率64.67％，熔点120～122℃。",
+      "artifact_says": "yield_pct 76.59 (Example 8, line 514), melting_point 120-122 and appearance \"黄白色粉末状固体\" (Example 10, line 542)",
+      "should_be": "Note in the record which example each value came from. The 64.67% is present in reactions.json, so this is a presentation defect in compounds.json rather than a lost datum.",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "acetone cyanohydrin",
+      "field": "quantity.mass_g",
+      "problem": "The record keeps only Example 8's 0.1 mL and neither carries nor mentions Example 10's 2 g charge, although A1 rule 4 asks for the most complete quantity on a merged record.",
+      "source_line": 537,
+      "quote": "降温至70℃，加入2g丙酮氰醇，继续反应5h",
+      "artifact_says": "quantity = {mass_g: null, volume_ml: 0.1}",
+      "should_be": "mass_g 2.0 or, if the volume is preferred, a note that Example 10 charges 2 g.",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "cyclohexane-1,3-dione",
+      "field": "notes",
+      "problem": "Example 10 is a one-pot preparation of tembotrione from formula (IV) yet its charge list names no 1,3-cyclohexanedione, which the chemistry requires and the scheme drawn immediately above it shows; the artifact records no disagreement about this.",
+      "source_line": 537,
+      "quote": "向高压釜中加入式(IV)化合物56.84g、三乙胺37.95g、PdCl2催化剂0.4g、配体1,4-双(二苯基膦)丁烷3.98g、溶剂1,4-二氧六环300g",
+      "artifact_says": "notes for the drawing-derived record say only \"it appears solely as a drawn structure in the reaction scheme on line 535\"",
+      "should_be": "Add a note that Example 10's prose omits the dione from the charge list while the scheme at line 535 draws it, and leave the omission unresolved. Compare Example 9 (line 525) and Example 11 (line 548), which both print it.",
+      "confidence": "medium"
+    },
+    {
+      "check": "drawings",
+      "severity": "minor",
+      "record": "HCl",
+      "field": null,
+      "problem": "In every drawing of the diazotisation step the page puts NaNO2 and CH3SNa above the arrow and HCl below it, but the vision read flattens all three into one conditions list, so the artifact cannot tell which reagent was written where.",
+      "source_line": 426,
+      "quote": "[IMAGE_EXTRACT: {\"reactions\": [{\"step_id\": 1, \"reactants\": [{\"smiles\": \"Cc1c(N)cccc1Cl\", ...}], \"conditions\": [{\"text\": \"NaNO2\"}, {\"text\": \"CH3SNa\"}, {\"text\": \"HCl\"}], ...",
+      "artifact_says": "three separate compound records with no above/below distinction",
+      "should_be": "No change to the compound records, which correctly carry all three; note the flattening so a later pass does not read the order as significant. Verified against input/pages/p17.png and p02.png, where HCl is plainly the below-arrow label. Same flattening at lines 65, 74, 254, 414 and 416.",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "water, formic acid, cyclohexane-1,3-dione, CO, sodium hydroxide, 式(VI)化合物",
+      "field": "tags",
+      "problem": "Six records carry two or three compound_class tags where A1 rule 18 says exactly one.",
+      "source_line": 268,
+      "quote": "在更具体的实施方式中，上述反应中使用冰醋酸、甲酸作为溶剂。",
+      "artifact_says": "formic acid: [\"compound_class:reagent\", \"compound_class:acid\", \"compound_class:solvent\"]; water: solvent + workup_agent + reagent; CO: reagent + starting_material; cyclohexane-1,3-dione: starting_material + reagent; sodium hydroxide: base + workup_agent; 式(VI)化合物: intermediate + starting_material",
+      "should_be": "One compound_class tag per record; the alternatives belong in notes.",
+      "confidence": "high"
+    },
+    {
+      "check": "schema",
+      "severity": "minor",
+      "record": "all 137 records",
+      "field": "smiles",
+      "problem": "Every record carries a `smiles` key, always null, that the A1 output schema does not define and that the reference run's compounds.json does not contain, so the artifact is not key-for-key comparable with the reference shape.",
+      "source_line": 0,
+      "quote": "",
+      "artifact_says": "\"smiles\": null on all 137 records; runs/CN104292137A/output/compounds.json has no smiles key at all",
+      "should_be": "Drop the key, as the reference run does.",
+      "confidence": "medium"
+    },
+    {
+      "check": "schema",
+      "severity": "minor",
+      "record": "式(A)所示的化合物",
+      "field": "quantity",
+      "problem": "This record alone has quantity: null while the other 136 carry a quantity object whose members are null.",
+      "source_line": 217,
+      "quote": "本发明一方面提供如下式(A)所示的新化合物：",
+      "artifact_says": "\"quantity\": null",
+      "should_be": "An all-null quantity object, matching every other record.",
+      "confidence": "high"
+    }
+  ],
+  "checks_passed": [
+    {
+      "check": "precision - product identity (tembotrione vs sulcotrione)",
+      "what_was_verified": "环磺酮 is resolved to tembotrione in every one of its seven merged mentions, never to sulcotrione (磺草酮), and the record's notes name the hazard explicitly. The IUPAC alias 2-[2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl]cyclohexane-1,3-dione and the drawn SMILES CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F are both tembotrione. The garbled machine EN \"cyclosulfonone\" (line 40) was not followed; it is kept as an alias with a note saying why."
+    },
+    {
+      "check": "drawings - formulae (I) to (IV) substituent positions",
+      "what_was_verified": "Opened input/pages/p08.png. The four structures under [0053] are drawn as Br(C1), Cl(C2), CH3 or CH2Br or CH2OCH2CF3(C3), SCH3 or SO2CH3(C4) on consecutive ring positions, Br para to the sulfur substituent. Each matches the SMILES in the IMAGE_EXTRACT at line 233 atom for atom, including which substituent is ortho to which. Formula (VI) on the same page is the same ring without the bromine, matching CSc1cccc(Cl)c1C."
+    },
+    {
+      "check": "drawings - roman numeral labels bound to the right structures",
+      "what_was_verified": "Every roman-numeral record was checked against the melting point and the example that prepares it: (II) 138-140 from Example 3 (line 458), (III) 148-150 from Example 4 (line 468), (IV) 80-82 from Example 5 (line 483), (V) 155-157 from Examples 6 and 7 (lines 493, 506), tembotrione 120-122 from Example 10 (line 542). No label is bound to a neighbouring structure. The drawn structure carried as each record's SMILES alias is the one the label sits under on the page."
+    },
+    {
+      "check": "drawings - reagents above versus below the arrow",
+      "what_was_verified": "Opened input/pages/p17.png. In the first full scheme, 1,3-cyclohexanedione is drawn above the arrow of the esterification step and 丙酮氰醇 is written above the last arrow; in the second scheme CO sits above the arrow of the carbonylation and the dione below it. The vision reads at lines 414 and 416 attach each reagent to the correct step, and no reagent has migrated from one step's arrow to another's. Within a step the above/below distinction is flattened, which is reported separately as a minor drawings finding. The two [illegible] conditions in the read at line 416 are 溴代试剂 and 丙酮氰醇, both already present in the artifact from other lines, so no compound is lost by them."
+    },
+    {
+      "check": "precision - formula (A) is not resolved to a single compound",
+      "what_was_verified": "Both records for formula (A) have resolved:false and unresolved_reference behaviour consistent with a Markush parent; no record expands R1 or R2 into a compound, and no R-group fragment (CF3-CH2-O-CH2-, Br-CH2-, CH3-, CH3-SO2-, CH3-S-) is emitted as a compound, which A1 rule 8 forbids."
+    },
+    {
+      "check": "arithmetic - stoichiometry of every example that states two masses",
+      "what_was_verified": "Every checkable ratio closes, and closes only if the percentage-strength charges are read as solutions. Ex1: aniline 100 g = 0.706 mol, NaNO2 251.41 g x 20% = 0.729 mol (1.03 eq), CH3SNa 273 g x 20% = 0.779 mol (1.10 eq), HCl 1165 g x 5.1% = 1.63 mol (2.3 eq). Ex2: (VI) 100.75 g = 0.583 mol, Br2 98.4 g = 0.616 mol (1.06 eq). Ex3: (I) 146 g = 0.580 mol, H2O2 224 g x 23% = 1.51 mol, ratio 2.6, inside the 2-3 stated at line 275. Ex4: (II) 84 g = 0.296 mol, Br2 52.8 g = 0.330 mol (1.12 eq); NBS 64.1 g = 0.360 mol (1.22 eq). Ex5: (III) 83 g = 0.229 mol, trifluoroethanol 24 g = 0.240 mol (1.05 eq), NaH 9.2 g x 60% = 0.230 mol (1.00 eq). Ex8: (V) 1.5 g = 4.33 mmol, SOCl2 1.03 g = 8.66 mmol (2.0 eq), dione 0.5 g = 4.46 mmol (1.03 eq), Et3N 0.44 g = 4.35 mmol (1.0 eq). Ex9: (IV) 94.73 g = 0.248 mol, dione 29.41 g = 0.262 mol (1.06 eq). Ex11: (IV) 56.84 g = 0.149 mol, dione 21.84 g = 0.195 mol (1.31 eq). No step fails to close, so no missing validation flag is due on arithmetic grounds."
+    },
+    {
+      "check": "arithmetic - step to step mass continuity",
+      "what_was_verified": "Each example charges less of its input than the preceding example could have made: Example 2 could give at most 146.8 g of (I) and Example 3 charges 146 g; Example 3 could give at most 164.6 g of (II) and Example 4 charges 84 g; Example 4 could give at most 107 g of (III) and Example 5 charges 83 g. No continuity break to flag."
+    },
+    {
+      "check": "recall - solvents, washes, initiators and drying steps",
+      "what_was_verified": "Checked every named auxiliary in the examples and general embodiments against the artifact and found all of them present: dichloromethane, 1,2-dichloroethane, 二氯乙烷 (kept unresolved), carbon tetrachloride, tetrahydrofuran, 1,4-dioxane, diethyl ether, ethylene glycol dimethyl and diethyl ether, DMSO, DMF, toluene, methanol, ethanol, glacial acetic acid, formic acid, acetonitrile, water, saturated brine, CDCl3, benzoyl peroxide, AIBN, sodium tungstate dihydrate, thionyl chloride, oxalyl chloride, bromine, NBS, HBr, H2O2, NaH, KH, NaOMe, KOMe, NaOH, KOH, triethylamine, triethylamine hydrobromide, the nine acid-binding agents of [0086], the six palladium sources and the five phosphine ligands, nitrogen, CO and the haloform and sodium chloride by-products of the background section. No missed compound was found."
+    },
+    {
+      "check": "precision - no fabricated conditions or default atmospheres",
+      "what_was_verified": "Every record was traced to a line. nitrogen is anchored to the explicit 氮气置换 of lines 320, 493, 525, 537 and 548, not inferred. No record carries a molecular weight, a molecular formula in a scored field, or a populated smiles field; formulae and InChIKeys appear only inside aliases, which A1 rule 4b permits."
+    },
+    {
+      "check": "translation - single-character and transposition hazards",
+      "what_was_verified": "丙酮氰醇 is rendered acetone cyanohydrin and the record explicitly rules out the transposed 氰基丙酮 (cyanoacetone). 二氯乙烷 at line 291 is kept verbatim and unresolved rather than read as the 1,2-dichloroethane of line 250, which is recorded separately. 碳酸铯(CsCO₃) keeps the patent's impossible formula verbatim with a note. 环己二酮 is never resolved by inference; both records rest on the printed locant 1,3- or on the vision read's own locant."
+    },
+    {
+      "check": "vocabulary - closed lists",
+      "what_was_verified": "All 137 values of role, identifier_type and physical_form, and all analytics[].method values, are inside their A1 lists. Every tag is category:value with a lowercase snake_case ASCII value and no duplicates within a record; the only tag categories used are compound_class, chemical_family, functional_group and hazard, and every hazard value is inside the closed list. The only tag defect found is the multiple compound_class tags reported above."
+    },
+    {
+      "check": "schema - id and compound_uuid",
+      "what_was_verified": "id and compound_uuid are present, as they are in the reference run runs/CN104292137A/output/compounds.json; finalise.py computes them, so their presence in the finalised artifact is correct and is not reported as a defect."
+    },
+    {
+      "check": "recall - how the recall_estimate below was counted",
+      "what_was_verified": "found_in_text is the number of DISTINCT molecules I could enumerate from the source; present_in_artifact is the record count. Every molecule I found has at least one record, so nothing is missing on recall. The gap of 23 is the fragmentation reported in the precision findings above: the same molecule recorded under two or three spellings (SMILES string, Chinese label, English label, Unicode subscript variant). It inflates the artifact's record count by about 17% relative to the chemistry."
+    },
+    {
+      "check": "provenance - every record anchors to a line that carries its quote",
+      "what_was_verified": "All 284 provenance entries were checked mechanically against the numbered source: for every entry the quoted Chinese appears verbatim on at least one of its cited source_lines, and every identifier in compounds.json has a provenance entry and vice versa with no orphans on either side. 59 of the 414 individual line citations are extra lines in a multi-line span that do not themselves carry the quote, which is normal for a span that includes the drawing next to the prose, not a broken anchor."
+    }
+  ],
+  "recall_estimate": {
+    "found_in_text": 114,
+    "present_in_artifact": 137,
+    "missing": []
+  }
+}

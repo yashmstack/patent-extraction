@@ -1,0 +1,87 @@
+[
+  {
+    "identifier": "3-bromomethylbenzoic acid",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "Derivatives of 3-bromomethylbenzoic acid constitute valuable reactants in the synthesis of certain herbicides."
+  },
+  {
+    "identifier": "bromomethyl aromatics",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "Bromomethyl aromatics may in principle be prepared from the corresponding methyl aromatics by side chain bromination; on this subject, cf. Houben-Weyl, Vol. 5, page 331 ff. (1960)."
+  },
+  {
+    "identifier": "methyl aromatics",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "Bromomethyl aromatics may in principle be prepared from the corresponding methyl aromatics by side chain bromination[...]WO 99/06339 discloses a process for preparing substituted benzyl bromides by brominating the corresponding methyl aromatics"
+  },
+  {
+    "identifier": "substituted benzyl bromides",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "WO 99/06339 discloses a process for preparing substituted benzyl bromides by brominating the corresponding methyl aromatics"
+  },
+  {
+    "identifier": "azocarboxylic esters",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "in the presence of azocarboxylic esters or azonitriles and in the presence of an oxidizing agent"
+  },
+  {
+    "identifier": "azonitriles",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "in the presence of azocarboxylic esters or azonitriles and in the presence of an oxidizing agent"
+  },
+  {
+    "identifier": "oxidizing agent",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "in the presence of azocarboxylic esters or azonitriles and in the presence of an oxidizing agent. [...] Disadvantages of this process are the use of an additional oxidizing agent and the not always satisfactory yields."
+  },
+  {
+    "identifier": "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "EP-A 0 292 944 describes the preparation of methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate by radical initiator-induced bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride."
+  },
+  {
+    "identifier": "radical initiator",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "EP-A 0 292 944 describes the preparation of methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate by radical initiator-induced bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride."
+  },
+  {
+    "identifier": "methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "EP-A 0 292 944 describes the preparation of methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate by radical initiator-induced bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride."
+  },
+  {
+    "identifier": "carbon tetrachloride",
+    "source_lines": [
+      55
+    ],
+    "quote_zh": "by radical initiator-induced bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride."
+  },
+  {
+    "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "source_lines": [
+      55,
+      56
+    ],
+    "quote_zh": "L55 as printed: The free acid, 3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid is then obtained from this latter compound by hydrolysis. | L56 EN: The free acid, 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid is then obtained from this latter compound by hydrolysis."
+  }
+]

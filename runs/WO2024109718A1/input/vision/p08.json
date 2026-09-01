@@ -1,0 +1,300 @@
+{
+ "page": "p08.png",
+ "page_label": "7",
+ "doc_part": "description",
+ "header": "7 (centred page number); WO 2024/109718 (left, bold); PCT/CN2023/132821 (right, bold)",
+ "footer": "",
+ "paragraphs": [
+  {
+   "marker": "[0044]",
+   "zh": "图14为实施例9中制备的式(VIII)化合物的¹³CNMR谱图。",
+   "en": "Figure 14 is the 13C NMR spectrum of the compound of formula (VIII) prepared in Example 9.",
+   "notes": "The 13 in 13CNMR is printed as a superscript before C."
+  },
+  {
+   "marker": "[0045]",
+   "zh": "图15为实施例10中制备的环磺酮化合物的¹HNMR谱图。",
+   "en": "Figure 15 is the 1H NMR spectrum of the tembotrione compound prepared in Example 10.",
+   "notes": "环磺酮 translated literally as \"cyclic sulfone ketone\"; it is most likely the agrochemical common name tembotrione/sulcotrione family term, but nothing on this page determines that. English rendering corrected during the run: the vision pass wrote 'cyclic sulfone ketone' for 环磺酮. 环磺酮 is the Chinese common name of tembotrione; sulcotrione is 磺草酮, a different registered triketone herbicide, and 'cyclic sulfone ketone' is a character gloss that names no compound. The Chinese is unchanged and is authoritative. See NOTES.md."
+  },
+  {
+   "marker": "[0046]",
+   "zh": "图16为实施例10中制备的环磺酮化合物的¹³CNMR谱图。",
+   "en": "Figure 16 is the 13C NMR spectrum of the tembotrione compound prepared in Example 10.",
+   "notes": "English rendering corrected during the run: the vision pass wrote 'cyclic sulfone ketone' for 环磺酮. 环磺酮 is the Chinese common name of tembotrione; sulcotrione is 磺草酮, a different registered triketone herbicide, and 'cyclic sulfone ketone' is a character gloss that names no compound. The Chinese is unchanged and is authoritative. See NOTES.md."
+  },
+  {
+   "marker": null,
+   "zh": "具体实施方式",
+   "en": "Detailed embodiments",
+   "notes": "Section heading, printed larger than body text, no paragraph marker."
+  },
+  {
+   "marker": "[0047]",
+   "zh": "本发明一方面提供如下式(A)所示的新化合物：",
+   "en": "In one aspect the present invention provides a new compound of the following formula (A):",
+   "notes": null
+  },
+  {
+   "marker": "[0048]",
+   "zh": "式中，R₁和R₂为以下任意一项：",
+   "en": "In the formula, R1 and R2 are any one of the following:",
+   "notes": null
+  },
+  {
+   "marker": "[0049]",
+   "zh": "R₁为CF₃-CH₂-O-CH₂-、且R₂为CH₃-SO₂-；",
+   "en": "R1 is CF3-CH2-O-CH2-, and R2 is CH3-SO2-;",
+   "notes": null
+  },
+  {
+   "marker": "[0050]",
+   "zh": "R₁为Br-CH₂-、且R₂为CH₃-SO₂-；",
+   "en": "R1 is Br-CH2-, and R2 is CH3-SO2-;",
+   "notes": null
+  },
+  {
+   "marker": "[0051]",
+   "zh": "R₁为CH₃-、且R₂为CH₃-SO₂-；",
+   "en": "R1 is CH3-, and R2 is CH3-SO2-;",
+   "notes": null
+  },
+  {
+   "marker": "[0052]",
+   "zh": "R₁为CH₃-、且R₂为CH₃-S-。",
+   "en": "R1 is CH3-, and R2 is CH3-S-.",
+   "notes": null
+  },
+  {
+   "marker": "[0053]",
+   "zh": "式(A)所示化合物具体包括如下式(I)-(IV)的化合物：",
+   "en": "The compound of formula (A) specifically includes the compounds of the following formulae (I)-(IV):",
+   "notes": null
+  },
+  {
+   "marker": "[0054]",
+   "zh": "本发明的式(I)化合物可以通过如下路线制备：",
+   "en": "The compound of formula (I) of the present invention can be prepared by the following route:",
+   "notes": null
+  },
+  {
+   "marker": "[0055]",
+   "zh": "在具体实施方式中，上述路线以式(VI)化合物和溴素为原料，如下进行，但不限于此。",
+   "en": "In a specific embodiment, the above route uses the compound of formula (VI) and bromine as starting materials, and is carried out as follows, but is not limited thereto.",
+   "notes": "溴素 is the Chinese term for elemental bromine (Br2)."
+  }
+ ],
+ "drawings": [
+  {
+   "kind": "structure",
+   "between_markers": [
+    "[0047]",
+    "[0048]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, sole structure, labelled (A) to its right",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "R1 at C3",
+      "R2 at C4"
+     ],
+     "name": null,
+     "smiles": null,
+     "confidence": "high",
+     "drawing_notes": "Br is on the upper-left vertex, Cl on the top vertex, R1 on the upper-right vertex, R2 on the lower-right vertex. Four contiguous substituted positions; the two remaining ring vertices (lower-left and bottom) bear no label. Numbering above is as-drawn adjacency, not IUPAC locants. SMILES null because R1 and R2 are variables."
+    }
+   ],
+   "arrows": [],
+   "notes": "Markush structure for formula (A). Labelled '(A)' to the right of the ring."
+  },
+  {
+   "kind": "structure",
+   "between_markers": [
+    "[0053]",
+    "[0054]"
+   ],
+   "presented_as": "intermediate_structure",
+   "structures": [
+    {
+     "position_in_drawing": "1st, leftmost, labelled formula (I)",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH3 at C3",
+      "SCH3 at C4"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+     "smiles": "Brc1ccc(SC)c(C)c1Cl",
+     "confidence": "high",
+     "drawing_notes": "Br upper-left vertex, Cl top vertex, CH3 upper-right vertex, SCH3 lower-right vertex."
+    },
+    {
+     "position_in_drawing": "2nd, labelled formula (II)",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+     "smiles": "Brc1ccc(S(C)(=O)=O)c(C)c1Cl",
+     "confidence": "high",
+     "drawing_notes": "Same skeleton as formula (I) with SO2CH3 in place of SCH3."
+    },
+    {
+     "position_in_drawing": "3rd, labelled formula (III)",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH2Br at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+     "smiles": "Brc1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+     "confidence": "high",
+     "drawing_notes": "The C3 substituent is drawn as a CH2 vertex bearing a terminal Br label."
+    },
+    {
+     "position_in_drawing": "4th, rightmost, labelled formula (IV)",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH2-O-CH2-CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+     "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high",
+     "drawing_notes": "C3 chain drawn as CH2 vertex to an explicit O label, then a CH2 vertex, then CF3."
+    }
+   ],
+   "arrows": [],
+   "notes": "Four separate single structures on one line, each with its own 式（N） caption, followed by a full-width 。 at the far right closing paragraph [0053]. Ring numbering in substituents is as-drawn adjacency, not IUPAC."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0054]",
+    "[0055]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, labelled formula (VI)",
+     "core": "benzene",
+     "substituents": [
+      "Cl at C1",
+      "CH3 at C2",
+      "SCH3 at C3"
+     ],
+     "name": "2-chloro-6-(methylsulfanyl)toluene",
+     "smiles": "Clc1cccc(SC)c1C",
+     "confidence": "high",
+     "drawing_notes": "Cl on the top vertex, CH3 on the upper-right vertex, SCH3 on the lower-right vertex; the three left/bottom vertices are unsubstituted."
+    },
+    {
+     "position_in_drawing": "2nd, right of arrow, labelled formula (I)",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH3 at C3",
+      "SCH3 at C4"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+     "smiles": "Brc1ccc(SC)c(C)c1Cl",
+     "confidence": "high",
+     "drawing_notes": "Identical drawing to formula (I) above."
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Bare arrow with nothing written above or below it. A full-width 。 sits to the right of the 式（I） caption, closing paragraph [0054]."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0055]",
+    "end of page"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, labelled formula (VI)",
+     "core": "benzene",
+     "substituents": [
+      "Cl at C1",
+      "CH3 at C2",
+      "SCH3 at C3"
+     ],
+     "name": "2-chloro-6-(methylsulfanyl)toluene",
+     "smiles": "Clc1cccc(SC)c1C",
+     "confidence": "high",
+     "drawing_notes": "Same drawing as in the [0054] scheme."
+    },
+    {
+     "position_in_drawing": "2nd, right of arrow, labelled formula (I)",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH3 at C3",
+      "SCH3 at C4"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+     "smiles": "Brc1ccc(SC)c(C)c1Cl",
+     "confidence": "high",
+     "drawing_notes": "Same drawing as in the [0054] scheme."
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [
+      "Br2"
+     ],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Same transformation as the [0054] scheme, now with Br2 written above the arrow. Nothing is written below the arrow: no solvent, no temperature, no catalyst. A full-width 。 sits to the right of the 式（I） caption, closing paragraph [0055]. This is the last content on the page."
+  }
+ ],
+ "discrepancies": [
+  {
+   "what": "Paragraphs [0049]-[0052] list the R1/R2 pairs in the reverse of the order the corresponding structures are drawn after [0053].",
+   "drawing_says": "(I) = CH3 + SCH3, (II) = CH3 + SO2CH3, (III) = CH2Br + SO2CH3, (IV) = CH2OCH2CF3 + SO2CH3",
+   "text_says": "[0049] CF3CH2OCH2 + CH3SO2 (matches IV), [0050] BrCH2 + CH3SO2 (matches III), [0051] CH3 + CH3SO2 (matches II), [0052] CH3 + CH3S (matches I)"
+  },
+  {
+   "what": "The [0054] scheme arrow carries no reagent at all, while the sentence it illustrates says only 'can be prepared by the following route'. The reagent appears only in the repeated scheme under [0055].",
+   "drawing_says": "bare arrow from 式（VI） to 式（I）",
+   "text_says": "[0055] names 式(VI) and 溴素 (bromine) as the starting materials"
+  },
+  {
+   "what": "The position of the newly introduced Br in formula (I) is fixed only by the drawing; the prose never states which ring position is brominated.",
+   "drawing_says": "Br enters the ring vertex adjacent to Cl and para to SCH3 (the upper-left vertex, previously unsubstituted)",
+   "text_says": "[0054] and [0055] give no position"
+  }
+ ],
+ "illegible": [],
+ "page_confidence": "high"
+}

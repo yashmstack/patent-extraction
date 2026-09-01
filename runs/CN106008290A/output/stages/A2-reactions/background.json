@@ -1,0 +1,596 @@
+[
+  {
+    "patent_id": "CN106008290A",
+    "reaction_id": "Background_Step 1",
+    "section_label": "Background",
+    "section_type": "background",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "nucleophilic_substitution",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "2,2,2-trifluoroethanol",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "potassium tert-butoxide",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "2,2,2-trifluoroethanol",
+      "potassium tert-butoxide"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "其工业制备方法主要是三氟乙醇、叔丁醇钾法制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸。其中，在制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸采用叔丁醇钾做碱，收率较低、试剂昂贵。",
+    "procedure_summary": "Trifluoroethanol is used with potassium tert-butoxide as base to install the trifluoroethoxymethyl group and give the key benzoic acid intermediate of the prior art route.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:etherification",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "catalyst_class:base",
+      "step_role:first_step",
+      "linkage:standalone",
+      "is_one_pot:false"
+    ],
+    "notes": "PRIOR ART. This record comes from prose under 背景技术, introduced in [0002] as 其工业制备方法 (its industrial preparation method) and referred to in [0003] as 传统方法 (the traditional method), so the route is prior art and not the invention's own; [0004] states the invention exists to overcome it. There is no drawn scheme anywhere in these lines, so there is no drawing evidence and no attribution ambiguity to record: rule 5e is satisfied by the section heading alone. A0 estimated 2 steps for this section; this pass emits 4. A0 read the paragraph as two route halves, the 三氟乙醇/叔丁醇钾 preparation of the key intermediate and the 羧基酰氯化成酯后重排 sequence. The second half names three distinct transformations in its own words, 酰氯化 then 成酯 then 重排, each with a different stated reagent, so it is split at the transformation level per rule 1. Nothing was grouped as one pot: rule 5 asks for the absence of a workup between transformations, and this prose summary states no workup at all, which is not evidence of a one-pot operation either way. Prose summary of a route, so no charge, no temperature, no time, no workup and no yield is given for any transformation; every condition field is null and no_conditions is raised. The paragraph criticises the yield as 收率较低 (relatively low) but prints no number, so product_yield_pct stays null and no arithmetic check is possible. The substrate that carries the group displaced by trifluoroethoxide is not named anywhere in the paragraph, so only the two reagents the text does name are recorded and no starting material is invented. reaction_class is nucleophilic_substitution because the text names an alkoxide source and a base and a product bearing a 三氟乙氧甲基 ether: the transformation is an etherification, which the closed class list has no entry for, and nucleophilic_substitution is its nearest true member; confidence is medium because the leaving group is unstated. named_reaction is left null rather than Williamson ether synthesis, since the electrophilic partner is not stated. The printed Chinese writes the sulfone as 甲磺基 without 酰; the identifier follows A1. No prior-section reaction registry existed when this section was annotated (the sections were annotated in parallel), so precursor_step is set within this section only and no cross-section linkage was attempted."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "reaction_id": "Background_Step 2",
+    "section_label": "Background",
+    "section_type": "background",
+    "step_index": 2,
+    "step_label": "Step 2",
+    "reaction_class": "nucleophilic_substitution",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [
+      "[0002] 二氯亚砜对环境有很大危害 - the text states that thionyl chloride, the acyl chlorinating agent of this step, is very harmful to the environment."
+    ],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "thionyl chloride",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+      "thionyl chloride"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": null,
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "然后羧基酰氯化成酯后重排法。羧基酰氯化成酯后重排法要用到剧毒试剂丙酮氰醇为重排催化剂，且需要用二氯亚砜作酰氯化试剂，而二氯亚砜对环境有很大危害。",
+    "procedure_summary": "The carboxyl group of the key intermediate is converted to the acid chloride with thionyl chloride.",
+    "precursor_step": "Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions",
+      "missing_product"
+    ],
+    "tags": [
+      "mechanism:ionic",
+      "scale:not_specified",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "PRIOR ART. This record comes from prose under 背景技术, introduced in [0002] as 其工业制备方法 (its industrial preparation method) and referred to in [0003] as 传统方法 (the traditional method), so the route is prior art and not the invention's own; [0004] states the invention exists to overcome it. There is no drawn scheme anywhere in these lines, so there is no drawing evidence and no attribution ambiguity to record: rule 5e is satisfied by the section heading alone. A0 estimated 2 steps for this section; this pass emits 4. A0 read the paragraph as two route halves, the 三氟乙醇/叔丁醇钾 preparation of the key intermediate and the 羧基酰氯化成酯后重排 sequence. The second half names three distinct transformations in its own words, 酰氯化 then 成酯 then 重排, each with a different stated reagent, so it is split at the transformation level per rule 1. Nothing was grouped as one pot: rule 5 asks for the absence of a workup between transformations, and this prose summary states no workup at all, which is not evidence of a one-pot operation either way. Prose summary of a route, so no charge, no temperature, no time, no workup and no yield is given for any transformation; every condition field is null and no_conditions is raised. The paragraph criticises the yield as 收率较低 (relatively low) but prints no number, so product_yield_pct stays null and no arithmetic check is possible. The text names the reagent, 二氯亚砜作酰氯化试剂 (thionyl chloride as the acyl chlorinating agent), and the substrate, the carboxyl of the key intermediate just named, so linkage_confirmed is true on identifier match with Step 1's product. The acid chloride product is implied by 酰氯化 but is never named or drawn, so product_name is left null and missing_product is raised rather than an identifier being invented for it; that also means there is no A1 compound to cite for it, so a1_missing_compound does not apply. reaction_class is nucleophilic_substitution, substitution of the hydroxyl by chloride at the carbonyl; halogenation is a defensible alternative reading of the same clause and is recorded here rather than chosen, hence medium confidence. No transformation tag is emitted because no value in the category describes acid chloride formation. No prior-section reaction registry existed when this section was annotated (the sections were annotated in parallel), so precursor_step is set within this section only and no cross-section linkage was attempted."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "reaction_id": "Background_Step 3",
+    "section_label": "Background",
+    "section_type": "background",
+    "step_index": 3,
+    "step_label": "Step 3",
+    "reaction_class": "ester_formation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [],
+    "reactant_names": [],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": null,
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "然后羧基酰氯化成酯后重排法。",
+    "procedure_summary": "The acid chloride from the preceding step is converted to the ester that the rearrangement acts on.",
+    "precursor_step": "Step 2",
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions",
+      "missing_reactant",
+      "missing_product"
+    ],
+    "tags": [
+      "transformation:esterification",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "PRIOR ART. This record comes from prose under 背景技术, introduced in [0002] as 其工业制备方法 (its industrial preparation method) and referred to in [0003] as 传统方法 (the traditional method), so the route is prior art and not the invention's own; [0004] states the invention exists to overcome it. There is no drawn scheme anywhere in these lines, so there is no drawing evidence and no attribution ambiguity to record: rule 5e is satisfied by the section heading alone. A0 estimated 2 steps for this section; this pass emits 4. A0 read the paragraph as two route halves, the 三氟乙醇/叔丁醇钾 preparation of the key intermediate and the 羧基酰氯化成酯后重排 sequence. The second half names three distinct transformations in its own words, 酰氯化 then 成酯 then 重排, each with a different stated reagent, so it is split at the transformation level per rule 1. Nothing was grouped as one pot: rule 5 asks for the absence of a workup between transformations, and this prose summary states no workup at all, which is not evidence of a one-pot operation either way. Prose summary of a route, so no charge, no temperature, no time, no workup and no yield is given for any transformation; every condition field is null and no_conditions is raised. The paragraph criticises the yield as 收率较低 (relatively low) but prints no number, so product_yield_pct stays null and no arithmetic check is possible. This record exists because 成酯 (to the ester) is stated in the text as a transformation of its own between 酰氯化 and 重排; omitting it would be a recall miss. It is the thinnest record in the section by the document's own fault: neither the acid chloride it starts from, nor the alcohol or enol it is esterified with, nor the ester it gives is named or drawn anywhere in these lines, so compounds is empty and both missing_reactant and missing_product are raised. Nothing was supplied from chemical expectation. precursor_step is Step 2 on document order, but linkage_confirmed is false because no product identifier of Step 2 exists to match and the text does not refer back explicitly. No prior-section reaction registry existed when this section was annotated (the sections were annotated in parallel), so precursor_step is set within this section only and no cross-section linkage was attempted."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "reaction_id": "Background_Step 4",
+    "section_label": "Background",
+    "section_type": "background",
+    "step_index": 4,
+    "step_label": "Step 4",
+    "reaction_class": "other",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [
+      "[0002] 要用到剧毒试剂丙酮氰醇为重排催化剂 - the text states that the rearrangement catalyst, acetone cyanohydrin, is a highly toxic reagent.",
+      "[0003] 传统方法制备环磺酮均具有收率低，成本高，且生产工艺中含剧毒物质等特点 - the text states that the traditional routes contain highly toxic substances in the production process."
+    ],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "acetone cyanohydrin",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tembotrione",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "tembotrione",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "然后羧基酰氯化成酯后重排法，且该种方法获得成品的收率较低，用到的试剂昂贵。羧基酰氯化成酯后重排法要用到剧毒试剂丙酮氰醇为重排催化剂。",
+    "procedure_summary": "The ester is rearranged over an acetone cyanohydrin catalyst to give the finished herbicide, and the text criticises this route for its low yield, its expensive reagents and its use of a highly toxic reagent.",
+    "precursor_step": "Step 3",
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions",
+      "missing_reactant"
+    ],
+    "tags": [
+      "transformation:rearrangement",
+      "mechanism:catalytic",
+      "scale:not_specified",
+      "safety:cyanide_handling",
+      "step_role:final_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "PRIOR ART. This record comes from prose under 背景技术, introduced in [0002] as 其工业制备方法 (its industrial preparation method) and referred to in [0003] as 传统方法 (the traditional method), so the route is prior art and not the invention's own; [0004] states the invention exists to overcome it. There is no drawn scheme anywhere in these lines, so there is no drawing evidence and no attribution ambiguity to record: rule 5e is satisfied by the section heading alone. A0 estimated 2 steps for this section; this pass emits 4. A0 read the paragraph as two route halves, the 三氟乙醇/叔丁醇钾 preparation of the key intermediate and the 羧基酰氯化成酯后重排 sequence. The second half names three distinct transformations in its own words, 酰氯化 then 成酯 then 重排, each with a different stated reagent, so it is split at the transformation level per rule 1. Nothing was grouped as one pot: rule 5 asks for the absence of a workup between transformations, and this prose summary states no workup at all, which is not evidence of a one-pot operation either way. Prose summary of a route, so no charge, no temperature, no time, no workup and no yield is given for any transformation; every condition field is null and no_conditions is raised. The paragraph criticises the yield as 收率较低 (relatively low) but prints no number, so product_yield_pct stays null and no arithmetic check is possible. reaction_class is other because the closed list has no rearrangement entry; confidence is high that it is a rearrangement, not that other describes it, since the text names the transformation as 重排 and the reagent as 重排催化剂. mechanism_type is catalytic because the text explicitly casts the cyanohydrin as a catalyst rather than a stoichiometric partner. The ester that rearranges is not named, so no reactant compound is recorded and missing_reactant is raised; the product is 环磺酮, which [0002] calls the 成品 of this route and [0003] confirms as what 传统方法 prepare, so tembotrione is recorded as product on the final step. 环磺酮 is tembotrione, C17H16ClF3O6S, and is not sulcotrione (磺草酮), a different compound. The printed catalyst name is 丙酮氰醇, acetone cyanohydrin, not 氰基丙酮. linkage_confirmed is false: Step 3 has no named product to match and the text does not refer back explicitly. No prior-section reaction registry existed when this section was annotated (the sections were annotated in parallel), so precursor_step is set within this section only and no cross-section linkage was attempted."
+  }
+]

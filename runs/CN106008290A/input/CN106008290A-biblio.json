@@ -1,0 +1,41 @@
+{
+  "patent_id": "CN106008290A",
+  "family_id": "57098239",
+  "title_en": "A method for preparing tembotrione",
+  "title_zh": "一种环磺酮的制备方法",
+  "application_number": "CN:201610321517.XA",
+  "publication_number": "CN:106008290:A",
+  "publication_date": "2016-10-12",
+  "priority_date": "2016-05-16",
+  "filing_date": "2016-05-16",
+  "grant_publication": null,
+  "grant_date": null,
+  "jurisdiction": "cn",
+  "language": "zh",
+  "assignees": [
+    {
+      "name": "Anhui Jiuyi Agriculture Co., Ltd.",
+      "name_zh": "安徽久易农业股份有限公司",
+      "country": "CN",
+      "type": "sme",
+      "type_note": "The biblio enum is production's vocabulary and offers no plain 'company'. 安徽久易农业股份有限公司 is a Chinese joint stock limited company in agrochemicals, with no evidence on the publication or the Google Patents record of operations outside China, so sme is the smaller and better supported claim of the two on offer. multinational_corp would assert more than anything here shows. Recorded because the vocabulary forces a judgement about company size that the patent itself does not state."
+    }
+  ],
+  "inventors": [
+    "Shen Yunhe",
+    "Xiong Guoyin",
+    "Zhao Xiaojun",
+    "Fan Fuyun"
+  ],
+  "legal_status": "Pending (Google Patents, retrieved 2026-08-28). Published application; no grant publication on the family page.",
+  "source": "https://patents.google.com/patent/CN106008290A/en",
+  "retrieved": "2026-08-28",
+  "text_provenance": "Scanned CN publication PDF from Google Patents, 7 pages, zero characters of text layer across all 7. Every readable character in this run comes from the vision pass (pass V) reading the 200 dpi page renders. The Google Patents English description is machine translation and was NOT used as the text source.",
+  "abstract_zh": "本发明公开了一种环磺酮的制备方法,属于有机化工技术领域,该方法采用三氟乙醇钠与2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯反应,生成的2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸与1,3-环己二酮缩合重排制备环磺酮。本发明提供的环磺酮的制备方法,克服了传统方法中用2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯和三氟乙醇、叔丁醇钾制备2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸收率低,叔丁醇钾试剂贵的缺点,同时也克服了羧基酰氯化成酯后重排法中需要剧毒催化剂丙酮氰醇的缺点,具有收率高、成本低、易操作、污染少、安全环保等优点,适合大规模工业化生产。",
+  "ipc_codes": [
+    "C07C 315/04",
+    "C07C 317/24",
+    "C07C 317/46"
+  ],
+  "title_en_note": "The printed Chinese title is 一种环磺酮的制备方法. 环磺酮 is the standard Chinese common name for tembotrione, and the abstract confirms it: 1,3-cyclohexanedione condensed with 2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid is tembotrione and nothing else. Google's English title reads 'Method for preparing tembotrions', which is the right compound under a misspelt name; 'tembotrions' is not a word and not a plural anyone uses. Worth recording that the reference run CN104292137A writes the same compound as 环磺草酮, with the extra 草; the two Chinese spellings in this dataset denote one molecule, and a name-based merge that does not know that will split it."
+}

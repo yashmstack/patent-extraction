@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "biblio.schema.json",
+  "title": "input/<PATENT_ID>-biblio.json",
+  "description": "The bibliographic record for one patent. Hand-authored, and the only hand-authored input that had no contract: finalise.py read thirteen fields through bare b[\"key\"] access, so a missing one failed at that key, one run at a time, after several stages had already done work. Validated as a whole now, before any of it runs. grant_date is nullable on purpose: most published applications are never granted, and making it fatal made the pack unusable for them.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "patent_id", "family_id", "title_en", "language", "jurisdiction",
+    "publication_date", "priority_date", "filing_date", "grant_date",
+    "legal_status", "assignees", "inventors"
+  ],
+  "properties": {
+    "patent_id": {
+      "type": "string", "minLength": 3,
+      "description": "Must equal the filename stem and the id the pipeline is run with."
+    },
+    "family_id": {
+      "type": ["string", "integer"],
+      "description": "DOCDB simple family id, carried into tags as patent_family:<id>. Where to find it, because it is the one required field whose source is not obvious: on a Google Patents page it is the literal string \"Family ID=\" inside the Family section of the page source, not shown as a labelled field in the rendered page. Espacenet shows it directly. Do not invent one; nothing downstream checks it."
+    },
+    "title_en": {"type": "string", "minLength": 1},
+    "title_zh": {"type": ["string", "null"]},
+    "language": {
+      "type": "string", "pattern": "^[a-z]{2}$",
+      "description": "Two-letter lower-case ISO 639-1 code for the language of the patent TEXT, not of the annotation. Patterned because \"Chinese\" and \"zh-CN\" both used to validate."
+    },
+    "jurisdiction": {
+      "type": "string", "pattern": "^[a-z]{2}$",
+      "description": "Two-letter lower-case issuing office: cn, us, ep, jp. Also the fallback country stamped on every inventor given as a bare name, so a wrong value here mislabels all of them. Patterned for that reason: \"China\" used to validate and would have produced country \"CHINA\" on every inventor."
+    },
+    "publication_date": {"$ref": "#/$defs/date"},
+    "priority_date": {"$ref": "#/$defs/date"},
+    "filing_date": {"$ref": "#/$defs/date"},
+    "grant_date": {
+      "anyOf": [{"$ref": "#/$defs/date"}, {"type": "null"}],
+      "description": "null for an application that was never granted, which is most of them."
+    },
+    "grant_publication": {"type": ["string", "null"]},
+    "application_number": {"type": ["string", "null"]},
+    "publication_number": {"type": ["string", "null"]},
+    "legal_status": {"type": ["string", "null"]},
+    "abstract_zh": {
+      "type": ["string", "null"],
+      "description": "The abstract as printed, in the patent's own language despite the field name. A4 is given this; it does not emit it."
+    },
+    "ipc_codes": {
+      "anyOf": [{"type": "array", "items": {"type": "string"}}, {"type": "null"}]
+    },
+    "assignees": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "country", "type"],
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "country": {"type": ["string", "null"]},
+          "type": {
+            "enum": ["multinational_corp", "sme", "university", "government", "individual", "consortium"],
+            "description": "An enum rather than prose, because the prose version accepted \"Co Ltd\" and \"pharma\" and this value is carried into a tag. THE VOCABULARY IS production's, from patent.schema.json, and not a friendlier one of our own. finalise.py copies this value straight into patent.json's parties.assignees[].type with no mapping, so a value legal here and illegal there fails validate.py after nine stages have already run. This enum used to read company | university | individual | institute | government | hospital | foundation, which intersects production's at university, government and individual only: every company-assigned patent was unannotatable, and the pack did not find out because the one worked run, CN104292137A, is assigned to a university. Found on CN112645853A, whose assignee is a limited company. If you widen this, widen it to whatever patent.schema.json says and nothing else."
+          }
+        }
+      }
+    },
+    "inventors": {
+      "type": "array",
+      "description": "Either bare names, or objects that state a country. A bare name takes its country from `jurisdiction`, which is a guess; state it here where it matters.",
+      "items": {
+        "anyOf": [
+          {"type": "string", "minLength": 1},
+          {
+            "type": "object",
+            "required": ["name"],
+            "properties": {
+              "name": {"type": "string", "minLength": 1},
+              "country": {"type": ["string", "null"]}
+            }
+          }
+        ]
+      }
+    },
+    "source": {"type": ["string", "null"]},
+    "retrieved": {"type": ["string", "null"]},
+    "text_provenance": {"type": ["string", "object", "null"]}
+  },
+  "$defs": {
+    "date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "ISO 8601 calendar date. finalise.py slices [:4] off publication_date for the time_period tag, so a non-ISO value silently produces a wrong tag rather than an error."
+    }
+  }
+}

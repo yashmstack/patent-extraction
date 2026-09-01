@@ -1,0 +1,72 @@
+[
+  {
+    "identifier": "式(IV)化合物",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "向高压釜中加入式(IV)化合物94.73g"
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "1,3-环己二酮29.41g"
+  },
+  {
+    "identifier": "triethylamine",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "三乙胺27.83g"
+  },
+  {
+    "identifier": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "双[(4-N,N-二甲氨基)苯基]二叔丁基膦二氯化钯3g"
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "溶剂二氧六环250g"
+  },
+  {
+    "identifier": "nitrogen",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "氮气置换3次"
+  },
+  {
+    "identifier": "CO",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "通入1～4MPa的CO"
+  },
+  {
+    "identifier": "ethanol",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "加入80g乙醇"
+  },
+  {
+    "identifier": "(VIII)酯化合物",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "得到(VIII)酯化合物，收率为80％"
+  },
+  {
+    "identifier": "ethylene glycol diethyl ether",
+    "source_lines": [
+      527
+    ],
+    "quote_zh": "溶剂替换为乙二醇二乙醚300g"
+  }
+]

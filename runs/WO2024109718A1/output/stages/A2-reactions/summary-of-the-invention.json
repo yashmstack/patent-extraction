@@ -1,0 +1,2175 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Summary of the Invention_Scheme Step (v)",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "step_index": 1,
+    "step_label": "Scheme Step (v)",
+    "reaction_class": "other_cross_coupling",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CO",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "H2O",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+      "carbon monoxide",
+      "water"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "(1)环磺酮制备方法，其特征在于，包括如下的任意一个步骤：\n(2)根据上述(1)所述的方法，其中所述步骤(v)和(v′)分别为以下步骤：",
+    "procedure_summary": "Carbonylation of the aryl bromide with carbon monoxide and water to the corresponding benzoic acid.",
+    "precursor_step": "Scheme Step (iv)",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:carbonylation",
+      "mechanism:catalytic",
+      "scale:not_specified",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false",
+      "workup_type:none",
+      "purification:none"
+    ],
+    "notes": "Step (v). [0011] draws it bare at line 91 and [0012] draws it again at line 97 with CO and H2O on the arrow, so the two readings agree and nothing is flagged for the drawing. The same transformation opens composite step (vi), which is recorded arrow by arrow below and keeps its own records because it is drawn separately. CO is recorded as a reactant, not a reagent, because it supplies the carbonyl carbon of the product. No catalyst, ligand, base, solvent, pressure or temperature is stated anywhere in this section; that absence is recorded and not filled in, and mechanism catalytic is a classification of the transformation rather than a recorded condition. Classification choice, applied consistently across this section and the other of the two sections re-run together (Claims and Summary of the Invention): all four carbonylation arrows in these sections, steps (v) and (v') and the first arrow of each of (vi) and (vi'), are classed other_cross_coupling with mechanism catalytic. The enum has no carbonylation term. The defining event in all four is insertion of carbon monoxide into a metal-aryl bond formed from the same aryl bromide, and the acid and ester variants differ only in the nucleophile that traps the acyl-metal species, so splitting them between two classes would make one transformation look like two. This run's registry already uses other_cross_coupling for the same transformation in Example 6, Example 9 and Example 11 and in Preparation Routes and General Embodiments::Step 7; it uses other in Example 7 and ester_formation in Preparation Routes and General Embodiments::Step 8. Those readings are recorded here as the alternatives not taken. Step count: A0 estimated 8 steps for this section and this pass emits 12. No new transformation was found. The difference is arrow granularity: composite step (vi) is drawn as four arrows and composite step (vi') as two, and rule 5d asks for one record per drawn arrow, so those two schemes are no longer collapsed into one record each. Recording them collapsed lost the benzoic acid, the acid chloride and the enol ester as separately claimed intermediates. Ordering note applying to every record from this section: the section draws the same route five times over, at rising levels of detail ([0011] to [0021]), so first appearance on the page is not route order. Records are numbered in the order of the patent's own step labels, and each record names the label it carries. Every record here is a scheme record; the section has no prose procedure, so all step labels keep the Scheme Step prefix. The schemes stand under 发明内容 (Summary of the invention) and [0008] and [0009] present them as the invention's own new route, contrasted with the existing route of the background section, so attribution is to the invention and no route_attribution_unclear flag is raised. The vision spans carry no presented_as marker."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Summary of the Invention_Scheme Step (v')",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "step_index": 2,
+    "step_label": "Scheme Step (v')",
+    "reaction_class": "other_cross_coupling",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CO",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "cyclohexane-1,3-dione",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+      "carbon monoxide",
+      "cyclohexane-1,3-dione"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "(1)环磺酮制备方法，其特征在于，包括如下的任意一个步骤：\n(2)根据上述(1)所述的方法，其中所述步骤(v)和(v′)分别为以下步骤：",
+    "procedure_summary": "Carbonylative esterification of the same aryl bromide with carbon monoxide and cyclohexane-1,3-dione, reaching the enol ester in one operation instead of by way of the free acid.",
+    "precursor_step": "Scheme Step (iv)",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:carbonylation",
+      "transformation:esterification",
+      "mechanism:catalytic",
+      "scale:not_specified",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false",
+      "workup_type:none",
+      "purification:none"
+    ],
+    "notes": "Step (v'). Drawn bare at line 93 ([0011]) and again at line 99 ([0012]) with CO on the arrow and, in the vision read of that span, cyclohexane-1,3-dione noted as drawn as a structure rather than written as a name; at line 153 the same transformation is read with an explicit second reactant. The two readings agree, so no drawing_text_conflict is raised. This is the step that carries the claim in [0009] of a route with fewer steps: it reaches the ester directly from the aryl bromide, where step (vi) takes three arrows to reach the same ester. No catalyst, base, solvent, pressure or temperature is stated. Classification choice, applied consistently across this section and the other of the two sections re-run together (Claims and Summary of the Invention): all four carbonylation arrows in these sections, steps (v) and (v') and the first arrow of each of (vi) and (vi'), are classed other_cross_coupling with mechanism catalytic. The enum has no carbonylation term. The defining event in all four is insertion of carbon monoxide into a metal-aryl bond formed from the same aryl bromide, and the acid and ester variants differ only in the nucleophile that traps the acyl-metal species, so splitting them between two classes would make one transformation look like two. This run's registry already uses other_cross_coupling for the same transformation in Example 6, Example 9 and Example 11 and in Preparation Routes and General Embodiments::Step 7; it uses other in Example 7 and ester_formation in Preparation Routes and General Embodiments::Step 8. Those readings are recorded here as the alternatives not taken. Ordering note applying to every record from this section: the section draws the same route five times over, at rising levels of detail ([0011] to [0021]), so first appearance on the page is not route order. Records are numbered in the order of the patent's own step labels, and each record names the label it carries. Every record here is a scheme record; the section has no prose procedure, so all step labels keep the Scheme Step prefix. The schemes stand under 发明内容 (Summary of the invention) and [0008] and [0009] present them as the invention's own new route, contrasted with the existing route of the background section, so attribution is to the invention and no route_attribution_unclear flag is raised. The vision spans carry no presented_as marker."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Summary of the Invention_Scheme Step (i)",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "step_index": 3,
+    "step_label": "Scheme Step (i)",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "CSc1cccc(Cl)c1C",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bromine",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CSc1ccc(Br)c(Cl)c1C",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+      "bromine"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "(3)根据上述(1)或(2)所述的环磺酮制备方法，其进一步包括如下所示的(i)～(iv)中任意一个或两个以上的中间体制备步骤：\n(4)根据上述(3)所述的方法，所述步骤(i)～(iv)分别独立地为以下步骤：\n(5)根据上述(1)至(4)中任意一项所述的方法，其包括如下所示的中间体制备步骤：\n(6)根据上述(5)中所述的方法，其所述中间体制备步骤如下：",
+    "procedure_summary": "Aromatic bromination of the chlorinated methyl aryl sulfide to give the bromo sulfide, drawn without conditions or charges.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "step_role:first_step",
+      "linkage:standalone",
+      "is_one_pot:false",
+      "workup_type:none",
+      "purification:none",
+      "catalyst_class:none"
+    ],
+    "notes": "Step (i) of the route in its unprimed form ([0013], drawn at line 103) and step (i') in its preferred form ([0014], drawn at line 116 and again inside the four-arrow schemes at lines 128 and 135), where the arrow carries Br2. The unprimed and primed drawings are the same transformation at two levels of detail, so they are one record and not two; the reagent recorded here is the one the primed drawing names. Ring position is fixed by the drawn product, not stated in words. The prose of this section never names any compound of this step, so every identifier is drawing-derived. No charge, solvent, temperature or workup is given anywhere in this section. The schemes stand under 发明内容 (Summary of the invention) and [0008] and [0009] present them as the invention's own new route, contrasted with the existing route of the background section, so attribution is to the invention and no route_attribution_unclear flag is raised. The vision spans carry no presented_as marker. Ordering note applying to every record from this section: the section draws the same route five times over, at rising levels of detail ([0011] to [0021]), so first appearance on the page is not route order. Records are numbered in the order of the patent's own step labels (i) to (vi'), which is also the order the material flows, and each record names the label it carries. Emitting one record per drawn arrow literally would have produced the same eight transformations about thirty times."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Summary of the Invention_Scheme Step (ii)",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "step_index": 4,
+    "step_label": "Scheme Step (ii)",
+    "reaction_class": "oxidation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "CSc1ccc(Br)c(Cl)c1C",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "hydrogen peroxide",
+        "role": "oxidant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+      "hydrogen peroxide"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "(3)根据上述(1)或(2)所述的环磺酮制备方法，其进一步包括如下所示的(i)～(iv)中任意一个或两个以上的中间体制备步骤：\n(4)根据上述(3)所述的方法，所述步骤(i)～(iv)分别独立地为以下步骤：\n(5)根据上述(1)至(4)中任意一项所述的方法，其包括如下所示的中间体制备步骤：\n(6)根据上述(5)中所述的方法，其所述中间体制备步骤如下：",
+    "procedure_summary": "Oxidation of the aryl methyl sulfide to the corresponding methyl sulfone with hydrogen peroxide, drawn without conditions or charges.",
+    "precursor_step": "Scheme Step (i)",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:oxidation",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false",
+      "workup_type:none",
+      "purification:none",
+      "catalyst_class:none"
+    ],
+    "notes": "Step (ii) unprimed ([0013], drawn at line 108) and step (ii') primed ([0014], drawn at line 118 and inside the schemes at lines 128 and 135), where the arrow carries H2O2. One record for both, as for step 1. Linkage is confirmed by identifier: the product of scheme step 1 is the drawn reactant here. Sulfide to sulfone is a two-oxygen oxidation; the section states no catalyst, no solvent and no charge. The schemes stand under 发明内容 (Summary of the invention) and [0008] and [0009] present them as the invention's own new route, contrasted with the existing route of the background section, so attribution is to the invention and no route_attribution_unclear flag is raised. The vision spans carry no presented_as marker."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Summary of the Invention_Scheme Step (iii)",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "step_index": 5,
+    "step_label": "Scheme Step (iii)",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "radical",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "溴代试剂",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bromine",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "N-bromosuccinimide",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "hydrogen bromide",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "hydrogen peroxide",
+        "role": "oxidant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+      "brominating reagent",
+      "bromine",
+      "N-bromosuccinimide",
+      "hydrogen bromide",
+      "hydrogen peroxide"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "(3)根据上述(1)或(2)所述的环磺酮制备方法，其进一步包括如下所示的(i)～(iv)中任意一个或两个以上的中间体制备步骤：\n(4)根据上述(3)所述的方法，所述步骤(i)～(iv)分别独立地为以下步骤：\n(5)根据上述(1)至(4)中任意一项所述的方法，其包括如下所示的中间体制备步骤：\n(6)根据上述(5)中所述的方法，其所述中间体制备步骤如下：\n步骤(iii')中，溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素；步骤(iv')中，CF3CH2OM为CF3CH2ONa或CF3CH2OK。\n式中，溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素；CF3CH2OM为CF3CH2ONa或CF3CH2OK。",
+    "procedure_summary": "Benzylic bromination of the aryl methyl group of the sulfone to the benzyl bromide, using a brominating reagent the text leaves as a choice of three, bromine preferred.",
+    "precursor_step": "Scheme Step (ii)",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:radical",
+      "scale:not_specified",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false",
+      "workup_type:none",
+      "purification:none",
+      "catalyst_class:none"
+    ],
+    "notes": "Step (iii) unprimed ([0013], drawn at line 110) and step (iii') primed ([0014], drawn at line 120 and inside the schemes at lines 128 and 135), where the arrow carries 溴代试剂. This is the one step of the four whose reagent the prose spells out: [0015] and [0018] both define 溴代试剂 as bromine, N-bromosuccinimide, or hydrogen bromide combined with hydrogen peroxide, and both state bromine is preferred. All four named alternatives are carried in compounds[] alongside the unresolved class term itself, because the patent offers them as alternatives for this step and choosing one of them here would be a decision the document does not make. Hydrogen peroxide appears in this step only as the partner of hydrogen bromide, a different role from the oxidant role it has in scheme step 2. Classification choice, applied consistently across this section and the other of the two sections re-run together: mechanism_type is radical for this benzylic bromination. Neither section names an initiator, a light source or a temperature, so the mechanism is read from the benzylic position and the reagent set and not from a stated condition. The same reading is used in Example 4, Preparation Routes and General Embodiments::Step 4 and both background schemes. The earlier reading of not_determinable is recorded here as the alternative not taken. The schemes stand under 发明内容 (Summary of the invention) and [0008] and [0009] present them as the invention's own new route, contrasted with the existing route of the background section, so attribution is to the invention and no route_attribution_unclear flag is raised. The vision spans carry no presented_as marker."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Summary of the Invention_Scheme Step (iv)",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "step_index": 6,
+    "step_label": "Scheme Step (iv)",
+    "reaction_class": "nucleophilic_substitution",
+    "reaction_class_confidence": "high",
+    "named_reaction": "Williamson ether synthesis",
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CF3CH2OM",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CF3CH2ONa",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CF3CH2OK",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+      "CF3CH2OM",
+      "CF3CH2ONa",
+      "CF3CH2OK"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "(3)根据上述(1)或(2)所述的环磺酮制备方法，其进一步包括如下所示的(i)～(iv)中任意一个或两个以上的中间体制备步骤：\n(4)根据上述(3)所述的方法，所述步骤(i)～(iv)分别独立地为以下步骤：\n(5)根据上述(1)至(4)中任意一项所述的方法，其包括如下所示的中间体制备步骤：\n(6)根据上述(5)中所述的方法，其所述中间体制备步骤如下：\n步骤(iii')中，溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素；步骤(iv')中，CF3CH2OM为CF3CH2ONa或CF3CH2OK。\n式中，溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素；CF3CH2OM为CF3CH2ONa或CF3CH2OK。",
+    "procedure_summary": "Displacement of the benzylic bromide by a trifluoroethoxide salt to install the trifluoroethyl ether, giving the hinge intermediate of the route.",
+    "precursor_step": "Scheme Step (iii)",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:etherification",
+      "mechanism:ionic",
+      "named_rxn:williamson_ether_synthesis",
+      "scale:not_specified",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false",
+      "workup_type:none",
+      "purification:none",
+      "catalyst_class:none"
+    ],
+    "notes": "Step (iv) unprimed ([0013], drawn at line 112) and step (iv') primed ([0014], drawn at line 122 and inside the schemes at lines 128 and 135), where the arrow carries CF3CH2OM. [0015] and [0018] state CF3CH2OM is CF3CH2ONa or CF3CH2OK, which is two compounds and not one, so the printed variable is kept as an unresolved reagent and both alternatives are carried beside it rather than one being picked. No solvent, base, temperature or charge is stated. The product of this step is the branch point of the whole section: scheme steps 5 and 6 both start from it. The schemes stand under 发明内容 (Summary of the invention) and [0008] and [0009] present them as the invention's own new route, contrasted with the existing route of the background section, so attribution is to the invention and no route_attribution_unclear flag is raised. The vision spans carry no presented_as marker."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "reaction_id": "Summary of the Invention_Scheme Step (vi) Arrow 1",
+    "step_index": 7,
+    "step_label": "Scheme Step (vi) Arrow 1",
+    "reaction_class": "other_cross_coupling",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CO",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "H2O",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+      "carbon monoxide",
+      "water"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：\n(8)根据上述(7)所述的方法，其中步骤(vi)和(vi′)分别为如下步骤：",
+    "procedure_summary": "The aryl bromide is carbonylated with carbon monoxide and water to the corresponding benzoic acid.",
+    "precursor_step": "Scheme Step (iv)",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:carbonylation",
+      "mechanism:catalytic",
+      "scale:not_specified",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false",
+      "workup_type:none",
+      "purification:none"
+    ],
+    "notes": "Composite step (vi), respecified by [0021] as step (vi-1), is drawn as FOUR arrows, at line 141 ([0019], first arrow bare) and line 151 ([0021], first arrow carrying H2O and CO), and confirmed on page image p06.png: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Each drawn arrow is its own record. Note on the machine read of those two spans: in both, step_id 2 carries the acid as a reactant with an empty products list and step_id 3 carries the ester as a product with an empty reactants list, so the acid chloride structure is missing from the extract. It is drawn on the page, as ClC(=O) on the aryl ring in the third structure of the first row, and the same scheme on page image p27.png is read with the acid chloride explicit. The gap is in the vision pass, not in the patent. Arrow 1, the same transformation as step (v), which keeps its own record because [0011] recites it standing alone. Classification choice, applied consistently across this section and the other of the two sections re-run together (Claims and Summary of the Invention): all four carbonylation arrows in these sections, steps (v) and (v') and the first arrow of each of (vi) and (vi'), are classed other_cross_coupling with mechanism catalytic. The enum has no carbonylation term. The defining event in all four is insertion of carbon monoxide into a metal-aryl bond formed from the same aryl bromide, and the acid and ester variants differ only in the nucleophile that traps the acyl-metal species, so splitting them between two classes would make one transformation look like two. This run's registry already uses other_cross_coupling for the same transformation in Example 6, Example 9 and Example 11 and in Preparation Routes and General Embodiments::Step 7; it uses other in Example 7 and ester_formation in Preparation Routes and General Embodiments::Step 8. Those readings are recorded here as the alternatives not taken. Step count: A0 estimated 8 steps for this section and this pass emits 12. No new transformation was found. The difference is arrow granularity: composite step (vi) is drawn as four arrows and composite step (vi') as two, and rule 5d asks for one record per drawn arrow, so those two schemes are no longer collapsed into one record each. Recording them collapsed lost the benzoic acid, the acid chloride and the enol ester as separately claimed intermediates. Ordering note applying to every record from this section: the section draws the same route five times over, at rising levels of detail ([0011] to [0021]), so first appearance on the page is not route order. Records are numbered in the order of the patent's own step labels, and each record names the label it carries. Every record here is a scheme record; the section has no prose procedure, so all step labels keep the Scheme Step prefix. The schemes stand under 发明内容 (Summary of the invention) and [0008] and [0009] present them as the invention's own new route, contrasted with the existing route of the background section, so attribution is to the invention and no route_attribution_unclear flag is raised. The vision spans carry no presented_as marker."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "reaction_id": "Summary of the Invention_Scheme Step (vi) Arrow 2",
+    "step_index": 8,
+    "step_label": "Scheme Step (vi) Arrow 2",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：\n(8)根据上述(7)所述的方法，其中步骤(vi)和(vi′)分别为如下步骤：",
+    "procedure_summary": "The benzoic acid is converted to the corresponding benzoyl chloride.",
+    "precursor_step": "Scheme Step (vi) Arrow 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions",
+      "a1_missing_compound"
+    ],
+    "tags": [
+      "transformation:acyl_chloride_formation",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false",
+      "workup_type:none",
+      "purification:none",
+      "catalyst_class:none"
+    ],
+    "notes": "Composite step (vi), respecified by [0021] as step (vi-1), is drawn as FOUR arrows, at line 141 ([0019], first arrow bare) and line 151 ([0021], first arrow carrying H2O and CO), and confirmed on page image p06.png: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Each drawn arrow is its own record. Note on the machine read of those two spans: in both, step_id 2 carries the acid as a reactant with an empty products list and step_id 3 carries the ester as a product with an empty reactants list, so the acid chloride structure is missing from the extract. It is drawn on the page, as ClC(=O) on the aryl ring in the third structure of the first row, and the same scheme on page image p27.png is read with the acid chloride explicit. The gap is in the vision pass, not in the patent. Arrow 2. The arrow is bare in both drawings and no chlorinating agent is named anywhere in this section, so the reagent fields stay null and no_conditions is raised under rule 5g rather than the arrow being skipped. a1_missing_compound is raised because A1 recorded no entry for the acid chloride in this section, which is the same gap as the vision read described above; the identifier used here follows the SMILES-shaped convention A1 used for the other drawing-only compounds of this section, and matches the identifier A1 did record for the Claims section. reaction_class halogenation follows the registry, which classes the same acid to acid chloride arrow as halogenation in Preparation Routes and General Embodiments::Scheme Step 7 and in both background schemes. Recording this arrow at all is the point of the re-run: the previous pass merged arrows 2 and 3 into one acid-to-ester record and the acid chloride disappeared. Step count: A0 estimated 8 steps for this section and this pass emits 12. No new transformation was found. The difference is arrow granularity: composite step (vi) is drawn as four arrows and composite step (vi') as two, and rule 5d asks for one record per drawn arrow, so those two schemes are no longer collapsed into one record each. Recording them collapsed lost the benzoic acid, the acid chloride and the enol ester as separately claimed intermediates. Ordering note applying to every record from this section: the section draws the same route five times over, at rising levels of detail ([0011] to [0021]), so first appearance on the page is not route order. Records are numbered in the order of the patent's own step labels, and each record names the label it carries. Every record here is a scheme record; the section has no prose procedure, so all step labels keep the Scheme Step prefix. The schemes stand under 发明内容 (Summary of the invention) and [0008] and [0009] present them as the invention's own new route, contrasted with the existing route of the background section, so attribution is to the invention and no route_attribution_unclear flag is raised. The vision spans carry no presented_as marker."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "reaction_id": "Summary of the Invention_Scheme Step (vi) Arrow 3",
+    "step_index": 9,
+    "step_label": "Scheme Step (vi) Arrow 3",
+    "reaction_class": "ester_formation",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "cyclohexane-1,3-dione",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+      "cyclohexane-1,3-dione"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：\n(8)根据上述(7)所述的方法，其中步骤(vi)和(vi′)分别为如下步骤：",
+    "procedure_summary": "The benzoyl chloride is esterified with cyclohexane-1,3-dione to the enol ester.",
+    "precursor_step": "Scheme Step (vi) Arrow 2",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions",
+      "a1_missing_compound"
+    ],
+    "tags": [
+      "transformation:esterification",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false",
+      "workup_type:none",
+      "purification:none",
+      "catalyst_class:none"
+    ],
+    "notes": "Composite step (vi), respecified by [0021] as step (vi-1), is drawn as FOUR arrows, at line 141 ([0019], first arrow bare) and line 151 ([0021], first arrow carrying H2O and CO), and confirmed on page image p06.png: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Each drawn arrow is its own record. Note on the machine read of those two spans: in both, step_id 2 carries the acid as a reactant with an empty products list and step_id 3 carries the ester as a product with an empty reactants list, so the acid chloride structure is missing from the extract. It is drawn on the page, as ClC(=O) on the aryl ring in the third structure of the first row, and the same scheme on page image p27.png is read with the acid chloride explicit. The gap is in the vision pass, not in the patent. Arrow 3. The arrow is bare in both drawings. Cyclohexane-1,3-dione is carried as a reactant even though it is not written on this arrow: the drawn product is its enol ester, so its participation is drawn even where its label is not, and the same compound is written explicitly on the (v') and (vi') arrows at lines 99 and 153. Leaving it out would make the record chemically impossible rather than merely incomplete. The acid chloride reactant is the compound A1 did not record for this section, so a1_missing_compound is raised here as well. No base, coupling agent, solvent or temperature is stated. Step count: A0 estimated 8 steps for this section and this pass emits 12. No new transformation was found. The difference is arrow granularity: composite step (vi) is drawn as four arrows and composite step (vi') as two, and rule 5d asks for one record per drawn arrow, so those two schemes are no longer collapsed into one record each. Recording them collapsed lost the benzoic acid, the acid chloride and the enol ester as separately claimed intermediates. Ordering note applying to every record from this section: the section draws the same route five times over, at rising levels of detail ([0011] to [0021]), so first appearance on the page is not route order. Records are numbered in the order of the patent's own step labels, and each record names the label it carries. Every record here is a scheme record; the section has no prose procedure, so all step labels keep the Scheme Step prefix. The schemes stand under 发明内容 (Summary of the invention) and [0008] and [0009] present them as the invention's own new route, contrasted with the existing route of the background section, so attribution is to the invention and no route_attribution_unclear flag is raised. The vision spans carry no presented_as marker."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "reaction_id": "Summary of the Invention_Scheme Step (vi) Arrow 4",
+    "step_index": 10,
+    "step_label": "Scheme Step (vi) Arrow 4",
+    "reaction_class": "other",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tembotrione",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "tembotrione",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：\n(8)根据上述(7)所述的方法，其中步骤(vi)和(vi′)分别为如下步骤：",
+    "procedure_summary": "The enol ester rearranges to the ring-acylated triketone, which is the target herbicide and the last transformation of the route.",
+    "precursor_step": "Scheme Step (vi) Arrow 3",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:rearrangement",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "step_role:final_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false",
+      "workup_type:none",
+      "purification:none",
+      "catalyst_class:none"
+    ],
+    "notes": "Composite step (vi), respecified by [0021] as step (vi-1), is drawn as FOUR arrows, at line 141 ([0019], first arrow bare) and line 151 ([0021], first arrow carrying H2O and CO), and confirmed on page image p06.png: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Each drawn arrow is its own record. Note on the machine read of those two spans: in both, step_id 2 carries the acid as a reactant with an empty products list and step_id 3 carries the ester as a product with an empty reactants list, so the acid chloride structure is missing from the extract. It is drawn on the page, as ClC(=O) on the aryl ring in the third structure of the first row, and the same scheme on page image p27.png is read with the acid chloride explicit. The gap is in the vision pass, not in the patent. Arrow 4, the closing transformation, drawn bare in both versions. Classification choice, applied consistently across this section and the other of the two sections re-run together: the closing enol ester to 2-aroylcyclohexane-1,3-dione arrow is classed other, mechanism ionic, named_reaction null. The enum has no rearrangement term, and acylation would describe an intermolecular acyl transfer where the drawing shows an intramolecular migration of the aroyl group from the enol oxygen to the ring carbon, reactant and product carrying the same molecular formula C17H16ClF3O6S as read from the drawings. Mechanism is ionic because the migration runs through the dione enolate. The registry uses other for this arrow in Background::Scheme A Step 11, Background::Scheme B Step 11, Preparation Routes and General Embodiments::Step 9 and Preparation Routes and General Embodiments::Scheme Step 9, and acylation in Example 8::Step 3 and Example 10::Step 1, where a reagent and a procedure are printed; the alternative reading is recorded here. named_reaction stays null because the classical Fries rearrangement is an aryl ester to hydroxyaryl ketone and this is a Fries-type rearrangement only by analogy, which rule 19 says not to stretch for. Step count: A0 estimated 8 steps for this section and this pass emits 12. No new transformation was found. The difference is arrow granularity: composite step (vi) is drawn as four arrows and composite step (vi') as two, and rule 5d asks for one record per drawn arrow, so those two schemes are no longer collapsed into one record each. Recording them collapsed lost the benzoic acid, the acid chloride and the enol ester as separately claimed intermediates. Ordering note applying to every record from this section: the section draws the same route five times over, at rising levels of detail ([0011] to [0021]), so first appearance on the page is not route order. Records are numbered in the order of the patent's own step labels, and each record names the label it carries. Every record here is a scheme record; the section has no prose procedure, so all step labels keep the Scheme Step prefix. The schemes stand under 发明内容 (Summary of the invention) and [0008] and [0009] present them as the invention's own new route, contrasted with the existing route of the background section, so attribution is to the invention and no route_attribution_unclear flag is raised. The vision spans carry no presented_as marker."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "reaction_id": "Summary of the Invention_Scheme Step (vi') Arrow 1",
+    "step_index": 11,
+    "step_label": "Scheme Step (vi') Arrow 1",
+    "reaction_class": "other_cross_coupling",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CO",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "cyclohexane-1,3-dione",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+      "carbon monoxide",
+      "cyclohexane-1,3-dione"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：\n其中步骤(vi′)以分离中间体酯化合物的分步方式实施、或以不分离中间体酯化合物的一锅法方式实施。\n(8)根据上述(7)所述的方法，其中步骤(vi)和(vi′)分别为如下步骤：\n其中步骤(vi′-1)以分离中间体酯化合物的分步方式实施、或以不分离中间体酯化合物的一锅法方式实施。",
+    "procedure_summary": "The aryl bromide is carbonylated in the presence of cyclohexane-1,3-dione, reaching the enol ester in one operation instead of by way of the free acid and the acid chloride.",
+    "precursor_step": "Scheme Step (iv)",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:carbonylation",
+      "transformation:esterification",
+      "mechanism:catalytic",
+      "scale:not_specified",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false",
+      "workup_type:none",
+      "purification:none"
+    ],
+    "notes": "Composite step (vi'), respecified by [0021] as step (vi'-1), is drawn as TWO arrows, at line 143 ([0019], bare) and line 153 ([0021], with cyclohexane-1,3-dione as a second reactant and CO on the arrow), and confirmed on page image p06.png: aryl bromide plus cyclohexane-1,3-dione under carbon monoxide to the enol ester, then the ester to tembotrione. Each drawn arrow is its own record. Arrow 1, the same transformation as step (v'), which keeps its own record because [0011] recites it standing alone. [0020] at line 147 and [0022] at line 158 state that step (vi') and step (vi'-1) may be run either stepwise with the intermediate ester compound isolated or in one pot without isolating it. The section offers both modes and asserts neither, so is_one_pot stays false and one_pot_steps empty on these per-arrow records and both readings are recorded here instead of one being chosen. Classification choice, applied consistently across this section and the other of the two sections re-run together (Claims and Summary of the Invention): all four carbonylation arrows in these sections, steps (v) and (v') and the first arrow of each of (vi) and (vi'), are classed other_cross_coupling with mechanism catalytic. The enum has no carbonylation term. The defining event in all four is insertion of carbon monoxide into a metal-aryl bond formed from the same aryl bromide, and the acid and ester variants differ only in the nucleophile that traps the acyl-metal species, so splitting them between two classes would make one transformation look like two. This run's registry already uses other_cross_coupling for the same transformation in Example 6, Example 9 and Example 11 and in Preparation Routes and General Embodiments::Step 7; it uses other in Example 7 and ester_formation in Preparation Routes and General Embodiments::Step 8. Those readings are recorded here as the alternatives not taken. Step count: A0 estimated 8 steps for this section and this pass emits 12. No new transformation was found. The difference is arrow granularity: composite step (vi) is drawn as four arrows and composite step (vi') as two, and rule 5d asks for one record per drawn arrow, so those two schemes are no longer collapsed into one record each. Recording them collapsed lost the benzoic acid, the acid chloride and the enol ester as separately claimed intermediates. Ordering note applying to every record from this section: the section draws the same route five times over, at rising levels of detail ([0011] to [0021]), so first appearance on the page is not route order. Records are numbered in the order of the patent's own step labels, and each record names the label it carries. Every record here is a scheme record; the section has no prose procedure, so all step labels keep the Scheme Step prefix. The schemes stand under 发明内容 (Summary of the invention) and [0008] and [0009] present them as the invention's own new route, contrasted with the existing route of the background section, so attribution is to the invention and no route_attribution_unclear flag is raised. The vision spans carry no presented_as marker."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "reaction_id": "Summary of the Invention_Scheme Step (vi') Arrow 2",
+    "step_index": 12,
+    "step_label": "Scheme Step (vi') Arrow 2",
+    "reaction_class": "other",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tembotrione",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "tembotrione",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：\n其中步骤(vi′)以分离中间体酯化合物的分步方式实施、或以不分离中间体酯化合物的一锅法方式实施。\n(8)根据上述(7)所述的方法，其中步骤(vi)和(vi′)分别为如下步骤：\n其中步骤(vi′-1)以分离中间体酯化合物的分步方式实施、或以不分离中间体酯化合物的一锅法方式实施。",
+    "procedure_summary": "The enol ester rearranges to the ring-acylated triketone, which is the target herbicide.",
+    "precursor_step": "Scheme Step (vi') Arrow 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:rearrangement",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "step_role:final_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false",
+      "workup_type:none",
+      "purification:none",
+      "catalyst_class:none"
+    ],
+    "notes": "Composite step (vi'), respecified by [0021] as step (vi'-1), is drawn as TWO arrows, at line 143 ([0019], bare) and line 153 ([0021], with cyclohexane-1,3-dione as a second reactant and CO on the arrow), and confirmed on page image p06.png: aryl bromide plus cyclohexane-1,3-dione under carbon monoxide to the enol ester, then the ester to tembotrione. Each drawn arrow is its own record. Arrow 2, drawn bare in both versions. It is the same transformation as Scheme Step (vi) Arrow 4; the two routes converge on the same last arrow and each keeps its own record because each is drawn. [0020] at line 147 and [0022] at line 158 state that step (vi') and step (vi'-1) may be run either stepwise with the intermediate ester compound isolated or in one pot without isolating it. The section offers both modes and asserts neither, so is_one_pot stays false and one_pot_steps empty on these per-arrow records and both readings are recorded here instead of one being chosen. Classification choice, applied consistently across this section and the other of the two sections re-run together: the closing enol ester to 2-aroylcyclohexane-1,3-dione arrow is classed other, mechanism ionic, named_reaction null. The enum has no rearrangement term, and acylation would describe an intermolecular acyl transfer where the drawing shows an intramolecular migration of the aroyl group from the enol oxygen to the ring carbon, reactant and product carrying the same molecular formula C17H16ClF3O6S as read from the drawings. Mechanism is ionic because the migration runs through the dione enolate. The registry uses other for this arrow in Background::Scheme A Step 11, Background::Scheme B Step 11, Preparation Routes and General Embodiments::Step 9 and Preparation Routes and General Embodiments::Scheme Step 9, and acylation in Example 8::Step 3 and Example 10::Step 1, where a reagent and a procedure are printed; the alternative reading is recorded here. named_reaction stays null because the classical Fries rearrangement is an aryl ester to hydroxyaryl ketone and this is a Fries-type rearrangement only by analogy, which rule 19 says not to stretch for. Step count: A0 estimated 8 steps for this section and this pass emits 12. No new transformation was found. The difference is arrow granularity: composite step (vi) is drawn as four arrows and composite step (vi') as two, and rule 5d asks for one record per drawn arrow, so those two schemes are no longer collapsed into one record each. Recording them collapsed lost the benzoic acid, the acid chloride and the enol ester as separately claimed intermediates. Ordering note applying to every record from this section: the section draws the same route five times over, at rising levels of detail ([0011] to [0021]), so first appearance on the page is not route order. Records are numbered in the order of the patent's own step labels, and each record names the label it carries. Every record here is a scheme record; the section has no prose procedure, so all step labels keep the Scheme Step prefix. The schemes stand under 发明内容 (Summary of the invention) and [0008] and [0009] present them as the invention's own new route, contrasted with the existing route of the background section, so attribution is to the invention and no route_attribution_unclear flag is raised. The vision spans carry no presented_as marker."
+  }
+]

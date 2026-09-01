@@ -1,0 +1,186 @@
+{
+ "page": "p11.png",
+ "page_label": "10",
+ "doc_part": "description",
+ "header": "10 / WO 2024/109718 (left) PCT/CN2023/132821 (right)",
+ "footer": "",
+ "paragraphs": [
+  {
+   "marker": "[0075]",
+   "zh": "在具体实施方式中，上述路线以式(III)化合物和三氟乙醇钠或三氟乙醇钾为原料，如下进行，但不限于此。",
+   "en": "In a specific embodiment, the above route uses the compound of formula (III) and sodium trifluoroethoxide or potassium trifluoroethoxide as starting materials, and proceeds as follows, but is not limited thereto.",
+   "notes": "三氟乙醇钠 / 三氟乙醇钾 translated literally as the sodium / potassium salt of 2,2,2-trifluoroethanol (i.e. sodium / potassium 2,2,2-trifluoroethoxide); the scheme writes them as CF3CH2ONa and CF3CH2OK."
+  },
+  {
+   "marker": "[0076]",
+   "zh": "上式中，CF3CH2OM为CF3CH2ONa或CF3CH2OK。",
+   "en": "In the above formula, CF3CH2OM is CF3CH2ONa or CF3CH2OK.",
+   "notes": "Printed with subscripted digits: CF₃CH₂OM, CF₃CH₂ONa, CF₃CH₂OK. Transcribed here with plain digits."
+  },
+  {
+   "marker": "[0077]",
+   "zh": "在更具体的实施方式中，上述反应可以如下执行但不限于此：将式(III)化合物和三氟乙醇钠或三氟乙醇钾分别溶于溶剂中，将式(III)化合物的溶液滴加到三氟乙醇钠或三氟乙醇钾溶液中。反应完毕后，加水淬灭，分液，用饱和食盐水洗涤有机层，蒸除溶剂，用甲醇或乙醇重结晶，干燥，得到式(IV)化合物。",
+   "en": "In a more specific embodiment, the above reaction may be carried out as follows but is not limited thereto: the compound of formula (III) and sodium trifluoroethoxide or potassium trifluoroethoxide are each dissolved in a solvent, and the solution of the compound of formula (III) is added dropwise into the sodium trifluoroethoxide or potassium trifluoroethoxide solution. After the reaction is complete, water is added to quench, the layers are separated, the organic layer is washed with saturated brine, the solvent is distilled off, the product is recrystallised from methanol or ethanol and dried to give the compound of formula (IV).",
+   "notes": null
+  },
+  {
+   "marker": "[0078]",
+   "zh": "在更具体的实施方式中，上述反应中使用四氢呋喃、1,4-二氧六环、乙醚作为溶剂，优选使用无水四氢呋喃作为溶剂。",
+   "en": "In a more specific embodiment, tetrahydrofuran, 1,4-dioxane or diethyl ether is used as the solvent in the above reaction, preferably anhydrous tetrahydrofuran is used as the solvent.",
+   "notes": "The hyphen in 1,4-二氧六环 is printed as a hyphen, not the Chinese numeral one."
+  },
+  {
+   "marker": "[0079]",
+   "zh": "在更具体的实施方式中，将式(III)化合物的溶液滴加到三氟乙醇钠或三氟乙醇钾溶液中时，滴加时控制反应物温度不超过-5～15℃。",
+   "en": "In a more specific embodiment, when the solution of the compound of formula (III) is added dropwise into the sodium trifluoroethoxide or potassium trifluoroethoxide solution, the temperature of the reactants during the dropwise addition is controlled so as not to exceed -5 to 15 degrees C.",
+   "notes": "Printed as 不超过-5～15℃ (\"not exceeding -5 to 15 C\"), which is literally odd for a lower bound; transcribed and translated literally rather than reinterpreted."
+  },
+  {
+   "marker": "[0080]",
+   "zh": "在更具体的实施方式中，三氟乙醇钠或三氟乙醇钾通过使氢化钠或氢化钾、甲醇钠或甲醇钾、氢氧化钠或氢氧化钾与三氟乙醇反应制备。",
+   "en": "In a more specific embodiment, the sodium trifluoroethoxide or potassium trifluoroethoxide is prepared by reacting sodium hydride or potassium hydride, sodium methoxide or potassium methoxide, or sodium hydroxide or potassium hydroxide with trifluoroethanol.",
+   "notes": null
+  },
+  {
+   "marker": "[0081]",
+   "zh": "本发明的式(IV)化合物可以通过但不限于如下插羰反应制备式(V)的羧酸化合物：",
+   "en": "The compound of formula (IV) of the present invention can be used to prepare the carboxylic acid compound of formula (V) by, but not limited to, the following carbonylation (carbonyl insertion) reaction:",
+   "notes": null
+  },
+  {
+   "marker": "[0082]",
+   "zh": "在更具体的实施方式中，上述(v-1)的反应可以如下执行但不限于此：向高压釜中加入式(IV)化合物、水、缚酸剂、催化剂、配体和第一溶剂，抽真空，氮气置换，通入CO，在80～120℃、优选80～90℃反应10～20h。过滤，蒸除第一溶剂后，加入第二溶剂溶解，调酸至pH为2～3，析出白色固体，过滤，得到式(V)化合物。",
+   "en": "In a more specific embodiment, the reaction (v-1) above may be carried out as follows but is not limited thereto: the compound of formula (IV), water, an acid-binding agent, a catalyst, a ligand and a first solvent are charged into an autoclave, evacuated and purged with nitrogen; CO is introduced and the reaction is run at 80 to 120 degrees C, preferably 80 to 90 degrees C, for 10 to 20 h. After filtration and distilling off the first solvent, a second solvent is added to dissolve the residue, acid is added to adjust the pH to 2 to 3, a white solid precipitates, and filtration gives the compound of formula (V).",
+   "notes": "The scheme label is printed (v-1) with a lower-case v, while the formula labels use upper-case Roman numerals."
+  }
+ ],
+ "drawings": [
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0075]",
+    "[0076]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, labelled formula (III)",
+     "core": "benzene",
+     "substituents": [
+      "CH2Br at C1",
+      "Cl at C2",
+      "Br at C3",
+      "H at C4",
+      "H at C5",
+      "SO2CH3 at C6"
+     ],
+     "name": "1-(bromomethyl)-3-bromo-2-chloro-6-(methylsulfonyl)benzene",
+     "smiles": "BrCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right of arrow, labelled formula (IV)",
+     "core": "benzene",
+     "substituents": [
+      "CH2OCH2CF3 at C1",
+      "Cl at C2",
+      "Br at C3",
+      "H at C4",
+      "H at C5",
+      "SO2CH3 at C6"
+     ],
+     "name": "1-bromo-2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+     "smiles": "FC(F)(F)COCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [
+      "CF3CH2OM"
+     ],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Ring numbering above is read off the drawing only: the substituted positions are four contiguous ring vertices, with CH2Br (or CH2OCH2CF3) and SO2CH3 at the two ends of that run and Cl adjacent to the CH2 group. C1 is taken as the vertex bearing the CH2 group. A lone full-width period is printed to the right of 式（IV）, closing paragraph [0075]."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0081]",
+    "[0082]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, labelled formula (IV)",
+     "core": "benzene",
+     "substituents": [
+      "CH2OCH2CF3 at C1",
+      "Cl at C2",
+      "Br at C3",
+      "H at C4",
+      "H at C5",
+      "SO2CH3 at C6"
+     ],
+     "name": "1-bromo-2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+     "smiles": "FC(F)(F)COCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right of arrow, labelled formula (V)",
+     "core": "benzene",
+     "substituents": [
+      "COOH at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4",
+      "H at C5",
+      "H at C6"
+     ],
+     "name": "2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+     "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [
+      "H2O"
+     ],
+     "reagents_below": [
+      "CO"
+     ],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "The carboxyl is drawn as HO-C(=O)- with the double-bonded O drawn above the carbonyl carbon. The scheme carries the label (v-1) to the right of 式（V）. Ring numbering read off the drawing only: COOH occupies the vertex that carried Br in 式（IV）, and Cl sits between COOH and the CH2OCH2CF3 vertex, with SO2CH3 adjacent to CH2OCH2CF3."
+  }
+ ],
+ "discrepancies": [
+  {
+   "what": "The catalyst, ligand and acid-binding agent required by the prose for the (v-1) carbonylation are not drawn on the scheme.",
+   "drawing_says": "Arrow carries only H2O above and CO below.",
+   "text_says": "[0082] charges 式(IV) compound, water, an acid-binding agent (缚酸剂), a catalyst, a ligand and a first solvent, then introduces CO."
+  },
+  {
+   "what": "The first scheme draws the alkoxide only as the generic CF3CH2OM; the prose names the two specific salts.",
+   "drawing_says": "CF3CH2OM above the arrow.",
+   "text_says": "[0075]/[0076] specify 三氟乙醇钠 or 三氟乙醇钾, i.e. CF3CH2ONa or CF3CH2OK."
+  },
+  {
+   "what": "Solvent for the 式(III) to 式(IV) step is stated in prose but absent from the scheme.",
+   "drawing_says": "No solvent written above or below the arrow.",
+   "text_says": "[0078] tetrahydrofuran, 1,4-dioxane or diethyl ether, preferably anhydrous THF."
+  }
+ ],
+ "illegible": [],
+ "page_confidence": "high"
+}

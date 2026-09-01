@@ -1,0 +1,30 @@
+{
+  "reaction_count": 13,
+  "compound_count": 75,
+  "sections": {
+    "Abstract": 1,
+    "Background": 3,
+    "Claims": 2,
+    "Example 1": 2,
+    "Example 2": 1,
+    "Process Conditions": 2,
+    "Summary of the Invention": 2
+  },
+  "reaction_classes": {
+    "halogenation": 12,
+    "hydrolysis": 1
+  },
+  "validation_flags": {
+    "no_conditions": 5
+  },
+  "stated_yields_pct": [
+    88.4,
+    95.6
+  ],
+  "target_compounds": [],
+  "scale_distribution": {
+    "not_specified": 10,
+    "pilot": 1,
+    "lab": 2
+  }
+}

@@ -1,0 +1,561 @@
+[
+  {
+    "patent_id": "US20040236146A1",
+    "reaction_id": "Process Conditions_Step 1",
+    "section_label": "Process Conditions",
+    "section_type": "summary_of_invention",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": "Wohl-Ziegler bromination",
+    "mechanism_type": "radical",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "range",
+        "value_c": null,
+        "min_c": 40.0,
+        "max_c": 100.0
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": "heated gradually; reflux preferred with the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride",
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "reaction mixture allowed to cool",
+        "sodium bisulfate solution added first",
+        "solvents optionally added",
+        "reaction product filtered off with suction after cooling",
+        "reaction product washed"
+      ],
+      "quenching_agent": "sodium bisulfate solution",
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": "filtered off with suction",
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": "recrystallization if necessary, for example from ethyl acetate or butyl acetate",
+    "process_control": {
+      "method": "tlc or hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "reaction proceeded to completion"
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": "Preference is given to using NBS in excess.",
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "compound of the formula I",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "initially charged with NBS and radical initiator in solvent",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "N-bromosuccinimide",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "initially charged with the substrate and the radical initiator in solvent, in excess",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "radical initiator",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "initially charged with the substrate and NBS in solvent",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bromine",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "optionally added, a little, to accelerate the reaction",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "chlorobenzene",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "reaction solvent; [0014] names it advantageous for process variant A, as one of two alternatives and not as part of a mixture charged with the other",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "acetonitrile",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "reaction solvent; [0014] names it advantageous for process variant A, as one of two alternatives and not as part of a mixture charged with the other",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium bisulfate",
+        "role": "other",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added first to the cooled reaction mixture, as a solution, in the workup of variant A",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "ethyl acetate",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "recrystallization solvent, offered as one of two alternatives on line 98 and stated for both variants",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "butyl acetate",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "recrystallization solvent, offered as one of two alternatives on line 98 and stated for both variants",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "compound of the formula II",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "compound of the formula I",
+      "N-bromosuccinimide",
+      "radical initiator",
+      "bromine"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "compound of the formula II",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0012] Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide. Radiation with light or variant B) is effected with commercially available photolamps and is known in principle to those skilled in the art.\n[0013] In addition to the very high yields and very high purities, further advantages of the process according to the invention may be regarded as being the use of less toxic solvents and the particularly simple workup of the end products.\n[0014] Suitable solvents for the process according to the invention have been found to be those which can be regarded as being inert with respect to the conditions of the bromination. These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile. It has been found that the solvents chlorobenzene and acetonitrile are advantageous for process variant A), and the solvents chlorobenzene, methylene chloride and 1,2-dichloroethane for process variant B). It will be appreciated that mixtures of these solvents may also be used.\n[0015] In both process variants, the reaction is generally carried out at a temperature of from 40 to 100° C., preferably from 70 to 100° C. In the case of the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride, preference is given to working under reflux.\n[0016] In process variant A), it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent, and then to heat gradually. The reaction may optionally be accelerated by adding a little bromine. Preference is given to using NBS in excess.\n[0017] In process variant B), it is appropriate to initially charge a compound of the formula I in solvent and then, after heating under irradiation with a photolamp, to add bromine dropwise. Preference is given to using bromine in excess.\n[0018] Depending on the solubilities of the compounds of the formulae I and II in the solvent used, these compounds are completely or partly dissolved. In general, they are partly dissolved, so that a portion is in suspended. Typically, the reaction in both process variants has proceeded to completion after from about 2 to 6 hours. The precise time at which the reaction is completed may be monitored, for example, by thin-film chromatography or by HPLC.\n[0019] For workup, the reaction mixture is allowed to cool. When the bromination is effected by process variant A), it is appropriate to initially add sodium bisulfate solution and optionally solvents. The further workup then depends upon the solubility and purity of the product. In the case of process variant A), the reaction product may generally be directly filtered off with suction after cooling. In both cases, the reaction product is washed and, if necessary, further purified by recrystallization, for example from ethyl acetate or butyl acetate.",
+    "procedure_summary": "The substrate genus is charged with N-bromosuccinimide and a radical initiator in an inert solvent and heated gradually, optionally accelerated by a little bromine. The mixture is cooled, treated with sodium bisulfate solution, and the product is filtered off with suction, washed and recrystallised.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:radical",
+      "named_rxn:wohl_ziegler_bromination",
+      "analytics:tlc",
+      "analytics:hplc",
+      "scale:not_specified",
+      "solvent_class:halogenated",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:none",
+      "workup_type:filtration",
+      "purification:recrystallisation",
+      "green_chemistry:less_toxic_solvents",
+      "step_role:final_step",
+      "linkage:standalone",
+      "is_one_pot:false"
+    ],
+    "notes": "PROSE step, process variant A, stated as an operational procedure at [0016] on line 87. Step 1 and Step 2 of this section are ALTERNATIVES, not a sequence: the same substrate genus goes to the same product genus by two different reagent systems. Neither is the other's precursor, so precursor_step is null on both and linkage is standalone. PROCEDURE TEXT: the section states both variants and their shared conditions in one continuous passage, so procedure_text carries the whole as-printed passage on both records rather than an excised half of it, and the paragraph that belongs to this record is [0016]. ONE ROUTE TOLD TWICE: this section is a generic restatement, as an operational procedure, of the same two transformations the Summary of the Invention states at [0004] to [0008]. The two sections' four records therefore describe one route told twice, two transformations and not four. They are kept as separate records because they are separate sections with independent step numbering, and this section is the only one of the two that carries conditions. TEMPERATURE, a real schema limitation: [0015] on line 85 prints TWO ranges for both variants, from 40 to 100 C generally and preferably from 70 to 100 C. conditions.temperature holds one range. The general range 40 to 100 C is recorded, because it is the range the sentence asserts of the process, and the preferred range 70 to 100 C could not be held by the field and survives only in this note. A consumer reading conditions.temperature alone will not know the patent states a preference inside it. REFLUX: [0015] gives preference to working under reflux for the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride. Per A2 rule 9 reflux is a heating method and not a temperature, so it is in heating_method and the temperature range is unaffected by it. TIME: [0018] on line 91 states from about 2 to 6 hours for both variants. That is a range and time_h is a single float, so time_h is left null and the range is recorded here rather than collapsed to a midpoint or to either endpoint. The word about is itself an approximation the field could not carry either. SOLVENTS: [0016] and [0017] say only in solvent and name none, so the solvents on this record come from [0014] on line 83. [0014] first gives a permissive set of solvents inert to the bromination, the halogenated hydrocarbons methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also acetonitrile, and then singles out which of them are advantageous for which variant. For variant A it names chlorobenzene and acetonitrile, and those two are the solvents of this record. They are ALTERNATIVES offered by the text, one or the other, and not a mixture charged together; [0014] closes by saying that mixtures of these solvents may also be used, which is a further option and not a statement that this variant uses one. chloroform and carbon tetrachloride are left off this record, and so are methylene chloride and 1,2-dichloroethane, because [0014] offers them only as members of the general inert class and advantages none of them for variant A; the wider set is recorded here rather than padded onto the record, and A1 holds all six for this section. The class term halogenated hydrocarbons is left off for the same reason a class name is left off anywhere: it names no substance that could be charged. Both solvent_class tags now have a solvent behind them, halogenated from chlorobenzene and aprotic_polar from acetonitrile. On the first pass this record carried both tags with no solvent in compounds[] at all, which asserted a solvent class the record could not support; the A5 audit raised it and it was right. The parallel Claims records carry their claimed solvents, which are alternatives in exactly the same way, so the two sections now treat the same kind of fact the same way. WORKUP AGENTS ON compounds[]: [0019] and its continuation on line 98 name three substances that belong to this step and all three are now on the record. sodium bisulfate is the first addition to the cooled mixture and line 98 states it for variant A only. ethyl acetate and butyl acetate are the two recrystallization solvents, offered as alternatives with for example and stated in both cases, so they are on this record and on Step 2. The optional solvents of line 98 are unnamed and so get no entry. The recrystallization solvents carry no solvent_class tag of their own: that category describes the medium the reaction is run in, which is how Example 2 tags it, where the same ethyl acetate appears as a workup solvent and only the reaction solvent is tagged. SODIUM BISULFATE ROLE: other, as A1 records it for this section, and not reagent, which is the role A1 and A2 both give sodium bisulfite in the two worked examples. The sections disagree and the disagreement is recorded rather than resolved: bisulfite is a reducing agent and quenches residual bromine, bisulfate is not one and line 98 does not say what it does. PROCESS CONTROL: [0018] names two alternative monitoring methods, thin-film chromatography or HPLC, and process_control.method holds one string, so both are carried in it as printed rather than one being chosen. WORKUP: [0019] and its continuation on line 98 give the cooling, the sodium bisulfate addition, the optional solvents, the suction filtration, the wash and the optional recrystallization. The sodium bisulfate addition and the suction filtration are stated for variant A specifically and so appear on this record and not on Step 2; the wash and the recrystallization are stated in both cases and appear on both. The wash medium is not named, so washes is null and the wash survives only as a workup step. SODIUM BISULFATE: line 98 prints sodium bisulfate solution as the first workup addition after variant A. Both worked examples of this patent print sodium bisulfite for the corresponding quench of residual bromine, at lines 122 and 154 of the source. Sodium bisulfate and sodium bisulfite are different substances. The identifier here is sodium bisulfate, as line 98 prints it and as A1 recorded it for this section; the two names are NOT merged and neither is corrected, and the conflict between line 98 and the example lines is recorded here rather than resolved. Line 98 is the unmarked continuation of [0019], which opens on line 93 on the preceding page; the leading word None on line 98 is the enricher's placeholder for the missing paragraph marker across that page break and is not printed on the page, so it is not in procedure_text. RADICAL INITIATOR: [0016] charges radical initiator generically and the bare class term is printed three times in this section, twice on line 79 and once on line 87. A1 for this section holds radical initiator as a record with role reagent; that was checked in output/stages/A1-compounds/process-conditions.json before the flag was dropped, and the same identifier is held by Background and by Summary of the Invention, so the three sections join on one key and a1_missing_compound is NOT raised. It was raised on the first sweep and it was right then: A1 held only the class members, diaroyl peroxides, azocarboxylic esters, azonitriles, azoisobutyronitrile and dibenzoyl peroxide. A1 has since been re-run to hold the class term, so the flag clears because the miss was fixed at source and not because it was waved away, which is A2 rule 7 working as designed. The class members are named as examples in [0012] and are not charged by name, so they are not put on compounds[] for the same reason the solvents are not. The initiator takes role reagent per PROMPT-CORRECTIONS section 8. PRINTING: line 79 reads Radiation with light or variant B), where the sense requires for variant B); the EN normalisation line at 80 reproduces the same wording, so this is the document's own error and is left as printed. Line 91 likewise reads so that a portion is in suspended. Neither affects a structured field. DRAWINGS: every IMAGE_EXTRACT span in this patent is a single Markush structure of formula I or formula II with variable R1 and R2, and each carries an empty molecules list because the vision pass refused a SMILES for a generic. There is no drawn reaction scheme anywhere in this document, so no drawing corroborates or contradicts this record and none of the scheme flags is raised. That is why no structure reached this record. STEP ROLE: the step_role category holds ONE value per record, as it does on every one of the 33 reactions of the reference run, and the route this record belongs to is a chain of one step, so the value is step_role:final_step. The step is equally the first step of that route; the field cannot hold both and final_step is recorded because the category exists to locate a step within a chain, and first_step on a route that is already over would imply that something follows it. That is a convention over a single-valued field, not a claim about the chemistry. CONVENTION: reactant_names carries the charge of the transformation, the substrate and the reagents that effect it. Solvents and workup agents are excluded, so neither the solvents added to this record on the re-run nor the workup agents appear in it. ATTRIBUTION: [0013] and [0014] read the process according to the invention, so this is the invention's own route and not prior art. SAFETY: [0013] claims less toxic solvents and a particularly simple workup, which is an advantage claim and not a safety statement, so safety_notes is empty and the claim is tagged green_chemistry:less_toxic_solvents instead. RE-RUN: this record is the output of a second A2 pass over this section, run to act on the A5 finding that both records emitted solvent_class tags with no solvent compound behind them. Nothing else on the record was changed by the re-run."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "reaction_id": "Process Conditions_Step 2",
+    "section_label": "Process Conditions",
+    "section_type": "summary_of_invention",
+    "step_index": 2,
+    "step_label": "Step 2",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "photochemical",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "range",
+        "value_c": null,
+        "min_c": 40.0,
+        "max_c": 100.0
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": "heated under irradiation with a photolamp; reflux preferred with the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride",
+      "cooling_method": null,
+      "light_source": {
+        "type": "other",
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "reaction mixture allowed to cool",
+        "further workup depends on the solubility and purity of the product",
+        "reaction product washed"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": "recrystallization if necessary, for example from ethyl acetate or butyl acetate",
+    "process_control": {
+      "method": "tlc or hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "reaction proceeded to completion"
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": "Preference is given to using bromine in excess.",
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "compound of the formula I",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "initially charged in solvent",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bromine",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added dropwise after heating under irradiation with a photolamp, in excess",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "chlorobenzene",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "reaction solvent; [0014] names it advantageous for process variant B, as one of three alternatives and not as part of a mixture charged with the others",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "methylene chloride",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "reaction solvent; [0014] names it advantageous for process variant B, as one of three alternatives and not as part of a mixture charged with the others",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,2-dichloroethane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "reaction solvent; [0014] names it advantageous for process variant B, as one of three alternatives and not as part of a mixture charged with the others",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "ethyl acetate",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "recrystallization solvent, offered as one of two alternatives on line 98 and stated for both variants",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "butyl acetate",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "recrystallization solvent, offered as one of two alternatives on line 98 and stated for both variants",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "compound of the formula II",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "compound of the formula I",
+      "bromine"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "compound of the formula II",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0012] Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide. Radiation with light or variant B) is effected with commercially available photolamps and is known in principle to those skilled in the art.\n[0013] In addition to the very high yields and very high purities, further advantages of the process according to the invention may be regarded as being the use of less toxic solvents and the particularly simple workup of the end products.\n[0014] Suitable solvents for the process according to the invention have been found to be those which can be regarded as being inert with respect to the conditions of the bromination. These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile. It has been found that the solvents chlorobenzene and acetonitrile are advantageous for process variant A), and the solvents chlorobenzene, methylene chloride and 1,2-dichloroethane for process variant B). It will be appreciated that mixtures of these solvents may also be used.\n[0015] In both process variants, the reaction is generally carried out at a temperature of from 40 to 100° C., preferably from 70 to 100° C. In the case of the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride, preference is given to working under reflux.\n[0016] In process variant A), it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent, and then to heat gradually. The reaction may optionally be accelerated by adding a little bromine. Preference is given to using NBS in excess.\n[0017] In process variant B), it is appropriate to initially charge a compound of the formula I in solvent and then, after heating under irradiation with a photolamp, to add bromine dropwise. Preference is given to using bromine in excess.\n[0018] Depending on the solubilities of the compounds of the formulae I and II in the solvent used, these compounds are completely or partly dissolved. In general, they are partly dissolved, so that a portion is in suspended. Typically, the reaction in both process variants has proceeded to completion after from about 2 to 6 hours. The precise time at which the reaction is completed may be monitored, for example, by thin-film chromatography or by HPLC.\n[0019] For workup, the reaction mixture is allowed to cool. When the bromination is effected by process variant A), it is appropriate to initially add sodium bisulfate solution and optionally solvents. The further workup then depends upon the solubility and purity of the product. In the case of process variant A), the reaction product may generally be directly filtered off with suction after cooling. In both cases, the reaction product is washed and, if necessary, further purified by recrystallization, for example from ethyl acetate or butyl acetate.",
+    "procedure_summary": "The substrate genus is charged in an inert solvent and heated under irradiation with a photolamp, and bromine is added dropwise. The mixture is then allowed to cool and the product is washed and recrystallised.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:photochemical",
+      "analytics:tlc",
+      "analytics:hplc",
+      "scale:not_specified",
+      "solvent_class:halogenated",
+      "catalyst_class:none",
+      "purification:recrystallisation",
+      "green_chemistry:less_toxic_solvents",
+      "step_role:final_step",
+      "linkage:standalone",
+      "is_one_pot:false"
+    ],
+    "notes": "PROSE step, process variant B, stated as an operational procedure at [0017] on line 89. Step 1 and Step 2 of this section are ALTERNATIVES, not a sequence: the same substrate genus goes to the same product genus by two different reagent systems. Neither is the other's precursor, so precursor_step is null on both and linkage is standalone. PROCEDURE TEXT: the section states both variants and their shared conditions in one continuous passage, so procedure_text carries the whole as-printed passage on both records rather than an excised half of it, and the paragraph that belongs to this record is [0017]. ONE ROUTE TOLD TWICE: this section is a generic restatement, as an operational procedure, of the same two transformations the Summary of the Invention states at [0004] to [0008]. The two sections' four records therefore describe one route told twice, two transformations and not four. They are kept as separate records because they are separate sections with independent step numbering, and this section is the only one of the two that carries conditions. TEMPERATURE, a real schema limitation: [0015] on line 85 prints TWO ranges for both variants, from 40 to 100 C generally and preferably from 70 to 100 C. conditions.temperature holds one range. The general range 40 to 100 C is recorded, because it is the range the sentence asserts of the process, and the preferred range 70 to 100 C could not be held by the field and survives only in this note. A consumer reading conditions.temperature alone will not know the patent states a preference inside it. REFLUX: [0015] gives preference to working under reflux for the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride. Per A2 rule 9 reflux is a heating method and not a temperature, so it is in heating_method and the temperature range is unaffected by it. TIME: [0018] on line 91 states from about 2 to 6 hours for both variants. That is a range and time_h is a single float, so time_h is left null and the range is recorded here rather than collapsed to a midpoint or to either endpoint. The word about is itself an approximation the field could not carry either. SOLVENTS: [0016] and [0017] say only in solvent and name none, so the solvents on this record come from [0014] on line 83. [0014] first gives a permissive set of solvents inert to the bromination, the halogenated hydrocarbons methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also acetonitrile, and then singles out which of them are advantageous for which variant. For variant B it names chlorobenzene, methylene chloride and 1,2-dichloroethane, and those three are the solvents of this record. They are ALTERNATIVES offered by the text, one or another, and not a mixture charged together; [0014] closes by saying that mixtures of these solvents may also be used, which is a further option and not a statement that this variant uses one. All three are halogenated, which is why this record carries only solvent_class:halogenated where Step 1 also carries aprotic_polar for its acetonitrile. acetonitrile is left off because [0014] advantages it for variant A and not for variant B, and chloroform and carbon tetrachloride are left off because [0014] offers them only as members of the general inert class and advantages neither for either variant; the wider set is recorded here rather than padded onto the record, and A1 holds all six for this section. The class term halogenated hydrocarbons is left off for the same reason a class name is left off anywhere: it names no substance that could be charged. The solvent_class tag now has a solvent behind it. On the first pass this record carried the tag with no solvent in compounds[] at all, which asserted a solvent class the record could not support; the A5 audit raised it and it was right. The parallel Claims records carry their claimed solvents, which are alternatives in exactly the same way, so the two sections now treat the same kind of fact the same way. WORKUP AGENTS ON compounds[]: line 98 states the recrystallization in both cases, so ethyl acetate and butyl acetate are on this record as well as on Step 1, as the two alternatives the line offers with for example. sodium bisulfate is NOT on this record: line 98 states that addition for variant A only, and carrying it here would invent a workup the patent does not give variant B. The recrystallization solvents carry no solvent_class tag of their own: that category describes the medium the reaction is run in, which is how Example 2 tags it, where the same ethyl acetate appears as a workup solvent and only the reaction solvent is tagged. ADDITION ORDER: [0017] charges the substrate in solvent first and adds the bromine dropwise only after heating under irradiation, which is the reverse of variant A, where everything is charged at the start. That order is in bromine's addition_profile. The photolamp is equipment, not a compound, so it is conditions.light_source and gets no compounds[] entry. PROCESS CONTROL: [0018] names two alternative monitoring methods, thin-film chromatography or HPLC, and process_control.method holds one string, so both are carried in it as printed rather than one being chosen. WORKUP: [0019] and its continuation on line 98 state the cooling and, in both cases, the wash and the optional recrystallization. The sodium bisulfate addition and the suction filtration are stated for variant A only and are therefore NOT on this record; carrying them here would invent a step the patent does not give variant B. The wash medium is not named, so washes is null. SODIUM BISULFATE: line 98 prints sodium bisulfate solution as the first workup addition after variant A. Both worked examples of this patent print sodium bisulfite for the corresponding quench of residual bromine, at lines 122 and 154 of the source. Sodium bisulfate and sodium bisulfite are different substances. The identifier here is sodium bisulfate, as line 98 prints it and as A1 recorded it for this section; the two names are NOT merged and neither is corrected, and the conflict between line 98 and the example lines is recorded here rather than resolved. Line 98 is the unmarked continuation of [0019], which opens on line 93 on the preceding page; the leading word None on line 98 is the enricher's placeholder for the missing paragraph marker across that page break and is not printed on the page, so it is not in procedure_text. MECHANISM: photochemical rather than radical, because [0017] initiates with a photolamp and names no chemical initiator. The chain that follows is a radical chain and the single-valued field cannot say both; the more specific value is recorded here, and this is the same choice made on Summary of the Invention_Step 2. PRINTING: line 79 reads Radiation with light or variant B), where the sense requires for variant B); the EN normalisation line at 80 reproduces the same wording, so this is the document's own error and is left as printed. DRAWINGS: every IMAGE_EXTRACT span in this patent is a single Markush structure of formula I or formula II with variable R1 and R2, and each carries an empty molecules list because the vision pass refused a SMILES for a generic. There is no drawn reaction scheme anywhere in this document, so no drawing corroborates or contradicts this record and none of the scheme flags is raised. That is why no structure reached this record. STEP ROLE: the step_role category holds ONE value per record, as it does on every one of the 33 reactions of the reference run, and the route this record belongs to is a chain of one step, so the value is step_role:final_step. The step is equally the first step of that route; the field cannot hold both and final_step is recorded because the category exists to locate a step within a chain, and first_step on a route that is already over would imply that something follows it. That is a convention over a single-valued field, not a claim about the chemistry. CONVENTION: reactant_names carries the charge of the transformation, the substrate and the reagents that effect it. Solvents and workup agents are excluded, so neither the solvents added to this record on the re-run nor the workup agents appear in it. ATTRIBUTION: [0013] and [0014] read the process according to the invention, so this is the invention's own route and not prior art. SAFETY: [0013] claims less toxic solvents and a particularly simple workup, which is an advantage claim and not a safety statement, so safety_notes is empty and the claim is tagged green_chemistry:less_toxic_solvents instead. RE-RUN: this record is the output of a second A2 pass over this section, run to act on the A5 finding that both records emitted solvent_class tags with no solvent compound behind them. Nothing else on the record was changed by the re-run. LIGHT SOURCE: [0017] at line 89 prints \"irradiation with a photolamp\" and [0012] at line 79 \"commercially available photolamps\"; light_source.type is recorded as other because the schema enum holds only LED, UV, mercury_lamp, sunlight, tungsten, fluorescent and other, and has no value for a photolamp."
+  }
+]

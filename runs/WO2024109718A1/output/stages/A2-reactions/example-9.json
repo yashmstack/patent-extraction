@@ -1,0 +1,589 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 9_Method 1",
+    "section_label": "Example 9",
+    "section_type": "experimental_intermediate",
+    "step_index": 1,
+    "step_label": "Method 1",
+    "reaction_class": "other_cross_coupling",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "lab",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "exact",
+        "value_c": 85.0,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "elevated",
+        "value_kpa": null,
+        "qualitative_text": "CO introduced at 1-4 MPa"
+      },
+      "atmosphere": "carbon monoxide, after three nitrogen replacements",
+      "time_h": 3.0,
+      "reactor_type": "autoclave",
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "cooled to room temperature",
+        "pressure released and the autoclave opened",
+        "reaction liquid poured out",
+        "filtered",
+        "filter cake washed with 10 g dioxane",
+        "mother liquor concentrated by rotary evaporation"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "10 g dioxane, on the filter cake"
+      ],
+      "drying_agent": null,
+      "filtration": "reaction liquid filtered, filter cake washed with dioxane and discarded, mother liquor carried forward",
+      "concentration_method": "rotary evaporation",
+      "ph_target": null
+    },
+    "purification": "crystallised from ethanol: 80 g ethanol added to the rotary-dried mother liquor, heated to 70 C to dissolve, cooled slowly to crystallise, filtered, and the solid dried at 70 C",
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "reaction complete"
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(IV)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 94.73,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave with the other solids and the solvent before the nitrogen replacement",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,3-cyclohexanedione",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 29.41,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave with the other solids and the solvent before the nitrogen replacement",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CO",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "introduced into the sealed autoclave at 1-4 MPa after three nitrogen replacements",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "triethylamine",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 27.83,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave with the other reagents before the nitrogen replacement",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 3.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave with the other reagents before the nitrogen replacement",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "nitrogen",
+        "role": "other",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "autoclave atmosphere replaced three times before CO was introduced",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,4-dioxane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 250.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged as the reaction solvent; a further 10 g was used at workup to wash the filter cake",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "ethanol",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 80.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added to the rotary-dried mother liquor for the crystallisation, then heated to 70 C",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "(VIII)酯化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": 80.0
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(IV)化合物",
+      "1,3-cyclohexanedione",
+      "CO"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "(VIII)酯化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": 80.0,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "方法1：向高压釜中加入式(IV)化合物94.73g、1,3-环己二酮29.41g、三乙胺27.83g、双[(4-N,N-二甲氨基)苯基]二叔丁基膦二氯化钯3g、溶剂二氧六环250g，氮气置换3次，通入1～4MPa的CO，升高温度，在85℃反应约3h。通过高效液相色谱监测反应完成后，降温至室温，卸去压力，开釜，倒出反应液，过滤，用10g二氧六环洗涤滤饼，母液旋蒸除去溶剂，向旋干的母液中加入80g乙醇，加热到70℃溶解，缓慢降温结晶，过滤，70℃烘干固体，得到(VIII)酯化合物，收率为80％。",
+    "procedure_summary": "The aryl bromide of formula (IV) is carbonylated in an autoclave under carbon monoxide with 1,3-cyclohexanedione, triethylamine and a palladium phosphine catalyst in dioxane, giving the enol ester of formula (VIII) directly. After filtration and concentration the product is crystallised from ethanol.",
+    "precursor_step": "Example 5::Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "reagent_written_not_drawn"
+    ],
+    "tags": [
+      "transformation:carbonylation",
+      "transformation:esterification",
+      "mechanism:catalytic",
+      "analytics:hplc",
+      "scale:lab",
+      "atmosphere:carbon_monoxide",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:palladium",
+      "workup_type:filtration",
+      "purification:recrystallisation",
+      "step_role:intermediate_step",
+      "linkage:cross_section_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "The section marks its two procedures 方法1 and 方法2 rather than 1、 and 2、, so step_label keeps the document's own marker, Method 1 and Method 2, in place of Step 1 and Step 2. Two records, matching A0's estimate of two, but they are not two stages of one synthesis: they are two runs of the same transformation differing only in solvent, and the patent prints a separate yield for each. They are kept apart so neither yield is lost and no average is created. Class: this is a palladium-catalysed carbonylation of the aryl bromide with CO and 1,3-cyclohexanedione, forming the aryl C-CO bond and the enol ester C-O bond in one operation. The enum has no carbonylation or carbonylative-coupling value; other_cross_coupling is recorded because the bond-forming event is a palladium cross-coupling of the aryl bromide, and ester_formation is the defensible alternative reading, hence medium confidence. No named reaction is widely accepted for it. Reactor is an autoclave (高压釜); no volume is printed. A stirrer is not mentioned, so stirring is left null rather than assumed. 升高温度 states only that the temperature was raised, so no heating_method is recorded; 85 C is the stated reaction temperature and 约3h the stated time. 1-4 MPa is a stated pressure range and the schema holds a single value_kpa, so it is kept as qualitative_text. HPLC conditions are stated to be the same as Example 5 (line 529), which is a cross-section pointer to conditions, not to material; the reaction record needs no number from it. Drawing on line 523: one arrow, from the same 式(IV) structure to the same (VIII) enol ester, with CO and a drawn but unnamed 1,3-cyclohexanedione on the arrow. It agrees with the prose on connectivity and on both those reagents. The arrow omits the palladium catalyst, the triethylamine and the solvent, all of which the procedure states, so reagent_written_not_drawn is raised; there is no contradiction between drawing and prose, so no drawing_text_conflict. Linkage: 式(IV)化合物 is the section product of Example 5 under the identical A1 identifier and the identical drawn SMILES, so the reactant is matched by compound identity and not by the sections being near each other; precursor_step is Example 5::Step 1 and linkage_confirmed is true. Arithmetic: no product mass is printed, only a yield, so there is nothing to check a mass against and nothing is flagged. 1H and 13C NMR are referred to Figures 13 and 14 with no data printed. The product label is spelled several ways across this document. This section's body writes (VIII)酯化合物, which is the A1 identifier used here; its own heading on line 518 writes 式(VIII)酯中间体; line 531 writes 式(VIII)化合物, which is also the A1 identifier Example 8 uses for the same ester; line 512 writes it with a space inside the numeral as 式(V III)化合物; and the summary of the invention writes 式(VIII)的酯化合物 and 式(VIII)的中间体酯化合物. All name the same enol ester of 1,3-cyclohexanedione, and a reader joining Example 8 to this one should treat 式(VIII)化合物 there and (VIII)酯化合物 here as one compound. Reaction class: other_cross_coupling is the value used for every palladium-catalysed carbonylation of this aryl bromide in the worked examples, here and in Examples 6, 7 and 11, so that the same transformation does not appear under two different classes. Example 10 is the exception because it is one-pot and rule 5 takes its class from the final transformation rather than from its carbonylation stage."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 9_Method 2",
+    "section_label": "Example 9",
+    "section_type": "experimental_intermediate",
+    "step_index": 2,
+    "step_label": "Method 2",
+    "reaction_class": "other_cross_coupling",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "lab",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "exact",
+        "value_c": 85.0,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "elevated",
+        "value_kpa": null,
+        "qualitative_text": "CO introduced at 1-4 MPa"
+      },
+      "atmosphere": "carbon monoxide, after three nitrogen replacements",
+      "time_h": 3.0,
+      "reactor_type": "autoclave",
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": true,
+    "workup": {
+      "steps": [
+        "cooled to room temperature",
+        "pressure released and the autoclave opened",
+        "reaction liquid poured out",
+        "filtered",
+        "filter cake washed with 10 g dioxane",
+        "mother liquor concentrated by rotary evaporation"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "10 g dioxane, on the filter cake"
+      ],
+      "drying_agent": null,
+      "filtration": "reaction liquid filtered, filter cake washed with dioxane and discarded, mother liquor carried forward",
+      "concentration_method": "rotary evaporation",
+      "ph_target": null
+    },
+    "purification": "crystallised from ethanol: 80 g ethanol added to the rotary-dried mother liquor, heated to 70 C to dissolve, cooled slowly to crystallise, filtered, and the solid dried at 70 C",
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "reaction complete"
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(IV)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 94.73,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged as in Method 1",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,3-cyclohexanedione",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 29.41,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged as in Method 1",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CO",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "introduced into the sealed autoclave at 1-4 MPa after three nitrogen replacements, as in Method 1",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "triethylamine",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 27.83,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged as in Method 1",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 3.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged as in Method 1",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "nitrogen",
+        "role": "other",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "autoclave atmosphere replaced three times before CO was introduced, as in Method 1",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "ethylene glycol diethyl ether",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 300.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged as the reaction solvent in place of the dioxane of Method 1",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,4-dioxane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 10.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "workup only: the filter cake wash of Method 1, inherited by 其它与方法1相同; the reaction solvent of Method 1 is replaced here",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "ethanol",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 80.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "crystallisation solvent, as in Method 1",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "(VIII)酯化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": 71.63
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(IV)化合物",
+      "1,3-cyclohexanedione",
+      "CO"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "(VIII)酯化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": 71.63,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "方法2：溶剂替换为乙二醇二乙醚300g，其它与方法1相同，得到(VIII)酯化合物，收率为71.63％。",
+    "procedure_summary": "The same carbonylation of the aryl bromide of formula (IV) with carbon monoxide and 1,3-cyclohexanedione is run with ethylene glycol diethyl ether in place of dioxane as the reaction solvent, everything else unchanged, again giving the enol ester of formula (VIII).",
+    "precursor_step": "Example 5::Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "reagent_written_not_drawn"
+    ],
+    "tags": [
+      "transformation:carbonylation",
+      "transformation:esterification",
+      "mechanism:catalytic",
+      "analytics:hplc",
+      "scale:lab",
+      "atmosphere:carbon_monoxide",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:palladium",
+      "workup_type:filtration",
+      "purification:recrystallisation",
+      "step_role:intermediate_step",
+      "linkage:cross_section_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "Method 2 is not a second stage after Method 1: it is the same transformation on the same starting material, differing only in the reaction solvent, and the patent prints a different yield for it, 71.63% against 80%. The two are kept as separate records so both yields survive; they must not be averaged and neither supersedes the other. Its own line prints only the replacement solvent and its charge, 300 g of ethylene glycol diethyl ether, and then 其它与方法1相同, everything else the same as Method 1. On that explicit instruction the charges, temperature, pressure, time, workup and purification are taken from Method 1 on line 525 within this same section, and conditions_inherited is true. No quantity here comes from outside this section. The 10 g of dioxane is retained as a workup-only wash inherited from Method 1; the 250 g of dioxane that was Method 1's reaction solvent is not carried over, because that is precisely what the sentence replaces. Class, mechanism and the drawing reading are as for Method 1, and the scheme on line 523 is the single arrow that covers both methods, so reagent_written_not_drawn is raised here too for the palladium catalyst, triethylamine and solvent that the procedure states and the arrow omits. Linkage: 式(IV)化合物 is the section product of Example 5 under the identical A1 identifier, matched by compound identity, so precursor_step is Example 5::Step 1 and linkage_confirmed is true. Method 2 takes the same starting material as Method 1 and is an alternative to it, not a step following it, so it points back to Example 5 exactly as Method 1 does. Arithmetic: no product mass is printed, only a yield, so there is nothing to check and nothing is flagged. Reaction class: other_cross_coupling is the value used for every palladium-catalysed carbonylation of this aryl bromide in the worked examples, here and in Examples 6, 7 and 11, so that the same transformation does not appear under two different classes. Example 10 is the exception because it is one-pot and rule 5 takes its class from the final transformation rather than from its carbonylation stage."
+  }
+]

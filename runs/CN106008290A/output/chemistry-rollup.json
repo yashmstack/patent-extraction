@@ -1,0 +1,46 @@
+{
+  "reaction_count": 18,
+  "compound_count": 152,
+  "sections": {
+    "Background": 4,
+    "Example 1": 2,
+    "Example 2": 2,
+    "Example 3": 2,
+    "Example 4": 2,
+    "Example 5": 2,
+    "Summary of the Invention": 4
+  },
+  "reaction_classes": {
+    "nucleophilic_substitution": 8,
+    "acylation": 7,
+    "ester_formation": 1,
+    "other": 1,
+    "hydrolysis": 1
+  },
+  "validation_flags": {
+    "molar_mass_inconsistent": 9,
+    "no_conditions": 6,
+    "mass_balance_implausible": 5,
+    "scale_discontinuity": 4,
+    "a1_missing_compound": 4,
+    "missing_product": 2,
+    "missing_reactant": 2
+  },
+  "stated_yields_pct": [
+    91.0,
+    86.3,
+    93.0,
+    86.0,
+    90.0,
+    87.5,
+    93.0,
+    80.1,
+    92.0,
+    83.9
+  ],
+  "target_compounds": [],
+  "scale_distribution": {
+    "not_specified": 8,
+    "pilot": 10
+  }
+}

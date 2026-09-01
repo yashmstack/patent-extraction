@@ -1,0 +1,279 @@
+[
+  {
+    "patent_id": "US20040236146A1",
+    "reaction_id": "Example 2_Step 1",
+    "section_label": "Example 2",
+    "section_type": "experimental_example",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": "Wohl-Ziegler bromination",
+    "mechanism_type": "radical",
+    "scale": "lab",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": 2.0,
+      "reactor_type": "stirred apparatus",
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": "reflux",
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": null,
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "reaction mixture cooled",
+        "100 ml of a 2% sodium bisulfite solution added",
+        "300 ml of ethyl acetate added in succession",
+        "organic phase removed",
+        "organic phase washed",
+        "organic phase concentrated under reduced pressure"
+      ],
+      "quenching_agent": "2% sodium bisulfite solution",
+      "extraction_solvent": "ethyl acetate",
+      "extraction_count": 1,
+      "extraction_volume_ml": 300.0,
+      "washes": [
+        "washed, wash medium not named"
+      ],
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": "concentration under reduced pressure",
+      "ph_target": null
+    },
+    "purification": "solid residue suspended in 50 ml of diethyl ether and 20 ml of heptane, filtered off and dried",
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "complete conversion"
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "2-chloro-3-methyl-4-ethylsulfonylbenzoic acid",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 20.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "initial charge, suspended in the acetonitrile",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "acetonitrile",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 150.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "initial charge, the substrate is suspended in it and the suspension is later heated to reflux",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "N-bromosuccinimide",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 17.6,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added at room temperature in one charge together with the first portion of dibenzoyl peroxide, before the mixture was heated to reflux",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "dibenzoyl peroxide",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 0.7,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged four times, 0.7 g each: the first at room temperature with the N-bromosuccinimide before heating, then, once the mixture was at reflux, 3 further portions of the same size after in each case 1 h, with the mixture stirred for a further 2 h after the last addition. The printed intervals therefore run 1 h, 1 h, 1 h, 2 h. mass_g carries the single printed 0.7 g charge and not a total, and conditions.time_h carries the printed final 2 h and not the sum of the four intervals, because the patent prints neither total",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium bisulfite",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 100.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added to the cooled reaction mixture as 100 ml of a 2% solution, before the ethyl acetate. The 100 ml is a volume of solution, not of the salt, and no mass of the salt is stated",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "ethyl acetate",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 300.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added in succession after the sodium bisulfite solution, as the extraction solvent",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "diethyl ether",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 50.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "the solid residue is suspended in it, with the heptane, before filtration",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "heptane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 20.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "the solid residue is suspended in it, with the diethyl ether, before filtration",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": 28.2,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": 95.6
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": 88.0,
+        "purity_method": "hplc"
+      }
+    ],
+    "reactant_names": [
+      "2-chloro-3-methyl-4-ethylsulfonylbenzoic acid"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": 95.6,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": 88.0,
+    "product_purity_method": "hplc",
+    "canonical_rxn": null,
+    "procedure_text": "In a 0.5 I stirred apparatus, 20 g of 2-chloro-3-methyl-4-sulfonylethylbenzoic acid were suspended in 150 ml of acetonitrile. At room temperature, 17.6 g of N-bromosuccinimide and 0.7 g of dibenzoyl peroxide were added and the mixture was subsequently heated to reflux. After in each case 1 h, further dibenzoyl peroxide was added in 3 portions each of 0.7 g and the mixture was stirred for a further 2 h after the last addition. After this time, HPLC analysis indicated complete conversion. After the reaction mixture had been cooled, 100 ml of a 2% sodium bisulfite solution and 300 ml of ethyl acetate were added in succession. The organic phase was removed, washed and concentrated under reduced pressure. The solid residue was suspended in 50 ml of diethyl ether and 20 ml of heptane, filtered off and dried. 28.2 g (95.6% of theory) of 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid were obtained. Purity: 88% (HPLC) Melting point: 103° C.",
+    "procedure_summary": "The ethylsulfonyl benzoic acid substrate is suspended in acetonitrile and the ring methyl group is brominated with N-bromosuccinimide at reflux under a dibenzoyl peroxide initiator that is replenished in further portions during the run, until HPLC shows complete conversion. The cooled mixture is quenched with aqueous sodium bisulfite, taken into ethyl acetate, concentrated under reduced pressure, and the residue is triturated with diethyl ether and heptane, filtered off and dried to give the bromomethyl acid.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:radical",
+      "named_rxn:wohl_ziegler_bromination",
+      "analytics:hplc",
+      "scale:lab",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:none",
+      "workup_type:aqueous_extraction",
+      "purification:trituration",
+      "step_role:final_step",
+      "linkage:standalone",
+      "is_one_pot:false"
+    ],
+    "notes": "Step count. A0 estimated 1 step and 1 record is emitted, so there is no A0/A2 disagreement to explain. Example 2 runs Process Variant A) only; there is no variant B here.\n\nHeading order. The printed order is inverted relative to Example 1: [0032] Process Variant A): at line 134 is printed BEFORE the centred Preparation of 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic Acid title at lines 136 to 138, whereas Example 1 prints the preparation title first and the variant subheading after it. Recorded because it is a property of the document, not of this annotation. It changes nothing about the step, which is still the single procedure at [0033] with its characterisation at [0034]. That title is itself set across three printed lines, 136, 137 and 138, so line 137 prints the bare stem 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic with Acid alone on 138. The stem is a line break in this step's product name, not a further substance, and A1 carries it in that product's aliases rather than as a second compound.\n\nLinkage. precursor_step is null, linkage_confirmed false and cross_reference_unresolved false. This is a single-transformation process patent, the prior-sections reaction registry is empty, and Example 2 starts from a different substrate from Example 1 with no material flowing between the two examples, so there is no precursor to point at and nothing left unresolved. The substrate's own origin is not described anywhere in the patent, which is a silence rather than an unresolved cross reference.\n\nDibenzoyl peroxide is charged four times, not once. 0.7 g at room temperature with the N-bromosuccinimide, then three further portions of the same size at 1 h intervals once the mixture is at reflux. quantity.mass_g carries 0.7 g, the charge the text states, and addition_profile carries the four-portion structure in words. Rule 6 here and A1 rule 12 take a quantity from the text and never compute one, and the patent prints no total, so no sum is written: the field holds one charge where the patent makes four, and the amount actually used is not recoverable from mass_g alone. That is a real limitation of the shape, stated here rather than papered over with a figure the document does not print. Its role is reagent, not catalyst, per PROMPT-CORRECTIONS.md section 8: the closed role list has no initiator value, a catalyst is defined as not consumed, and a species replenished three times through one reaction is plainly consumed.\n\nTemperature and heating. The mixture is heated to reflux and no reflux temperature is printed, so heating_method is reflux and temperature stays not_specified per rule 9: reflux is a heating method, not a temperature. The only temperature word in the step is At room temperature, and it qualifies the charging of the N-bromosuccinimide and the first initiator portion before heating, not the reaction itself; it is therefore recorded in those two compounds' addition_profile and not promoted to conditions.temperature. Rule 9's addition-temperature clause covers an addition temperature that is also the reaction temperature, which this is not, because the text says the mixture was subsequently heated to reflux.\n\ntime_h holds 2.0, the further 2 h the mixture is stirred after the last initiator portion, which is a duration line 140 prints. The patent prints no single reaction time for this step. What it prints is an interval structure: the mixture is heated to reflux, then after in each case 1 h a further portion of dibenzoyl peroxide is added, three times, and the mixture is stirred for a further 2 h after the last addition, so the printed intervals run 1 h, 1 h, 1 h, 2 h. The total of those intervals is NOT written into time_h. It is a number that appears nowhere in this section, and both A1 rule 12, which populates a quantity from the text only and never computes one, and this pass's own grounding, which admits only what the cited lines print, refuse it. An earlier reading of this step carried that computed total and it was the same defect as the initiator mass_g that summed four printed charges, corrected in this run for the same reason. So the field holds one printed interval where the patent prints four, and the elapsed time at reflux is not recoverable from time_h alone: it cannot show that the run is split 1 + 1 + 1 + 2 around three interventions, it cannot show that the first hour begins at reflux rather than at the initial charge, and it cannot hold the time spent charging at room temperature and heating up, which the patent does not give. The interval structure is carried in words here and in dibenzoyl peroxide's addition_profile. Example 1_Step 2 already records 2.0 on the same basis, the further 2 h of irradiation after its 3 h bromine metering rather than the sum of the two, so the two steps whose printed time is an interval structure now keep the same clock.\n\nReactor. Line 140 prints a 0.5 I stirred apparatus, with the litre unit set as a capital I rather than a lower case l; the EN line at 141 silently repairs it to 0.5 l (half litre). The as-printed form is kept in procedure_text and the volume, half a litre, is recorded here because no numeric field holds a reactor volume. reactor_type is stirred apparatus. The text names a stirrer without saying what kind, so per rule 9 the stirring object is left null rather than guessed at mechanical; a stirrer is fitted.\n\nSubstrate name. Line 140 prints the substrate as 2-chloro-3-methyl-4-sulfonylethylbenzoic acid, with the sulfone written backwards. sulfonylethyl names a divalent linker and cannot be a terminal ring substituent, so it is a transposition of ethylsulfonyl; the identifier used here is the A1 identifier 2-chloro-3-methyl-4-ethylsulfonylbenzoic acid, which is the order the patent's own Example 2 title prints, and the as-printed variant is carried in that compound's A1 aliases. procedure_text keeps the misprint verbatim.\n\nArithmetic. It closes once the printed purity is applied, and nothing is raised. The printed 95.6% of theory reproduces, to within rounding, from the printed 20 g charge, the printed 28.2 g isolated and the printed 88% HPLC purity, but only once the purity is applied; taken uncorrected the isolated mass alone would exceed theory, which cannot be, so the patent's stated yield appears to be purity-corrected. The working itself, with formulae and weights, is in this record's arithmetic_check in the provenance sidecar, which is what that field is for and where A5 reads it; none of it is carried here, because notes may hold only numbers the document prints. Per rule 29's second half, no defect is invented: mass_balance_implausible and molar_mass_inconsistent are both correctly absent. No equivalents figure is written into the record because the patent states none and A1 left them null.\n\nDrawings. There is no drawn reaction scheme anywhere in this patent. The two IMAGE_EXTRACT spans inside this section's line range, at lines 144 and 146, are the Markush formulae II and I of claim 6, printed above the claim text by the two-column layout and filed in this section only because rule 7 forbids stranding them between sections. Both carry an empty molecules list, because the vision pass correctly refused a SMILES for a generic with variable R1 and R2. They depict nothing in this example and support nothing in this record, which is why no structure reached it. Per PROMPT-CORRECTIONS.md section 3, rules 5a, 5c, 5e, 5f and 5g have no subject here and drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear are not raised: there is no drawing to conflict with the prose and no scheme to attribute to prior art or to the invention.\n\nOther fields. conditions.concentration is left null: the only concentration printed, the 2% sodium bisulfite solution, belongs to the quench and is recorded in workup.quenching_agent and in that compound's addition_profile, not as a reaction condition. Reduced pressure is a workup operation and sets workup.concentration_method, so reaction pressure stays not_specified per rule 9. No atmosphere, no drying tube, no drying agent and no pH are stated. The wash after phase separation names no wash medium, so the medium is recorded as unnamed rather than assumed to be water. safety_notes is empty because the text makes no safety statement; the peroxide hazard is A5's business, not this pass's. byproduct_recovery is null: the succinimide by-product is neither recovered nor mentioned. selectivity is null throughout, since the patent reports no ee, de or dr and does not discuss the benzylic regiochemistry, which is only implied by the product name. step_role is tagged final_step because this single transformation delivers the section's isolated target and nothing follows it; it is equally the first transformation of the section, and the category holds one value.\n\nProvenance of this record: written by Claude Opus 5 reading the as-printed lines of the enriched markdown, not the EN normalisation lines."
+  }
+]

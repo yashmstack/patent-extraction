@@ -1,0 +1,88 @@
+{
+  "page": "p01.png",
+  "page_label": "front page (no 说明书 N/M页 header printed; bibliographic cover sheet)",
+  "doc_part": "front_page",
+  "header": "（19）中华人民共和国国家知识产权局　　（12）发明专利申请　　（10）申请公布号 CN 106008290 A　　（43）申请公布日 2016.10.12",
+  "footer": "权利要求书2页　说明书4页　／　侧边竖排：CN 106008290 A",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "（19）中华人民共和国国家知识产权局",
+      "en": "(19) State Intellectual Property Office of the People's Republic of China",
+      "notes": "Header line, printed top left beside the CNIPA logo."
+    },
+    {
+      "marker": null,
+      "zh": "（12）发明专利申请",
+      "en": "(12) Application for a patent for invention",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "（10）申请公布号 CN 106008290 A",
+      "en": "(10) Publication number CN 106008290 A",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "（43）申请公布日 2016.10.12",
+      "en": "(43) Publication date 2016.10.12",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "（21）申请号 201610321517.X",
+      "en": "(21) Application number 201610321517.X",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "（22）申请日 2016.05.16",
+      "en": "(22) Filing date 2016.05.16",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "（71）申请人 安徽久易农业股份有限公司\n地址 230000 安徽省合肥市循环经济示范园",
+      "en": "(71) Applicant: Anhui Jiuyi Agriculture Co., Ltd.\nAddress: 230000 Circular Economy Demonstration Park, Hefei City, Anhui Province",
+      "notes": "The address wraps across two printed lines, the last character 园 sitting alone on the second line."
+    },
+    {
+      "marker": null,
+      "zh": "（72）发明人 沈运河　熊国银　赵晓俊　范富云",
+      "en": "(72) Inventors: Shen Yunhe, Xiong Guoyin, Zhao Xiaojun, Fan Fuyun",
+      "notes": "Four inventors separated by wide spaces, not punctuation."
+    },
+    {
+      "marker": null,
+      "zh": "（51）Int.Cl.\nC07C 315/04(2006.01)\nC07C 317/24(2006.01)\nC07C 317/46(2006.01)",
+      "en": "(51) Int.Cl.\nC07C 315/04(2006.01)\nC07C 317/24(2006.01)\nC07C 317/46(2006.01)",
+      "notes": "Classification codes are printed in an italic face."
+    },
+    {
+      "marker": null,
+      "zh": "权利要求书2页　说明书4页",
+      "en": "Claims 2 pages, Description 4 pages",
+      "notes": "Page-count line printed above the rule that separates the bibliographic block from the title and abstract. Implies 1 front page + 2 claims pages + 4 description pages = 7 pages total."
+    },
+    {
+      "marker": null,
+      "zh": "（54）发明名称\n一种环磺酮的制备方法",
+      "en": "(54) Title of invention\nA process for preparing tembotrione",
+      "notes": "环磺酮 is translated literally as 'cyclic sulfone ketone'. It is the Chinese common name of a specific herbicide active ingredient, but the front page does not define it, so no compound identity is asserted here. Translation corrected during the run: the vision read rendered 环磺酮 as the pinyin huanhuangtong and as the phrase 'cyclic sulfone ketone', which is a character by character gloss naming no real compound. 环磺酮 is tembotrione, established from the structure: the product is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, C17H16ClF3O6S at 440.82. The English now names the compound; the Chinese is untouched. The translations gate could not have caught this, because it looks for runs of CJK codepoints and pinyin is Latin script."
+    },
+    {
+      "marker": null,
+      "zh": "（57）摘要\n本发明公开了一种环磺酮的制备方法，属于有机化工技术领域，该方法采用三氟乙醇钠与2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯反应，生成的2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸与1，3-环己二酮缩合重排制备环磺酮。本发明提供的环磺酮的制备方法，克服了传统方法中用2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯和三氟乙醇、叔丁醇钾制备2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸收率低，叔丁醇钾试剂贵的缺点，同时也克服了羧基酰氯化成酯后重排法中需要剧毒催化剂丙酮氰醇的缺点，具有收率高、成本低、易操作、污染少、安全环保等优点，适合大规模工业化生产。",
+      "en": "(57) Abstract\nThe present invention discloses a process for the preparation of tembotrione, belonging to the technical field of organic chemical industry. The process uses sodium trifluoroethoxide to react with methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate, and the resulting 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid is condensed and rearranged with 1,3-cyclohexanedione to prepare tembotrione. The preparation process for tembotrione provided by the present invention overcomes the shortcomings of the traditional process, in which methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate is used with trifluoroethanol and potassium tert-butoxide to prepare 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid in low yield and the potassium tert-butoxide reagent is expensive; at the same time it overcomes the shortcoming of the route in which the carboxyl group is converted to the acid chloride and then to the ester followed by rearrangement, which requires the highly toxic catalyst acetone cyanohydrin. It has the advantages of high yield, low cost, ease of operation, little pollution and safety for the environment, and is suitable for large-scale industrial production.",
+      "notes": "Chemically ambiguous points, translated literally: (a) 甲磺基 is printed as such (methanesulfonyl / mesyl group written without 酰); it is not written 甲磺酰基. (b) 环磺酮 is a Chinese common name and is not defined on this page. (c) In '1，3-环己二酮' the comma looks full-width in the scan but the glyph is small and half-width cannot be excluded; transcribed as printed, full-width. (d) 羧基酰氯化成酯后重排法 is translated literally as 'the method of converting the carboxyl group to the acid chloride, then to the ester, followed by rearrangement'. Translation corrected during the run: the vision read rendered 环磺酮 as the pinyin huanhuangtong and as the phrase 'cyclic sulfone ketone', which is a character by character gloss naming no real compound. 环磺酮 is tembotrione, established from the structure: the product is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, C17H16ClF3O6S at 440.82. The English now names the compound; the Chinese is untouched. The translations gate could not have caught this, because it looks for runs of CJK codepoints and pinyin is Latin script."
+    }
+  ],
+  "drawings": [],
+  "discrepancies": [],
+  "illegible": [
+    "Machine-readable 2D barcode (QR-style) at the top right of the page. Its encoded payload cannot be decoded by reading the image; no text is printed with it.",
+    "The CNIPA emblem (stylised letter P with stars) at the upper left contains no legible text."
+  ],
+  "page_confidence": "high"
+}

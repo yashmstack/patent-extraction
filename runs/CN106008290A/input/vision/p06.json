@@ -1,0 +1,103 @@
+{
+  "page": "p06.png",
+  "page_label": "说 明 书 3/4 页",
+  "doc_part": "description",
+  "header": "CN 106008290 A    说 明 书    3/4 页",
+  "footer": "6",
+  "paragraphs": [
+    {
+      "marker": "[0027]",
+      "zh": "实施例2",
+      "en": "Example 2",
+      "notes": null
+    },
+    {
+      "marker": "[0028]",
+      "zh": "本实施例提供的另一种环磺酮的制备方法,包括以下步骤:",
+      "en": "This example provides another method for preparing tembotrione, comprising the following steps:",
+      "notes": "环磺酮 is translated as sulcotrione (the common name of 2-(2-chloro-4-methanesulfonylbenzoyl)cyclohexane-1,3-dione). Rendered literally it is \"cyclo-sulfonyl-ketone\". Translation corrected during the run: the vision read glossed 环磺酮 as 'sulcotrione'. 环磺酮 is tembotrione. Sulcotrione is 磺草酮, a different triketone lacking the trifluoroethoxymethyl group, C14H13ClO5S vs C17H16ClF3O6S. Fixed from structure, not from a name lookup: the product this patent forms is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, which is tembotrione and cannot be sulcotrione. Chinese left verbatim."
+    },
+    {
+      "marker": "[0029]",
+      "zh": "步骤a:取1.2mol(146.4g)三氟乙醇钠,1.2mol(67.2g)氢氧化钾,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中,然后0℃下反应10小时后,将反应液中的N,N-二甲基甲酰胺减压蒸除后,将残液加入300mL水中,用35％的盐酸调pH至弱酸性,冷却结晶,过滤,水洗,干燥得化合物II,称重得321.7g,收率93％。",
+      "en": "Step a: 1.2 mol (146.4 g) sodium trifluoroethoxide, 1.2 mol (67.2 g) potassium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then reacted at 0 degrees C for 10 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 321.7 g, yield 93%.",
+      "notes": "甲磺基 read literally is \"methanesulfonyl\" (SO2CH3); the patent uses this form throughout rather than 甲磺酰基. Yield 93% and mass 321.7 g here are identical to those in [0037], despite different bases and temperatures."
+    },
+    {
+      "marker": "[0030]",
+      "zh": "步骤b:取1mol上述反应所得的化合物II,溶解在1000mL的二氯甲烷中,然后在8-15℃温度条件下,半小时内加入含1.3mol(145.6g)1,3-环己二酮(化合物III)和2mol(758g)缩合剂HBTU及2mol(212g)碳酸钠,再在8-15℃温度条件下搅拌反应9小时,然后水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)362.5g,纯度95.8％,收率86％。",
+      "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloromethane, then at 8-15 degrees C, 1.3 mol (145.6 g) 1,3-cyclohexanedione (compound III), 2 mol (758 g) of the condensing agent HBTU and 2 mol (212 g) sodium carbonate were added over half an hour; the mixture was stirred and reacted at 8-15 degrees C for a further 9 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 362.5 g, purity 95.8%, yield 86%.",
+      "notes": "The Chinese reads 加入含...和...及... (\"added a mixture containing ... and ... and ...\"), so whether the three materials are added as one charge or separately is not stated. Translated literally. Translation corrected during the run: the vision read glossed 环磺酮 as 'sulcotrione'. 环磺酮 is tembotrione. Sulcotrione is 磺草酮, a different triketone lacking the trifluoroethoxymethyl group, C14H13ClO5S vs C17H16ClF3O6S. Fixed from structure, not from a name lookup: the product this patent forms is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, which is tembotrione and cannot be sulcotrione. Chinese left verbatim."
+    },
+    {
+      "marker": "[0031]",
+      "zh": "实施例3",
+      "en": "Example 3",
+      "notes": null
+    },
+    {
+      "marker": "[0032]",
+      "zh": "本实施例提供的另一种环磺酮的制备方法,包括以下步骤:",
+      "en": "This example provides another method for preparing tembotrione, comprising the following steps:",
+      "notes": "Translation corrected during the run: the vision read glossed 环磺酮 as 'sulcotrione'. 环磺酮 is tembotrione. Sulcotrione is 磺草酮, a different triketone lacking the trifluoroethoxymethyl group, C14H13ClO5S vs C17H16ClF3O6S. Fixed from structure, not from a name lookup: the product this patent forms is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, which is tembotrione and cannot be sulcotrione. Chinese left verbatim."
+    },
+    {
+      "marker": "[0033]",
+      "zh": "步骤a:取1.1mol(134.2g)三氟乙醇钠,1.2mol(129.6g)碳酸钠,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中,然后50℃保温2小时后,将反应液中的N,N-二甲基甲酰胺减压蒸除后,将残液加入300mL水中,用35％的盐酸调pH至弱酸性,冷却结晶,过滤,水洗,干燥得化合物II,称重得311.4g,收率90％。",
+      "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (129.6 g) sodium carbonate, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then held at 50 degrees C for 2 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 311.4 g, yield 90%.",
+      "notes": "1.2 mol sodium carbonate printed as 129.6 g; Na2CO3 formula weight would give about 127.2 g for 1.2 mol. Transcribed as printed, not corrected."
+    },
+    {
+      "marker": "[0034]",
+      "zh": "步骤b:取1mol上述反应所得的化合物II,溶解在1000mL的二氯乙烷中,然后在15-20℃温度条件下,半小时内加入含1.5mol(147g)1,3-环己二酮(化合物III)和3mol(405g)缩合剂HOBT及3mol(222g)氢氧化钙,再在15-20℃温度条件下搅拌反应8小时,然后水洗、减压浓缩加甲、醇打浆、过滤、干燥得到成品环磺酮(化合物IV)375.4g,纯度97.5％,收率87.5％。",
+      "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloroethane, then at 15-20 degrees C, 1.5 mol (147 g) 1,3-cyclohexanedione (compound III), 3 mol (405 g) of the condensing agent HOBT and 3 mol (222 g) calcium hydroxide were added over half an hour; the mixture was stirred and reacted at 15-20 degrees C for a further 8 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 375.4 g, purity 97.5%, yield 87.5%.",
+      "notes": "The printed text has a misplaced comma: 加甲、醇打浆 instead of 加甲醇打浆 (\"slurried with methanol\"). Transcribed verbatim; the comma position is as printed. 3mol(405g)缩合剂HOBT: 3 mol of HOBt (FW about 135) would be about 405 g, consistent. 二氯乙烷 is \"dichloroethane\" with no isomer specified. Translation corrected during the run: the vision read glossed 环磺酮 as 'sulcotrione'. 环磺酮 is tembotrione. Sulcotrione is 磺草酮, a different triketone lacking the trifluoroethoxymethyl group, C14H13ClO5S vs C17H16ClF3O6S. Fixed from structure, not from a name lookup: the product this patent forms is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, which is tembotrione and cannot be sulcotrione. Chinese left verbatim."
+    },
+    {
+      "marker": "[0035]",
+      "zh": "实施例4",
+      "en": "Example 4",
+      "notes": null
+    },
+    {
+      "marker": "[0036]",
+      "zh": "本实施例提供的另一种环磺酮的制备方法,包括以下步骤:",
+      "en": "This example provides another method for preparing tembotrione, comprising the following steps:",
+      "notes": "Translation corrected during the run: the vision read glossed 环磺酮 as 'sulcotrione'. 环磺酮 is tembotrione. Sulcotrione is 磺草酮, a different triketone lacking the trifluoroethoxymethyl group, C14H13ClO5S vs C17H16ClF3O6S. Fixed from structure, not from a name lookup: the product this patent forms is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, which is tembotrione and cannot be sulcotrione. Chinese left verbatim."
+    },
+    {
+      "marker": "[0037]",
+      "zh": "步骤a:取1.1mol(134.2g)三氟乙醇钠,1.2mol(166.8g)碳酸钾,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中,然后30℃保温5小时后,将反应液中的N,N-二甲基甲酰胺减压蒸除后,将残液加入300mL水中,用35％的盐酸调pH至弱酸性,冷却结晶,过滤,水洗,干燥得化合物II,称重得321.7g,收率93％。",
+      "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (166.8 g) potassium carbonate, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then held at 30 degrees C for 5 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 321.7 g, yield 93%.",
+      "notes": "Mass 321.7 g and yield 93% are identical to [0029], which used potassium hydroxide at 0 degrees C for 10 hours."
+    },
+    {
+      "marker": "[0038]",
+      "zh": "步骤b:取1mol上述反应所得的化合物II,溶解在1000mL的环己烷中,然后在-10-8℃温度条件下,半小时内加入含1mol(98g)1,3-环己二酮(化合物III)和1mol(152g)缩合剂DBU以及1mol(152g)吡啶,再在-10-8℃温度条件下搅拌反应24小时,然后经过水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)332.9g,纯度94.6％,收率80.1％。",
+      "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL cyclohexane, then at -10 to 8 degrees C, 1 mol (98 g) 1,3-cyclohexanedione (compound III), 1 mol (152 g) of the condensing agent DBU and 1 mol (152 g) pyridine were added over half an hour; the mixture was stirred and reacted at -10 to 8 degrees C for a further 24 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 332.9 g, purity 94.6%, yield 80.1%.",
+      "notes": "The temperature range is printed as -10-8℃, which is ambiguous between \"-10 to 8 degrees C\" and \"-10 to -8 degrees C\". Translated literally as -10 to 8; not resolved. Both DBU and 吡啶 (pyridine) are printed as 1mol(152g); DBU FW is about 152 while pyridine FW is about 79, so at least one mass is inconsistent with its stated name. Transcribed as printed. Translation corrected during the run: the vision read glossed 环磺酮 as 'sulcotrione'. 环磺酮 is tembotrione. Sulcotrione is 磺草酮, a different triketone lacking the trifluoroethoxymethyl group, C14H13ClO5S vs C17H16ClF3O6S. Fixed from structure, not from a name lookup: the product this patent forms is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, which is tembotrione and cannot be sulcotrione. Chinese left verbatim."
+    },
+    {
+      "marker": "[0039]",
+      "zh": "实施例5",
+      "en": "Example 5",
+      "notes": null
+    },
+    {
+      "marker": "[0040]",
+      "zh": "本实施例提供的另一种环磺酮的制备方法,包括以下步骤:",
+      "en": "This example provides another method for preparing tembotrione, comprising the following steps:",
+      "notes": "Translation corrected during the run: the vision read glossed 环磺酮 as 'sulcotrione'. 环磺酮 is tembotrione. Sulcotrione is 磺草酮, a different triketone lacking the trifluoroethoxymethyl group, C14H13ClO5S vs C17H16ClF3O6S. Fixed from structure, not from a name lookup: the product this patent forms is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, which is tembotrione and cannot be sulcotrione. Chinese left verbatim."
+    },
+    {
+      "marker": "[0041]",
+      "zh": "步骤a:取1.1mol(134.2g)三氟乙醇钠,1.2mol(28.8g)氢氧化锂,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器",
+      "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (28.8 g) lithium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor",
+      "notes": "Paragraph is cut off at the bottom of the page and continues on the next page. 1.2 mol LiOH printed as 28.8 g (FW about 23.9 would give about 28.7 g); transcribed as printed."
+    }
+  ],
+  "drawings": [],
+  "discrepancies": [],
+  "illegible": [],
+  "page_confidence": "high"
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "reaction_id": "Example 5_Step a",
+    "source_lines": [173, 178],
+    "quote_zh": "步骤a:取1.1mol(134.2g)三氟乙醇钠,1.2mol(28.8g)氢氧化锂,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中，然后30℃保温5小时后，将反应液中的N，N-二甲基甲酰胺减压蒸除后，将残液加入300mL水中，用35％的盐酸调pH至弱酸性，冷却结晶，过滤，水洗，干燥得化合物II，称重得318.3g，收率92％。",
+    "arithmetic_check": "Printed mass/mole pairs, each divided out: sodium trifluoroethoxide 134.2/1.1 = 122.0 against C2H2F3ONa 122.02, closes. Lithium hydroxide 28.8/1.2 = 24.0 against LiOH 23.95, closes. Methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate 318/1.0 = 318.0 against C10H10BrClO4S 341.6, a shortfall of 23.6, so molar_mass_inconsistent is raised on this step. Product: 318.3 g stated at 92% yield on 1.0 mol input implies a molar mass of 318.3/0.92 = 345.98 for 化合物II. That cannot be tested, because the section never states what 化合物II is, so no mass_balance_implausible is raised; a guard must not pass on absence, so the failure to check is recorded here rather than converted into either a pass or a flag. For reference only, and not asserted: the ether of compound I with the ester hydrolysed to the acid would be near 346.7, which is close to the implied value, but the patent never says compound II is that.",
+    "drawing_evidence": "None. Lines 169-181 contain no IMAGE_EXTRACT span, so there is no scheme and no single-structure extract to corroborate the step boundary, the reagents or the product. Step boundaries come from the 步骤a / 步骤b markers in the prose alone. No drawing flag is applicable."
+  },
+  {
+    "reaction_id": "Example 5_Step b",
+    "source_lines": [180, 180],
+    "quote_zh": "步骤b：取1mol上述反应所得的化合物II，溶解在1000mL的环己烷中，然后在20-30℃温度条件下，半小时内加入含1.1mol(106.7g)1，3-环己二酮(化合物III)和1.8mol(291.6g)缩合剂CDI以及5mol(690g)碳酸钾，再在20-30℃温度条件下搅拌反应15小时，然后经过水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)355.5g，纯度96.3％，收率83.9％。",
+    "arithmetic_check": "Printed mass/mole pairs: 1,3-cyclohexanedione 106.7/1.1 = 97.0 against C6H8O2 112.13, a shortfall of 15.1, so molar_mass_inconsistent is raised. CDI 291.6/1.8 = 162.0 against C7H6N4O 162.15, closes. Potassium carbonate 690/5 = 138.0 against K2CO3 138.2, closes. Product: input is 1 mol of compound II, product tembotrione C17H16ClF3O6S is 440.82. At the printed 83.9% yield the mass should be 0.839 x 440.82 = 369.85 g, whereas 355.5 g is printed, so the two disagree by 14.35 g. Read the other way, 355.5/440.82 = 0.8065 mol, that is 80.65% on 1 mol, and the printed mass and yield together imply a molar mass of 355.5/0.839 = 423.72. Applying the printed 96.3% purity gives 342.35 g of tembotrione, that is 77.66%, which moves further from 83.9%. The stated mass and the stated yield therefore do not close, so mass_balance_implausible is raised and both numbers are recorded as printed. The product mass does not exceed what 1 mol could give (355.5 < 440.82), so that half of the check passes.",
+    "drawing_evidence": "None. No IMAGE_EXTRACT span on line 180 or anywhere in 169-181. Product identity rests on the prose name 成品环磺酮(化合物IV) alone, with no drawn structure to cross-check, and no drawing flag is applicable."
+  }
+]

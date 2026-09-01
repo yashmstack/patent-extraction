@@ -1,0 +1,935 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "reactions.json - A2 output after finalise.py",
+  "type": "array",
+  "items": {
+    "type": [
+      "object",
+      "null"
+    ],
+    "properties": {
+      "id": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "patent_id": {
+        "type": "string"
+      },
+      "reaction_id": {
+        "type": "string"
+      },
+      "reaction_uuid": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "section_label": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "section_type": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "bibliographic",
+          "abstract",
+          "technical_field",
+          "background",
+          "summary_of_invention",
+          "beneficial_effects",
+          "formula_definitions",
+          "description_of_drawings",
+          "experimental_intermediate",
+          "experimental_example",
+          "comparative_example",
+          "assay_data",
+          "pharmaceutical_compositions",
+          "claims",
+          "search_report",
+          "other",
+          null
+        ]
+      },
+      "step_index": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "step_label": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "reaction_class": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "suzuki_coupling",
+          "heck_reaction",
+          "buchwald_hartwig",
+          "negishi_coupling",
+          "sonogashira_coupling",
+          "other_cross_coupling",
+          "amide_bond_formation",
+          "acylation",
+          "ester_formation",
+          "n_alkylation",
+          "nucleophilic_substitution",
+          "electrophilic_substitution",
+          "halogenation",
+          "n_oxidation",
+          "oxidation",
+          "reduction",
+          "hydrolysis",
+          "protection",
+          "deprotection",
+          "cyclisation",
+          "elimination",
+          "addition",
+          "salt_formation",
+          "resolution",
+          "recrystallisation",
+          "catalyst_preparation",
+          "heterogeneous_catalysis",
+          "formulation",
+          "biological_assay",
+          "other",
+          null
+        ]
+      },
+      "reaction_class_confidence": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "high",
+          "medium",
+          "low",
+          null
+        ]
+      },
+      "named_reaction": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "mechanism_type": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "radical",
+          "ionic",
+          "pericyclic",
+          "photochemical",
+          "catalytic",
+          "concerted",
+          "not_determinable",
+          null
+        ]
+      },
+      "scale": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "micro",
+          "lab",
+          "pilot",
+          "production",
+          "not_specified",
+          null
+        ]
+      },
+      "is_one_pot": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "one_pot_steps": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": "string"
+        }
+      },
+      "conditions": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "temperature": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "type": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "exact",
+                  "range",
+                  "room_temperature",
+                  "not_specified",
+                  null
+                ]
+              },
+              "value_c": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "min_c": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "max_c": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "pressure": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "type": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "atmospheric",
+                  "reduced",
+                  "elevated",
+                  "vacuum",
+                  "not_specified",
+                  null
+                ]
+              },
+              "value_kpa": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "qualitative_text": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "atmosphere": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "time_h": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "reactor_type": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "concentration": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "unit": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "M",
+                  "N",
+                  "%",
+                  "mol/L",
+                  "mg/mL",
+                  null
+                ]
+              },
+              "reagent": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "heating_method": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "cooling_method": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "light_source": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "type": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "LED",
+                  "UV",
+                  "mercury_lamp",
+                  "sunlight",
+                  "tungsten",
+                  "fluorescent",
+                  "other",
+                  null
+                ]
+              },
+              "color": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "wavelength_nm": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "power_w": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "stirring": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "type": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "magnetic",
+                  "mechanical",
+                  "overhead",
+                  "vortex",
+                  "shaker",
+                  "none",
+                  null
+                ]
+              },
+              "rpm": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "ph_value": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "ph_target_stage": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "conditions_inherited": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "workup": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "steps": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "quenching_agent": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "extraction_solvent": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "extraction_count": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "extraction_volume_ml": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "washes": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "drying_agent": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "filtration": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "concentration_method": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ph_target": {
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "purification": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "process_control": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "method": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "target_compound": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "threshold_pct": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "criterion": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "byproduct_recovery": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "compound": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "mass_g": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "concentration_pct": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "recovery_method": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reuse": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "safety_notes": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": "string"
+        }
+      },
+      "molar_ratio_text": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "selectivity": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "regio": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "stereo": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "type": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "ee",
+                  "de",
+                  "dr",
+                  "syn/anti",
+                  null
+                ]
+              },
+              "value_pct": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "chemo": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "compounds": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "identifier": {
+              "type": "string"
+            },
+            "role": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "product",
+                "reactant",
+                "reagent",
+                "solvent",
+                "catalyst",
+                "ligand",
+                "base",
+                "acid",
+                "oxidant",
+                "reductant",
+                "by_product",
+                "additive",
+                "drying_agent",
+                "other",
+                null
+              ]
+            },
+            "is_product": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "quantity": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "properties": {
+                "mass_g": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "volume_ml": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "mmol": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "equivalents": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "yield_pct": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "addition_profile": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "ms_mz": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "ms_type": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "purity_pct": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "purity_method": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "identifier",
+            "role"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "reactant_names": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": "string"
+        }
+      },
+      "product_name": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "product_yield_pct": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "product_ms_mz": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "product_ms_type": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "product_purity_pct": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "product_purity_method": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "procedure_text": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "procedure_summary": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "precursor_step": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "linkage_confirmed": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "cross_reference_unresolved": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "non_synthetic": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "is_complete": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "validation_flags": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "missing_product",
+            "missing_reactant",
+            "no_conditions",
+            "no_procedure_summary",
+            "cross_reference_unresolved",
+            "conditions_unresolved",
+            "a1_missing_compound",
+            "mass_balance_implausible",
+            "scale_discontinuity",
+            "translation_conflict",
+            "drawing_text_conflict",
+            "reagent_drawn_not_written",
+            "reagent_written_not_drawn",
+            "route_attribution_unclear",
+            "molar_mass_inconsistent",
+            null
+          ]
+        }
+      },
+      "tags": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z_]+:[a-z0-9_/.+-]+$"
+        }
+      },
+      "notes": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "reactant_smiles": {
+        "type": "null"
+      },
+      "smiles_source": {
+        "type": "null"
+      },
+      "product_smiles": {
+        "type": "null"
+      },
+      "product_smiles_source": {
+        "type": "null"
+      },
+      "canonical_rxn": {
+        "type": "null"
+      }
+    },
+    "required": [
+      "patent_id",
+      "reaction_id",
+      "section_label",
+      "step_index",
+      "reaction_class",
+      "compounds",
+      "validation_flags"
+    ],
+    "additionalProperties": false
+  }
+}

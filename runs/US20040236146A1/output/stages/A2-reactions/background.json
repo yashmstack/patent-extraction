@@ -1,0 +1,470 @@
+[
+  {
+    "patent_id": "US20040236146A1",
+    "reaction_id": "Background_Step 1",
+    "section_label": "Background",
+    "section_type": "background",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "radical",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "methyl aromatics",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "azocarboxylic esters",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "azonitriles",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "oxidizing agent",
+        "role": "oxidant",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "substituted benzyl bromides",
+        "role": "product",
+        "is_product": true,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "methyl aromatics",
+      "azocarboxylic esters",
+      "azonitriles",
+      "oxidizing agent"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "substituted benzyl bromides",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "WO 99/06339 discloses a process for preparing substituted benzyl bromides by brominating the corresponding methyl aromatics in the presence of azocarboxylic esters or azonitriles and in the presence of an oxidizing agent. In this case, one substituent is electronegative and is from the group fluorine, chlorine, bromine, alkoxycarbonyl, cyano and nitro. Disadvantages of this process are the use of an additional oxidizing agent and the not always satisfactory yields.",
+    "procedure_summary": "A cited earlier international application discloses the side chain bromination of methyl aromatics carrying an electronegative substituent, run in the presence of azocarboxylic esters or azonitriles together with an oxidizing agent, to give substituted benzyl bromides. The patent objects to the extra oxidant and to yields it calls not always satisfactory.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:radical",
+      "scale:not_specified",
+      "step_role:final_step",
+      "linkage:standalone",
+      "is_one_pot:false"
+    ],
+    "notes": "This is PRIOR ART. Paragraph [0002] is the Background of the patent and every transformation in it is somebody else's disclosure, not the route this patent claims. A2 rule 5e's attribution question therefore has a plain answer here and route_attribution_unclear is not raised: nothing is unclear, and PROMPT-CORRECTIONS section 3 forbids that flag anywhere in this patent because there is no drawn scheme to attribute. The disclosure recorded here is WO 99/06339's, and the patent names two disadvantages of it in the same breath, the additional oxidizing agent and the not always satisfactory yields, which is why it cannot be read as the invention's own. It is a separate disclosure from the EP-A 0 292 944 route in Steps 2 and 3 and no material flows between them, so precursor_step is null and the linkage tag is standalone. REAGENTS: azocarboxylic esters and azonitriles are ALTERNATIVES in the text ('in the presence of azocarboxylic esters or azonitriles'), not a pair used together; both are carried as reagent, and per PROMPT-CORRECTIONS section 8 an initiator class takes reagent rather than catalyst because initiating consumes it. The brominating agent itself is never named: the text says only 'by brominating', so no bromine source is on this record and none has been supplied. mechanism_type is radical on the chemistry of an azo initiator with a benzylic side chain bromination, not on any word in the text; named_reaction is left null rather than stretched to Wohl-Ziegler, which would need N-bromosuccinimide and the text names no brominating agent at all. The scope sentence ('one substituent is electronegative and is from the group fluorine, chlorine, bromine, alkoxycarbonyl, cyano and nitro') is substituent scope on the same process and is kept inside this record's procedure_text rather than split off. cross_reference_unresolved is false: the WO number is an attribution of the disclosure, not a pointer to material or conditions stated elsewhere that could not be found. The paragraph states no charge, no temperature, no time, no pressure, no atmosphere, no workup, no purification and no yield, so scale is not_specified and no_conditions is raised. That is what the document says, not a gap in the reading, and no condition has been supplied from outside it. mass_balance_implausible is not raised because there is no mass to balance. There is no drawing in this section: lines 55 and 56 carry no IMAGE_EXTRACT span at all, and per PROMPT-CORRECTIONS section 3 every such span elsewhere in this patent is a single Markush generic, formula I or formula II, carrying no SMILES. So no structure reached this record and none of the drawing flags can apply. Per PROMPT-CORRECTIONS section 6 every compounds[] quantity here is null rather than an object of nulls. workup_type, purification and catalyst_class are skipped rather than tagged none: the paragraph describes no workup, no purification and no catalyst, and absence of a description is not a description of absence (A2 rule 26, skip rather than guess). STEP ROLE: the WO 99/06339 disclosure is a single transformation standing on its own. Nothing in this paragraph feeds it and nothing consumes its product, so it is a chain of one step and is equally its first and its last. The tag category is single-valued and takes step_role:final_step for a one-step chain, per PROMPT-CORRECTIONS section 10a; the step really is both and only one value is recorded. It is deliberately NOT first_step: that would read as the opening stage of a longer sequence, which would wrongly suggest this disclosure runs on into the EP-A 0 292 944 route in Steps 2 and 3. It does not; they are separate disclosures. ATTRIBUTION AND VOCABULARY: the prior-art status of this record is stated in this notes field, in the sentences above, and it is carried structurally by section_type background. It gets no tag. A2 rule 26 fixes sixteen tag categories and none of them is attribution, so no route_attribution tag is emitted here; a seventeenth category invented to hold this fact would put a value in the gold that no consumer of the sixteen can read, and it appears nowhere in the reference run. Per PROMPT-CORRECTIONS section 10b the gap in the vocabulary is recorded rather than filled. STEP COUNT: three records, agreeing with A0's estimate of 3. The one judgement call is the Houben-Weyl sentence on line 55, 'Bromomethyl aromatics may in principle be prepared from the corresponding methyl aromatics by side chain bromination; on this subject, cf. Houben-Weyl, Vol. 5, page 331 ff. (1960)'. This pass weighed it again and reached the same view as the first pass and as A0: it is a TEXTBOOK CITATION and not a fourth transformation. Four reasons. It discloses no process, only that something may in principle be done. Its citation form is 'cf.' pointing at a handbook chapter, not the 'discloses a process' and 'describes the preparation' with which this same paragraph introduces the two disclosures that do get records. Its subject is the reaction type in general, with no substrate, no brominating agent, no solvent and no conditions, so a record built from it would restate Step 1's transformation with strictly less content in it. And the next sentence withdraws it, 'However, it is known that electronegative substituents such as carboxyl, alkylcarbonyl, cyano and nitro distinctly hinder the reaction, so that only poor yields can be achieved', which makes the sentence the premise of an argument the paragraph is building rather than prior art the patent is distinguishing itself from. The cost of the ruling is recorded so a reviewer can overturn it: the A1 class term 'bromomethyl aromatics' comes only from that sentence and so appears in no A2 record at all, and 'methyl aromatics' survives here only because the WO 99/06339 sentence uses it too. An extractor that emits a fourth record for the Houben-Weyl sentence is making a defensible reading and not an obvious error, and that is worth recording rather than settling. The A1 term '3-bromomethylbenzoic acid' likewise appears in no record here, and that one needs no argument: its sentence says only that derivatives of it are valuable reactants in herbicide synthesis, which states no transformation. Read and annotated by Claude Opus 5 (claude-opus-5, 1M context) from the as-printed line 55, with the EN normalisation on line 56 used only as a cross-check; the two lines do not differ in this fragment."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "reaction_id": "Background_Step 2",
+    "section_label": "Background",
+    "section_type": "background",
+    "step_index": 2,
+    "step_label": "Step 2",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "radical",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "radical initiator",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "carbon tetrachloride",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate",
+        "role": "product",
+        "is_product": true,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate",
+      "radical initiator"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "EP-A 0 292 944 describes the preparation of methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate by radical initiator-induced bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride.",
+    "procedure_summary": "A cited earlier European application describes the radical initiator induced side chain bromination, in carbon tetrachloride, of the methyl ester of the chloro methyl methylsulfonyl benzoic acid, giving the corresponding bromomethyl ester.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:radical",
+      "scale:not_specified",
+      "solvent_class:halogenated",
+      "step_role:first_step",
+      "linkage:standalone",
+      "is_one_pot:false"
+    ],
+    "notes": "This is PRIOR ART. Paragraph [0002] is the Background of the patent and every transformation in it is somebody else's disclosure, not the route this patent claims. A2 rule 5e's attribution question therefore has a plain answer here and route_attribution_unclear is not raised: nothing is unclear, and PROMPT-CORRECTIONS section 3 forbids that flag anywhere in this patent because there is no drawn scheme to attribute. The disclosure recorded here is EP-A 0 292 944's. It matters more than the WO one because it reaches the same free acid this patent's Example 1 makes, but by an ester route in carbon tetrachloride, in two stages; this patent brominates the free acid itself in one. Recording this as the invention's own route would be the single most damaging error available in this section, so it is stated plainly: it is not. precursor_step is null because nothing in this paragraph feeds this step; it is the first stage of the EP route and the WO disclosure in Step 1 is unrelated to it. REAGENTS: the initiator is named only as a class, 'radical initiator-induced', and the identifier is the bare class term 'radical initiator' per PROMPT-CORRECTIONS section 9, which drops the article and the attributive fragment. Its role is reagent per PROMPT-CORRECTIONS section 8. As in Step 1 the brominating agent is never named, so no bromine source appears on this record. mechanism_type is radical on the text's own word 'radical initiator-induced'. named_reaction is null and not Wohl-Ziegler for the same reason as Step 1: no N-bromosuccinimide, indeed no brominating agent, is named. SOLVENT: carbon tetrachloride is stated, so it is on the record and solvent_class is halogenated; it is excluded from reactant_names, which carries the charged species that are neither the product nor a catalyst nor a solvent. cross_reference_unresolved is false: the EP number attributes the disclosure and the transformation is fully stated in this sentence. NAMES: both ester names are printed correctly on line 55 and match the identifiers fixed by PROMPT-CORRECTIONS section 2 without repair. STEP ROLE: first_step, and here that is a fact rather than a convention. This is a genuine chain of two: the ester it makes is the compound Step 3 hydrolyses, so a step really does follow it and step_role:first_step says something true. It is the only record in this section that takes first_step under PROMPT-CORRECTIONS section 10a; the other two are one-step chains and take final_step. ATTRIBUTION AND VOCABULARY: the prior-art status of this record is stated in this notes field, in the sentences above, and it is carried structurally by section_type background. It gets no tag. A2 rule 26 fixes sixteen tag categories and none of them is attribution, so no route_attribution tag is emitted here; a seventeenth category invented to hold this fact would put a value in the gold that no consumer of the sixteen can read, and it appears nowhere in the reference run. Per PROMPT-CORRECTIONS section 10b the gap in the vocabulary is recorded rather than filled. The paragraph states no charge, no temperature, no time, no pressure, no atmosphere, no workup, no purification and no yield, so scale is not_specified and no_conditions is raised. That is what the document says, not a gap in the reading, and no condition has been supplied from outside it. mass_balance_implausible is not raised because there is no mass to balance. There is no drawing in this section: lines 55 and 56 carry no IMAGE_EXTRACT span at all, and per PROMPT-CORRECTIONS section 3 every such span elsewhere in this patent is a single Markush generic, formula I or formula II, carrying no SMILES. So no structure reached this record and none of the drawing flags can apply. Per PROMPT-CORRECTIONS section 6 every compounds[] quantity here is null rather than an object of nulls. workup_type, purification and catalyst_class are skipped rather than tagged none: the paragraph describes no workup, no purification and no catalyst, and absence of a description is not a description of absence (A2 rule 26, skip rather than guess). Read and annotated by Claude Opus 5 (claude-opus-5, 1M context) from the as-printed line 55; the EN normalisation on line 56 is identical for this fragment."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "reaction_id": "Background_Step 3",
+    "section_label": "Background",
+    "section_type": "background",
+    "step_index": 3,
+    "step_label": "Step 3",
+    "reaction_class": "hydrolysis",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+        "role": "product",
+        "is_product": true,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "The free acid, 3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid is then obtained from this latter compound by hydrolysis.",
+    "procedure_summary": "The bromomethyl ester of the preceding prior art stage is then hydrolysed to the corresponding free benzoic acid.",
+    "precursor_step": "Step 2",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:hydrolysis",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "step_role:final_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "This is PRIOR ART. Paragraph [0002] is the Background of the patent and every transformation in it is somebody else's disclosure, not the route this patent claims. A2 rule 5e's attribution question therefore has a plain answer here and route_attribution_unclear is not raised: nothing is unclear, and PROMPT-CORRECTIONS section 3 forbids that flag anywhere in this patent because there is no drawn scheme to attribute. This is the second and last stage of the EP-A 0 292 944 route, still prior art. LINKAGE: precursor_step is Step 2 and linkage_confirmed is true on both of A2 rule 24's grounds at once. The text refers back explicitly, 'is then obtained from this latter compound by hydrolysis', and the identifier of Step 2's product, methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate, is the identifier of this step's reactant; the match is not name similarity. Step 1 is a different disclosure and is not in this chain. REAGENTS: the text says only 'by hydrolysis'. No water, no acid and no base is named, so none is recorded; adding water as a reagent would be inventing a species the paragraph does not print. mechanism_type is ionic on the chemistry of an ester hydrolysis, which proceeds by acyl substitution whichever way it is promoted, and named_reaction is null rather than saponification because nothing says the hydrolysis is basic. NAMES: line 55, the as-printed and authoritative line, prints the product as '3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid' with the hyphen after 2-chloro missing, and procedure_text keeps that misprint verbatim. Line 56, the EN normalisation, silently repairs it, which is a finding about the patent's printing and not about the reading. The identifier is the corrected form per PROMPT-CORRECTIONS section 2, a spelling this document itself prints at line 191, and the misprinted form is carried in the A1 record's aliases. Note for whoever reads Example 1 next: this compound is the same substance Example 1 of this patent prepares, but here it is reached by somebody else's ester route, so the two must not be conflated. STEP ROLE: final_step, and here that is a fact rather than a convention. This is the second and last stage of a real two-step chain whose first stage is Step 2, so the value says something true about position rather than standing in for a step that is at once first and last. ATTRIBUTION AND VOCABULARY: the prior-art status of this record is stated in this notes field, in the sentences above, and it is carried structurally by section_type background. It gets no tag. A2 rule 26 fixes sixteen tag categories and none of them is attribution, so no route_attribution tag is emitted here; a seventeenth category invented to hold this fact would put a value in the gold that no consumer of the sixteen can read, and it appears nowhere in the reference run. Per PROMPT-CORRECTIONS section 10b the gap in the vocabulary is recorded rather than filled. The paragraph states no charge, no temperature, no time, no pressure, no atmosphere, no workup, no purification and no yield, so scale is not_specified and no_conditions is raised. That is what the document says, not a gap in the reading, and no condition has been supplied from outside it. mass_balance_implausible is not raised because there is no mass to balance. There is no drawing in this section: lines 55 and 56 carry no IMAGE_EXTRACT span at all, and per PROMPT-CORRECTIONS section 3 every such span elsewhere in this patent is a single Markush generic, formula I or formula II, carrying no SMILES. So no structure reached this record and none of the drawing flags can apply. Per PROMPT-CORRECTIONS section 6 every compounds[] quantity here is null rather than an object of nulls. workup_type, purification and catalyst_class are skipped rather than tagged none: the paragraph describes no workup, no purification and no catalyst, and absence of a description is not a description of absence (A2 rule 26, skip rather than guess). Read and annotated by Claude Opus 5 (claude-opus-5, 1M context) from the as-printed line 55."
+  }
+]

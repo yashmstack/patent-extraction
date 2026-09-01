@@ -1,0 +1,199 @@
+{
+ "page": "p13.png",
+ "page_label": "12",
+ "doc_part": "description",
+ "header": "12\nWO 2024/109718                                        PCT/CN2023/132821",
+ "footer": "",
+ "paragraphs": [
+  {
+   "marker": null,
+   "zh": "由式(VIII)的酯化合物重排制备环磺酮时，优选使用氰类催化剂，特别优选使用丙酮氰醇作为催化剂。",
+   "en": "When preparing the tembotrione by rearrangement of the ester compound of formula (VIII), a cyanide-type catalyst is preferably used, and acetone cyanohydrin is particularly preferably used as the catalyst.",
+   "notes": "Continuation paragraph carried over from the previous page; no [00NN] marker is printed for it on this page. 环磺酮 is the compound name (tembotrione-class cyclic diketone product) and is left literal here. English rendering corrected during the run: the vision pass wrote 'cyclic sulfone ketone' for 环磺酮. 环磺酮 is the Chinese common name of tembotrione; sulcotrione is 磺草酮, a different registered triketone herbicide, and 'cyclic sulfone ketone' is a character gloss that names no compound. The Chinese is unchanged and is authoritative. See NOTES.md."
+  },
+  {
+   "marker": "[0092]",
+   "zh": "在更具体的实施方式中，上述(v′－1)的反应的实施方法除了反应物中不加水之外，其它与前文所述(v-1)的反应的实施方法相同。",
+   "en": "In a more specific embodiment, the method for carrying out the above reaction (v'-1) is the same as the method for carrying out the reaction (v-1) described earlier, except that no water is added to the reactants.",
+   "notes": "The prime mark in (v′－1) is printed as a full-width apostrophe followed by a spaced hyphen."
+  },
+  {
+   "marker": "[0093]",
+   "zh": "由式(IV)化合物制备式(VIII)的中间体酯化合物后，可以先分离该中间体酯化合物，分步制备环磺酮，也可以不分离该中间体酯化合物而通过一锅法直接制备环磺酮。",
+   "en": "After preparing the intermediate ester compound of formula (VIII) from the compound of formula (IV), the intermediate ester compound may first be isolated and the tembotrione prepared stepwise, or the intermediate ester compound may be left unisolated and the tembotrione prepared directly by a one-pot method.",
+   "notes": "English rendering corrected during the run: the vision pass wrote 'cyclic sulfone ketone' for 环磺酮. 环磺酮 is the Chinese common name of tembotrione; sulcotrione is 磺草酮, a different registered triketone herbicide, and 'cyclic sulfone ketone' is a character gloss that names no compound. The Chinese is unchanged and is authoritative. See NOTES.md."
+  },
+  {
+   "marker": "[0094]",
+   "zh": "上述(v-1)和(v′－1)的反应中，列举了通过CO插羰的方式，但本发明不限于此，通过其它方式由式(IV)化合物制备式(V)所示的中间体酸化合物、或直接制备式(VIII)的中间体酯化合物的实施方式都包括在本发明范围内。",
+   "en": "In the above reactions (v-1) and (v'-1), the mode of carbonyl insertion using CO is exemplified, but the present invention is not limited thereto; embodiments in which the intermediate acid compound shown by formula (V) is prepared from the compound of formula (IV) by other means, or in which the intermediate ester compound of formula (VIII) is prepared directly, are all included within the scope of the present invention.",
+   "notes": "插羰 read as 'carbonyl insertion'; the character 羰 is small in the scan but legible."
+  },
+  {
+   "marker": "[0095]",
+   "zh": "本发明另一方面提供一种制备环磺酮的新方法，该方法包括使用上述式(I)～式(IV)中的任意一个或两个以上化合物作为中间体。不管这些中间体化合物在制备过程中是否被分离出来，以单独形式或未分离的混合物形式使用这些中间体来制备环磺酮均属于本发明新方法的范围。",
+   "en": "Another aspect of the present invention provides a new method for preparing the tembotrione, the method comprising using any one, or two or more, of the compounds of the above formulae (I) to (IV) as intermediates. Regardless of whether these intermediate compounds are isolated during the preparation process, the use of these intermediates, either in isolated form or as an unisolated mixture, to prepare the tembotrione falls within the scope of the new method of the present invention.",
+   "notes": "English rendering corrected during the run: the vision pass wrote 'cyclic sulfone ketone' for 环磺酮. 环磺酮 is the Chinese common name of tembotrione; sulcotrione is 磺草酮, a different registered triketone herbicide, and 'cyclic sulfone ketone' is a character gloss that names no compound. The Chinese is unchanged and is authoritative. See NOTES.md."
+  },
+  {
+   "marker": "[0096]",
+   "zh": "本发明再一方面提供一种制备环磺酮的新方法，其包括如下的任意一个步骤：",
+   "en": "A further aspect of the present invention provides a new method for preparing the tembotrione, comprising any one of the following steps:",
+   "notes": "English rendering corrected during the run: the vision pass wrote 'cyclic sulfone ketone' for 环磺酮. 环磺酮 is the Chinese common name of tembotrione; sulcotrione is 磺草酮, a different registered triketone herbicide, and 'cyclic sulfone ketone' is a character gloss that names no compound. The Chinese is unchanged and is authoritative. See NOTES.md."
+  }
+ ],
+ "drawings": [
+  {
+   "kind": "scheme",
+   "between_markers": [
+    null,
+    "[0092]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, top-left",
+     "core": "benzene",
+     "substituents": [
+      "COOH at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+     "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, top-middle",
+     "core": "benzene",
+     "substituents": [
+      "C(=O)Cl at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+     "smiles": "ClC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "3rd, top-right",
+     "core": "cyclohex-2-en-1-one enol ester of a benzoic acid (benzene ring plus cyclohexenone ring joined through -C(=O)O-)",
+     "substituents": [
+      "benzene ring: C(=O)O-cyclohexenyl at C1",
+      "benzene ring: Cl at C2",
+      "benzene ring: CH2OCH2CF3 at C3",
+      "benzene ring: SO2CH3 at C4",
+      "cyclohexenone ring: ester O at the alkene carbon C1', ring ketone C=O at C3'"
+     ],
+     "name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+     "smiles": "O=C1CCCC(=C1)OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "4th, second row, after the wrapped arrow",
+     "core": "cyclohexane-1,3-dione linked at C2 by a carbonyl to a benzene ring",
+     "substituents": [
+      "cyclohexane-1,3-dione: aroyl group at C2",
+      "benzene ring: C(=O)- link at C1",
+      "benzene ring: Cl at C2",
+      "benzene ring: CH2OCH2CF3 at C3",
+      "benzene ring: SO2CH3 at C4"
+     ],
+     "name": "2-{2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl}cyclohexane-1,3-dione",
+     "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    },
+    {
+     "from_structure": "2nd",
+     "to_structure": "3rd",
+     "reagents_above": [],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    },
+    {
+     "from_structure": "3rd",
+     "to_structure": "4th",
+     "reagents_above": [],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Four-structure scheme wrapping onto a second line. No reagent, solvent or condition text is written above or below any of the three arrows; all three arrows are bare. The scheme sits directly under the unnumbered continuation paragraph about the acetone-cyanohydrin-catalysed rearrangement and above [0092]. The final arrow is the rearrangement of the enol ester to the 2-aroylcyclohexane-1,3-dione."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0096]",
+    null
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left, labelled formula (IV)",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+     "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right, labelled formula (V)",
+     "core": "benzene",
+     "substituents": [
+      "COOH at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+     "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Single-arrow scheme following [0096]. The structures carry the printed labels 式（IV）and 式（V）beneath them, and the step as a whole is labelled （v）to the right of the product. The arrow is bare: no reagents are written above or below it, so the CO source implied by [0094] is not drawn here."
+  }
+ ],
+ "discrepancies": [
+  {
+   "what": "The unnumbered paragraph above the first scheme names acetone cyanohydrin as the preferred catalyst for the rearrangement, but no catalyst is written on the rearrangement arrow in the drawing.",
+   "drawing_says": "bare arrow from the enol ester (3rd structure) to the 2-aroylcyclohexane-1,3-dione (4th structure), no text above or below",
+   "text_says": "优选使用氰类催化剂，特别优选使用丙酮氰醇作为催化剂"
+  },
+  {
+   "what": "[0094] describes the (IV) to (V) transformation as proceeding by CO carbonyl insertion, but the scheme after [0096] draws that step with no CO or catalyst written on the arrow.",
+   "drawing_says": "式（IV）aryl bromide to 式（V）benzoic acid over a bare arrow labelled （v）",
+   "text_says": "上述(v-1)和(v′－1)的反应中，列举了通过CO插羰的方式"
+  }
+ ],
+ "illegible": [],
+ "page_confidence": "high"
+}

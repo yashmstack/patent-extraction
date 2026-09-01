@@ -1,0 +1,49 @@
+{
+  "patent_id": "WO2024109718A1",
+  "family_id": "91195273",
+  "title_en": "Method for preparing tembotrione, and intermediates",
+  "title_zh": "环磺酮的制备方法和中间体",
+  "application_number": "PCT/CN2023/132821",
+  "publication_number": "WO:2024109718:A1",
+  "publication_date": "2024-05-30",
+  "priority_date": "2022-11-22",
+  "filing_date": "2023-11-21",
+  "grant_publication": null,
+  "grant_date": null,
+  "jurisdiction": "wo",
+  "language": "zh",
+  "assignees": [
+    {
+      "name": "Lansheng Biotechnology Group Co Ltd",
+      "name_zh": "兰升生物科技集团股份有限公司",
+      "country": "CN",
+      "type": "sme",
+      "name_note": "Written without the commas of the conventional 'Co., Ltd.' because finalise.py builds the assignee tag by lowercasing and replacing spaces only, and a comma survives into the tag and fails its pattern. See the same note in runs/CN112645853A."
+    },
+    {
+      "name": "Hebei University of Science and Technology",
+      "name_zh": "河北科技大学",
+      "country": "CN",
+      "type": "university"
+    }
+  ],
+  "inventors": [
+    {"name": "Li Liuliu", "country": "CN"},
+    {"name": "Zhao Yaran", "country": "CN"},
+    {"name": "Guo Qingchun", "country": "CN"},
+    {"name": "Song Haiwen", "country": "CN"},
+    {"name": "Zhang Yue", "country": "CN"}
+  ],
+  "legal_status": "Ceased",
+  "source": "https://patents.google.com/patent/WO2024109718A1/en",
+  "retrieved": "2026-08-28",
+  "text_provenance": "WIPO PCT publication PDF, 45 pages, no text layer at all (0 characters on every page). Every character in this run comes from the vision pass over 200 dpi page renders. Google Patents was read only for the bibliographic fields on this record.",
+  "abstract_zh": "本发明提供一种制备环磺酮的方法，其特征在于，包括如下的任意一个步骤。",
+  "ipc_codes": [
+    "C07C 319/20",
+    "C07C 317/24",
+    "C07C 15/04",
+    "C07C 315/04"
+  ],
+  "title_en_note": "Not the patent's own English title line, which reads 'METHOD FOR PREPARING CYCLOSULFONONE, AND INTERMEDIATES'. 环磺酮 is the Chinese common name of tembotrione; 'cyclosulfonone' is a character-by-character gloss (环 cyclic + 磺 sulfo + 酮 ketone) and is not the name of any registered herbicide. The front-page abstract scheme is 2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-methylsulfonylbenzoic acid going to its 3-oxocyclohex-1-enyl ester, which is the last intermediate on the tembotrione route, and the CN family member of this same application, CN119137097A, is titled 'Preparation method and intermediate of tembotrione'."
+}

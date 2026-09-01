@@ -1,0 +1,17 @@
+{
+  "methyl2chloro3brmet4msbz": [
+    "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+    "methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate",
+    "methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate",
+    "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate"
+  ],
+  "2chloro3trifluoroethoxymethyl4msbz": [
+    "2-chloro-3-(trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+    "2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid",
+    "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid"
+  ],
+  "2chloro3222trifluoroethoxymethyl4msbz": [
+    "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+    "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid"
+  ]
+}

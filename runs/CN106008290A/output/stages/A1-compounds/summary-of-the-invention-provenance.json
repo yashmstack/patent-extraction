@@ -1,0 +1,228 @@
+[
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      89,
+      93,
+      100,
+      103
+    ],
+    "quote_zh": "获得环磺酮（化合物IV）"
+  },
+  {
+    "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+    "source_lines": [
+      95,
+      98,
+      107,
+      112,
+      126
+    ],
+    "quote_zh": "2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯（化合物I）"
+  },
+  {
+    "identifier": "sodium trifluoroethoxide",
+    "source_lines": [
+      95,
+      107
+    ],
+    "quote_zh": "三氟乙醇钠"
+  },
+  {
+    "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+    "source_lines": [
+      95,
+      98,
+      100,
+      103,
+      116,
+      126
+    ],
+    "quote_zh": "2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸（化合物II）"
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "source_lines": [
+      100,
+      103,
+      116
+    ],
+    "quote_zh": "1,3-环己二酮（化合物III）"
+  },
+  {
+    "identifier": "sodium carbonate",
+    "source_lines": [
+      116,
+      118
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "potassium carbonate",
+    "source_lines": [
+      116,
+      118
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "calcium hydroxide",
+    "source_lines": [
+      116,
+      118
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "triethylamine",
+    "source_lines": [
+      116,
+      118
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "pyridine",
+    "source_lines": [
+      116,
+      118
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "N,N'-carbonyldiimidazole",
+    "source_lines": [
+      116,
+      120
+    ],
+    "quote_zh": "CDI为N,N’-羰基二咪唑"
+  },
+  {
+    "identifier": "O-benzotriazolyl-tetramethyluronium hexafluorophosphate",
+    "source_lines": [
+      116,
+      120
+    ],
+    "quote_zh": "HBTU为O-苯并三氮唑-四甲基脲六氟磷酸酯"
+  },
+  {
+    "identifier": "1-hydroxybenzotriazole",
+    "source_lines": [
+      116,
+      120
+    ],
+    "quote_zh": "HOBT为1-羟基苯并三唑"
+  },
+  {
+    "identifier": "1,8-diazabicycloundec-7-ene",
+    "source_lines": [
+      116,
+      120
+    ],
+    "quote_zh": "DBU为1,8-二氮杂二环十一碳-7-烯"
+  },
+  {
+    "identifier": "hexane",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "cyclohexane",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "N,N-dimethylformamide",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "benzene",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "toluene",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "xylene",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "dichloromethane",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "1,2-dichloroethane",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "chloroform",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "diethyl ether",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "tetrahydrofuran",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "acetonitrile",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  }
+]

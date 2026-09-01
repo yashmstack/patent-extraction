@@ -1,0 +1,73 @@
+[
+  {
+    "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "source_lines": [
+      116,
+      117,
+      118,
+      124,
+      126,
+      130
+    ],
+    "quote_zh": "Preparation of / 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic / Acid (the centred title as printed, one fragment per line, lines 116, 117 and 118) ... 121.3 g (88.4% of theory) of 3-bromomethyl-2-chloro4-methylsulfonyl-benzoic acid were obtained. Purity: 96% (HPLC) Melting point: 207-208° C. According to HPLC analysis, the reaction mixture contained 87% of product and 10% of reactant."
+  },
+  {
+    "identifier": "2-chloro-3-methyl-4-methylsulfonylbenzoic acid",
+    "source_lines": [
+      122,
+      130
+    ],
+    "quote_zh": "100g of 2-chloro-3-methyl4-sulfonylmethylbenzoic acid were suspended in 400 ml of chlorobenzene. A 250 ml glass flask was initially charged with 5 g of 2-chloro-3-methyl-4-sulfonylmethylbenzoic acid in 50 ml of methylene chloride and 50 ml of water."
+  },
+  {
+    "identifier": "chlorobenzene",
+    "source_lines": [
+      122
+    ],
+    "quote_zh": "100g of 2-chloro-3-methyl4-sulfonylmethylbenzoic acid were suspended in 400 ml of chlorobenzene."
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      122
+    ],
+    "quote_zh": "At room temperature, 85.9 g of N-bromosuccinimide and 6.6 g of azoisobutyroniltrile were added and the mixture was subsequently heated to 60° C."
+  },
+  {
+    "identifier": "azoisobutyronitrile",
+    "source_lines": [
+      122
+    ],
+    "quote_zh": "At room temperature, 85.9 g of N-bromosuccinimide and 6.6 g of azoisobutyroniltrile were added and the mixture was subsequently heated to 60° C."
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [
+      122,
+      130
+    ],
+    "quote_zh": "Afterwards, 2.6 g of bromine were added and the reaction mixture was further heated gradually to 90° C. Under irradiation with a 300 W lamp, II g of bromine were gradually metered in over 3 h, and the mixture boiled under reflux."
+  },
+  {
+    "identifier": "sodium bisulfite",
+    "source_lines": [
+      122
+    ],
+    "quote_zh": "100 ml of a 2% sodium bisulfite solution and 400 ml of water were added in succession and stirred well."
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      122,
+      130
+    ],
+    "quote_zh": "100 ml of a 2% sodium bisulfite solution and 400 ml of water were added in succession and stirred well. A 250 ml glass flask was initially charged with 5 g of 2-chloro-3-methyl-4-sulfonylmethylbenzoic acid in 50 ml of methylene chloride and 50 ml of water."
+  },
+  {
+    "identifier": "methylene chloride",
+    "source_lines": [
+      130
+    ],
+    "quote_zh": "A 250 ml glass flask was initially charged with 5 g of 2-chloro-3-methyl-4-sulfonylmethylbenzoic acid in 50 ml of methylene chloride and 50 ml of water."
+  }
+]

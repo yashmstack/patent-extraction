@@ -1,0 +1,115 @@
+{
+  "page": "p05.png",
+  "page_label": "说 明 书 2/4页",
+  "doc_part": "description",
+  "header": "CN 106008290 A    说 明 书    2/4页",
+  "footer": "5",
+  "paragraphs": [
+    {
+      "marker": "[0013]",
+      "zh": "进一步地，所述步骤a中，MOH/M2CO3与化合物I的摩尔比为1-1.5:1。",
+      "en": "Further, in said step a, the molar ratio of MOH/M2CO3 to compound I is 1-1.5:1.",
+      "notes": "M2CO3 is printed without subscripts in the scan; transcribed as the flat string MOH/M2CO3 as printed."
+    },
+    {
+      "marker": "[0014]",
+      "zh": "进一步地，所述步骤a中，反应温度为0-5℃，反应时间为2-10小时。",
+      "en": "Further, in said step a, the reaction temperature is 0-5℃ and the reaction time is 2-10 hours.",
+      "notes": "Note this conflicts with example 1 (paragraph [0025]), which holds step a at 30℃."
+    },
+    {
+      "marker": "[0015]",
+      "zh": "进一步地，所述步骤b中，化合物III与化合物II的摩尔比为1-1.3:1；所述碱催化剂与化合物II的摩尔比为1-3:1；所述缩合剂与化合物II的摩尔比为1-2:1。",
+      "en": "Further, in said step b, the molar ratio of compound III to compound II is 1-1.3:1; the molar ratio of said base catalyst to compound II is 1-3:1; the molar ratio of said condensing agent to compound II is 1-2:1.",
+      "notes": null
+    },
+    {
+      "marker": "[0016]",
+      "zh": "进一步地，所述步骤b中，碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种。",
+      "en": "Further, in said step b, the base catalyst is selected from one or more of sodium carbonate, potassium carbonate, calcium hydroxide, triethylamine and pyridine.",
+      "notes": null
+    },
+    {
+      "marker": "[0017]",
+      "zh": "进一步地，所述步骤b中，缩合剂选自CDI、HBTU、HOBT、DBU中的一种或多种，其中，CDI为N,N’-羰基二咪唑，HBTU为O-苯并三氮唑-四甲基脲六氟磷酸酯，HOBT为1-羟基苯并三唑，DBU为1,8-二氮杂二环十一碳-7-烯。",
+      "en": "Further, in said step b, the condensing agent is selected from one or more of CDI, HBTU, HOBT and DBU, wherein CDI is N,N'-carbonyldiimidazole, HBTU is O-benzotriazol-tetramethyluronium hexafluorophosphate, HOBT is 1-hydroxybenzotriazole, and DBU is 1,8-diazabicycloundec-7-ene.",
+      "notes": "The Chinese writes 二氮杂二环十一碳-7-烯 without the bracket locants (i.e. no [5.4.0]), so the ring-fusion numbering is not stated on the page; translated literally. The apostrophe in N,N’- is printed as a right single quote."
+    },
+    {
+      "marker": "[0018]",
+      "zh": "进一步地，所述步骤b中，缩合反应的温度为-10-30℃，反应时间为0.5-12h。",
+      "en": "Further, in said step b, the temperature of the condensation reaction is -10-30℃ and the reaction time is 0.5-12h.",
+      "notes": "-10-30℃ is printed exactly so; read literally it is a range from -10℃ to 30℃."
+    },
+    {
+      "marker": "[0019]",
+      "zh": "进一步地，所述步骤a或/和步骤b中，反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种。",
+      "en": "Further, in said step a or/and step b, the reaction solvent is one or more of hexane, cyclohexane, N,N-dimethylformamide, benzene, toluene, xylene, dichloromethane, 1,2-dichloroethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile.",
+      "notes": "氯仿 is printed as 氯仿 (chloroform); the scan renders the second character with the 亻 form, read as 仿."
+    },
+    {
+      "marker": "[0020]",
+      "zh": "进一步地，所述反应溶剂与化合物I或化合物II的重量比为2-8:1。",
+      "en": "Further, the weight ratio of said reaction solvent to compound I or compound II is 2-8:1.",
+      "notes": null
+    },
+    {
+      "marker": "[0021]",
+      "zh": "本发明相比现有技术具有以下优点：本发明提供了一种环磺酮的制备方法，该方法以三氟乙醇钠作为反应物，克服了三氟乙醇与叔丁醇钾制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸收率低、成本高的缺点，同时也克服了羧基酰氯化成酯后重排法中需要剧毒催化剂丙酮氰醇的缺点，具有反应收率高、成本低、易操作、污染少、安全环保等优点，适合大规模工业化生产。",
+      "en": "Compared with the prior art, the present invention has the following advantages: the present invention provides a process for preparing tembotrione, which uses sodium trifluoroethoxide as the reactant, overcoming the low yield and high cost of preparing the key intermediate 2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-methylsulfonylbenzoic acid from trifluoroethanol and potassium tert-butoxide, and also overcoming the drawback of the route in which the carboxyl group is converted to the acid chloride, then to the ester, and then rearranged, which requires the highly toxic catalyst acetone cyanohydrin; it gives a high reaction yield, low cost, easy operation, little pollution and is safe and environmentally friendly, and is suitable for large-scale industrial production.",
+      "notes": "三氟乙醇钠 read literally is 'sodium trifluoroethanolate/trifluoroethoxide'; the page does not state which trifluoroethanol isomer, though 三氟乙醇 conventionally means 2,2,2-trifluoroethanol. 三氟乙氧甲基 is literally 'trifluoroethoxymethyl' with no locants given on the page. Translation corrected during the run: the vision read glossed 环磺酮 as 'sulcotrione'. 环磺酮 is tembotrione. Sulcotrione is 磺草酮, a different triketone lacking the trifluoroethoxymethyl group, C14H13ClO5S vs C17H16ClF3O6S. Fixed from structure, not from a name lookup: the product this patent forms is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, which is tembotrione and cannot be sulcotrione. Chinese left verbatim."
+    },
+    {
+      "marker": null,
+      "zh": "具体实施方式",
+      "en": "Detailed description of the embodiments",
+      "notes": "Bold section heading between [0021] and [0022], not a numbered paragraph."
+    },
+    {
+      "marker": "[0022]",
+      "zh": "为了使本发明实现的技术手段、创作特征、达成目的与功效易于明白了解，下面结合具体实施例，进一步阐述本发明。",
+      "en": "In order to make the technical means, creative features, objectives achieved and effects of the present invention easy to understand, the invention is further described below with reference to specific examples.",
+      "notes": null
+    },
+    {
+      "marker": "[0023]",
+      "zh": "实施例1",
+      "en": "Example 1",
+      "notes": null
+    },
+    {
+      "marker": "[0024]",
+      "zh": "本实施例提供的一种环磺酮的制备方法，包括以下步骤：",
+      "en": "The process for preparing tembotrione provided by this example comprises the following steps:",
+      "notes": "Translation corrected during the run: the vision read glossed 环磺酮 as 'sulcotrione'. 环磺酮 is tembotrione. Sulcotrione is 磺草酮, a different triketone lacking the trifluoroethoxymethyl group, C14H13ClO5S vs C17H16ClF3O6S. Fixed from structure, not from a name lookup: the product this patent forms is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, which is tembotrione and cannot be sulcotrione. Chinese left verbatim."
+    },
+    {
+      "marker": "[0025]",
+      "zh": "步骤a：取1.1mol(134.2g)三氟乙醇钠，1.2mol(48g)氢氧化钠，1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I)，1000mL N,N-二甲基甲酰胺加入到反应器中，然后30℃保温5小时后，将反应液中的N,N-二甲基甲酰胺减压蒸除后，将残液加入300mL水中，用35％的盐酸调pH至弱酸性，冷却结晶，过滤，水洗，干燥得化合物II，称重得314.8g，收率91％，其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。",
+      "en": "Step a: 1.1mol (134.2g) sodium trifluoroethoxide, 1.2mol (48g) sodium hydroxide, 1.0mol (318g) methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate (compound I) and 1000mL N,N-dimethylformamide were charged into the reactor, then held at 30℃ for 5 hours; the N,N-dimethylformamide was distilled off from the reaction liquid under reduced pressure, the residue was added to 300mL water, the pH was adjusted to weakly acidic with 35％ hydrochloric acid, then cooled to crystallise, filtered, washed with water and dried to give compound II, weighed as 314.8g, yield 91％. Therein N,N-dimethylformamide serves as the reaction solvent and may also be replaced by one or more of hexane, cyclohexane, benzene, toluene, xylene, dichloromethane, 1,2-dichloroethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile.",
+      "notes": "Step a here is run at 30℃, outside the 0-5℃ range given in [0014]. The alternative-solvent list omits N,N-dimethylformamide (the solvent actually used) but is otherwise the list of [0019]."
+    },
+    {
+      "marker": "[0026]",
+      "zh": "步骤b：取1mol上述反应所得的化合物II，溶解在1000mL的1,2-二氯乙烷中，然后在5-10℃温度条件下，半小时内加入含1.2mol(117.6g)1,3-环己二酮(化合物III)和1.2mol(194.6g)缩合剂CDI以及1.2mol(121.2g)三乙胺，再在5-10℃温度条件下搅拌反应8小时，然后经过水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)366.4g，纯度96.5％，收率86.3％，其中，1,2-二氯乙烷作为反应溶剂，还可以用己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。",
+      "en": "Step b: 1mol of compound II obtained from the above reaction was dissolved in 1000mL of 1,2-dichloroethane, then at 5-10℃ a mixture containing 1.2mol (117.6g) 1,3-cyclohexanedione (compound III), 1.2mol (194.6g) of the condensing agent CDI and 1.2mol (121.2g) triethylamine was added over half an hour; the mixture was then stirred and reacted at 5-10℃ for 8 hours, then washed with water, concentrated under reduced pressure, slurried with added methanol, filtered and dried to give the finished tembotrione (compound IV) 366.4g, purity 96.5％, yield 86.3％. Therein 1,2-dichloroethane serves as the reaction solvent and may also be replaced by one or more of hexane, cyclohexane, N,N-dimethylformamide, benzene, toluene, xylene, dichloromethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile.",
+      "notes": "含...和...以及... is ambiguous as to whether the three components are added as one pre-mixed charge or in sequence; translated literally as a single charge containing all three. The alternative-solvent list omits 1,2-dichloroethane (the solvent used). Translation corrected during the run: the vision read glossed 环磺酮 as 'sulcotrione'. 环磺酮 is tembotrione. Sulcotrione is 磺草酮, a different triketone lacking the trifluoroethoxymethyl group, C14H13ClO5S vs C17H16ClF3O6S. Fixed from structure, not from a name lookup: the product this patent forms is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, which is tembotrione and cannot be sulcotrione. Chinese left verbatim."
+    }
+  ],
+  "drawings": [],
+  "discrepancies": [
+    {
+      "what": "Example 1 step a runs at a temperature outside the range the summary gives for step a.",
+      "drawing_says": "no drawing on this page",
+      "text_says": "[0014] gives step a as 0-5℃; [0025] holds step a at 30℃ for 5 hours."
+    },
+    {
+      "what": "The prose names two different oxidation-state forms of the key intermediate.",
+      "drawing_says": "no drawing on this page",
+      "text_says": "[0021] calls the key intermediate 2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸 (the free acid), while [0025] starts from the methyl ester 2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯 and gives compound II with no name."
+    }
+  ],
+  "illegible": [],
+  "page_confidence": "high",
+  "notes": "Page 5 of 7 = 说明书 2/4页, the second page of the description. It carries the tail of the summary-of-invention list ([0013] to [0021]), the unnumbered heading 具体实施方式, and Example 1 ([0022] to [0026]) complete through step b. THERE ARE NO DRAWINGS, SCHEMES, STRUCTURAL FORMULAE OR TABLES ANYWHERE ON THIS PAGE, so drawings is an empty array and rules 5 to 9 and rule 11 had nothing to act on; the route on this page is described in words only. On the prose evidence the whole page is the INVENTION's own route: [0013] to [0020] are 进一步地 dependent refinements of the invention's steps a and b, [0021] contrasts the invention against 现有技术 (the prior art being the trifluoroethanol / potassium tert-butoxide route and the acid-chloride/ester/rearrangement route needing acetone cyanohydrin), and [0022] onward is 实施例1 of the invention. Nothing on the page was illegible; illegible is empty. PUNCTUATION CONVENTION, flagged because it is a judgement call: this scan compresses all punctuation to a narrow advance regardless of the underlying character width, so full-width versus half-width cannot be read off the glyph. Sentence- and list-level punctuation (，。：；、) has been written full-width and ％ full-width per rule 3; parentheses and the commas inside numeric locants and ratios (1,3-; N,N-; 1-1.5:1) half-width. The typesetter inserts a space at every CJK-to-Latin/digit boundary; those inter-script spaces are typesetting, not content, and have been dropped, except the genuine space in 1000mL N,N-二甲基甲酰胺 which separates two tokens. Transcribed by Claude (Opus 5) from the rendered page image; no OCR text layer exists for this patent."
+}

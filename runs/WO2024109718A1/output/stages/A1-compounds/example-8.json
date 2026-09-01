@@ -1,0 +1,442 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "式(V)化合物",
+    "identifier_type": "local_label",
+    "aliases": [
+      "compound of formula (V)",
+      "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Example 8",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 1.5,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate"
+    ],
+    "notes": "Named only by formula label; this section gives no chemical name for it. The reaction drawing on line 510 supplies the structure as the step 1 reactant, so the SMILES is kept as an alias."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1,4-dioxane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,4-二氧六环",
+      "二氧六环",
+      "dioxane"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 8",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 20.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:ether"
+    ],
+    "notes": "Merged two mentions in the same section: 20mL 1,4-二氧六环 dissolving the formula (V) compound and 15mL 二氧六环 dissolving the 1,3-cyclohexanedione. Only the first volume is recorded; the two are not summed."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "thionyl chloride",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氯化亚砜",
+      "SOCl2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 8",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": 1.03,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:corrosive"
+    ],
+    "notes": "Printed as SOCl2 over the arrow of step 1 of the drawing on line 510."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "式(VII)化合物",
+    "identifier_type": "local_label",
+    "aliases": [
+      "compound of formula (VII)",
+      "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Example 8",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [
+      {
+        "method": "hplc",
+        "value": null,
+        "unit": null,
+        "conditions": "高效液相色谱条件：与实施例5相同。",
+        "raw_text": "通过高效液相色谱监测反应完成后"
+      }
+    ],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "functional_group:sulfone",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Acid chloride formed in situ from the formula (V) compound and used in the next step without a stated yield. Named only by formula label; structure taken from the step 1 product of the drawing on line 510."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1,3-cyclohexanedione",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,3-环己二酮",
+      "cyclohexane-1,3-dione"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 8",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 0.5,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:cyclohexanedione",
+      "functional_group:ketone"
+    ],
+    "notes": "Locant printed by the text itself, so no inference was needed. Drawn above the arrow of step 2 of the scheme on line 510."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "triethylamine",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三乙胺",
+      "Et3N"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 8",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": 0.44,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": null
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "式(VIII)化合物",
+    "identifier_type": "local_label",
+    "aliases": [
+      "compound of formula (VIII)",
+      "式(V III)化合物",
+      "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Example 8",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [
+      {
+        "method": "hplc",
+        "value": null,
+        "unit": null,
+        "conditions": "高效液相色谱条件：与实施例5相同。",
+        "raw_text": "通过高效液相色谱监测反应完成后"
+      }
+    ],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "functional_group:ester",
+      "functional_group:sulfone",
+      "functional_group:ketone"
+    ],
+    "notes": "Enol ester obtained as a solution and carried forward without isolation or a stated yield. Line 512 prints the label as 式(V III)化合物 with a space inside the numeral; line 514 prints 式(VIII)化合物. Kept both, the spaced form as an alias. Structure taken from the step 2 product of the drawing on line 510."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "acetone cyanohydrin",
+    "identifier_type": "iupac",
+    "aliases": [
+      "丙酮氰醇",
+      "2-hydroxy-2-methylpropanenitrile"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 8",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 0.1,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst",
+      "functional_group:nitrile",
+      "hazard:cyanide_handling"
+    ],
+    "notes": "Charged sub-stoichiometrically to rearrange the formula (VIII) enol ester. 丙酮氰醇 is acetone cyanohydrin, not the transposed 氰基丙酮 (cyanoacetone)."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "water",
+    "identifier_type": "iupac",
+    "aliases": [
+      "水",
+      "H2O"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 8",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:workup_agent"
+    ],
+    "notes": "Added during workup after the solvent was removed; no amount printed."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "hydrochloric acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "盐酸",
+      "HCl"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 8",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "acid",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:acid",
+      "hazard:corrosive"
+    ],
+    "notes": "Used to adjust the pH to 2-3 during workup; no amount or concentration printed."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "tembotrione",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "环磺酮",
+      "2-[2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl]cyclohexane-1,3-dione",
+      "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 8",
+    "section_type": "experimental_example",
+    "is_section_product": true,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": 76.59
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": "solid",
+    "analytics": [
+      {
+        "method": "hplc",
+        "value": null,
+        "unit": null,
+        "conditions": "高效液相色谱条件：与实施例5相同。",
+        "raw_text": "通过高效液相色谱监测反应完成后"
+      }
+    ],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:active_ingredient",
+      "chemical_family:cyclohexanedione",
+      "functional_group:sulfone",
+      "functional_group:ketone",
+      "functional_group:ether",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Section product. The Chinese 环磺酮 is tembotrione; an earlier machine translation of these lines rendered it as sulcotrione (磺草酮), a different herbicide, and the Chinese is authoritative. Structure taken from the step 3 product of the drawing on line 510."
+  }
+]

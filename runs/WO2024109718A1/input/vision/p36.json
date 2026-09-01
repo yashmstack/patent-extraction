@@ -1,0 +1,69 @@
+{
+  "page": "p36.png",
+  "page_label": "7/10",
+  "doc_part": "drawings",
+  "header": "7/10\nWO 2024/109718                    PCT/CN2023/132821",
+  "footer": "",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "［图 11］",
+      "en": "[Figure 11]",
+      "notes": "Figure caption printed at the top left of the drawing sheet. This is a drawings sheet of the PCT publication, not description prose; there are no [00NN] paragraph markers anywhere on the page."
+    },
+    {
+      "marker": null,
+      "zh": "细则 26,\n26.12.2023",
+      "en": "Rule 26, 26.12.2023",
+      "notes": "Replacement-sheet stamp in the right margin, beside a heavy vertical rule. A page artifact, not content."
+    },
+    {
+      "marker": null,
+      "zh": "f1（ppm）",
+      "en": "f1 (ppm)",
+      "notes": "Axis label under the spectrum. The glyphs are broken in the scan; the two-character token before the parenthesis and the three-letter token inside it are consistent with \"f1\" and \"ppm\" but no single letter is crisply readable in isolation. Parenthesis width cannot be judged from the scan."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "structure",
+      "between_markers": [],
+      "presented_as": "intermediate_structure",
+      "structures": [
+        {
+          "position_in_drawing": "1st, top-left of the sheet, drawn above the spectrum as the compound the spectrum belongs to",
+          "core": "benzene",
+          "substituents": [
+            "COOH at C1",
+            "Cl at C2",
+            "CH2OCH2CF3 at C3",
+            "SO2CH3 at C4",
+            "H at C5",
+            "H at C6"
+          ],
+          "name": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+          "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium"
+        }
+      ],
+      "arrows": [],
+      "notes": "Numbering is read off the drawing only: the carboxyl-bearing vertex (upper-left of the hexagon) is called C1 and the ring is walked clockwise through the substituted vertices. As drawn, four substituents occupy four consecutive vertices: COOH at the upper-left vertex, then the halogen label at the top vertex, then the side chain at the upper-right vertex, then the sulfonyl at the lower-right vertex; the bottom and lower-left vertices carry no label. The side chain is drawn ring-CH2-O-CH2-C(F)(F)F: two apexes flank the labelled O, and the terminal quaternary carbon carries three separate F labels (upper right, lower right, and straight down). The sulfonyl group is drawn as S with two double-bonded O labels and a CH3 label. Confidence is medium, not high, because the top-vertex halogen label is a degraded two-glyph label; see illegible."
+    },
+    {
+      "kind": "structure",
+      "between_markers": [],
+      "presented_as": "intermediate_structure",
+      "structures": [],
+      "arrows": [],
+      "notes": "1H NMR spectrum occupying the middle of the sheet, captioned [图 11]. Horizontal axis runs left to right from about 14 ppm down to about 1 ppm in 1 ppm gridline steps, labelled f1 (ppm). Visible resonances, read by eye against the axis and therefore approximate: a very small broad line near 14, a two-line (doublet-like) signal near 8.0, one line near 5.2, one near 4.3, the tallest line on the trace near 3.4, and one near 2.5. No numeric peak labels and no integral figures are printed on the trace, so no shift is transcribed as a figure. This entry is recorded as a drawing with no chemical structures; the spectrum is not a scheme."
+    }
+  ],
+  "discrepancies": [],
+  "illegible": [
+    "The top-vertex halogen label on the structure is two small broken glyphs; it reads as \"Cl\" at high magnification but the letter shapes are degraded and the reading is not certain.",
+    "The individual 1H peak positions carry no printed numeric labels; the ppm values given in the spectrum note are eyeball readings against the axis gridlines, not transcribed text.",
+    "The axis tick numbers (14, 13, ... 1) are rendered as broken dotted glyphs at this scan resolution; they are legible as a regular 1 ppm sequence but no single tick is crisply readable in isolation.",
+    "The axis label under the trace is broken; transcribed as \"f1 (ppm)\" on shape alone."
+  ],
+  "page_confidence": "medium"
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      85,
+      87
+    ],
+    "quote_zh": "环磺酮是迄今为止活性较高、用量较少，且比较安全的一类除草剂，其工业制备方法主要是三氟乙醇、叔丁醇钾法制备关键中间体"
+  },
+  {
+    "identifier": "2,2,2-trifluoroethanol",
+    "source_lines": [
+      85
+    ],
+    "quote_zh": "其工业制备方法主要是三氟乙醇、叔丁醇钾法制备关键中间体"
+  },
+  {
+    "identifier": "potassium tert-butoxide",
+    "source_lines": [
+      85
+    ],
+    "quote_zh": "采用叔丁醇钾做碱，收率较低、试剂昂贵"
+  },
+  {
+    "identifier": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+    "source_lines": [
+      85
+    ],
+    "quote_zh": "制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸采用叔丁醇钾做碱"
+  },
+  {
+    "identifier": "acetone cyanohydrin",
+    "source_lines": [
+      85
+    ],
+    "quote_zh": "要用到剧毒试剂丙酮氰醇为重排催化剂"
+  },
+  {
+    "identifier": "thionyl chloride",
+    "source_lines": [
+      85
+    ],
+    "quote_zh": "需要用二氯亚砜作酰氯化试剂，而二氯亚砜对环境有很大危害"
+  }
+]

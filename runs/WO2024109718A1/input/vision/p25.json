@@ -1,0 +1,189 @@
+{
+  "page": "p25.png",
+  "page_label": "24",
+  "doc_part": "claims",
+  "header": "24 / WO 2024/109718 (left) PCT/CN2023/132821 (right)",
+  "footer": "",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "所述磷配体或其盐优选为1,3-(双二苯基膦)丙烷、1,4-双(二苯基膦)丁烷或者双[(4-N,N-二甲氨基)苯基]二叔丁基膦。",
+      "en": "The phosphine ligand or a salt thereof is preferably 1,3-(bis(diphenylphosphino))propane, 1,4-bis(diphenylphosphino)butane, or bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine.",
+      "notes": "Continuation of the claim that begins on the previous page (claim 3); this page carries no claim tag for it. The first ligand is printed as 1,3-(双二苯基膦)丙烷, with the parenthesis placed around the whole 双二苯基膦 rather than as 1,3-双(二苯基膦)丙烷 used for the C4 homologue on the same line; transcribed as printed."
+    },
+    {
+      "marker": "[权利要求 4]",
+      "zh": "根据权利要求3所述的方法，其中反应溶剂是选自甲苯、1,4-二氧六环、乙二醇二甲醚、乙二醇二乙醚、二甲基亚砜(DMSO)、四氢呋喃(THF)、N,N-二甲基甲酰胺(DMF)中的一种或两种以上。",
+      "en": "The process according to claim 3, wherein the reaction solvent is one or two or more selected from toluene, 1,4-dioxane, ethylene glycol dimethyl ether, ethylene glycol diethyl ether, dimethyl sulfoxide (DMSO), tetrahydrofuran (THF), and N,N-dimethylformamide (DMF).",
+      "notes": null
+    },
+    {
+      "marker": "[权利要求 5]",
+      "zh": "根据权利要求1至3中任意一项所述的方法，进一步包括如下所示的(i)~(iv)中任意一个或两个以上的中间体制备步骤：",
+      "en": "The process according to any one of claims 1 to 3, further comprising any one or two or more of the intermediate preparation steps (i) to (iv) shown below:",
+      "notes": "The range mark between (i) and (iv) is printed as a wave dash; transcribed as ~."
+    },
+    {
+      "marker": "[权利要求 6]",
+      "zh": "根据权利要求4所述的方法，所述步骤(i)~(iv)分别独立地为以下步骤：",
+      "en": "The process according to claim 4, wherein the steps (i) to (iv) are each independently the following steps:",
+      "notes": "As printed, claim 6 depends on claim 4, but steps (i) to (iv) are introduced in claim 5, not claim 4. Transcribed as printed, not corrected."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "scheme",
+      "between_markers": ["[权利要求 5]", "[权利要求 6]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, row 1 left (reactant of step (i))",
+          "core": "benzene",
+          "substituents": ["Cl at C1", "CH3 at C2", "SCH3 at C3"],
+          "name": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+          "smiles": "Cc1c(Cl)cccc1SC",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, row 1 right (product of step (i))",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH3 at C3", "SCH3 at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+          "smiles": "Cc1c(Cl)c(Br)ccc1SC",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "3rd, row 2 left (reactant of step (ii))",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH3 at C3", "SCH3 at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+          "smiles": "Cc1c(Cl)c(Br)ccc1SC",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "4th, row 2 right (product of step (ii))",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfonyl)benzene",
+          "smiles": "Cc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "5th, row 3 left (reactant of step (iii))",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfonyl)benzene",
+          "smiles": "Cc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "6th, row 3 right (product of step (iii))",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2Br at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methylsulfonyl)benzene",
+          "smiles": "BrCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "7th, row 4 left (reactant of step (iv))",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2Br at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methylsulfonyl)benzene",
+          "smiles": "BrCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "8th, row 4 right (product of step (iv))",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+          "smiles": "FC(F)(F)COCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "3rd",
+          "to_structure": "4th",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "5th",
+          "to_structure": "6th",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "dashed",
+          "confidence": "medium"
+        },
+        {
+          "from_structure": "7th",
+          "to_structure": "8th",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "dashed",
+          "confidence": "medium"
+        }
+      ],
+      "notes": "Four separate one-arrow transformations stacked vertically, labelled (i), (ii), (iii) and (iv) at the right of each row; (iv) is followed by a full-width period. No reagents or conditions are written on any of the four arrows. The dashed appearance of arrows (iii) and (iv) may be scan degradation of a solid arrow rather than a deliberate dashed arrow; arrows (i) and (ii) on the same page are clearly solid, which is why the difference is recorded rather than normalised."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": ["[权利要求 6]", null],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, left (reactant of step (i'))",
+          "core": "benzene",
+          "substituents": ["Cl at C1", "CH3 at C2", "SCH3 at C3"],
+          "name": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+          "smiles": "Cc1c(Cl)cccc1SC",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, right (product of step (i'))",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH3 at C3", "SCH3 at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+          "smiles": "Cc1c(Cl)c(Br)ccc1SC",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": ["Br2"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Labelled (i') at the right. Same transformation as step (i) above, now with the reagent Br2 written above the arrow. This is the last content on the page; the lower half of the page is blank, so the scheme for steps (ii') to (iv') presumably continues on the next page."
+    }
+  ],
+  "discrepancies": [
+    {
+      "what": "Steps (i) to (iv) are drawn with bare arrows carrying no reagents, while the prose of claim 5 promises the steps 'shown below' without naming any reagent either; the reagent Br2 appears only in the redrawn step (i') under claim 6.",
+      "drawing_says": "arrows in (i)-(iv) are unlabelled; the arrow in (i') carries Br2 above it",
+      "text_says": "claim 5 text names no reagents; claim 6 text says the steps are 'each independently the following steps' and then defers entirely to the drawing"
+    },
+    {
+      "what": "Claim 6 as printed depends on claim 4, but the steps (i) to (iv) it refers to are introduced in claim 5.",
+      "drawing_says": "n/a",
+      "text_says": "根据权利要求4所述的方法，所述步骤(i)~(iv)分别独立地为以下步骤："
+    }
+  ],
+  "illegible": [],
+  "page_confidence": "high"
+}

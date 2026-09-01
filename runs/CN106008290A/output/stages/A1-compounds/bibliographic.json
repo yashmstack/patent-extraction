@@ -1,0 +1,33 @@
+[
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "tembotrione",
+    "identifier_type": "trivial_name",
+    "aliases": ["环磺酮"],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Bibliographic",
+    "section_type": "bibliographic",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": ["compound_class:active_ingredient", "functional_group:sulfone"],
+    "notes": "Named only in the invention title on the cover sheet; the section describes no procedure, so is_section_product is false. Translation conflict: the EN line renders 环磺酮 as \"a cyclic sulfone ketone (huanhuangtong)\", a literal character-by-character gloss that names no specific compound. The Chinese 环磺酮 is the standard common name for tembotrione and is followed here. The printed Int.Cl. classes C07C 315/04, C07C 317/24 and C07C 317/46 are sulfone classes, supporting the sulfone functional group."
+  }
+]

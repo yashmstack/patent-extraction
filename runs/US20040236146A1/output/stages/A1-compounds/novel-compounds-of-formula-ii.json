@@ -1,0 +1,63 @@
+[
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Novel Compounds of Formula II",
+    "section_type": "formula_definitions",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "other",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:other",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid",
+      "functional_group:sulfone",
+      "functional_group:halide_bromo",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Named twice in this section, at [0020] on line 100 and at [0024] on line 110, and merged into one record per A1 rule 4. Both as-printed occurrences read 3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid, missing the hyphen after 2-chloro; that variant is carried in aliases and the identifier uses the corrected spelling fixed for this run in input/PROMPT-CORRECTIONS.md section 2, which is a form the document itself prints. The > EN: lines 101 and 111 already show the hyphen, so they are a normalisation of the printed text and are not the record's only support. Role is other and is_section_product is false because this section does not make the compound: it cites it as prior art disclosed by EP-A 0 292 944 and then carves it out of the claimed genus of formula II at [0024]. No quantity, purity or characterisation is stated here. commercially_available is false because the text says only that it is disclosed in a prior publication, and Example 1 of this same document prepares it. compound_class is other rather than intermediate or starting_material because in this section it has no preparative role at all. The [IMAGE_EXTRACT] span on line 102 is the drawn formula II, a Markush generic with an empty molecules list, so no structure reached this record and smiles stays null."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "compounds of the formula II",
+    "identifier_type": "formula",
+    "aliases": [],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Novel Compounds of Formula II",
+    "section_type": "formula_definitions",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "other",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:other"
+    ],
+    "notes": "Genus, not a single substance: [0020] states that compounds of the formula II are novel and claims them, and the formula is drawn on line 102 with variable R1 and R2. resolved is false and unresolved_reference is true per A1 rule 7, since a Markush description does not identify one compound. The [IMAGE_EXTRACT] span on line 102 carries an empty molecules list because the vision pass refused a SMILES for a generic, so no structure reached this record. The R1 and R2 definitions at [0022] and [0023] are R-group substituent fragments and A1 rule 8 forbids emitting them as compounds, so they have no records; chemical_family and functional_group tags are skipped because the identifier alone does not support them. [0024] excludes 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid from this genus."
+  }
+]

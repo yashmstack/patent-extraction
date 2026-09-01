@@ -1,0 +1,246 @@
+{
+  "artifact": "pathways",
+  "records_audited": 27,
+  "findings": [
+    {
+      "check": "drawings",
+      "severity": "critical",
+      "record": "Claims pathway ksm CSc1cccc(Cl)c1C -> tembotrione via Claims_Step (vi)",
+      "field": "steps / intermediates / tags",
+      "problem": "Claim 9 and claim 10 draw step (vi) as four arrows from the aryl bromide (aryl bromide -> benzoic acid -> benzoyl chloride -> enol ester -> tembotrione), but the pathway carries it as a single step (IV)+CO+H2O -> tembotrione, so the benzoic acid, the benzoyl chloride and the enol ester are absent from intermediates and chain_length is 5 where the page draws 8 arrows.",
+      "source_line": 616,
+      "quote": "[权利要求 10] 根据权利要求9所述的方法，其中步骤(vi)、和(vi′)分别为如下步骤：",
+      "artifact_says": "5 steps, intermediates = [CSc1ccc(Br)c(Cl)c1C, Cc1c(S(C)(=O)=O)ccc(Br)c1Cl, CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr, CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F], tags chain_length:5 and lcl:medium",
+      "should_be": "Split Claims_Step (vi) into the four arrows drawn on p27 so the pathway carries 8 steps and adds CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F, CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F and CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F to intermediates, with chain_length:8 and lcl:long.",
+      "confidence": "high"
+    },
+    {
+      "check": "drawings",
+      "severity": "major",
+      "record": "Claims pathway ksm CSc1cccc(Cl)c1C -> tembotrione via Claims_Step (vi')",
+      "field": "steps / intermediates",
+      "problem": "Step (vi') is drawn on p27 as two arrows (aryl bromide plus 1,3-cyclohexanedione and CO -> enol ester, then enol ester -> tembotrione) but the pathway records one step, so the enol ester intermediate that the page draws is missing from intermediates.",
+      "source_line": 605,
+      "quote": "[权利要求 9] 根据权利要求7或8所述的方法，进一步包括如下步骤：",
+      "artifact_says": "5 steps ending in Claims_Step (vi'), intermediates stop at CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+      "should_be": "Add the enol ester CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F as the fifth intermediate and record the rearrangement as a separate terminal step.",
+      "confidence": "high"
+    },
+    {
+      "check": "drawings",
+      "severity": "major",
+      "record": "Summary of the Invention pathway ksm CSc1cccc(Cl)c1C -> tembotrione",
+      "field": "intermediates",
+      "problem": "The scheme at [0021] on p06 draws benzoic acid -> benzoyl chloride -> enol ester, but Summary of the Invention_Scheme Step 7 merges those two arrows into acid plus 1,3-cyclohexanedione -> enol ester, so the benzoyl chloride is missing from the pathway's intermediates even though the same drawing read in the Claims section did record it.",
+      "source_line": 149,
+      "quote": "[0021] (8)根据上述(7)所述的方法，其中步骤(vi)和(vi′)分别为如下步骤：",
+      "artifact_says": "intermediates = [(I), (II), (III), (IV), benzoic acid, enol ester]; no CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+      "should_be": "Split Summary of the Invention_Scheme Step 7 at the drawn benzoyl chloride and insert CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F into intermediates, matching the Claims read of the identical scheme.",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "major",
+      "record": null,
+      "field": null,
+      "problem": "p17 carries two complete drawn routes for [0102] separated by 或; only the first (via the benzoic acid and the benzoyl chloride, nine arrows) became Preparation Routes and General Embodiments_Scheme Step 1-9, and the second (aniline through to tembotrione with CO plus 1,3-cyclohexanedione straight to the enol ester, seven arrows) has no scheme derived pathway at all.",
+      "source_line": 409,
+      "quote": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+      "artifact_says": "one Scheme pathway in that section, 9 steps, ending via the benzoyl chloride",
+      "should_be": "Emit a second Scheme pathway for the 或 alternative drawn on p17: aniline -> (VI) -> (I) -> (II) -> (III) -> (IV) -> enol ester -> tembotrione, 7 steps.",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": null,
+      "field": null,
+      "problem": "p16 carries the same pair of complete routes for [0101] drawn with bare unlabelled arrows, and neither produced a reaction record or a pathway; the artifact nowhere states that they were skipped as duplicates of the [0102] drawings.",
+      "source_line": 409,
+      "quote": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+      "artifact_says": "no pathway sourced to [0101]",
+      "should_be": "Either emit the two [0101] pathways or record the deliberate de-duplication in honest_uncertainty_flags on the [0102] pathways.",
+      "confidence": "medium"
+    },
+    {
+      "check": "linkage",
+      "severity": "major",
+      "record": "Example 3 pathway ksm 式(I)化合物 -> 式(II)化合物",
+      "field": "steps[].precursor_step",
+      "problem": "Example 3 consumes 式(I)化合物, the exact identifier string Example 2 produces, and the same exact match holds for Example 4 (式(II)化合物), Example 5 (式(III)化合物), Examples 6, 7, 9, 10 and 11 (式(IV)化合物) and Example 8 (式(V)化合物), yet every one of these precursor_step values is null, so the worked route is fragmented into nine one-step pathways and no pathway carries the example yields.",
+      "source_line": 453,
+      "quote": "[0115] 将式(I)化合物146g、二水合钨酸钠1.91g和冰醋酸600mL加入到四口烧瓶中，升温至80℃，滴加23％的双氧水224g，通过高效液相色谱监测反应完成后，停止反",
+      "artifact_says": "Example 3 pathway has one step with precursor_step null and honest_uncertainty_flags [yield_missing_step, truncated_chain]",
+      "should_be": "Set the cross section precursor_step form the A2 prompt defines (Example 2::Step 1 and so on) so the examples assemble into one pathway; A2 rule 24 is satisfied because the identifier strings match exactly.",
+      "confidence": "high"
+    },
+    {
+      "check": "linkage",
+      "severity": "major",
+      "record": "Example 2 pathway ksm 式(VI)化合物 -> 式(I)化合物",
+      "field": "ksm.identifier",
+      "problem": "Example 1 prepares the same compound Example 2 consumes, but the two records spell it in different languages (product 'compound of formula (VI)' against ksm '式(VI)化合物'), the link is left null, and compounds-equivalence.json records only the phosphine ligand pair, so this fragmentation is not captured in the side channel either.",
+      "source_line": 439,
+      "quote": "[0110] 实施例2 式(I)化合物的制备",
+      "artifact_says": "Example 1 pathway product identifier 'compound of formula (VI)'; Example 2 pathway ksm identifier '式(VI)化合物'",
+      "should_be": "Use the Chinese identifier 式(VI)化合物 on both, link Example 2 to Example 1, and add the pair to compounds-equivalence.json if the two spellings are kept.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "major",
+      "record": "all 27 records, 40 of the 71 reactions they project",
+      "field": "steps[].components",
+      "problem": "A3 rule 12 restricts components to the step's reactants plus its product and names reagents, oxidants, bases, catalysts and solvents as excluded, but components carries them on 40 of 71 steps, and on Background_Scheme B Step 4 it also carries the two byproducts 卤仿 and sodium chloride, which are neither reactant nor product.",
+      "source_line": 76,
+      "quote": "[0006] 然而，上述方法一共有11步，步骤多；乙酰氯发生的F-C反应刺激性大，后处理产生大量含有催化剂三氯化铝的废水，后面的次氯酸钠卤仿反应也是在水相进行，反应过程中会生成卤仿并产生大量含有氯化钠的废水，污染严重；另外，分子中通过F-C",
+      "artifact_says": "Background_Scheme B Step 4 components = [ketone, sodium hypochlorite, water, 卤仿, sodium chloride, benzoic acid]; Summary of the Invention_Scheme Step 3 components list 溴代试剂, bromine, N-bromosuccinimide, hydrogen bromide and hydrogen peroxide together",
+      "should_be": "Rebuild components as the identifiers whose compounds[] role is reactant plus the is_product entry, dropping every reagent, oxidant, base, catalyst, solvent and byproduct.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "major",
+      "record": "12 reactions, among them Claims_Step (vi), Example 5_Step 1, Preparation Routes and General Embodiments_Step 5",
+      "field": "steps[].compounds[].role",
+      "problem": "A3 rule 11 requires compounds to be copied verbatim from the reaction record and forbids re-classifying, but 12 reactions carry roles in pathways.json that do not exist in reactions.json for the same step: reactant becomes intermediate on Claims_Step (vi) and (vi') and Example 1_Step 1, other becomes byproduct, initiator, quenching_agent or workup_agent, and solvent becomes wash.",
+      "source_line": 483,
+      "quote": "[0124] 在-5～5℃将60％氢化钠9.2g溶于80mL无水四氢呋喃中，往该溶液中滴加三氟乙醇24g的20mL无水四氢呋喃溶液，滴加完毕后，进一步滴加式(III)化合物83g的400mL无水四氢呋喃溶液，滴加时控制反应物温度不超过15℃",
+      "artifact_says": "Example 5_Step 1 pathway step gives water role quenching_agent and saturated brine role wash; reactions.json gives them other and solvent",
+      "should_be": "Copy compounds[] byte for byte from the reaction record; if the roles are wrong, fix them in reactions.json so both artifacts agree.",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "Preparation Routes and General Embodiments_Step 5",
+      "field": "steps[].compounds[].role",
+      "problem": "The role value is 'quenching agent' with a space, while the same role on Example 5_Step 1 is written 'quenching_agent', so one artifact carries two spellings of one role.",
+      "source_line": 308,
+      "quote": "[0077] 在更具体的实施方式中，上述反应可以如下执行但不限于此：将式(III)化合物和三氟乙醇钠或三氟乙醇钾分别溶于溶剂中，将式(III)化合物的溶液滴加到三氟乙醇钠或三氟乙醇钾溶液中。反应完毕后，加水淬灭，分液，用饱和食盐水洗涤有机层",
+      "artifact_says": "role: 'quenching agent'",
+      "should_be": "Use one snake_case spelling, or better, restore the reaction record's value per rule 11.",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "major",
+      "record": "the four Claims pathways and the two Summary of the Invention pathways",
+      "field": "honest_uncertainty_flags",
+      "problem": "These six pathways start from the compound of formula (VI), which the patent itself says has to be prepared from 3-chloro-2-methylaniline, so the chain does not reach a purchasable starting material, yet none of them carries truncated_chain while the Example 2 pathway with the very same ksm does.",
+      "source_line": 252,
+      "quote": "[0059] 作为原料的式(VI)化合物可以参照例如专利文献CN106631941A等中记载的公知方法通过如下反应制备：",
+      "artifact_says": "honest_uncertainty_flags = [yield_missing_step, no_conditions_for_any_step]",
+      "should_be": "Add truncated_chain to the four Claims pathways and the two Summary of the Invention pathways.",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "pathways 1 to 5 and 7 (Background scheme B, the four Claims records, Example 10)",
+      "field": "tags",
+      "problem": "Rule 14 makes tags the union of the step tags and the tags of the ksm, every intermediate and the product, but several compound tags are absent: functional_group:amine on the Background scheme B pathway, chemical_family:toluene, functional_group:sulfide and chemical_family:benzyl_halide on all four Claims pathways, chemical_family:benzoate_ester on the Claims enol ester pathway, and chemical_family:triketone on the two Claims tembotrione pathways and the Example 10 pathway.",
+      "source_line": 428,
+      "quote": "[0107] 在20℃下将5.1％盐酸1165g加入到四口瓶中，滴加3-氯-2-甲基苯胺100g，滴加完毕后，在0℃进一步滴加20％NaNO2水溶液251.41g，滴加过程中控温不超",
+      "artifact_says": "tags omit functional_group:amine although the ksm 3-chloro-2-methylaniline carries it in compounds.json",
+      "should_be": "Recompute tags as the full union rule 14 specifies.",
+      "confidence": "high"
+    },
+    {
+      "check": "schema",
+      "severity": "minor",
+      "record": "the two scope patent records",
+      "field": "scope",
+      "problem": "A3 rule 8 says emit one pathway with scope patent, and two are emitted, one per arm of the fork; the artifact does flag two_patent_scope_routes_recorded_not_resolved, so the disagreement is recorded rather than hidden, but the record count still departs from the rule.",
+      "source_line": 343,
+      "quote": "[0091] 式(V)的羧酸化合物和式(VIII)的酯化合物是环磺酮的重要制备中间体，可以参照例如专利文献DE19846792A1等中公开的已知方法通过如下路线制备环磺酮。",
+      "artifact_says": "two records with scope patent, both ending in tembotrione",
+      "should_be": "Keep one scope patent record, or state in the run notes that the deviation is deliberate because the patent gives no preference between the two arms.",
+      "confidence": "medium"
+    },
+    {
+      "check": "fidelity",
+      "severity": "minor",
+      "record": "Background pathway ksm dichlorotoluene -> tembotrione",
+      "field": "ksm.identifier",
+      "problem": "The prose at [0004] names the starting material generically as 二氯甲苯, but the scheme on p02 draws 2,6-dichlorotoluene specifically, and the pathway follows the prose, so the ksm under-specifies what the page shows.",
+      "source_line": 67,
+      "quote": "[0004] 上述方法中所用的原料二氯甲苯在反应时选择性不好，导致杂质多，收率低。",
+      "artifact_says": "ksm.identifier = 'dichlorotoluene'",
+      "should_be": "Use 2,6-dichlorotoluene, the isomer drawn, and keep 二氯甲苯 as an alias on the compound record.",
+      "confidence": "medium"
+    },
+    {
+      "check": "schema",
+      "severity": "minor",
+      "record": "Example 11 pathway ksm 式(IV)化合物",
+      "field": "product",
+      "problem": "product is null rather than a CompoundRef object; the source names no product, but it does report a yield for one, and the charge is the same (IV) plus 1,3-cyclohexanedione plus CO combination that Example 9 runs to the (VIII) ester.",
+      "source_line": 548,
+      "quote": "[0146] 向高压釜中加入式(IV)化合物56.84g、1,3-环己二酮21.84g、三乙胺37.95g、PdCl₂催化剂0.5g、配体2-双环己基膦-2',6'-二甲氧基联苯或4,5-双二苯基膦-9,9-二甲基氧杂蒽4g、溶剂1,4-二",
+      "artifact_says": "\"product\": null with flag product_not_stated",
+      "should_be": "Either keep null and confirm downstream consumers tolerate a null product, or set the product to (VIII)酯化合物 by parity with Example 9 and keep the product_not_stated flag so the inference stays visible.",
+      "confidence": "low"
+    }
+  ],
+  "checks_passed": [
+    {
+      "check": "linkage - referential integrity",
+      "what_was_verified": "Every one of the 71 reaction_id values referenced by the 27 pathways resolves to a record in reactions.json, all 71 reactions are used by at least one pathway, and no reaction_id is duplicated. No dangling reference exists."
+    },
+    {
+      "check": "linkage - chain construction",
+      "what_was_verified": "Recomputed every chain independently by following precursor_step backwards from each terminal step (a step named by no other step's precursor_step). That yields 25 chains; the 27 pathway records contain exactly those 25 step sequences plus the two scope patent duplicates. No chain is invented and none is dropped, and no precursor_step is unresolvable."
+    },
+    {
+      "check": "drawings - background isolation",
+      "what_was_verified": "The two prior-art routes (DE19846792A1 on p02, CN200510030163.5 on p03) occupy two separate pathways, share no step with each other, and no step of either appears in any Claims, Summary, Preparation Routes, Example or scope patent pathway. Neither prior-art route was promoted to scope patent."
+    },
+    {
+      "check": "linkage - fork integrity",
+      "what_was_verified": "Checked every pathway for a step from the benzoic acid arm and a step from the direct enol ester arm coexisting. None does: Summary pathway 24 and both Preparation Routes Scheme pathways use only the acid arm, Summary pathway 23 and Preparation Routes Step 8/9 use only the direct arm, and Claims (vi) and (vi') are in separate records. The fork is not merged anywhere."
+    },
+    {
+      "check": "linkage - cross-section chaining",
+      "what_was_verified": "No pathway chains steps drawn from two different sections; the two scope patent records reuse Preparation Routes chains unchanged. No chain was assembled from adjacent worked examples on proximity."
+    },
+    {
+      "check": "arithmetic - overall_yield_pct",
+      "what_was_verified": "Recomputed rule 9 for all 27 records from the step product_yield_pct values. Every value matches: null wherever any step lacks a yield (including Example 8, where only the terminal step reports 76.59 percent), and the single-step passthroughs 81.13, 67.57, 80.0, 71.63 and 64.67 are correct. No yield was substituted or averaged."
+    },
+    {
+      "check": "fidelity - overall_purity_pct and derivation of intermediates and product",
+      "what_was_verified": "overall_purity_pct equals the terminal step's product_purity_pct in all 27 records; intermediates equals the ordered products of every step but the last in all 27; product equals the terminal step's product_name in all 27, including the null on Example 11."
+    },
+    {
+      "check": "schema",
+      "what_was_verified": "No record and no step carries an id field. All pathway level scores and min_* counts and all_steps_atom_map_confident are null, and every step's enrichment field (scores, counts, atom_mapped_rxn, atom_map_confident, template_r0/r1/r2 and hashes, canonical_rxn, reactant_smiles, smiles_source, product_smiles, product_smiles_source) is null, as rule 13 requires. Every CompoundRef has smiles null."
+    },
+    {
+      "check": "vocabulary - tags",
+      "what_was_verified": "All 27 records carry exactly one branching tag and one convergence tag, the correct chain_length:N, and the correct lcl bucket for their step count. Every tag string is a single lowercase snake_case ASCII category:value pair and no record has a duplicate tag."
+    },
+    {
+      "check": "precision - step field copy",
+      "what_was_verified": "Compared all 47 rule 11 fields of every pathway step against its reaction record. Every field is identical except compounds[] on the 12 reactions reported above. The flat temperature_c, time_h, atmosphere, pressure, reactor_type, concentration and room_temperature values are correctly derived from the conditions object as rule 11 specifies, not copied."
+    },
+    {
+      "check": "drawings - background reagents read off the page",
+      "what_was_verified": "Opened p02 and p03. Scheme A uses NBS at the benzylic bromination and (COCl)2 at the acid chloride, Scheme B uses Br2 and SOCl2; the pathways keep that difference and do not conflate the two routes. On p02 step 2 CH3COCl is written above the arrow and AlCl3 below it, and the reaction record does distinguish them by role (reagent against catalyst), although components flattens them together, which is the components finding above."
+    },
+    {
+      "check": "arithmetic - step to step mass continuity",
+      "what_was_verified": "Checked the worked example charges against theoretical maxima: 100.75 g of (VI) can give at most about 151 g of (I) and Example 3 consumes 146 g; 146 g of (I) can give at most about 166 g of (II) and Example 4 consumes 84 g; 84 g of (II) can give at most about 109 g of (III) and Example 5 consumes 83 g; 83 g of (III) can give at most about 91 g of (IV) and Examples 6 and 7 consume 40 g. No scale discontinuity is owed, so the absence of scale_discontinuity_in_chain is correct."
+    }
+  ],
+  "recall_estimate": {
+    "found_in_text": 29,
+    "present_in_artifact": 25,
+    "missing": [
+      "the 或 alternative route drawn on p17 for [0102]: aniline through (VI), (I), (II), (III), (IV) and the enol ester to tembotrione, seven arrows, no scheme derived pathway",
+      "the first bare-arrow route drawn on p16 for [0101], nine arrows via the benzoyl chloride",
+      "the second bare-arrow route drawn on p16 for [0101] after 或, seven arrows via the enol ester",
+      "the worked-example route Example 1 through Example 8, which the identifiers match end to end but which no pathway assembles, leaving every example yield outside every pathway"
+    ]
+  }
+}

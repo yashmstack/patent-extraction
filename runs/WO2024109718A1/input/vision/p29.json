@@ -1,0 +1,37 @@
+{
+  "page": "p29.png",
+  "page_label": "28",
+  "doc_part": "claims",
+  "header": "28 / WO 2024/109718 (left) / PCT/CN2023/132821 (right)",
+  "footer": "",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "步骤(iii')中，溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素；",
+      "en": "In step (iii'), the brominating reagent is bromine, N-bromosuccinimide, or a combination of hydrogen bromide with hydrogen peroxide, preferably bromine;",
+      "notes": "Continuation of a claim whose number appears on the previous page; no claim marker is printed on this line. 溴素 is the Chinese trade/common term for elemental bromine (Br2); 双氧水 is aqueous hydrogen peroxide. The hyphen in N-溴代丁二酰亚胺 is printed as a short dash glyph."
+    },
+    {
+      "marker": null,
+      "zh": "步骤(iv')中，CF3CH2OM为CF3CH2ONa或CF3CH2OK。",
+      "en": "In step (iv'), CF3CH2OM is CF3CH2ONa or CF3CH2OK.",
+      "notes": "All digits in the formulae are printed as subscripts: CF₃CH₂OM, CF₃CH₂ONa, CF₃CH₂OK. Transcribed here on the baseline. Same unnumbered continuation block as the line above."
+    },
+    {
+      "marker": "[权利要求 13]",
+      "zh": "环磺酮制备方法，其特征在于，使用权利要求11所述的化合物作为中间体。",
+      "en": "A process for preparing tembotrione, characterised in that the compound of claim 11 is used as an intermediate.",
+      "notes": "环磺酮 is translated as tembotrione (the common Chinese name for that herbicide); the characters read literally as 'cyclic sulfone ketone'. Nothing on this page defines the structure, so the reading is not determined by this page."
+    },
+    {
+      "marker": "[权利要求 14]",
+      "zh": "权利要求11所述的化合物用作环磺酮制备中间体的用途。",
+      "en": "Use of the compound of claim 11 as an intermediate in the preparation of tembotrione.",
+      "notes": "Same caveat on 环磺酮 as in claim 13."
+    }
+  ],
+  "drawings": [],
+  "discrepancies": [],
+  "illegible": [],
+  "page_confidence": "high"
+}

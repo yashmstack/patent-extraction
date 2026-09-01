@@ -1,0 +1,388 @@
+[
+  {
+    "patent_id": "US20040236146A1",
+    "reaction_id": "Claims_Step 1",
+    "section_label": "Claims",
+    "section_type": "claims",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": "Wohl-Ziegler bromination",
+    "mechanism_type": "radical",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "range",
+        "value_c": null,
+        "min_c": 70.0,
+        "max_c": 100.0
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": "reflux",
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "3-methylbenzoic acid of formula I",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "N-bromosuccinimide",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "radical initiator",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "azoisobutyronitrile",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "dibenzoyl peroxide",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "chlorobenzene",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "acetonitrile",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "3-bromomethylbenzoic acid of formula II",
+        "role": "product",
+        "is_product": true,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "3-methylbenzoic acid of formula I",
+      "N-bromosuccinimide",
+      "radical initiator"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "3-bromomethylbenzoic acid of formula II",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "6. A process for preparing a 3-bromomethylbenzoic acid of formula II which comprises brominating a 3-methylbenzoic acid of formula I with N-bromosuccimide in the presence of a radical initiator, where, in formulae I and II R1 is fluorine, chlorine or bromine, and R2 is (C1-C4)alkyl. 7. The process as claimed in claim 6, wherein the radical initiator is azoisobutyronitrile or dibenzoyl peroxide. 8. The process as claimed in claim 6, wherein a solvent is used. 9. The process as claimed in claim 8, wherein the solvent is chlorobenzene. 10. The process as claimed in claim 8, wherein the solvent is acetonitrile. 11. The process as claimed in claim 6, wherein the brominating is carried out at a temperature of from 70 to 100° C. 12. The process as claimed in claim 10, wherein the brominating reaction is carried out at the reflux temperature of the solvent.",
+    "procedure_summary": "A methyl-substituted benzoic acid is brominated on its methyl group with N-bromosuccinimide in the presence of a radical initiator, optionally in a solvent and with heating. The product is the corresponding bromomethylbenzoic acid.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:radical",
+      "named_rxn:wohl_ziegler_bromination",
+      "scale:not_specified",
+      "solvent_class:halogenated",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:none",
+      "workup_type:none",
+      "purification:none",
+      "step_role:final_step",
+      "linkage:standalone",
+      "is_one_pot:false"
+    ],
+    "notes": "Covers independent claim 6 (L150 to L158) and its dependent claims 7 to 12 (L160, L165, L167, L169, L171, L173), which add conditions to it and are not separate transformations. This is process variant A of the patent, N-bromosuccinimide with a radical initiator. AS-PRINTED MISPRINT: L154 prints N-bromosuccimide, missing the second n. The identifier is the corrected spelling, which the description of this patent prints itself, and the as-printed variant is carried in aliases on the A1 record. The EN convenience line at L155 silently repairs it; the as-printed line is the document and the difference is a finding about the patent. TEMPERATURE: claim 11 states a temperature of from 70 to 100 degrees C. It is recorded as a range with both bounds and is deliberately not flattened to a point, because the claim states a window and not a value. REFLUX ASYMMETRY, verified on the page pixels: claim 12 does not depend on claim 6 or on claim 8; it depends on claim 10, so its reflux temperature is the reflux temperature of acetonitrile specifically, not of whichever solvent is chosen. Reflux is recorded as heating_method and not as a temperature, and the claimed 70 to 100 degrees C range is kept as the only stated temperature. The two are consistent for this record: acetonitrile boils inside the claimed window. The mirror-image claim on the variant B record attaches to a different solvent, and that asymmetry is real. SOLVENTS: chlorobenzene (claim 9) and acetonitrile (claim 10) are alternatives under claim 8; both are listed in compounds with role solvent even though only one would be used, and both solvent_class tags are emitted for the same reason. INITIATOR: claim 6 (L154) charges the class term radical initiator, and claim 7 (L160) enumerates the two members that class may take, azoisobutyronitrile and dibenzoyl peroxide. All three are recorded in A1 for this section and all three are carried in compounds: the class is what claim 6 requires and the two members are what claim 7 permits, so dropping the class would leave only the narrower claim recorded. reactant_names flattens the claim 6 charge, so it carries the class term and not the two alternative members. No a1_missing_compound is raised, because A1 holds the class term as well as its members. All three take role reagent rather than catalyst: an initiator is consumed in fragmenting to the chain-carrying radical, and the closed role list has no initiator value. That vocabulary gap is recorded rather than hidden. MECHANISM: radical, on the initiator alone. No light is claimed here, so light_source is left null and the record differs from the variant B record on exactly that point. The named reaction is Wohl-Ziegler bromination, which is the standard name for a benzylic bromination by N-bromosuccinimide under radical initiation. STEP ROLE: this is a process claim to one transformation, so its only step both consumes the starting material and delivers the claimed product; it is equally the first step and the last. The tag category is single-valued, and per PROMPT-CORRECTIONS section 10a a chain of one step takes step_role:final_step, because the category exists to locate a step within a chain and first_step on a route that is over implies something follows. The step really is both and the field holds one value; the half that is not recorded is recorded here. A0 estimated two steps for this section and two records are emitted, so there is no disagreement to explain. The two independent process claims are alternatives, not a sequence: neither one's product is the other's starting material, both start from the same formula I genus and both end at the same formula II genus, so precursor_step is null on both and the linkage tag is standalone. The prior-sections reaction registry is empty for this patent, which is a single-transformation process patent, so no cross-section linkage was available either. Every drawing in this section is a single Markush structure of formula I or formula II with variable R1 and R2, and every IMAGE_EXTRACT span carries no molecules because the vision pass correctly refused a SMILES for a generic. There is no drawn reaction scheme anywhere in this patent, so no structure reached this record from a drawing and none of drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn or route_attribution_unclear can arise; none is raised. Claims 1 to 5 are printed 1-5 (Canceled) and have no text, so they yield no record. Claims 19 and 20 are compound claims to formula II per se, not processes, so they yield no reaction record either; the compound they exclude is carried on the A1 compound record for this section. Being process claims, no charge, no time, no yield and no workup is stated anywhere in this section, and that absence is the document rather than a gap: no_conditions is not raised because a temperature is stated, and no mass balance can be computed because no mass is printed."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "reaction_id": "Claims_Step 2",
+    "section_label": "Claims",
+    "section_type": "claims",
+    "step_index": 2,
+    "step_label": "Step 2",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "photochemical",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "range",
+        "value_c": null,
+        "min_c": 70.0,
+        "max_c": 100.0
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": "reflux",
+      "cooling_method": null,
+      "light_source": {
+        "type": "other",
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "3-methylbenzoic acid of formula I",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bromine",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "chlorobenzene",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "methylene chloride",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "3-bromomethylbenzoic acid of formula II",
+        "role": "product",
+        "is_product": true,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "3-methylbenzoic acid of formula I",
+      "bromine"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "3-bromomethylbenzoic acid of formula II",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "13. A process for preparing a 3-bromomethylbenzoic acid of formula II [drawing, formula (II)] which comprises brominating a 3-methylbenzoic acid of formula I [drawing, formula (I)] with elemental bromine and irradiation with a photolamp, where, in formulae I and II R1 is fluorine, chlorine or bromine, and R2 is (C1-C4)alkyl. 14. The process as claimed in claim 13, wherein a solvent is used. 15. The process as claimed in claim 14, wherein the solvent is chlorobenzene. 16. The process as claimed in claim 14, wherein the solvent is methylene chloride. 17. The process as claimed in claim 13, wherein the brominating is carried out at a temperature of from 70 to 100° C. 18. The process as claimed in claim 16, wherein the brominating is carried out at the reflux temperature of the solvent.",
+    "procedure_summary": "A methyl-substituted benzoic acid is brominated on its methyl group with elemental bromine under irradiation from a photolamp, optionally in a solvent and with heating. The product is the corresponding bromomethylbenzoic acid.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:photochemical",
+      "scale:not_specified",
+      "solvent_class:halogenated",
+      "catalyst_class:none",
+      "workup_type:none",
+      "purification:none",
+      "step_role:final_step",
+      "linkage:standalone",
+      "is_one_pot:false"
+    ],
+    "notes": "Covers independent claim 13 (L175) and its dependent claims 14 to 18 (L181, L183, L185, L187, L189), which add conditions to it and are not separate transformations. This is process variant B of the patent, elemental bromine with photolamp irradiation. It is an alternative to the claim 6 process recorded as Step 1 of this section, not a second stage of it. L175 prints the whole of claim 13 on one line, with the inline placeholders [drawing, formula (II)] and [drawing, formula (I)] where the two Markush structures sit. Those placeholders are part of the as-printed line, not IMAGE_EXTRACT spans, so they are kept in procedure_text; the two IMAGE_EXTRACT spans that follow at L177 and L179 are stripped. TEMPERATURE: claim 17 states a temperature of from 70 to 100 degrees C, recorded as a range with both bounds and not flattened to a point. REFLUX ASYMMETRY, verified on the page pixels: claim 18 does not depend on claim 13 or on claim 14; it depends on claim 16, so its reflux temperature is the reflux temperature of methylene chloride specifically. This is the mirror of claim 12, which depends on claim 10 and so attaches to acetonitrile on the variant A record, and the asymmetry is a real feature of the claim set rather than a reading choice. Note that the two conditions this record carries cannot both hold at once: methylene chloride boils well below the claimed 70 to 100 degrees C window, so the reflux embodiment of claim 18 and the temperature embodiment of claim 17 are alternative dependents of claim 13 rather than a single set of conditions. Both are recorded because both are claimed; no listed validation flag covers an incompatibility between two alternative dependent claims, so it is stated here rather than flagged. SOLVENTS: chlorobenzene (claim 15) and methylene chloride (claim 16) are alternatives under claim 14; both are listed with role solvent even though only one would be used, and both fall in the same solvent class, so one solvent_class tag covers them. MECHANISM: photochemical, because the irradiation is what claim 13 gives in place of the initiator of claim 6. LIGHT SOURCE: the claim says irradiation with a photolamp and nothing more. light_source.type takes other, because the closed list on that field offers LED, UV, mercury_lamp, sunlight, tungsten, fluorescent and other, and photolamp is none of them; the printed word is recorded here rather than mapped onto a lamp type the patent does not name. No colour, wavelength or power stated. The chain that follows the photolysis of bromine is a radical chain; mechanism_type takes exactly one value from the closed list and the photochemical initiation is the feature that distinguishes this claim, so it is recorded there and the radical chain is recorded here. No named reaction is given: Wohl-Ziegler names the N-bromosuccinimide variant specifically and would be a stretch for elemental bromine under a lamp. STEP ROLE: as on Step 1, a process claim to one transformation whose only step is equally the first and the last. The tag category is single-valued and takes step_role:final_step for a chain of one step, per PROMPT-CORRECTIONS section 10a. The step really is both; the field holds one value and this sentence carries the other. A0 estimated two steps for this section and two records are emitted, so there is no disagreement to explain. The two independent process claims are alternatives, not a sequence: neither one's product is the other's starting material, both start from the same formula I genus and both end at the same formula II genus, so precursor_step is null on both and the linkage tag is standalone. The prior-sections reaction registry is empty for this patent, which is a single-transformation process patent, so no cross-section linkage was available either. Every drawing in this section is a single Markush structure of formula I or formula II with variable R1 and R2, and every IMAGE_EXTRACT span carries no molecules because the vision pass correctly refused a SMILES for a generic. There is no drawn reaction scheme anywhere in this patent, so no structure reached this record from a drawing and none of drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn or route_attribution_unclear can arise; none is raised. Claims 1 to 5 are printed 1-5 (Canceled) and have no text, so they yield no record. Claims 19 and 20 are compound claims to formula II per se, not processes, so they yield no reaction record either; the compound they exclude is carried on the A1 compound record for this section. Being process claims, no charge, no time, no yield and no workup is stated anywhere in this section, and that absence is the document rather than a gap: no_conditions is not raised because a temperature is stated, and no mass balance can be computed because no mass is printed."
+  }
+]

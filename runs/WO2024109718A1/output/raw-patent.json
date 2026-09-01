@@ -1,0 +1,21 @@
+{
+  "patent_summary": "The document discloses a route to the triketone herbicide tembotrione (环磺酮, rendered \"cyclosulfonone\" in the publication's own English text) from 3-chloro-2-methylaniline: diazotisation and reaction with sodium methanethiolate to the aryl methyl sulfide (VI), ring bromination to (I), hydrogen peroxide oxidation of the sulfide to the methylsulfonyl compound (II), free-radical benzylic bromination to (III), displacement of the benzylic bromide by an alkali metal 2,2,2-trifluoroethoxide to (IV), and palladium-catalysed carbonylation of the aryl bromide (IV) either to the benzoic acid (V), which is taken on through the acid chloride and O-acylation of cyclohexane-1,3-dione, or directly to the enol ester (VIII) in the presence of cyclohexane-1,3-dione, a cyanide source then effecting the rearrangement of the enol ester to tembotrione either stepwise or in one pot. The document also claims the intermediate compounds of a general formula (A) covering four R1/R2 combinations, and their use as intermediates in preparing tembotrione.",
+  "novelty_claims": "Claim 1 is drafted as \"a process for preparing tembotrione, characterised in that it comprises any one of the following steps\", and the steps it turns on are the carbonylations (v) of the aryl bromide (IV) to the acid (V) and (v') of (IV) directly to the cyclohexane-1,3-dione enol ester (VIII); claim 3 recites carrying these out \"in the presence of a noble metal catalyst and a phosphine ligand or a salt thereof\", preferably palladium with 1,4-bis(diphenylphosphino)butane or a related ligand, and claim 9 offers step (vi') \"either stepwise with isolation of the intermediate ester compound, or in a one-pot manner without isolating the intermediate ester compound\". The background states specific objections to the route it says is widely used at present: it \"has 11 steps in total\", the acetyl chloride Friedel-Crafts reaction \"is highly irritating\" and its work-up \"produces a large amount of waste water containing the catalyst aluminium trichloride\", the following hypochlorite haloform reaction produces \"a large amount of waste water containing sodium chloride\", and attaching an acetyl group only to cleave the methyl group off again is \"unreasonable from the point of view of raw-material economy\". Against those objections the invention is positioned at [0009] as preparing tembotrione \"in fewer steps than the above existing process route, saving cost and improving production efficiency\", the carbonylation of the aryl bromide standing in for the Friedel-Crafts acetylation and haloform oxidation pair. The second thing positioned as new is a compound rather than a process: claim 11 claims the compounds of formula (A) per se over four R1/R2 combinations, and claims 13 and 14 claim, respectively, a preparation of tembotrione using them as intermediates and the use of those compounds as intermediates.",
+  "key_examples": [],
+  "tags": [
+    "domain:agrochemical",
+    "target_class:herbicide",
+    "claim_type:process",
+    "claim_type:composition",
+    "claim_type:intermediate",
+    "claim_type:use",
+    "novelty:new_process",
+    "novelty:new_compound",
+    "novelty:green_chemistry",
+    "process_focus:batch",
+    "process_focus:one_pot"
+  ],
+  "honest_uncertainty_flags": [
+    "key_examples_not_referenced"
+  ]
+}

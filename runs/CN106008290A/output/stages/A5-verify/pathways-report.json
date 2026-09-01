@@ -1,0 +1,311 @@
+{
+  "artifact": "pathways",
+  "records_audited": 9,
+  "findings": [
+    {
+      "check": "recall",
+      "severity": "major",
+      "record": null,
+      "field": null,
+      "problem": "No pathway is emitted for the Claims section, although claim 1 recites the whole two step route in words and carries both drawn schemes, and the reference run CN104292137A emits a Claims scoped pathway.",
+      "source_line": 47,
+      "quote": "步骤a：以2-氯-3-溴甲基-4-甲確基苯甲酸甲酯与三氟乙醇钠为反应底物，加入MOH或M2CO3，在反应溶剂中进行反应，获得2-氯-3-三氟乙氧甲基-4-甲確基苯甲酸",
+      "artifact_says": "nine pathways, none with section_label \"Claims\"",
+      "should_be": "Emit a section pathway for Claims over the claim 1 steps a and b and their two drawn schemes. The exclusion originates upstream: output/00-sections.json sets contains_procedure false for Claims to avoid double counting the schemes, so the correction belongs in A0/A2, not in this artifact.",
+      "confidence": "medium"
+    },
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "Example 2_Step a",
+      "field": "is_one_pot",
+      "problem": "This step records only the etherification, but the material it isolates is 化合物II, which line 95 defines as the free benzoic acid, so the methyl ester cleavage happened in the same pot and is not recorded anywhere; the identical step in Example 1 records it with is_one_pot true and transformation:hydrolysis.",
+      "source_line": 149,
+      "quote": "取1.2mol(146.4g)三氟乙醇钠,1.2mol(67.2g)氢氧化钾,1.0mol(318g)2-氯-3-溴甲基-4-甲確基苯甲酸甲酯(化合物I)…干燥得化合物II,称重得321.7g,收率93%。",
+      "artifact_says": "is_one_pot false, one_pot_steps [], reaction_class nucleophilic_substitution, tags carry transformation:etherification only",
+      "should_be": "is_one_pot true with the two transformations in one_pot_steps and reaction_class from the final one, as Example 1_Step a already does. Three independent pieces of evidence: line 95 defines 化合物II as 2-氯-3-三氟乙氧甲基-4-甲確基苯甲酸 (the free acid); scheme (1) on p04 draws CH3OH as a byproduct of step a; and 321.7 g at 93 percent of 1.0 mol implies 345.9 g/mol, which matches the free acid C11H10ClF3O5S 346.70 and not the methyl ester C12H12ClF3O5S 360.73.",
+      "confidence": "high"
+    },
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "Example 3_Step a",
+      "field": "is_one_pot",
+      "problem": "This step records only the etherification, but the material it isolates is 化合物II, which line 95 defines as the free benzoic acid, so the methyl ester cleavage happened in the same pot and is not recorded anywhere; the identical step in Example 1 records it with is_one_pot true and transformation:hydrolysis.",
+      "source_line": 157,
+      "quote": "取1.1mol(134.2g)三氟乙醇钠,1.2mol(129.6g)碳酸钠,1.0mol(318g)2-氯-3-溴甲基-4-甲確基苯甲酸甲酯(化合物I)…干燥得化合物II,称重得311.4g,收率90%。",
+      "artifact_says": "is_one_pot false, one_pot_steps [], reaction_class nucleophilic_substitution, tags carry transformation:etherification only",
+      "should_be": "is_one_pot true with the two transformations in one_pot_steps and reaction_class from the final one, as Example 1_Step a already does. Three independent pieces of evidence: line 95 defines 化合物II as 2-氯-3-三氟乙氧甲基-4-甲確基苯甲酸 (the free acid); scheme (1) on p04 draws CH3OH as a byproduct of step a; and 311.4 g at 90 percent of 1.0 mol implies 346.0 g/mol, which matches the free acid C11H10ClF3O5S 346.70 and not the methyl ester C12H12ClF3O5S 360.73.",
+      "confidence": "high"
+    },
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "Example 4_Step a",
+      "field": "is_one_pot",
+      "problem": "This step records only the etherification, but the material it isolates is 化合物II, which line 95 defines as the free benzoic acid, so the methyl ester cleavage happened in the same pot and is not recorded anywhere; the identical step in Example 1 records it with is_one_pot true and transformation:hydrolysis.",
+      "source_line": 165,
+      "quote": "取1.1mol(134.2g)三氟乙醇钠,1.2mol(166.8g)碳酸钾,1.0mol(318g)2-氯-3-溴甲基-4-甲確基苯甲酸甲酯(化合物I)…干燥得化合物II,称重得321.7g,收率93%。",
+      "artifact_says": "is_one_pot false, one_pot_steps [], reaction_class nucleophilic_substitution, tags carry transformation:etherification only",
+      "should_be": "is_one_pot true with the two transformations in one_pot_steps and reaction_class from the final one, as Example 1_Step a already does. Three independent pieces of evidence: line 95 defines 化合物II as 2-氯-3-三氟乙氧甲基-4-甲確基苯甲酸 (the free acid); scheme (1) on p04 draws CH3OH as a byproduct of step a; and 321.7 g at 93 percent of 1.0 mol implies 345.9 g/mol, which matches the free acid C11H10ClF3O5S 346.70 and not the methyl ester C12H12ClF3O5S 360.73.",
+      "confidence": "high"
+    },
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "Example 5_Step a",
+      "field": "is_one_pot",
+      "problem": "This step records only the etherification, but the material it isolates is 化合物II, which line 95 defines as the free benzoic acid, so the methyl ester cleavage happened in the same pot and is not recorded anywhere; the identical step in Example 1 records it with is_one_pot true and transformation:hydrolysis.",
+      "source_line": 173,
+      "quote": "取1.1mol(134.2g)三氟乙醇钠,1.2mol(28.8g)氢氧化钬,1.0mol(318g)2-氯-3-溴甲基-4-甲確基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器",
+      "artifact_says": "is_one_pot false, one_pot_steps [], reaction_class nucleophilic_substitution, tags carry transformation:etherification only",
+      "should_be": "is_one_pot true with the two transformations in one_pot_steps and reaction_class from the final one, as Example 1_Step a already does. Three independent pieces of evidence: line 95 defines 化合物II as 2-氯-3-三氟乙氧甲基-4-甲確基苯甲酸 (the free acid); scheme (1) on p04 draws CH3OH as a byproduct of step a; and 318.3 g at 92 percent of 1.0 mol implies 346.0 g/mol, which matches the free acid C11H10ClF3O5S 346.70 and not the methyl ester C12H12ClF3O5S 360.73.",
+      "confidence": "high"
+    },
+    {
+      "check": "arithmetic",
+      "severity": "major",
+      "record": "Example 3_Step b",
+      "field": "validation_flags",
+      "problem": "The step charges 1 mol of 化合物II while the preceding step isolated 311.4 g, which is 0.898 mol of the free acid, and no scale_discontinuity flag is raised, although Examples 1, 2 and 4 raise it on the same arithmetic.",
+      "source_line": 159,
+      "quote": "步骤b:取1mol上述反应所得的化合物II,溶解在1000mL的二氯乙烷中",
+      "artifact_says": "validation_flags ['molar_mass_inconsistent', 'mass_balance_implausible']; pathway honest_uncertainty_flags omit scale_discontinuity_in_chain",
+      "should_be": "Add scale_discontinuity to Example 3_Step b validation_flags and scale_discontinuity_in_chain to the Example 3 pathway honest_uncertainty_flags. 311.4 g / 346.70 g/mol = 0.898 mol against 1 mol charged.",
+      "confidence": "high"
+    },
+    {
+      "check": "arithmetic",
+      "severity": "major",
+      "record": "Example 5_Step b",
+      "field": "validation_flags",
+      "problem": "The step charges 1 mol of 化合物II while the preceding step isolated 318.3 g, which is 0.918 mol of the free acid, and no scale_discontinuity flag is raised, although Examples 1, 2 and 4 raise it on the same arithmetic.",
+      "source_line": 180,
+      "quote": "步骤b：取1mol上述反应所得的化合物II，溶解在1000mL的环己烷中",
+      "artifact_says": "validation_flags ['molar_mass_inconsistent', 'mass_balance_implausible']; pathway honest_uncertainty_flags omit scale_discontinuity_in_chain",
+      "should_be": "Add scale_discontinuity to Example 5_Step b validation_flags and scale_discontinuity_in_chain to the Example 5 pathway honest_uncertainty_flags. 318.3 g / 346.70 g/mol = 0.918 mol against 1 mol charged.",
+      "confidence": "high"
+    },
+    {
+      "check": "translation",
+      "severity": "minor",
+      "record": "Example 3_Step b",
+      "field": "compounds[].identifier",
+      "problem": "The reaction solvent is carried as the untranslated Chinese string 二氯乙烷 while the same solvent is carried in English in Example 1_Step b.",
+      "source_line": 159,
+      "quote": "溶解在1000mL的二氯乙烷中",
+      "artifact_says": "identifier \"二氯乙烷\", role solvent, volume_ml 1000.0",
+      "should_be": "\"dichloroethane\". The Chinese here does not carry the 1,2- locant that Example 1 prints, so do not silently upgrade it to 1,2-dichloroethane.",
+      "confidence": "high"
+    },
+    {
+      "check": "translation",
+      "severity": "minor",
+      "record": "Example 3_Step b",
+      "field": "compounds[].identifier",
+      "problem": "A compound identifier is the garbled token 甲、醇, which is 甲醇 (methanol) with the page's misplaced enumeration comma inside it.",
+      "source_line": 159,
+      "quote": "然后水洗、减压浓缩加甲、醇打浆、过滤、干燥",
+      "artifact_says": "identifier \"甲、醇\", role solvent",
+      "should_be": "\"methanol\". I read p06 paragraph [0034] directly and the page does print 加甲、醇打浆, so the stray comma is the patent's own typesetting, not a transcription error; the other four examples all print 加甲醇打浆.",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "Example 5_Step a",
+      "field": "compounds[].role",
+      "problem": "The role workup_agent is not in the closed role list, and the same 300 mL of workup water is role solvent in Examples 1 to 4.",
+      "source_line": 173,
+      "quote": "将残液加入300mL水中",
+      "artifact_says": "water, role \"workup_agent\"",
+      "should_be": "One of the closed list values in A1 rule 9 (product | reactant | reagent | solvent | catalyst | ligand | base | acid | oxidant | reductant | by_product | additive | drying_agent | other); use solvent to match the other four examples.",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "Example 5_Step b",
+      "field": "compounds[].role",
+      "problem": "The role workup_agent is not in the closed role list, and the same wash water is role solvent in Examples 1 to 4.",
+      "source_line": 180,
+      "quote": "然后经过水洗、减压浓缩、加甲醇打浆",
+      "artifact_says": "water, role \"workup_agent\"",
+      "should_be": "One of the closed list values in A1 rule 9; use solvent to match the other four examples.",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "Summary of the Invention_Scheme Step 1",
+      "field": "compounds[].role",
+      "problem": "Two drawn byproducts carry role byproduct, which is not the closed list spelling by_product.",
+      "source_line": 98,
+      "quote": "[IMAGE_EXTRACT: {\"reactions\": [{\"step_id\": 1, \"reactants\": [{\"smiles\": \"COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl\"",
+      "artifact_says": "methanol and sodium bromide, role \"byproduct\"",
+      "should_be": "role \"by_product\" for both.",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "Summary of the Invention_Scheme Step 2",
+      "field": "compounds[].role",
+      "problem": "The drawn byproduct water carries role byproduct, which is not the closed list spelling by_product.",
+      "source_line": 103,
+      "quote": "[IMAGE_EXTRACT: {\"reactions\": [{\"step_id\": 1, \"reactants\": [{\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F\"",
+      "artifact_says": "water, role \"byproduct\"",
+      "should_be": "role \"by_product\".",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "Example 1_Step a",
+      "field": "conditions.ph_target_stage",
+      "problem": "ph_target_stage is populated although the document prints no pH number, which A2 rule 9 restricts to the case where a number is given, and it is populated on Examples 1, 2 and 3 but not on Examples 4 and 5 for the identical sentence.",
+      "source_line": 138,
+      "quote": "用35％的盐酸调pH至弱酸性",
+      "artifact_says": "\"workup: the aqueous residue is adjusted to weakly acidic (弱酸性) with 35％ hydrochloric acid before cooling to crystallise\"",
+      "should_be": "null on all five, with the qualitative target left in the hydrochloric acid addition_profile where it already is; alternatively populate all five identically, but not three of five.",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "Summary of the Invention_Step 1",
+      "field": "conditions.time_h",
+      "problem": "The reaction time range the section prints for step a is not carried, although the temperature range from the same sentence is carried in conditions.temperature.min_c and max_c.",
+      "source_line": 114,
+      "quote": "[0014] 进一步地，所述步骤a中，反应温度为0-5℃，反应时间为2-10小时。",
+      "artifact_says": "conditions.time_h null and time_h null while conditions.temperature is {type: range, min_c: 0.0, max_c: 5.0}",
+      "should_be": "There is no range field for time in the schema, so the value cannot be stored as printed; record the 2-10 hour range in notes and raise a flag so the loss is visible, rather than leaving a silent null next to a captured temperature range.",
+      "confidence": "medium"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "Summary of the Invention_Step 2",
+      "field": "conditions.time_h",
+      "problem": "The reaction time range the section prints for step b is not carried, although the temperature range from the same sentence is carried in conditions.temperature.min_c and max_c.",
+      "source_line": 122,
+      "quote": "[0018] 进一步地，所述步骤b中，缩合反应的温度为-10-30℃，反应时间为0.5-12h。",
+      "artifact_says": "conditions.time_h null and time_h null while conditions.temperature is {type: range, min_c: -10.0, max_c: 30.0}",
+      "should_be": "Record the 0.5-12 h range in notes and raise a flag; the schema has no range field for time.",
+      "confidence": "medium"
+    },
+    {
+      "check": "drawings",
+      "severity": "minor",
+      "record": "Summary of the Invention_Scheme Step 1",
+      "field": null,
+      "problem": "The IMAGE_EXTRACT for scheme (1) records only compound I as a reactant and nothing as a product side byproduct, but the page draws a second reactant on the baseline and two byproducts to the right of the product.",
+      "source_line": 98,
+      "quote": "[IMAGE_EXTRACT: {\"reactions\": [{\"step_id\": 1, \"reactants\": [{\"smiles\": \"COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl\", \"molecular_formula\": \"C10H10BrClO4S\"",
+      "artifact_says": "the extract lists reactants [compound I], conditions [MOH/M2CO3], products [compound II]",
+      "should_be": "The extract should also carry CF3CH2ONa as a reactant and CH3OH and NaBr as byproducts. I read p04 [0008] and p02 directly: the scheme prints \"+ CF3CH2ONa\" on the baseline before the arrow, MOH/M2CO3 above the arrow, and \"+ CH3OH + NaBr\" after the product. The pathways artifact does carry all four species, so this is a defect of the enriched markdown transcription and not of the artifact.",
+      "confidence": "high"
+    },
+    {
+      "check": "drawings",
+      "severity": "minor",
+      "record": "Summary of the Invention_Scheme Step 2",
+      "field": null,
+      "problem": "The IMAGE_EXTRACT for scheme (2) records no byproduct, but the page draws water as a byproduct of the condensation.",
+      "source_line": 103,
+      "quote": "[IMAGE_EXTRACT: {\"reactions\": [{\"step_id\": 1, \"reactants\": [{\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F\"",
+      "artifact_says": "the extract lists products [tembotrione] only",
+      "should_be": "The extract should carry H2O as a byproduct. I read p04 [0010] and p02 directly: the scheme prints \"+ H2O\" after compound IV. The artifact does carry water, so this is a transcription defect and not an artifact defect.",
+      "confidence": "high"
+    },
+    {
+      "check": "schema",
+      "severity": "minor",
+      "record": "Example 1_Step a",
+      "field": "components",
+      "problem": "components carries sodium hydroxide, whose role on this step is base, contrary to A3 rule 12, which says components is the reactants plus the product and not reagents, bases, catalysts or solvents.",
+      "source_line": 138,
+      "quote": "1.2mol(48g)氢氧化钠",
+      "artifact_says": "components ['methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate', 'sodium 2,2,2-trifluoroethoxide', 'sodium hydroxide', '化合物II'] on both the section and the patent scoped record",
+      "should_be": "Drop the base, giving three entries. The same defect is on Background_Step 1 (potassium tert-butoxide, role base) and Background_Step 2 (thionyl chloride, role reagent). Held at minor and medium confidence because the fault is inherited from A2's reactant_names and the reference run CN104292137A does the same thing at Claims_Step 6 and Example 1_Step 6, so the rule and the reference disagree and that needs settling before anything is changed.",
+      "confidence": "medium"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "Example 2_Step a",
+      "field": "tags",
+      "problem": "workup_type tags are derived inconsistently across five clones of the same procedure, so seven of the ten example steps under-report operations the text prints.",
+      "source_line": 149,
+      "quote": "冷却结晶,过滤,水洗,干燥得化合物II",
+      "artifact_says": "Example 2_Step a carries workup_type:distillation only",
+      "should_be": "Complete each tag set from the printed operations. Missing values: Example 2_Step a crystallisation and filtration; Example 3_Step a distillation and filtration; Example 5_Step a filtration; Example 2_Step b and Example 3_Step b aqueous_extraction and filtration; Example 4_Step b trituration; Example 5_Step b aqueous_extraction. Examples 1 and 4 step a and Example 1 step b are complete.",
+      "confidence": "high"
+    }
+  ],
+  "checks_passed": [
+    {
+      "check": "linkage",
+      "what_was_verified": "Every precursor_step in all nine pathways resolves to a step in the same chain, and every linkage_confirmed true is substantiated by an identifier match plus an explicit textual back reference. Example N_Step b to Step a rests on 取1mol上述反应所得的化合物II at lines 140, 151, 159, 167 and 180, and 化合物II is the exact product identifier of Step a. Background_Step 2 to Step 1 rests on the acid identifier appearing in Step 2 reactants. Background_Step 3 and Step 4 carry precursor_step with linkage_confirmed false, which is right because those steps record no matching product identifier. No linkage_confirmed true is unsupported and no genuine link is left null."
+    },
+    {
+      "check": "linkage",
+      "what_was_verified": "The artifact neither chains alternatives nor splits a continuous route. The Background chain is continuous in the document: line 85 reads 制备关键中间体2-氯-3-三氟乙氧甲基-4-甲確基苯甲酸然后羟基酰氯化成酯后重排法, and 然后 (then) makes the alkoxide half and the acyl chloride / ester / rearrangement half one route, so chaining Steps 1 to 4 is correct. Examples 1 to 5 are five alternative runs, each headed 另一种环確酮的制备方法 (another method) at lines 147, 155, 163 and 171, and they are correctly emitted as five separate two step pathways with no cross links."
+    },
+    {
+      "check": "linkage",
+      "what_was_verified": "The two pathways that share section_label \"Summary of the Invention\" are not a duplication defect. A2 rule 5f requires the prose recital and the drawn scheme of that section to be emitted as separate step series distinguished by step_label, and the reference run runs/CN104292137A/output/pathways.json carries exactly the same pair. The scheme records also differ in content, carrying the drawn byproducts the prose does not."
+    },
+    {
+      "check": "arithmetic",
+      "what_was_verified": "Recomputed every printed mass, mole and yield triple independently. Step a closes against the free acid C11H10ClF3O5S 346.70 in all five examples (implied 345.9, 345.9, 346.0, 345.9, 346.0 g/mol) and not against the methyl ester 360.73. Step b does not close in any example: the implied product masses at the printed yields are 380.4, 379.1, 385.7, 353.1 and 369.8 g against printed 366.4, 362.5, 375.4, 332.9 and 355.5, and all five carry mass_balance_implausible. The compound I charge 318 g / 1.0 mol implies 318.0 against C10H10BrClO4S 341.60 in all five, and all five step a records carry molar_mass_inconsistent. 1,3-cyclohexanedione implies 98.0, 112.0, 98.0, 98.0 and 97.0 g/mol against C6H8O2 112.13, and molar_mass_inconsistent is present on step b exactly where it should be, including its correct absence on Example 2 where 145.6 g / 1.3 mol closes. Also verified pyridine 152 g / 1 mol against 79.10 in Example 4, and that CDI, HBTU, HOBT, DBU, triethylamine, NaOH, KOH, LiOH, Na2CO3 and K2CO3 all close."
+    },
+    {
+      "check": "arithmetic",
+      "what_was_verified": "overall_yield_pct recomputed for all five examples and the patent record as the product of the two printed step yields: 78.53, 79.98, 78.75, 74.49, 77.19, all correct to two decimals. overall_purity_pct equals the terminal step product_purity_pct in every case (96.5, 95.8, 97.5, 94.6, 96.3), and is null where no yield is printed (Background and both Summary pathways), with yield_missing_step raised."
+    },
+    {
+      "check": "drawings",
+      "what_was_verified": "Opened p02 and p04 and checked both drawn schemes substituent by substituent against the IMAGE_EXTRACT SMILES. Compound I is drawn with the methyl ester at C1, Cl at C2, CH2Br at C3 and SO2CH3 at C4, which is what COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl encodes. Compound II keeps Cl at C2, CH2OCH2CF3 at C3 and SO2CH3 at C4 with the free acid at C1. Compound IV is the 2 acyl cyclohexane 1,3 dione with the same aryl substitution, matching C17H16ClF3O6S. No substituent position was inferred rather than read. The two schemes on p02 and p04 are the same drawings."
+    },
+    {
+      "check": "drawings",
+      "what_was_verified": "Above arrow and below arrow reagents were not merged. In scheme (2) the page writes 缩合剂 above the arrow and 碱催化剂 below it, and the extract at lines 53 and 103 carries them as two separate conditions entries. In scheme (1) MOH/M2CO3 is above the arrow with nothing below, recorded as one entry."
+    },
+    {
+      "check": "drawings",
+      "what_was_verified": "No drawn scheme was attributed to the wrong route. The Background section (lines 85 to 88) contains no drawing at all, so nothing prior art was annotated as the invention's route, and the only two drawn schemes stand under 发明内容 at lines 98 and 103 and in claim 1, which is the invention's own route. No route_attribution_unclear case arises."
+    },
+    {
+      "check": "precision",
+      "what_was_verified": "No fabricated conditions. Every atmosphere, pressure, reactor_type, stirring, light_source, cooling_method and heating_method field is null or not_specified where the document is silent; no atmosphere is set to nitrogen anywhere. 保温 is recorded as an isothermal hold rather than a heating method, no temperature range is flattened to a point, no reflux is recorded as a number, and reactor_type is the literal 反应器 rendered as \"reactor\" with no invented volume."
+    },
+    {
+      "check": "precision",
+      "what_was_verified": "The artifact contains no SMILES, no molecular formula and no molecular weight in any field, and every enrichment field listed in A3 rule 13 is null on all 20 steps and all 9 pathways. The em dash character count over the whole file is zero."
+    },
+    {
+      "check": "schema",
+      "what_was_verified": "Top level and step key sets are identical to the reference run runs/CN104292137A/output/stages/A3-pathways/pathways.json, with pathway_uuid as the only added key, which finalise.py fills and which the reference run's own finalised output/pathways.json also carries. compound_uuid and reaction_uuid are likewise present in the reference finalised artifact, so they are not fields that should have been omitted. Pathway tags are the exact union of the step tags plus the four derived categories, and chain_length, branching, convergence and lcl are correct for every pathway (Background 4 steps gives chain_length:4 and lcl:medium; the other eight give chain_length:2 and lcl:short)."
+    },
+    {
+      "check": "translation",
+      "what_was_verified": "Compared every compound and reagent against the Chinese on its line. 环確酮 is rendered tembotrione and not sulcotrione (確草酮), 二氯亚砜 is thionyl chloride, 丙酮氰醇 is acetone cyanohydrin and not 氰基丙酮, 叔丁醇钾 is potassium tert butoxide, 三氟乙醇钠 is sodium trifluoroethoxide and 三氟乙醇 is trifluoroethanol, and the five step a bases (氢氧化钠, 氢氧化钾, 碳酸钠, 碳酸钾, 氢氧化钬) and five step b bases and condensing agents all match. No case was found where the Chinese and the English gloss name different things, so no translation_conflict is owed. 化合物II is deliberately left untranslated and that is defensible: A1 recorded the label, line 95 defines it, and the pathway carries intermediate_label_undefined_in_section."
+    },
+    {
+      "check": "recall",
+      "what_was_verified": "Checked solvents, washes and drying steps explicitly rather than skimming. All five step a records carry DMF 1000 mL and workup water 300 mL and hydrochloric acid; all five step b records carry the 1000 mL reaction solvent, the wash water and the methanol slurry with no amount, which is what the document prints. The twelve alternative solvents each paragraph lists are correctly absent from compounds[] since they were not charged. Drying (干燥) is in workup.steps with drying_agent null, which is right because no drying agent is named."
+    },
+    {
+      "check": "recall",
+      "what_was_verified": "ksm null on the Background pathway is correct and is not the missing datum it looks like. Line 39 does name the prior art substrate (克服了传统方法中用2-氯-3-溴甲基-4-甲確基苯甲酸甲酯和三氟乙醇、叔丁醇钾制备), but that line is in the Abstract, and A3 rule 3 forbids inferring the substrate from the product or from the rest of the document. The null plus ksm_not_stated is the required behaviour, so I raise nothing against it."
+    }
+  ],
+  "recall_estimate": {
+    "found_in_text": 10,
+    "present_in_artifact": 9,
+    "missing": [
+      "section pathway for Claims: claim 1 at lines 45 to 55 recites steps a and b with both drawn schemes, and the reference run emits a Claims scoped pathway"
+    ]
+  }
+}

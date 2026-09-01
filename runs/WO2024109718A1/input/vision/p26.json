@@ -1,0 +1,412 @@
+{
+  "page": "p26.png",
+  "page_label": "25",
+  "doc_part": "claims",
+  "header": "25 / WO 2024/109718    PCT/CN2023/132821",
+  "footer": "",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "步骤(iii')中，溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素；",
+      "en": "In step (iii'), the brominating reagent is bromine, N-bromosuccinimide, or a combination of hydrogen bromide and hydrogen peroxide, preferably bromine;",
+      "notes": "Continuation of a claim that began on the previous page; this line follows scheme (iv'). 溴素 is literally 'bromine (element)'."
+    },
+    {
+      "marker": null,
+      "zh": "步骤(iv')中，CF3CH2OM为CF3CH2ONa或CF3CH2OK。",
+      "en": "In step (iv'), CF3CH2OM is CF3CH2ONa or CF3CH2OK.",
+      "notes": "Printed with subscript digits: CF₃CH₂OM, CF₃CH₂ONa, CF₃CH₂OK. Transcribed here without subscript formatting."
+    },
+    {
+      "marker": "[权利要求 7]",
+      "zh": "根据权利要求1至6中任意一项所述的方法，包括如下所示的中间体制备步骤：",
+      "en": "The process according to any one of claims 1 to 6, comprising the intermediate preparation steps shown below:",
+      "notes": null
+    },
+    {
+      "marker": "[权利要求 8]",
+      "zh": "根据权利要求7所述的方法，所述中间体制备步骤如下：",
+      "en": "The process according to claim 7, wherein the intermediate preparation steps are as follows:",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "式中，溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素；CF3CH2OM为CF3CH2ONa或CF3CH2OK。",
+      "en": "In the formulae, the brominating reagent is bromine, N-bromosuccinimide, or a combination of hydrogen bromide and hydrogen peroxide, preferably bromine; CF3CH2OM is CF3CH2ONa or CF3CH2OK.",
+      "notes": "Belongs to claim 8, following its scheme. Subscripts as printed: CF₃CH₂OM etc."
+    },
+    {
+      "marker": "[权利要求 9]",
+      "zh": "根据权利要求7或8所述的方法，进一步包括如下步骤：",
+      "en": "The process according to claim 7 or 8, further comprising the following step:",
+      "notes": "Last line of body text on the page; the step itself continues on the next page."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "scheme",
+      "between_markers": [null, "[权利要求 7]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, left of scheme (ii')",
+          "core": "benzene",
+          "substituents": [
+            "Br at C4",
+            "Cl at C3",
+            "CH3 at C2",
+            "SCH3 at C1"
+          ],
+          "name": "4-bromo-3-chloro-2-methyl-1-(methylsulfanyl)benzene",
+          "smiles": "CSc1ccc(Br)c(Cl)c1C",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, right of scheme (ii')",
+          "core": "benzene",
+          "substituents": [
+            "Br at C4",
+            "Cl at C3",
+            "CH3 at C2",
+            "SO2CH3 at C1"
+          ],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfonyl)benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1C",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": ["H2O2"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Labelled (ii') at the right. Four substituents drawn contiguously around the ring: Br upper-left vertex, Cl top vertex, CH3 upper-right vertex, S-substituent lower-right vertex; the two remaining vertices are unsubstituted. Numbering above is derived only from that drawn adjacency."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": [null, "[权利要求 7]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, left of scheme (iii')",
+          "core": "benzene",
+          "substituents": [
+            "Br at C4",
+            "Cl at C3",
+            "CH3 at C2",
+            "SO2CH3 at C1"
+          ],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfonyl)benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1C",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, right of scheme (iii')",
+          "core": "benzene",
+          "substituents": [
+            "Br at C4",
+            "Cl at C3",
+            "CH2Br at C2",
+            "SO2CH3 at C1"
+          ],
+          "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methylsulfonyl)benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": ["溴代试剂 (brominating reagent)"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Labelled (iii') at the right. Same ring drawing convention as (ii')."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": [null, "[权利要求 7]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, left of scheme (iv')",
+          "core": "benzene",
+          "substituents": [
+            "Br at C4",
+            "Cl at C3",
+            "CH2Br at C2",
+            "SO2CH3 at C1"
+          ],
+          "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methylsulfonyl)benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, right of scheme (iv')",
+          "core": "benzene",
+          "substituents": [
+            "Br at C4",
+            "Cl at C3",
+            "CH2OCH2CF3 at C2",
+            "SO2CH3 at C1"
+          ],
+          "name": "1-bromo-2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": ["CF3CH2OM"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Labelled (iv') at the right, followed by a full-width period. The side chain is drawn CH2-O-CH2-CF3."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": ["[权利要求 7]", "[权利要求 8]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, leftmost",
+          "core": "benzene",
+          "substituents": [
+            "Cl at C3",
+            "CH3 at C2",
+            "SCH3 at C1"
+          ],
+          "name": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+          "smiles": "CSc1cccc(Cl)c1C",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd",
+          "core": "benzene",
+          "substituents": [
+            "Br at C4",
+            "Cl at C3",
+            "CH3 at C2",
+            "SCH3 at C1"
+          ],
+          "name": "4-bromo-3-chloro-2-methyl-1-(methylsulfanyl)benzene",
+          "smiles": "CSc1ccc(Br)c(Cl)c1C",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "3rd",
+          "core": "benzene",
+          "substituents": [
+            "Br at C4",
+            "Cl at C3",
+            "CH3 at C2",
+            "SO2CH3 at C1"
+          ],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfonyl)benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1C",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "4th",
+          "core": "benzene",
+          "substituents": [
+            "Br at C4",
+            "Cl at C3",
+            "CH2Br at C2",
+            "SO2CH3 at C1"
+          ],
+          "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methylsulfonyl)benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "5th, rightmost",
+          "core": "benzene",
+          "substituents": [
+            "Br at C4",
+            "Cl at C3",
+            "CH2OCH2CF3 at C2",
+            "SO2CH3 at C1"
+          ],
+          "name": "1-bromo-2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "2nd",
+          "to_structure": "3rd",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "3rd",
+          "to_structure": "4th",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "4th",
+          "to_structure": "5th",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Claim 7 scheme, reduced in size. All four arrows are bare: nothing is written above or below any of them. A vertical change bar runs down the right margin beside this block, annotated 细则 26, 26.12.2023 (Rule 26 amendment, 26.12.2023). A small full-width period follows the last structure."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": ["[权利要求 8]", "[权利要求 9]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, leftmost",
+          "core": "benzene",
+          "substituents": [
+            "Cl at C3",
+            "CH3 at C2",
+            "SCH3 at C1"
+          ],
+          "name": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+          "smiles": "CSc1cccc(Cl)c1C",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd",
+          "core": "benzene",
+          "substituents": [
+            "Br at C4",
+            "Cl at C3",
+            "CH3 at C2",
+            "SCH3 at C1"
+          ],
+          "name": "4-bromo-3-chloro-2-methyl-1-(methylsulfanyl)benzene",
+          "smiles": "CSc1ccc(Br)c(Cl)c1C",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "3rd",
+          "core": "benzene",
+          "substituents": [
+            "Br at C4",
+            "Cl at C3",
+            "CH3 at C2",
+            "SO2CH3 at C1"
+          ],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfonyl)benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1C",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "4th",
+          "core": "benzene",
+          "substituents": [
+            "Br at C4",
+            "Cl at C3",
+            "CH2Br at C2",
+            "SO2CH3 at C1"
+          ],
+          "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methylsulfonyl)benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "5th, rightmost",
+          "core": "benzene",
+          "substituents": [
+            "Br at C4",
+            "Cl at C3",
+            "CH2OCH2CF3 at C2",
+            "SO2CH3 at C1"
+          ],
+          "name": "1-bromo-2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": ["Br2"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "2nd",
+          "to_structure": "3rd",
+          "reagents_above": ["H2O2"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "3rd",
+          "to_structure": "4th",
+          "reagents_above": ["溴代试剂 (brominating reagent)"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "medium"
+        },
+        {
+          "from_structure": "4th",
+          "to_structure": "5th",
+          "reagents_above": ["CF3CH2OM"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Claim 8 scheme, same five structures as the claim 7 scheme but with reagents written above each arrow. Printed very small; the 溴代试剂 label over the third arrow is smudged and was read by matching the claim 8 prose below, which names the same reagent."
+    }
+  ],
+  "discrepancies": [
+    {
+      "what": "Scheme (ii') and the claim 8 scheme draw H2O2 as the oxidant for SCH3 to SO2CH3, but no prose on this page names the oxidant.",
+      "drawing_says": "H2O2 above the arrow",
+      "text_says": "nothing about the oxidant on this page"
+    },
+    {
+      "what": "Scheme (i')-equivalent first arrow: the claim 8 scheme draws Br2 for the ring bromination, but no prose on this page defines that reagent.",
+      "drawing_says": "Br2 above the first arrow",
+      "text_says": "nothing about the ring-bromination reagent on this page"
+    },
+    {
+      "what": "The claim 7 scheme carries no reagents at all, while the claim 8 scheme adds them; claim 8 is the narrowing dependent claim, so this is expected rather than a conflict.",
+      "drawing_says": "claim 7 arrows bare, claim 8 arrows labelled Br2 / H2O2 / 溴代试剂 / CF3CH2OM",
+      "text_says": "claim 8 recites 所述中间体制备步骤如下 (the intermediate preparation steps are as follows)"
+    }
+  ],
+  "illegible": [
+    "The 溴代试剂 label above the third arrow of the claim 8 scheme (approx. x 1020-1090, y 1425-1445 in the 1653x2338 page) is printed at about 6 px cap height and is smudged; the reading is inferred from the identical label in scheme (iii') and from the claim 8 prose, not read character by character."
+  ],
+  "page_confidence": "medium"
+}

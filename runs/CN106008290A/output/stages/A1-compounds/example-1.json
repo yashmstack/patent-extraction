@@ -1,0 +1,868 @@
+[
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "sodium 2,2,2-trifluoroethoxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三氟乙醇钠",
+      "sodium trifluoroethoxide"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 134.2,
+      "volume_ml": null,
+      "mmol": 1100.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "Charged in step a. Printed mass and mole pair agree with the molecular weight the name implies."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "sodium hydroxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氢氧化钠"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": 48.0,
+      "volume_ml": null,
+      "mmol": 1200.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "hazard:corrosive"
+    ],
+    "notes": null
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯",
+      "化合物I",
+      "compound I"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 318.0,
+      "volume_ml": null,
+      "mmol": 1000.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:benzoic_acid",
+      "functional_group:ester",
+      "functional_group:sulfone",
+      "functional_group:halide_chloro",
+      "functional_group:halide_bromo"
+    ],
+    "notes": "Printed mass 318g for 1.0mol does not agree with the molecular weight this name implies; both numbers kept as printed. The Chinese prints methylsulfonyl as 甲磺基, without 酰; resolved as printed and not normalised."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "N,N-dimethylformamide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "N,N-二甲基甲酰胺",
+      "DMF"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 1000.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Merged: reaction solvent of step a (1000mL, later distilled off under reduced pressure) and one of the listed alternative solvents for step b."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "water",
+    "identifier_type": "iupac",
+    "aliases": [
+      "水"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 300.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:workup_agent"
+    ],
+    "notes": "Merged: 300mL crystallisation medium in step a, the water wash in step a and the water wash in step b."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "hydrochloric acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "盐酸",
+      "35％的盐酸"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "acid",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:acid",
+      "hazard:corrosive"
+    ],
+    "notes": "Printed as 35％ aqueous hydrochloric acid, used to adjust pH to weakly acidic. No amount given."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "化合物II",
+    "identifier_type": "local_label",
+    "aliases": [
+      "compound II"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": 314.8,
+      "volume_ml": null,
+      "mmol": 1000.0,
+      "equivalents": null,
+      "yield_pct": 91.0
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate"
+    ],
+    "notes": "Local label; this section does not state what compound II is, so it is left unresolved. Merged across the two steps: 314.8g and 91％ are the isolated step a product, 1mol is the step b charge of the same material."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "tembotrione",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "环磺酮",
+      "化合物IV",
+      "compound IV"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": true,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": 366.4,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": 86.3
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": 96.5,
+    "purity_method": null,
+    "tags": [
+      "compound_class:active_ingredient",
+      "chemical_family:cyclohexanedione",
+      "functional_group:sulfone",
+      "functional_group:ketone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "环磺酮 resolves to tembotrione, the 1,3-cyclohexanedione acylated by the 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl group; it is not sulcotrione (磺草酮), a different compound. Final product of the example. Purity 96.5％ printed with no method stated."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "1,2-dichloroethane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,2-二氯乙烷"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 1000.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Merged: one of the listed alternative solvents for step a and the reaction solvent of step b (1000mL)."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "1,3-cyclohexanedione",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,3-环己二酮",
+      "化合物III",
+      "compound III"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 117.6,
+      "volume_ml": null,
+      "mmol": 1200.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:cyclohexanedione",
+      "functional_group:ketone"
+    ],
+    "notes": "Printed mass 117.6g for 1.2mol does not agree with the molecular weight this name implies; both numbers kept as printed. The locant is printed by the text, so the 1,3-isomer needs no inference."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "CDI",
+    "identifier_type": "abbreviation",
+    "aliases": [
+      "缩合剂CDI",
+      "1,1'-carbonyldiimidazole"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": 194.6,
+      "volume_ml": null,
+      "mmol": 1200.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Printed only as the abbreviation CDI, labelled 缩合剂 (condensing agent). Printed mass and mole pair agree with 1,1'-carbonyldiimidazole."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "triethylamine",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三乙胺"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": 121.2,
+      "volume_ml": null,
+      "mmol": 1200.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": null
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "methanol",
+    "identifier_type": "iupac",
+    "aliases": [
+      "甲醇"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Added to slurry the crude product in step b. No amount given."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "hexane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "己烷"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "cyclohexane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "环己烷"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example. 环己烷 is cyclohexane, one glyph from 环己二酮 (cyclohexanedione) which is the step b reactant; they are different compounds."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "benzene",
+    "identifier_type": "iupac",
+    "aliases": [
+      "苯"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "toluene",
+    "identifier_type": "iupac",
+    "aliases": [
+      "甲苯"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "xylene",
+    "identifier_type": "iupac",
+    "aliases": [
+      "二甲苯"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example. Printed without an isomer locant, so it names mixed xylene rather than one isomer."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "dichloromethane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "二氯甲烷"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "chloroform",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氯仿"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "1,4-dioxane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,4-二氧六环"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "diethyl ether",
+    "identifier_type": "iupac",
+    "aliases": [
+      "乙醚"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "tetrahydrofuran",
+    "identifier_type": "iupac",
+    "aliases": [
+      "四氢呋喃"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "acetonitrile",
+    "identifier_type": "iupac",
+    "aliases": [
+      "乙腈"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example."
+  }
+]

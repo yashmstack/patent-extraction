@@ -1,0 +1,75 @@
+{
+  "page": "p42.png",
+  "page_label": "INTERNATIONAL SEARCH REPORT / Information on patent family members / International application No. PCT/CN2023/132821",
+  "doc_part": "front_page",
+  "header": "INTERNATIONAL SEARCH REPORT | Information on patent family members | International application No. PCT/CN2023/132821",
+  "footer": "Form PCT/ISA/210 (patent family annex) (July 2022)",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": null,
+      "en": "Patent document cited in search report | Publication date (day/month/year) | Patent family member(s) | Publication date (day/month/year)",
+      "notes": "Column headings of the patent family annex table. This page is a PCT International Search Report annex sheet, not part of the description or claims; doc_part is set to front_page because the enum has no search_report value, matching p41.json."
+    },
+    {
+      "marker": null,
+      "zh": null,
+      "en": "CN 104292137 A | 21 January 2015 | None",
+      "notes": "First cited document row; no family members."
+    },
+    {
+      "marker": null,
+      "zh": null,
+      "en": "CN 104271560 A | 07 January 2015 | BR 112014027700 A2 27 June 2017; WO 2013168642 A1 14 November 2013; JPWO 2013168642 A1 07 January 2016; JP 6138771 B2 31 May 2017; US 2015119586 A1 30 April 2015; US 9580401 B2 28 February 2017; PL 2848612 T3 29 December 2017; DK 2848612 T3 06 November 2017; EP 2848612 A1 18 March 2015; EP 2848612 A4 09 December 2015; EP 2848612 B1 19 July 2017; KR 20150006840 A 19 January 2015; KR 101947856 B1 13 February 2019; IN [illegible]2014A 10 July 2015; HUE 036623 T2 30 July 2018",
+      "notes": "Second cited document row. The IN family member number is printed with overlapping/overstruck glyphs; only the trailing '2014A' is legible, the preceding characters are unreadable."
+    },
+    {
+      "marker": null,
+      "zh": null,
+      "en": "US 4942246 A | 17 July 1990 | EP 0344775 A1 06 December 1989; EP 0344775 B1 04 August 1993; DE 68908018 D1 09 September 1993; DE 68908018 T2 17 March 1994; JPH 02131470 A 21 May 1990; JP 2699549 B2 19 January 1998; ATE 92475 T1 15 August 1993",
+      "notes": "Third cited document row."
+    },
+    {
+      "marker": null,
+      "zh": null,
+      "en": "CN 113845451 A | 28 December 2021 | None",
+      "notes": "Fourth cited document row; no family members."
+    },
+    {
+      "marker": null,
+      "zh": null,
+      "en": "US 2005282709 A1 | 22 December 2005 | DE 102004029308 A1 29 December 2005; AR 049133 A1 28 June 2006; WO 2005122768 A1 29 December 2005; TW 200603737 A 01 February 2006",
+      "notes": "Fifth cited document row."
+    },
+    {
+      "marker": null,
+      "zh": null,
+      "en": "CN 1968944 A | 23 May 2007 | US 2005282710 A1 22 December 2005; BRPI 0512267 A 26 February 2008; WO 2005123710 A1 29 December 2005; WO 2005123710 A8 16 February 2006; DE 102004029307 A1 29 December 2005; EP 1758877 A1 07 March 2007; EA 200700013 A1 29 June 2007; CA 2570394 A1 29 December 2005; TW 200603732 A 01 February 2006; AR 049347 A1 19 July 2006; IL 179789 A0 15 May 2007; AU 2005254638 A1 29 December 2005; MXPA 06014472 A 01 March 2007; JP 2008502616 A 31 January 2008; KR 20070024609 A 02 March 2007",
+      "notes": "Sixth cited document row."
+    },
+    {
+      "marker": null,
+      "zh": null,
+      "en": "CN 106008290 A | 12 October 2016 | None",
+      "notes": "Seventh cited document row; no family members."
+    },
+    {
+      "marker": null,
+      "zh": null,
+      "en": "CN 109678767 A | 26 April 2019 | None",
+      "notes": "Eighth cited document row; no family members."
+    },
+    {
+      "marker": null,
+      "zh": null,
+      "en": "CN 114560795 A | 31 May 2022 | None",
+      "notes": "Ninth and final cited document row; no family members."
+    }
+  ],
+  "drawings": [],
+  "discrepancies": [],
+  "illegible": [
+    "The IN patent family member number in the CN 104271560 A block (right-hand family column, row between 'KR 101947856 B1' and 'HUE 036623 T2'): the digits before the trailing '2014A' are printed as overlapping/overstruck glyphs and cannot be read."
+  ],
+  "page_confidence": "medium"
+}

@@ -1,0 +1,150 @@
+[
+  {
+    "identifier": "radical initiator",
+    "source_lines": [
+      79,
+      87
+    ],
+    "quote_zh": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art / it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent"
+  },
+  {
+    "identifier": "diaroyl peroxides",
+    "source_lines": [
+      79
+    ],
+    "quote_zh": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide."
+  },
+  {
+    "identifier": "azocarboxylic esters",
+    "source_lines": [
+      79
+    ],
+    "quote_zh": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide."
+  },
+  {
+    "identifier": "azonitriles",
+    "source_lines": [
+      79
+    ],
+    "quote_zh": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide."
+  },
+  {
+    "identifier": "azoisobutyronitrile",
+    "source_lines": [
+      79
+    ],
+    "quote_zh": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide."
+  },
+  {
+    "identifier": "dibenzoyl peroxide",
+    "source_lines": [
+      79
+    ],
+    "quote_zh": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide."
+  },
+  {
+    "identifier": "halogenated hydrocarbons",
+    "source_lines": [
+      83
+    ],
+    "quote_zh": "These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile."
+  },
+  {
+    "identifier": "methylene chloride",
+    "source_lines": [
+      83,
+      85
+    ],
+    "quote_zh": "These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile. It has been found that the solvents chlorobenzene and acetonitrile are advantageous for process variant A), and the solvents chlorobenzene, methylene chloride and 1,2-dichloroethane for process variant B). In the case of the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride, preference is given to working under reflux."
+  },
+  {
+    "identifier": "chloroform",
+    "source_lines": [
+      83
+    ],
+    "quote_zh": "These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile."
+  },
+  {
+    "identifier": "carbon tetrachloride",
+    "source_lines": [
+      83
+    ],
+    "quote_zh": "These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile."
+  },
+  {
+    "identifier": "1,2-dichloroethane",
+    "source_lines": [
+      83,
+      85
+    ],
+    "quote_zh": "These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile. It has been found that the solvents chlorobenzene and acetonitrile are advantageous for process variant A), and the solvents chlorobenzene, methylene chloride and 1,2-dichloroethane for process variant B). In the case of the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride, preference is given to working under reflux."
+  },
+  {
+    "identifier": "chlorobenzene",
+    "source_lines": [
+      83
+    ],
+    "quote_zh": "These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile. It has been found that the solvents chlorobenzene and acetonitrile are advantageous for process variant A), and the solvents chlorobenzene, methylene chloride and 1,2-dichloroethane for process variant B)."
+  },
+  {
+    "identifier": "acetonitrile",
+    "source_lines": [
+      83,
+      85
+    ],
+    "quote_zh": "These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile. It has been found that the solvents chlorobenzene and acetonitrile are advantageous for process variant A), and the solvents chlorobenzene, methylene chloride and 1,2-dichloroethane for process variant B). In the case of the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride, preference is given to working under reflux."
+  },
+  {
+    "identifier": "compound of the formula I",
+    "source_lines": [
+      87,
+      89,
+      91
+    ],
+    "quote_zh": "In process variant A), it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent, and then to heat gradually. The reaction may optionally be accelerated by adding a little bromine. Preference is given to using NBS in excess. In process variant B), it is appropriate to initially charge a compound of the formula I in solvent and then, after heating under irradiation with a photolamp, to add bromine dropwise. Preference is given to using bromine in excess. Depending on the solubilities of the compounds of the formulae I and II in the solvent used, these compounds are completely or partly dissolved."
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      87
+    ],
+    "quote_zh": "In process variant A), it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent, and then to heat gradually. The reaction may optionally be accelerated by adding a little bromine. Preference is given to using NBS in excess."
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [
+      87,
+      89
+    ],
+    "quote_zh": "In process variant A), it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent, and then to heat gradually. The reaction may optionally be accelerated by adding a little bromine. Preference is given to using NBS in excess. In process variant B), it is appropriate to initially charge a compound of the formula I in solvent and then, after heating under irradiation with a photolamp, to add bromine dropwise. Preference is given to using bromine in excess."
+  },
+  {
+    "identifier": "compound of the formula II",
+    "source_lines": [
+      91,
+      98
+    ],
+    "quote_zh": "Depending on the solubilities of the compounds of the formulae I and II in the solvent used, these compounds are completely or partly dissolved. The precise time at which the reaction is completed may be monitored, for example, by thin-film chromatography or by HPLC."
+  },
+  {
+    "identifier": "sodium bisulfate",
+    "source_lines": [
+      98
+    ],
+    "quote_zh": "None A), it is appropriate to initially add sodium bisulfate solution and optionally solvents. In both cases, the reaction product is washed and, if necessary, further purified by recrystallization, for example from ethyl acetate or butyl acetate."
+  },
+  {
+    "identifier": "ethyl acetate",
+    "source_lines": [
+      98
+    ],
+    "quote_zh": "None A), it is appropriate to initially add sodium bisulfate solution and optionally solvents. In both cases, the reaction product is washed and, if necessary, further purified by recrystallization, for example from ethyl acetate or butyl acetate."
+  },
+  {
+    "identifier": "butyl acetate",
+    "source_lines": [
+      98
+    ],
+    "quote_zh": "None A), it is appropriate to initially add sodium bisulfate solution and optionally solvents. In both cases, the reaction product is washed and, if necessary, further purified by recrystallization, for example from ethyl acetate or butyl acetate."
+  }
+]

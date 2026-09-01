@@ -1,0 +1,96 @@
+{
+  "_readme": [
+    "Hand-authored English for the Chinese strings of one patent that",
+    "resolve_translations.py cannot get any other way. One entry per exact Chinese",
+    "string, keyed by the string as the gold spells it, byte for byte.",
+    "",
+    "WHY THIS FILE EXISTS: the gold keeps the patent's Chinese, because the Chinese",
+    "is the authoritative text and at least one finding in FINDINGS.md was only",
+    "catchable by reading it. The consuming team cannot read Chinese. Almost all of",
+    "the gap closes from data already in the pipeline: the enriched source carries a",
+    "machine translation of nearly every line, and most Chinese aliases sit on a",
+    "record that already names the same molecule in English. What is left is the",
+    "handful of class terms and misprints that neither can reach.",
+    "",
+    "TRANSLATE THESE AS CHEMISTRY, NOT AS TEXT. Check every name against the",
+    "structure or against the context in the patent rather than word by word. There",
+    "is no OPSIN and no network here, so nothing verifies a hand-authored name",
+    "except a human doing it, and a wrong chemical translation reads exactly as",
+    "convincingly as a right one. A wrong translation is worse than an admitted gap:",
+    "the gap is visible in the report, the wrong name is not.",
+    "",
+    "PRESERVE THE PATENT'S ERRORS. Where the Chinese itself is wrong, translate the",
+    "error faithfully and explain it in 'note'. Silently correcting it would make the",
+    "gold agree with chemistry instead of agreeing with the document, which is the",
+    "one thing a reference annotation may never do.",
+    "",
+    "WHAT NOT TO PUT HERE: anything the pipeline already resolves. A quotation whose",
+    "source line carries a '> EN:' line resolves with origin 'source_mt'. A Chinese",
+    "alias of a compound the gold also names in English resolves with origin",
+    "'gold_alias'. Both are stronger provenance claims than 'curated', because both",
+    "are the document's or the annotation's own words rather than ours. An entry here",
+    "for one of those is harmless, and is reported as overridden, but it is work you",
+    "did not need to do.",
+    "",
+    "OVERRIDE, and when it is honest to use it. An entry may carry",
+    "'override': true, which makes it beat the source and the gold instead of",
+    "losing to them. That is normally exactly backwards, because both are",
+    "better provenance than we are. The one shape that earns it is a SHORT",
+    "PHRASE whose source-line answer is the translation of the WHOLE PARAGRAPH",
+    "it was quoted out of. A consumer substitutes the index into the",
+    "annotator's English commentary, and a 695-character paragraph spliced into",
+    "the middle of a sentence is not a translation of a 14-character phrase, it",
+    "is a different and much worse answer. 'override' requires both an 'en' and",
+    "a 'note', so the reasoning is attached to the decision in the artifact.",
+    "",
+    "FIELDS: 'en' is the English form and must contain no Chinese. 'note' is free",
+    "text and is appended to the entry's note whichever tier ends up supplying the",
+    "English, so it is the right place for anything a reader has to know about the",
+    "string. Set 'en' to null, with a note, to record a gap deliberately left open:",
+    "the coverage gate still reports it, and the reasoning travels with it instead",
+    "of being lost.",
+    "",
+    "NOT EVERY ENTRY IS A MOLECULE. [0002] ends with a list of the weeds the",
+    "target herbicide controls, and the source's machine translation keeps the",
+    "Chinese plant names beside their English glosses, so those runs reach a",
+    "screen too and are indexed here. They are translated as botany on the same",
+    "terms the compounds are translated as chemistry: against what the name",
+    "denotes, with the genus-versus-species distinction the Chinese makes",
+    "preserved rather than flattened.",
+    "",
+    "Each name below was worked out from the patent's own context, and the",
+    "confidence in each is stated in its note."
+  ],
+  "patent_id": "CN106008290A",
+  "entries": {
+    "甲、醇": {
+      "en": "methanol (printed with an enumeration comma set inside the name)",
+      "note": "The identifier of a gold compound record. As printed on line 159 the string names no compound: an enumeration comma sits inside the two characters of the word for methanol, giving 甲、醇. Read as methanol, on the evidence that the parallel step in examples 1, 2, 4 and 5 all print 加甲醇打浆 in the same slot. The English keeps the artefact visible in words rather than silently repairing it, because the compound record deliberately carries the identifier unresolved."
+    },
+    "加甲醇打浆": {
+      "en": "methanol is added and the mixture is slurried",
+      "note": "quote_zh on a provenance row. 打浆 here is trituration of the solid product in methanol, not beating or pulping."
+    },
+    "收率较低": {
+      "en": "the yield is relatively low",
+      "note": "A qualitative statement in the background about the prior-art route. No number is printed with it."
+    },
+    "收率低": {
+      "en": "the yield is low",
+      "note": "A qualitative statement about the prior-art route. No number is printed with it, and it is a different wording from 收率较低 in the same passage, so the two are kept apart."
+    },
+    "步骤": {
+      "en": "step",
+      "note": "The document's own word for a numbered stage of the procedure, as in 步骤a and 步骤b."
+    },
+    "上述反应所得的": {
+      "en": "obtained from the above reaction",
+      "note": "The back-reference each example's step b uses to charge the material step a isolated. It is what makes the within-section precursor linkage explicit rather than inferred from name similarity."
+    },
+    "35％的盐酸": {
+      "en": "35% hydrochloric acid",
+      "override": true,
+      "note": "Preferred over the gold_alias tier, which answers the wrong question here. The alias data resolves this string to 'hydrochloric acid', which is the right substance and the wrong strength, and the strength is a fact about what was charged: every example acidifies with the 35 percent acid, not with acid of unstated concentration. The reactions artifact already carries 35 as conditions.concentration on each step a, so the fact was never missing from the annotation, only from this index."
+    }
+  }
+}

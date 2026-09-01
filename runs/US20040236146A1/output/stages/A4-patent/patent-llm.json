@@ -1,0 +1,21 @@
+{
+  "patent_summary": "The document discloses a process for preparing 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids by side chain bromination of the corresponding 2-halo-3-methyl-4-alkylsulfonylbenzoic acids, either with N-bromosuccinimide in the presence of a radical initiator such as azoisobutyronitrile or dibenzoyl peroxide, or with elemental bromine under irradiation from a photolamp. The bromination is run in an inert solvent such as chlorobenzene, acetonitrile or methylene chloride, the product acid is filtered off after cooling, washed and where necessary recrystallized from ethyl acetate or butyl acetate, and the document further claims the 3-bromomethylbenzoic acids of formula II themselves, excluding 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid.",
+  "novelty_claims": "[0002] positions the invention against two prior-art routes: WO 99/06339, whose bromination of methyl aromatics requires \"an additional oxidizing agent\" alongside the azo initiator and gives yields that are \"not always satisfactory\", and EP-A 0 292 944, which reaches the free acid only indirectly, by radical bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride followed by hydrolysis of the ester. Against those objections, [0003] states that the 2-halo-3-methyl-4-alkylsulfonylbenzoic acid can be brominated directly, without going through the ester, \"in very good yields and in very high purities\", and [0013] adds \"the use of less toxic solvents and the particularly simple workup of the end products\"; claim 6 accordingly recites only N-bromosuccinimide \"in the presence of a radical initiator\", with no oxidizing agent, and claim 13 recites the alternative \"elemental bromine and irradiation with a photolamp\". The patent positions both a process and a compound genus as new: claim 19 claims compounds of formula II where R1 is fluorine, chlorine or bromine and R2 is (C1-C4)alkyl, \"excluding 3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid\", which [0020] concedes is already disclosed by EP-A 0 292 944, and claim 20 narrows that genus to R1 chlorine and R2 (C2)alkyl.",
+  "key_examples": [],
+  "tags": [
+    "domain:agrochemical",
+    "target_class:intermediate",
+    "claim_type:process",
+    "claim_type:composition",
+    "novelty:new_process",
+    "novelty:new_compound",
+    "novelty:improved_yield",
+    "novelty:improved_purity",
+    "process_focus:batch",
+    "process_focus:photochemistry",
+    "process_focus:green_chemistry"
+  ],
+  "honest_uncertainty_flags": [
+    "key_examples_not_referenced"
+  ]
+}

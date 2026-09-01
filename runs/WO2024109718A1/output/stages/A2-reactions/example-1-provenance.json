@@ -1,0 +1,12 @@
+[
+  {
+    "reaction_id": "Example 1_Step 1",
+    "source_lines": [
+      424,
+      438
+    ],
+    "quote_zh": "在20℃下将5.1％盐酸1165g加入到四口瓶中，滴加3-氯-2-甲基苯胺100g，滴加完毕后，在0℃进一步滴加20％NaNO2水溶液251.41g，滴加过程中控温不超",
+    "arithmetic_check": "No product mass and no yield are printed, so the mass balance cannot be closed in either direction and nothing is asserted about it. The input charges that are printed are internally consistent as an approximately equimolar diazotisation: 100 g of 3-chloro-2-methylaniline (MW 141.6) is about 0.71 mol; 251.41 g of a 20% aqueous NaNO2 solution carries about 50.3 g of NaNO2 (MW 69.0), about 0.73 mol, roughly 1.03 equivalents; 1165 g of 5.1% hydrochloric acid carries about 59.4 g of HCl (MW 36.46), about 1.63 mol, roughly 2.3 equivalents, which is the usual excess for a diazotisation; 273 g of a 20% aqueous CH3SNa solution carries about 54.6 g of CH3SNa (MW 70.1), about 0.78 mol, roughly 1.10 equivalents; 26.62 g of a 32% aqueous NaOH solution carries about 8.5 g of NaOH, about 0.21 mol. These solute figures are derived here only to test plausibility and are deliberately absent from the record, whose mass_g fields carry the printed solution masses. No mass_balance_implausible or molar_mass_inconsistent condition was found.",
+    "drawing_evidence": "The [IMAGE_EXTRACT reactions] span on line 426 is a single-arrow scheme, step_id 1: reactant Cc1c(N)cccc1Cl (C7H8ClN, 3-chloro-2-methylaniline), arrow conditions NaNO2, CH3SNa and HCl, product CSc1cccc(Cl)c1C (C8H9ClS). It corroborates the single-step boundary, the identity of the starting material and the identity of the product the prose calls the compound of formula (VI). It agrees with the prose on every point except that the 32% aqueous NaOH charged alongside the CH3SNa appears on no arrow, which is why reagent_written_not_drawn is raised and drawing_text_conflict is not."
+  }
+]

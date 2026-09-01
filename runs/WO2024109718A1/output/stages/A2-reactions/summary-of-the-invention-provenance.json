@@ -1,0 +1,138 @@
+[
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (v)",
+    "source_lines": [
+      95,
+      95
+    ],
+    "quote_zh": "其中所述步骤(v)和(v′)分别为以下步骤：",
+    "arithmetic_check": "No charge, no pressure of CO, no mass and no yield is printed, so nothing can be checked arithmetically.",
+    "drawing_evidence": "Line 91 draws the step bare under [0011]; line 97 draws it under [0012] with H2O and CO on the arrow; it opens the composite scheme at lines 141 and 151, bare at 141 and with H2O and CO at 151. All four agree on reactant CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F and product CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F. The prose gives only the step label and no reagents, so the drawings add the reagents rather than contradicting anything."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (v')",
+    "source_lines": [
+      95,
+      95
+    ],
+    "quote_zh": "其中所述步骤(v)和(v′)分别为以下步骤：",
+    "arithmetic_check": "No charge, no pressure, no mass and no yield is printed, so nothing can be checked arithmetically.",
+    "drawing_evidence": "Line 93 draws the step bare under [0011]; line 99 draws it with CO on the arrow and cyclohexane-1,3-dione noted by the vision pass as drawn as a structure rather than written as a name; line 153 draws the same transformation with O=C1CCCC(=O)C1 read as an explicit second reactant alongside CO, and line 143 draws it bare. The four readings are consistent, differing only in how much of the arrow was resolved, so no drawing_text_conflict is raised. The prose names neither the reagents nor the compounds."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (i)",
+    "source_lines": [
+      114,
+      114
+    ],
+    "quote_zh": "所述步骤(i)～(iv)分别独立地为以下步骤",
+    "arithmetic_check": "No charge, no mass, no mole count and no yield is printed anywhere in this section, so there is nothing to close and no mass balance can be checked; the section states the route, not a procedure.",
+    "drawing_evidence": "Line 103 draws the unprimed step (i) with a bare arrow; line 116 draws step (i') with Br2 on the arrow; lines 128 and 135 repeat it as arrow 1 of the four-arrow schemes, bare at 128 and with Br2 at 135. All four agree on reactant CSc1cccc(Cl)c1C and product CSc1ccc(Br)c(Cl)c1C. The prose names neither compound, so the drawings are the only evidence and there is no prose to conflict with them."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (ii)",
+    "source_lines": [
+      114,
+      114
+    ],
+    "quote_zh": "所述步骤(i)～(iv)分别独立地为以下步骤",
+    "arithmetic_check": "No quantities of any kind are printed for this step, so no arithmetic is available to check.",
+    "drawing_evidence": "Line 108 draws step (ii) bare; line 118 draws step (ii') with H2O2 on the arrow; lines 128 and 135 repeat it as arrow 2. All agree on reactant CSc1ccc(Br)c(Cl)c1C and product Cc1c(S(C)(=O)=O)ccc(Br)c1Cl. The prose does not describe this step, so no prose comparison is possible."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (iii)",
+    "source_lines": [
+      124,
+      124
+    ],
+    "quote_zh": "步骤(iii')中，溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素",
+    "arithmetic_check": "No quantities are printed; the reagent is given as a choice of three with a stated preference and no stoichiometry.",
+    "drawing_evidence": "Line 110 draws step (iii) bare; line 120 draws step (iii') with 溴代试剂 on the arrow; lines 128 and 135 repeat it as arrow 3, the span at 135 glossing the same label as brominating agent. The drawn reagent label and the prose definition in [0015] and [0018] agree exactly, both naming the class term and both listing the same three alternatives, so nothing is flagged."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (iv)",
+    "source_lines": [
+      124,
+      124
+    ],
+    "quote_zh": "步骤(iv')中，CF3CH2OM为CF3CH2ONa或CF3CH2OK。",
+    "arithmetic_check": "No quantities are printed; the reagent is given as a formula with an undefined metal and two named alternatives, with no stoichiometry.",
+    "drawing_evidence": "Line 112 draws step (iv) bare; line 122 draws step (iv') with CF3CH2OM on the arrow; lines 128 and 135 repeat it as arrow 4. The drawn label CF3CH2OM matches the prose of [0015] and [0018] exactly, including the undefined M, so the drawing and the prose agree and nothing is flagged."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (vi) Arrow 1",
+    "source_lines": [
+      139,
+      141,
+      149,
+      151
+    ],
+    "quote_zh": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 141 ([0019]) and line 151 ([0021]) both read composite step (vi) as FOUR reaction entries, and page image p06.png confirms four drawn arrows: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Line 151 puts H2O and CO on the first arrow; line 141 leaves it bare. In BOTH spans the machine read of arrow 2 has an empty products list and the read of arrow 3 an empty reactants list, so the acid chloride structure is absent from the extract; it is drawn on the page as ClC(=O) on the aryl ring, and the same scheme on page image p27.png is read with the acid chloride explicit. That is a vision-pass gap, not a disagreement between drawing and prose, so no drawing_text_conflict is raised. This entry is arrow 1."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (vi) Arrow 2",
+    "source_lines": [
+      139,
+      141,
+      149,
+      151
+    ],
+    "quote_zh": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 141 ([0019]) and line 151 ([0021]) both read composite step (vi) as FOUR reaction entries, and page image p06.png confirms four drawn arrows: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Line 151 puts H2O and CO on the first arrow; line 141 leaves it bare. In BOTH spans the machine read of arrow 2 has an empty products list and the read of arrow 3 an empty reactants list, so the acid chloride structure is absent from the extract; it is drawn on the page as ClC(=O) on the aryl ring, and the same scheme on page image p27.png is read with the acid chloride explicit. That is a vision-pass gap, not a disagreement between drawing and prose, so no drawing_text_conflict is raised. This entry is arrow 2. It is the arrow the previous pass lost: merging arrows 2 and 3 into one acid-to-ester record dropped the acid chloride, which the page draws."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (vi) Arrow 3",
+    "source_lines": [
+      139,
+      141,
+      149,
+      151
+    ],
+    "quote_zh": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 141 ([0019]) and line 151 ([0021]) both read composite step (vi) as FOUR reaction entries, and page image p06.png confirms four drawn arrows: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Line 151 puts H2O and CO on the first arrow; line 141 leaves it bare. In BOTH spans the machine read of arrow 2 has an empty products list and the read of arrow 3 an empty reactants list, so the acid chloride structure is absent from the extract; it is drawn on the page as ClC(=O) on the aryl ring, and the same scheme on page image p27.png is read with the acid chloride explicit. That is a vision-pass gap, not a disagreement between drawing and prose, so no drawing_text_conflict is raised. This entry is arrow 3. No reagent is on the arrow; cyclohexane-1,3-dione is carried as a reactant because the drawn product is its enol ester, and the same compound is drawn explicitly on the (v') and (vi') arrows at lines 99 and 153."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (vi) Arrow 4",
+    "source_lines": [
+      139,
+      141,
+      149,
+      151
+    ],
+    "quote_zh": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 141 ([0019]) and line 151 ([0021]) both read composite step (vi) as FOUR reaction entries, and page image p06.png confirms four drawn arrows: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Line 151 puts H2O and CO on the first arrow; line 141 leaves it bare. In BOTH spans the machine read of arrow 2 has an empty products list and the read of arrow 3 an empty reactants list, so the acid chloride structure is absent from the extract; it is drawn on the page as ClC(=O) on the aryl ring, and the same scheme on page image p27.png is read with the acid chloride explicit. That is a vision-pass gap, not a disagreement between drawing and prose, so no drawing_text_conflict is raised. This entry is arrow 4. Reactant and product carry the same molecular formula C17H16ClF3O6S in both spans, consistent with the isomerisation the drawing shows and the only arithmetic this section makes available."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (vi') Arrow 1",
+    "source_lines": [
+      139,
+      143,
+      147,
+      149,
+      153,
+      158
+    ],
+    "quote_zh": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 143 ([0019]) and line 153 ([0021]) both read composite step (vi') as TWO reaction entries, and page image p06.png confirms two drawn arrows: aryl bromide plus cyclohexane-1,3-dione under CO to the enol ester, then ester to tembotrione. Line 153 puts CO on the first arrow and reads cyclohexane-1,3-dione as an explicit second reactant; line 143 draws it bare. The two spans agree and neither contradicts the prose at lines 147 and 158, which state only that the step may be run stepwise or one-pot. This entry is arrow 1."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (vi') Arrow 2",
+    "source_lines": [
+      139,
+      143,
+      147,
+      149,
+      153,
+      158
+    ],
+    "quote_zh": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 143 ([0019]) and line 153 ([0021]) both read composite step (vi') as TWO reaction entries, and page image p06.png confirms two drawn arrows: aryl bromide plus cyclohexane-1,3-dione under CO to the enol ester, then ester to tembotrione. Line 153 puts CO on the first arrow and reads cyclohexane-1,3-dione as an explicit second reactant; line 143 draws it bare. The two spans agree and neither contradicts the prose at lines 147 and 158, which state only that the step may be run stepwise or one-pot. This entry is arrow 2, the same transformation as Scheme Step (vi) Arrow 4. Reactant and product carry the same molecular formula C17H16ClF3O6S in both spans."
+  }
+]

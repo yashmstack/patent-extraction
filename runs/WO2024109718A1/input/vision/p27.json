@@ -1,0 +1,291 @@
+{
+  "page": "p27.png",
+  "page_label": "26",
+  "doc_part": "claims",
+  "header": "26\nWO 2024/109718                    PCT/CN2023/132821",
+  "footer": "",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "其中步骤(vi′)以分离中间体酯化合物的分步方式实施、或以不分离中间体酯化合物的一锅法方式实施。",
+      "en": "wherein step (vi') is carried out either stepwise with isolation of the intermediate ester compound, or in a one-pot manner without isolating the intermediate ester compound.",
+      "notes": "Continuation of claim 9, which begins on the preceding page. This sentence follows scheme (vi')."
+    },
+    {
+      "marker": "[权利要求 10]",
+      "zh": "根据权利要求9所述的方法，其中步骤(vi)、和(vi′)分别为如下步骤：",
+      "en": "The process according to claim 9, wherein step (vi) and step (vi') are respectively the following steps:",
+      "notes": "Printed as 步骤(vi)、和(vi′) with a Chinese enumeration comma before 和; transcribed verbatim."
+    },
+    {
+      "marker": null,
+      "zh": "其中步骤(vi′-1)以分离中间体酯化合物的分步方式实施、或以不分离中间体酯化合物的一锅法方式实施。",
+      "en": "wherein step (vi'-1) is carried out either stepwise with isolation of the intermediate ester compound, or in a one-pot manner without isolating the intermediate ester compound.",
+      "notes": "The printed label shows a space between the prime and the hyphen, '(vi′ -1)'; transcribed here with a plain hyphen and no space."
+    },
+    {
+      "marker": "[权利要求 11]",
+      "zh": "下式(A)所示的化合物：",
+      "en": "A compound of the following formula (A):",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "式中，R1和R2为以下任意一项：",
+      "en": "wherein R1 and R2 are any one of the following:",
+      "notes": "R1 and R2 are printed with subscript numerals."
+    },
+    {
+      "marker": null,
+      "zh": "R1为CF3-CH2-O-CH2-、且R2为CH3-SO2-；",
+      "en": "R1 is CF3-CH2-O-CH2- and R2 is CH3-SO2-;",
+      "notes": "Numerals in the formulae are printed as subscripts; the bonds are printed as en-dash-like short rules, transcribed as plain hyphens."
+    },
+    {
+      "marker": null,
+      "zh": "R1为Br-CH2-、且R2为CH3-SO2-；",
+      "en": "R1 is Br-CH2- and R2 is CH3-SO2-;",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "R1为CH3-、且R2为CH3-SO2-；",
+      "en": "R1 is CH3- and R2 is CH3-SO2-;",
+      "notes": "The list is left open with a full-width semicolon; it continues on the next page."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "scheme",
+      "between_markers": ["(claim 9, continued from previous page)", "[权利要求 10]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, row 1 leftmost",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, row 1 middle",
+          "core": "benzene",
+          "substituents": ["COOH at C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzoic acid",
+          "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "3rd, row 1 rightmost",
+          "core": "benzene",
+          "substituents": ["C(=O)Cl at C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzoyl chloride",
+          "smiles": "ClC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "4th, row 2 left",
+          "core": "cyclohex-2-en-1-one enol ester of cyclohexane-1,3-dione, aroylated on the enol oxygen; aryl ring is benzene",
+          "substituents": ["ester O at the enol carbon of the cyclohexane-1,3-dione ring", "aroyl C at benzene C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "3-oxocyclohex-1-en-1-yl 2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzoate",
+          "smiles": "O=C(OC1=CC(=O)CCC1)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium",
+          "confidence_note": "The 1,3 relationship of the enol oxygen and the ring ketone is clear in the drawing; the scan is dithered so individual ring bonds are broken."
+        },
+        {
+          "position_in_drawing": "5th, row 2 right",
+          "core": "cyclohexane-1,3-dione acylated at C2; aryl ring is benzene",
+          "substituents": ["aroyl at cyclohexane-1,3-dione C2", "aroyl C attached at benzene C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "2-[2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzoyl]cyclohexane-1,3-dione",
+          "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium"
+        }
+      ],
+      "arrows": [
+        { "from_structure": "1st", "to_structure": "2nd", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" },
+        { "from_structure": "2nd", "to_structure": "3rd", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" },
+        { "from_structure": "3rd", "to_structure": "4th", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "medium" },
+        { "from_structure": "4th", "to_structure": "5th", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" }
+      ],
+      "notes": "Labelled (vi) at the right of the second row. Drawn over two rows; the arrow at the left of row 2 continues from the acid chloride at the end of row 1. No reagent is written above or below any arrow in this scheme. Every line in the scan is rendered as a broken/dotted trace by the dithering, so arrow_style 'solid' is a reading of the arrowheads and continuity, not of unbroken ink."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": ["(claim 9, continued from previous page)", "[权利要求 10]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, leftmost",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, middle",
+          "core": "cyclohexane-1,3-dione enol ester of an aroic acid; aryl ring is benzene",
+          "substituents": ["ester O at the enol carbon of the cyclohexane-1,3-dione ring", "aroyl C at benzene C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "3-oxocyclohex-1-en-1-yl 2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzoate",
+          "smiles": "O=C(OC1=CC(=O)CCC1)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium"
+        },
+        {
+          "position_in_drawing": "3rd, rightmost",
+          "core": "cyclohexane-1,3-dione acylated at C2; aryl ring is benzene",
+          "substituents": ["aroyl at cyclohexane-1,3-dione C2", "aroyl C attached at benzene C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "2-[2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzoyl]cyclohexane-1,3-dione",
+          "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium"
+        }
+      ],
+      "arrows": [
+        { "from_structure": "1st", "to_structure": "2nd", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" },
+        { "from_structure": "2nd", "to_structure": "3rd", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" }
+      ],
+      "notes": "Labelled (vi′) at the right. Preceded by the single character 或 ('or') on its own line, marking it as the alternative to scheme (vi). No reagent is written above or below either arrow; in particular the cyclohexane-1,3-dione is not drawn as a reactant here, although the product contains it."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": ["[权利要求 10]", "[权利要求 11]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, row 1 leftmost",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, row 1 middle",
+          "core": "benzene",
+          "substituents": ["COOH at C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzoic acid",
+          "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "3rd, row 1 rightmost",
+          "core": "benzene",
+          "substituents": ["C(=O)Cl at C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzoyl chloride",
+          "smiles": "ClC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium",
+          "confidence_note": "The atom label on the carbonyl reads Cl but is small; the same structure at the same position in scheme (vi) reads Cl clearly."
+        },
+        {
+          "position_in_drawing": "4th, row 2 left",
+          "core": "cyclohexane-1,3-dione enol ester of an aroic acid; aryl ring is benzene",
+          "substituents": ["ester O at the enol carbon of the cyclohexane-1,3-dione ring", "aroyl C at benzene C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "3-oxocyclohex-1-en-1-yl 2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzoate",
+          "smiles": "O=C(OC1=CC(=O)CCC1)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium"
+        },
+        {
+          "position_in_drawing": "5th, row 2 right",
+          "core": "cyclohexane-1,3-dione acylated at C2; aryl ring is benzene",
+          "substituents": ["aroyl at cyclohexane-1,3-dione C2", "aroyl C attached at benzene C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "2-[2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzoyl]cyclohexane-1,3-dione",
+          "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium"
+        }
+      ],
+      "arrows": [
+        { "from_structure": "1st", "to_structure": "2nd", "reagents_above": ["H2O"], "reagents_below": ["CO"], "arrow_style": "solid", "confidence": "high" },
+        { "from_structure": "2nd", "to_structure": "3rd", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" },
+        { "from_structure": "3rd", "to_structure": "4th", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "medium" },
+        { "from_structure": "4th", "to_structure": "5th", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" }
+      ],
+      "notes": "Labelled (vi-1) at the right of the second row. This is scheme (vi) redrawn with reagents on the first arrow: H2O written above and CO written below. Above and below are distinct positions and are recorded separately. No reagents are written on the remaining three arrows."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": ["[权利要求 10]", "[权利要求 11]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, leftmost reactant",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium",
+          "confidence_note": "Drawn very small; the Br and SO2CH3 labels are heavily dithered but resolve on zoom, and the substituent pattern matches the identically positioned structure in schemes (vi) and (vi′)."
+        },
+        {
+          "position_in_drawing": "2nd, second reactant, joined to the 1st by a '+' sign",
+          "core": "cyclohexane-1,3-dione",
+          "substituents": [],
+          "name": "cyclohexane-1,3-dione",
+          "smiles": "O=C1CCCC(=O)C1",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "3rd, middle, after the arrow",
+          "core": "cyclohexane-1,3-dione enol ester of an aroic acid; aryl ring is benzene",
+          "substituents": ["ester O at the enol carbon of the cyclohexane-1,3-dione ring", "aroyl C at benzene C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "3-oxocyclohex-1-en-1-yl 2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzoate",
+          "smiles": "O=C(OC1=CC(=O)CCC1)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium"
+        },
+        {
+          "position_in_drawing": "4th, rightmost",
+          "core": "cyclohexane-1,3-dione acylated at C2; aryl ring is benzene",
+          "substituents": ["aroyl at cyclohexane-1,3-dione C2", "aroyl C attached at benzene C1", "Cl at C2", "CH2-O-CH2-CF3 at C3", "SO2CH3 at C4"],
+          "name": "2-[2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methanesulfonyl)benzoyl]cyclohexane-1,3-dione",
+          "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium"
+        }
+      ],
+      "arrows": [
+        { "from_structure": "1st + 2nd", "to_structure": "3rd", "reagents_above": ["CO"], "reagents_below": [], "arrow_style": "solid", "confidence": "medium" },
+        { "from_structure": "3rd", "to_structure": "4th", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" }
+      ],
+      "notes": "Labelled (vi′-1)。 at the right. This is scheme (vi′) redrawn with the cyclohexane-1,3-dione shown explicitly as a co-reactant joined by '+', and CO written above the first arrow with nothing below it. The two-letter label above the arrow is small; it reads CO, consistent with the CO written below the first arrow of (vi-1)."
+    },
+    {
+      "kind": "structure",
+      "between_markers": ["[权利要求 11]", "(text following, 式中，R1和R2为以下任意一项：)"],
+      "presented_as": "intermediate_structure",
+      "structures": [
+        {
+          "position_in_drawing": "sole structure, inline with the claim 11 text, labelled (A)",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "R1 at C3", "R2 at C4"],
+          "name": null,
+          "smiles": null,
+          "confidence": "high",
+          "confidence_note": "Positions are read directly off the drawing: Br on the upper-left vertex, Cl on the top vertex, R1 on the upper-right vertex, R2 on the lower-right vertex, i.e. four contiguous ring positions. Name and SMILES are null because R1 and R2 are variables."
+        }
+      ],
+      "arrows": [],
+      "notes": "Generic Markush formula (A) of claim 11. This is the largest and cleanest drawing on the page."
+    }
+  ],
+  "discrepancies": [
+    {
+      "what": "Schemes (vi) and (vi′) carry no reagent text on any arrow, while their redrawn counterparts (vi-1) and (vi′-1) on the same page do.",
+      "drawing_says": "(vi) and (vi′): all arrows bare. (vi-1): H2O above and CO below the first arrow. (vi′-1): CO above the first arrow.",
+      "text_says": "The prose of claims 9 and 10 on this page names no reagent at all; it only says the step may be run stepwise with isolation of the intermediate ester or as a one-pot reaction."
+    },
+    {
+      "what": "The cyclohexane-1,3-dione partner is drawn as an explicit co-reactant only in (vi′-1); in (vi), (vi′) and (vi-1) it appears without ever being drawn on the reactant side.",
+      "drawing_says": "(vi′-1) shows '+ cyclohexane-1,3-dione' before the arrow; the other three schemes do not.",
+      "text_says": "No mention of cyclohexane-1,3-dione anywhere in the text on this page."
+    },
+    {
+      "what": "The text refers to step (vi′) and step (vi′-1) as the ones that may be run one-pot, but the last paragraph of claim 10 mentions only (vi′-1), leaving (vi-1) without an equivalent statement.",
+      "drawing_says": "Both (vi-1) and (vi′-1) pass through the isolable ester intermediate.",
+      "text_says": "其中步骤(vi′-1)以分离中间体酯化合物的分步方式实施、或以不分离中间体酯化合物的一锅法方式实施。 - only (vi′-1) is named."
+    }
+  ],
+  "illegible": [
+    "All five schemes are reproduced at very small scale with heavy scan dithering; every bond line is broken into dots at 100%. Atom labels were resolved only by cropping and upscaling, and the subscripts in SO2CH3, CF3 and CH2 are inferred from the label shape plus repetition across the five drawings rather than read glyph by glyph.",
+    "The two-letter reagent label above the first arrow of scheme (vi′-1) at approximately x=620-660, y=1380 in the page image is at the limit of resolution; read as CO, medium confidence.",
+    "The carbonyl-substituent label on the third structure of scheme (vi-1) (row 1, rightmost, approximately x=1150, y=1050) is smaller than its counterpart in scheme (vi); read as Cl, medium confidence."
+  ],
+  "page_confidence": "medium"
+}

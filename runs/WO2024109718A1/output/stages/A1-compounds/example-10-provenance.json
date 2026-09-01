@@ -1,0 +1,100 @@
+[
+  {
+    "identifier": "式(IV)化合物",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "向高压釜中加入式(IV)化合物56.84g"
+  },
+  {
+    "identifier": "triethylamine",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "三乙胺37.95g"
+  },
+  {
+    "identifier": "PdCl2",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "PdCl2催化剂0.4g"
+  },
+  {
+    "identifier": "1,4-bis(diphenylphosphino)butane",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "配体1,4-双(二苯基膦)丁烷3.98g"
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "溶剂1,4-二氧六环300g"
+  },
+  {
+    "identifier": "nitrogen",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "氮气置换3次"
+  },
+  {
+    "identifier": "CO",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "以约1～4MPa的压力通入CO"
+  },
+  {
+    "identifier": "acetone cyanohydrin",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "加入2g丙酮氰醇"
+  },
+  {
+    "identifier": "cyclohexane-1,3-dione",
+    "source_lines": [
+      535
+    ],
+    "quote_zh": "cyclohexane-1,3-dione (drawn as a structure)"
+  },
+  {
+    "identifier": "triethylamine hydrobromide",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "除去三乙胺氢溴酸盐"
+  },
+  {
+    "identifier": "methanol",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "加入甲醇水溶解"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      542
+    ],
+    "quote_zh": "水洗"
+  },
+  {
+    "identifier": "sodium hydroxide",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "用氢氧化钠溶液调节pH至8～9"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      542
+    ],
+    "quote_zh": "得到黄白色粉末状固体环磺酮，收率64.67％，熔点120～122℃"
+  }
+]

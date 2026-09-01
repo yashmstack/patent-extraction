@@ -1,0 +1,233 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 2_Step 1",
+    "section_label": "Example 2",
+    "section_type": "experimental_intermediate",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "pilot",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "exact",
+        "value_c": 10.0,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": "four-necked round-bottomed flask",
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "quench with 32% sodium hydroxide solution",
+        "separate the organic phase",
+        "wash the organic phase twice with 32% aqueous sodium hydroxide",
+        "wash twice with water",
+        "separate the layers",
+        "remove the solvent from the organic layer by rotary evaporation"
+      ],
+      "quenching_agent": "32% sodium hydroxide solution",
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "32% aqueous sodium hydroxide, twice",
+        "water, twice"
+      ],
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": "rotary evaporation",
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "reaction complete"
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(VI)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 100.75,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the flask at the start with the solvent",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "dichloromethane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 400.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the flask at the start with the substrate",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bromine",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 98.4,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added dropwise at around 10 C",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium hydroxide",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 30.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added as a 32% solution to quench, then used as two 70 mL washes of 32% aqueous solution",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 70.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "used as two washes of the organic layer",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(I)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(VI)化合物",
+      "bromine"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(I)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "将式(VI)化合物100.75g、400g二氯甲烷置于四口圆底烧瓶中，于10℃左右滴加溴素98.4g。经高效液相色谱监测反应完成后，用30mL 32％的NaOH溶液淬灭，分出有机相，并用70mL 32％的NaOH水溶液洗涤两次，然后用70mL水洗涤两次，分液，有机层旋蒸除去溶剂，得到式(I)化合物。",
+    "procedure_summary": "The compound of formula (VI) is dissolved in dichloromethane and brominated by dropwise addition of bromine at low temperature. After HPLC shows complete conversion the mixture is quenched with aqueous sodium hydroxide, the organic phase is washed with aqueous sodium hydroxide and then water, and the solvent is stripped to give the compound of formula (I).",
+    "precursor_step": "Example 1::Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:ionic",
+      "analytics:hplc",
+      "analytics:nmr",
+      "scale:pilot",
+      "solvent_class:halogenated",
+      "catalyst_class:none",
+      "workup_type:aqueous_extraction",
+      "purification:none",
+      "step_role:intermediate_step",
+      "linkage:cross_section_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "The section carries no numbered step markers; it is one charge, one transformation and one workup, so it is annotated as a single step. That matches A0's estimate of 1. Ring bromination of the aryl methyl sulfide of formula (VI) to the aryl bromide of formula (I), consistent with the patent being about tembotrione. The reaction scheme on line 441 agrees with the prose: the same substrate skeleton, Br2 on the arrow, and a product bearing one new aromatic bromine, so no drawing/text conflict is raised. The arrow carries only Br2 while the prose also names dichloromethane as solvent and sodium hydroxide for the quench and washes; that is ordinary scheme abbreviation rather than a disagreement, so no reagent flag is raised. Temperature is printed as 10℃左右, i.e. approximately 10 C, and it is the only temperature given, so it is recorded as the step temperature as well as in the bromine addition profile. No reaction time is printed; the endpoint is set by HPLC. The starting material of formula (VI) is the product of Example 1. A1 records that product under the English identifier 'compound of formula (VI)' and records the reactant here under the Chinese identifier 式(VI)化合物; the two spellings name one substance, the label (VI) is the document's own, and the drawings give the same SMILES for both, so this is an identity match and not an inference from the sections being adjacent. precursor_step is therefore Example 1::Step 1 and linkage_confirmed is true. No isolated mass, yield or purity is printed for the product, so no mass balance can be computed and none is asserted. The 1H and 13C NMR spectra are given only as references to Figures 3 and 4. The HPLC conditions on line 445 are given by reference to Example 1, outside this section, and only the 254 nm detection wavelength is stated here. A stirrer is not mentioned, so stirring is left null; no reactor volume is printed."
+  }
+]

@@ -1,0 +1,139 @@
+{
+ "page": "p12.png",
+ "page_label": "11",
+ "doc_part": "description",
+ "header": "11\nWO 2024/109718                                        PCT/CN2023/132821",
+ "footer": "",
+ "paragraphs": [
+  {
+   "marker": "[0083]",
+   "zh": "在更具体的实施方式中，上述反应中，催化剂使用钯、铑、钌、铜、钴等贵金属催化剂。",
+   "en": "In a more specific embodiment, in the above reaction, the catalyst used is a noble metal catalyst such as palladium, rhodium, ruthenium, copper, cobalt, and the like.",
+   "notes": "Copper and cobalt are listed among the \"noble metal\" (贵金属) catalysts as printed; not normalised."
+  },
+  {
+   "marker": "[0084]",
+   "zh": "在更具体的实施方式中，使用钯催化剂，具体例子包括但不限于氯化钯(PdCl₂)、碳酸钯(PdCO₃)、醋酸钯[Pd(OAc)₂]、钯/碳(Pd/C)、三氟乙酸钯[Pd(OTFA)₂]、双二亚苄基丙酮钯[Pd(dba)₂]等，优选氯化钯(PdCl₂)。",
+   "en": "In a more specific embodiment, a palladium catalyst is used; specific examples include but are not limited to palladium chloride (PdCl2), palladium carbonate (PdCO3), palladium acetate [Pd(OAc)2], palladium on carbon (Pd/C), palladium trifluoroacetate [Pd(OTFA)2], bis(dibenzylideneacetone)palladium [Pd(dba)2], and the like, preferably palladium chloride (PdCl2).",
+   "notes": "Subscripts are printed as true subscripts; transcribed with Unicode subscript digits. 双二亚苄基丙酮钯 rendered literally as bis(dibenzylideneacetone)palladium."
+  },
+  {
+   "marker": "[0085]",
+   "zh": "在更具体的实施方式中，上述反应中使用磷配体或其盐作为催化剂配体，优选1,3-(双二苯基膦)丙烷、1,4-双(二苯基膦)丁烷或者双[(4-N,N-二甲氨基)苯基]二叔丁基膦等。",
+   "en": "In a more specific embodiment, a phosphine ligand or a salt thereof is used in the above reaction as the catalyst ligand, preferably 1,3-(bis(diphenylphosphino))propane, 1,4-bis(diphenylphosphino)butane, or bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine, and the like.",
+   "notes": "The first ligand is printed as 1,3-(双二苯基膦)丙烷 with the parenthesis placed differently from the second; transcribed as printed."
+  },
+  {
+   "marker": "[0086]",
+   "zh": "在更具体的实施方式中，上述反应中使用的缚酸剂为三乙胺、碳酸钾、碳酸钠、碳酸铯(CsCO₃)、磷酸钾、N,N-二甲基乙酰胺(DMAC)、N,N-二异丙基乙胺(DIPEA)、1,8-二氮杂二环十一碳-7-烯(DBU)、三乙撑二胺(DABCO)等。",
+   "en": "In a more specific embodiment, the acid-binding agent used in the above reaction is triethylamine, potassium carbonate, sodium carbonate, cesium carbonate (CsCO3), potassium phosphate, N,N-dimethylacetamide (DMAC), N,N-diisopropylethylamine (DIPEA), 1,8-diazabicycloundec-7-ene (DBU), triethylenediamine (DABCO), and the like.",
+   "notes": "Cesium carbonate is printed as CsCO₃ (the correct formula is Cs2CO3); transcribed as printed, not corrected."
+  },
+  {
+   "marker": "[0087]",
+   "zh": "在更具体的实施方式中，上述反应使用的第一溶剂是选自芳烃、亚砜、醚、酰胺类的溶剂，优选甲苯、1,4-二氧六环、乙二醇二甲醚、乙二醇二乙醚、二甲基亚砜(DMSO)、四氢呋喃(THF)、N,N-二甲基甲酰胺(DMF)中的一种或两种以上。",
+   "en": "In a more specific embodiment, the first solvent used in the above reaction is a solvent selected from aromatic hydrocarbons, sulfoxides, ethers and amides, preferably one or more than two of toluene, 1,4-dioxane, ethylene glycol dimethyl ether, ethylene glycol diethyl ether, dimethyl sulfoxide (DMSO), tetrahydrofuran (THF), and N,N-dimethylformamide (DMF).",
+   "notes": null
+  },
+  {
+   "marker": "[0088]",
+   "zh": "在更具体的实施方式中，上述反应中通入CO的压力约为1～4MPa。",
+   "en": "In a more specific embodiment, the pressure of the CO fed into the above reaction is about 1 to 4 MPa.",
+   "notes": "The range separator is printed as a wave dash with spacing (1 ~ 4MPa); transcribed as the full-width wave dash."
+  },
+  {
+   "marker": "[0089]",
+   "zh": "在更具体的实施方式中，上述反应中，蒸除第一溶剂后，加入醇溶剂例如甲醇或乙醇等作为第二溶剂溶解。",
+   "en": "In a more specific embodiment, in the above reaction, after the first solvent is distilled off, an alcohol solvent such as methanol or ethanol is added as the second solvent to dissolve.",
+   "notes": null
+  },
+  {
+   "marker": "[0090]",
+   "zh": "在其他实施方式中，本发明的式(IV)化合物可以通过但不限于如下插羰反应直接制备式(VIII)的酯化合物。",
+   "en": "In other embodiments, the compound of formula (IV) of the present invention can be used to prepare the ester compound of formula (VIII) directly by, but not limited to, the following carbonylation (carbonyl insertion) reaction.",
+   "notes": "插羰反应 translated literally as carbonyl-insertion reaction."
+  },
+  {
+   "marker": "[0091]",
+   "zh": "式(V)的羧酸化合物和式(VIII)的酯化合物是环磺酮的重要制备中间体，可以参照例如专利文献DE19846792A1等中公开的已知方法通过如下路线制备环磺酮。",
+   "en": "The carboxylic acid compound of formula (V) and the ester compound of formula (VIII) are important preparation intermediates for tembotrione; tembotrione can be prepared by the following route with reference to known methods disclosed in, for example, patent document DE19846792A1 and the like.",
+   "notes": "环磺酮 is the Chinese common name of the herbicide tembotrione; translated by that name. The route it refers to is not drawn on this page."
+  }
+ ],
+ "drawings": [
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0090]",
+    "[0091]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, labelled formula (IV)",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "1-bromo-2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzene",
+     "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, below the arrow (reagent drawn, not labelled)",
+     "core": "cyclohexane-1,3-dione",
+     "substituents": [],
+     "name": "cyclohexane-1,3-dione",
+     "smiles": "O=C1CCCC(=O)C1",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "3rd, right of arrow, labelled formula (VIII)",
+     "core": "benzoate ester of cyclohex-2-en-1-one enol (3-oxocyclohex-1-en-1-yl benzoate)",
+     "substituents": [
+      "C(=O)O-(3-oxocyclohex-1-en-1-yl) at C1 of the benzene",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4",
+      "on the cyclohexenone ring: ester O at the alkene carbon, ketone at the ring carbon two bonds away across the C=C"
+     ],
+     "name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+     "smiles": "O=C1CCCC(OC(=O)c2ccc(S(C)(=O)=O)c(COCC(F)(F)F)c2Cl)=C1",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "3rd",
+     "reagents_above": [
+      "CO"
+     ],
+     "reagents_below": [
+      "cyclohexane-1,3-dione (drawn as a structure, no text label)"
+     ],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "The scheme is marked (v´-1) to the right of the product. Formula labels 式（IV）and 式（VIII）are printed beneath the reactant and product respectively. In the product's cyclohexenone ring the ketone is drawn at the top vertex and the ester oxygen on the carbon at the far end of the ring double bond, i.e. an enol ester of cyclohexane-1,3-dione."
+  }
+ ],
+ "discrepancies": [
+  {
+   "what": "The prose specifies a palladium catalyst, a phosphine ligand, an acid-binding agent and a solvent for this carbonylation, but the drawn arrow carries only CO above and cyclohexane-1,3-dione below.",
+   "drawing_says": "above arrow: CO; below arrow: cyclohexane-1,3-dione only",
+   "text_says": "[0083]-[0087]: noble metal (preferably PdCl2) catalyst, phosphine ligand, acid-binding agent, first solvent"
+  },
+  {
+   "what": "Cyclohexane-1,3-dione is drawn as a co-reactant below the arrow but is not named anywhere in the prose on this page.",
+   "drawing_says": "cyclohexane-1,3-dione structure below the arrow",
+   "text_says": "[0090] describes only a carbonyl-insertion reaction converting formula (IV) into the ester of formula (VIII)"
+  }
+ ],
+ "illegible": [],
+ "page_confidence": "high"
+}

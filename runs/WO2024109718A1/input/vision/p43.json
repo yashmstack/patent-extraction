@@ -1,0 +1,175 @@
+{
+  "page": "p43.png",
+  "page_label": "国际检索报告 / PCT/ISA/210 表(第2页)",
+  "doc_part": "front_page",
+  "header": "国际检索报告    国际申请号 PCT/CN2023/132821",
+  "footer": "PCT/ISA/210 表(第2页) (2022年7月)",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "国际检索报告",
+      "en": "International Search Report",
+      "notes": "Form title, top-left of page."
+    },
+    {
+      "marker": null,
+      "zh": "国际申请号\nPCT/CN2023/132821",
+      "en": "International application No.\nPCT/CN2023/132821",
+      "notes": "Boxed field, top-right."
+    },
+    {
+      "marker": null,
+      "zh": "A.　　主题的分类",
+      "en": "A.    CLASSIFICATION OF SUBJECT MATTER",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "C07C319/20(2006.01)i；C07C15/04(2006.01)i；C07C317/24(2006.01)i；C07C315/04(2006.01)i；C07C317/24(2006.01)i",
+      "en": "C07C319/20(2006.01)i; C07C15/04(2006.01)i; C07C317/24(2006.01)i; C07C315/04(2006.01)i; C07C317/24(2006.01)i",
+      "notes": "C07C317/24 is printed twice, as first and last entry. Transcribed as printed, not deduplicated."
+    },
+    {
+      "marker": null,
+      "zh": "按照国际专利分类(IPC)或者同时按照国家分类和IPC两种分类",
+      "en": "According to International Patent Classification (IPC) or to both national classification and IPC",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "B.　　检索领域",
+      "en": "B.    FIELDS SEARCHED",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "检索的最低限度文献(标明分类系统和分类号)\nIPC：C07C",
+      "en": "Minimum documentation searched (classification system followed by classification symbols)\nIPC: C07C",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "包含在检索领域中的除最低限度文献以外的检索文献",
+      "en": "Documentation searched other than minimum documentation to the extent that such documents are included in the fields searched",
+      "notes": "Field heading printed with no content beneath it."
+    },
+    {
+      "marker": null,
+      "zh": "在国际检索时查阅的电子数据库(数据库的名称，和使用的检索词（如使用））",
+      "en": "Electronic data base consulted during the international search (name of data base and, where practicable, search terms used)",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "REGISTRY(STN), CAPLUS(STN), MARPAT(STN), DWPI, CNKI，百度：兰升生物科技集团股份有限公司，河北科技大学，李柳柳，赵亚冉，郭庆春，宋海文，张越，环磺酮，除草剂，三酮，一氧化碳，CO，结构和反应式检索",
+      "en": "REGISTRY(STN), CAPLUS(STN), MARPAT(STN), DWPI, CNKI, Baidu: Lansheng Biotech Group Co., Ltd., Hebei University of Science and Technology, LI Liuliu, ZHAO Yaran, GUO Qingchun, SONG Haiwen, ZHANG Yue, tembotrione (huanhuangtong), herbicide, trione, carbon monoxide, CO, structure and reaction-formula search",
+      "notes": "环磺酮 is the Chinese common name of a triketone herbicide; translated literally as the transliterated name with the usual English equivalent noted. 一氧化碳 = carbon monoxide."
+    },
+    {
+      "marker": null,
+      "zh": "C.　　相关文件",
+      "en": "C.    DOCUMENTS CONSIDERED TO BE RELEVANT",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "类 型*　｜　引用文件，必要时，指明相关段落　｜　相关的权利要求",
+      "en": "Category* | Citation of document, with indication, where appropriate, of the relevant passages | Relevant to claim No.",
+      "notes": "Column headers of the citation table. Separators are table rules, transcribed here as pipes."
+    },
+    {
+      "marker": null,
+      "zh": "Y　｜　CN 104292137 A (武汉工程大学) 2015年1月21日 (2015 - 01 - 21)\n权利要求1，说明书第[0030]-[0060]段　｜　1-14",
+      "en": "Y | CN 104292137 A (WUHAN INSTITUTE OF TECHNOLOGY) 21 January 2015 (2015-01-21)\nclaim 1, description paragraphs [0030]-[0060] | 1-14",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "Y　｜　CN 104271560 A (石原产业株式会社) 2015年1月7日 (2015 - 01 - 07)\n说明书第[0009]-[0018]段，第[0123]-[0130]段　｜　1-14",
+      "en": "Y | CN 104271560 A (ISHIHARA SANGYO KAISHA, LTD.) 7 January 2015 (2015-01-07)\ndescription paragraphs [0009]-[0018], paragraphs [0123]-[0130] | 1-14",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "X　｜　US 4942246 A (NISSAN CHEMICAL IND. LTD.) 1990年7月17日 (1990 - 07 - 17)\n说明书第8-9栏实施例1-2和1-3　｜　11-12",
+      "en": "X | US 4942246 A (NISSAN CHEMICAL IND. LTD.) 17 July 1990 (1990-07-17)\ndescription columns 8-9, examples 1-2 and 1-3 | 11-12",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "Y　｜　US 4942246 A (NISSAN CHEMICAL IND. LTD.) 1990年7月17日 (1990 - 07 - 17)\n说明书第8-9栏实施例1-2和1-3　｜　5-10,12-14",
+      "en": "Y | US 4942246 A (NISSAN CHEMICAL IND. LTD.) 17 July 1990 (1990-07-17)\ndescription columns 8-9, examples 1-2 and 1-3 | 5-10,12-14",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "A　｜　CN 113845451 A (沈阳中化农药化工研发有限公司等) 2021年12月28日 (2021 - 12 - 28)\n说明书实施例4　｜　1-14",
+      "en": "A | CN 113845451 A (SHENYANG SINOCHEM AGROCHEMICALS R&D CO., LTD. et al.) 28 December 2021 (2021-12-28)\ndescription, example 4 | 1-14",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "A　｜　US 2005282709 A1 (BAYER CROPSCIENCE GMBH) 2005年12月22日 (2005 - 12 - 22)\n说明书第83-91段　｜　1-14",
+      "en": "A | US 2005282709 A1 (BAYER CROPSCIENCE GMBH) 22 December 2005 (2005-12-22)\ndescription paragraphs 83-91 | 1-14",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "A　｜　CN 1968944 A (拜尔作物科学有限公司) 2007年5月23日 (2007 - 05 - 23)\n说明书第18-20页实施例　｜　1-14",
+      "en": "A | CN 1968944 A (BAYER CROPSCIENCE AG) 23 May 2007 (2007-05-23)\ndescription pages 18-20, examples | 1-14",
+      "notes": "拜尔作物科学有限公司 rendered literally as Bayer CropScience Co., Ltd."
+    },
+    {
+      "marker": null,
+      "zh": "☑ 其余文件在C栏的续页中列出。",
+      "en": "[X] Further documents are listed in the continuation of Box C.",
+      "notes": "Checkbox is ticked."
+    },
+    {
+      "marker": null,
+      "zh": "☑ 见同族专利附件。",
+      "en": "[X] See patent family annex.",
+      "notes": "Checkbox is ticked."
+    },
+    {
+      "marker": null,
+      "zh": "*　引用文件的具体类型：\n“A” 认为不特别相关的表示了现有技术一般状态的文件\n“D” 申请人在国际申请中引证的文件\n“E” 在国际申请日的当天或之后公布的在先申请或专利\n“L” 可能对优先权要求构成怀疑的文件，或为确定另一篇引用文件的公布日而引用的或者因其他特殊理由而引用的文件（如具体说明的）\n“O” 涉及口头公开、使用、展览或其他方式公开的文件\n“P” 公布日先于国际申请日但迟于所要求的优先权日的文件",
+      "en": "* Special categories of cited documents:\n“A” document defining the general state of the art which is not considered to be of particular relevance\n“D” document cited by the applicant in the international application\n“E” earlier application or patent but published on or after the international filing date\n“L” document which may throw doubts on priority claim(s) or which is cited to establish the publication date of another citation or other special reason (as specified)\n“O” document referring to an oral disclosure, use, exhibition or other means\n“P” document published prior to the international filing date but later than the priority date claimed",
+      "notes": "Standard form legend, left column."
+    },
+    {
+      "marker": null,
+      "zh": "“T” 在申请日或优先权日之后公布，与申请不相抵触，但为了理解发明之理论或原理的在后文件\n“X” 特别相关的文件，单独考虑该文件，认定要求保护的发明不是新颖的或不具有创造性\n“Y” 特别相关的文件，当该文件与另一篇或者多篇该类文件结合并且这种结合对于本领域技术人员为显而易见时，要求保护的发明不具有创造性\n“&” 同族专利的文件",
+      "en": "“T” later document published after the international filing date or priority date and not in conflict with the application but cited to understand the principle or theory underlying the invention\n“X” document of particular relevance; the claimed invention cannot be considered novel or cannot be considered to involve an inventive step when the document is taken alone\n“Y” document of particular relevance; the claimed invention cannot be considered to involve an inventive step when the document is combined with one or more other such documents, such combination being obvious to a person skilled in the art\n“&” document member of the same patent family",
+      "notes": "Standard form legend, right column."
+    },
+    {
+      "marker": null,
+      "zh": "国际检索实际完成的日期\n2024年2月5日",
+      "en": "Date of the actual completion of the international search\n5 February 2024",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "国际检索报告邮寄日期\n2024年2月20日",
+      "en": "Date of mailing of the international search report\n20 February 2024",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "ISA/CN的名称和邮寄地址\n中国国家知识产权局\n中国北京市海淀区蓟门桥西土城路6号 100088",
+      "en": "Name and mailing address of the ISA/CN\nChina National Intellectual Property Administration\nNo. 6, Xitucheng Road, Jimenqiao, Haidian District, Beijing 100088, China",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "受权官员\n王馨悦\n电话号码 (+86) 010-53962173",
+      "en": "Authorized officer\nWANG Xinyue\nTelephone No. (+86) 010-53962173",
+      "notes": null
+    }
+  ],
+  "drawings": [],
+  "discrepancies": [],
+  "illegible": [],
+  "page_confidence": "high"
+}

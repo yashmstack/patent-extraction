@@ -1,0 +1,272 @@
+{
+  "page": "p02.png",
+  "page_label": "1",
+  "doc_part": "description",
+  "header": "WO 2024/109718                                        PCT/CN2023/132821",
+  "footer": "",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "说明书",
+      "en": "Description",
+      "notes": "Centred title line, not a numbered paragraph."
+    },
+    {
+      "marker": null,
+      "zh": "发明名称: 环磺酮的制备方法和中间体",
+      "en": "Title of invention: Preparation method and intermediates of tembotrione",
+      "notes": "Centred title line. 环磺酮 is the Chinese common name of the triketone herbicide tembotrione; translated by common name."
+    },
+    {
+      "marker": null,
+      "zh": "技术领域",
+      "en": "Technical field",
+      "notes": "Section heading."
+    },
+    {
+      "marker": "[0001]",
+      "zh": "本发明涉及用于制备除草剂环磺酮的新方法和新中间体化合物。",
+      "en": "The present invention relates to a new process for preparing the herbicide tembotrione and to new intermediate compounds.",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "背景技术",
+      "en": "Background art",
+      "notes": "Section heading."
+    },
+    {
+      "marker": "[0002]",
+      "zh": "环磺酮是一种三酮类除草剂，具有高效、低毒、残留少、广谱等优点，因此自上市以来市场日益扩大。",
+      "en": "Tembotrione is a triketone herbicide having the advantages of high efficacy, low toxicity, low residue and a broad spectrum, and its market has therefore expanded steadily since launch.",
+      "notes": null
+    },
+    {
+      "marker": "[0003]",
+      "zh": "作为环磺酮的制备方法，原研专利文献DE19846792A1公开了如下方法：",
+      "en": "As a process for preparing tembotrione, the originator patent document DE19846792A1 discloses the following process:",
+      "notes": null
+    },
+    {
+      "marker": "[0004]",
+      "zh": "上述方法中所用的原料二氯甲苯在反应时选择性不好，导致杂质多，收率低。",
+      "en": "The dichlorotoluene starting material used in the above process has poor selectivity in the reaction, leading to many impurities and a low yield.",
+      "notes": null
+    },
+    {
+      "marker": "[0005]",
+      "zh": "目前广泛报道和采用的是如下路线(参见例如200510030163.5号中国专利申请)：",
+      "en": "The route widely reported and used at present is the following (see, for example, Chinese patent application No. 200510030163.5):",
+      "notes": "The scheme this sentence introduces is not on this page; it continues on the next page."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "scheme",
+      "between_markers": ["[0003]", "[0004]"],
+      "presented_as": "prior_art",
+      "structures": [
+        {
+          "position_in_drawing": "1st, row 1 leftmost",
+          "core": "benzene",
+          "substituents": ["CH3 at C1", "Cl at C2", "Cl at C6"],
+          "name": "2,6-dichlorotoluene",
+          "smiles": "Cc1c(Cl)cccc1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, row 1 second from left",
+          "core": "benzene",
+          "substituents": ["CH3 at C1", "Cl at C2", "SCH3 at C6"],
+          "name": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+          "smiles": "Cc1c(Cl)cccc1SC",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "3rd, row 1 third from left",
+          "core": "benzene",
+          "substituents": ["C(=O)CH3 at C1", "Cl at C2", "CH3 at C3", "SCH3 at C4"],
+          "name": "1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one",
+          "smiles": "CC(=O)c1c(Cl)c(C)c(SC)cc1",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "4th, row 1 rightmost",
+          "core": "benzene",
+          "substituents": ["C(=O)CH3 at C1", "Cl at C2", "CH3 at C3", "SO2CH3 at C4"],
+          "name": "1-[2-chloro-3-methyl-4-(methanesulfonyl)phenyl]ethan-1-one",
+          "smiles": "CC(=O)c1c(Cl)c(C)c(S(C)(=O)=O)cc1",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "5th, row 2 leftmost",
+          "core": "benzene",
+          "substituents": ["COOH at C1", "Cl at C2", "CH3 at C3", "SO2CH3 at C4"],
+          "name": "2-chloro-3-methyl-4-(methanesulfonyl)benzoic acid",
+          "smiles": "OC(=O)c1c(Cl)c(C)c(S(C)(=O)=O)cc1",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "6th, row 2 middle",
+          "core": "benzene",
+          "substituents": ["COOCH3 at C1", "Cl at C2", "CH3 at C3", "SO2CH3 at C4"],
+          "name": "methyl 2-chloro-3-methyl-4-(methanesulfonyl)benzoate",
+          "smiles": "COC(=O)c1c(Cl)c(C)c(S(C)(=O)=O)cc1",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "7th, row 2 rightmost",
+          "core": "benzene",
+          "substituents": ["COOCH3 at C1", "Cl at C2", "CH2Br at C3", "SO2CH3 at C4"],
+          "name": "methyl 3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzoate",
+          "smiles": "COC(=O)c1c(Cl)c(CBr)c(S(C)(=O)=O)cc1",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "8th, row 3 left structure",
+          "core": "benzene",
+          "substituents": ["COOCH3 at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4"],
+          "name": "methyl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+          "smiles": "COC(=O)c1c(Cl)c(COCC(F)(F)F)c(S(C)(=O)=O)cc1",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "9th, row 3 right structure",
+          "core": "benzene",
+          "substituents": ["COOH at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4"],
+          "name": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+          "smiles": "OC(=O)c1c(Cl)c(COCC(F)(F)F)c(S(C)(=O)=O)cc1",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "10th, row 4 leftmost",
+          "core": "benzene",
+          "substituents": ["C(=O)Cl at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4"],
+          "name": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+          "smiles": "ClC(=O)c1c(Cl)c(COCC(F)(F)F)c(S(C)(=O)=O)cc1",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "11th, row 4 middle, drawn above the arrow as a reagent",
+          "core": "cyclohexane-1,3-dione",
+          "substituents": ["=O at C1", "=O at C3"],
+          "name": "cyclohexane-1,3-dione",
+          "smiles": "O=C1CCCC(=O)C1",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "12th, row 4 third structure (product of the arrow carrying cyclohexane-1,3-dione)",
+          "core": "3-oxocyclohex-1-en-1-yl ester of a benzoic acid; benzene ring bearing Cl, CH2OCH2CF3 and SO2CH3",
+          "substituents": ["C(=O)O-(3-oxocyclohex-1-en-1-yl) at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4"],
+          "name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+          "smiles": "O=C1CCCC(OC(=O)c2c(Cl)c(COCC(F)(F)F)c(S(C)(=O)=O)cc2)=C1",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "13th, row 4 rightmost",
+          "core": "cyclohexane-1,3-dione acylated at C2; benzene ring bearing Cl, CH2OCH2CF3 and SO2CH3",
+          "substituents": ["2-(aroyl) on the cyclohexane-1,3-dione C2", "Cl at C2 of the arene (ortho to the carbonyl link)", "CH2OCH2CF3 at C3 of the arene", "SO2CH3 at C4 of the arene"],
+          "name": "2-{2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl}cyclohexane-1,3-dione (tembotrione)",
+          "smiles": "O=C1CCCC(=O)C1C(=O)c1c(Cl)c(COCC(F)(F)F)c(S(C)(=O)=O)cc1",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": ["CH3SNa"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "2nd",
+          "to_structure": "3rd",
+          "reagents_above": ["CH3COCl"],
+          "reagents_below": ["AlCl3"],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "3rd",
+          "to_structure": "4th",
+          "reagents_above": ["H2O2"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "4th",
+          "to_structure": "5th",
+          "reagents_above": ["NaClO"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "5th",
+          "to_structure": "6th",
+          "reagents_above": ["CH3OH"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "6th",
+          "to_structure": "7th",
+          "reagents_above": ["NBS"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "7th",
+          "to_structure": "8th",
+          "reagents_above": ["CF3CH2ONa"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "8th",
+          "to_structure": "9th",
+          "reagents_above": ["NaOH"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "9th",
+          "to_structure": "10th",
+          "reagents_above": ["(COCl)2"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "10th",
+          "to_structure": "12th",
+          "reagents_above": ["cyclohexane-1,3-dione (drawn as a structure above the arrow, not written as text)"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "12th",
+          "to_structure": "13th",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "One continuous eleven-arrow scheme wrapped over four rows, introduced by [0003] as the route disclosed in DE19846792A1, i.e. prior art. The scheme flows left to right and then wraps: row 1 ends at the 4th structure and row 2 opens with the NaClO arrow feeding into the 5th; row 2 ends at the 7th and row 3 opens with the CF3CH2ONa arrow; row 3 ends with the (COCl)2 arrow whose product opens row 4. The last arrow carries no written reagent and no condition. The final structure is tembotrione, the 环磺酮 named in the prose."
+    }
+  ],
+  "discrepancies": [],
+  "illegible": [
+    "A single small isolated ink mark sits at the far right of the page just below the last structure of the scheme (approximately x=1300, y=1420 in the 1653x2338 image). It is one character, most likely a full stop, but too small and faint to identify with certainty."
+  ],
+  "page_confidence": "high"
+}

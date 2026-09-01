@@ -1,0 +1,616 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 8_Step 1",
+    "section_label": "Example 8",
+    "section_type": "experimental_example",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "lab",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "exact",
+        "value_c": 55.0,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "solvent removed by rotary evaporation"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": "rotary evaporation",
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "complete conversion"
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(V)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 1.5,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "dissolved in 1,4-dioxane before the thionyl chloride was added",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,4-dioxane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 20.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "thionyl chloride",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 1.03,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added dropwise at 5 C, then the mixture was warmed to 55 C",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(VII)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(V)化合物",
+      "thionyl chloride"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(VII)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "将式(V)化合物1.5g溶于20mL 1,4-二氧六环中，在5℃下滴加氯化亚砜1.03g，升温至55℃反应，通过高效液相色谱监测反应完成后，旋蒸除去溶剂，得到式(VII)化合物。",
+    "procedure_summary": "The compound of formula (V) is dissolved in 1,4-dioxane and treated with thionyl chloride added dropwise under cooling, then warmed until HPLC shows the reaction complete, and the solvent is stripped by rotary evaporation to give the acid chloride of formula (VII).",
+    "precursor_step": "Example 6::Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:chlorination",
+      "mechanism:ionic",
+      "analytics:hplc",
+      "scale:lab",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:none",
+      "workup_type:distillation",
+      "purification:none",
+      "step_role:first_step",
+      "linkage:cross_section_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "Conversion of the carboxylic acid of formula (V) into its acid chloride with thionyl chloride. Classed as halogenation because the hydroxyl of the acid is replaced by chlorine; nucleophilic_substitution is an equally defensible reading of the same transformation, hence medium confidence. The 5 C is the thionyl chloride addition temperature and 55 C is the reaction temperature, so 55 C is recorded as the step temperature and the addition condition is kept on the reagent. No reaction time and no yield are printed for this step. The compound of formula (V) is not made in this section. It is the section product of both Example 6 and Example 7, which carry it under the identical A1 identifier 式(V)化合物 and the identical drawn SMILES, so the charge is matched by compound identity. The two examples are alternative preparations of the same acid and the document does not say which batch this charge came from, so precursor_step names the first of them, Example 6::Step 1, with Example 7::Step 1 an equally valid precursor recorded here; linkage_confirmed is true because the identifiers match, not because the sections are near each other. Arrow 1 of the scheme on line 510 shows the same transformation with SOCl2 over the arrow and agrees with the prose. Line 516 states the HPLC conditions are the same as in Example 5; that cross-reference is located and not reproduced here."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 8_Step 2",
+    "section_label": "Example 8",
+    "section_type": "experimental_example",
+    "step_index": 2,
+    "step_label": "Step 2",
+    "reaction_class": "ester_formation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "lab",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "room_temperature",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": 2.0,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": "ice bath during the addition",
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "solvent removed by rotary evaporation"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": "rotary evaporation",
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "complete conversion"
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(VII)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "used as prepared in the previous step, receiving the dione and base solution dropwise",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,3-cyclohexanedione",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 0.5,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "dissolved in dioxane with triethylamine and added dropwise under ice bath",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,4-dioxane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 15.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "triethylamine",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 0.44,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added to the 1,3-cyclohexanedione solution, which was then added dropwise under ice bath",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(VIII)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(VII)化合物",
+      "1,3-cyclohexanedione"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(VIII)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "另将0.5g 1,3-环己二酮溶于15mL二氧六环中，加入0.44g三乙胺，冰浴下滴加到上述制备的式(VII)化合物中。滴加完毕后，室温搅拌约2h后，通过高效液相色谱监测反应完成后，旋蒸除去溶剂，得到式(V III)化合物的溶液。",
+    "procedure_summary": "1,3-Cyclohexanedione is dissolved in dioxane with triethylamine and added dropwise under ice cooling to the acid chloride from the previous step, then stirred at room temperature until HPLC shows the reaction complete, giving the enol ester of formula (VIII).",
+    "precursor_step": "Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "reagent_written_not_drawn"
+    ],
+    "tags": [
+      "transformation:esterification",
+      "mechanism:ionic",
+      "analytics:hplc",
+      "scale:lab",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:base",
+      "workup_type:distillation",
+      "purification:none",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "O-acylation of 1,3-cyclohexanedione by the acid chloride to the enol ester of formula (VIII). The text says explicitly 上述制备的式(VII)化合物, the compound of formula (VII) prepared above, so the link to Step 1 is confirmed by the text and not by name similarity. Room temperature is the stirring temperature and the ice bath applies only to the dropwise addition, so it is recorded as cooling_method and in the addition profiles rather than as the step temperature. The step charges 0.5 g of the dione but no mass for the acid chloride, which is carried through from the 1.5 g of the formula (V) compound charged in Step 1; scale is taken from that carried-through charge. The workup reads 旋蒸除去溶剂，得到式(V III)化合物的溶液, that is, the solvent is stripped and yet the product is described as a solution; recorded as printed. Line 512 spells the label 式(V III)化合物 with a space inside the numeral while line 514 spells it 式(VIII)化合物; A1 keeps the spaced form as an alias and the unspaced identifier is used here. Arrow 2 of the scheme on line 510 draws cyclohexane-1,3-dione over the arrow and gives the same product, but the machine read of that arrow carries no triethylamine and no solvent, both of which the prose states, hence reagent_written_not_drawn. No yield is printed for this step. Line 516 states the HPLC conditions are the same as in Example 5; that cross-reference is located and not reproduced here. The formula (VIII) ester is spelled several ways across this document: 式(VIII)化合物 (used on line 514 and by this section's A1 record, and so used as the identifier here), 式(V III)化合物 with a space inside the numeral on line 512, 式(VIII)的酯化合物 and 式(VIII)的中间体酯化合物 in the summary of the invention, 式(VIII)酯中间体 in the heading of Example 9, and (VIII)酯化合物 in the body of Example 9, which is the identifier A1 uses for that section. They all name the same enol ester of 1,3-cyclohexanedione, and a reader joining the two examples should treat 式(VIII)化合物 here and (VIII)酯化合物 in Example 9 as one compound."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 8_Step 3",
+    "section_label": "Example 8",
+    "section_type": "experimental_example",
+    "step_index": 3,
+    "step_label": "Step 3",
+    "reaction_class": "acylation",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "lab",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "exact",
+        "value_c": 60.0,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": 4.0,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "filtered",
+        "solvent removed from the filtrate by rotary evaporation",
+        "water added",
+        "pH adjusted to 2-3 with hydrochloric acid",
+        "solid collected by filtration",
+        "solid dried"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": "filtered after reaction, and the acidified solid collected by a second filtration",
+      "concentration_method": "rotary evaporation",
+      "ph_target": null
+    },
+    "purification": "acidified to pH 2-3 with hydrochloric acid and the precipitated solid collected by filtration and dried",
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "complete conversion"
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(VIII)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "used as the solution obtained in the previous step",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "acetone cyanohydrin",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 0.1,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added to the solution of the compound of formula (VIII)",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "workup_agent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "hydrochloric acid",
+        "role": "acid",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tembotrione",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": 76.59
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(VIII)化合物"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "tembotrione",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": 76.59,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "往上述得到的式(VIII)化合物溶液中加入0.1mL丙酮氰醇，60℃反应4h，通过高效液相色谱监测反应完成后，过滤，滤液旋蒸除去溶剂，加入水，用盐酸调节pH为2～3，过滤得到的固体并干燥，得到环磺酮，收率76.59％。",
+    "procedure_summary": "Acetone cyanohydrin is added to the solution of the enol ester and the mixture is heated until HPLC shows the reaction complete; after filtration, concentration, dilution with water and acidification, the solid is filtered off and dried to give tembotrione.",
+    "precursor_step": "Step 2",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:rearrangement",
+      "transformation:acylation",
+      "mechanism:catalytic",
+      "analytics:hplc",
+      "scale:lab",
+      "solvent_class:aprotic_polar",
+      "workup_type:filtration",
+      "purification:none",
+      "safety:cyanide_handling",
+      "step_role:final_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "Acetone cyanohydrin catalysed rearrangement of the enol ester of formula (VIII) to the C-acylated triketone, tembotrione. Classed as acylation because the net change is transfer of the aroyl group from the enol oxygen to C-2 of the dione ring; the taxonomy offers no rearrangement class, hence medium confidence, and the rearrangement is carried in the tags. mechanism_type is catalytic because the sub-stoichiometric cyanohydrin drives it; the acyl transfer itself is ionic. The text says 上述得到的式(VIII)化合物溶液, the solution of the compound of formula (VIII) obtained above, so the link to Step 2 is confirmed by the text. The Chinese product is 环磺酮, tembotrione. An earlier machine translation of these lines rendered it as sulcotrione, which is the different herbicide 磺草酮; the Chinese is authoritative and the English on line 515 was corrected during this run. The pH is printed as a range 2 to 3 and workup.ph_target holds a single number, so the range is kept in the workup narrative and the field left null rather than a bound invented. No product mass is printed, only the yield, and no charge is printed for this step; the scale is taken from the 1.5 g of the formula (V) compound charged in Step 1 and carried through unisolated. The 76.59% yield is stated for this step only. Arrow 3 of the scheme on line 510 shows the same enol ester going to the same triketone, but the vision pass could not read the reagent over that arrow and recorded it as illegible; that is an unread label, not a disagreement with the prose, so no drawing_text_conflict and no reagent_written_not_drawn is raised. Line 516 states the HPLC conditions are the same as in Example 5; that cross-reference is located and not reproduced here."
+  }
+]

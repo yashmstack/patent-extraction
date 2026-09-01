@@ -1,0 +1,37 @@
+{
+ "page": "p23.png",
+ "page_label": "22",
+ "doc_part": "description",
+ "header": "22\nWO 2024/109718                                     PCT/CN2023/132821",
+ "footer": "",
+ "paragraphs": [
+  {
+   "marker": null,
+   "zh": "滤，水洗，过滤，60℃干燥，得到黄白色粉末状固体环磺酮，收率64.67％，熔点120～122℃。",
+   "en": "filtered, washed with water, filtered, dried at 60℃, giving tembotrione as a yellowish-white powdery solid, yield 64.67％, melting point 120～122℃.",
+   "notes": "Continuation of a paragraph that began on the previous page; no [00NN] marker is printed on this line. 环磺酮 is the Chinese common name for sulcotrione; translated with the Chinese retained. English rendering corrected during the run: the vision pass wrote 'sulcotrione' for 环磺酮. 环磺酮 is the Chinese common name of tembotrione; sulcotrione is 磺草酮, a different registered triketone herbicide, and 'cyclic sulfone ketone' is a character gloss that names no compound. The Chinese is unchanged and is authoritative. See NOTES.md."
+  },
+  {
+   "marker": "[0144]",
+   "zh": "所得环磺酮的¹HNMR(DMSO)谱图如图15所示，¹³CNMR(DMSO)谱图如图16所示。",
+   "en": "The ¹H NMR (DMSO) spectrum of the tembotrione obtained is shown in Figure 15, and the ¹³C NMR (DMSO) spectrum is shown in Figure 16.",
+   "notes": "Superscript 1 and 13 are printed as superscripts before HNMR and CNMR respectively. English rendering corrected during the run: the vision pass wrote 'sulcotrione' for 环磺酮. 环磺酮 is the Chinese common name of tembotrione; sulcotrione is 磺草酮, a different registered triketone herbicide, and 'cyclic sulfone ketone' is a character gloss that names no compound. The Chinese is unchanged and is authoritative. See NOTES.md."
+  },
+  {
+   "marker": "[0145]",
+   "zh": "实施例11",
+   "en": "Example 11",
+   "notes": null
+  },
+  {
+   "marker": "[0146]",
+   "zh": "向高压釜中加入式(IV)化合物56.84g、1,3-环己二酮21.84g、三乙胺37.95g、PdCl₂催化剂0.5g、配体2-双环己基膦-2',6'-二甲氧基联苯或4,5-双二苯基膦-9,9-二甲基氧杂蒽4g、溶剂1,4-二氧六环290g，抽真空，氮气置换3次，通入1～4MPa的CO，在85℃反应约10h。收率低于10％，不理想。",
+   "en": "Into an autoclave were added 56.84 g of the compound of formula (IV), 21.84 g of 1,3-cyclohexanedione, 37.95 g of triethylamine, 0.5 g of PdCl₂ catalyst, 4 g of the ligand 2-dicyclohexylphosphino-2',6'-dimethoxybiphenyl or 4,5-bis(diphenylphosphino)-9,9-dimethylxanthene, and 290 g of the solvent 1,4-dioxane; the vessel was evacuated and purged with nitrogen 3 times, CO was introduced at 1～4 MPa, and the reaction was run at 85℃ for about 10 h. The yield was below 10％, which is unsatisfactory.",
+   "notes": "The PdCl2 subscript 2 is printed as a subscript. The two ligands named are SPhos and Xantphos respectively; the Chinese writes 双环己基膦 (dicyclohexylphosphino) and 双二苯基膦 (bis(diphenylphosphino)) literally, translated literally here. 或 ('or') indicates the two ligands are alternatives, not both used."
+  }
+ ],
+ "drawings": [],
+ "discrepancies": [],
+ "illegible": [],
+ "page_confidence": "high"
+}

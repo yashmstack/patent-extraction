@@ -1,0 +1,16 @@
+[
+  {
+    "reaction_id": "Example 4_Method 1",
+    "source_lines": [468, 468],
+    "quote_zh": "方法1：将式(II)化合物84g、过氧化苯甲酰3.58g和1,2-二氯乙烷500mL加入到四口圆底烧瓶中，升温至60℃，滴加溴素52.8g。",
+    "arithmetic_check": "Stated inputs: 式(II)化合物 84 g, bromine 52.8 g, benzoyl peroxide 3.58 g, 1,2-dichloroethane 500 mL. The section prints no moles, no equivalents, no product mass and no yield, so nothing in the record is computed from these. For the A5 check only: the drawn substrate C8H8BrClO2S has MW about 283.6, so 84 g is about 0.296 mol; Br2 at 159.8 gives about 0.330 mol from 52.8 g, i.e. about 1.11 equivalents; benzoyl peroxide at 242.2 gives about 0.0148 mol, i.e. about 5 mol percent initiator. Those ratios are chemically sensible for a benzylic bromination. There is no mass balance to close because no product mass or yield is stated, so no mass_balance_implausible flag is raised and none could be.",
+    "drawing_evidence": "The IMAGE_EXTRACT reaction scheme on line 466 supports this step: one arrow, reactant Cc1c(S(C)(=O)=O)ccc(Br)c1Cl (C8H8BrClO2S) to product CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr (C8H7Br2ClO2S), a single benzylic H replaced by Br, which is exactly the transformation the prose describes. The arrow condition text is 溴代试剂, a class term rather than a compound; the prose specifies bromine here. That is a generalisation, not a disagreement, so no drawing_text_conflict and no reagent_drawn_not_written is raised. The scheme covers both methods, since one arrow serves both."
+  },
+  {
+    "reaction_id": "Example 4_Method 2",
+    "source_lines": [470, 470],
+    "quote_zh": "方法2：将式(II)化合物84g、过氧化苯甲酰3.58g、N-溴代丁二酰亚胺64.1g和四氯化碳500mL加入到四口圆底烧瓶中，升温至60℃",
+    "arithmetic_check": "Stated inputs: 式(II)化合物 84 g, N-bromosuccinimide 64.1 g, benzoyl peroxide 3.58 g, carbon tetrachloride 500 mL, plus 150 mL ethanol for the recrystallisation. No moles, equivalents, product mass or yield are printed, so nothing is computed into the record. For the A5 check only: 84 g of the drawn substrate at MW about 283.6 is about 0.296 mol; NBS at 178.0 gives about 0.360 mol from 64.1 g, i.e. about 1.22 equivalents; benzoyl peroxide about 0.0148 mol, i.e. about 5 mol percent, the same initiator loading as 方法1. No mass balance can be checked because no product mass or yield is stated.",
+    "drawing_evidence": "The same IMAGE_EXTRACT scheme on line 466 supports this step; the patent draws one arrow for both methods. Its condition text 溴代试剂 is filled here by N-bromosuccinimide. Drawn substrate and product match the prose transformation, so nothing is flagged. Note that the scheme therefore cannot be used to corroborate the step boundary between 方法1 and 方法2: that boundary comes from the prose alone, which repeats the full charge and the full workup for each method."
+  }
+]

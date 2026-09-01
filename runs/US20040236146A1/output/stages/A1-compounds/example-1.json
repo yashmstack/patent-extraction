@@ -1,0 +1,344 @@
+[
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "3-bromomethyl-2-chloro4-methylsulfonyl-benzoic acid",
+      "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": true,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": 121.3,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": 88.4
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": {
+      "min_c": 207.0,
+      "max_c": 208.0,
+      "range_text": "Melting point: 207-208° C.",
+      "decomposition": null
+    },
+    "appearance": null,
+    "color": null,
+    "physical_form": "solid",
+    "analytics": [
+      {
+        "method": "hplc",
+        "value": null,
+        "unit": null,
+        "conditions": "in-process check on the variant A mixture after 2 h at 90 C",
+        "raw_text": "HPLC analysis indicated a conversion of more than 98%"
+      },
+      {
+        "method": "hplc",
+        "value": 87.0,
+        "unit": "%",
+        "conditions": "composition of the variant B reaction mixture, not an isolated yield",
+        "raw_text": "According to HPLC analysis, the reaction mixture contained 87% of product and 10% of reactant."
+      }
+    ],
+    "purity_pct": 96.0,
+    "purity_method": "hplc",
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid",
+      "functional_group:sulfone",
+      "functional_group:halide_bromo",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Product of both worked procedures of this example, merged into one record: variant A at [0027] isolates it and variant B at [0031] does not. Mass 121.3 g, yield 88.4%, purity 96% (HPLC) and melting point 207-208 C are variant A only; variant B reports only an HPLC composition of the reaction mixture and isolates nothing, so it has no mass, no yield and no melting point. Printed '3-bromomethyl-2-chloro4-methylsulfonyl-benzoic acid' at line 124, with the hyphen before the 4 locant missing; the corrected identifier is the spelling the example title prints at lines 116 to 118. The centred title is set across three printed lines: line 116 prints Preparation of, line 117 prints 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic on its own, and line 118 prints Acid on its own. The bare stem on line 117 is carried in aliases. It is the first printed line of this compound's own title, broken by the page, and not a second substance, so no separate record is emitted for it. It is recorded here because without it a line-level sweep cannot tell a name the page split from a name the annotation missed. The EN line at 119 rejoins the three into one title, which is a reading of the page and not a form the page prints, so it is not carried as an alias. Arithmetic checks: the printed 88.4% of theory reproduces from the printed 100 g charge, the printed 121.3 g isolated and the printed 96% purity, but only once the purity is applied, so the printed yield appears to be purity-corrected. The working itself, with formulae and weights, is in the arithmetic_check of the A2 provenance sidecar, which is where it belongs; it is not carried here, because notes may hold only numbers the document prints. No structure is drawn for this compound; the only drawings in this patent are Markush generics, so no SMILES alias exists."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "2-chloro-3-methyl-4-methylsulfonylbenzoic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "2-chloro-3-methyl4-sulfonylmethylbenzoic acid",
+      "2-chloro-3-methyl-4-sulfonylmethylbenzoic acid"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 100.0,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid",
+      "functional_group:sulfone",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Substrate of both procedures, merged into one record: 100 g charged in variant A at line 122, 5 g charged in variant B at line 130. The 100 g charge is kept as the more complete quantity. Printed 'sulfonylmethyl' both times, without the hyphen before the 4 locant at line 122 and with it at line 130. 'sulfonylmethyl' names a divalent linker and cannot be a terminal ring substituent, so it is a transposition of 'methylsulfonyl'; the patent settles this itself, because the example title at lines 116-118 prints the correct order and the printed mass, purity and yield of this example close only for the methylsulfonyl compound. Variant B's HPLC composition names 10% of unconverted reactant, which is this compound. The text does not state a source for it and no step of this patent prepares it."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "chlorobenzene",
+    "identifier_type": "iupac",
+    "aliases": [],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 400.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:benzene",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Suspension and reaction medium for variant A."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "N-bromosuccinimide",
+    "identifier_type": "trivial_name",
+    "aliases": [],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": 85.9,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:imide"
+    ],
+    "notes": "Brominating agent of variant A. Printed correctly on line 122; the misprint 'N-bromosuccimide' the patent uses elsewhere is not on the lines of this section."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "azoisobutyronitrile",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "azoisobutyroniltrile"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": 6.6,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:nitrile"
+    ],
+    "notes": "Radical initiator for variant A, as the patent describes it. Printed 'azoisobutyroniltrile' at line 122, with the l and the t transposed; the corrected identifier is the spelling the patent itself prints at lines 79 and 160. Charged at 6.6 g against a 100 g substrate charge, but recorded as a reagent rather than a catalyst because a radical initiator is consumed."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "bromine",
+    "identifier_type": "trivial_name",
+    "aliases": [],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": 2.6,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:corrosive",
+      "hazard:toxic"
+    ],
+    "notes": "Charged in both procedures, merged into one record. Variant A at line 122 adds 2.6 g as an accelerant for the N-bromosuccinimide bromination, which is the mass kept here. Variant B at line 130, where bromine is the brominating agent, prints its charge as 'II g of bromine': two capital-I letterforms, not a number, verified on the pixels at 8x and restated nowhere in the document. No mass is recorded for the variant B charge and none is substituted for it, so any mass balance over variant B must treat that charge as unknown."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "sodium bisulfite",
+    "identifier_type": "trivial_name",
+    "aliases": [],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 100.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:workup_agent"
+    ],
+    "notes": "Quench for the variant A workup. The 100 ml is of a 2% aqueous solution as printed, not of neat sodium bisulfite; no mass of the salt is stated."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "water",
+    "identifier_type": "trivial_name",
+    "aliases": [],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 400.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Charged in both procedures, merged into one record: 400 ml added to the cooled variant A mixture during workup at line 122, which is the volume kept here, and 50 ml as a co-solvent alongside methylene chloride in variant B at line 130."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "methylene chloride",
+    "identifier_type": "trivial_name",
+    "aliases": [],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 50.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:chloroalkane",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Reaction solvent for variant B, used with 50 ml of water. Kept under the name the patent prints."
+  }
+]

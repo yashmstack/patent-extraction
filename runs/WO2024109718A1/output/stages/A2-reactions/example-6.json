@@ -1,0 +1,304 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 6_Step 1",
+    "section_label": "Example 6",
+    "section_type": "experimental_intermediate",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "other_cross_coupling",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "lab",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "exact",
+        "value_c": 80.0,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "elevated",
+        "value_kpa": null,
+        "qualitative_text": "以约1～4MPa的压力通入CO (CO introduced at a pressure of about 1 to 4 MPa)"
+      },
+      "atmosphere": "CO, after evacuation and nitrogen purge",
+      "time_h": 12.0,
+      "reactor_type": "autoclave",
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "filtered",
+        "dioxane removed by rotary evaporation",
+        "methanol added to dissolve the residue",
+        "acidified to pH 2 to 3",
+        "white solid precipitated",
+        "filtered",
+        "filter cake washed with water",
+        "filter cake slurried and filtered"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "water"
+      ],
+      "drying_agent": null,
+      "filtration": "filtered after the reaction, again after acid precipitation, and again after slurrying",
+      "concentration_method": "rotary evaporation",
+      "ph_target": null
+    },
+    "purification": "precipitated by acidification of the methanol solution to pH 2 to 3, then the filter cake washed with water and slurried",
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "complete conversion"
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(IV)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 40.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CO",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "introduced as a gas after the vessel was evacuated and purged with nitrogen, at about 1 to 4 MPa",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 20.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "triethylamine",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 26.49,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "PdCl₂",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 0.4,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,4-bis(diphenylphosphino)butane",
+        "role": "ligand",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 4.65,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,4-dioxane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 400.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave; removed by rotary evaporation at workup",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "nitrogen",
+        "role": "other",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "used to purge the evacuated autoclave before the CO charge",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "methanol",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added at workup to dissolve the residue after the dioxane was removed",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(V)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": 81.13
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(IV)化合物",
+      "CO"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(V)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": 81.13,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "向高压釜中加入式(IV)化合物40g、水20g、三乙胺26.49g、PdCl₂催化剂0.4g、配体1,4-双(二苯基膦)丁烷4.65g、溶剂1,4-二氧六环400g，抽真空，氮气置换，以约1～4MPa的压力通入CO，在80℃反应约12h。通过高效液相色谱监测反应完成后，过滤，旋蒸除去溶剂二氧六环，加入甲醇溶解，调酸至pH为2～3，析出白色固体，过滤，滤饼经水洗、打浆后过滤，得到式(V)化合物，收率81.13％，熔点155-157℃。高效液相色谱条件：与实施例5相同。",
+    "procedure_summary": "The aryl bromide of formula (IV) is hydroxycarbonylated with carbon monoxide in an autoclave over a palladium(II) chloride catalyst with a bis(diphenylphosphino)butane ligand, triethylamine as base and water in dioxane. After the solvent is removed, the residue is taken up in methanol and acidified to precipitate the benzoic acid of formula (V), which is filtered, water washed and slurried.",
+    "precursor_step": "Example 5::Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:carbonylation",
+      "mechanism:catalytic",
+      "analytics:hplc",
+      "analytics:nmr",
+      "scale:lab",
+      "atmosphere:carbon_monoxide",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:palladium",
+      "workup_type:filtration",
+      "purification:trituration",
+      "safety:high_pressure",
+      "step_role:intermediate_step",
+      "linkage:cross_section_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "One step, matching A0's estimate of 1: a single charge, one transformation and one workup. Palladium-catalysed hydroxycarbonylation of the aryl bromide of formula (IV) with CO and water to the benzoic acid of formula (V); no listed reaction_class names carbonylation, so other_cross_coupling is used for the Pd-catalysed replacement of the C-Br bond. Pressure is recorded as a condition (elevated, about 1 to 4 MPa) and not as a quantity, and the qualitative text carries the printed range because no single kPa value is stated. The reaction temperature and time are the only ones printed. The drawn scheme immediately above the step agrees with the prose: one arrow, the formula (IV) bromide as sole drawn reactant, H2O and CO on the arrow, and the formula (V) benzoic acid as product; nothing is flagged. The compound of formula (IV) is the section product of Example 5 under the identical A1 identifier 式(IV)化合物 and the identical drawn SMILES, so the charge is matched by compound identity; precursor_step is Example 5::Step 1 and linkage_confirmed is true. This section's HPLC conditions are separately referred back to Example 5 as well. No isolated product mass is printed, only the yield and the melting point, so no mass balance can be checked against a printed mass. Reactor volume is not given. A stirrer is not mentioned, so stirring is left null. The 1H and 13C NMR are referred to as Figures 11 and 12 and carry no printed data. Reaction class across the carbonylations of this document: Examples 6 and 7 are the same transformation of the same substrate under CO, differing only in the phosphine ligand and the solvent, and Examples 9, 10 and 11 carbonylate the same aryl bromide as well. The class list has no carbonylation entry, so one value is chosen and used for all of them, other_cross_coupling: every one of them replaces a C-Br bond on an arene by a new carbon-carbon bond over a palladium/phosphine catalyst, which is the cross-coupling family, and other is reserved for transformations that fit no family at all. Using other for one of a matched pair and other_cross_coupling for the other would make two examples of one procedure look like two different reactions. Example 10 is the exception: it is one-pot and rule 5 takes its class from the final transformation, the rearrangement, not from its carbonylation stage."
+  }
+]

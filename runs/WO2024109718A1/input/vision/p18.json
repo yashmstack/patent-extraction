@@ -1,0 +1,176 @@
+{
+ "page": "p18.png",
+ "page_label": "17",
+ "doc_part": "description",
+ "header": "17 / WO 2024/109718 (left) / PCT/CN2023/132821 (right)",
+ "footer": "",
+ "paragraphs": [
+  {
+   "marker": null,
+   "zh": "过-5～10℃，搅拌，得到重氮盐溶液。称量20％CH3SNa水溶液273g和32％NaOH水溶液26.62g置于另一四口烧瓶中，将上述重氮盐溶液滴加到此烧瓶中，通过高效液相色谱监测反应。反应完成后，用盐酸调节至pH为2～3，分层，收集有机层，蒸馏，得到式(VI)化合物。",
+   "en": "over -5 to 10 degrees C, stir, to give the diazonium salt solution. Weigh out 273 g of 20% aqueous CH3SNa solution and 26.62 g of 32% aqueous NaOH solution and place them in another four-necked flask; add the above diazonium salt solution dropwise into this flask, monitoring the reaction by HPLC. After the reaction is complete, adjust to pH 2 to 3 with hydrochloric acid, separate the layers, collect the organic layer, and distil to give the compound of formula (VI).",
+   "notes": "Unnumbered continuation of a paragraph that begins on the previous page; the first characters on this page are a sentence fragment. CH3SNa subscript 3 is printed as a subscript in the scan; transcribed as plain 3."
+  },
+  {
+   "marker": "[0108]",
+   "zh": "高效液相色谱条件：Kromasil的C18反相色谱柱，流动相为乙腈：水(用甲酸调节pH至3.7～4.1)＝80：20(V：V)，流速1.0mL/min，柱温30℃，检测波长210nm，进样体积5μL。",
+   "en": "HPLC conditions: Kromasil C18 reversed-phase column, mobile phase acetonitrile:water (pH adjusted to 3.7 to 4.1 with formic acid) = 80:20 (V:V), flow rate 1.0 mL/min, column temperature 30 degrees C, detection wavelength 210 nm, injection volume 5 microlitres.",
+   "notes": "The micro sign is printed with a space before L in the scan (5 μ L); transcribed without the space."
+  },
+  {
+   "marker": "[0109]",
+   "zh": "式(VI)化合物的1HNMR(CDCl3)谱图如图1所示，13CNMR(CDCl3)谱图如图2所示。",
+   "en": "The 1H NMR (CDCl3) spectrum of the compound of formula (VI) is shown in Figure 1, and the 13C NMR (CDCl3) spectrum is shown in Figure 2.",
+   "notes": "The 1 in 1HNMR and the 13 in 13CNMR are printed as superscripts; CDCl3 subscript 3 printed as subscript. Transcribed inline."
+  },
+  {
+   "marker": "[0110]",
+   "zh": "实施例2 式(I)化合物的制备",
+   "en": "Example 2  Preparation of the compound of formula (I)",
+   "notes": null
+  },
+  {
+   "marker": "[0111]",
+   "zh": "将式(VI)化合物100.75g、400g二氯甲烷置于四口圆底烧瓶中，于10℃左右滴加溴素98.4g。经高效液相色谱监测反应完成后，用30mL 32％的NaOH溶液淬灭，分出有机相，并用70mL 32％的NaOH水溶液洗涤两次，然后用70mL水洗涤两次，分液，有机层旋蒸除去溶剂，得到式(I)化合物。",
+   "en": "Place 100.75 g of the compound of formula (VI) and 400 g of dichloromethane in a four-necked round-bottomed flask, and add 98.4 g of bromine dropwise at around 10 degrees C. After HPLC monitoring shows the reaction is complete, quench with 30 mL of 32% NaOH solution, separate the organic phase, wash it twice with 70 mL of 32% aqueous NaOH solution, then wash twice with 70 mL of water, separate the layers, and remove the solvent from the organic layer by rotary evaporation to give the compound of formula (I).",
+   "notes": null
+  },
+  {
+   "marker": "[0112]",
+   "zh": "高效液相色谱条件：除检测波长为254nm，其它与实施例1相同。",
+   "en": "HPLC conditions: the same as in Example 1 except that the detection wavelength is 254 nm.",
+   "notes": null
+  },
+  {
+   "marker": "[0113]",
+   "zh": "式(I)化合物的1HNMR(CDCl3)谱图如图3所示，13CNMR(CDCl3)谱图如图4所示。",
+   "en": "The 1H NMR (CDCl3) spectrum of the compound of formula (I) is shown in Figure 3, and the 13C NMR (CDCl3) spectrum is shown in Figure 4.",
+   "notes": "Superscript 1 and 13 and subscript 3 transcribed inline."
+  },
+  {
+   "marker": "[0114]",
+   "zh": "实施例3 式(II)化合物的制备",
+   "en": "Example 3  Preparation of the compound of formula (II)",
+   "notes": null
+  },
+  {
+   "marker": "[0115]",
+   "zh": "将式(I)化合物146g、二水合钨酸钠1.91g和冰醋酸600mL加入到四口烧瓶中，升温至80℃，滴加23％的双氧水224g，通过高效液相色谱监测反应完成后，停止反",
+   "en": "Add 146 g of the compound of formula (I), 1.91 g of sodium tungstate dihydrate and 600 mL of glacial acetic acid to a four-necked flask, raise the temperature to 80 degrees C, add 224 g of 23% hydrogen peroxide dropwise, and after HPLC monitoring shows the reaction is complete, stop the reac",
+   "notes": "Paragraph is cut off at the foot of the page; it continues on the next page."
+  }
+ ],
+ "drawings": [
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0110]",
+    "[0111]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, labelled formula (VI)",
+     "core": "benzene",
+     "substituents": [
+      "CH3 at C1",
+      "Cl at C2",
+      "SCH3 at C6"
+     ],
+     "name": "1-chloro-2-methyl-3-(methylthio)benzene",
+     "smiles": "Cc1c(Cl)cccc1SC",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right of arrow, labelled formula (I)",
+     "core": "benzene",
+     "substituents": [
+      "CH3 at C1",
+      "Cl at C2",
+      "Br at C3",
+      "SCH3 at C6"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methylthio)benzene",
+     "smiles": "Cc1c(Cl)c(Br)ccc1SC",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [
+      "Br2"
+     ],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Locants are assigned with the methyl-bearing carbon as C1, read directly off the hexagon: the drawn ring has Cl on the vertex adjacent to the methyl vertex on one side and SCH3 on the vertex adjacent on the other side. In the product the Br sits on the vertex adjacent to the Cl vertex, on the side away from the methyl. Bromine label is drawn to the upper left of the product ring."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0114]",
+    "[0115]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, labelled formula (I)",
+     "core": "benzene",
+     "substituents": [
+      "CH3 at C1",
+      "Cl at C2",
+      "Br at C3",
+      "SCH3 at C6"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methylthio)benzene",
+     "smiles": "Cc1c(Cl)c(Br)ccc1SC",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right of arrow, labelled formula (II)",
+     "core": "benzene",
+     "substituents": [
+      "CH3 at C1",
+      "Cl at C2",
+      "Br at C3",
+      "SO2CH3 at C6"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfonyl)benzene",
+     "smiles": "Cc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [
+      "H2O2"
+     ],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Same locant convention as the first scheme, read off the drawing with the methyl-bearing carbon as C1. Only difference between the two structures is SCH3 becoming SO2CH3; the S=O bonds are not drawn out, the label is written as SO2CH3 with a subscript 2."
+  }
+ ],
+ "discrepancies": [
+  {
+   "what": "The bromination scheme shows only Br2 over the arrow; the prose adds a solvent that is not drawn.",
+   "drawing_says": "Br2",
+   "text_says": "[0111] 400g dichloromethane as solvent, around 10 degrees C, then a 32% NaOH quench and washes"
+  },
+  {
+   "what": "The oxidation scheme shows only H2O2 over the arrow; the prose adds a catalyst and a solvent that are not drawn.",
+   "drawing_says": "H2O2",
+   "text_says": "[0115] 1.91 g sodium tungstate dihydrate, 600 mL glacial acetic acid, 80 degrees C, 224 g of 23% hydrogen peroxide"
+  }
+ ],
+ "illegible": [],
+ "page_confidence": "high"
+}

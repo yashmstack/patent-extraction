@@ -1,0 +1,738 @@
+[
+  {
+    "identifier": "3-bromomethylbenzoic acids of the formula II",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure needed: trivial species, carries none of this patent's chemistry.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried '3-bromomethylbenzoic acids of the formula II'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "3-methylbenzoic acids",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried '3-methylbenzoic acids'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "compounds of the formula II",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'compounds of the formula II'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "3-bromomethylbenzoic acid",
+    "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+    "canonical": "O=C(O)c1cccc(CBr)c1",
+    "formula": "C8H7BrO2",
+    "mw": 215.05,
+    "origin": "name_parsed",
+    "svg": "structures/3-bromomethylbenzoic-acid.svg",
+    "aliases": [
+      "3-bromomethylbenzoic acid of formula II"
+    ],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "3-bromomethylbenzoic acid",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "O=C(O)c1cccc(CBr)c1",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "bromomethyl aromatics",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'bromomethyl aromatics'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "methyl aromatics",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'methyl aromatics'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "substituted benzyl bromides",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure needed: trivial species, carries none of this patent's chemistry.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'substituted benzyl bromides'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "azocarboxylic esters",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'azocarboxylic esters'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "azonitriles",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'azonitriles'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "oxidizing agent",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'oxidizing agent'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate",
+    "smiles": "BrCC=1C(=C(C(=O)OC)C=CC1S(=O)(=O)C)Cl",
+    "canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "formula": "C10H10BrClO4S",
+    "mw": 341.61,
+    "origin": "name_parsed",
+    "svg": "structures/methyl-3-bromomethyl-2-chloro-4-methylsulfonylbenzoate.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "radical initiator",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'radical initiator'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate",
+    "smiles": "ClC1=C(C(=O)OC)C=CC(=C1C)S(=O)(=O)C",
+    "canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+    "formula": "C10H11ClO4S",
+    "mw": 262.71,
+    "origin": "name_parsed",
+    "svg": "structures/methyl-2-chloro-3-methyl-4-methylsulfonylbenzoate.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "carbon tetrachloride",
+    "smiles": "C(Cl)(Cl)(Cl)Cl",
+    "canonical": "ClC(Cl)(Cl)Cl",
+    "formula": "CCl4",
+    "mw": 153.82,
+    "origin": "name_parsed",
+    "svg": "structures/carbon-tetrachloride.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "carbon tetrachloride",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "ClC(Cl)(Cl)Cl",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)C)Cl",
+    "canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+    "formula": "C9H8BrClO4S",
+    "mw": 327.58,
+    "origin": "name_parsed",
+    "svg": "structures/3-bromomethyl-2-chloro-4-methylsulfonylbenzoic-acid.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "3-bromomethylbenzoic acid of formula II",
+    "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+    "canonical": "O=C(O)c1cccc(CBr)c1",
+    "formula": "C8H7BrO2",
+    "mw": 215.05,
+    "origin": "name_parsed",
+    "svg": "structures/3-bromomethylbenzoic-acid.svg",
+    "aliases": [
+      "3-bromomethylbenzoic acid"
+    ],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN (parsed as '3-bromomethylbenzoic acid'), independently of any reading of this document.",
+    "name_check": {
+      "query": "3-bromomethylbenzoic acid",
+      "via": "alias",
+      "outcome": "is_the_source",
+      "opsin_canonical": "O=C(O)c1cccc(CBr)c1",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "3-methylbenzoic acid of formula I",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried '3-methylbenzoic acid of formula I'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "smiles": "BrN1C(CCC1=O)=O",
+    "canonical": "O=C1CCC(=O)N1Br",
+    "formula": "C4H4BrNO2",
+    "mw": 177.98,
+    "origin": "name_parsed",
+    "svg": "structures/n-bromosuccinimide.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "N-bromosuccinimide",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "O=C1CCC(=O)N1Br",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "azoisobutyronitrile",
+    "smiles": "CC(C)(C#N)N=NC(C)(C)C#N",
+    "canonical": "CC(C)(C#N)N=NC(C)(C)C#N",
+    "formula": "C8H12N4",
+    "mw": 164.21,
+    "origin": "curated",
+    "svg": "structures/azoisobutyronitrile.svg",
+    "aliases": [],
+    "note": "Named in the patent but never drawn. Structure from input/structures-curated.json. AIBN, the radical initiator of Example 1 variant A, charged at 6.6 g. Curated because the patent never draws it and OPSIN cannot parse the non-systematic name, so it is the one named, charged molecule in this patent with no structure from any other route. Checked both ways before committing: the SMILES gives C8H12N4, MW 164.21, and the name azoisobutyronitrile is 2,2'-azobis(2-methylpropanenitrile), two (CH3)2C(CN) halves joined by an azo N=N, which is C4H6N twice plus N2, C8H12N4, MW 164.21. The patent prints the name azoisobutyroniltrile at line 122, with an l between the n-i and the t, and correctly in claim 7 at line 160; the misprint is not listed as an alias here because the gate requires an alias to be an identifier that exists in the gold, and the misprint is only a record-level alias on the compound. No mole count is printed for this charge, so no mass balance depends on the formula.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'azoisobutyronitrile'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "dibenzoyl peroxide",
+    "smiles": "C(C1=CC=CC=C1)(=O)OOC(C1=CC=CC=C1)=O",
+    "canonical": "O=C(OOC(=O)c1ccccc1)c1ccccc1",
+    "formula": "C14H10O4",
+    "mw": 242.23,
+    "origin": "name_parsed",
+    "svg": "structures/dibenzoyl-peroxide.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "dibenzoyl peroxide",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "O=C(OOC(=O)c1ccccc1)c1ccccc1",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "chlorobenzene",
+    "smiles": "ClC1=CC=CC=C1",
+    "canonical": "Clc1ccccc1",
+    "formula": "C6H5Cl",
+    "mw": 112.56,
+    "origin": "name_parsed",
+    "svg": "structures/chlorobenzene.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "chlorobenzene",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "Clc1ccccc1",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "acetonitrile",
+    "smiles": "C(C)#N",
+    "canonical": "CC#N",
+    "formula": "C2H3N",
+    "mw": 41.05,
+    "origin": "name_parsed",
+    "svg": "structures/acetonitrile.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "acetonitrile",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CC#N",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "bromine",
+    "smiles": "[Br]",
+    "canonical": "[Br]",
+    "formula": "Br",
+    "mw": 79.9,
+    "origin": "name_parsed",
+    "svg": "structures/bromine.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "bromine",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "[Br]",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "methylene chloride",
+    "smiles": "C(Cl)Cl",
+    "canonical": "ClCCl",
+    "formula": "CH2Cl2",
+    "mw": 84.93,
+    "origin": "name_parsed",
+    "svg": "structures/methylene-chloride.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "methylene chloride",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "ClCCl",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "2-chloro-3-methyl-4-methylsulfonylbenzoic acid",
+    "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)S(=O)(=O)C",
+    "canonical": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+    "formula": "C9H9ClO4S",
+    "mw": 248.69,
+    "origin": "name_parsed",
+    "svg": "structures/2-chloro-3-methyl-4-methylsulfonylbenzoic-acid.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "2-chloro-3-methyl-4-methylsulfonylbenzoic acid",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "sodium bisulfite",
+    "smiles": "S([O-])(O)=O.[Na+]",
+    "canonical": "O=S([O-])O.[Na+]",
+    "formula": "HNaO3S",
+    "mw": 104.06,
+    "origin": "name_parsed",
+    "svg": "structures/sodium-bisulfite.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "sodium bisulfite",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "O=S([O-])O.[Na+]",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "water",
+    "smiles": "O",
+    "canonical": "O",
+    "formula": "H2O",
+    "mw": 18.02,
+    "origin": "name_parsed",
+    "svg": "structures/water.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "water",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "O",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "2-chloro-3-methyl-4-ethylsulfonylbenzoic acid",
+    "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)S(=O)(=O)CC",
+    "canonical": "CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1C",
+    "formula": "C10H11ClO4S",
+    "mw": 262.71,
+    "origin": "name_parsed",
+    "svg": "structures/2-chloro-3-methyl-4-ethylsulfonylbenzoic-acid.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "2-chloro-3-methyl-4-ethylsulfonylbenzoic acid",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1C",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "ethyl acetate",
+    "smiles": "C(C)(=O)OCC",
+    "canonical": "CCOC(C)=O",
+    "formula": "C4H8O2",
+    "mw": 88.11,
+    "origin": "name_parsed",
+    "svg": "structures/ethyl-acetate.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "ethyl acetate",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CCOC(C)=O",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "diethyl ether",
+    "smiles": "C(C)OCC",
+    "canonical": "CCOCC",
+    "formula": "C4H10O",
+    "mw": 74.12,
+    "origin": "name_parsed",
+    "svg": "structures/diethyl-ether.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "diethyl ether",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CCOCC",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "heptane",
+    "smiles": "CCCCCCC",
+    "canonical": "CCCCCCC",
+    "formula": "C7H16",
+    "mw": 100.2,
+    "origin": "name_parsed",
+    "svg": "structures/heptane.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "heptane",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CCCCCCC",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+    "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)CC)Cl",
+    "canonical": "CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+    "formula": "C10H10BrClO4S",
+    "mw": 341.61,
+    "origin": "name_parsed",
+    "svg": "structures/3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic-acid.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "diaroyl peroxides",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'diaroyl peroxides'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "halogenated hydrocarbons",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'halogenated hydrocarbons'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "chloroform",
+    "smiles": "C(Cl)(Cl)Cl",
+    "canonical": "ClC(Cl)Cl",
+    "formula": "CHCl3",
+    "mw": 119.38,
+    "origin": "name_parsed",
+    "svg": "structures/chloroform.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "chloroform",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "ClC(Cl)Cl",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "1,2-dichloroethane",
+    "smiles": "ClCCCl",
+    "canonical": "ClCCCl",
+    "formula": "C2H4Cl2",
+    "mw": 98.96,
+    "origin": "name_parsed",
+    "svg": "structures/1-2-dichloroethane.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "1,2-dichloroethane",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "ClCCCl",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "compound of the formula I",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'compound of the formula I'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "compound of the formula II",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure needed: trivial species, carries none of this patent's chemistry.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried 'compound of the formula II'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "sodium bisulfate",
+    "smiles": "S([O-])(O)(=O)=O.[Na+]",
+    "canonical": "O=S(=O)([O-])O.[Na+]",
+    "formula": "HNaO4S",
+    "mw": 120.06,
+    "origin": "name_parsed",
+    "svg": "structures/sodium-bisulfate.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "sodium bisulfate",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "O=S(=O)([O-])O.[Na+]",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "butyl acetate",
+    "smiles": "C(C)(=O)OCCCC",
+    "canonical": "CCCCOC(C)=O",
+    "formula": "C6H12O2",
+    "mw": 116.16,
+    "origin": "name_parsed",
+    "svg": "structures/butyl-acetate.svg",
+    "aliases": [],
+    "note": "Not drawn in the patent and not curated. The NAME was parsed into this molecule by OPSIN, independently of any reading of this document.",
+    "name_check": {
+      "query": "butyl acetate",
+      "via": "verbatim",
+      "outcome": "is_the_source",
+      "opsin_canonical": "CCCCOC(C)=O",
+      "note_en": "This structure IS the parse, so there is nothing independent to compare it against. Nothing drawn in the patent and nothing curated corroborates it."
+    }
+  },
+  {
+    "identifier": "2-halo-3-methyl4-alkylsulfonylbenzoic acids",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried '2-halo-3-methyl4-alkylsulfonylbenzoic acids'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried '3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "3-methylbenzoic acids of the formula I",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried '3-methylbenzoic acids of the formula I'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  },
+  {
+    "identifier": "3-bromomethylbenzoic acids",
+    "smiles": null,
+    "canonical": null,
+    "formula": null,
+    "mw": null,
+    "origin": "none",
+    "svg": null,
+    "aliases": [],
+    "note": "No structure. Not drawn in the patent, no entry in input/structures-curated.json, and no resolved synonym.",
+    "name_check": {
+      "outcome": "no_parse",
+      "note_en": "no spelling of this name was accepted; tried '3-bromomethylbenzoic acids'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built."
+    }
+  }
+]

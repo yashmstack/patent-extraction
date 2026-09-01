@@ -1,0 +1,2974 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "式(I)化合物",
+    "identifier_type": "local_label",
+    "aliases": [
+      "CSc1ccc(Br)c(Cl)c1C",
+      "C8H8BrClS",
+      "compound of formula (I)"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:aryl_sulfide",
+      "functional_group:halide_bromo",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Prepared by bromination of the compound of formula (VI) and consumed as the substrate for formula (II); merged from its several mentions in this section."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "式(VI)化合物",
+    "identifier_type": "local_label",
+    "aliases": [
+      "CSc1cccc(Cl)c1C",
+      "C8H9ClS",
+      "compound of formula (VI)"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:aryl_sulfide",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Named as the starting material for formula (I); the section also gives its own preparation by known methods, so it is not treated as purchased."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "bromine",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "溴素",
+      "Br2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:corrosive",
+      "hazard:toxic"
+    ],
+    "notes": "Merged: used both for the aryl bromination giving formula (I) and as the preferred brominating reagent giving formula (III)."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "sodium hydroxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "NaOH水溶液",
+      "氢氧化钠",
+      "NaOH"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": "Merged: named as the example of the quench/wash alkali solution and again as one reagent for making the trifluoroethoxide."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "water",
+    "identifier_type": "iupac",
+    "aliases": [
+      "水",
+      "H2O"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Merged: charged as a reactant in the carbonylation to formula (V), and used as a wash and as a quench elsewhere in the section."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "dichloromethane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "二氯甲烷"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Merged: listed as a solvent for the bromination to formula (I) and again for the bromination to formula (III)."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1,2-dichloroethane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,2-二氯乙烷"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Printed with the locant here; a later paragraph of the same section prints the locant-free 二氯乙烷, which is recorded separately and left unresolved."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "NaNO2",
+    "identifier_type": "formula",
+    "aliases": [
+      "sodium nitrite"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Appears only inside the drawn scheme for the preparation of the compound of formula (VI); the prose never names it."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CH3SNa",
+    "identifier_type": "formula",
+    "aliases": [
+      "sodium methanethiolate"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Drawing-only: a condition label on the scheme for the compound of formula (VI)."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "HCl",
+    "identifier_type": "formula",
+    "aliases": [
+      "hydrogen chloride",
+      "hydrochloric acid"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "acid",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:acid"
+    ],
+    "notes": "Drawing-only: a condition label on the scheme for the compound of formula (VI)."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "Cc1c(N)cccc1Cl",
+    "identifier_type": "smiles",
+    "aliases": [
+      "C7H8ClN",
+      "3-chloro-2-methylaniline"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:aniline",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Drawing-only: the first structure of the scheme that prepares the compound of formula (VI). The prose never names it."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "式(II)化合物",
+    "identifier_type": "local_label",
+    "aliases": [
+      "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+      "C8H8BrClO2S",
+      "compound of formula (II)"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:aryl_sulfone",
+      "functional_group:sulfone",
+      "functional_group:halide_bromo"
+    ],
+    "notes": "Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Product of the peroxide oxidation and substrate for the benzylic bromination; merged."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "hydrogen peroxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "双氧水",
+      "H2O2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "oxidant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Merged: the oxidant for formula (II), and also one component of the alternative HBr/peroxide brominating reagent. The section states a molar ratio of the formula (I) compound to hydrogen peroxide of about 1-5, preferably 2-3; no absolute amount is given."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "钨酸盐",
+    "identifier_type": "other",
+    "aliases": [
+      "tungstate"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "A salt class, not a single compound: the section says the salts include the sodium, potassium and ammonium salts. Left unresolved."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "偏钨酸盐",
+    "identifier_type": "other",
+    "aliases": [
+      "metatungstate"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "A salt class, not a single compound: the section says the salts include the sodium, potassium and ammonium salts. Left unresolved."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "钒酸盐",
+    "identifier_type": "other",
+    "aliases": [
+      "vanadate"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "A salt class, not a single compound: the section says the salts include the sodium, potassium and ammonium salts. Left unresolved."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "偏钒酸盐",
+    "identifier_type": "other",
+    "aliases": [
+      "metavanadate"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "A salt class, not a single compound: the section says the salts include the sodium, potassium and ammonium salts. Left unresolved."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "sodium tungstate dihydrate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "二水合钨酸钠"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Stated as the preferred catalyst for the oxidation to formula (II)."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "glacial acetic acid",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "冰醋酸"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:carboxylic_acid"
+    ],
+    "notes": null
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "formic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "甲酸"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:carboxylic_acid"
+    ],
+    "notes": null
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "式(III)化合物",
+    "identifier_type": "local_label",
+    "aliases": [
+      "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+      "C8H7Br2ClO2S",
+      "compound of formula (III)"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzyl_halide",
+      "functional_group:sulfone",
+      "functional_group:halide_bromo"
+    ],
+    "notes": "Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Product of the benzylic bromination and substrate for the trifluoroethoxide displacement; merged."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "溴代试剂",
+    "identifier_type": "other",
+    "aliases": [
+      "brominating reagent"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Generic placeholder used as the condition label on the scheme; the section defines it as bromine, N-bromosuccinimide, or hydrogen bromide with hydrogen peroxide, preferably bromine. Kept as its own record and not collapsed into any one of them."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "N-bromosuccinimide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "N-溴代丁二酰亚胺",
+      "NBS"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:halide_bromo"
+    ],
+    "notes": "One of the three alternative brominating reagents listed."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "hydrogen bromide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "溴化氢",
+      "HBr"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:corrosive"
+    ],
+    "notes": "Used in combination with hydrogen peroxide as one of the three alternative brominating reagents."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "benzoyl peroxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "过氧化苯甲酰",
+      "BPO"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "additive",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:peroxide_former",
+      "hazard:explosive"
+    ],
+    "notes": "Named as a radical initiator; the role vocabulary has no initiator value, so additive is used."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "azobisisobutyronitrile",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "偶氮二异丁腈",
+      "AIBN"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "additive",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:nitrile"
+    ],
+    "notes": "Named as a radical initiator; the role vocabulary has no initiator value, so additive is used."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "二氯乙烷",
+    "identifier_type": "other",
+    "aliases": [
+      "dichloroethane"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Printed without a locant, so it does not say which dichloroethane. An earlier paragraph of the same section prints 1,2-二氯乙烷; that is not carried over here. Left unresolved."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "carbon tetrachloride",
+    "identifier_type": "iupac",
+    "aliases": [
+      "四氯化碳",
+      "CCl4"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:halide_chloro",
+      "hazard:toxic"
+    ],
+    "notes": null
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "式(IV)化合物",
+    "identifier_type": "local_label",
+    "aliases": [
+      "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+      "C10H9BrClF3O3S",
+      "compound of formula (IV)"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:aryl_sulfone",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_bromo"
+    ],
+    "notes": "Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Product of the trifluoroethoxide displacement and the substrate for both carbonylation routes; merged."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "sodium 2,2,2-trifluoroethoxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三氟乙醇钠",
+      "CF3CH2ONa"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "The section states it is prepared in situ from sodium hydride, sodium methoxide or sodium hydroxide and trifluoroethanol, so it is not marked commercially available."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "potassium 2,2,2-trifluoroethoxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三氟乙醇钾",
+      "CF3CH2OK"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "The section states it is prepared in situ from potassium hydride, potassium methoxide or potassium hydroxide and trifluoroethanol, so it is not marked commercially available."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CF3CH2OM",
+    "identifier_type": "formula",
+    "aliases": [
+      "CF3CH2OM"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "Generic placeholder with the counter-ion M unspecified; the section defines it as CF3CH2ONa or CF3CH2OK. Kept as its own record and deliberately not collapsed into either named salt."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "tetrahydrofuran",
+    "identifier_type": "iupac",
+    "aliases": [
+      "四氢呋喃",
+      "THF"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:ether"
+    ],
+    "notes": "Merged: solvent for the trifluoroethoxide displacement, where anhydrous tetrahydrofuran is preferred, and also listed among the first solvents for the carbonylation. The patent charges this as the anhydrous grade; the grade is recorded here and in the quantity note rather than as an alias, because a grade of a solvent is not another name for it."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1,4-dioxane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,4-二氧六环"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:ether"
+    ],
+    "notes": "Merged: listed as a solvent for the trifluoroethoxide displacement and again among the first solvents for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "diethyl ether",
+    "identifier_type": "iupac",
+    "aliases": [
+      "乙醚"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:ether",
+      "hazard:flammable",
+      "hazard:peroxide_former"
+    ],
+    "notes": null
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "sodium hydride",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氢化钠"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "hazard:pyrophoric",
+      "hazard:flammable"
+    ],
+    "notes": "Listed as one of the alternative bases for generating the trifluoroethoxide from trifluoroethanol."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "potassium hydride",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氢化钾"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "hazard:pyrophoric",
+      "hazard:flammable"
+    ],
+    "notes": "Listed as one of the alternative bases for generating the trifluoroethoxide from trifluoroethanol."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "sodium methoxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "甲醇钠"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "hazard:corrosive"
+    ],
+    "notes": "Listed as one of the alternative bases for generating the trifluoroethoxide from trifluoroethanol."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "potassium methoxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "甲醇钾"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "hazard:corrosive"
+    ],
+    "notes": "Listed as one of the alternative bases for generating the trifluoroethoxide from trifluoroethanol."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "potassium hydroxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氢氧化钾"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "hazard:corrosive"
+    ],
+    "notes": "Listed as one of the alternative bases for generating the trifluoroethoxide from trifluoroethanol."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "2,2,2-trifluoroethanol",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三氟乙醇"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "Reacted with the listed bases to give the trifluoroethoxide."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "methanol",
+    "identifier_type": "iupac",
+    "aliases": [
+      "甲醇"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "hazard:flammable",
+      "hazard:toxic"
+    ],
+    "notes": "Merged: recrystallisation solvent for the compound of formula (IV) and, later in the section, an example of the alcohol second solvent in the carbonylation workup."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "ethanol",
+    "identifier_type": "iupac",
+    "aliases": [
+      "乙醇"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "hazard:flammable"
+    ],
+    "notes": "Merged: recrystallisation solvent for the compound of formula (IV) and, later in the section, an example of the alcohol second solvent in the carbonylation workup."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "saturated brine",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "饱和食盐水",
+      "saturated aqueous sodium chloride"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "other",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:workup_agent"
+    ],
+    "notes": "Used to wash the organic layer."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "式(V)化合物",
+    "identifier_type": "local_label",
+    "aliases": [
+      "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "C11H10ClF3O5S",
+      "compound of formula (V)",
+      "式(V)的羧酸化合物"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": "white solid",
+    "color": "white",
+    "physical_form": "solid",
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Product of the carbonylation route (v); the section also calls it the carboxylic acid compound of formula (V)."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CO",
+    "identifier_type": "formula",
+    "aliases": [
+      "carbon monoxide"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:toxic",
+      "hazard:flammable"
+    ],
+    "notes": "Fed into the autoclave for the carbonyl insertion; the section states a pressure of about 1 to 4 MPa."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "nitrogen",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氮气",
+      "N2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "other",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:other"
+    ],
+    "notes": "Used to purge the autoclave after evacuation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "palladium",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "钯"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "rhodium",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "铑"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "ruthenium",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "钌"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "copper",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "铜"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "cobalt",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "钴"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "palladium(II) chloride",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氯化钯(PdCl₂)",
+      "PdCl2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "One of the listed palladium catalysts for the carbonylation. Stated as the preferred catalyst."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "palladium carbonate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "碳酸钯(PdCO₃)",
+      "PdCO3"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "One of the listed palladium catalysts for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "palladium(II) acetate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "醋酸钯[Pd(OAc)₂]",
+      "Pd(OAc)2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "One of the listed palladium catalysts for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "palladium on carbon",
+    "identifier_type": "iupac",
+    "aliases": [
+      "钯/碳(Pd/C)",
+      "Pd/C"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "One of the listed palladium catalysts for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "palladium(II) trifluoroacetate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三氟乙酸钯[Pd(OTFA)₂]",
+      "Pd(OTFA)2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "One of the listed palladium catalysts for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "bis(dibenzylideneacetone)palladium",
+    "identifier_type": "iupac",
+    "aliases": [
+      "双二亚苄基丙酮钯[Pd(dba)₂]",
+      "Pd(dba)2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "One of the listed palladium catalysts for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1,3-bis(diphenylphosphino)propane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,3-(双二苯基膦)丙烷",
+      "dppp"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "ligand",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:ligand"
+    ],
+    "notes": "The Chinese is printed as 1,3-(双二苯基膦)丙烷, with the bracket around the whole bis-phosphino group; read as 1,3-bis(diphenylphosphino)propane."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1,4-bis(diphenylphosphino)butane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,4-双(二苯基膦)丁烷",
+      "dppb"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "ligand",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:ligand"
+    ],
+    "notes": "One of the preferred phosphine ligands."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+    "identifier_type": "iupac",
+    "aliases": [
+      "双[(4-N,N-二甲氨基)苯基]二叔丁基膦"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "ligand",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:ligand"
+    ],
+    "notes": "One of the preferred phosphine ligands."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "triethylamine",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三乙胺",
+      "Et3N"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": "Listed as an acid-binding agent for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "potassium carbonate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "碳酸钾",
+      "K2CO3"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": "Listed as an acid-binding agent for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "sodium carbonate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "碳酸钠",
+      "Na2CO3"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": "Listed as an acid-binding agent for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "cesium carbonate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "碳酸铯",
+      "CsCO₃"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": "Listed as an acid-binding agent for the carbonylation. The formula printed alongside the name, CsCO₃, is not a formula that can exist for cesium carbonate; kept verbatim and not corrected."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "potassium phosphate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "磷酸钾",
+      "K3PO4"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": "Listed as an acid-binding agent for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "N,N-dimethylacetamide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "N,N-二甲基乙酰胺",
+      "DMAC"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": "Listed as an acid-binding agent for the carbonylation. N,N-dimethylacetamide is an amide solvent rather than an acid binder; the source lists it among the acid-binding agents and that is what is recorded."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "N,N-diisopropylethylamine",
+    "identifier_type": "iupac",
+    "aliases": [
+      "N,N-二异丙基乙胺",
+      "DIPEA"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": "Listed as an acid-binding agent for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1,8-diazabicyclo[5.4.0]undec-7-ene",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,8-二氮杂二环十一碳-7-烯",
+      "DBU"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": "Listed as an acid-binding agent for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "triethylenediamine",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "三乙撑二胺",
+      "DABCO",
+      "1,4-diazabicyclo[2.2.2]octane"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": "Listed as an acid-binding agent for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "toluene",
+    "identifier_type": "iupac",
+    "aliases": [
+      "甲苯"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "hazard:flammable"
+    ],
+    "notes": "Listed among the preferred first solvents for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "ethylene glycol dimethyl ether",
+    "identifier_type": "iupac",
+    "aliases": [
+      "乙二醇二甲醚",
+      "DME"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:ether"
+    ],
+    "notes": "Listed among the preferred first solvents for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "ethylene glycol diethyl ether",
+    "identifier_type": "iupac",
+    "aliases": [
+      "乙二醇二乙醚"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:ether"
+    ],
+    "notes": "Listed among the preferred first solvents for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "dimethyl sulfoxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "二甲基亚砜",
+      "DMSO"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Listed among the preferred first solvents for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "N,N-dimethylformamide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "N,N-二甲基甲酰胺",
+      "DMF"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Listed among the preferred first solvents for the carbonylation."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "式(VIII)的酯化合物",
+    "identifier_type": "local_label",
+    "aliases": [
+      "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+      "C17H16ClF3O6S",
+      "ester compound of formula (VIII)"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:enol_ester",
+      "functional_group:ester",
+      "functional_group:ketone",
+      "functional_group:sulfone",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Product of the direct carbonylation route (v') and the substrate for the rearrangement to tembotrione; the section says it may be isolated or carried on without isolation in a one-pot method."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "cyclohexane-1,3-dione",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,3-cyclohexanedione",
+      "O=C1CCCC(=O)C1"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:cyclohexanedione",
+      "functional_group:ketone"
+    ],
+    "notes": "Drawing-only: it appears in the schemes as a structure above or below the arrow and is labelled as such by the vision read. The prose of this section never names it, and no locant-free 环己二酮 string appears here, so the 1,3-locant comes from the drawn structure."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "identifier_type": "smiles",
+    "aliases": [
+      "C11H9Cl2F3O4S"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:acyl_chloride",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "Drawing-only: the acid chloride between the compound of formula (V) and the ester of formula (VIII) in the drawn tembotrione route. The prose of this section never names it and gives it no formula number."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "SOCl2",
+    "identifier_type": "formula",
+    "aliases": [
+      "thionyl chloride"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:corrosive"
+    ],
+    "notes": "Drawing-only: a condition label over the acid to acid-chloride step of the drawn route."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "acetone cyanohydrin",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "丙酮氰醇"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst",
+      "functional_group:nitrile",
+      "hazard:cyanide_handling",
+      "hazard:toxic"
+    ],
+    "notes": "Stated as the particularly preferred cyanide-type catalyst for the rearrangement of the ester of formula (VIII). The Chinese printed is 丙酮氰醇 (acetone cyanohydrin), not 氰基丙酮 (cyanoacetone)."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "tembotrione",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "环磺酮",
+      "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "C17H16ClF3O6S"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "is_section_product": true,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:active_ingredient",
+      "chemical_family:cyclohexanedione",
+      "functional_group:ketone",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "The target of every route in this section and the compound the section ends on. Chinese 环磺酮; not 磺草酮 (sulcotrione), a different herbicide."
+  }
+]

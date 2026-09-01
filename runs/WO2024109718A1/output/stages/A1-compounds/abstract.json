@@ -1,0 +1,41 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "tembotrione",
+    "identifier_type": "trivial_name",
+    "aliases": ["环磺酮", "cyclosulfonone"],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Abstract",
+    "section_type": "abstract",
+    "is_section_product": true,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:active_ingredient",
+      "chemical_family:cyclohexanedione",
+      "functional_group:sulfone",
+      "functional_group:ketone",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro",
+      "functional_group:ether"
+    ],
+    "notes": "Abstract states only that the invention provides a method for preparing this compound; no steps, quantities or conditions are given in this section. Chinese 环磺酮 is tembotrione (not 磺草酮 / sulcotrione). The machine EN lines render it character-by-character as \"cyclosulfonone\", which names no real compound; the Chinese is followed and the EN string is kept as an alias for traceability."
+  }
+]

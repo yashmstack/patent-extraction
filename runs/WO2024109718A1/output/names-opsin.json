@@ -1,0 +1,3014 @@
+{
+ "patent_id": "WO2024109718A1",
+ "engine": "OPSIN via https://opsin.ch.cam.ac.uk/opsin/",
+ "what_this_is_en": "Every compound identifier in the gold, read a second time by a name parser that knows nothing about this patent. A parse is used as a structure only where nothing better exists, and is compared against every structure the pipeline already had.",
+ "summary": {
+  "ambiguous": 6,
+  "parsed": 111,
+  "unparseable": 89
+ },
+ "names": [
+  {
+   "identifier": "tembotrione",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'tembotrione'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "tembotrione",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "dichlorotoluene",
+   "outcome": "ambiguous",
+   "query": "dichlorotoluene",
+   "via": "verbatim",
+   "guess_smiles": "ClC(C1=CC=CC=C1)Cl",
+   "guess_canonical": "ClC(Cl)c1ccccc1",
+   "reason": "OPSIN parsed this name but warned that it does not pin one molecule down. Its guess is recorded and is deliberately NOT used as a structure.",
+   "attempts": [
+    {
+     "query": "dichlorotoluene",
+     "via": "verbatim",
+     "status": "WARNING",
+     "note": "APPEARS_AMBIGUOUS: Connection of chloro to toluen"
+    }
+   ]
+  },
+  {
+   "identifier": "3-chloro-2-methylaniline",
+   "outcome": "parsed",
+   "query": "3-chloro-2-methylaniline",
+   "via": "verbatim",
+   "smiles": "ClC=1C(=C(N)C=CC1)C",
+   "canonical": "Cc1c(N)cccc1Cl",
+   "attempts": [
+    {
+     "query": "3-chloro-2-methylaniline",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "CH3SNa",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'CH3SNa'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "CH3SNa",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "NaNO2",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'NaNO2'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "NaNO2",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "HCl",
+   "outcome": "parsed",
+   "query": "hydrochloric acid",
+   "via": "alias",
+   "smiles": "Cl",
+   "canonical": "Cl",
+   "attempts": [
+    {
+     "query": "HCl",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "hydrochloric acid",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+   "outcome": "parsed",
+   "query": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=CC=C1)SC)C",
+   "canonical": "CSc1cccc(Cl)c1C",
+   "attempts": [
+    {
+     "query": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "acetyl chloride",
+   "outcome": "parsed",
+   "query": "acetyl chloride",
+   "via": "verbatim",
+   "smiles": "C(C)(=O)Cl",
+   "canonical": "CC(=O)Cl",
+   "attempts": [
+    {
+     "query": "acetyl chloride",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "aluminium trichloride",
+   "outcome": "parsed",
+   "query": "aluminium trichloride",
+   "via": "verbatim",
+   "smiles": "[Al](Cl)(Cl)Cl",
+   "canonical": "[Cl][Al]([Cl])[Cl]",
+   "attempts": [
+    {
+     "query": "aluminium trichloride",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one",
+   "outcome": "parsed",
+   "query": "1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C=CC(=C1C)SC)C(C)=O",
+   "canonical": "CSc1ccc(C(C)=O)c(Cl)c1C",
+   "attempts": [
+    {
+     "query": "1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "H2O2",
+   "outcome": "parsed",
+   "query": "hydrogen peroxide",
+   "via": "alias",
+   "smiles": "OO",
+   "canonical": "OO",
+   "attempts": [
+    {
+     "query": "H2O2",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "hydrogen peroxide",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "1-[2-chloro-4-(methanesulfonyl)-3-methylphenyl]ethan-1-one",
+   "outcome": "parsed",
+   "query": "1-[2-chloro-4-(methanesulfonyl)-3-methylphenyl]ethan-1-one",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C=CC(=C1C)S(=O)(=O)C)C(C)=O",
+   "canonical": "CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+   "attempts": [
+    {
+     "query": "1-[2-chloro-4-(methanesulfonyl)-3-methylphenyl]ethan-1-one",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "sodium hypochlorite",
+   "outcome": "parsed",
+   "query": "sodium hypochlorite",
+   "via": "verbatim",
+   "smiles": "Cl[O-].[Na+]",
+   "canonical": "[Na+].[O-]Cl",
+   "attempts": [
+    {
+     "query": "sodium hypochlorite",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "2-chloro-4-(methanesulfonyl)-3-methylbenzoic acid",
+   "outcome": "parsed",
+   "query": "2-chloro-4-(methanesulfonyl)-3-methylbenzoic acid",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)S(=O)(=O)C",
+   "canonical": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+   "attempts": [
+    {
+     "query": "2-chloro-4-(methanesulfonyl)-3-methylbenzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "CH3OH",
+   "outcome": "parsed",
+   "query": "methanol",
+   "via": "alias",
+   "smiles": "CO",
+   "canonical": "CO",
+   "attempts": [
+    {
+     "query": "CH3OH",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "methanol",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "methyl 2-chloro-4-(methanesulfonyl)-3-methylbenzoate",
+   "outcome": "parsed",
+   "query": "methyl 2-chloro-4-(methanesulfonyl)-3-methylbenzoate",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=O)OC)C=CC(=C1C)S(=O)(=O)C",
+   "canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+   "attempts": [
+    {
+     "query": "methyl 2-chloro-4-(methanesulfonyl)-3-methylbenzoate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "NBS",
+   "outcome": "parsed",
+   "query": "N-bromosuccinimide",
+   "via": "alias",
+   "smiles": "BrN1C(CCC1=O)=O",
+   "canonical": "O=C1CCC(=O)N1Br",
+   "attempts": [
+    {
+     "query": "NBS",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "N-bromosuccinimide",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "Br2",
+   "outcome": "parsed",
+   "query": "bromine",
+   "via": "alias",
+   "smiles": "[Br]",
+   "canonical": "[Br]",
+   "attempts": [
+    {
+     "query": "Br2",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "bromine",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "methyl 3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzoate",
+   "outcome": "parsed",
+   "query": "methyl 3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzoate",
+   "via": "verbatim",
+   "smiles": "BrCC=1C(=C(C(=O)OC)C=CC1S(=O)(=O)C)Cl",
+   "canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+   "attempts": [
+    {
+     "query": "methyl 3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzoate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "CF3CH2ONa",
+   "outcome": "parsed",
+   "query": "sodium 2,2,2-trifluoroethoxide",
+   "via": "alias",
+   "smiles": "FC(C[O-])(F)F.[Na+]",
+   "canonical": "[Na+].[O-]CC(F)(F)F",
+   "attempts": [
+    {
+     "query": "CF3CH2ONa",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "sodium 2,2,2-trifluoroethoxide",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "methyl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+   "outcome": "parsed",
+   "query": "methyl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=O)OC)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+   "attempts": [
+    {
+     "query": "methyl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "NaOH",
+   "outcome": "parsed",
+   "query": "sodium hydroxide",
+   "via": "alias",
+   "smiles": "[OH-].[Na+]",
+   "canonical": "[Na+].[OH-]",
+   "attempts": [
+    {
+     "query": "NaOH",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "sodium hydroxide",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+   "outcome": "parsed",
+   "query": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+   "attempts": [
+    {
+     "query": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "(COCl)2",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried '(COCl)2'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "(COCl)2",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "SOCl2",
+   "outcome": "parsed",
+   "query": "thionyl chloride",
+   "via": "alias",
+   "smiles": "S(=O)(Cl)Cl",
+   "canonical": "O=S(Cl)Cl",
+   "attempts": [
+    {
+     "query": "SOCl2",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "thionyl chloride",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+   "outcome": "parsed",
+   "query": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=O)Cl)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "canonical": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+   "attempts": [
+    {
+     "query": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "cyclohexane-1,3-dione",
+   "outcome": "parsed",
+   "query": "cyclohexane-1,3-dione",
+   "via": "verbatim",
+   "smiles": "C1(CC(CCC1)=O)=O",
+   "canonical": "O=C1CCCC(=O)C1",
+   "attempts": [
+    {
+     "query": "cyclohexane-1,3-dione",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+   "outcome": "parsed",
+   "query": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=O)OC2=CC(CCC2)=O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "canonical": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+   "attempts": [
+    {
+     "query": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "卤仿",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted and no English spelling was available to try. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "卤仿",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    }
+   ]
+  },
+  {
+   "identifier": "sodium chloride",
+   "outcome": "parsed",
+   "query": "sodium chloride",
+   "via": "verbatim",
+   "smiles": "[Cl-].[Na+]",
+   "canonical": "[Cl-].[Na+]",
+   "attempts": [
+    {
+     "query": "sodium chloride",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "water",
+   "outcome": "parsed",
+   "query": "water",
+   "via": "verbatim",
+   "smiles": "O",
+   "canonical": "O",
+   "attempts": [
+    {
+     "query": "water",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium",
+   "outcome": "parsed",
+   "query": "palladium",
+   "via": "verbatim",
+   "smiles": "[Pd]",
+   "canonical": "[Pd]",
+   "attempts": [
+    {
+     "query": "palladium",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "rhodium",
+   "outcome": "parsed",
+   "query": "rhodium",
+   "via": "verbatim",
+   "smiles": "[Rh]",
+   "canonical": "[Rh]",
+   "attempts": [
+    {
+     "query": "rhodium",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "ruthenium",
+   "outcome": "parsed",
+   "query": "ruthenium",
+   "via": "verbatim",
+   "smiles": "[Ru]",
+   "canonical": "[Ru]",
+   "attempts": [
+    {
+     "query": "ruthenium",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "copper",
+   "outcome": "parsed",
+   "query": "copper",
+   "via": "verbatim",
+   "smiles": "[Cu]",
+   "canonical": "[Cu]",
+   "attempts": [
+    {
+     "query": "copper",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "cobalt",
+   "outcome": "parsed",
+   "query": "cobalt",
+   "via": "verbatim",
+   "smiles": "[Co]",
+   "canonical": "[Co]",
+   "attempts": [
+    {
+     "query": "cobalt",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium(II) chloride",
+   "outcome": "parsed",
+   "query": "palladium(II) chloride",
+   "via": "verbatim",
+   "smiles": "[Pd](Cl)Cl",
+   "canonical": "[Cl][Pd][Cl]",
+   "attempts": [
+    {
+     "query": "palladium(II) chloride",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium(II) carbonate",
+   "outcome": "parsed",
+   "query": "palladium(II) carbonate",
+   "via": "verbatim",
+   "smiles": "C([O-])([O-])=O.[Pd+2]",
+   "canonical": "O=C([O-])[O-].[Pd+2]",
+   "attempts": [
+    {
+     "query": "palladium(II) carbonate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium(II) acetate",
+   "outcome": "parsed",
+   "query": "palladium(II) acetate",
+   "via": "verbatim",
+   "smiles": "C(C)(=O)[O-].[Pd+2].C(C)(=O)[O-]",
+   "canonical": "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
+   "attempts": [
+    {
+     "query": "palladium(II) acetate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium on carbon",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'palladium on carbon'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "palladium on carbon",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium(II) trifluoroacetate",
+   "outcome": "parsed",
+   "query": "palladium(II) trifluoroacetate",
+   "via": "verbatim",
+   "smiles": "FC(C(=O)[O-])(F)F.[Pd+2].FC(C(=O)[O-])(F)F",
+   "canonical": "O=C([O-])C(F)(F)F.O=C([O-])C(F)(F)F.[Pd+2]",
+   "attempts": [
+    {
+     "query": "palladium(II) trifluoroacetate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "bis(dibenzylideneacetone)palladium(0)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'bis(dibenzylideneacetone)palladium(0)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "bis(dibenzylideneacetone)palladium(0)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "1,3-bis(diphenylphosphino)propane",
+   "outcome": "parsed",
+   "query": "1,3-bis(diphenylphosphino)propane",
+   "via": "verbatim",
+   "smiles": "C1(=CC=CC=C1)P(CCCP(C1=CC=CC=C1)C1=CC=CC=C1)C1=CC=CC=C1",
+   "canonical": "c1ccc(P(CCCP(c2ccccc2)c2ccccc2)c2ccccc2)cc1",
+   "attempts": [
+    {
+     "query": "1,3-bis(diphenylphosphino)propane",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "1,4-bis(diphenylphosphino)butane",
+   "outcome": "parsed",
+   "query": "1,4-bis(diphenylphosphino)butane",
+   "via": "verbatim",
+   "smiles": "C1(=CC=CC=C1)P(CCCCP(C1=CC=CC=C1)C1=CC=CC=C1)C1=CC=CC=C1",
+   "canonical": "c1ccc(P(CCCCP(c2ccccc2)c2ccccc2)c2ccccc2)cc1",
+   "attempts": [
+    {
+     "query": "1,4-bis(diphenylphosphino)butane",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "toluene",
+   "outcome": "parsed",
+   "query": "toluene",
+   "via": "verbatim",
+   "smiles": "CC1=CC=CC=C1",
+   "canonical": "Cc1ccccc1",
+   "attempts": [
+    {
+     "query": "toluene",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "1,4-dioxane",
+   "outcome": "parsed",
+   "query": "1,4-dioxane",
+   "via": "verbatim",
+   "smiles": "O1CCOCC1",
+   "canonical": "C1COCCO1",
+   "attempts": [
+    {
+     "query": "1,4-dioxane",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "ethylene glycol dimethyl ether",
+   "outcome": "parsed",
+   "query": "ethylene glycol dimethyl ether",
+   "via": "verbatim",
+   "smiles": "COCCOC",
+   "canonical": "COCCOC",
+   "attempts": [
+    {
+     "query": "ethylene glycol dimethyl ether",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "ethylene glycol diethyl ether",
+   "outcome": "parsed",
+   "query": "ethylene glycol diethyl ether",
+   "via": "verbatim",
+   "smiles": "C(C)OCCOCC",
+   "canonical": "CCOCCOCC",
+   "attempts": [
+    {
+     "query": "ethylene glycol diethyl ether",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "dimethyl sulfoxide",
+   "outcome": "parsed",
+   "query": "dimethyl sulfoxide",
+   "via": "verbatim",
+   "smiles": "CS(=O)C",
+   "canonical": "CS(C)=O",
+   "attempts": [
+    {
+     "query": "dimethyl sulfoxide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "tetrahydrofuran",
+   "outcome": "parsed",
+   "query": "tetrahydrofuran",
+   "via": "verbatim",
+   "smiles": "O1CCCC1",
+   "canonical": "C1CCOC1",
+   "attempts": [
+    {
+     "query": "tetrahydrofuran",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "N,N-dimethylformamide",
+   "outcome": "parsed",
+   "query": "N,N-dimethylformamide",
+   "via": "verbatim",
+   "smiles": "CN(C=O)C",
+   "canonical": "CN(C)C=O",
+   "attempts": [
+    {
+     "query": "N,N-dimethylformamide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "bromine",
+   "outcome": "parsed",
+   "query": "bromine",
+   "via": "verbatim",
+   "smiles": "[Br]",
+   "canonical": "[Br]",
+   "attempts": [
+    {
+     "query": "bromine",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "N-bromosuccinimide",
+   "outcome": "parsed",
+   "query": "N-bromosuccinimide",
+   "via": "verbatim",
+   "smiles": "BrN1C(CCC1=O)=O",
+   "canonical": "O=C1CCC(=O)N1Br",
+   "attempts": [
+    {
+     "query": "N-bromosuccinimide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "hydrogen bromide",
+   "outcome": "parsed",
+   "query": "hydrogen bromide",
+   "via": "verbatim",
+   "smiles": "Br",
+   "canonical": "Br",
+   "attempts": [
+    {
+     "query": "hydrogen bromide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "hydrogen peroxide",
+   "outcome": "parsed",
+   "query": "hydrogen peroxide",
+   "via": "verbatim",
+   "smiles": "OO",
+   "canonical": "OO",
+   "attempts": [
+    {
+     "query": "hydrogen peroxide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "CF3CH2OK",
+   "outcome": "parsed",
+   "query": "potassium 2,2,2-trifluoroethoxide",
+   "via": "alias",
+   "smiles": "FC(C[O-])(F)F.[K+]",
+   "canonical": "[K+].[O-]CC(F)(F)F",
+   "attempts": [
+    {
+     "query": "CF3CH2OK",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "potassium 2,2,2-trifluoroethoxide",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "CF3CH2OM",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'CF3CH2OM'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "CF3CH2OM",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "CO",
+   "outcome": "parsed",
+   "query": "carbon monoxide",
+   "via": "alias",
+   "smiles": "[C]=O",
+   "canonical": "[C]=O",
+   "attempts": [
+    {
+     "query": "CO",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "carbon monoxide",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "H2O",
+   "outcome": "parsed",
+   "query": "water",
+   "via": "alias",
+   "smiles": "O",
+   "canonical": "O",
+   "attempts": [
+    {
+     "query": "H2O",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "water",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "CSc1cccc(Cl)c1C",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "CSc1ccc(Br)c(Cl)c1C",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "O=C1CCCC(=O)C1",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "compound of formula (A)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compound of formula (A)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compound of formula (A)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "compound of formula (VI)",
+   "outcome": "parsed",
+   "query": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+   "via": "alias",
+   "smiles": "ClC1=C(C(=CC=C1)SC)C",
+   "canonical": "CSc1cccc(Cl)c1C",
+   "attempts": [
+    {
+     "query": "compound of formula (VI)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "hydrochloric acid",
+   "outcome": "parsed",
+   "query": "hydrochloric acid",
+   "via": "verbatim",
+   "smiles": "Cl",
+   "canonical": "Cl",
+   "attempts": [
+    {
+     "query": "hydrochloric acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "重氮盐",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted and no English spelling was available to try. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "重氮盐",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    }
+   ]
+  },
+  {
+   "identifier": "acetonitrile",
+   "outcome": "parsed",
+   "query": "acetonitrile",
+   "via": "verbatim",
+   "smiles": "C(C)#N",
+   "canonical": "CC#N",
+   "attempts": [
+    {
+     "query": "acetonitrile",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "formic acid",
+   "outcome": "parsed",
+   "query": "formic acid",
+   "via": "verbatim",
+   "smiles": "C(=O)O",
+   "canonical": "O=CO",
+   "attempts": [
+    {
+     "query": "formic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "CDCl3",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'CDCl3'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "CDCl3",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "式(IV)化合物",
+   "outcome": "parsed",
+   "query": "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+   "via": "alias",
+   "smiles": "BrC1=C(C(=C(C=C1)S(=O)(=O)C)COCC(F)(F)F)Cl",
+   "canonical": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+   "attempts": [
+    {
+     "query": "式(IV)化合物",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    },
+    {
+     "query": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+     "via": "alias",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "triethylamine",
+   "outcome": "parsed",
+   "query": "triethylamine",
+   "via": "verbatim",
+   "smiles": "C(C)N(CC)CC",
+   "canonical": "CCN(CC)CC",
+   "attempts": [
+    {
+     "query": "triethylamine",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "PdCl2",
+   "outcome": "parsed",
+   "query": "palladium(II) chloride",
+   "via": "alias",
+   "smiles": "[Pd](Cl)Cl",
+   "canonical": "[Cl][Pd][Cl]",
+   "attempts": [
+    {
+     "query": "PdCl2",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "palladium(II) chloride",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "nitrogen",
+   "outcome": "parsed",
+   "query": "nitrogen",
+   "via": "verbatim",
+   "smiles": "[N]",
+   "canonical": "[N]",
+   "attempts": [
+    {
+     "query": "nitrogen",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "acetone cyanohydrin",
+   "outcome": "parsed",
+   "query": "acetone cyanohydrin",
+   "via": "verbatim",
+   "smiles": "CC(C#N)(O)C",
+   "canonical": "CC(C)(O)C#N",
+   "attempts": [
+    {
+     "query": "acetone cyanohydrin",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "triethylamine hydrobromide",
+   "outcome": "parsed",
+   "query": "triethylamine hydrobromide",
+   "via": "verbatim",
+   "smiles": "Br.C(C)N(CC)CC",
+   "canonical": "Br.CCN(CC)CC",
+   "attempts": [
+    {
+     "query": "triethylamine hydrobromide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "methanol",
+   "outcome": "parsed",
+   "query": "methanol",
+   "via": "verbatim",
+   "smiles": "CO",
+   "canonical": "CO",
+   "attempts": [
+    {
+     "query": "methanol",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "sodium hydroxide",
+   "outcome": "parsed",
+   "query": "sodium hydroxide",
+   "via": "verbatim",
+   "smiles": "[OH-].[Na+]",
+   "canonical": "[Na+].[OH-]",
+   "attempts": [
+    {
+     "query": "sodium hydroxide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "1,3-cyclohexanedione",
+   "outcome": "parsed",
+   "query": "1,3-cyclohexanedione",
+   "via": "verbatim",
+   "smiles": "C1(CC(CCC1)=O)=O",
+   "canonical": "O=C1CCCC(=O)C1",
+   "attempts": [
+    {
+     "query": "1,3-cyclohexanedione",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "2-dicyclohexylphosphino-2',6'-dimethoxybiphenyl",
+   "outcome": "parsed",
+   "query": "2-dicyclohexylphosphino-2',6'-dimethoxybiphenyl",
+   "via": "verbatim",
+   "smiles": "C1(CCCCC1)P(C1=C(C=CC=C1)C1=C(C=CC=C1OC)OC)C1CCCCC1",
+   "canonical": "COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1",
+   "attempts": [
+    {
+     "query": "2-dicyclohexylphosphino-2',6'-dimethoxybiphenyl",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "4,5-bis(diphenylphosphino)-9,9-dimethylxanthene",
+   "outcome": "parsed",
+   "query": "4,5-bis(diphenylphosphino)-9,9-dimethylxanthene",
+   "via": "verbatim",
+   "smiles": "C1(=CC=CC=C1)P(C1=CC=CC=2C(C3=CC=CC(=C3OC12)P(C1=CC=CC=C1)C1=CC=CC=C1)(C)C)C1=CC=CC=C1",
+   "canonical": "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21",
+   "attempts": [
+    {
+     "query": "4,5-bis(diphenylphosphino)-9,9-dimethylxanthene",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "carbon monoxide",
+   "outcome": "parsed",
+   "query": "carbon monoxide",
+   "via": "verbatim",
+   "smiles": "[C]=O",
+   "canonical": "[C]=O",
+   "attempts": [
+    {
+     "query": "carbon monoxide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "式(VI)化合物",
+   "outcome": "parsed",
+   "query": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+   "via": "alias",
+   "smiles": "ClC1=C(C(=CC=C1)SC)C",
+   "canonical": "CSc1cccc(Cl)c1C",
+   "attempts": [
+    {
+     "query": "式(VI)化合物",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    },
+    {
+     "query": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "dichloromethane",
+   "outcome": "parsed",
+   "query": "dichloromethane",
+   "via": "verbatim",
+   "smiles": "ClCCl",
+   "canonical": "ClCCl",
+   "attempts": [
+    {
+     "query": "dichloromethane",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "式(I)化合物",
+   "outcome": "parsed",
+   "query": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+   "via": "alias",
+   "smiles": "BrC1=C(C(=C(C=C1)SC)C)Cl",
+   "canonical": "CSc1ccc(Br)c(Cl)c1C",
+   "attempts": [
+    {
+     "query": "式(I)化合物",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    },
+    {
+     "query": "CSc1ccc(Br)c(Cl)c1C",
+     "via": "alias",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "sodium tungstate dihydrate",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'sodium tungstate dihydrate'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "sodium tungstate dihydrate",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "glacial acetic acid",
+   "outcome": "parsed",
+   "query": "acetic acid",
+   "via": "dropped 'glacial'",
+   "smiles": "C(C)(=O)O",
+   "canonical": "CC(=O)O",
+   "attempts": [
+    {
+     "query": "glacial acetic acid",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "acetic acid",
+     "via": "dropped 'glacial'",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "式(II)化合物",
+   "outcome": "parsed",
+   "query": "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+   "via": "alias",
+   "smiles": "BrC1=C(C(=C(C=C1)S(=O)(=O)C)C)Cl",
+   "canonical": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+   "attempts": [
+    {
+     "query": "式(II)化合物",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    },
+    {
+     "query": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+     "via": "alias",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "式(III)化合物",
+   "outcome": "parsed",
+   "query": "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+   "via": "alias",
+   "smiles": "BrC1=C(C(=C(C=C1)S(=O)(=O)C)CBr)Cl",
+   "canonical": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+   "attempts": [
+    {
+     "query": "式(III)化合物",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    },
+    {
+     "query": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+     "via": "alias",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "benzoyl peroxide",
+   "outcome": "parsed",
+   "query": "benzoyl peroxide",
+   "via": "verbatim",
+   "smiles": "C(C1=CC=CC=C1)(=O)OOC(C1=CC=CC=C1)=O",
+   "canonical": "O=C(OOC(=O)c1ccccc1)c1ccccc1",
+   "attempts": [
+    {
+     "query": "benzoyl peroxide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "1,2-dichloroethane",
+   "outcome": "parsed",
+   "query": "1,2-dichloroethane",
+   "via": "verbatim",
+   "smiles": "ClCCCl",
+   "canonical": "ClCCCl",
+   "attempts": [
+    {
+     "query": "1,2-dichloroethane",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "carbon tetrachloride",
+   "outcome": "parsed",
+   "query": "carbon tetrachloride",
+   "via": "verbatim",
+   "smiles": "C(Cl)(Cl)(Cl)Cl",
+   "canonical": "ClC(Cl)(Cl)Cl",
+   "attempts": [
+    {
+     "query": "carbon tetrachloride",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "ethanol",
+   "outcome": "parsed",
+   "query": "ethanol",
+   "via": "verbatim",
+   "smiles": "C(C)O",
+   "canonical": "CCO",
+   "attempts": [
+    {
+     "query": "ethanol",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "溴代试剂",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted and no English spelling was available to try. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "溴代试剂",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    }
+   ]
+  },
+  {
+   "identifier": "sodium hydride",
+   "outcome": "parsed",
+   "query": "sodium hydride",
+   "via": "verbatim",
+   "smiles": "[H-].[Na+]",
+   "canonical": "[H-].[Na+]",
+   "attempts": [
+    {
+     "query": "sodium hydride",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "2,2,2-trifluoroethanol",
+   "outcome": "parsed",
+   "query": "2,2,2-trifluoroethanol",
+   "via": "verbatim",
+   "smiles": "FC(CO)(F)F",
+   "canonical": "OCC(F)(F)F",
+   "attempts": [
+    {
+     "query": "2,2,2-trifluoroethanol",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "saturated brine",
+   "outcome": "parsed",
+   "query": "sodium chloride",
+   "via": "alias",
+   "smiles": "[Cl-].[Na+]",
+   "canonical": "[Cl-].[Na+]",
+   "attempts": [
+    {
+     "query": "saturated brine",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "sodium chloride",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "PdCl₂",
+   "outcome": "parsed",
+   "query": "palladium(II) chloride",
+   "via": "alias",
+   "smiles": "[Pd](Cl)Cl",
+   "canonical": "[Cl][Pd][Cl]",
+   "attempts": [
+    {
+     "query": "PdCl₂",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "palladium(II) chloride",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "式(V)化合物",
+   "outcome": "parsed",
+   "query": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+   "via": "alias",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+   "attempts": [
+    {
+     "query": "式(V)化合物",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    },
+    {
+     "query": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "thionyl chloride",
+   "outcome": "parsed",
+   "query": "thionyl chloride",
+   "via": "verbatim",
+   "smiles": "S(=O)(Cl)Cl",
+   "canonical": "O=S(Cl)Cl",
+   "attempts": [
+    {
+     "query": "thionyl chloride",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "式(VII)化合物",
+   "outcome": "parsed",
+   "query": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+   "via": "alias",
+   "smiles": "ClC1=C(C(=O)Cl)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "canonical": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+   "attempts": [
+    {
+     "query": "式(VII)化合物",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    },
+    {
+     "query": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "式(VIII)化合物",
+   "outcome": "parsed",
+   "query": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+   "via": "alias",
+   "smiles": "ClC1=C(C(=O)OC2=CC(CCC2)=O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "canonical": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+   "attempts": [
+    {
+     "query": "式(VIII)化合物",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    },
+    {
+     "query": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "(VIII)酯化合物",
+   "outcome": "parsed",
+   "query": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+   "via": "alias",
+   "smiles": "ClC1=C(C(=O)OC2=CC(CCC2)=O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "canonical": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+   "attempts": [
+    {
+     "query": "(VIII)酯化合物",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    },
+    {
+     "query": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "Cc1c(N)cccc1Cl",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "钨酸盐",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted and no English spelling was available to try. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "钨酸盐",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    }
+   ]
+  },
+  {
+   "identifier": "偏钨酸盐",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted and no English spelling was available to try. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "偏钨酸盐",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    }
+   ]
+  },
+  {
+   "identifier": "钒酸盐",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted and no English spelling was available to try. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "钒酸盐",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    }
+   ]
+  },
+  {
+   "identifier": "偏钒酸盐",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted and no English spelling was available to try. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "偏钒酸盐",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    }
+   ]
+  },
+  {
+   "identifier": "azobisisobutyronitrile",
+   "outcome": "parsed",
+   "query": "azobisisobutyronitrile",
+   "via": "verbatim",
+   "smiles": "N(=NC(C#N)(C)C)C(C#N)(C)C",
+   "canonical": "CC(C)(C#N)N=NC(C)(C)C#N",
+   "attempts": [
+    {
+     "query": "azobisisobutyronitrile",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "二氯乙烷",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted and no English spelling was available to try. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "二氯乙烷",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    }
+   ]
+  },
+  {
+   "identifier": "sodium 2,2,2-trifluoroethoxide",
+   "outcome": "parsed",
+   "query": "sodium 2,2,2-trifluoroethoxide",
+   "via": "verbatim",
+   "smiles": "FC(C[O-])(F)F.[Na+]",
+   "canonical": "[Na+].[O-]CC(F)(F)F",
+   "attempts": [
+    {
+     "query": "sodium 2,2,2-trifluoroethoxide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "potassium 2,2,2-trifluoroethoxide",
+   "outcome": "parsed",
+   "query": "potassium 2,2,2-trifluoroethoxide",
+   "via": "verbatim",
+   "smiles": "FC(C[O-])(F)F.[K+]",
+   "canonical": "[K+].[O-]CC(F)(F)F",
+   "attempts": [
+    {
+     "query": "potassium 2,2,2-trifluoroethoxide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "diethyl ether",
+   "outcome": "parsed",
+   "query": "diethyl ether",
+   "via": "verbatim",
+   "smiles": "C(C)OCC",
+   "canonical": "CCOCC",
+   "attempts": [
+    {
+     "query": "diethyl ether",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "potassium hydride",
+   "outcome": "parsed",
+   "query": "potassium hydride",
+   "via": "verbatim",
+   "smiles": "[H-].[K+]",
+   "canonical": "[H-].[K+]",
+   "attempts": [
+    {
+     "query": "potassium hydride",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "sodium methoxide",
+   "outcome": "parsed",
+   "query": "sodium methoxide",
+   "via": "verbatim",
+   "smiles": "C[O-].[Na+]",
+   "canonical": "C[O-].[Na+]",
+   "attempts": [
+    {
+     "query": "sodium methoxide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "potassium methoxide",
+   "outcome": "parsed",
+   "query": "potassium methoxide",
+   "via": "verbatim",
+   "smiles": "C[O-].[K+]",
+   "canonical": "C[O-].[K+]",
+   "attempts": [
+    {
+     "query": "potassium methoxide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "potassium hydroxide",
+   "outcome": "parsed",
+   "query": "potassium hydroxide",
+   "via": "verbatim",
+   "smiles": "[OH-].[K+]",
+   "canonical": "[K+].[OH-]",
+   "attempts": [
+    {
+     "query": "potassium hydroxide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium carbonate",
+   "outcome": "parsed",
+   "query": "palladium carbonate",
+   "via": "verbatim",
+   "smiles": "C([O-])([O-])=O.[Pd+2]",
+   "canonical": "O=C([O-])[O-].[Pd+2]",
+   "attempts": [
+    {
+     "query": "palladium carbonate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "bis(dibenzylideneacetone)palladium",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'bis(dibenzylideneacetone)palladium'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "bis(dibenzylideneacetone)palladium",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+   "outcome": "ambiguous",
+   "query": "bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+   "via": "verbatim",
+   "guess_smiles": "CN(C)C1=CC=C(C=C1)C(C(C)(C)PC(C)(C)C)C1=CC=C(C=C1)N(C)C",
+   "guess_canonical": "CN(C)c1ccc(C(c2ccc(N(C)C)cc2)C(C)(C)PC(C)(C)C)cc1",
+   "reason": "OPSIN parsed this name but warned that it does not pin one molecule down. Its guess is recorded and is deliberately NOT used as a structure.",
+   "attempts": [
+    {
+     "query": "bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+     "via": "verbatim",
+     "status": "WARNING",
+     "note": "APPEARS_AMBIGUOUS: Connection of phenyl to but"
+    }
+   ]
+  },
+  {
+   "identifier": "potassium carbonate",
+   "outcome": "parsed",
+   "query": "potassium carbonate",
+   "via": "verbatim",
+   "smiles": "C([O-])([O-])=O.[K+].[K+]",
+   "canonical": "O=C([O-])[O-].[K+].[K+]",
+   "attempts": [
+    {
+     "query": "potassium carbonate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "sodium carbonate",
+   "outcome": "parsed",
+   "query": "sodium carbonate",
+   "via": "verbatim",
+   "smiles": "C([O-])([O-])=O.[Na+].[Na+]",
+   "canonical": "O=C([O-])[O-].[Na+].[Na+]",
+   "attempts": [
+    {
+     "query": "sodium carbonate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "cesium carbonate",
+   "outcome": "parsed",
+   "query": "cesium carbonate",
+   "via": "verbatim",
+   "smiles": "C([O-])([O-])=O.[Cs+].[Cs+]",
+   "canonical": "O=C([O-])[O-].[Cs+].[Cs+]",
+   "attempts": [
+    {
+     "query": "cesium carbonate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "potassium phosphate",
+   "outcome": "parsed",
+   "query": "potassium phosphate",
+   "via": "verbatim",
+   "smiles": "P(=O)([O-])([O-])[O-].[K+].[K+].[K+]",
+   "canonical": "O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+   "attempts": [
+    {
+     "query": "potassium phosphate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "N,N-dimethylacetamide",
+   "outcome": "parsed",
+   "query": "N,N-dimethylacetamide",
+   "via": "verbatim",
+   "smiles": "CN(C(C)=O)C",
+   "canonical": "CC(=O)N(C)C",
+   "attempts": [
+    {
+     "query": "N,N-dimethylacetamide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "N,N-diisopropylethylamine",
+   "outcome": "parsed",
+   "query": "N,N-diisopropylethylamine",
+   "via": "verbatim",
+   "smiles": "C(C)(C)N(C(C)C)CC",
+   "canonical": "CCN(C(C)C)C(C)C",
+   "attempts": [
+    {
+     "query": "N,N-diisopropylethylamine",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "1,8-diazabicyclo[5.4.0]undec-7-ene",
+   "outcome": "parsed",
+   "query": "1,8-diazabicyclo[5.4.0]undec-7-ene",
+   "via": "verbatim",
+   "smiles": "N12CCCCCC2=NCCC1",
+   "canonical": "C1CCC2=NCCCN2CC1",
+   "attempts": [
+    {
+     "query": "1,8-diazabicyclo[5.4.0]undec-7-ene",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "triethylenediamine",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'triethylenediamine'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "triethylenediamine",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "式(VIII)的酯化合物",
+   "outcome": "parsed",
+   "query": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+   "via": "alias",
+   "smiles": "ClC1=C(C(=O)OC2=CC(CCC2)=O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "canonical": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+   "attempts": [
+    {
+     "query": "式(VIII)的酯化合物",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    },
+    {
+     "query": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "式(A)所示的化合物",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted and no English spelling was available to try. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "式(A)所示的化合物",
+     "via": "verbatim",
+     "status": "NOT_ASKED",
+     "note": "not English; OPSIN parses English chemical nomenclature only"
+    }
+   ]
+  },
+  {
+   "identifier": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+   "outcome": "parsed",
+   "query": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+   "via": "verbatim",
+   "smiles": "BrC1=C(C(=C(C=C1)SC)C)Cl",
+   "canonical": "CSc1ccc(Br)c(Cl)c1C",
+   "attempts": [
+    {
+     "query": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+   "outcome": "parsed",
+   "query": "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+   "via": "verbatim",
+   "smiles": "BrC1=C(C(=C(C=C1)S(=O)(=O)C)C)Cl",
+   "canonical": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+   "attempts": [
+    {
+     "query": "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+   "outcome": "parsed",
+   "query": "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+   "via": "verbatim",
+   "smiles": "BrC1=C(C(=C(C=C1)S(=O)(=O)C)CBr)Cl",
+   "canonical": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+   "attempts": [
+    {
+     "query": "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+   "outcome": "parsed",
+   "query": "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+   "via": "verbatim",
+   "smiles": "BrC1=C(C(=C(C=C1)S(=O)(=O)C)COCC(F)(F)F)Cl",
+   "canonical": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+   "attempts": [
+    {
+     "query": "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "dichloroethane",
+   "outcome": "ambiguous",
+   "query": "dichloroethane",
+   "via": "verbatim",
+   "guess_smiles": "ClC(C)Cl",
+   "guess_canonical": "CC(Cl)Cl",
+   "reason": "OPSIN parsed this name but warned that it does not pin one molecule down. Its guess is recorded and is deliberately NOT used as a structure.",
+   "attempts": [
+    {
+     "query": "dichloroethane",
+     "via": "verbatim",
+     "status": "WARNING",
+     "note": "APPEARS_AMBIGUOUS: Connection of chloro to eth"
+    }
+   ]
+  },
+  {
+   "identifier": "(VIII) ester compound",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried '(VIII) ester compound'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "(VIII) ester compound",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "1,3-(bis(diphenylphosphino))propane",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried '1,3-(bis(diphenylphosphino))propane'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "1,3-(bis(diphenylphosphino))propane",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "1,8-diazabicycloundec-7-ene (DBU)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried '1,8-diazabicycloundec-7-ene (DBU)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "1,8-diazabicycloundec-7-ene (DBU)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "Br-CH2-",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'Br-CH2-'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "Br-CH2-",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "CF3-CH2-O-CH2-",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'CF3-CH2-O-CH2-'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "CF3-CH2-O-CH2-",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "CH3-",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'CH3-'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "CH3-",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "CH3-S-",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'CH3-S-'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "CH3-S-",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "CH3-SO2-",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'CH3-SO2-'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "CH3-SO2-",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "CSc1ccc(C(C)=O)c(Cl)c1C",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "CYCLOSULFONONE",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'CYCLOSULFONONE'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "CYCLOSULFONONE",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "Cc1c(Cl)cccc1Cl",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+   "outcome": "unparseable",
+   "reason": "the identifier is itself a SMILES string, so there is no name to parse; the structure is already explicit",
+   "attempts": []
+  },
+  {
+   "identifier": "DMSO",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'DMSO'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "DMSO",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "N,N-diisopropylethylamine (DIPEA)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'N,N-diisopropylethylamine (DIPEA)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "N,N-diisopropylethylamine (DIPEA)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "N,N-dimethylacetamide (DMAC)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'N,N-dimethylacetamide (DMAC)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "N,N-dimethylacetamide (DMAC)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "N,N-dimethylformamide (DMF)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'N,N-dimethylformamide (DMF)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "N,N-dimethylformamide (DMF)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "Sodium tungstate dihydrate",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'Sodium tungstate dihydrate'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "Sodium tungstate dihydrate",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "Tembotrione",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'Tembotrione'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "Tembotrione",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "anhydrous tetrahydrofuran",
+   "outcome": "parsed",
+   "query": "tetrahydrofuran",
+   "via": "dropped 'anhydrous'",
+   "smiles": "O1CCCC1",
+   "canonical": "C1CCOC1",
+   "attempts": [
+    {
+     "query": "anhydrous tetrahydrofuran",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "tetrahydrofuran",
+     "via": "dropped 'anhydrous'",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "aqueous NaOH",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'aqueous NaOH', 'NaOH'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "aqueous NaOH",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "NaOH",
+     "via": "dropped 'aqueous'",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "aqueous NaOH solution",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'aqueous NaOH solution', 'NaOH'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "aqueous NaOH solution",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "NaOH",
+     "via": "dropped 'aqueous', 'solution'",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "azobisisobutyronitrile (AIBN)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'azobisisobutyronitrile (AIBN)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "azobisisobutyronitrile (AIBN)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "benzoyl peroxide (BPO)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'benzoyl peroxide (BPO)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "benzoyl peroxide (BPO)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "bis(dibenzylideneacetone)palladium [Pd(dba)2]",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'bis(dibenzylideneacetone)palladium [Pd(dba)2]'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "bis(dibenzylideneacetone)palladium [Pd(dba)2]",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "carboxylic acid compound of formula (V)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'carboxylic acid compound of formula (V)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "carboxylic acid compound of formula (V)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "cesium carbonate (CsCO3)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'cesium carbonate (CsCO3)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "cesium carbonate (CsCO3)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "compound of formula (I)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compound of formula (I)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compound of formula (I)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "compound of formula (II)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compound of formula (II)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compound of formula (II)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "compound of formula (III)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compound of formula (III)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compound of formula (III)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "compound of formula (IV)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compound of formula (IV)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compound of formula (IV)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "compound of formula (V III)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compound of formula (V III)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compound of formula (V III)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "compound of formula (V)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compound of formula (V)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compound of formula (V)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "compound of formula (VII)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compound of formula (VII)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compound of formula (VII)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "compound of formula (VIII)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compound of formula (VIII)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compound of formula (VIII)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "compounds of formula (I) to formula (IV)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compounds of formula (I) to formula (IV)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compounds of formula (I) to formula (IV)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "compounds of the above formulae (I) to (IV)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compounds of the above formulae (I) to (IV)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compounds of the above formulae (I) to (IV)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "compounds of the following formulae (I)-(IV)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compounds of the following formulae (I)-(IV)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compounds of the following formulae (I)-(IV)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "cyclosulfonone",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'cyclosulfonone'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "cyclosulfonone",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "dimethyl sulfoxide (DMSO)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'dimethyl sulfoxide (DMSO)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "dimethyl sulfoxide (DMSO)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "dioxane",
+   "outcome": "parsed",
+   "query": "dioxane",
+   "via": "verbatim",
+   "smiles": "O1CCOCC1",
+   "canonical": "C1COCCO1",
+   "attempts": [
+    {
+     "query": "dioxane",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "elemental bromine",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'elemental bromine'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "elemental bromine",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "ester compound of formula (VIII)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'ester compound of formula (VIII)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "ester compound of formula (VIII)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "intermediate acid compound shown by formula (V)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'intermediate acid compound shown by formula (V)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "intermediate acid compound shown by formula (V)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "intermediate ester compound of formula (VIII)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'intermediate ester compound of formula (VIII)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "intermediate ester compound of formula (VIII)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium acetate",
+   "outcome": "parsed",
+   "query": "palladium acetate",
+   "via": "verbatim",
+   "smiles": "C(C)(=O)[O-].[Pd+2].C(C)(=O)[O-]",
+   "canonical": "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
+   "attempts": [
+    {
+     "query": "palladium acetate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium acetate [Pd(OAc)2]",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'palladium acetate [Pd(OAc)2]'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "palladium acetate [Pd(OAc)2]",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium carbonate (PdCO3)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'palladium carbonate (PdCO3)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "palladium carbonate (PdCO3)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium chloride",
+   "outcome": "parsed",
+   "query": "palladium chloride",
+   "via": "verbatim",
+   "smiles": "[Pd](Cl)Cl",
+   "canonical": "[Cl][Pd][Cl]",
+   "attempts": [
+    {
+     "query": "palladium chloride",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium chloride (PdCl2)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'palladium chloride (PdCl2)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "palladium chloride (PdCl2)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium on carbon (Pd/C)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'palladium on carbon (Pd/C)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "palladium on carbon (Pd/C)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium trifluoroacetate",
+   "outcome": "parsed",
+   "query": "palladium trifluoroacetate",
+   "via": "verbatim",
+   "smiles": "FC(C(=O)[O-])(F)F.[Pd+2].FC(C(=O)[O-])(F)F",
+   "canonical": "O=C([O-])C(F)(F)F.O=C([O-])C(F)(F)F.[Pd+2]",
+   "attempts": [
+    {
+     "query": "palladium trifluoroacetate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "palladium trifluoroacetate [Pd(OTFA)2]",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'palladium trifluoroacetate [Pd(OTFA)2]'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "palladium trifluoroacetate [Pd(OTFA)2]",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "potassium trifluoroethoxide",
+   "outcome": "ambiguous",
+   "query": "potassium trifluoroethoxide",
+   "via": "verbatim",
+   "guess_smiles": "FC(C[O-])(F)F.[K+]",
+   "guess_canonical": "[K+].[O-]CC(F)(F)F",
+   "reason": "OPSIN parsed this name but warned that it does not pin one molecule down. Its guess is recorded and is deliberately NOT used as a structure.",
+   "attempts": [
+    {
+     "query": "potassium trifluoroethoxide",
+     "via": "verbatim",
+     "status": "WARNING",
+     "note": "APPEARS_AMBIGUOUS: Connection of fluoro to ethoxide"
+    }
+   ]
+  },
+  {
+   "identifier": "sodium trifluoroethoxide",
+   "outcome": "ambiguous",
+   "query": "sodium trifluoroethoxide",
+   "via": "verbatim",
+   "guess_smiles": "FC(C[O-])(F)F.[Na+]",
+   "guess_canonical": "[Na+].[O-]CC(F)(F)F",
+   "reason": "OPSIN parsed this name but warned that it does not pin one molecule down. Its guess is recorded and is deliberately NOT used as a structure.",
+   "attempts": [
+    {
+     "query": "sodium trifluoroethoxide",
+     "via": "verbatim",
+     "status": "WARNING",
+     "note": "APPEARS_AMBIGUOUS: Connection of fluoro to ethoxide"
+    }
+   ]
+  },
+  {
+   "identifier": "tembotrione (huanhuangtong)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'tembotrione (huanhuangtong)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "tembotrione (huanhuangtong)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "tetrahydrofuran (THF)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'tetrahydrofuran (THF)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "tetrahydrofuran (THF)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "the ester intermediate of formula (VIII)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'the ester intermediate of formula (VIII)', 'ester intermediate of formula (VIII)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "the ester intermediate of formula (VIII)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "ester intermediate of formula (VIII)",
+     "via": "dropped 'the'",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "triethylenediamine (DABCO)",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'triethylenediamine (DABCO)'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "triethylenediamine (DABCO)",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "trifluoroethanol",
+   "outcome": "ambiguous",
+   "query": "trifluoroethanol",
+   "via": "verbatim",
+   "guess_smiles": "FC(CO)(F)F",
+   "guess_canonical": "OCC(F)(F)F",
+   "reason": "OPSIN parsed this name but warned that it does not pin one molecule down. Its guess is recorded and is deliberately NOT used as a structure.",
+   "attempts": [
+    {
+     "query": "trifluoroethanol",
+     "via": "verbatim",
+     "status": "WARNING",
+     "note": "APPEARS_AMBIGUOUS: Connection of fluoro to eth"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,362 @@
+{
+  "tembotrione": [
+    "Abstract",
+    "Background",
+    "Claims",
+    "Example 10",
+    "Example 8",
+    "Preparation Routes and General Embodiments",
+    "Summary of the Invention"
+  ],
+  "3-chloro-2-methylaniline": [
+    "Background",
+    "Example 1"
+  ],
+  "CH3SNa": [
+    "Background",
+    "Example 1",
+    "Preparation Routes and General Embodiments"
+  ],
+  "NaNO2": [
+    "Background",
+    "Example 1",
+    "Preparation Routes and General Embodiments"
+  ],
+  "HCl": [
+    "Background",
+    "Preparation Routes and General Embodiments"
+  ],
+  "CF3CH2ONa": [
+    "Background",
+    "Claims",
+    "Example 5",
+    "Summary of the Invention"
+  ],
+  "NaOH": [
+    "Background",
+    "Example 1"
+  ],
+  "SOCl2": [
+    "Background",
+    "Preparation Routes and General Embodiments"
+  ],
+  "cyclohexane-1,3-dione": [
+    "Background",
+    "Example 10",
+    "Preparation Routes and General Embodiments",
+    "Summary of the Invention"
+  ],
+  "water": [
+    "Background",
+    "Example 1",
+    "Example 10",
+    "Example 2",
+    "Example 3",
+    "Example 4",
+    "Example 5",
+    "Example 6",
+    "Example 7",
+    "Example 8",
+    "Preparation Routes and General Embodiments"
+  ],
+  "palladium": [
+    "Claims",
+    "Preparation Routes and General Embodiments"
+  ],
+  "rhodium": [
+    "Claims",
+    "Preparation Routes and General Embodiments"
+  ],
+  "ruthenium": [
+    "Claims",
+    "Preparation Routes and General Embodiments"
+  ],
+  "copper": [
+    "Claims",
+    "Preparation Routes and General Embodiments"
+  ],
+  "cobalt": [
+    "Claims",
+    "Preparation Routes and General Embodiments"
+  ],
+  "palladium(II) chloride": [
+    "Claims",
+    "Example 11",
+    "Preparation Routes and General Embodiments"
+  ],
+  "palladium(II) acetate": [
+    "Claims",
+    "Preparation Routes and General Embodiments"
+  ],
+  "palladium on carbon": [
+    "Claims",
+    "Preparation Routes and General Embodiments"
+  ],
+  "palladium(II) trifluoroacetate": [
+    "Claims",
+    "Preparation Routes and General Embodiments"
+  ],
+  "1,3-bis(diphenylphosphino)propane": [
+    "Claims",
+    "Example 7",
+    "Preparation Routes and General Embodiments"
+  ],
+  "1,4-bis(diphenylphosphino)butane": [
+    "Claims",
+    "Example 10",
+    "Example 6",
+    "Preparation Routes and General Embodiments"
+  ],
+  "toluene": [
+    "Claims",
+    "Preparation Routes and General Embodiments"
+  ],
+  "1,4-dioxane": [
+    "Claims",
+    "Example 10",
+    "Example 11",
+    "Example 6",
+    "Example 8",
+    "Example 9",
+    "Preparation Routes and General Embodiments"
+  ],
+  "ethylene glycol dimethyl ether": [
+    "Claims",
+    "Preparation Routes and General Embodiments"
+  ],
+  "ethylene glycol diethyl ether": [
+    "Claims",
+    "Example 9",
+    "Preparation Routes and General Embodiments"
+  ],
+  "dimethyl sulfoxide": [
+    "Claims",
+    "Preparation Routes and General Embodiments"
+  ],
+  "tetrahydrofuran": [
+    "Claims",
+    "Example 5",
+    "Example 7",
+    "Preparation Routes and General Embodiments"
+  ],
+  "N,N-dimethylformamide": [
+    "Claims",
+    "Preparation Routes and General Embodiments"
+  ],
+  "bromine": [
+    "Claims",
+    "Example 2",
+    "Example 4",
+    "Preparation Routes and General Embodiments",
+    "Summary of the Invention"
+  ],
+  "N-bromosuccinimide": [
+    "Claims",
+    "Example 4",
+    "Preparation Routes and General Embodiments",
+    "Summary of the Invention"
+  ],
+  "hydrogen bromide": [
+    "Claims",
+    "Preparation Routes and General Embodiments",
+    "Summary of the Invention"
+  ],
+  "hydrogen peroxide": [
+    "Claims",
+    "Example 3",
+    "Preparation Routes and General Embodiments",
+    "Summary of the Invention"
+  ],
+  "CF3CH2OK": [
+    "Claims",
+    "Summary of the Invention"
+  ],
+  "CF3CH2OM": [
+    "Claims",
+    "Preparation Routes and General Embodiments",
+    "Summary of the Invention"
+  ],
+  "CO": [
+    "Claims",
+    "Example 10",
+    "Example 6",
+    "Example 7",
+    "Example 9",
+    "Preparation Routes and General Embodiments",
+    "Summary of the Invention"
+  ],
+  "H2O": [
+    "Claims",
+    "Summary of the Invention"
+  ],
+  "CSc1cccc(Cl)c1C": [
+    "Claims",
+    "Summary of the Invention"
+  ],
+  "CSc1ccc(Br)c(Cl)c1C": [
+    "Claims",
+    "Summary of the Invention"
+  ],
+  "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl": [
+    "Claims",
+    "Summary of the Invention"
+  ],
+  "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr": [
+    "Claims",
+    "Summary of the Invention"
+  ],
+  "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F": [
+    "Claims",
+    "Summary of the Invention"
+  ],
+  "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F": [
+    "Claims",
+    "Summary of the Invention"
+  ],
+  "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F": [
+    "Claims",
+    "Preparation Routes and General Embodiments"
+  ],
+  "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F": [
+    "Claims",
+    "Summary of the Invention"
+  ],
+  "hydrochloric acid": [
+    "Example 1",
+    "Example 8"
+  ],
+  "acetonitrile": [
+    "Example 1",
+    "Example 5"
+  ],
+  "formic acid": [
+    "Example 1",
+    "Example 5",
+    "Preparation Routes and General Embodiments"
+  ],
+  "式(IV)化合物": [
+    "Example 10",
+    "Example 11",
+    "Example 5",
+    "Example 6",
+    "Example 7",
+    "Example 9",
+    "Preparation Routes and General Embodiments"
+  ],
+  "triethylamine": [
+    "Example 10",
+    "Example 11",
+    "Example 6",
+    "Example 7",
+    "Example 8",
+    "Example 9",
+    "Preparation Routes and General Embodiments"
+  ],
+  "PdCl2": [
+    "Example 10",
+    "Example 7"
+  ],
+  "nitrogen": [
+    "Example 10",
+    "Example 11",
+    "Example 6",
+    "Example 7",
+    "Example 9",
+    "Preparation Routes and General Embodiments"
+  ],
+  "acetone cyanohydrin": [
+    "Example 10",
+    "Example 8",
+    "Preparation Routes and General Embodiments"
+  ],
+  "methanol": [
+    "Example 10",
+    "Example 5",
+    "Example 6",
+    "Example 7",
+    "Preparation Routes and General Embodiments"
+  ],
+  "sodium hydroxide": [
+    "Example 10",
+    "Example 2",
+    "Example 4",
+    "Preparation Routes and General Embodiments"
+  ],
+  "1,3-cyclohexanedione": [
+    "Example 11",
+    "Example 8",
+    "Example 9"
+  ],
+  "式(VI)化合物": [
+    "Example 2",
+    "Preparation Routes and General Embodiments"
+  ],
+  "dichloromethane": [
+    "Example 2",
+    "Preparation Routes and General Embodiments"
+  ],
+  "式(I)化合物": [
+    "Example 2",
+    "Example 3",
+    "Preparation Routes and General Embodiments"
+  ],
+  "sodium tungstate dihydrate": [
+    "Example 3",
+    "Preparation Routes and General Embodiments"
+  ],
+  "glacial acetic acid": [
+    "Example 3",
+    "Preparation Routes and General Embodiments"
+  ],
+  "式(II)化合物": [
+    "Example 3",
+    "Example 4",
+    "Preparation Routes and General Embodiments"
+  ],
+  "式(III)化合物": [
+    "Example 4",
+    "Example 5",
+    "Preparation Routes and General Embodiments"
+  ],
+  "benzoyl peroxide": [
+    "Example 4",
+    "Preparation Routes and General Embodiments"
+  ],
+  "1,2-dichloroethane": [
+    "Example 4",
+    "Preparation Routes and General Embodiments"
+  ],
+  "carbon tetrachloride": [
+    "Example 4",
+    "Preparation Routes and General Embodiments"
+  ],
+  "ethanol": [
+    "Example 4",
+    "Example 5",
+    "Example 9",
+    "Preparation Routes and General Embodiments"
+  ],
+  "溴代试剂": [
+    "Example 4",
+    "Preparation Routes and General Embodiments",
+    "Summary of the Invention"
+  ],
+  "sodium hydride": [
+    "Example 5",
+    "Preparation Routes and General Embodiments"
+  ],
+  "2,2,2-trifluoroethanol": [
+    "Example 5",
+    "Preparation Routes and General Embodiments"
+  ],
+  "saturated brine": [
+    "Example 5",
+    "Preparation Routes and General Embodiments"
+  ],
+  "式(V)化合物": [
+    "Example 6",
+    "Example 7",
+    "Example 8",
+    "Preparation Routes and General Embodiments"
+  ]
+}

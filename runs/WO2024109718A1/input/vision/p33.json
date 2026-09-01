@@ -1,0 +1,42 @@
+{
+ "page": "p33.png",
+ "page_label": "4/10",
+ "doc_part": "drawings",
+ "header": "4/10 (centred, above the rule); WO 2024/109718 (left, bold); PCT/CN2023/132821 (right, bold)",
+ "footer": "",
+ "paragraphs": [],
+ "drawings": [
+  {
+   "kind": "structure",
+   "between_markers": [],
+   "presented_as": "intermediate_structure",
+   "structures": [
+    {
+     "position_in_drawing": "1st and only, top-left, inset above the [Figure 7] spectrum",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1 (lower-right ring vertex, drawn as S with two double-bonded O below and CH3 up and to the right)",
+      "CH2Br at C2 (upper-right ring vertex, drawn as a two-bond zig-zag up-right to an apex then down-right to a Br label)",
+      "Cl at C3 (top ring vertex, single vertical bond up to the label)",
+      "Br at C4 (upper-left ring vertex)",
+      "H at C5 (lower-left ring vertex)",
+      "H at C6 (bottom ring vertex)"
+     ],
+     "name": "1-bromo-2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzene",
+     "smiles": "BrCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "medium"
+    }
+   ],
+   "arrows": [],
+   "notes": "Labelled [图 7] (Figure 7). The figure is a 1H NMR spectrum with the structure drawn as an inset at the top left. Ring numbering above is assigned with the sulfonyl-bearing carbon as C1 and records only the drawn positions relative to one another; no locants are printed on the drawing. Adjacency as drawn: SO2CH3 and CH2Br are on adjacent carbons, CH2Br and Cl are on adjacent carbons, Cl and Br are on adjacent carbons, and the two remaining ring vertices carry no substituent. The top-vertex label is the one soft reading on the page: at scan resolution it is a bowl plus a separate taller vertical stroke, 17 px wide with a blank column between bowl and stroke, whereas the two sulfonyl oxygens on the same drawing are closed rings 14-15 px wide with no such gap; the same profile (17 px, gap, tall terminal stroke) is what the unambiguous 'Cl' on p32 gives. It is therefore read as Cl, not O. Abscissa is labelled 'f1 (ppm)' running from about 9.5 on the left to about 0.5 on the right in 0.5 steps; the tick numerals are heavily degraded by the scan and are read only approximately. Signals: a tall closely-spaced multi-line cluster in the aromatic region, a much shorter line a little to its right, two or three very small lines in the middle of the trace, one very tall line in the low-ppm region, and one small line further right. No peak-position numerals, integrals or coupling data are printed on the figure, so no shift values are recorded here."
+  }
+ ],
+ "discrepancies": [],
+ "illegible": [
+  "The x-axis tick numerals of the spectrum are pixelated and only approximately readable; individual digits were not transcribed.",
+  "Top-vertex substituent label of the inset structure: 16-17 px glyph, read as 'Cl' on letterform-width evidence rather than on a clean visual read. A hydroxyl reading ('O') was considered and rejected because the glyph is wider than, and shaped unlike, the two sulfonyl oxygens printed on the same drawing.",
+  "Vertical right-margin stamp box beside the figure: reads '细则 26,' on the first line and '26.12.2023' on the second, i.e. a PCT Rule 26 replacement-sheet stamp dated 26.12.2023. A thick vertical black bar runs alongside the stamp.",
+  "No peak-position or integral annotations are printed anywhere on the spectrum."
+ ],
+ "page_confidence": "medium"
+}

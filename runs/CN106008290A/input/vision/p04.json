@@ -1,0 +1,245 @@
+{
+  "page": "p04.png",
+  "page_label": "说 明 书 1/4 页",
+  "doc_part": "description",
+  "header": "CN 106008290 A    说 明 书    1/4 页",
+  "footer": "4",
+  "paragraphs": [
+    {
+      "marker": "[0001]",
+      "zh": "本发明涉及的是有机化工技术领域，具体涉及一种环磺酮的制备方法。",
+      "en": "The present invention relates to the field of organic chemical technology, and specifically to a process for preparing tembotrione.",
+      "notes": "Preceded on the page by the document title 一种环磺酮的制备方法 (A process for preparing a cyclic sulfone ketone / huanhuangtong) and by the section heading 技术领域 (Technical field). 环磺酮 is left as the Chinese trade/common name; the drawn product IV is a 2-aroylcyclohexane-1,3-dione, consistent with the herbicide class, but the English name is not determined by this page. Translation corrected during the run: the vision read rendered 环磺酮 as the pinyin huanhuangtong and as the phrase 'cyclic sulfone ketone', which is a character by character gloss naming no real compound. 环磺酮 is tembotrione, established from the structure: the product is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, C17H16ClF3O6S at 440.82. The English now names the compound; the Chinese is untouched. The translations gate could not have caught this, because it looks for runs of CJK codepoints and pinyin is Latin script."
+    },
+    {
+      "marker": "[0002]",
+      "zh": "环磺酮是迄今为止活性较高、用量较少，且比较安全的一类除草剂，其工业制备方法主要是三氟乙醇、叔丁醇钾法制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸然后羧基酰氯化成酯后重排法，且该种方法获得成品的收率较低，用到的试剂昂贵。其中，在制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸采用叔丁醇钾做碱，收率较低、试剂昂贵；羧基酰氯化成酯后重排法要用到剧毒试剂丙酮氰醇为重排催化剂，且需要用二氯亚砜作酰氯化试剂，而二氯亚砜对环境有很大危害。",
+      "en": "Tembotrione is to date a class of herbicide with relatively high activity, low application rate and comparatively good safety. Its industrial preparation is mainly the trifluoroethanol / potassium tert-butoxide method to prepare the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, followed by acyl chlorination of the carboxyl group, esterification and then rearrangement; this method gives a relatively low yield of finished product and uses expensive reagents. Among these, in preparing the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, potassium tert-butoxide is used as the base, the yield is relatively low and the reagent is expensive; the acyl chlorination / esterification / rearrangement route requires the highly toxic reagent acetone cyanohydrin as rearrangement catalyst, and requires thionyl chloride (written 二氯亚砜) as the acyl chlorinating agent, and thionyl chloride is very harmful to the environment.",
+      "notes": "Preceded by the section heading 背景技术 (Background technology). 甲磺基 is translated literally as methylsulfonyl; the drawing shows SO2CH3. 二氯亚砜 is the Chinese name for thionyl chloride, SOCl2. Translation corrected during the run: the vision read rendered 环磺酮 as the pinyin huanhuangtong and as the phrase 'cyclic sulfone ketone', which is a character by character gloss naming no real compound. 环磺酮 is tembotrione, established from the structure: the product is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, C17H16ClF3O6S at 440.82. The English now names the compound; the Chinese is untouched. The translations gate could not have caught this, because it looks for runs of CJK codepoints and pinyin is Latin script."
+    },
+    {
+      "marker": "[0003]",
+      "zh": "综上，传统方法制备环磺酮均具有收率低，成本高，且生产工艺中含剧毒物质等特点，不符合大规模工业化生产的要求。",
+      "en": "In summary, the traditional methods of preparing tembotrione all have the characteristics of low yield, high cost and the presence of highly toxic substances in the production process, and do not meet the requirements of large-scale industrial production.",
+      "notes": "Translation corrected during the run: the vision read rendered 环磺酮 as the pinyin huanhuangtong and as the phrase 'cyclic sulfone ketone', which is a character by character gloss naming no real compound. 环磺酮 is tembotrione, established from the structure: the product is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, C17H16ClF3O6S at 440.82. The English now names the compound; the Chinese is untouched. The translations gate could not have caught this, because it looks for runs of CJK codepoints and pinyin is Latin script."
+    },
+    {
+      "marker": "[0004]",
+      "zh": "本发明的目的在于克服现有技术的不足，提供了一种环磺酮的制备方法，以解决传统制备环磺酮时收率低，成本高，且生产工艺中含剧毒物质等技术问题。",
+      "en": "The object of the present invention is to overcome the deficiencies of the prior art by providing a process for preparing tembotrione, so as to solve the technical problems of low yield, high cost and the presence of highly toxic substances in the production process of the traditional preparation of tembotrione.",
+      "notes": "Preceded by the section heading 发明内容 (Summary of the invention). Translation corrected during the run: the vision read rendered 环磺酮 as the pinyin huanhuangtong and as the phrase 'cyclic sulfone ketone', which is a character by character gloss naming no real compound. 环磺酮 is tembotrione, established from the structure: the product is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, C17H16ClF3O6S at 440.82. The English now names the compound; the Chinese is untouched. The translations gate could not have caught this, because it looks for runs of CJK codepoints and pinyin is Latin script."
+    },
+    {
+      "marker": "[0005]",
+      "zh": "本发明所要解决的技术问题采用以下技术方案来实现：",
+      "en": "The technical problem to be solved by the present invention is achieved by the following technical solution:",
+      "notes": null
+    },
+    {
+      "marker": "[0006]",
+      "zh": "本发明提供了一种环磺酮的制备方法，包括以下步骤：",
+      "en": "The present invention provides a process for preparing tembotrione, comprising the following steps:",
+      "notes": "Translation corrected during the run: the vision read rendered 环磺酮 as the pinyin huanhuangtong and as the phrase 'cyclic sulfone ketone', which is a character by character gloss naming no real compound. 环磺酮 is tembotrione, established from the structure: the product is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, C17H16ClF3O6S at 440.82. The English now names the compound; the Chinese is untouched. The translations gate could not have caught this, because it looks for runs of CJK codepoints and pinyin is Latin script."
+    },
+    {
+      "marker": "[0007]",
+      "zh": "步骤a：以2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯（化合物I）与三氟乙醇钠为反应底物，加入MOH或M2CO3，在反应溶剂中进行反应，获得2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸（化合物II），具体化学反应式如下式（1）所示：",
+      "en": "Step a: using methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate (compound I) and sodium trifluoroethoxide as reaction substrates, adding MOH or M2CO3, the reaction is carried out in a reaction solvent to obtain 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid (compound II); the specific chemical equation is as shown in formula (1) below:",
+      "notes": "M2CO3 is printed as M2CO3 with the digit on the line (no subscript rendering in the scan). 三氟乙醇钠 is literally sodium trifluoroethanolate; the drawing writes CF3CH2ONa."
+    },
+    {
+      "marker": "[0008]",
+      "zh": "",
+      "en": "",
+      "notes": "Marker carries no text; it introduces the reaction scheme of formula (1), recorded as the first drawing."
+    },
+    {
+      "marker": "[0009]",
+      "zh": "步骤b：以步骤a的化合物II与1,3-环己二酮（化合物III）为反应底物，在缩合剂和碱催化剂的作用下，在反应溶剂中进行缩合反应，获得环磺酮（化合物IV），具体化学反应式如下式（2）所示：",
+      "en": "Step b: using compound II from step a and 1,3-cyclohexanedione (compound III) as reaction substrates, a condensation reaction is carried out in a reaction solvent under the action of a condensing agent and a basic catalyst to obtain tembotrione (compound IV); the specific chemical equation is as shown in formula (2) below:",
+      "notes": "The comma in 1,3- is printed half-width as shown. Translation corrected during the run: the vision read rendered 环磺酮 as the pinyin huanhuangtong and as the phrase 'cyclic sulfone ketone', which is a character by character gloss naming no real compound. 环磺酮 is tembotrione, established from the structure: the product is 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, C17H16ClF3O6S at 440.82. The English now names the compound; the Chinese is untouched. The translations gate could not have caught this, because it looks for runs of CJK codepoints and pinyin is Latin script."
+    },
+    {
+      "marker": "[0010]",
+      "zh": "",
+      "en": "",
+      "notes": "Marker carries no text; it introduces the reaction scheme of formula (2), recorded as the second drawing."
+    },
+    {
+      "marker": "[0011]",
+      "zh": "其中，所述步骤a中，M为Li、Na、K离子中的一种。",
+      "en": "Wherein, in said step a, M is one of the Li, Na and K ions.",
+      "notes": null
+    },
+    {
+      "marker": "[0012]",
+      "zh": "进一步地，所述步骤a中，三氟乙醇钠与化合物I的摩尔比为1.1-1.2:1。",
+      "en": "Further, in said step a, the molar ratio of sodium trifluoroethoxide to compound I is 1.1-1.2:1.",
+      "notes": null
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "scheme",
+      "between_markers": [
+        "[0008]",
+        "[0009]"
+      ],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, leftmost reactant of scheme (1)",
+          "core": "benzene",
+          "substituents": [
+            "C(=O)OCH3 at C1 (drawn as an ester, carbonyl O up, O-CH3 to the left)",
+            "Cl at C2",
+            "CH2Br at C3",
+            "SO2CH3 at C4"
+          ],
+          "name": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
+          "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, second reactant of scheme (1), written as a formula not a drawing",
+          "core": "not a ring system; written formula CF3CH2ONa",
+          "substituents": [],
+          "name": "sodium 2,2,2-trifluoroethoxide",
+          "smiles": "[Na+].[O-]CC(F)(F)F",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "3rd, product to the right of the arrow in scheme (1)",
+          "core": "benzene",
+          "substituents": [
+            "COOH at C1 (drawn HO-C(=O)-)",
+            "Cl at C2",
+            "CH2OCH2CF3 at C3",
+            "SO2CH3 at C4"
+          ],
+          "name": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
+          "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "4th and 5th, by-products written to the right of the product in scheme (1)",
+          "core": "not a ring system; written formulae CH3OH and NaBr",
+          "substituents": [],
+          "name": "methanol and sodium bromide",
+          "smiles": null,
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st (plus CF3CH2ONa)",
+          "to_structure": "3rd (plus CH3OH and NaBr)",
+          "reagents_above": [
+            "MOH/M2CO3"
+          ],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Equation number (1) is printed at the right margin. Small roman-numeral compound labels are printed under the reactant and the product; both are faint in the scan and read as I under the leftmost structure and II under the product, consistent with [0007]. Nothing is written below the arrow."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": [
+        "[0010]",
+        "[0011]"
+      ],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, leftmost reactant of scheme (2), labelled II",
+          "core": "benzene",
+          "substituents": [
+            "COOH at C1 (drawn HO-C(=O)-)",
+            "Cl at C2",
+            "CH2OCH2CF3 at C3",
+            "SO2CH3 at C4"
+          ],
+          "name": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
+          "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, second reactant of scheme (2), after the plus sign, labelled III",
+          "core": "cyclohexane-1,3-dione",
+          "substituents": [
+            "=O at C1",
+            "=O at C3"
+          ],
+          "name": "cyclohexane-1,3-dione",
+          "smiles": "O=C1CCCC(=O)C1",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "3rd, product to the right of the arrow in scheme (2), labelled IV",
+          "core": "cyclohexane-1,3-dione linked through C2 by a C=O bridge to a benzene ring",
+          "substituents": [
+            "=O at C1 of the cyclohexanedione",
+            "=O at C3 of the cyclohexanedione",
+            "aroyl (C=O to the benzene ring) at C2 of the cyclohexanedione",
+            "the benzene ring bears the bridging C=O at its C1, Cl at C2, CH2OCH2CF3 at C3, SO2CH3 at C4"
+          ],
+          "name": "2-{2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoyl}cyclohexane-1,3-dione",
+          "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium"
+        },
+        {
+          "position_in_drawing": "4th, by-product written to the right of the product in scheme (2)",
+          "core": "not a ring system; written formula H2O",
+          "substituents": [],
+          "name": "water",
+          "smiles": "O",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st and 2nd",
+          "to_structure": "3rd (plus H2O)",
+          "reagents_above": [
+            "缩合剂 (condensing agent)"
+          ],
+          "reagents_below": [
+            "碱催化剂 (basic catalyst)"
+          ],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Equation number (2) is printed at the right margin. The two Chinese labels sit above and below the arrow line respectively and are small but legible. Product IV is drawn as the 2-aroyl-1,3-dione (keto form); no enol tautomer is drawn. Confidence on IV is medium because the drawn ring is small in the scan and the C2 attachment point of the dione, while the only reading consistent with the drawing, is not crisply resolved."
+    }
+  ],
+  "discrepancies": [
+    {
+      "what": "Scheme (1) draws by-products that the prose does not mention.",
+      "drawing_says": "+ CH3OH + NaBr on the product side of equation (1)",
+      "text_says": "[0007] names only compound II as the product of step a"
+    },
+    {
+      "what": "Scheme (2) draws water as a by-product that the prose does not mention.",
+      "drawing_says": "+ H2O on the product side of equation (2)",
+      "text_says": "[0009] names only huanhuangtong (compound IV) as the product of step b"
+    },
+    {
+      "what": "The prose names the step b substrate 1,3-环己二酮 while the drawing shows the ring without any numbering.",
+      "drawing_says": "a six-membered carbocycle with two ketone oxygens in a 1,3 relationship as drawn",
+      "text_says": "1,3-环己二酮 (1,3-cyclohexanedione), compound III"
+    },
+    {
+      "what": "The background section describes a prior-art route in prose only; no prior-art scheme is drawn on this page.",
+      "drawing_says": "both drawn schemes are the invention's route, introduced as 具体化学反应式 for steps a and b",
+      "text_says": "[0002] describes the trifluoroethanol / potassium tert-butoxide plus acyl chlorination and rearrangement route as the existing industrial method"
+    }
+  ],
+  "illegible": [
+    "The small roman-numeral compound labels printed below the structures in scheme (1) are faint; they read as I and II but the strokes are close to the noise floor of the scan.",
+    "Subscripts inside the drawn formulae (CH2Br, SO2CH3, CH2OCH2CF3, CF3CH2ONa) are small; each was resolved, but at the limit of the scan resolution."
+  ],
+  "page_confidence": "medium"
+}

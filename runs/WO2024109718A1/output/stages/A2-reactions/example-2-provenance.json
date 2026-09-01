@@ -1,0 +1,9 @@
+[
+  {
+    "reaction_id": "Example 2_Step 1",
+    "source_lines": [443, 443],
+    "quote_zh": "将式(VI)化合物100.75g、400g二氯甲烷置于四口圆底烧瓶中，于10℃左右滴加溴素98.4g。经高效液相色谱监测反应完成后，用30mL 32％的NaOH溶液淬灭，分出有机相，并用70mL 32％的NaOH水溶液洗涤两次，然后用70mL水洗涤两次，分液，有机层旋蒸除去溶剂，得到式(I)化合物。",
+    "arithmetic_check": "Stated inputs: 100.75 g of the compound of formula (VI) and 98.4 g of bromine. The drawing on line 441 gives the substrate as C8H9ClS, MW 172.67, so 100.75 g is 0.583 mol; bromine MW 159.81, so 98.4 g is 0.616 mol, about 1.06 equivalents, a normal slight excess for a single ring bromination. No product mass, no yield and no purity are printed for the compound of formula (I), so there is no mass balance to close and none is claimed either way. Nothing in the printed numbers is internally inconsistent, so no arithmetic flag is raised.",
+    "drawing_evidence": "Line 441 carries a single-arrow [IMAGE_EXTRACT] reaction scheme: reactant CSc1cccc(Cl)c1C (C8H9ClS), arrow condition Br2, product CSc1ccc(Br)c(Cl)c1C (C8H8BrClS). One arrow, matching the one prose step. It agrees with the prose on substrate, brominating agent and the introduction of exactly one aromatic bromine, and it supports the identification of the unnamed formula (VI) and formula (I) labels. The arrow omits the dichloromethane solvent and the sodium hydroxide quench and washes that the prose gives, which is scheme abbreviation and not a contradiction; no conflict flag raised."
+  }
+]

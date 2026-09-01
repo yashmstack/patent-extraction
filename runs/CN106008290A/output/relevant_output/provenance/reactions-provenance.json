@@ -1,0 +1,208 @@
+[
+  {
+    "reaction_id": "Background_Step 1",
+    "source_lines": [
+      85,
+      86
+    ],
+    "quote_zh": "其工业制备方法主要是三氟乙醇、叔丁醇钾法制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸；其中，在制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸采用叔丁醇钾做碱，收率较低、试剂昂贵",
+    "arithmetic_check": "No arithmetic possible: the paragraph states no mass, no mole, no volume and no percentage anywhere. 收率较低 is a qualitative complaint with no number. No mass/mole pair exists to check, so neither mass_balance_implausible nor molar_mass_inconsistent can be raised or cleared.",
+    "drawing_evidence": "None. There is no [IMAGE_EXTRACT: ...] span in lines 85-88, so no drawing corroborates or contradicts this step and no drawing_text_conflict is possible."
+  },
+  {
+    "reaction_id": "Background_Step 2",
+    "source_lines": [
+      85,
+      86
+    ],
+    "quote_zh": "然后羧基酰氯化成酯后重排法；需要用二氯亚砜作酰氯化试剂，而二氯亚砜对环境有很大危害",
+    "arithmetic_check": "No arithmetic possible: no charge, no mass, no mole and no yield is printed for this transformation. Nothing to close, nothing to flag.",
+    "drawing_evidence": "None. No [IMAGE_EXTRACT: ...] span in lines 85-88."
+  },
+  {
+    "reaction_id": "Background_Step 3",
+    "source_lines": [
+      85,
+      86
+    ],
+    "quote_zh": "然后羧基酰氯化成酯后重排法",
+    "arithmetic_check": "No arithmetic possible: the clause names the transformation and nothing else. No compound, no quantity, no yield.",
+    "drawing_evidence": "None. No [IMAGE_EXTRACT: ...] span in lines 85-88, and no structure is drawn for the ester, which is why both its reactant and its product are unidentified."
+  },
+  {
+    "reaction_id": "Background_Step 4",
+    "source_lines": [
+      85,
+      88
+    ],
+    "quote_zh": "羧基酰氯化成酯后重排法要用到剧毒试剂丙酮氰醇为重排催化剂；综上，传统方法制备环磺酮均具有收率低，成本高，且生产工艺中含剧毒物质等特点",
+    "arithmetic_check": "No arithmetic possible: 收率较低 and 收率低 are the only yield statements in the section and both are qualitative. No product mass and no input mole is printed, so the yield claim cannot be checked and no flag is warranted either way.",
+    "drawing_evidence": "None. No [IMAGE_EXTRACT: ...] span in lines 85-88, so the identity of the finished product rests on the prose alone, where [0002] and [0003] both name 环磺酮."
+  },
+  {
+    "reaction_id": "Example 1_Step a",
+    "source_lines": [
+      138,
+      139
+    ],
+    "quote_zh": "步骤a：取1.1mol(134.2g)三氟乙醇钠，1.2mol(48g)氢氧化钠，1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I)，1000mL N,N-二甲基甲酰胺加入到反应器中，然后30℃保温5小时后，将反应液中的N,N-二甲基甲酰胺减压蒸除后，将残液加入300mL水中，用35％的盐酸调pH至弱酸性，冷却结晶，过滤，水洗，干燥得化合物II，称重得314.8g，收率91％，其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。",
+    "arithmetic_check": "Charges: 三氟乙醇钠 134.2 g / 1.1 mol implies 122.0 against C2H2F3ONa = 122.02, closes. 氢氧化钠 48 g / 1.2 mol implies 40.0 against NaOH = 40.00, closes. 2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯 318 g / 1.0 mol implies 318.0 against C10H10BrClO4S = 341.60, low by 23.60 (6.9％). The shortfall matches no single atom or fragment of that structure, so it is recorded as printed with no reconstruction offered. Flag: molar_mass_inconsistent. Product closure: limiting input 1.0 mol; product 314.8 g at the printed 91％ implies 345.93 g/mol. This section never says what 化合物II is, but the specification's summary at line 95 names it 2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸, the free acid C11H10ClF3O5S = 346.70, and 0.91 x 346.70 = 315.50 g against 314.8 g printed, that is 99.8％ of the yield-implied figure and 90.8％ of the 1.0 mol theoretical maximum against a printed 91％. CLOSES. Against the methyl ester C12H12ClF3O5S = 360.73 it would not: 0.91 x 360.73 = 328.26 g would be expected for 314.8 g printed. So no mass_balance_implausible is raised, and the closure is itself the arithmetic evidence that the methyl ester is hydrolysed in this pot, which is why the record is one-pot with reaction_class hydrolysis rather than a single nucleophilic substitution. The 1.2 mol of sodium hydroxide against 1.0 mol of ester is consistent with a stoichiometric saponification rather than a catalytic role. Note the asymmetry worth carrying to A5: the reactant mass/mole pair is 6.9％ low against its own name while the product mass/mole/yield triple closes, so the defect is localised to the compound I charge and is not a uniform scaling of the whole example.",
+    "drawing_evidence": "No [IMAGE_EXTRACT: ...] span falls in lines 134-141, so there is no drawing for this step and no drawing/prose comparison is possible. Nothing is raised on that absence: drawing_text_conflict, reagent_drawn_not_written and reagent_written_not_drawn are all unraisable here rather than answered in the negative. The specification does draw formula (1) for step a in the summary section near line 95, which is a different section and is not this step's evidence."
+  },
+  {
+    "reaction_id": "Example 1_Step b",
+    "source_lines": [
+      140,
+      141
+    ],
+    "quote_zh": "步骤b：取1mol上述反应所得的化合物II，溶解在1000mL的1,2-二氯乙烷中，然后在5-10℃温度条件下，半小时内加入含1.2mol(117.6g)1,3-环己二酮(化合物III)和1.2mol(194.6g)缩合剂CDI以及1.2mol(121.2g)三乙胺，再在5-10℃温度条件下搅拌反应8小时，然后经过水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)366.4g，纯度96.5％，收率86.3％，其中，1,2-二氯乙烷作为反应溶剂，还可以用己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。",
+    "arithmetic_check": "Charges: 1,3-环己二酮 117.6 g / 1.2 mol implies 98.0 against C6H8O2 = 112.13; 1.2 mol of the named compound would be 134.55 g. Flag: molar_mass_inconsistent. The 98.0 is not a one-off: Example 5 prints 1 mol as 98 g and Example 3 prints 1.5 mol as 147 g, both 98.0, while Example 2 prints 1.3 mol as 145.6 g, which is 112.0 and correct. The patent therefore uses two different weights for the same compound in different examples. 缩合剂CDI 194.6 g / 1.2 mol implies 162.17 against C7H6N4O = 162.15, closes. 三乙胺 121.2 g / 1.2 mol implies 101.0 against C6H15N = 101.19, closes. Product closure: limiting input 1 mol of 化合物II; product tembotrione C17H16ClF3O6S = 440.82; theoretical maximum 440.82 g; at the printed 86.3％ that is 380.42 g; but 366.4 g is printed, which is 83.1％ of theory. The printed mass is below the theoretical maximum, so it is not the mass that is impossible; it is the mass and the yield together, which imply 424.57 g/mol, a value matching no species in this reaction. The printed purity makes it worse rather than better: 366.4 g at 96.5％ is 353.58 g of tembotrione, that is 0.802 mol, an 80.2％ yield rather than 86.3％. DOES NOT CLOSE. Flag: mass_balance_implausible. For scale: step a isolated 314.8 g at 91％ of 1.0 mol, about 0.91 mol, but this step charges 1 mol of that material, more than the preceding step produced. Flag: scale_discontinuity. 1,3-cyclohexanedione at 1.2 mol against 1 mol of the acid is 1.2 equivalents and CDI likewise 1.2, both within the 1-1.3:1 and 1-2:1 ratios the specification claims at line 116, so no flag on the stoichiometry itself. Numbers recorded exactly as printed.",
+    "drawing_evidence": "No [IMAGE_EXTRACT: ...] span falls in lines 134-141, so there is no drawing for this step. No drawing-related flag is raised, and none is answered in the negative either: the check could not be run. Formula (2) for step b is drawn in the summary section near line 100, a different section."
+  },
+  {
+    "reaction_id": "Example 2_Step a",
+    "source_lines": [
+      149,
+      150
+    ],
+    "quote_zh": "步骤a:取1.2mol(146.4g)三氟乙醇钠,1.2mol(67.2g)氢氧化钾,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中,然后0℃下反应10小时后,将反应液中的N,N-二甲基甲酰胺减压蒸除后,将残液加入300mL水中,用35％的盐酸调pH至弱酸性,冷却结晶,过滤,水洗,干燥得化合物II,称重得321.7g,收率93％。",
+    "arithmetic_check": "Stated input 1.0 mol (318 g) of methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate as the limiting reagent, with 1.2 mol (146.4 g) sodium 2,2,2-trifluoroethoxide and 1.2 mol (67.2 g) potassium hydroxide; stated product 321.7 g of 化合物II at 93%. Reagent pairs: 146.4/1.2 = 122.0 against 122.02 for C2H2F3ONa, closes; 67.2/1.2 = 56.0 against 56.11 for KOH, closes; 318/1.0 = 318 against 341.60 for C10H10BrClO4S, short by 6.9%, does not close, molar_mass_inconsistent raised. Product: 321.7 g at 93% of 1.0 mol implies 0.93 mol and 345.9 g/mol; 化合物II is never defined in this section, so no name-based check is possible and no mass balance flag is raised on this step. For the reviewer only: 345.9 is within 0.2% of 346.70 for the free acid C11H10ClF3O5S and 4% away from 360.73 for the methyl ester C12H12ClF3O5S.",
+    "drawing_evidence": "No IMAGE_EXTRACT span in lines 142-152, so there is no drawing for this step and no drawing flag is raised."
+  },
+  {
+    "reaction_id": "Example 2_Step b",
+    "source_lines": [
+      151,
+      152
+    ],
+    "quote_zh": "步骤b:取1mol上述反应所得的化合物II,溶解在1000mL的二氯甲烷中,然后在8-15℃温度条件下,半小时内加入含1.3mol(145.6g)1,3-环己二酮(化合物III)和2mol(758g)缩合剂HBTU及2mol(212g)碳酸钠,再在8-15℃温度条件下搅拌反应9小时,然后水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)362.5g,纯度95.8％,收率86％。",
+    "arithmetic_check": "Stated input 1 mol of 化合物II from step a, with 1.3 mol (145.6 g) 1,3-cyclohexanedione, 2 mol (758 g) HBTU and 2 mol (212 g) sodium carbonate; stated product 362.5 g tembotrione, purity 95.8%, yield 86%. Reagent pairs: 145.6/1.3 = 112.0 against 112.13 for C6H8O2, closes; 758/2 = 379.0 against 379.24 for C11H16F6N5OP, closes; 212/2 = 106.0 against 105.99 for Na2CO3, closes. Product: tembotrione is C17H16ClF3O6S, 440.82; 86% of 1 mol would be 379.1 g, but 362.5 g is 0.8223 mol, that is 82.2% on the 1 mol charge, and 362.5/0.86 implies 421.5 g/mol; correcting for the stated 95.8% purity gives 347.3 g and 78.8%. The mass does not exceed what the charge could give, but the stated mass and stated yield do not close, so mass_balance_implausible is raised. Separately, step a isolated 0.93 mol (321.7 g at 93%) while this step charges 1 mol of the same material, a 0.07 mol deficit, so scale_discontinuity is raised. All numbers kept as printed.",
+    "drawing_evidence": "No IMAGE_EXTRACT span in lines 142-152, so there is no drawing for this step and no drawing flag is raised."
+  },
+  {
+    "reaction_id": "Example 3_Step a",
+    "source_lines": [
+      157,
+      158
+    ],
+    "quote_zh": "步骤a:取1.1mol(134.2g)三氟乙醇钠,1.2mol(129.6g)碳酸钠,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中,然后50℃保温2小时后,将反应液中的N,N-二甲基甲酰胺减压蒸除后,将残液加入300mL水中,用35％的盐酸调pH至弱酸性,冷却结晶,过滤,水洗,干燥得化合物II,称重得311.4g,收率90％。",
+    "arithmetic_check": "Stated input 1.0 mol (318 g) of methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate as the limiting reagent, with 1.1 mol (134.2 g) sodium trifluoroethoxide and 1.2 mol (129.6 g) sodium carbonate; stated product 311.4 g of compound II at 90%. Reagent pairs recomputed: 134.2/1.1 = 122.0 against 122.02 for C2H2F3ONa, closes; 129.6/1.2 = 108.0 against 105.99 for Na2CO3, high by 1.9%, does not close; 318/1.0 = 318.0 against 341.60 for C10H10BrClO4S, low by 6.9%, does not close. Two failures, so molar_mass_inconsistent is raised. Product: 311.4 g at 90% of 1.0 mol implies 0.90 mol and 346.0 g/mol; the two printed figures are mutually consistent, and compound II is never defined in this section, so no formula-based check is possible and no mass balance flag is raised on this step. For the reviewer only: 346.0 is within 0.2% of 346.70 for the free acid C11H10ClF3O5S and 4.1% from 360.73 for the methyl ester C12H12ClF3O5S. All numbers kept as printed.",
+    "drawing_evidence": "No IMAGE_EXTRACT span occurs anywhere in lines 153-160, so there is no drawing for this step, no prose-versus-drawing comparison is possible and no drawing flag is raised."
+  },
+  {
+    "reaction_id": "Example 3_Step b",
+    "source_lines": [
+      159,
+      160
+    ],
+    "quote_zh": "步骤b:取1mol上述反应所得的化合物II,溶解在1000mL的二氯乙烷中,然后在15-20℃温度条件下,半小时内加入含1.5mol(147g)1,3-环己二酮(化合物III)和3mol(405g)缩合剂HOBT及3mol(222g)氢氧化钙,再在15-20℃温度条件下搅拌反应8小时,然后水洗、减压浓缩加甲、醇打浆、过滤、干燥得到成品环磺酮(化合物IV)375.4g,纯度97.5％,收率87.5％。",
+    "arithmetic_check": "Stated input 1 mol of compound II from step a, with 1.5 mol (147 g) 1,3-cyclohexanedione, 3 mol (405 g) HOBT and 3 mol (222 g) calcium hydroxide; stated product 375.4 g tembotrione, purity 97.5%, yield 87.5%. Reagent pairs recomputed: 147/1.5 = 98.0 against 112.13 for C6H8O2, low by 12.6%, does not close, so molar_mass_inconsistent is raised; 405/3 = 135.0 against 135.13 for HOBT C6H5N3O, closes; 222/3 = 74.0 against 74.09 for Ca(OH)2, closes. Product: tembotrione is C17H16ClF3O6S, 440.82; 87.5% of 1 mol would be 385.71 g, but 375.4 g is 0.8516 mol, that is 85.16% on the 1 mol charge, and 375.4/0.875 implies 429.03 g/mol; correcting for the stated 97.5% purity gives 366.01 g and 83.03%, further away. The mass does not exceed what the charge could give, but the stated mass and the stated yield do not close, so mass_balance_implausible is raised. Continuity, computed three ways: step a prints 90% yield on a 1.0 mol charge, so it isolates 0.90 mol; on the 346.0 g/mol that step a's own 311.4 g and 90% imply, 311.4/346.0 = 0.8999 mol; on 346.70 for the free acid C11H10ClF3O5S, 311.4/346.70 = 0.8982 mol. This step charges 1 mol, so the over-draw is 0.10 mol on the printed yield and 0.1018 mol on the acid molecular weight, about 10% of the charge and the largest deficit of the five examples. Example 2 raises scale_discontinuity on a 0.07 mol deficit, so the flag is raised here. The earlier annotation of this section omitted it and that omission was an error. All numbers kept as printed.",
+    "drawing_evidence": "No IMAGE_EXTRACT span occurs anywhere in lines 153-160, so there is no drawing for this step, no prose-versus-drawing comparison is possible and no drawing flag is raised."
+  },
+  {
+    "reaction_id": "Example 4_Step a",
+    "source_lines": [
+      165,
+      166
+    ],
+    "quote_zh": "步骤a:取1.1mol(134.2g)三氟乙醇钠,1.2mol(166.8g)碳酸钾,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中,然后30℃保温5小时后,将反应液中的N,N-二甲基甲酰胺减压蒸除后,将残液加入300mL水中,用35％的盐酸调pH至弱酸性,冷却结晶,过滤,水洗,干燥得化合物II,称重得321.7g,收率93％。",
+    "arithmetic_check": "Every printed mass/mole pair in this step was checked by division. 三氟乙醇钠 1.1mol/134.2g gives 122.0 g/mol against 122.02 for C2H2F3ONa, so it closes. 碳酸钾 1.2mol/166.8g gives 139.0 g/mol against 138.20 for K2CO3, a deviation of 0.58 percent, which is inside the rounding of the printed mass, so no flag is raised on it; A1 read the same pair as disagreeing and that disagreement is recorded rather than resolved. 化合物I 1.0mol/318g gives 318.0 g/mol against 341.60 for C10H10BrClO4S, the formula the name requires, a deviation of 6.91 percent low, which is far outside rounding, so molar_mass_inconsistent is raised on this record and both printed numbers are kept as printed. The product side cannot be closed from the page: 化合物II is a local label the section never defines chemically, so the printed 321.7g at 93 percent from 1.0mol of 化合物I can only be turned into an implied molecular weight, 321.7/0.93 = 345.9 g/mol, with nothing stated in the document to compare it against. This is a could-not-check and not a pass. For a reviewer only, and from inference not from the page: if 化合物II is the 2,2,2-trifluoroethyl ether the route implies, C12H12ClF3O5S at 360.73 g/mol, then 321.7g would be 89.18 percent and not the printed 93 percent, and 93 percent would require 335.5g. That inference is not evidence and no flag was raised from it. Mass balance in the strict sense holds either way: 321.7g does not exceed what 1.0mol of a compound of that size could give.",
+    "drawing_evidence": "None. Lines 161 to 168 contain no [IMAGE_EXTRACT] span, so there is no scheme or structure to corroborate the step boundary or the connectivity, and no drawing flag is raised. The step boundary comes from the document's own 步骤a marker alone."
+  },
+  {
+    "reaction_id": "Example 4_Step b",
+    "source_lines": [
+      167,
+      168
+    ],
+    "quote_zh": "步骤b:取1mol上述反应所得的化合物II,溶解在1000mL的环己烷中,然后在-10-8℃温度条件下,半小时内加入含1mol(98g)1,3-环己二酮(化合物III)和1mol(152g)缩合剂DBU以及1mol(152g)吡啶,再在-10-8℃温度条件下搅拌反应24小时,然后经过水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)332.9g,纯度94.6％,收率80.1％。",
+    "arithmetic_check": "Every printed mass/mole pair was checked by division. 1,3-环己二酮 1mol/98g gives 98.0 g/mol against 112.13 for C6H8O2, 12.60 percent low, outside rounding, so it contributes to molar_mass_inconsistent. 缩合剂DBU 1mol/152g gives 152.0 g/mol against 152.24 for C9H16N2, 0.16 percent, so DBU closes. 吡啶 1mol/152g gives 152.0 g/mol against 79.10 for C5H5N, 92.16 percent high, roughly a factor of two, and it is the same mass printed for DBU on the same line; the vision pass raised exactly this and the arithmetic confirms it, so pyridine also contributes to molar_mass_inconsistent. Of the two identical printed masses only the DBU one can be right. Product: tembotrione is 440.82 g/mol, so 1mol of 化合物II at the printed 80.1 percent should give 0.801 x 440.82 = 353.1g, while the text prints 332.9g. Read the other way, 332.9/440.82 = 0.7552mol, that is 75.52 percent and not 80.1 percent, and 332.9/0.801 implies 415.6 g/mol for a compound that is 440.82. Taking the printed 94.6 percent purity into account moves them further apart still: 332.9 x 0.946 = 314.9g of tembotrione, 71.44 percent. The printed mass, yield and purity therefore cannot all hold at once, so mass_balance_implausible is raised and nothing is changed. Separately, the charge does not carry over: step a states 93 percent on 1.0mol, that is 0.93mol available, while this step charges 1mol of that same material, a deficit of 0.07mol, so scale_discontinuity is raised. Note that neither the printed reagent mole ratio nor the temperature enters this arithmetic; the temperature as printed, -10-8℃, is ambiguous between minus ten to eight degrees and minus ten to minus eight degrees, and is deliberately left unresolved in the record.",
+    "drawing_evidence": "None. Lines 161 to 168 contain no [IMAGE_EXTRACT] span, so nothing in a drawing corroborates the 化合物II to 化合物IV connectivity; it rests on the prose phrase 上述反应所得的化合物II and on the product identifier. No drawing flag is raised."
+  },
+  {
+    "reaction_id": "Example 5_Step a",
+    "source_lines": [
+      173,
+      178
+    ],
+    "quote_zh": "步骤a:取1.1mol(134.2g)三氟乙醇钠,1.2mol(28.8g)氢氧化锂,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中，然后30℃保温5小时后，将反应液中的N，N-二甲基甲酰胺减压蒸除后，将残液加入300mL水中，用35％的盐酸调pH至弱酸性，冷却结晶，过滤，水洗，干燥得化合物II，称重得318.3g，收率92％。",
+    "arithmetic_check": "Printed mass/mole pairs, each divided out: sodium trifluoroethoxide 134.2/1.1 = 122.0 against C2H2F3ONa 122.02, closes. Lithium hydroxide 28.8/1.2 = 24.0 against LiOH 23.95, closes. Methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate 318/1.0 = 318.0 against C10H10BrClO4S 341.6, a shortfall of 23.6, so molar_mass_inconsistent is raised on this step. Product: 318.3 g stated at 92% yield on 1.0 mol input implies a molar mass of 318.3/0.92 = 345.98 for 化合物II. That cannot be tested, because the section never states what 化合物II is, so no mass_balance_implausible is raised; a guard must not pass on absence, so the failure to check is recorded here rather than converted into either a pass or a flag. For reference only, and not asserted: the ether of compound I with the ester hydrolysed to the acid would be near 346.7, which is close to the implied value, but the patent never says compound II is that.",
+    "drawing_evidence": "None. Lines 169-181 contain no IMAGE_EXTRACT span, so there is no scheme and no single-structure extract to corroborate the step boundary, the reagents or the product. Step boundaries come from the 步骤a / 步骤b markers in the prose alone. No drawing flag is applicable."
+  },
+  {
+    "reaction_id": "Example 5_Step b",
+    "source_lines": [
+      180,
+      180
+    ],
+    "quote_zh": "步骤b：取1mol上述反应所得的化合物II，溶解在1000mL的环己烷中，然后在20-30℃温度条件下，半小时内加入含1.1mol(106.7g)1，3-环己二酮(化合物III)和1.8mol(291.6g)缩合剂CDI以及5mol(690g)碳酸钾，再在20-30℃温度条件下搅拌反应15小时，然后经过水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)355.5g，纯度96.3％，收率83.9％。",
+    "arithmetic_check": "Printed mass/mole pairs: 1,3-cyclohexanedione 106.7/1.1 = 97.0 against C6H8O2 112.13, a shortfall of 15.1, so molar_mass_inconsistent is raised. CDI 291.6/1.8 = 162.0 against C7H6N4O 162.15, closes. Potassium carbonate 690/5 = 138.0 against K2CO3 138.2, closes. Product: input is 1 mol of compound II, product tembotrione C17H16ClF3O6S is 440.82. At the printed 83.9% yield the mass should be 0.839 x 440.82 = 369.85 g, whereas 355.5 g is printed, so the two disagree by 14.35 g. Read the other way, 355.5/440.82 = 0.8065 mol, that is 80.65% on 1 mol, and the printed mass and yield together imply a molar mass of 355.5/0.839 = 423.72. Applying the printed 96.3% purity gives 342.35 g of tembotrione, that is 77.66%, which moves further from 83.9%. The stated mass and the stated yield therefore do not close, so mass_balance_implausible is raised and both numbers are recorded as printed. The product mass does not exceed what 1 mol could give (355.5 < 440.82), so that half of the check passes.",
+    "drawing_evidence": "None. No IMAGE_EXTRACT span on line 180 or anywhere in 169-181. Product identity rests on the prose name 成品环磺酮(化合物IV) alone, with no drawn structure to cross-check, and no drawing flag is applicable."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Step 1",
+    "source_lines": [
+      95,
+      96,
+      105,
+      106,
+      107,
+      108,
+      112,
+      113,
+      114,
+      115,
+      124,
+      125,
+      126,
+      127
+    ],
+    "quote_zh": "步骤a：以2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯（化合物I）与三氟乙醇钠为反应底物，加入MOH或M2CO3，在反应溶剂中进行反应，获得2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸（化合物II），具体化学反应式如下式（1）所示：  (conditions and stoichiometry from the qualifying paragraphs: line 105 [0011] 其中，所述步骤a中，M为Li、Na、K离子中的一种。 / line 107 [0012] 进一步地，所述步骤a中，三氟乙醇钠与化合物I的摩尔比为1.1-1.2:1。 / line 112 [0013] 进一步地，所述步骤a中，MOH/M2CO3与化合物I的摩尔比为1-1.5:1。 / line 114 [0014] 进一步地，所述步骤a中，反应温度为0-5℃，反应时间为2-10小时。 / line 124 [0019] 进一步地，所述步骤a或/和步骤b中，反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种。 / line 126 [0020] 进一步地，所述反应溶剂与化合物I或化合物II的重量比为2-8:1。)",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, purity or yield figure is stated for this step or anywhere in this section. Every quantitative statement is a range: molar ratios 1.1-1.2:1 and 1-1.5:1, a solvent weight ratio 2-8:1, 0-5 C, 2-10 h. A range is not a charge, so no mass balance, no molar-mass check and no yield check is possible, and neither mass_balance_implausible nor molar_mass_inconsistent can be assessed. What can be checked is the formula bookkeeping of the transformation, and it supports the two-fold change recorded as one_pot: compound I is C10H10BrClO4S and compound II is C11H10ClF3O5S, so the step both replaces Br by OCH2CF3 and converts CO2CH3 to CO2H. Note for A5: the worked examples, not this section, are where the arithmetic of this route can actually be tested.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 98, step_id 1. Agrees with the prose on substrate, arrow reagent and product. The span is INCOMPLETE, and this is the point A5 should check against the page image: it lists only one reactant and only the condition MOH/M2CO3. The p04 vision read of the same drawing lists five structures, compound I, the written formula CF3CH2ONa, compound II, and the written formulae CH3OH and NaBr, with MOH/M2CO3 above the arrow and nothing below it. Sodium trifluoroethoxide is therefore drawn and only the machine span omits it, so no reagent_written_not_drawn and no drawing_text_conflict is raised for this step."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Step 2",
+    "source_lines": [
+      100,
+      101,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    "quote_zh": "步骤b：以步骤a的化合物II与1,3-环己二酮（化合物III）为反应底物，在缩合剂和碱催化剂的作用下，在反应溶剂中进行缩合反应，获得环磺酮（化合物IV），具体化学反应式如下式（2）所示：  (conditions and stoichiometry from the qualifying paragraphs: line 116 [0015] 进一步地，所述步骤b中，化合物III与化合物II的摩尔比为1-1.3:1；所述碱催化剂与化合物II的摩尔比为1-3:1；所述缩合剂与化合物II的摩尔比为1-2:1。 / line 118 [0016] 进一步地，所述步骤b中，碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种。 / line 120 [0017] 进一步地，所述步骤b中，缩合剂选自CDI、HBTU、HOBT、DBU中的一种或多种，其中，CDI为N,N’-羰基二咪唑，HBTU为O-苯并三氮唑-四甲基脲六氟磷酸酯，HOBT为1-羟基苯并三唑，DBU为1,8-二氮杂二环十一碳-7-烯。 / line 122 [0018] 进一步地，所述步骤b中，缩合反应的温度为-10-30℃，反应时间为0.5-12h。 / line 124 [0019] 进一步地，所述步骤a或/和步骤b中，反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种。 / line 126 [0020] 进一步地，所述反应溶剂与化合物I或化合物II的重量比为2-8:1。)",
+    "arithmetic_check": "Nothing to close, for the same reason: the only quantitative statements are the ranges 1-1.3:1, 1-3:1, 1-2:1, 2-8:1, -10 to 30 C and 0.5-12 h. No charge, no mass, no yield, so no mass balance and no molar-mass check is possible. The formula bookkeeping does close and is worth recording: compound II C11H10ClF3O5S plus 1,3-cyclohexanedione C6H8O2 gives C17H16ClF3O6S plus H2O, balanced on both sides, and C17H16ClF3O6S with molecular weight 440.82 is tembotrione. This is the one arithmetic in the section that can be verified, and it verifies.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 103, step_id 1 (each scheme span numbers its arrows from 1 independently). Reactants C11H10ClF3O5S and C6H8O2, two arrow conditions given as the condensing agent and the base catalyst, product C17H16ClF3O6S. Agrees with the prose on every term and at the same generic granularity for the two reagents. The p04 vision read adds that the condensing agent is written above the arrow and the base catalyst below it, that H2O is written as a by-product, and that product IV is drawn as the 2-aroyl-1,3-dione keto form with no enol tautomer, at medium confidence because the C2 attachment point is not crisply resolved in the scan. Agrees."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step 1",
+    "source_lines": [
+      95,
+      96,
+      98
+    ],
+    "quote_zh": "No Chinese on the arrow: MOH/M2CO3 is written above it and nothing below it. Introduced by the step sentence at line 95, 具体化学反应式如下式（1）所示： Equation number (1) is printed at the right margin, and faint roman-numeral labels reading I and II are printed under the reactant and the product.",
+    "arithmetic_check": "No arithmetic exists on the arrow: overview scheme, no charges, equivalents, times or yields, which is why no_conditions is raised. The atom balance of the drawn equation can be checked and does not close: C10H10BrClO4S plus CF3CH2ONa on the left, C11H10ClF3O5S plus CH3OH plus NaBr on the right, leaving the left side two hydrogens and one oxygen short. It closes only if the water or hydroxide implied by MOH is consumed, which the drawing does not write. Recorded as printed, unrepaired, and no flag raised: no flag in the closed list covers an unbalanced drawn equation, and the two mass-related flags need stated masses or moles, of which this section has none. A5 should confirm this reading against the page image.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 98 is the source of the record but is an incomplete read of the drawing: one reactant, one condition, one product. The p04 vision read of the same drawing gives five structures and names the second as the written formula CF3CH2ONa and the fourth and fifth as CH3OH and NaBr. This record follows the page, not the span. Attribution: p04 marks the drawing presented_as invention_route and the prose introduces it as the specific equation of step a of the invention, so route_attribution_unclear is not raised. Agrees with prose Step 1."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step 2",
+    "source_lines": [
+      100,
+      101,
+      103
+    ],
+    "quote_zh": "Two Chinese labels on the arrow, 缩合剂 above the line and 碱催化剂 below it. Introduced by the step sentence at line 100, 具体化学反应式如下式（2）所示： Equation number (2) is printed at the right margin and the structures are labelled II, III and IV.",
+    "arithmetic_check": "No arithmetic on the arrow: overview scheme, no charges, equivalents, times or yields, hence no_conditions. The atom balance of the drawn equation closes exactly: C11H10ClF3O5S plus C6H8O2 to C17H16ClF3O6S plus H2O, C17H18ClF3O7S on both sides. The drawn product formula is that of tembotrione, C17H16ClF3O6S, molecular weight 440.82.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 103, and here the span and the page agree: two reactants, two arrow conditions, one product, with the vision read adding the above and below arrow positions of the two reagents and the H2O by-product. Connectivity to Scheme Step 1 is established by the drawing itself: the product SMILES and InChIKey of the line 98 span are identical to the first reactant here. Attribution: p04 marks it presented_as invention_route and the prose introduces it as the specific equation of step b of the invention. Agrees with prose Step 2."
+  }
+]

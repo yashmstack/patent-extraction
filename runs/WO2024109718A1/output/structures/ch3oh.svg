@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<svg version='1.1' baseProfile='full'
+              xmlns='http://www.w3.org/2000/svg'
+                      xmlns:rdkit='http://www.rdkit.org/xml'
+                      xmlns:xlink='http://www.w3.org/1999/xlink'
+                  xml:space='preserve'
+width='320px' height='240px' viewBox='0 0 320 240'>
+<!-- END OF HEADER -->
+<path class='bond-0 atom-0 atom-1' d='M 43.8,119.5 L 216.5,119.5' style='fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2.0px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1' />
+<path class='atom-1' d='M 222.8 119.6
+Q 222.8 112.8, 226.2 109.0
+Q 229.5 105.2, 235.8 105.2
+Q 242.1 105.2, 245.5 109.0
+Q 248.8 112.8, 248.8 119.6
+Q 248.8 126.4, 245.4 130.4
+Q 242.0 134.2, 235.8 134.2
+Q 229.6 134.2, 226.2 130.4
+Q 222.8 126.5, 222.8 119.6
+M 235.8 131.0
+Q 240.1 131.0, 242.5 128.2
+Q 244.8 125.2, 244.8 119.6
+Q 244.8 114.0, 242.5 111.2
+Q 240.1 108.4, 235.8 108.4
+Q 231.5 108.4, 229.1 111.2
+Q 226.8 114.0, 226.8 119.6
+Q 226.8 125.3, 229.1 128.2
+Q 231.5 131.0, 235.8 131.0
+' fill='#000000'/>
+<path class='atom-1' d='M 253.2 105.5
+L 257.1 105.5
+L 257.1 117.5
+L 271.6 117.5
+L 271.6 105.5
+L 275.4 105.5
+L 275.4 133.8
+L 271.6 133.8
+L 271.6 120.7
+L 257.1 120.7
+L 257.1 133.8
+L 253.2 133.8
+L 253.2 105.5
+' fill='#000000'/>
+</svg>

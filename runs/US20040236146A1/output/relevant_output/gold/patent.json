@@ -1,0 +1,226 @@
+{
+  "patent_id": "US20040236146A1",
+  "patent_uuid": "7901ea97-baff-5fa6-b39f-83343b4ba5d5",
+  "title": "Method for producing 3-bromomethylbenzoic acids",
+  "abstract": "A process is described for preparing 3-bromomethylbenzoic acids of the formula II by brominating the corresponding 3-methylbenzoic acids. In addition, compounds of the formula II are described where R1 is fluorine chlorine or bromine, and R2 is (C1-C4)alkyl.",
+  "language": "en",
+  "bibliographic": {
+    "publication_date": "2004-11-25",
+    "priority_date": "2001-09-11",
+    "filing_date": "2002-08-29",
+    "grant_date": null,
+    "jurisdiction": "us",
+    "patent_type": null,
+    "legal_status": "Abandoned",
+    "family_id": "7698422",
+    "ipc_codes": [
+      "C07C 315/04",
+      "C07C 317/44"
+    ],
+    "cpc_codes": null
+  },
+  "parties": {
+    "assignees": [
+      {
+        "name": "Bayer CropScience AG",
+        "country": "DE",
+        "type": "multinational_corp"
+      }
+    ],
+    "inventors": [
+      {
+        "name": "Hansjorg Lehmann",
+        "country": "DE"
+      }
+    ],
+    "examiners": null
+  },
+  "patent_summary": "The document discloses a process for preparing 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids by side chain bromination of the corresponding 2-halo-3-methyl-4-alkylsulfonylbenzoic acids, either with N-bromosuccinimide in the presence of a radical initiator such as azoisobutyronitrile or dibenzoyl peroxide, or with elemental bromine under irradiation from a photolamp. The bromination is run in an inert solvent such as chlorobenzene, acetonitrile or methylene chloride, the product acid is filtered off after cooling, washed and where necessary recrystallized from ethyl acetate or butyl acetate, and the document further claims the 3-bromomethylbenzoic acids of formula II themselves, excluding 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid.",
+  "novelty_claims": "[0002] positions the invention against two prior-art routes: WO 99/06339, whose bromination of methyl aromatics requires \"an additional oxidizing agent\" alongside the azo initiator and gives yields that are \"not always satisfactory\", and EP-A 0 292 944, which reaches the free acid only indirectly, by radical bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride followed by hydrolysis of the ester. Against those objections, [0003] states that the 2-halo-3-methyl-4-alkylsulfonylbenzoic acid can be brominated directly, without going through the ester, \"in very good yields and in very high purities\", and [0013] adds \"the use of less toxic solvents and the particularly simple workup of the end products\"; claim 6 accordingly recites only N-bromosuccinimide \"in the presence of a radical initiator\", with no oxidizing agent, and claim 13 recites the alternative \"elemental bromine and irradiation with a photolamp\". The patent positions both a process and a compound genus as new: claim 19 claims compounds of formula II where R1 is fluorine, chlorine or bromine and R2 is (C1-C4)alkyl, \"excluding 3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid\", which [0020] concedes is already disclosed by EP-A 0 292 944, and claim 20 narrows that genus to R1 chlorine and R2 (C2)alkyl.",
+  "key_examples": [],
+  "extraction_rollup": {
+    "reaction_count": 13,
+    "compound_count": 44,
+    "pathway_count": 13,
+    "section_summary": {
+      "abstract": 1,
+      "background": 3,
+      "claims": 2,
+      "experimental_example": 3,
+      "summary_of_invention": 4
+    },
+    "target_compounds": [
+      {
+        "identifier": "3-bromomethylbenzoic acids of the formula II",
+        "smiles": null,
+        "compound_uuid": "aee5a9fb-d48b-54b2-873d-f2a00305b041"
+      },
+      {
+        "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+        "smiles": null,
+        "compound_uuid": "6cefd733-183d-5040-a607-711210f2f000"
+      },
+      {
+        "identifier": "3-bromomethylbenzoic acid of formula II",
+        "smiles": null,
+        "compound_uuid": "35d44f28-543a-5568-ac7f-720a6a642711"
+      },
+      {
+        "identifier": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+        "smiles": null,
+        "compound_uuid": "5ad303a9-19b7-5e0a-a3a4-5af8eb900430"
+      },
+      {
+        "identifier": "compound of the formula II",
+        "smiles": null,
+        "compound_uuid": "4835b3b4-5fcd-5672-88d2-2b2bd2da967c"
+      },
+      {
+        "identifier": "3-bromomethylbenzoic acids",
+        "smiles": null,
+        "compound_uuid": "412c27a0-78fc-56b5-8021-f02a45a4b76c"
+      }
+    ],
+    "key_starting_materials": [
+      {
+        "identifier": "3-methylbenzoic acids",
+        "smiles": null,
+        "compound_uuid": "285bea21-4e84-539a-af36-e744a3e52a3f"
+      },
+      {
+        "identifier": "3-methylbenzoic acid of formula I",
+        "smiles": null,
+        "compound_uuid": "a2bc58c1-2590-50e5-9603-c93662eb50af"
+      },
+      {
+        "identifier": "2-chloro-3-methyl-4-methylsulfonylbenzoic acid",
+        "smiles": null,
+        "compound_uuid": "5a7c8c36-88fd-578b-868f-5b3cdaa8652d"
+      },
+      {
+        "identifier": "2-chloro-3-methyl-4-ethylsulfonylbenzoic acid",
+        "smiles": null,
+        "compound_uuid": "a4f21145-4b06-54ab-afd4-7b2cf185fa73"
+      },
+      {
+        "identifier": "compound of the formula I",
+        "smiles": null,
+        "compound_uuid": "a2c82761-27dc-5804-90d9-33a1668df08e"
+      },
+      {
+        "identifier": "2-halo-3-methyl4-alkylsulfonylbenzoic acids",
+        "smiles": null,
+        "compound_uuid": "ab132859-0d58-54fd-b573-073f74080691"
+      },
+      {
+        "identifier": "3-methylbenzoic acids of the formula I",
+        "smiles": null,
+        "compound_uuid": "43e46162-63b6-50b9-ad87-382f8485b2e2"
+      }
+    ],
+    "chemistry_focus": [
+      "halogenation",
+      "hydrolysis"
+    ],
+    "best_overall_yield_pct": 95.6,
+    "best_overall_yield_pathway_uuid": "c8811f4a-64e6-57d3-a2dd-d05313e6c4e8",
+    "scale_distribution": {
+      "not_specified": 10,
+      "pilot": 1,
+      "lab": 2
+    }
+  },
+  "tags": [
+    "domain:agrochemical",
+    "target_class:intermediate",
+    "claim_type:process",
+    "claim_type:composition",
+    "novelty:new_process",
+    "novelty:new_compound",
+    "novelty:improved_yield",
+    "novelty:improved_purity",
+    "process_focus:batch",
+    "process_focus:photochemistry",
+    "process_focus:green_chemistry",
+    "jurisdiction:us",
+    "patent_family:7698422",
+    "time_period:2004",
+    "assignee:bayer_cropscience_ag",
+    "assignee_type:multinational_corp",
+    "compound_class:other",
+    "chemical_family:benzoic_acid",
+    "functional_group:carboxylic_acid",
+    "functional_group:halide_bromo",
+    "compound_class:intermediate",
+    "compound_class:starting_material",
+    "chemical_family:benzyl_halide",
+    "compound_class:reagent",
+    "chemical_family:azo_compound",
+    "functional_group:ester",
+    "functional_group:azo",
+    "functional_group:nitrile",
+    "chemical_family:benzoate_ester",
+    "functional_group:sulfone",
+    "functional_group:halide_chloro",
+    "compound_class:solvent",
+    "hazard:toxic",
+    "chemical_family:halogenated_hydrocarbon",
+    "chemical_family:succinimide",
+    "functional_group:imide",
+    "chemical_family:imide",
+    "chemical_family:azonitrile",
+    "chemical_family:diaroyl_peroxide",
+    "functional_group:peroxide",
+    "hazard:peroxide_former",
+    "chemical_family:halogenated_aromatic",
+    "chemical_family:benzene",
+    "chemical_family:nitrile",
+    "hazard:corrosive",
+    "chemical_family:chloroalkane",
+    "compound_class:workup_agent",
+    "functional_group:ether",
+    "transformation:bromination",
+    "mechanism:not_determinable",
+    "scale:not_specified",
+    "workup_type:none",
+    "purification:none",
+    "step_role:final_step",
+    "linkage:standalone",
+    "is_one_pot:false",
+    "mechanism:radical",
+    "solvent_class:halogenated",
+    "step_role:first_step",
+    "transformation:hydrolysis",
+    "mechanism:ionic",
+    "linkage:precursor_linked",
+    "named_rxn:wohl_ziegler_bromination",
+    "solvent_class:aprotic_polar",
+    "catalyst_class:none",
+    "mechanism:photochemical",
+    "analytics:hplc",
+    "analytics:melting_point",
+    "scale:pilot",
+    "workup_type:filtration",
+    "scale:lab",
+    "solvent_class:aqueous",
+    "workup_type:aqueous_extraction",
+    "purification:trituration",
+    "analytics:tlc",
+    "purification:recrystallisation",
+    "green_chemistry:less_toxic_solvents",
+    "chain_length:1",
+    "branching:linear",
+    "convergence:linear",
+    "lcl:short",
+    "chain_length:2"
+  ],
+  "source_refs": {
+    "patent_summary_doc_id": null,
+    "blob_root": "manual_annotations/output",
+    "extracted_at": null,
+    "extractor_commit_sha": null
+  },
+  "honest_uncertainty_flags": [
+    "key_examples_not_referenced"
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "identifier": "式(III)化合物",
+    "source_lines": [464, 466, 468, 470, 472, 474],
+    "quote_zh": "得到式(III)化合物。熔点148-150℃。"
+  },
+  {
+    "identifier": "式(II)化合物",
+    "source_lines": [466, 468, 470],
+    "quote_zh": "将式(II)化合物84g"
+  },
+  {
+    "identifier": "benzoyl peroxide",
+    "source_lines": [468, 470],
+    "quote_zh": "过氧化苯甲酰3.58g"
+  },
+  {
+    "identifier": "1,2-dichloroethane",
+    "source_lines": [468],
+    "quote_zh": "1,2-二氯乙烷500mL"
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [468],
+    "quote_zh": "滴加溴素52.8g"
+  },
+  {
+    "identifier": "sodium hydroxide",
+    "source_lines": [468],
+    "quote_zh": "用50mL32％的NaOH水溶液淬灭反应"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [468],
+    "quote_zh": "50mL水洗两次"
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [470],
+    "quote_zh": "N-溴代丁二酰亚胺64.1g"
+  },
+  {
+    "identifier": "carbon tetrachloride",
+    "source_lines": [470],
+    "quote_zh": "四氯化碳500mL"
+  },
+  {
+    "identifier": "ethanol",
+    "source_lines": [470],
+    "quote_zh": "残余物用150mL乙醇重结晶"
+  },
+  {
+    "identifier": "溴代试剂",
+    "source_lines": [466],
+    "quote_zh": "溴代试剂"
+  }
+]

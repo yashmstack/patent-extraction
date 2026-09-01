@@ -1,0 +1,333 @@
+[
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "2-chloro-3-methyl-4-ethylsulfonylbenzoic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "2-chloro-3-methyl-4-sulfonylethylbenzoic acid"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 2",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 20.0,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:benzoic_acid",
+      "functional_group:sulfone",
+      "functional_group:carboxylic_acid",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Substrate, charged at 20 g. Printed at line 140 as 2-chloro-3-methyl-4-sulfonylethylbenzoic acid, with the sulfone written backwards, and that as-printed form is carried in aliases. sulfonylethyl names a divalent linker and cannot be a terminal ring substituent, so it is a transposition of ethylsulfonyl. The patent settles this itself: the Example 2 title at lines 136 to 138 prints the ethylsulfonyl order, and the printed charge, product mass, purity and yield close only for the ethylsulfonyl substrate. The EN line at 141 prints 2-chloro-3-methyl-4-(ethylsulfonyl)benzoic acid, but that is the vision pass silently repairing the name rather than a form the document prints, so it is not carried as an alias. The text states no source for this compound and no step of this patent prepares it."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "acetonitrile",
+    "identifier_type": "iupac",
+    "aliases": [],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 2",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 150.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:nitrile"
+    ],
+    "notes": "Suspension and reaction medium, 150 ml, heated to reflux."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "N-bromosuccinimide",
+    "identifier_type": "iupac",
+    "aliases": [],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 2",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": 17.6,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:succinimide",
+      "functional_group:imide"
+    ],
+    "notes": "Brominating agent, charged once at 17.6 g with the first portion of initiator. Printed correctly here at line 140; the misprint N-bromosuccimide the patent uses at lines 69 and 154 is not on the lines of this section."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "dibenzoyl peroxide",
+    "identifier_type": "trivial_name",
+    "aliases": [],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 2",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": 0.7,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:diaroyl_peroxide",
+      "functional_group:peroxide",
+      "hazard:peroxide_former"
+    ],
+    "notes": "Radical initiator, charged four times at line 140: 0.7 g at room temperature with the N-bromosuccinimide, then 3 further portions of the same size at 1 h intervals. Merged into one record per rule 4. quantity.mass_g holds 0.7 g, the charge the text states, because rule 12 populates quantity from the text only and never computes, and the patent prints no total. The field therefore holds one charge where the patent makes four, so the amount actually used is not recoverable from mass_g alone; that is a limitation of a schema with one quantity per compound, and it is named here rather than hidden behind a sum the document never prints. Role is reagent, not catalyst: the closed role list has no initiator value, rule 9 defines catalyst as present sub-stoichiometrically and not consumed, and this procedure is itself the evidence that it is consumed, since it has to be replenished three times through one reaction. reagent, transforms the substrate but is not the carbon skeleton source, is the closest value the list holds."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "sodium bisulfite",
+    "identifier_type": "trivial_name",
+    "aliases": [],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 2",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 100.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:workup_agent"
+    ],
+    "notes": "Reductive quench, added to the cooled reaction mixture. The text charges 100 ml of a 2% sodium bisulfite solution, so volume_ml is a volume of solution and not a mass of the salt; no mass of sodium bisulfite is stated anywhere in the section and none is computed. The solvent of that solution is not named, so no water record is emitted."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "ethyl acetate",
+    "identifier_type": "iupac",
+    "aliases": [],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 2",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 300.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:ester"
+    ],
+    "notes": "Extraction solvent, 300 ml added after the quench; the organic phase is then removed, washed and concentrated. The wash medium is not named, so nothing is recorded for it."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "diethyl ether",
+    "identifier_type": "iupac",
+    "aliases": [],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 2",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 50.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:ether"
+    ],
+    "notes": "First of the two solvents the solid residue is suspended in before filtration, 50 ml."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "heptane",
+    "identifier_type": "iupac",
+    "aliases": [],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 2",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 20.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Second of the two solvents the solid residue is suspended in before filtration, 20 ml. Printed without an isomer locant, so no n- is added."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 2",
+    "section_type": "experimental_example",
+    "is_section_product": true,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": 28.2,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": 95.6
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": {
+      "min_c": 103.0,
+      "max_c": 103.0,
+      "range_text": "Melting point: 103° C.",
+      "decomposition": null
+    },
+    "appearance": null,
+    "color": null,
+    "physical_form": "solid",
+    "analytics": [
+      {
+        "method": "hplc",
+        "value": null,
+        "unit": null,
+        "conditions": "in-process check 2 h after the last initiator portion",
+        "raw_text": "HPLC analysis indicated complete conversion"
+      }
+    ],
+    "purity_pct": 88.0,
+    "purity_method": "hplc",
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoic_acid",
+      "functional_group:sulfone",
+      "functional_group:carboxylic_acid",
+      "functional_group:halide_bromo",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Isolated product of Process Variant A) and the product of the section, the only procedure Example 2 runs. Printed correctly at line 140, so there is no misprint to carry. The centred title is set across three printed lines: line 136 prints Preparation of, line 137 prints 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic on its own, and line 138 prints Acid on its own. The bare stem on line 137 is carried in aliases. It is the first line of this compound's own title, broken by the page, and not a second substance, so no separate record is emitted for it. It is recorded here because without it a line-level sweep cannot tell a name the page split from a name the annotation missed. The EN line at 139 rejoins the three into one title, which is a reading of the page and not a form the page prints, so it is not carried as an alias. physical_form is taken from the solid residue that is filtered off and dried; no colour or appearance is stated. Purity 88% (HPLC) and melting point 103 C come from [0034] at line 142. Arithmetic checks: the printed 95.6% of theory reproduces, to within rounding, from the printed 20 g charge, the printed 28.2 g isolated and the printed 88% purity, but only once the purity is applied, so the printed yield appears to be purity-corrected and nothing is raised. The working itself, with formulae and weights, is in the arithmetic_check of the A2 provenance sidecar, which is where it belongs; it is not carried here, because notes may hold only numbers the document prints. No structure is drawn for this compound: the two IMAGE_EXTRACT spans filed in this section, at lines 144 and 146, are the Markush formulae of claim 6 and carry no molecules, so no SMILES reached this record."
+  }
+]

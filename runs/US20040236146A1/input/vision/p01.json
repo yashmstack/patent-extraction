@@ -1,0 +1,176 @@
+{
+  "page": "p01.png",
+  "page_label": "US 20040236146A1",
+  "doc_part": "front_page",
+  "header": "US 20040236146A1",
+  "footer": null,
+  "paragraphs": [
+    {
+      "marker": "(19)",
+      "zh": "United States",
+      "en": "United States",
+      "notes": "Printed in large bold serif at the top left of the body, immediately under the barcode block."
+    },
+    {
+      "marker": "(12)",
+      "zh": "Patent Application Publication",
+      "en": "Patent Application Publication",
+      "notes": null
+    },
+    {
+      "marker": "(12) name line",
+      "zh": "Lehmann",
+      "en": "Lehmann",
+      "notes": "Printed on the line below (12) in the left column, above the horizontal rule. This is the running-head surname of the first named inventor, not a separately coded INID field; the marker string is descriptive, not an INID code printed on the page."
+    },
+    {
+      "marker": "(10)",
+      "zh": "Pub. No.: US 2004/0236146 A1",
+      "en": "Pub. No.: US 2004/0236146 A1",
+      "notes": "Printed with spaces and a slash as shown. The barcode caption at the top of the page prints the same number unspaced as US 20040236146A1."
+    },
+    {
+      "marker": "(43)",
+      "zh": "Pub. Date: Nov. 25, 2004",
+      "en": "Pub. Date: Nov. 25, 2004",
+      "notes": null
+    },
+    {
+      "marker": "(54)",
+      "zh": "METHOD FOR PRODUCING 3-BROMOMETHYLBENZOIC ACIDS",
+      "en": "METHOD FOR PRODUCING 3-BROMOMETHYLBENZOIC ACIDS",
+      "notes": "Printed in bold caps on two lines: 'METHOD FOR PRODUCING' then '3-BROMOMETHYLBENZOIC ACIDS'. Joined here with a single space; no hyphenation was introduced by the line break."
+    },
+    {
+      "marker": "(76)",
+      "zh": "Inventor: Hansjorg Lehmann, Wutoschingen (DE)",
+      "en": "Inventor: Hansjorg Lehmann, Wutoschingen (DE)",
+      "notes": "Printed on two lines, 'Hansjorg Lehmann, Wutoschingen' then '(DE)'. The surname and city are printed WITHOUT umlauts on the page; zoomed inspection of the glyphs confirms plain o in both 'Hansjorg' and 'Wutoschingen'. The German forms are Hansjoerg and Wuetoeschingen (o-umlaut); USPTO stripped the diacritics. Left as printed in both fields because the page is the authority; the German spelling is recorded here as a note only, not asserted."
+    },
+    {
+      "marker": "(76) correspondence",
+      "zh": "Correspondence Address: CONNOLLY BOVE LODGE & HUTZ, LLP P O BOX 2207 WILMINGTON, DE 19899 (US)",
+      "en": "Correspondence Address: CONNOLLY BOVE LODGE & HUTZ, LLP, P O BOX 2207, WILMINGTON, DE 19899 (US)",
+      "notes": "Printed as four lines under the (76) block with no INID code of its own; the marker string is descriptive. Line breaks: 'Correspondence Address:' / 'CONNOLLY BOVE LODGE & HUTZ, LLP' / 'P O BOX 2207' / 'WILMINGTON, DE 19899 (US)'. 'P O BOX' prints with spaces and no full stops. The en field adds commas at the line breaks for readability; nothing else changed."
+    },
+    {
+      "marker": "(21)",
+      "zh": "Appl. No.: 10/489,142",
+      "en": "Appl. No.: 10/489,142",
+      "notes": null
+    },
+    {
+      "marker": "(22)",
+      "zh": "PCT Filed: Aug. 29, 2002",
+      "en": "PCT Filed: Aug. 29, 2002",
+      "notes": null
+    },
+    {
+      "marker": "(86)",
+      "zh": "PCT No.: PCT/EP02/09630",
+      "en": "PCT No.: PCT/EP02/09630",
+      "notes": "No 371(c) date line is printed under (86) on this page. Recording the absence rather than leaving it unsaid."
+    },
+    {
+      "marker": "(30)",
+      "zh": "Foreign Application Priority Data",
+      "en": "Foreign Application Priority Data",
+      "notes": "Bold centred heading in the left column."
+    },
+    {
+      "marker": "(30) entry",
+      "zh": "Sep. 11, 2001 (DE)........................................ 101444125",
+      "en": "Sep. 11, 2001 (DE) 101444125",
+      "notes": "Read at 3x zoom. The application number prints as nine digits with NO internal spaces and NO decimal point: 1 0 1 4 4 4 1 2 5. A dot leader of full stops runs between '(DE)' and the number; the exact number of dots is not transcribed. German DE applications of this era are conventionally written '101 44 412.5', i.e. eight digits plus a check digit after a decimal point, which would make this DE 101 44 412.5. The page does not print it that way and this pass does not assert the reformatting; a downstream pass that needs the DE format must derive it and say so. Text layers commonly either lose the leading dots into the number or split the digits, so the printed nine-digit run is the reliable reading."
+    },
+    {
+      "marker": "Publication Classification",
+      "zh": "Publication Classification",
+      "en": "Publication Classification",
+      "notes": "Bold centred heading in the left column above (51). Not an INID code; the marker string is the heading as printed."
+    },
+    {
+      "marker": "(51)",
+      "zh": "Int. Cl.7 ................................................. C07C 315/04",
+      "en": "Int. Cl.7 C07C 315/04",
+      "notes": "The 7 after 'Int. Cl.' is a raised superscript on the page, denoting the 7th edition of the IPC. Written inline as '7' because this field is plain text. One class only, 'C07C' and '315/04' separated by a wide space. No '(2006.01)' style version annotation, which is consistent with a 2004 publication. Dot leader elided as above."
+    },
+    {
+      "marker": "(52)",
+      "zh": "U.S. Cl. ................................................. 562/429",
+      "en": "U.S. Cl. 562/429",
+      "notes": "Read at 3x zoom. Exactly one US class prints: 562/429, with a solid slash between class 562 and subclass 429. There is no second class, no semicolon list and no cross-reference class on the line. A text layer that runs the dot leader into the number can yield readings such as '.562/429' or '562/429' merged with the leader; the printed page settles it as the bare pair 562/429."
+    },
+    {
+      "marker": "(57)",
+      "zh": "ABSTRACT",
+      "en": "ABSTRACT",
+      "notes": "Bold centred heading in the right column."
+    },
+    {
+      "marker": "(57) abstract text, before formula",
+      "zh": "A process is described for preparing 3-bromomethylbenzoic acids of the formula II",
+      "en": "A process is described for preparing 3-bromomethylbenzoic acids of the formula II",
+      "notes": "First run of abstract prose, immediately above the drawn formula II. Sentence continues after the drawing."
+    },
+    {
+      "marker": "(57) abstract text, after formula",
+      "zh": "by brominating the corresponding 3-methylbenzoic acids.",
+      "en": "by brominating the corresponding 3-methylbenzoic acids.",
+      "notes": "Continuation of the sentence interrupted by the drawing. Read together: 'A process is described for preparing 3-bromomethylbenzoic acids of the formula II [formula] by brominating the corresponding 3-methylbenzoic acids.'"
+    },
+    {
+      "marker": "(57) abstract text, final paragraph",
+      "zh": "In addition, compounds of the formula II are described where R1 is fluorine chlorine or bromine, and R2 is (C1-C4)alkyl.",
+      "en": "In addition, compounds of the formula II are described where R1 is fluorine, chlorine or bromine, and R2 is (C1-C4)alkyl.",
+      "notes": "Read at 3x zoom. Three things settled by the printed page. (1) The alkyl range DOES print as (C1-C4): an opening parenthesis, C with subscript 1, a hyphen, C with subscript 4, a closing parenthesis, then 'alkyl'. It is broken across a line as '(C1-' / 'C4)alkyl.' with the hyphen at the end of the line; the hyphen is the range hyphen, not a hyphenation artifact, since '(C1-C4)alkyl' is the standard form and the closing parenthesis follows C4. (2) The R subscripts here are SUBSCRIPT numerals, R1 and R2, unlike the superscripts used in the drawing. (3) There is NO comma after 'fluorine': the page prints 'fluorine chlorine or bromine'. The en field inserts that comma because the list is plainly a three-member alternation and the missing comma is a printing slip; zh keeps it exactly as printed. Subscripts are written inline as plain digits in both fields because this field is plain text."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "structure",
+      "between_markers": ["(57) abstract text, before formula", "(57) abstract text, after formula"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st and only, right column, centred between the two runs of abstract prose, with the formula label (II) printed in the upper right of the drawing area",
+          "core": "benzene, drawn as a Kekule hexagon with three inner double-bond lines; the hexagon sits with one vertex at the top and one at the bottom, and the three inner lines run along the top-right edge, the left vertical edge and the bottom-right edge, so the alternation is complete and unambiguous",
+          "substituents": [
+            "COOH at C1 (written as the label HOOC on a bond going up-left from the upper-left ring vertex; the carbon of HOOC is the atom bonded to the ring)",
+            "R1 at C2 (superscript 1; on a vertical bond going straight up from the top vertex of the ring, which is adjacent to the HOOC vertex)",
+            "CH2Br at C3 (an unlabelled CH2 vertex on a bond going up-right from the upper-right ring vertex, then a bond down-right to the label Br; the CH2 carbon is drawn as a plain apex with no atom label, i.e. an implicit carbon)",
+            "SO2R2 at C4 (superscript 2 on R; on a bond going down-right from the lower-right ring vertex to the label SO2R2, with the 2 of SO2 subscript; this vertex is adjacent to the CH2Br vertex and para to the HOOC vertex)",
+            "H at C5 (bottom vertex, drawn bare, no substituent)",
+            "H at C6 (lower-left vertex, drawn bare, no substituent)"
+          ],
+          "name": null,
+          "smiles": null,
+          "confidence": "high"
+        }
+      ],
+      "arrows": [],
+      "notes": "Markush generic. Formula II carries two variable substituents, R1 and R2, so the drawing does not determine a single compound and both name and smiles are null by rule 7. Ring numbering above is assigned by taking the carbon bearing HOOC as C1 and walking clockwise, which is the direction that reaches R1 next; every position is read off the drawn adjacencies, not inferred from what the compound ought to be. Stated as adjacencies alone, and independent of any numbering choice: HOOC and R1 are on adjacent vertices; R1 and CH2Br are on adjacent vertices; CH2Br and SO2R2 are on adjacent vertices; HOOC and SO2R2 are on opposite (para) vertices; the two remaining vertices are unsubstituted. Confidence is high because the page is born-digital and the ring, its three inner lines and all four substituent bonds are crisp at 8x zoom. The abstract text supplies the definitions R1 = fluorine, chlorine or bromine and R2 = (C1-C4)alkyl; those come from the prose, not from the drawing, and are not recorded as drawn substituent values. The drawing writes the R indices as SUPERSCRIPTS (R with a raised 1, R with a raised 2) while the abstract prose writes them as SUBSCRIPTS; see discrepancies. The label (II) to the right of the structure is the formula number, printed in the same right column at the level of the top of the drawing."
+    }
+  ],
+  "discrepancies": [
+    {
+      "what": "The drawing and the abstract prose use different typography for the same two variable groups, superscript in the drawing and subscript in the text.",
+      "drawing_says": "R with a raised superscript 1 on the ring, and SO2R with a raised superscript 2",
+      "text_says": "R with a lowered subscript 1 and R with a lowered subscript 2, in 'where R1 is fluorine chlorine or bromine, and R2 is (C1-C4)alkyl'"
+    },
+    {
+      "what": "The abstract names formula II as a class of '3-bromomethylbenzoic acids', but the drawn ring bears two further substituents beyond the acid and the bromomethyl group, so the name is a partial description of the drawn structure rather than a full one.",
+      "drawing_says": "benzene bearing COOH at C1, R1 at C2, CH2Br at C3 and SO2R2 at C4, with C5 and C6 unsubstituted",
+      "text_says": "'3-bromomethylbenzoic acids of the formula II', and the title (54) 'METHOD FOR PRODUCING 3-BROMOMETHYLBENZOIC ACIDS'"
+    },
+    {
+      "what": "The starting material is named in the prose but is not drawn anywhere on this page, so there is no drawn scheme to check the bromination against.",
+      "drawing_says": "only the product formula II is drawn; no arrow, no reagent and no starting structure appear on the page",
+      "text_says": "'by brominating the corresponding 3-methylbenzoic acids'"
+    }
+  ],
+  "illegible": [
+    "The Code 39 barcode at the top of the page is not transcribed; its bars were not decoded. The human-readable caption printed directly beneath it is legible and reads 'US 20040236146A1'."
+  ],
+  "page_confidence": "high"
+}

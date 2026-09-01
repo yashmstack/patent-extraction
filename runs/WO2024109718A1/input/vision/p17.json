@@ -1,0 +1,563 @@
+{
+ "page": "p17.png",
+ "page_label": "16",
+ "doc_part": "description",
+ "header": "WO 2024/109718                                        PCT/CN2023/132821",
+ "footer": "",
+ "paragraphs": [
+  {
+   "marker": "[0103]",
+   "zh": "式中，溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素；CF3CH2OM为CF3CH2ONa或CF3CH2OK。",
+   "en": "In the formulae, the brominating agent is bromine, N-bromosuccinimide, or a combination of hydrogen bromide and hydrogen peroxide, preferably bromine; CF3CH2OM is CF3CH2ONa or CF3CH2OK.",
+   "notes": "Subscripts are printed as true subscripts in CF3CH2OM / CF3CH2ONa / CF3CH2OK; transcribed here as plain digits. The hyphen in N-溴代丁二酰亚胺 is printed as a half-width hyphen."
+  },
+  {
+   "marker": "[0104]",
+   "zh": "本发明再一方面提供上述式(I)～式(IV)化合物作为环磺酮制备中间体的用途。",
+   "en": "A further aspect of the present invention provides the use of the above compounds of formula (I) to formula (IV) as intermediates for the preparation of tembotrione.",
+   "notes": "环磺酮 is the Chinese common name of the herbicide tembotrione; translated as tembotrione."
+  },
+  {
+   "marker": "[0105]",
+   "zh": "实施例",
+   "en": "Examples",
+   "notes": null
+  },
+  {
+   "marker": "[0106]",
+   "zh": "实施例1 式(VI)化合物的制备",
+   "en": "Example 1  Preparation of the compound of formula (VI)",
+   "notes": null
+  },
+  {
+   "marker": "[0107]",
+   "zh": "在20℃下将5.1％盐酸1165g加入到四口瓶中，滴加3-氯-2-甲基苯胺100g，滴加完毕后，在0℃进一步滴加20％NaNO2水溶液251.41g，滴加过程中控温不超",
+   "en": "At 20 degrees C, 1165 g of 5.1% hydrochloric acid was charged into a four-necked flask, and 100 g of 3-chloro-2-methylaniline was added dropwise. After the addition was complete, 251.41 g of 20% aqueous NaNO2 solution was further added dropwise at 0 degrees C, the temperature being controlled during the addition so as not to exceed",
+   "notes": "Paragraph is cut off at the page break; the sentence continues on the next page. The 2 of NaNO2 is printed as a subscript."
+  }
+ ],
+ "drawings": [
+  {
+   "kind": "scheme",
+   "between_markers": [
+    null,
+    "[0103]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, row 1 leftmost",
+     "core": "benzene",
+     "substituents": [
+      "NH2 at C1",
+      "CH3 at C2",
+      "Cl at C3"
+     ],
+     "name": "3-chloro-2-methylaniline",
+     "smiles": "Cc1c(Cl)cccc1N",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, row 1",
+     "core": "benzene",
+     "substituents": [
+      "SCH3 at C1",
+      "CH3 at C2",
+      "Cl at C3"
+     ],
+     "name": "(3-chloro-2-methylphenyl)(methyl)sulfane",
+     "smiles": "Cc1c(Cl)cccc1SC",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "3rd, row 1",
+     "core": "benzene",
+     "substituents": [
+      "SCH3 at C1",
+      "CH3 at C2",
+      "Cl at C3",
+      "Br at C4"
+     ],
+     "name": "(4-bromo-3-chloro-2-methylphenyl)(methyl)sulfane",
+     "smiles": "Cc1c(Cl)c(Br)ccc1SC",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "4th, row 1 rightmost",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1",
+      "CH3 at C2",
+      "Cl at C3",
+      "Br at C4"
+     ],
+     "name": "4-bromo-3-chloro-2-methyl-1-(methylsulfonyl)benzene",
+     "smiles": "Cc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "5th, row 2 leftmost",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1",
+      "CH2Br at C2",
+      "Cl at C3",
+      "Br at C4"
+     ],
+     "name": "1-bromo-2-(bromomethyl)-3-... (benzylic bromide of the preceding compound)",
+     "smiles": "BrCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "6th, row 2",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1",
+      "CH2OCH2CF3 at C2",
+      "Cl at C3",
+      "Br at C4"
+     ],
+     "name": null,
+     "smiles": "FC(F)(F)COCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "7th, row 2 rightmost",
+     "core": "benzene",
+     "substituents": [
+      "COOH at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+     "smiles": "FC(F)(F)COCc1c(Cl)c(C(=O)O)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "8th, row 3 leftmost",
+     "core": "benzene",
+     "substituents": [
+      "COCl at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+     "smiles": "FC(F)(F)COCc1c(Cl)c(C(=O)Cl)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "9th, drawn above the second arrow of row 3 as a reagent structure",
+     "core": "cyclohexane-1,3-dione",
+     "substituents": [],
+     "name": "cyclohexane-1,3-dione",
+     "smiles": "O=C1CCCC(=O)C1",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "10th, row 3 right",
+     "core": "3-oxocyclohex-1-en-1-yl ester of a benzoic acid",
+     "substituents": [
+      "ester O at C1 of the benzene ring",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4",
+      "ketone at C3 of the cyclohexenyl ring, ester oxygen at its C1"
+     ],
+     "name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+     "smiles": "O=C(OC1=CC(=O)CCC1)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "11th, row 4, sole structure (final product)",
+     "core": "cyclohexane-1,3-dione acylated at C2, bearing a benzoyl group",
+     "substituents": [
+      "aroyl at C2 of the cyclohexane-1,3-dione",
+      "Cl at C2 of the benzene ring",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "2-{2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl}cyclohexane-1,3-dione",
+     "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [
+      "NaNO2",
+      "CH3SNa"
+     ],
+     "reagents_below": [
+      "HCl"
+     ],
+     "arrow_style": "solid",
+     "confidence": "high"
+    },
+    {
+     "from_structure": "2nd",
+     "to_structure": "3rd",
+     "reagents_above": [
+      "Br2"
+     ],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    },
+    {
+     "from_structure": "3rd",
+     "to_structure": "4th",
+     "reagents_above": [
+      "H2O2"
+     ],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    },
+    {
+     "from_structure": "4th",
+     "to_structure": "5th",
+     "reagents_above": [
+      "溴代试剂 (brominating agent)"
+     ],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    },
+    {
+     "from_structure": "5th",
+     "to_structure": "6th",
+     "reagents_above": [
+      "CF3CH2OM"
+     ],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    },
+    {
+     "from_structure": "6th",
+     "to_structure": "7th",
+     "reagents_above": [
+      "H2O"
+     ],
+     "reagents_below": [
+      "CO"
+     ],
+     "arrow_style": "solid",
+     "confidence": "high"
+    },
+    {
+     "from_structure": "7th",
+     "to_structure": "8th",
+     "reagents_above": [
+      "SOCl2"
+     ],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    },
+    {
+     "from_structure": "8th",
+     "to_structure": "10th",
+     "reagents_above": [
+      "cyclohexane-1,3-dione, drawn as a structure above the arrow (the 9th structure)"
+     ],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    },
+    {
+     "from_structure": "10th",
+     "to_structure": "11th",
+     "reagents_above": [
+      "丙酮氰醇 (acetone cyanohydrin)"
+     ],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "First of two alternative routes drawn on this page, separated by the single character 或 (\"or\"). The scheme wraps over four printed rows; the arrow leaving the right edge of one row continues at the left edge of the next. The word 或 sits between this scheme and the second one."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    null,
+    "[0103]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, row 1 leftmost",
+     "core": "benzene",
+     "substituents": [
+      "NH2 at C1",
+      "CH3 at C2",
+      "Cl at C3"
+     ],
+     "name": "3-chloro-2-methylaniline",
+     "smiles": "Cc1c(Cl)cccc1N",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, row 1",
+     "core": "benzene",
+     "substituents": [
+      "SCH3 at C1",
+      "CH3 at C2",
+      "Cl at C3"
+     ],
+     "name": "(3-chloro-2-methylphenyl)(methyl)sulfane",
+     "smiles": "Cc1c(Cl)cccc1SC",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "3rd, row 1",
+     "core": "benzene",
+     "substituents": [
+      "SCH3 at C1",
+      "CH3 at C2",
+      "Cl at C3",
+      "Br at C4"
+     ],
+     "name": "(4-bromo-3-chloro-2-methylphenyl)(methyl)sulfane",
+     "smiles": "Cc1c(Cl)c(Br)ccc1SC",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "4th, row 1 rightmost",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1",
+      "CH3 at C2",
+      "Cl at C3",
+      "Br at C4"
+     ],
+     "name": "4-bromo-3-chloro-2-methyl-1-(methylsulfonyl)benzene",
+     "smiles": "Cc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "5th, row 2 leftmost",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1",
+      "CH2Br at C2",
+      "Cl at C3",
+      "Br at C4"
+     ],
+     "name": null,
+     "smiles": "BrCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "6th, row 2",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1",
+      "CH2OCH2CF3 at C2",
+      "Cl at C3",
+      "Br at C4"
+     ],
+     "name": null,
+     "smiles": "FC(F)(F)COCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "7th, drawn below the third arrow of row 2 as a reagent structure",
+     "core": "cyclohexane-1,3-dione",
+     "substituents": [],
+     "name": "cyclohexane-1,3-dione",
+     "smiles": "O=C1CCCC(=O)C1",
+     "confidence": "medium"
+    },
+    {
+     "position_in_drawing": "8th, row 2 rightmost",
+     "core": "3-oxocyclohex-1-en-1-yl ester of a benzoic acid",
+     "substituents": [
+      "ester O at C1 of the benzene ring",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4 (drawn as an explicit S with two =O and a CH3)",
+      "ketone at C3 of the cyclohexenyl ring, ester oxygen at its C1"
+     ],
+     "name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+     "smiles": "O=C(OC1=CC(=O)CCC1)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "medium"
+    },
+    {
+     "position_in_drawing": "9th, row 3, sole structure (final product)",
+     "core": "cyclohexane-1,3-dione acylated at C2, bearing a benzoyl group",
+     "substituents": [
+      "aroyl at C2 of the cyclohexane-1,3-dione",
+      "Cl at C2 of the benzene ring",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4"
+     ],
+     "name": "2-{2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl}cyclohexane-1,3-dione",
+     "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "medium"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [
+      "NaNO2",
+      "CH3SNa"
+     ],
+     "reagents_below": [
+      "HCl"
+     ],
+     "arrow_style": "dashed",
+     "confidence": "medium"
+    },
+    {
+     "from_structure": "2nd",
+     "to_structure": "3rd",
+     "reagents_above": [
+      "Br2"
+     ],
+     "reagents_below": [],
+     "arrow_style": "dashed",
+     "confidence": "medium"
+    },
+    {
+     "from_structure": "3rd",
+     "to_structure": "4th",
+     "reagents_above": [
+      "H2O2"
+     ],
+     "reagents_below": [],
+     "arrow_style": "dashed",
+     "confidence": "medium"
+    },
+    {
+     "from_structure": "4th",
+     "to_structure": "5th",
+     "reagents_above": [
+      "[illegible]"
+     ],
+     "reagents_below": [],
+     "arrow_style": "dashed",
+     "confidence": "low"
+    },
+    {
+     "from_structure": "5th",
+     "to_structure": "6th",
+     "reagents_above": [
+      "CF3CH2OM"
+     ],
+     "reagents_below": [],
+     "arrow_style": "dashed",
+     "confidence": "medium"
+    },
+    {
+     "from_structure": "6th",
+     "to_structure": "8th",
+     "reagents_above": [
+      "CO"
+     ],
+     "reagents_below": [
+      "cyclohexane-1,3-dione, drawn as a structure below the arrow (the 7th structure)"
+     ],
+     "arrow_style": "dashed",
+     "confidence": "medium"
+    },
+    {
+     "from_structure": "8th",
+     "to_structure": "9th",
+     "reagents_above": [
+      "[illegible]"
+     ],
+     "reagents_below": [],
+     "arrow_style": "dashed",
+     "confidence": "low"
+    }
+   ],
+   "notes": "Second of two alternative routes, introduced by 或 (\"or\"). Printed at a smaller size and much more heavily degraded than the first scheme: arrows are dashed and all Chinese reagent labels are unreadable. It differs from the first route at the carbonylation step: here CO (above the arrow) and cyclohexane-1,3-dione (below the arrow) act in one step on the aryl bromide to give the enol ester directly, with no isolated benzoic acid and no SOCl2 step. A lone full stop 。 is printed to the right of the final structure, closing the sentence the scheme belongs to."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0106]",
+    "[0107]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left",
+     "core": "benzene",
+     "substituents": [
+      "NH2 at C1",
+      "CH3 at C2",
+      "Cl at C3"
+     ],
+     "name": "3-chloro-2-methylaniline",
+     "smiles": "Cc1c(Cl)cccc1N",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right, labelled formula (VI)",
+     "core": "benzene",
+     "substituents": [
+      "SCH3 at C1",
+      "CH3 at C2",
+      "Cl at C3"
+     ],
+     "name": "(3-chloro-2-methylphenyl)(methyl)sulfane",
+     "smiles": "Cc1c(Cl)cccc1SC",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [
+      "NaNO2",
+      "CH3SNa"
+     ],
+     "reagents_below": [
+      "HCl"
+     ],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Example 1 scheme. The product is labelled 式（VI） (formula (VI)) beneath it."
+  }
+ ],
+ "discrepancies": [
+  {
+   "what": "The brominating agent is named in the prose but drawn only as a generic Chinese label on the arrow.",
+   "drawing_says": "溴代试剂 above the row-2 arrow of scheme 1 (illegible in scheme 2)",
+   "text_says": "[0103] 溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素"
+  },
+  {
+   "what": "CF3CH2OM is drawn as a generic reagent; the prose defines M.",
+   "drawing_says": "CF3CH2OM above the arrow in both schemes",
+   "text_says": "[0103] CF3CH2OM为CF3CH2ONa或CF3CH2OK"
+  },
+  {
+   "what": "Acetone cyanohydrin appears only on the drawing, never in the prose on this page.",
+   "drawing_says": "丙酮氰醇 above the last arrow of scheme 1",
+   "text_says": "nothing on this page mentions 丙酮氰醇"
+  },
+  {
+   "what": "Scheme 1 makes the benzoic acid and its acid chloride as isolated intermediates; scheme 2 goes from the aryl bromide straight to the enol ester with CO plus cyclohexane-1,3-dione. The two routes are offered as alternatives with 或 and the page prose does not describe either sequence in words.",
+   "drawing_says": "two different carbonylation/esterification sequences",
+   "text_says": "no prose description of either sequence on this page"
+  }
+ ],
+ "illegible": [
+  "Scheme 2, row 2, the Chinese reagent label above the first (leftmost) dashed arrow: 3-4 characters, completely broken up by scan noise. By position it corresponds to 溴代试剂 in scheme 1, but the glyphs cannot be read.",
+  "Scheme 2, row 3, the Chinese reagent label above the final dashed arrow: 3-4 characters, completely broken up by scan noise. By position it corresponds to 丙酮氰醇 in scheme 1, but the glyphs cannot be read.",
+  "Scheme 2 generally: atom labels (SO2CH3, SCH3, CH3, Br, CF3) are pixellated and were read largely by their shape and by correspondence with the identical, legible scheme 1; individual characters within them are not crisply resolved."
+ ],
+ "page_confidence": "low"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "reaction_id": "Example 9_Method 1",
+    "source_lines": [
+      518,
+      529
+    ],
+    "quote_zh": "方法1：向高压釜中加入式(IV)化合物94.73g、1,3-环己二酮29.41g、三乙胺27.83g、双[(4-N,N-二甲氨基)苯基]二叔丁基膦二氯化钯3g、溶剂二氧六环250g，氮气置换3次，通入1～4MPa的CO，升高温度，在85℃反应约3h。",
+    "arithmetic_check": "Stated inputs: 94.73 g of the compound of formula (IV) and 29.41 g of 1,3-cyclohexanedione. No moles, no equivalents and no product mass are printed, only a yield of 80%, so the mass/mole consistency check has nothing to close against and mass_balance_implausible is not raised. For A5, the drawn formulae give MW 381.59 for C10H9BrClF3O3S and MW 440.82 for C17H16ClF3O6S, which would put the (IV) charge at about 0.248 mol, the dione at about 0.262 mol (about 1.06 equivalents) and the triethylamine at about 0.275 mol (about 1.11 equivalents), and 80% would then be about 87.6 g of product; none of those derived numbers is printed in the section and none is recorded in the reaction record.",
+    "drawing_evidence": "The [IMAGE_EXTRACT: {\"reactions\": ...}] span on line 523 is the section's only drawing: one arrow from CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F, the compound of formula (IV), to CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F, the (VIII) enol ester, with CO and a drawn but unnamed cyclohexane-1,3-dione on the arrow. It agrees with the prose on the starting material, the product and those two reagents, so no drawing_text_conflict. The arrow carries no palladium catalyst, no triethylamine and no solvent, all of which the procedure states, so reagent_written_not_drawn is raised."
+  },
+  {
+    "reaction_id": "Example 9_Method 2",
+    "source_lines": [
+      527,
+      527
+    ],
+    "quote_zh": "方法2：溶剂替换为乙二醇二乙醚300g，其它与方法1相同，得到(VIII)酯化合物，收率为71.63％。",
+    "arithmetic_check": "The only quantity printed on Method 2's own line is 300 g of ethylene glycol diethyl ether; every other charge is inherited within this section by the explicit 其它与方法1相同. No product mass is printed, only a yield of 71.63%, so there is nothing to check a mass against and mass_balance_implausible is not raised. The two yields, 80% for Method 1 and 71.63% for Method 2, are for the same product by the same transformation in different solvents; they are held on separate records and are not averaged or reconciled.",
+    "drawing_evidence": "No drawing of its own. The single arrow on line 523 covers the transformation of both methods, since the two differ only in solvent, and the same reading applies: connectivity and the CO and dione agree with the prose, and reagent_written_not_drawn is raised for the catalyst, base and solvent that the arrow omits."
+  }
+]

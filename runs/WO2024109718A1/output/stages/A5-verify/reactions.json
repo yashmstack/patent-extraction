@@ -1,0 +1,351 @@
+{
+  "artifact": "reactions",
+  "records_audited": 71,
+  "findings": [
+    {
+      "check": "drawings",
+      "severity": "major",
+      "record": "Summary of the Invention_Scheme Step 7",
+      "field": "compounds / step split",
+      "problem": "Scheme (vi) on page p06 is drawn as five structures and four arrows, the third structure being the acid chloride, but this record merges arrows two and three into one acid-plus-dione step, so the acid chloride and its own step exist nowhere in the Summary section; the record's notes assert the opposite of what the page shows, calling it 'one arrow read as two halves'.",
+      "source_line": 141,
+      "quote": "{\"step_id\": 2, \"reactants\": [{\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F\"}], \"conditions\": [], \"products\": []}, {\"step_id\": 3, \"reactants\": [], \"conditions\": [], \"products\": [{\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F\"}]}",
+      "artifact_says": "one record, reactants the benzoic acid and cyclohexane-1,3-dione, product the enol ester; notes: 'one arrow read as two halves rather than two transformations'",
+      "should_be": "split into two records, acid to acid chloride and acid chloride plus dione to enol ester, as the Preparation Routes section already does for the same route (Scheme Step 7 and Scheme Step 8) and as the Claims_Step (vi) notes correctly describe ('drawn as four arrows'). I opened p06 and p27 and counted four arrows on both.",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "major",
+      "record": "Claims_Step (vi)",
+      "field": "compounds / step split",
+      "problem": "A2 rule 5d requires one record per arrow for an overview scheme; this single record carries a four-arrow scheme, so three transformations get no record, and the acid, acid chloride and enol ester, which are the scheme's own intermediates, are given role 'reactant' alongside the true starting material.",
+      "source_line": 616,
+      "quote": "[权利要求 10] 根据权利要求9所述的方法，其中步骤(vi)、和(vi′)分别为如下步骤：",
+      "artifact_says": "one record with reactants ArBr, CO, H2O, the benzoic acid, the acid chloride and the enol ester, product tembotrione",
+      "should_be": "four records in drawing order, each with its own reactant and product; the intermediates must be a product of one record and a reactant of the next, not co-reactants of one. The record's notes give a reason (claim 9 writes 步骤 in the singular), so this is a stated judgement call rather than an oversight, but it costs three records and mis-roles three compounds.",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "major",
+      "record": "Claims_Step (vi')",
+      "field": "compounds / step split",
+      "problem": "Same defect on the shorter claim scheme: two arrows drawn on p27, one record emitted, and the enol ester is listed as a reactant of the step that makes it.",
+      "source_line": 616,
+      "quote": "[权利要求 10] 根据权利要求9所述的方法，其中步骤(vi)、和(vi′)分别为如下步骤：",
+      "artifact_says": "one record with reactants ArBr, CO, cyclohexane-1,3-dione and the enol ester, product tembotrione",
+      "should_be": "two records: ArBr plus dione under CO to the enol ester, then the enol ester to tembotrione",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "major",
+      "record": "Preparation Routes and General Embodiments_Step 7",
+      "field": "conditions.time_h",
+      "problem": "The paragraph prints a reaction time of 10 to 20 h and the record leaves time_h null, so a printed condition is absent from the artifact.",
+      "source_line": 320,
+      "quote": "通入CO，在80～120℃、优选80～90℃反应10～20h",
+      "artifact_says": "time_h: null",
+      "should_be": "record the printed time; time_h holds one float, so 10.0 with the 10 to 20 h range spelled out in notes, rather than a silent null",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "major",
+      "record": "Example 7_Step 1",
+      "field": "reaction_class",
+      "problem": "Examples 6 and 7 are the same palladium hydroxycarbonylation of the formula (IV) bromide, differing only in ligand and solvent, but Example 6 is classed other_cross_coupling and Example 7 other; the two records' notes reach opposite conclusions on identical chemistry.",
+      "source_line": 506,
+      "quote": "向高压釜中加入式(IV)化合物40g、水20g、三乙胺26.49g、PdCl2催化剂0.4g、配体1,3-双(二苯基膦)丙烷3.95g、溶剂四氢呋喃400g",
+      "artifact_says": "Example 6_Step 1 other_cross_coupling; Example 7_Step 1 other",
+      "should_be": "one value on both records",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "major",
+      "record": "Summary of the Invention_Scheme Step 1",
+      "field": "product_name / compounds[].identifier",
+      "problem": "Seventeen records in the Summary, Claims and Preparation Routes sections carry SMILES strings in product_name and in compounds[].identifier instead of names, so the same molecule appears as CSc1ccc(Br)c(Cl)c1C here and as 式(I)化合物 in the Preparation Routes and Example records, and compounds-equivalence.json binds neither pair.",
+      "source_line": 103,
+      "quote": "[IMAGE_EXTRACT: {\"reactions\": [{\"step_id\": 1, \"reactants\": [{\"smiles\": \"CSc1cccc(Cl)c1C\", ...}], \"conditions\": [], \"products\": [{\"smiles\": \"CSc1ccc(Br)c(Cl)c1C\", ...}]}]}]",
+      "artifact_says": "product_name: \"CSc1ccc(Br)c(Cl)c1C\"",
+      "should_be": "the label the patent gives the structure, 式(I)化合物, or the IUPAC name the Background records already use for named structures; A2 rule 8 says the SMILES belongs on the A1 compound record's aliases. Stated fairly: A2 rule 7 forces these identifiers to match A1, A1 does use SMILES identifiers for these ten drawing-only structures, and the reference run runs/CN104292137A does the same in two records, so the correction belongs upstream in A1 rather than in this artifact.",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "Claims_Step (v)",
+      "field": "reaction_class",
+      "problem": "The same formula (IV) to formula (V) carbonylation is classed two ways across the artifact: other_cross_coupling in Preparation Routes Step 7, Preparation Routes Scheme Step 6 and Example 6, and other in Claims Step (v), Summary Scheme Step 5 and Example 7.",
+      "source_line": 97,
+      "quote": "[IMAGE_EXTRACT: ... \"conditions\": [{\"text\": \"H2O\"}, {\"text\": \"CO\"}], \"products\": [{\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F\", ...}]",
+      "artifact_says": "other",
+      "should_be": "the same class this artifact uses for the identical transformation in Preparation Routes Step 7",
+      "confidence": "high"
+    },
+    {
+      "check": "linkage",
+      "severity": "minor",
+      "record": "Example 10_Step 1",
+      "field": "precursor_step",
+      "problem": "linkage_confirmed is true while precursor_step is null, so the record asserts a confirmed link to no step at all. This is the only record in the artifact with that combination.",
+      "source_line": 537,
+      "quote": "向高压釜中加入式(IV)化合物56.84g、三乙胺37.95g、PdCl2催化剂0.4g",
+      "artifact_says": "precursor_step: null, linkage_confirmed: true",
+      "should_be": "precursor_step \"Example 5::Step 1\" (Example 5's product identifier 式(IV)化合物 is this step's reactant identifier), or linkage_confirmed false",
+      "confidence": "high"
+    },
+    {
+      "check": "linkage",
+      "severity": "minor",
+      "record": "Example 2_Step 1",
+      "field": "precursor_step",
+      "problem": "precursor_step is null and linkage_confirmed false, yet the record's own tag asserts linkage:cross_section_linked and its reactant identifier 式(VI)化合物 is exactly the product identifier of Example 1_Step 1, which is what A2 rule 24 defines as confirmation.",
+      "source_line": 443,
+      "quote": "将式(VI)化合物100.75g、400g二氯甲烷置于四口圆底烧瓶中",
+      "artifact_says": "precursor_step: null, linkage_confirmed: false, tags include linkage:cross_section_linked",
+      "should_be": "precursor_step \"Example 1::Step 1\", linkage_confirmed true",
+      "confidence": "high"
+    },
+    {
+      "check": "linkage",
+      "severity": "minor",
+      "record": "Example 3_Step 1",
+      "field": "precursor_step",
+      "problem": "precursor_step null while the reactant identifier 式(I)化合物 is exactly the product identifier of Example 2_Step 1 and the tag asserts a cross-section link.",
+      "source_line": 453,
+      "quote": "将式(I)化合物146g、二水合钨酸钠1.91g和冰醋酸600mL加入到四口烧瓶中",
+      "artifact_says": "precursor_step: null, linkage_confirmed: false",
+      "should_be": "precursor_step \"Example 2::Step 1\", linkage_confirmed true",
+      "confidence": "high"
+    },
+    {
+      "check": "linkage",
+      "severity": "minor",
+      "record": "Example 5_Step 1",
+      "field": "precursor_step",
+      "problem": "precursor_step null while the reactant identifier 式(III)化合物 is exactly the product identifier of Example 4_Method 1 and Method 2.",
+      "source_line": 483,
+      "quote": "进一步滴加式(III)化合物83g的400mL无水四氢呋喃溶液",
+      "artifact_says": "precursor_step: null, linkage_confirmed: false",
+      "should_be": "precursor_step \"Example 4::Method 1\" with the Method 2 alternative named in notes, linkage_confirmed true",
+      "confidence": "high"
+    },
+    {
+      "check": "linkage",
+      "severity": "minor",
+      "record": "Example 8_Step 1",
+      "field": "precursor_step",
+      "problem": "precursor_step null while the reactant identifier 式(V)化合物 is exactly the product identifier of Example 6_Step 1 and Example 7_Step 1. The same null stands on Example 4 Methods 1 and 2, Example 6, Example 7, Example 9 Methods 1 and 2 and Example 11, so eleven of the fifteen experimental records leave a substantiable cross-section link unrecorded.",
+      "source_line": 512,
+      "quote": "将式(V)化合物1.5g溶于20mL 1,4-二氧六环中",
+      "artifact_says": "precursor_step: null, linkage_confirmed: false",
+      "should_be": "precursor_step \"Example 6::Step 1\", linkage_confirmed true, with Example 7 named in notes",
+      "confidence": "high"
+    },
+    {
+      "check": "fidelity",
+      "severity": "minor",
+      "record": "Example 10_Step 1",
+      "field": "conditions.temperature / conditions.time_h",
+      "problem": "The one-pot record carries only the second stage, 70 C and 5 h; the carbonylation stage's printed range 80 to 85 C and its 8 h reach no structured field, so a reader of conditions sees a point temperature where the patent prints a range plus a point.",
+      "source_line": 537,
+      "quote": "以约1～4MPa的压力通入CO，在80～85℃反应约8h后降温至70℃，加入2g丙酮氰醇，继续反应5h",
+      "artifact_says": "temperature {type: exact, value_c: 70.0}, time_h: 5.0",
+      "should_be": "keep 70 C and 5 h per the one-pot rule, which takes the final transformation, but carry 80 to 85 C and 8 h explicitly rather than only in prose. A judgement call: A2 rule 9 is followed literally here.",
+      "confidence": "medium"
+    },
+    {
+      "check": "fidelity",
+      "severity": "minor",
+      "record": "Example 1_Step 1",
+      "field": "conditions.temperature",
+      "problem": "temperature is not_specified although the paragraph prints 20 C, 0 C and a -5 to 10 C control range; all three belong to the first of the two one-pot transformations and were placed in addition_profile only, leaving the record reading as though the patent gave no temperature.",
+      "source_line": 428,
+      "quote": "在20℃下将5.1％盐酸1165g加入到四口瓶中，滴加3-氯-2-甲基苯胺100g，滴加完毕后，在0℃进一步滴加20％NaNO2水溶液251.41g，滴加过程中控温不超过-5～10℃",
+      "artifact_says": "temperature {type: not_specified}",
+      "should_be": "a judgement call between two A2 rules: the one-pot rule points at the final transformation, which prints nothing, but the addition-temperature rule says an addition temperature is still the step's temperature when it is the only one printed. Recording the -5 to 10 C range and naming the split in notes satisfies both.",
+      "confidence": "medium"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "Preparation Routes and General Embodiments_Step 7",
+      "field": "conditions.temperature",
+      "problem": "The preferred sub-range 80 to 90 C is printed alongside the outer 80 to 120 C and appears in no field of the record.",
+      "source_line": 320,
+      "quote": "在80～120℃、优选80～90℃反应10～20h",
+      "artifact_says": "temperature {type: range, min_c: 80.0, max_c: 120.0}",
+      "should_be": "keep the outer range in the structured field and record the preferred 80 to 90 C in notes",
+      "confidence": "medium"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "Preparation Routes and General Embodiments_Step 3",
+      "field": "conditions.temperature",
+      "problem": "The preferred sub-range 70 to 90 C is printed alongside the outer 40 to 100 C and appears in no field of the record.",
+      "source_line": 270,
+      "quote": "上述反应中升温至40-100℃，优选升温至70-90℃。",
+      "artifact_says": "temperature {type: range, min_c: 40.0, max_c: 100.0}",
+      "should_be": "keep the outer range and record the preferred 70 to 90 C in notes",
+      "confidence": "medium"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "Preparation Routes and General Embodiments_Step 4",
+      "field": "conditions.temperature",
+      "problem": "The preferred sub-range 50 to 80 C is printed alongside the outer 40 to 100 C and appears in no field of the record.",
+      "source_line": 293,
+      "quote": "上述反应中升温至40-100℃，优选升温至50-80℃。",
+      "artifact_says": "temperature {type: range, min_c: 40.0, max_c: 100.0}",
+      "should_be": "keep the outer range and record the preferred 50 to 80 C in notes",
+      "confidence": "medium"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "Example 5_Step 1",
+      "field": "compounds[tetrahydrofuran].quantity.volume_ml",
+      "problem": "The example charges anhydrous tetrahydrofuran in three portions totalling 500 mL and the quantity field records only the first 80 mL, so the solvent volume is understated by a factor of six in the only numeric field that carries it.",
+      "source_line": 483,
+      "quote": "60％氢化钠9.2g溶于80mL无水四氢呋喃中，往该溶液中滴加三氟乙醇24g的20mL无水四氢呋喃溶液，滴加完毕后，进一步滴加式(III)化合物83g的400mL无水四氢呋喃溶液",
+      "artifact_says": "volume_ml: 80.0",
+      "should_be": "500.0, with the three-portion split kept in addition_profile as it already is",
+      "confidence": "medium"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "Example 9_Method 1",
+      "field": "product_name",
+      "problem": "The formula (VIII) ester carries three identifiers across the artifact, (VIII)酯化合物 here, 式(VIII)化合物 in Example 8 Steps 2 and 3, and 式(VIII)的酯化合物 in Preparation Routes Steps 8 and 9, and compounds-equivalence.json holds only one unrelated entry, so nothing on disk records that the three are one molecule and no linkage between those records can be substantiated by identifier.",
+      "source_line": 525,
+      "quote": "得到(VIII)酯化合物，收率为80％。",
+      "artifact_says": "product_name: \"(VIII)酯化合物\"",
+      "should_be": "one identifier across the three, or an entry in compounds-equivalence.json binding them",
+      "confidence": "high"
+    },
+    {
+      "check": "translation",
+      "severity": "minor",
+      "record": "Preparation Routes and General Embodiments_Step 4",
+      "field": "compounds[].identifier",
+      "problem": "二氯乙烷 is left in Chinese while the two solvents named on the same line, dichloromethane and carbon tetrachloride, are given in English, so one record uses both conventions for the same category of compound.",
+      "source_line": 291,
+      "quote": "在更具体的实施方式中，上述反应中使用二氯甲烷、二氯乙烷、四氯化碳作为溶剂。",
+      "artifact_says": "identifiers dichloromethane, 二氯乙烷, carbon tetrachloride",
+      "should_be": "dichloroethane, consistent with its two neighbours; the same applies to 钨酸盐, 偏钨酸盐, 钒酸盐 and 偏钒酸盐 in Step 3, which sit beside the English sodium tungstate dihydrate",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": null,
+      "field": null,
+      "problem": "The second scheme on page p17, the 或 alternative of [0102] running the aniline through to tembotrione via the direct carbonylative esterification, is drawn with eight arrows and receives no records of its own; its transformations are covered only because other records happen to carry the same chemistry, which A2 rule 5d's one-record-per-arrow instruction does not provide for.",
+      "source_line": 416,
+      "quote": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+      "artifact_says": "Preparation Routes Scheme Step 1 to 9 cover the first p17 scheme only",
+      "should_be": "either records for the second scheme's arrows, or an explicit statement in notes that it is annotated as a duplicate of the first and of Step 8. Marked as a judgement call: the two schemes differ only in whether the acid chloride route or the direct route is drawn, and blanket per-arrow records would multiply near-identical entries.",
+      "confidence": "medium"
+    }
+  ],
+  "checks_passed": [
+    {
+      "check": "arithmetic - stoichiometry of every charge",
+      "what_was_verified": "The patent prints no product mass anywhere, only percentage yields, so no mass/mole/yield triple exists to close. I checked every printed charge pair against molecular weights instead: Example 2, Br2 0.616 mol against 0.583 mol of the 172.7 g/mol sulfide, 1.06 eq; Example 3, 23% H2O2 224 g gives 1.51 mol against 0.580 mol of the 251.6 g/mol bromide, ratio 2.6, which sits inside the 2 to 3 the patent itself prefers at line 275; Example 4 Method 1, Br2 1.12 eq, Method 2, NBS 1.22 eq on 0.296 mol of substrate; Example 5, NaH 0.23 mol, trifluoroethanol 0.24 mol, substrate 0.229 mol; Example 9, dione 0.262 mol against 0.248 mol of substrate, 1.06 eq; Example 11, dione 1.31 eq. Nothing implies an impossible molecular weight, so mass_balance_implausible correctly appears on no record, and no record carries it falsely."
+    },
+    {
+      "check": "arithmetic - step-to-step continuity",
+      "what_was_verified": "Example 2 charges 100.75 g of the formula (VI) sulfide, 0.583 mol, whose theoretical maximum of the formula (I) bromide is 146.8 g; Example 3 charges 146 g of it, inside that ceiling at 99.4%. Example 3's 146 g caps the formula (II) sulfone at 164.6 g and Example 4 charges 84 g. Example 4's 84 g caps the formula (III) bromide at 107.4 g and Example 5 charges 83 g. No step consumes more than the previous can supply, so scale_discontinuity correctly appears on no record."
+    },
+    {
+      "check": "scale field against A2 rule 21",
+      "what_was_verified": "The complaint from another artifact's audit does not hold at source. Rule 21 bins on the limiting reagent charge, lab 1 to 100 g and pilot 100 g to 10 kg. Example 1's limiting reagent is the 100 g of 3-chloro-2-methylaniline, 0.706 mol against 0.729 mol of NaNO2, so it falls in lab; the 1165 g of 5.1% hydrochloric acid is a dilute solution mass, not a reagent charge. Example 2 charges 100.75 g and Example 3 charges 146 g of their limiting reagents, both above the 100 g boundary, so pilot is correct for both. The apparent oddity is the bin edge sitting at exactly 100 g, not a mis-set field."
+    },
+    {
+      "check": "Example 11, a bound is not a yield",
+      "what_was_verified": "Line 548 reads 收率低于10％ (yield below 10%). The record leaves product_yield_pct null, leaves product_name null, and raises missing_product; no 10.0 was invented from the bound. The section_label disagreement, 实施例11 printed against section_type comparative_example, is recorded in notes with both readings standing rather than resolved."
+    },
+    {
+      "check": "background route attribution",
+      "what_was_verified": "Both prior-art routes are recorded as Background_Scheme A Steps 1 to 11 and Background_Scheme B Steps 1 to 11, all 22 with section_type background, scale not_specified and no_conditions, and none carries a tag or note presenting it as the invention's route. The invention's own route appears only under summary_of_invention and claims. route_attribution_unclear is raised nowhere, which is right: [0003] names DE19846792A1 and [0005] names CN 200510030163.5, so neither scheme is ambiguous."
+    },
+    {
+      "check": "drawings, reagents above the arrow against reagents below it",
+      "what_was_verified": "I opened the pages and read the arrows. p02 scheme A arrow 2 carries CH3COCl above and AlCl3 below; the record gives acetyl chloride role reagent and aluminium trichloride role catalyst, so the two positions are not merged. p03 scheme B arrow 1 carries NaNO2 and CH3SNa above with HCl below, recorded as reagent, reagent and acid; arrow 2 carries CH3COCl alone with no AlCl3 drawn, and the record correctly takes AlCl3 from [0006] with reagent_written_not_drawn raised; arrow 6 carries Br2, not NBS, and the record says bromine while scheme A's arrow 6 says NBS, matching its own page. p17 arrow 6 carries H2O above and CO below and both are recorded as reactants; arrow 7 carries SOCl2; arrow 8 carries cyclohexane-1,3-dione drawn above. p22 Example 9 carries CO above and the dione below; Example 10 carries CO above with the dione and acetone cyanohydrin below, recorded as reactant and catalyst respectively. I found no case of an above-arrow reagent merged with a below-arrow one."
+    },
+    {
+      "check": "Example 10, a compound in no prose",
+      "what_was_verified": "Cyclohexane-1,3-dione is carried as a reactant of Example 10 although paragraph [0143] never names it. I read page p22: the scheme above [0143] draws the dione below the arrow together with acetone cyanohydrin. The record raises reagent_drawn_not_written, which is exactly right, and the compound is not a fabrication."
+    },
+    {
+      "check": "yields against their lines",
+      "what_was_verified": "Six yields are printed in the document and six are recorded, each matching its line: 81.13% at line 493, 67.57% at line 506, 76.59% at line 514, 80% at line 525, 71.63% at line 527, 64.67% at line 542. No seventh yield exists, none is attached to the wrong compound, and no yield appears on a record whose section prints none."
+    },
+    {
+      "check": "pressure handling",
+      "what_was_verified": "Every carbonylation record sets pressure.type elevated with the printed 1 to 4 MPa kept verbatim in qualitative_text and value_kpa null. No record converts the range to a single kPa point, and no record leaves the pressure out where CO is charged under pressure."
+    },
+    {
+      "check": "temperature ranges not flattened",
+      "what_was_verified": "Every range the patent prints is stored as a range: 10 to 30 C at line 248 on Preparation Routes Step 1, 40 to 100 C at lines 270 and 293 on Steps 3 and 4, -5 to 15 C at line 312 on Step 5, 80 to 120 C at line 320 on Step 7, and the upper bound 15 C at line 483 on Example 5 as a range with a null minimum. No range in the document was collapsed to a point. Reflux is never used in this patent, so the reflux-as-temperature trap does not arise."
+    },
+    {
+      "check": "no fabricated atmosphere",
+      "what_was_verified": "Seven records carry a non-null atmosphere and every one of them traces to 抽真空，氮气置换 and 通入CO in its own paragraph, lines 320, 493, 506, 525, 537 and 548. Sixty-four records leave atmosphere null. No record writes nitrogen where nitrogen is not named."
+    },
+    {
+      "check": "no SMILES on the fields A2 rule 8 reserves",
+      "what_was_verified": "reactant_smiles, smiles_source, product_smiles, product_smiles_source and canonical_rxn are null on all 71 records. The SMILES leakage found above is confined to product_name and compounds[].identifier, where it enters from the A1 identifiers."
+    },
+    {
+      "check": "vocabulary of the closed lists",
+      "what_was_verified": "All 71 records' reaction_class, mechanism_type, scale, temperature.type and pressure.type values sit inside the A2 lists. Every tag on every record matches category:value with a lowercase snake_case ASCII value, and every category is one of the sixteen listed. No case mismatch and no free-text tag found."
+    },
+    {
+      "check": "validation flag bookkeeping",
+      "what_was_verified": "is_complete equals the emptiness of validation_flags on all 71 records, with no exception. The flags used are no_conditions on the 50 overview and claims records, reagent_written_not_drawn on 7, reagent_drawn_not_written on 7, cross_reference_unresolved on 3 and missing_product on 1, all drawn from the A2 list with no invented flag names."
+    },
+    {
+      "check": "schema shape against the reference run",
+      "what_was_verified": "Every record carries id and reaction_uuid, which A2 rule 3 tells the model not to emit. They are present in runs/CN104292137A/output/reactions.json in the same shape, and the A2 output section says finalise.py computes them, so they are a deterministic addition and not an A2 emission. The full key set is identical to the reference run's, with no enrichment or vector field present and no required field missing."
+    },
+    {
+      "check": "two methods kept as two records",
+      "what_was_verified": "Example 4's 方法1 and 方法2 and Example 9's 方法1 and 方法2 are each two records keeping the document's own markers as step_label, not renumbered to Step 1 and Step 2. Example 9's two yields, 80% and 71.63%, are carried separately and not averaged, and Method 2's conditions_inherited is set on the strength of 其它与方法1相同 at line 527."
+    },
+    {
+      "check": "prose steps and scheme arrows kept apart, A2 rule 5f",
+      "what_was_verified": "The Preparation Routes section carries Step 1 to Step 9 from the prose of [0054] to [0093] and Scheme Step 1 to Scheme Step 9 from the [0102] drawing, as separate reaction_ids. I counted the arrows on p17: nine, carrying NaNO2/CH3SNa/HCl, Br2, H2O2, brominating agent, CF3CH2OM, H2O/CO, SOCl2, the dione, and acetone cyanohydrin, matching Scheme Steps 1 to 9 arrow for arrow and reagent for reagent. The two step sets are not collapsed, and the two transformations one set has that the other lacks, the alkoxide preparation in the prose and the acid chloride in the drawing, are named in the notes of Step 6 and Scheme Step 7."
+    },
+    {
+      "check": "the unlabelled arrow, A2 rule 5g",
+      "what_was_verified": "The final arrow of both background schemes carries no reagent at all. Background_Scheme A Step 11 and Background_Scheme B Step 11 both exist, class other, with the reagent fields null and no_conditions raised. Neither was silently skipped."
+    },
+    {
+      "check": "safety notes are the patent's own words",
+      "what_was_verified": "safety_notes are populated on exactly two records, Background_Scheme B Steps 2 and 4, and both quote [0006] at line 76 verbatim with an English gloss. The notes explain that [0006] follows the second scheme and so is attached to scheme B and not to scheme A. No record carries an added hazard assessment, and the safety tag vocabulary, which has no value for irritancy or waste water, is correctly left unused there rather than guessed."
+    },
+    {
+      "check": "byproduct_recovery not over-claimed",
+      "what_was_verified": "Example 10 filters off triethylamine hydrobromide and records it as a by_product compound while leaving byproduct_recovery null, which is right: line 537 says 除去 (remove), not recover or reuse. Background Scheme B Step 4 records haloform and sodium chloride as by-products from [0006] and likewise leaves byproduct_recovery empty because the text calls them waste."
+    }
+  ],
+  "recall_estimate": {
+    "found_in_text": 76,
+    "present_in_artifact": 71,
+    "missing": [
+      "Summary of the Invention, scheme (vi) on p06: the benzoic acid to acid chloride arrow, and with it the acid chloride intermediate, which this section records nowhere",
+      "Claims, scheme (vi)/(vi-1) on p26 and p27: the acid to acid chloride arrow",
+      "Claims, scheme (vi)/(vi-1): the acid chloride to enol ester arrow",
+      "Claims, scheme (vi)/(vi-1): the enol ester to tembotrione arrow",
+      "Claims, scheme (vi')/(vi'-1) on p27: the enol ester to tembotrione arrow"
+    ]
+  }
+}

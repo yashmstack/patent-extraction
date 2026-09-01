@@ -1,0 +1,233 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 3_Step 1",
+    "section_label": "Example 3",
+    "section_type": "experimental_intermediate",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "oxidation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "pilot",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "exact",
+        "value_c": 80.0,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": "four-necked flask",
+      "concentration": {
+        "value": 23.0,
+        "unit": "%",
+        "reagent": "hydrogen peroxide",
+        "text": "23％的双氧水"
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "stop the reaction once HPLC shows complete conversion",
+        "cool down",
+        "suction filtration",
+        "wash the filter cake twice with water",
+        "dry at 60 C"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "water, twice"
+      ],
+      "drying_agent": null,
+      "filtration": "suction filtration of the product",
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": "filter cake washed twice with water and dried at 60 C",
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "reaction complete"
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(I)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 146.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the four-necked flask before heating",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium tungstate dihydrate",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 1.91,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the four-necked flask before heating",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "glacial acetic acid",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 600.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the four-necked flask before heating",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "hydrogen peroxide",
+        "role": "oxidant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 224.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added dropwise at 80 C as 23% aqueous solution",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "used to wash the filter cake twice",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(II)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(I)化合物",
+      "hydrogen peroxide"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(II)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "将式(I)化合物146g、二水合钨酸钠1.91g和冰醋酸600mL加入到四口烧瓶中，升温至80℃，滴加23％的双氧水224g，通过高效液相色谱监测反应完成后，停止反应，降温、抽滤，滤饼用水洗涤两次，然后于60℃烘干，得到式(II)化合物。熔点138-140℃。",
+    "procedure_summary": "The compound of formula (I) is oxidised with aqueous hydrogen peroxide over sodium tungstate dihydrate in glacial acetic acid, the sulfide being converted to the sulfone. After HPLC shows complete conversion the mixture is cooled, the solid is filtered off, washed with water and dried to give the compound of formula (II).",
+    "precursor_step": "Example 2::Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "reagent_written_not_drawn"
+    ],
+    "tags": [
+      "transformation:oxidation",
+      "mechanism:catalytic",
+      "analytics:hplc",
+      "analytics:nmr",
+      "analytics:melting_point",
+      "scale:pilot",
+      "solvent_class:protic",
+      "workup_type:filtration",
+      "purification:none",
+      "step_role:intermediate_step",
+      "linkage:cross_section_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "Single transformation, matching A0's estimate of one step: the section charges the formula (I) sulfide once, adds peroxide, and works the product up once, so there is no second step to split off. Reactor is 四口烧瓶 (four-necked flask); no vessel volume is printed. 80℃ is the temperature the vessel is raised to and the temperature at which the peroxide is added dropwise, so it is recorded as the step temperature and also in the oxidant's addition_profile. 23％的双氧水224g is the mass of the aqueous peroxide solution as printed; the patent states no contained-H2O2 mass and none is derived here. The reaction-scheme span on line 451 agrees with the prose: it draws the methylthio arene going to the corresponding methanesulfonyl arene over H2O2, which is the oxidation the text describes, so no drawing_text_conflict is raised. The arrow does carry H2O2 alone, with no sodium tungstate and no acetic acid, both of which the prose charges, hence reagent_written_not_drawn. The formula (I) starting material is the section product of Example 2 in this same patent. Both sections carry it under the same A1 identifier 式(I)化合物 and the drawings give it the same SMILES, so the match is by compound identity rather than by the sections being adjacent; precursor_step is Example 2::Step 1 and linkage_confirmed is true. No isolated mass and no yield are printed for the formula (II) product, so there is nothing to check a mass balance against and no such flag is raised. HPLC conditions are deferred to Example 1 (与实施例1相同) and the NMR is referred to only as Figures 5 and 6, so neither is transcribed here."
+  }
+]

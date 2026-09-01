@@ -1,0 +1,63 @@
+[
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "3-bromomethylbenzoic acids",
+    "identifier_type": "other",
+    "aliases": [
+      "3-BROMOMETHYLBENZOIC ACIDS"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Technical Field",
+    "section_type": "technical_field",
+    "is_section_product": true,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:other",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid",
+      "functional_group:halide_bromo"
+    ],
+    "notes": "Markush genus, not one compound: the plural names the whole class of 3-bromomethyl-substituted benzoic acids, so resolved is false and unresolved_reference is true. Merged from two mentions, the running title on line 51 (printed in capitals, carried as an alias) and [0001] on line 53, which names it twice, as the product of the process and again as the compounds the invention further provides. is_section_product is true because the section is headed by this name and names no other product. smiles stays null because a genus has no single structure; this section carries no drawing at all, and every structure drawn elsewhere in this patent is a Markush generic whose vision read returned no SMILES. commercially_available is false: the text neither says so nor names a specific purchasable substance. compound_class is other because this section states no downstream use for the class. The as-printed line 51 begins with a 'None' prefix, which is the enriched markdown's placeholder for the absent original-language line and is not printed on the page; the title itself is identical in the as-printed and EN readings."
+  },
+  {
+    "patent_id": "US20040236146A1",
+    "identifier": "3-methylbenzoic acids",
+    "identifier_type": "other",
+    "aliases": [],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Technical Field",
+    "section_type": "technical_field",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid"
+    ],
+    "notes": "Markush genus, not one compound: the plural names the class brominated to give the product class, so resolved is false and unresolved_reference is true. The text calls them 'the corresponding 3-methylbenzoic acids', which fixes the relation to the product class but still names no member. smiles stays null because a genus has no single structure and this section carries no drawing. compound_class is starting_material because [0001] states the process brominates them; role is reactant for the same reason. Named once, on line 53."
+  }
+]

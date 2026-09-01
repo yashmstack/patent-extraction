@@ -1,0 +1,68 @@
+{
+  "_readme": [
+    "Hand-authored structures for the molecules of one patent that resolve_structures.py",
+    "cannot get any other way. One entry per MOLECULE, keyed by an exact identifier string",
+    "from gold/compounds.json.",
+    "",
+    "WHY THIS FILE EXISTS: 0 of the 75 compound records carry smiles, inchi or",
+    "molecular_formula, and gold/structures.json only covers what the patent DRAWS. Every",
+    "reagent that is named but never drawn (methanesulfonyl chloride, thionyl chloride,",
+    "triethylamine and the rest) has no structure anywhere in the pipeline, and half of them",
+    "carry a mass/mole pair that the downstream mass-balance check cannot use without a",
+    "formula. Those are the entries below.",
+    "",
+    "WHAT NOT TO PUT HERE: spelling variants. The pipeline already knows that",
+    "'2-chloro-6-(methanesulfonyl)toluene' and '2-chloro-6-(methylsulfonyl)toluene' are one",
+    "molecule, because finalise.py wrote that out to provenance/compounds-equivalence.json.",
+    "resolve_structures.py propagates a structure across each equivalence group and tags the",
+    "copies origin 'derived'. Write one entry, for one spelling, and let it propagate. The",
+    "optional 'aliases' list is only for synonyms the equivalence index misses, such as",
+    "'anhydrous aluminium trichloride' against 'aluminium trichloride'.",
+    "",
+    "WHAT NOT TO PUT HERE EITHER: molecules the patent draws. Those come out of",
+    "gold/structures.json with origin 'patent_drawing', which is a stronger provenance claim",
+    "than 'curated'. An entry here for a drawn molecule is harmless (the join is on RDKit",
+    "canonical SMILES, so it lands on the same molecule and keeps the stronger origin) but it",
+    "is work you did not need to do.",
+    "",
+    "DELIBERATELY ABSENT: 'cyclohexanedione' (Claims). The gold records it resolved:false",
+    "because the patent prints it with no ring locants, so which isomer is meant is not",
+    "stated. Supplying the 1,3-dione here would silently resolve what the annotator",
+    "deliberately left open. It gets origin 'none'. Same for the unresolved Chinese class",
+    "terms, and for water, HCl, MgSO4 and the other trivial reagents, which carry no",
+    "chemistry and are noise when drawn.",
+    "",
+    "FIELDS: 'smiles' is required and must parse in RDKit. 'slug' is optional and names the",
+    "SVG file; omit it and one is derived from the identifier. 'aliases' and 'note' are",
+    "optional. formula, mw and canonical are NOT stored here: resolve_structures.py computes",
+    "them with RDKit on every run and writes them into gold/structures-resolved.json, so",
+    "there is one place they can be wrong instead of two.",
+    "",
+    "Every SMILES below was checked atom by atom against its IUPAC name before it was",
+    "committed. A wrong structure here silently corrupts a mass-balance check downstream."
+  ],
+  "patent_id": "CN106008290A",
+  "no_structure_needed": [],
+  "entries": {
+    "化合物II": {
+      "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+      "slug": "compound-ii-benzoic-acid",
+      "note": "Reaction product. 2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid. The five example sections use the bare local label and never define it; the definition is at line 95 of the summary, 2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸, the free acid. Checked atom by atom against that name: ring C1 carboxyl, C2 chloro, C3 (2,2,2-trifluoroethoxy)methyl, C4 methylsulfonyl. Formula from the SMILES is C11H10ClF3O5S at 346.71, and the formula the name implies is the same. Corroborated by the patent's own arithmetic rather than by the name alone: step a prints 314.8 g at 91 percent, 321.7 at 93, 311.4 at 90, 321.7 at 93 and 318.3 at 92 on a 1.0 mol charge, which imply 346 g/mol in all five examples. The methyl ester would be 360.73 and does not fit any of them. Both A5 audits reached the free acid independently."
+    },
+    "HBTU": {
+      "smiles": "CN(C)C(=[N+](C)C)On1nnc2ccccc21.F[P-](F)(F)(F)(F)F",
+      "slug": "hbtu",
+      "note": "Carries a mass and a mole count. O-(benzotriazol-1-yl)-N,N,N',N'-tetramethyluronium hexafluorophosphate, the condensing agent of example 2. Checked atom by atom: tetramethyluronium cation O-linked at benzotriazole N1, hexafluorophosphate counter-ion. Formula from the SMILES is C11H16F6N5OP at 379.24, and the formula the name implies is the same. The full salt rather than the bare cation, because example 2 prints 758 g for 2 mol at line 151, which is 379.0 g/mol; the cation alone would be 234.28. The patent's printed Chinese name is incomplete against the standard one, omitting the benzotriazol-1-yl attachment locant and the N,N,N',N' locants and reading 六氟磷酸酯 as an ester where this is a salt; A1 recorded that and it is not corrected here."
+    },
+    "CDI": {
+      "smiles": "O=C(n1ccnc1)n1ccnc1",
+      "slug": "cdi",
+      "note": "Carries a mass and a mole count. 1,1'-carbonyldiimidazole, the condensing agent of examples 1 and 5. Checked atom by atom: a carbonyl bridging the N1 of two imidazoles. Formula from the SMILES is C7H6N4O at 162.15, and the formula the name implies is the same. Corroborated by the patent's own charge rather than by the name alone: example 1 prints 194.6 g for 1.2 mol, which is 162.2 g/mol, and example 5 prints 291.6 g for 1.8 mol, which is 162.0. The step 6 reader, which never saw the extraction, authored the same structure independently."
+    },
+    "DBU": {
+      "smiles": "C1CCC2=NCCCN2CC1",
+      "slug": "dbu",
+      "note": "Carries a mass and a mole count. 1,8-diazabicyclo[5.4.0]undec-7-ene, the condensing agent of example 4. Checked atom by atom: the bicyclic amidine, C=N at the 7-position, the two nitrogens bridged in a 5.4.0 fusion. Formula from the SMILES is C9H16N2 at 152.24, and the formula the name implies is the same. Corroborated by the patent's own charge: example 4 prints 152 g for 1 mol. The patent's printed Chinese name omits the [5.4.0] bridge descriptor and A1 recorded that; it is not corrected here. Note that the same 152 g is printed for 1 mol of pyridine on the same line, where it does not fit, pyridine being 79.10, and that stays a recorded finding rather than something this structure resolves. The step 6 reader authored the same structure independently."
+    }
+  }
+}

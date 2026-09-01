@@ -1,0 +1,472 @@
+[
+ {
+  "patent_id": "WO2024109718A1",
+  "identifier": "式(III)化合物",
+  "identifier_type": "local_label",
+  "aliases": [
+   "compound of formula (III)",
+   "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr"
+  ],
+  "resolved": false,
+  "unresolved_reference": true,
+  "section_label": "Example 5",
+  "section_type": "experimental_intermediate",
+  "is_section_product": false,
+  "commercially_available": false,
+  "role": "reactant",
+  "quantity": {
+   "mass_g": 83.0,
+   "volume_ml": null,
+   "mmol": null,
+   "equivalents": null,
+   "yield_pct": null
+  },
+  "ms_mz": null,
+  "nmr": null,
+  "melting_point": null,
+  "appearance": null,
+  "color": null,
+  "physical_form": null,
+  "analytics": null,
+  "purity_pct": null,
+  "purity_method": null,
+  "tags": [
+   "compound_class:intermediate",
+   "chemical_family:aryl_sulfone",
+   "functional_group:sulfone",
+   "functional_group:halide_bromo",
+   "functional_group:halide_chloro"
+  ],
+  "notes": "Named only by formula label; the section gives no chemical name. The reaction drawing on line 478 supplies the structure as the scheme reactant, so the SMILES is kept as an alias. Charged as a solution in anhydrous tetrahydrofuran."
+ },
+ {
+  "patent_id": "WO2024109718A1",
+  "identifier": "式(IV)化合物",
+  "identifier_type": "local_label",
+  "aliases": [
+   "compound of formula (IV)",
+   "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F"
+  ],
+  "resolved": false,
+  "unresolved_reference": true,
+  "section_label": "Example 5",
+  "section_type": "experimental_intermediate",
+  "is_section_product": true,
+  "commercially_available": false,
+  "role": "product",
+  "quantity": {
+   "mass_g": null,
+   "volume_ml": null,
+   "mmol": null,
+   "equivalents": null,
+   "yield_pct": null
+  },
+  "ms_mz": null,
+  "nmr": null,
+  "melting_point": {
+   "min_c": 80.0,
+   "max_c": 82.0,
+   "range_text": "熔点80-82℃",
+   "decomposition": null
+  },
+  "appearance": null,
+  "color": null,
+  "physical_form": null,
+  "analytics": [
+   {
+    "method": "hplc",
+    "value": null,
+    "unit": null,
+    "conditions": "Kromasil C18 reversed-phase column; mobile phase acetonitrile:water (with 0.1％ formic acid) 60:40 (V:V); flow rate 1.0mL/min; column temperature 30℃; detection wavelength 210nm; injection volume 5μL",
+    "raw_text": "通过高效液相色谱监测反应完成后加水淬灭"
+   },
+   {
+    "method": "nmr",
+    "value": null,
+    "unit": null,
+    "conditions": "DMSO",
+    "raw_text": "式(IV)化合物的¹HNMR(DMSO)谱图如图9所示，¹³CNMR(DMSO)谱图如图10所示。"
+   }
+  ],
+  "purity_pct": null,
+  "purity_method": null,
+  "tags": [
+   "compound_class:intermediate",
+   "chemical_family:aryl_sulfone",
+   "functional_group:sulfone",
+   "functional_group:ether",
+   "functional_group:trifluoromethyl",
+   "functional_group:halide_bromo",
+   "functional_group:halide_chloro"
+  ],
+  "notes": "Product of the section. Named only by formula label; no isolated mass or yield is printed, only the melting point. The reaction drawing on line 478 gives the structure as the scheme product, so the SMILES is kept as an alias. NMR is reported only as figure references with no peak list printed, so nmr is null and the reference is recorded under analytics."
+ },
+ {
+  "patent_id": "WO2024109718A1",
+  "identifier": "sodium hydride",
+  "identifier_type": "iupac",
+  "aliases": [
+   "氢化钠",
+   "NaH"
+  ],
+  "resolved": true,
+  "unresolved_reference": false,
+  "section_label": "Example 5",
+  "section_type": "experimental_intermediate",
+  "is_section_product": false,
+  "commercially_available": true,
+  "role": "base",
+  "quantity": {
+   "mass_g": 9.2,
+   "volume_ml": null,
+   "mmol": null,
+   "equivalents": null,
+   "yield_pct": null
+  },
+  "ms_mz": null,
+  "nmr": null,
+  "melting_point": null,
+  "appearance": null,
+  "color": null,
+  "physical_form": null,
+  "analytics": null,
+  "purity_pct": 60.0,
+  "purity_method": null,
+  "tags": [
+   "compound_class:base",
+   "hazard:flammable"
+  ],
+  "notes": "Charged as the 60％ material, so purity_pct records the stated strength. Deprotonates trifluoroethanol to form the alkoxide in situ. The Chinese reads 溶于 (dissolved in) tetrahydrofuran, which sodium hydride does not do; transcribed as printed. The patent charges this as the 60% grade; the strength is recorded here and in purity_pct rather than as an alias, because a graded material is not another name for the substance."
+ },
+ {
+  "patent_id": "WO2024109718A1",
+  "identifier": "2,2,2-trifluoroethanol",
+  "identifier_type": "iupac",
+  "aliases": [
+   "三氟乙醇",
+   "trifluoroethanol"
+  ],
+  "resolved": true,
+  "unresolved_reference": false,
+  "section_label": "Example 5",
+  "section_type": "experimental_intermediate",
+  "is_section_product": false,
+  "commercially_available": true,
+  "role": "reactant",
+  "quantity": {
+   "mass_g": 24.0,
+   "volume_ml": null,
+   "mmol": null,
+   "equivalents": null,
+   "yield_pct": null
+  },
+  "ms_mz": null,
+  "nmr": null,
+  "melting_point": null,
+  "appearance": null,
+  "color": null,
+  "physical_form": null,
+  "analytics": null,
+  "purity_pct": null,
+  "purity_method": null,
+  "tags": [
+   "compound_class:reagent",
+   "chemical_family:alcohol",
+   "functional_group:trifluoromethyl"
+  ],
+  "notes": "Supplies the 2,2,2-trifluoroethoxy group of the product, so recorded as reactant. Deprotonated in situ by sodium hydride rather than charged as a pre-formed alkoxide salt."
+ },
+ {
+  "patent_id": "WO2024109718A1",
+  "identifier": "tetrahydrofuran",
+  "identifier_type": "iupac",
+  "aliases": [
+   "anhydrous tetrahydrofuran",
+   "THF"
+  ],
+  "resolved": true,
+  "unresolved_reference": false,
+  "section_label": "Example 5",
+  "section_type": "experimental_intermediate",
+  "is_section_product": false,
+  "commercially_available": true,
+  "role": "solvent",
+  "quantity": {
+   "mass_g": null,
+   "volume_ml": 80.0,
+   "mmol": null,
+   "equivalents": null,
+   "yield_pct": null
+  },
+  "ms_mz": null,
+  "nmr": null,
+  "melting_point": null,
+  "appearance": null,
+  "color": null,
+  "physical_form": null,
+  "analytics": null,
+  "purity_pct": null,
+  "purity_method": null,
+  "tags": [
+   "compound_class:solvent",
+   "chemical_family:cyclic_ether",
+   "functional_group:ether"
+  ],
+  "notes": "Merged across the three charges in the step: 80mL for the sodium hydride, 20mL for the trifluoroethanol solution and 400mL for the式(III)化合物 solution; the first stated volume is kept. Printed throughout as the anhydrous grade. The patent charges this as the anhydrous grade; the grade is recorded here and in the quantity note rather than as an alias, because a grade of a solvent is not another name for it."
+ },
+ {
+  "patent_id": "WO2024109718A1",
+  "identifier": "CF3CH2ONa",
+  "identifier_type": "formula",
+  "aliases": [
+   "sodium 2,2,2-trifluoroethoxide",
+   "三氟乙醇钠"
+  ],
+  "resolved": true,
+  "unresolved_reference": false,
+  "section_label": "Example 5",
+  "section_type": "experimental_intermediate",
+  "is_section_product": false,
+  "commercially_available": false,
+  "role": "reagent",
+  "quantity": {
+   "mass_g": null,
+   "volume_ml": null,
+   "mmol": null,
+   "equivalents": null,
+   "yield_pct": null
+  },
+  "ms_mz": null,
+  "nmr": null,
+  "melting_point": null,
+  "appearance": null,
+  "color": null,
+  "physical_form": null,
+  "analytics": null,
+  "purity_pct": null,
+  "purity_method": null,
+  "tags": [
+   "compound_class:reagent",
+   "chemical_family:alkoxide",
+   "functional_group:trifluoromethyl"
+  ],
+  "notes": "Appears only in the drawn reaction scheme, as the condition over the arrow; the prose never names it. The prose generates it in situ from sodium hydride and trifluoroethanol rather than charging a pre-formed salt, so it is not recorded as commercially available."
+ },
+ {
+  "patent_id": "WO2024109718A1",
+  "identifier": "water",
+  "identifier_type": "iupac",
+  "aliases": [
+   "水"
+  ],
+  "resolved": true,
+  "unresolved_reference": false,
+  "section_label": "Example 5",
+  "section_type": "experimental_intermediate",
+  "is_section_product": false,
+  "commercially_available": true,
+  "role": "reagent",
+  "quantity": {
+   "mass_g": null,
+   "volume_ml": null,
+   "mmol": null,
+   "equivalents": null,
+   "yield_pct": null
+  },
+  "ms_mz": null,
+  "nmr": null,
+  "melting_point": null,
+  "appearance": null,
+  "color": null,
+  "physical_form": null,
+  "analytics": null,
+  "purity_pct": null,
+  "purity_method": null,
+  "tags": [
+   "compound_class:workup_agent"
+  ],
+  "notes": "Merged: used to quench the reaction, and named again as the aqueous component of the HPLC mobile phase. No volume is printed for either use."
+ },
+ {
+  "patent_id": "WO2024109718A1",
+  "identifier": "saturated brine",
+  "identifier_type": "trivial_name",
+  "aliases": [
+   "饱和食盐水",
+   "saturated aqueous sodium chloride"
+  ],
+  "resolved": true,
+  "unresolved_reference": false,
+  "section_label": "Example 5",
+  "section_type": "experimental_intermediate",
+  "is_section_product": false,
+  "commercially_available": true,
+  "role": "other",
+  "quantity": {
+   "mass_g": null,
+   "volume_ml": 40.0,
+   "mmol": null,
+   "equivalents": null,
+   "yield_pct": null
+  },
+  "ms_mz": null,
+  "nmr": null,
+  "melting_point": null,
+  "appearance": null,
+  "color": null,
+  "physical_form": null,
+  "analytics": null,
+  "purity_pct": null,
+  "purity_method": null,
+  "tags": [
+   "compound_class:workup_agent"
+  ],
+  "notes": "Wash for the organic phase; 40mL used twice, the stated single-charge volume is kept."
+ },
+ {
+  "patent_id": "WO2024109718A1",
+  "identifier": "methanol",
+  "identifier_type": "iupac",
+  "aliases": [
+   "甲醇"
+  ],
+  "resolved": true,
+  "unresolved_reference": false,
+  "section_label": "Example 5",
+  "section_type": "experimental_intermediate",
+  "is_section_product": false,
+  "commercially_available": true,
+  "role": "solvent",
+  "quantity": {
+   "mass_g": 120.0,
+   "volume_ml": null,
+   "mmol": null,
+   "equivalents": null,
+   "yield_pct": null
+  },
+  "ms_mz": null,
+  "nmr": null,
+  "melting_point": null,
+  "appearance": null,
+  "color": null,
+  "physical_form": null,
+  "analytics": null,
+  "purity_pct": null,
+  "purity_method": null,
+  "tags": [
+   "compound_class:solvent",
+   "chemical_family:alcohol"
+  ],
+  "notes": "Recrystallisation solvent, printed as 120g 甲醇或乙醇 (methanol or ethanol); the text offers the two as alternatives and states one mass covering either, so the mass is recorded on both records."
+ },
+ {
+  "patent_id": "WO2024109718A1",
+  "identifier": "ethanol",
+  "identifier_type": "iupac",
+  "aliases": [
+   "乙醇"
+  ],
+  "resolved": true,
+  "unresolved_reference": false,
+  "section_label": "Example 5",
+  "section_type": "experimental_intermediate",
+  "is_section_product": false,
+  "commercially_available": true,
+  "role": "solvent",
+  "quantity": {
+   "mass_g": 120.0,
+   "volume_ml": null,
+   "mmol": null,
+   "equivalents": null,
+   "yield_pct": null
+  },
+  "ms_mz": null,
+  "nmr": null,
+  "melting_point": null,
+  "appearance": null,
+  "color": null,
+  "physical_form": null,
+  "analytics": null,
+  "purity_pct": null,
+  "purity_method": null,
+  "tags": [
+   "compound_class:solvent",
+   "chemical_family:alcohol"
+  ],
+  "notes": "Recrystallisation solvent, printed as 120g 甲醇或乙醇 (methanol or ethanol); the text offers the two as alternatives and states one mass covering either, so the mass is recorded on both records."
+ },
+ {
+  "patent_id": "WO2024109718A1",
+  "identifier": "acetonitrile",
+  "identifier_type": "iupac",
+  "aliases": [
+   "乙腈"
+  ],
+  "resolved": true,
+  "unresolved_reference": false,
+  "section_label": "Example 5",
+  "section_type": "experimental_intermediate",
+  "is_section_product": false,
+  "commercially_available": true,
+  "role": "solvent",
+  "quantity": {
+   "mass_g": null,
+   "volume_ml": null,
+   "mmol": null,
+   "equivalents": null,
+   "yield_pct": null
+  },
+  "ms_mz": null,
+  "nmr": null,
+  "melting_point": null,
+  "appearance": null,
+  "color": null,
+  "physical_form": null,
+  "analytics": null,
+  "purity_pct": null,
+  "purity_method": null,
+  "tags": [
+   "compound_class:solvent",
+   "chemical_family:nitrile",
+   "functional_group:nitrile"
+  ],
+  "notes": "Named only as the organic component of the HPLC mobile phase, at 60:40 (V:V) with water; no volume is printed."
+ },
+ {
+  "patent_id": "WO2024109718A1",
+  "identifier": "formic acid",
+  "identifier_type": "iupac",
+  "aliases": [
+   "甲酸"
+  ],
+  "resolved": true,
+  "unresolved_reference": false,
+  "section_label": "Example 5",
+  "section_type": "experimental_intermediate",
+  "is_section_product": false,
+  "commercially_available": true,
+  "role": "additive",
+  "quantity": {
+   "mass_g": null,
+   "volume_ml": null,
+   "mmol": null,
+   "equivalents": null,
+   "yield_pct": null
+  },
+  "ms_mz": null,
+  "nmr": null,
+  "melting_point": null,
+  "appearance": null,
+  "color": null,
+  "physical_form": null,
+  "analytics": null,
+  "purity_pct": null,
+  "purity_method": null,
+  "tags": [
+   "compound_class:acid",
+   "chemical_family:carboxylic_acid",
+   "functional_group:carboxylic_acid"
+  ],
+  "notes": "Named only as the 0.1％ modifier in the aqueous HPLC mobile phase."
+ }
+]

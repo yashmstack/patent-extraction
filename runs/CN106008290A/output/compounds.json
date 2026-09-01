@@ -1,0 +1,2044 @@
+[
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "sodium trifluoroethoxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三氟乙醇钠",
+      "sodium 2,2,2-trifluoroethoxide"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 134.2,
+      "volume_ml": null,
+      "mmol": 1100.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:trifluoromethyl",
+      "functional_group:ether",
+      "compound_class:starting_material",
+      "chemical_family:alkoxide",
+      "chemical_family:alkoxide_salt"
+    ],
+    "notes": "Chinese 三氟乙醇钠 prints no locants; resolved as the sodium salt of trifluoroethanol without inferring the 2,2,2- positions. Supplies the trifluoroethoxy group of the product, so recorded as reactant rather than reagent. | Printed 1.1mol(134.2g) is consistent with the molecular weight the name implies. | Introduces the 2,2,2-trifluoroethoxy group. Printed 1.1mol(134.2g) is consistent with the name. | Named by the text as a 反应底物 (reaction substrate) of step a alongside compound I, so the role follows the text rather than the reagent reading. The printed 三氟乙醇钠 carries no locants; the 2,2,2 positions are not printed. Internally inconsistent with the drawing: the conditions of scheme (1) on line 98 give only MOH/M2CO3 and the scheme does not depict this substrate, although its trifluoroethoxy group appears in the drawn product. The section states its molar ratio to compound I as a range, which quantity cannot hold.",
+    "id": "CN106008290A_sodium trifluoroethoxide",
+    "compound_uuid": "a134f03f-1a47-55aa-b383-aad42553b73b"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Abstract",
+    "section_type": "abstract",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:benzoic_acid",
+      "functional_group:ester",
+      "functional_group:sulfone",
+      "functional_group:halide_chloro",
+      "functional_group:halide_bromo"
+    ],
+    "notes": "The Chinese prints 甲磺基, i.e. methanesulfonyl written without 酰; resolved as methanesulfonyl (甲磺酰基) and recorded here rather than normalised silently. Named twice in the section, once for the invention and once for the traditional method; one merged record.",
+    "id": "CN106008290A_methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate",
+    "compound_uuid": "d7fb7ba0-ef82-5223-8db9-2c8d01c37fcf"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Abstract",
+    "section_type": "abstract",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "The Chinese prints 甲磺基 without 酰; resolved as methanesulfonyl and recorded, not normalised silently. Internal inconsistency: the section says the reaction of 三氟乙醇钠 with the methyl ester yields this free acid (生成的...苯甲酸), but names no ester hydrolysis or demethylation; the Chinese is followed as printed. Merged from two mentions, the invention route and the traditional route.",
+    "id": "CN106008290A_2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid",
+    "compound_uuid": "e864475f-4dfd-56af-a037-1415414a7351"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "1,3-cyclohexanedione",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1，3-环己二酮",
+      "1,3-环己二酮",
+      "O=C1CCCC(=O)C1",
+      "化合物III",
+      "compound III"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 106.7,
+      "volume_ml": null,
+      "mmol": 1100.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:cyclohexanedione",
+      "functional_group:ketone"
+    ],
+    "notes": "Locants are printed by the source (with a fullwidth comma, 1，3-), so the dione is unambiguous and needs no inference. | Second substrate of step b; merged from step b and the molar ratio in claim 5. The locants are printed, so the dione needs no inference. The drawn reactant SMILES of the step b scheme is the 1,3-dione and is carried in aliases. | Printed mass 117.6g for 1.2mol does not agree with the molecular weight this name implies; both numbers kept as printed. The locant is printed by the text, so the 1,3-isomer needs no inference. | The locant is printed, so the 1,3-isomer is not inferred. The section prints it with a half-width comma. | Locant printed by the text, so the 1,3-isomer needs no inference. Printed mass and mole pair 1.5mol(147g) does not agree with the molecular weight of 1,3-cyclohexanedione. Both numbers kept verbatim, neither corrected. | The locant is printed, so the 1,3-isomer needs no inference. Printed pair \"1mol(98g)\" disagrees with the molecular weight 1,3-cyclohexanedione implies; both numbers kept as printed. Carries the local label 化合物III. | Locant is printed by the text (1，3-, with a fullwidth comma), so no inference was needed. MASS_MOLE_MISMATCH: the text prints 1.1mol(106.7g), which implies a molar mass near 97 rather than the 112 the name implies. Recorded as printed, neither number corrected. Distinct from the step b solvent 环己烷 (cyclohexane), which differs by one character. | Substrate of step b, merged with the ratio statement on line 116. The section prints the locant itself (1,3-环己二酮, here with a half-width comma), so no inference from mass or moles is needed. The drawn reactant O=C1CCCC(=O)C1 of scheme (2) is the 1,3-dione and matches; carried in aliases. The molar ratio to compound II is stated as a range, which quantity cannot hold.",
+    "id": "CN106008290A_1,3-cyclohexanedione",
+    "compound_uuid": "7959a162-ae2c-5abf-b1c1-b78da4f96d29"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "tembotrione",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "环磺酮",
+      "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "化合物IV",
+      "compound IV",
+      "成品环磺酮"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Technical Field",
+    "section_type": "technical_field",
+    "is_section_product": true,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": 355.5,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": 83.9
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": 96.3,
+    "purity_method": null,
+    "tags": [
+      "compound_class:active_ingredient",
+      "chemical_family:cyclohexanedione",
+      "chemical_family:triketone",
+      "functional_group:sulfone",
+      "functional_group:ketone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "环磺酮 is the Chinese common name of tembotrione, consistent with the condensation of the printed benzoic acid with 1，3-环己二酮. Translation conflict: the EN line renders it descriptively as 'tembotrione-type cyclic sulfone ketone (huanhuangtong)' and elsewhere as 'the cyclic sulfone ketone', which reads as a compound class; the Chinese names one specific compound and is followed. | 环磺酮 is the standard Chinese common name for tembotrione and is kept as an alias. Named in [0002] as the compound the prior art industrial method prepares, and again in [0003] (传统方法制备环磺酮), so role is product; the two mentions are merged into this one record. is_section_product is false because this is a background section, not a preparative step. The section itself gives no chemical name or structure for it. | 环磺酮 resolved to tembotrione, the 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid, consistent with the trifluoroethoxymethyl benzoic acid named as the key intermediate in this same sentence. It is not sulcotrione (磺草酮), which lacks that group. The section states the invention provides a process for preparing it; no isolated batch is described here. | Named only in the invention title on the cover sheet; the section describes no procedure, so is_section_product is false. Translation conflict: the EN line renders 环磺酮 as \"a cyclic sulfone ketone (huanhuangtong)\", a literal character-by-character gloss that names no specific compound. The Chinese 环磺酮 is the standard common name for tembotrione and is followed here. The printed Int.Cl. classes C07C 315/04, C07C 317/24 and C07C 317/46 are sulfone classes, supporting the sulfone functional group. | Named only by the Chinese common name 环磺酮, in the claim 1 preamble, as the product of step b and in the preamble of every dependent claim; one merged record. Resolved to tembotrione from the structure drawn in the step b scheme (1,3-cyclohexanedione acylated by the step a benzoic acid, C17H16ClF3O6S), not to sulcotrione, which is 磺草酮 and a different compound. The drawn SMILES for the step b product is carried in aliases. | 环磺酮 resolves to tembotrione, the 1,3-cyclohexanedione acylated by the 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl group; it is not sulcotrione (磺草酮), a different compound. Final product of the example. Purity 96.5％ printed with no method stated. | Final product of the example, isolated in step b. 环磺酮 resolves to tembotrione and is kept as an alias. 纯度95.8％ recorded as purity_pct with no method stated. | 环磺酮 resolves to tembotrione, the 1,3-cyclohexanedione acylated by 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid; the Chinese is kept as an alias. Final product of the example, also named in the heading sentence of the example. Purity 97.5％ printed with no method stated. | Merged across the example header and step b. 环磺酮 resolves to tembotrione, confirmed by the structure the route builds; the Chinese name is kept as an alias. Final product of the example. Printed mass 332.9g and yield 80.1％ from 1mol of 化合物II are not mutually consistent with the molecular weight tembotrione implies; both are recorded as printed. Purity 94.6％ is stated with no method. | Merged: named in the example preamble as the target of the preparation and isolated as the step b finished product. 环磺酮 resolves to tembotrione, not to sulcotrione (磺草酮), which is a different compound; 环磺酮 kept as an alias. Final product of the example, so is_section_product is true. Purity is printed without a method, so purity_method is null. | Merged from the object statement (line 89), the process preamble (line 93) and step b, where it is the isolated product 环磺酮（化合物IV）. Printed only by the Chinese common name 环磺酮; the EN lines render it as the untranslated pinyin huanhuangtong. Resolved to tembotrione on the drawn structure of step b, an aroylated 1,3-cyclohexanedione of formula C17H16ClF3O6S; 磺草酮 (sulcotrione) is a different compound. The scheme SMILES on line 103 matches the name and is carried in aliases. | Only compound named in the section. 环磺酮 is the standard Chinese common name for tembotrione, so the resolution is unambiguous; the Chinese is kept as an alias. The EN line renders it as \"tembotrione (huanhuangtong)\", a pinyin gloss rather than a conflicting name. 有机化工技术领域 (field of organic chemical technology) is a field-of-art term, not a compound, so it is not extracted. is_section_product is true because the section states the invention is a process for preparing this compound and names no other.",
+    "id": "CN106008290A_tembotrione",
+    "compound_uuid": "77571259-2087-5d76-a520-45a10c2b29ec"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "2,2,2-trifluoroethanol",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三氟乙醇",
+      "trifluoroethanol"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Beneficial Effects",
+    "section_type": "beneficial_effects",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:trifluoromethyl",
+      "compound_class:starting_material"
+    ],
+    "notes": "Named only as part of the traditional method the invention displaces. Chinese prints no locants, so the 2,2,2- positions are not inferred. | Printed as 三氟乙醇 in the prior art route 三氟乙醇、叔丁醇钾法; resolved to 2,2,2-trifluoroethanol, the only compound that name designates. Role is reactant because it is the source of the trifluoroethoxy group in the named key intermediate. No quantity is given. | Named only as part of the prior-art route the invention says it improves on, not as a reagent of the invention's own method. Bulk commodity solvent/reagent that no step of this section prepares.",
+    "id": "CN106008290A_2,2,2-trifluoroethanol",
+    "compound_uuid": "77d86e44-6883-5adf-80d9-0fb08a0c5c3e"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "potassium tert-butoxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "叔丁醇钾"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Beneficial Effects",
+    "section_type": "beneficial_effects",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": "Named only in the traditional method, which the section says gives low yield and uses an expensive reagent. No number is printed for either. | The text states its role explicitly: 采用叔丁醇钾做碱 (potassium tert-butoxide used as the base). The section criticises it as low-yielding and expensive. | Named only in the prior-art comparison, paired with 三氟乙醇 as the low-yield, high-cost way of making the key intermediate. Bulk commodity base.",
+    "id": "CN106008290A_potassium tert-butoxide",
+    "compound_uuid": "226c8ec3-64f3-57b1-b6a5-3f19d8a3462f"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "acetone cyanohydrin",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "丙酮氰醇"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Beneficial Effects",
+    "section_type": "beneficial_effects",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst",
+      "functional_group:nitrile",
+      "hazard:toxic",
+      "hazard:cyanide_handling"
+    ],
+    "notes": "The section calls it 剧毒催化剂 (highly toxic catalyst), which supports the hazard tags. Printed as 丙酮氰醇 (acetone cyanohydrin), not 氰基丙酮 (cyanoacetone); translated as printed. Belongs to the acid chloride/ester rearrangement route the invention avoids. | The printed string is 丙酮氰醇, read character by character: acetone cyanohydrin, not 氰基丙酮 (cyanoacetone). The text states its role, 为重排催化剂 (as rearrangement catalyst), and warns 剧毒试剂 (highly toxic reagent), which is what the hazard tags record. Chinese and the EN line agree. | Printed 丙酮氰醇, acetone cyanohydrin, not the transposed 氰基丙酮 (cyanoacetone). The Chinese calls it a 剧毒催化剂 (highly toxic catalyst) required by the acid-chloride/ester/rearrangement prior-art route, which the invention avoids; role and hazard tags come from that wording.",
+    "id": "CN106008290A_acetone cyanohydrin",
+    "compound_uuid": "4969bcce-b883-55c8-9471-ac480e3faf60"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Named twice in [0002] as 关键中间体 (key intermediate) of the prior art route; merged into one record. The printed Chinese writes the sulfone as 甲磺基, without 酰; resolved as methylsulfonyl, which is what 甲磺基 denotes here, and the Chinese is kept verbatim as an alias. Role is product because the section says the prior art method prepares it, and it feeds the later acyl chlorination step, hence compound_class intermediate.",
+    "id": "CN106008290A_2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+    "compound_uuid": "b6b08ea3-f619-5b10-860e-0368d1ed7e42"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "thionyl chloride",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "二氯亚砜"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:corrosive"
+    ],
+    "notes": "Printed as 二氯亚砜, a Chinese name for thionyl chloride (SOCl2); resolved, Chinese kept as an alias. The text states its role, 作酰氯化试剂 (as the acyl chlorinating agent), and that 二氯亚砜对环境有很大危害 (it is very harmful to the environment); it names no other hazard, so only corrosive is tagged, per the rule 18 example. Named twice in [0002] and merged into one record.",
+    "id": "CN106008290A_thionyl chloride",
+    "compound_uuid": "56f83f26-4161-5dbd-8f40-796e85b991ad"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "sodium 2,2,2-trifluoroethoxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三氟乙醇钠",
+      "sodium trifluoroethoxide"
+    ],
+    "smiles": null,
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 4",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 134.2,
+      "volume_ml": null,
+      "mmol": 1100.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "functional_group:trifluoromethyl",
+      "compound_class:reagent",
+      "functional_group:ether"
+    ],
+    "notes": "Named by the Chinese as 反应物 (the reactant) of the invention's method. The Chinese writes 三氟乙醇钠 without locants; the 2,2,2- pattern follows from the trifluoroethyl group, which the EN line also renders as sodium trifluoroethoxide. commercially_available left false: this section does not say it is purchased and does not say whether a step of the patent prepares it. | Second substrate of step a; merged from step a and the molar ratio in claim 2. The printed Chinese 三氟乙醇钠 carries no locants; the trifluoroethoxy group in the drawn step a product is OCH2CF3, which fixes the 2,2,2 substitution. | Charged in step a. Printed mass and mole pair agree with the molecular weight the name implies. | Printed as 三氟乙醇钠 with no locants; resolved to the sodium salt of 2,2,2-trifluoroethanol. Printed pair 1.2mol(146.4g) does not agree with the molecular weight the name implies; both numbers kept as printed. | Charged in step a. Printed pair 1.1mol(134.2g) is consistent with the molecular weight the name implies.",
+    "id": "CN106008290A_sodium 2,2,2-trifluoroethoxide",
+    "compound_uuid": "a5181cbc-f6b6-5638-a126-1b3868bac03f"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "2-chloro-3-(trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸"
+    ],
+    "smiles": null,
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Beneficial Effects",
+    "section_type": "beneficial_effects",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:halide_chloro",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "The Chinese calls it 关键中间体 (key intermediate), so role is product of that preparation step and not the product of this section. Two points where the printed Chinese and the EN line differ, and the Chinese is followed: the Chinese writes 甲磺基 (methylsulfonyl) without 酰, and it writes 三氟乙氧甲基 with no locants, where the EN line supplies 2,2,2-trifluoroethoxymethyl. Both are recorded as printed.",
+    "id": "CN106008290A_2-chloro-3-(trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+    "compound_uuid": "e9f336e1-8de1-5a46-ba52-967c99910300"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯",
+      "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "化合物I",
+      "compound I"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 4",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 318.0,
+      "volume_ml": null,
+      "mmol": 1000.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:benzyl_halide",
+      "functional_group:ester",
+      "functional_group:sulfone",
+      "functional_group:halide_bromo",
+      "functional_group:halide_chloro",
+      "chemical_family:benzoic_acid",
+      "chemical_family:aryl_sulfone"
+    ],
+    "notes": "Substrate of step a; merged from step a and from the ratios stated in claims 2, 3 and 10. The printed Chinese writes the sulfone as 甲磺基, without 酰; resolved as methylsulfonyl and kept as printed rather than normalised to 甲磺酰基. The EN convenience line renders it methanesulfonyl. The drawn reactant SMILES of the step a scheme matches the name and is carried in aliases. Claim 10 gives the weight ratio of reaction solvent to this compound as 2-8: and stops at the page break; the remainder is printed as a bare 1。 on the next page. Recorded as printed, not completed by inference. | The Chinese prints 甲磺基 without 酰; resolved as methylsulfonyl and not normalised in the identifier alias. Printed pair 1.0mol(318g) does not agree with the molecular weight the name implies; both numbers kept as printed. | The Chinese prints the sulfonyl group as 甲磺基, without 酰; resolved as printed to methylsulfonyl and not normalised in the identifier. Printed mass and mole pair 1.0mol(318g) does not agree with the molecular weight this name implies. Both numbers kept verbatim, neither corrected. | The Chinese prints the sulfonyl group as 甲磺基, without 酰; resolved as methylsulfonyl and not normalised in the identifier source. Printed pair \"1.0mol(318g)\" disagrees with the molecular weight the name implies; both numbers kept as printed. Carries the local label 化合物I.",
+    "id": "CN106008290A_methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+    "compound_uuid": "31d0be86-870c-5daf-9101-afd2635b330b"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸",
+      "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Isolated product of step a and substrate of step b; one merged record, is_section_product false because step b's product closes the section. The printed Chinese writes the sulfone as 甲磺基, without 酰; resolved as methylsulfonyl and kept as printed rather than normalised to 甲磺酰基. The EN convenience line renders it methanesulfonyl. The printed 三氟乙氧甲基 carries no locants; the drawn structure gives OCH2CF3. Claim 1 step a adds MOH or M2CO3, with M defined as one of the Li, Na and K ions; M is a variable, so no compound record is emitted for the hydroxide or the carbonate. Claim 10 gives the weight ratio of reaction solvent to this compound as 2-8: and stops at the page break; the remainder is printed as a bare 1。 on the next page. Recorded as printed, not completed by inference.",
+    "id": "CN106008290A_2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+    "compound_uuid": "bfb07d0a-5e34-57cc-ac6d-44f600255235"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "sodium carbonate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "碳酸钠"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": 129.6,
+      "volume_ml": null,
+      "mmol": 1200.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "chemical_family:carbonate_salt"
+    ],
+    "notes": "Listed by claim 6 as one of the 碱催化剂 (base catalysts) for step b. The text calls the class a catalyst; role base follows its stated function of the class, and claim 5 puts the base catalyst at 1-3 relative to the step a acid. | Printed mass and mole pair 1.2mol(129.6g) does not agree with the molecular weight of sodium carbonate. Both numbers kept verbatim, neither corrected. | One of five alternatives the text lists for the 碱催化剂 (base catalyst) of step b. The text calls it a catalyst, but its stated molar ratio to compound II is 1-3:1, so the role is recorded as base. Bulk commodity, not prepared by any step here.",
+    "id": "CN106008290A_sodium carbonate",
+    "compound_uuid": "c14c627a-6b4c-5201-8594-16baf2addbc4"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "potassium carbonate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "碳酸钾"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": 690.0,
+      "volume_ml": null,
+      "mmol": 5000.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "chemical_family:metal_carbonate",
+      "chemical_family:carbonate_salt"
+    ],
+    "notes": "Listed by claim 6 as one of the 碱催化剂 (base catalysts) for step b. The text calls the class a catalyst; role base follows its stated function of the class, and claim 5 puts the base catalyst at 1-3 relative to the step a acid. | Step a base. Printed pair \"1.2mol(166.8g)碳酸钾\" does not agree with the molecular weight potassium carbonate implies; both numbers kept as printed. Example 3 of this patent uses sodium carbonate in the same slot. | Base for step b. Printed 5mol(690g) is consistent with the name. | One of five alternatives the text lists for the 碱催化剂 (base catalyst) of step b. The text calls it a catalyst, but its stated molar ratio to compound II is 1-3:1, so the role is recorded as base. Bulk commodity, not prepared by any step here.",
+    "id": "CN106008290A_potassium carbonate",
+    "compound_uuid": "8ff5b00b-eeca-5955-bb0e-63193505b7ea"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "calcium hydroxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氢氧化钙"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": 222.0,
+      "volume_ml": null,
+      "mmol": 3000.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "chemical_family:hydroxide_salt"
+    ],
+    "notes": "Listed by claim 6 as one of the 碱催化剂 (base catalysts) for step b. The text calls the class a catalyst; role base follows its stated function of the class, and claim 5 puts the base catalyst at 1-3 relative to the step a acid. | Printed 3mol(222g) is consistent with the molecular weight the name implies. | One of five alternatives the text lists for the 碱催化剂 (base catalyst) of step b. The text calls it a catalyst, but its stated molar ratio to compound II is 1-3:1, so the role is recorded as base. Bulk commodity, not prepared by any step here.",
+    "id": "CN106008290A_calcium hydroxide",
+    "compound_uuid": "54980bfc-9ebd-53a2-932e-71ebb0affe1e"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "triethylamine",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三乙胺"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": 121.2,
+      "volume_ml": null,
+      "mmol": 1200.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "chemical_family:tertiary_amine",
+      "chemical_family:trialkylamine"
+    ],
+    "notes": "Listed by claim 6 as one of the 碱催化剂 (base catalysts) for step b. The text calls the class a catalyst; role base follows its stated function of the class, and claim 5 puts the base catalyst at 1-3 relative to the step a acid. | One of five alternatives the text lists for the 碱催化剂 (base catalyst) of step b. The text calls it a catalyst, but its stated molar ratio to compound II is 1-3:1, so the role is recorded as base. Bulk commodity, not prepared by any step here.",
+    "id": "CN106008290A_triethylamine",
+    "compound_uuid": "6d644627-0b77-5b8d-b615-4c90f619c64d"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "pyridine",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "吡啶"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": 152.0,
+      "volume_ml": null,
+      "mmol": 1000.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "chemical_family:pyridine"
+    ],
+    "notes": "Listed by claim 6 as one of the 碱催化剂 (base catalysts) for step b. The text calls the class a catalyst; role base follows its stated function of the class, and claim 5 puts the base catalyst at 1-3 relative to the step a acid. | Added with the condensing agent in step b; the text assigns it no explicit function, so the role is read from the chemistry. Printed pair \"1mol(152g)吡啶\" disagrees with the molecular weight pyridine implies, and repeats the mass printed on the same line for DBU; both numbers kept as printed. | One of five alternatives the text lists for the 碱催化剂 (base catalyst) of step b. The text calls it a catalyst, but its stated molar ratio to compound II is 1-3:1, so the role is recorded as base. Bulk commodity, not prepared by any step here.",
+    "id": "CN106008290A_pyridine",
+    "compound_uuid": "8259b454-24f3-54bb-b0ab-640059b3d6ef"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "N,N'-carbonyldiimidazole",
+    "identifier_type": "iupac",
+    "aliases": [
+      "CDI",
+      "N,N'-羰基二咪唑",
+      "N,N’-羰基二咪唑"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:imidazole"
+    ],
+    "notes": "Claim 7 lists CDI as a 缩合剂 (condensing agent) for step b and defines it as N,N'-羰基二咪唑; the abbreviation is resolved from that definition. Claim 5 puts the condensing agent at 1-2 relative to the step a acid. | One of four alternatives the text lists for the 缩合剂 (condensing agent) of step b; the section itself defines CDI as N,N’-羰基二咪唑, so the abbreviation resolves. The Chinese uses a typographic apostrophe; the identifier uses ASCII. Molar ratio to compound II is stated as a range, which quantity cannot hold.",
+    "id": "CN106008290A_N,N'-carbonyldiimidazole",
+    "compound_uuid": "bc953be4-77d5-5cb6-834e-33d9a8fef0f2"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "O-benzotriazolyl-tetramethyluronium hexafluorophosphate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "HBTU",
+      "O-苯并三氮唑-四甲基脲六氟磷酸酯",
+      "O-benzotriazol-tetramethyluronium hexafluorophosphate"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:benzotriazole"
+    ],
+    "notes": "Claim 7 lists HBTU as a 缩合剂 and defines it as O-苯并三氮唑-四甲基脲六氟磷酸酯. The printed name is translated as printed: it gives no attachment locant on the benzotriazole and no N,N,N',N' locants on the tetramethyluronium, and 六氟磷酸酯 reads literally as a hexafluorophosphate ester where HBTU is the hexafluorophosphate salt. Not corrected here. This claim writes benzotriazole as 苯并三氮唑 while the HOBT definition on the same line writes 苯并三唑. | One of four condensing agents listed for step b; defined in the section as HBTU. The printed Chinese name is incomplete: it carries no 1-yl locant on the benzotriazole and no N,N,N',N' locants on the tetramethyl group, and 脲 is urea rather than uronium. Resolved on the abbreviation the section supplies, translated from what is printed and not normalised.",
+    "id": "CN106008290A_O-benzotriazolyl-tetramethyluronium hexafluorophosphate",
+    "compound_uuid": "5e7a29dd-4247-5ae9-a0b7-254ef7fa904c"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "1-hydroxybenzotriazole",
+    "identifier_type": "iupac",
+    "aliases": [
+      "HOBT",
+      "1-羟基苯并三唑"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:benzotriazole"
+    ],
+    "notes": "Claim 7 lists HOBT as a 缩合剂 and defines it as 1-羟基苯并三唑. Same line writes benzotriazole two ways, 苯并三唑 here and 苯并三氮唑 in the HBTU definition; both resolve to benzotriazole and neither is corrected. | One of four condensing agents listed for step b; defined in the section as HOBT. The same line names the same ring system two ways, 苯并三氮唑 for HBTU and 苯并三唑 here; both are recorded as printed.",
+    "id": "CN106008290A_1-hydroxybenzotriazole",
+    "compound_uuid": "2e3f94ab-aca2-5a3d-a23c-dfc046a76476"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "1,8-diazabicycloundec-7-ene",
+    "identifier_type": "iupac",
+    "aliases": [
+      "DBU",
+      "1,8-二氮杂二环十一碳-7-烯"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:amidine"
+    ],
+    "notes": "Claim 7 lists DBU among the 缩合剂 (condensing agents) and defines it as 1,8-二氮杂二环十一碳-7-烯. The printed name omits the bicyclic bridge descriptor that the usual form, 1,8-diazabicyclo[5.4.0]undec-7-ene, carries; translated as printed. Role reagent follows the class the claim assigns it. | One of four condensing agents listed for step b; defined in the section as DBU. The printed Chinese name omits the [5.4.0] bridge descriptor; translated as printed. The text classes DBU as a 缩合剂 (condensing agent), not as the base catalyst, so the role follows the text.",
+    "id": "CN106008290A_1,8-diazabicycloundec-7-ene",
+    "compound_uuid": "36f6a001-ad01-57b8-8964-59f0d72027a1"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "hexane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "己烷"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:alkane"
+    ],
+    "notes": "One of the reaction solvents claim 9 offers for step a or/and step b. | Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example. | One of thirteen alternatives the text lists as the reaction solvent for step a or/and step b. Bulk commodity solvent, not prepared by any step here. The solvent to substrate weight ratio is stated as a range, which quantity cannot hold. The printed 己烷 carries no locant or n- prefix; read as hexane.",
+    "id": "CN106008290A_hexane",
+    "compound_uuid": "be08fae5-f8b4-5523-a765-7600e048a0bb"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "cyclohexane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "环己烷"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 1000.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:cycloalkane"
+    ],
+    "notes": "One of the reaction solvents claim 9 offers for step a or/and step b. | Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example. 环己烷 is cyclohexane, one glyph from 环己二酮 (cyclohexanedione) which is the step b reactant; they are different compounds. | Step b solvent. The Chinese reads 环己烷 (cyclohexane), character by character, not 环己二酮; Example 3 uses 二氯乙烷 in the same slot. Recorded as printed. | Step b reaction solvent, read character by character: 环己烷 (cyclohexane), not 环己二酮 (cyclohexanedione), which appears separately in the same line as a reactant. | One of thirteen alternatives the text lists as the reaction solvent for step a or/and step b. Bulk commodity solvent, not prepared by any step here. The solvent to substrate weight ratio is stated as a range, which quantity cannot hold.",
+    "id": "CN106008290A_cyclohexane",
+    "compound_uuid": "ec16da1d-04fd-58ca-a563-a9990c2e2830"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "N,N-dimethylformamide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "N,N-二甲基甲酰胺",
+      "DMF",
+      "N，N-二甲基甲酰胺"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 1000.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:amide",
+      "functional_group:amide"
+    ],
+    "notes": "One of the reaction solvents claim 9 offers for step a or/and step b. | Merged: reaction solvent of step a (1000mL, later distilled off under reduced pressure) and one of the listed alternative solvents for step b. | Reaction solvent in step a; distilled off under reduced pressure. | Charged as the step a solvent and later distilled off under reduced pressure. | Step a reaction solvent, later distilled off under reduced pressure. | Merged: charged as the step a solvent (1000mL) and distilled off under reduced pressure later in the same step. The name is printed with a halfwidth comma on the first page and a fullwidth comma (N，N-) after the page break; both retained as aliases. | One of thirteen alternatives the text lists as the reaction solvent for step a or/and step b. Bulk commodity solvent, not prepared by any step here. The solvent to substrate weight ratio is stated as a range, which quantity cannot hold.",
+    "id": "CN106008290A_N,N-dimethylformamide",
+    "compound_uuid": "6206d4f4-6212-595d-a86b-aa5b5b9ae5d1"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "benzene",
+    "identifier_type": "iupac",
+    "aliases": [
+      "苯"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:benzene",
+      "chemical_family:arene"
+    ],
+    "notes": "One of the reaction solvents claim 9 offers for step a or/and step b. | Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example. | One of thirteen alternatives the text lists as the reaction solvent for step a or/and step b. Bulk commodity solvent, not prepared by any step here. The solvent to substrate weight ratio is stated as a range, which quantity cannot hold.",
+    "id": "CN106008290A_benzene",
+    "compound_uuid": "c3c22739-8a9c-5701-8c51-c12463ef464b"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "toluene",
+    "identifier_type": "iupac",
+    "aliases": [
+      "甲苯"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:toluene",
+      "chemical_family:arene"
+    ],
+    "notes": "One of the reaction solvents claim 9 offers for step a or/and step b. | Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example. | One of thirteen alternatives the text lists as the reaction solvent for step a or/and step b. Bulk commodity solvent, not prepared by any step here. The solvent to substrate weight ratio is stated as a range, which quantity cannot hold.",
+    "id": "CN106008290A_toluene",
+    "compound_uuid": "2b1511f7-6fdf-599c-9c69-aed8dc319430"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "xylene",
+    "identifier_type": "iupac",
+    "aliases": [
+      "二甲苯"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:xylene",
+      "chemical_family:arene"
+    ],
+    "notes": "One of the reaction solvents claim 9 offers for step a or/and step b. 二甲苯 names the dimethylbenzenes without saying which isomer or whether a mixture is meant, so resolved is false. | Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example. Printed without an isomer locant, so it names mixed xylene rather than one isomer. | One of thirteen alternatives the text lists as the reaction solvent for step a or/and step b. Bulk commodity solvent, not prepared by any step here. The solvent to substrate weight ratio is stated as a range, which quantity cannot hold. Left unresolved: 二甲苯 names dimethylbenzene without saying which isomer, and the section prints no locant.",
+    "id": "CN106008290A_xylene",
+    "compound_uuid": "12c15a47-0358-5235-a34f-f65e223be263"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "dichloromethane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "二氯甲烷"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 1000.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:chloroalkane",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "One of the reaction solvents claim 9 offers for step a or/and step b. | Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example. | Reaction solvent in step b. | One of thirteen alternatives the text lists as the reaction solvent for step a or/and step b. Bulk commodity solvent, not prepared by any step here. The solvent to substrate weight ratio is stated as a range, which quantity cannot hold.",
+    "id": "CN106008290A_dichloromethane",
+    "compound_uuid": "c492819e-65a8-55fa-a6ee-a0e7ce229401"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "1,2-dichloroethane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,2-二氯乙烷"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 1000.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:chloroalkane",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "One of the reaction solvents claim 9 offers for step a or/and step b. | Merged: one of the listed alternative solvents for step a and the reaction solvent of step b (1000mL). | One of thirteen alternatives the text lists as the reaction solvent for step a or/and step b. Bulk commodity solvent, not prepared by any step here. The solvent to substrate weight ratio is stated as a range, which quantity cannot hold.",
+    "id": "CN106008290A_1,2-dichloroethane",
+    "compound_uuid": "f33b9779-cd89-5537-94fc-25913b49a167"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "chloroform",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "氯仿"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:chloroalkane",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "One of the reaction solvents claim 9 offers for step a or/and step b. | Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example. | One of thirteen alternatives the text lists as the reaction solvent for step a or/and step b. Bulk commodity solvent, not prepared by any step here. The solvent to substrate weight ratio is stated as a range, which quantity cannot hold.",
+    "id": "CN106008290A_chloroform",
+    "compound_uuid": "51fcb433-b771-5b88-907a-ee3873036742"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "1,4-dioxane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,4-二氧六环"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:ether",
+      "functional_group:ether"
+    ],
+    "notes": "One of the reaction solvents claim 9 offers for step a or/and step b. | Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example. | One of thirteen alternatives the text lists as the reaction solvent for step a or/and step b. Bulk commodity solvent, not prepared by any step here. The solvent to substrate weight ratio is stated as a range, which quantity cannot hold.",
+    "id": "CN106008290A_1,4-dioxane",
+    "compound_uuid": "30381e0b-190c-5c9e-890e-b34022798c84"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "diethyl ether",
+    "identifier_type": "iupac",
+    "aliases": [
+      "乙醚"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:ether",
+      "functional_group:ether"
+    ],
+    "notes": "One of the reaction solvents claim 9 offers for step a or/and step b. | Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example. | One of thirteen alternatives the text lists as the reaction solvent for step a or/and step b. Bulk commodity solvent, not prepared by any step here. The solvent to substrate weight ratio is stated as a range, which quantity cannot hold.",
+    "id": "CN106008290A_diethyl ether",
+    "compound_uuid": "3302339f-e426-5568-b573-d195815a1f30"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "tetrahydrofuran",
+    "identifier_type": "iupac",
+    "aliases": [
+      "四氢呋喃"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:ether",
+      "functional_group:ether"
+    ],
+    "notes": "One of the reaction solvents claim 9 offers for step a or/and step b. | Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example. | One of thirteen alternatives the text lists as the reaction solvent for step a or/and step b. Bulk commodity solvent, not prepared by any step here. The solvent to substrate weight ratio is stated as a range, which quantity cannot hold.",
+    "id": "CN106008290A_tetrahydrofuran",
+    "compound_uuid": "187a7135-dbae-59bd-bb8c-e0e1211a0c9e"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "acetonitrile",
+    "identifier_type": "iupac",
+    "aliases": [
+      "乙腈"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:nitrile",
+      "functional_group:nitrile"
+    ],
+    "notes": "One of the reaction solvents claim 9 offers for step a or/and step b. | Named only as one of the alternative reaction solvents listed for step a and for step b; not charged in this example. | One of thirteen alternatives the text lists as the reaction solvent for step a or/and step b. Bulk commodity solvent, not prepared by any step here. The solvent to substrate weight ratio is stated as a range, which quantity cannot hold.",
+    "id": "CN106008290A_acetonitrile",
+    "compound_uuid": "bfa7aa38-6ef0-5bd5-a20f-908eae2f3e59"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "sodium hydroxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氢氧化钠"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": 48.0,
+      "volume_ml": null,
+      "mmol": 1200.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "hazard:corrosive"
+    ],
+    "notes": null,
+    "id": "CN106008290A_sodium hydroxide",
+    "compound_uuid": "720e13eb-f32f-5ecd-a0da-2d62ace8debf"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯",
+      "化合物I",
+      "compound I"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 1",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 318.0,
+      "volume_ml": null,
+      "mmol": 1000.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:benzoic_acid",
+      "functional_group:ester",
+      "functional_group:sulfone",
+      "functional_group:halide_chloro",
+      "functional_group:halide_bromo"
+    ],
+    "notes": "Printed mass 318g for 1.0mol does not agree with the molecular weight this name implies; both numbers kept as printed. The Chinese prints methylsulfonyl as 甲磺基, without 酰; resolved as printed and not normalised.",
+    "id": "CN106008290A_methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate",
+    "compound_uuid": "2fa51fc1-4c82-52f2-b9ac-50bc656f2fda"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "water",
+    "identifier_type": "iupac",
+    "aliases": [
+      "水"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 5",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 300.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:workup_agent"
+    ],
+    "notes": "Merged: 300mL crystallisation medium in step a, the water wash in step a and the water wash in step b. | Merged: 300mL 水 as the crystallisation medium in step a, 水洗 as the wash in step a and in step b. One record. | 300mL water receives the residue for crystallisation; water is also used as a wash in step a and in step b. Merged into one record. | Merged across the two uses in this example: 300mL as the crystallisation medium for the step a residue, and as the wash in step a and step b. The volume is the step a charge; the washes are given no quantity. | Merged: 300mL used to precipitate the step a residue, plus unquantified water washes in step a and step b (水洗). Only the stated volume is recorded.",
+    "id": "CN106008290A_water",
+    "compound_uuid": "be0a485d-a67d-55b2-933c-80d6d2da1c16"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "hydrochloric acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "盐酸",
+      "35％的盐酸"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 5",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "acid",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:acid",
+      "hazard:corrosive"
+    ],
+    "notes": "Printed as 35％ aqueous hydrochloric acid, used to adjust pH to weakly acidic. No amount given. | Printed as 35％的盐酸; the 35％ is the concentration of the aqueous acid used to adjust pH, not a purity assay, so purity_pct left null. | Printed as 35％的盐酸; used to adjust pH to weakly acidic. No amount given. | Used at 35％ strength to adjust the step a residue to weakly acidic pH. No quantity is given. | Used at 35% strength to adjust pH to weakly acidic; no amount stated.",
+    "id": "CN106008290A_hydrochloric acid",
+    "compound_uuid": "a9c41e82-05e6-5139-bcbc-af95a36ab98e"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "化合物II",
+    "identifier_type": "local_label",
+    "aliases": [
+      "compound II"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Example 5",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": 318.3,
+      "volume_ml": null,
+      "mmol": 1000.0,
+      "equivalents": null,
+      "yield_pct": 92.0
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate"
+    ],
+    "notes": "Local label; this section does not state what compound II is, so it is left unresolved. Merged across the two steps: 314.8g and 91％ are the isolated step a product, 1mol is the step b charge of the same material. | Merged: isolated product of step a (321.7g, 收率93％) and the 1mol substrate of step b. One record at role product. This section never states what 化合物II is, so the label is kept unresolved. | Local label; this section never states what compound II is, so it is left unresolved. One record merged from step a, where it is the isolated product printed as 称重得311.4g,收率90％, and step b, where 1mol of it is charged as the reactant. The 1mol charge of step b is a separate figure from the 311.4g isolated in step a and the two are not printed as a paired mass and mole. | Local label; this section never states what 化合物II is, so it is left unresolved. Merged across the two steps: isolated in step a as 321.7g at 93％ yield from 1.0mol of 化合物I, and charged in step b as 1mol. Those two are internally inconsistent, since a 93％ yield on 1.0mol cannot furnish 1mol; both are recorded as printed. | Merged: isolated as the step a product (318.3g, 92%) and taken as the step b reactant (1mol). This section never states what compound II is, so the local label is kept unresolved. The mass and the mole figure come from different steps and are not a printed pair.",
+    "id": "CN106008290A_化合物II",
+    "compound_uuid": "f63eeec4-508b-5fa9-84f3-8ad3954bf34f"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "CDI",
+    "identifier_type": "abbreviation",
+    "aliases": [
+      "缩合剂CDI",
+      "1,1'-carbonyldiimidazole"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 5",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": 291.6,
+      "volume_ml": null,
+      "mmol": 1800.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:imidazole"
+    ],
+    "notes": "Printed only as the abbreviation CDI, labelled 缩合剂 (condensing agent). Printed mass and mole pair agree with 1,1'-carbonyldiimidazole. | Printed as 缩合剂CDI (condensing agent CDI); read as 1,1'-carbonyldiimidazole, consistent with the printed 1.8mol(291.6g) pair. Abbreviation kept as the identifier because the text never spells it out.",
+    "id": "CN106008290A_CDI",
+    "compound_uuid": "6b07eaa0-a030-5233-814e-8b2575beda0e"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "methanol",
+    "identifier_type": "iupac",
+    "aliases": [
+      "甲醇",
+      "甲、醇"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 5",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:alcohol"
+    ],
+    "notes": "Added to slurry the crude product in step b. No amount given. | Used to slurry the crude product (加甲醇打浆); no quantity printed. | Printed 加甲、醇打浆, with an enumeration comma sitting inside the two characters of the word for methanol, so the string as printed names no compound. The identifier is resolved to English methanol and the printed form 甲、醇 kept as an alias; the record stays unresolved because that reading rests on the parallel step of the other examples rather than on this line, and the misprint is left uncorrected. The EN line reads slurried with methanol. No quantity given. | Slurrying medium in the step b workup. No quantity is given. Printed cleanly here as 加甲醇打浆, unlike Example 3. | Used to slurry the crude product in the step b workup (加甲醇打浆); no amount stated.",
+    "id": "CN106008290A_methanol",
+    "compound_uuid": "8fc156ee-2f89-54e1-aae8-59132f84eac8"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "potassium hydroxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氢氧化钾"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 2",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": 67.2,
+      "volume_ml": null,
+      "mmol": 1200.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": null,
+    "id": "CN106008290A_potassium hydroxide",
+    "compound_uuid": "60c8d14f-eb86-54b0-a4b4-1a49a2664cda"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "HBTU",
+    "identifier_type": "abbreviation",
+    "aliases": [
+      "缩合剂HBTU"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 2",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": 758.0,
+      "volume_ml": null,
+      "mmol": 2000.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Named in the text only as 缩合剂HBTU (condensing agent HBTU); the abbreviation is kept as printed and not expanded.",
+    "id": "CN106008290A_HBTU",
+    "compound_uuid": "c1efa09d-6869-536b-917c-bc51ff60c859"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "dichloroethane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "二氯乙烷"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Example 3",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": 1000.0,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "smiles": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Printed 二氯乙烷 with no locant. The Chinese resolves unambiguously to English dichloroethane, so the identifier is the English name with the Chinese kept as an alias, but the text does not say which isomer, so the record stays unresolved. Claim 9 and the summary of the invention print the 1,2- locant; this step does not, so the 1,2-isomer is not inferred here. The EN line likewise reads only dichloroethane.",
+    "id": "CN106008290A_dichloroethane",
+    "compound_uuid": "931a0c1f-ab93-5348-8e4b-eaad3316345b"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "HOBT",
+    "identifier_type": "abbreviation",
+    "aliases": [
+      "缩合剂HOBT",
+      "1-hydroxybenzotriazole"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 3",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": 405.0,
+      "volume_ml": null,
+      "mmol": 3000.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "smiles": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Named 缩合剂HOBT, the condensing agent. Printed 3mol(405g) is consistent with the molecular weight of 1-hydroxybenzotriazole.",
+    "id": "CN106008290A_HOBT",
+    "compound_uuid": "0804361a-5749-51eb-b06b-e7a3d1130111"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "DBU",
+    "identifier_type": "abbreviation",
+    "aliases": [
+      "缩合剂DBU",
+      "1,8-diazabicyclo[5.4.0]undec-7-ene"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 4",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": 152.0,
+      "volume_ml": null,
+      "mmol": 1000.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Named by the text as the condensing agent (缩合剂). Printed pair 1mol(152g) is consistent with the molecular weight DBU implies. Example 3 uses HOBT in the same slot.",
+    "id": "CN106008290A_DBU",
+    "compound_uuid": "6f31b47e-2d84-5264-9b9e-dc042b535cf1"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "lithium hydroxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氢氧化锂"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 5",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": 28.8,
+      "volume_ml": null,
+      "mmol": 1200.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "chemical_family:metal_hydroxide"
+    ],
+    "notes": "Base for step a. Printed 1.2mol(28.8g) is consistent with the name.",
+    "id": "CN106008290A_lithium hydroxide",
+    "compound_uuid": "dc1e2083-7fcb-508c-9b48-3d8f16862945"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯",
+      "化合物I",
+      "compound I",
+      "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 318.0,
+      "volume_ml": null,
+      "mmol": 1000.0,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:benzoic_acid",
+      "functional_group:ester",
+      "functional_group:sulfone",
+      "functional_group:halide_bromo",
+      "functional_group:halide_chloro",
+      "chemical_family:benzoate_ester"
+    ],
+    "notes": "The Chinese prints 甲磺基 (methylsulfonyl) without 酰; resolved as printed and not normalised. MASS_MOLE_MISMATCH: the text prints 1.0mol(318g), which implies a molar mass near 318 rather than the value the name implies. Recorded as printed, neither number corrected. | Substrate of step a and the first material of the route; no step in this section prepares it and the text does not say it is purchased, so commercially_available is left false. The Chinese writes methylsulfonyl as 甲磺基, without 酰; resolved as printed, not normalised. The drawn reactant of scheme (1) on line 98 matches the name atom for atom and is carried in aliases. The section states molar ratios against this compound (三氟乙醇钠 1.1-1.2:1, MOH/M2CO3 1-1.5:1, solvent by weight 2-8:1) as ranges, which quantity cannot hold.",
+    "id": "CN106008290A_methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+    "compound_uuid": "481c72d9-dfcb-5138-96c7-5c4245526449"
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸",
+      "化合物II",
+      "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:halide_chloro",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "One record merged from the product of step a and the substrate of step b. is_section_product is false: the section ends with 环磺酮. The Chinese writes methylsulfonyl as 甲磺基 without 酰 and prints no locants on 三氟乙氧, resolved as printed. Prose and drawing agree that step a delivers the free acid from a methyl ester, though no hydrolysis reagent is named. The drawn structure (product of scheme 1, reactant of scheme 2) matches the name and is carried in aliases. Molar ratios in the section are stated as ranges against this compound, which quantity cannot hold.",
+    "id": "CN106008290A_2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+    "compound_uuid": "4e7a17c3-7058-5658-98de-5ad5c9999ea9"
+  }
+]

@@ -1,0 +1,368 @@
+{
+  "page": "p05.png",
+  "page_label": "4",
+  "doc_part": "description",
+  "header": "WO 2024/109718                                                    PCT/CN2023/132821",
+  "footer": "",
+  "paragraphs": [
+    {
+      "marker": "[0014]",
+      "zh": "(4)根据上述(3)所述的方法，所述步骤(i)～(iv)分别独立地为以下步骤：",
+      "en": "(4) The method according to (3) above, wherein said steps (i) to (iv) are each independently the following steps:",
+      "notes": null
+    },
+    {
+      "marker": "[0015]",
+      "zh": "步骤(iii')中，溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素；步骤(iv')中，CF3CH2OM为CF3CH2ONa或CF3CH2OK。",
+      "en": "In step (iii'), the brominating reagent is bromine, N-bromosuccinimide, or a combination of hydrogen bromide and hydrogen peroxide, preferably bromine; in step (iv'), CF3CH2OM is CF3CH2ONa or CF3CH2OK.",
+      "notes": "Subscripts in CF3CH2OM, CF3CH2ONa and CF3CH2OK are printed as typographic subscripts; transcribed here as plain digits. The hyphen in N-溴代丁二酰亚胺 is printed as a short dash."
+    },
+    {
+      "marker": "[0016]",
+      "zh": "(5)根据上述(1)至(4)中任意一项所述的方法，其包括如下所示的中间体制备步骤：",
+      "en": "(5) The method according to any one of (1) to (4) above, comprising the intermediate preparation steps shown below:",
+      "notes": null
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "scheme",
+      "between_markers": [null, "[0014]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, left of the (ii) row (top row of the page)",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH3 at C3", "SCH3 at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+          "smiles": "Brc1ccc(SC)c(C)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, right of the (ii) row",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(C)c1Cl",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Labelled (ii) at the right. The scheme is unlabelled on the arrow: no reagent is written above or below it. This row continues a list of steps (i)-(iv) that begins on the previous page; step (i) is not on this page."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": [null, "[0014]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, left of the (iii) row (2nd row of the page)",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(C)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, right of the (iii) row",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2Br at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Labelled (iii) at the right. Bare arrow, no reagents written."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": [null, "[0014]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, left of the (iv) row (3rd row of the page)",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2Br at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, right of the (iv) row",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Labelled (iv)。 at the right, with a full-width Chinese full stop after the parenthesis, ending the (i)-(iv) list."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": ["[0014]", "[0015]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, left of the (i') row",
+          "core": "benzene",
+          "substituents": ["Cl at C1", "CH3 at C2", "SCH3 at C3"],
+          "name": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+          "smiles": "Clc1cccc(SC)c1C",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, right of the (i') row",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH3 at C3", "SCH3 at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+          "smiles": "Brc1ccc(SC)c(C)c1Cl",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": ["Br2"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Labelled (i') at the right. Br2 is printed above the arrow with a typographic subscript 2."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": ["[0014]", "[0015]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, left of the (ii') row",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH3 at C3", "SCH3 at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+          "smiles": "Brc1ccc(SC)c(C)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, right of the (ii') row",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(C)c1Cl",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": ["H2O2"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Labelled (ii') at the right. H2O2 printed above the arrow with typographic subscripts."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": ["[0014]", "[0015]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, left of the (iii') row",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(C)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, right of the (iii') row",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2Br at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": ["溴代试剂"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Labelled (iii') at the right. The text above the arrow is the Chinese 溴代试剂 (brominating reagent), a generic placeholder, not a named compound. Paragraph [0015] on the same page defines it."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": ["[0014]", "[0015]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, left of the (iv') row",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2Br at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, right of the (iv') row",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": ["CF3CH2OM"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "Labelled (iv')。 at the right, with a full-width Chinese full stop, ending the (i')-(iv') list. M is left generic in the drawing; [0015] defines it as Na or K."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": ["[0016]", null],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, leftmost of the bottom five-structure row",
+          "core": "benzene",
+          "substituents": ["Cl at C1", "CH3 at C2", "SCH3 at C3"],
+          "name": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+          "smiles": "Clc1cccc(SC)c1C",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd of the bottom row",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH3 at C3", "SCH3 at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+          "smiles": "Brc1ccc(SC)c(C)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "3rd of the bottom row",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(C)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "4th of the bottom row",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2Br at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "5th, rightmost of the bottom row",
+          "core": "benzene",
+          "substituents": ["Br at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4"],
+          "name": "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+          "smiles": "Brc1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "2nd",
+          "to_structure": "3rd",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "3rd",
+          "to_structure": "4th",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "4th",
+          "to_structure": "5th",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "The intermediate-preparation summary introduced by [0016]. Drawn small at the foot of the page; all four arrows are bare. A small full-width Chinese full stop 。 sits at the far right after the last structure. The row is the last content on the page, so its closing marker is unknown."
+    }
+  ],
+  "discrepancies": [
+    {
+      "what": "The three schemes at the top of the page carry no reagents on their arrows, while the corresponding (i')-(iv') schemes lower on the same page do.",
+      "drawing_says": "Schemes (ii), (iii), (iv) show bare arrows between the same pairs of structures.",
+      "text_says": "[0014] introduces the (i')-(iv') schemes as the specific form of steps (i)-(iv), and those arrows carry Br2, H2O2, 溴代试剂 and CF3CH2OM."
+    },
+    {
+      "what": "The bottom [0016] scheme draws five structures joined by four bare arrows and names no reagent for any step.",
+      "drawing_says": "Four unlabelled arrows.",
+      "text_says": "[0014] and [0015] name Br2, H2O2, a brominating reagent (bromine, NBS, or HBr with H2O2) and CF3CH2ONa/CF3CH2OK for the same four transformations."
+    },
+    {
+      "what": "Step (i) of the (i)-(iv) list is not present on this page.",
+      "drawing_says": "The page opens mid-list with scheme (ii).",
+      "text_says": "[0014] refers to steps (i) to (iv) as a complete set; step (i) must appear on the preceding page."
+    }
+  ],
+  "illegible": [],
+  "page_confidence": "high"
+}

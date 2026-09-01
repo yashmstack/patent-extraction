@@ -1,0 +1,205 @@
+{
+  "page": "p02.png",
+  "page_label": "US 2004/0236146 A1   Nov. 25, 2004   1",
+  "doc_part": "description",
+  "header": "US 2004/0236146 A1 at the top left, Nov. 25, 2004 at the top right, and the page number 1 centred on the line below them. This is the first page of the description; the numbering restarts at 1 here, so page 1 of the description is the second page of the PDF.",
+  "footer": null,
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "METHOD FOR PRODUCING 3-BROMOMETHYLBENZOIC ACIDS",
+      "en": "METHOD FOR PRODUCING 3-BROMOMETHYLBENZOIC ACIDS",
+      "notes": "Printed title heading, centred at the top of the left column. Not a numbered paragraph, so marker is null. General transcription note for this whole page: the page is an ENGLISH US application publication, so the zh field carries the text verbatim as printed in English and en repeats it, corrected only where stated. Hyphens introduced purely by line-break justification (corre-sponding, bromina-tion, perox-ide) have been closed up; every hyphen that survives in the transcription is printed inside a word or a name."
+    },
+    {
+      "marker": "[0001]",
+      "zh": "The invention relates to a process for preparing 3-bromomethylbenzoic acids by brominating the corresponding 3-methylbenzoic acids. It further relates to certain 3-bromomethylbenzoic acids.",
+      "en": "The invention relates to a process for preparing 3-bromomethylbenzoic acids by brominating the corresponding 3-methylbenzoic acids. It further relates to certain 3-bromomethylbenzoic acids.",
+      "notes": null
+    },
+    {
+      "marker": "[0002]",
+      "zh": "Derivatives of 3-bromomethylbenzoic acid constitute valuable reactants in the synthesis of certain herbicides. Bromomethyl aromatics may in principle be prepared from the corresponding methyl aromatics by side chain bromination; on this subject, cf. Houben-Weyl, Vol. 5, page 331 ff. (1960). However, it is known that electronegative substituents such as carboxyl, alkylcarbonyl, cyano and nitro distinctly hinder the reaction, so that only poor yields can be achieved. WO 99/06339 discloses a process for preparing substituted benzyl bromides by brominating the corresponding methyl aromatics in the presence of azocarboxylic esters or azonitriles and in the presence of an oxidizing agent. In this case, one substituent is electronegative and is from the group fluorine, chlorine, bromine, alkoxycarbonyl, cyano and nitro. Disadvantages of this process are the use of an additional oxidizing agent and the not always satisfactory yields. EP-A 0 292 944 describes the preparation of methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate by radical initiator-induced bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride. The free acid, 3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid is then obtained from this latter compound by hydrolysis.",
+      "en": "Derivatives of 3-bromomethylbenzoic acid constitute valuable reactants in the synthesis of certain herbicides. Bromomethyl aromatics may in principle be prepared from the corresponding methyl aromatics by side chain bromination; on this subject, cf. Houben-Weyl, Vol. 5, page 331 ff. (1960). However, it is known that electronegative substituents such as carboxyl, alkylcarbonyl, cyano and nitro distinctly hinder the reaction, so that only poor yields can be achieved. WO 99/06339 discloses a process for preparing substituted benzyl bromides by brominating the corresponding methyl aromatics in the presence of azocarboxylic esters or azonitriles and in the presence of an oxidizing agent. In this case, one substituent is electronegative and is from the group fluorine, chlorine, bromine, alkoxycarbonyl, cyano and nitro. Disadvantages of this process are the use of an additional oxidizing agent and the not always satisfactory yields. EP-A 0 292 944 describes the preparation of methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate by radical initiator-induced bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride. The free acid, 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid is then obtained from this latter compound by hydrolysis.",
+      "notes": "This paragraph is PRIOR ART; it carries no drawing. Read off the pixels at 2.4x zoom: (a) the WO citation prints as 'WO 99/06339', solidus, no space after it; (b) the EP citation prints as 'EP-A 0 292 944', that is 'EP-A' then a space then the number in three space-separated groups, with no space between 'EP' and '-A'; (c) the METHYL ESTER name is fully hyphenated and correct as printed: 'methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate'; (d) the FREE ACID name is printed with a MISSING HYPHEN, as 'the free acid, 3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid' - 'chloro4' is set solid, no hyphen between 'chloro' and '4'. This is verified on the pixels, it is not an OCR artifact. zh keeps 'chloro4' exactly as printed. en restores the hyphen to '2-chloro-4-' because the parallel ester name three lines above, and formula II, both put the methylsulfonyl at position 4; that is the only correction made in this paragraph. Also note the second substrate name prints correctly hyphenated as 'methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate'."
+    },
+    {
+      "marker": "[0003]",
+      "zh": "Specifically with regard to the preparation of certain herbicides, processes for directly preparing 3-bromomethylbenzoic acids are desirable. It has now been found that 2-halo-3-methyl4-alkylsulfonylbenzoic acids can be converted in very good yields and in very high purities by bromination to the corresponding 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids.",
+      "en": "Specifically with regard to the preparation of certain herbicides, processes for directly preparing 3-bromomethylbenzoic acids are desirable. It has now been found that 2-halo-3-methyl-4-alkylsulfonylbenzoic acids can be converted in very good yields and in very high purities by bromination to the corresponding 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids.",
+      "notes": "Second missing hyphen of the same kind, confirmed on the pixels at 2.6x zoom: the starting material prints as '2-halo-3-methyl4-alkylsulfonylbenzoic acids', with 'methyl4' set solid. The product name on the next line is fully hyphenated, '3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids'. zh keeps 'methyl4' as printed; en restores the hyphen, matching the product name in the same sentence and formula I."
+    },
+    {
+      "marker": "[0004]",
+      "zh": "The present invention therefore provides a process for preparing 3-bromomethylbenzoic acids of the formula II",
+      "en": "The present invention therefore provides a process for preparing 3-bromomethylbenzoic acids of the formula II",
+      "notes": "This is where the INVENTION begins. Formula II is drawn immediately below this paragraph."
+    },
+    {
+      "marker": "[0005]",
+      "zh": "by brominating 3-methylbenzoic acids of the formula I",
+      "en": "by brominating 3-methylbenzoic acids of the formula I",
+      "notes": "Formula I is drawn immediately below this paragraph, at the foot of the left column."
+    },
+    {
+      "marker": "[0006]",
+      "zh": "with",
+      "en": "with",
+      "notes": null
+    },
+    {
+      "marker": "[0007]",
+      "zh": "A) N-bromosuccimide in the presence of a radical initiator, or",
+      "en": "A) N-bromosuccinimide in the presence of a radical initiator, or",
+      "notes": "Printed as 'N-bromosuccimide', missing the 'in' of succinimide. Verified on the pixels at 2.6x zoom, letter by letter: N-b-r-o-m-o-s-u-c-c-i-m-i-d-e. zh keeps the printed spelling. en corrects it to 'N-bromosuccinimide' because [0016] in the right column of this same page spells it 'N-bromosuccinimide (NBS)' in full. Indented sub-paragraph under [0006]."
+    },
+    {
+      "marker": "[0008]",
+      "zh": "B) elemental bromine and irradiation with a photolamp,",
+      "en": "B) elemental bromine and irradiation with a photolamp,",
+      "notes": "Indented sub-paragraph under [0006]."
+    },
+    {
+      "marker": "[0009]",
+      "zh": "where, in formulae I and II,",
+      "en": "where, in formulae I and II,",
+      "notes": null
+    },
+    {
+      "marker": "[0010]",
+      "zh": "R1 is fluorine, chlorine or bromine, and",
+      "en": "R1 is fluorine, chlorine or bromine, and",
+      "notes": "The 1 of R1 is printed as a superscript. Indented sub-paragraph under [0009]."
+    },
+    {
+      "marker": "[0011]",
+      "zh": "R2 is (C1-C4)alkyl.",
+      "en": "R2 is (C1-C4)alkyl.",
+      "notes": "Confirmed on the pixels at 3x zoom: the alkyl range prints as (C1-C4)alkyl, that is an opening parenthesis, capital C with SUBSCRIPT 1, a hyphen, capital C with SUBSCRIPT 4, closing parenthesis, then 'alkyl' set solid against the parenthesis with no space. The 2 of R2 is a superscript. There is no upper bound other than C4 and no other alkyl range anywhere on this page. Indented sub-paragraph under [0009]."
+    },
+    {
+      "marker": "[0012]",
+      "zh": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide. Radiation with light or variant B) is effected with commercially available photolamps and is known in principle to those skilled in the art.",
+      "en": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles. Examples include azoisobutyronitrile and dibenzoyl peroxide. Radiation with light or variant B) is effected with commercially available photolamps and is known in principle to those skilled in the art.",
+      "notes": "'Radiation with light or variant B)' is printed exactly so; 'or' rather than 'for' or 'of' reads oddly but that is what the page shows, and it is not corrected here."
+    },
+    {
+      "marker": "[0013]",
+      "zh": "In addition to the very high yields and very high purities, further advantages of the process according to the invention may be regarded as being the use of less toxic solvents and the particularly simple workup of the end products.",
+      "en": "In addition to the very high yields and very high purities, further advantages of the process according to the invention may be regarded as being the use of less toxic solvents and the particularly simple workup of the end products.",
+      "notes": null
+    },
+    {
+      "marker": "[0014]",
+      "zh": "Suitable solvents for the process according to the invention have been found to be those which can be regarded as being inert with respect to the conditions of the bromination. These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile. It has been found that the solvents chlorobenzene and acetonitrile are advantageous for process variant A), and the solvents chlorobenzene, methylene chloride and 1,2-dichloroethane for process variant B). It will be appreciated that mixtures of these solvents may also be used.",
+      "en": "Suitable solvents for the process according to the invention have been found to be those which can be regarded as being inert with respect to the conditions of the bromination. These include, for example, halogenated hydrocarbons such as methylene chloride, chloroform, carbon tetrachloride, 1,2-dichloroethane and chlorobenzene, and also compounds such as acetonitrile. It has been found that the solvents chlorobenzene and acetonitrile are advantageous for process variant A), and the solvents chlorobenzene, methylene chloride and 1,2-dichloroethane for process variant B). It will be appreciated that mixtures of these solvents may also be used.",
+      "notes": "'1,2-dichloroethane' prints with a plain comma and no space, twice."
+    },
+    {
+      "marker": "[0015]",
+      "zh": "In both process variants, the reaction is generally carried out at a temperature of from 40 to 100° C., preferably from 70 to 100° C. In the case of the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride, preference is given to working under reflux.",
+      "en": "In both process variants, the reaction is generally carried out at a temperature of from 40 to 100° C., preferably from 70 to 100° C. In the case of the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride, preference is given to working under reflux.",
+      "notes": "Temperatures print as '40 to 100' degree sign, space, 'C.' and '70 to 100' degree sign, space, 'C.' - the degree sign is separated from the C by a space in both, as is usual in USPTO typesetting."
+    },
+    {
+      "marker": "[0016]",
+      "zh": "In process variant A), it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent, and then to heat gradually. The reaction may optionally be accelerated by adding a little bromine. Preference is given to using NBS in excess.",
+      "en": "In process variant A), it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent, and then to heat gradually. The reaction may optionally be accelerated by adding a little bromine. Preference is given to using NBS in excess.",
+      "notes": "Here the reagent IS spelled in full and correctly, 'N-bromosuccinimide (NBS)', broken across a line as 'N-bromosuccin-imide'. This is what settles that [0007]'s 'N-bromosuccimide' is a misprint in the source."
+    },
+    {
+      "marker": "[0017]",
+      "zh": "In process variant B), it is appropriate to initially charge a compound of the formula I in solvent and then, after heating under irradiation with a photolamp, to add bromine dropwise. Preference is given to using bromine in excess.",
+      "en": "In process variant B), it is appropriate to initially charge a compound of the formula I in solvent and then, after heating under irradiation with a photolamp, to add bromine dropwise. Preference is given to using bromine in excess.",
+      "notes": null
+    },
+    {
+      "marker": "[0018]",
+      "zh": "Depending on the solubilities of the compounds of the formulae I and II in the solvent used, these compounds are completely or partly dissolved. In general, they are partly dissolved, so that a portion is in suspended. Typically, the reaction in both process variants has proceeded to completion after from about 2 to 6 hours. The precise time at which the reaction is completed may be monitored, for example, by thin-film chromatography or by HPLC.",
+      "en": "Depending on the solubilities of the compounds of the formulae I and II in the solvent used, these compounds are completely or partly dissolved. In general, they are partly dissolved, so that a portion is in suspended. Typically, the reaction in both process variants has proceeded to completion after from about 2 to 6 hours. The precise time at which the reaction is completed may be monitored, for example, by thin-film chromatography or by HPLC.",
+      "notes": "'so that a portion is in suspended' is printed exactly so, with the stray 'in'. Verified at 2.2x zoom. Left uncorrected in both fields because the intended reading is genuinely ambiguous between 'is in suspension' and 'is suspended'. 'thin-film chromatography' is printed thus, where 'thin-layer chromatography' would be the usual term; not corrected."
+    },
+    {
+      "marker": "[0019]",
+      "zh": "For workup, the reaction mixture is allowed to cool. When the bromination is effected by process variant",
+      "en": "For workup, the reaction mixture is allowed to cool. When the bromination is effected by process variant",
+      "notes": "IMPORTANT, and this answers the question the caller asked directly. Paragraph [0019] is TRUNCATED by the page break. On this page it runs to exactly two lines and stops mid-sentence at the word 'variant', with no terminal punctuation; the rest of the right column below it is blank white space. Therefore this page prints NEITHER 'sodium bisulfate' NOR 'sodium bisulfite' - neither word, and indeed no sulfur reagent of any kind, appears anywhere in [0019] on p02, nor anywhere else on p02. The remainder of [0019] continues on p03 and only that page can settle the bisulfate versus bisulfite question. Nothing has been carried in from another page to fill the gap."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "structure",
+      "between_markers": [
+        "[0004]",
+        "[0005]"
+      ],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st and only, centred in the left column between [0004] and [0005]",
+          "core": "benzene",
+          "substituents": [
+            "HOOC at C1",
+            "R1 at C2",
+            "CH2Br at C3",
+            "SO2R2 at C4"
+          ],
+          "name": null,
+          "smiles": null,
+          "confidence": "high"
+        }
+      ],
+      "arrows": [],
+      "notes": "MARKUSH GENERIC, formula II. The formula label '(II)' is printed in small type at the right-hand margin, level with the top of the drawing. name and smiles are null and must stay null: R1 and R2 are undefined variables in the drawing itself ([0010] and [0011] give R1 as fluorine, chlorine or bromine and R2 as (C1-C4)alkyl, so the drawing stands for a set of compounds, not one compound), and no single structure is determined. Ring drawn as a pointy-top hexagon: a vertex at top centre, a vertex at bottom centre, and vertical bonds forming the left and right sides. Positions below are read off that drawing, not inferred from any name. Going clockwise from the top vertex the six ring carbons are: top centre, upper right, lower right, bottom centre, lower left, upper left. The numbering used in the substituent list anchors C1 on the carbon bearing HOOC (the upper-left vertex, the only ring carbon with a carboxyl drawn on it) and counts clockwise through the substituted side, which is the direction that gives the substituents the lowest locants. So: upper left = C1 = HOOC, top centre = C2 = R1, upper right = C3, lower right = C4 = SO2R2, bottom centre = C5 and lower left = C6, both of which carry no drawn substituent (no H is written on them). Aromatic double bonds are drawn on three alternating edges as inner parallel lines. C3 bears a bromomethyl group drawn explicitly as two bonds: a bond from the ring carbon up and to the right to an unlabelled apex vertex (the CH2), then a bond down and to the right to the atom label 'Br'. C4 bears the label 'SO2R2' (S, subscript 2 O, R with superscript 2) on a single bond going down and right. C2 bears the label 'R1' (superscript 1) on a single bond going straight up. C1 bears the label 'HOOC' on a single bond going up and left, written right to left so the acidic H reads leftmost. presented_as is invention_route: [0004] immediately above introduces it as 'the present invention therefore provides a process for preparing 3-bromomethylbenzoic acids of the formula II', so this is the PRODUCT of the invention's process, not prior art. The prior art in [0002] carries no drawing at all."
+    },
+    {
+      "kind": "structure",
+      "between_markers": [
+        "[0005]",
+        "[0006]"
+      ],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st and only, centred in the left column below [0005], at the foot of the column",
+          "core": "benzene",
+          "substituents": [
+            "HOOC at C1",
+            "R1 at C2",
+            "CH3 at C3",
+            "SO2R2 at C4"
+          ],
+          "name": null,
+          "smiles": null,
+          "confidence": "high"
+        }
+      ],
+      "arrows": [],
+      "notes": "MARKUSH GENERIC, formula I. The formula label '(I)' is printed in small type at the right-hand margin, level with the top of the drawing. name and smiles are null for the same reason as formula II: R1 and R2 are undefined variables in the drawing. Ring drawn as a pointy-top hexagon: a vertex at top centre, a vertex at bottom centre, and vertical bonds forming the left and right sides. Positions below are read off that drawing, not inferred from any name. Going clockwise from the top vertex the six ring carbons are: top centre, upper right, lower right, bottom centre, lower left, upper left. The numbering used in the substituent list anchors C1 on the carbon bearing HOOC (the upper-left vertex, the only ring carbon with a carboxyl drawn on it) and counts clockwise through the substituted side, which is the direction that gives the substituents the lowest locants. So: upper left = C1 = HOOC, top centre = C2 = R1, upper right = C3, lower right = C4 = SO2R2, bottom centre = C5 and lower left = C6, both of which carry no drawn substituent (no H is written on them). Aromatic double bonds are drawn on three alternating edges as inner parallel lines. It is drawn identically to formula II except at C3, which here bears the label 'CH3' (subscript 3) on a single bond going up and to the right, in place of formula II's drawn CH2-Br chain. C4 bears 'SO2R2', C2 bears 'R1', C1 bears 'HOOC', exactly as in formula II. Bracketing note on markers: [0005] sits above this drawing and [0006] is the next numbered paragraph in reading order, but [0006] is at the TOP OF THE RIGHT COLUMN, not underneath the drawing; the drawing is the last thing printed in the left column. presented_as is invention_route: [0005] immediately above reads 'by brominating 3-methylbenzoic acids of the formula I', so this is the STARTING MATERIAL of the invention's process, not prior art."
+    }
+  ],
+  "discrepancies": [
+    {
+      "what": "Paragraph [0019] is cut off by the page break, so the workup reagent the caller asked about is simply not on this page.",
+      "drawing_says": "No drawing bears on this. There are only two drawings on the page and both sit in the left column, well above [0019].",
+      "text_says": "[0019] ends mid-sentence at 'When the bromination is effected by process variant' and the column goes blank below it. The strings 'bisulfate' and 'bisulfite' do not occur anywhere on p02. Whichever of the two is printed, it is printed on p03."
+    },
+    {
+      "what": "The same reagent is spelled two different ways on this one page.",
+      "drawing_says": "No drawing bears on this; neither formula I nor formula II depicts a reagent.",
+      "text_says": "[0007] prints 'N-bromosuccimide'; [0016] prints 'N-bromosuccinimide (NBS)'. Recorded rather than silently unified: zh keeps each as printed."
+    },
+    {
+      "what": "A hyphen is missing from two compound names, in a pattern (the hyphen before a locant that follows 'methyl'/'chloro') that recurs.",
+      "drawing_says": "Formula II puts the sulfonyl at the ring carbon two positions clockwise from R1, i.e. at C4 counting from the carboxyl carbon, which is what the hyphenated form of the name asserts.",
+      "text_says": "[0002] prints '3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid' and [0003] prints '2-halo-3-methyl4-alkylsulfonylbenzoic acids'. Both are as-printed misprints on the page itself, verified on the pixels, not OCR damage."
+    },
+    {
+      "what": "Cross-check of the two drawn structures against the prose that introduces them: no disagreement found.",
+      "drawing_says": "Formula I carries CH3 at C3 and formula II carries CH2Br at the same C3, with HOOC at C1, R1 at C2 and SO2R2 at C4 unchanged between them, so the drawn pair differ only by H to Br at the benzylic carbon.",
+      "text_says": "[0004] and [0005] describe exactly that, preparing '3-bromomethylbenzoic acids of the formula II' 'by brominating 3-methylbenzoic acids of the formula I', and [0003] names the pair as 2-halo-3-methyl-4-alkylsulfonylbenzoic acids going to 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids. Recorded as a checked agreement, not as a discrepancy."
+    }
+  ],
+  "illegible": [],
+  "page_confidence": "high"
+}

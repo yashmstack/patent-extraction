@@ -1,0 +1,143 @@
+[
+  {
+    "patent_id": "US20040236146A1",
+    "reaction_id": "Abstract_Step 1",
+    "section_label": "Abstract",
+    "section_type": "abstract",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "not_determinable",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": [],
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": {
+        "type": null,
+        "value_pct": null
+      },
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "3-methylbenzoic acids",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "3-bromomethylbenzoic acids of the formula II",
+        "role": "product",
+        "is_product": true,
+        "quantity": null,
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "3-methylbenzoic acids"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "3-bromomethylbenzoic acids of the formula II",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "A process is described for preparing 3-bromomethylbenzoic acids of the formula II by brominating the corresponding 3-methylbenzoic acids.",
+    "procedure_summary": "The abstract states one transformation: a methylbenzoic acid is brominated to give the corresponding bromomethylbenzoic acid. It names no reagent and gives no conditions.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:not_determinable",
+      "scale:not_specified",
+      "workup_type:none",
+      "purification:none",
+      "step_role:final_step",
+      "linkage:standalone",
+      "is_one_pot:false"
+    ],
+    "notes": "A0 estimated one step for this section and one record is emitted, so there is no disagreement to explain. The abstract states a single transformation in a single sentence that straddles the drawing: L40 prints A process is described for preparing 3-bromomethylbenzoic acids of the formula II and L44 continues by brominating the corresponding 3-methylbenzoic acids. procedure_text joins the two as-printed halves with the IMAGE_EXTRACT span at L42 stripped out. NO REAGENT IS NAMED. The sentence says only brominating; it names no brominating agent, no initiator, no light, no solvent, no temperature, no time, no charge and no yield. Under A2 rule 5g a transformation with no reagent at all is still a transformation and still gets a record, so the reagent fields are left null and no_conditions is raised. Silently skipping this record would be a recall miss. The two reagents the patent actually uses appear in the claims and the examples, not here, and nothing from those sections is carried onto this record. reaction_class is halogenation with high confidence, because the word brominating and the bromomethyl product name settle the transformation even though nothing else is stated. mechanism_type is not_determinable: with no reagent, no initiator and no irradiation stated, neither radical nor photochemical can be read off this section, and importing either from the claims would be inventing a condition. named_reaction is null for the same reason. The drawing at L42 is a single Markush structure of formula II with variable R1 and R2 and its IMAGE_EXTRACT carries no molecules, the vision pass having correctly refused a SMILES for a generic. There is no drawn reaction scheme in this patent, so no structure reached this record and none of drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn or route_attribution_unclear can arise; none is raised. The third A1 compound of this section, compounds of the formula II, is the subject of the abstract's separate compound-per-se sentence at L46 and takes no part in the transformation, so it is not carried in compounds here. The prior-sections reaction registry is empty for this patent, which is a single-transformation process patent, so precursor_step is null and the linkage tag is standalone. STEP ROLE: the abstract describes a process of one transformation, so its only step both consumes the starting material and delivers the product; it is equally the first step of the route and the last. The tag category is single-valued and can hold only one of the two, and the convention fixed in PROMPT-CORRECTIONS section 10a gives a chain of one step step_role:final_step, on the reasoning that the category exists to locate a step within a chain and that first_step on a route which is already over implies something follows it. That is a convention and not a fact about the chemistry: the step really is both, the field holds one value, and this sentence is where the discarded half is recorded. solvent_class and catalyst_class are skipped rather than guessed, since the abstract states neither a solvent nor the absence of a catalyst."
+  }
+]

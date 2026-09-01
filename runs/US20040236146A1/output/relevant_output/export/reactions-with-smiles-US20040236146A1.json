@@ -1,0 +1,1645 @@
+{
+  "patent_id": "US20040236146A1",
+  "reactions": [
+    {
+      "reaction_id": "Abstract_Step 1",
+      "section_label": "Abstract",
+      "step_label": "Step 1",
+      "reaction_class": "halogenation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "not_specified",
+          "value_c": null,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 2,
+      "participants_resolved": 0,
+      "compounds": [
+        {
+          "identifier": "3-methylbenzoic acids",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": null
+        },
+        {
+          "identifier": "3-bromomethylbenzoic acids of the formula II",
+          "role": "product",
+          "is_product": true,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "reaction_id": "Background_Step 1",
+      "section_label": "Background",
+      "step_label": "Step 1",
+      "reaction_class": "halogenation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "not_specified",
+          "value_c": null,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 5,
+      "participants_resolved": 0,
+      "compounds": [
+        {
+          "identifier": "methyl aromatics",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": null
+        },
+        {
+          "identifier": "azocarboxylic esters",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": null
+        },
+        {
+          "identifier": "azonitriles",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": null
+        },
+        {
+          "identifier": "oxidizing agent",
+          "role": "oxidant",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": null
+        },
+        {
+          "identifier": "substituted benzyl bromides",
+          "role": "product",
+          "is_product": true,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "reaction_id": "Background_Step 2",
+      "section_label": "Background",
+      "step_label": "Step 2",
+      "reaction_class": "halogenation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "not_specified",
+          "value_c": null,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 4,
+      "participants_resolved": 3,
+      "compounds": [
+        {
+          "identifier": "methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+          "formula": "C10H11ClO4S",
+          "mw": 262.71,
+          "origin": "name_parsed",
+          "quantity": null
+        },
+        {
+          "identifier": "radical initiator",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": null
+        },
+        {
+          "identifier": "carbon tetrachloride",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "ClC(Cl)(Cl)Cl",
+          "formula": "CCl4",
+          "mw": 153.82,
+          "origin": "name_parsed",
+          "quantity": null
+        },
+        {
+          "identifier": "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate",
+          "role": "product",
+          "is_product": true,
+          "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "formula": "C10H10BrClO4S",
+          "mw": 341.61,
+          "origin": "name_parsed",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "reaction_id": "Background_Step 3",
+      "section_label": "Background",
+      "step_label": "Step 3",
+      "reaction_class": "hydrolysis",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "not_specified",
+          "value_c": null,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl>>CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+      "participants_total": 2,
+      "participants_resolved": 2,
+      "compounds": [
+        {
+          "identifier": "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "formula": "C10H10BrClO4S",
+          "mw": 341.61,
+          "origin": "name_parsed",
+          "quantity": null
+        },
+        {
+          "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+          "formula": "C9H8BrClO4S",
+          "mw": 327.58,
+          "origin": "name_parsed",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "reaction_id": "Claims_Step 1",
+      "section_label": "Claims",
+      "step_label": "Step 1",
+      "reaction_class": "halogenation",
+      "named_reaction": "Wohl-Ziegler bromination",
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "range",
+          "value_c": null,
+          "min_c": 70.0,
+          "max_c": 100.0
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": "reflux",
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 8,
+      "participants_resolved": 6,
+      "compounds": [
+        {
+          "identifier": "3-methylbenzoic acid of formula I",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": null
+        },
+        {
+          "identifier": "N-bromosuccinimide",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "O=C1CCC(=O)N1Br",
+          "formula": "C4H4BrNO2",
+          "mw": 177.98,
+          "origin": "name_parsed",
+          "quantity": null
+        },
+        {
+          "identifier": "radical initiator",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": null
+        },
+        {
+          "identifier": "azoisobutyronitrile",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "CC(C)(C#N)N=NC(C)(C)C#N",
+          "formula": "C8H12N4",
+          "mw": 164.21,
+          "origin": "curated",
+          "quantity": null
+        },
+        {
+          "identifier": "dibenzoyl peroxide",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "O=C(OOC(=O)c1ccccc1)c1ccccc1",
+          "formula": "C14H10O4",
+          "mw": 242.23,
+          "origin": "name_parsed",
+          "quantity": null
+        },
+        {
+          "identifier": "chlorobenzene",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "Clc1ccccc1",
+          "formula": "C6H5Cl",
+          "mw": 112.56,
+          "origin": "name_parsed",
+          "quantity": null
+        },
+        {
+          "identifier": "acetonitrile",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CC#N",
+          "formula": "C2H3N",
+          "mw": 41.05,
+          "origin": "name_parsed",
+          "quantity": null
+        },
+        {
+          "identifier": "3-bromomethylbenzoic acid of formula II",
+          "role": "product",
+          "is_product": true,
+          "smiles": "O=C(O)c1cccc(CBr)c1",
+          "formula": "C8H7BrO2",
+          "mw": 215.05,
+          "origin": "name_parsed",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "reaction_id": "Claims_Step 2",
+      "section_label": "Claims",
+      "step_label": "Step 2",
+      "reaction_class": "halogenation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "range",
+          "value_c": null,
+          "min_c": 70.0,
+          "max_c": 100.0
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": "reflux",
+        "cooling_method": null,
+        "light_source": {
+          "type": "other",
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 5,
+      "participants_resolved": 4,
+      "compounds": [
+        {
+          "identifier": "3-methylbenzoic acid of formula I",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": null
+        },
+        {
+          "identifier": "bromine",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "[Br]",
+          "formula": "Br",
+          "mw": 79.9,
+          "origin": "name_parsed",
+          "quantity": null
+        },
+        {
+          "identifier": "chlorobenzene",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "Clc1ccccc1",
+          "formula": "C6H5Cl",
+          "mw": 112.56,
+          "origin": "name_parsed",
+          "quantity": null
+        },
+        {
+          "identifier": "methylene chloride",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "ClCCl",
+          "formula": "CH2Cl2",
+          "mw": 84.93,
+          "origin": "name_parsed",
+          "quantity": null
+        },
+        {
+          "identifier": "3-bromomethylbenzoic acid of formula II",
+          "role": "product",
+          "is_product": true,
+          "smiles": "O=C(O)c1cccc(CBr)c1",
+          "formula": "C8H7BrO2",
+          "mw": 215.05,
+          "origin": "name_parsed",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "reaction_id": "Example 1_Step 1",
+      "section_label": "Example 1",
+      "step_label": "Step 1",
+      "reaction_class": "halogenation",
+      "named_reaction": "Wohl-Ziegler bromination",
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "exact",
+          "value_c": 90.0,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": 2.0,
+        "reactor_type": "stirred apparatus",
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl.Clc1ccccc1.O=C1CCC(=O)N1Br.CC(C)(C#N)N=NC(C)(C)C#N.[Br].O=S([O-])O.[Na+].O>>CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+      "participants_total": 8,
+      "participants_resolved": 8,
+      "compounds": [
+        {
+          "identifier": "2-chloro-3-methyl-4-methylsulfonylbenzoic acid",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+          "formula": "C9H9ClO4S",
+          "mw": 248.69,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 100.0,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "chlorobenzene",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "Clc1ccccc1",
+          "formula": "C6H5Cl",
+          "mw": 112.56,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 400.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "N-bromosuccinimide",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "O=C1CCC(=O)N1Br",
+          "formula": "C4H4BrNO2",
+          "mw": 177.98,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 85.9,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "azoisobutyronitrile",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "CC(C)(C#N)N=NC(C)(C)C#N",
+          "formula": "C8H12N4",
+          "mw": 164.21,
+          "origin": "curated",
+          "quantity": {
+            "mass_g": 6.6,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "bromine",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "[Br]",
+          "formula": "Br",
+          "mw": 79.9,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 2.6,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "sodium bisulfite",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "O=S([O-])O.[Na+]",
+          "formula": "HNaO3S",
+          "mw": 104.06,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 100.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "water",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "O",
+          "formula": "H2O",
+          "mw": 18.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 400.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+          "formula": "C9H8BrClO4S",
+          "mw": 327.58,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 121.3,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": 88.4
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Example 1_Step 2",
+      "section_label": "Example 1",
+      "step_label": "Step 2",
+      "reaction_class": "halogenation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "not_specified",
+          "value_c": null,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": 2.0,
+        "reactor_type": "glass flask",
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": "reflux",
+        "cooling_method": null,
+        "light_source": {
+          "type": "other",
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": 300.0
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl.ClCCl.O.[Br]>>CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+      "participants_total": 5,
+      "participants_resolved": 5,
+      "compounds": [
+        {
+          "identifier": "2-chloro-3-methyl-4-methylsulfonylbenzoic acid",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+          "formula": "C9H9ClO4S",
+          "mw": 248.69,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 5.0,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "methylene chloride",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "ClCCl",
+          "formula": "CH2Cl2",
+          "mw": 84.93,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 50.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "water",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "O",
+          "formula": "H2O",
+          "mw": 18.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 50.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "bromine",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "[Br]",
+          "formula": "Br",
+          "mw": 79.9,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+          "formula": "C9H8BrClO4S",
+          "mw": 327.58,
+          "origin": "name_parsed",
+          "quantity": null
+        }
+      ]
+    },
+    {
+      "reaction_id": "Example 2_Step 1",
+      "section_label": "Example 2",
+      "step_label": "Step 1",
+      "reaction_class": "halogenation",
+      "named_reaction": "Wohl-Ziegler bromination",
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "not_specified",
+          "value_c": null,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": 2.0,
+        "reactor_type": "stirred apparatus",
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": "reflux",
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": null,
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": "CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1C.CC#N.O=C1CCC(=O)N1Br.O=C(OOC(=O)c1ccccc1)c1ccccc1.O=S([O-])O.[Na+].CCOC(C)=O.CCOCC.CCCCCCC>>CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+      "participants_total": 9,
+      "participants_resolved": 9,
+      "compounds": [
+        {
+          "identifier": "2-chloro-3-methyl-4-ethylsulfonylbenzoic acid",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1C",
+          "formula": "C10H11ClO4S",
+          "mw": 262.71,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 20.0,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "acetonitrile",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CC#N",
+          "formula": "C2H3N",
+          "mw": 41.05,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 150.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "N-bromosuccinimide",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "O=C1CCC(=O)N1Br",
+          "formula": "C4H4BrNO2",
+          "mw": 177.98,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 17.6,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "dibenzoyl peroxide",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "O=C(OOC(=O)c1ccccc1)c1ccccc1",
+          "formula": "C14H10O4",
+          "mw": 242.23,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 0.7,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "sodium bisulfite",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "O=S([O-])O.[Na+]",
+          "formula": "HNaO3S",
+          "mw": 104.06,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 100.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "ethyl acetate",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CCOC(C)=O",
+          "formula": "C4H8O2",
+          "mw": 88.11,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 300.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "diethyl ether",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CCOCC",
+          "formula": "C4H10O",
+          "mw": 74.12,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 50.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "heptane",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CCCCCCC",
+          "formula": "C7H16",
+          "mw": 100.2,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 20.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+          "formula": "C10H10BrClO4S",
+          "mw": 341.61,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 28.2,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": 95.6
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Process Conditions_Step 1",
+      "section_label": "Process Conditions",
+      "step_label": "Step 1",
+      "reaction_class": "halogenation",
+      "named_reaction": "Wohl-Ziegler bromination",
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "range",
+          "value_c": null,
+          "min_c": 40.0,
+          "max_c": 100.0
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": "heated gradually; reflux preferred with the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride",
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 10,
+      "participants_resolved": 7,
+      "compounds": [
+        {
+          "identifier": "compound of the formula I",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "N-bromosuccinimide",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "O=C1CCC(=O)N1Br",
+          "formula": "C4H4BrNO2",
+          "mw": 177.98,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "radical initiator",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "bromine",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "[Br]",
+          "formula": "Br",
+          "mw": 79.9,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "chlorobenzene",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "Clc1ccccc1",
+          "formula": "C6H5Cl",
+          "mw": 112.56,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "acetonitrile",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CC#N",
+          "formula": "C2H3N",
+          "mw": 41.05,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "sodium bisulfate",
+          "role": "other",
+          "is_product": false,
+          "smiles": "O=S(=O)([O-])O.[Na+]",
+          "formula": "HNaO4S",
+          "mw": 120.06,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "ethyl acetate",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CCOC(C)=O",
+          "formula": "C4H8O2",
+          "mw": 88.11,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "butyl acetate",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CCCCOC(C)=O",
+          "formula": "C6H12O2",
+          "mw": 116.16,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "compound of the formula II",
+          "role": "product",
+          "is_product": true,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Process Conditions_Step 2",
+      "section_label": "Process Conditions",
+      "step_label": "Step 2",
+      "reaction_class": "halogenation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "range",
+          "value_c": null,
+          "min_c": 40.0,
+          "max_c": 100.0
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": "heated under irradiation with a photolamp; reflux preferred with the low-boiling solvents acetonitrile, 1,2-dichloroethane and methylene chloride",
+        "cooling_method": null,
+        "light_source": {
+          "type": "other",
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 8,
+      "participants_resolved": 6,
+      "compounds": [
+        {
+          "identifier": "compound of the formula I",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "bromine",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "[Br]",
+          "formula": "Br",
+          "mw": 79.9,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "chlorobenzene",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "Clc1ccccc1",
+          "formula": "C6H5Cl",
+          "mw": 112.56,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "methylene chloride",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "ClCCl",
+          "formula": "CH2Cl2",
+          "mw": 84.93,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "1,2-dichloroethane",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "ClCCCl",
+          "formula": "C2H4Cl2",
+          "mw": 98.96,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "ethyl acetate",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CCOC(C)=O",
+          "formula": "C4H8O2",
+          "mw": 88.11,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "butyl acetate",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CCCCOC(C)=O",
+          "formula": "C6H12O2",
+          "mw": 116.16,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "compound of the formula II",
+          "role": "product",
+          "is_product": true,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Summary of the Invention_Step 1",
+      "section_label": "Summary of the Invention",
+      "step_label": "Step 1",
+      "reaction_class": "halogenation",
+      "named_reaction": "Wohl-Ziegler bromination",
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "not_specified",
+          "value_c": null,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 4,
+      "participants_resolved": 1,
+      "compounds": [
+        {
+          "identifier": "3-methylbenzoic acids of the formula I",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "N-bromosuccinimide",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "O=C1CCC(=O)N1Br",
+          "formula": "C4H4BrNO2",
+          "mw": 177.98,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "radical initiator",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "3-bromomethylbenzoic acids of the formula II",
+          "role": "product",
+          "is_product": true,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Summary of the Invention_Step 2",
+      "section_label": "Summary of the Invention",
+      "step_label": "Step 2",
+      "reaction_class": "halogenation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "not_specified",
+          "value_c": null,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": "other",
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 3,
+      "participants_resolved": 1,
+      "compounds": [
+        {
+          "identifier": "3-methylbenzoic acids of the formula I",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "bromine",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "[Br]",
+          "formula": "Br",
+          "mw": 79.9,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "3-bromomethylbenzoic acids of the formula II",
+          "role": "product",
+          "is_product": true,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        }
+      ]
+    }
+  ]
+}

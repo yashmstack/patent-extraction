@@ -1,0 +1,477 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 4_Method 1",
+    "section_label": "Example 4",
+    "section_type": "experimental_intermediate",
+    "step_index": 1,
+    "step_label": "Method 1",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "radical",
+    "scale": "lab",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "exact",
+        "value_c": 60.0,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": "four-necked round-bottom flask",
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "quenched with 32% aqueous NaOH",
+        "organic phase separated",
+        "organic phase washed twice with 32% aqueous NaOH",
+        "washed twice with water",
+        "solvent removed by rotary evaporation at 50 C",
+        "solid dried at 60 C"
+      ],
+      "quenching_agent": "32% aqueous sodium hydroxide solution",
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "32% aqueous NaOH, 50 mL, twice",
+        "water, 50 mL, twice"
+      ],
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": "rotary evaporation at 50 C",
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "complete conversion"
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(II)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 84.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the flask at the start with the initiator and solvent",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bromine",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 52.8,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added dropwise after the mixture had been heated to 60 C",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "benzoyl peroxide",
+        "role": "initiator",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 3.58,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the flask at the start with the substrate and solvent",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,2-dichloroethane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 500.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the flask at the start",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium hydroxide",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 50.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added as a 32% aqueous solution to quench, then two further 50 mL portions as washes",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 50.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "two wash portions of the stated volume",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(III)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(II)化合物",
+      "bromine"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(III)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "方法1：将式(II)化合物84g、过氧化苯甲酰3.58g和1,2-二氯乙烷500mL加入到四口圆底烧瓶中，升温至60℃，滴加溴素52.8g。溴素滴加完毕后，通过高效液相色谱监测反应完成后，用50mL32％的NaOH水溶液淬灭反应，然后分出有机相，用50mL32％的NaOH水溶液洗涤两次，50mL水洗两次，50℃旋蒸除去溶剂，所得固体在60℃烘干，得到式(III)化合物。熔点148-150℃。",
+    "procedure_summary": "Benzylic bromination of the compound of formula (II) with bromine and a benzoyl peroxide initiator in 1,2-dichloroethane, quenched and washed with aqueous sodium hydroxide and then with water, concentrated and dried to give the compound of formula (III).",
+    "precursor_step": "Example 3::Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:radical",
+      "analytics:hplc",
+      "analytics:melting_point",
+      "scale:lab",
+      "solvent_class:halogenated",
+      "catalyst_class:none",
+      "workup_type:aqueous_extraction",
+      "purification:none",
+      "step_role:intermediate_step",
+      "linkage:cross_section_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "Document marker is 方法1, so step_label keeps the document's own marker rather than being renumbered as Step 1. This section prints two alternative preparations of the same product, 方法1 here and 方法2 in the next record. They are recorded as two records because each carries its own charge of the same starting material, its own reagent set, its own solvent and its own workup, which is exactly the boundary rule; they are alternatives rather than a sequence, so neither is the precursor of the other and step_index only reflects document order. Reactor is a 四口圆底烧瓶 with no volume printed. 60℃ is the only reaction temperature stated; the 50℃ of the rotary evaporation and the 60℃ of the drying are workup, not reaction, temperatures. The scheme on line 466 shows one arrow from the drawn 式(II) structure to the drawn 式(III) structure with the condition text 溴代试剂, a class term rather than a named compound. The prose fills that placeholder with bromine here and with N-bromosuccinimide in 方法2, so the drawing and the prose agree and no drawing_text_conflict is raised; 溴代试剂 is deliberately not carried in compounds[] because it is a generic label, not a reagent charged in this procedure, and reagent_drawn_not_written is not raised for the same reason. HPLC conditions are given by reference on line 472 as the same as Example 1, which is a locatable section of this document. The starting material 式(II)化合物 is the section product of Example 3 and carries the same A1 identifier and the same drawn SMILES in both sections, so the match is by compound identity; precursor_step is Example 3::Step 1 and linkage_confirmed is true. No product mass and no yield are printed, so nothing constrains a mass balance here and no flag is raised. Melting point is printed for this method only."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 4_Method 2",
+    "section_label": "Example 4",
+    "section_type": "experimental_intermediate",
+    "step_index": 2,
+    "step_label": "Method 2",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": "Wohl-Ziegler bromination",
+    "mechanism_type": "radical",
+    "scale": "lab",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "exact",
+        "value_c": 60.0,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": "four-necked round-bottom flask",
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "filtered",
+        "filtrate freed of solvent by rotary evaporation at 50 C",
+        "residue recrystallised from ethanol",
+        "filtered",
+        "filter cake dried at 60 C"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": "filtered to remove the solid, and filtered again after recrystallisation",
+      "concentration_method": "rotary evaporation at 50 C",
+      "ph_target": null
+    },
+    "purification": "recrystallised from ethanol",
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "complete conversion"
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(II)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 84.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the flask at the start with the other components",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "N-bromosuccinimide",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 64.1,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the flask at the start with the other components",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "benzoyl peroxide",
+        "role": "initiator",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 3.58,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the flask at the start with the other components",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "carbon tetrachloride",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 500.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the flask at the start with the other components",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "ethanol",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 150.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "used to recrystallise the residue after the solvent was removed",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(III)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(II)化合物",
+      "N-bromosuccinimide"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(III)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "方法2：将式(II)化合物84g、过氧化苯甲酰3.58g、N-溴代丁二酰亚胺64.1g和四氯化碳500mL加入到四口圆底烧瓶中，升温至60℃，通过高效液相色谱监测反应完成后，过滤，滤液在50℃旋蒸除去溶剂，残余物用150mL乙醇重结晶，过滤，滤饼于60℃烘干，得到式(III)化合物。",
+    "procedure_summary": "Benzylic bromination of the compound of formula (II) with N-bromosuccinimide and a benzoyl peroxide initiator in carbon tetrachloride, filtered and concentrated, then recrystallised from ethanol and dried to give the compound of formula (III).",
+    "precursor_step": "Example 3::Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:radical",
+      "named_rxn:wohl_ziegler_bromination",
+      "analytics:hplc",
+      "scale:lab",
+      "solvent_class:halogenated",
+      "catalyst_class:none",
+      "workup_type:filtration",
+      "purification:recrystallisation",
+      "step_role:intermediate_step",
+      "linkage:cross_section_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "Document marker is 方法2, so step_label keeps the document's own marker. This is the alternative preparation of the same product as 方法1 and not a step that follows it: the same 84g charge of 式(II)化合物 is taken again, the reagent and solvent differ, and the workup is independent, so the two are recorded as two records rather than one. Only the brominating agent, the solvent and the isolation differ between the two methods; the substrate charge, the initiator charge, the reaction temperature and the HPLC monitoring are identical. NBS with a peroxide initiator in a halogenated solvent at moderate temperature is the classical Wohl-Ziegler bromination, which is why named_reaction is populated here and left null for the bromine variant. 60℃ is the only reaction temperature stated; the 50℃ rotary evaporation and the 60℃ drying of the filter cake are workup. The first filtration removes the succinimide by-product, though the text does not say so and no by-product recovery is described. The scheme on line 466 draws a single arrow labelled 溴代试剂, a class term that this method fills with N-bromosuccinimide, so drawing and prose agree and nothing is flagged. HPLC conditions are given by reference on line 472 as the same as Example 1. 式(II)化合物 is the section product of Example 3 and carries the same A1 identifier and the same drawn SMILES in both sections, so precursor_step is Example 3::Step 1 by identity and linkage_confirmed is true. Method 2 takes the same starting material as Method 1 and is an alternative to it, not a step following it, so it points back to Example 3 exactly as Method 1 does. No product mass and no yield are printed, so no mass balance can be checked and none is invented. No melting point is printed for this method."
+  }
+]

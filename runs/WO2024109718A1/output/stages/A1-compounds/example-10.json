@@ -1,0 +1,546 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "式(IV)化合物",
+    "identifier_type": "local_label",
+    "aliases": [
+      "compound of formula (IV)",
+      "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": 56.84,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:aryl_sulfone",
+      "functional_group:sulfone",
+      "functional_group:halide_bromo",
+      "functional_group:halide_chloro",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "Named only by formula label; this section gives no chemical name. The reaction drawing on line 535 supplies the structure as the scheme reactant, so the SMILES is kept as an alias."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "triethylamine",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三乙胺"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": 37.95,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "chemical_family:tertiary_amine"
+    ],
+    "notes": "Consumed as the HBr scavenger; the section names triethylamine hydrobromide as the filtered by-product."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "PdCl2",
+    "identifier_type": "formula",
+    "aliases": [
+      "palladium(II) chloride",
+      "PdCl2催化剂"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": 0.4,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": null
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1,4-bis(diphenylphosphino)butane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,4-双(二苯基膦)丁烷"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "ligand",
+    "quantity": {
+      "mass_g": 3.98,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:ligand",
+      "chemical_family:diphosphine"
+    ],
+    "notes": null
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1,4-dioxane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,4-二氧六环",
+      "二氧六环",
+      "dioxane"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": 300.0,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:cyclic_ether",
+      "functional_group:ether"
+    ],
+    "notes": "Charged by mass (300 g), not volume. Removed by rotary evaporation in the workup; the two mentions are merged into this one record."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "nitrogen",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "氮气",
+      "N2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "other",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:other"
+    ],
+    "notes": "Used only as the inert atmosphere for the vacuum/purge cycles."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CO",
+    "identifier_type": "formula",
+    "aliases": [
+      "carbon monoxide"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:toxic"
+    ],
+    "notes": "Carbonylation gas, charged at 1-4 MPa; no mass or volume is stated."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "acetone cyanohydrin",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "丙酮氰醇"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": 2.0,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst",
+      "functional_group:nitrile",
+      "hazard:cyanide_handling",
+      "hazard:toxic"
+    ],
+    "notes": "丙酮氰醇 is acetone cyanohydrin, not cyanoacetone (氰基丙酮). Added after the carbonylation stage as the rearrangement catalyst; also drawn in the scheme on line 535."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "cyclohexane-1,3-dione",
+    "identifier_type": "iupac",
+    "aliases": [
+      "O=C1CCCC(=O)C1"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:cyclohexanedione",
+      "functional_group:ketone"
+    ],
+    "notes": "Drawing-only: the prose of this section never names it. It appears solely as a drawn structure in the reaction scheme on line 535, where the vision read gives 'cyclohexane-1,3-dione (drawn as a structure)'. The SMILES alias is the 1,3-dione the locant in that read states."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "triethylamine hydrobromide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三乙胺氢溴酸盐"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "by_product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:by_product"
+    ],
+    "notes": "Named as the solid filtered off after the reaction."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "methanol",
+    "identifier_type": "iupac",
+    "aliases": [
+      "甲醇"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Added as aqueous methanol (甲醇水) to dissolve the residue after the dioxane is stripped."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "water",
+    "identifier_type": "iupac",
+    "aliases": [
+      "水"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Merged: the aqueous component of the methanol/water dissolution on line 537 and the wash of the filter cake on line 542."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "sodium hydroxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氢氧化钠"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": null,
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": "Used as an aqueous solution to raise the pH to 8-9 before the insolubles are filtered off."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "tembotrione",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "环磺酮",
+      "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Example 10",
+    "section_type": "experimental_example",
+    "is_section_product": true,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": 64.67
+    },
+    "ms_mz": null,
+    "nmr": {
+      "h1": null,
+      "c13": null,
+      "raw_text": "所得环磺酮的¹HNMR(DMSO)谱图如图15所示，¹³CNMR(DMSO)谱图如图16所示。",
+      "solvent": "DMSO",
+      "frequency_mhz": null
+    },
+    "melting_point": {
+      "min_c": 120.0,
+      "max_c": 122.0,
+      "range_text": "熔点120～122℃",
+      "decomposition": null
+    },
+    "appearance": "黄白色粉末状固体 (yellowish-white powdery solid)",
+    "color": "yellowish-white",
+    "physical_form": "powder",
+    "analytics": [
+      {
+        "method": "hplc",
+        "value": null,
+        "unit": null,
+        "conditions": null,
+        "raw_text": "通过高效液相色谱监测反应完成后"
+      },
+      {
+        "method": "nmr",
+        "value": null,
+        "unit": null,
+        "conditions": "DMSO",
+        "raw_text": "所得环磺酮的¹HNMR(DMSO)谱图如图15所示，¹³CNMR(DMSO)谱图如图16所示。"
+      }
+    ],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:active_ingredient",
+      "chemical_family:cyclohexanedione",
+      "functional_group:sulfone",
+      "functional_group:ketone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "环磺酮 is tembotrione (not sulcotrione, 磺草酮). Section product of the one-pot route. The drawn product SMILES on line 535 matches the name and is kept as an alias. NMR is reported only as references to Figures 15 and 16; no peak list is printed, so h1 and c13 are null."
+  }
+]

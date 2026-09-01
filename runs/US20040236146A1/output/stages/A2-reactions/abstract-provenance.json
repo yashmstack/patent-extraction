@@ -1,0 +1,12 @@
+[
+  {
+    "reaction_id": "Abstract_Step 1",
+    "source_lines": [
+      40,
+      44
+    ],
+    "quote_zh": "A process is described for preparing 3-bromomethylbenzoic acids of the formula II by brominating the corresponding 3-methylbenzoic acids.",
+    "arithmetic_check": "Nothing to check. The abstract states no quantity of any kind: no mass, no volume, no molar amount, no equivalents, no molar ratio, no temperature, no time and no yield. There is no arithmetic to close and no mass balance or molar-mass check can be computed, which is why no_conditions is raised and mass_balance_implausible is not.",
+    "drawing_evidence": "Nothing. The single IMAGE_EXTRACT span in this section stands at L42, between the two halves of the abstract's one sentence, and is the Markush structure of formula II with variable R1 and R2. It carries {\"molecules\": []} because the vision pass refused a SMILES for a generic, so it supports no reagent, no condition and no connectivity, and it is stripped from procedure_text under rule 5h. This patent contains no drawn reaction scheme anywhere."
+  }
+]

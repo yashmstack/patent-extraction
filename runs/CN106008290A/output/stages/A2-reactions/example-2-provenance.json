@@ -1,0 +1,22 @@
+[
+  {
+    "reaction_id": "Example 2_Step a",
+    "source_lines": [
+      149,
+      150
+    ],
+    "quote_zh": "步骤a:取1.2mol(146.4g)三氟乙醇钠,1.2mol(67.2g)氢氧化钾,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中,然后0℃下反应10小时后,将反应液中的N,N-二甲基甲酰胺减压蒸除后,将残液加入300mL水中,用35％的盐酸调pH至弱酸性,冷却结晶,过滤,水洗,干燥得化合物II,称重得321.7g,收率93％。",
+    "arithmetic_check": "Stated input 1.0 mol (318 g) of methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate as the limiting reagent, with 1.2 mol (146.4 g) sodium 2,2,2-trifluoroethoxide and 1.2 mol (67.2 g) potassium hydroxide; stated product 321.7 g of 化合物II at 93%. Reagent pairs: 146.4/1.2 = 122.0 against 122.02 for C2H2F3ONa, closes; 67.2/1.2 = 56.0 against 56.11 for KOH, closes; 318/1.0 = 318 against 341.60 for C10H10BrClO4S, short by 6.9%, does not close, molar_mass_inconsistent raised. Product: 321.7 g at 93% of 1.0 mol implies 0.93 mol and 345.9 g/mol; 化合物II is never defined in this section, so no name-based check is possible and no mass balance flag is raised on this step. For the reviewer only: 345.9 is within 0.2% of 346.70 for the free acid C11H10ClF3O5S and 4% away from 360.73 for the methyl ester C12H12ClF3O5S.",
+    "drawing_evidence": "No IMAGE_EXTRACT span in lines 142-152, so there is no drawing for this step and no drawing flag is raised."
+  },
+  {
+    "reaction_id": "Example 2_Step b",
+    "source_lines": [
+      151,
+      152
+    ],
+    "quote_zh": "步骤b:取1mol上述反应所得的化合物II,溶解在1000mL的二氯甲烷中,然后在8-15℃温度条件下,半小时内加入含1.3mol(145.6g)1,3-环己二酮(化合物III)和2mol(758g)缩合剂HBTU及2mol(212g)碳酸钠,再在8-15℃温度条件下搅拌反应9小时,然后水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)362.5g,纯度95.8％,收率86％。",
+    "arithmetic_check": "Stated input 1 mol of 化合物II from step a, with 1.3 mol (145.6 g) 1,3-cyclohexanedione, 2 mol (758 g) HBTU and 2 mol (212 g) sodium carbonate; stated product 362.5 g tembotrione, purity 95.8%, yield 86%. Reagent pairs: 145.6/1.3 = 112.0 against 112.13 for C6H8O2, closes; 758/2 = 379.0 against 379.24 for C11H16F6N5OP, closes; 212/2 = 106.0 against 105.99 for Na2CO3, closes. Product: tembotrione is C17H16ClF3O6S, 440.82; 86% of 1 mol would be 379.1 g, but 362.5 g is 0.8223 mol, that is 82.2% on the 1 mol charge, and 362.5/0.86 implies 421.5 g/mol; correcting for the stated 95.8% purity gives 347.3 g and 78.8%. The mass does not exceed what the charge could give, but the stated mass and stated yield do not close, so mass_balance_implausible is raised. Separately, step a isolated 0.93 mol (321.7 g at 93%) while this step charges 1 mol of the same material, a 0.07 mol deficit, so scale_discontinuity is raised. All numbers kept as printed.",
+    "drawing_evidence": "No IMAGE_EXTRACT span in lines 142-152, so there is no drawing for this step and no drawing flag is raised."
+  }
+]

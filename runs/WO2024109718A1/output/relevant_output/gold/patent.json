@@ -1,0 +1,342 @@
+{
+  "patent_id": "WO2024109718A1",
+  "patent_uuid": "84de66ad-fbef-5ffc-baa9-3092de82df92",
+  "title": "Method for preparing tembotrione, and intermediates",
+  "abstract": "本发明提供一种制备环磺酮的方法，其特征在于，包括如下的任意一个步骤。",
+  "language": "zh",
+  "bibliographic": {
+    "publication_date": "2024-05-30",
+    "priority_date": "2022-11-22",
+    "filing_date": "2023-11-21",
+    "grant_date": null,
+    "jurisdiction": "wo",
+    "patent_type": null,
+    "legal_status": "Ceased",
+    "family_id": "91195273",
+    "ipc_codes": [
+      "C07C 319/20",
+      "C07C 317/24",
+      "C07C 15/04",
+      "C07C 315/04"
+    ],
+    "cpc_codes": null
+  },
+  "parties": {
+    "assignees": [
+      {
+        "name": "Lansheng Biotechnology Group Co Ltd",
+        "country": "CN",
+        "type": "sme"
+      },
+      {
+        "name": "Hebei University of Science and Technology",
+        "country": "CN",
+        "type": "university"
+      }
+    ],
+    "inventors": [
+      {
+        "name": "Li Liuliu",
+        "country": "CN"
+      },
+      {
+        "name": "Zhao Yaran",
+        "country": "CN"
+      },
+      {
+        "name": "Guo Qingchun",
+        "country": "CN"
+      },
+      {
+        "name": "Song Haiwen",
+        "country": "CN"
+      },
+      {
+        "name": "Zhang Yue",
+        "country": "CN"
+      }
+    ],
+    "examiners": null
+  },
+  "patent_summary": "The document discloses a route to the triketone herbicide tembotrione (环磺酮, rendered \"cyclosulfonone\" in the publication's own English text) from 3-chloro-2-methylaniline: diazotisation and reaction with sodium methanethiolate to the aryl methyl sulfide (VI), ring bromination to (I), hydrogen peroxide oxidation of the sulfide to the methylsulfonyl compound (II), free-radical benzylic bromination to (III), displacement of the benzylic bromide by an alkali metal 2,2,2-trifluoroethoxide to (IV), and palladium-catalysed carbonylation of the aryl bromide (IV) either to the benzoic acid (V), which is taken on through the acid chloride and O-acylation of cyclohexane-1,3-dione, or directly to the enol ester (VIII) in the presence of cyclohexane-1,3-dione, a cyanide source then effecting the rearrangement of the enol ester to tembotrione either stepwise or in one pot. The document also claims the intermediate compounds of a general formula (A) covering four R1/R2 combinations, and their use as intermediates in preparing tembotrione.",
+  "novelty_claims": "Claim 1 is drafted as \"a process for preparing tembotrione, characterised in that it comprises any one of the following steps\", and the steps it turns on are the carbonylations (v) of the aryl bromide (IV) to the acid (V) and (v') of (IV) directly to the cyclohexane-1,3-dione enol ester (VIII); claim 3 recites carrying these out \"in the presence of a noble metal catalyst and a phosphine ligand or a salt thereof\", preferably palladium with 1,4-bis(diphenylphosphino)butane or a related ligand, and claim 9 offers step (vi') \"either stepwise with isolation of the intermediate ester compound, or in a one-pot manner without isolating the intermediate ester compound\". The background states specific objections to the route it says is widely used at present: it \"has 11 steps in total\", the acetyl chloride Friedel-Crafts reaction \"is highly irritating\" and its work-up \"produces a large amount of waste water containing the catalyst aluminium trichloride\", the following hypochlorite haloform reaction produces \"a large amount of waste water containing sodium chloride\", and attaching an acetyl group only to cleave the methyl group off again is \"unreasonable from the point of view of raw-material economy\". Against those objections the invention is positioned at [0009] as preparing tembotrione \"in fewer steps than the above existing process route, saving cost and improving production efficiency\", the carbonylation of the aryl bromide standing in for the Friedel-Crafts acetylation and haloform oxidation pair. The second thing positioned as new is a compound rather than a process: claim 11 claims the compounds of formula (A) per se over four R1/R2 combinations, and claims 13 and 14 claim, respectively, a preparation of tembotrione using them as intermediates and the use of those compounds as intermediates.",
+  "key_examples": [],
+  "extraction_rollup": {
+    "reaction_count": 79,
+    "compound_count": 137,
+    "pathway_count": 23,
+    "section_summary": {
+      "background": 22,
+      "claims": 12,
+      "experimental_intermediate": 10,
+      "experimental_example": 4,
+      "comparative_example": 1,
+      "summary_of_invention": 30
+    },
+    "target_compounds": [
+      {
+        "identifier": "tembotrione",
+        "smiles": null,
+        "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505"
+      },
+      {
+        "identifier": "compound of formula (VI)",
+        "smiles": null,
+        "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6"
+      },
+      {
+        "identifier": "式(IV)化合物",
+        "smiles": null,
+        "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb"
+      },
+      {
+        "identifier": "式(I)化合物",
+        "smiles": null,
+        "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857"
+      },
+      {
+        "identifier": "式(II)化合物",
+        "smiles": null,
+        "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569"
+      },
+      {
+        "identifier": "式(III)化合物",
+        "smiles": null,
+        "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4"
+      },
+      {
+        "identifier": "式(V)化合物",
+        "smiles": null,
+        "compound_uuid": "4df6cfa0-7b62-5fe9-a4be-9aeb612c31cc"
+      },
+      {
+        "identifier": "(VIII)酯化合物",
+        "smiles": null,
+        "compound_uuid": "69f81fcc-3571-5967-8ed6-6ef798a59884"
+      }
+    ],
+    "key_starting_materials": [
+      {
+        "identifier": "3-chloro-2-methylaniline",
+        "smiles": null,
+        "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13"
+      },
+      {
+        "identifier": "cyclohexane-1,3-dione",
+        "smiles": null,
+        "compound_uuid": "39ba8eb3-b3b2-5b63-8bb8-64be910a386b"
+      },
+      {
+        "identifier": "CO",
+        "smiles": null,
+        "compound_uuid": "973e7205-5a56-5076-bca5-93302e516067"
+      },
+      {
+        "identifier": "CSc1cccc(Cl)c1C",
+        "smiles": null,
+        "compound_uuid": "5e048784-bf9f-54f5-9ed1-57dae574a3cf"
+      },
+      {
+        "identifier": "O=C1CCCC(=O)C1",
+        "smiles": null,
+        "compound_uuid": "5d99acde-93d5-5f19-8ca0-b6bdc8474cee"
+      },
+      {
+        "identifier": "1,3-cyclohexanedione",
+        "smiles": null,
+        "compound_uuid": "4383d183-b739-5786-84cc-f1d35ecb2741"
+      },
+      {
+        "identifier": "carbon monoxide",
+        "smiles": null,
+        "compound_uuid": "4e38a89e-1913-5598-8057-18bee864b2c1"
+      },
+      {
+        "identifier": "式(VI)化合物",
+        "smiles": null,
+        "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5"
+      },
+      {
+        "identifier": "Cc1c(N)cccc1Cl",
+        "smiles": null,
+        "compound_uuid": "28792049-6de9-53f8-8cb3-b5d47c005c77"
+      }
+    ],
+    "chemistry_focus": [
+      "halogenation",
+      "other_cross_coupling",
+      "nucleophilic_substitution",
+      "oxidation",
+      "ester_formation"
+    ],
+    "best_overall_yield_pct": null,
+    "best_overall_yield_pathway_uuid": null,
+    "scale_distribution": {
+      "not_specified": 64,
+      "lab": 13,
+      "pilot": 2
+    }
+  },
+  "tags": [
+    "domain:agrochemical",
+    "target_class:herbicide",
+    "claim_type:process",
+    "claim_type:composition",
+    "claim_type:intermediate",
+    "claim_type:use",
+    "novelty:new_process",
+    "novelty:new_compound",
+    "novelty:green_chemistry",
+    "process_focus:batch",
+    "process_focus:one_pot",
+    "jurisdiction:wo",
+    "patent_family:91195273",
+    "time_period:2024",
+    "assignee:lansheng_biotechnology_group_co_ltd",
+    "assignee_type:sme",
+    "assignee:hebei_university_of_science_and_technology",
+    "assignee_type:university",
+    "compound_class:active_ingredient",
+    "chemical_family:cyclohexanedione",
+    "functional_group:sulfone",
+    "functional_group:ketone",
+    "functional_group:trifluoromethyl",
+    "functional_group:halide_chloro",
+    "functional_group:ether",
+    "chemical_family:triketone",
+    "compound_class:starting_material",
+    "chemical_family:aniline",
+    "functional_group:amine",
+    "compound_class:reagent",
+    "functional_group:thiolate",
+    "compound_class:acid",
+    "hazard:corrosive",
+    "compound_class:intermediate",
+    "chemical_family:aryl_sulfide",
+    "compound_class:catalyst",
+    "chemical_family:acetophenone",
+    "chemical_family:benzoic_acid",
+    "functional_group:carboxylic_acid",
+    "chemical_family:benzoate_ester",
+    "functional_group:ester",
+    "hazard:toxic",
+    "chemical_family:benzyl_halide",
+    "functional_group:halide_bromo",
+    "chemical_family:alkoxide",
+    "compound_class:base",
+    "chemical_family:benzoyl_chloride",
+    "compound_class:by_product",
+    "compound_class:solvent",
+    "compound_class:workup_agent",
+    "compound_class:ligand",
+    "chemical_family:diphosphine",
+    "chemical_family:toluene",
+    "hazard:flammable",
+    "chemical_family:cyclic_ether",
+    "chemical_family:succinimide",
+    "hazard:peroxide_former",
+    "functional_group:sulfide",
+    "chemical_family:aryl_sulfone",
+    "chemical_family:acyl_chloride",
+    "functional_group:thioether",
+    "chemical_family:nitrile",
+    "functional_group:nitrile",
+    "chemical_family:carboxylic_acid",
+    "chemical_family:chloroalkane",
+    "chemical_family:tertiary_amine",
+    "chemical_family:trialkylamine",
+    "compound_class:other",
+    "hazard:cyanide_handling",
+    "chemical_family:alcohol",
+    "chemical_family:biaryl_phosphine",
+    "chemical_family:xanthene_phosphine",
+    "chemical_family:diacyl_peroxide",
+    "hazard:explosive",
+    "hazard:pyrophoric",
+    "chemical_family:enol_ester",
+    "scale:not_specified",
+    "step_role:first_step",
+    "is_one_pot:false",
+    "linkage:standalone",
+    "mechanism:ionic",
+    "transformation:thioetherification",
+    "catalyst_class:none",
+    "workup_type:none",
+    "purification:none",
+    "step_role:intermediate_step",
+    "linkage:precursor_linked",
+    "transformation:acylation",
+    "named_rxn:friedel_crafts_acylation",
+    "catalyst_class:acid",
+    "transformation:oxidation",
+    "named_rxn:haloform_reaction",
+    "transformation:esterification",
+    "mechanism:radical",
+    "transformation:bromination",
+    "named_rxn:wohl_ziegler_bromination",
+    "transformation:etherification",
+    "named_rxn:williamson_ether_synthesis",
+    "transformation:hydrolysis",
+    "catalyst_class:base",
+    "transformation:chlorination",
+    "step_role:final_step",
+    "mechanism:not_determinable",
+    "transformation:rearrangement",
+    "is_one_pot:true",
+    "solvent_class:aqueous",
+    "transformation:carbonylation",
+    "mechanism:catalytic",
+    "catalyst_class:palladium",
+    "transformation:acyl_chloride_formation",
+    "transformation:diazotisation",
+    "analytics:hplc",
+    "analytics:nmr",
+    "scale:lab",
+    "workup_type:aqueous_extraction",
+    "workup_type:distillation",
+    "purification:distillation",
+    "atmosphere:carbon_monoxide",
+    "solvent_class:aprotic_polar",
+    "workup_type:filtration",
+    "purification:precipitation",
+    "safety:cyanide_handling",
+    "safety:high_pressure",
+    "linkage:cross_section_linked",
+    "scale:pilot",
+    "solvent_class:halogenated",
+    "analytics:melting_point",
+    "solvent_class:protic",
+    "purification:recrystallisation",
+    "purification:trituration",
+    "workup_type:precipitation",
+    "transformation:thiomethylation",
+    "temperature_preferred_c:70-90",
+    "temperature_preferred_c:50-80",
+    "transformation:salt_formation",
+    "temperature_preferred_c:80-90",
+    "time_h_range:10-20",
+    "transformation:acid_chloride_formation",
+    "chain_length:11",
+    "branching:linear",
+    "convergence:linear",
+    "lcl:long",
+    "chain_length:5",
+    "lcl:medium",
+    "chain_length:8",
+    "chain_length:6",
+    "chain_length:1",
+    "lcl:short",
+    "chain_length:7",
+    "chain_length:9",
+    "chain_length:4"
+  ],
+  "source_refs": {
+    "patent_summary_doc_id": null,
+    "blob_root": "manual_annotations/output",
+    "extracted_at": null,
+    "extractor_commit_sha": null
+  },
+  "honest_uncertainty_flags": [
+    "key_examples_not_referenced"
+  ]
+}

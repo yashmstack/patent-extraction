@@ -1,0 +1,2120 @@
+[
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      46
+    ],
+    "quote_zh": "本发明提供一种制备环磺酮的方法"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      61
+    ],
+    "quote_zh": "环磺酮是一种三酮类除草剂"
+  },
+  {
+    "identifier": "dichlorotoluene",
+    "source_lines": [
+      67
+    ],
+    "quote_zh": "上述方法中所用的原料二氯甲苯在反应时选择性不好"
+  },
+  {
+    "identifier": "3-chloro-2-methylaniline",
+    "source_lines": [
+      74
+    ],
+    "quote_zh": "\"smiles\": \"Cc1c(N)cccc1Cl\""
+  },
+  {
+    "identifier": "CH3SNa",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "{\"text\": \"CH3SNa\"}"
+  },
+  {
+    "identifier": "NaNO2",
+    "source_lines": [
+      74
+    ],
+    "quote_zh": "{\"text\": \"NaNO2\"}"
+  },
+  {
+    "identifier": "HCl",
+    "source_lines": [
+      74
+    ],
+    "quote_zh": "{\"text\": \"HCl\"}"
+  },
+  {
+    "identifier": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"CSc1cccc(Cl)c1C\""
+  },
+  {
+    "identifier": "acetyl chloride",
+    "source_lines": [
+      76
+    ],
+    "quote_zh": "乙酰氯发生的F-C反应刺激性大"
+  },
+  {
+    "identifier": "aluminium trichloride",
+    "source_lines": [
+      76
+    ],
+    "quote_zh": "产生大量含有催化剂三氯化铝的废水"
+  },
+  {
+    "identifier": "1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"CSc1ccc(C(C)=O)c(Cl)c1C\""
+  },
+  {
+    "identifier": "H2O2",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "{\"text\": \"H2O2\"}"
+  },
+  {
+    "identifier": "1-[2-chloro-4-(methanesulfonyl)-3-methylphenyl]ethan-1-one",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl\""
+  },
+  {
+    "identifier": "sodium hypochlorite",
+    "source_lines": [
+      76
+    ],
+    "quote_zh": "后面的次氯酸钠卤仿反应也是在水相进行"
+  },
+  {
+    "identifier": "2-chloro-4-(methanesulfonyl)-3-methylbenzoic acid",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl\""
+  },
+  {
+    "identifier": "CH3OH",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "{\"text\": \"CH3OH\"}"
+  },
+  {
+    "identifier": "methyl 2-chloro-4-(methanesulfonyl)-3-methylbenzoate",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl\""
+  },
+  {
+    "identifier": "NBS",
+    "source_lines": [
+      65
+    ],
+    "quote_zh": "{\"text\": \"NBS\"}"
+  },
+  {
+    "identifier": "Br2",
+    "source_lines": [
+      74
+    ],
+    "quote_zh": "{\"text\": \"Br2\"}"
+  },
+  {
+    "identifier": "methyl 3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzoate",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl\""
+  },
+  {
+    "identifier": "CF3CH2ONa",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "{\"text\": \"CF3CH2ONa\"}"
+  },
+  {
+    "identifier": "methyl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl\""
+  },
+  {
+    "identifier": "NaOH",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "{\"text\": \"NaOH\"}"
+  },
+  {
+    "identifier": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F\""
+  },
+  {
+    "identifier": "(COCl)2",
+    "source_lines": [
+      65
+    ],
+    "quote_zh": "{\"text\": \"(COCl)2\"}"
+  },
+  {
+    "identifier": "SOCl2",
+    "source_lines": [
+      74
+    ],
+    "quote_zh": "{\"text\": \"SOCl2\"}"
+  },
+  {
+    "identifier": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F\""
+  },
+  {
+    "identifier": "cyclohexane-1,3-dione",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "cyclohexane-1,3-dione"
+  },
+  {
+    "identifier": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F\""
+  },
+  {
+    "identifier": "卤仿",
+    "source_lines": [
+      76
+    ],
+    "quote_zh": "反应过程中会生成卤仿"
+  },
+  {
+    "identifier": "sodium chloride",
+    "source_lines": [
+      76
+    ],
+    "quote_zh": "产生大量含有氯化钠的废水"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      76
+    ],
+    "quote_zh": "也是在水相进行"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      553,
+      612,
+      668,
+      670
+    ],
+    "quote_zh": "环磺酮制备方法"
+  },
+  {
+    "identifier": "palladium",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "所述贵金属选自钯、铑、钌、铜、钴"
+  },
+  {
+    "identifier": "rhodium",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "所述贵金属选自钯、铑、钌、铜、钴"
+  },
+  {
+    "identifier": "ruthenium",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "所述贵金属选自钯、铑、钌、铜、钴"
+  },
+  {
+    "identifier": "copper",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "所述贵金属选自钯、铑、钌、铜、钴"
+  },
+  {
+    "identifier": "cobalt",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "所述贵金属选自钯、铑、钌、铜、钴"
+  },
+  {
+    "identifier": "palladium(II) chloride",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "氯化钯"
+  },
+  {
+    "identifier": "palladium(II) carbonate",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "碳酸钯"
+  },
+  {
+    "identifier": "palladium(II) acetate",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "醋酸钯"
+  },
+  {
+    "identifier": "palladium on carbon",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "钯/碳"
+  },
+  {
+    "identifier": "palladium(II) trifluoroacetate",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "三氟乙酸钯"
+  },
+  {
+    "identifier": "bis(dibenzylideneacetone)palladium(0)",
+    "source_lines": [
+      565
+    ],
+    "quote_zh": "双二亚苄基丙酮钯"
+  },
+  {
+    "identifier": "1,3-bis(diphenylphosphino)propane",
+    "source_lines": [
+      570
+    ],
+    "quote_zh": "1,3-(双二苯基膦)丙烷"
+  },
+  {
+    "identifier": "1,4-bis(diphenylphosphino)butane",
+    "source_lines": [
+      570
+    ],
+    "quote_zh": "1,4-双(二苯基膦)丁烷"
+  },
+  {
+    "identifier": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+    "source_lines": [
+      570
+    ],
+    "quote_zh": "双[(4-N,N-二甲氨基)苯基]二叔丁基膦"
+  },
+  {
+    "identifier": "toluene",
+    "source_lines": [
+      572
+    ],
+    "quote_zh": "甲苯"
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "source_lines": [
+      572
+    ],
+    "quote_zh": "1,4-二氧六环"
+  },
+  {
+    "identifier": "ethylene glycol dimethyl ether",
+    "source_lines": [
+      572
+    ],
+    "quote_zh": "乙二醇二甲醚"
+  },
+  {
+    "identifier": "ethylene glycol diethyl ether",
+    "source_lines": [
+      572
+    ],
+    "quote_zh": "乙二醇二乙醚"
+  },
+  {
+    "identifier": "dimethyl sulfoxide",
+    "source_lines": [
+      572
+    ],
+    "quote_zh": "二甲基亚砜"
+  },
+  {
+    "identifier": "tetrahydrofuran",
+    "source_lines": [
+      572
+    ],
+    "quote_zh": "四氢呋喃"
+  },
+  {
+    "identifier": "N,N-dimethylformamide",
+    "source_lines": [
+      572
+    ],
+    "quote_zh": "N,N-二甲基甲酰胺"
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [
+      585,
+      603,
+      664,
+      580,
+      639
+    ],
+    "quote_zh": "溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素"
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      585,
+      603,
+      664
+    ],
+    "quote_zh": "溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素"
+  },
+  {
+    "identifier": "hydrogen bromide",
+    "source_lines": [
+      585,
+      603,
+      664
+    ],
+    "quote_zh": "溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素"
+  },
+  {
+    "identifier": "hydrogen peroxide",
+    "source_lines": [
+      585,
+      603,
+      664,
+      589,
+      641
+    ],
+    "quote_zh": "溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素"
+  },
+  {
+    "identifier": "CF3CH2ONa",
+    "source_lines": [
+      587,
+      603,
+      666
+    ],
+    "quote_zh": "CF3CH2OM为CF3CH2ONa或CF3CH2OK"
+  },
+  {
+    "identifier": "CF3CH2OK",
+    "source_lines": [
+      587,
+      603,
+      666
+    ],
+    "quote_zh": "CF3CH2OM为CF3CH2ONa或CF3CH2OK"
+  },
+  {
+    "identifier": "CF3CH2OM",
+    "source_lines": [
+      587,
+      593,
+      603,
+      645,
+      666
+    ],
+    "quote_zh": "CF3CH2OM为CF3CH2ONa或CF3CH2OK"
+  },
+  {
+    "identifier": "CO",
+    "source_lines": [
+      561,
+      563,
+      618,
+      620
+    ],
+    "quote_zh": "{\"text\": \"CO\"}"
+  },
+  {
+    "identifier": "H2O",
+    "source_lines": [
+      561,
+      618
+    ],
+    "quote_zh": "{\"text\": \"H2O\"}"
+  },
+  {
+    "identifier": "CSc1cccc(Cl)c1C",
+    "source_lines": [
+      576
+    ],
+    "quote_zh": "{\"smiles\": \"CSc1cccc(Cl)c1C\", \"molecular_formula\": \"C8H9ClS\", \"inchi_key\": \"QNMYJMZVOFQIRD-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "CSc1ccc(Br)c(Cl)c1C",
+    "source_lines": [
+      576
+    ],
+    "quote_zh": "{\"smiles\": \"CSc1ccc(Br)c(Cl)c1C\", \"molecular_formula\": \"C8H8BrClS\", \"inchi_key\": \"VEKIRHPKUFHYGT-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "source_lines": [
+      576
+    ],
+    "quote_zh": "{\"smiles\": \"Cc1c(S(C)(=O)=O)ccc(Br)c1Cl\", \"molecular_formula\": \"C8H8BrClO2S\", \"inchi_key\": \"KHLKTMJARYUXKF-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "source_lines": [
+      576
+    ],
+    "quote_zh": "{\"smiles\": \"CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr\", \"molecular_formula\": \"C8H7Br2ClO2S\", \"inchi_key\": \"GXQKMZQAWXBWBB-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "source_lines": [
+      576
+    ],
+    "quote_zh": "{\"smiles\": \"CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F\", \"molecular_formula\": \"C10H9BrClF3O3S\", \"inchi_key\": \"VHLAIVUXGGOCMJ-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "source_lines": [
+      555
+    ],
+    "quote_zh": "{\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F\", \"molecular_formula\": \"C11H10ClF3O5S\", \"inchi_key\": \"YGMJOCQCLVNPOD-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "source_lines": [
+      612
+    ],
+    "quote_zh": "{\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F\", \"molecular_formula\": \"C11H9Cl2F3O4S\", \"inchi_key\": \"YGWVWXIUXUSKSY-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "source_lines": [
+      557
+    ],
+    "quote_zh": "{\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F\", \"molecular_formula\": \"C17H16ClF3O6S\", \"inchi_key\": \"OBAMHTWSCBVWGB-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "O=C1CCCC(=O)C1",
+    "source_lines": [
+      563
+    ],
+    "quote_zh": "{\"smiles\": \"O=C1CCCC(=O)C1\", \"molecular_formula\": \"C6H8O2\", \"inchi_key\": \"HJSLFCCWAKVHIW-UHFFFAOYSA-N\"}"
+  },
+  {
+    "identifier": "compound of formula (A)",
+    "source_lines": [
+      624,
+      626,
+      628,
+      630,
+      632,
+      634,
+      647,
+      649
+    ],
+    "quote_zh": "下式(A)所示的化合物"
+  },
+  {
+    "identifier": "compound of formula (VI)",
+    "source_lines": [
+      426,
+      433,
+      437
+    ],
+    "quote_zh": "得到式(VI)化合物"
+  },
+  {
+    "identifier": "3-chloro-2-methylaniline",
+    "source_lines": [
+      426,
+      428
+    ],
+    "quote_zh": "滴加3-氯-2-甲基苯胺100g"
+  },
+  {
+    "identifier": "hydrochloric acid",
+    "source_lines": [
+      426,
+      428,
+      433
+    ],
+    "quote_zh": "在20℃下将5.1％盐酸1165g加入到四口瓶中"
+  },
+  {
+    "identifier": "NaNO2",
+    "source_lines": [
+      426,
+      428
+    ],
+    "quote_zh": "在0℃进一步滴加20％NaNO2水溶液251.41g"
+  },
+  {
+    "identifier": "CH3SNa",
+    "source_lines": [
+      426,
+      433
+    ],
+    "quote_zh": "称量20％CH3SNa水溶液273g"
+  },
+  {
+    "identifier": "NaOH",
+    "source_lines": [
+      433
+    ],
+    "quote_zh": "32％NaOH水溶液26.62g"
+  },
+  {
+    "identifier": "重氮盐",
+    "source_lines": [
+      433
+    ],
+    "quote_zh": "得到重氮盐溶液"
+  },
+  {
+    "identifier": "acetonitrile",
+    "source_lines": [
+      435
+    ],
+    "quote_zh": "流动相为乙腈：水"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      435
+    ],
+    "quote_zh": "流动相为乙腈：水"
+  },
+  {
+    "identifier": "formic acid",
+    "source_lines": [
+      435
+    ],
+    "quote_zh": "用甲酸调节pH至3.7～4.1"
+  },
+  {
+    "identifier": "CDCl3",
+    "source_lines": [
+      437
+    ],
+    "quote_zh": "式(VI)化合物的1HNMR(CDCl3)谱图如图1所示"
+  },
+  {
+    "identifier": "式(IV)化合物",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "向高压釜中加入式(IV)化合物56.84g"
+  },
+  {
+    "identifier": "triethylamine",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "三乙胺37.95g"
+  },
+  {
+    "identifier": "PdCl2",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "PdCl2催化剂0.4g"
+  },
+  {
+    "identifier": "1,4-bis(diphenylphosphino)butane",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "配体1,4-双(二苯基膦)丁烷3.98g"
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "溶剂1,4-二氧六环300g"
+  },
+  {
+    "identifier": "nitrogen",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "氮气置换3次"
+  },
+  {
+    "identifier": "CO",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "以约1～4MPa的压力通入CO"
+  },
+  {
+    "identifier": "acetone cyanohydrin",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "加入2g丙酮氰醇"
+  },
+  {
+    "identifier": "cyclohexane-1,3-dione",
+    "source_lines": [
+      535
+    ],
+    "quote_zh": "cyclohexane-1,3-dione (drawn as a structure)"
+  },
+  {
+    "identifier": "triethylamine hydrobromide",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "除去三乙胺氢溴酸盐"
+  },
+  {
+    "identifier": "methanol",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "加入甲醇水溶解"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      542
+    ],
+    "quote_zh": "水洗"
+  },
+  {
+    "identifier": "sodium hydroxide",
+    "source_lines": [
+      537
+    ],
+    "quote_zh": "用氢氧化钠溶液调节pH至8～9"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      542
+    ],
+    "quote_zh": "得到黄白色粉末状固体环磺酮，收率64.67％，熔点120～122℃"
+  },
+  {
+    "identifier": "式(IV)化合物",
+    "source_lines": [
+      548
+    ],
+    "quote_zh": "向高压釜中加入式(IV)化合物56.84g"
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "source_lines": [
+      548
+    ],
+    "quote_zh": "1,3-环己二酮21.84g"
+  },
+  {
+    "identifier": "triethylamine",
+    "source_lines": [
+      548
+    ],
+    "quote_zh": "三乙胺37.95g"
+  },
+  {
+    "identifier": "palladium(II) chloride",
+    "source_lines": [
+      548
+    ],
+    "quote_zh": "PdCl₂催化剂0.5g"
+  },
+  {
+    "identifier": "2-dicyclohexylphosphino-2',6'-dimethoxybiphenyl",
+    "source_lines": [
+      548
+    ],
+    "quote_zh": "配体2-双环己基膦-2',6'-二甲氧基联苯或4,5-双二苯基膦-9,9-二甲基氧杂蒽4g"
+  },
+  {
+    "identifier": "4,5-bis(diphenylphosphino)-9,9-dimethylxanthene",
+    "source_lines": [
+      548
+    ],
+    "quote_zh": "配体2-双环己基膦-2',6'-二甲氧基联苯或4,5-双二苯基膦-9,9-二甲基氧杂蒽4g"
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "source_lines": [
+      548
+    ],
+    "quote_zh": "溶剂1,4-二氧六环290g"
+  },
+  {
+    "identifier": "nitrogen",
+    "source_lines": [
+      548
+    ],
+    "quote_zh": "氮气置换3次"
+  },
+  {
+    "identifier": "carbon monoxide",
+    "source_lines": [
+      548
+    ],
+    "quote_zh": "通入1～4MPa的CO"
+  },
+  {
+    "identifier": "式(VI)化合物",
+    "source_lines": [
+      443
+    ],
+    "quote_zh": "将式(VI)化合物100.75g"
+  },
+  {
+    "identifier": "dichloromethane",
+    "source_lines": [
+      443
+    ],
+    "quote_zh": "400g二氯甲烷置于四口圆底烧瓶中"
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [
+      443
+    ],
+    "quote_zh": "于10℃左右滴加溴素98.4g"
+  },
+  {
+    "identifier": "sodium hydroxide",
+    "source_lines": [
+      443
+    ],
+    "quote_zh": "用30mL 32％的NaOH溶液淬灭，分出有机相，并用70mL 32％的NaOH水溶液洗涤两次"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      443
+    ],
+    "quote_zh": "然后用70mL水洗涤两次"
+  },
+  {
+    "identifier": "式(I)化合物",
+    "source_lines": [
+      443
+    ],
+    "quote_zh": "有机层旋蒸除去溶剂，得到式(I)化合物。"
+  },
+  {
+    "identifier": "式(I)化合物",
+    "source_lines": [
+      453
+    ],
+    "quote_zh": "将式(I)化合物146g"
+  },
+  {
+    "identifier": "sodium tungstate dihydrate",
+    "source_lines": [
+      453
+    ],
+    "quote_zh": "二水合钨酸钠1.91g"
+  },
+  {
+    "identifier": "glacial acetic acid",
+    "source_lines": [
+      453
+    ],
+    "quote_zh": "冰醋酸600mL加入到四口烧瓶中"
+  },
+  {
+    "identifier": "hydrogen peroxide",
+    "source_lines": [
+      453
+    ],
+    "quote_zh": "滴加23％的双氧水224g"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      458
+    ],
+    "quote_zh": "滤饼用水洗涤两次"
+  },
+  {
+    "identifier": "式(II)化合物",
+    "source_lines": [
+      449,
+      458,
+      460,
+      462
+    ],
+    "quote_zh": "得到式(II)化合物。熔点138-140℃。"
+  },
+  {
+    "identifier": "式(III)化合物",
+    "source_lines": [
+      464,
+      466,
+      468,
+      470,
+      472,
+      474
+    ],
+    "quote_zh": "得到式(III)化合物。熔点148-150℃。"
+  },
+  {
+    "identifier": "式(II)化合物",
+    "source_lines": [
+      466,
+      468,
+      470
+    ],
+    "quote_zh": "将式(II)化合物84g"
+  },
+  {
+    "identifier": "benzoyl peroxide",
+    "source_lines": [
+      468,
+      470
+    ],
+    "quote_zh": "过氧化苯甲酰3.58g"
+  },
+  {
+    "identifier": "1,2-dichloroethane",
+    "source_lines": [
+      468
+    ],
+    "quote_zh": "1,2-二氯乙烷500mL"
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [
+      468
+    ],
+    "quote_zh": "滴加溴素52.8g"
+  },
+  {
+    "identifier": "sodium hydroxide",
+    "source_lines": [
+      468
+    ],
+    "quote_zh": "用50mL32％的NaOH水溶液淬灭反应"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      468
+    ],
+    "quote_zh": "50mL水洗两次"
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      470
+    ],
+    "quote_zh": "N-溴代丁二酰亚胺64.1g"
+  },
+  {
+    "identifier": "carbon tetrachloride",
+    "source_lines": [
+      470
+    ],
+    "quote_zh": "四氯化碳500mL"
+  },
+  {
+    "identifier": "ethanol",
+    "source_lines": [
+      470
+    ],
+    "quote_zh": "残余物用150mL乙醇重结晶"
+  },
+  {
+    "identifier": "溴代试剂",
+    "source_lines": [
+      466
+    ],
+    "quote_zh": "溴代试剂"
+  },
+  {
+    "identifier": "式(III)化合物",
+    "source_lines": [
+      478,
+      483
+    ],
+    "quote_zh": "进一步滴加式(III)化合物83g的400mL无水四氢呋喃溶液"
+  },
+  {
+    "identifier": "式(IV)化合物",
+    "source_lines": [
+      476,
+      478,
+      483,
+      487
+    ],
+    "quote_zh": "得到式(IV)化合物。熔点80-82℃。"
+  },
+  {
+    "identifier": "sodium hydride",
+    "source_lines": [
+      483
+    ],
+    "quote_zh": "在-5～5℃将60％氢化钠9.2g溶于80mL无水四氢呋喃中"
+  },
+  {
+    "identifier": "2,2,2-trifluoroethanol",
+    "source_lines": [
+      483
+    ],
+    "quote_zh": "往该溶液中滴加三氟乙醇24g的20mL无水四氢呋喃溶液"
+  },
+  {
+    "identifier": "tetrahydrofuran",
+    "source_lines": [
+      483
+    ],
+    "quote_zh": "80mL无水四氢呋喃"
+  },
+  {
+    "identifier": "CF3CH2ONa",
+    "source_lines": [
+      478
+    ],
+    "quote_zh": "\"conditions\": [{\"text\": \"CF3CH2ONa\"}]"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      483,
+      485
+    ],
+    "quote_zh": "加水淬灭"
+  },
+  {
+    "identifier": "saturated brine",
+    "source_lines": [
+      483
+    ],
+    "quote_zh": "有机相用40mL饱和食盐水洗涤两次"
+  },
+  {
+    "identifier": "methanol",
+    "source_lines": [
+      483
+    ],
+    "quote_zh": "残余物用120g甲醇或乙醇重结晶"
+  },
+  {
+    "identifier": "ethanol",
+    "source_lines": [
+      483
+    ],
+    "quote_zh": "残余物用120g甲醇或乙醇重结晶"
+  },
+  {
+    "identifier": "acetonitrile",
+    "source_lines": [
+      485
+    ],
+    "quote_zh": "流动相为乙腈:水(加0.1％甲酸)＝60:40(V:V)"
+  },
+  {
+    "identifier": "formic acid",
+    "source_lines": [
+      485
+    ],
+    "quote_zh": "加0.1％甲酸"
+  },
+  {
+    "identifier": "式(IV)化合物",
+    "source_lines": [
+      493
+    ],
+    "quote_zh": "向高压釜中加入式(IV)化合物40g"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      493
+    ],
+    "quote_zh": "水20g"
+  },
+  {
+    "identifier": "triethylamine",
+    "source_lines": [
+      493
+    ],
+    "quote_zh": "三乙胺26.49g"
+  },
+  {
+    "identifier": "PdCl₂",
+    "source_lines": [
+      493
+    ],
+    "quote_zh": "PdCl₂催化剂0.4g"
+  },
+  {
+    "identifier": "1,4-bis(diphenylphosphino)butane",
+    "source_lines": [
+      493
+    ],
+    "quote_zh": "配体1,4-双(二苯基膦)丁烷4.65g"
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "source_lines": [
+      493
+    ],
+    "quote_zh": "溶剂1,4-二氧六环400g"
+  },
+  {
+    "identifier": "CO",
+    "source_lines": [
+      493
+    ],
+    "quote_zh": "以约1～4MPa的压力通入CO"
+  },
+  {
+    "identifier": "nitrogen",
+    "source_lines": [
+      493
+    ],
+    "quote_zh": "氮气置换"
+  },
+  {
+    "identifier": "methanol",
+    "source_lines": [
+      493
+    ],
+    "quote_zh": "加入甲醇溶解"
+  },
+  {
+    "identifier": "式(V)化合物",
+    "source_lines": [
+      493
+    ],
+    "quote_zh": "得到式(V)化合物，收率81.13％，熔点155-157℃"
+  },
+  {
+    "identifier": "式(IV)化合物",
+    "source_lines": [
+      504,
+      506
+    ],
+    "quote_zh": "向高压釜中加入式(IV)化合物40g"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      504,
+      506
+    ],
+    "quote_zh": "水20g"
+  },
+  {
+    "identifier": "triethylamine",
+    "source_lines": [
+      506
+    ],
+    "quote_zh": "三乙胺26.49g"
+  },
+  {
+    "identifier": "PdCl2",
+    "source_lines": [
+      506
+    ],
+    "quote_zh": "PdCl2催化剂0.4g"
+  },
+  {
+    "identifier": "1,3-bis(diphenylphosphino)propane",
+    "source_lines": [
+      506
+    ],
+    "quote_zh": "配体1,3-双(二苯基膦)丙烷3.95g"
+  },
+  {
+    "identifier": "tetrahydrofuran",
+    "source_lines": [
+      506
+    ],
+    "quote_zh": "溶剂四氢呋喃400g"
+  },
+  {
+    "identifier": "CO",
+    "source_lines": [
+      504,
+      506
+    ],
+    "quote_zh": "以约1～4MPa的压力通入CO"
+  },
+  {
+    "identifier": "nitrogen",
+    "source_lines": [
+      506
+    ],
+    "quote_zh": "抽真空，氮气置换"
+  },
+  {
+    "identifier": "methanol",
+    "source_lines": [
+      506
+    ],
+    "quote_zh": "加入甲醇溶解"
+  },
+  {
+    "identifier": "式(V)化合物",
+    "source_lines": [
+      499,
+      504,
+      506
+    ],
+    "quote_zh": "得到式(V)化合物，收率67.57％，熔点155-157℃"
+  },
+  {
+    "identifier": "式(V)化合物",
+    "source_lines": [
+      510,
+      512
+    ],
+    "quote_zh": "将式(V)化合物1.5g溶于20mL 1,4-二氧六环中"
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "source_lines": [
+      512
+    ],
+    "quote_zh": "溶于20mL 1,4-二氧六环中"
+  },
+  {
+    "identifier": "thionyl chloride",
+    "source_lines": [
+      510,
+      512
+    ],
+    "quote_zh": "在5℃下滴加氯化亚砜1.03g"
+  },
+  {
+    "identifier": "式(VII)化合物",
+    "source_lines": [
+      510,
+      512
+    ],
+    "quote_zh": "旋蒸除去溶剂，得到式(VII)化合物"
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "source_lines": [
+      510,
+      512
+    ],
+    "quote_zh": "另将0.5g 1,3-环己二酮溶于15mL二氧六环中"
+  },
+  {
+    "identifier": "triethylamine",
+    "source_lines": [
+      512
+    ],
+    "quote_zh": "加入0.44g三乙胺"
+  },
+  {
+    "identifier": "式(VIII)化合物",
+    "source_lines": [
+      510,
+      514
+    ],
+    "quote_zh": "往上述得到的式(VIII)化合物溶液中"
+  },
+  {
+    "identifier": "acetone cyanohydrin",
+    "source_lines": [
+      514
+    ],
+    "quote_zh": "加入0.1mL丙酮氰醇"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      514
+    ],
+    "quote_zh": "加入水"
+  },
+  {
+    "identifier": "hydrochloric acid",
+    "source_lines": [
+      514
+    ],
+    "quote_zh": "用盐酸调节pH为2～3"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      510,
+      514
+    ],
+    "quote_zh": "得到环磺酮，收率76.59％"
+  },
+  {
+    "identifier": "式(IV)化合物",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "向高压釜中加入式(IV)化合物94.73g"
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "1,3-环己二酮29.41g"
+  },
+  {
+    "identifier": "triethylamine",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "三乙胺27.83g"
+  },
+  {
+    "identifier": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "双[(4-N,N-二甲氨基)苯基]二叔丁基膦二氯化钯3g"
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "溶剂二氧六环250g"
+  },
+  {
+    "identifier": "nitrogen",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "氮气置换3次"
+  },
+  {
+    "identifier": "CO",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "通入1～4MPa的CO"
+  },
+  {
+    "identifier": "ethanol",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "加入80g乙醇"
+  },
+  {
+    "identifier": "(VIII)酯化合物",
+    "source_lines": [
+      525
+    ],
+    "quote_zh": "得到(VIII)酯化合物，收率为80％"
+  },
+  {
+    "identifier": "ethylene glycol diethyl ether",
+    "source_lines": [
+      527
+    ],
+    "quote_zh": "溶剂替换为乙二醇二乙醚300g"
+  },
+  {
+    "identifier": "式(I)化合物",
+    "source_lines": [
+      235
+    ],
+    "quote_zh": "本发明的式(I)化合物可以通过如下路线制备"
+  },
+  {
+    "identifier": "式(VI)化合物",
+    "source_lines": [
+      239
+    ],
+    "quote_zh": "上述路线以式(VI)化合物和溴素为原料"
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [
+      287
+    ],
+    "quote_zh": "使用溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合作为溴代试剂"
+  },
+  {
+    "identifier": "sodium hydroxide",
+    "source_lines": [
+      246
+    ],
+    "quote_zh": "所述碱液的具体例子包括但不限于NaOH水溶液等"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      320
+    ],
+    "quote_zh": "向高压釜中加入式(IV)化合物、水、缚酸剂、催化剂、配体和第一溶剂"
+  },
+  {
+    "identifier": "dichloromethane",
+    "source_lines": [
+      250
+    ],
+    "quote_zh": "上述反应中使用二氯甲烷、1,2-二氯乙烷作为溶剂"
+  },
+  {
+    "identifier": "1,2-dichloroethane",
+    "source_lines": [
+      250
+    ],
+    "quote_zh": "上述反应中使用二氯甲烷、1,2-二氯乙烷作为溶剂"
+  },
+  {
+    "identifier": "NaNO2",
+    "source_lines": [
+      254
+    ],
+    "quote_zh": "{\"text\": \"NaNO2\"}"
+  },
+  {
+    "identifier": "CH3SNa",
+    "source_lines": [
+      254
+    ],
+    "quote_zh": "{\"text\": \"CH3SNa\"}"
+  },
+  {
+    "identifier": "HCl",
+    "source_lines": [
+      254
+    ],
+    "quote_zh": "{\"text\": \"HCl\"}"
+  },
+  {
+    "identifier": "Cc1c(N)cccc1Cl",
+    "source_lines": [
+      254
+    ],
+    "quote_zh": "\"smiles\": \"Cc1c(N)cccc1Cl\""
+  },
+  {
+    "identifier": "式(II)化合物",
+    "source_lines": [
+      256
+    ],
+    "quote_zh": "本发明的式(II)化合物可以通过如下路线制备"
+  },
+  {
+    "identifier": "hydrogen peroxide",
+    "source_lines": [
+      260
+    ],
+    "quote_zh": "上述路线以双氧水为氧化剂"
+  },
+  {
+    "identifier": "钨酸盐",
+    "source_lines": [
+      266
+    ],
+    "quote_zh": "上述反应中使用钨酸盐、偏钨酸盐、钒酸盐、偏钒酸盐作为催化剂"
+  },
+  {
+    "identifier": "偏钨酸盐",
+    "source_lines": [
+      266
+    ],
+    "quote_zh": "上述反应中使用钨酸盐、偏钨酸盐、钒酸盐、偏钒酸盐作为催化剂"
+  },
+  {
+    "identifier": "钒酸盐",
+    "source_lines": [
+      266
+    ],
+    "quote_zh": "上述反应中使用钨酸盐、偏钨酸盐、钒酸盐、偏钒酸盐作为催化剂"
+  },
+  {
+    "identifier": "偏钒酸盐",
+    "source_lines": [
+      266
+    ],
+    "quote_zh": "上述反应中使用钨酸盐、偏钨酸盐、钒酸盐、偏钒酸盐作为催化剂"
+  },
+  {
+    "identifier": "sodium tungstate dihydrate",
+    "source_lines": [
+      266
+    ],
+    "quote_zh": "优选使用二水合钨酸钠作为催化剂"
+  },
+  {
+    "identifier": "glacial acetic acid",
+    "source_lines": [
+      268
+    ],
+    "quote_zh": "上述反应中使用冰醋酸、甲酸作为溶剂"
+  },
+  {
+    "identifier": "formic acid",
+    "source_lines": [
+      268
+    ],
+    "quote_zh": "上述反应中使用冰醋酸、甲酸作为溶剂"
+  },
+  {
+    "identifier": "式(III)化合物",
+    "source_lines": [
+      277
+    ],
+    "quote_zh": "本发明的式(III)化合物可以通过如下路线制备"
+  },
+  {
+    "identifier": "溴代试剂",
+    "source_lines": [
+      281
+    ],
+    "quote_zh": "上述路线以式(II)化合物和溴代试剂为原料"
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      287
+    ],
+    "quote_zh": "使用溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合作为溴代试剂"
+  },
+  {
+    "identifier": "hydrogen bromide",
+    "source_lines": [
+      287
+    ],
+    "quote_zh": "使用溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合作为溴代试剂"
+  },
+  {
+    "identifier": "benzoyl peroxide",
+    "source_lines": [
+      289
+    ],
+    "quote_zh": "上述反应中使用过氧化苯甲酰(BPO)、偶氮二异丁腈(AIBN)作为引发剂"
+  },
+  {
+    "identifier": "azobisisobutyronitrile",
+    "source_lines": [
+      289
+    ],
+    "quote_zh": "上述反应中使用过氧化苯甲酰(BPO)、偶氮二异丁腈(AIBN)作为引发剂"
+  },
+  {
+    "identifier": "二氯乙烷",
+    "source_lines": [
+      291
+    ],
+    "quote_zh": "上述反应中使用二氯甲烷、二氯乙烷、四氯化碳作为溶剂"
+  },
+  {
+    "identifier": "carbon tetrachloride",
+    "source_lines": [
+      291
+    ],
+    "quote_zh": "上述反应中使用二氯甲烷、二氯乙烷、四氯化碳作为溶剂"
+  },
+  {
+    "identifier": "式(IV)化合物",
+    "source_lines": [
+      295
+    ],
+    "quote_zh": "本发明的式(IV)化合物可以通过如下路线制备"
+  },
+  {
+    "identifier": "sodium 2,2,2-trifluoroethoxide",
+    "source_lines": [
+      302
+    ],
+    "quote_zh": "上述路线以式(III)化合物和三氟乙醇钠或三氟乙醇钾为原料"
+  },
+  {
+    "identifier": "potassium 2,2,2-trifluoroethoxide",
+    "source_lines": [
+      302
+    ],
+    "quote_zh": "上述路线以式(III)化合物和三氟乙醇钠或三氟乙醇钾为原料"
+  },
+  {
+    "identifier": "CF3CH2OM",
+    "source_lines": [
+      306
+    ],
+    "quote_zh": "上式中，CF3CH2OM为CF3CH2ONa或CF3CH2OK"
+  },
+  {
+    "identifier": "tetrahydrofuran",
+    "source_lines": [
+      310
+    ],
+    "quote_zh": "上述反应中使用四氢呋喃、1,4-二氧六环、乙醚作为溶剂"
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "source_lines": [
+      310
+    ],
+    "quote_zh": "上述反应中使用四氢呋喃、1,4-二氧六环、乙醚作为溶剂"
+  },
+  {
+    "identifier": "diethyl ether",
+    "source_lines": [
+      310
+    ],
+    "quote_zh": "上述反应中使用四氢呋喃、1,4-二氧六环、乙醚作为溶剂"
+  },
+  {
+    "identifier": "sodium hydride",
+    "source_lines": [
+      314
+    ],
+    "quote_zh": "三氟乙醇钠或三氟乙醇钾通过使氢化钠或氢化钾、甲醇钠或甲醇钾、氢氧化钠或氢氧化钾与三氟乙醇反应制备"
+  },
+  {
+    "identifier": "potassium hydride",
+    "source_lines": [
+      314
+    ],
+    "quote_zh": "三氟乙醇钠或三氟乙醇钾通过使氢化钠或氢化钾、甲醇钠或甲醇钾、氢氧化钠或氢氧化钾与三氟乙醇反应制备"
+  },
+  {
+    "identifier": "sodium methoxide",
+    "source_lines": [
+      314
+    ],
+    "quote_zh": "三氟乙醇钠或三氟乙醇钾通过使氢化钠或氢化钾、甲醇钠或甲醇钾、氢氧化钠或氢氧化钾与三氟乙醇反应制备"
+  },
+  {
+    "identifier": "potassium methoxide",
+    "source_lines": [
+      314
+    ],
+    "quote_zh": "三氟乙醇钠或三氟乙醇钾通过使氢化钠或氢化钾、甲醇钠或甲醇钾、氢氧化钠或氢氧化钾与三氟乙醇反应制备"
+  },
+  {
+    "identifier": "potassium hydroxide",
+    "source_lines": [
+      314
+    ],
+    "quote_zh": "三氟乙醇钠或三氟乙醇钾通过使氢化钠或氢化钾、甲醇钠或甲醇钾、氢氧化钠或氢氧化钾与三氟乙醇反应制备"
+  },
+  {
+    "identifier": "2,2,2-trifluoroethanol",
+    "source_lines": [
+      314
+    ],
+    "quote_zh": "三氟乙醇钠或三氟乙醇钾通过使氢化钠或氢化钾、甲醇钠或甲醇钾、氢氧化钠或氢氧化钾与三氟乙醇反应制备"
+  },
+  {
+    "identifier": "methanol",
+    "source_lines": [
+      308
+    ],
+    "quote_zh": "用甲醇或乙醇重结晶"
+  },
+  {
+    "identifier": "ethanol",
+    "source_lines": [
+      308
+    ],
+    "quote_zh": "用甲醇或乙醇重结晶"
+  },
+  {
+    "identifier": "saturated brine",
+    "source_lines": [
+      308
+    ],
+    "quote_zh": "用饱和食盐水洗涤有机层"
+  },
+  {
+    "identifier": "式(V)化合物",
+    "source_lines": [
+      320
+    ],
+    "quote_zh": "析出白色固体，过滤，得到式(V)化合物"
+  },
+  {
+    "identifier": "CO",
+    "source_lines": [
+      320
+    ],
+    "quote_zh": "通入CO"
+  },
+  {
+    "identifier": "nitrogen",
+    "source_lines": [
+      320
+    ],
+    "quote_zh": "抽真空，氮气置换"
+  },
+  {
+    "identifier": "palladium",
+    "source_lines": [
+      325
+    ],
+    "quote_zh": "催化剂使用钯、铑、钌、铜、钴等贵金属催化剂"
+  },
+  {
+    "identifier": "rhodium",
+    "source_lines": [
+      325
+    ],
+    "quote_zh": "催化剂使用钯、铑、钌、铜、钴等贵金属催化剂"
+  },
+  {
+    "identifier": "ruthenium",
+    "source_lines": [
+      325
+    ],
+    "quote_zh": "催化剂使用钯、铑、钌、铜、钴等贵金属催化剂"
+  },
+  {
+    "identifier": "copper",
+    "source_lines": [
+      325
+    ],
+    "quote_zh": "催化剂使用钯、铑、钌、铜、钴等贵金属催化剂"
+  },
+  {
+    "identifier": "cobalt",
+    "source_lines": [
+      325
+    ],
+    "quote_zh": "催化剂使用钯、铑、钌、铜、钴等贵金属催化剂"
+  },
+  {
+    "identifier": "palladium(II) chloride",
+    "source_lines": [
+      327
+    ],
+    "quote_zh": "氯化钯(PdCl₂)"
+  },
+  {
+    "identifier": "palladium carbonate",
+    "source_lines": [
+      327
+    ],
+    "quote_zh": "碳酸钯(PdCO₃)"
+  },
+  {
+    "identifier": "palladium(II) acetate",
+    "source_lines": [
+      327
+    ],
+    "quote_zh": "醋酸钯[Pd(OAc)₂]"
+  },
+  {
+    "identifier": "palladium on carbon",
+    "source_lines": [
+      327
+    ],
+    "quote_zh": "钯/碳(Pd/C)"
+  },
+  {
+    "identifier": "palladium(II) trifluoroacetate",
+    "source_lines": [
+      327
+    ],
+    "quote_zh": "三氟乙酸钯[Pd(OTFA)₂]"
+  },
+  {
+    "identifier": "bis(dibenzylideneacetone)palladium",
+    "source_lines": [
+      327
+    ],
+    "quote_zh": "双二亚苄基丙酮钯[Pd(dba)₂]"
+  },
+  {
+    "identifier": "1,3-bis(diphenylphosphino)propane",
+    "source_lines": [
+      329
+    ],
+    "quote_zh": "1,3-(双二苯基膦)丙烷"
+  },
+  {
+    "identifier": "1,4-bis(diphenylphosphino)butane",
+    "source_lines": [
+      329
+    ],
+    "quote_zh": "1,4-双(二苯基膦)丁烷"
+  },
+  {
+    "identifier": "bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+    "source_lines": [
+      329
+    ],
+    "quote_zh": "双[(4-N,N-二甲氨基)苯基]二叔丁基膦"
+  },
+  {
+    "identifier": "triethylamine",
+    "source_lines": [
+      331
+    ],
+    "quote_zh": "三乙胺"
+  },
+  {
+    "identifier": "potassium carbonate",
+    "source_lines": [
+      331
+    ],
+    "quote_zh": "碳酸钾"
+  },
+  {
+    "identifier": "sodium carbonate",
+    "source_lines": [
+      331
+    ],
+    "quote_zh": "碳酸钠"
+  },
+  {
+    "identifier": "cesium carbonate",
+    "source_lines": [
+      331
+    ],
+    "quote_zh": "碳酸铯(CsCO₃)"
+  },
+  {
+    "identifier": "potassium phosphate",
+    "source_lines": [
+      331
+    ],
+    "quote_zh": "磷酸钾"
+  },
+  {
+    "identifier": "N,N-dimethylacetamide",
+    "source_lines": [
+      331
+    ],
+    "quote_zh": "N,N-二甲基乙酰胺(DMAC)"
+  },
+  {
+    "identifier": "N,N-diisopropylethylamine",
+    "source_lines": [
+      331
+    ],
+    "quote_zh": "N,N-二异丙基乙胺(DIPEA)"
+  },
+  {
+    "identifier": "1,8-diazabicyclo[5.4.0]undec-7-ene",
+    "source_lines": [
+      331
+    ],
+    "quote_zh": "1,8-二氮杂二环十一碳-7-烯(DBU)"
+  },
+  {
+    "identifier": "triethylenediamine",
+    "source_lines": [
+      331
+    ],
+    "quote_zh": "三乙撑二胺(DABCO)"
+  },
+  {
+    "identifier": "toluene",
+    "source_lines": [
+      333
+    ],
+    "quote_zh": "甲苯"
+  },
+  {
+    "identifier": "ethylene glycol dimethyl ether",
+    "source_lines": [
+      333
+    ],
+    "quote_zh": "乙二醇二甲醚"
+  },
+  {
+    "identifier": "ethylene glycol diethyl ether",
+    "source_lines": [
+      333
+    ],
+    "quote_zh": "乙二醇二乙醚"
+  },
+  {
+    "identifier": "dimethyl sulfoxide",
+    "source_lines": [
+      333
+    ],
+    "quote_zh": "二甲基亚砜(DMSO)"
+  },
+  {
+    "identifier": "N,N-dimethylformamide",
+    "source_lines": [
+      333
+    ],
+    "quote_zh": "N,N-二甲基甲酰胺(DMF)"
+  },
+  {
+    "identifier": "式(VIII)的酯化合物",
+    "source_lines": [
+      339
+    ],
+    "quote_zh": "直接制备式(VIII)的酯化合物"
+  },
+  {
+    "identifier": "cyclohexane-1,3-dione",
+    "source_lines": [
+      341
+    ],
+    "quote_zh": "cyclohexane-1,3-dione (drawn as a structure, no text label)"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "source_lines": [
+      350
+    ],
+    "quote_zh": "\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F\""
+  },
+  {
+    "identifier": "SOCl2",
+    "source_lines": [
+      414
+    ],
+    "quote_zh": "{\"text\": \"SOCl2\"}"
+  },
+  {
+    "identifier": "acetone cyanohydrin",
+    "source_lines": [
+      348
+    ],
+    "quote_zh": "特别优选使用丙酮氰醇作为催化剂"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      343
+    ],
+    "quote_zh": "式(V)的羧酸化合物和式(VIII)的酯化合物是环磺酮的重要制备中间体"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      80,
+      86,
+      174,
+      176,
+      141
+    ],
+    "quote_zh": "本发明旨在提供用于制备环磺酮的新方法和新中间体化合物。"
+  },
+  {
+    "identifier": "CSc1cccc(Cl)c1C",
+    "source_lines": [
+      103,
+      116,
+      128,
+      135
+    ],
+    "quote_zh": "CSc1cccc(Cl)c1C"
+  },
+  {
+    "identifier": "CSc1ccc(Br)c(Cl)c1C",
+    "source_lines": [
+      103,
+      108,
+      116,
+      118
+    ],
+    "quote_zh": "CSc1ccc(Br)c(Cl)c1C"
+  },
+  {
+    "identifier": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "source_lines": [
+      108,
+      110,
+      118,
+      120
+    ],
+    "quote_zh": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "source_lines": [
+      110,
+      112,
+      120,
+      122
+    ],
+    "quote_zh": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "source_lines": [
+      112,
+      91,
+      97,
+      122
+    ],
+    "quote_zh": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "source_lines": [
+      91,
+      97,
+      141,
+      151
+    ],
+    "quote_zh": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F"
+  },
+  {
+    "identifier": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "source_lines": [
+      93,
+      99,
+      141,
+      143,
+      147,
+      158
+    ],
+    "quote_zh": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F"
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [
+      124,
+      137,
+      116
+    ],
+    "quote_zh": "溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素"
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      124,
+      137
+    ],
+    "quote_zh": "溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合"
+  },
+  {
+    "identifier": "hydrogen bromide",
+    "source_lines": [
+      124,
+      137
+    ],
+    "quote_zh": "溴化氢与双氧水的组合"
+  },
+  {
+    "identifier": "hydrogen peroxide",
+    "source_lines": [
+      124,
+      137,
+      118
+    ],
+    "quote_zh": "溴化氢与双氧水的组合"
+  },
+  {
+    "identifier": "溴代试剂",
+    "source_lines": [
+      124,
+      137,
+      120
+    ],
+    "quote_zh": "溴代试剂为溴素"
+  },
+  {
+    "identifier": "CF3CH2ONa",
+    "source_lines": [
+      124,
+      137
+    ],
+    "quote_zh": "CF3CH2OM为CF3CH2ONa或CF3CH2OK"
+  },
+  {
+    "identifier": "CF3CH2OK",
+    "source_lines": [
+      124,
+      137
+    ],
+    "quote_zh": "CF3CH2OM为CF3CH2ONa或CF3CH2OK"
+  },
+  {
+    "identifier": "CF3CH2OM",
+    "source_lines": [
+      124,
+      137,
+      122
+    ],
+    "quote_zh": "CF3CH2OM为CF3CH2ONa或CF3CH2OK"
+  },
+  {
+    "identifier": "H2O",
+    "source_lines": [
+      97,
+      151
+    ],
+    "quote_zh": "{\"text\": \"H2O\"}"
+  },
+  {
+    "identifier": "CO",
+    "source_lines": [
+      97,
+      99,
+      151,
+      153
+    ],
+    "quote_zh": "{\"text\": \"CO\"}"
+  },
+  {
+    "identifier": "cyclohexane-1,3-dione",
+    "source_lines": [
+      99,
+      153
+    ],
+    "quote_zh": "cyclohexane-1,3-dione (drawn as a structure, not written as a name)"
+  },
+  {
+    "identifier": "式(A)所示的化合物",
+    "source_lines": [
+      160,
+      164,
+      174
+    ],
+    "quote_zh": "下式(A)所示的化合物"
+  }
+]

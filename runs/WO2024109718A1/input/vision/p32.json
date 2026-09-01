@@ -1,0 +1,65 @@
+{
+ "page": "p32.png",
+ "page_label": "3/10",
+ "doc_part": "drawings",
+ "header": "3/10 (centred, above the rule); WO 2024/109718 (left, bold); PCT/CN2023/132821 (right, bold)",
+ "footer": "",
+ "paragraphs": [],
+ "drawings": [
+  {
+   "kind": "structure",
+   "between_markers": [],
+   "presented_as": "intermediate_structure",
+   "structures": [
+    {
+     "position_in_drawing": "1st, top-left, inset above the [Figure 5] spectrum",
+     "core": "benzene",
+     "substituents": [
+      "Br at C4 (upper-left ring vertex)",
+      "Cl at C3 (top ring vertex)",
+      "CH3 at C2 (upper-right ring vertex)",
+      "SO2CH3 at C1 (lower-right ring vertex, drawn as S with two double-bonded O below and CH3 to the right)",
+      "H at C5 (lower-left ring vertex)",
+      "H at C6 (bottom ring vertex)"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+     "smiles": "Cc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [],
+   "notes": "Labelled [图 5] (Figure 5). The figure is a 1H NMR spectrum with the structure drawn as an inset at the top left. Abscissa is labelled 'f1 (ppm)' running from about 9.5 on the left to about 0.5 on the right in 0.5 steps; the tick labels are heavily degraded by the scan and are read only approximately. Signals: three aromatic-region lines (two tall and close together, one shorter to their right) and two very tall lines in the low-ppm region, plus a very small line near the far right. No peak-position numerals, integrals or coupling data are printed on the figure, so no shift values are recorded here. Ring numbering above is assigned with the sulfonyl-bearing carbon as C1 and reflects only the drawn positions relative to one another."
+  },
+  {
+   "kind": "structure",
+   "between_markers": [],
+   "presented_as": "intermediate_structure",
+   "structures": [
+    {
+     "position_in_drawing": "1st, top-left, inset above the [Figure 6] spectrum",
+     "core": "benzene",
+     "substituents": [
+      "Br at C4 (upper-left ring vertex)",
+      "Cl at C3 (top ring vertex)",
+      "CH3 at C2 (upper-right ring vertex)",
+      "SO2CH3 at C1 (lower-right ring vertex, drawn as S with two double-bonded O below and CH3 to the right)",
+      "H at C5 (lower-left ring vertex)",
+      "H at C6 (bottom ring vertex)"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+     "smiles": "Cc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [],
+   "notes": "Labelled [图 6] (Figure 6). The same structure is drawn as an inset above a 13C NMR spectrum. Abscissa is labelled 'f1 (ppm)' running from about 160 on the left to 0 on the right in steps of 10; tick labels are degraded and read only approximately. Signals: a cluster of four lines in the aromatic region, one very tall line near the solvent region, and two further lines to its right. No numeric peak labels are printed on the figure."
+  }
+ ],
+ "discrepancies": [],
+ "illegible": [
+  "The x-axis tick numerals of both spectra are pixelated and only approximately readable; individual digits were not transcribed.",
+  "Vertical right-margin stamp box, repeated twice (once beside each figure): reads '细则 26,' on the first line and '26.12.2023' on the second, i.e. a PCT Rule 26 replacement-sheet stamp dated 26.12.2023. A thick vertical black bar runs alongside each stamp.",
+  "No peak-position or integral annotations are printed anywhere on either spectrum."
+ ],
+ "page_confidence": "medium"
+}

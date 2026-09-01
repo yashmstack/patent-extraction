@@ -1,0 +1,56 @@
+[
+  {
+    "identifier": "2-halo-3-methyl4-alkylsulfonylbenzoic acids",
+    "source_lines": [
+      57,
+      58
+    ],
+    "quote_zh": "L57 as printed: It has now been found that 2-halo-3-methyl4-alkylsulfonylbenzoic acids can be converted in very good yields and in very high purities by bromination | L58 EN: It has now been found that 2-halo-3-methyl-4-alkylsulfonylbenzoic acids can be converted"
+  },
+  {
+    "identifier": "3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids",
+    "source_lines": [
+      57
+    ],
+    "quote_zh": "to the corresponding 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids."
+  },
+  {
+    "identifier": "3-bromomethylbenzoic acids of the formula II",
+    "source_lines": [
+      57,
+      59,
+      61
+    ],
+    "quote_zh": "L57: processes for directly preparing 3-bromomethylbenzoic acids are desirable. | L59: The present invention therefore provides a process for preparing 3-bromomethylbenzoic acids of the formula II | L61: [IMAGE_EXTRACT: {\"molecules\": []}]"
+  },
+  {
+    "identifier": "3-methylbenzoic acids of the formula I",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "L63: by brominating 3-methylbenzoic acids of the formula I | L65: [IMAGE_EXTRACT: {\"molecules\": []}]"
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      69,
+      70
+    ],
+    "quote_zh": "L69 as printed: A) N-bromosuccimide in the presence of a radical initiator, or | L70 EN: A) N-bromosuccinimide in the presence of a radical initiator, or"
+  },
+  {
+    "identifier": "radical initiator",
+    "source_lines": [
+      69
+    ],
+    "quote_zh": "A) N-bromosuccimide in the presence of a radical initiator, or"
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "B) elemental bromine and irradiation with a photolamp,"
+  }
+]

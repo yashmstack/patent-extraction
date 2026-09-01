@@ -1,0 +1,865 @@
+{
+ "patent_id": "US20040236146A1",
+ "engine": "OPSIN via https://opsin.ch.cam.ac.uk/opsin/",
+ "what_this_is_en": "Every compound identifier in the gold, read a second time by a name parser that knows nothing about this patent. A parse is used as a structure only where nothing better exists, and is compared against every structure the pipeline already had.",
+ "summary": {
+  "parsed": 34,
+  "unparseable": 26
+ },
+ "names": [
+  {
+   "identifier": "3-bromomethylbenzoic acids of the formula II",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried '3-bromomethylbenzoic acids of the formula II'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "3-bromomethylbenzoic acids of the formula II",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "3-methylbenzoic acids",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried '3-methylbenzoic acids'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "3-methylbenzoic acids",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "compounds of the formula II",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compounds of the formula II'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compounds of the formula II",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "3-bromomethylbenzoic acid",
+   "outcome": "parsed",
+   "query": "3-bromomethylbenzoic acid",
+   "via": "verbatim",
+   "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+   "canonical": "O=C(O)c1cccc(CBr)c1",
+   "attempts": [
+    {
+     "query": "3-bromomethylbenzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "bromomethyl aromatics",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'bromomethyl aromatics'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "bromomethyl aromatics",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "methyl aromatics",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'methyl aromatics'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "methyl aromatics",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "substituted benzyl bromides",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'substituted benzyl bromides'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "substituted benzyl bromides",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "azocarboxylic esters",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'azocarboxylic esters'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "azocarboxylic esters",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "azonitriles",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'azonitriles'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "azonitriles",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "oxidizing agent",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'oxidizing agent'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "oxidizing agent",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate",
+   "outcome": "parsed",
+   "query": "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate",
+   "via": "verbatim",
+   "smiles": "BrCC=1C(=C(C(=O)OC)C=CC1S(=O)(=O)C)Cl",
+   "canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+   "attempts": [
+    {
+     "query": "methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "radical initiator",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'radical initiator'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "radical initiator",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate",
+   "outcome": "parsed",
+   "query": "methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=O)OC)C=CC(=C1C)S(=O)(=O)C",
+   "canonical": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+   "attempts": [
+    {
+     "query": "methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "carbon tetrachloride",
+   "outcome": "parsed",
+   "query": "carbon tetrachloride",
+   "via": "verbatim",
+   "smiles": "C(Cl)(Cl)(Cl)Cl",
+   "canonical": "ClC(Cl)(Cl)Cl",
+   "attempts": [
+    {
+     "query": "carbon tetrachloride",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+   "outcome": "parsed",
+   "query": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+   "via": "verbatim",
+   "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)C)Cl",
+   "canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+   "attempts": [
+    {
+     "query": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "3-bromomethylbenzoic acid of formula II",
+   "outcome": "parsed",
+   "query": "3-bromomethylbenzoic acid",
+   "via": "alias",
+   "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+   "canonical": "O=C(O)c1cccc(CBr)c1",
+   "attempts": [
+    {
+     "query": "3-bromomethylbenzoic acid of formula II",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    },
+    {
+     "query": "3-bromomethylbenzoic acid",
+     "via": "alias",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "3-methylbenzoic acid of formula I",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried '3-methylbenzoic acid of formula I'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "3-methylbenzoic acid of formula I",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "N-bromosuccinimide",
+   "outcome": "parsed",
+   "query": "N-bromosuccinimide",
+   "via": "verbatim",
+   "smiles": "BrN1C(CCC1=O)=O",
+   "canonical": "O=C1CCC(=O)N1Br",
+   "attempts": [
+    {
+     "query": "N-bromosuccinimide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "azoisobutyronitrile",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'azoisobutyronitrile'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "azoisobutyronitrile",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "dibenzoyl peroxide",
+   "outcome": "parsed",
+   "query": "dibenzoyl peroxide",
+   "via": "verbatim",
+   "smiles": "C(C1=CC=CC=C1)(=O)OOC(C1=CC=CC=C1)=O",
+   "canonical": "O=C(OOC(=O)c1ccccc1)c1ccccc1",
+   "attempts": [
+    {
+     "query": "dibenzoyl peroxide",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "chlorobenzene",
+   "outcome": "parsed",
+   "query": "chlorobenzene",
+   "via": "verbatim",
+   "smiles": "ClC1=CC=CC=C1",
+   "canonical": "Clc1ccccc1",
+   "attempts": [
+    {
+     "query": "chlorobenzene",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "acetonitrile",
+   "outcome": "parsed",
+   "query": "acetonitrile",
+   "via": "verbatim",
+   "smiles": "C(C)#N",
+   "canonical": "CC#N",
+   "attempts": [
+    {
+     "query": "acetonitrile",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "bromine",
+   "outcome": "parsed",
+   "query": "bromine",
+   "via": "verbatim",
+   "smiles": "[Br]",
+   "canonical": "[Br]",
+   "attempts": [
+    {
+     "query": "bromine",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "methylene chloride",
+   "outcome": "parsed",
+   "query": "methylene chloride",
+   "via": "verbatim",
+   "smiles": "C(Cl)Cl",
+   "canonical": "ClCCl",
+   "attempts": [
+    {
+     "query": "methylene chloride",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "2-chloro-3-methyl-4-methylsulfonylbenzoic acid",
+   "outcome": "parsed",
+   "query": "2-chloro-3-methyl-4-methylsulfonylbenzoic acid",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)S(=O)(=O)C",
+   "canonical": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+   "attempts": [
+    {
+     "query": "2-chloro-3-methyl-4-methylsulfonylbenzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "sodium bisulfite",
+   "outcome": "parsed",
+   "query": "sodium bisulfite",
+   "via": "verbatim",
+   "smiles": "S([O-])(O)=O.[Na+]",
+   "canonical": "O=S([O-])O.[Na+]",
+   "attempts": [
+    {
+     "query": "sodium bisulfite",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "water",
+   "outcome": "parsed",
+   "query": "water",
+   "via": "verbatim",
+   "smiles": "O",
+   "canonical": "O",
+   "attempts": [
+    {
+     "query": "water",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "2-chloro-3-methyl-4-ethylsulfonylbenzoic acid",
+   "outcome": "parsed",
+   "query": "2-chloro-3-methyl-4-ethylsulfonylbenzoic acid",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)S(=O)(=O)CC",
+   "canonical": "CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1C",
+   "attempts": [
+    {
+     "query": "2-chloro-3-methyl-4-ethylsulfonylbenzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "ethyl acetate",
+   "outcome": "parsed",
+   "query": "ethyl acetate",
+   "via": "verbatim",
+   "smiles": "C(C)(=O)OCC",
+   "canonical": "CCOC(C)=O",
+   "attempts": [
+    {
+     "query": "ethyl acetate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "diethyl ether",
+   "outcome": "parsed",
+   "query": "diethyl ether",
+   "via": "verbatim",
+   "smiles": "C(C)OCC",
+   "canonical": "CCOCC",
+   "attempts": [
+    {
+     "query": "diethyl ether",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "heptane",
+   "outcome": "parsed",
+   "query": "heptane",
+   "via": "verbatim",
+   "smiles": "CCCCCCC",
+   "canonical": "CCCCCCC",
+   "attempts": [
+    {
+     "query": "heptane",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+   "outcome": "parsed",
+   "query": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+   "via": "verbatim",
+   "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)CC)Cl",
+   "canonical": "CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+   "attempts": [
+    {
+     "query": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "diaroyl peroxides",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'diaroyl peroxides'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "diaroyl peroxides",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "halogenated hydrocarbons",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'halogenated hydrocarbons'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "halogenated hydrocarbons",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "chloroform",
+   "outcome": "parsed",
+   "query": "chloroform",
+   "via": "verbatim",
+   "smiles": "C(Cl)(Cl)Cl",
+   "canonical": "ClC(Cl)Cl",
+   "attempts": [
+    {
+     "query": "chloroform",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "1,2-dichloroethane",
+   "outcome": "parsed",
+   "query": "1,2-dichloroethane",
+   "via": "verbatim",
+   "smiles": "ClCCCl",
+   "canonical": "ClCCCl",
+   "attempts": [
+    {
+     "query": "1,2-dichloroethane",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "compound of the formula I",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compound of the formula I'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compound of the formula I",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "compound of the formula II",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'compound of the formula II'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "compound of the formula II",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "sodium bisulfate",
+   "outcome": "parsed",
+   "query": "sodium bisulfate",
+   "via": "verbatim",
+   "smiles": "S([O-])(O)(=O)=O.[Na+]",
+   "canonical": "O=S(=O)([O-])O.[Na+]",
+   "attempts": [
+    {
+     "query": "sodium bisulfate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "butyl acetate",
+   "outcome": "parsed",
+   "query": "butyl acetate",
+   "via": "verbatim",
+   "smiles": "C(C)(=O)OCCCC",
+   "canonical": "CCCCOC(C)=O",
+   "attempts": [
+    {
+     "query": "butyl acetate",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "2-halo-3-methyl4-alkylsulfonylbenzoic acids",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried '2-halo-3-methyl4-alkylsulfonylbenzoic acids'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "2-halo-3-methyl4-alkylsulfonylbenzoic acids",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried '3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "3-methylbenzoic acids of the formula I",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried '3-methylbenzoic acids of the formula I'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "3-methylbenzoic acids of the formula I",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "3-bromomethylbenzoic acids",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried '3-bromomethylbenzoic acids'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "3-bromomethylbenzoic acids",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "2-chloro-3-methyl-4-(ethylsulfonyl)benzoic acid",
+   "outcome": "parsed",
+   "query": "2-chloro-3-methyl-4-(ethylsulfonyl)benzoic acid",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)S(=O)(=O)CC",
+   "canonical": "CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1C",
+   "attempts": [
+    {
+     "query": "2-chloro-3-methyl-4-(ethylsulfonyl)benzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "2-chloro-3-methyl-4-(methylsulfonyl)benzoic acid",
+   "outcome": "parsed",
+   "query": "2-chloro-3-methyl-4-(methylsulfonyl)benzoic acid",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)S(=O)(=O)C",
+   "canonical": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+   "attempts": [
+    {
+     "query": "2-chloro-3-methyl-4-(methylsulfonyl)benzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "2-chloro-3-methyl-4-sulfonylethylbenzoic acid",
+   "outcome": "parsed",
+   "query": "2-chloro-3-methyl-4-sulfonylethylbenzoic acid",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)CC=S(=O)=O",
+   "canonical": "Cc1c(CC=S(=O)=O)ccc(C(=O)O)c1Cl",
+   "attempts": [
+    {
+     "query": "2-chloro-3-methyl-4-sulfonylethylbenzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "2-chloro-3-methyl-4-sulfonylmethylbenzoic acid",
+   "outcome": "parsed",
+   "query": "2-chloro-3-methyl-4-sulfonylmethylbenzoic acid",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)C=S(=O)=O",
+   "canonical": "Cc1c(C=S(=O)=O)ccc(C(=O)O)c1Cl",
+   "attempts": [
+    {
+     "query": "2-chloro-3-methyl-4-sulfonylmethylbenzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "2-chloro-3-methyl4-sulfonylmethylbenzoic acid",
+   "outcome": "parsed",
+   "query": "2-chloro-3-methyl4-sulfonylmethylbenzoic acid",
+   "via": "verbatim",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)C=S(=O)=O",
+   "canonical": "Cc1c(C=S(=O)=O)ccc(C(=O)O)c1Cl",
+   "attempts": [
+    {
+     "query": "2-chloro-3-methyl4-sulfonylmethylbenzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried '3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic Acid",
+   "outcome": "parsed",
+   "query": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic Acid",
+   "via": "verbatim",
+   "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)CC)Cl",
+   "canonical": "CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+   "attempts": [
+    {
+     "query": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic Acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid",
+   "outcome": "parsed",
+   "query": "3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid",
+   "via": "verbatim",
+   "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)C)Cl",
+   "canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+   "attempts": [
+    {
+     "query": "3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried '3-bromomethyl-2-chloro-4-methylsulfonylbenzoic'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic Acid",
+   "outcome": "parsed",
+   "query": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic Acid",
+   "via": "verbatim",
+   "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)C)Cl",
+   "canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+   "attempts": [
+    {
+     "query": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic Acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "3-bromomethyl-2-chloro4-methylsulfonyl-benzoic acid",
+   "outcome": "parsed",
+   "query": "3-bromomethyl-2-chloro4-methylsulfonyl-benzoic acid",
+   "via": "verbatim",
+   "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)C)Cl",
+   "canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+   "attempts": [
+    {
+     "query": "3-bromomethyl-2-chloro4-methylsulfonyl-benzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid",
+   "outcome": "parsed",
+   "query": "3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid",
+   "via": "verbatim",
+   "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)C)Cl",
+   "canonical": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+   "attempts": [
+    {
+     "query": "3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid",
+     "via": "verbatim",
+     "status": "SUCCESS"
+    }
+   ]
+  },
+  {
+   "identifier": "N-bromosuccimide",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'N-bromosuccimide'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "N-bromosuccimide",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "NBS",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'NBS'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "NBS",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "azoisobutyroniltrile",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'azoisobutyroniltrile'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "azoisobutyroniltrile",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  },
+  {
+   "identifier": "elemental bromine",
+   "outcome": "unparseable",
+   "reason": "no spelling of this name was accepted; tried 'elemental bromine'. Usually a trade name, an abbreviation, a compound class rather than a compound, or a name that cannot be built.",
+   "attempts": [
+    {
+     "query": "elemental bromine",
+     "via": "verbatim",
+     "status": "FAILURE",
+     "note": "not parsed"
+    }
+   ]
+  }
+ ]
+}

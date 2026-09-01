@@ -1,0 +1,100 @@
+{
+  "patent_id": "CN106008290A",
+  "stage": "A3-pathways",
+  "artifact": "pathways.json",
+  "model": "claude-opus-5[1m]",
+  "inputs": {
+    "reactions": "output/raw-reactions.json",
+    "compounds": "output/raw-compounds.json",
+    "source_document": "input/CN106008290A-enriched-numbered.md",
+    "reference_shape": "runs/CN104292137A/output/stages/A3-pathways/pathways.json"
+  },
+  "pathway_count": 9,
+  "terminal_step_coverage": {
+    "terminal_steps_in_reactions": [
+      "Background_Step 4",
+      "Example 1_Step b",
+      "Example 2_Step b",
+      "Example 3_Step b",
+      "Example 4_Step b",
+      "Example 5_Step b",
+      "Summary of the Invention_Step 2",
+      "Summary of the Invention_Scheme Step 2"
+    ],
+    "section_pathways_emitted": 8,
+    "patent_pathways_emitted": 1
+  },
+  "decisions": [
+    {
+      "id": "examples_not_chained",
+      "decision": "Examples 1 to 5 are emitted as five separate two-step pathways, not as one ten-step chain.",
+      "basis": "Each example has its own Step a with precursor_step null and its own Step b whose precursor_step is 'Step a'. No reaction record links any example to another. Chaining them would be an invented linkage."
+    },
+    {
+      "id": "compound_ii_identity",
+      "decision": "The identifier 化合物II is carried verbatim as the intermediate of all five example pathways and of the patent pathway.",
+      "basis": "The examples use the label without defining it. Line 95 of input/CN106008290A-enriched-numbered.md defines it: 2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸 (compound II), the free acid, and the same line defines 化合物I as the benzoate ester that A2 records as the Step a reactant. The identification is external to the example sections, so every example pathway and the patent pathway carries honest_uncertainty_flag intermediate_label_undefined_in_section.",
+      "note": "The identifier is not translated in the artifact because 化合物II is the string A1 and A2 recorded and is the only identifier present in raw-compounds.json for this species in the example sections. Renaming it here would break the compound_uuid lookup finalise.py performs."
+    },
+    {
+      "id": "background_ksm_null",
+      "decision": "The Background pathway carries ksm null with flag ksm_not_stated.",
+      "basis": "Rule 3. Background_Step 1 records only 2,2,2-trifluoroethanol (reactant) and potassium tert-butoxide (base). Neither contributes the benzoate skeleton that survives into tembotrione; the substrate is never named in the background. Falling back to trifluoroethanol would state that a route to tembotrione starts from trifluoroethanol."
+    },
+    {
+      "id": "background_intermediates_incomplete",
+      "decision": "The Background pathway lists one intermediate, not three.",
+      "basis": "Products of the non-terminal steps are: Step 1 the trifluoroethoxymethyl benzoic acid, Step 2 none recorded (validation_flag missing_product), Step 3 none recorded (validation_flag missing_product). A CompoundRef requires an identifier, so the two unnamed products are omitted and the pathway carries intermediate_not_stated. They are not inferred from the surrounding chemistry."
+    },
+    {
+      "id": "summary_two_readings",
+      "decision": "Two section-scoped pathways are emitted for Summary of the Invention: one over Step 1 and Step 2 (the prose recital) and one over Scheme Step 1 and Scheme Step 2 (the drawn schemes).",
+      "basis": "A2 annotated the prose and the schemes as separate step series with separate precursor chains. They describe the same two transformations but differ in what they record: the scheme steps carry byproducts (methanol, sodium bromide, water) that the prose steps do not, and carry no_conditions. Both are carried, neither is merged, and both carry two_readings_of_route_in_section. The reference run CN104292137A does the same for the same section."
+    },
+    {
+      "id": "patent_scope_chain",
+      "decision": "The single patent-scoped pathway is Example 1 Step a plus Step b.",
+      "basis": "Rule 8 asks for one pathway for the chain terminating in the patent's overall target, tembotrione. Eight chains terminate there. The Background chain is prior art the patent criticises, so it is excluded. Of the invention's own chains, the reference run CN104292137A puts its patent-scoped record on Example 1, and Example 1 is the first fully worked embodiment with printed yields. Examples 2 to 5 are alternative runs of the same two steps and are recorded only as section pathways; the patent record carries alternative_embodiments_not_merged so the choice is visible."
+    },
+    {
+      "id": "overall_yield_provenance",
+      "decision": "overall_yield_pct rests only on the two printed step yields of each example and is not corrected for the arithmetic problems those steps carry.",
+      "basis": "Rule 9 is the product of the printed yields. Example 1 0.910 x 0.863 = 78.53. Example 2 0.930 x 0.860 = 79.98. Example 3 0.900 x 0.875 = 78.75. Example 4 0.930 x 0.801 = 74.49. Example 5 0.920 x 0.839 = 77.19. Every one of these ten printed yields sits on a step flagged molar_mass_inconsistent, mass_balance_implausible or both, so each pathway carries molar_mass_inconsistent_in_chain and inconsistent_step_arithmetic. The percentages are a restatement of what the patent printed, not a validated yield.",
+      "flag_source_counts": {
+        "steps_flagged_molar_mass_inconsistent": 9,
+        "steps_flagged_mass_balance_implausible": 5,
+        "steps_flagged_scale_discontinuity": 3
+      }
+    },
+    {
+      "id": "components_definition",
+      "decision": "components on each step is the step's reactant_names followed by its product_name, with nulls dropped.",
+      "basis": "Rule 12, and it reproduces the reference run's values exactly (checked against CN104292137A Claims_Step 1 and Example 1_Step 3)."
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "background_route_shape",
+      "text": "Background_Step 3 records no reactant and no product and Background_Step 4 records no reactant, so the prior-art chain is held together only by precursor_step labels, not by matching compounds. The pathway is a paper chain and is flagged truncated_chain, intermediate_not_stated and missing_reactant_in_chain."
+    },
+    {
+      "id": "ksm_identifier_variants",
+      "text": "The same starting benzoate ester appears under three identifier strings across sections: 'methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate' (Example 1), 'methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate' (Examples 2 to 4 and Claims) and 'methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate' (Example 5 and Summary of the Invention). Each pathway's ksm uses the string its own section's compound record uses, so finalise.py resolves a compound_uuid. They are not unified here; that is A1's naming to reconcile, not A3's."
+    },
+    {
+      "id": "one_pot_step_a",
+      "text": "Example 1_Step a and both Summary Step 1 readings carry is_one_pot true and tags for both etherification and hydrolysis, while Examples 2 to 5 Step a carry is_one_pot false with the same two transformations in the printed procedure. The step records are copied verbatim rather than harmonised."
+    }
+  ],
+  "verification": {
+    "json_parses": true,
+    "top_level_and_step_key_sets_match_reference_run": true,
+    "all_reaction_ids_present_in_raw_reactions": true,
+    "all_compound_identifiers_present_in_raw_compounds": true,
+    "scope_values_within_closed_list": true,
+    "rule_11_fields_identical_to_source_reaction": true,
+    "enrichment_and_uuid_fields_null": true,
+    "em_dash_count": 0,
+    "overall_yield_recomputed_and_matched": true
+  }
+}

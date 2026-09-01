@@ -1,0 +1,200 @@
+{
+  "artifact": "patent.json",
+  "records_audited": 1,
+  "findings": [
+    {
+      "check": "fidelity",
+      "severity": "critical",
+      "record": "US20040236146A1",
+      "field": "parties.assignees[0].type",
+      "problem": "The only source for this field, input/US20040236146A1-biblio.json, says \"multinational_corp\", and the record says \"sme\", so the value was silently downgraded between input and output and Bayer CropScience AG is described as a small or medium enterprise.",
+      "source_line": 18,
+      "quote": "(76) Inventor: Hansjorg Lehmann, Wutoschingen (DE)",
+      "artifact_says": "\"type\": \"sme\", and the derived tag \"assignee_type:sme\"",
+      "should_be": "\"type\": \"multinational_corp\" and tag \"assignee_type:multinational_corp\". The cause is pipeline/finalise.py ASSIGNEE_TYPE, which has no key for \"multinational_corp\" and whose lookup ends in .get(kind, \"sme\"), so a correct biblio value falls through to the default. Add the identity entries for the six record-vocabulary values, or make the default raise rather than guess. Note also that biblio.schema.json's description asserts finalise.py \"copies this value straight into patent.json ... with no mapping\", which is no longer true.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "major",
+      "record": "US20040236146A1",
+      "field": "parties.assignees",
+      "problem": "Page 1 prints no (73) Assignee at all, only (76) Inventor, yet the record asserts an assignee with no marker anywhere in patent.json that the value comes from a register scrape rather than from the face of the document.",
+      "source_line": 18,
+      "quote": "(76) Inventor: Hansjorg Lehmann, Wutoschingen (DE)",
+      "artifact_says": "\"assignees\": [{\"name\": \"Bayer CropScience AG\", \"country\": \"DE\", \"type\": \"sme\"}]",
+      "should_be": "Keep the assignee, since the register fact is real, but make patent.json carry the caveat that the biblio file carries. The honesty currently lives only in biblio_note in an input file that no consumer of patent.json reads, and honest_uncertainty_flags holds only key_examples_not_referenced. Minimal correction: add a flag such as assignee_not_on_document, or populate source_refs so the register origin is visible.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "US20040236146A1",
+      "field": "bibliographic.ipc_codes",
+      "problem": "Page 1 prints exactly one classification at (51), C07C 315/04, and the record carries a second code, C07C 317/44, that appears nowhere on the document.",
+      "source_line": 34,
+      "quote": "(51) Int. Cl.7 ................................................. C07C 315/04",
+      "artifact_says": "[\"C07C 315/04\", \"C07C 317/44\"]",
+      "should_be": "The second code is plausibly the family's Google Patents IPC and is probably genuine, so the minimal correction is not to delete it but to say in the biblio note where it came from, as biblio_note already does for the assignee and the priority number. Verified against the p01 image at magnification: (51) has a single entry.",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "US20040236146A1",
+      "field": "bibliographic.cpc_codes",
+      "problem": "The second classification printed on page 1, U.S. Cl. 562/429 at (52), is carried nowhere in the record; cpc_codes is null and no other field holds it.",
+      "source_line": 36,
+      "quote": "(52) U.S. Cl. ................................................. 562/429",
+      "artifact_says": "\"cpc_codes\": null",
+      "should_be": "Leaving cpc_codes null is correct, since 562/429 is a USPC class and not a CPC code, so nothing should be invented here. The datum is nevertheless lost because patent.schema.json has no field for a national classification. Record the loss rather than silently dropping a printed bibliographic field.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "US20040236146A1",
+      "field": "bibliographic.patent_type",
+      "problem": "patent_type is null although the document states its own type on the front page in the (12) field and in the A1 kind code of the publication number.",
+      "source_line": 8,
+      "quote": "(12) Patent Application Publication",
+      "artifact_says": "\"patent_type\": null",
+      "should_be": "\"application\" or the equivalent term in whatever vocabulary the field uses. pipeline/finalise.py hardcodes None for this field rather than reading the biblio, and the biblio has no patent_type key to read, so the null is structural and not a judgement.",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "US20040236146A1",
+      "field": "tags",
+      "problem": "The A4 prompt states that finalise.py unions in the metadata categories jurisdiction, patent_family, assignee, time_period, patent_type and legal_status, and the tag list contains no patent_type: tag and no legal_status: tag even though bibliographic.legal_status is populated.",
+      "source_line": 8,
+      "quote": "(12) Patent Application Publication",
+      "artifact_says": "82 tags, of which the metadata ones are jurisdiction:us, patent_family:7698422, time_period:2004, assignee:bayer_cropscience_ag, assignee_type:sme",
+      "should_be": "Add legal_status:abandoned, and patent_type:application once patent_type is populated. Either that or amend the A4 prompt, which currently describes behaviour finalise.py does not have. Everything the prompt promises should be present or the promise should be withdrawn.",
+      "confidence": "high"
+    },
+    {
+      "check": "drawings",
+      "severity": "minor",
+      "record": null,
+      "field": null,
+      "problem": "Every one of the eight [IMAGE_EXTRACT: ...] spans in the enriched markdown encodes an empty molecule list, so the vision read captured none of the structures, while the page images draw formula II five times and formula I three times.",
+      "source_line": 61,
+      "quote": "[IMAGE_EXTRACT: {\"molecules\": []}]",
+      "artifact_says": "not represented in patent.json",
+      "should_be": "Formula II as drawn on p01, p02, p03 and p04 is HOOC at C1, R1 at C2, CH2Br at C3 and SO2R2 at C4; formula I on p02 and p04 is the same ring with CH3 at C3. This is filed as minor against patent.json because the narrative reached the correct locants from the prose and nothing here is wrong, but the vision channel contributed nothing on this patent and any downstream check that trusts it is checking an empty set. That is the guard-passes-on-absence shape.",
+      "confidence": "high"
+    },
+    {
+      "check": "fidelity",
+      "severity": "minor",
+      "record": "US20040236146A1",
+      "field": "patent_summary",
+      "problem": "The summary presents direct filtration of the product as part of the general workup, where [0019] restricts it to process variant A).",
+      "source_line": 98,
+      "quote": "In the case of process variant A), the reaction product may generally be directly filtered off with suction after cooling. In both cases, the reaction product is washed and, if necessary, further purified by recrystallization, for example from ethyl acetate or butyl acetate.",
+      "artifact_says": "the product acid is filtered off after cooling, washed and where necessary recrystallized from ethyl acetate or butyl acetate",
+      "should_be": "Qualify the filtration as variant A only, for example \"in variant A the product acid is filtered off after cooling\". The washing and the recrystallization are correctly stated as applying to both variants.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "US20040236146A1",
+      "field": "extraction_rollup.chemistry_focus",
+      "problem": "chemistry_focus lists hydrolysis as a focus of this patent, but the only hydrolysis in the document is the prior-art EP-A 0 292 944 ester route described in the background, which the invention exists to avoid.",
+      "source_line": 55,
+      "quote": "The free acid, 3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid is then obtained from this latter compound by hydrolysis.",
+      "artifact_says": "\"chemistry_focus\": [\"halogenation\", \"hydrolysis\"]",
+      "should_be": "The value is computed faithfully from reactions.json, where Background_Step 3 is classed hydrolysis, so this is a rollup design issue rather than a wrong reading. Exclude background reactions from chemistry_focus the way target_compounds and key_starting_materials already exclude them, or the patent-level summary states as this patent's chemistry a transformation it explicitly rejects.",
+      "confidence": "medium"
+    },
+    {
+      "check": "schema",
+      "severity": "minor",
+      "record": "US20040236146A1",
+      "field": "source_refs",
+      "problem": "extracted_at and extractor_commit_sha are null in an artifact whose whole purpose is to be a checkable reference, and both are mechanically available at generation time.",
+      "source_line": 1,
+      "quote": "# US20040236146A1",
+      "artifact_says": "{\"patent_summary_doc_id\": null, \"blob_root\": \"manual_annotations/output\", \"extracted_at\": null, \"extractor_commit_sha\": null}",
+      "should_be": "Populate extracted_at from the run time and extractor_commit_sha from git rev-parse HEAD. CLAUDE.md requires that the provenance of everything a model wrote be recoverable, and these two nulls put the whole burden on RUN-NOTES.md.",
+      "confidence": "medium"
+    }
+  ],
+  "checks_passed": [
+    {
+      "check": "provenance",
+      "what_was_verified": "There is no patent.json provenance sidecar on disk. Stated plainly as instructed: the narrative fields were audited against the abstract and claims directly, the bibliographic fields against the p01 image and input/US20040236146A1-biblio.json, and extraction_rollup by recomputation from compounds.json, reactions.json and pathways.json."
+    },
+    {
+      "check": "fidelity",
+      "what_was_verified": "title. The p01 (54) field reads METHOD FOR PRODUCING 3-BROMOMETHYLBENZOIC ACIDS and the record carries \"Method for producing 3-bromomethylbenzoic acids\". Same words, same locant, case normalised only. The molecule named in the title is the molecule the document is about."
+    },
+    {
+      "check": "fidelity",
+      "what_was_verified": "patent_summary chemistry, checked locant by locant against the drawn formulae rather than against the prose alone. The summary names 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids from 2-halo-3-methyl-4-alkylsulfonylbenzoic acids. Formula II as drawn on p01, p02, p03 and p04 is HOOC at C1, R1 at C2, CH2Br at C3, SO2R2 at C4, and formula I is the same ring with CH3 at C3. Both names are exactly right, including the 2 and the 4, and they match [0003] on line 57. The two named initiators, azoisobutyronitrile and dibenzoyl peroxide, are the two named in [0012] on line 79. The three named solvents are in [0014] on line 83. The recrystallization solvents ethyl acetate and butyl acetate are in [0019] on line 98. The claim 19 disclaimer of 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid is on line 191. No chemical name in the summary is wrong."
+    },
+    {
+      "check": "precision",
+      "what_was_verified": "patent_summary constraints from the A4 prompt. Two sentences, within the 1 to 2 limit. No yield, no mass, no temperature, no volume, no time. It does not call the process useful or novel."
+    },
+    {
+      "check": "precision",
+      "what_was_verified": "novelty_claims, every quoted phrase anchored to its line. \"an additional oxidizing agent\" and \"not always satisfactory\" are both on line 55; \"in very good yields and in very high purities\" is on line 57; \"the use of less toxic solvents and the particularly simple workup of the end products\" is on line 81; \"in the presence of a radical initiator\" is claim 6 on line 154; \"elemental bromine and irradiation with a photolamp\" is claim 13 on line 175; \"excluding 3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid\" is claim 19 on line 191, hyphenation included. All verbatim."
+    },
+    {
+      "check": "precision",
+      "what_was_verified": "novelty_claims prior-art attribution. The oxidizing agent objection and the unsatisfactory yields are attributed to WO 99/06339 and the ester route to EP-A 0 292 944, which is how line 55 divides them. The two documents are not confused with each other. The claimed contribution, direct bromination of the free acid without the ester detour plus a novel compound genus, is what claims 6, 13, 19 and 20 actually claim. Sentence count is 3, within the prompt's 2 to 4."
+    },
+    {
+      "check": "recall",
+      "what_was_verified": "key_examples empty is correct. Read claims 6 to 20 on the p03 and p04 images and in the text at lines 150 to 196. Claims 6 to 12 depend on claim 6 or on each other, claims 13 to 18 on claim 13 or 14 or 16, claim 19 is independent, claim 20 depends on 19. Not one claim refers to EXAMPLE 1, EXAMPLE 2 or any example. The empty array is a passed check and not a recall defect."
+    },
+    {
+      "check": "fidelity",
+      "what_was_verified": "dates and jurisdiction against p01. publication_date 2004-11-25 matches (43) Pub. Date: Nov. 25, 2004. filing_date 2002-08-29 matches (22) PCT Filed: Aug. 29, 2002. priority_date 2001-09-11 matches the (30) entry Sep. 11, 2001 (DE). jurisdiction \"us\" matches (19) United States and the US publication number. language \"en\" is correct; the document is in English throughout and there is no Chinese anywhere in it, so the A5 prompt's clause about the Chinese being authoritative does not apply to this run."
+    },
+    {
+      "check": "fidelity",
+      "what_was_verified": "inventor and legal status. parties.inventors is the single name Hansjorg Lehmann with country DE, matching (76) Inventor: Hansjorg Lehmann, Wutoschingen (DE). examiners null is correct for a pre-grant application publication. grant_date null and legal_status \"Abandoned\" are consistent with each other and with a document that is an A1 publication and not a granted patent."
+    },
+    {
+      "check": "fidelity",
+      "what_was_verified": "abstract. The record's abstract matches the (57) text on p01 word for word, including the missing commas in \"where R1 is fluorine chlorine or bromine\", which is how the page actually prints it. The temptation to tidy it was resisted."
+    },
+    {
+      "check": "arithmetic",
+      "what_was_verified": "extraction_rollup recomputed from the three side files. reaction_count 13 equals len(reactions.json); compound_count 44 equals len(compounds.json); pathway_count 13 equals len(pathways.json). section_summary {abstract 1, background 3, claims 2, experimental_example 3, summary_of_invention 4} reproduces the section_type histogram of reactions.json exactly and sums to 13. scale_distribution {not_specified 10, pilot 1, lab 2} reproduces the scale histogram exactly and sums to 13. best_overall_yield_pct 95.6 is the maximum overall_yield_pct in pathways.json, from Example 2 on line 141. Every figure reconciles."
+    },
+    {
+      "check": "arithmetic",
+      "what_was_verified": "extraction_rollup member lists. target_compounds is exactly the six compounds.json records with is_section_product true, in file order, uuids matching. key_starting_materials is exactly the seven role=reactant records whose section_type is not background, in file order, uuids matching. The three products and three reactants that belong to the prior-art discussion in [0002] are correctly excluded from both lists, so the rollup does not present a cited competitor's route as this patent's chemistry. chemistry_focus reproduces the reaction_class histogram, subject to the separate hydrolysis finding above."
+    },
+    {
+      "check": "vocabulary",
+      "what_was_verified": "the five A4-emitted tag categories against their closed lists. domain:agrochemical is in the domain list and exactly one domain tag is present. target_class:intermediate is in the list and exactly one is present, and it is the right choice: [0002] on line 55 says these compounds \"constitute valuable reactants in the synthesis of certain herbicides\", so the product is a herbicide intermediate and not a herbicide, and target_class:herbicide would have been the wrong call. claim_type process and composition are both in the list and both are earned, by claims 6 and 13 and by claim 19 respectively. novelty new_process, new_compound, improved_yield and improved_purity are all in the list and all supported by [0003], [0020] and claim 19. process_focus batch, photochemistry and green_chemistry are all in the list, photochemistry by variant B and green_chemistry by the \"less toxic solvents\" in [0013]."
+    },
+    {
+      "check": "vocabulary",
+      "what_was_verified": "tag syntax across all 82 tags. Every one matches the schema pattern ^[a-z_]+:[a-z0-9_/.+-]+$, every value is lowercase ASCII snake_case, and there are no duplicates."
+    },
+    {
+      "check": "schema",
+      "what_was_verified": "field set against patent.schema.json, which sets additionalProperties false. No unexpected field is present and the only required field, patent_id, is present. patent_uuid, compound_uuid and best_overall_yield_pathway_uuid are all declared in the schema and are therefore not the stray identifier fields check 8 is aimed at. honest_uncertainty_flags holds key_examples_not_referenced, which is on the A4 closed list."
+    },
+    {
+      "check": "style",
+      "what_was_verified": "No em dash character anywhere in patent.json, and no en dash either. CLAUDE.md's rule holds across the title, both narrative fields and all 82 tags."
+    }
+  ],
+  "recall_estimate": {
+    "found_in_text": 13,
+    "present_in_artifact": 11,
+    "missing": [
+      "(52) U.S. Cl. 562/429, printed on p01 and carried in no field of the record",
+      "patent_type, stated on p01 as (12) Patent Application Publication and left null"
+    ]
+  }
+}

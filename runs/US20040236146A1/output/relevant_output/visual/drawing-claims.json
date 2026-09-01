@@ -1,0 +1,2939 @@
+{
+  "patent_id": "US20040236146A1",
+  "engine_version": 1,
+  "what_this_is_en": "Review items that come from the PICTURES in the patent rather than from its words. Two kinds. First, every place the patent's own drawing and the patent's own text disagree - these are defects in the patent, and the question put to the reviewer is whether we recorded the contradiction faithfully instead of tidying it away. Second, every place the structure we recorded and the structure the patent drew are not the same molecule - these are defects in the extraction.",
+  "summary": {
+    "claims_total": 33,
+    "patent_self_contradictions": 15,
+    "structure_cross_checks_run": 9,
+    "structure_cross_checks_note_en": "A cross-check runs only where our record was chosen by the compound name in the patent's text rather than by the drawing, because only then can the two readings genuinely disagree.",
+    "drawing_comparisons_to_review": 9,
+    "structure_disagreements": 9,
+    "drawn_but_not_recorded": 0,
+    "drawings_total": 9,
+    "comparisons_written": 9,
+    "comparisons_with_detected_region": 7,
+    "comparisons_falling_back_to_whole_page": 2,
+    "comparisons_paired_by_name": 9,
+    "comparisons_paired_by_structure": 0
+  },
+  "comparisons": [
+    {
+      "record_id": "US20040236146A1_p01_d1",
+      "drawing_number": 1,
+      "page": "p01",
+      "page_number": 1,
+      "between_markers_en": [
+        "(57) abstract text, before formula",
+        "(57) abstract text, after formula"
+      ],
+      "kind_en": "structure",
+      "presented_as_en": "invention_route",
+      "structure_count": 1,
+      "comparison_image": "comparisons/US20040236146A1_p01_d1.png",
+      "patent_crop_image": "comparisons/US20040236146A1_p01_d1-patent.png",
+      "patent_drawing_image": "crops/US20040236146A1_p01_d1.png",
+      "crop_box_uncut": {
+        "x_left": 119,
+        "y_top": 522,
+        "x_right": 1621,
+        "y_bot": 785
+      },
+      "crop_box_shown": {
+        "x_left": 159,
+        "y_top": 522,
+        "x_right": 1339,
+        "y_bot": 785
+      },
+      "sides_cut_in_to_drawing": true,
+      "crop_confidence": "region_detected",
+      "crop_confidence_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 1 and cut out the 1st block that is a drawing rather than lines of text. This page holds 1 such block, and reading the page found 1 drawing, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+      "pairing": "name",
+      "pairing_en": "HOW THE TWO HALVES WERE PAIRED: by the compound name printed in the patent's text at (57) abstract text, before formula, not by the drawing. This is the strong pairing.",
+      "anchor_marker": "(57) abstract text, before formula",
+      "panels": [
+        {
+          "position_en": "1st and only, right column, centred between the two runs of abstract prose, with the formula label (II) printed in the upper right of the drawing area",
+          "drawn_name_en": null,
+          "drawn_smiles": null,
+          "drawn_canonical": null,
+          "gold_identifier": "3-bromomethylbenzoic acid",
+          "gold_smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+          "gold_canonical": "O=C(O)c1cccc(CBr)c1",
+          "linked_by": "name",
+          "oriented_to_patent_layout": null,
+          "structure_svg_path": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg"
+        }
+      ]
+    },
+    {
+      "record_id": "US20040236146A1_p02_d1",
+      "drawing_number": 2,
+      "page": "p02",
+      "page_number": 2,
+      "between_markers_en": [
+        "[0004]",
+        "[0005]"
+      ],
+      "kind_en": "structure",
+      "presented_as_en": "invention_route",
+      "structure_count": 1,
+      "comparison_image": "comparisons/US20040236146A1_p02_d1.png",
+      "patent_crop_image": "comparisons/US20040236146A1_p02_d1-patent.png",
+      "patent_drawing_image": "crops/US20040236146A1_p02_d1.png",
+      "crop_box_uncut": {
+        "x_left": 0,
+        "y_top": 0,
+        "x_right": 1707,
+        "y_bot": 2200
+      },
+      "crop_box_shown": {
+        "x_left": 0,
+        "y_top": 0,
+        "x_right": 1707,
+        "y_bot": 2200
+      },
+      "sides_cut_in_to_drawing": false,
+      "crop_confidence": "whole_page_fallback",
+      "crop_confidence_en": "HOW THE PICTURE ABOVE WAS FOUND: it was NOT found. The machine counted 4 drawing-shaped blocks on page 2 but the reading of the page found 2 drawings, so no block can be trusted to be this one. The WHOLE PAGE is shown instead. Find the drawing yourself before answering.",
+      "pairing": "name",
+      "pairing_en": "HOW THE TWO HALVES WERE PAIRED: by the compound name printed in the patent's text at [0003], not by the drawing. This is the strong pairing.",
+      "anchor_marker": "[0003]",
+      "panels": [
+        {
+          "position_en": "1st and only, centred in the left column between [0004] and [0005]",
+          "drawn_name_en": null,
+          "drawn_smiles": null,
+          "drawn_canonical": null,
+          "gold_identifier": "3-bromomethylbenzoic acid",
+          "gold_smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+          "gold_canonical": "O=C(O)c1cccc(CBr)c1",
+          "linked_by": "name",
+          "oriented_to_patent_layout": null,
+          "structure_svg_path": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg"
+        }
+      ]
+    },
+    {
+      "record_id": "US20040236146A1_p02_d2",
+      "drawing_number": 3,
+      "page": "p02",
+      "page_number": 2,
+      "between_markers_en": [
+        "[0005]",
+        "[0006]"
+      ],
+      "kind_en": "structure",
+      "presented_as_en": "invention_route",
+      "structure_count": 1,
+      "comparison_image": "comparisons/US20040236146A1_p02_d2.png",
+      "patent_crop_image": "comparisons/US20040236146A1_p02_d2-patent.png",
+      "patent_drawing_image": "crops/US20040236146A1_p02_d2.png",
+      "crop_box_uncut": {
+        "x_left": 0,
+        "y_top": 0,
+        "x_right": 1707,
+        "y_bot": 2200
+      },
+      "crop_box_shown": {
+        "x_left": 0,
+        "y_top": 0,
+        "x_right": 1707,
+        "y_bot": 2200
+      },
+      "sides_cut_in_to_drawing": false,
+      "crop_confidence": "whole_page_fallback",
+      "crop_confidence_en": "HOW THE PICTURE ABOVE WAS FOUND: it was NOT found. The machine counted 4 drawing-shaped blocks on page 2 but the reading of the page found 2 drawings, so no block can be trusted to be this one. The WHOLE PAGE is shown instead. Find the drawing yourself before answering.",
+      "pairing": "name",
+      "pairing_en": "HOW THE TWO HALVES WERE PAIRED: by the compound name printed in the patent's text at [0004], not by the drawing. This is the strong pairing.",
+      "anchor_marker": "[0004]",
+      "panels": [
+        {
+          "position_en": "1st and only, centred in the left column below [0005], at the foot of the column",
+          "drawn_name_en": null,
+          "drawn_smiles": null,
+          "drawn_canonical": null,
+          "gold_identifier": "3-bromomethylbenzoic acid",
+          "gold_smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+          "gold_canonical": "O=C(O)c1cccc(CBr)c1",
+          "linked_by": "name",
+          "oriented_to_patent_layout": null,
+          "structure_svg_path": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg"
+        }
+      ]
+    },
+    {
+      "record_id": "US20040236146A1_p03_d1",
+      "drawing_number": 4,
+      "page": "p03",
+      "page_number": 3,
+      "between_markers_en": [
+        "[0020]",
+        "[0021]"
+      ],
+      "kind_en": "structure",
+      "presented_as_en": "intermediate_structure",
+      "structure_count": 1,
+      "comparison_image": "comparisons/US20040236146A1_p03_d1.png",
+      "patent_crop_image": "comparisons/US20040236146A1_p03_d1-patent.png",
+      "patent_drawing_image": "crops/US20040236146A1_p03_d1.png",
+      "crop_box_uncut": {
+        "x_left": 119,
+        "y_top": 411,
+        "x_right": 1621,
+        "y_bot": 1248
+      },
+      "crop_box_shown": {
+        "x_left": 158,
+        "y_top": 411,
+        "x_right": 1525,
+        "y_bot": 1248
+      },
+      "sides_cut_in_to_drawing": true,
+      "crop_confidence": "region_detected",
+      "crop_confidence_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 3 and cut out the 1st block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+      "pairing": "name",
+      "pairing_en": "HOW THE TWO HALVES WERE PAIRED: by the compound name printed in the patent's text at None, not by the drawing. This is the strong pairing.",
+      "anchor_marker": null,
+      "panels": [
+        {
+          "position_en": "sole structure, centred in the left column",
+          "drawn_name_en": null,
+          "drawn_smiles": null,
+          "drawn_canonical": null,
+          "gold_identifier": "sodium bisulfate",
+          "gold_smiles": "S([O-])(O)(=O)=O.[Na+]",
+          "gold_canonical": "O=S(=O)([O-])O.[Na+]",
+          "linked_by": "name",
+          "oriented_to_patent_layout": null,
+          "structure_svg_path": "output/relevant_output/structures/sodium-bisulfate.svg"
+        }
+      ]
+    },
+    {
+      "record_id": "US20040236146A1_p03_d2",
+      "drawing_number": 5,
+      "page": "p03",
+      "page_number": 3,
+      "between_markers_en": [
+        "[0034]",
+        "(the claims begin here and carry no paragraph markers)"
+      ],
+      "kind_en": "structure",
+      "presented_as_en": "invention_route",
+      "structure_count": 1,
+      "comparison_image": "comparisons/US20040236146A1_p03_d2.png",
+      "patent_crop_image": "comparisons/US20040236146A1_p03_d2-patent.png",
+      "patent_drawing_image": "crops/US20040236146A1_p03_d2.png",
+      "crop_box_uncut": {
+        "x_left": 119,
+        "y_top": 1289,
+        "x_right": 1621,
+        "y_bot": 1851
+      },
+      "crop_box_shown": {
+        "x_left": 158,
+        "y_top": 1289,
+        "x_right": 1526,
+        "y_bot": 1851
+      },
+      "sides_cut_in_to_drawing": true,
+      "crop_confidence": "region_detected",
+      "crop_confidence_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 3 and cut out the 2nd block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+      "pairing": "name",
+      "pairing_en": "HOW THE TWO HALVES WERE PAIRED: by the compound name printed in the patent's text at [0033], not by the drawing. This is the strong pairing.",
+      "anchor_marker": "[0033]",
+      "panels": [
+        {
+          "position_en": "1st of the two claim drawings, centred in the right column, below claim 6's opening line",
+          "drawn_name_en": null,
+          "drawn_smiles": null,
+          "drawn_canonical": null,
+          "gold_identifier": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+          "gold_smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)CC)Cl",
+          "gold_canonical": "CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+          "linked_by": "name",
+          "oriented_to_patent_layout": "four_substituent_benzene",
+          "structure_svg_path": "output/relevant_output/structures/3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic-acid.svg"
+        }
+      ]
+    },
+    {
+      "record_id": "US20040236146A1_p03_d3",
+      "drawing_number": 6,
+      "page": "p03",
+      "page_number": 3,
+      "between_markers_en": [
+        "[0034]",
+        "(the claims begin here and carry no paragraph markers)"
+      ],
+      "kind_en": "structure",
+      "presented_as_en": "invention_route",
+      "structure_count": 1,
+      "comparison_image": "comparisons/US20040236146A1_p03_d3.png",
+      "patent_crop_image": "comparisons/US20040236146A1_p03_d3-patent.png",
+      "patent_drawing_image": "crops/US20040236146A1_p03_d3.png",
+      "crop_box_uncut": {
+        "x_left": 119,
+        "y_top": 1881,
+        "x_right": 1621,
+        "y_bot": 2031
+      },
+      "crop_box_shown": {
+        "x_left": 159,
+        "y_top": 1881,
+        "x_right": 1524,
+        "y_bot": 2031
+      },
+      "sides_cut_in_to_drawing": true,
+      "crop_confidence": "region_detected",
+      "crop_confidence_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 3 and cut out the 3rd block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+      "pairing": "name",
+      "pairing_en": "HOW THE TWO HALVES WERE PAIRED: by the compound name printed in the patent's text at [0033], not by the drawing. This is the strong pairing.",
+      "anchor_marker": "[0033]",
+      "panels": [
+        {
+          "position_en": "2nd of the two claim drawings, centred in the right column, lower",
+          "drawn_name_en": null,
+          "drawn_smiles": null,
+          "drawn_canonical": null,
+          "gold_identifier": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+          "gold_smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)CC)Cl",
+          "gold_canonical": "CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr",
+          "linked_by": "name",
+          "oriented_to_patent_layout": "four_substituent_benzene",
+          "structure_svg_path": "output/relevant_output/structures/3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic-acid.svg"
+        }
+      ]
+    },
+    {
+      "record_id": "US20040236146A1_p04_d1",
+      "drawing_number": 7,
+      "page": "p04",
+      "page_number": 4,
+      "between_markers_en": [
+        "13.",
+        "13."
+      ],
+      "kind_en": "structure",
+      "presented_as_en": "invention_route",
+      "structure_count": 1,
+      "comparison_image": "comparisons/US20040236146A1_p04_d1.png",
+      "patent_crop_image": "comparisons/US20040236146A1_p04_d1-patent.png",
+      "patent_drawing_image": "crops/US20040236146A1_p04_d1.png",
+      "crop_box_uncut": {
+        "x_left": 119,
+        "y_top": 328,
+        "x_right": 1621,
+        "y_bot": 709
+      },
+      "crop_box_shown": {
+        "x_left": 159,
+        "y_top": 328,
+        "x_right": 1524,
+        "y_bot": 709
+      },
+      "sides_cut_in_to_drawing": true,
+      "crop_confidence": "region_detected",
+      "crop_confidence_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 4 and cut out the 1st block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+      "pairing": "name",
+      "pairing_en": "HOW THE TWO HALVES WERE PAIRED: by the compound name printed in the patent's text at (57) abstract text, before formula, not by the drawing. This is the strong pairing.",
+      "anchor_marker": "(57) abstract text, before formula",
+      "panels": [
+        {
+          "position_en": "1st, left column, centred under the first line of claim 13; label (II) at the right margin",
+          "drawn_name_en": null,
+          "drawn_smiles": null,
+          "drawn_canonical": null,
+          "gold_identifier": "3-bromomethylbenzoic acid",
+          "gold_smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+          "gold_canonical": "O=C(O)c1cccc(CBr)c1",
+          "linked_by": "name",
+          "oriented_to_patent_layout": null,
+          "structure_svg_path": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg"
+        }
+      ]
+    },
+    {
+      "record_id": "US20040236146A1_p04_d2",
+      "drawing_number": 8,
+      "page": "p04",
+      "page_number": 4,
+      "between_markers_en": [
+        "13.",
+        "13."
+      ],
+      "kind_en": "structure",
+      "presented_as_en": "invention_route",
+      "structure_count": 1,
+      "comparison_image": "comparisons/US20040236146A1_p04_d2.png",
+      "patent_crop_image": "comparisons/US20040236146A1_p04_d2-patent.png",
+      "patent_drawing_image": "crops/US20040236146A1_p04_d2.png",
+      "crop_box_uncut": {
+        "x_left": 119,
+        "y_top": 739,
+        "x_right": 1621,
+        "y_bot": 981
+      },
+      "crop_box_shown": {
+        "x_left": 119,
+        "y_top": 739,
+        "x_right": 1621,
+        "y_bot": 981
+      },
+      "sides_cut_in_to_drawing": false,
+      "crop_confidence": "region_detected",
+      "crop_confidence_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 4 and cut out the 2nd block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+      "pairing": "name",
+      "pairing_en": "HOW THE TWO HALVES WERE PAIRED: by the compound name printed in the patent's text at (57) abstract text, before formula, not by the drawing. This is the strong pairing.",
+      "anchor_marker": "(57) abstract text, before formula",
+      "panels": [
+        {
+          "position_en": "2nd, left column, below the line 'which comprises brominating a 3-methylbenzoic acid of formula I'; label (I) at the right margin",
+          "drawn_name_en": null,
+          "drawn_smiles": null,
+          "drawn_canonical": null,
+          "gold_identifier": "3-bromomethylbenzoic acid",
+          "gold_smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+          "gold_canonical": "O=C(O)c1cccc(CBr)c1",
+          "linked_by": "name",
+          "oriented_to_patent_layout": null,
+          "structure_svg_path": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg"
+        }
+      ]
+    },
+    {
+      "record_id": "US20040236146A1_p04_d3",
+      "drawing_number": 9,
+      "page": "p04",
+      "page_number": 4,
+      "between_markers_en": [
+        "19.",
+        "19."
+      ],
+      "kind_en": "structure",
+      "presented_as_en": "invention_route",
+      "structure_count": 1,
+      "comparison_image": "comparisons/US20040236146A1_p04_d3.png",
+      "patent_crop_image": "comparisons/US20040236146A1_p04_d3-patent.png",
+      "patent_drawing_image": "crops/US20040236146A1_p04_d3.png",
+      "crop_box_uncut": {
+        "x_left": 119,
+        "y_top": 1011,
+        "x_right": 1621,
+        "y_bot": 1284
+      },
+      "crop_box_shown": {
+        "x_left": 739,
+        "y_top": 1011,
+        "x_right": 1524,
+        "y_bot": 1284
+      },
+      "sides_cut_in_to_drawing": true,
+      "crop_confidence": "region_detected",
+      "crop_confidence_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 4 and cut out the 3rd block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+      "pairing": "name",
+      "pairing_en": "HOW THE TWO HALVES WERE PAIRED: by the compound name printed in the patent's text at (57) abstract text, before formula, not by the drawing. This is the strong pairing.",
+      "anchor_marker": "(57) abstract text, before formula",
+      "panels": [
+        {
+          "position_en": "3rd, right column, centred under the first line of claim 19; label (II) at the right margin",
+          "drawn_name_en": null,
+          "drawn_smiles": null,
+          "drawn_canonical": null,
+          "gold_identifier": "3-bromomethylbenzoic acid",
+          "gold_smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+          "gold_canonical": "O=C(O)c1cccc(CBr)c1",
+          "linked_by": "name",
+          "oriented_to_patent_layout": null,
+          "structure_svg_path": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "fc8a5c297bd04a1c",
+      "record_id": "US20040236146A1_p01_d1_s1",
+      "record_kind": "compound",
+      "record_label_en": "3-bromomethylbenzoic acid",
+      "field": "structure.drawn_vs_recorded",
+      "field_label_en": "Structure we recorded against structure the patent drew",
+      "question_en": "The patent's words name 3-bromomethylbenzoic acid, and we recorded a structure for that name. The patent also DRAWS a structure at this point, and a separate reading of that drawing gives a different molecule. Open the picture and say which of the two the drawing shows.",
+      "claimed_en": "BrCC=1C=C(C(=O)O)C=CC1",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "We recorded: O=C(O)c1cccc(CBr)c1. The drawing reads as: None. These are different molecules.",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_found",
+      "auto_reason_en": "The two SMILES do not match after both were reduced to a single canonical form, so this is a real disagreement and not a difference in spelling.",
+      "needs_human": true,
+      "risk": 0.95,
+      "risk_reasons_en": [
+        "The structure we hold and the structure the patent drew are not the same molecule.",
+        "The pairing here is by the compound name in the patent's own text, so this is not an artefact of how the two were matched."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "compound:drawing on page 1",
+      "about": "extraction",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p01_d1.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p01_d1-patent.png",
+        "page_image_path": "input/pages/p01.png"
+      }
+    },
+    {
+      "claim_id": "a4dc03a3294d209a",
+      "record_id": "US20040236146A1_p02_d1_s1",
+      "record_kind": "compound",
+      "record_label_en": "3-bromomethylbenzoic acid",
+      "field": "structure.drawn_vs_recorded",
+      "field_label_en": "Structure we recorded against structure the patent drew",
+      "question_en": "The patent's words name 3-bromomethylbenzoic acid, and we recorded a structure for that name. The patent also DRAWS a structure at this point, and a separate reading of that drawing gives a different molecule. Open the picture and say which of the two the drawing shows.",
+      "claimed_en": "BrCC=1C=C(C(=O)O)C=CC1",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        57
+      ],
+      "evidence_en": "We recorded: O=C(O)c1cccc(CBr)c1. The drawing reads as: None. These are different molecules.",
+      "evidence_lines": [
+        {
+          "n": 57,
+          "text_en": "We recorded: O=C(O)c1cccc(CBr)c1. The drawing reads as: None. These are different molecules.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_found",
+      "auto_reason_en": "The two SMILES do not match after both were reduced to a single canonical form, so this is a real disagreement and not a difference in spelling.",
+      "needs_human": true,
+      "risk": 0.95,
+      "risk_reasons_en": [
+        "The structure we hold and the structure the patent drew are not the same molecule.",
+        "The pairing here is by the compound name in the patent's own text, so this is not an artefact of how the two were matched."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "compound:drawing on page 2",
+      "about": "extraction",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p02_d1.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p02_d1-patent.png",
+        "page_image_path": "input/pages/p02.png"
+      }
+    },
+    {
+      "claim_id": "700aef9cf8928f53",
+      "record_id": "US20040236146A1_p02_d2_s1",
+      "record_kind": "compound",
+      "record_label_en": "3-bromomethylbenzoic acid",
+      "field": "structure.drawn_vs_recorded",
+      "field_label_en": "Structure we recorded against structure the patent drew",
+      "question_en": "The patent's words name 3-bromomethylbenzoic acid, and we recorded a structure for that name. The patent also DRAWS a structure at this point, and a separate reading of that drawing gives a different molecule. Open the picture and say which of the two the drawing shows.",
+      "claimed_en": "BrCC=1C=C(C(=O)O)C=CC1",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        59
+      ],
+      "evidence_en": "We recorded: O=C(O)c1cccc(CBr)c1. The drawing reads as: None. These are different molecules.",
+      "evidence_lines": [
+        {
+          "n": 59,
+          "text_en": "We recorded: O=C(O)c1cccc(CBr)c1. The drawing reads as: None. These are different molecules.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_found",
+      "auto_reason_en": "The two SMILES do not match after both were reduced to a single canonical form, so this is a real disagreement and not a difference in spelling.",
+      "needs_human": true,
+      "risk": 0.95,
+      "risk_reasons_en": [
+        "The structure we hold and the structure the patent drew are not the same molecule.",
+        "The pairing here is by the compound name in the patent's own text, so this is not an artefact of how the two were matched."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "compound:drawing on page 2",
+      "about": "extraction",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p02_d2.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p02_d2-patent.png",
+        "page_image_path": "input/pages/p02.png"
+      }
+    },
+    {
+      "claim_id": "6a41040484013950",
+      "record_id": "US20040236146A1_p03_d1_s1",
+      "record_kind": "compound",
+      "record_label_en": "sodium bisulfate",
+      "field": "structure.drawn_vs_recorded",
+      "field_label_en": "Structure we recorded against structure the patent drew",
+      "question_en": "The patent's words name sodium bisulfate, and we recorded a structure for that name. The patent also DRAWS a structure at this point, and a separate reading of that drawing gives a different molecule. Open the picture and say which of the two the drawing shows.",
+      "claimed_en": "S([O-])(O)(=O)=O.[Na+]",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "We recorded: O=S(=O)([O-])O.[Na+]. The drawing reads as: None. These are different molecules.",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_found",
+      "auto_reason_en": "The two SMILES do not match after both were reduced to a single canonical form, so this is a real disagreement and not a difference in spelling.",
+      "needs_human": true,
+      "risk": 0.95,
+      "risk_reasons_en": [
+        "The structure we hold and the structure the patent drew are not the same molecule.",
+        "The pairing here is by the compound name in the patent's own text, so this is not an artefact of how the two were matched."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "compound:drawing on page 3",
+      "about": "extraction",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p03_d1.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p03_d1-patent.png",
+        "page_image_path": "input/pages/p03.png"
+      }
+    },
+    {
+      "claim_id": "f9fc655832294380",
+      "record_id": "US20040236146A1_p03_d2_s1",
+      "record_kind": "compound",
+      "record_label_en": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+      "field": "structure.drawn_vs_recorded",
+      "field_label_en": "Structure we recorded against structure the patent drew",
+      "question_en": "The patent's words name 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid, and we recorded a structure for that name. The patent also DRAWS a structure at this point, and a separate reading of that drawing gives a different molecule. Open the picture and say which of the two the drawing shows.",
+      "claimed_en": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)CC)Cl",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        140
+      ],
+      "evidence_en": "We recorded: CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr. The drawing reads as: None. These are different molecules.",
+      "evidence_lines": [
+        {
+          "n": 140,
+          "text_en": "We recorded: CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr. The drawing reads as: None. These are different molecules.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_found",
+      "auto_reason_en": "The two SMILES do not match after both were reduced to a single canonical form, so this is a real disagreement and not a difference in spelling.",
+      "needs_human": true,
+      "risk": 0.95,
+      "risk_reasons_en": [
+        "The structure we hold and the structure the patent drew are not the same molecule.",
+        "The pairing here is by the compound name in the patent's own text, so this is not an artefact of how the two were matched."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "compound:drawing on page 3",
+      "about": "extraction",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p03_d2.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p03_d2-patent.png",
+        "page_image_path": "input/pages/p03.png"
+      }
+    },
+    {
+      "claim_id": "cf2de997257fbfc2",
+      "record_id": "US20040236146A1_p03_d3_s1",
+      "record_kind": "compound",
+      "record_label_en": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+      "field": "structure.drawn_vs_recorded",
+      "field_label_en": "Structure we recorded against structure the patent drew",
+      "question_en": "The patent's words name 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid, and we recorded a structure for that name. The patent also DRAWS a structure at this point, and a separate reading of that drawing gives a different molecule. Open the picture and say which of the two the drawing shows.",
+      "claimed_en": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)CC)Cl",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        140
+      ],
+      "evidence_en": "We recorded: CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr. The drawing reads as: None. These are different molecules.",
+      "evidence_lines": [
+        {
+          "n": 140,
+          "text_en": "We recorded: CCS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1CBr. The drawing reads as: None. These are different molecules.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_found",
+      "auto_reason_en": "The two SMILES do not match after both were reduced to a single canonical form, so this is a real disagreement and not a difference in spelling.",
+      "needs_human": true,
+      "risk": 0.95,
+      "risk_reasons_en": [
+        "The structure we hold and the structure the patent drew are not the same molecule.",
+        "The pairing here is by the compound name in the patent's own text, so this is not an artefact of how the two were matched."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "compound:drawing on page 3",
+      "about": "extraction",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p03_d3.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p03_d3-patent.png",
+        "page_image_path": "input/pages/p03.png"
+      }
+    },
+    {
+      "claim_id": "fcbd39caf2aa49ad",
+      "record_id": "US20040236146A1_p04_d1_s1",
+      "record_kind": "compound",
+      "record_label_en": "3-bromomethylbenzoic acid",
+      "field": "structure.drawn_vs_recorded",
+      "field_label_en": "Structure we recorded against structure the patent drew",
+      "question_en": "The patent's words name 3-bromomethylbenzoic acid, and we recorded a structure for that name. The patent also DRAWS a structure at this point, and a separate reading of that drawing gives a different molecule. Open the picture and say which of the two the drawing shows.",
+      "claimed_en": "BrCC=1C=C(C(=O)O)C=CC1",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "We recorded: O=C(O)c1cccc(CBr)c1. The drawing reads as: None. These are different molecules.",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_found",
+      "auto_reason_en": "The two SMILES do not match after both were reduced to a single canonical form, so this is a real disagreement and not a difference in spelling.",
+      "needs_human": true,
+      "risk": 0.95,
+      "risk_reasons_en": [
+        "The structure we hold and the structure the patent drew are not the same molecule.",
+        "The pairing here is by the compound name in the patent's own text, so this is not an artefact of how the two were matched."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "compound:drawing on page 4",
+      "about": "extraction",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p04_d1.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p04_d1-patent.png",
+        "page_image_path": "input/pages/p04.png"
+      }
+    },
+    {
+      "claim_id": "aca541eb8e4650d7",
+      "record_id": "US20040236146A1_p04_d2_s1",
+      "record_kind": "compound",
+      "record_label_en": "3-bromomethylbenzoic acid",
+      "field": "structure.drawn_vs_recorded",
+      "field_label_en": "Structure we recorded against structure the patent drew",
+      "question_en": "The patent's words name 3-bromomethylbenzoic acid, and we recorded a structure for that name. The patent also DRAWS a structure at this point, and a separate reading of that drawing gives a different molecule. Open the picture and say which of the two the drawing shows.",
+      "claimed_en": "BrCC=1C=C(C(=O)O)C=CC1",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "We recorded: O=C(O)c1cccc(CBr)c1. The drawing reads as: None. These are different molecules.",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_found",
+      "auto_reason_en": "The two SMILES do not match after both were reduced to a single canonical form, so this is a real disagreement and not a difference in spelling.",
+      "needs_human": true,
+      "risk": 0.95,
+      "risk_reasons_en": [
+        "The structure we hold and the structure the patent drew are not the same molecule.",
+        "The pairing here is by the compound name in the patent's own text, so this is not an artefact of how the two were matched."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "compound:drawing on page 4",
+      "about": "extraction",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p04_d2.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p04_d2-patent.png",
+        "page_image_path": "input/pages/p04.png"
+      }
+    },
+    {
+      "claim_id": "7912ffbdf75250e3",
+      "record_id": "US20040236146A1_p04_d3_s1",
+      "record_kind": "compound",
+      "record_label_en": "3-bromomethylbenzoic acid",
+      "field": "structure.drawn_vs_recorded",
+      "field_label_en": "Structure we recorded against structure the patent drew",
+      "question_en": "The patent's words name 3-bromomethylbenzoic acid, and we recorded a structure for that name. The patent also DRAWS a structure at this point, and a separate reading of that drawing gives a different molecule. Open the picture and say which of the two the drawing shows.",
+      "claimed_en": "BrCC=1C=C(C(=O)O)C=CC1",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "We recorded: O=C(O)c1cccc(CBr)c1. The drawing reads as: None. These are different molecules.",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_found",
+      "auto_reason_en": "The two SMILES do not match after both were reduced to a single canonical form, so this is a real disagreement and not a difference in spelling.",
+      "needs_human": true,
+      "risk": 0.95,
+      "risk_reasons_en": [
+        "The structure we hold and the structure the patent drew are not the same molecule.",
+        "The pairing here is by the compound name in the patent's own text, so this is not an artefact of how the two were matched."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "compound:drawing on page 4",
+      "about": "extraction",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p04_d3.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p04_d3-patent.png",
+        "page_image_path": "input/pages/p04.png"
+      }
+    },
+    {
+      "claim_id": "b5c632dd47d02b33",
+      "record_id": "US20040236146A1_p02_d1",
+      "record_kind": "drawing",
+      "record_label_en": "Drawing 2 of 9, page 2",
+      "field": "drawing.same_molecule",
+      "field_label_en": "Our structure against the structure the patent drew",
+      "question_en": "Do these two pictures show the same molecule?",
+      "claimed_en": "1. 3-bromomethylbenzoic acid",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        57
+      ],
+      "evidence_en": "The patent prints this drawing on page 2 between [0004] and [0005]. The right-hand picture is that region of the scanned page and the left-hand one is drawn from the structure we recorded.",
+      "evidence_lines": [
+        {
+          "n": 57,
+          "text_en": "The patent prints this drawing on page 2 between [0004] and [0005]. The right-hand picture is that region of the scanned page and the left-hand one is drawn from the structure we recorded.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "Whether a drawing shows the molecule we wrote down cannot be settled by matching strings. The machine has put the two side by side so a person can settle it by looking.",
+      "needs_human": true,
+      "risk": 0.65,
+      "risk_reasons_en": [
+        "Reading a structure off a drawing is the one step in this pipeline with no words to check it against.",
+        "The crop of the patent's own drawing is approximate. Judge against the full page if the two pictures disagree."
+      ],
+      "structure_svg_path": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+      "tier": 1,
+      "stratum": "drawing:page 2",
+      "about": "drawing",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p02_d1.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p02_d1-patent.png",
+        "page_image_path": "input/pages/p02.png"
+      },
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "1st and only, centred in the left column between [0004] and [0005]"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p02_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p02_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "coarse",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: it was NOT found. The machine counted 4 drawing-shaped blocks on page 2 but the reading of the page found 2 drawings, so no block can be trusted to be this one. The WHOLE PAGE is shown instead. Find the drawing yourself before answering.",
+          "page": "p02",
+          "page_image_path": "input/pages/p02.png",
+          "marker": "[0003]",
+          "box": {
+            "x_left": 0,
+            "y_top": 0,
+            "x_right": 1707,
+            "y_bot": 2200
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p02_d1.png"
+      }
+    },
+    {
+      "claim_id": "27fed73bee41b688",
+      "record_id": "US20040236146A1_p02_d2",
+      "record_kind": "drawing",
+      "record_label_en": "Drawing 3 of 9, page 2",
+      "field": "drawing.same_molecule",
+      "field_label_en": "Our structure against the structure the patent drew",
+      "question_en": "Do these two pictures show the same molecule?",
+      "claimed_en": "1. 3-bromomethylbenzoic acid",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        59
+      ],
+      "evidence_en": "The patent prints this drawing on page 2 between [0005] and [0006]. The right-hand picture is that region of the scanned page and the left-hand one is drawn from the structure we recorded.",
+      "evidence_lines": [
+        {
+          "n": 59,
+          "text_en": "The patent prints this drawing on page 2 between [0005] and [0006]. The right-hand picture is that region of the scanned page and the left-hand one is drawn from the structure we recorded.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "Whether a drawing shows the molecule we wrote down cannot be settled by matching strings. The machine has put the two side by side so a person can settle it by looking.",
+      "needs_human": true,
+      "risk": 0.65,
+      "risk_reasons_en": [
+        "Reading a structure off a drawing is the one step in this pipeline with no words to check it against.",
+        "The crop of the patent's own drawing is approximate. Judge against the full page if the two pictures disagree."
+      ],
+      "structure_svg_path": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+      "tier": 1,
+      "stratum": "drawing:page 2",
+      "about": "drawing",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p02_d2.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p02_d2-patent.png",
+        "page_image_path": "input/pages/p02.png"
+      },
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "1st and only, centred in the left column below [0005], at the foot of the column"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p02_d2.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p02_d2-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "coarse",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: it was NOT found. The machine counted 4 drawing-shaped blocks on page 2 but the reading of the page found 2 drawings, so no block can be trusted to be this one. The WHOLE PAGE is shown instead. Find the drawing yourself before answering.",
+          "page": "p02",
+          "page_image_path": "input/pages/p02.png",
+          "marker": "[0004]",
+          "box": {
+            "x_left": 0,
+            "y_top": 0,
+            "x_right": 1707,
+            "y_bot": 2200
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p02_d2.png"
+      }
+    },
+    {
+      "claim_id": "c77772c0870fbf6f",
+      "record_id": "US20040236146A1_p01_x1",
+      "record_kind": "patent",
+      "record_label_en": "Page 1, conflict 1",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 1 the patent does not agree with itself. The drawing and the abstract prose use different typography for the same two variable groups, superscript in the drawing and subscript in the text. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "The drawing and the abstract prose use different typography for the same two variable groups, superscript in the drawing and subscript in the text.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "THE DRAWING SAYS: R with a raised superscript 1 on the ring, and SO2R with a raised superscript 2  THE TEXT SAYS: R with a lowered subscript 1 and R with a lowered subscript 2, in 'where R1 is fluorine chlorine or bromine, and R2 is (C1-C4)alkyl'",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's drawing and the patent's words disagree here.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 1",
+      "about": "patent",
+      "evidence_kind": "page_scan",
+      "evidence_note_en": "The evidence for this item is the patent's own words, and the scan of the page they are printed on is listed under 'images'. No drawing is involved.",
+      "images": {
+        "page_image_path": "input/pages/p01.png",
+        "comparison_image": null,
+        "patent_crop_image": null
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "R with a raised superscript 1 on the ring, and SO2R with a raised superscript 2",
+      "text_says_en": "R with a lowered subscript 1 and R with a lowered subscript 2, in 'where R1 is fluorine chlorine or bromine, and R2 is (C1-C4)alkyl'",
+      "disagreement": {
+        "drawing_says_en": "R with a raised superscript 1 on the ring, and SO2R with a raised superscript 2",
+        "text_says_en": "R with a lowered subscript 1 and R with a lowered subscript 2, in 'where R1 is fluorine chlorine or bromine, and R2 is (C1-C4)alkyl'",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p01",
+      "page_number": 1,
+      "markers_mentioned": [],
+      "related_records": [],
+      "drawings_on_this_page": [
+        "US20040236146A1_p01_d1"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "1st and only, right column, centred between the two runs of abstract prose, with the formula label (II) printed in the upper right of the drawing area"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p01_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p01_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 1 and cut out the 1st block that is a drawing rather than lines of text. This page holds 1 such block, and reading the page found 1 drawing, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p01",
+          "page_image_path": "input/pages/p01.png",
+          "marker": "(57) abstract text, before formula",
+          "box": {
+            "x_left": 119,
+            "y_top": 522,
+            "x_right": 1621,
+            "y_bot": 785
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p01_d1.png"
+      }
+    },
+    {
+      "claim_id": "866b23faa9cb7c25",
+      "record_id": "US20040236146A1_p01_x2",
+      "record_kind": "patent",
+      "record_label_en": "Page 1, conflict 2",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 1 the patent does not agree with itself. The abstract names formula II as a class of '3-bromomethylbenzoic acids', but the drawn ring bears two further substituents beyond the acid and the bromomethyl group, so the name is a partial description of the drawn structure rather than a full one. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "The abstract names formula II as a class of '3-bromomethylbenzoic acids', but the drawn ring bears two further substituents beyond the acid and the bromomethyl group, so the name is a partial description of the drawn structure rather than a full one.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "THE DRAWING SAYS: benzene bearing COOH at C1, R1 at C2, CH2Br at C3 and SO2R2 at C4, with C5 and C6 unsubstituted  THE TEXT SAYS: '3-bromomethylbenzoic acids of the formula II', and the title (54) 'METHOD FOR PRODUCING 3-BROMOMETHYLBENZOIC ACIDS'",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's drawing and the patent's words disagree here.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 1",
+      "about": "patent",
+      "evidence_kind": "page_scan",
+      "evidence_note_en": "The evidence for this item is the patent's own words, and the scan of the page they are printed on is listed under 'images'. No drawing is involved.",
+      "images": {
+        "page_image_path": "input/pages/p01.png",
+        "comparison_image": null,
+        "patent_crop_image": null
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "benzene bearing COOH at C1, R1 at C2, CH2Br at C3 and SO2R2 at C4, with C5 and C6 unsubstituted",
+      "text_says_en": "'3-bromomethylbenzoic acids of the formula II', and the title (54) 'METHOD FOR PRODUCING 3-BROMOMETHYLBENZOIC ACIDS'",
+      "disagreement": {
+        "drawing_says_en": "benzene bearing COOH at C1, R1 at C2, CH2Br at C3 and SO2R2 at C4, with C5 and C6 unsubstituted",
+        "text_says_en": "'3-bromomethylbenzoic acids of the formula II', and the title (54) 'METHOD FOR PRODUCING 3-BROMOMETHYLBENZOIC ACIDS'",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p01",
+      "page_number": 1,
+      "markers_mentioned": [],
+      "related_records": [
+        {
+          "identifier_en": "3-bromomethylbenzoic acids of the formula II",
+          "what_we_recorded_smiles": null,
+          "we_hold_a_structure": false,
+          "formula": null,
+          "structure_svg_path": null
+        },
+        {
+          "identifier_en": "3-bromomethylbenzoic acids",
+          "what_we_recorded_smiles": null,
+          "we_hold_a_structure": false,
+          "formula": null,
+          "structure_svg_path": null
+        },
+        {
+          "identifier_en": "3-bromomethylbenzoic acid",
+          "what_we_recorded_smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+          "we_hold_a_structure": true,
+          "formula": "C8H7BrO2",
+          "structure_svg_path": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg"
+        }
+      ],
+      "drawings_on_this_page": [
+        "US20040236146A1_p01_d1"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "1st and only, right column, centred between the two runs of abstract prose, with the formula label (II) printed in the upper right of the drawing area"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p01_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p01_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 1 and cut out the 1st block that is a drawing rather than lines of text. This page holds 1 such block, and reading the page found 1 drawing, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p01",
+          "page_image_path": "input/pages/p01.png",
+          "marker": "(57) abstract text, before formula",
+          "box": {
+            "x_left": 119,
+            "y_top": 522,
+            "x_right": 1621,
+            "y_bot": 785
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p01_d1.png"
+      }
+    },
+    {
+      "claim_id": "e5f857906fc6a18c",
+      "record_id": "US20040236146A1_p01_x3",
+      "record_kind": "patent",
+      "record_label_en": "Page 1, conflict 3",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 1 the patent does not agree with itself. The starting material is named in the prose but is not drawn anywhere on this page, so there is no drawn scheme to check the bromination against. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "The starting material is named in the prose but is not drawn anywhere on this page, so there is no drawn scheme to check the bromination against.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "THE DRAWING SAYS: only the product formula II is drawn; no arrow, no reagent and no starting structure appear on the page  THE TEXT SAYS: 'by brominating the corresponding 3-methylbenzoic acids'",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's drawing and the patent's words disagree here.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 1",
+      "about": "patent",
+      "evidence_kind": "page_scan",
+      "evidence_note_en": "The evidence for this item is the patent's own words, and the scan of the page they are printed on is listed under 'images'. No drawing is involved.",
+      "images": {
+        "page_image_path": "input/pages/p01.png",
+        "comparison_image": null,
+        "patent_crop_image": null
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "only the product formula II is drawn; no arrow, no reagent and no starting structure appear on the page",
+      "text_says_en": "'by brominating the corresponding 3-methylbenzoic acids'",
+      "disagreement": {
+        "drawing_says_en": "only the product formula II is drawn; no arrow, no reagent and no starting structure appear on the page",
+        "text_says_en": "'by brominating the corresponding 3-methylbenzoic acids'",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p01",
+      "page_number": 1,
+      "markers_mentioned": [],
+      "related_records": [
+        {
+          "identifier_en": "3-methylbenzoic acids",
+          "what_we_recorded_smiles": null,
+          "we_hold_a_structure": false,
+          "formula": null,
+          "structure_svg_path": null
+        }
+      ],
+      "drawings_on_this_page": [
+        "US20040236146A1_p01_d1"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "1st and only, right column, centred between the two runs of abstract prose, with the formula label (II) printed in the upper right of the drawing area"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p01_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p01_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 1 and cut out the 1st block that is a drawing rather than lines of text. This page holds 1 such block, and reading the page found 1 drawing, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p01",
+          "page_image_path": "input/pages/p01.png",
+          "marker": "(57) abstract text, before formula",
+          "box": {
+            "x_left": 119,
+            "y_top": 522,
+            "x_right": 1621,
+            "y_bot": 785
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p01_d1.png"
+      }
+    },
+    {
+      "claim_id": "059f1d1ab7c7bedf",
+      "record_id": "US20040236146A1_p02_x1",
+      "record_kind": "patent",
+      "record_label_en": "Page 2, conflict 1",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 2 the patent does not agree with itself. Paragraph [0019] is cut off by the page break, so the workup reagent the caller asked about is simply not on this page. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "Paragraph [0019] is cut off by the page break, so the workup reagent the caller asked about is simply not on this page.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        93
+      ],
+      "evidence_en": "THE DRAWING SAYS: No drawing bears on this. There are only two drawings on the page and both sit in the left column, well above [0019].  THE TEXT SAYS: [0019] ends mid-sentence at 'When the bromination is effected by process variant' and the column goes blank below it. The strings 'bisulfate' and 'bisulfite' do not occur anywhere on p02. Whichever of the two is printed, it is printed on p03.",
+      "evidence_lines": [
+        {
+          "n": 93,
+          "text_en": "THE DRAWING SAYS: No drawing bears on this. There are only two drawings on the page and both sit in the left column, well above [0019].  THE TEXT SAYS: [0019] ends mid-sentence at 'When the bromination is effected by process variant' and the column goes blank below it. The strings 'bisulfate' and 'bisulfite' do not occur anywhere on p02. Whichever of the two is printed, it is printed on p03.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's own words disagree with each other here. No drawing is involved.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 2",
+      "about": "patent",
+      "evidence_kind": "page_scan",
+      "evidence_note_en": "The evidence for this item is the patent's own words, and the scan of the page they are printed on is listed under 'images'. No drawing is involved.",
+      "images": {
+        "page_image_path": "input/pages/p02.png",
+        "comparison_image": null,
+        "patent_crop_image": null
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "No drawing bears on this. There are only two drawings on the page and both sit in the left column, well above [0019].",
+      "text_says_en": "[0019] ends mid-sentence at 'When the bromination is effected by process variant' and the column goes blank below it. The strings 'bisulfate' and 'bisulfite' do not occur anywhere on p02. Whichever of the two is printed, it is printed on p03.",
+      "disagreement": {
+        "drawing_says_en": "No drawing bears on this. There are only two drawings on the page and both sit in the left column, well above [0019].",
+        "text_says_en": "[0019] ends mid-sentence at 'When the bromination is effected by process variant' and the column goes blank below it. The strings 'bisulfate' and 'bisulfite' do not occur anywhere on p02. Whichever of the two is printed, it is printed on p03.",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p02",
+      "page_number": 2,
+      "markers_mentioned": [
+        "[0019]"
+      ],
+      "related_records": [],
+      "drawings_on_this_page": [
+        "US20040236146A1_p02_d1",
+        "US20040236146A1_p02_d2"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "1st and only, centred in the left column between [0004] and [0005]"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p02_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p02_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "coarse",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: it was NOT found. The machine counted 4 drawing-shaped blocks on page 2 but the reading of the page found 2 drawings, so no block can be trusted to be this one. The WHOLE PAGE is shown instead. Find the drawing yourself before answering.",
+          "page": "p02",
+          "page_image_path": "input/pages/p02.png",
+          "marker": "[0003]",
+          "box": {
+            "x_left": 0,
+            "y_top": 0,
+            "x_right": 1707,
+            "y_bot": 2200
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p02_d1.png"
+      }
+    },
+    {
+      "claim_id": "4cf4c982c758e577",
+      "record_id": "US20040236146A1_p02_x2",
+      "record_kind": "patent",
+      "record_label_en": "Page 2, conflict 2",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 2 the patent does not agree with itself. The same reagent is spelled two different ways on this one page. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "The same reagent is spelled two different ways on this one page.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        69
+      ],
+      "evidence_en": "THE DRAWING SAYS: No drawing bears on this; neither formula I nor formula II depicts a reagent.  THE TEXT SAYS: [0007] prints 'N-bromosuccimide'; [0016] prints 'N-bromosuccinimide (NBS)'. Recorded rather than silently unified: zh keeps each as printed.",
+      "evidence_lines": [
+        {
+          "n": 69,
+          "text_en": "THE DRAWING SAYS: No drawing bears on this; neither formula I nor formula II depicts a reagent.  THE TEXT SAYS: [0007] prints 'N-bromosuccimide'; [0016] prints 'N-bromosuccinimide (NBS)'. Recorded rather than silently unified: zh keeps each as printed.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's own words disagree with each other here. No drawing is involved.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 2",
+      "about": "patent",
+      "evidence_kind": "page_scan",
+      "evidence_note_en": "The evidence for this item is the patent's own words, and the scan of the page they are printed on is listed under 'images'. No drawing is involved.",
+      "images": {
+        "page_image_path": "input/pages/p02.png",
+        "comparison_image": null,
+        "patent_crop_image": null
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "No drawing bears on this; neither formula I nor formula II depicts a reagent.",
+      "text_says_en": "[0007] prints 'N-bromosuccimide'; [0016] prints 'N-bromosuccinimide (NBS)'. Recorded rather than silently unified: zh keeps each as printed.",
+      "disagreement": {
+        "drawing_says_en": "No drawing bears on this; neither formula I nor formula II depicts a reagent.",
+        "text_says_en": "[0007] prints 'N-bromosuccimide'; [0016] prints 'N-bromosuccinimide (NBS)'. Recorded rather than silently unified: zh keeps each as printed.",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p02",
+      "page_number": 2,
+      "markers_mentioned": [
+        "[0007]",
+        "[0016]"
+      ],
+      "related_records": [
+        {
+          "identifier_en": "N-bromosuccinimide",
+          "what_we_recorded_smiles": "BrN1C(CCC1=O)=O",
+          "we_hold_a_structure": true,
+          "formula": "C4H4BrNO2",
+          "structure_svg_path": "output/relevant_output/structures/n-bromosuccinimide.svg"
+        }
+      ],
+      "drawings_on_this_page": [
+        "US20040236146A1_p02_d1",
+        "US20040236146A1_p02_d2"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "1st and only, centred in the left column between [0004] and [0005]"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p02_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p02_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "coarse",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: it was NOT found. The machine counted 4 drawing-shaped blocks on page 2 but the reading of the page found 2 drawings, so no block can be trusted to be this one. The WHOLE PAGE is shown instead. Find the drawing yourself before answering.",
+          "page": "p02",
+          "page_image_path": "input/pages/p02.png",
+          "marker": "[0003]",
+          "box": {
+            "x_left": 0,
+            "y_top": 0,
+            "x_right": 1707,
+            "y_bot": 2200
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p02_d1.png"
+      }
+    },
+    {
+      "claim_id": "f35304459045509c",
+      "record_id": "US20040236146A1_p02_x3",
+      "record_kind": "patent",
+      "record_label_en": "Page 2, conflict 3",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 2 the patent does not agree with itself. A hyphen is missing from two compound names, in a pattern (the hyphen before a locant that follows 'methyl'/'chloro') that recurs. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "A hyphen is missing from two compound names, in a pattern (the hyphen before a locant that follows 'methyl'/'chloro') that recurs.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        55
+      ],
+      "evidence_en": "THE DRAWING SAYS: Formula II puts the sulfonyl at the ring carbon two positions clockwise from R1, i.e. at C4 counting from the carboxyl carbon, which is what the hyphenated form of the name asserts.  THE TEXT SAYS: [0002] prints '3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid' and [0003] prints '2-halo-3-methyl4-alkylsulfonylbenzoic acids'. Both are as-printed misprints on the page itself, verified on the pixels, not OCR damage.",
+      "evidence_lines": [
+        {
+          "n": 55,
+          "text_en": "THE DRAWING SAYS: Formula II puts the sulfonyl at the ring carbon two positions clockwise from R1, i.e. at C4 counting from the carboxyl carbon, which is what the hyphenated form of the name asserts.  THE TEXT SAYS: [0002] prints '3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid' and [0003] prints '2-halo-3-methyl4-alkylsulfonylbenzoic acids'. Both are as-printed misprints on the page itself, verified on the pixels, not OCR damage.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's drawing and the patent's words disagree here.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 2",
+      "about": "patent",
+      "evidence_kind": "page_scan",
+      "evidence_note_en": "The evidence for this item is the patent's own words, and the scan of the page they are printed on is listed under 'images'. No drawing is involved.",
+      "images": {
+        "page_image_path": "input/pages/p02.png",
+        "comparison_image": null,
+        "patent_crop_image": null
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "Formula II puts the sulfonyl at the ring carbon two positions clockwise from R1, i.e. at C4 counting from the carboxyl carbon, which is what the hyphenated form of the name asserts.",
+      "text_says_en": "[0002] prints '3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid' and [0003] prints '2-halo-3-methyl4-alkylsulfonylbenzoic acids'. Both are as-printed misprints on the page itself, verified on the pixels, not OCR damage.",
+      "disagreement": {
+        "drawing_says_en": "Formula II puts the sulfonyl at the ring carbon two positions clockwise from R1, i.e. at C4 counting from the carboxyl carbon, which is what the hyphenated form of the name asserts.",
+        "text_says_en": "[0002] prints '3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid' and [0003] prints '2-halo-3-methyl4-alkylsulfonylbenzoic acids'. Both are as-printed misprints on the page itself, verified on the pixels, not OCR damage.",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p02",
+      "page_number": 2,
+      "markers_mentioned": [
+        "[0002]",
+        "[0003]"
+      ],
+      "related_records": [
+        {
+          "identifier_en": "2-halo-3-methyl4-alkylsulfonylbenzoic acids",
+          "what_we_recorded_smiles": null,
+          "we_hold_a_structure": false,
+          "formula": null,
+          "structure_svg_path": null
+        }
+      ],
+      "drawings_on_this_page": [
+        "US20040236146A1_p02_d1",
+        "US20040236146A1_p02_d2"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "1st and only, centred in the left column between [0004] and [0005]"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p02_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p02_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "coarse",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: it was NOT found. The machine counted 4 drawing-shaped blocks on page 2 but the reading of the page found 2 drawings, so no block can be trusted to be this one. The WHOLE PAGE is shown instead. Find the drawing yourself before answering.",
+          "page": "p02",
+          "page_image_path": "input/pages/p02.png",
+          "marker": "[0003]",
+          "box": {
+            "x_left": 0,
+            "y_top": 0,
+            "x_right": 1707,
+            "y_bot": 2200
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p02_d1.png"
+      }
+    },
+    {
+      "claim_id": "7e3bb10e03abd5c5",
+      "record_id": "US20040236146A1_p02_x4",
+      "record_kind": "patent",
+      "record_label_en": "Page 2, conflict 4",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 2 the patent does not agree with itself. Cross-check of the two drawn structures against the prose that introduces them: no disagreement found. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "Cross-check of the two drawn structures against the prose that introduces them: no disagreement found.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        57
+      ],
+      "evidence_en": "THE DRAWING SAYS: Formula I carries CH3 at C3 and formula II carries CH2Br at the same C3, with HOOC at C1, R1 at C2 and SO2R2 at C4 unchanged between them, so the drawn pair differ only by H to Br at the benzylic carbon.  THE TEXT SAYS: [0004] and [0005] describe exactly that, preparing '3-bromomethylbenzoic acids of the formula II' 'by brominating 3-methylbenzoic acids of the formula I', and [0003] names the pair as 2-halo-3-methyl-4-alkylsulfonylbenzoic acids going to 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids. Recorded as a checked agreement, not as a discrepancy.",
+      "evidence_lines": [
+        {
+          "n": 57,
+          "text_en": "THE DRAWING SAYS: Formula I carries CH3 at C3 and formula II carries CH2Br at the same C3, with HOOC at C1, R1 at C2 and SO2R2 at C4 unchanged between them, so the drawn pair differ only by H to Br at the benzylic carbon.  THE TEXT SAYS: [0004] and [0005] describe exactly that, preparing '3-bromomethylbenzoic acids of the formula II' 'by brominating 3-methylbenzoic acids of the formula I', and [0003] names the pair as 2-halo-3-methyl-4-alkylsulfonylbenzoic acids going to 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids. Recorded as a checked agreement, not as a discrepancy.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's drawing and the patent's words disagree here.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 2",
+      "about": "patent",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "page_image_path": "input/pages/p02.png",
+        "comparison_image": "comparisons/US20040236146A1_p02_d1.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p02_d1-patent.png"
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "Formula I carries CH3 at C3 and formula II carries CH2Br at the same C3, with HOOC at C1, R1 at C2 and SO2R2 at C4 unchanged between them, so the drawn pair differ only by H to Br at the benzylic carbon.",
+      "text_says_en": "[0004] and [0005] describe exactly that, preparing '3-bromomethylbenzoic acids of the formula II' 'by brominating 3-methylbenzoic acids of the formula I', and [0003] names the pair as 2-halo-3-methyl-4-alkylsulfonylbenzoic acids going to 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids. Recorded as a checked agreement, not as a discrepancy.",
+      "disagreement": {
+        "drawing_says_en": "Formula I carries CH3 at C3 and formula II carries CH2Br at the same C3, with HOOC at C1, R1 at C2 and SO2R2 at C4 unchanged between them, so the drawn pair differ only by H to Br at the benzylic carbon.",
+        "text_says_en": "[0004] and [0005] describe exactly that, preparing '3-bromomethylbenzoic acids of the formula II' 'by brominating 3-methylbenzoic acids of the formula I', and [0003] names the pair as 2-halo-3-methyl-4-alkylsulfonylbenzoic acids going to 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids. Recorded as a checked agreement, not as a discrepancy.",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p02",
+      "page_number": 2,
+      "markers_mentioned": [
+        "[0003]",
+        "[0004]",
+        "[0005]"
+      ],
+      "related_records": [
+        {
+          "identifier_en": "3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acids",
+          "what_we_recorded_smiles": null,
+          "we_hold_a_structure": false,
+          "formula": null,
+          "structure_svg_path": null
+        },
+        {
+          "identifier_en": "3-bromomethylbenzoic acids of the formula II",
+          "what_we_recorded_smiles": null,
+          "we_hold_a_structure": false,
+          "formula": null,
+          "structure_svg_path": null
+        },
+        {
+          "identifier_en": "3-methylbenzoic acids of the formula I",
+          "what_we_recorded_smiles": null,
+          "we_hold_a_structure": false,
+          "formula": null,
+          "structure_svg_path": null
+        },
+        {
+          "identifier_en": "3-bromomethylbenzoic acids",
+          "what_we_recorded_smiles": null,
+          "we_hold_a_structure": false,
+          "formula": null,
+          "structure_svg_path": null
+        },
+        {
+          "identifier_en": "3-bromomethylbenzoic acid",
+          "what_we_recorded_smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+          "we_hold_a_structure": true,
+          "formula": "C8H7BrO2",
+          "structure_svg_path": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg"
+        },
+        {
+          "identifier_en": "3-methylbenzoic acids",
+          "what_we_recorded_smiles": null,
+          "we_hold_a_structure": false,
+          "formula": null,
+          "structure_svg_path": null
+        }
+      ],
+      "drawings_on_this_page": [
+        "US20040236146A1_p02_d1",
+        "US20040236146A1_p02_d2"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "1st and only, centred in the left column between [0004] and [0005]"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p02_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p02_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "coarse",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: it was NOT found. The machine counted 4 drawing-shaped blocks on page 2 but the reading of the page found 2 drawings, so no block can be trusted to be this one. The WHOLE PAGE is shown instead. Find the drawing yourself before answering.",
+          "page": "p02",
+          "page_image_path": "input/pages/p02.png",
+          "marker": "[0003]",
+          "box": {
+            "x_left": 0,
+            "y_top": 0,
+            "x_right": 1707,
+            "y_bot": 2200
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p02_d1.png"
+      }
+    },
+    {
+      "claim_id": "2d6d645633fea992",
+      "record_id": "US20040236146A1_p03_x1",
+      "record_kind": "patent",
+      "record_label_en": "Page 3, conflict 1",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 3 the patent does not agree with itself. Both examples name the starting material with the sulfone substituent written backwards relative to the drawn formula, the example titles and the rest of the patent. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "Both examples name the starting material with the sulfone substituent written backwards relative to the drawn formula, the example titles and the rest of the patent.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        100
+      ],
+      "evidence_en": "THE DRAWING SAYS: Formulae (I) and (II) both draw SO2R2 attached to C4 through sulfur, with R2 an alkyl group carried on that sulfur. With R2 = CH3 that group is methylsulfonyl (CH3-SO2-); with R2 = C2H5 it is ethylsulfonyl (C2H5-SO2-).  THE TEXT SAYS: [0027] prints '2-chloro-3-methyl4-sulfonylmethylbenzoic acid', [0031] prints '2-chloro-3-methyl-4-sulfonylmethylbenzoic acid' and [0033] prints '2-chloro-3-methyl-4-sulfonylethylbenzoic acid'. 'sulfonylmethyl' and 'sulfonylethyl' name a divalent -SO2-CH2- / -SO2-C2H4- linker, which cannot be a terminal ring substituent, so these are transpositions of 'methylsulfonyl' and 'ethylsulfonyl'. The Example 1 title ('4-methylsulfonylbenzoic'), the Example 2 title ('4-ethylsulfonylbenzoic'), [0020], [0024] and [0028] all use the correct order. Left exactly as printed in every zh field; corrected only in en, and flagged here rather than fixed silently.",
+      "evidence_lines": [
+        {
+          "n": 100,
+          "text_en": "THE DRAWING SAYS: Formulae (I) and (II) both draw SO2R2 attached to C4 through sulfur, with R2 an alkyl group carried on that sulfur. With R2 = CH3 that group is methylsulfonyl (CH3-SO2-); with R2 = C2H5 it is ethylsulfonyl (C2H5-SO2-).  THE TEXT SAYS: [0027] prints '2-chloro-3-methyl4-sulfonylmethylbenzoic acid', [0031] prints '2-chloro-3-methyl-4-sulfonylmethylbenzoic acid' and [0033] prints '2-chloro-3-methyl-4-sulfonylethylbenzoic acid'. 'sulfonylmethyl' and 'sulfonylethyl' name a divalent -SO2-CH2- / -SO2-C2H4- linker, which cannot be a terminal ring substituent, so these are transpositions of 'methylsulfonyl' and 'ethylsulfonyl'. The Example 1 title ('4-methylsulfonylbenzoic'), the Example 2 title ('4-ethylsulfonylbenzoic'), [0020], [0024] and [0028] all use the correct order. Left exactly as printed in every zh field; corrected only in en, and flagged here rather than fixed silently.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's drawing and the patent's words disagree here.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 3",
+      "about": "patent",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "page_image_path": "input/pages/p03.png",
+        "comparison_image": "comparisons/US20040236146A1_p03_d1.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p03_d1-patent.png"
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "Formulae (I) and (II) both draw SO2R2 attached to C4 through sulfur, with R2 an alkyl group carried on that sulfur. With R2 = CH3 that group is methylsulfonyl (CH3-SO2-); with R2 = C2H5 it is ethylsulfonyl (C2H5-SO2-).",
+      "text_says_en": "[0027] prints '2-chloro-3-methyl4-sulfonylmethylbenzoic acid', [0031] prints '2-chloro-3-methyl-4-sulfonylmethylbenzoic acid' and [0033] prints '2-chloro-3-methyl-4-sulfonylethylbenzoic acid'. 'sulfonylmethyl' and 'sulfonylethyl' name a divalent -SO2-CH2- / -SO2-C2H4- linker, which cannot be a terminal ring substituent, so these are transpositions of 'methylsulfonyl' and 'ethylsulfonyl'. The Example 1 title ('4-methylsulfonylbenzoic'), the Example 2 title ('4-ethylsulfonylbenzoic'), [0020], [0024] and [0028] all use the correct order. Left exactly as printed in every zh field; corrected only in en, and flagged here rather than fixed silently.",
+      "disagreement": {
+        "drawing_says_en": "Formulae (I) and (II) both draw SO2R2 attached to C4 through sulfur, with R2 an alkyl group carried on that sulfur. With R2 = CH3 that group is methylsulfonyl (CH3-SO2-); with R2 = C2H5 it is ethylsulfonyl (C2H5-SO2-).",
+        "text_says_en": "[0027] prints '2-chloro-3-methyl4-sulfonylmethylbenzoic acid', [0031] prints '2-chloro-3-methyl-4-sulfonylmethylbenzoic acid' and [0033] prints '2-chloro-3-methyl-4-sulfonylethylbenzoic acid'. 'sulfonylmethyl' and 'sulfonylethyl' name a divalent -SO2-CH2- / -SO2-C2H4- linker, which cannot be a terminal ring substituent, so these are transpositions of 'methylsulfonyl' and 'ethylsulfonyl'. The Example 1 title ('4-methylsulfonylbenzoic'), the Example 2 title ('4-ethylsulfonylbenzoic'), [0020], [0024] and [0028] all use the correct order. Left exactly as printed in every zh field; corrected only in en, and flagged here rather than fixed silently.",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p03",
+      "page_number": 3,
+      "markers_mentioned": [
+        "[0020]",
+        "[0024]",
+        "[0027]",
+        "[0028]",
+        "[0031]",
+        "[0033]"
+      ],
+      "related_records": [],
+      "drawings_on_this_page": [
+        "US20040236146A1_p03_d1",
+        "US20040236146A1_p03_d2",
+        "US20040236146A1_p03_d3"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/sodium-bisulfate.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "sodium bisulfate",
+              "src": "output/relevant_output/structures/sodium-bisulfate.svg",
+              "smiles": "S([O-])(O)(=O)=O.[Na+]",
+              "in_gold": true,
+              "position_en": "sole structure, centred in the left column"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p03_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 3 and cut out the 1st block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p03",
+          "page_image_path": "input/pages/p03.png",
+          "marker": null,
+          "box": {
+            "x_left": 119,
+            "y_top": 411,
+            "x_right": 1621,
+            "y_bot": 1248
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d1.png"
+      }
+    },
+    {
+      "claim_id": "6c08ecd4b60eb975",
+      "record_id": "US20040236146A1_p03_x2",
+      "record_kind": "patent",
+      "record_label_en": "Page 3, conflict 2",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 3 the patent does not agree with itself. The workup reagent is named as a sulfate in one place and a sulfite everywhere else. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "The workup reagent is named as a sulfate in one place and a sulfite everywhere else.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        122
+      ],
+      "evidence_en": "THE DRAWING SAYS: Nothing is drawn for the workup; no drawing on this page depicts any reagent, so the drawings cannot settle it.  THE TEXT SAYS: The unmarked paragraph at the top of the left column (tail of the general workup description) prints 'sodium bisulfate solution'. [0027] and [0033] both print '100 ml of a 2% sodium bisulfite solution'. Sodium bisulfite is the reagent that makes chemical sense for quenching residual bromine, but the general description as printed says bisulfate. Both readings are recorded as printed.",
+      "evidence_lines": [
+        {
+          "n": 122,
+          "text_en": "THE DRAWING SAYS: Nothing is drawn for the workup; no drawing on this page depicts any reagent, so the drawings cannot settle it.  THE TEXT SAYS: The unmarked paragraph at the top of the left column (tail of the general workup description) prints 'sodium bisulfate solution'. [0027] and [0033] both print '100 ml of a 2% sodium bisulfite solution'. Sodium bisulfite is the reagent that makes chemical sense for quenching residual bromine, but the general description as printed says bisulfate. Both readings are recorded as printed.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's drawing and the patent's words disagree here.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 3",
+      "about": "patent",
+      "evidence_kind": "page_scan",
+      "evidence_note_en": "The evidence for this item is the patent's own words, and the scan of the page they are printed on is listed under 'images'. No drawing is involved.",
+      "images": {
+        "page_image_path": "input/pages/p03.png",
+        "comparison_image": null,
+        "patent_crop_image": null
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "Nothing is drawn for the workup; no drawing on this page depicts any reagent, so the drawings cannot settle it.",
+      "text_says_en": "The unmarked paragraph at the top of the left column (tail of the general workup description) prints 'sodium bisulfate solution'. [0027] and [0033] both print '100 ml of a 2% sodium bisulfite solution'. Sodium bisulfite is the reagent that makes chemical sense for quenching residual bromine, but the general description as printed says bisulfate. Both readings are recorded as printed.",
+      "disagreement": {
+        "drawing_says_en": "Nothing is drawn for the workup; no drawing on this page depicts any reagent, so the drawings cannot settle it.",
+        "text_says_en": "The unmarked paragraph at the top of the left column (tail of the general workup description) prints 'sodium bisulfate solution'. [0027] and [0033] both print '100 ml of a 2% sodium bisulfite solution'. Sodium bisulfite is the reagent that makes chemical sense for quenching residual bromine, but the general description as printed says bisulfate. Both readings are recorded as printed.",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p03",
+      "page_number": 3,
+      "markers_mentioned": [
+        "[0027]",
+        "[0033]"
+      ],
+      "related_records": [
+        {
+          "identifier_en": "sodium bisulfite",
+          "what_we_recorded_smiles": "S([O-])(O)=O.[Na+]",
+          "we_hold_a_structure": true,
+          "formula": "HNaO3S",
+          "structure_svg_path": "output/relevant_output/structures/sodium-bisulfite.svg"
+        },
+        {
+          "identifier_en": "sodium bisulfate",
+          "what_we_recorded_smiles": "S([O-])(O)(=O)=O.[Na+]",
+          "we_hold_a_structure": true,
+          "formula": "HNaO4S",
+          "structure_svg_path": "output/relevant_output/structures/sodium-bisulfate.svg"
+        }
+      ],
+      "drawings_on_this_page": [
+        "US20040236146A1_p03_d1",
+        "US20040236146A1_p03_d2",
+        "US20040236146A1_p03_d3"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/sodium-bisulfate.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "sodium bisulfate",
+              "src": "output/relevant_output/structures/sodium-bisulfate.svg",
+              "smiles": "S([O-])(O)(=O)=O.[Na+]",
+              "in_gold": true,
+              "position_en": "sole structure, centred in the left column"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p03_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 3 and cut out the 1st block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p03",
+          "page_image_path": "input/pages/p03.png",
+          "marker": null,
+          "box": {
+            "x_left": 119,
+            "y_top": 411,
+            "x_right": 1621,
+            "y_bot": 1248
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d1.png"
+      }
+    },
+    {
+      "claim_id": "c9bc3da36fb3a804",
+      "record_id": "US20040236146A1_p03_x3",
+      "record_kind": "patent",
+      "record_label_en": "Page 3, conflict 3",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 3 the patent does not agree with itself. N-bromosuccinimide is misspelled in claim 6 but spelled correctly in the description. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "N-bromosuccinimide is misspelled in claim 6 but spelled correctly in the description.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        122
+      ],
+      "evidence_en": "THE DRAWING SAYS: Not drawn. NBS appears nowhere as a structure on this page.  THE TEXT SAYS: Claim 6 prints 'with N-bromosuccimide in the presence of a radical initiator' (no n before the -imide), while [0027] and [0033] both print 'N-bromosuccinimide'. Confirmed at 7x. The claim as printed names a different, non-existent reagent; recorded as printed and corrected only in en.",
+      "evidence_lines": [
+        {
+          "n": 122,
+          "text_en": "THE DRAWING SAYS: Not drawn. NBS appears nowhere as a structure on this page.  THE TEXT SAYS: Claim 6 prints 'with N-bromosuccimide in the presence of a radical initiator' (no n before the -imide), while [0027] and [0033] both print 'N-bromosuccinimide'. Confirmed at 7x. The claim as printed names a different, non-existent reagent; recorded as printed and corrected only in en.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's drawing and the patent's words disagree here.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 3",
+      "about": "patent",
+      "evidence_kind": "page_scan",
+      "evidence_note_en": "The evidence for this item is the patent's own words, and the scan of the page they are printed on is listed under 'images'. No drawing is involved.",
+      "images": {
+        "page_image_path": "input/pages/p03.png",
+        "comparison_image": null,
+        "patent_crop_image": null
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "Not drawn. NBS appears nowhere as a structure on this page.",
+      "text_says_en": "Claim 6 prints 'with N-bromosuccimide in the presence of a radical initiator' (no n before the -imide), while [0027] and [0033] both print 'N-bromosuccinimide'. Confirmed at 7x. The claim as printed names a different, non-existent reagent; recorded as printed and corrected only in en.",
+      "disagreement": {
+        "drawing_says_en": "Not drawn. NBS appears nowhere as a structure on this page.",
+        "text_says_en": "Claim 6 prints 'with N-bromosuccimide in the presence of a radical initiator' (no n before the -imide), while [0027] and [0033] both print 'N-bromosuccinimide'. Confirmed at 7x. The claim as printed names a different, non-existent reagent; recorded as printed and corrected only in en.",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p03",
+      "page_number": 3,
+      "markers_mentioned": [
+        "[0027]",
+        "[0033]"
+      ],
+      "related_records": [
+        {
+          "identifier_en": "N-bromosuccinimide",
+          "what_we_recorded_smiles": "BrN1C(CCC1=O)=O",
+          "we_hold_a_structure": true,
+          "formula": "C4H4BrNO2",
+          "structure_svg_path": "output/relevant_output/structures/n-bromosuccinimide.svg"
+        },
+        {
+          "identifier_en": "radical initiator",
+          "what_we_recorded_smiles": null,
+          "we_hold_a_structure": false,
+          "formula": null,
+          "structure_svg_path": null
+        }
+      ],
+      "drawings_on_this_page": [
+        "US20040236146A1_p03_d1",
+        "US20040236146A1_p03_d2",
+        "US20040236146A1_p03_d3"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/sodium-bisulfate.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "sodium bisulfate",
+              "src": "output/relevant_output/structures/sodium-bisulfate.svg",
+              "smiles": "S([O-])(O)(=O)=O.[Na+]",
+              "in_gold": true,
+              "position_en": "sole structure, centred in the left column"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p03_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 3 and cut out the 1st block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p03",
+          "page_image_path": "input/pages/p03.png",
+          "marker": null,
+          "box": {
+            "x_left": 119,
+            "y_top": 411,
+            "x_right": 1621,
+            "y_bot": 1248
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d1.png"
+      }
+    },
+    {
+      "claim_id": "4f6dcd0a7b3cfea2",
+      "record_id": "US20040236146A1_p03_x4",
+      "record_kind": "patent",
+      "record_label_en": "Page 3, conflict 4",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 3 the patent does not agree with itself. The radical initiator is misspelled in the description but spelled correctly in the claims. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "The radical initiator is misspelled in the description but spelled correctly in the claims.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        122
+      ],
+      "evidence_en": "THE DRAWING SAYS: Not drawn.  THE TEXT SAYS: [0027] prints '6.6 g of azoisobutyroniltrile'; claim 7 on the same page prints 'azoisobutyronitrile'. Confirmed at 7x in both places. Recorded as printed in zh, corrected in en.",
+      "evidence_lines": [
+        {
+          "n": 122,
+          "text_en": "THE DRAWING SAYS: Not drawn.  THE TEXT SAYS: [0027] prints '6.6 g of azoisobutyroniltrile'; claim 7 on the same page prints 'azoisobutyronitrile'. Confirmed at 7x in both places. Recorded as printed in zh, corrected in en.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's drawing and the patent's words disagree here.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 3",
+      "about": "patent",
+      "evidence_kind": "page_scan",
+      "evidence_note_en": "The evidence for this item is the patent's own words, and the scan of the page they are printed on is listed under 'images'. No drawing is involved.",
+      "images": {
+        "page_image_path": "input/pages/p03.png",
+        "comparison_image": null,
+        "patent_crop_image": null
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "Not drawn.",
+      "text_says_en": "[0027] prints '6.6 g of azoisobutyroniltrile'; claim 7 on the same page prints 'azoisobutyronitrile'. Confirmed at 7x in both places. Recorded as printed in zh, corrected in en.",
+      "disagreement": {
+        "drawing_says_en": "Not drawn.",
+        "text_says_en": "[0027] prints '6.6 g of azoisobutyroniltrile'; claim 7 on the same page prints 'azoisobutyronitrile'. Confirmed at 7x in both places. Recorded as printed in zh, corrected in en.",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p03",
+      "page_number": 3,
+      "markers_mentioned": [
+        "[0027]"
+      ],
+      "related_records": [
+        {
+          "identifier_en": "azoisobutyronitrile",
+          "what_we_recorded_smiles": "CC(C)(C#N)N=NC(C)(C)C#N",
+          "we_hold_a_structure": true,
+          "formula": "C8H12N4",
+          "structure_svg_path": "output/relevant_output/structures/azoisobutyronitrile.svg"
+        },
+        {
+          "identifier_en": "radical initiator",
+          "what_we_recorded_smiles": null,
+          "we_hold_a_structure": false,
+          "formula": null,
+          "structure_svg_path": null
+        }
+      ],
+      "drawings_on_this_page": [
+        "US20040236146A1_p03_d1",
+        "US20040236146A1_p03_d2",
+        "US20040236146A1_p03_d3"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/sodium-bisulfate.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "sodium bisulfate",
+              "src": "output/relevant_output/structures/sodium-bisulfate.svg",
+              "smiles": "S([O-])(O)(=O)=O.[Na+]",
+              "in_gold": true,
+              "position_en": "sole structure, centred in the left column"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p03_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 3 and cut out the 1st block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p03",
+          "page_image_path": "input/pages/p03.png",
+          "marker": null,
+          "box": {
+            "x_left": 119,
+            "y_top": 411,
+            "x_right": 1621,
+            "y_bot": 1248
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d1.png"
+      }
+    },
+    {
+      "claim_id": "dbf40191bfb79be8",
+      "record_id": "US20040236146A1_p03_x5",
+      "record_kind": "patent",
+      "record_label_en": "Page 3, conflict 5",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 3 the patent does not agree with itself. The bromine charge in Example 1 variant B is printed as letters, not digits, so it carries no numeric value. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "The bromine charge in Example 1 variant B is printed as letters, not digits, so it carries no numeric value.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        130
+      ],
+      "evidence_en": "THE DRAWING SAYS: Not drawn. No quantity appears in any drawing on this page.  THE TEXT SAYS: [0031] prints 'Under irradiation with a 300 W lamp, II g of bromine were gradually metered in over 3 h'. Two capital-I letterforms with full serifs, unambiguously not digit ones at 8x magnification. No other passage on this page restates the quantity, so it cannot be recovered from this page. Recorded as printed; any mass balance over Example 1 variant B must treat it as unknown rather than assume 11 g.",
+      "evidence_lines": [
+        {
+          "n": 130,
+          "text_en": "THE DRAWING SAYS: Not drawn. No quantity appears in any drawing on this page.  THE TEXT SAYS: [0031] prints 'Under irradiation with a 300 W lamp, II g of bromine were gradually metered in over 3 h'. Two capital-I letterforms with full serifs, unambiguously not digit ones at 8x magnification. No other passage on this page restates the quantity, so it cannot be recovered from this page. Recorded as printed; any mass balance over Example 1 variant B must treat it as unknown rather than assume 11 g.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's drawing and the patent's words disagree here.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 3",
+      "about": "patent",
+      "evidence_kind": "page_scan",
+      "evidence_note_en": "The evidence for this item is the patent's own words, and the scan of the page they are printed on is listed under 'images'. No drawing is involved.",
+      "images": {
+        "page_image_path": "input/pages/p03.png",
+        "comparison_image": null,
+        "patent_crop_image": null
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "Not drawn. No quantity appears in any drawing on this page.",
+      "text_says_en": "[0031] prints 'Under irradiation with a 300 W lamp, II g of bromine were gradually metered in over 3 h'. Two capital-I letterforms with full serifs, unambiguously not digit ones at 8x magnification. No other passage on this page restates the quantity, so it cannot be recovered from this page. Recorded as printed; any mass balance over Example 1 variant B must treat it as unknown rather than assume 11 g.",
+      "disagreement": {
+        "drawing_says_en": "Not drawn. No quantity appears in any drawing on this page.",
+        "text_says_en": "[0031] prints 'Under irradiation with a 300 W lamp, II g of bromine were gradually metered in over 3 h'. Two capital-I letterforms with full serifs, unambiguously not digit ones at 8x magnification. No other passage on this page restates the quantity, so it cannot be recovered from this page. Recorded as printed; any mass balance over Example 1 variant B must treat it as unknown rather than assume 11 g.",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p03",
+      "page_number": 3,
+      "markers_mentioned": [
+        "[0031]"
+      ],
+      "related_records": [],
+      "drawings_on_this_page": [
+        "US20040236146A1_p03_d1",
+        "US20040236146A1_p03_d2",
+        "US20040236146A1_p03_d3"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/sodium-bisulfate.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "sodium bisulfate",
+              "src": "output/relevant_output/structures/sodium-bisulfate.svg",
+              "smiles": "S([O-])(O)(=O)=O.[Na+]",
+              "in_gold": true,
+              "position_en": "sole structure, centred in the left column"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p03_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 3 and cut out the 1st block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p03",
+          "page_image_path": "input/pages/p03.png",
+          "marker": null,
+          "box": {
+            "x_left": 119,
+            "y_top": 411,
+            "x_right": 1621,
+            "y_bot": 1248
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d1.png"
+      }
+    },
+    {
+      "claim_id": "3067f34bf232c66b",
+      "record_id": "US20040236146A1_p04_x1",
+      "record_kind": "patent",
+      "record_label_en": "Page 4, conflict 1",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 4 the patent does not agree with itself. Claim 20 narrows R2 to a single carbon count using a notation the rest of the page does not use. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "Claim 20 narrows R2 to a single carbon count using a notation the rest of the page does not use.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "THE DRAWING SAYS: The formula (II) drawing carries only the variable label SO2R2 and says nothing about the size of R2.  THE TEXT SAYS: Claim 19 defines R2 as (C1-C4)alkyl, while dependent claim 20 writes it as (C2)alkyl, a one-member range written as a bare (C2) rather than as (C2-C2)alkyl or as 'ethyl'. The value is inside the parent range, so this is a narrowing and not a contradiction, but the notation is unusual and is the token most likely to be mis-transcribed downstream.",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's drawing and the patent's words disagree here.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 4",
+      "about": "patent",
+      "evidence_kind": "page_scan",
+      "evidence_note_en": "The evidence for this item is the patent's own words, and the scan of the page they are printed on is listed under 'images'. No drawing is involved.",
+      "images": {
+        "page_image_path": "input/pages/p04.png",
+        "comparison_image": null,
+        "patent_crop_image": null
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "The formula (II) drawing carries only the variable label SO2R2 and says nothing about the size of R2.",
+      "text_says_en": "Claim 19 defines R2 as (C1-C4)alkyl, while dependent claim 20 writes it as (C2)alkyl, a one-member range written as a bare (C2) rather than as (C2-C2)alkyl or as 'ethyl'. The value is inside the parent range, so this is a narrowing and not a contradiction, but the notation is unusual and is the token most likely to be mis-transcribed downstream.",
+      "disagreement": {
+        "drawing_says_en": "The formula (II) drawing carries only the variable label SO2R2 and says nothing about the size of R2.",
+        "text_says_en": "Claim 19 defines R2 as (C1-C4)alkyl, while dependent claim 20 writes it as (C2)alkyl, a one-member range written as a bare (C2) rather than as (C2-C2)alkyl or as 'ethyl'. The value is inside the parent range, so this is a narrowing and not a contradiction, but the notation is unusual and is the token most likely to be mis-transcribed downstream.",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p04",
+      "page_number": 4,
+      "markers_mentioned": [],
+      "related_records": [],
+      "drawings_on_this_page": [
+        "US20040236146A1_p04_d1",
+        "US20040236146A1_p04_d2",
+        "US20040236146A1_p04_d3"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "1st, left column, centred under the first line of claim 13; label (II) at the right margin"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p04_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p04_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 4 and cut out the 1st block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p04",
+          "page_image_path": "input/pages/p04.png",
+          "marker": "(57) abstract text, before formula",
+          "box": {
+            "x_left": 119,
+            "y_top": 328,
+            "x_right": 1621,
+            "y_bot": 709
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p04_d1.png"
+      }
+    },
+    {
+      "claim_id": "4412513d8917d12c",
+      "record_id": "US20040236146A1_p04_x2",
+      "record_kind": "patent",
+      "record_label_en": "Page 4, conflict 2",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 4 the patent does not agree with itself. The compound excluded by claim 19 is the R1 = chlorine, R2 = methyl member, and claim 20 then claims R1 = chlorine with R2 = (C2)alkyl. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "The compound excluded by claim 19 is the R1 = chlorine, R2 = methyl member, and claim 20 then claims R1 = chlorine with R2 = (C2)alkyl.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "THE DRAWING SAYS: Not addressable from the drawing; both R1 and R2 are open variables.  THE TEXT SAYS: Claim 19 excludes 3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid, i.e. the R2 = methyl member. Claim 20 keeps R1 = chlorine but sets R2 = (C2)alkyl, which sits outside the disclaimer. Recording this as an observed relation between two printed statements, not as a defect.",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's drawing and the patent's words disagree here.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 4",
+      "about": "patent",
+      "evidence_kind": "page_scan",
+      "evidence_note_en": "The evidence for this item is the patent's own words, and the scan of the page they are printed on is listed under 'images'. No drawing is involved.",
+      "images": {
+        "page_image_path": "input/pages/p04.png",
+        "comparison_image": null,
+        "patent_crop_image": null
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "Not addressable from the drawing; both R1 and R2 are open variables.",
+      "text_says_en": "Claim 19 excludes 3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid, i.e. the R2 = methyl member. Claim 20 keeps R1 = chlorine but sets R2 = (C2)alkyl, which sits outside the disclaimer. Recording this as an observed relation between two printed statements, not as a defect.",
+      "disagreement": {
+        "drawing_says_en": "Not addressable from the drawing; both R1 and R2 are open variables.",
+        "text_says_en": "Claim 19 excludes 3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid, i.e. the R2 = methyl member. Claim 20 keeps R1 = chlorine but sets R2 = (C2)alkyl, which sits outside the disclaimer. Recording this as an observed relation between two printed statements, not as a defect.",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p04",
+      "page_number": 4,
+      "markers_mentioned": [],
+      "related_records": [],
+      "drawings_on_this_page": [
+        "US20040236146A1_p04_d1",
+        "US20040236146A1_p04_d2",
+        "US20040236146A1_p04_d3"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "1st, left column, centred under the first line of claim 13; label (II) at the right margin"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p04_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p04_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 4 and cut out the 1st block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p04",
+          "page_image_path": "input/pages/p04.png",
+          "marker": "(57) abstract text, before formula",
+          "box": {
+            "x_left": 119,
+            "y_top": 328,
+            "x_right": 1621,
+            "y_bot": 709
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p04_d1.png"
+      }
+    },
+    {
+      "claim_id": "72774f8c514a0aef",
+      "record_id": "US20040236146A1_p04_x3",
+      "record_kind": "patent",
+      "record_label_en": "Page 4, conflict 3",
+      "field": "__patent_self_contradiction__",
+      "field_label_en": "A place the patent contradicts itself",
+      "question_en": "On page 4 the patent does not agree with itself. Parallel claim series 8-12 and 14-18 are not exact mirrors. Did we record what the patent actually prints, rather than a tidied-up version of it?",
+      "claimed_en": "Parallel claim series 8-12 and 14-18 are not exact mirrors.",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "THE DRAWING SAYS: n/a  THE TEXT SAYS: Claim 10 names acetonitrile as the second solvent, claim 16 names methylene chloride. Both were magnified and both readings are certain, so the asymmetry is in the printed document, not in the reading.",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "This is a conflict inside the patent itself, found by reading the page. No string match can settle it. A human has to look at the page and say which of the two the patent prints.",
+      "needs_human": true,
+      "risk": 0.6,
+      "risk_reasons_en": [
+        "The patent's own words disagree with each other here. No drawing is involved.",
+        "Where a source contradicts itself, an extraction has to pick one, and the pick is exactly what needs checking."
+      ],
+      "structure_svg_path": null,
+      "tier": 1,
+      "stratum": "patent:page 4",
+      "about": "patent",
+      "evidence_kind": "page_scan",
+      "evidence_note_en": "The evidence for this item is the patent's own words, and the scan of the page they are printed on is listed under 'images'. No drawing is involved.",
+      "images": {
+        "page_image_path": "input/pages/p04.png",
+        "comparison_image": null,
+        "patent_crop_image": null
+      },
+      "about_en": "THIS IS A DEFECT IN THE PATENT, NOT IN OUR ANNOTATION. The question is not whether we got it wrong. It is whether we wrote down what the patent really prints, contradiction and all, instead of quietly correcting it.",
+      "drawing_says_en": "n/a",
+      "text_says_en": "Claim 10 names acetonitrile as the second solvent, claim 16 names methylene chloride. Both were magnified and both readings are certain, so the asymmetry is in the printed document, not in the reading.",
+      "disagreement": {
+        "drawing_says_en": "n/a",
+        "text_says_en": "Claim 10 names acetonitrile as the second solvent, claim 16 names methylene chloride. Both were magnified and both readings are certain, so the asymmetry is in the printed document, not in the reading.",
+        "we_followed": "drawing",
+        "we_followed_note_en": "Every structure drawn on this page resolved into a record we hold, so on the structural question our annotation follows the drawing. Whether that was the right call for THIS conflict is what is being asked."
+      },
+      "page": "p04",
+      "page_number": 4,
+      "markers_mentioned": [],
+      "related_records": [
+        {
+          "identifier_en": "methylene chloride",
+          "what_we_recorded_smiles": "C(Cl)Cl",
+          "we_hold_a_structure": true,
+          "formula": "CH2Cl2",
+          "structure_svg_path": "output/relevant_output/structures/methylene-chloride.svg"
+        }
+      ],
+      "drawings_on_this_page": [
+        "US20040236146A1_p04_d1",
+        "US20040236146A1_p04_d2",
+        "US20040236146A1_p04_d3"
+      ],
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "1st, left column, centred under the first line of claim 13; label (II) at the right margin"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p04_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p04_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 4 and cut out the 1st block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p04",
+          "page_image_path": "input/pages/p04.png",
+          "marker": "(57) abstract text, before formula",
+          "box": {
+            "x_left": 119,
+            "y_top": 328,
+            "x_right": 1621,
+            "y_bot": 709
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p04_d1.png"
+      }
+    },
+    {
+      "claim_id": "d37dd65a522a75e7",
+      "record_id": "US20040236146A1_p01_d1",
+      "record_kind": "drawing",
+      "record_label_en": "Drawing 1 of 9, page 1",
+      "field": "drawing.same_molecule",
+      "field_label_en": "Our structure against the structure the patent drew",
+      "question_en": "Do these two pictures show the same molecule?",
+      "claimed_en": "1. 3-bromomethylbenzoic acid",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "The patent prints this drawing on page 1 no paragraph marker printed beside it. The right-hand picture is that region of the scanned page and the left-hand one is drawn from the structure we recorded.",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "Whether a drawing shows the molecule we wrote down cannot be settled by matching strings. The machine has put the two side by side so a person can settle it by looking.",
+      "needs_human": true,
+      "risk": 0.55,
+      "risk_reasons_en": [
+        "Reading a structure off a drawing is the one step in this pipeline with no words to check it against."
+      ],
+      "structure_svg_path": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+      "tier": 1,
+      "stratum": "drawing:page 1",
+      "about": "drawing",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p01_d1.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p01_d1-patent.png",
+        "page_image_path": "input/pages/p01.png"
+      },
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "1st and only, right column, centred between the two runs of abstract prose, with the formula label (II) printed in the upper right of the drawing area"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p01_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p01_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 1 and cut out the 1st block that is a drawing rather than lines of text. This page holds 1 such block, and reading the page found 1 drawing, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p01",
+          "page_image_path": "input/pages/p01.png",
+          "marker": "(57) abstract text, before formula",
+          "box": {
+            "x_left": 119,
+            "y_top": 522,
+            "x_right": 1621,
+            "y_bot": 785
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p01_d1.png"
+      }
+    },
+    {
+      "claim_id": "ec7b035caa173add",
+      "record_id": "US20040236146A1_p03_d1",
+      "record_kind": "drawing",
+      "record_label_en": "Drawing 4 of 9, page 3",
+      "field": "drawing.same_molecule",
+      "field_label_en": "Our structure against the structure the patent drew",
+      "question_en": "Do these two pictures show the same molecule?",
+      "claimed_en": "1. sodium bisulfate",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "The patent prints this drawing on page 3 between [0020] and [0021]. The right-hand picture is that region of the scanned page and the left-hand one is drawn from the structure we recorded.",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "Whether a drawing shows the molecule we wrote down cannot be settled by matching strings. The machine has put the two side by side so a person can settle it by looking.",
+      "needs_human": true,
+      "risk": 0.55,
+      "risk_reasons_en": [
+        "Reading a structure off a drawing is the one step in this pipeline with no words to check it against."
+      ],
+      "structure_svg_path": "output/relevant_output/structures/sodium-bisulfate.svg",
+      "tier": 1,
+      "stratum": "drawing:page 3",
+      "about": "drawing",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p03_d1.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p03_d1-patent.png",
+        "page_image_path": "input/pages/p03.png"
+      },
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/sodium-bisulfate.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "sodium bisulfate",
+              "src": "output/relevant_output/structures/sodium-bisulfate.svg",
+              "smiles": "S([O-])(O)(=O)=O.[Na+]",
+              "in_gold": true,
+              "position_en": "sole structure, centred in the left column"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p03_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 3 and cut out the 1st block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p03",
+          "page_image_path": "input/pages/p03.png",
+          "marker": null,
+          "box": {
+            "x_left": 119,
+            "y_top": 411,
+            "x_right": 1621,
+            "y_bot": 1248
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d1.png"
+      }
+    },
+    {
+      "claim_id": "e871fa5586ae0cd5",
+      "record_id": "US20040236146A1_p03_d2",
+      "record_kind": "drawing",
+      "record_label_en": "Drawing 5 of 9, page 3",
+      "field": "drawing.same_molecule",
+      "field_label_en": "Our structure against the structure the patent drew",
+      "question_en": "Do these two pictures show the same molecule?",
+      "claimed_en": "1. 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        140
+      ],
+      "evidence_en": "The patent prints this drawing on page 3 just below [0034]. The right-hand picture is that region of the scanned page and the left-hand one is drawn from the structure we recorded.",
+      "evidence_lines": [
+        {
+          "n": 140,
+          "text_en": "The patent prints this drawing on page 3 just below [0034]. The right-hand picture is that region of the scanned page and the left-hand one is drawn from the structure we recorded.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "Whether a drawing shows the molecule we wrote down cannot be settled by matching strings. The machine has put the two side by side so a person can settle it by looking.",
+      "needs_human": true,
+      "risk": 0.55,
+      "risk_reasons_en": [
+        "Reading a structure off a drawing is the one step in this pipeline with no words to check it against."
+      ],
+      "structure_svg_path": "output/relevant_output/structures/3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic-acid.svg",
+      "tier": 1,
+      "stratum": "drawing:page 3",
+      "about": "drawing",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p03_d2.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p03_d2-patent.png",
+        "page_image_path": "input/pages/p03.png"
+      },
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic-acid.svg",
+              "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)CC)Cl",
+              "in_gold": true,
+              "position_en": "1st of the two claim drawings, centred in the right column, below claim 6's opening line"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p03_d2.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d2-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 3 and cut out the 2nd block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p03",
+          "page_image_path": "input/pages/p03.png",
+          "marker": "[0033]",
+          "box": {
+            "x_left": 119,
+            "y_top": 1289,
+            "x_right": 1621,
+            "y_bot": 1851
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d2.png"
+      }
+    },
+    {
+      "claim_id": "2c3092f8c14da24e",
+      "record_id": "US20040236146A1_p03_d3",
+      "record_kind": "drawing",
+      "record_label_en": "Drawing 6 of 9, page 3",
+      "field": "drawing.same_molecule",
+      "field_label_en": "Our structure against the structure the patent drew",
+      "question_en": "Do these two pictures show the same molecule?",
+      "claimed_en": "1. 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [
+        140
+      ],
+      "evidence_en": "The patent prints this drawing on page 3 just below [0034]. The right-hand picture is that region of the scanned page and the left-hand one is drawn from the structure we recorded.",
+      "evidence_lines": [
+        {
+          "n": 140,
+          "text_en": "The patent prints this drawing on page 3 just below [0034]. The right-hand picture is that region of the scanned page and the left-hand one is drawn from the structure we recorded.",
+          "is_translation": true
+        }
+      ],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "Whether a drawing shows the molecule we wrote down cannot be settled by matching strings. The machine has put the two side by side so a person can settle it by looking.",
+      "needs_human": true,
+      "risk": 0.55,
+      "risk_reasons_en": [
+        "Reading a structure off a drawing is the one step in this pipeline with no words to check it against."
+      ],
+      "structure_svg_path": "output/relevant_output/structures/3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic-acid.svg",
+      "tier": 1,
+      "stratum": "drawing:page 3",
+      "about": "drawing",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p03_d3.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p03_d3-patent.png",
+        "page_image_path": "input/pages/p03.png"
+      },
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic-acid.svg",
+              "smiles": "BrCC=1C(=C(C(=O)O)C=CC1S(=O)(=O)CC)Cl",
+              "in_gold": true,
+              "position_en": "2nd of the two claim drawings, centred in the right column, lower"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p03_d3.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d3-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 3 and cut out the 3rd block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p03",
+          "page_image_path": "input/pages/p03.png",
+          "marker": "[0033]",
+          "box": {
+            "x_left": 119,
+            "y_top": 1881,
+            "x_right": 1621,
+            "y_bot": 2031
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p03_d3.png"
+      }
+    },
+    {
+      "claim_id": "291f4aae41a5c863",
+      "record_id": "US20040236146A1_p04_d1",
+      "record_kind": "drawing",
+      "record_label_en": "Drawing 7 of 9, page 4",
+      "field": "drawing.same_molecule",
+      "field_label_en": "Our structure against the structure the patent drew",
+      "question_en": "Do these two pictures show the same molecule?",
+      "claimed_en": "1. 3-bromomethylbenzoic acid",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "The patent prints this drawing on page 4 no paragraph marker printed beside it. The right-hand picture is that region of the scanned page and the left-hand one is drawn from the structure we recorded.",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "Whether a drawing shows the molecule we wrote down cannot be settled by matching strings. The machine has put the two side by side so a person can settle it by looking.",
+      "needs_human": true,
+      "risk": 0.55,
+      "risk_reasons_en": [
+        "Reading a structure off a drawing is the one step in this pipeline with no words to check it against."
+      ],
+      "structure_svg_path": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+      "tier": 1,
+      "stratum": "drawing:page 4",
+      "about": "drawing",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p04_d1.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p04_d1-patent.png",
+        "page_image_path": "input/pages/p04.png"
+      },
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "1st, left column, centred under the first line of claim 13; label (II) at the right margin"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p04_d1.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p04_d1-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 4 and cut out the 1st block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p04",
+          "page_image_path": "input/pages/p04.png",
+          "marker": "(57) abstract text, before formula",
+          "box": {
+            "x_left": 119,
+            "y_top": 328,
+            "x_right": 1621,
+            "y_bot": 709
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p04_d1.png"
+      }
+    },
+    {
+      "claim_id": "4a3c18b4412209b6",
+      "record_id": "US20040236146A1_p04_d2",
+      "record_kind": "drawing",
+      "record_label_en": "Drawing 8 of 9, page 4",
+      "field": "drawing.same_molecule",
+      "field_label_en": "Our structure against the structure the patent drew",
+      "question_en": "Do these two pictures show the same molecule?",
+      "claimed_en": "1. 3-bromomethylbenzoic acid",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "The patent prints this drawing on page 4 no paragraph marker printed beside it. The right-hand picture is that region of the scanned page and the left-hand one is drawn from the structure we recorded.",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "Whether a drawing shows the molecule we wrote down cannot be settled by matching strings. The machine has put the two side by side so a person can settle it by looking.",
+      "needs_human": true,
+      "risk": 0.55,
+      "risk_reasons_en": [
+        "Reading a structure off a drawing is the one step in this pipeline with no words to check it against."
+      ],
+      "structure_svg_path": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+      "tier": 1,
+      "stratum": "drawing:page 4",
+      "about": "drawing",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p04_d2.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p04_d2-patent.png",
+        "page_image_path": "input/pages/p04.png"
+      },
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "2nd, left column, below the line 'which comprises brominating a 3-methylbenzoic acid of formula I'; label (I) at the right margin"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p04_d2.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p04_d2-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 4 and cut out the 2nd block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p04",
+          "page_image_path": "input/pages/p04.png",
+          "marker": "(57) abstract text, before formula",
+          "box": {
+            "x_left": 119,
+            "y_top": 739,
+            "x_right": 1621,
+            "y_bot": 981
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p04_d2.png"
+      }
+    },
+    {
+      "claim_id": "45860516180e332b",
+      "record_id": "US20040236146A1_p04_d3",
+      "record_kind": "drawing",
+      "record_label_en": "Drawing 9 of 9, page 4",
+      "field": "drawing.same_molecule",
+      "field_label_en": "Our structure against the structure the patent drew",
+      "question_en": "Do these two pictures show the same molecule?",
+      "claimed_en": "1. 3-bromomethylbenzoic acid",
+      "claimed_value": null,
+      "claimed_unit": null,
+      "cited_lines": [],
+      "evidence_en": "The patent prints this drawing on page 4 no paragraph marker printed beside it. The right-hand picture is that region of the scanned page and the left-hand one is drawn from the structure we recorded.",
+      "evidence_lines": [],
+      "highlights": [],
+      "auto": "not_checkable",
+      "auto_reason_en": "Whether a drawing shows the molecule we wrote down cannot be settled by matching strings. The machine has put the two side by side so a person can settle it by looking.",
+      "needs_human": true,
+      "risk": 0.55,
+      "risk_reasons_en": [
+        "Reading a structure off a drawing is the one step in this pipeline with no words to check it against."
+      ],
+      "structure_svg_path": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+      "tier": 1,
+      "stratum": "drawing:page 4",
+      "about": "drawing",
+      "evidence_kind": "comparison_image",
+      "evidence_note_en": "The evidence for this item is a picture. Open the comparison image listed under 'images', and the page scan behind it if the comparison looks wrong.",
+      "images": {
+        "comparison_image": "comparisons/US20040236146A1_p04_d3.png",
+        "patent_crop_image": "comparisons/US20040236146A1_p04_d3-patent.png",
+        "page_image_path": "input/pages/p04.png"
+      },
+      "comparison": {
+        "ours": {
+          "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+          "label_en": "What we extracted",
+          "structures": [
+            {
+              "label_en": "3-bromomethylbenzoic acid",
+              "src": "output/relevant_output/structures/3-bromomethylbenzoic-acid.svg",
+              "smiles": "BrCC=1C=C(C(=O)O)C=CC1",
+              "in_gold": true,
+              "position_en": "3rd, right column, centred under the first line of claim 19; label (II) at the right margin"
+            }
+          ]
+        },
+        "theirs": {
+          "src": "output/relevant_output/visual/crops/US20040236146A1_p04_d3.png",
+          "uncut_src": "output/relevant_output/visual/comparisons/US20040236146A1_p04_d3-patent.png",
+          "label_en": "What the patent draws",
+          "confidence": "exact",
+          "confidence_note_en": "HOW THE PICTURE ABOVE WAS FOUND: automatically. The scan has no text layer, so a machine measured the ink on page 4 and cut out the 3rd block that is a drawing rather than lines of text. This page holds 3 such blocks, and reading the page found 3 drawings, so the two agree. The cut is deliberately loose. If it has sliced a molecule in half, or shows a different molecule from the one named above, this comparison is broken and should be reported as broken rather than answered.",
+          "page": "p04",
+          "page_image_path": "input/pages/p04.png",
+          "marker": "(57) abstract text, before formula",
+          "box": {
+            "x_left": 119,
+            "y_top": 1011,
+            "x_right": 1621,
+            "y_bot": 1284
+          }
+        },
+        "composite_src": "output/relevant_output/visual/comparisons/US20040236146A1_p04_d3.png"
+      }
+    }
+  ]
+}

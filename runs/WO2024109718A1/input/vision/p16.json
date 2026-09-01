@@ -1,0 +1,214 @@
+{
+  "page": "p16.png",
+  "page_label": "15",
+  "doc_part": "description",
+  "header": "15\nWO 2024/109718                                                        PCT/CN2023/132821",
+  "footer": "",
+  "paragraphs": [
+    {
+      "marker": "[0102]",
+      "zh": "在更具体的实施方式中，本发明新方法包括如下步骤：",
+      "en": "In a more specific embodiment, the new method of the present invention comprises the following steps:",
+      "notes": "Only body text on the page. The rest of the page is two drawn reaction schemes separated by the single character 或 (\"or\"), which is printed on its own line between them. The first scheme ends with a full-width-adjacent semicolon \"；\" at the far right; the second ends with a Chinese full stop \"。\" at the far right. The scheme block begins at the top of the page with no preceding text, so it continues from the previous page."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "scheme",
+      "between_markers": ["(no marker above; scheme starts at top of page, continuing from previous page)", "[0102]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, row 1 leftmost",
+          "core": "benzene",
+          "substituents": ["NH2 at C1", "CH3 at C2", "Cl at C3"],
+          "name": "3-chloro-2-methylaniline",
+          "smiles": "Cc1c(N)cccc1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, row 1",
+          "core": "benzene",
+          "substituents": ["SCH3 at C1", "CH3 at C2", "Cl at C3"],
+          "name": "(3-chloro-2-methylphenyl)(methyl)sulfane",
+          "smiles": "Cc1c(SC)cccc1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "3rd, row 1",
+          "core": "benzene",
+          "substituents": ["SCH3 at C1", "CH3 at C2", "Cl at C3", "Br at C4"],
+          "name": "(4-bromo-3-chloro-2-methylphenyl)(methyl)sulfane",
+          "smiles": "CSc1ccc(Br)c(Cl)c1C",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "4th, row 1 rightmost",
+          "core": "benzene",
+          "substituents": ["SO2CH3 at C1", "CH3 at C2", "Cl at C3", "Br at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfonyl)benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1C",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "5th, row 2 leftmost",
+          "core": "benzene",
+          "substituents": ["SO2CH3 at C1", "CH2Br at C2", "Cl at C3", "Br at C4"],
+          "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methylsulfonyl)benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "6th, row 2 middle",
+          "core": "benzene",
+          "substituents": ["SO2CH3 at C1", "CH2OCH2CF3 at C2", "Cl at C3", "Br at C4"],
+          "name": "1-bromo-2-chloro-4-(methylsulfonyl)-3-((2,2,2-trifluoroethoxy)methyl)benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "7th, row 2 rightmost",
+          "core": "benzene",
+          "substituents": ["COOH at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4"],
+          "name": "2-chloro-4-(methylsulfonyl)-3-((2,2,2-trifluoroethoxy)methyl)benzoic acid",
+          "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "8th, row 3 leftmost",
+          "core": "benzene",
+          "substituents": ["COCl at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4"],
+          "name": "2-chloro-4-(methylsulfonyl)-3-((2,2,2-trifluoroethoxy)methyl)benzoyl chloride",
+          "smiles": "ClC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "9th, row 3 middle",
+          "core": "benzoate ester of cyclohex-2-en-1-one (enol ester): benzene ring plus 3-oxocyclohex-1-en-1-yl group joined through -C(=O)O-",
+          "substituents": ["C(=O)O-(3-oxocyclohex-1-en-1-yl) at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4", "on the cyclohexenone ring: ester O at C1, ring C1=C2 double bond as drawn, ketone C=O at C3"],
+          "name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methylsulfonyl)-3-((2,2,2-trifluoroethoxy)methyl)benzoate",
+          "smiles": "O=C1CCCC(=C1)OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "10th, row 3 rightmost",
+          "core": "cyclohexane-1,3-dione acylated at C2 by a benzoyl group",
+          "substituents": ["aroyl C(=O)Ar at C2 of the cyclohexane-1,3-dione", "on the benzene ring: C(=O) link at C1, Cl at C2, CH2OCH2CF3 at C3, SO2CH3 at C4"],
+          "name": "2-(2-chloro-4-(methylsulfonyl)-3-((2,2,2-trifluoroethoxy)methyl)benzoyl)cyclohexane-1,3-dione",
+          "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        { "from_structure": "1st", "to_structure": "2nd", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" },
+        { "from_structure": "2nd", "to_structure": "3rd", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" },
+        { "from_structure": "3rd", "to_structure": "4th", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" },
+        { "from_structure": "4th", "to_structure": "5th", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" },
+        { "from_structure": "5th", "to_structure": "6th", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" },
+        { "from_structure": "6th", "to_structure": "7th", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" },
+        { "from_structure": "7th", "to_structure": "8th", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" },
+        { "from_structure": "8th", "to_structure": "9th", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" },
+        { "from_structure": "9th", "to_structure": "10th", "reagents_above": [], "reagents_below": [], "arrow_style": "solid", "confidence": "high" }
+      ],
+      "notes": "First scheme on the page, drawn with solid arrows and wrapping across three rows (the 4th->5th and 7th->8th arrows are the row-continuation arrows at the left of rows 2 and 3). Nine arrows, ten structures. Not one arrow carries any reagent, catalyst, solvent or condition, above or below. A semicolon is printed at the far right after the last structure, so the scheme is one item of a list continued by the 或 (\"or\") below it."
+    },
+    {
+      "kind": "scheme",
+      "between_markers": ["(no marker above; follows the character 或 on the same page)", "[0102]"],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, row 1 leftmost",
+          "core": "benzene",
+          "substituents": ["NH2 at C1", "CH3 at C2", "Cl at C3"],
+          "name": "3-chloro-2-methylaniline",
+          "smiles": "Cc1c(N)cccc1Cl",
+          "confidence": "medium"
+        },
+        {
+          "position_in_drawing": "2nd, row 1",
+          "core": "benzene",
+          "substituents": ["SCH3 at C1", "CH3 at C2", "Cl at C3"],
+          "name": "(3-chloro-2-methylphenyl)(methyl)sulfane",
+          "smiles": "Cc1c(SC)cccc1Cl",
+          "confidence": "medium"
+        },
+        {
+          "position_in_drawing": "3rd, row 1",
+          "core": "benzene",
+          "substituents": ["SCH3 at C1", "CH3 at C2", "Cl at C3", "Br at C4"],
+          "name": "(4-bromo-3-chloro-2-methylphenyl)(methyl)sulfane",
+          "smiles": "CSc1ccc(Br)c(Cl)c1C",
+          "confidence": "medium"
+        },
+        {
+          "position_in_drawing": "4th, row 1 rightmost",
+          "core": "benzene",
+          "substituents": ["SO2CH3 at C1", "CH3 at C2", "Cl at C3", "Br at C4"],
+          "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfonyl)benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1C",
+          "confidence": "medium"
+        },
+        {
+          "position_in_drawing": "5th, row 2 leftmost",
+          "core": "benzene",
+          "substituents": ["SO2CH3 at C1", "CH2Br at C2", "Cl at C3", "Br at C4"],
+          "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methylsulfonyl)benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+          "confidence": "medium"
+        },
+        {
+          "position_in_drawing": "6th, row 2 middle",
+          "core": "benzene",
+          "substituents": ["SO2CH3 at C1", "CH2OCH2CF3 at C2", "Cl at C3", "Br at C4"],
+          "name": "1-bromo-2-chloro-4-(methylsulfonyl)-3-((2,2,2-trifluoroethoxy)methyl)benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+          "confidence": "medium"
+        },
+        {
+          "position_in_drawing": "7th, row 2 rightmost",
+          "core": "benzoate ester of cyclohex-2-en-1-one (enol ester): benzene ring plus 3-oxocyclohex-1-en-1-yl group joined through -C(=O)O-",
+          "substituents": ["C(=O)O-(3-oxocyclohex-1-en-1-yl) at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4", "on the cyclohexenone ring: ester O at C1, ring C1=C2 double bond as drawn, ketone C=O at C3"],
+          "name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methylsulfonyl)-3-((2,2,2-trifluoroethoxy)methyl)benzoate",
+          "smiles": "O=C1CCCC(=C1)OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium"
+        },
+        {
+          "position_in_drawing": "8th, row 3, only structure",
+          "core": "cyclohexane-1,3-dione acylated at C2 by a benzoyl group",
+          "substituents": ["aroyl C(=O)Ar at C2 of the cyclohexane-1,3-dione", "on the benzene ring: C(=O) link at C1, Cl at C2, CH2OCH2CF3 at C3, SO2CH3 at C4"],
+          "name": "2-(2-chloro-4-(methylsulfonyl)-3-((2,2,2-trifluoroethoxy)methyl)benzoyl)cyclohexane-1,3-dione",
+          "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "medium"
+        }
+      ],
+      "arrows": [
+        { "from_structure": "1st", "to_structure": "2nd", "reagents_above": [], "reagents_below": [], "arrow_style": "dashed", "confidence": "medium" },
+        { "from_structure": "2nd", "to_structure": "3rd", "reagents_above": [], "reagents_below": [], "arrow_style": "dashed", "confidence": "medium" },
+        { "from_structure": "3rd", "to_structure": "4th", "reagents_above": [], "reagents_below": [], "arrow_style": "dashed", "confidence": "medium" },
+        { "from_structure": "4th", "to_structure": "5th", "reagents_above": [], "reagents_below": [], "arrow_style": "dashed", "confidence": "medium" },
+        { "from_structure": "5th", "to_structure": "6th", "reagents_above": [], "reagents_below": [], "arrow_style": "dashed", "confidence": "medium" },
+        { "from_structure": "6th", "to_structure": "7th", "reagents_above": [], "reagents_below": [], "arrow_style": "dashed", "confidence": "medium" },
+        { "from_structure": "7th", "to_structure": "8th", "reagents_above": [], "reagents_below": [], "arrow_style": "dashed", "confidence": "medium" }
+      ],
+      "notes": "Second scheme, introduced by the character 或 (\"or\"). Printed much fainter and smaller than the first scheme; every glyph is broken up by the scan, which is why every confidence here is medium rather than high - the connectivity is legible but the atom labels are reconstructed from a degraded image and cross-read against the identical structures drawn crisply in the first scheme. The arrows here render as dotted/dashed lines; this is very likely a scan artefact of the same solid arrows at smaller size rather than a deliberate dashed-arrow notation, but they are recorded as drawn. Eight structures, seven arrows, no reagents on any arrow. This route is SHORTER than the first: it goes straight from the aryl bromide ether (6th) to the enol ester (7th), omitting the carboxylic acid and the acid chloride that appear as the 7th and 8th structures of the first scheme. A Chinese full stop is printed at the far right after the last structure."
+    }
+  ],
+  "discrepancies": [
+    {
+      "what": "Neither scheme labels any arrow with a reagent, solvent, catalyst or condition, and the only prose on the page does not describe any step, so nothing on this page can be cross-checked between drawing and text.",
+      "drawing_says": "Nine (first scheme) and seven (second scheme) bare arrows with no text above or below any of them.",
+      "text_says": "Only [0102], which announces that the steps follow, without naming any of them."
+    },
+    {
+      "what": "The two schemes drawn one after the other under 或 differ in length; the difference is drawn but not commented on anywhere on this page.",
+      "drawing_says": "First scheme: aryl bromide ether -> carboxylic acid -> acid chloride -> enol ester (three arrows). Second scheme: aryl bromide ether -> enol ester (one arrow).",
+      "text_says": "Nothing on this page distinguishes the two routes; only the character 或 (\"or\") separates them."
+    }
+  ],
+  "illegible": [
+    "The entire second scheme (below 或) is printed at roughly half the line weight and size of the first and is broken up by scan noise; individual atom labels such as SO2CH3, SCH3, CF3 and NH2 are only readable because the identical structures are drawn clearly in the first scheme. No single label there was read with certainty in isolation.",
+    "The subscripts in the second scheme's labels (the 2 and 3 in SO2CH3, the 3 in CF3, the 2 in NH2) are individually unresolvable pixels at full resolution."
+  ],
+  "page_confidence": "medium"
+}

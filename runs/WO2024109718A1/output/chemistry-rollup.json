@@ -1,0 +1,54 @@
+{
+  "reaction_count": 79,
+  "compound_count": 284,
+  "sections": {
+    "Background": 22,
+    "Claims": 12,
+    "Example 1": 1,
+    "Example 10": 1,
+    "Example 11": 1,
+    "Example 2": 1,
+    "Example 3": 1,
+    "Example 4": 2,
+    "Example 5": 1,
+    "Example 6": 1,
+    "Example 7": 1,
+    "Example 8": 3,
+    "Example 9": 2,
+    "Preparation Routes and General Embodiments": 18,
+    "Summary of the Invention": 12
+  },
+  "reaction_classes": {
+    "halogenation": 19,
+    "other_cross_coupling": 15,
+    "nucleophilic_substitution": 12,
+    "oxidation": 9,
+    "ester_formation": 9,
+    "other": 8,
+    "acylation": 4,
+    "hydrolysis": 2,
+    "salt_formation": 1
+  },
+  "validation_flags": {
+    "no_conditions": 58,
+    "reagent_written_not_drawn": 7,
+    "reagent_drawn_not_written": 7,
+    "cross_reference_unresolved": 3,
+    "a1_missing_compound": 2,
+    "missing_product": 1
+  },
+  "stated_yields_pct": [
+    64.67,
+    81.13,
+    67.57,
+    76.59,
+    80.0,
+    71.63
+  ],
+  "target_compounds": [],
+  "scale_distribution": {
+    "not_specified": 64,
+    "lab": 13,
+    "pilot": 2
+  }
+}

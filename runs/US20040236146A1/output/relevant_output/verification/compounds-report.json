@@ -1,0 +1,257 @@
+{
+  "artifact": "compounds.json",
+  "records_audited": 44,
+  "findings": [
+    {
+      "check": "precision",
+      "severity": "major",
+      "record": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+      "field": "notes",
+      "problem": "The notes carry two molecular formulae and two molecular weights, none of which is printed anywhere in the patent, and this annotation is not permitted to contain formulae or molecular weights.",
+      "source_line": 124,
+      "quote": "121.3 g (88.4% of theory) of 3-bromomethyl-2-chloro4-methylsulfonyl-benzoic acid were obtained.",
+      "artifact_says": "Arithmetic checks: 121.3 g at 96% is 116.4 g of C9H8BrClO4S (MW 327.6) against 100 g of C9H9ClO4S (MW 248.7), which gives the 88.4% printed.",
+      "should_be": "Delete the sentence. A1 rule 22 forbids numbers in notes that are not in the text; if the closure is worth recording, record that it closes without quoting formulae, weights or the derived 116.4 g.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "major",
+      "record": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+      "field": "notes",
+      "problem": "Same defect on the Example 2 product: two molecular formulae, two molecular weights and two derived numbers (24.8 g, 95.4%) that the patent never prints.",
+      "source_line": 140,
+      "quote": "28.2 g (95.6% of theory) of 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid were obtained.",
+      "artifact_says": "Arithmetic checks: 28.2 g at 88% is 24.8 g of C10H10BrClO4S (MW 341.6) against 20 g of C10H11ClO4S (MW 262.7), giving 95.4% against the 95.6% printed, so nothing is raised.",
+      "should_be": "Delete the formulae, the molecular weights and the derived masses; keep only the statement that the printed yield reproduces.",
+      "confidence": "high"
+    },
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "dibenzoyl peroxide",
+      "field": "quantity.mass_g",
+      "problem": "mass_g 2.8 is a computed total (0.7 g plus three further 0.7 g portions). The string 2.8 appears nowhere in the document, and A1 rule 12 forbids computing a quantity.",
+      "source_line": 140,
+      "quote": "At room temperature, 17.6 g of N-bromosuccinimide and 0.7 g of dibenzoyl peroxide were added and the mixture was subsequently heated to reflux. After in each case 1 h, further dibenzoyl peroxide was added in 3 portions each of 0.7 g",
+      "artifact_says": "\"mass_g\": 2.8",
+      "should_be": "Set mass_g to 0.7, the one charge the text states, and leave the four-portion addition profile described in notes. The per-portion record already lives in reactions.json.",
+      "confidence": "high"
+    },
+    {
+      "check": "precision",
+      "severity": "major",
+      "record": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+      "field": "role",
+      "problem": "The record carries the isolated mass 121.3 g and the yield 88.4% of Example 1 but is typed role other, so a yield sits on a compound the artifact does not call a product, against A1 rule 13.",
+      "source_line": 124,
+      "quote": "121.3 g (88.4% of theory) of 3-bromomethyl-2-chloro4-methylsulfonyl-benzoic acid were obtained.",
+      "artifact_says": "\"role\": \"other\" with \"quantity\": {\"mass_g\": 121.3, \"yield_pct\": 88.4}",
+      "should_be": "role should be product. The merge took role from the Novel Compounds of Formula II fragment and the quantity from Example 1; the surviving role must be the one that supports the surviving quantity.",
+      "confidence": "high"
+    },
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+      "field": "is_section_product",
+      "problem": "is_section_product is true while section_label is the one section that explicitly excludes this compound, and three of the record's four note fragments state is_section_product is false.",
+      "source_line": 110,
+      "quote": "excluding the compound 3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid.",
+      "artifact_says": "\"section_label\": \"Novel Compounds of Formula II\", \"is_section_product\": true",
+      "should_be": "Either carry section_label Example 1, the section whose product this is and whose mass and yield the record holds, or set is_section_product false to agree with the surviving section_label. As it stands the two fields contradict each other and the notes.",
+      "confidence": "medium"
+    },
+    {
+      "check": "precision",
+      "severity": "major",
+      "record": null,
+      "field": "identifier",
+      "problem": "Three pairs of records are the same substance under a longer and a shorter spelling, and in each pair the shorter spelling is both the identifier of one record and an alias of the other, yet compounds-equivalence.json is an empty object, so the fragmentation is recorded nowhere.",
+      "source_line": 53,
+      "quote": "The invention relates to a process for preparing 3-bromomethylbenzoic acids by brominating the corresponding 3-methylbenzoic acids. It further relates to certain 3-bromomethylbenzoic acids.",
+      "artifact_says": "'3-bromomethylbenzoic acids' is a record and an alias of '3-bromomethylbenzoic acids of the formula II'; '3-bromomethylbenzoic acid' is a record and an alias of '3-bromomethylbenzoic acid of formula II'; '3-methylbenzoic acids' is a record and an alias of '3-methylbenzoic acids of the formula I'. compounds-equivalence.json is {}.",
+      "should_be": "Add the three pairs to compounds-equivalence.json. Do not merge the records; the side channel exists so that deliberate fragmentation is recorded rather than undetected, and an empty file asserts there is none.",
+      "confidence": "medium"
+    },
+    {
+      "check": "translation",
+      "severity": "minor",
+      "record": "2-chloro-3-methyl-4-ethylsulfonylbenzoic acid",
+      "field": "identifier",
+      "problem": "The identifier matches neither the as-printed line nor its EN repair: the page prints sulfonylethyl and the EN line prints 4-(ethylsulfonyl), while the record invents a third string that appears nowhere in the document.",
+      "source_line": 140,
+      "quote": "In a 0.5 I stirred apparatus, 20 g of 2-chloro-3-methyl-4-sulfonylethylbenzoic acid were suspended in 150 ml of acetonitrile.",
+      "artifact_says": "\"identifier\": \"2-chloro-3-methyl-4-ethylsulfonylbenzoic acid\"",
+      "should_be": "Per A1 rule 2 the identifier should be the printed 2-chloro-3-methyl-4-sulfonylethylbenzoic acid, with the corrected reading in aliases and the reasoning in notes. The artifact applied exactly that rule to 2-halo-3-methyl4-alkylsulfonylbenzoic acids at L57 and the opposite rule here.",
+      "confidence": "medium"
+    },
+    {
+      "check": "translation",
+      "severity": "minor",
+      "record": "2-chloro-3-methyl-4-methylsulfonylbenzoic acid",
+      "field": "identifier",
+      "problem": "Same inconsistency on the Example 1 substrate, and the note's stated justification is wrong: the example title at L116-L118 names the product, not this substrate, so it does not settle the substrate's spelling.",
+      "source_line": 122,
+      "quote": "In a 1 I stirred apparatus, 100g of 2-chloro-3-methyl4-sulfonylmethylbenzoic acid were suspended in 400 ml of chlorobenzene.",
+      "artifact_says": "\"identifier\": \"2-chloro-3-methyl-4-methylsulfonylbenzoic acid\"; notes: \"the example title at lines 116-118 prints the correct order\"",
+      "should_be": "Use the printed string as identifier and keep the corrected form as an alias, or, if the corrected form is kept, cite L55 methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate as the support rather than the product title.",
+      "confidence": "medium"
+    },
+    {
+      "check": "fidelity",
+      "severity": "minor",
+      "record": "N-bromosuccinimide",
+      "field": "quantity.mass_g",
+      "problem": "The merged record keeps the smaller Example 2 charge and drops the Example 1 charge, where A1 rule 4 asks for the most complete quantity and the sibling substrate record kept Example 1's 100 g.",
+      "source_line": 122,
+      "quote": "At room temperature, 85.9 g of N-bromosuccinimide and 6.6 g of azoisobutyroniltrile were added and the mixture was subsequently heated to 60° C.",
+      "artifact_says": "\"mass_g\": 17.6",
+      "should_be": "Keep 85.9 for consistency with the substrate record, or state in notes which of the two charges survived the merge and why. Not lost: 85.9 is present in reactions.json.",
+      "confidence": "medium"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "radical initiator",
+      "field": "commercially_available",
+      "problem": "commercially_available is false although L79 states in terms that the radical initiators are commercially available, and the record's own Process Conditions note fragment says the value is true.",
+      "source_line": 79,
+      "quote": "Suitable radical initiators for the bromination of variant A) are radical initiators which are commercially available and known to those skilled in the art, such as diaroyl peroxides, azocarboxylic esters and azonitriles.",
+      "artifact_says": "\"commercially_available\": false, with notes reading \"commercially_available is true because line 79 states these initiators are commercially available\"",
+      "should_be": "Set commercially_available true. The three sibling class records drawn from the same sentence, diaroyl peroxides, azocarboxylic esters and azonitriles, all carry true.",
+      "confidence": "high"
+    },
+    {
+      "check": "recall",
+      "severity": "minor",
+      "record": "2-chloro-3-methyl-4-methylsulfonylbenzoic acid",
+      "field": "analytics",
+      "problem": "The variant B HPLC composition names 10% of unconverted reactant, which is this compound, but the record's analytics is null while the paired product record carries the 87% from the same sentence.",
+      "source_line": 130,
+      "quote": "According to HPLC analysis, the reaction mixture contained 87% of product and 10% of reactant.",
+      "artifact_says": "\"analytics\": null; the 10% appears only in prose inside notes",
+      "should_be": "Add one analytics entry, method hplc, value 10.0, unit %, conditions naming the variant B mixture. Not lost: the figure is present in reactions.json.",
+      "confidence": "medium"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "3-bromomethylbenzoic acids of the formula II",
+      "field": "tags",
+      "problem": "Two compound_class tags on one record, where A1 rule 18 allows exactly one.",
+      "source_line": 40,
+      "quote": "A process is described for preparing 3-bromomethylbenzoic acids of the formula II",
+      "artifact_says": "[\"compound_class:other\", ..., \"compound_class:intermediate\"]",
+      "should_be": "Keep one. The merge unioned two sections' choices; pick the value the surviving section_label supports and drop the other.",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+      "field": "tags",
+      "problem": "Two compound_class tags on one record, where A1 rule 18 allows exactly one.",
+      "source_line": 100,
+      "quote": "With the exception of the compound 3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid which is disclosed by EP-A 0 292 944, compounds of the formula II are novel.",
+      "artifact_says": "[\"compound_class:intermediate\", ..., \"compound_class:other\"]",
+      "should_be": "Keep one, and keep the one that agrees with the corrected role.",
+      "confidence": "high"
+    },
+    {
+      "check": "vocabulary",
+      "severity": "minor",
+      "record": "compounds of the formula II",
+      "field": "identifier_type",
+      "problem": "The same formula II genus is typed three different ways across four records, and one record's notes argue against the value another record uses.",
+      "source_line": 46,
+      "quote": "In addition, compounds of the formula II are described where R1 is fluorine chlorine or bromine, and R2 is (C1-C4)alkyl.",
+      "artifact_says": "'compounds of the formula II' is formula; 'compound of the formula II' is local_label; '3-bromomethylbenzoic acids of the formula II' and '3-bromomethylbenzoic acid of formula II' are other, the first with the note \"formula in this vocabulary means a molecular formula\"",
+      "should_be": "Pick one value for a formula-label genus across all four records. If the note is right that formula means a molecular formula, then compounds of the formula II should be local_label or other.",
+      "confidence": "high"
+    },
+    {
+      "check": "schema",
+      "severity": "minor",
+      "record": null,
+      "field": "analytics",
+      "problem": "analytics is null on five records and an empty array on the other thirty-nine, so the artifact represents no analytics two ways.",
+      "source_line": 122,
+      "quote": "The suspension was filtered, and the solid was washed and dried at 60° C. under reduced pressure.",
+      "artifact_says": "null on 2-chloro-3-methyl-4-methylsulfonylbenzoic acid, water, 2-chloro-3-methyl-4-ethylsulfonylbenzoic acid, diethyl ether and heptane; [] on the rest",
+      "should_be": "Use one representation for all forty-four records. A1 rule 17 prefers null.",
+      "confidence": "medium"
+    },
+    {
+      "check": "fidelity",
+      "severity": "minor",
+      "record": "bromine",
+      "field": "notes",
+      "problem": "The note rules out a numeric reading of the variant B bromine charge without weighing the counter-evidence on the same page: this scan prints the same capital-I letterform where litres are meant, at 1 I and 0.5 I, so capital I is this scan's glyph for a stroke character rather than proof that no number was printed.",
+      "source_line": 130,
+      "quote": "Under irradiation with a 300 W lamp, II g of bromine were gradually metered in over 3 h, and the mixture boiled under reflux.",
+      "artifact_says": "\"II g of bromine\": two capital-I letterforms, not a number, verified on the pixels at 8x and restated nowhere in the document.",
+      "should_be": "Leaving the mass null is right and should stand. Add to notes that L122 prints 1 I and L140 prints 0.5 I for litre volumes, so the glyph is ambiguous and 11 g is a live reading, rather than asserting that it is not a number.",
+      "confidence": "medium"
+    },
+    {
+      "check": "drawings",
+      "severity": "minor",
+      "record": null,
+      "field": null,
+      "problem": "All nine IMAGE_EXTRACT spans encode {\"molecules\": []}, which records nothing at all, yet eight records assert in notes that the vision pass refused a SMILES because the drawing is a generic. An empty list cannot distinguish a deliberate refusal from a failed read, so that assertion is not supported by the artifact it cites.",
+      "source_line": 61,
+      "quote": "[IMAGE_EXTRACT: {\"molecules\": []}]",
+      "artifact_says": "notes on record 1: \"the IMAGE_EXTRACT span at line 42 ... carries no molecules, the vision pass having correctly refused a SMILES for a generic\"",
+      "should_be": "Soften the notes to say the span carries no molecules, without asserting why, or have the vision pass emit an explicit generic marker. The refusal is in fact the right outcome here: I checked all nine drawings on p01 to p04 and every one is a Markush skeleton with variable R1 and R2.",
+      "confidence": "medium"
+    }
+  ],
+  "checks_passed": [
+    {
+      "check": "recall",
+      "what_was_verified": "Read lines 40 to 198 substance by substance rather than by skimming, including every solvent, wash, quench and drying step. Every named substance has a record: the five list solvents at L83 plus the class term halogenated hydrocarbons; acetonitrile as the non-halogenated also-suitable solvent; the five initiator terms at L79 plus the class term; sodium bisulfate at L98 and the recrystallisation pair ethyl acetate and butyl acetate; and in the examples sodium bisulfite, water, ethyl acetate, diethyl ether and heptane. The two unnamed washes, the solid wash at L122 and the organic phase wash at L140, are correctly not invented, and the water of the 2% sodium bisulfite solution is correctly not emitted. No drying agent is used anywhere in this patent. I found no compound the artifact is missing."
+    },
+    {
+      "check": "precision",
+      "what_was_verified": "Every one of the forty-four identifiers is anchored to a line I could quote, and every quantity is supported by the line its provenance cites. No record contains a SMILES, a structure, a molecular formula field or a molecular weight field; there is no smiles key in the file at all. No default condition is asserted anywhere, and the compound schema carries no atmosphere or temperature field to default. The two exceptions I did find, the two substrate identifiers and the formulae inside notes, are filed above."
+    },
+    {
+      "check": "fidelity",
+      "what_was_verified": "Recomputed every mass, volume and yield against its own provenance line: 100 g and 400 ml chlorobenzene, 85.9 g NBS, 6.6 g AIBN, 2.6 g bromine, 100 ml bisulfite solution, 400 ml water, 121.3 g and 88.4% and 96% and 207-208 C at L122 to L126; 5 g, 50 ml methylene chloride, 50 ml water, 87% at L130; 20 g, 150 ml acetonitrile, 17.6 g NBS, 0.7 g peroxide, 100 ml bisulfite, 300 ml ethyl acetate, 50 ml ether, 20 ml heptane, 28.2 g and 95.6% and 88% and 103 C at L140 to L142. No unit is mishandled: no mol against mmol, no ml against l. The 207-208 C range is kept as a range with min 207 and max 208, not flattened. Reflux is nowhere recorded as a numeric temperature; the compound schema holds no temperature field and the reflux of L140 stays in prose. The 100 ml of sodium bisulfite is correctly recorded as a volume of 2% solution with no mass of the salt inferred."
+    },
+    {
+      "check": "arithmetic",
+      "what_was_verified": "Closed both examples independently, without using the artifact's own working. Example 1: substrate 100 g at 248.68 gives 0.4021 mol; product 121.3 g corrected to 96% purity is 116.45 g at 327.58, that is 0.3555 mol, so 88.4%, exactly the printed figure. Example 2: 20 g at 262.71 gives 0.07613 mol; 28.2 g at 88% is 24.82 g at 341.60, that is 0.07265 mol, so 95.4% against the printed 95.6%, a 0.2 point gap well inside the rounding of a two-significant-figure purity. NBS is in excess in both, 1.20 equivalents in Example 1 and 1.30 in Example 2, which agrees with L87. Nothing fails to close, so no validation flag is owed and none being absent is correct. There is no step-to-step continuity to check: the two examples are independent, neither consumes the other's product, and the variant B charge at L130 is unreadable so no balance over it is attempted."
+    },
+    {
+      "check": "translation",
+      "what_was_verified": "There is no Chinese in this document, so check 5 has no subject in the form the prompt describes. I ran its analogue instead, the as-printed line against its EN repair, and confirmed each difference on the pixels at magnification: the missing comma after fluorine at L46, chloro4 at L55 and L100 and L110, methyl4 at L57, N-bromosuccimide at L69 and L154, sulfonylmethyl and azoisobutyroniltrile and 100g and 1 I at L122, chloro4-methylsulfonyl-benzoic at L124, II g at L130, sulfonylethyl and 0.5 I at L140, and methylsulfonyl-benzoic at L191. Every one of those is what the page prints, so the enriched markdown's as-printed layer is faithful and the EN layer is a repair. The artifact carries the as-printed variant in aliases in every case and says in notes which layer it followed, except for the two substrate identifiers filed above."
+    },
+    {
+      "check": "linkage",
+      "what_was_verified": "CompoundRecord in the A1 specification has no precursor_step and no linkage_confirmed field, and none of the forty-four records carries one. Check 6 has no subject in this artifact; step linkage belongs to reactions.json."
+    },
+    {
+      "check": "vocabulary",
+      "what_was_verified": "Every enum value is inside its A1 closed list. Roles used are product, reactant, reagent, solvent, oxidant and other, all in rule 9's list. identifier_type values are iupac, trivial_name, local_label, formula and other, all in rule 5's list. physical_form is solid or null; purity_method is hplc or null; analytics method values are hplc and tlc only. All 168 tags match category:value with a lowercase snake_case ASCII value, none is duplicated inside a record, and no tag is emitted for physical_form, color, role_seen or commercial as rule 19 forbids. The only breaches are the two double compound_class tags filed above."
+    },
+    {
+      "check": "schema",
+      "what_was_verified": "All forty-four records carry the same twenty-five keys. id and compound_uuid are present, and this is correct rather than a defect: the A1 prompt states they are computed downstream by finalise.py from patent_id and identifier so the join keys match production, and the uuids are consistent with that derivation. No vector, embedding or enrichment field appears. No required field is missing on any record."
+    },
+    {
+      "check": "drawings",
+      "what_was_verified": "Opened p01 to p04 and counted the drawings against the spans: nine drawings on the pages, one in the abstract on p01, formulae II and I in [0004] and [0005] on p02, formula II in [0020] and formulae II and I for claim 6 on p03, formulae II and I for claim 13 and formula II for claim 19 on p04, matching the nine IMAGE_EXTRACT spans at lines 42, 61, 65, 102, 144, 146, 177, 179 and 193 in order. Every one is the same skeleton, and I read the substituent positions off the pixels rather than inferring them: HOOC at C1, R1 at C2, CH2Br at C3 for formula II and CH3 at C3 for formula I, SO2R2 at C4. That is the substitution pattern the names 3-bromomethyl-2-halo-4-alkylsulfonylbenzoic acid describe, so nothing was placed from chemical knowledge against the page. Every drawing is a Markush generic with variable R1 and R2, so no single structure exists to be got wrong, and no record claims one. There is no reaction scheme anywhere in this patent, hence no arrow with reagents above and below to merge, and the only background schemes are prose at L55 which the artifact annotates as prior art with is_section_product false throughout."
+    },
+    {
+      "check": "style",
+      "what_was_verified": "No em dash character and no en dash character anywhere in compounds.json, and none in this report."
+    }
+  ],
+  "recall_estimate": {
+    "found_in_text": 44,
+    "present_in_artifact": 44,
+    "missing": []
+  }
+}

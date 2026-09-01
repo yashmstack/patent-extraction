@@ -1,0 +1,12 @@
+[
+ {
+  "reaction_id": "Example 5_Step 1",
+  "source_lines": [
+   476,
+   488
+  ],
+  "quote_zh": "在-5～5℃将60％氢化钠9.2g溶于80mL无水四氢呋喃中，往该溶液中滴加三氟乙醇24g的20mL无水四氢呋喃溶液，滴加完毕后，进一步滴加式(III)化合物83g的400mL无水四氢呋喃溶液，滴加时控制反应物温度不超过15℃。",
+  "arithmetic_check": "Inputs printed: 式(III)化合物 83 g, 2,2,2-trifluoroethanol 24 g, 60% sodium hydride 9.2 g. No product mass, no mole figure and no yield percentage are printed for 式(IV)化合物, only the melting point 80-82℃, so no mass balance and no molar ratio can be computed from this section and no arithmetic flag is raised. Qualitatively the trifluoroethanol and hydride charges are both in excess of the 83 g of 式(III)化合物 on any reasonable molecular weight, which is consistent with the order of addition described.",
+  "drawing_evidence": "[IMAGE_EXTRACT: {\"reactions\": ...}] on line 478, a single arrow, step_id 1. Its reactant CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr and product CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F agree with the prose reading of 式(III)化合物 to 式(IV)化合物, and confirm the one step boundary A0 estimated. It disagrees on the reagent: the arrow carries CF3CH2ONa, which the prose never names, while the prose charges sodium hydride plus 2,2,2-trifluoroethanol, which the arrow does not show. Both directions of that disagreement are flagged."
+ }
+]

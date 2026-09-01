@@ -1,0 +1,96 @@
+[
+  {
+    "identifier": "sodium 2,2,2-trifluoroethoxide",
+    "source_lines": [
+      165
+    ],
+    "quote_zh": "1.1mol(134.2g)三氟乙醇钠"
+  },
+  {
+    "identifier": "potassium carbonate",
+    "source_lines": [
+      165
+    ],
+    "quote_zh": "1.2mol(166.8g)碳酸钾"
+  },
+  {
+    "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+    "source_lines": [
+      165
+    ],
+    "quote_zh": "1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I)"
+  },
+  {
+    "identifier": "N,N-dimethylformamide",
+    "source_lines": [
+      165
+    ],
+    "quote_zh": "1000mL N,N-二甲基甲酰胺加入到反应器中"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      165,
+      167
+    ],
+    "quote_zh": "将残液加入300mL水中"
+  },
+  {
+    "identifier": "hydrochloric acid",
+    "source_lines": [
+      165
+    ],
+    "quote_zh": "用35％的盐酸调pH至弱酸性"
+  },
+  {
+    "identifier": "化合物II",
+    "source_lines": [
+      165,
+      167
+    ],
+    "quote_zh": "干燥得化合物II,称重得321.7g,收率93％"
+  },
+  {
+    "identifier": "cyclohexane",
+    "source_lines": [
+      167
+    ],
+    "quote_zh": "溶解在1000mL的环己烷中"
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "source_lines": [
+      167
+    ],
+    "quote_zh": "1mol(98g)1,3-环己二酮(化合物III)"
+  },
+  {
+    "identifier": "DBU",
+    "source_lines": [
+      167
+    ],
+    "quote_zh": "1mol(152g)缩合剂DBU"
+  },
+  {
+    "identifier": "pyridine",
+    "source_lines": [
+      167
+    ],
+    "quote_zh": "1mol(152g)吡啶"
+  },
+  {
+    "identifier": "methanol",
+    "source_lines": [
+      167
+    ],
+    "quote_zh": "加甲醇打浆"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      163,
+      167
+    ],
+    "quote_zh": "干燥得到成品环磺酮(化合物IV)332.9g,纯度94.6％,收率80.1％"
+  }
+]

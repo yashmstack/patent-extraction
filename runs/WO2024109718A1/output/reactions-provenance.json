@@ -1,0 +1,853 @@
+[
+  {
+    "reaction_id": "Background_Scheme A Step 1",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "原研专利文献DE19846792A1公开了如下方法",
+    "arithmetic_check": "No charge, mass, mole or yield is printed for any arrow of this overview scheme, so there is nothing to check and no mass-balance flag is raised.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, reactions[0] step_id 1 (Cc1c(Cl)cccc1Cl + CH3SNa -> CSc1cccc(Cl)c1C); vision p02 arrow 1st->2nd, reagents_above CH3SNa. No prose procedure exists for this arrow, so there is nothing for the drawing to disagree with."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 2",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "公开了如下方法",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 2, conditions CH3COCl and AlCl3; vision p02 arrow 2nd->3rd has CH3COCl above and AlCl3 below. The drawing and the prose do not conflict because the prose gives no procedure for this arrow."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 3",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "作为环磺酮的制备方法",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 3, condition H2O2; vision p02 arrow 3rd->4th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 4",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "原研专利文献DE19846792A1",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 4, condition NaClO; vision p02 arrow 4th->5th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 5",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "如下方法",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 5, condition CH3OH; vision p02 arrow 5th->6th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 6",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "DE19846792A1公开了如下方法",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 6, condition NBS; vision p02 arrow 6th->7th. The corresponding arrow of the second background scheme carries Br2 instead, which is a difference between two prior-art documents, not a drawing/text conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 7",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "作为环磺酮的制备方法，原研专利文献",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 7, condition CF3CH2ONa; vision p02 arrow 7th->8th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 8",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "环磺酮的制备方法",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 8, condition NaOH; vision p02 arrow 8th->9th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 9",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "原研专利文献DE19846792A1公开",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 9, condition (COCl)2; vision p02 arrow 9th->10th. The corresponding arrow of the second background scheme carries SOCl2 instead."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 10",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "公开了如下方法：",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 10, condition text 'cyclohexane-1,3-dione (drawn as a structure above the arrow, not written as text)'; vision p02 arrow 10th->12th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme A Step 11",
+    "source_lines": [
+      63,
+      65
+    ],
+    "quote_zh": "环磺酮",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check. The drawn reactant and product share the molecular formula C17H16ClF3O6S, which is consistent with a rearrangement and not with an added or lost fragment.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 65, step_id 11, empty conditions array; vision p02 arrow 12th->13th with no reagents above or below. The drawn product matches the tembotrione SMILES A1 carries for 环磺酮."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 1",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "目前广泛报道和采用的是如下路线",
+    "arithmetic_check": "No charge, mass, mole or yield is printed for any arrow of this overview scheme, so there is nothing to check and no mass-balance flag is raised.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, reactions[0] step_id 1 (Cc1c(N)cccc1Cl + NaNO2/CH3SNa/HCl -> CSc1cccc(Cl)c1C); vision p03 arrow 1st->2nd, reagents_above NaNO2 and CH3SNa, reagents_below HCl. No prose procedure exists for this arrow, so there is nothing for the drawing to disagree with."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 2",
+    "source_lines": [
+      69,
+      76
+    ],
+    "quote_zh": "目前广泛报道和采用的是如下路线(参见例如200510030163.5号中国专利申请)",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 2, condition CH3COCl only; vision p03 arrow 2nd->3rd has CH3COCl above and nothing below. [0006] on line 76 names 三氯化铝 as the catalyst of this route's F-C reaction, so the prose adds a reagent the arrow omits: reagent_written_not_drawn."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 3",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "如下路线",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 3, condition H2O2; vision p03 arrow 3rd->4th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 4",
+    "source_lines": [
+      69,
+      76
+    ],
+    "quote_zh": "参见例如200510030163.5号中国专利申请",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check. [0006] quantifies nothing either, it only says 大量 (a large amount) of waste water.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 4, condition NaClO; vision p03 arrow 4th->5th. The drawing gives only NaClO; [0006] on line 76 adds the aqueous phase and the two by-products, which extend the record rather than contradicting the arrow, so no drawing_text_conflict is raised."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 5",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "目前广泛报道和采用的",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 5, condition CH3OH; vision p03 arrow 5th->6th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 6",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "采用的是如下路线",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 6, condition Br2; vision p03 arrow 6th->7th. The DE19846792A1 scheme draws NBS on the same transformation; that is a difference between two prior-art routes, not a drawing/text conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 7",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "广泛报道和采用",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 7, condition CF3CH2ONa; vision p03 arrow 7th->8th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 8",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "如下路线(参见例如",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 8, condition NaOH; vision p03 arrow 8th->9th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 9",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "号中国专利申请",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 9, condition SOCl2; vision p03 arrow 9th->10th. The DE19846792A1 scheme draws (COCl)2 on the same transformation."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 10",
+    "source_lines": [
+      69,
+      74
+    ],
+    "quote_zh": "中国专利申请)：",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 10, condition text 'cyclohexane-1,3-dione, drawn as a structure above the arrow'; vision p03 arrow 10th->12th. No prose counterpart, so no conflict."
+  },
+  {
+    "reaction_id": "Background_Scheme B Step 11",
+    "source_lines": [
+      69,
+      76
+    ],
+    "quote_zh": "然而，上述方法一共有11步，步骤多",
+    "arithmetic_check": "No quantities printed anywhere in this scheme; nothing to check. The drawn reactant and product share the molecular formula C17H16ClF3O6S, consistent with a rearrangement. The only number [0006] prints is the step count 11, which equals the number of arrows annotated for this scheme.",
+    "drawing_evidence": "IMAGE_EXTRACT on line 74, step_id 11, empty conditions array; vision p03 arrow 12th->13th with no reagents. The drawn product matches the tembotrione SMILES A1 carries for 环磺酮, and [0006]'s count of 11 steps agrees with the arrow count."
+  },
+  {
+    "reaction_id": "Claims_Step (v)",
+    "source_lines": [
+      553,
+      555,
+      559,
+      561,
+      565,
+      570,
+      572
+    ],
+    "quote_zh": "环磺酮制备方法，其特征在于，包括如下的任意一个步骤：",
+    "arithmetic_check": "Nothing to close. The claims state no mass, no volume, no mole charge, no molar ratio and no yield for this step, so no mass balance and no molar-mass check can be computed. Claims 3 and 4 give only lists of permitted catalysts, ligands and solvents, with no amounts.",
+    "drawing_evidence": "Two [IMAGE_EXTRACT] reaction spans: line 555 (claim 1) draws the same arrow with no reagent, line 561 (claim 2) draws it with H2O and CO. They agree with each other and with the claim prose, so nothing is flagged; the reagents come only from the drawing, since the claim prose never writes CO or H2O out."
+  },
+  {
+    "reaction_id": "Claims_Step (v')",
+    "source_lines": [
+      559,
+      553,
+      557,
+      561,
+      563,
+      565,
+      570,
+      572
+    ],
+    "quote_zh": "根据权利要求1所述的方法，其中所述步骤(v)和(v′)分别为以下步骤：",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole charge, molar ratio or yield is printed for this step anywhere in the claims.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 557 (claim 1) draws the arrow bare; line 563 (claim 2) draws it with CO on the arrow and cyclohexane-1,3-dione as a second reactant. The two agree and neither contradicts the prose."
+  },
+  {
+    "reaction_id": "Claims_Step (i)",
+    "source_lines": [
+      574,
+      576,
+      578,
+      580,
+      597,
+      601,
+      639,
+      651
+    ],
+    "quote_zh": "根据权利要求1至3中任意一项所述的方法，进一步包括如下所示的(i)~(iv)中任意一个或两个以上的中间体制备步骤：",
+    "arithmetic_check": "Nothing to close. Claims 5, 6, 7, 8 and 12 all recite this step without any charge, ratio or yield.",
+    "drawing_evidence": "Bare arrow at lines 576 (claim 5, step_id 1), 597 (claim 7, step_id 1) and 651 (claim 12); the same arrow with Br2 at lines 580 (claim 6), 601 (claim 8, step_id 1) and 639 (claim 11 region). All six agree on reactant and product; the four that carry a reagent all carry Br2."
+  },
+  {
+    "reaction_id": "Claims_Step (ii)",
+    "source_lines": [
+      578,
+      589,
+      597,
+      601,
+      641,
+      653
+    ],
+    "quote_zh": "根据权利要求4所述的方法，所述步骤(i)~(iv)分别独立地为以下步骤：",
+    "arithmetic_check": "Nothing to close. No charge, concentration of the peroxide, ratio or yield is printed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at lines 589, 601 (step_id 2) and 641 all put H2O2 on the arrow; lines 576 (step_id 2), 597 (step_id 2) and 653 draw it bare. Consistent, no conflict with the prose."
+  },
+  {
+    "reaction_id": "Claims_Step (iii)",
+    "source_lines": [
+      585,
+      591,
+      597,
+      601,
+      603,
+      643
+    ],
+    "quote_zh": "步骤(iii')中，溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素；",
+    "arithmetic_check": "Nothing to close. No charge, equivalents or yield is printed for the brominating reagent or the substrate.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at lines 591, 601 (step_id 3) and 643 label the arrow 溴代试剂; lines 576 (step_id 3), 597 (step_id 3) and 655 draw it bare. The drawings agree with the prose, which is what supplies the identity of the reagent."
+  },
+  {
+    "reaction_id": "Claims_Step (iv)",
+    "source_lines": [
+      587,
+      593,
+      597,
+      601,
+      603,
+      645
+    ],
+    "quote_zh": "步骤(iv')中，CF3CH2OM为CF3CH2ONa或CF3CH2OK。",
+    "arithmetic_check": "Nothing to close. No charge, equivalents, solvent volume or yield is printed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at lines 593, 601 (step_id 4) and 645 put CF3CH2OM on the arrow; lines 576 (step_id 4), 597 (step_id 4) and 657 draw it bare. Consistent with the prose definition of M."
+  },
+  {
+    "reaction_id": "Claims_Step (vi) Arrow 1",
+    "source_lines": [
+      605,
+      612,
+      616,
+      618
+    ],
+    "quote_zh": "根据权利要求7或8所述的方法，进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 612 (claim 9) and line 618 (claim 10) both read composite step (vi) as FOUR reaction entries, and page image p27.png confirms four drawn arrows: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Line 618 puts H2O and CO on the first arrow; line 612 leaves it bare; the remaining three arrows are bare in both. The two spans agree with each other and neither contradicts the claim prose, which describes the step only by reference. This entry is arrow 1."
+  },
+  {
+    "reaction_id": "Claims_Step (vi) Arrow 2",
+    "source_lines": [
+      605,
+      612,
+      616,
+      618
+    ],
+    "quote_zh": "根据权利要求7或8所述的方法，进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 612 (claim 9) and line 618 (claim 10) both read composite step (vi) as FOUR reaction entries, and page image p27.png confirms four drawn arrows: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Line 618 puts H2O and CO on the first arrow; line 612 leaves it bare; the remaining three arrows are bare in both. The two spans agree with each other and neither contradicts the claim prose, which describes the step only by reference. This entry is arrow 2, the only structural change being replacement of the acid OH by Cl. No reagent is on the arrow in either span."
+  },
+  {
+    "reaction_id": "Claims_Step (vi) Arrow 3",
+    "source_lines": [
+      605,
+      612,
+      616,
+      618
+    ],
+    "quote_zh": "根据权利要求7或8所述的方法，进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 612 (claim 9) and line 618 (claim 10) both read composite step (vi) as FOUR reaction entries, and page image p27.png confirms four drawn arrows: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Line 618 puts H2O and CO on the first arrow; line 612 leaves it bare; the remaining three arrows are bare in both. The two spans agree with each other and neither contradicts the claim prose, which describes the step only by reference. This entry is arrow 3. No reagent is on the arrow in either span; cyclohexane-1,3-dione is carried as a reactant because the drawn product is its enol ester, and the same compound is drawn explicitly on the (v') and (vi') arrows at lines 563 and 620."
+  },
+  {
+    "reaction_id": "Claims_Step (vi) Arrow 4",
+    "source_lines": [
+      605,
+      612,
+      616,
+      618
+    ],
+    "quote_zh": "根据权利要求7或8所述的方法，进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 612 (claim 9) and line 618 (claim 10) both read composite step (vi) as FOUR reaction entries, and page image p27.png confirms four drawn arrows: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Line 618 puts H2O and CO on the first arrow; line 612 leaves it bare; the remaining three arrows are bare in both. The two spans agree with each other and neither contradicts the claim prose, which describes the step only by reference. This entry is arrow 4. Reactant and product carry the same molecular formula C17H16ClF3O6S in both spans, which is consistent with the isomerisation the drawing shows and is the only arithmetic the section makes available."
+  },
+  {
+    "reaction_id": "Claims_Step (vi') Arrow 1",
+    "source_lines": [
+      605,
+      610,
+      614,
+      616,
+      620,
+      622
+    ],
+    "quote_zh": "根据权利要求7或8所述的方法，进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 614 (claim 9) and line 620 (claim 10) both read composite step (vi') as TWO reaction entries, and page image p27.png confirms two drawn arrows: aryl bromide plus cyclohexane-1,3-dione to the enol ester, then ester to tembotrione. Line 620 puts CO on the first arrow and reads cyclohexane-1,3-dione as an explicit second reactant; line 614 draws it bare. The two spans agree and neither contradicts the prose at lines 610 and 622, which state only that the step may be run stepwise or one-pot. This entry is arrow 1."
+  },
+  {
+    "reaction_id": "Claims_Step (vi') Arrow 2",
+    "source_lines": [
+      605,
+      610,
+      614,
+      616,
+      620,
+      622
+    ],
+    "quote_zh": "根据权利要求7或8所述的方法，进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 614 (claim 9) and line 620 (claim 10) both read composite step (vi') as TWO reaction entries, and page image p27.png confirms two drawn arrows: aryl bromide plus cyclohexane-1,3-dione to the enol ester, then ester to tembotrione. Line 620 puts CO on the first arrow and reads cyclohexane-1,3-dione as an explicit second reactant; line 614 draws it bare. The two spans agree and neither contradicts the prose at lines 610 and 622, which state only that the step may be run stepwise or one-pot. This entry is arrow 2, the same transformation as Claims_Step (vi) Arrow 4. Reactant and product carry the same molecular formula C17H16ClF3O6S in both spans."
+  },
+  {
+    "reaction_id": "Example 1_Step 1",
+    "source_lines": [
+      424,
+      438
+    ],
+    "quote_zh": "在20℃下将5.1％盐酸1165g加入到四口瓶中，滴加3-氯-2-甲基苯胺100g，滴加完毕后，在0℃进一步滴加20％NaNO2水溶液251.41g，滴加过程中控温不超",
+    "arithmetic_check": "No product mass and no yield are printed, so the mass balance cannot be closed in either direction and nothing is asserted about it. The input charges that are printed are internally consistent as an approximately equimolar diazotisation: 100 g of 3-chloro-2-methylaniline (MW 141.6) is about 0.71 mol; 251.41 g of a 20% aqueous NaNO2 solution carries about 50.3 g of NaNO2 (MW 69.0), about 0.73 mol, roughly 1.03 equivalents; 1165 g of 5.1% hydrochloric acid carries about 59.4 g of HCl (MW 36.46), about 1.63 mol, roughly 2.3 equivalents, which is the usual excess for a diazotisation; 273 g of a 20% aqueous CH3SNa solution carries about 54.6 g of CH3SNa (MW 70.1), about 0.78 mol, roughly 1.10 equivalents; 26.62 g of a 32% aqueous NaOH solution carries about 8.5 g of NaOH, about 0.21 mol. These solute figures are derived here only to test plausibility and are deliberately absent from the record, whose mass_g fields carry the printed solution masses. No mass_balance_implausible or molar_mass_inconsistent condition was found.",
+    "drawing_evidence": "The [IMAGE_EXTRACT reactions] span on line 426 is a single-arrow scheme, step_id 1: reactant Cc1c(N)cccc1Cl (C7H8ClN, 3-chloro-2-methylaniline), arrow conditions NaNO2, CH3SNa and HCl, product CSc1cccc(Cl)c1C (C8H9ClS). It corroborates the single-step boundary, the identity of the starting material and the identity of the product the prose calls the compound of formula (VI). It agrees with the prose on every point except that the 32% aqueous NaOH charged alongside the CH3SNa appears on no arrow, which is why reagent_written_not_drawn is raised and drawing_text_conflict is not."
+  },
+  {
+    "reaction_id": "Example 10_Step 1",
+    "source_lines": [
+      537,
+      542
+    ],
+    "quote_zh": "向高压釜中加入式(IV)化合物56.84g、三乙胺37.95g、PdCl2催化剂0.4g、配体1,4-双(二苯基膦)丁烷3.98g、溶剂1,4-二氧六环300g，抽真空，氮气置换3次，以约1～4MPa的压力通入CO，在80～85℃反应约8h后降温至70℃，加入2g丙酮氰醇，继续反应5h。",
+    "arithmetic_check": "Stated input: 56.84 g of 式(IV)化合物, drawn as C10H9BrClF3O3S (MW 381.59), giving 0.1489 mol. No mole figure, no equivalents and no product mass are printed anywhere in lines 533-545, so the only stated product number is the 64.67% yield. On 0.1489 mol that yield would correspond to 0.0963 mol of tembotrione (C17H16ClF3O6S, MW 440.82), about 42.5 g, but the patent prints no mass to compare that with, so nothing can be shown to disagree and mass_balance_implausible is not raised. The other charges cannot be checked as ratios either, since only masses are given: triethylamine 37.95 g, PdCl2 0.4 g, ligand 3.98 g, dioxane 300 g, acetone cyanohydrin 2 g. Nothing in the section is internally inconsistent.",
+    "drawing_evidence": "The [IMAGE_EXTRACT] reaction scheme on line 535 has a single arrow (step_id 1) from CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F, the compound of formula (IV), to CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F, tembotrione. It agrees with the prose on the reactant, on the product, and on two of its three arrow reagents (CO and acetone cyanohydrin), and its single arrow corroborates one one-pot record rather than two. It disagrees in one place: the third arrow reagent, cyclohexane-1,3-dione, is drawn but never written in this section's procedure, so reagent_drawn_not_written is raised and the compound is carried as a reactant with no quantity."
+  },
+  {
+    "reaction_id": "Example 11_Step 1",
+    "source_lines": [
+      546,
+      549
+    ],
+    "quote_zh": "向高压釜中加入式(IV)化合物56.84g、1,3-环己二酮21.84g、三乙胺37.95g、PdCl₂催化剂0.5g、配体2-双环己基膦-2',6'-二甲氧基联苯或4,5-双二苯基膦-9,9-二甲基氧杂蒽4g、溶剂1,4-二氧六环290g，抽真空，氮气置换3次，通入1～4MPa的CO，在85℃反应约10h。收率低于10％，不理想。",
+    "arithmetic_check": "Stated inputs are masses only: 56.84 g of the formula (IV) compound, 21.84 g of 1,3-cyclohexanedione, 37.95 g of triethylamine, 0.5 g of PdCl2, 4 g of ligand, 290 g of 1,4-dioxane. No moles, no equivalents, no product mass and no numeric yield are printed; the text says only that the yield was below 10 percent. With no product mass and no molar data there is nothing to close, so no mass balance arithmetic is possible and no discrepancy is asserted. mass_balance_implausible and molar_mass_inconsistent are not raised because no mass and mole pair is printed to test.",
+    "drawing_evidence": "None. Lines 546 to 549 contain no IMAGE_EXTRACT span, so no scheme or structure corroborates or contradicts the prose, and no drawing related flag is raised. The nearest IMAGE_EXTRACT spans lie outside this section, in the claims region beginning at line 551."
+  },
+  {
+    "reaction_id": "Example 2_Step 1",
+    "source_lines": [
+      443,
+      443
+    ],
+    "quote_zh": "将式(VI)化合物100.75g、400g二氯甲烷置于四口圆底烧瓶中，于10℃左右滴加溴素98.4g。经高效液相色谱监测反应完成后，用30mL 32％的NaOH溶液淬灭，分出有机相，并用70mL 32％的NaOH水溶液洗涤两次，然后用70mL水洗涤两次，分液，有机层旋蒸除去溶剂，得到式(I)化合物。",
+    "arithmetic_check": "Stated inputs: 100.75 g of the compound of formula (VI) and 98.4 g of bromine. The drawing on line 441 gives the substrate as C8H9ClS, MW 172.67, so 100.75 g is 0.583 mol; bromine MW 159.81, so 98.4 g is 0.616 mol, about 1.06 equivalents, a normal slight excess for a single ring bromination. No product mass, no yield and no purity are printed for the compound of formula (I), so there is no mass balance to close and none is claimed either way. Nothing in the printed numbers is internally inconsistent, so no arithmetic flag is raised.",
+    "drawing_evidence": "Line 441 carries a single-arrow [IMAGE_EXTRACT] reaction scheme: reactant CSc1cccc(Cl)c1C (C8H9ClS), arrow condition Br2, product CSc1ccc(Br)c(Cl)c1C (C8H8BrClS). One arrow, matching the one prose step. It agrees with the prose on substrate, brominating agent and the introduction of exactly one aromatic bromine, and it supports the identification of the unnamed formula (VI) and formula (I) labels. The arrow omits the dichloromethane solvent and the sodium hydroxide quench and washes that the prose gives, which is scheme abbreviation and not a contradiction; no conflict flag raised."
+  },
+  {
+    "reaction_id": "Example 3_Step 1",
+    "source_lines": [
+      453,
+      458
+    ],
+    "quote_zh": "将式(I)化合物146g、二水合钨酸钠1.91g和冰醋酸600mL加入到四口烧瓶中，升温至80℃，滴加23％的双氧水224g，通过高效液相色谱监测反应完成后，停止反",
+    "arithmetic_check": "Stated inputs: 146 g of the formula (I) compound, 1.91 g sodium tungstate dihydrate, 600 mL glacial acetic acid, 224 g of 23％ aqueous hydrogen peroxide. No moles are printed for any input, no isolated product mass is printed and no yield is printed, so there is no stated mass/mole pair to test and no mass balance to close or fail. Nothing is derived: in particular the contained H2O2 mass is not computed from the 23％ and the 224 g. mass_balance_implausible and molar_mass_inconsistent are therefore not raised, on absence of any conflicting printed pair rather than on a check that passed.",
+    "drawing_evidence": "The [IMAGE_EXTRACT: reactions] span on line 451 is the only drawing in this section. Its single arrow takes CSc1ccc(Br)c(Cl)c1C to Cc1c(S(C)(=O)=O)ccc(Br)c1Cl over H2O2, i.e. a methylthio arene to the corresponding methanesulfonyl arene. That agrees with the prose, which oxidises formula (I) to formula (II) with 23％ hydrogen peroxide, and it corroborates the one-step boundary, so no drawing_text_conflict is raised. The arrow carries H2O2 only: the sodium tungstate dihydrate catalyst and the glacial acetic acid solvent that the prose charges are absent from it, which is why reagent_written_not_drawn is flagged. No reagent appears on the arrow that the prose lacks."
+  },
+  {
+    "reaction_id": "Example 4_Method 1",
+    "source_lines": [
+      468,
+      468
+    ],
+    "quote_zh": "方法1：将式(II)化合物84g、过氧化苯甲酰3.58g和1,2-二氯乙烷500mL加入到四口圆底烧瓶中，升温至60℃，滴加溴素52.8g。",
+    "arithmetic_check": "Stated inputs: 式(II)化合物 84 g, bromine 52.8 g, benzoyl peroxide 3.58 g, 1,2-dichloroethane 500 mL. The section prints no moles, no equivalents, no product mass and no yield, so nothing in the record is computed from these. For the A5 check only: the drawn substrate C8H8BrClO2S has MW about 283.6, so 84 g is about 0.296 mol; Br2 at 159.8 gives about 0.330 mol from 52.8 g, i.e. about 1.11 equivalents; benzoyl peroxide at 242.2 gives about 0.0148 mol, i.e. about 5 mol percent initiator. Those ratios are chemically sensible for a benzylic bromination. There is no mass balance to close because no product mass or yield is stated, so no mass_balance_implausible flag is raised and none could be.",
+    "drawing_evidence": "The IMAGE_EXTRACT reaction scheme on line 466 supports this step: one arrow, reactant Cc1c(S(C)(=O)=O)ccc(Br)c1Cl (C8H8BrClO2S) to product CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr (C8H7Br2ClO2S), a single benzylic H replaced by Br, which is exactly the transformation the prose describes. The arrow condition text is 溴代试剂, a class term rather than a compound; the prose specifies bromine here. That is a generalisation, not a disagreement, so no drawing_text_conflict and no reagent_drawn_not_written is raised. The scheme covers both methods, since one arrow serves both."
+  },
+  {
+    "reaction_id": "Example 4_Method 2",
+    "source_lines": [
+      470,
+      470
+    ],
+    "quote_zh": "方法2：将式(II)化合物84g、过氧化苯甲酰3.58g、N-溴代丁二酰亚胺64.1g和四氯化碳500mL加入到四口圆底烧瓶中，升温至60℃",
+    "arithmetic_check": "Stated inputs: 式(II)化合物 84 g, N-bromosuccinimide 64.1 g, benzoyl peroxide 3.58 g, carbon tetrachloride 500 mL, plus 150 mL ethanol for the recrystallisation. No moles, equivalents, product mass or yield are printed, so nothing is computed into the record. For the A5 check only: 84 g of the drawn substrate at MW about 283.6 is about 0.296 mol; NBS at 178.0 gives about 0.360 mol from 64.1 g, i.e. about 1.22 equivalents; benzoyl peroxide about 0.0148 mol, i.e. about 5 mol percent, the same initiator loading as 方法1. No mass balance can be checked because no product mass or yield is stated.",
+    "drawing_evidence": "The same IMAGE_EXTRACT scheme on line 466 supports this step; the patent draws one arrow for both methods. Its condition text 溴代试剂 is filled here by N-bromosuccinimide. Drawn substrate and product match the prose transformation, so nothing is flagged. Note that the scheme therefore cannot be used to corroborate the step boundary between 方法1 and 方法2: that boundary comes from the prose alone, which repeats the full charge and the full workup for each method."
+  },
+  {
+    "reaction_id": "Example 5_Step 1",
+    "source_lines": [
+      476,
+      488
+    ],
+    "quote_zh": "在-5～5℃将60％氢化钠9.2g溶于80mL无水四氢呋喃中，往该溶液中滴加三氟乙醇24g的20mL无水四氢呋喃溶液，滴加完毕后，进一步滴加式(III)化合物83g的400mL无水四氢呋喃溶液，滴加时控制反应物温度不超过15℃。",
+    "arithmetic_check": "Inputs printed: 式(III)化合物 83 g, 2,2,2-trifluoroethanol 24 g, 60% sodium hydride 9.2 g. No product mass, no mole figure and no yield percentage are printed for 式(IV)化合物, only the melting point 80-82℃, so no mass balance and no molar ratio can be computed from this section and no arithmetic flag is raised. Qualitatively the trifluoroethanol and hydride charges are both in excess of the 83 g of 式(III)化合物 on any reasonable molecular weight, which is consistent with the order of addition described.",
+    "drawing_evidence": "[IMAGE_EXTRACT: {\"reactions\": ...}] on line 478, a single arrow, step_id 1. Its reactant CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr and product CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F agree with the prose reading of 式(III)化合物 to 式(IV)化合物, and confirm the one step boundary A0 estimated. It disagrees on the reagent: the arrow carries CF3CH2ONa, which the prose never names, while the prose charges sodium hydride plus 2,2,2-trifluoroethanol, which the arrow does not show. Both directions of that disagreement are flagged."
+  },
+  {
+    "reaction_id": "Example 6_Step 1",
+    "source_lines": [
+      489,
+      498
+    ],
+    "quote_zh": "向高压釜中加入式(IV)化合物40g、水20g、三乙胺26.49g、PdCl₂催化剂0.4g、配体1,4-双(二苯基膦)丁烷4.65g、溶剂1,4-二氧六环400g，抽真空，氮气置换，以约1～4MPa的压力通入CO，在80℃反应约12h。",
+    "arithmetic_check": "Stated inputs: 40 g of the compound of formula (IV), 20 g water, 26.49 g triethylamine, 0.4 g PdCl2, 4.65 g dppb, 400 g dioxane. Stated output: no mass, yield 81.13 percent, melting point 155-157 C. No mole figure is printed for any charge, so no stated mass/mole pair exists to test and molar_mass_inconsistent cannot arise. With the scheme formulae, C10H9BrClF3O3S (MW about 381.6) gives 40 g = about 0.105 mol, and 81.13 percent to C11H10ClF3O5S (MW about 346.7) would be about 29.5 g; since no product mass is printed there is nothing for that to contradict, so mass_balance_implausible is not raised. Triethylamine 26.49 g is about 0.262 mol, roughly 2.5 equivalents to the bromide, consistent with a base that must take up the HBr formed; the text states no ratio, so molar_ratio_text is left null.",
+    "drawing_evidence": "The [IMAGE_EXTRACT: {\"reactions\": ...}] span on line 491, one arrow, step_id 1: reactant CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F, conditions H2O and CO, product CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F. It agrees with the prose of line 493 in connectivity and in the two reagents it shows: the bromine is replaced by a carboxylic acid. The drawing carries no catalyst, ligand, base, solvent, temperature, pressure or time, but omission on an overview arrow is not a contradiction of the procedure, so no drawing_text_conflict and no reagent_written_not_drawn is raised; the prose is the source of every structured field."
+  },
+  {
+    "reaction_id": "Example 7_Step 1",
+    "source_lines": [
+      499,
+      506
+    ],
+    "quote_zh": "向高压釜中加入式(IV)化合物40g、水20g、三乙胺26.49g、PdCl2催化剂0.4g、配体1,3-双(二苯基膦)丙烷3.95g、溶剂四氢呋喃400g，抽真空，氮气置换，以约1～4MPa的压力通入CO，在80℃反应约12h。",
+    "arithmetic_check": "Stated input 40 g of the formula (IV) compound; the section prints no molar amount and no isolated product mass, only a yield of 67.57 percent, so no mass to mole to yield triple can be closed or contradicted. Using the drawn structures for reference only, C10H9BrClF3O3S is about 381.6 g per mol, giving about 0.105 mol, and 67.57 percent of that as C11H10ClF3O5S at about 346.7 g per mol would be about 24.5 g; the patent prints no mass to compare, so nothing is flagged.",
+    "drawing_evidence": "The [IMAGE_EXTRACT reactions] span on line 504 gives one arrow: reactant CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F, conditions H2O and CO, product CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F. This corroborates the single step boundary and the connectivity from formula (IV) to formula (V). Every reagent on the arrow is also written in the prose, and the prose adds the catalyst, ligand, base and solvent that the arrow omits, which is normal abbreviation in a scheme rather than a disagreement. No conflict flag raised."
+  },
+  {
+    "reaction_id": "Example 8_Step 1",
+    "source_lines": [
+      512,
+      512
+    ],
+    "quote_zh": "将式(V)化合物1.5g溶于20mL 1,4-二氧六环中，在5℃下滴加氯化亚砜1.03g，升温至55℃反应，通过高效液相色谱监测反应完成后，旋蒸除去溶剂，得到式(VII)化合物。",
+    "arithmetic_check": "Stated input 1.5 g of the compound of formula (V) and 1.03 g of thionyl chloride. No product mass, no moles and no yield are printed for this step, so no mass balance can be closed or contradicted. Nothing implausible: 1.03 g of thionyl chloride is a modest excess over 1.5 g of the acid on any reading of the drawn structure.",
+    "drawing_evidence": "Arrow step_id 1 of the [IMAGE_EXTRACT: {\"reactions\": ...}] span on line 510: the benzoic acid to benzoyl chloride with SOCl2 over the arrow. It agrees with the prose in reactant, reagent and product."
+  },
+  {
+    "reaction_id": "Example 8_Step 2",
+    "source_lines": [
+      512,
+      512
+    ],
+    "quote_zh": "另将0.5g 1,3-环己二酮溶于15mL二氧六环中，加入0.44g三乙胺，冰浴下滴加到上述制备的式(VII)化合物中。",
+    "arithmetic_check": "Stated input 0.5 g of 1,3-cyclohexanedione and 0.44 g of triethylamine against an unweighed charge of the acid chloride from Step 1. No product mass, no moles and no yield are printed, so nothing can be closed. The printed masses are mutually consistent with roughly one equivalent each of dione and base against the 1.5 g of the formula (V) compound charged in Step 1, but no equivalents are printed and none are recorded.",
+    "drawing_evidence": "Arrow step_id 2 of the line 510 span: acid chloride plus cyclohexane-1,3-dione drawn over the arrow, giving the enol ester. Product and reactants agree with the prose; the arrow carries no triethylamine and no solvent, which the prose states, so reagent_written_not_drawn is raised."
+  },
+  {
+    "reaction_id": "Example 8_Step 3",
+    "source_lines": [
+      514,
+      514
+    ],
+    "quote_zh": "往上述得到的式(VIII)化合物溶液中加入0.1mL丙酮氰醇，60℃反应4h，通过高效液相色谱监测反应完成后，过滤，滤液旋蒸除去溶剂，加入水，用盐酸调节pH为2～3，过滤得到的固体并干燥，得到环磺酮，收率76.59％。",
+    "arithmetic_check": "The only quantities printed for this step are 0.1 mL of acetone cyanohydrin and the 76.59% yield. No input charge, no input moles and no product mass are printed for this step, so the yield cannot be checked against a mass and nothing here can be shown not to close. The yield is stated for this step alone and is not an overall yield from the compound of formula (V); it is recorded on this record only. mass_balance_implausible is not raised because there is no mass to test.",
+    "drawing_evidence": "Arrow step_id 3 of the line 510 span: the enol ester to the C-acylated triketone, structures agreeing with the prose. The reagent over that arrow was recorded by the vision pass as [illegible], so it neither corroborates nor contradicts the acetone cyanohydrin the prose names."
+  },
+  {
+    "reaction_id": "Example 9_Method 1",
+    "source_lines": [
+      518,
+      529
+    ],
+    "quote_zh": "方法1：向高压釜中加入式(IV)化合物94.73g、1,3-环己二酮29.41g、三乙胺27.83g、双[(4-N,N-二甲氨基)苯基]二叔丁基膦二氯化钯3g、溶剂二氧六环250g，氮气置换3次，通入1～4MPa的CO，升高温度，在85℃反应约3h。",
+    "arithmetic_check": "Stated inputs: 94.73 g of the compound of formula (IV) and 29.41 g of 1,3-cyclohexanedione. No moles, no equivalents and no product mass are printed, only a yield of 80%, so the mass/mole consistency check has nothing to close against and mass_balance_implausible is not raised. For A5, the drawn formulae give MW 381.59 for C10H9BrClF3O3S and MW 440.82 for C17H16ClF3O6S, which would put the (IV) charge at about 0.248 mol, the dione at about 0.262 mol (about 1.06 equivalents) and the triethylamine at about 0.275 mol (about 1.11 equivalents), and 80% would then be about 87.6 g of product; none of those derived numbers is printed in the section and none is recorded in the reaction record.",
+    "drawing_evidence": "The [IMAGE_EXTRACT: {\"reactions\": ...}] span on line 523 is the section's only drawing: one arrow from CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F, the compound of formula (IV), to CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F, the (VIII) enol ester, with CO and a drawn but unnamed cyclohexane-1,3-dione on the arrow. It agrees with the prose on the starting material, the product and those two reagents, so no drawing_text_conflict. The arrow carries no palladium catalyst, no triethylamine and no solvent, all of which the procedure states, so reagent_written_not_drawn is raised."
+  },
+  {
+    "reaction_id": "Example 9_Method 2",
+    "source_lines": [
+      527,
+      527
+    ],
+    "quote_zh": "方法2：溶剂替换为乙二醇二乙醚300g，其它与方法1相同，得到(VIII)酯化合物，收率为71.63％。",
+    "arithmetic_check": "The only quantity printed on Method 2's own line is 300 g of ethylene glycol diethyl ether; every other charge is inherited within this section by the explicit 其它与方法1相同. No product mass is printed, only a yield of 71.63%, so there is nothing to check a mass against and mass_balance_implausible is not raised. The two yields, 80% for Method 1 and 71.63% for Method 2, are for the same product by the same transformation in different solvents; they are held on separate records and are not averaged or reconciled.",
+    "drawing_evidence": "No drawing of its own. The single arrow on line 523 covers the transformation of both methods, since the two differ only in solvent, and the same reading applies: connectivity and the CO and dione agree with the prose, and reagent_written_not_drawn is raised for the catalyst, base and solvent that the arrow omits."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 1",
+    "source_lines": [
+      246,
+      251
+    ],
+    "quote_zh": "[0056] 在更具体的实施方式中，上述反应如下执行但不限于此：往式(VI)化合物中滴加溴素，反应完成后，用碱液淬灭，依次用碱液和水洗涤，分液，得到式(I)化合物。所述碱液的具体例子包括但不限于NaOH水溶液等。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield or molar ratio is printed for this step. The only numbers printed are the temperature range 10-30 degrees C at line 248, recorded as a range.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 237 (arrow with no reagent) and at line 241 (same arrow carrying Br2), both CSc1cccc(Cl)c1C to CSc1ccc(Br)c(Cl)c1C. Agrees with the prose, which names bromine and gives the compound of formula (I) as product. The same arrow reappears at lines 379, 392 and as step 2 of the consolidated scheme at lines 405/414. No conflict, so no flag."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 2",
+    "source_lines": [
+      252,
+      254
+    ],
+    "quote_zh": "[0059] 作为原料的式(VI)化合物可以参照例如专利文献CN106631941A等中记载的公知方法通过如下反应制备：",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield, temperature, time or ratio is printed for this step at all.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 254, Cc1c(N)cccc1Cl to CSc1cccc(Cl)c1C with NaNO2, CH3SNa and HCl on the arrow. It is the only source of reagents for this step; the prose names none, so the two cannot conflict, but the reagents are drawn and not written. The same arrow is step 1 of the consolidated scheme at lines 405 and 414."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 3",
+    "source_lines": [
+      264,
+      276
+    ],
+    "quote_zh": "[0062] 在更具体的实施方式中，上述反应可以如下执行但不限于此：将式(I)化合物和溶剂以及任选使用的催化剂混合，升温，往混合物中滴加双氧水，反应完成后，降温过滤，水洗，干燥，得到式(II)化合物。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent or yield is printed. The numbers printed are the temperature range 40-100 degrees C with a preferred 70-90 (line 270) and the molar ratio range about 1-5, preferably 2-3 (line 275). Both are ranges, so no charge and no mass balance exists to check; the ratio is held as text.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 258 (arrow with no reagent) and line 262 (same arrow with H2O2), CSc1ccc(Br)c(Cl)c1C to Cc1c(S(C)(=O)=O)ccc(Br)c1Cl. Agrees with the prose, which names hydrogen peroxide as the oxidant. Repeated at lines 381 and 394 and as step 3 of the consolidated scheme at lines 405/414."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 4",
+    "source_lines": [
+      285,
+      294
+    ],
+    "quote_zh": "[0069] 在更具体的实施方式中，上述反应可以如下执行但不限于此：将式(II)化合物和溶剂以及任选使用的引发剂混合，升温，往混合物中滴加溴代试剂。反应完成后，用碱液淬灭，依次用碱液和水洗涤，蒸发除去溶剂，所得固体干燥，得到式(III)化合物。所述碱液的具体例子包括但不限于NaOH水溶液等。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield or molar ratio is printed for this step. The only numbers are the temperature range 40-100 degrees C with a preferred 50-80 at line 293.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 279 (arrow with no reagent) and line 283 (same arrow with 溴代试剂), Cc1c(S(C)(=O)=O)ccc(Br)c1Cl to CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr. Agrees with the prose, and the drawn product confirms that the bromination is on the benzylic methyl and not on the ring. Repeated at lines 386 and 396 and as step 4 of the consolidated scheme at lines 405/414."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 5",
+    "source_lines": [
+      308,
+      313
+    ],
+    "quote_zh": "[0077] 在更具体的实施方式中，上述反应可以如下执行但不限于此：将式(III)化合物和三氟乙醇钠或三氟乙醇钾分别溶于溶剂中，将式(III)化合物的溶液滴加到三氟乙醇钠或三氟乙醇钾溶液中。反应完毕后，加水淬灭，分液，用饱和食盐水洗涤有机层，蒸除溶剂，用甲醇或乙醇重结晶，干燥，得到式(IV)化合物。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield or molar ratio is printed. The only numbers are the addition temperature range -5 to 15 degrees C at line 312.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 297 (arrow with no reagent) and line 304 (same arrow with CF3CH2OM), CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr to CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F. Agrees with the prose, and the drawn product confirms that the aryl bromide is untouched and only the benzylic bromide is displaced. Repeated at lines 388 and 398 and as step 5 of the consolidated scheme at lines 405/414."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 6",
+    "source_lines": [
+      314,
+      315
+    ],
+    "quote_zh": "[0080] 在更具体的实施方式中，三氟乙醇钠或三氟乙醇钾通过使氢化钠或氢化钾、甲醇钠或甲醇钾、氢氧化钠或氢氧化钾与三氟乙醇反应制备。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield, ratio, temperature or time is printed for this step.",
+    "drawing_evidence": "None. No IMAGE_EXTRACT span in lines 235-421 depicts trifluoroethanol or its alkoxide; the drawings show CF3CH2OM only as a reagent label on the step (iv) arrow at lines 304 and 398."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 7",
+    "source_lines": [
+      320,
+      338
+    ],
+    "quote_zh": "[0082] 在更具体的实施方式中，上述(v-1)的反应可以如下执行但不限于此：向高压釜中加入式(IV)化合物、水、缚酸剂、催化剂、配体和第一溶剂，抽真空，氮气置换，通入CO，在80～120℃、优选80～90℃反应10～20h。过滤，蒸除第一溶剂后，加入第二溶剂溶解，调酸至pH为2～3，析出白色固体，过滤，得到式(V)化合物。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield or molar ratio is printed for this step. Every number printed is a range or a target: 80-120 degrees C preferred 80-90 and 10-20 h (line 320), pH 2-3 (line 320), CO pressure about 1-4 MPa (line 335). None of them is a charge, so there is no mass balance and no molar-mass pair to test.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 318, CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F to CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F with H2O and CO on the arrow. Agrees with the prose, which charges water and admits CO. Repeated with the same two reagents at line 373, unlabelled at line 362, and as step 6 of the consolidated scheme at lines 405/414. The drawing shows no catalyst, ligand or base, which the prose supplies; that is the drawing being less detailed, not a disagreement, so no flag is raised."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 8",
+    "source_lines": [
+      339,
+      357
+    ],
+    "quote_zh": "[0090] 在其他实施方式中，本发明的式(IV)化合物可以通过但不限于如下插羰反应直接制备式(VIII)的酯化合物。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield, ratio, temperature or time is printed for this step at all; line 352 delegates every condition to reaction (v-1) at line 320.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 341 and again at line 375, CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F to CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F with CO and a cyclohexane-1,3-dione drawn as a structure on the arrow. The drawing supplies a reactant the prose never names, which is recorded as reagent_drawn_not_written rather than as a conflict, since the prose does not contradict it. This arrow is absent from the consolidated nine-arrow scheme at lines 405 and 414, which routes the compound of formula (IV) to the ester through the acid and the acid chloride instead; that difference between prose and drawing is noted on Scheme Step 6."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Step 9",
+    "source_lines": [
+      343,
+      350
+    ],
+    "quote_zh": "[0091] 式(V)的羧酸化合物和式(VIII)的酯化合物是环磺酮的重要制备中间体，可以参照例如专利文献DE19846792A1等中公开的已知方法通过如下路线制备环磺酮。",
+    "arithmetic_check": "Nothing to close. No mass, volume, mole, equivalent, yield, ratio, temperature or time is printed. The only formula-level check available is that the drawn ester and the drawn product share the molecular formula C17H16ClF3O6S at line 350, consistent with a rearrangement; it closes.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 350, step_id 3, CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F to CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F, drawn with no reagent on the arrow. The same arrow appears as step 9 of the consolidated scheme at line 414 with 丙酮氰醇 (acetone cyanohydrin) on it, which agrees with the prose at line 348. No conflict."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 1",
+    "source_lines": [
+      409,
+      416
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 1 (and identically at line 416; the same arrow appears without reagent labels at lines 405, 407 and 379-onwards). Agrees with the prose Step 2 and with the standalone drawing at line 254."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 2",
+    "source_lines": [
+      409,
+      416
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 2, reagent Br2. Agrees with the prose Step 1 and with the drawings at lines 241 and 392."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 3",
+    "source_lines": [
+      409,
+      416
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 3, reagent H2O2. Agrees with the prose Step 3 and with the drawings at lines 262 and 394."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 4",
+    "source_lines": [
+      409,
+      418
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 4, reagent 溴代试剂. Agrees with the prose Step 4 and with the drawings at lines 283 and 396; line 418 defines the label."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 5",
+    "source_lines": [
+      409,
+      418
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 5, reagent CF3CH2OM. Agrees with the prose Step 5 and with the drawings at lines 304 and 398; line 418 defines the label."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 6",
+    "source_lines": [
+      409,
+      416
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 6, reagents H2O and CO. Agrees with the prose Step 7 and with the drawings at lines 318 and 373. The direct (IV) to (VIII) arrow drawn at lines 341 and 375 has no counterpart in this nine-arrow scheme."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 7",
+    "source_lines": [
+      409,
+      416
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 7, reagent SOCl2, CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F to CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F. The same arrow appears with no reagent at line 350, step_id 1. No prose counterpart anywhere in the section."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 8",
+    "source_lines": [
+      409,
+      416
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close. An overview drawing carries no charge, no yield and no number of any kind.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 8, condition text naming cyclohexane-1,3-dione drawn as a structure above the arrow. The same arrow appears with no reagent at line 350, step_id 2. No prose counterpart."
+  },
+  {
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 9",
+    "source_lines": [
+      409,
+      416
+    ],
+    "quote_zh": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "arithmetic_check": "Nothing to close on charges. The one check the drawing does permit closes: the reactant and product molecular formulae are both C17H16ClF3O6S, consistent with a rearrangement.",
+    "drawing_evidence": "IMAGE_EXTRACT at line 414, step_id 9, reagent 丙酮氰醇 (acetone cyanohydrin). Agrees with the prose at line 348. The same arrow appears with no reagent at line 350, step_id 3."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (v)",
+    "source_lines": [
+      95,
+      95
+    ],
+    "quote_zh": "其中所述步骤(v)和(v′)分别为以下步骤：",
+    "arithmetic_check": "No charge, no pressure of CO, no mass and no yield is printed, so nothing can be checked arithmetically.",
+    "drawing_evidence": "Line 91 draws the step bare under [0011]; line 97 draws it under [0012] with H2O and CO on the arrow; it opens the composite scheme at lines 141 and 151, bare at 141 and with H2O and CO at 151. All four agree on reactant CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F and product CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F. The prose gives only the step label and no reagents, so the drawings add the reagents rather than contradicting anything."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (v')",
+    "source_lines": [
+      95,
+      95
+    ],
+    "quote_zh": "其中所述步骤(v)和(v′)分别为以下步骤：",
+    "arithmetic_check": "No charge, no pressure, no mass and no yield is printed, so nothing can be checked arithmetically.",
+    "drawing_evidence": "Line 93 draws the step bare under [0011]; line 99 draws it with CO on the arrow and cyclohexane-1,3-dione noted by the vision pass as drawn as a structure rather than written as a name; line 153 draws the same transformation with O=C1CCCC(=O)C1 read as an explicit second reactant alongside CO, and line 143 draws it bare. The four readings are consistent, differing only in how much of the arrow was resolved, so no drawing_text_conflict is raised. The prose names neither the reagents nor the compounds."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (i)",
+    "source_lines": [
+      114,
+      114
+    ],
+    "quote_zh": "所述步骤(i)～(iv)分别独立地为以下步骤",
+    "arithmetic_check": "No charge, no mass, no mole count and no yield is printed anywhere in this section, so there is nothing to close and no mass balance can be checked; the section states the route, not a procedure.",
+    "drawing_evidence": "Line 103 draws the unprimed step (i) with a bare arrow; line 116 draws step (i') with Br2 on the arrow; lines 128 and 135 repeat it as arrow 1 of the four-arrow schemes, bare at 128 and with Br2 at 135. All four agree on reactant CSc1cccc(Cl)c1C and product CSc1ccc(Br)c(Cl)c1C. The prose names neither compound, so the drawings are the only evidence and there is no prose to conflict with them."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (ii)",
+    "source_lines": [
+      114,
+      114
+    ],
+    "quote_zh": "所述步骤(i)～(iv)分别独立地为以下步骤",
+    "arithmetic_check": "No quantities of any kind are printed for this step, so no arithmetic is available to check.",
+    "drawing_evidence": "Line 108 draws step (ii) bare; line 118 draws step (ii') with H2O2 on the arrow; lines 128 and 135 repeat it as arrow 2. All agree on reactant CSc1ccc(Br)c(Cl)c1C and product Cc1c(S(C)(=O)=O)ccc(Br)c1Cl. The prose does not describe this step, so no prose comparison is possible."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (iii)",
+    "source_lines": [
+      124,
+      124
+    ],
+    "quote_zh": "步骤(iii')中，溴代试剂为溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合，优选为溴素",
+    "arithmetic_check": "No quantities are printed; the reagent is given as a choice of three with a stated preference and no stoichiometry.",
+    "drawing_evidence": "Line 110 draws step (iii) bare; line 120 draws step (iii') with 溴代试剂 on the arrow; lines 128 and 135 repeat it as arrow 3, the span at 135 glossing the same label as brominating agent. The drawn reagent label and the prose definition in [0015] and [0018] agree exactly, both naming the class term and both listing the same three alternatives, so nothing is flagged."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (iv)",
+    "source_lines": [
+      124,
+      124
+    ],
+    "quote_zh": "步骤(iv')中，CF3CH2OM为CF3CH2ONa或CF3CH2OK。",
+    "arithmetic_check": "No quantities are printed; the reagent is given as a formula with an undefined metal and two named alternatives, with no stoichiometry.",
+    "drawing_evidence": "Line 112 draws step (iv) bare; line 122 draws step (iv') with CF3CH2OM on the arrow; lines 128 and 135 repeat it as arrow 4. The drawn label CF3CH2OM matches the prose of [0015] and [0018] exactly, including the undefined M, so the drawing and the prose agree and nothing is flagged."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (vi) Arrow 1",
+    "source_lines": [
+      139,
+      141,
+      149,
+      151
+    ],
+    "quote_zh": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 141 ([0019]) and line 151 ([0021]) both read composite step (vi) as FOUR reaction entries, and page image p06.png confirms four drawn arrows: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Line 151 puts H2O and CO on the first arrow; line 141 leaves it bare. In BOTH spans the machine read of arrow 2 has an empty products list and the read of arrow 3 an empty reactants list, so the acid chloride structure is absent from the extract; it is drawn on the page as ClC(=O) on the aryl ring, and the same scheme on page image p27.png is read with the acid chloride explicit. That is a vision-pass gap, not a disagreement between drawing and prose, so no drawing_text_conflict is raised. This entry is arrow 1."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (vi) Arrow 2",
+    "source_lines": [
+      139,
+      141,
+      149,
+      151
+    ],
+    "quote_zh": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 141 ([0019]) and line 151 ([0021]) both read composite step (vi) as FOUR reaction entries, and page image p06.png confirms four drawn arrows: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Line 151 puts H2O and CO on the first arrow; line 141 leaves it bare. In BOTH spans the machine read of arrow 2 has an empty products list and the read of arrow 3 an empty reactants list, so the acid chloride structure is absent from the extract; it is drawn on the page as ClC(=O) on the aryl ring, and the same scheme on page image p27.png is read with the acid chloride explicit. That is a vision-pass gap, not a disagreement between drawing and prose, so no drawing_text_conflict is raised. This entry is arrow 2. It is the arrow the previous pass lost: merging arrows 2 and 3 into one acid-to-ester record dropped the acid chloride, which the page draws."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (vi) Arrow 3",
+    "source_lines": [
+      139,
+      141,
+      149,
+      151
+    ],
+    "quote_zh": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 141 ([0019]) and line 151 ([0021]) both read composite step (vi) as FOUR reaction entries, and page image p06.png confirms four drawn arrows: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Line 151 puts H2O and CO on the first arrow; line 141 leaves it bare. In BOTH spans the machine read of arrow 2 has an empty products list and the read of arrow 3 an empty reactants list, so the acid chloride structure is absent from the extract; it is drawn on the page as ClC(=O) on the aryl ring, and the same scheme on page image p27.png is read with the acid chloride explicit. That is a vision-pass gap, not a disagreement between drawing and prose, so no drawing_text_conflict is raised. This entry is arrow 3. No reagent is on the arrow; cyclohexane-1,3-dione is carried as a reactant because the drawn product is its enol ester, and the same compound is drawn explicitly on the (v') and (vi') arrows at lines 99 and 153."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (vi) Arrow 4",
+    "source_lines": [
+      139,
+      141,
+      149,
+      151
+    ],
+    "quote_zh": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 141 ([0019]) and line 151 ([0021]) both read composite step (vi) as FOUR reaction entries, and page image p06.png confirms four drawn arrows: aryl bromide to benzoic acid, benzoic acid to acid chloride, acid chloride to the 3-oxocyclohex-1-enyl ester, ester to tembotrione. Line 151 puts H2O and CO on the first arrow; line 141 leaves it bare. In BOTH spans the machine read of arrow 2 has an empty products list and the read of arrow 3 an empty reactants list, so the acid chloride structure is absent from the extract; it is drawn on the page as ClC(=O) on the aryl ring, and the same scheme on page image p27.png is read with the acid chloride explicit. That is a vision-pass gap, not a disagreement between drawing and prose, so no drawing_text_conflict is raised. This entry is arrow 4. Reactant and product carry the same molecular formula C17H16ClF3O6S in both spans, consistent with the isomerisation the drawing shows and the only arithmetic this section makes available."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (vi') Arrow 1",
+    "source_lines": [
+      139,
+      143,
+      147,
+      149,
+      153,
+      158
+    ],
+    "quote_zh": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 143 ([0019]) and line 153 ([0021]) both read composite step (vi') as TWO reaction entries, and page image p06.png confirms two drawn arrows: aryl bromide plus cyclohexane-1,3-dione under CO to the enol ester, then ester to tembotrione. Line 153 puts CO on the first arrow and reads cyclohexane-1,3-dione as an explicit second reactant; line 143 draws it bare. The two spans agree and neither contradicts the prose at lines 147 and 158, which state only that the step may be run stepwise or one-pot. This entry is arrow 1."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Scheme Step (vi') Arrow 2",
+    "source_lines": [
+      139,
+      143,
+      147,
+      149,
+      153,
+      158
+    ],
+    "quote_zh": "(7)根据上述(5)或(6)所述的方法，其进一步包括如下步骤：",
+    "arithmetic_check": "Nothing to close. The section prints no mass, no volume, no mole charge, no molar ratio, no concentration and no yield for this step, so no mass balance and no molar-mass check can be computed.",
+    "drawing_evidence": "[IMAGE_EXTRACT] at line 143 ([0019]) and line 153 ([0021]) both read composite step (vi') as TWO reaction entries, and page image p06.png confirms two drawn arrows: aryl bromide plus cyclohexane-1,3-dione under CO to the enol ester, then ester to tembotrione. Line 153 puts CO on the first arrow and reads cyclohexane-1,3-dione as an explicit second reactant; line 143 draws it bare. The two spans agree and neither contradicts the prose at lines 147 and 158, which state only that the step may be run stepwise or one-pot. This entry is arrow 2, the same transformation as Scheme Step (vi) Arrow 4. Reactant and product carry the same molecular formula C17H16ClF3O6S in both spans."
+  }
+]

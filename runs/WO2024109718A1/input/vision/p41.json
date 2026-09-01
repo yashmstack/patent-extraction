@@ -1,0 +1,43 @@
+{
+  "page": "p41.png",
+  "page_label": "INTERNATIONAL SEARCH REPORT / International application No. PCT/CN2023/132821",
+  "doc_part": "front_page",
+  "header": "INTERNATIONAL SEARCH REPORT | International application No. PCT/CN2023/132821",
+  "footer": "Form PCT/ISA/210 (second sheet) (July 2022)",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": null,
+      "en": "C.\tDOCUMENTS CONSIDERED TO BE RELEVANT",
+      "notes": "Section heading of the ISR continuation sheet. This page is a PCT International Search Report sheet, not part of the description or claims; doc_part is set to front_page because the enum has no search_report value."
+    },
+    {
+      "marker": null,
+      "zh": null,
+      "en": "Category* | Citation of document, with indication, where appropriate, of the relevant passages | Relevant to claim No.",
+      "notes": "Column headings of the citation table."
+    },
+    {
+      "marker": null,
+      "zh": null,
+      "en": "A | CN 106008290 A (ANHUI JIUYI AGRICULTURAL CO., LTD.) 12 October 2016 (2016-10-12) description, embodiment 1 | 1-14",
+      "notes": "First citation row."
+    },
+    {
+      "marker": null,
+      "zh": null,
+      "en": "A | CN 109678767 A (ZHEJIANG ZHONGSHAN CHEMICAL INDUSTRY GROUP CO., LTD.) 26 April 2019 (2019-04-26) description, paragraphs [0011]-[0029] | 1-14",
+      "notes": "Second citation row. The bracketed numbers [0011]-[0029] are paragraph references inside the cited document CN 109678767 A, not paragraph markers of this patent."
+    },
+    {
+      "marker": null,
+      "zh": null,
+      "en": "A | CN 114560795 A (ZHEJIANG XIANFENG SCIENCE TECHNOLOGY CO., LTD.) 31 May 2022 (2022-05-31) claims 1-10 | 1-14",
+      "notes": "Third citation row."
+    }
+  ],
+  "drawings": [],
+  "discrepancies": [],
+  "illegible": [],
+  "page_confidence": "high"
+}

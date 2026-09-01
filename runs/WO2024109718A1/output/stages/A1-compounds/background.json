@@ -1,0 +1,1159 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "tembotrione",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "环磺酮",
+      "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": true,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:active_ingredient",
+      "chemical_family:triketone",
+      "functional_group:sulfone",
+      "functional_group:ketone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Named in the prose as 环磺酮 (a triketone herbicide) and as the target of the DE19846792A1 process. The final product of step 11 of both drawn schemes is the same structure and is added as a SMILES alias per rule 4b. is_section_product is true because both routes in this section end at it. commercially_available is false because the section describes processes that prepare it."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "dichlorotoluene",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "二氯甲苯",
+      "Cc1c(Cl)cccc1Cl"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "The prose names the starting material of the DE19846792A1 route only as 二氯甲苯 with no locants, so the name alone does not identify one isomer and resolved is false. The step-1 reactant drawn in the scheme immediately above it is Cc1c(Cl)cccc1Cl (2,6-dichlorotoluene); the SMILES is kept as an alias and the unlocanted prose name is kept verbatim rather than silently corrected."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "3-chloro-2-methylaniline",
+    "identifier_type": "iupac",
+    "aliases": [
+      "Cc1c(N)cccc1Cl"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:aniline",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Drawing-only: the step-1 reactant of the CN200510030163.5 scheme. The prose never names it. This is the single starting material by which the two prior-art routes in this section differ."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CH3SNa",
+    "identifier_type": "formula",
+    "aliases": [
+      "sodium methanethiolate",
+      "sodium thiomethoxide"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Written over the arrow of step 1 in both prior-art schemes. Kept as the formula printed in the drawing."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "NaNO2",
+    "identifier_type": "formula",
+    "aliases": [
+      "sodium nitrite"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Drawing-only: over the arrow of step 1 of the CN200510030163.5 scheme, with CH3SNa and HCl, i.e. a diazotisation of the aniline."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "HCl",
+    "identifier_type": "formula",
+    "aliases": [
+      "hydrochloric acid",
+      "hydrogen chloride"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "acid",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:acid",
+      "hazard:corrosive"
+    ],
+    "notes": "Drawing-only: over the arrow of step 1 of the CN200510030163.5 scheme."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+    "identifier_type": "iupac",
+    "aliases": [
+      "CSc1cccc(Cl)c1C"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:aryl_sulfide",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Drawing-only: product of step 1 and reactant of step 2 in both prior-art schemes. One record for both occurrences."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "acetyl chloride",
+    "identifier_type": "iupac",
+    "aliases": [
+      "乙酰氯",
+      "CH3COCl"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:corrosive"
+    ],
+    "notes": "Over the arrow of step 2 in both prior-art schemes as CH3COCl, and named in the prose as 乙酰氯 in the Friedel-Crafts acylation the section criticises as 刺激性大 (highly irritating), which is why a hazard tag is emitted."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "aluminium trichloride",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三氯化铝",
+      "AlCl3"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Over the arrow of step 2 of the DE19846792A1 scheme as AlCl3; the prose names it in Chinese as 催化剂三氯化铝 (the catalyst aluminium trichloride) in the waste water it produces, which fixes the role. The CN200510030163.5 scheme prints no catalyst over its step 2."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one",
+    "identifier_type": "iupac",
+    "aliases": [
+      "CSc1ccc(C(C)=O)c(Cl)c1C"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:acetophenone",
+      "functional_group:ketone",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Drawing-only: product of step 2 and reactant of step 3 in both prior-art schemes."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "H2O2",
+    "identifier_type": "formula",
+    "aliases": [
+      "hydrogen peroxide"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "oxidant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Over the arrow of step 3 in both prior-art schemes, oxidising the sulfide to the sulfone."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1-[2-chloro-4-(methanesulfonyl)-3-methylphenyl]ethan-1-one",
+    "identifier_type": "iupac",
+    "aliases": [
+      "CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:acetophenone",
+      "functional_group:sulfone",
+      "functional_group:ketone",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Drawing-only: product of step 3 and reactant of step 4 in both prior-art schemes."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "sodium hypochlorite",
+    "identifier_type": "iupac",
+    "aliases": [
+      "次氯酸钠",
+      "NaClO"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "oxidant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Over the arrow of step 4 in both prior-art schemes as NaClO, and named in the prose as 次氯酸钠 in 次氯酸钠卤仿反应 (the sodium hypochlorite haloform reaction)."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "2-chloro-4-(methanesulfonyl)-3-methylbenzoic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid",
+      "functional_group:sulfone",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Drawing-only: product of step 4 and reactant of step 5 in both prior-art schemes."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CH3OH",
+    "identifier_type": "formula",
+    "aliases": [
+      "methanol",
+      "甲醇"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Over the arrow of step 5 in both prior-art schemes, esterifying the benzoic acid. Recorded as reagent rather than solvent because the scheme uses it to form the methyl ester and the section says nothing about a reaction medium here."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "methyl 2-chloro-4-(methanesulfonyl)-3-methylbenzoate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoate_ester",
+      "functional_group:ester",
+      "functional_group:sulfone",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Drawing-only: product of step 5 and reactant of step 6 in both prior-art schemes."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "NBS",
+    "identifier_type": "abbreviation",
+    "aliases": [
+      "N-bromosuccinimide"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Drawing-only: over the arrow of step 6 of the DE19846792A1 scheme. The CN200510030163.5 scheme uses Br2 at the same step."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "Br2",
+    "identifier_type": "formula",
+    "aliases": [
+      "bromine",
+      "溴"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:corrosive",
+      "hazard:toxic"
+    ],
+    "notes": "Drawing-only: over the arrow of step 6 of the CN200510030163.5 scheme, where the DE19846792A1 scheme uses NBS."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "methyl 3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzoate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzyl_halide",
+      "functional_group:ester",
+      "functional_group:sulfone",
+      "functional_group:halide_bromo",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Drawing-only: product of step 6 and reactant of step 7 in both prior-art schemes."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CF3CH2ONa",
+    "identifier_type": "formula",
+    "aliases": [
+      "sodium 2,2,2-trifluoroethoxide"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "Over the arrow of step 7 in both prior-art schemes, installing the trifluoroethoxy ether."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "methyl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoate_ester",
+      "functional_group:ester",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Drawing-only: product of step 7 and reactant of step 8 in both prior-art schemes."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "NaOH",
+    "identifier_type": "formula",
+    "aliases": [
+      "sodium hydroxide"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base",
+      "hazard:corrosive"
+    ],
+    "notes": "Over the arrow of step 8 in both prior-art schemes, hydrolysing the methyl ester."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Drawing-only: product of step 8 and reactant of step 9 in both prior-art schemes."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "(COCl)2",
+    "identifier_type": "formula",
+    "aliases": [
+      "oxalyl chloride"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:corrosive"
+    ],
+    "notes": "Drawing-only: over the arrow of step 9 of the DE19846792A1 scheme. The CN200510030163.5 scheme uses SOCl2 at the same step."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "SOCl2",
+    "identifier_type": "formula",
+    "aliases": [
+      "thionyl chloride"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:corrosive"
+    ],
+    "notes": "Drawing-only: over the arrow of step 9 of the CN200510030163.5 scheme, where the DE19846792A1 scheme uses (COCl)2."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+    "identifier_type": "iupac",
+    "aliases": [
+      "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoyl_chloride",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Drawing-only: product of step 9 and reactant of step 10 in both prior-art schemes."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "cyclohexane-1,3-dione",
+    "identifier_type": "iupac",
+    "aliases": [],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:cyclohexanedione",
+      "functional_group:ketone"
+    ],
+    "notes": "Drawn as a structure above the arrow of step 10 in both prior-art schemes and read out by the vision pass under that name; the prose never mentions it. The locants are given by the machine read itself, so no inference about which dione is needed."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:cyclohexanedione",
+      "functional_group:ester",
+      "functional_group:ketone",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Drawing-only: the enol ester, product of step 10 and reactant of the final rearrangement step 11 in both prior-art schemes. Step 11 carries no reagent over its arrow."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "卤仿",
+    "identifier_type": "other",
+    "aliases": [
+      "haloform"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "by_product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:by_product"
+    ],
+    "notes": "The prose states that haloform is formed during the sodium hypochlorite reaction. 卤仿 is a class name and the section does not say which haloform, so resolved is false and the Chinese is kept verbatim. The later phrase 氯仿反应 in the same sentence names a reaction, not a reagent, and is not extracted as chloroform."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "sodium chloride",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氯化钠"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "by_product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:by_product"
+    ],
+    "notes": "Named in the prose as the salt in the waste water produced by the sodium hypochlorite haloform reaction."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "water",
+    "identifier_type": "iupac",
+    "aliases": [
+      "水"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "The prose states the sodium hypochlorite haloform reaction is run 在水相进行 (in the aqueous phase), which names water as the reaction medium. No quantity is given anywhere in the section."
+  }
+]

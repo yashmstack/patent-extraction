@@ -1,0 +1,230 @@
+[
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "tembotrione",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "环磺酮"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:active_ingredient",
+      "chemical_family:triketone",
+      "functional_group:sulfone",
+      "functional_group:ketone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "环磺酮 is the standard Chinese common name for tembotrione and is kept as an alias. Named in [0002] as the compound the prior art industrial method prepares, and again in [0003] (传统方法制备环磺酮), so role is product; the two mentions are merged into this one record. is_section_product is false because this is a background section, not a preparative step. The section itself gives no chemical name or structure for it."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "2,2,2-trifluoroethanol",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三氟乙醇",
+      "trifluoroethanol"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "Printed as 三氟乙醇 in the prior art route 三氟乙醇、叔丁醇钾法; resolved to 2,2,2-trifluoroethanol, the only compound that name designates. Role is reactant because it is the source of the trifluoroethoxy group in the named key intermediate. No quantity is given."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "potassium tert-butoxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "叔丁醇钾"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": "The text states its role explicitly: 采用叔丁醇钾做碱 (potassium tert-butoxide used as the base). The section criticises it as low-yielding and expensive."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+    "identifier_type": "iupac",
+    "aliases": [
+      "2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Named twice in [0002] as 关键中间体 (key intermediate) of the prior art route; merged into one record. The printed Chinese writes the sulfone as 甲磺基, without 酰; resolved as methylsulfonyl, which is what 甲磺基 denotes here, and the Chinese is kept verbatim as an alias. Role is product because the section says the prior art method prepares it, and it feeds the later acyl chlorination step, hence compound_class intermediate."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "acetone cyanohydrin",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "丙酮氰醇"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst",
+      "functional_group:nitrile",
+      "hazard:toxic",
+      "hazard:cyanide_handling"
+    ],
+    "notes": "The printed string is 丙酮氰醇, read character by character: acetone cyanohydrin, not 氰基丙酮 (cyanoacetone). The text states its role, 为重排催化剂 (as rearrangement catalyst), and warns 剧毒试剂 (highly toxic reagent), which is what the hazard tags record. Chinese and the EN line agree."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "identifier": "thionyl chloride",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "二氯亚砜"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:corrosive"
+    ],
+    "notes": "Printed as 二氯亚砜, a Chinese name for thionyl chloride (SOCl2); resolved, Chinese kept as an alias. The text states its role, 作酰氯化试剂 (as the acyl chlorinating agent), and that 二氯亚砜对环境有很大危害 (it is very harmful to the environment); it names no other hazard, so only corrosive is tagged, per the rule 18 example. Named twice in [0002] and merged into one record."
+  }
+]

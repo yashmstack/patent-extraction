@@ -1,0 +1,39 @@
+{
+  "patent_id": "US20040236146A1",
+  "family_id": "7698422",
+  "title_en": "Method for producing 3-bromomethylbenzoic acids",
+  "title_zh": null,
+  "application_number": "US:10/489,142",
+  "publication_number": "US:20040236146:A1",
+  "publication_date": "2004-11-25",
+  "priority_date": "2001-09-11",
+  "filing_date": "2002-08-29",
+  "grant_publication": null,
+  "grant_date": null,
+  "jurisdiction": "us",
+  "language": "en",
+  "assignees": [
+    {
+      "name": "Bayer CropScience AG",
+      "country": "DE",
+      "type": "multinational_corp"
+    }
+  ],
+  "inventors": [
+    {
+      "name": "Hansjorg Lehmann",
+      "country": "DE"
+    }
+  ],
+  "legal_status": "Abandoned",
+  "source": "https://patents.google.com/patent/US20040236146A1/en",
+  "retrieved": "2026-08-28",
+  "abstract_zh": "A process is described for preparing 3-bromomethylbenzoic acids of the formula II by brominating the corresponding 3-methylbenzoic acids. In addition, compounds of the formula II are described where R1 is fluorine chlorine or bromine, and R2 is (C1-C4)alkyl.",
+  "ipc_codes": [
+    "C07C 315/04",
+    "C07C 317/44"
+  ],
+  "title_en_note": "The patent is in English, so there is no translation risk in the title. Taken verbatim from the (54) line on the cover page, which matches Google Patents. Note the title says 3-bromomethylbenzoic acids in general; every worked example makes a 2-halo-4-alkylsulfonyl member of that class, and the claimed compound genus in claim 19 excludes 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid, which the patent itself says is already known from EP-A 0 292 944.",
+  "biblio_note": "The published document carries no (73) assignee: the cover page shows only (76) Inventor, Hansjorg Lehmann, Wutoschingen (DE). Bayer CropScience AG is Google Patents' current and original assignee, and the USPTO assignment record dated 2004-03-10 records LEHMANN, HANSJOERG assigning to BAYER CROPSCIENCE GMBH. The assignees array therefore states a fact from the register rather than from the face of the document. Filed as PCT/EP02/09630 with a DE priority application of 2001-09-11; the priority application number prints as an OCR-damaged 101444.125 and is DE 101 44 412.5. Legal status Abandoned, so grant_date is null.",
+  "text_provenance": "Born-digital scan with an OCR text layer, 4 pages. Google Patents' own description text carries the same OCR damage as the PDF text layer (1 I stirred apparatus for 1 l, II g of bromine for 11 g, azoisobutyroniltrile, 2-chloro-3-methyl-4-sulfonylmethylbenzoic acid where the name should be 4-methylsulfonyl), so the two are not independent sources. The vision pass over the rendered page images is the arbiter for those, and RUN-NOTES.md records where it disagrees with the text layer."
+}

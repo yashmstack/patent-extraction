@@ -1,0 +1,306 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 7_Step 1",
+    "section_label": "Example 7",
+    "section_type": "experimental_intermediate",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "other_cross_coupling",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "lab",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "exact",
+        "value_c": 80.0,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "elevated",
+        "value_kpa": null,
+        "qualitative_text": "CO introduced at about 1 to 4 MPa"
+      },
+      "atmosphere": "carbon monoxide, after evacuation and nitrogen replacement",
+      "time_h": 12.0,
+      "reactor_type": "autoclave",
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "filtered",
+        "tetrahydrofuran removed by rotary evaporation",
+        "residue dissolved in methanol",
+        "acidified to pH 2 to 3",
+        "white solid precipitated",
+        "filtered",
+        "filter cake washed with water",
+        "filter cake slurried and filtered"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "water"
+      ],
+      "drying_agent": null,
+      "filtration": "filtered after the reaction, again after precipitation, and again after slurrying",
+      "concentration_method": "rotary evaporation",
+      "ph_target": null
+    },
+    "purification": "precipitated from methanol on acidification, filtered, and the filter cake washed with water then slurried and filtered",
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "reaction complete"
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(IV)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 40.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 20.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "triethylamine",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 26.49,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "PdCl2",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 0.4,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,3-bis(diphenylphosphino)propane",
+        "role": "ligand",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 3.95,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tetrahydrofuran",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 400.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged to the autoclave",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CO",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "introduced under pressure after the vessel was evacuated and purged with nitrogen",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "nitrogen",
+        "role": "other",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "used to replace the atmosphere after evacuation",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "methanol",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added in the workup to dissolve the residue",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(V)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": 67.57
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(IV)化合物",
+      "CO",
+      "water"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(V)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": 67.57,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "向高压釜中加入式(IV)化合物40g、水20g、三乙胺26.49g、PdCl2催化剂0.4g、配体1,3-双(二苯基膦)丙烷3.95g、溶剂四氢呋喃400g，抽真空，氮气置换，以约1～4MPa的压力通入CO，在80℃反应约12h。通过高效液相色谱监测反应完成后，过滤，旋蒸除去溶剂四氢呋喃，加入甲醇溶解，调酸至pH为2～3，析出白色固体，过滤，滤饼经水洗、打浆后过滤，得到式(V)化合物，收率67.57％，熔点155-157℃。",
+    "procedure_summary": "The formula (IV) aryl bromide is hydroxycarbonylated in an autoclave with carbon monoxide and water over a palladium chloride catalyst with a bis(diphenylphosphino)propane ligand, triethylamine as base and tetrahydrofuran as solvent. After the solvent is stripped the residue is taken up in methanol, acidified, and the precipitated white solid is filtered, water washed and slurried to give the formula (V) carboxylic acid.",
+    "precursor_step": "Example 5::Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:carbonylation",
+      "mechanism:catalytic",
+      "analytics:hplc",
+      "analytics:melting_point",
+      "scale:lab",
+      "atmosphere:carbon_monoxide",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:palladium",
+      "workup_type:precipitation",
+      "workup_type:filtration",
+      "purification:trituration",
+      "safety:high_pressure",
+      "step_role:intermediate_step",
+      "linkage:cross_section_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "One step, matching the A0 estimate of one. Palladium catalysed hydroxycarbonylation of the formula (IV) aryl bromide with carbon monoxide and water; the class list has no carbonylation entry, so reaction_class is other_cross_coupling, the same value Example 6 carries for the identical transformation. The starting material 式(IV)化合物 is the section product of Example 5 under the identical A1 identifier and the identical drawn SMILES, so the charge is matched by compound identity; precursor_step is Example 5::Step 1 and linkage_confirmed is true. Pressure is recorded as an elevated condition with the printed range in qualitative_text, not as a quantity. The drawn scheme immediately above the procedure shows the same single arrow, the same aryl bromide reactant, H2O and CO on the arrow and the carboxylic acid product, and so agrees with the prose; nothing is flagged. The autoclave is 高压釜; no stirrer is named, so stirring type is left null. No isolated mass is printed, only a yield percentage, so no mass balance arithmetic is available to contradict. Melting point of the product is reported in the text and carried on the A1 compound record. Reaction class across the carbonylations of this document: Examples 6 and 7 are the same transformation of the same substrate under CO, differing only in the phosphine ligand and the solvent, and Examples 9, 10 and 11 carbonylate the same aryl bromide as well. The class list has no carbonylation entry, so one value is chosen and used for all of them, other_cross_coupling: every one of them replaces a C-Br bond on an arene by a new carbon-carbon bond over a palladium/phosphine catalyst, which is the cross-coupling family, and other is reserved for transformations that fit no family at all. Using other for one of a matched pair and other_cross_coupling for the other would make two examples of one procedure look like two different reactions. Example 10 is the exception: it is one-pot and rule 5 takes its class from the final transformation, the rearrangement, not from its carbonylation stage."
+  }
+]

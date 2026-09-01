@@ -1,0 +1,927 @@
+{
+  "三氟乙醇钠": {
+    "en": "sodium trifluoroethoxide",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. It is spelled 'sodium trifluoroethoxide', 'sodium 2,2,2-trifluoroethoxide' across the records. They are not in one equivalence group, so the spread is a spelling split the gold has not indexed. Surfaces as: an alias on a gold compound record (x2); quote_zh on a provenance row, the evidence for a record (x2); a Chinese term quoted inside the annotator's English commentary on a provenance row (x2)."
+  },
+  "2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯": {
+    "en": "methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. It is spelled 'methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate', 'methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate', 'methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate', 'methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate' across the records. provenance/compounds-equivalence.json groups those spellings as one substance under 'methyl2chloro3brmet4msbz'. Surfaces as: an alias on a gold compound record (x4); a Chinese term quoted inside the annotator's English commentary on a provenance row."
+  },
+  "2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸": {
+    "en": "2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. It is spelled '2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid', '2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid', '2-chloro-3-(trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid', '2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid', '2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid' across the records. provenance/compounds-equivalence.json groups those spellings as one substance under '2chloro3trifluoroethoxymethyl4msbz'. Surfaces as: an alias on a gold compound record (x5); a Chinese term quoted inside the annotator's English commentary on a provenance row."
+  },
+  "1，3-环己二酮": {
+    "en": "1,3-cyclohexanedione",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "1,3-环己二酮": {
+    "en": "1,3-cyclohexanedione",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record; a Chinese term quoted inside the annotator's English commentary on a provenance row (x2)."
+  },
+  "化合物III": {
+    "en": "1,3-cyclohexanedione",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "环磺酮": {
+    "en": "tembotrione",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record; a Chinese term left inside the English of a translated source line; a Chinese term quoted inside the annotator's English commentary on a provenance row."
+  },
+  "化合物IV": {
+    "en": "tembotrione",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record; a Chinese term quoted inside the annotator's English commentary on a provenance row (x2)."
+  },
+  "成品环磺酮": {
+    "en": "tembotrione",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record; a Chinese term quoted inside the annotator's English commentary on a provenance row."
+  },
+  "三氟乙醇": {
+    "en": "2,2,2-trifluoroethanol",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "叔丁醇钾": {
+    "en": "potassium tert-butoxide",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "丙酮氰醇": {
+    "en": "acetone cyanohydrin",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "二氯亚砜": {
+    "en": "thionyl chloride",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record; a Chinese term left inside the English of a translated source line."
+  },
+  "化合物I": {
+    "en": "methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. It is spelled 'methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate', 'methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate', 'methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate', 'methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate' across the records. provenance/compounds-equivalence.json groups those spellings as one substance under 'methyl2chloro3brmet4msbz'. Surfaces as: an alias on a gold compound record (x3); a Chinese term quoted inside the annotator's English commentary on a provenance row (x2)."
+  },
+  "碳酸钠": {
+    "en": "sodium carbonate",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "碳酸钾": {
+    "en": "potassium carbonate",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record; a Chinese term quoted inside the annotator's English commentary on a provenance row."
+  },
+  "氢氧化钙": {
+    "en": "calcium hydroxide",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "三乙胺": {
+    "en": "triethylamine",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record; a Chinese term quoted inside the annotator's English commentary on a provenance row."
+  },
+  "吡啶": {
+    "en": "pyridine",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record; a Chinese term quoted inside the annotator's English commentary on a provenance row."
+  },
+  "N,N'-羰基二咪唑": {
+    "en": "N,N'-carbonyldiimidazole",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "N,N’-羰基二咪唑": {
+    "en": "N,N'-carbonyldiimidazole",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "O-苯并三氮唑-四甲基脲六氟磷酸酯": {
+    "en": "O-benzotriazolyl-tetramethyluronium hexafluorophosphate",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "1-羟基苯并三唑": {
+    "en": "1-hydroxybenzotriazole",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "1,8-二氮杂二环十一碳-7-烯": {
+    "en": "1,8-diazabicycloundec-7-ene",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "己烷": {
+    "en": "hexane",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "环己烷": {
+    "en": "cyclohexane",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "N,N-二甲基甲酰胺": {
+    "en": "N,N-dimethylformamide",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "N，N-二甲基甲酰胺": {
+    "en": "N,N-dimethylformamide",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "苯": {
+    "en": "benzene",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "甲苯": {
+    "en": "toluene",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "二甲苯": {
+    "en": "xylene",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "二氯甲烷": {
+    "en": "dichloromethane",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "1,2-二氯乙烷": {
+    "en": "1,2-dichloroethane",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "氯仿": {
+    "en": "chloroform",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "1,4-二氧六环": {
+    "en": "1,4-dioxane",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "乙醚": {
+    "en": "diethyl ether",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "四氢呋喃": {
+    "en": "tetrahydrofuran",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "乙腈": {
+    "en": "acetonitrile",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "氢氧化钠": {
+    "en": "sodium hydroxide",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record; a Chinese term quoted inside the annotator's English commentary on a provenance row."
+  },
+  "水": {
+    "en": "water",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "盐酸": {
+    "en": "hydrochloric acid",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "35％的盐酸": {
+    "en": "35% hydrochloric acid",
+    "origin": "curated",
+    "note": "Hand-authored, and deliberately preferred over the source's own translation of the line: the source translates the whole paragraph this phrase was quoted out of, which is not a translation of the phrase. Surfaces as: an alias on a gold compound record. Preferred over the gold_alias tier, which answers the wrong question here. The alias data resolves this string to 'hydrochloric acid', which is the right substance and the wrong strength, and the strength is a fact about what was charged: every example acidifies with the 35 percent acid, not with acid of unstated concentration. The reactions artifact already carries 35 as conditions.concentration on each step a, so the fact was never missing from the annotation, only from this index."
+  },
+  "化合物II": {
+    "en": "compound II",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. It is spelled 'compound II', '2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid' across the records. They are not in one equivalence group, so the spread is a spelling split the gold has not indexed. Surfaces as: the identifier of a gold compound record; an alias on a gold compound record; a Chinese term quoted inside the annotator's English commentary on a provenance row (x12)."
+  },
+  "缩合剂CDI": {
+    "en": "CDI",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record; a Chinese term quoted inside the annotator's English commentary on a provenance row."
+  },
+  "甲醇": {
+    "en": "methanol",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "甲、醇": {
+    "en": "methanol",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record. The identifier of a gold compound record. As printed on line 159 the string names no compound: an enumeration comma sits inside the two characters of the word for methanol, giving 甲、醇. Read as methanol, on the evidence that the parallel step in examples 1, 2, 4 and 5 all print 加甲醇打浆 in the same slot. The English keeps the artefact visible in words rather than silently repairing it, because the compound record deliberately carries the identifier unresolved."
+  },
+  "氢氧化钾": {
+    "en": "potassium hydroxide",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "缩合剂HBTU": {
+    "en": "HBTU",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "二氯乙烷": {
+    "en": "dichloroethane",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "缩合剂HOBT": {
+    "en": "HOBT",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "缩合剂DBU": {
+    "en": "DBU",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record; a Chinese term quoted inside the annotator's English commentary on a provenance row."
+  },
+  "氢氧化锂": {
+    "en": "lithium hydroxide",
+    "origin": "gold_alias",
+    "note": "The gold already carries this molecule in English. Surfaces as: an alias on a gold compound record."
+  },
+  "该方法采用三氟乙醇钠与2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯反应": {
+    "en": "The present invention discloses a process for the preparation of tembotrione, belonging to the technical field of organic chemical industry. The process uses sodium trifluoroethoxide to react with methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate, and the resulting 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid is condensed and rearranged with 1,3-cyclohexanedione to prepare tembotrione. The preparation process for tembotrione provided by the present invention overcomes the shortcomings of the traditional process, in which methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate is used with trifluoroethanol and potassium tert-butoxide to prepare 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid in low yield and the potassium tert-butoxide reagent is expensive; at the same time it overcomes the shortcoming of the route in which the carboxyl group is converted to the acid chloride and then to the ester followed by rearrangement, which requires the highly toxic catalyst acetone cyanohydrin. It has the advantages of high yield, low cost, ease of operation, little pollution and safety for the environment, and is suitable for large-scale industrial production.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 39. Surfaces as: quote_zh on a provenance row, the evidence for a record; quote on an A5 audit finding, the evidence for a defect."
+  },
+  "三氟乙醇钠与2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯反应": {
+    "en": "The present invention discloses a process for the preparation of tembotrione, belonging to the technical field of organic chemical industry. The process uses sodium trifluoroethoxide to react with methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate, and the resulting 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid is condensed and rearranged with 1,3-cyclohexanedione to prepare tembotrione. The preparation process for tembotrione provided by the present invention overcomes the shortcomings of the traditional process, in which methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate is used with trifluoroethanol and potassium tert-butoxide to prepare 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid in low yield and the potassium tert-butoxide reagent is expensive; at the same time it overcomes the shortcoming of the route in which the carboxyl group is converted to the acid chloride and then to the ester followed by rearrangement, which requires the highly toxic catalyst acetone cyanohydrin. It has the advantages of high yield, low cost, ease of operation, little pollution and safety for the environment, and is suitable for large-scale industrial production.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 39. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "生成的2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸与1，3-环己二酮缩合重排制备环磺酮": {
+    "en": "The present invention discloses a process for the preparation of tembotrione, belonging to the technical field of organic chemical industry. The process uses sodium trifluoroethoxide to react with methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate, and the resulting 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid is condensed and rearranged with 1,3-cyclohexanedione to prepare tembotrione. The preparation process for tembotrione provided by the present invention overcomes the shortcomings of the traditional process, in which methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate is used with trifluoroethanol and potassium tert-butoxide to prepare 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid in low yield and the potassium tert-butoxide reagent is expensive; at the same time it overcomes the shortcoming of the route in which the carboxyl group is converted to the acid chloride and then to the ester followed by rearrangement, which requires the highly toxic catalyst acetone cyanohydrin. It has the advantages of high yield, low cost, ease of operation, little pollution and safety for the environment, and is suitable for large-scale industrial production.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 39. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "与1，3-环己二酮缩合重排制备环磺酮": {
+    "en": "The present invention discloses a process for the preparation of tembotrione, belonging to the technical field of organic chemical industry. The process uses sodium trifluoroethoxide to react with methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate, and the resulting 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid is condensed and rearranged with 1,3-cyclohexanedione to prepare tembotrione. The preparation process for tembotrione provided by the present invention overcomes the shortcomings of the traditional process, in which methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate is used with trifluoroethanol and potassium tert-butoxide to prepare 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid in low yield and the potassium tert-butoxide reagent is expensive; at the same time it overcomes the shortcoming of the route in which the carboxyl group is converted to the acid chloride and then to the ester followed by rearrangement, which requires the highly toxic catalyst acetone cyanohydrin. It has the advantages of high yield, low cost, ease of operation, little pollution and safety for the environment, and is suitable for large-scale industrial production.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 39. Surfaces as: quote_zh on a provenance row, the evidence for a record; quote on an A5 audit finding, the evidence for a defect."
+  },
+  "本发明公开了一种环磺酮的制备方法": {
+    "en": "The present invention discloses a process for the preparation of tembotrione, belonging to the technical field of organic chemical industry. The process uses sodium trifluoroethoxide to react with methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate, and the resulting 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid is condensed and rearranged with 1,3-cyclohexanedione to prepare tembotrione. The preparation process for tembotrione provided by the present invention overcomes the shortcomings of the traditional process, in which methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate is used with trifluoroethanol and potassium tert-butoxide to prepare 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid in low yield and the potassium tert-butoxide reagent is expensive; at the same time it overcomes the shortcoming of the route in which the carboxyl group is converted to the acid chloride and then to the ester followed by rearrangement, which requires the highly toxic catalyst acetone cyanohydrin. It has the advantages of high yield, low cost, ease of operation, little pollution and safety for the environment, and is suitable for large-scale industrial production.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 39. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "用2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯和三氟乙醇、叔丁醇钾制备": {
+    "en": "The present invention discloses a process for the preparation of tembotrione, belonging to the technical field of organic chemical industry. The process uses sodium trifluoroethoxide to react with methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate, and the resulting 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid is condensed and rearranged with 1,3-cyclohexanedione to prepare tembotrione. The preparation process for tembotrione provided by the present invention overcomes the shortcomings of the traditional process, in which methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate is used with trifluoroethanol and potassium tert-butoxide to prepare 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid in low yield and the potassium tert-butoxide reagent is expensive; at the same time it overcomes the shortcoming of the route in which the carboxyl group is converted to the acid chloride and then to the ester followed by rearrangement, which requires the highly toxic catalyst acetone cyanohydrin. It has the advantages of high yield, low cost, ease of operation, little pollution and safety for the environment, and is suitable for large-scale industrial production.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 39. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "和三氟乙醇、叔丁醇钾制备2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸收率低": {
+    "en": "The present invention discloses a process for the preparation of tembotrione, belonging to the technical field of organic chemical industry. The process uses sodium trifluoroethoxide to react with methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate, and the resulting 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid is condensed and rearranged with 1,3-cyclohexanedione to prepare tembotrione. The preparation process for tembotrione provided by the present invention overcomes the shortcomings of the traditional process, in which methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate is used with trifluoroethanol and potassium tert-butoxide to prepare 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid in low yield and the potassium tert-butoxide reagent is expensive; at the same time it overcomes the shortcoming of the route in which the carboxyl group is converted to the acid chloride and then to the ester followed by rearrangement, which requires the highly toxic catalyst acetone cyanohydrin. It has the advantages of high yield, low cost, ease of operation, little pollution and safety for the environment, and is suitable for large-scale industrial production.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 39. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "需要剧毒催化剂丙酮氰醇的缺点": {
+    "en": "Compared with the prior art, the present invention has the following advantages: the present invention provides a process for preparing tembotrione, which uses sodium trifluoroethoxide as the reactant, overcoming the low yield and high cost of preparing the key intermediate 2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-methylsulfonylbenzoic acid from trifluoroethanol and potassium tert-butoxide, and also overcoming the drawback of the route in which the carboxyl group is converted to the acid chloride, then to the ester, and then rearranged, which requires the highly toxic catalyst acetone cyanohydrin; it gives a high reaction yield, low cost, easy operation, little pollution and is safe and environmentally friendly, and is suitable for large-scale industrial production.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 128. Surfaces as: quote_zh on a provenance row, the evidence for a record (x2)."
+  },
+  "环磺酮是迄今为止活性较高、用量较少，且比较安全的一类除草剂，其工业制备方法主要是三氟乙醇、叔丁醇钾法制备关键中间体": {
+    "en": "Tembotrione is to date a class of herbicide with relatively high activity, low application rate and comparatively good safety. Its industrial preparation is mainly the trifluoroethanol / potassium tert-butoxide method to prepare the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, followed by acyl chlorination of the carboxyl group, esterification and then rearrangement; this method gives a relatively low yield of finished product and uses expensive reagents. Among these, in preparing the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, potassium tert-butoxide is used as the base, the yield is relatively low and the reagent is expensive; the acyl chlorination / esterification / rearrangement route requires the highly toxic reagent acetone cyanohydrin as rearrangement catalyst, and requires thionyl chloride (written 二氯亚砜) as the acyl chlorinating agent, and thionyl chloride is very harmful to the environment.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 85. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "其工业制备方法主要是三氟乙醇、叔丁醇钾法制备关键中间体": {
+    "en": "Tembotrione is to date a class of herbicide with relatively high activity, low application rate and comparatively good safety. Its industrial preparation is mainly the trifluoroethanol / potassium tert-butoxide method to prepare the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, followed by acyl chlorination of the carboxyl group, esterification and then rearrangement; this method gives a relatively low yield of finished product and uses expensive reagents. Among these, in preparing the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, potassium tert-butoxide is used as the base, the yield is relatively low and the reagent is expensive; the acyl chlorination / esterification / rearrangement route requires the highly toxic reagent acetone cyanohydrin as rearrangement catalyst, and requires thionyl chloride (written 二氯亚砜) as the acyl chlorinating agent, and thionyl chloride is very harmful to the environment.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 85. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "采用叔丁醇钾做碱，收率较低、试剂昂贵": {
+    "en": "Tembotrione is to date a class of herbicide with relatively high activity, low application rate and comparatively good safety. Its industrial preparation is mainly the trifluoroethanol / potassium tert-butoxide method to prepare the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, followed by acyl chlorination of the carboxyl group, esterification and then rearrangement; this method gives a relatively low yield of finished product and uses expensive reagents. Among these, in preparing the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, potassium tert-butoxide is used as the base, the yield is relatively low and the reagent is expensive; the acyl chlorination / esterification / rearrangement route requires the highly toxic reagent acetone cyanohydrin as rearrangement catalyst, and requires thionyl chloride (written 二氯亚砜) as the acyl chlorinating agent, and thionyl chloride is very harmful to the environment.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 85. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸采用叔丁醇钾做碱": {
+    "en": "Tembotrione is to date a class of herbicide with relatively high activity, low application rate and comparatively good safety. Its industrial preparation is mainly the trifluoroethanol / potassium tert-butoxide method to prepare the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, followed by acyl chlorination of the carboxyl group, esterification and then rearrangement; this method gives a relatively low yield of finished product and uses expensive reagents. Among these, in preparing the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, potassium tert-butoxide is used as the base, the yield is relatively low and the reagent is expensive; the acyl chlorination / esterification / rearrangement route requires the highly toxic reagent acetone cyanohydrin as rearrangement catalyst, and requires thionyl chloride (written 二氯亚砜) as the acyl chlorinating agent, and thionyl chloride is very harmful to the environment.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 85. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "要用到剧毒试剂丙酮氰醇为重排催化剂": {
+    "en": "Tembotrione is to date a class of herbicide with relatively high activity, low application rate and comparatively good safety. Its industrial preparation is mainly the trifluoroethanol / potassium tert-butoxide method to prepare the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, followed by acyl chlorination of the carboxyl group, esterification and then rearrangement; this method gives a relatively low yield of finished product and uses expensive reagents. Among these, in preparing the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, potassium tert-butoxide is used as the base, the yield is relatively low and the reagent is expensive; the acyl chlorination / esterification / rearrangement route requires the highly toxic reagent acetone cyanohydrin as rearrangement catalyst, and requires thionyl chloride (written 二氯亚砜) as the acyl chlorinating agent, and thionyl chloride is very harmful to the environment.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 85. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "需要用二氯亚砜作酰氯化试剂，而二氯亚砜对环境有很大危害": {
+    "en": "Tembotrione is to date a class of herbicide with relatively high activity, low application rate and comparatively good safety. Its industrial preparation is mainly the trifluoroethanol / potassium tert-butoxide method to prepare the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, followed by acyl chlorination of the carboxyl group, esterification and then rearrangement; this method gives a relatively low yield of finished product and uses expensive reagents. Among these, in preparing the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, potassium tert-butoxide is used as the base, the yield is relatively low and the reagent is expensive; the acyl chlorination / esterification / rearrangement route requires the highly toxic reagent acetone cyanohydrin as rearrangement catalyst, and requires thionyl chloride (written 二氯亚砜) as the acyl chlorinating agent, and thionyl chloride is very harmful to the environment.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 85. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "本发明提供了一种环磺酮的制备方法": {
+    "en": "The present invention provides a process for preparing tembotrione, comprising the following steps:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 93. Surfaces as: quote_zh on a provenance row, the evidence for a record (x2)."
+  },
+  "该方法以三氟乙醇钠作为反应物": {
+    "en": "Compared with the prior art, the present invention has the following advantages: the present invention provides a process for preparing tembotrione, which uses sodium trifluoroethoxide as the reactant, overcoming the low yield and high cost of preparing the key intermediate 2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-methylsulfonylbenzoic acid from trifluoroethanol and potassium tert-butoxide, and also overcoming the drawback of the route in which the carboxyl group is converted to the acid chloride, then to the ester, and then rearranged, which requires the highly toxic catalyst acetone cyanohydrin; it gives a high reaction yield, low cost, easy operation, little pollution and is safe and environmentally friendly, and is suitable for large-scale industrial production.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 128. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "克服了三氟乙醇与叔丁醇钾制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸收率低、成本高的缺点": {
+    "en": "Compared with the prior art, the present invention has the following advantages: the present invention provides a process for preparing tembotrione, which uses sodium trifluoroethoxide as the reactant, overcoming the low yield and high cost of preparing the key intermediate 2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-methylsulfonylbenzoic acid from trifluoroethanol and potassium tert-butoxide, and also overcoming the drawback of the route in which the carboxyl group is converted to the acid chloride, then to the ester, and then rearranged, which requires the highly toxic catalyst acetone cyanohydrin; it gives a high reaction yield, low cost, easy operation, little pollution and is safe and environmentally friendly, and is suitable for large-scale industrial production.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 128. Surfaces as: quote_zh on a provenance row, the evidence for a record (x2)."
+  },
+  "关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸": {
+    "en": "Compared with the prior art, the present invention has the following advantages: the present invention provides a process for preparing tembotrione, which uses sodium trifluoroethoxide as the reactant, overcoming the low yield and high cost of preparing the key intermediate 2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-methylsulfonylbenzoic acid from trifluoroethanol and potassium tert-butoxide, and also overcoming the drawback of the route in which the carboxyl group is converted to the acid chloride, then to the ester, and then rearranged, which requires the highly toxic catalyst acetone cyanohydrin; it gives a high reaction yield, low cost, easy operation, little pollution and is safe and environmentally friendly, and is suitable for large-scale industrial production.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 128. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "一种环磺酮的制备方法": {
+    "en": "A process for preparing tembotrione",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 35. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "以2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯与三氟乙醇钠为反应底物": {
+    "en": "Step a: using methyl 2-chloro-3-bromomethyl-4-(methanesulfonyl)benzoate and sodium trifluoroethoxide as the reaction substrates, adding MOH or M2CO3, and carrying out the reaction in a reaction solvent to obtain 2-chloro-3-(trifluoroethoxymethyl)-4-(methanesulfonyl)benzoic acid; the specific chemical reaction equation is as shown in equation (1) below:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 47. Surfaces as: quote_zh on a provenance row, the evidence for a record; quote on an A5 audit finding, the evidence for a defect (x2)."
+  },
+  "获得2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸": {
+    "en": "Step a: using methyl 2-chloro-3-bromomethyl-4-(methanesulfonyl)benzoate and sodium trifluoroethoxide as the reaction substrates, adding MOH or M2CO3, and carrying out the reaction in a reaction solvent to obtain 2-chloro-3-(trifluoroethoxymethyl)-4-(methanesulfonyl)benzoic acid; the specific chemical reaction equation is as shown in equation (1) below:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 47. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "与1,3-环己二酮为反应底物": {
+    "en": "Step b: using the 2-chloro-3-(trifluoroethoxymethyl)-4-(methanesulfonyl)benzoic acid from step a and 1,3-cyclohexanedione as the reaction substrates, carrying out a condensation reaction in a reaction solvent under the action of a condensing agent and a base catalyst to obtain tembotrione; the specific chemical reaction equation is as shown in equation (2) below:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 51. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种": {
+    "en": "Further, in said step b, the base catalyst is selected from one or more of sodium carbonate, potassium carbonate, calcium hydroxide, triethylamine and pyridine.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 118. Surfaces as: quote_zh on a provenance row, the evidence for a record (x10)."
+  },
+  "CDI为N,N'-羰基二咪唑": {
+    "en": "Further, in said step b, the condensing agent is selected from one or more of CDI, HBTU, HOBT and DBU, wherein CDI is N,N'-carbonyldiimidazole, HBTU is O-benzotriazol-tetramethyluronium hexafluorophosphate, HOBT is 1-hydroxybenzotriazole, and DBU is 1,8-diazabicycloundec-7-ene.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 120. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "HBTU为O-苯并三氮唑-四甲基脲六氟磷酸酯": {
+    "en": "Further, in said step b, the condensing agent is selected from one or more of CDI, HBTU, HOBT and DBU, wherein CDI is N,N'-carbonyldiimidazole, HBTU is O-benzotriazol-tetramethyluronium hexafluorophosphate, HOBT is 1-hydroxybenzotriazole, and DBU is 1,8-diazabicycloundec-7-ene.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 120. Surfaces as: quote_zh on a provenance row, the evidence for a record (x2)."
+  },
+  "HOBT为1-羟基苯并三唑": {
+    "en": "Further, in said step b, the condensing agent is selected from one or more of CDI, HBTU, HOBT and DBU, wherein CDI is N,N'-carbonyldiimidazole, HBTU is O-benzotriazol-tetramethyluronium hexafluorophosphate, HOBT is 1-hydroxybenzotriazole, and DBU is 1,8-diazabicycloundec-7-ene.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 120. Surfaces as: quote_zh on a provenance row, the evidence for a record (x2)."
+  },
+  "DBU为1,8-二氮杂二环十一碳-7-烯": {
+    "en": "Further, in said step b, the condensing agent is selected from one or more of CDI, HBTU, HOBT and DBU, wherein CDI is N,N'-carbonyldiimidazole, HBTU is O-benzotriazol-tetramethyluronium hexafluorophosphate, HOBT is 1-hydroxybenzotriazole, and DBU is 1,8-diazabicycloundec-7-ene.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 120. Surfaces as: quote_zh on a provenance row, the evidence for a record (x2)."
+  },
+  "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种": {
+    "en": "Further, in said step a or/and step b, the reaction solvent is one or more of hexane, cyclohexane, N,N-dimethylformamide, benzene, toluene, xylene, dichloromethane, 1,2-dichloroethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 124. Surfaces as: quote_zh on a provenance row, the evidence for a record (x26)."
+  },
+  "取1.1mol(134.2g)三氟乙醇钠": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (28.8 g) lithium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 173. Surfaces as: quote_zh on a provenance row, the evidence for a record; quote on an A5 audit finding, the evidence for a defect."
+  },
+  "1.2mol(48g)氢氧化钠": {
+    "en": "Step a: 1.1mol (134.2g) sodium trifluoroethoxide, 1.2mol (48g) sodium hydroxide, 1.0mol (318g) methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate (compound I) and 1000mL N,N-dimethylformamide were charged into the reactor, then held at 30℃ for 5 hours; the N,N-dimethylformamide was distilled off from the reaction liquid under reduced pressure, the residue was added to 300mL water, the pH was adjusted to weakly acidic with 35％ hydrochloric acid, then cooled to crystallise, filtered, washed with water and dried to give compound II, weighed as 314.8g, yield 91％. Therein N,N-dimethylformamide serves as the reaction solvent and may also be replaced by one or more of hexane, cyclohexane, benzene, toluene, xylene, dichloromethane, 1,2-dichloroethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 138. Surfaces as: quote_zh on a provenance row, the evidence for a record; quote on an A5 audit finding, the evidence for a defect."
+  },
+  "1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I)": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (28.8 g) lithium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 173. Surfaces as: quote_zh on a provenance row, the evidence for a record (x5); quote on an A5 audit finding, the evidence for a defect."
+  },
+  "1000mL N,N-二甲基甲酰胺加入到反应器中": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (129.6 g) sodium carbonate, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then held at 50 degrees C for 2 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 311.4 g, yield 90%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 157. Surfaces as: quote_zh on a provenance row, the evidence for a record (x3); quote on an A5 audit finding, the evidence for a defect."
+  },
+  "将残液加入300mL水中": {
+    "en": "into, then after holding at 30 degrees C for 5 hours, the N,N-dimethylformamide in the reaction liquid is distilled off under reduced pressure, the residual liquid is added into 300 mL of water, the pH is adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 318.3 g, yield 92%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 178. Surfaces as: quote_zh on a provenance row, the evidence for a record (x5); quote on an A5 audit finding, the evidence for a defect (x2)."
+  },
+  "用35％的盐酸调pH至弱酸性": {
+    "en": "into, then after holding at 30 degrees C for 5 hours, the N,N-dimethylformamide in the reaction liquid is distilled off under reduced pressure, the residual liquid is added into 300 mL of water, the pH is adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 318.3 g, yield 92%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 178. Surfaces as: quote_zh on a provenance row, the evidence for a record (x5); quote on an A5 audit finding, the evidence for a defect (x2)."
+  },
+  "干燥得化合物II，称重得314.8g，收率91％": {
+    "en": "Step a: 1.1mol (134.2g) sodium trifluoroethoxide, 1.2mol (48g) sodium hydroxide, 1.0mol (318g) methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate (compound I) and 1000mL N,N-dimethylformamide were charged into the reactor, then held at 30℃ for 5 hours; the N,N-dimethylformamide was distilled off from the reaction liquid under reduced pressure, the residue was added to 300mL water, the pH was adjusted to weakly acidic with 35％ hydrochloric acid, then cooled to crystallise, filtered, washed with water and dried to give compound II, weighed as 314.8g, yield 91％. Therein N,N-dimethylformamide serves as the reaction solvent and may also be replaced by one or more of hexane, cyclohexane, benzene, toluene, xylene, dichloromethane, 1,2-dichloroethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 138. Surfaces as: quote_zh on a provenance row, the evidence for a record; quote on an A5 audit finding, the evidence for a defect."
+  },
+  "得到成品环磺酮(化合物IV)366.4g，纯度96.5％，收率86.3％": {
+    "en": "Step b: 1mol of compound II obtained from the above reaction was dissolved in 1000mL of 1,2-dichloroethane, then at 5-10℃ a mixture containing 1.2mol (117.6g) 1,3-cyclohexanedione (compound III), 1.2mol (194.6g) of the condensing agent CDI and 1.2mol (121.2g) triethylamine was added over half an hour; the mixture was then stirred and reacted at 5-10℃ for 8 hours, then washed with water, concentrated under reduced pressure, slurried with added methanol, filtered and dried to give the finished tembotrione (compound IV) 366.4g, purity 96.5％, yield 86.3％. Therein 1,2-dichloroethane serves as the reaction solvent and may also be replaced by one or more of hexane, cyclohexane, N,N-dimethylformamide, benzene, toluene, xylene, dichloromethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 140. Surfaces as: quote_zh on a provenance row, the evidence for a record; quote on an A5 audit finding, the evidence for a defect."
+  },
+  "溶解在1000mL的1,2-二氯乙烷中": {
+    "en": "Step b: 1mol of compound II obtained from the above reaction was dissolved in 1000mL of 1,2-dichloroethane, then at 5-10℃ a mixture containing 1.2mol (117.6g) 1,3-cyclohexanedione (compound III), 1.2mol (194.6g) of the condensing agent CDI and 1.2mol (121.2g) triethylamine was added over half an hour; the mixture was then stirred and reacted at 5-10℃ for 8 hours, then washed with water, concentrated under reduced pressure, slurried with added methanol, filtered and dried to give the finished tembotrione (compound IV) 366.4g, purity 96.5％, yield 86.3％. Therein 1,2-dichloroethane serves as the reaction solvent and may also be replaced by one or more of hexane, cyclohexane, N,N-dimethylformamide, benzene, toluene, xylene, dichloromethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 140. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "含1.2mol(117.6g)1,3-环己二酮(化合物III)": {
+    "en": "Step b: 1mol of compound II obtained from the above reaction was dissolved in 1000mL of 1,2-dichloroethane, then at 5-10℃ a mixture containing 1.2mol (117.6g) 1,3-cyclohexanedione (compound III), 1.2mol (194.6g) of the condensing agent CDI and 1.2mol (121.2g) triethylamine was added over half an hour; the mixture was then stirred and reacted at 5-10℃ for 8 hours, then washed with water, concentrated under reduced pressure, slurried with added methanol, filtered and dried to give the finished tembotrione (compound IV) 366.4g, purity 96.5％, yield 86.3％. Therein 1,2-dichloroethane serves as the reaction solvent and may also be replaced by one or more of hexane, cyclohexane, N,N-dimethylformamide, benzene, toluene, xylene, dichloromethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 140. Surfaces as: quote_zh on a provenance row, the evidence for a record; quote on an A5 audit finding, the evidence for a defect."
+  },
+  "1.2mol(194.6g)缩合剂CDI": {
+    "en": "Step b: 1mol of compound II obtained from the above reaction was dissolved in 1000mL of 1,2-dichloroethane, then at 5-10℃ a mixture containing 1.2mol (117.6g) 1,3-cyclohexanedione (compound III), 1.2mol (194.6g) of the condensing agent CDI and 1.2mol (121.2g) triethylamine was added over half an hour; the mixture was then stirred and reacted at 5-10℃ for 8 hours, then washed with water, concentrated under reduced pressure, slurried with added methanol, filtered and dried to give the finished tembotrione (compound IV) 366.4g, purity 96.5％, yield 86.3％. Therein 1,2-dichloroethane serves as the reaction solvent and may also be replaced by one or more of hexane, cyclohexane, N,N-dimethylformamide, benzene, toluene, xylene, dichloromethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 140. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "1.2mol(121.2g)三乙胺": {
+    "en": "Step b: 1mol of compound II obtained from the above reaction was dissolved in 1000mL of 1,2-dichloroethane, then at 5-10℃ a mixture containing 1.2mol (117.6g) 1,3-cyclohexanedione (compound III), 1.2mol (194.6g) of the condensing agent CDI and 1.2mol (121.2g) triethylamine was added over half an hour; the mixture was then stirred and reacted at 5-10℃ for 8 hours, then washed with water, concentrated under reduced pressure, slurried with added methanol, filtered and dried to give the finished tembotrione (compound IV) 366.4g, purity 96.5％, yield 86.3％. Therein 1,2-dichloroethane serves as the reaction solvent and may also be replaced by one or more of hexane, cyclohexane, N,N-dimethylformamide, benzene, toluene, xylene, dichloromethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 140. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "加甲醇打浆": {
+    "en": "methanol is added and the mixture is slurried",
+    "origin": "curated",
+    "note": "Hand-authored: this string is named in the patent and the gold carries no English for it. Surfaces as: quote_zh on a provenance row, the evidence for a record (x4). quote_zh on a provenance row. 打浆 here is trituration of the solid product in methanol, not beating or pulping."
+  },
+  "其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。": {
+    "en": "Step a: 1.1mol (134.2g) sodium trifluoroethoxide, 1.2mol (48g) sodium hydroxide, 1.0mol (318g) methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate (compound I) and 1000mL N,N-dimethylformamide were charged into the reactor, then held at 30℃ for 5 hours; the N,N-dimethylformamide was distilled off from the reaction liquid under reduced pressure, the residue was added to 300mL water, the pH was adjusted to weakly acidic with 35％ hydrochloric acid, then cooled to crystallise, filtered, washed with water and dried to give compound II, weighed as 314.8g, yield 91％. Therein N,N-dimethylformamide serves as the reaction solvent and may also be replaced by one or more of hexane, cyclohexane, benzene, toluene, xylene, dichloromethane, 1,2-dichloroethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 138. Surfaces as: quote_zh on a provenance row, the evidence for a record (x11)."
+  },
+  "1.2mol(146.4g)三氟乙醇钠": {
+    "en": "Step a: 1.2 mol (146.4 g) sodium trifluoroethoxide, 1.2 mol (67.2 g) potassium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then reacted at 0 degrees C for 10 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 321.7 g, yield 93%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 149. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "1.2mol(67.2g)氢氧化钾": {
+    "en": "Step a: 1.2 mol (146.4 g) sodium trifluoroethoxide, 1.2 mol (67.2 g) potassium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then reacted at 0 degrees C for 10 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 321.7 g, yield 93%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 149. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "1000mL N,N-二甲基甲酰胺": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (28.8 g) lithium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 173. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "干燥得化合物II,称重得321.7g,收率93％": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (166.8 g) potassium carbonate, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then held at 30 degrees C for 5 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 321.7 g, yield 93%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 165. Surfaces as: quote_zh on a provenance row, the evidence for a record (x2); quote on an A5 audit finding, the evidence for a defect."
+  },
+  "溶解在1000mL的二氯甲烷中": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloromethane, then at 8-15 degrees C, 1.3 mol (145.6 g) 1,3-cyclohexanedione (compound III), 2 mol (758 g) of the condensing agent HBTU and 2 mol (212 g) sodium carbonate were added over half an hour; the mixture was stirred and reacted at 8-15 degrees C for a further 9 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 362.5 g, purity 95.8%, yield 86%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 151. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "1.3mol(145.6g)1,3-环己二酮(化合物III)": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloromethane, then at 8-15 degrees C, 1.3 mol (145.6 g) 1,3-cyclohexanedione (compound III), 2 mol (758 g) of the condensing agent HBTU and 2 mol (212 g) sodium carbonate were added over half an hour; the mixture was stirred and reacted at 8-15 degrees C for a further 9 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 362.5 g, purity 95.8%, yield 86%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 151. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "2mol(758g)缩合剂HBTU": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloromethane, then at 8-15 degrees C, 1.3 mol (145.6 g) 1,3-cyclohexanedione (compound III), 2 mol (758 g) of the condensing agent HBTU and 2 mol (212 g) sodium carbonate were added over half an hour; the mixture was stirred and reacted at 8-15 degrees C for a further 9 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 362.5 g, purity 95.8%, yield 86%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 151. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "2mol(212g)碳酸钠": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloromethane, then at 8-15 degrees C, 1.3 mol (145.6 g) 1,3-cyclohexanedione (compound III), 2 mol (758 g) of the condensing agent HBTU and 2 mol (212 g) sodium carbonate were added over half an hour; the mixture was stirred and reacted at 8-15 degrees C for a further 9 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 362.5 g, purity 95.8%, yield 86%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 151. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "干燥得到成品环磺酮(化合物IV)362.5g,纯度95.8％,收率86％": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloromethane, then at 8-15 degrees C, 1.3 mol (145.6 g) 1,3-cyclohexanedione (compound III), 2 mol (758 g) of the condensing agent HBTU and 2 mol (212 g) sodium carbonate were added over half an hour; the mixture was stirred and reacted at 8-15 degrees C for a further 9 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 362.5 g, purity 95.8%, yield 86%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 151. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "1.1mol(134.2g)三氟乙醇钠": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (28.8 g) lithium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 173. Surfaces as: quote_zh on a provenance row, the evidence for a record (x3)."
+  },
+  "1.2mol(129.6g)碳酸钠": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (129.6 g) sodium carbonate, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then held at 50 degrees C for 2 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 311.4 g, yield 90%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 157. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "干燥得化合物II,称重得311.4g,收率90％": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (129.6 g) sodium carbonate, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then held at 50 degrees C for 2 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 311.4 g, yield 90%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 157. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "溶解在1000mL的二氯乙烷中": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloroethane, then at 15-20 degrees C, 1.5 mol (147 g) 1,3-cyclohexanedione (compound III), 3 mol (405 g) of the condensing agent HOBT and 3 mol (222 g) calcium hydroxide were added over half an hour; the mixture was stirred and reacted at 15-20 degrees C for a further 8 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 375.4 g, purity 97.5%, yield 87.5%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 159. Surfaces as: quote_zh on a provenance row, the evidence for a record; quote on an A5 audit finding, the evidence for a defect."
+  },
+  "1.5mol(147g)1,3-环己二酮(化合物III)": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloroethane, then at 15-20 degrees C, 1.5 mol (147 g) 1,3-cyclohexanedione (compound III), 3 mol (405 g) of the condensing agent HOBT and 3 mol (222 g) calcium hydroxide were added over half an hour; the mixture was stirred and reacted at 15-20 degrees C for a further 8 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 375.4 g, purity 97.5%, yield 87.5%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 159. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "3mol(405g)缩合剂HOBT": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloroethane, then at 15-20 degrees C, 1.5 mol (147 g) 1,3-cyclohexanedione (compound III), 3 mol (405 g) of the condensing agent HOBT and 3 mol (222 g) calcium hydroxide were added over half an hour; the mixture was stirred and reacted at 15-20 degrees C for a further 8 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 375.4 g, purity 97.5%, yield 87.5%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 159. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "3mol(222g)氢氧化钙": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloroethane, then at 15-20 degrees C, 1.5 mol (147 g) 1,3-cyclohexanedione (compound III), 3 mol (405 g) of the condensing agent HOBT and 3 mol (222 g) calcium hydroxide were added over half an hour; the mixture was stirred and reacted at 15-20 degrees C for a further 8 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 375.4 g, purity 97.5%, yield 87.5%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 159. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "加甲、醇打浆": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloroethane, then at 15-20 degrees C, 1.5 mol (147 g) 1,3-cyclohexanedione (compound III), 3 mol (405 g) of the condensing agent HOBT and 3 mol (222 g) calcium hydroxide were added over half an hour; the mixture was stirred and reacted at 15-20 degrees C for a further 8 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 375.4 g, purity 97.5%, yield 87.5%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 159. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "干燥得到成品环磺酮(化合物IV)375.4g,纯度97.5％,收率87.5％": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloroethane, then at 15-20 degrees C, 1.5 mol (147 g) 1,3-cyclohexanedione (compound III), 3 mol (405 g) of the condensing agent HOBT and 3 mol (222 g) calcium hydroxide were added over half an hour; the mixture was stirred and reacted at 15-20 degrees C for a further 8 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 375.4 g, purity 97.5%, yield 87.5%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 159. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "1.2mol(166.8g)碳酸钾": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (166.8 g) potassium carbonate, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then held at 30 degrees C for 5 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 321.7 g, yield 93%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 165. Surfaces as: quote_zh on a provenance row, the evidence for a record; quote on an A5 audit finding, the evidence for a defect."
+  },
+  "溶解在1000mL的环己烷中": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL cyclohexane, then at -10 to 8 degrees C, 1 mol (98 g) 1,3-cyclohexanedione (compound III), 1 mol (152 g) of the condensing agent DBU and 1 mol (152 g) pyridine were added over half an hour; the mixture was stirred and reacted at -10 to 8 degrees C for a further 24 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 332.9 g, purity 94.6%, yield 80.1%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 167. Surfaces as: quote_zh on a provenance row, the evidence for a record (x2)."
+  },
+  "1mol(98g)1,3-环己二酮(化合物III)": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL cyclohexane, then at -10 to 8 degrees C, 1 mol (98 g) 1,3-cyclohexanedione (compound III), 1 mol (152 g) of the condensing agent DBU and 1 mol (152 g) pyridine were added over half an hour; the mixture was stirred and reacted at -10 to 8 degrees C for a further 24 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 332.9 g, purity 94.6%, yield 80.1%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 167. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "1mol(152g)缩合剂DBU": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL cyclohexane, then at -10 to 8 degrees C, 1 mol (98 g) 1,3-cyclohexanedione (compound III), 1 mol (152 g) of the condensing agent DBU and 1 mol (152 g) pyridine were added over half an hour; the mixture was stirred and reacted at -10 to 8 degrees C for a further 24 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 332.9 g, purity 94.6%, yield 80.1%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 167. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "1mol(152g)吡啶": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL cyclohexane, then at -10 to 8 degrees C, 1 mol (98 g) 1,3-cyclohexanedione (compound III), 1 mol (152 g) of the condensing agent DBU and 1 mol (152 g) pyridine were added over half an hour; the mixture was stirred and reacted at -10 to 8 degrees C for a further 24 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 332.9 g, purity 94.6%, yield 80.1%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 167. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "干燥得到成品环磺酮(化合物IV)332.9g,纯度94.6％,收率80.1％": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL cyclohexane, then at -10 to 8 degrees C, 1 mol (98 g) 1,3-cyclohexanedione (compound III), 1 mol (152 g) of the condensing agent DBU and 1 mol (152 g) pyridine were added over half an hour; the mixture was stirred and reacted at -10 to 8 degrees C for a further 24 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 332.9 g, purity 94.6%, yield 80.1%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 167. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "1.2mol(28.8g)氢氧化锂": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (28.8 g) lithium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 173. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "1000mL N,N-二甲基甲酰胺加入到反应器": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (28.8 g) lithium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 173. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "干燥得化合物II，称重得318.3g，收率92％": {
+    "en": "into, then after holding at 30 degrees C for 5 hours, the N,N-dimethylformamide in the reaction liquid is distilled off under reduced pressure, the residual liquid is added into 300 mL of water, the pH is adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 318.3 g, yield 92%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 178. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "1.1mol(106.7g)1，3-环己二酮(化合物III)": {
+    "en": "Step b: take 1 mol of compound II obtained from the above reaction, dissolve it in 1000 mL of cyclohexane, then at a temperature of 20-30 degrees C add, over half an hour, 1.1 mol (106.7 g) of 1,3-cyclohexanedione (compound III) together with 1.8 mol (291.6 g) of the condensing agent CDI and 5 mol (690 g) of potassium carbonate; stir and react for a further 15 hours at 20-30 degrees C, then wash with water, concentrate under reduced pressure, slurry with added methanol, filter and dry to obtain the finished product tembotrione (compound IV), 355.5 g, purity 96.3%, yield 83.9%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 180. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "1.8mol(291.6g)缩合剂CDI": {
+    "en": "Step b: take 1 mol of compound II obtained from the above reaction, dissolve it in 1000 mL of cyclohexane, then at a temperature of 20-30 degrees C add, over half an hour, 1.1 mol (106.7 g) of 1,3-cyclohexanedione (compound III) together with 1.8 mol (291.6 g) of the condensing agent CDI and 5 mol (690 g) of potassium carbonate; stir and react for a further 15 hours at 20-30 degrees C, then wash with water, concentrate under reduced pressure, slurry with added methanol, filter and dry to obtain the finished product tembotrione (compound IV), 355.5 g, purity 96.3%, yield 83.9%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 180. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "5mol(690g)碳酸钾": {
+    "en": "Step b: take 1 mol of compound II obtained from the above reaction, dissolve it in 1000 mL of cyclohexane, then at a temperature of 20-30 degrees C add, over half an hour, 1.1 mol (106.7 g) of 1,3-cyclohexanedione (compound III) together with 1.8 mol (291.6 g) of the condensing agent CDI and 5 mol (690 g) of potassium carbonate; stir and react for a further 15 hours at 20-30 degrees C, then wash with water, concentrate under reduced pressure, slurry with added methanol, filter and dry to obtain the finished product tembotrione (compound IV), 355.5 g, purity 96.3%, yield 83.9%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 180. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "干燥得到成品环磺酮(化合物IV)355.5g，纯度96.3％，收率83.9％": {
+    "en": "Step b: take 1 mol of compound II obtained from the above reaction, dissolve it in 1000 mL of cyclohexane, then at a temperature of 20-30 degrees C add, over half an hour, 1.1 mol (106.7 g) of 1,3-cyclohexanedione (compound III) together with 1.8 mol (291.6 g) of the condensing agent CDI and 5 mol (690 g) of potassium carbonate; stir and react for a further 15 hours at 20-30 degrees C, then wash with water, concentrate under reduced pressure, slurry with added methanol, filter and dry to obtain the finished product tembotrione (compound IV), 355.5 g, purity 96.3%, yield 83.9%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 180. Surfaces as: quote_zh on a provenance row, the evidence for a record; quote on an A5 audit finding, the evidence for a defect."
+  },
+  "获得环磺酮（化合物IV）": {
+    "en": "Step b: using compound II from step a and 1,3-cyclohexanedione (compound III) as reaction substrates, a condensation reaction is carried out in a reaction solvent under the action of a condensing agent and a basic catalyst to obtain tembotrione (compound IV); the specific chemical equation is as shown in formula (2) below:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 100. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯（化合物I）": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (28.8 g) lithium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 173. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸（化合物II）": {
+    "en": "Step a: using methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate (compound I) and sodium trifluoroethoxide as reaction substrates, adding MOH or M2CO3, the reaction is carried out in a reaction solvent to obtain 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid (compound II); the specific chemical equation is as shown in formula (1) below:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 95. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "1,3-环己二酮（化合物III）": {
+    "en": "Step b: using compound II from step a and 1,3-cyclohexanedione (compound III) as reaction substrates, a condensation reaction is carried out in a reaction solvent under the action of a condensing agent and a basic catalyst to obtain tembotrione (compound IV); the specific chemical equation is as shown in formula (2) below:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 100. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "CDI为N,N’-羰基二咪唑": {
+    "en": "Further, in said step b, the condensing agent is selected from one or more of CDI, HBTU, HOBT and DBU, wherein CDI is N,N'-carbonyldiimidazole, HBTU is O-benzotriazol-tetramethyluronium hexafluorophosphate, HOBT is 1-hydroxybenzotriazole, and DBU is 1,8-diazabicycloundec-7-ene.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 120. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "具体涉及一种环磺酮的制备方法": {
+    "en": "The present invention relates to the field of organic chemical technology, and specifically to a process for preparing tembotrione.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 83. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "其工业制备方法主要是三氟乙醇、叔丁醇钾法制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸；其中，在制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸采用叔丁醇钾做碱，收率较低、试剂昂贵": {
+    "en": "Tembotrione is to date a class of herbicide with relatively high activity, low application rate and comparatively good safety. Its industrial preparation is mainly the trifluoroethanol / potassium tert-butoxide method to prepare the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, followed by acyl chlorination of the carboxyl group, esterification and then rearrangement; this method gives a relatively low yield of finished product and uses expensive reagents. Among these, in preparing the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, potassium tert-butoxide is used as the base, the yield is relatively low and the reagent is expensive; the acyl chlorination / esterification / rearrangement route requires the highly toxic reagent acetone cyanohydrin as rearrangement catalyst, and requires thionyl chloride (written 二氯亚砜) as the acyl chlorinating agent, and thionyl chloride is very harmful to the environment.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 85. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "然后羧基酰氯化成酯后重排法；需要用二氯亚砜作酰氯化试剂，而二氯亚砜对环境有很大危害": {
+    "en": "Tembotrione is to date a class of herbicide with relatively high activity, low application rate and comparatively good safety. Its industrial preparation is mainly the trifluoroethanol / potassium tert-butoxide method to prepare the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, followed by acyl chlorination of the carboxyl group, esterification and then rearrangement; this method gives a relatively low yield of finished product and uses expensive reagents. Among these, in preparing the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, potassium tert-butoxide is used as the base, the yield is relatively low and the reagent is expensive; the acyl chlorination / esterification / rearrangement route requires the highly toxic reagent acetone cyanohydrin as rearrangement catalyst, and requires thionyl chloride (written 二氯亚砜) as the acyl chlorinating agent, and thionyl chloride is very harmful to the environment.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 85. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "然后羧基酰氯化成酯后重排法": {
+    "en": "Tembotrione is to date a class of herbicide with relatively high activity, low application rate and comparatively good safety. Its industrial preparation is mainly the trifluoroethanol / potassium tert-butoxide method to prepare the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, followed by acyl chlorination of the carboxyl group, esterification and then rearrangement; this method gives a relatively low yield of finished product and uses expensive reagents. Among these, in preparing the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, potassium tert-butoxide is used as the base, the yield is relatively low and the reagent is expensive; the acyl chlorination / esterification / rearrangement route requires the highly toxic reagent acetone cyanohydrin as rearrangement catalyst, and requires thionyl chloride (written 二氯亚砜) as the acyl chlorinating agent, and thionyl chloride is very harmful to the environment.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 85. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "羧基酰氯化成酯后重排法要用到剧毒试剂丙酮氰醇为重排催化剂；综上，传统方法制备环磺酮均具有收率低，成本高，且生产工艺中含剧毒物质等特点": {
+    "en": "Tembotrione is to date a class of herbicide with relatively high activity, low application rate and comparatively good safety. Its industrial preparation is mainly the trifluoroethanol / potassium tert-butoxide method to prepare the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, followed by acyl chlorination of the carboxyl group, esterification and then rearrangement; this method gives a relatively low yield of finished product and uses expensive reagents. Among these, in preparing the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, potassium tert-butoxide is used as the base, the yield is relatively low and the reagent is expensive; the acyl chlorination / esterification / rearrangement route requires the highly toxic reagent acetone cyanohydrin as rearrangement catalyst, and requires thionyl chloride (written 二氯亚砜) as the acyl chlorinating agent, and thionyl chloride is very harmful to the environment. ... In summary, the traditional methods of preparing tembotrione all have the characteristics of low yield, high cost and the presence of highly toxic substances in the production process, and do not meet the requirements of large-scale industrial production.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line s 85, 87. Line 87 is not among the source_lines the gold declares for it (85, 88). Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "步骤a：取1.1mol(134.2g)三氟乙醇钠，1.2mol(48g)氢氧化钠，1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I)，1000mL N,N-二甲基甲酰胺加入到反应器中，然后30℃保温5小时后，将反应液中的N,N-二甲基甲酰胺减压蒸除后，将残液加入300mL水中，用35％的盐酸调pH至弱酸性，冷却结晶，过滤，水洗，干燥得化合物II，称重得314.8g，收率91％，其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。": {
+    "en": "Step a: 1.1mol (134.2g) sodium trifluoroethoxide, 1.2mol (48g) sodium hydroxide, 1.0mol (318g) methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate (compound I) and 1000mL N,N-dimethylformamide were charged into the reactor, then held at 30℃ for 5 hours; the N,N-dimethylformamide was distilled off from the reaction liquid under reduced pressure, the residue was added to 300mL water, the pH was adjusted to weakly acidic with 35％ hydrochloric acid, then cooled to crystallise, filtered, washed with water and dried to give compound II, weighed as 314.8g, yield 91％. Therein N,N-dimethylformamide serves as the reaction solvent and may also be replaced by one or more of hexane, cyclohexane, benzene, toluene, xylene, dichloromethane, 1,2-dichloroethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 138. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "步骤b：取1mol上述反应所得的化合物II，溶解在1000mL的1,2-二氯乙烷中，然后在5-10℃温度条件下，半小时内加入含1.2mol(117.6g)1,3-环己二酮(化合物III)和1.2mol(194.6g)缩合剂CDI以及1.2mol(121.2g)三乙胺，再在5-10℃温度条件下搅拌反应8小时，然后经过水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)366.4g，纯度96.5％，收率86.3％，其中，1,2-二氯乙烷作为反应溶剂，还可以用己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。": {
+    "en": "Step b: 1mol of compound II obtained from the above reaction was dissolved in 1000mL of 1,2-dichloroethane, then at 5-10℃ a mixture containing 1.2mol (117.6g) 1,3-cyclohexanedione (compound III), 1.2mol (194.6g) of the condensing agent CDI and 1.2mol (121.2g) triethylamine was added over half an hour; the mixture was then stirred and reacted at 5-10℃ for 8 hours, then washed with water, concentrated under reduced pressure, slurried with added methanol, filtered and dried to give the finished tembotrione (compound IV) 366.4g, purity 96.5％, yield 86.3％. Therein 1,2-dichloroethane serves as the reaction solvent and may also be replaced by one or more of hexane, cyclohexane, N,N-dimethylformamide, benzene, toluene, xylene, dichloromethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 140. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "步骤a:取1.2mol(146.4g)三氟乙醇钠,1.2mol(67.2g)氢氧化钾,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中,然后0℃下反应10小时后,将反应液中的N,N-二甲基甲酰胺减压蒸除后,将残液加入300mL水中,用35％的盐酸调pH至弱酸性,冷却结晶,过滤,水洗,干燥得化合物II,称重得321.7g,收率93％。": {
+    "en": "Step a: 1.2 mol (146.4 g) sodium trifluoroethoxide, 1.2 mol (67.2 g) potassium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then reacted at 0 degrees C for 10 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 321.7 g, yield 93%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 149. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "步骤b:取1mol上述反应所得的化合物II,溶解在1000mL的二氯甲烷中,然后在8-15℃温度条件下,半小时内加入含1.3mol(145.6g)1,3-环己二酮(化合物III)和2mol(758g)缩合剂HBTU及2mol(212g)碳酸钠,再在8-15℃温度条件下搅拌反应9小时,然后水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)362.5g,纯度95.8％,收率86％。": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloromethane, then at 8-15 degrees C, 1.3 mol (145.6 g) 1,3-cyclohexanedione (compound III), 2 mol (758 g) of the condensing agent HBTU and 2 mol (212 g) sodium carbonate were added over half an hour; the mixture was stirred and reacted at 8-15 degrees C for a further 9 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 362.5 g, purity 95.8%, yield 86%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 151. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "步骤a:取1.1mol(134.2g)三氟乙醇钠,1.2mol(129.6g)碳酸钠,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中,然后50℃保温2小时后,将反应液中的N,N-二甲基甲酰胺减压蒸除后,将残液加入300mL水中,用35％的盐酸调pH至弱酸性,冷却结晶,过滤,水洗,干燥得化合物II,称重得311.4g,收率90％。": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (129.6 g) sodium carbonate, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then held at 50 degrees C for 2 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 311.4 g, yield 90%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 157. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "步骤b:取1mol上述反应所得的化合物II,溶解在1000mL的二氯乙烷中,然后在15-20℃温度条件下,半小时内加入含1.5mol(147g)1,3-环己二酮(化合物III)和3mol(405g)缩合剂HOBT及3mol(222g)氢氧化钙,再在15-20℃温度条件下搅拌反应8小时,然后水洗、减压浓缩加甲、醇打浆、过滤、干燥得到成品环磺酮(化合物IV)375.4g,纯度97.5％,收率87.5％。": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloroethane, then at 15-20 degrees C, 1.5 mol (147 g) 1,3-cyclohexanedione (compound III), 3 mol (405 g) of the condensing agent HOBT and 3 mol (222 g) calcium hydroxide were added over half an hour; the mixture was stirred and reacted at 15-20 degrees C for a further 8 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 375.4 g, purity 97.5%, yield 87.5%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 159. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "步骤a:取1.1mol(134.2g)三氟乙醇钠,1.2mol(166.8g)碳酸钾,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中,然后30℃保温5小时后,将反应液中的N,N-二甲基甲酰胺减压蒸除后,将残液加入300mL水中,用35％的盐酸调pH至弱酸性,冷却结晶,过滤,水洗,干燥得化合物II,称重得321.7g,收率93％。": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (166.8 g) potassium carbonate, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then held at 30 degrees C for 5 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 321.7 g, yield 93%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 165. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "步骤b:取1mol上述反应所得的化合物II,溶解在1000mL的环己烷中,然后在-10-8℃温度条件下,半小时内加入含1mol(98g)1,3-环己二酮(化合物III)和1mol(152g)缩合剂DBU以及1mol(152g)吡啶,再在-10-8℃温度条件下搅拌反应24小时,然后经过水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)332.9g,纯度94.6％,收率80.1％。": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL cyclohexane, then at -10 to 8 degrees C, 1 mol (98 g) 1,3-cyclohexanedione (compound III), 1 mol (152 g) of the condensing agent DBU and 1 mol (152 g) pyridine were added over half an hour; the mixture was stirred and reacted at -10 to 8 degrees C for a further 24 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 332.9 g, purity 94.6%, yield 80.1%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 167. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "步骤a:取1.1mol(134.2g)三氟乙醇钠,1.2mol(28.8g)氢氧化锂,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中，然后30℃保温5小时后，将反应液中的N，N-二甲基甲酰胺减压蒸除后，将残液加入300mL水中，用35％的盐酸调pH至弱酸性，冷却结晶，过滤，水洗，干燥得化合物II，称重得318.3g，收率92％。": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (28.8 g) lithium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor ... into, then after holding at 30 degrees C for 5 hours, the N,N-dimethylformamide in the reaction liquid is distilled off under reduced pressure, the residual liquid is added into 300 mL of water, the pH is adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 318.3 g, yield 92%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line s 173, 178. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "步骤b：取1mol上述反应所得的化合物II，溶解在1000mL的环己烷中，然后在20-30℃温度条件下，半小时内加入含1.1mol(106.7g)1，3-环己二酮(化合物III)和1.8mol(291.6g)缩合剂CDI以及5mol(690g)碳酸钾，再在20-30℃温度条件下搅拌反应15小时，然后经过水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)355.5g，纯度96.3％，收率83.9％。": {
+    "en": "Step b: take 1 mol of compound II obtained from the above reaction, dissolve it in 1000 mL of cyclohexane, then at a temperature of 20-30 degrees C add, over half an hour, 1.1 mol (106.7 g) of 1,3-cyclohexanedione (compound III) together with 1.8 mol (291.6 g) of the condensing agent CDI and 5 mol (690 g) of potassium carbonate; stir and react for a further 15 hours at 20-30 degrees C, then wash with water, concentrate under reduced pressure, slurry with added methanol, filter and dry to obtain the finished product tembotrione (compound IV), 355.5 g, purity 96.3%, yield 83.9%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 180. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "步骤a：以2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯（化合物I）与三氟乙醇钠为反应底物，加入MOH或M2CO3，在反应溶剂中进行反应，获得2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸（化合物II），具体化学反应式如下式（1）所示：  (conditions and stoichiometry from the qualifying paragraphs: line 105 [0011] 其中，所述步骤a中，M为Li、Na、K离子中的一种。 / line 107 [0012] 进一步地，所述步骤a中，三氟乙醇钠与化合物I的摩尔比为1.1-1.2:1。 / line 112 [0013] 进一步地，所述步骤a中，MOH/M2CO3与化合物I的摩尔比为1-1.5:1。 / line 114 [0014] 进一步地，所述步骤a中，反应温度为0-5℃，反应时间为2-10小时。 / line 124 [0019] 进一步地，所述步骤a或/和步骤b中，反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种。 / line 126 [0020] 进一步地，所述反应溶剂与化合物I或化合物II的重量比为2-8:1。)": {
+    "en": "Step a: using methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate (compound I) and sodium trifluoroethoxide as reaction substrates, adding MOH or M2CO3, the reaction is carried out in a reaction solvent to obtain 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid (compound II); the specific chemical equation is as shown in formula (1) below: ... Wherein, in said step a, M is one of the Li, Na and K ions. ... Further, in said step a, the molar ratio of sodium trifluoroethoxide to compound I is 1.1-1.2:1. ... Further, in said step a, the molar ratio of MOH/M2CO3 to compound I is 1-1.5:1. ... Further, in said step a, the reaction temperature is 0-5℃ and the reaction time is 2-10 hours. ... Further, in said step a or/and step b, the reaction solvent is one or more of hexane, cyclohexane, N,N-dimethylformamide, benzene, toluene, xylene, dichloromethane, 1,2-dichloroethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile. ... Further, the weight ratio of said reaction solvent to compound I or compound II is 2-8:1.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line s 95, 105, 107, 112, 114, 124, 126. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "步骤b：以步骤a的化合物II与1,3-环己二酮（化合物III）为反应底物，在缩合剂和碱催化剂的作用下，在反应溶剂中进行缩合反应，获得环磺酮（化合物IV），具体化学反应式如下式（2）所示：  (conditions and stoichiometry from the qualifying paragraphs: line 116 [0015] 进一步地，所述步骤b中，化合物III与化合物II的摩尔比为1-1.3:1；所述碱催化剂与化合物II的摩尔比为1-3:1；所述缩合剂与化合物II的摩尔比为1-2:1。 / line 118 [0016] 进一步地，所述步骤b中，碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种。 / line 120 [0017] 进一步地，所述步骤b中，缩合剂选自CDI、HBTU、HOBT、DBU中的一种或多种，其中，CDI为N,N’-羰基二咪唑，HBTU为O-苯并三氮唑-四甲基脲六氟磷酸酯，HOBT为1-羟基苯并三唑，DBU为1,8-二氮杂二环十一碳-7-烯。 / line 122 [0018] 进一步地，所述步骤b中，缩合反应的温度为-10-30℃，反应时间为0.5-12h。 / line 124 [0019] 进一步地，所述步骤a或/和步骤b中，反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种。 / line 126 [0020] 进一步地，所述反应溶剂与化合物I或化合物II的重量比为2-8:1。)": {
+    "en": "Step b: using compound II from step a and 1,3-cyclohexanedione (compound III) as reaction substrates, a condensation reaction is carried out in a reaction solvent under the action of a condensing agent and a basic catalyst to obtain tembotrione (compound IV); the specific chemical equation is as shown in formula (2) below: ... Further, in said step b, the molar ratio of compound III to compound II is 1-1.3:1; the molar ratio of said base catalyst to compound II is 1-3:1; the molar ratio of said condensing agent to compound II is 1-2:1. ... Further, in said step b, the base catalyst is selected from one or more of sodium carbonate, potassium carbonate, calcium hydroxide, triethylamine and pyridine. ... Further, in said step b, the condensing agent is selected from one or more of CDI, HBTU, HOBT and DBU, wherein CDI is N,N'-carbonyldiimidazole, HBTU is O-benzotriazol-tetramethyluronium hexafluorophosphate, HOBT is 1-hydroxybenzotriazole, and DBU is 1,8-diazabicycloundec-7-ene. ... Further, in said step b, the temperature of the condensation reaction is -10-30℃ and the reaction time is 0.5-12h. ... Further, in said step a or/and step b, the reaction solvent is one or more of hexane, cyclohexane, N,N-dimethylformamide, benzene, toluene, xylene, dichloromethane, 1,2-dichloroethane, chloroform, 1,4-dioxane, diethyl ether, tetrahydrofuran and acetonitrile. ... Further, the weight ratio of said reaction solvent to compound I or compound II is 2-8:1.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line s 100, 116, 118, 120, 122, 124, 126. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "No Chinese on the arrow: MOH/M2CO3 is written above it and nothing below it. Introduced by the step sentence at line 95, 具体化学反应式如下式（1）所示： Equation number (1) is printed at the right margin, and faint roman-numeral labels reading I and II are printed under the reactant and the product.": {
+    "en": "Step a: using methyl 2-chloro-3-bromomethyl-4-(methanesulfonyl)benzoate and sodium trifluoroethoxide as the reaction substrates, adding MOH or M2CO3, and carrying out the reaction in a reaction solvent to obtain 2-chloro-3-(trifluoroethoxymethyl)-4-(methanesulfonyl)benzoic acid; the specific chemical reaction equation is as shown in equation (1) below:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 47. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "Two Chinese labels on the arrow, 缩合剂 above the line and 碱催化剂 below it. Introduced by the step sentence at line 100, 具体化学反应式如下式（2）所示： Equation number (2) is printed at the right margin and the structures are labelled II, III and IV.": {
+    "en": "Step b: using compound II from step a and 1,3-cyclohexanedione (compound III) as reaction substrates, a condensation reaction is carried out in a reaction solvent under the action of a condensing agent and a basic catalyst to obtain tembotrione (compound IV); the specific chemical equation is as shown in formula (2) below:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 100. 7 of 19 Chinese characters in this string sit on no source line and are not covered by the English above. Surfaces as: quote_zh on a provenance row, the evidence for a record."
+  },
+  "取1mol上述反应所得的化合物II": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL cyclohexane, then at -10 to 8 degrees C, 1 mol (98 g) 1,3-cyclohexanedione (compound III), 1 mol (152 g) of the condensing agent DBU and 1 mol (152 g) pyridine were added over half an hour; the mixture was stirred and reacted at -10 to 8 degrees C for a further 24 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 332.9 g, purity 94.6%, yield 80.1%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 167. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "取1.2mol(146.4g)三氟乙醇钠": {
+    "en": "Step a: 1.2 mol (146.4 g) sodium trifluoroethoxide, 1.2 mol (67.2 g) potassium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then reacted at 0 degrees C for 10 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 321.7 g, yield 93%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 149. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "加入MOH或M2CO3": {
+    "en": "Step a: using methyl 2-chloro-3-bromomethyl-4-(methanesulfonyl)benzoate and sodium trifluoroethoxide as the reaction substrates, adding MOH or M2CO3, and carrying out the reaction in a reaction solvent to obtain 2-chloro-3-(trifluoroethoxymethyl)-4-(methanesulfonyl)benzoic acid; the specific chemical reaction equation is as shown in equation (1) below:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 47. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "在缩合剂和碱催化剂的作用下": {
+    "en": "Step b: using compound II from step a and 1,3-cyclohexanedione (compound III) as reaction substrates, a condensation reaction is carried out in a reaction solvent under the action of a condensing agent and a basic catalyst to obtain tembotrione (compound IV); the specific chemical equation is as shown in formula (2) below:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 100. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "（71）申请人 安徽久易农业股份有限公司": {
+    "en": "(71) Applicant: Anhui Jiuyi Agriculture Co., Ltd.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 18. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "其工业制备方法主要是三氟乙醇、叔丁醇钾法制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸": {
+    "en": "Tembotrione is to date a class of herbicide with relatively high activity, low application rate and comparatively good safety. Its industrial preparation is mainly the trifluoroethanol / potassium tert-butoxide method to prepare the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, followed by acyl chlorination of the carboxyl group, esterification and then rearrangement; this method gives a relatively low yield of finished product and uses expensive reagents. Among these, in preparing the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, potassium tert-butoxide is used as the base, the yield is relatively low and the reagent is expensive; the acyl chlorination / esterification / rearrangement route requires the highly toxic reagent acetone cyanohydrin as rearrangement catalyst, and requires thionyl chloride (written 二氯亚砜) as the acyl chlorinating agent, and thionyl chloride is very harmful to the environment.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 85. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "溶解在1000mL的二氯乙烷中 ... 然后水洗、减压浓缩加甲、醇打浆、过滤、干燥": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloroethane, then at 15-20 degrees C, 1.5 mol (147 g) 1,3-cyclohexanedione (compound III), 3 mol (405 g) of the condensing agent HOBT and 3 mol (222 g) calcium hydroxide were added over half an hour; the mixture was stirred and reacted at 15-20 degrees C for a further 8 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 375.4 g, purity 97.5%, yield 87.5%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 159. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "且需要用二氯亚砜作酰氯化试剂，而二氯亚砜对环境有很大危害": {
+    "en": "Tembotrione is to date a class of herbicide with relatively high activity, low application rate and comparatively good safety. Its industrial preparation is mainly the trifluoroethanol / potassium tert-butoxide method to prepare the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, followed by acyl chlorination of the carboxyl group, esterification and then rearrangement; this method gives a relatively low yield of finished product and uses expensive reagents. Among these, in preparing the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, potassium tert-butoxide is used as the base, the yield is relatively low and the reagent is expensive; the acyl chlorination / esterification / rearrangement route requires the highly toxic reagent acetone cyanohydrin as rearrangement catalyst, and requires thionyl chloride (written 二氯亚砜) as the acyl chlorinating agent, and thionyl chloride is very harmful to the environment.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 85. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "1.本发明提供了一种环磺酮的制备方法，其特征在于，包括以下步骤：": {
+    "en": "1. The present invention provides a process for preparing tembotrione (环磺酮), characterised in that it comprises the following steps:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 45. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "本发明相比现有技术具有以下优点：本发明提供了一种环磺酮的制备方法，该方法以三氟乙醇钠作为反应物": {
+    "en": "Compared with the prior art, the present invention has the following advantages: the present invention provides a process for preparing tembotrione, which uses sodium trifluoroethoxide as the reactant, overcoming the low yield and high cost of preparing the key intermediate 2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-methylsulfonylbenzoic acid from trifluoroethanol and potassium tert-butoxide, and also overcoming the drawback of the route in which the carboxyl group is converted to the acid chloride, then to the ester, and then rearranged, which requires the highly toxic catalyst acetone cyanohydrin; it gives a high reaction yield, low cost, easy operation, little pollution and is safe and environmentally friendly, and is suitable for large-scale industrial production.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 128. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "（12）发明专利申请": {
+    "en": "(12) Application for a patent for invention",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 8. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "（22）申请日 2016.05.16": {
+    "en": "(22) Filing date 2016.05.16",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 16. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "步骤a：以2-氯-3-溴甲基-4-甲確基苯甲酸甲酯与三氟乙醇钠为反应底物，加入MOH或M2CO3，在反应溶剂中进行反应，获得2-氯-3-三氟乙氧甲基-4-甲確基苯甲酸": {
+    "en": "Step a: using methyl 2-chloro-3-bromomethyl-4-(methanesulfonyl)benzoate and sodium trifluoroethoxide as the reaction substrates, adding MOH or M2CO3, and carrying out the reaction in a reaction solvent to obtain 2-chloro-3-(trifluoroethoxymethyl)-4-(methanesulfonyl)benzoic acid; the specific chemical reaction equation is as shown in equation (1) below:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 47. 6 of 54 Chinese characters in this string sit on no source line and are not covered by the English above. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "取1.2mol(146.4g)三氟乙醇钠,1.2mol(67.2g)氢氧化钾,1.0mol(318g)2-氯-3-溴甲基-4-甲確基苯甲酸甲酯(化合物I)…干燥得化合物II,称重得321.7g,收率93%。": {
+    "en": "Step a: 1.2 mol (146.4 g) sodium trifluoroethoxide, 1.2 mol (67.2 g) potassium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then reacted at 0 degrees C for 10 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 321.7 g, yield 93%. ... Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (28.8 g) lithium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor ... Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (166.8 g) potassium carbonate, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then held at 30 degrees C for 5 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 321.7 g, yield 93%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line s 149, 173, 165. 1 of 36 Chinese characters in this string sit on no source line and are not covered by the English above. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "取1.1mol(134.2g)三氟乙醇钠,1.2mol(129.6g)碳酸钠,1.0mol(318g)2-氯-3-溴甲基-4-甲確基苯甲酸甲酯(化合物I)…干燥得化合物II,称重得311.4g,收率90%。": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (129.6 g) sodium carbonate, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then held at 50 degrees C for 2 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 311.4 g, yield 90%. ... Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (28.8 g) lithium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line s 157, 173. 1 of 35 Chinese characters in this string sit on no source line and are not covered by the English above. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "取1.1mol(134.2g)三氟乙醇钠,1.2mol(166.8g)碳酸钾,1.0mol(318g)2-氯-3-溴甲基-4-甲確基苯甲酸甲酯(化合物I)…干燥得化合物II,称重得321.7g,收率93%。": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (166.8 g) potassium carbonate, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor, then held at 30 degrees C for 5 hours; after the N,N-dimethylformamide in the reaction liquid was distilled off under reduced pressure, the residue was added to 300 mL water, the pH was adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 321.7 g, yield 93%. ... Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (28.8 g) lithium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line s 165, 173. 1 of 35 Chinese characters in this string sit on no source line and are not covered by the English above. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "取1.1mol(134.2g)三氟乙醇钠,1.2mol(28.8g)氢氧化钬,1.0mol(318g)2-氯-3-溴甲基-4-甲確基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器": {
+    "en": "Step a: 1.1 mol (134.2 g) sodium trifluoroethoxide, 1.2 mol (28.8 g) lithium hydroxide, 1.0 mol (318 g) methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate (compound I) and 1000 mL N,N-dimethylformamide were charged into the reactor",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 173. 2 of 37 Chinese characters in this string sit on no source line and are not covered by the English above. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "步骤b:取1mol上述反应所得的化合物II,溶解在1000mL的二氯乙烷中": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloroethane, then at 15-20 degrees C, 1.5 mol (147 g) 1,3-cyclohexanedione (compound III), 3 mol (405 g) of the condensing agent HOBT and 3 mol (222 g) calcium hydroxide were added over half an hour; the mixture was stirred and reacted at 15-20 degrees C for a further 8 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 375.4 g, purity 97.5%, yield 87.5%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 159. Surfaces as: quote on an A5 audit finding, the evidence for a defect (x2)."
+  },
+  "步骤b：取1mol上述反应所得的化合物II，溶解在1000mL的环己烷中": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL cyclohexane, then at -10 to 8 degrees C, 1 mol (98 g) 1,3-cyclohexanedione (compound III), 1 mol (152 g) of the condensing agent DBU and 1 mol (152 g) pyridine were added over half an hour; the mixture was stirred and reacted at -10 to 8 degrees C for a further 24 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 332.9 g, purity 94.6%, yield 80.1%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 167. Surfaces as: quote on an A5 audit finding, the evidence for a defect (x2)."
+  },
+  "然后水洗、减压浓缩加甲、醇打浆、过滤、干燥": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL dichloroethane, then at 15-20 degrees C, 1.5 mol (147 g) 1,3-cyclohexanedione (compound III), 3 mol (405 g) of the condensing agent HOBT and 3 mol (222 g) calcium hydroxide were added over half an hour; the mixture was stirred and reacted at 15-20 degrees C for a further 8 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 375.4 g, purity 97.5%, yield 87.5%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 159. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "然后经过水洗、减压浓缩、加甲醇打浆": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL cyclohexane, then at -10 to 8 degrees C, 1 mol (98 g) 1,3-cyclohexanedione (compound III), 1 mol (152 g) of the condensing agent DBU and 1 mol (152 g) pyridine were added over half an hour; the mixture was stirred and reacted at -10 to 8 degrees C for a further 24 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 332.9 g, purity 94.6%, yield 80.1%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 167. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "[0014] 进一步地，所述步骤a中，反应温度为0-5℃，反应时间为2-10小时。": {
+    "en": "Further, in said step a, the reaction temperature is 0-5℃ and the reaction time is 2-10 hours.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 114. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "[0018] 进一步地，所述步骤b中，缩合反应的温度为-10-30℃，反应时间为0.5-12h。": {
+    "en": "Further, in said step b, the temperature of the condensation reaction is -10-30℃ and the reaction time is 0.5-12h.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 122. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "冷却结晶,过滤,水洗,干燥得化合物II": {
+    "en": "into, then after holding at 30 degrees C for 5 hours, the N,N-dimethylformamide in the reaction liquid is distilled off under reduced pressure, the residual liquid is added into 300 mL of water, the pH is adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 318.3 g, yield 92%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 178. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "步骤a：以2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯（化合物I）与三氟乙醇钠为反应底物，加入MOH或M2CO3，在反应溶剂中进行反应，获得2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸（化合物II）": {
+    "en": "Step a: using methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate (compound I) and sodium trifluoroethoxide as reaction substrates, adding MOH or M2CO3, the reaction is carried out in a reaction solvent to obtain 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid (compound II); the specific chemical equation is as shown in formula (1) below:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 95. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "获得2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸（化合物II）": {
+    "en": "Step a: using methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate (compound I) and sodium trifluoroethoxide as reaction substrates, adding MOH or M2CO3, the reaction is carried out in a reaction solvent to obtain 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid (compound II); the specific chemical equation is as shown in formula (1) below:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 95. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "用35％的盐酸调pH至弱酸性,冷却结晶": {
+    "en": "into, then after holding at 30 degrees C for 5 hours, the N,N-dimethylformamide in the reaction liquid is distilled off under reduced pressure, the residual liquid is added into 300 mL of water, the pH is adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 318.3 g, yield 92%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 178. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "将反应液中的N,N-二甲基甲酰胺减压蒸除后": {
+    "en": "into, then after holding at 30 degrees C for 5 hours, the N,N-dimethylformamide in the reaction liquid is distilled off under reduced pressure, the residual liquid is added into 300 mL of water, the pH is adjusted to weakly acidic with 35% hydrochloric acid, cooled to crystallise, filtered, washed with water and dried to give compound II, weighed at 318.3 g, yield 92%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 178. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "然后经过水洗、减压浓缩、加甲醇打浆、过滤、干燥": {
+    "en": "Step b: 1 mol of compound II obtained from the above reaction was dissolved in 1000 mL cyclohexane, then at -10 to 8 degrees C, 1 mol (98 g) 1,3-cyclohexanedione (compound III), 1 mol (152 g) of the condensing agent DBU and 1 mol (152 g) pyridine were added over half an hour; the mixture was stirred and reacted at -10 to 8 degrees C for a further 24 hours, then washed with water, concentrated under reduced pressure, slurried with methanol, filtered and dried to give the finished tembotrione (compound IV) 332.9 g, purity 94.6%, yield 80.1%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 167. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "半小时内加入含1.1mol(106.7g)1，3-环己二酮(化合物III)": {
+    "en": "Step b: take 1 mol of compound II obtained from the above reaction, dissolve it in 1000 mL of cyclohexane, then at a temperature of 20-30 degrees C add, over half an hour, 1.1 mol (106.7 g) of 1,3-cyclohexanedione (compound III) together with 1.8 mol (291.6 g) of the condensing agent CDI and 5 mol (690 g) of potassium carbonate; stir and react for a further 15 hours at 20-30 degrees C, then wash with water, concentrate under reduced pressure, slurry with added methanol, filter and dry to obtain the finished product tembotrione (compound IV), 355.5 g, purity 96.3%, yield 83.9%.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 180. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "其工业制备方法主要是三氟乙醇、叔丁醇钾法制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸然后羧基酰氯化成酯后重排法": {
+    "en": "Tembotrione is to date a class of herbicide with relatively high activity, low application rate and comparatively good safety. Its industrial preparation is mainly the trifluoroethanol / potassium tert-butoxide method to prepare the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, followed by acyl chlorination of the carboxyl group, esterification and then rearrangement; this method gives a relatively low yield of finished product and uses expensive reagents. Among these, in preparing the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid, potassium tert-butoxide is used as the base, the yield is relatively low and the reagent is expensive; the acyl chlorination / esterification / rearrangement route requires the highly toxic reagent acetone cyanohydrin as rearrangement catalyst, and requires thionyl chloride (written 二氯亚砜) as the acyl chlorinating agent, and thionyl chloride is very harmful to the environment.",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 85. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "步骤a：以2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯与三氟乙醇钠为反应底物，加入MOH或M2CO3，在反应溶剂中进行反应": {
+    "en": "Step a: using methyl 2-chloro-3-bromomethyl-4-(methanesulfonyl)benzoate and sodium trifluoroethoxide as the reaction substrates, adding MOH or M2CO3, and carrying out the reaction in a reaction solvent to obtain 2-chloro-3-(trifluoroethoxymethyl)-4-(methanesulfonyl)benzoic acid; the specific chemical reaction equation is as shown in equation (1) below:",
+    "origin": "source_mt",
+    "note": "Machine translation carried by the enriched source at line 47. Surfaces as: quote on an A5 audit finding, the evidence for a defect."
+  },
+  "收率较低": {
+    "en": "the yield is relatively low",
+    "origin": "curated",
+    "note": "Hand-authored: this string is named in the patent and the gold carries no English for it. Surfaces as: a Chinese term quoted inside the annotator's English commentary on a provenance row (x2). A qualitative statement in the background about the prior-art route. No number is printed with it."
+  },
+  "收率低": {
+    "en": "the yield is low",
+    "origin": "curated",
+    "note": "Hand-authored: this string is named in the patent and the gold carries no English for it. Surfaces as: a Chinese term quoted inside the annotator's English commentary on a provenance row. A qualitative statement about the prior-art route. No number is printed with it, and it is a different wording from 收率较低 in the same passage, so the two are kept apart."
+  },
+  "步骤": {
+    "en": "step",
+    "origin": "curated",
+    "note": "Hand-authored: this string is named in the patent and the gold carries no English for it. Surfaces as: a Chinese term quoted inside the annotator's English commentary on a provenance row (x3). The document's own word for a numbered stage of the procedure, as in 步骤a and 步骤b."
+  },
+  "上述反应所得的": {
+    "en": "obtained from the above reaction",
+    "origin": "curated",
+    "note": "Hand-authored: this string is named in the patent and the gold carries no English for it. Surfaces as: a Chinese term quoted inside the annotator's English commentary on a provenance row. The back-reference each example's step b uses to charge the material step a isolated. It is what makes the within-section precursor linkage explicit rather than inferred from name similarity."
+  }
+}

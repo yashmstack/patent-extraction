@@ -1,0 +1,181 @@
+{
+ "page": "p19.png",
+ "page_label": "18",
+ "doc_part": "description",
+ "header": "18\nWO 2024/109718    PCT/CN2023/132821",
+ "footer": "",
+ "paragraphs": [
+  {
+   "marker": null,
+   "zh": "应，降温、抽滤，滤饼用水洗涤两次，然后于60℃烘干，得到式(II)化合物。熔点138-140℃。",
+   "en": "...reaction; cool down, filter with suction, wash the filter cake twice with water, then dry at 60 degrees C to give the compound of formula (II). Melting point 138-140 degrees C.",
+   "notes": "Continuation of a paragraph that begins on the previous page; the marker is not printed on this page. The first character 应 is the tail of a word split across the page break (most likely 反应)."
+  },
+  {
+   "marker": "[0116]",
+   "zh": "高效液相色谱条件：与实施例1相同。",
+   "en": "High performance liquid chromatography conditions: the same as in Example 1.",
+   "notes": null
+  },
+  {
+   "marker": "[0117]",
+   "zh": "式(II)化合物的1HNMR(CDCl3)谱图如图5所示，13CNMR(CDCl3)谱图如图6所示。",
+   "en": "The 1H NMR (CDCl3) spectrum of the compound of formula (II) is shown in Figure 5, and the 13C NMR (CDCl3) spectrum is shown in Figure 6.",
+   "notes": "Printed with superscript 1 and 13 and subscript 3 in CDCl3; transcribed as plain digits here."
+  },
+  {
+   "marker": "[0118]",
+   "zh": "实施例4 式(III)化合物的制备",
+   "en": "Example 4 Preparation of the compound of formula (III)",
+   "notes": null
+  },
+  {
+   "marker": "[0119]",
+   "zh": "方法1：将式(II)化合物84g、过氧化苯甲酰3.58g和1,2-二氯乙烷500mL加入到四口圆底烧瓶中，升温至60℃，滴加溴素52.8g。溴素滴加完毕后，通过高效液相色谱监测反应完成后，用50mL32％的NaOH水溶液淬灭反应，然后分出有机相，用50mL32％的NaOH水溶液洗涤两次，50mL水洗两次，50℃旋蒸除去溶剂，所得固体在60℃烘干，得到式(III)化合物。熔点148-150℃。",
+   "en": "Method 1: 84 g of the compound of formula (II), 3.58 g of benzoyl peroxide and 500 mL of 1,2-dichloroethane were added to a four-necked round-bottom flask, the temperature was raised to 60 degrees C, and 52.8 g of bromine was added dropwise. After the dropwise addition of bromine was complete and the reaction was monitored to completion by high performance liquid chromatography, the reaction was quenched with 50 mL of 32% aqueous NaOH solution, then the organic phase was separated, washed twice with 50 mL of 32% aqueous NaOH solution and twice with 50 mL of water, the solvent was removed by rotary evaporation at 50 degrees C, and the resulting solid was dried at 60 degrees C to give the compound of formula (III). Melting point 148-150 degrees C.",
+   "notes": "溴素 is elemental bromine (Br2)."
+  },
+  {
+   "marker": "[0120]",
+   "zh": "方法2：将式(II)化合物84g、过氧化苯甲酰3.58g、N-溴代丁二酰亚胺64.1g和四氯化碳500mL加入到四口圆底烧瓶中，升温至60℃，通过高效液相色谱监测反应完成后，过滤，滤液在50℃旋蒸除去溶剂，残余物用150mL乙醇重结晶，过滤，滤饼于60℃烘干，得到式(III)化合物。",
+   "en": "Method 2: 84 g of the compound of formula (II), 3.58 g of benzoyl peroxide, 64.1 g of N-bromosuccinimide and 500 mL of carbon tetrachloride were added to a four-necked round-bottom flask, the temperature was raised to 60 degrees C, and after the reaction was monitored to completion by high performance liquid chromatography, it was filtered, the filtrate was freed of solvent by rotary evaporation at 50 degrees C, the residue was recrystallised from 150 mL of ethanol, filtered, and the filter cake was dried at 60 degrees C to give the compound of formula (III).",
+   "notes": null
+  },
+  {
+   "marker": "[0121]",
+   "zh": "高效液相色谱条件：与实施例1相同。",
+   "en": "High performance liquid chromatography conditions: the same as in Example 1.",
+   "notes": null
+  },
+  {
+   "marker": "[0122]",
+   "zh": "式(III)化合物的1HNMR(CDCl3)谱图如图7所示，13CNMR(CDCl3)谱图如图8所示。",
+   "en": "The 1H NMR (CDCl3) spectrum of the compound of formula (III) is shown in Figure 7, and the 13C NMR (CDCl3) spectrum is shown in Figure 8.",
+   "notes": "Printed with superscript 1 and 13 and subscript 3 in CDCl3; transcribed as plain digits here."
+  },
+  {
+   "marker": "[0123]",
+   "zh": "实施例5 式(IV)化合物的制备",
+   "en": "Example 5 Preparation of the compound of formula (IV)",
+   "notes": null
+  }
+ ],
+ "drawings": [
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0118]",
+    "[0119]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, captioned formula (II)",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at the lower-right ring vertex (taken as C1)",
+      "CH3 at the upper-right ring vertex, ortho to SO2CH3 (C2)",
+      "Cl at the top ring vertex (C3)",
+      "Br at the upper-left ring vertex (C4)",
+      "H at the two remaining vertices (C5, C6)"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfonyl)benzene",
+     "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1C",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right of arrow, captioned formula (III)",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at the lower-right ring vertex (taken as C1)",
+      "CH2Br at the upper-right ring vertex, ortho to SO2CH3 (C2)",
+      "Cl at the top ring vertex (C3)",
+      "Br at the upper-left ring vertex (C4)",
+      "H at the two remaining vertices (C5, C6)"
+     ],
+     "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methylsulfonyl)benzene",
+     "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [
+      "溴代试剂"
+     ],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "溴代试剂 means 'brominating agent', a generic label rather than a named reagent. Ring substitution pattern read directly off the drawing: the four substituents occupy four consecutive vertices (Br, Cl, CH3/CH2Br, SO2CH3) with two adjacent unsubstituted CH."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0123]",
+    null
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, captioned formula (III)",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at the lower-right ring vertex (taken as C1)",
+      "CH2Br at the upper-right ring vertex, ortho to SO2CH3 (C2)",
+      "Cl at the top ring vertex (C3)",
+      "Br at the upper-left ring vertex (C4)",
+      "H at the two remaining vertices (C5, C6)"
+     ],
+     "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methylsulfonyl)benzene",
+     "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right of arrow, captioned formula (IV)",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at the lower-right ring vertex (taken as C1)",
+      "CH2-O-CH2CF3 at the upper-right ring vertex, ortho to SO2CH3 (C2)",
+      "Cl at the top ring vertex (C3)",
+      "Br at the upper-left ring vertex (C4)",
+      "H at the two remaining vertices (C5, C6)"
+     ],
+     "name": "1-bromo-2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+     "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [
+      "CF3CH2ONa"
+     ],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "The scheme sits under the Example 5 heading [0123]; the prose describing this step continues on the next page, so no closing paragraph marker exists on this page."
+  }
+ ],
+ "discrepancies": [
+  {
+   "what": "The first scheme labels the reagent generically while the prose names two specific brominating systems.",
+   "drawing_says": "溴代试剂 (brominating agent) above the arrow, nothing below it",
+   "text_says": "[0119] bromine (溴素) 52.8 g with benzoyl peroxide 3.58 g in 1,2-dichloroethane; [0120] N-bromosuccinimide 64.1 g with benzoyl peroxide 3.58 g in carbon tetrachloride"
+  },
+  {
+   "what": "The initiator and solvent given in the prose are not drawn on the first scheme.",
+   "drawing_says": "no initiator or solvent shown above or below the arrow",
+   "text_says": "过氧化苯甲酰 (benzoyl peroxide) initiator; 1,2-二氯乙烷 or 四氯化碳 as solvent"
+  }
+ ],
+ "illegible": [],
+ "page_confidence": "high"
+}

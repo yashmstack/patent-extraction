@@ -1,0 +1,256 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Example 1_Step 1",
+    "section_label": "Example 1",
+    "section_type": "experimental_intermediate",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "nucleophilic_substitution",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "lab",
+    "is_one_pot": true,
+    "one_pot_steps": [
+      "diazotisation of 3-chloro-2-methylaniline with aqueous NaNO2 in aqueous hydrochloric acid to give a diazonium salt solution",
+      "addition of that diazonium salt solution to aqueous CH3SNa and aqueous NaOH, displacing dinitrogen to give the compound of formula (VI)"
+    ],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": "four-necked flask",
+      "concentration": {
+        "value": 20.0,
+        "unit": "%",
+        "reagent": "CH3SNa",
+        "text": "20% aqueous CH3SNa solution, added to a flask together with 32% aqueous NaOH solution; the diazotisation charges are 5.1% hydrochloric acid and 20% aqueous NaNO2 solution"
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "adjust to pH 2 to 3 with hydrochloric acid",
+        "separate the layers",
+        "collect the organic layer",
+        "distil"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": "distillation",
+      "ph_target": null
+    },
+    "purification": "distilled after layer separation and collection of the organic layer",
+    "process_control": {
+      "method": "hplc",
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": "reaction complete"
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "3-chloro-2-methylaniline",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 100.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added dropwise at 20 degrees C into the charged hydrochloric acid",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "hydrochloric acid",
+        "role": "acid",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 1165.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged into the four-necked flask first, at 20 degrees C; the printed 1165 g is the mass of 5.1% hydrochloric acid solution, not of HCl",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "NaNO2",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 251.41,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added dropwise at 0 degrees C after the aniline addition, the temperature during the addition controlled not to exceed -5 to 10 degrees C; the printed 251.41 g is the mass of 20% aqueous NaNO2 solution, not of NaNO2",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "重氮盐",
+        "role": "intermediate",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "generated in situ as a solution, then added dropwise into the flask holding the CH3SNa and NaOH solutions",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CH3SNa",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 273.0,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "weighed into a second four-necked flask and held there as the receiving charge; the printed 273 g is the mass of 20% aqueous CH3SNa solution, not of CH3SNa",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "NaOH",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 26.62,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "weighed into the second four-necked flask together with the CH3SNa solution; the printed 26.62 g is the mass of 32% aqueous NaOH solution, not of NaOH",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "compound of formula (VI)",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "3-chloro-2-methylaniline",
+      "hydrochloric acid",
+      "NaNO2",
+      "重氮盐",
+      "CH3SNa",
+      "NaOH"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "compound of formula (VI)",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "在20℃下将5.1％盐酸1165g加入到四口瓶中，滴加3-氯-2-甲基苯胺100g，滴加完毕后，在0℃进一步滴加20％NaNO2水溶液251.41g，滴加过程中控温不超过-5～10℃，搅拌，得到重氮盐溶液。称量20％CH3SNa水溶液273g和32％NaOH水溶液26.62g置于另一四口烧瓶中，将上述重氮盐溶液滴加到此烧瓶中，通过高效液相色谱监测反应。反应完成后，用盐酸调节至pH为2～3，分层，收集有机层，蒸馏，得到式(VI)化合物。",
+    "procedure_summary": "3-Chloro-2-methylaniline is diazotised with aqueous sodium nitrite in aqueous hydrochloric acid, and the resulting diazonium salt solution is added to aqueous sodium methanethiolate and sodium hydroxide, giving the aryl methyl sulfide of formula (VI) after acidification, layer separation and distillation.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "reagent_written_not_drawn"
+    ],
+    "tags": [
+      "transformation:diazotisation",
+      "transformation:thioetherification",
+      "mechanism:ionic",
+      "analytics:hplc",
+      "analytics:nmr",
+      "scale:lab",
+      "solvent_class:aqueous",
+      "catalyst_class:none",
+      "workup_type:aqueous_extraction",
+      "workup_type:distillation",
+      "purification:distillation",
+      "step_role:first_step",
+      "linkage:standalone",
+      "is_one_pot:true"
+    ],
+    "notes": "A0 estimated one step and this record agrees: the section is a single continuous operation with no workup between the diazotisation and the displacement, so it is one record with is_one_pot true. The document prints no N-marker headings inside this example, so step_label is assigned as Step 1. Per the one-pot rule the temperature is taken from the final transformation, the addition of the diazonium salt solution to the CH3SNa and NaOH flask, and no temperature is printed for it, so temperature is not_specified. The temperatures the text does print all belong to the first transformation and are kept on the relevant compounds' addition profiles: 20 degrees C for the hydrochloric acid charge and the aniline addition, 0 degrees C for the start of the NaNO2 addition, and control not exceeding -5 to 10 degrees C during that addition. Two four-necked flasks are used; no volume is printed for either. The text says stirred but does not say by what, so the stirring type is left null. Several charges are masses of solutions rather than of solutes: 5.1% hydrochloric acid, 20% aqueous NaNO2, 20% aqueous CH3SNa and 32% aqueous NaOH. Every mass_g here is the printed mass of the solution; no solute mass was computed. The pH 2 to 3 adjustment is a workup operation, so it is recorded in the workup narrative; workup.ph_target is left null because the text gives a range and picking a bound would invent a number. The IMAGE_EXTRACT reaction scheme immediately before the procedure agrees with the prose on the reactant (3-chloro-2-methylaniline), on the reagents NaNO2, CH3SNa and HCl, and on the product being an aryl methyl sulfide bearing chloro and methyl, which is what the prose calls the compound of formula (VI). The one difference is that the 32% aqueous NaOH charged with the CH3SNa appears in the prose but on no arrow, so reagent_written_not_drawn is raised; it is most likely drawing shorthand rather than a substantive conflict, and no drawing_text_conflict is raised because nothing in the scheme contradicts the procedure. The Chinese runs across a page break at the head of line 433, where the OCR emitted a stray token None before 过-5～10℃; that token is not part of the patent text and is excluded from procedure_text. No product mass, no product yield and no purity are printed anywhere in the section, so no mass balance can be checked and none is asserted. HPLC is used both for in-process monitoring and, in the following paragraph, with full instrument conditions; only the monitoring use is a process control here. 1H and 13C NMR are reported only as references to Figures 1 and 2, with no shift data. Linkage: this is the first step of the synthesis and nothing earlier in the document produces its starting material, so precursor_step is null. Its product is recorded here with the A1 identifier for this section, the English 'compound of formula (VI)'; Example 2 charges the same compound under the Chinese identifier 式(VI)化合物, which is the A1 identifier for that section. The two are the same substance, the label (VI) is the document's own, and the SMILES the drawings give for both is the same aryl methyl sulfide, so Example 2 links back to this step by identity and not merely by adjacency."
+  }
+]

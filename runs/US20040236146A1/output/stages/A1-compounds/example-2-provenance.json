@@ -1,0 +1,71 @@
+[
+  {
+    "identifier": "2-chloro-3-methyl-4-ethylsulfonylbenzoic acid",
+    "source_lines": [
+      136,
+      137,
+      140
+    ],
+    "quote_zh": "20 g of 2-chloro-3-methyl-4-sulfonylethylbenzoic acid were suspended in 150 ml of acetonitrile"
+  },
+  {
+    "identifier": "acetonitrile",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "were suspended in 150 ml of acetonitrile"
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "At room temperature, 17.6 g of N-bromosuccinimide and 0.7 g of dibenzoyl peroxide were added"
+  },
+  {
+    "identifier": "dibenzoyl peroxide",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "0.7 g of dibenzoyl peroxide were added and the mixture was subsequently heated to reflux. After in each case 1 h, further dibenzoyl peroxide was added in 3 portions each of 0.7 g"
+  },
+  {
+    "identifier": "sodium bisulfite",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "100 ml of a 2% sodium bisulfite solution and 300 ml of ethyl acetate were added in succession"
+  },
+  {
+    "identifier": "ethyl acetate",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "300 ml of ethyl acetate were added in succession. The organic phase was removed, washed and concentrated under reduced pressure"
+  },
+  {
+    "identifier": "diethyl ether",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "The solid residue was suspended in 50 ml of diethyl ether and 20 ml of heptane, filtered off and dried"
+  },
+  {
+    "identifier": "heptane",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "The solid residue was suspended in 50 ml of diethyl ether and 20 ml of heptane, filtered off and dried"
+  },
+  {
+    "identifier": "3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid",
+    "source_lines": [
+      136,
+      137,
+      138,
+      140,
+      142
+    ],
+    "quote_zh": "Preparation of / 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic / Acid (the title as printed, one fragment per line, lines 136, 137 and 138) ... 28.2 g (95.6% of theory) of 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid were obtained. ... Purity: 88% (HPLC) Melting point: 103° C."
+  }
+]

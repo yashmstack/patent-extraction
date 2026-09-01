@@ -1,0 +1,64 @@
+{
+  "page": "p39.png",
+  "page_label": "10/10",
+  "doc_part": "drawings",
+  "header": "10/10\nWO 2024/109718                    PCT/CN2023/132821",
+  "footer": "",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "［图 16］",
+      "en": "[Figure 16]",
+      "notes": "Figure caption printed at the top left of the sheet, above the structure and the spectrum. This is a drawings sheet of the PCT publication, not description prose; there are no [00NN] paragraph markers anywhere on the page. It is the last drawings sheet (10/10) and carries a single figure; the lower half of the sheet is blank."
+    },
+    {
+      "marker": null,
+      "zh": "细则 26,\n26.12.2023",
+      "en": "Rule 26, 26.12.2023",
+      "notes": "Replacement-sheet stamp in the right margin, set on two lines beside a heavy vertical rule that runs from the top of the figure down past the spectrum. It appears once on this sheet. A page artifact, not content."
+    },
+    {
+      "marker": null,
+      "zh": "f1（ppm）",
+      "en": "f1 (ppm)",
+      "notes": "Axis caption centred under the spectrum. The glyphs are broken into disconnected dots in the scan; the two-character token before the parenthesis and the three-letter token inside it are consistent with \"f1\" and \"ppm\" but no single letter is crisply readable in isolation. Whether the parentheses are full-width or half-width cannot be judged from the scan. Recorded the same way as the identical caption on sheets 7/10 to 9/10."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "structure",
+      "between_markers": [],
+      "presented_as": "intermediate_structure",
+      "structures": [
+        {
+          "position_in_drawing": "1st and only structure, upper-left of the sheet, drawn above the spectrum as the compound that spectrum belongs to (Figure 16)",
+          "core": "cyclohexane-1,3-dione whose C2 carries a benzoyl group; the benzoyl is a substituted benzene ring",
+          "substituents": [
+            "=O at C1 of the cyclohexanedione ring",
+            "=O at C3 of the cyclohexanedione ring",
+            "C(=O)-aryl at C2 of the cyclohexanedione ring (single bonds to C1 and C3; no ring C=C is drawn, so the dione is drawn in the keto form, not the enol)",
+            "C(=O)-cyclohexanedione at C1 of the benzene ring",
+            "label read as Cl at C2 of the benzene ring (single vertical bond up from the ring vertex to a two-character label; the glyph is broken in the scan, see illegible)",
+            "CH2-O-CH2-[label read as CF3] at C3 of the benzene ring (ring-CH2 apex, then a labelled O, then a second CH2 apex, then a single condensed terminal label; the terminal label is broken in the scan, see illegible)",
+            "S(=O)(=O)CH3 at C4 of the benzene ring (S with two double-bonded O labels and one CH3 label)",
+            "H at C5 of the benzene ring",
+            "H at C6 of the benzene ring"
+          ],
+          "name": null,
+          "smiles": null,
+          "confidence": "low"
+        }
+      ],
+      "arrows": [],
+      "notes": "Ring numbering is read off the drawing only. Benzene: the vertex bonded to the ketone bridge (left of the hexagon) is called C1 and the ring is walked clockwise; C2 is the top vertex, C3 the upper-right vertex, C4 the lower-right vertex, C5 the bottom vertex, C6 the lower-left vertex. Four substituents occupy four consecutive vertices C1-C4; the bottom and lower-left vertices carry no label. Connectivity of the whole molecule is unambiguous in the scan: cyclohexane ring, C=O drawn at its top and bottom vertices, the middle vertex between them bonded to a carbonyl carbon that is bonded to the benzene C1. Aromatic alternating double bonds are drawn inside the hexagon. What is NOT certain is two of the labels: the C2 substituent and the terminal carbon of the C3 side chain. Both are printed at the size limit of this bilevel scan (about 24 and 50 pixels wide at 300 dpi) and their strokes are broken into isolated dots at every magnification tried, including a crop from the native CCITT image in the source PDF. They were read as Cl and CF3 from glyph outline and width comparison against a known O and a known CH3 elsewhere in the same drawing, but no letter is individually resolvable, so name and smiles are left null rather than committed to. The same compound skeleton drawn on sheets 7/10 and 8/10 is drawn larger there and is legible there; this sheet was read on its own and no reading was carried over from those sheets. Below the structure is a one-dimensional NMR spectrum, baseline running the width of the sheet with one very tall peak at roughly 78 percent of the way to the right of the axis and about twenty smaller peaks; the ppm axis carries 22 evenly spaced tick labels whose digits are not individually legible. Twelve of the labels are three digits wide, nine are two digits wide and the right-most is one digit wide, which is consistent with an axis running 210 down to 0 in steps of 10, the usual range for a carbon-13 spectrum; that range is an arithmetic reading of label widths and spacing, not a reading of the digits themselves. No nuclide is written anywhere on the axis."
+    }
+  ],
+  "discrepancies": [],
+  "illegible": [
+    "The substituent label at C2 of the benzene ring, top of the structure at the upper left of the sheet. A two-character label about 24 pixels wide at 300 dpi, broken into disconnected dots. Read as Cl (round first glyph, tall narrow second glyph, wider than the 18-pixel O labels of the ketones in the same drawing), but not resolvable character by character.",
+    "The terminal label of the C3 side chain, at the right-hand end of the CH2-O-CH2 chain. A single condensed three-glyph label about 50 pixels wide at 300 dpi with a subscript. Read as CF3; the middle glyph shows a vertical stroke with two short right-hand spurs and the label carries about 25 percent less ink than the crisply comparable CH3 label of the sulfonyl group in the same drawing, but no character is individually resolvable.",
+    "All 22 ppm tick labels under the spectrum. Digit shapes are dissolved into dither; only the number of digits per label is measurable.",
+    "The axis caption under the spectrum, read as f1（ppm）; individual letters are broken."
+  ],
+  "page_confidence": "low"
+}

@@ -1,0 +1,213 @@
+{
+ "page": "p22.png",
+ "page_label": "21",
+ "doc_part": "description",
+ "header": "21 / WO 2024/109718 / PCT/CN2023/132821",
+ "footer": "",
+ "paragraphs": [
+  {
+   "marker": "[0138]",
+   "zh": "方法1：向高压釜中加入式(IV)化合物94.73g、1,3-环己二酮29.41g、三乙胺27.83g、双[(4-N,N-二甲氨基)苯基]二叔丁基膦二氯化钯3g、溶剂二氧六环250g，氮气置换3次，通入1～4MPa的CO，升高温度，在85℃反应约3h。通过高效液相色谱监测反应完成后，降温至室温，卸去压力，开釜，倒出反应液，过滤，用10g二氧六环洗涤滤饼，母液旋蒸除去溶剂，向旋干的母液中加入80g乙醇，加热到70℃溶解，缓慢降温结晶，过滤，70℃烘干固体，得到(VIII)酯化合物，收率为80％。",
+   "en": "Method 1: Into an autoclave were added 94.73 g of the compound of formula (IV), 29.41 g of 1,3-cyclohexanedione, 27.83 g of triethylamine, 3 g of bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride, and 250 g of dioxane solvent. The atmosphere was replaced with nitrogen 3 times, CO was introduced at 1-4 MPa, the temperature was raised, and the reaction was run at 85 degC for about 3 h. After the reaction was monitored as complete by HPLC, it was cooled to room temperature, the pressure was released, the autoclave was opened, the reaction liquid was poured out and filtered, the filter cake was washed with 10 g of dioxane, the solvent was removed from the mother liquor by rotary evaporation, 80 g of ethanol was added to the rotary-dried mother liquor, it was heated to 70 degC to dissolve, slowly cooled to crystallise, filtered, and the solid dried at 70 degC to give the (VIII) ester compound, yield 80%.",
+   "notes": "The Chinese writes the diketone as 1,3-环己二酮 (using 己, hexane); the drawing shows cyclohexane-1,3-dione, consistent. The palladium catalyst name is transcribed literally; it is a phosphine-palladium dichloride complex named as a single compound in Chinese."
+  },
+  {
+   "marker": "[0139]",
+   "zh": "方法2：溶剂替换为乙二醇二乙醚300g，其它与方法1相同，得到(VIII)酯化合物，收率为71.63％。",
+   "en": "Method 2: The solvent was replaced with 300 g of ethylene glycol diethyl ether, everything else being the same as Method 1, to give the (VIII) ester compound, yield 71.63%.",
+   "notes": null
+  },
+  {
+   "marker": "[0140]",
+   "zh": "高效液相色谱条件：与实施例5相同。",
+   "en": "HPLC conditions: the same as in Example 5.",
+   "notes": null
+  },
+  {
+   "marker": "[0141]",
+   "zh": "式(VIII)化合物的1HNMR(DMSO)谱图如图13所示，13CNMR(DMSO)谱图如图14所示。",
+   "en": "The 1H NMR (DMSO) spectrum of the compound of formula (VIII) is shown in Figure 13, and the 13C NMR (DMSO) spectrum is shown in Figure 14.",
+   "notes": "The 1 in 1HNMR and the 13 in 13CNMR are printed as superscripts."
+  },
+  {
+   "marker": "[0142]",
+   "zh": "实施例10 环磺酮的制备2(一锅法)",
+   "en": "Example 10 Preparation of tembotrione 2 (one-pot method)",
+   "notes": "环磺酮 is the Chinese common name for tembotrione."
+  },
+  {
+   "marker": "[0143]",
+   "zh": "向高压釜中加入式(IV)化合物56.84g、三乙胺37.95g、PdCl2催化剂0.4g、配体1,4-双(二苯基膦)丁烷3.98g、溶剂1,4-二氧六环300g，抽真空，氮气置换3次，以约1～4MPa的压力通入CO，在80～85℃反应约8h后降温至70℃，加入2g丙酮氰醇，继续反应5h。通过高效液相色谱监测反应完成后，降至室温，卸去压力，打开反应釜，过滤，除去三乙胺氢溴酸盐，旋蒸除去溶剂二氧六环，加入甲醇水溶解，用氢氧化钠溶液调节pH至8～9，加热至50℃搅拌，过滤掉不溶物，调酸至pH为2～3，析出白色固体，将溶液冷却到室温并冰浴搅拌0.5h，过",
+   "en": "Into an autoclave were added 56.84 g of the compound of formula (IV), 37.95 g of triethylamine, 0.4 g of PdCl2 catalyst, 3.98 g of the ligand 1,4-bis(diphenylphosphino)butane, and 300 g of the solvent 1,4-dioxane. A vacuum was drawn, the atmosphere was replaced with nitrogen 3 times, CO was introduced at a pressure of about 1-4 MPa, and after reacting at 80-85 degC for about 8 h the temperature was lowered to 70 degC, 2 g of acetone cyanohydrin was added, and the reaction was continued for 5 h. After the reaction was monitored as complete by HPLC, it was cooled to room temperature, the pressure was released, the reactor was opened, and it was filtered to remove triethylamine hydrobromide; the solvent dioxane was removed by rotary evaporation, aqueous methanol was added to dissolve, the pH was adjusted to 8-9 with sodium hydroxide solution, it was heated to 50 degC and stirred, insolubles were filtered off, the acidity was adjusted to pH 2-3, a white solid precipitated, the solution was cooled to room temperature and stirred in an ice bath for 0.5 h, and fil",
+   "notes": "The paragraph runs off the bottom of the page mid-sentence, ending with the single character 过 (the start of 过滤, filtration)."
+  }
+ ],
+ "drawings": [
+  {
+   "kind": "scheme",
+   "between_markers": [
+    null,
+    "[0138]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, labelled formula (IV)",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4",
+      "H at C5",
+      "H at C6"
+     ],
+     "name": "1-bromo-2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzene",
+     "smiles": "Brc1c(Cl)c(COCC(F)(F)F)c(S(C)(=O)=O)cc1",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, below the arrow (reagent)",
+     "core": "cyclohexane-1,3-dione",
+     "substituents": [
+      "=O at C1",
+      "=O at C3"
+     ],
+     "name": "cyclohexane-1,3-dione",
+     "smiles": "O=C1CCCC(=O)C1",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "3rd, right of arrow, labelled formula (VIII)",
+     "core": "benzene bearing an ester to a 3-oxocyclohex-1-en-1-yl group",
+     "substituents": [
+      "C(=O)O-(3-oxocyclohex-1-en-1-yl) at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4",
+      "H at C5",
+      "H at C6"
+     ],
+     "name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+     "smiles": "O=C1CCCC(OC(=O)c2c(Cl)c(COCC(F)(F)F)c(S(C)(=O)=O)cc2)=C1",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "3rd",
+     "reagents_above": [
+      "CO"
+     ],
+     "reagents_below": [
+      "cyclohexane-1,3-dione (drawn as a structure, not named)"
+     ],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Scheme sits between the page header and paragraph [0138]; it is the scheme for the esterification step described in [0138] and [0139]. The 式（IV）and 式（VIII）labels are printed below the two structures. The methylsulfonyl group is drawn out as S with two =O and a methyl in this scheme (written as SO2CH3 in the second scheme)."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0142]",
+    "[0143]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, labelled formula (IV)",
+     "core": "benzene",
+     "substituents": [
+      "Br at C1",
+      "Cl at C2",
+      "CH2OCH2CF3 at C3",
+      "SO2CH3 at C4",
+      "H at C5",
+      "H at C6"
+     ],
+     "name": "1-bromo-2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzene",
+     "smiles": "Brc1c(Cl)c(COCC(F)(F)F)c(S(C)(=O)=O)cc1",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, below the arrow, left reagent",
+     "core": "cyclohexane-1,3-dione",
+     "substituents": [
+      "=O at C1",
+      "=O at C3"
+     ],
+     "name": "cyclohexane-1,3-dione",
+     "smiles": "O=C1CCCC(=O)C1",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "3rd, below the arrow, right reagent (after a comma)",
+     "core": "acyclic quaternary carbon bearing OH, CN and two methyls",
+     "substituents": [
+      "OH on the central carbon",
+      "CN on the central carbon",
+      "CH3 on the central carbon",
+      "CH3 on the central carbon"
+     ],
+     "name": "acetone cyanohydrin (2-hydroxy-2-methylpropanenitrile)",
+     "smiles": "CC(C)(O)C#N",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "4th, right of arrow, labelled tembotrione",
+     "core": "cyclohexane-1,3-dione acylated at C2 by a benzoyl group",
+     "substituents": [
+      "=O at C1 of the dione ring",
+      "=O at C3 of the dione ring",
+      "aroyl at C2 of the dione ring",
+      "Cl at C2 of the benzene ring",
+      "CH2OCH2CF3 at C3 of the benzene ring",
+      "SO2CH3 at C4 of the benzene ring",
+      "H at C5 and C6 of the benzene ring"
+     ],
+     "name": "2-[2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl]cyclohexane-1,3-dione (tembotrione, 环磺酮)",
+     "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "4th",
+     "reagents_above": [
+      "CO"
+     ],
+     "reagents_below": [
+      "cyclohexane-1,3-dione (drawn as a structure)",
+      "acetone cyanohydrin (drawn as a structure)"
+     ],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "One-pot scheme for Example 10. The two reagents below the arrow are separated by a printed comma. The product is labelled 环磺酮 (tembotrione) in Chinese only; the drawing writes the sulfone as SO2CH3 rather than drawing S with two =O."
+  }
+ ],
+ "discrepancies": [
+  {
+   "what": "The first scheme draws only CO and cyclohexane-1,3-dione; the triethylamine, palladium catalyst and dioxane solvent from the text are not drawn.",
+   "drawing_says": "CO above the arrow, cyclohexane-1,3-dione below it",
+   "text_says": "[0138] also lists 三乙胺27.83g, 双[(4-N,N-二甲氨基)苯基]二叔丁基膦二氯化钯3g and 溶剂二氧六环250g"
+  },
+  {
+   "what": "The second scheme draws only CO, cyclohexane-1,3-dione and acetone cyanohydrin; the triethylamine, PdCl2, dppb ligand and dioxane from the text are not drawn.",
+   "drawing_says": "CO above the arrow, cyclohexane-1,3-dione and acetone cyanohydrin below it",
+   "text_says": "[0143] also lists 三乙胺37.95g, PdCl2催化剂0.4g, 配体1,4-双(二苯基膦)丁烷3.98g and 溶剂1,4-二氧六环300g"
+  },
+  {
+   "what": "The second scheme draws no cyclohexane-1,3-dione quantity and shows the dione as a co-reagent, but paragraph [0143] never states a charge of cyclohexane-1,3-dione for the one-pot run.",
+   "drawing_says": "cyclohexane-1,3-dione is a reagent below the arrow",
+   "text_says": "[0143] lists formula (IV), triethylamine, PdCl2, ligand, dioxane and acetone cyanohydrin, with no mass given for cyclohexane-1,3-dione"
+  }
+ ],
+ "illegible": [],
+ "page_confidence": "high"
+}

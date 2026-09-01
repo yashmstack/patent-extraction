@@ -1,0 +1,21 @@
+{
+  "_about_en": "English for the vision-pass discrepancy fields that quote the patent in Chinese, and for the ad hoc paragraph markers on the claims page. output/translations.json is applied first by longest match and covers compound names but not surrounding prose, so each field listed here is hand-authored as a whole sentence, using the verified index's English for every compound name so the wording stays identical to the gold. Keyed by '<page>#<discrepancy index>.<field>' against input/vision/*.json. No Chinese character is quoted: where the printed characters are the point, the finding is stated in English.",
+  "_origin_en": "hand_authored_at_visual_stage",
+  "marker_labels_en": {
+    "_about_en": "Claim 1 on page 2 runs over three unnumbered sub-paragraphs. The vision pass keyed them by their opening words, which are Chinese; these are the English handles for the same three paragraphs so the drawings anchored between them stay addressable in English.",
+    "步骤a": "claim-1-step-a",
+    "步骤b": "claim-1-step-b",
+    "其中": "claim-1-wherein"
+  },
+  "entries": {
+    "p02#0.text_says": "Step a says the reaction is carried out in a reaction solvent to obtain 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid, and names no by-product: nothing about CH3OH or NaBr.",
+    "p02#1.text_says": "The wherein clause says M is one of the Li, Na and K ions.",
+    "p02#2.text_says": "Step a says MOH or M2CO3 is added, and claim 3 writes MOH/M2CO3; both are printed flat, without a subscript.",
+    "p02#3.text_says": "Step b says the condensation is carried out in a reaction solvent to obtain tembotrione, and names no by-product.",
+    "p02#4.text_says": "The Chinese name prints the group as trifluoroethoxymethyl with no locants on the trifluoroethoxy.",
+    "p04#2.what": "The prose names the step b substrate 1,3-cyclohexanedione while the drawing shows the ring without any numbering.",
+    "p04#2.text_says": "1,3-cyclohexanedione, compound III.",
+    "p04#3.drawing_says": "Both drawn schemes are the invention's route, introduced by the prose as the specific chemical reaction equations for steps a and b.",
+    "p05#1.text_says": "[0021] calls the key intermediate 2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid, the free acid, while [0025] starts from the methyl ester, methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate, and gives compound II with no name."
+  }
+}

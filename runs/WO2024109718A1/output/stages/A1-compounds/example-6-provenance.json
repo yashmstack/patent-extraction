@@ -1,0 +1,12 @@
+[
+  { "identifier": "式(IV)化合物", "source_lines": [493], "quote_zh": "向高压釜中加入式(IV)化合物40g" },
+  { "identifier": "water", "source_lines": [493], "quote_zh": "水20g" },
+  { "identifier": "triethylamine", "source_lines": [493], "quote_zh": "三乙胺26.49g" },
+  { "identifier": "PdCl₂", "source_lines": [493], "quote_zh": "PdCl₂催化剂0.4g" },
+  { "identifier": "1,4-bis(diphenylphosphino)butane", "source_lines": [493], "quote_zh": "配体1,4-双(二苯基膦)丁烷4.65g" },
+  { "identifier": "1,4-dioxane", "source_lines": [493], "quote_zh": "溶剂1,4-二氧六环400g" },
+  { "identifier": "CO", "source_lines": [493], "quote_zh": "以约1～4MPa的压力通入CO" },
+  { "identifier": "nitrogen", "source_lines": [493], "quote_zh": "氮气置换" },
+  { "identifier": "methanol", "source_lines": [493], "quote_zh": "加入甲醇溶解" },
+  { "identifier": "式(V)化合物", "source_lines": [493], "quote_zh": "得到式(V)化合物，收率81.13％，熔点155-157℃" }
+]

@@ -1,0 +1,415 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "patent.json - A4 output merged with biblio",
+  "type": [
+    "object",
+    "null"
+  ],
+  "properties": {
+    "patent_id": {
+      "type": "string"
+    },
+    "patent_uuid": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "abstract": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "bibliographic": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "publication_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "priority_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "filing_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "grant_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "jurisdiction": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "patent_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "legal_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "family_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ipc_codes": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "cpc_codes": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "parties": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "assignees": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "country": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "type": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "multinational_corp",
+                  "sme",
+                  "university",
+                  "government",
+                  "individual",
+                  "consortium",
+                  null
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          }
+        },
+        "inventors": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "country": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          }
+        },
+        "examiners": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "patent_summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "novelty_claims": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "key_examples": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "extraction_rollup": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "reaction_count": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "compound_count": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "pathway_count": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "section_summary": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "target_compounds": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "smiles": {
+                "type": "null"
+              },
+              "compound_uuid": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "identifier"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "key_starting_materials": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "identifier": {
+                "type": "string"
+              },
+              "smiles": {
+                "type": "null"
+              },
+              "compound_uuid": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "identifier"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "chemistry_focus": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "best_overall_yield_pct": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "best_overall_yield_pathway_uuid": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "scale_distribution": {
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "tags": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z_]+:[a-z0-9_/.+-]+$"
+      }
+    },
+    "source_refs": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "patent_summary_doc_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "blob_root": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "extracted_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "extractor_commit_sha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "honest_uncertainty_flags": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "patent_id"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,85 @@
+[
+  {
+    "identifier": "3-bromomethylbenzoic acid of formula II",
+    "source_lines": [
+      150,
+      175,
+      191,
+      195
+    ],
+    "quote_zh": "6. A process for preparing a 3-bromomethylbenzoic acid of formula II"
+  },
+  {
+    "identifier": "3-methylbenzoic acid of formula I",
+    "source_lines": [
+      152,
+      175
+    ],
+    "quote_zh": "which comprises brominating a 3-methylbenzoic acid of formula I"
+  },
+  {
+    "identifier": "N-bromosuccinimide",
+    "source_lines": [
+      154
+    ],
+    "quote_zh": "with N-bromosuccimide in the presence of a radical initiator, where, in formulae I and II"
+  },
+  {
+    "identifier": "radical initiator",
+    "source_lines": [
+      154,
+      160
+    ],
+    "quote_zh": "with N-bromosuccimide in the presence of a radical initiator, where, in formulae I and II"
+  },
+  {
+    "identifier": "azoisobutyronitrile",
+    "source_lines": [
+      160
+    ],
+    "quote_zh": "7. The process as claimed in claim 6, wherein the radical initiator is azoisobutyronitrile or dibenzoyl peroxide."
+  },
+  {
+    "identifier": "dibenzoyl peroxide",
+    "source_lines": [
+      160
+    ],
+    "quote_zh": "7. The process as claimed in claim 6, wherein the radical initiator is azoisobutyronitrile or dibenzoyl peroxide."
+  },
+  {
+    "identifier": "chlorobenzene",
+    "source_lines": [
+      167,
+      183
+    ],
+    "quote_zh": "9. The process as claimed in claim 8, wherein the solvent is chlorobenzene."
+  },
+  {
+    "identifier": "acetonitrile",
+    "source_lines": [
+      169
+    ],
+    "quote_zh": "10. The process as claimed in claim 8, wherein the solvent is acetonitrile."
+  },
+  {
+    "identifier": "bromine",
+    "source_lines": [
+      175
+    ],
+    "quote_zh": "which comprises brominating a 3-methylbenzoic acid of formula I [drawing, formula (I)] with elemental bromine and irradiation with a photolamp"
+  },
+  {
+    "identifier": "methylene chloride",
+    "source_lines": [
+      185
+    ],
+    "quote_zh": "16. The process as claimed in claim 14, wherein the solvent is methylene chloride."
+  },
+  {
+    "identifier": "3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid",
+    "source_lines": [
+      191
+    ],
+    "quote_zh": "19. A compound of formula II [drawing, formula (II)] wherein R1 is fluorine, chlorine or bromine, and R2 is (C1-C4)alkyl, excluding 3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid."
+  }
+]

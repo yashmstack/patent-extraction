@@ -1,0 +1,12 @@
+[
+  {
+    "reaction_id": "Example 7_Step 1",
+    "source_lines": [
+      499,
+      506
+    ],
+    "quote_zh": "向高压釜中加入式(IV)化合物40g、水20g、三乙胺26.49g、PdCl2催化剂0.4g、配体1,3-双(二苯基膦)丙烷3.95g、溶剂四氢呋喃400g，抽真空，氮气置换，以约1～4MPa的压力通入CO，在80℃反应约12h。",
+    "arithmetic_check": "Stated input 40 g of the formula (IV) compound; the section prints no molar amount and no isolated product mass, only a yield of 67.57 percent, so no mass to mole to yield triple can be closed or contradicted. Using the drawn structures for reference only, C10H9BrClF3O3S is about 381.6 g per mol, giving about 0.105 mol, and 67.57 percent of that as C11H10ClF3O5S at about 346.7 g per mol would be about 24.5 g; the patent prints no mass to compare, so nothing is flagged.",
+    "drawing_evidence": "The [IMAGE_EXTRACT reactions] span on line 504 gives one arrow: reactant CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F, conditions H2O and CO, product CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F. This corroborates the single step boundary and the connectivity from formula (IV) to formula (V). Every reagent on the arrow is also written in the prose, and the prose adds the catalyst, ligand, base and solvent that the arrow omits, which is normal abbreviation in a scheme rather than a disagreement. No conflict flag raised."
+  }
+]

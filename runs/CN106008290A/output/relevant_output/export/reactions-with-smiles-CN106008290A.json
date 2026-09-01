@@ -1,0 +1,2512 @@
+{
+  "patent_id": "CN106008290A",
+  "reactions": [
+    {
+      "reaction_id": "Background_Step 1",
+      "section_label": "Background",
+      "step_label": "Step 1",
+      "reaction_class": "nucleophilic_substitution",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "not_specified",
+          "value_c": null,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": "OCC(F)(F)F.CC(C)(C)[O-].[K+]>>CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "participants_total": 3,
+      "participants_resolved": 3,
+      "compounds": [
+        {
+          "identifier": "2,2,2-trifluoroethanol",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "OCC(F)(F)F",
+          "formula": "C2H3F3O",
+          "mw": 100.04,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "potassium tert-butoxide",
+          "role": "base",
+          "is_product": false,
+          "smiles": "CC(C)(C)[O-].[K+]",
+          "formula": "C4H9KO",
+          "mw": 112.21,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "derived",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Background_Step 2",
+      "section_label": "Background",
+      "step_label": "Step 2",
+      "reaction_class": "nucleophilic_substitution",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "not_specified",
+          "value_c": null,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 2,
+      "participants_resolved": 2,
+      "compounds": [
+        {
+          "identifier": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "derived",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "thionyl chloride",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "O=S(Cl)Cl",
+          "formula": "Cl2OS",
+          "mw": 118.97,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Background_Step 3",
+      "section_label": "Background",
+      "step_label": "Step 3",
+      "reaction_class": "ester_formation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "not_specified",
+          "value_c": null,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 0,
+      "participants_resolved": 0,
+      "compounds": []
+    },
+    {
+      "reaction_id": "Background_Step 4",
+      "section_label": "Background",
+      "step_label": "Step 4",
+      "reaction_class": "other",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "not_specified",
+          "value_c": null,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": "CC(C)(O)C#N>>CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "participants_total": 2,
+      "participants_resolved": 2,
+      "compounds": [
+        {
+          "identifier": "acetone cyanohydrin",
+          "role": "catalyst",
+          "is_product": false,
+          "smiles": "CC(C)(O)C#N",
+          "formula": "C4H7NO",
+          "mw": 85.11,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "tembotrione",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C17H16ClF3O6S",
+          "mw": 440.82,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Example 1_Step a",
+      "section_label": "Example 1",
+      "step_label": "Step a",
+      "reaction_class": "hydrolysis",
+      "named_reaction": "Williamson ether synthesis",
+      "is_one_pot": true,
+      "conditions": {
+        "temperature": {
+          "type": "exact",
+          "value_c": 30.0,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": 5.0,
+        "reactor_type": "reactor",
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": "workup: the aqueous residue is adjusted to weakly acidic (弱酸性) with 35％ hydrochloric acid before cooling to crystallise"
+      },
+      "reaction_smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl.[Na+].[O-]CC(F)(F)F.[Na+].[OH-].CN(C)C=O.O.Cl>>CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "participants_total": 7,
+      "participants_resolved": 7,
+      "compounds": [
+        {
+          "identifier": "methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "formula": "C10H10BrClO4S",
+          "mw": 341.61,
+          "origin": "derived",
+          "quantity": {
+            "mass_g": 318.0,
+            "volume_ml": null,
+            "mmol": 1000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "sodium 2,2,2-trifluoroethoxide",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "[Na+].[O-]CC(F)(F)F",
+          "formula": "C2H2F3NaO",
+          "mw": 122.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 134.2,
+            "volume_ml": null,
+            "mmol": 1100.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "sodium hydroxide",
+          "role": "base",
+          "is_product": false,
+          "smiles": "[Na+].[OH-]",
+          "formula": "HNaO",
+          "mw": 40.0,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 48.0,
+            "volume_ml": null,
+            "mmol": 1200.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "N,N-dimethylformamide",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CN(C)C=O",
+          "formula": "C3H7NO",
+          "mw": 73.09,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 1000.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "water",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "O",
+          "formula": "H2O",
+          "mw": 18.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 300.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "hydrochloric acid",
+          "role": "acid",
+          "is_product": false,
+          "smiles": "Cl",
+          "formula": "HCl",
+          "mw": 36.46,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "化合物II",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 314.8,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": 91.0
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Example 1_Step b",
+      "section_label": "Example 1",
+      "step_label": "Step b",
+      "reaction_class": "acylation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "range",
+          "value_c": null,
+          "min_c": 5.0,
+          "max_c": 10.0
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": 8.0,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F.O=C1CCCC(=O)C1.O=C(n1ccnc1)n1ccnc1.CCN(CC)CC.ClCCCl.O.CO>>CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "participants_total": 8,
+      "participants_resolved": 8,
+      "compounds": [
+        {
+          "identifier": "化合物II",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": 1000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "1,3-cyclohexanedione",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "O=C1CCCC(=O)C1",
+          "formula": "C6H8O2",
+          "mw": 112.13,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 117.6,
+            "volume_ml": null,
+            "mmol": 1200.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "CDI",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "O=C(n1ccnc1)n1ccnc1",
+          "formula": "C7H6N4O",
+          "mw": 162.15,
+          "origin": "curated",
+          "quantity": {
+            "mass_g": 194.6,
+            "volume_ml": null,
+            "mmol": 1200.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "triethylamine",
+          "role": "base",
+          "is_product": false,
+          "smiles": "CCN(CC)CC",
+          "formula": "C6H15N",
+          "mw": 101.19,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 121.2,
+            "volume_ml": null,
+            "mmol": 1200.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "1,2-dichloroethane",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "ClCCCl",
+          "formula": "C2H4Cl2",
+          "mw": 98.96,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 1000.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "water",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "O",
+          "formula": "H2O",
+          "mw": 18.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "methanol",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CO",
+          "formula": "CH4O",
+          "mw": 32.04,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "tembotrione",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C17H16ClF3O6S",
+          "mw": 440.82,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 366.4,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": 86.3
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Example 2_Step a",
+      "section_label": "Example 2",
+      "step_label": "Step a",
+      "reaction_class": "nucleophilic_substitution",
+      "named_reaction": "Williamson ether synthesis",
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "exact",
+          "value_c": 0.0,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": 10.0,
+        "reactor_type": "reactor",
+        "concentration": {
+          "value": 35.0,
+          "unit": "%",
+          "reagent": "hydrochloric acid",
+          "text": "35% hydrochloric acid"
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": "workup, after the residue was added to water"
+      },
+      "reaction_smiles": "[Na+].[O-]CC(F)(F)F.[K+].[OH-].COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl.CN(C)C=O.O.Cl>>CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "participants_total": 7,
+      "participants_resolved": 7,
+      "compounds": [
+        {
+          "identifier": "sodium 2,2,2-trifluoroethoxide",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "[Na+].[O-]CC(F)(F)F",
+          "formula": "C2H2F3NaO",
+          "mw": 122.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 146.4,
+            "volume_ml": null,
+            "mmol": 1200.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "potassium hydroxide",
+          "role": "base",
+          "is_product": false,
+          "smiles": "[K+].[OH-]",
+          "formula": "HKO",
+          "mw": 56.11,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 67.2,
+            "volume_ml": null,
+            "mmol": 1200.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "formula": "C10H10BrClO4S",
+          "mw": 341.61,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 318.0,
+            "volume_ml": null,
+            "mmol": 1000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "N,N-dimethylformamide",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CN(C)C=O",
+          "formula": "C3H7NO",
+          "mw": 73.09,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 1000.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "water",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "O",
+          "formula": "H2O",
+          "mw": 18.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 300.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "hydrochloric acid",
+          "role": "acid",
+          "is_product": false,
+          "smiles": "Cl",
+          "formula": "HCl",
+          "mw": 36.46,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "化合物II",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 321.7,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": 93.0
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Example 2_Step b",
+      "section_label": "Example 2",
+      "step_label": "Step b",
+      "reaction_class": "acylation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "range",
+          "value_c": null,
+          "min_c": 8.0,
+          "max_c": 15.0
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": 9.0,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F.ClCCl.O=C1CCCC(=O)C1.CN(C)C(On1nnc2ccccc21)=[N+](C)C.F[P-](F)(F)(F)(F)F.O=C([O-])[O-].[Na+].[Na+].O.CO>>CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "participants_total": 8,
+      "participants_resolved": 8,
+      "compounds": [
+        {
+          "identifier": "化合物II",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": 1000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "dichloromethane",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "ClCCl",
+          "formula": "CH2Cl2",
+          "mw": 84.93,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 1000.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "1,3-cyclohexanedione",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "O=C1CCCC(=O)C1",
+          "formula": "C6H8O2",
+          "mw": 112.13,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 145.6,
+            "volume_ml": null,
+            "mmol": 1300.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "HBTU",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "CN(C)C(On1nnc2ccccc21)=[N+](C)C.F[P-](F)(F)(F)(F)F",
+          "formula": "C11H16F6N5OP",
+          "mw": 379.24,
+          "origin": "curated",
+          "quantity": {
+            "mass_g": 758.0,
+            "volume_ml": null,
+            "mmol": 2000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "sodium carbonate",
+          "role": "base",
+          "is_product": false,
+          "smiles": "O=C([O-])[O-].[Na+].[Na+]",
+          "formula": "CNa2O3",
+          "mw": 105.99,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 212.0,
+            "volume_ml": null,
+            "mmol": 2000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "water",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "O",
+          "formula": "H2O",
+          "mw": 18.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "methanol",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CO",
+          "formula": "CH4O",
+          "mw": 32.04,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "tembotrione",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C17H16ClF3O6S",
+          "mw": 440.82,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 362.5,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": 86.0
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Example 3_Step a",
+      "section_label": "Example 3",
+      "step_label": "Step a",
+      "reaction_class": "nucleophilic_substitution",
+      "named_reaction": "Williamson ether synthesis",
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "exact",
+          "value_c": 50.0,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": 2.0,
+        "reactor_type": "reactor",
+        "concentration": {
+          "value": 35.0,
+          "unit": "%",
+          "reagent": "hydrochloric acid",
+          "text": "35% hydrochloric acid"
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": "workup, adjusted to weakly acidic before crystallisation"
+      },
+      "reaction_smiles": "[Na+].[O-]CC(F)(F)F.O=C([O-])[O-].[Na+].[Na+].COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl.CN(C)C=O.O.Cl>>CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "participants_total": 7,
+      "participants_resolved": 7,
+      "compounds": [
+        {
+          "identifier": "sodium trifluoroethoxide",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "[Na+].[O-]CC(F)(F)F",
+          "formula": "C2H2F3NaO",
+          "mw": 122.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 134.2,
+            "volume_ml": null,
+            "mmol": 1100.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "sodium carbonate",
+          "role": "base",
+          "is_product": false,
+          "smiles": "O=C([O-])[O-].[Na+].[Na+]",
+          "formula": "CNa2O3",
+          "mw": 105.99,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 129.6,
+            "volume_ml": null,
+            "mmol": 1200.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "formula": "C10H10BrClO4S",
+          "mw": 341.61,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 318.0,
+            "volume_ml": null,
+            "mmol": 1000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "N,N-dimethylformamide",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CN(C)C=O",
+          "formula": "C3H7NO",
+          "mw": 73.09,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 1000.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "water",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "O",
+          "formula": "H2O",
+          "mw": 18.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 300.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "hydrochloric acid",
+          "role": "acid",
+          "is_product": false,
+          "smiles": "Cl",
+          "formula": "HCl",
+          "mw": 36.46,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "化合物II",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 311.4,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": 90.0
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Example 3_Step b",
+      "section_label": "Example 3",
+      "step_label": "Step b",
+      "reaction_class": "acylation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "range",
+          "value_c": null,
+          "min_c": 15.0,
+          "max_c": 20.0
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": 8.0,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 8,
+      "participants_resolved": 7,
+      "compounds": [
+        {
+          "identifier": "化合物II",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": 1000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "dichloroethane",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 1000.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "1,3-cyclohexanedione",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "O=C1CCCC(=O)C1",
+          "formula": "C6H8O2",
+          "mw": 112.13,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 147.0,
+            "volume_ml": null,
+            "mmol": 1500.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "HOBT",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "On1nnc2ccccc21",
+          "formula": "C6H5N3O",
+          "mw": 135.13,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 405.0,
+            "volume_ml": null,
+            "mmol": 3000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "calcium hydroxide",
+          "role": "base",
+          "is_product": false,
+          "smiles": "[Ca+2].[OH-].[OH-]",
+          "formula": "H2CaO2",
+          "mw": 74.09,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 222.0,
+            "volume_ml": null,
+            "mmol": 3000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "water",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "O",
+          "formula": "H2O",
+          "mw": 18.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "methanol",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CO",
+          "formula": "CH4O",
+          "mw": 32.04,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "tembotrione",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C17H16ClF3O6S",
+          "mw": 440.82,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 375.4,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": 87.5
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Example 4_Step a",
+      "section_label": "Example 4",
+      "step_label": "Step a",
+      "reaction_class": "nucleophilic_substitution",
+      "named_reaction": "Williamson ether synthesis",
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "exact",
+          "value_c": 30.0,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": 5.0,
+        "reactor_type": "reactor",
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": null,
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": "[Na+].[O-]CC(F)(F)F.O=C([O-])[O-].[K+].[K+].COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl.CN(C)C=O.O.Cl>>CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "participants_total": 7,
+      "participants_resolved": 7,
+      "compounds": [
+        {
+          "identifier": "sodium 2,2,2-trifluoroethoxide",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "[Na+].[O-]CC(F)(F)F",
+          "formula": "C2H2F3NaO",
+          "mw": 122.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 134.2,
+            "volume_ml": null,
+            "mmol": 1100.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "potassium carbonate",
+          "role": "base",
+          "is_product": false,
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "formula": "CK2O3",
+          "mw": 138.2,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 166.8,
+            "volume_ml": null,
+            "mmol": 1200.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "formula": "C10H10BrClO4S",
+          "mw": 341.61,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 318.0,
+            "volume_ml": null,
+            "mmol": 1000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "N,N-dimethylformamide",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CN(C)C=O",
+          "formula": "C3H7NO",
+          "mw": 73.09,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 1000.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "water",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "O",
+          "formula": "H2O",
+          "mw": 18.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 300.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "hydrochloric acid",
+          "role": "acid",
+          "is_product": false,
+          "smiles": "Cl",
+          "formula": "HCl",
+          "mw": 36.46,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "化合物II",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 321.7,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": 93.0
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Example 4_Step b",
+      "section_label": "Example 4",
+      "step_label": "Step b",
+      "reaction_class": "acylation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "range",
+          "value_c": null,
+          "min_c": -10.0,
+          "max_c": 8.0
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": 24.0,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": null,
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F.C1CCCCC1.O=C1CCCC(=O)C1.C1CCC2=NCCCN2CC1.c1ccncc1.O.CO>>CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "participants_total": 8,
+      "participants_resolved": 8,
+      "compounds": [
+        {
+          "identifier": "化合物II",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": 1000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "cyclohexane",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "C1CCCCC1",
+          "formula": "C6H12",
+          "mw": 84.16,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 1000.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "1,3-cyclohexanedione",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "O=C1CCCC(=O)C1",
+          "formula": "C6H8O2",
+          "mw": 112.13,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 98.0,
+            "volume_ml": null,
+            "mmol": 1000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "DBU",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "C1CCC2=NCCCN2CC1",
+          "formula": "C9H16N2",
+          "mw": 152.24,
+          "origin": "curated",
+          "quantity": {
+            "mass_g": 152.0,
+            "volume_ml": null,
+            "mmol": 1000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "pyridine",
+          "role": "base",
+          "is_product": false,
+          "smiles": "c1ccncc1",
+          "formula": "C5H5N",
+          "mw": 79.1,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 152.0,
+            "volume_ml": null,
+            "mmol": 1000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "water",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "O",
+          "formula": "H2O",
+          "mw": 18.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "methanol",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CO",
+          "formula": "CH4O",
+          "mw": 32.04,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "tembotrione",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C17H16ClF3O6S",
+          "mw": 440.82,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 332.9,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": 80.1
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Example 5_Step a",
+      "section_label": "Example 5",
+      "step_label": "Step a",
+      "reaction_class": "nucleophilic_substitution",
+      "named_reaction": "Williamson ether synthesis",
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "exact",
+          "value_c": 30.0,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": 5.0,
+        "reactor_type": "reactor",
+        "concentration": {
+          "value": 35.0,
+          "unit": "%",
+          "reagent": "hydrochloric acid",
+          "text": "35% hydrochloric acid"
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": null,
+        "stirring": null,
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": "[Na+].[O-]CC(F)(F)F.[Li+].[OH-].COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl.CN(C)C=O.O.Cl>>CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "participants_total": 7,
+      "participants_resolved": 7,
+      "compounds": [
+        {
+          "identifier": "sodium trifluoroethoxide",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "[Na+].[O-]CC(F)(F)F",
+          "formula": "C2H2F3NaO",
+          "mw": 122.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 134.2,
+            "volume_ml": null,
+            "mmol": 1100.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "lithium hydroxide",
+          "role": "base",
+          "is_product": false,
+          "smiles": "[Li+].[OH-]",
+          "formula": "HLiO",
+          "mw": 23.95,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 28.8,
+            "volume_ml": null,
+            "mmol": 1200.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "formula": "C10H10BrClO4S",
+          "mw": 341.61,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 318.0,
+            "volume_ml": null,
+            "mmol": 1000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "N,N-dimethylformamide",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CN(C)C=O",
+          "formula": "C3H7NO",
+          "mw": 73.09,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 1000.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "water",
+          "role": "other",
+          "is_product": false,
+          "smiles": "O",
+          "formula": "H2O",
+          "mw": 18.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 300.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "hydrochloric acid",
+          "role": "acid",
+          "is_product": false,
+          "smiles": "Cl",
+          "formula": "HCl",
+          "mw": 36.46,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "化合物II",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 318.3,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": 92.0
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Example 5_Step b",
+      "section_label": "Example 5",
+      "step_label": "Step b",
+      "reaction_class": "acylation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "range",
+          "value_c": null,
+          "min_c": 20.0,
+          "max_c": 30.0
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": 15.0,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": null,
+        "stirring": null,
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F.C1CCCCC1.O=C1CCCC(=O)C1.O=C(n1ccnc1)n1ccnc1.O=C([O-])[O-].[K+].[K+].O.CO>>CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "participants_total": 8,
+      "participants_resolved": 8,
+      "compounds": [
+        {
+          "identifier": "化合物II",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": 1000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "cyclohexane",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "C1CCCCC1",
+          "formula": "C6H12",
+          "mw": 84.16,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": 1000.0,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "1,3-cyclohexanedione",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "O=C1CCCC(=O)C1",
+          "formula": "C6H8O2",
+          "mw": 112.13,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 106.7,
+            "volume_ml": null,
+            "mmol": 1100.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "CDI",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": "O=C(n1ccnc1)n1ccnc1",
+          "formula": "C7H6N4O",
+          "mw": 162.15,
+          "origin": "curated",
+          "quantity": {
+            "mass_g": 291.6,
+            "volume_ml": null,
+            "mmol": 1800.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "potassium carbonate",
+          "role": "base",
+          "is_product": false,
+          "smiles": "O=C([O-])[O-].[K+].[K+]",
+          "formula": "CK2O3",
+          "mw": 138.2,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": 690.0,
+            "volume_ml": null,
+            "mmol": 5000.0,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "water",
+          "role": "other",
+          "is_product": false,
+          "smiles": "O",
+          "formula": "H2O",
+          "mw": 18.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "methanol",
+          "role": "solvent",
+          "is_product": false,
+          "smiles": "CO",
+          "formula": "CH4O",
+          "mw": 32.04,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "tembotrione",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C17H16ClF3O6S",
+          "mw": 440.82,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": 355.5,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": 83.9
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Summary of the Invention_Step 1",
+      "section_label": "Summary of the Invention",
+      "step_label": "Step 1",
+      "reaction_class": "nucleophilic_substitution",
+      "named_reaction": "Williamson ether synthesis",
+      "is_one_pot": true,
+      "conditions": {
+        "temperature": {
+          "type": "range",
+          "value_c": null,
+          "min_c": 0.0,
+          "max_c": 5.0
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 4,
+      "participants_resolved": 3,
+      "compounds": [
+        {
+          "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "formula": "C10H10BrClO4S",
+          "mw": 341.61,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "sodium trifluoroethoxide",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "[Na+].[O-]CC(F)(F)F",
+          "formula": "C2H2F3NaO",
+          "mw": 122.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "MOH/M2CO3",
+          "role": "base",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Summary of the Invention_Step 2",
+      "section_label": "Summary of the Invention",
+      "step_label": "Step 2",
+      "reaction_class": "acylation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "range",
+          "value_c": null,
+          "min_c": -10.0,
+          "max_c": 30.0
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 5,
+      "participants_resolved": 3,
+      "compounds": [
+        {
+          "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "1,3-cyclohexanedione",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "O=C1CCCC(=O)C1",
+          "formula": "C6H8O2",
+          "mw": 112.13,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "condensing agent",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "base catalyst",
+          "role": "base",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "tembotrione",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C17H16ClF3O6S",
+          "mw": 440.82,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Summary of the Invention_Scheme Step 1",
+      "section_label": "Summary of the Invention",
+      "step_label": "Scheme Step 1",
+      "reaction_class": "nucleophilic_substitution",
+      "named_reaction": "Williamson ether synthesis",
+      "is_one_pot": true,
+      "conditions": {
+        "temperature": {
+          "type": "not_specified",
+          "value_c": null,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 6,
+      "participants_resolved": 5,
+      "compounds": [
+        {
+          "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "formula": "C10H10BrClO4S",
+          "mw": 341.61,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "sodium trifluoroethoxide",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "[Na+].[O-]CC(F)(F)F",
+          "formula": "C2H2F3NaO",
+          "mw": 122.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "MOH/M2CO3",
+          "role": "base",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "methanol",
+          "role": "other",
+          "is_product": false,
+          "smiles": "CO",
+          "formula": "CH4O",
+          "mw": 32.04,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "sodium bromide",
+          "role": "other",
+          "is_product": false,
+          "smiles": "[Br-].[Na+]",
+          "formula": "BrNa",
+          "mw": 102.89,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        }
+      ]
+    },
+    {
+      "reaction_id": "Summary of the Invention_Scheme Step 2",
+      "section_label": "Summary of the Invention",
+      "step_label": "Scheme Step 2",
+      "reaction_class": "acylation",
+      "named_reaction": null,
+      "is_one_pot": false,
+      "conditions": {
+        "temperature": {
+          "type": "not_specified",
+          "value_c": null,
+          "min_c": null,
+          "max_c": null
+        },
+        "pressure": {
+          "type": "not_specified",
+          "value_kpa": null,
+          "qualitative_text": null
+        },
+        "atmosphere": null,
+        "time_h": null,
+        "reactor_type": null,
+        "concentration": {
+          "value": null,
+          "unit": null,
+          "reagent": null,
+          "text": null
+        },
+        "heating_method": null,
+        "cooling_method": null,
+        "light_source": {
+          "type": null,
+          "color": null,
+          "wavelength_nm": null,
+          "power_w": null
+        },
+        "stirring": {
+          "type": null,
+          "rpm": null
+        },
+        "ph_value": null,
+        "ph_target_stage": null
+      },
+      "reaction_smiles": null,
+      "participants_total": 6,
+      "participants_resolved": 4,
+      "compounds": [
+        {
+          "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C11H10ClF3O5S",
+          "mw": 346.71,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "1,3-cyclohexanedione",
+          "role": "reactant",
+          "is_product": false,
+          "smiles": "O=C1CCCC(=O)C1",
+          "formula": "C6H8O2",
+          "mw": 112.13,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "condensing agent",
+          "role": "reagent",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "base catalyst",
+          "role": "base",
+          "is_product": false,
+          "smiles": null,
+          "formula": null,
+          "mw": null,
+          "origin": "none",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "tembotrione",
+          "role": "product",
+          "is_product": true,
+          "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+          "formula": "C17H16ClF3O6S",
+          "mw": 440.82,
+          "origin": "patent_drawing",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        },
+        {
+          "identifier": "water",
+          "role": "other",
+          "is_product": false,
+          "smiles": "O",
+          "formula": "H2O",
+          "mw": 18.02,
+          "origin": "name_parsed",
+          "quantity": {
+            "mass_g": null,
+            "volume_ml": null,
+            "mmol": null,
+            "equivalents": null,
+            "yield_pct": null
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "page": "p04.png",
+  "page_label": "US 2004/0236146 A1 | Nov. 25, 2004 | 3",
+  "doc_part": "claims",
+  "header": "US 2004/0236146 A1                                                                 Nov. 25, 2004\n3",
+  "footer": null,
+  "paragraphs": [
+    {
+      "marker": "8.",
+      "zh": "8. The process as claimed in claim 6, wherein a solvent is used.",
+      "en": "8. The process as claimed in claim 6, wherein a solvent is used.",
+      "notes": "English US publication, so the verbatim field and the translation field carry the same text. Read off the pixels, not the text layer."
+    },
+    {
+      "marker": "9.",
+      "zh": "9. The process as claimed in claim 8, wherein the solvent is chlorobenzene.",
+      "en": "9. The process as claimed in claim 8, wherein the solvent is chlorobenzene.",
+      "notes": null
+    },
+    {
+      "marker": "10.",
+      "zh": "10. The process as claimed in claim 8, wherein the solvent is acetonitrile.",
+      "en": "10. The process as claimed in claim 8, wherein the solvent is acetonitrile.",
+      "notes": null
+    },
+    {
+      "marker": "11.",
+      "zh": "11. The process as claimed in claim 6, wherein the brominating is carried out at a temperature of from 70 to 100° C.",
+      "en": "11. The process as claimed in claim 6, wherein the brominating is carried out at a temperature of from 70 to 100° C.",
+      "notes": "Prints as '100° C.' with a space between the degree sign and the C, and a trailing period."
+    },
+    {
+      "marker": "12.",
+      "zh": "12. The process as claimed in claim 10, wherein the brominating reaction is carried out at the reflux temperature of the solvent.",
+      "en": "12. The process as claimed in claim 10, wherein the brominating reaction is carried out at the reflux temperature of the solvent.",
+      "notes": "Dependency checked at 4x magnification: the digits are unambiguously '10'. Note this claim says 'the brominating reaction', where its parallel claim 18 says only 'the brominating'."
+    },
+    {
+      "marker": "13.",
+      "zh": "13. A process for preparing a 3-bromomethylbenzoic acid of formula II [drawing, formula (II)] which comprises brominating a 3-methylbenzoic acid of formula I [drawing, formula (I)] with elemental bromine and irradiation with a photolamp, where, in formulae I and II R1 is fluorine, chlorine or bromine, and R2 is (C1-C4)alkyl.",
+      "en": "13. A process for preparing a 3-bromomethylbenzoic acid of formula II [drawing, formula (II)] which comprises brominating a 3-methylbenzoic acid of formula I [drawing, formula (I)] with elemental bromine and irradiation with a photolamp, where, in formulae I and II R1 is fluorine, chlorine or bromine, and R2 is (C1-C4)alkyl.",
+      "notes": "One claim whose running text is interrupted twice by a drawn formula; the two interruptions are marked inline in brackets and the drawings themselves are recorded in the drawings array. R1 and R2 print with the 1 and 2 as superscripts; C1 and C4 print with the 1 and 4 as subscripts. The formula labels (II) and (I) print flush to the right margin, above their respective drawings. The alkyl range in this claim was checked at 5x and prints as (C1-C4)alkyl, with a plain hyphen between the two."
+    },
+    {
+      "marker": "14.",
+      "zh": "14. The process as claimed in claim 13, wherein a solvent is used.",
+      "en": "14. The process as claimed in claim 13, wherein a solvent is used.",
+      "notes": null
+    },
+    {
+      "marker": "15.",
+      "zh": "15. The process as claimed in claim 14, wherein the solvent is chlorobenzene.",
+      "en": "15. The process as claimed in claim 14, wherein the solvent is chlorobenzene.",
+      "notes": null
+    },
+    {
+      "marker": "16.",
+      "zh": "16. The process as claimed in claim 14, wherein the solvent is methylene chloride.",
+      "en": "16. The process as claimed in claim 14, wherein the solvent is methylene chloride.",
+      "notes": "Claims 14 to 18 mirror claims 8 to 12, but not identically: the second named solvent is methylene chloride here and acetonitrile in claim 10. Both readings confirmed at magnification."
+    },
+    {
+      "marker": "17.",
+      "zh": "17. The process as claimed in claim 13, wherein the brominating is carried out at a temperature of from 70 to 100° C.",
+      "en": "17. The process as claimed in claim 13, wherein the brominating is carried out at a temperature of from 70 to 100° C.",
+      "notes": null
+    },
+    {
+      "marker": "18.",
+      "zh": "18. The process as claimed in claim 16, wherein the brominating is carried out at the reflux temperature of the solvent.",
+      "en": "18. The process as claimed in claim 16, wherein the brominating is carried out at the reflux temperature of the solvent.",
+      "notes": "Dependency checked at 4x magnification: the digits are unambiguously '16'."
+    },
+    {
+      "marker": "19.",
+      "zh": "19. A compound of formula II [drawing, formula (II)] wherein R1 is fluorine, chlorine or bromine, and R2 is (C1-C4)alkyl, excluding 3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid.",
+      "en": "19. A compound of formula II [drawing, formula (II)] wherein R1 is fluorine, chlorine or bromine, and R2 is (C1-C4)alkyl, excluding 3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid.",
+      "notes": "A compound claim, not a process claim. The excluded compound is printed hyphenated across a line break as '3-bromomethyl-2-chloro-4-methylsulfonyl-' / 'benzoic acid'; the hyphen before 'benzoic' sits exactly at the line break, so it cannot be told from the pixels whether it is part of the name or a line-break hyphen. Transcribed here with the hyphen retained, as printed. R1 and R2 superscripted, C1 and C4 subscripted. Alkyl range checked at 5x: (C1-C4)alkyl."
+    },
+    {
+      "marker": "20.",
+      "zh": "20. The compound as claimed in claim 19, wherein R1 is chlorine, and R2 is (C2)alkyl.",
+      "en": "20. The compound as claimed in claim 19, wherein R1 is chlorine, and R2 is (C2)alkyl.",
+      "notes": "The alkyl designation was the single most damaged token in the text layer and was therefore checked at 10x magnification. It prints as an opening parenthesis, a capital C, a clearly formed subscript numeral 2, a closing parenthesis, then 'alkyl.'. It is (C2)alkyl, not (C1)alkyl and not a range. The glyph is a 2: it has the flat horizontal base stroke and the open upper bowl of a 2, and is the same glyph as the subscript 2 in the R2 label on the same line. Recorded as printed; no correction applied."
+    },
+    {
+      "marker": "* * * * *",
+      "zh": "*    *    *    *    *",
+      "en": "*    *    *    *    *",
+      "notes": "End-of-claims marker, five asterisks centred in the right column below claim 20. Nothing is printed on the page after this; the lower third of the page is blank."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "structure",
+      "between_markers": ["13.", "13."],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st, left column, centred under the first line of claim 13; label (II) at the right margin",
+          "core": "benzene",
+          "substituents": [
+            "COOH at C1, drawn as the label HOOC bonded to the upper-left ring vertex",
+            "R1 at C2, top ring vertex, adjacent to the HOOC vertex",
+            "CH2Br at C3, upper-right ring vertex, drawn as a bond from the ring up to an unlabelled CH2 apex and then down to the label Br",
+            "SO2R2 at C4, lower-right ring vertex",
+            "H at C5, bottom ring vertex, unsubstituted",
+            "H at C6, lower-left ring vertex, unsubstituted"
+          ],
+          "name": null,
+          "smiles": null,
+          "confidence": "high"
+        }
+      ],
+      "arrows": [],
+      "notes": "Markush generic: R1 and R2 are undefined variables on the drawing, so name and smiles are null by rule. Positions were read off the hexagon as drawn, not inferred from the claim wording: the ring is drawn with one vertex at the top, and the four substituents occupy four consecutive vertices going clockwise from the upper-left (HOOC, R1, CH2Br, SO2R2), leaving the bottom and lower-left vertices bare. Alternating double bonds are drawn inside the ring on three of the six bonds. This is the product of the process of claim 13."
+    },
+    {
+      "kind": "structure",
+      "between_markers": ["13.", "13."],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "2nd, left column, below the line 'which comprises brominating a 3-methylbenzoic acid of formula I'; label (I) at the right margin",
+          "core": "benzene",
+          "substituents": [
+            "COOH at C1, drawn as the label HOOC bonded to the upper-left ring vertex",
+            "R1 at C2, top ring vertex, adjacent to the HOOC vertex",
+            "CH3 at C3, upper-right ring vertex",
+            "SO2R2 at C4, lower-right ring vertex",
+            "H at C5, bottom ring vertex, unsubstituted",
+            "H at C6, lower-left ring vertex, unsubstituted"
+          ],
+          "name": null,
+          "smiles": null,
+          "confidence": "high"
+        }
+      ],
+      "arrows": [],
+      "notes": "Markush generic: R1 and R2 undefined, so name and smiles are null. Same hexagon and same four occupied vertices as formula (II); the only difference read off the drawing is CH3 at the upper-right vertex where formula (II) carries CH2Br. This is the starting material of the process of claim 13. No arrow is drawn between formula (I) and formula (II): the transformation is stated only in the prose between them, so the two are recorded as separate structures rather than as one scheme."
+    },
+    {
+      "kind": "structure",
+      "between_markers": ["19.", "19."],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "3rd, right column, centred under the first line of claim 19; label (II) at the right margin",
+          "core": "benzene",
+          "substituents": [
+            "COOH at C1, drawn as the label HOOC bonded to the upper-left ring vertex",
+            "R1 at C2, top ring vertex, adjacent to the HOOC vertex",
+            "CH2Br at C3, upper-right ring vertex, drawn as a bond from the ring up to an unlabelled CH2 apex and then down to the label Br",
+            "SO2R2 at C4, lower-right ring vertex",
+            "H at C5, bottom ring vertex, unsubstituted",
+            "H at C6, lower-left ring vertex, unsubstituted"
+          ],
+          "name": null,
+          "smiles": null,
+          "confidence": "high"
+        }
+      ],
+      "arrows": [],
+      "notes": "Markush generic: R1 and R2 undefined, so name and smiles are null. Compared vertex by vertex against the formula (II) drawing in the left column and found identical in ring, in the four occupied vertices and in the placement of the drawn double bonds. Claim 19 is a compound claim, so this drawing is a claimed compound per se rather than a step in a route; presented_as is set to invention_route because it is the invention's own subject matter and is certainly not prior art."
+    }
+  ],
+  "discrepancies": [
+    {
+      "what": "Claim 20 narrows R2 to a single carbon count using a notation the rest of the page does not use.",
+      "drawing_says": "The formula (II) drawing carries only the variable label SO2R2 and says nothing about the size of R2.",
+      "text_says": "Claim 19 defines R2 as (C1-C4)alkyl, while dependent claim 20 writes it as (C2)alkyl, a one-member range written as a bare (C2) rather than as (C2-C2)alkyl or as 'ethyl'. The value is inside the parent range, so this is a narrowing and not a contradiction, but the notation is unusual and is the token most likely to be mis-transcribed downstream."
+    },
+    {
+      "what": "The compound excluded by claim 19 is the R1 = chlorine, R2 = methyl member, and claim 20 then claims R1 = chlorine with R2 = (C2)alkyl.",
+      "drawing_says": "Not addressable from the drawing; both R1 and R2 are open variables.",
+      "text_says": "Claim 19 excludes 3-bromomethyl-2-chloro-4-methylsulfonyl-benzoic acid, i.e. the R2 = methyl member. Claim 20 keeps R1 = chlorine but sets R2 = (C2)alkyl, which sits outside the disclaimer. Recording this as an observed relation between two printed statements, not as a defect."
+    },
+    {
+      "what": "Parallel claim series 8-12 and 14-18 are not exact mirrors.",
+      "drawing_says": "n/a",
+      "text_says": "Claim 10 names acetonitrile as the second solvent, claim 16 names methylene chloride. Both were magnified and both readings are certain, so the asymmetry is in the printed document, not in the reading."
+    }
+  ],
+  "illegible": [],
+  "page_confidence": "high"
+}

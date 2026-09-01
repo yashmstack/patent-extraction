@@ -1,0 +1,35 @@
+[
+  {
+    "reaction_id": "Claims_Step 1",
+    "source_lines": [
+      150,
+      152,
+      154,
+      156,
+      158,
+      160,
+      165,
+      167,
+      169,
+      171,
+      173
+    ],
+    "quote_zh": "6. A process for preparing a 3-bromomethylbenzoic acid of formula II which comprises brominating a 3-methylbenzoic acid of formula I with N-bromosuccimide in the presence of a radical initiator, where, in formulae I and II R1 is fluorine, chlorine or bromine, and R2 is (C1-C4)alkyl. 11. The process as claimed in claim 6, wherein the brominating is carried out at a temperature of from 70 to 100° C. 12. The process as claimed in claim 10, wherein the brominating reaction is carried out at the reflux temperature of the solvent.",
+    "arithmetic_check": "Nothing to check. This is a process claim set: it states no charge, no mass, no volume, no molar ratio, no reaction time and no yield, so there is no arithmetic to close and no mass balance or molar-mass check can be computed. The only quantities printed anywhere in the section are the temperature bounds 70 and 100 degrees C and the claim numbers themselves.",
+    "drawing_evidence": "Nothing. Every IMAGE_EXTRACT span in this section is a single Markush structure of formula I or formula II with variable R1 and R2, and each carries {\"molecules\": []} because the vision pass refused a SMILES for a generic. There is no drawn reaction scheme in this patent, so the spans corroborate no step boundary, contribute no reagent and support no connectivity, and none of the drawing-related validation flags can arise. Claim 6 itself has no span beside it at all; the two spans in this part of the section stand at L177 and L179, after claim 13, and a third at L193 belongs to compound claim 19."
+  },
+  {
+    "reaction_id": "Claims_Step 2",
+    "source_lines": [
+      175,
+      181,
+      183,
+      185,
+      187,
+      189
+    ],
+    "quote_zh": "13. A process for preparing a 3-bromomethylbenzoic acid of formula II [drawing, formula (II)] which comprises brominating a 3-methylbenzoic acid of formula I [drawing, formula (I)] with elemental bromine and irradiation with a photolamp, where, in formulae I and II R1 is fluorine, chlorine or bromine, and R2 is (C1-C4)alkyl. 17. The process as claimed in claim 13, wherein the brominating is carried out at a temperature of from 70 to 100° C. 18. The process as claimed in claim 16, wherein the brominating is carried out at the reflux temperature of the solvent.",
+    "arithmetic_check": "Nothing to check. This is a process claim set: it states no charge, no mass, no volume, no molar ratio, no reaction time and no yield, so there is no arithmetic to close and no mass balance or molar-mass check can be computed. The only quantities printed anywhere in the section are the temperature bounds 70 and 100 degrees C and the claim numbers themselves. Open point for A5, and not an arithmetic one: claim 18 puts the bromination at the reflux temperature of methylene chloride while claim 17 puts it between 70 and 100 degrees C, and those two dependent claims of claim 13 cannot both describe one run.",
+    "drawing_evidence": "Nothing. Every IMAGE_EXTRACT span in this section is a single Markush structure of formula I or formula II with variable R1 and R2, and each carries {\"molecules\": []} because the vision pass refused a SMILES for a generic. There is no drawn reaction scheme in this patent, so the spans corroborate no step boundary, contribute no reagent and support no connectivity, and none of the drawing-related validation flags can arise. The spans nearest this claim are L177 and L179, which are the formula II and formula I generics that the inline placeholders in claim 13 point at; both are empty and neither adds a reagent, a substituent or a connectivity that the claim text does not state."
+  }
+]

@@ -1,0 +1,227 @@
+{
+ "page": "p10.png",
+ "page_label": "9",
+ "doc_part": "description",
+ "header": "9 / WO 2024/109718    PCT/CN2023/132821",
+ "footer": "",
+ "paragraphs": [
+  {
+   "marker": "[0066]",
+   "zh": "在更具体的实施方式中，上述反应中式(I)化合物与双氧水的摩尔比约为1-5，优选为2-3。",
+   "en": "In a more specific embodiment, the molar ratio of the compound of formula (I) to hydrogen peroxide in the above reaction is about 1-5, preferably 2-3.",
+   "notes": "The ranges are printed with a short dash between the numerals (1-5, 2-3)."
+  },
+  {
+   "marker": "[0067]",
+   "zh": "本发明的式(III)化合物可以通过如下路线制备：",
+   "en": "The compound of formula (III) of the present invention can be prepared by the following route:",
+   "notes": "Followed by the first drawing; a lone full-width period 。 is printed to the right of the drawing, closing this sentence."
+  },
+  {
+   "marker": "[0068]",
+   "zh": "在具体实施方式中，上述路线以式(II)化合物和溴代试剂为原料，如下进行，但不限于此。",
+   "en": "In a specific embodiment, the above route uses the compound of formula (II) and a brominating reagent as starting materials and proceeds as follows, but is not limited thereto.",
+   "notes": "Followed by the second drawing; a lone full-width period 。 is printed to the right of that drawing."
+  },
+  {
+   "marker": "[0069]",
+   "zh": "在更具体的实施方式中，上述反应可以如下执行但不限于此：将式(II)化合物和溶剂以及任选使用的引发剂混合，升温，往混合物中滴加溴代试剂。反应完成后，用碱液淬灭，依次用碱液和水洗涤，蒸发除去溶剂，所得固体干燥，得到式(III)化合物。所述碱液的具体例子包括但不限于NaOH水溶液等。",
+   "en": "In a more specific embodiment, the above reaction may be carried out as follows, but is not limited thereto: the compound of formula (II), a solvent and an optionally used initiator are mixed, the temperature is raised, and the brominating reagent is added dropwise into the mixture. After the reaction is complete, it is quenched with alkali solution, washed successively with alkali solution and water, the solvent is removed by evaporation, and the resulting solid is dried to give the compound of formula (III). Specific examples of the alkali solution include but are not limited to aqueous NaOH solution and the like.",
+   "notes": null
+  },
+  {
+   "marker": "[0070]",
+   "zh": "在更具体的实施方式中，上述反应中使用溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合作为溴代试剂，优选使用溴素作为溴代试剂。",
+   "en": "In a more specific embodiment, elemental bromine, N-bromosuccinimide, or a combination of hydrogen bromide and hydrogen peroxide is used as the brominating reagent in the above reaction; elemental bromine is preferably used as the brominating reagent.",
+   "notes": null
+  },
+  {
+   "marker": "[0071]",
+   "zh": "在更具体的实施方式中，上述反应中使用过氧化苯甲酰(BPO)、偶氮二异丁腈(AIBN)作为引发剂。",
+   "en": "In a more specific embodiment, benzoyl peroxide (BPO) and azobisisobutyronitrile (AIBN) are used as initiators in the above reaction.",
+   "notes": "The two initiators are separated by a full-width enumeration comma 、; the text does not say whether they are alternatives or a combination."
+  },
+  {
+   "marker": "[0072]",
+   "zh": "在更具体的实施方式中，上述反应中使用二氯甲烷、二氯乙烷、四氯化碳作为溶剂。",
+   "en": "In a more specific embodiment, dichloromethane, dichloroethane, or carbon tetrachloride is used as the solvent in the above reaction.",
+   "notes": "Listed with full-width enumeration commas; literally 'dichloroethane' without a 1,2- locant."
+  },
+  {
+   "marker": "[0073]",
+   "zh": "在更具体的实施方式中，上述反应中升温至40-100℃，优选升温至50-80℃。",
+   "en": "In a more specific embodiment, the temperature in the above reaction is raised to 40-100 degrees C, preferably raised to 50-80 degrees C.",
+   "notes": null
+  },
+  {
+   "marker": "[0074]",
+   "zh": "本发明的式(IV)化合物可以通过如下路线制备：",
+   "en": "The compound of formula (IV) of the present invention can be prepared by the following route:",
+   "notes": "Followed by the third drawing; a lone full-width period 。 is printed to the right of that drawing."
+  }
+ ],
+ "drawings": [
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0067]",
+    "[0068]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, labelled formula (II)",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1 (lower-right ring vertex)",
+      "CH3 at C2 (upper-right vertex, adjacent to the SO2CH3 vertex)",
+      "Cl at C3 (top vertex)",
+      "Br at C4 (upper-left vertex)"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfonyl)benzene",
+     "smiles": "Cc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right of arrow, labelled formula (III)",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1 (lower-right ring vertex)",
+      "CH2Br at C2 (upper-right vertex, adjacent to the SO2CH3 vertex)",
+      "Cl at C3 (top vertex)",
+      "Br at C4 (upper-left vertex)"
+     ],
+     "name": "1-bromo-2-(bromomethyl)-3-chloro-4-(methylsulfonyl)benzene",
+     "smiles": "BrCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Bare arrow, no reagent or condition written above or below. Both rings are drawn with four contiguous substituted vertices and two unsubstituted vertices (bottom and lower-left); positions above are read off the drawing with the SO2CH3-bearing vertex taken as C1. The IUPAC names use the conventional lowest-locant numbering with Br as C1, so the two numberings differ."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0068]",
+    "[0069]"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, labelled formula (II)",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1 (lower-right ring vertex)",
+      "CH3 at C2 (upper-right vertex, adjacent to the SO2CH3 vertex)",
+      "Cl at C3 (top vertex)",
+      "Br at C4 (upper-left vertex)"
+     ],
+     "name": "1-bromo-2-chloro-3-methyl-4-(methylsulfonyl)benzene",
+     "smiles": "Cc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right of arrow, labelled formula (III)",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1 (lower-right ring vertex)",
+      "CH2Br at C2 (upper-right vertex, adjacent to the SO2CH3 vertex)",
+      "Cl at C3 (top vertex)",
+      "Br at C4 (upper-left vertex)"
+     ],
+     "name": "1-bromo-2-(bromomethyl)-3-chloro-4-(methylsulfonyl)benzene",
+     "smiles": "BrCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [
+      "溴代试剂 (brominating reagent)"
+     ],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Same transformation as the first drawing, redrawn with the generic reagent label 溴代试剂 written above the arrow. Nothing is written below the arrow. Substituent positions are read off the drawing with the SO2CH3-bearing vertex taken as C1; the IUPAC names use the conventional lowest-locant numbering with Br as C1, so the two numberings differ."
+  },
+  {
+   "kind": "scheme",
+   "between_markers": [
+    "[0074]",
+    "(end of page)"
+   ],
+   "presented_as": "invention_route",
+   "structures": [
+    {
+     "position_in_drawing": "1st, left of arrow, labelled formula (III)",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1 (lower-right ring vertex)",
+      "CH2Br at C2 (upper-right vertex, adjacent to the SO2CH3 vertex)",
+      "Cl at C3 (top vertex)",
+      "Br at C4 (upper-left vertex)"
+     ],
+     "name": "1-bromo-2-(bromomethyl)-3-chloro-4-(methylsulfonyl)benzene",
+     "smiles": "BrCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    },
+    {
+     "position_in_drawing": "2nd, right of arrow, labelled formula (IV)",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1 (lower-right ring vertex)",
+      "CH2OCH2CF3 at C2 (upper-right vertex, adjacent to the SO2CH3 vertex)",
+      "Cl at C3 (top vertex)",
+      "Br at C4 (upper-left vertex)"
+     ],
+     "name": "1-bromo-2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzene",
+     "smiles": "FC(F)(F)COCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [
+    {
+     "from_structure": "1st",
+     "to_structure": "2nd",
+     "reagents_above": [],
+     "reagents_below": [],
+     "arrow_style": "solid",
+     "confidence": "high"
+    }
+   ],
+   "notes": "Bare arrow, no reagent or condition written. The side chain on the product is drawn explicitly as ring-CH2-O-CH2-CF3. Substituent positions are read off the drawing with the SO2CH3-bearing vertex taken as C1; the IUPAC names use the conventional lowest-locant numbering with Br as C1, so the two numberings differ."
+  }
+ ],
+ "discrepancies": [
+  {
+   "what": "The arrow in the first drawing carries no reagent, while the prose immediately after it names the brominating reagent.",
+   "drawing_says": "bare arrow from 式（II） to 式（III）",
+   "text_says": "[0068] 上述路线以式(II)化合物和溴代试剂为原料; [0070] names 溴素, N-溴代丁二酰亚胺, or HBr + H2O2"
+  },
+  {
+   "what": "The arrow in the third drawing carries no reagent, and no reagent for the III to IV step is written anywhere on this page.",
+   "drawing_says": "bare arrow from 式（III） to 式（IV）",
+   "text_says": "[0074] only says the compound of formula (IV) can be prepared by the following route; details presumably continue on the next page"
+  },
+  {
+   "what": "The initiators and solvents in [0071] and [0072] appear nowhere in any drawing on the page.",
+   "drawing_says": "no initiator or solvent labels on any arrow",
+   "text_says": "[0071] BPO, AIBN as initiators; [0072] dichloromethane, dichloroethane, carbon tetrachloride as solvents"
+  }
+ ],
+ "illegible": [],
+ "page_confidence": "high"
+}

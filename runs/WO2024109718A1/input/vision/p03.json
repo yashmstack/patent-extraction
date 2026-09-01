@@ -1,0 +1,268 @@
+{
+  "page": "p03.png",
+  "page_label": "2",
+  "doc_part": "description",
+  "header": "2\nWO 2024/109718                    PCT/CN2023/132821",
+  "footer": "",
+  "paragraphs": [
+    {
+      "marker": "[0006]",
+      "zh": "然而，上述方法一共有11步，步骤多；乙酰氯发生的F-C反应刺激性大，后处理产生大量含有催化剂三氯化铝的废水，后面的次氯酸钠卤仿反应也是在水相进行，反应过程中会生成卤仿并产生大量含有氯化钠的废水，污染严重；另外，分子中通过F-C反应接上乙酰基后还需要通过氯仿反应断掉甲基，从原料经济性方面考虑不合理，存在成本高、效率低等问题。",
+      "en": "However, the above method has 11 steps in total, which is a large number of steps; the F-C reaction with acetyl chloride is highly irritating, and the work-up produces a large amount of waste water containing the catalyst aluminium trichloride; the subsequent sodium hypochlorite haloform reaction is also carried out in the aqueous phase, haloform is formed during the reaction and a large amount of waste water containing sodium chloride is produced, causing serious pollution; in addition, after the acetyl group has been attached to the molecule by the F-C reaction, the methyl group still has to be cleaved off by a chloroform reaction, which is unreasonable from the point of view of raw-material economy, and there are problems such as high cost and low efficiency.",
+      "notes": "The text writes 氯仿反应 (literally 'chloroform reaction') on the last line where the earlier sentence writes 卤仿反应 ('haloform reaction'); transcribed as printed, not corrected. 'F-C' is printed with a plain hyphen between the two capitals."
+    },
+    {
+      "marker": "[0007]",
+      "zh": "发明内容",
+      "en": "Summary of the invention",
+      "notes": "Section heading carried on a numbered paragraph marker."
+    },
+    {
+      "marker": "[0008]",
+      "zh": "本发明旨在提供用于制备环磺酮的新方法和新中间体化合物。",
+      "en": "The present invention aims to provide a new method and new intermediate compounds for preparing tembotrione.",
+      "notes": "环磺酮 is the Chinese common name of the herbicide tembotrione; translated by that common name."
+    },
+    {
+      "marker": "[0009]",
+      "zh": "通过本发明的新方法和新中间体，可以比上述现有工艺路线更少的步骤制备环磺酮，节约成本，提高生产效率。",
+      "en": "By means of the new method and the new intermediates of the present invention, tembotrione can be prepared in fewer steps than the above existing process route, saving cost and improving production efficiency.",
+      "notes": null
+    },
+    {
+      "marker": "[0010]",
+      "zh": "具体地，本发明涉及：",
+      "en": "Specifically, the present invention relates to:",
+      "notes": null
+    },
+    {
+      "marker": "[0011]",
+      "zh": "(1)环磺酮制备方法，其特征在于，包括如下的任意一个步骤：",
+      "en": "(1) A method for preparing tembotrione, characterised in that it comprises any one of the following steps:",
+      "notes": "Paragraph is the last line on the page; the enumerated steps continue on the next page."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "scheme",
+      "between_markers": [null, "[0006]"],
+      "presented_as": "prior_art",
+      "structures": [
+        {
+          "position_in_drawing": "1st, row 1 leftmost",
+          "core": "benzene",
+          "substituents": ["NH2 at C1", "CH3 at C2", "Cl at C3"],
+          "name": "3-chloro-2-methylaniline",
+          "smiles": "Nc1cccc(Cl)c1C",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "2nd, row 1 second",
+          "core": "benzene",
+          "substituents": ["SCH3 at C1", "CH3 at C2", "Cl at C3"],
+          "name": "(3-chloro-2-methylphenyl)(methyl)sulfane",
+          "smiles": "CSc1cccc(Cl)c1C",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "3rd, row 1 third",
+          "core": "benzene",
+          "substituents": ["C(=O)CH3 at C1", "Cl at C2", "CH3 at C3", "SCH3 at C4"],
+          "name": "1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one",
+          "smiles": "CC(=O)c1ccc(SC)c(C)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "4th, row 1 rightmost",
+          "core": "benzene",
+          "substituents": ["C(=O)CH3 at C1", "Cl at C2", "CH3 at C3", "SO2CH3 at C4"],
+          "name": "1-[2-chloro-3-methyl-4-(methylsulfonyl)phenyl]ethan-1-one",
+          "smiles": "CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "5th, row 2 first",
+          "core": "benzene",
+          "substituents": ["COOH at C1", "Cl at C2", "CH3 at C3", "SO2CH3 at C4"],
+          "name": "2-chloro-3-methyl-4-(methylsulfonyl)benzoic acid",
+          "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "6th, row 2 second",
+          "core": "benzene",
+          "substituents": ["COOCH3 at C1", "Cl at C2", "CH3 at C3", "SO2CH3 at C4"],
+          "name": "methyl 2-chloro-3-methyl-4-(methylsulfonyl)benzoate",
+          "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "7th, row 2 rightmost",
+          "core": "benzene",
+          "substituents": ["COOCH3 at C1", "Cl at C2", "CH2Br at C3", "SO2CH3 at C4"],
+          "name": "methyl 3-(bromomethyl)-2-chloro-4-(methylsulfonyl)benzoate",
+          "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "8th, row 3 first",
+          "core": "benzene",
+          "substituents": ["COOCH3 at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4"],
+          "name": "methyl 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+          "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "9th, row 3 rightmost",
+          "core": "benzene",
+          "substituents": ["COOH at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4"],
+          "name": "2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+          "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "10th, row 4 first",
+          "core": "benzene",
+          "substituents": ["COCl at C1", "Cl at C2", "CH2OCH2CF3 at C3", "SO2CH3 at C4"],
+          "name": "2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+          "smiles": "ClC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "11th, row 4 reagent drawn above the arrow",
+          "core": "cyclohexane-1,3-dione",
+          "substituents": [],
+          "name": "cyclohexane-1,3-dione",
+          "smiles": "O=C1CCCC(=O)C1",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "12th, row 4 product (right of the cyclohexane-1,3-dione arrow)",
+          "core": "benzoate ester of the enol of cyclohexane-1,3-dione (3-oxocyclohex-1-en-1-yl ester)",
+          "substituents": ["Cl at C2 of the benzene ring", "CH2OCH2CF3 at C3 of the benzene ring", "SO2CH3 at C4 of the benzene ring", "ester C(=O)O at C1 of the benzene ring, the O attached to C1 of the cyclohexenone; ketone at C3 of the cyclohexenone"],
+          "name": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+          "smiles": "O=C(OC1=CC(=O)CCC1)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        },
+        {
+          "position_in_drawing": "13th, bottom row, final product",
+          "core": "cyclohexane-1,3-dione acylated at C2, joined to a benzene ring",
+          "substituents": ["aroyl at C2 of the cyclohexane-1,3-dione", "Cl at C2 of the benzene ring", "CH2OCH2CF3 at C3 of the benzene ring", "SO2CH3 at C4 of the benzene ring", "the C(=O) link at C1 of the benzene ring"],
+          "name": "2-{2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl}cyclohexane-1,3-dione (tembotrione)",
+          "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [
+        {
+          "from_structure": "1st",
+          "to_structure": "2nd",
+          "reagents_above": ["NaNO2", "CH3SNa"],
+          "reagents_below": ["HCl"],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "2nd",
+          "to_structure": "3rd",
+          "reagents_above": ["CH3COCl"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "3rd",
+          "to_structure": "4th",
+          "reagents_above": ["H2O2"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "4th",
+          "to_structure": "5th",
+          "reagents_above": ["NaClO"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "5th",
+          "to_structure": "6th",
+          "reagents_above": ["CH3OH"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "6th",
+          "to_structure": "7th",
+          "reagents_above": ["Br2"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "7th",
+          "to_structure": "8th",
+          "reagents_above": ["CF3CH2ONa"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "8th",
+          "to_structure": "9th",
+          "reagents_above": ["NaOH"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "9th",
+          "to_structure": "10th",
+          "reagents_above": ["SOCl2"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "10th",
+          "to_structure": "12th",
+          "reagents_above": ["cyclohexane-1,3-dione, drawn as a structure above the arrow"],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        },
+        {
+          "from_structure": "12th",
+          "to_structure": "13th",
+          "reagents_above": [],
+          "reagents_below": [],
+          "arrow_style": "solid",
+          "confidence": "high"
+        }
+      ],
+      "notes": "One continuous multi-row scheme occupying the top half of the page; the first arrow starts from a structure drawn on this page, so the scheme appears to begin here, and it ends in the final product drawn alone on the bottom row of the scheme. The last arrow (from the enol ester to the 2-aroylcyclohexane-1,3-dione, a Fries-type rearrangement) carries no written reagent above or below it, and the final product is drawn on the line below rather than to the right of that arrow. A small isolated ink mark that looks like a full-width period sits at the right-hand side of the page just below the scheme (approx. x 1330, y 1030 in the 1653x2338 scan); it is not attached to any structure."
+    }
+  ],
+  "discrepancies": [
+    {
+      "what": "Paragraph [0006] says the route has 11 steps, but only 11 structures and 11 arrows are drawn on this page with the first arrow starting from 3-chloro-2-methylaniline; the count of drawn arrows is 11, so this is consistent, but the prose refers to the route as a whole ('上述方法'), which may include material on the preceding page.",
+      "drawing_says": "11 arrows drawn on this page, from 3-chloro-2-methylaniline to the final 2-aroylcyclohexane-1,3-dione",
+      "text_says": "上述方法一共有11步 (the above method has 11 steps in total)"
+    },
+    {
+      "what": "The prose criticises an aluminium trichloride catalyst in the Friedel-Crafts acetylation, but no AlCl3 is written above or below the CH3COCl arrow in the drawing.",
+      "drawing_says": "CH3COCl only above the arrow",
+      "text_says": "后处理产生大量含有催化剂三氯化铝的废水 (work-up produces waste water containing the catalyst aluminium trichloride)"
+    },
+    {
+      "what": "The final rearrangement arrow carries no reagent in the drawing, while such a step normally requires a cyanide or base catalyst; nothing is written, so nothing is recorded.",
+      "drawing_says": "bare arrow, no reagents above or below",
+      "text_says": "no corresponding reagent named in the prose on this page"
+    }
+  ],
+  "illegible": [],
+  "page_confidence": "high"
+}

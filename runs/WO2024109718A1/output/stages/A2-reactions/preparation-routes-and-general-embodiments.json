@@ -1,0 +1,4411 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Step 1",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 1,
+    "step_label": "Step 1",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "range",
+        "value_c": null,
+        "min_c": 10.0,
+        "max_c": 30.0
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "quenched with alkali solution after the reaction is complete",
+        "washed successively with alkali solution and water",
+        "layers separated"
+      ],
+      "quenching_agent": "aqueous alkali solution, exemplified as aqueous NaOH",
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "alkali solution",
+        "water"
+      ],
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(VI)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bromine",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "滴加 (added dropwise) into the compound of formula (VI)",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "dichloromethane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,2-dichloroethane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium hydroxide",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "aqueous solution used to quench and then to wash",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "wash",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(I)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(VI)化合物",
+      "bromine"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(I)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0054] 本发明的式(I)化合物可以通过如下路线制备：\n[0055] 在具体实施方式中，上述路线以式(VI)化合物和溴素为原料，如下进行，但不限于此。\n[0056] 在更具体的实施方式中，上述反应如下执行但不限于此：往式(VI)化合物中滴加溴素，反应完成后，用碱液淬灭，依次用碱液和水洗涤，分液，得到式(I)化合物。所述碱液的具体例子包括但不限于NaOH水溶液等。\n[0057] 在更具体的实施方式中，上述反应在大约10-30℃的温度下进行。\n[0058] 在更具体的实施方式中，上述反应中使用二氯甲烷、1,2-二氯乙烷作为溶剂。",
+    "procedure_summary": "Bromine is added dropwise to the compound of formula (VI) in a chlorinated solvent; when the reaction is complete the mixture is quenched with alkali solution, washed with alkali solution and then water, and the layers are separated to give the compound of formula (I).",
+    "precursor_step": "Step 2",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "solvent_class:halogenated",
+      "catalyst_class:none",
+      "workup_type:aqueous_extraction",
+      "purification:none",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "Step (i) of the invention's route, ring bromination of the aryl methyl sulfide. The substrate is prepared in Step 2 of this section, which is why step_role is intermediate_step even though Step 1 comes first in document order. The two drawings at lines 237 and 241 show the same single arrow, the second carrying Br2, and they agree with the prose. Solvent, catalyst, initiator, brominating-agent and acid-binding-agent entries in compounds[] are the alternatives the text offers for this step, not a set of materials charged together. The text words them as lists with an optional preference; no charge, mass, volume or mole figure is printed anywhere in this section, so every quantity object is null. No initiator is named and no radical conditions are stated, so mechanism_type is ionic."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Step 2",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 2,
+    "step_label": "Step 2",
+    "reaction_class": "nucleophilic_substitution",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "Cc1c(N)cccc1Cl",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "NaNO2",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "HCl",
+        "role": "acid",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CH3SNa",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(VI)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "Cc1c(N)cccc1Cl"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(VI)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0059] 作为原料的式(VI)化合物可以参照例如专利文献CN106631941A等中记载的公知方法通过如下反应制备：",
+    "procedure_summary": "The starting compound of formula (VI) is said to be obtainable from the chloromethylaniline by a known method cited to a prior patent; the drawn arrow carries sodium nitrite, sodium thiomethoxide and hydrochloric acid.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": true,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions",
+      "cross_reference_unresolved",
+      "reagent_drawn_not_written"
+    ],
+    "tags": [
+      "transformation:thiomethylation",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "catalyst_class:none",
+      "workup_type:none",
+      "purification:none",
+      "step_role:first_step",
+      "linkage:standalone",
+      "is_one_pot:false"
+    ],
+    "notes": "Prior art, not the invention's own step: line 252 attributes the preparation of the compound of formula (VI) to known methods described in patent document CN106631941A, which is not in this document, so cross_reference_unresolved is set and the conditions are absent rather than omitted. The three reagents are read off the arrow at line 254 and appear in no written procedure, hence reagent_drawn_not_written. The reagent set is consistent with diazotisation followed by displacement of the diazonium by thiomethoxide, but the drawing is one arrow, the document states no sequence and no workup between them, so is_one_pot is left false rather than asserted, and named_reaction is left null rather than stretched to Sandmeyer. reaction_class is the overall amine-to-aryl-methyl-sulfide substitution, confidence medium because no procedure is given."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Step 3",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 3,
+    "step_label": "Step 3",
+    "reaction_class": "oxidation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "range",
+        "value_c": null,
+        "min_c": 40.0,
+        "max_c": 100.0
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "cooled after the reaction is complete",
+        "filtered",
+        "washed with water",
+        "dried"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "water"
+      ],
+      "drying_agent": null,
+      "filtration": "filtered after cooling",
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": "[0066] 在更具体的实施方式中，上述反应中式(I)化合物与双氧水的摩尔比约为1-5，优选为2-3。",
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(I)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "mixed with the solvent and the optional catalyst before heating",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "hydrogen peroxide",
+        "role": "oxidant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "滴加 (added dropwise) into the heated mixture",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "钨酸盐",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "偏钨酸盐",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "钒酸盐",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "偏钒酸盐",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium tungstate dihydrate",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "glacial acetic acid",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "formic acid",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "wash",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(II)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(I)化合物",
+      "hydrogen peroxide"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(II)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0060] 本发明的式(II)化合物可以通过如下路线制备：\n[0061] 在具体实施方式中，上述路线以双氧水为氧化剂，如下进行，但不限于此。\n[0062] 在更具体的实施方式中，上述反应可以如下执行但不限于此：将式(I)化合物和溶剂以及任选使用的催化剂混合，升温，往混合物中滴加双氧水，反应完成后，降温过滤，水洗，干燥，得到式(II)化合物。\n[0063] 在更具体的实施方式中，上述反应中使用钨酸盐、偏钨酸盐、钒酸盐、偏钒酸盐作为催化剂，所述盐包括钠盐、钾盐、铵盐。优选使用二水合钨酸钠作为催化剂。\n[0064] 在更具体的实施方式中，上述反应中使用冰醋酸、甲酸作为溶剂。\n[0065] 在更具体的实施方式中，上述反应中升温至40-100℃，优选升温至70-90℃。\n[0066] 在更具体的实施方式中，上述反应中式(I)化合物与双氧水的摩尔比约为1-5，优选为2-3。",
+    "procedure_summary": "The compound of formula (I), a solvent and an optional tungstate or vanadate catalyst are mixed and heated, hydrogen peroxide is added dropwise, and after the reaction is complete the mixture is cooled, filtered, washed with water and dried to give the sulfone of formula (II).",
+    "precursor_step": "Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:oxidation",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "solvent_class:protic",
+      "workup_type:filtration",
+      "purification:none",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false",
+      "temperature_preferred_c:70-90"
+    ],
+    "notes": "Step (ii), oxidation of the methyl sulfide through to the methyl sulfone. Temperature is recorded as the full stated range 40-100 degrees C printed at line 270, which also gives a preferred sub-range of 70-90 degrees C. The preferred sub-range is carried as the tag temperature_preferred_c:70-90, because conditions.temperature holds one range and the schema forbids extra keys, so a tag is the only field on the record that can hold a second range where a consumer can find it. The 16 tag categories the pass lists have no category for it; this one is added rather than dropping a printed number. The molar ratio of the compound of formula (I) to hydrogen peroxide is stated as a range, about 1-5 and preferably 2-3, and is kept verbatim in molar_ratio_text rather than turned into an equivalents figure. The catalyst is explicitly optional (任选使用的催化剂) and the salt families are alternatives, with sodium tungstate dihydrate preferred. catalyst_class is skipped: tungstate and vanadate are not values in that vocabulary and guessing one would be worse than omitting it. Solvent, catalyst, initiator, brominating-agent and acid-binding-agent entries in compounds[] are the alternatives the text offers for this step, not a set of materials charged together. The text words them as lists with an optional preference; no charge, mass, volume or mole figure is printed anywhere in this section, so every quantity object is null."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Step 4",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 4,
+    "step_label": "Step 4",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "radical",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "range",
+        "value_c": null,
+        "min_c": 40.0,
+        "max_c": 100.0
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "quenched with alkali solution after the reaction is complete",
+        "washed successively with alkali solution and water",
+        "solvent removed by evaporation",
+        "the resulting solid dried"
+      ],
+      "quenching_agent": "aqueous alkali solution, exemplified as aqueous NaOH",
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "alkali solution",
+        "water"
+      ],
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": "evaporation of the solvent",
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(II)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "mixed with the solvent and the optional initiator before heating",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "溴代试剂",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "滴加 (added dropwise) into the heated mixture",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bromine",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "N-bromosuccinimide",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "hydrogen bromide",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "hydrogen peroxide",
+        "role": "oxidant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "benzoyl peroxide",
+        "role": "additive",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "azobisisobutyronitrile",
+        "role": "additive",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "dichloromethane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "dichloroethane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "carbon tetrachloride",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium hydroxide",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "aqueous solution used to quench and then to wash",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "wash",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(III)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(II)化合物",
+      "溴代试剂"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(III)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0067] 本发明的式(III)化合物可以通过如下路线制备：\n[0068] 在具体实施方式中，上述路线以式(II)化合物和溴代试剂为原料，如下进行，但不限于此。\n[0069] 在更具体的实施方式中，上述反应可以如下执行但不限于此：将式(II)化合物和溶剂以及任选使用的引发剂混合，升温，往混合物中滴加溴代试剂。反应完成后，用碱液淬灭，依次用碱液和水洗涤，蒸发除去溶剂，所得固体干燥，得到式(III)化合物。所述碱液的具体例子包括但不限于NaOH水溶液等。\n[0070] 在更具体的实施方式中，上述反应中使用溴素、N-溴代丁二酰亚胺、或者溴化氢与双氧水的组合作为溴代试剂，优选使用溴素作为溴代试剂。\n[0071] 在更具体的实施方式中，上述反应中使用过氧化苯甲酰(BPO)、偶氮二异丁腈(AIBN)作为引发剂。\n[0072] 在更具体的实施方式中，上述反应中使用二氯甲烷、二氯乙烷、四氯化碳作为溶剂。\n[0073] 在更具体的实施方式中，上述反应中升温至40-100℃，优选升温至50-80℃。",
+    "procedure_summary": "The compound of formula (II), a solvent and an optional radical initiator are mixed and heated, the brominating reagent is added dropwise, and after the reaction is complete the mixture is quenched with alkali solution, washed with alkali solution and water, the solvent is evaporated and the solid dried to give the benzylic bromide of formula (III).",
+    "precursor_step": "Step 3",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:radical",
+      "scale:not_specified",
+      "solvent_class:halogenated",
+      "catalyst_class:none",
+      "workup_type:aqueous_extraction",
+      "purification:none",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false",
+      "temperature_preferred_c:50-80"
+    ],
+    "notes": "Step (iii), side-chain bromination of the ring methyl group. mechanism_type is radical because benzoyl peroxide and azobisisobutyronitrile are named as initiators at line 289, although line 285 words the initiator as optional (任选使用的引发剂). The brominating reagent is a choice of three at line 287, bromine, N-bromosuccinimide, or hydrogen bromide with hydrogen peroxide, with bromine preferred; hydrogen peroxide is listed here only as the second half of that combination. named_reaction is left null: the transformation is a Wohl-Ziegler bromination only when N-bromosuccinimide is the reagent chosen, and the preferred reagent is elemental bromine, so naming it would over-read the text. Temperature is the stated 40-100 degrees C printed at line 293, which also gives a preferred sub-range of 50-80 degrees C. The preferred sub-range is carried as the tag temperature_preferred_c:50-80, because conditions.temperature holds one range and the schema forbids extra keys, so a tag is the only field on the record that can hold a second range where a consumer can find it. The 16 tag categories the pass lists have no category for it; this one is added rather than dropping a printed number. Solvent, catalyst, initiator, brominating-agent and acid-binding-agent entries in compounds[] are the alternatives the text offers for this step, not a set of materials charged together. The text words them as lists with an optional preference; no charge, mass, volume or mole figure is printed anywhere in this section, so every quantity object is null. The solvent list at line 291 reads 二氯甲烷、二氯乙烷、四氯化碳, and the second of the three is printed without a locant. It is rendered here as dichloroethane, not 1,2-dichloroethane: line 250 does print 1,2-二氯乙烷 for the Step 1 bromination, but that is a different sentence about a different step and reading its locant back into this one would add a fact line 291 does not state. A1 records the same compound with the Chinese identifier 二氯乙烷 and the English alias dichloroethane, so the join here is on that alias and no compound is missing from A1."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Step 5",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 5,
+    "step_label": "Step 5",
+    "reaction_class": "nucleophilic_substitution",
+    "reaction_class_confidence": "high",
+    "named_reaction": "Williamson ether synthesis",
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "range",
+        "value_c": null,
+        "min_c": -5.0,
+        "max_c": 15.0
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "quenched by adding water after the reaction is complete",
+        "layers separated",
+        "organic layer washed with saturated brine",
+        "solvent distilled off"
+      ],
+      "quenching_agent": "water",
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "saturated brine"
+      ],
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": "distillation of the solvent",
+      "ph_target": null
+    },
+    "purification": "recrystallised from methanol or ethanol and dried",
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(III)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "dissolved in solvent and the solution 滴加 (added dropwise) into the trifluoroethoxide solution, the reactant temperature being controlled during the addition",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium 2,2,2-trifluoroethoxide",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "dissolved in solvent and used as the receiving solution",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "potassium 2,2,2-trifluoroethoxide",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "dissolved in solvent and used as the receiving solution",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CF3CH2OM",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tetrahydrofuran",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,4-dioxane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "diethyl ether",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "quenching agent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "saturated brine",
+        "role": "wash",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "methanol",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "ethanol",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(IV)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(III)化合物",
+      "CF3CH2OM"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(IV)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0074] 本发明的式(IV)化合物可以通过如下路线制备：\n[0075] 在具体实施方式中，上述路线以式(III)化合物和三氟乙醇钠或三氟乙醇钾为原料，如下进行，但不限于此。\n[0076] 上式中，CF3CH2OM为CF3CH2ONa或CF3CH2OK。\n[0077] 在更具体的实施方式中，上述反应可以如下执行但不限于此：将式(III)化合物和三氟乙醇钠或三氟乙醇钾分别溶于溶剂中，将式(III)化合物的溶液滴加到三氟乙醇钠或三氟乙醇钾溶液中。反应完毕后，加水淬灭，分液，用饱和食盐水洗涤有机层，蒸除溶剂，用甲醇或乙醇重结晶，干燥，得到式(IV)化合物。\n[0078] 在更具体的实施方式中，上述反应中使用四氢呋喃、1,4-二氧六环、乙醚作为溶剂，优选使用无水四氢呋喃作为溶剂。\n[0079] 在更具体的实施方式中，将式(III)化合物的溶液滴加到三氟乙醇钠或三氟乙醇钾溶液中时，滴加时控制反应物温度不超过-5～15℃。",
+    "procedure_summary": "The compound of formula (III) and the alkali metal trifluoroethoxide are each dissolved in a solvent and the solution of the bromide is added dropwise into the alkoxide solution under temperature control; the mixture is quenched with water, the layers separated, the organic layer washed with saturated brine, the solvent distilled off, and the product recrystallised and dried to give the compound of formula (IV).",
+    "precursor_step": "Step 4",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:etherification",
+      "mechanism:ionic",
+      "named_rxn:williamson_ether_synthesis",
+      "scale:not_specified",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:none",
+      "workup_type:aqueous_extraction",
+      "purification:recrystallisation",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "Step (iv), displacement of the benzylic bromide by trifluoroethoxide. CF3CH2OM is defined at line 306 as CF3CH2ONa or CF3CH2OK, so the generic identifier and both specific salts are carried in compounds[] as one choice, not three charges. The only temperature printed is the addition temperature at line 312, worded 控制反应物温度不超过-5～15℃, literally that the reactant temperature during the dropwise addition is controlled so as not to exceed -5 to 15 degrees C; it is the step's only stated temperature so it is recorded in conditions as a range as well as in the addition_profile of the compound of formula (III). The wording 不超过 applied to a range is odd on its face and is recorded as printed rather than repaired. Anhydrous tetrahydrofuran is preferred, which implies dry conditions, but no atmosphere is stated so atmosphere is left null. Solvent, catalyst, initiator, brominating-agent and acid-binding-agent entries in compounds[] are the alternatives the text offers for this step, not a set of materials charged together. The text words them as lists with an optional preference; no charge, mass, volume or mole figure is printed anywhere in this section, so every quantity object is null."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Step 6",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 6,
+    "step_label": "Step 6",
+    "reaction_class": "salt_formation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "2,2,2-trifluoroethanol",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium hydride",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "potassium hydride",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium methoxide",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "potassium methoxide",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium hydroxide",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "potassium hydroxide",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CF3CH2OM",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium 2,2,2-trifluoroethoxide",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "potassium 2,2,2-trifluoroethoxide",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "2,2,2-trifluoroethanol"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "CF3CH2OM",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0080] 在更具体的实施方式中，三氟乙醇钠或三氟乙醇钾通过使氢化钠或氢化钾、甲醇钠或甲醇钾、氢氧化钠或氢氧化钾与三氟乙醇反应制备。",
+    "procedure_summary": "The trifluoroethoxide reagent used in the preceding etherification is itself prepared by reacting trifluoroethanol with an alkali metal hydride, methoxide or hydroxide.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:salt_formation",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "catalyst_class:none",
+      "workup_type:none",
+      "purification:none",
+      "step_role:first_step",
+      "linkage:standalone",
+      "is_one_pot:false"
+    ],
+    "notes": "Reagent preparation, stated in one sentence at line 314 with no solvent, temperature, time or ratio, hence no_conditions. It is recorded as its own step because it is a distinct transformation with its own starting material, not because the document numbers it; the document folds it into the discussion of step (iv). Three product identifiers are carried because the text names the sodium and potassium salts as alternatives and A1 also holds the generic CF3CH2OM; product_name uses the generic. Six base identifiers are the three sodium/potassium pairs the text offers, again alternatives and not a co-charge. This step is drawn nowhere in the section."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Step 7",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 7,
+    "step_label": "Step 7",
+    "reaction_class": "other_cross_coupling",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "range",
+        "value_c": null,
+        "min_c": 80.0,
+        "max_c": 120.0
+      },
+      "pressure": {
+        "type": "elevated",
+        "value_kpa": null,
+        "qualitative_text": "通入CO的压力约为1～4MPa (CO fed at about 1 to 4 MPa)"
+      },
+      "atmosphere": "CO, the autoclave having been evacuated and purged with nitrogen first",
+      "time_h": null,
+      "reactor_type": "autoclave (高压釜)",
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "filtered",
+        "first solvent distilled off",
+        "second solvent added to dissolve the residue",
+        "acid added to adjust the pH to 2 to 3",
+        "white solid precipitated",
+        "filtered"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": "filtered, then filtered again after the solid precipitates",
+      "concentration_method": "distillation of the first solvent",
+      "ph_target": null
+    },
+    "purification": "the product precipitates as a white solid on acidification and is collected by filtration",
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(IV)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged into the autoclave at the start",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged into the autoclave at the start",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CO",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "通入 (fed into the autoclave) after evacuation and nitrogen purge",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "nitrogen",
+        "role": "other",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "used to purge the evacuated autoclave before CO is introduced",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "palladium",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "rhodium",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "ruthenium",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "copper",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "cobalt",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "palladium(II) chloride",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "palladium carbonate",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "palladium(II) acetate",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "palladium on carbon",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "palladium(II) trifluoroacetate",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bis(dibenzylideneacetone)palladium",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,3-bis(diphenylphosphino)propane",
+        "role": "ligand",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,4-bis(diphenylphosphino)butane",
+        "role": "ligand",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+        "role": "ligand",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "triethylamine",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "potassium carbonate",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "sodium carbonate",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "cesium carbonate",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "potassium phosphate",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "N,N-dimethylacetamide",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "N,N-diisopropylethylamine",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,8-diazabicyclo[5.4.0]undec-7-ene",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "triethylenediamine",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "toluene",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,4-dioxane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "ethylene glycol dimethyl ether",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "ethylene glycol diethyl ether",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "dimethyl sulfoxide",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tetrahydrofuran",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "N,N-dimethylformamide",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "methanol",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added as the second solvent after the first solvent is distilled off",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "ethanol",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added as the second solvent after the first solvent is distilled off",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(V)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(IV)化合物",
+      "CO",
+      "water"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(V)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0081] 本发明的式(IV)化合物可以通过但不限于如下插羰反应制备式(V)的羧酸化合物：\n[0082] 在更具体的实施方式中，上述(v-1)的反应可以如下执行但不限于此：向高压釜中加入式(IV)化合物、水、缚酸剂、催化剂、配体和第一溶剂，抽真空，氮气置换，通入CO，在80～120℃、优选80～90℃反应10～20h。过滤，蒸除第一溶剂后，加入第二溶剂溶解，调酸至pH为2～3，析出白色固体，过滤，得到式(V)化合物。\n[0083] 在更具体的实施方式中，上述反应中，催化剂使用钯、铑、钌、铜、钴等贵金属催化剂。\n[0084] 在更具体的实施方式中，使用钯催化剂，具体例子包括但不限于氯化钯(PdCl₂)、碳酸钯(PdCO₃)、醋酸钯[Pd(OAc)₂]、钯/碳(Pd/C)、三氟乙酸钯[Pd(OTFA)₂]、双二亚苄基丙酮钯[Pd(dba)₂]等，优选氯化钯(PdCl₂)。\n[0085] 在更具体的实施方式中，上述反应中使用磷配体或其盐作为催化剂配体，优选1,3-(双二苯基膦)丙烷、1,4-双(二苯基膦)丁烷或者双[(4-N,N-二甲氨基)苯基]二叔丁基膦等。\n[0086] 在更具体的实施方式中，上述反应中使用的缚酸剂为三乙胺、碳酸钾、碳酸钠、碳酸铯(CsCO₃)、磷酸钾、N,N-二甲基乙酰胺(DMAC)、N,N-二异丙基乙胺(DIPEA)、1,8-二氮杂二环十一碳-7-烯(DBU)、三乙撑二胺(DABCO)等。\n[0087] 在更具体的实施方式中，上述反应使用的第一溶剂是选自芳烃、亚砜、醚、酰胺类的溶剂，优选甲苯、1,4-二氧六环、乙二醇二甲醚、乙二醇二乙醚、二甲基亚砜(DMSO)、四氢呋喃(THF)、N,N-二甲基甲酰胺(DMF)中的一种或两种以上。\n[0088] 在更具体的实施方式中，上述反应中通入CO的压力约为1～4MPa。\n[0089] 在更具体的实施方式中，上述反应中，蒸除第一溶剂后，加入醇溶剂例如甲醇或乙醇等作为第二溶剂溶解。",
+    "procedure_summary": "The compound of formula (IV), water, an acid-binding agent, a noble metal catalyst, a phosphine ligand and a first solvent are charged into an autoclave, which is evacuated and purged with nitrogen before carbon monoxide is admitted and the mixture heated; the mixture is then filtered, the first solvent distilled off, the residue dissolved in an alcohol, and acidification precipitates the carboxylic acid of formula (V), which is filtered off.",
+    "precursor_step": "Step 5",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": true,
+    "validation_flags": [],
+    "tags": [
+      "transformation:carbonylation",
+      "mechanism:catalytic",
+      "scale:not_specified",
+      "atmosphere:carbon_monoxide",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:palladium",
+      "workup_type:precipitation",
+      "purification:none",
+      "safety:high_pressure",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false",
+      "temperature_preferred_c:80-90",
+      "time_h_range:10-20"
+    ],
+    "notes": "Reaction (v-1), palladium catalysed hydroxycarbonylation of the aryl bromide to the carboxylic acid of formula (V). reaction_class is other_cross_coupling at medium confidence: the closed reaction_class vocabulary has no carbonylation value, and this is a palladium catalysed C-C bond formation at an aryl bromide, so other_cross_coupling is the nearest member. The transformation tag carries the real name. The same value is used for the same formula (IV) to formula (V) carbonylation on Scheme Step 6 of this section, so the section classes that transformation one way throughout. Temperature is the stated 80-120 degrees C printed at line 320, which also gives a preferred sub-range of 80-90 degrees C. The preferred sub-range is carried as the tag temperature_preferred_c:80-90, because conditions.temperature holds one range and the schema forbids extra keys, so a tag is the only field on the record that can hold a second range where a consumer can find it. The 16 tag categories the pass lists have no category for it; this one is added rather than dropping a printed number. The same line prints a reaction time of 10 to 20 h. conditions.time_h is a single float and cannot hold a range, so it stays null rather than being collapsed to a point, and the range is carried as the tag time_h_range:10-20 as well as in the procedure text. This is the schema_loss_range case the project's own quantity-coverage contract names; validation_flags is a closed enum with no value for it, so the tag is the only machine-readable place for the number. The CO pressure is likewise a range, about 1-4 MPa at line 335, so value_kpa is null and the range is kept verbatim in pressure.qualitative_text. The workup pH is also a range, 2 to 3, so workup.ph_target is null and the phrase is in workup.steps. Five noble metals, six palladium sources with palladium chloride preferred, three phosphine ligands, nine acid-binding agents and seven first solvents are all alternatives. Solvent, catalyst, initiator, brominating-agent and acid-binding-agent entries in compounds[] are the alternatives the text offers for this step, not a set of materials charged together. The text words them as lists with an optional preference; no charge, mass, volume or mole figure is printed anywhere in this section, so every quantity object is null."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Step 8",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 8,
+    "step_label": "Step 8",
+    "reaction_class": "ester_formation",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": true,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(IV)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CO",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "cyclohexane-1,3-dione",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(VIII)的酯化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(IV)化合物",
+      "CO",
+      "cyclohexane-1,3-dione"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(VIII)的酯化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0090] 在其他实施方式中，本发明的式(IV)化合物可以通过但不限于如下插羰反应直接制备式(VIII)的酯化合物。\n[0092] 在更具体的实施方式中，上述(v′－1)的反应的实施方法除了反应物中不加水之外，其它与前文所述(v-1)的反应的实施方法相同。\n[0093] 由式(IV)化合物制备式(VIII)的中间体酯化合物后，可以先分离该中间体酯化合物，分步制备环磺酮，也可以不分离该中间体酯化合物而通过一锅法直接制备环磺酮。\n[0094] 上述(v-1)和(v′－1)的反应中，列举了通过CO插羰的方式，但本发明不限于此，通过其它方式由式(IV)化合物制备式(V)所示的中间体酸化合物、或直接制备式(VIII)的中间体酯化合物的实施方式都包括在本发明范围内。",
+    "procedure_summary": "In an alternative embodiment the compound of formula (IV) is carbonylated directly to the ester of formula (VIII); the procedure is stated to be the same as the carbonylation to the acid except that no water is charged.",
+    "precursor_step": "Step 5",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "reagent_drawn_not_written"
+    ],
+    "tags": [
+      "transformation:esterification",
+      "mechanism:catalytic",
+      "scale:not_specified",
+      "atmosphere:carbon_monoxide",
+      "catalyst_class:palladium",
+      "purification:none",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "Reaction (v'-1), the direct carbonylative esterification that skips the acid of formula (V). conditions_inherited is true on the document's own instruction at line 352, that the method is the same as (v-1) except that no water is added to the reactants; the condition fields are therefore left null and point at Step 7 rather than being copied, which would create a second place for those ranges to drift. The cyclohexane-1,3-dione that must supply the ester oxygen is drawn on the arrow at lines 341 and 375 and is named in no sentence of this section, hence reagent_drawn_not_written; the prose at line 339 says only 插羰反应 (carbonyl insertion) to the compound of formula (VIII). Line 354 adds that the ester may either be isolated and carried on stepwise, or left unisolated and converted to tembotrione in one pot; that is an option offered for the pair Step 8 and Step 9, not a description of this step, so is_one_pot stays false here. Line 356 states that carbonyl insertion with CO is only an example and other means are within scope."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Step 9",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 9,
+    "step_label": "Step 9",
+    "reaction_class": "other",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(VIII)的酯化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "acetone cyanohydrin",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tembotrione",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(VIII)的酯化合物"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "tembotrione",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0091] 式(V)的羧酸化合物和式(VIII)的酯化合物是环磺酮的重要制备中间体，可以参照例如专利文献DE19846792A1等中公开的已知方法通过如下路线制备环磺酮。\nNone 由式(VIII)的酯化合物重排制备环磺酮时，优选使用氰类催化剂，特别优选使用丙酮氰醇作为催化剂。",
+    "procedure_summary": "The ester of formula (VIII) is rearranged to tembotrione, preferably with a cyanide type catalyst and particularly with acetone cyanohydrin.",
+    "precursor_step": "Step 8",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": true,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions",
+      "cross_reference_unresolved"
+    ],
+    "tags": [
+      "transformation:rearrangement",
+      "mechanism:ionic",
+      "scale:not_specified",
+      "workup_type:none",
+      "purification:none",
+      "safety:cyanide_handling",
+      "step_role:final_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "The final acyl migration that converts the enol ester of formula (VIII) into the 2-aroyl-1,3-cyclohexanedione, tembotrione. reaction_class is other because the vocabulary has no rearrangement value and none of the listed classes describes an intramolecular acyl transfer; the transformation tag carries it. The drawn product IUQAXCIUEPFPSF-UHFFFAOYSA-N has the same molecular formula C17H16ClF3O6S as the drawn ester OBAMHTWSCBVWGB-UHFFFAOYSA-N, which is what an isomerisation should show, so no molar_mass_inconsistent is raised. Only the catalyst preference is stated, at line 348: no solvent, temperature, time or workup, hence no_conditions. Line 343 attributes the whole route from the acid of formula (V) and the ester of formula (VIII) through to tembotrione to known methods in DE19846792A1, which is not in this document, hence cross_reference_unresolved. Line 354 offers running this step one-pot with Step 8 without isolating the ester; that option is recorded here in prose but is_one_pot is false because the record as written starts from the isolated ester."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 1",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 10,
+    "step_label": "Scheme Step 1",
+    "reaction_class": "nucleophilic_substitution",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "Cc1c(N)cccc1Cl",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "NaNO2",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CH3SNa",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "HCl",
+        "role": "acid",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(VI)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "Cc1c(N)cccc1Cl"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(VI)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "procedure_summary": "Drawn arrow converting the chloromethylaniline into the aryl methyl sulfide of formula (VI).",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": true,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions",
+      "reagent_drawn_not_written",
+      "cross_reference_unresolved"
+    ],
+    "tags": [
+      "transformation:thiomethylation",
+      "mechanism:ionic",
+      "catalyst_class:none",
+      "step_role:first_step",
+      "linkage:standalone",
+      "scale:not_specified",
+      "is_one_pot:false"
+    ],
+    "notes": "Overview scheme, not a procedure. It is the consolidated whole-route drawing introduced at [0102] line 409 and read at lines 414 and 416 (line 416 is the same drawing re-extracted; lines 405 and 407 are the same nine arrows drawn at [0101] with no reagent labels). Attribution is not in doubt: [0101] and [0102] both read 本发明新方法包括如下步骤, so the drawn route is the invention's own new method, and route_attribution_unclear is not raised. The route as drawn nevertheless incorporates the formula (VI) preparation the text attributes to CN106631941A (line 252) and the final acid-chloride/ester/rearrangement sequence the text attributes to DE19846792A1 (line 343). No charge, temperature, time or yield is carried by the drawing. Arrow 1 of 9. Same transformation as the prose Step 2, same three reagents, no disagreement."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 2",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 11,
+    "step_label": "Scheme Step 2",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(VI)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "bromine",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(I)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(VI)化合物",
+      "bromine"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(I)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "procedure_summary": "Drawn arrow brominating the ring of the compound of formula (VI) to give the compound of formula (I).",
+    "precursor_step": "Scheme Step 1",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:ionic",
+      "catalyst_class:none",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "scale:not_specified",
+      "is_one_pot:false"
+    ],
+    "notes": "Overview scheme, not a procedure. It is the consolidated whole-route drawing introduced at [0102] line 409 and read at lines 414 and 416 (line 416 is the same drawing re-extracted; lines 405 and 407 are the same nine arrows drawn at [0101] with no reagent labels). Attribution is not in doubt: [0101] and [0102] both read 本发明新方法包括如下步骤, so the drawn route is the invention's own new method, and route_attribution_unclear is not raised. The route as drawn nevertheless incorporates the formula (VI) preparation the text attributes to CN106631941A (line 252) and the final acid-chloride/ester/rearrangement sequence the text attributes to DE19846792A1 (line 343). No charge, temperature, time or yield is carried by the drawing. Arrow 2 of 9, labelled Br2. Same transformation as the prose Step 1, which names bromine; they agree."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 3",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 12,
+    "step_label": "Scheme Step 3",
+    "reaction_class": "oxidation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(I)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "hydrogen peroxide",
+        "role": "oxidant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(II)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(I)化合物",
+      "hydrogen peroxide"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(II)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "procedure_summary": "Drawn arrow oxidising the methyl sulfide of formula (I) to the methyl sulfone of formula (II).",
+    "precursor_step": "Scheme Step 2",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:oxidation",
+      "mechanism:ionic",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "scale:not_specified",
+      "is_one_pot:false"
+    ],
+    "notes": "Overview scheme, not a procedure. It is the consolidated whole-route drawing introduced at [0102] line 409 and read at lines 414 and 416 (line 416 is the same drawing re-extracted; lines 405 and 407 are the same nine arrows drawn at [0101] with no reagent labels). Attribution is not in doubt: [0101] and [0102] both read 本发明新方法包括如下步骤, so the drawn route is the invention's own new method, and route_attribution_unclear is not raised. The route as drawn nevertheless incorporates the formula (VI) preparation the text attributes to CN106631941A (line 252) and the final acid-chloride/ester/rearrangement sequence the text attributes to DE19846792A1 (line 343). No charge, temperature, time or yield is carried by the drawing. Arrow 3 of 9, labelled H2O2. Same transformation as the prose Step 3; the drawing omits the optional tungstate catalyst and the solvent, which is less detail rather than a disagreement."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 4",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 13,
+    "step_label": "Scheme Step 4",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "radical",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(II)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "溴代试剂",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(III)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(II)化合物",
+      "溴代试剂"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(III)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "procedure_summary": "Drawn arrow brominating the benzylic methyl group of the compound of formula (II).",
+    "precursor_step": "Scheme Step 3",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:bromination",
+      "mechanism:radical",
+      "catalyst_class:none",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "scale:not_specified",
+      "is_one_pot:false"
+    ],
+    "notes": "Overview scheme, not a procedure. It is the consolidated whole-route drawing introduced at [0102] line 409 and read at lines 414 and 416 (line 416 is the same drawing re-extracted; lines 405 and 407 are the same nine arrows drawn at [0101] with no reagent labels). Attribution is not in doubt: [0101] and [0102] both read 本发明新方法包括如下步骤, so the drawn route is the invention's own new method, and route_attribution_unclear is not raised. The route as drawn nevertheless incorporates the formula (VI) preparation the text attributes to CN106631941A (line 252) and the final acid-chloride/ester/rearrangement sequence the text attributes to DE19846792A1 (line 343). No charge, temperature, time or yield is carried by the drawing. Arrow 4 of 9, labelled 溴代试剂 (brominating agent), the same generic label the prose Step 4 uses and which line 418 defines as bromine, N-bromosuccinimide, or hydrogen bromide with hydrogen peroxide, preferably bromine. They agree. mechanism_type radical is carried over from the initiators the prose names at line 289; the drawing itself shows none."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 5",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 14,
+    "step_label": "Scheme Step 5",
+    "reaction_class": "nucleophilic_substitution",
+    "reaction_class_confidence": "high",
+    "named_reaction": "Williamson ether synthesis",
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(III)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CF3CH2OM",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(IV)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(III)化合物",
+      "CF3CH2OM"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(IV)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "procedure_summary": "Drawn arrow displacing the benzylic bromide with trifluoroethoxide to give the compound of formula (IV).",
+    "precursor_step": "Scheme Step 4",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:etherification",
+      "mechanism:ionic",
+      "named_rxn:williamson_ether_synthesis",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "scale:not_specified",
+      "is_one_pot:false"
+    ],
+    "notes": "Overview scheme, not a procedure. It is the consolidated whole-route drawing introduced at [0102] line 409 and read at lines 414 and 416 (line 416 is the same drawing re-extracted; lines 405 and 407 are the same nine arrows drawn at [0101] with no reagent labels). Attribution is not in doubt: [0101] and [0102] both read 本发明新方法包括如下步骤, so the drawn route is the invention's own new method, and route_attribution_unclear is not raised. The route as drawn nevertheless incorporates the formula (VI) preparation the text attributes to CN106631941A (line 252) and the final acid-chloride/ester/rearrangement sequence the text attributes to DE19846792A1 (line 343). No charge, temperature, time or yield is carried by the drawing. Arrow 5 of 9, labelled CF3CH2OM, which line 418 defines as CF3CH2ONa or CF3CH2OK. Same transformation as the prose Step 5; they agree."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 6",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 15,
+    "step_label": "Scheme Step 6",
+    "reaction_class": "other_cross_coupling",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "catalytic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(IV)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CO",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(V)化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(IV)化合物",
+      "CO",
+      "water"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(V)化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "procedure_summary": "Drawn arrow carbonylating the aryl bromide of formula (IV) to the carboxylic acid of formula (V).",
+    "precursor_step": "Scheme Step 5",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:carbonylation",
+      "mechanism:catalytic",
+      "atmosphere:carbon_monoxide",
+      "catalyst_class:palladium",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "scale:not_specified",
+      "is_one_pot:false"
+    ],
+    "notes": "Overview scheme, not a procedure. It is the consolidated whole-route drawing introduced at [0102] line 409 and read at lines 414 and 416 (line 416 is the same drawing re-extracted; lines 405 and 407 are the same nine arrows drawn at [0101] with no reagent labels). Attribution is not in doubt: [0101] and [0102] both read 本发明新方法包括如下步骤, so the drawn route is the invention's own new method, and route_attribution_unclear is not raised. The route as drawn nevertheless incorporates the formula (VI) preparation the text attributes to CN106631941A (line 252) and the final acid-chloride/ester/rearrangement sequence the text attributes to DE19846792A1 (line 343). No charge, temperature, time or yield is carried by the drawing. Arrow 6 of 9, labelled H2O and CO. Same transformation as the prose Step 7 and in agreement with it; the drawing omits the catalyst, ligand, base and solvent the prose supplies. Note the one real difference between this drawing and the prose: the prose also offers reaction (v'-1) at line 339, the direct carbonylation of the compound of formula (IV) to the ester of formula (VIII), and this nine-arrow drawing has no such arrow. It routes everything through the acid and the acid chloride instead. That is the drawing lacking a transformation the prose has, recorded here rather than flagged as a conflict, since neither reading contradicts the other. reaction_class is other_cross_coupling, the same value the prose Step 7 carries for this same formula (IV) to formula (V) carbonylation: the closed reaction_class vocabulary has no carbonylation value, so the nearest member is used and the transformation tag carries the real name."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 7",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 16,
+    "step_label": "Scheme Step 7",
+    "reaction_class": "halogenation",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(V)化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "SOCl2",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(V)化合物",
+      "SOCl2"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "procedure_summary": "Drawn arrow converting the carboxylic acid of formula (V) into the corresponding acid chloride.",
+    "precursor_step": "Scheme Step 6",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions",
+      "reagent_drawn_not_written"
+    ],
+    "tags": [
+      "transformation:acid_chloride_formation",
+      "mechanism:ionic",
+      "catalyst_class:none",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "scale:not_specified",
+      "is_one_pot:false"
+    ],
+    "notes": "Overview scheme, not a procedure. It is the consolidated whole-route drawing introduced at [0102] line 409 and read at lines 414 and 416 (line 416 is the same drawing re-extracted; lines 405 and 407 are the same nine arrows drawn at [0101] with no reagent labels). Attribution is not in doubt: [0101] and [0102] both read 本发明新方法包括如下步骤, so the drawn route is the invention's own new method, and route_attribution_unclear is not raised. The route as drawn nevertheless incorporates the formula (VI) preparation the text attributes to CN106631941A (line 252) and the final acid-chloride/ester/rearrangement sequence the text attributes to DE19846792A1 (line 343). No charge, temperature, time or yield is carried by the drawing. Arrow 7 of 9, labelled SOCl2. This transformation exists only in the drawings: no sentence in lines 235-421 mentions the acid chloride or thionyl chloride, so reagent_drawn_not_written is raised. It is one of the two arrows the drawing has and the prose lacks. reaction_class halogenation at medium confidence is the closest value in the vocabulary for converting an acid to its acid chloride; there is no acyl-activation class. The same arrow is drawn without any reagent at line 350, step_id 1."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 8",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 17,
+    "step_label": "Scheme Step 8",
+    "reaction_class": "ester_formation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "cyclohexane-1,3-dione",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "式(VIII)的酯化合物",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+      "cyclohexane-1,3-dione"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "式(VIII)的酯化合物",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "procedure_summary": "Drawn arrow acylating the cyclic diketone with the acid chloride to give the enol ester of formula (VIII).",
+    "precursor_step": "Scheme Step 7",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions",
+      "reagent_drawn_not_written"
+    ],
+    "tags": [
+      "transformation:esterification",
+      "mechanism:ionic",
+      "catalyst_class:none",
+      "step_role:intermediate_step",
+      "linkage:precursor_linked",
+      "scale:not_specified",
+      "is_one_pot:false"
+    ],
+    "notes": "Overview scheme, not a procedure. It is the consolidated whole-route drawing introduced at [0102] line 409 and read at lines 414 and 416 (line 416 is the same drawing re-extracted; lines 405 and 407 are the same nine arrows drawn at [0101] with no reagent labels). Attribution is not in doubt: [0101] and [0102] both read 本发明新方法包括如下步骤, so the drawn route is the invention's own new method, and route_attribution_unclear is not raised. The route as drawn nevertheless incorporates the formula (VI) preparation the text attributes to CN106631941A (line 252) and the final acid-chloride/ester/rearrangement sequence the text attributes to DE19846792A1 (line 343). No charge, temperature, time or yield is carried by the drawing. Arrow 8 of 9. The cyclohexane-1,3-dione is drawn as a structure above the arrow and is written nowhere in the section, so reagent_drawn_not_written is raised. This is the second of the two arrows the drawing has and the prose lacks; the prose reaches the ester of formula (VIII) directly from the compound of formula (IV) instead, at line 339."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "reaction_id": "Preparation Routes and General Embodiments_Scheme Step 9",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
+    "step_index": 18,
+    "step_label": "Scheme Step 9",
+    "reaction_class": "other",
+    "reaction_class_confidence": "medium",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "not_specified",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "not_specified",
+        "value_c": null,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": null,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": {
+        "type": null,
+        "color": null,
+        "wavelength_nm": null,
+        "power_w": null
+      },
+      "stirring": {
+        "type": null,
+        "rpm": null
+      },
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": null,
+      "drying_agent": null,
+      "filtration": null,
+      "concentration_method": null,
+      "ph_target": null
+    },
+    "purification": null,
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "式(VIII)的酯化合物",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "acetone cyanohydrin",
+        "role": "catalyst",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tembotrione",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "式(VIII)的酯化合物"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "tembotrione",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": null,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
+    "procedure_summary": "Drawn arrow rearranging the enol ester of formula (VIII) into tembotrione.",
+    "precursor_step": "Scheme Step 8",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "no_conditions"
+    ],
+    "tags": [
+      "transformation:rearrangement",
+      "mechanism:ionic",
+      "safety:cyanide_handling",
+      "step_role:final_step",
+      "linkage:precursor_linked",
+      "scale:not_specified",
+      "is_one_pot:false"
+    ],
+    "notes": "Overview scheme, not a procedure. It is the consolidated whole-route drawing introduced at [0102] line 409 and read at lines 414 and 416 (line 416 is the same drawing re-extracted; lines 405 and 407 are the same nine arrows drawn at [0101] with no reagent labels). Attribution is not in doubt: [0101] and [0102] both read 本发明新方法包括如下步骤, so the drawn route is the invention's own new method, and route_attribution_unclear is not raised. The route as drawn nevertheless incorporates the formula (VI) preparation the text attributes to CN106631941A (line 252) and the final acid-chloride/ester/rearrangement sequence the text attributes to DE19846792A1 (line 343). No charge, temperature, time or yield is carried by the drawing. Arrow 9 of 9, labelled 丙酮氰醇 (acetone cyanohydrin), which is exactly what the prose at line 348 prefers, so the two agree. reaction_class is other for the same reason as the prose Step 9: the vocabulary has no rearrangement value. Reactant and product carry the same molecular formula C17H16ClF3O6S in the drawing, as an isomerisation should."
+  }
+]

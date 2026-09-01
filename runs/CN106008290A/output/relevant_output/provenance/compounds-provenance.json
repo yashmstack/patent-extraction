@@ -1,0 +1,1174 @@
+[
+  {
+    "identifier": "sodium trifluoroethoxide",
+    "source_lines": [
+      39
+    ],
+    "quote_zh": "该方法采用三氟乙醇钠与2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯反应"
+  },
+  {
+    "identifier": "methyl 2-chloro-3-bromomethyl-4-methanesulfonylbenzoate",
+    "source_lines": [
+      39
+    ],
+    "quote_zh": "三氟乙醇钠与2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯反应"
+  },
+  {
+    "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methanesulfonylbenzoic acid",
+    "source_lines": [
+      39
+    ],
+    "quote_zh": "生成的2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸与1，3-环己二酮缩合重排制备环磺酮"
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "source_lines": [
+      39
+    ],
+    "quote_zh": "与1，3-环己二酮缩合重排制备环磺酮"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      39
+    ],
+    "quote_zh": "本发明公开了一种环磺酮的制备方法"
+  },
+  {
+    "identifier": "2,2,2-trifluoroethanol",
+    "source_lines": [
+      39
+    ],
+    "quote_zh": "用2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯和三氟乙醇、叔丁醇钾制备"
+  },
+  {
+    "identifier": "potassium tert-butoxide",
+    "source_lines": [
+      39
+    ],
+    "quote_zh": "和三氟乙醇、叔丁醇钾制备2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸收率低"
+  },
+  {
+    "identifier": "acetone cyanohydrin",
+    "source_lines": [
+      39
+    ],
+    "quote_zh": "需要剧毒催化剂丙酮氰醇的缺点"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      85,
+      87
+    ],
+    "quote_zh": "环磺酮是迄今为止活性较高、用量较少，且比较安全的一类除草剂，其工业制备方法主要是三氟乙醇、叔丁醇钾法制备关键中间体"
+  },
+  {
+    "identifier": "2,2,2-trifluoroethanol",
+    "source_lines": [
+      85
+    ],
+    "quote_zh": "其工业制备方法主要是三氟乙醇、叔丁醇钾法制备关键中间体"
+  },
+  {
+    "identifier": "potassium tert-butoxide",
+    "source_lines": [
+      85
+    ],
+    "quote_zh": "采用叔丁醇钾做碱，收率较低、试剂昂贵"
+  },
+  {
+    "identifier": "2-chloro-3-(2,2,2-trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+    "source_lines": [
+      85
+    ],
+    "quote_zh": "制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸采用叔丁醇钾做碱"
+  },
+  {
+    "identifier": "acetone cyanohydrin",
+    "source_lines": [
+      85
+    ],
+    "quote_zh": "要用到剧毒试剂丙酮氰醇为重排催化剂"
+  },
+  {
+    "identifier": "thionyl chloride",
+    "source_lines": [
+      85
+    ],
+    "quote_zh": "需要用二氯亚砜作酰氯化试剂，而二氯亚砜对环境有很大危害"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      128
+    ],
+    "quote_zh": "本发明提供了一种环磺酮的制备方法"
+  },
+  {
+    "identifier": "sodium 2,2,2-trifluoroethoxide",
+    "source_lines": [
+      128
+    ],
+    "quote_zh": "该方法以三氟乙醇钠作为反应物"
+  },
+  {
+    "identifier": "2,2,2-trifluoroethanol",
+    "source_lines": [
+      128
+    ],
+    "quote_zh": "克服了三氟乙醇与叔丁醇钾制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸收率低、成本高的缺点"
+  },
+  {
+    "identifier": "potassium tert-butoxide",
+    "source_lines": [
+      128
+    ],
+    "quote_zh": "克服了三氟乙醇与叔丁醇钾制备关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸收率低、成本高的缺点"
+  },
+  {
+    "identifier": "2-chloro-3-(trifluoroethoxymethyl)-4-(methylsulfonyl)benzoic acid",
+    "source_lines": [
+      128
+    ],
+    "quote_zh": "关键中间体2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸"
+  },
+  {
+    "identifier": "acetone cyanohydrin",
+    "source_lines": [
+      128
+    ],
+    "quote_zh": "需要剧毒催化剂丙酮氰醇的缺点"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      35
+    ],
+    "quote_zh": "一种环磺酮的制备方法"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      45,
+      51,
+      53,
+      57,
+      59,
+      61,
+      63,
+      65,
+      67,
+      69,
+      71,
+      73
+    ],
+    "quote_zh": "本发明提供了一种环磺酮的制备方法"
+  },
+  {
+    "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+    "source_lines": [
+      47,
+      49,
+      57,
+      59,
+      73
+    ],
+    "quote_zh": "以2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯与三氟乙醇钠为反应底物"
+  },
+  {
+    "identifier": "sodium 2,2,2-trifluoroethoxide",
+    "source_lines": [
+      47,
+      57
+    ],
+    "quote_zh": "三氟乙醇钠"
+  },
+  {
+    "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+    "source_lines": [
+      47,
+      49,
+      51,
+      53,
+      63,
+      73
+    ],
+    "quote_zh": "获得2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸"
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "source_lines": [
+      51,
+      53,
+      63
+    ],
+    "quote_zh": "与1,3-环己二酮为反应底物"
+  },
+  {
+    "identifier": "sodium carbonate",
+    "source_lines": [
+      65,
+      63
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "potassium carbonate",
+    "source_lines": [
+      65,
+      63
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "calcium hydroxide",
+    "source_lines": [
+      65,
+      63
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "triethylamine",
+    "source_lines": [
+      65,
+      63
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "pyridine",
+    "source_lines": [
+      65,
+      63
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "N,N'-carbonyldiimidazole",
+    "source_lines": [
+      67,
+      63
+    ],
+    "quote_zh": "CDI为N,N'-羰基二咪唑"
+  },
+  {
+    "identifier": "O-benzotriazolyl-tetramethyluronium hexafluorophosphate",
+    "source_lines": [
+      67,
+      63
+    ],
+    "quote_zh": "HBTU为O-苯并三氮唑-四甲基脲六氟磷酸酯"
+  },
+  {
+    "identifier": "1-hydroxybenzotriazole",
+    "source_lines": [
+      67,
+      63
+    ],
+    "quote_zh": "HOBT为1-羟基苯并三唑"
+  },
+  {
+    "identifier": "1,8-diazabicycloundec-7-ene",
+    "source_lines": [
+      67,
+      63
+    ],
+    "quote_zh": "DBU为1,8-二氮杂二环十一碳-7-烯"
+  },
+  {
+    "identifier": "hexane",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "cyclohexane",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "N,N-dimethylformamide",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "benzene",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "toluene",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "xylene",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "dichloromethane",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "1,2-dichloroethane",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "chloroform",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "diethyl ether",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "tetrahydrofuran",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "acetonitrile",
+    "source_lines": [
+      71
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "sodium 2,2,2-trifluoroethoxide",
+    "source_lines": [
+      138
+    ],
+    "quote_zh": "取1.1mol(134.2g)三氟乙醇钠"
+  },
+  {
+    "identifier": "sodium hydroxide",
+    "source_lines": [
+      138
+    ],
+    "quote_zh": "1.2mol(48g)氢氧化钠"
+  },
+  {
+    "identifier": "methyl 2-chloro-3-bromomethyl-4-(methylsulfonyl)benzoate",
+    "source_lines": [
+      138
+    ],
+    "quote_zh": "1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I)"
+  },
+  {
+    "identifier": "N,N-dimethylformamide",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "1000mL N,N-二甲基甲酰胺加入到反应器中"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "将残液加入300mL水中"
+  },
+  {
+    "identifier": "hydrochloric acid",
+    "source_lines": [
+      138
+    ],
+    "quote_zh": "用35％的盐酸调pH至弱酸性"
+  },
+  {
+    "identifier": "化合物II",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "干燥得化合物II，称重得314.8g，收率91％"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      136,
+      140
+    ],
+    "quote_zh": "得到成品环磺酮(化合物IV)366.4g，纯度96.5％，收率86.3％"
+  },
+  {
+    "identifier": "1,2-dichloroethane",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "溶解在1000mL的1,2-二氯乙烷中"
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "含1.2mol(117.6g)1,3-环己二酮(化合物III)"
+  },
+  {
+    "identifier": "CDI",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "1.2mol(194.6g)缩合剂CDI"
+  },
+  {
+    "identifier": "triethylamine",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "1.2mol(121.2g)三乙胺"
+  },
+  {
+    "identifier": "methanol",
+    "source_lines": [
+      140
+    ],
+    "quote_zh": "加甲醇打浆"
+  },
+  {
+    "identifier": "hexane",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。"
+  },
+  {
+    "identifier": "cyclohexane",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。"
+  },
+  {
+    "identifier": "benzene",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。"
+  },
+  {
+    "identifier": "toluene",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。"
+  },
+  {
+    "identifier": "xylene",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。"
+  },
+  {
+    "identifier": "dichloromethane",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。"
+  },
+  {
+    "identifier": "chloroform",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。"
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。"
+  },
+  {
+    "identifier": "diethyl ether",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。"
+  },
+  {
+    "identifier": "tetrahydrofuran",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。"
+  },
+  {
+    "identifier": "acetonitrile",
+    "source_lines": [
+      138,
+      140
+    ],
+    "quote_zh": "其中，N,N-二甲基甲酰胺作为反应溶剂，还可以用己烷、环己烷、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种代替。"
+  },
+  {
+    "identifier": "sodium 2,2,2-trifluoroethoxide",
+    "source_lines": [
+      149
+    ],
+    "quote_zh": "1.2mol(146.4g)三氟乙醇钠"
+  },
+  {
+    "identifier": "potassium hydroxide",
+    "source_lines": [
+      149
+    ],
+    "quote_zh": "1.2mol(67.2g)氢氧化钾"
+  },
+  {
+    "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+    "source_lines": [
+      149
+    ],
+    "quote_zh": "1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I)"
+  },
+  {
+    "identifier": "N,N-dimethylformamide",
+    "source_lines": [
+      149
+    ],
+    "quote_zh": "1000mL N,N-二甲基甲酰胺"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      149,
+      151
+    ],
+    "quote_zh": "将残液加入300mL水中"
+  },
+  {
+    "identifier": "hydrochloric acid",
+    "source_lines": [
+      149
+    ],
+    "quote_zh": "用35％的盐酸调pH至弱酸性"
+  },
+  {
+    "identifier": "化合物II",
+    "source_lines": [
+      149,
+      151
+    ],
+    "quote_zh": "干燥得化合物II,称重得321.7g,收率93％"
+  },
+  {
+    "identifier": "dichloromethane",
+    "source_lines": [
+      151
+    ],
+    "quote_zh": "溶解在1000mL的二氯甲烷中"
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "source_lines": [
+      151
+    ],
+    "quote_zh": "1.3mol(145.6g)1,3-环己二酮(化合物III)"
+  },
+  {
+    "identifier": "HBTU",
+    "source_lines": [
+      151
+    ],
+    "quote_zh": "2mol(758g)缩合剂HBTU"
+  },
+  {
+    "identifier": "sodium carbonate",
+    "source_lines": [
+      151
+    ],
+    "quote_zh": "2mol(212g)碳酸钠"
+  },
+  {
+    "identifier": "methanol",
+    "source_lines": [
+      151
+    ],
+    "quote_zh": "加甲醇打浆"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      151
+    ],
+    "quote_zh": "干燥得到成品环磺酮(化合物IV)362.5g,纯度95.8％,收率86％"
+  },
+  {
+    "identifier": "sodium trifluoroethoxide",
+    "source_lines": [
+      157,
+      157
+    ],
+    "quote_zh": "1.1mol(134.2g)三氟乙醇钠"
+  },
+  {
+    "identifier": "sodium carbonate",
+    "source_lines": [
+      157,
+      157
+    ],
+    "quote_zh": "1.2mol(129.6g)碳酸钠"
+  },
+  {
+    "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+    "source_lines": [
+      157,
+      157
+    ],
+    "quote_zh": "1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I)"
+  },
+  {
+    "identifier": "N,N-dimethylformamide",
+    "source_lines": [
+      157,
+      157
+    ],
+    "quote_zh": "1000mL N,N-二甲基甲酰胺加入到反应器中"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      157,
+      159
+    ],
+    "quote_zh": "将残液加入300mL水中"
+  },
+  {
+    "identifier": "hydrochloric acid",
+    "source_lines": [
+      157,
+      157
+    ],
+    "quote_zh": "用35％的盐酸调pH至弱酸性"
+  },
+  {
+    "identifier": "化合物II",
+    "source_lines": [
+      157,
+      159
+    ],
+    "quote_zh": "干燥得化合物II,称重得311.4g,收率90％"
+  },
+  {
+    "identifier": "dichloroethane",
+    "source_lines": [
+      159,
+      159
+    ],
+    "quote_zh": "溶解在1000mL的二氯乙烷中"
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "source_lines": [
+      159,
+      159
+    ],
+    "quote_zh": "1.5mol(147g)1,3-环己二酮(化合物III)"
+  },
+  {
+    "identifier": "HOBT",
+    "source_lines": [
+      159,
+      159
+    ],
+    "quote_zh": "3mol(405g)缩合剂HOBT"
+  },
+  {
+    "identifier": "calcium hydroxide",
+    "source_lines": [
+      159,
+      159
+    ],
+    "quote_zh": "3mol(222g)氢氧化钙"
+  },
+  {
+    "identifier": "methanol",
+    "source_lines": [
+      159,
+      159
+    ],
+    "quote_zh": "加甲、醇打浆"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      155,
+      159
+    ],
+    "quote_zh": "干燥得到成品环磺酮(化合物IV)375.4g,纯度97.5％,收率87.5％"
+  },
+  {
+    "identifier": "sodium 2,2,2-trifluoroethoxide",
+    "source_lines": [
+      165
+    ],
+    "quote_zh": "1.1mol(134.2g)三氟乙醇钠"
+  },
+  {
+    "identifier": "potassium carbonate",
+    "source_lines": [
+      165
+    ],
+    "quote_zh": "1.2mol(166.8g)碳酸钾"
+  },
+  {
+    "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+    "source_lines": [
+      165
+    ],
+    "quote_zh": "1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I)"
+  },
+  {
+    "identifier": "N,N-dimethylformamide",
+    "source_lines": [
+      165
+    ],
+    "quote_zh": "1000mL N,N-二甲基甲酰胺加入到反应器中"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      165,
+      167
+    ],
+    "quote_zh": "将残液加入300mL水中"
+  },
+  {
+    "identifier": "hydrochloric acid",
+    "source_lines": [
+      165
+    ],
+    "quote_zh": "用35％的盐酸调pH至弱酸性"
+  },
+  {
+    "identifier": "化合物II",
+    "source_lines": [
+      165,
+      167
+    ],
+    "quote_zh": "干燥得化合物II,称重得321.7g,收率93％"
+  },
+  {
+    "identifier": "cyclohexane",
+    "source_lines": [
+      167
+    ],
+    "quote_zh": "溶解在1000mL的环己烷中"
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "source_lines": [
+      167
+    ],
+    "quote_zh": "1mol(98g)1,3-环己二酮(化合物III)"
+  },
+  {
+    "identifier": "DBU",
+    "source_lines": [
+      167
+    ],
+    "quote_zh": "1mol(152g)缩合剂DBU"
+  },
+  {
+    "identifier": "pyridine",
+    "source_lines": [
+      167
+    ],
+    "quote_zh": "1mol(152g)吡啶"
+  },
+  {
+    "identifier": "methanol",
+    "source_lines": [
+      167
+    ],
+    "quote_zh": "加甲醇打浆"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      163,
+      167
+    ],
+    "quote_zh": "干燥得到成品环磺酮(化合物IV)332.9g,纯度94.6％,收率80.1％"
+  },
+  {
+    "identifier": "sodium trifluoroethoxide",
+    "source_lines": [
+      173
+    ],
+    "quote_zh": "1.1mol(134.2g)三氟乙醇钠"
+  },
+  {
+    "identifier": "lithium hydroxide",
+    "source_lines": [
+      173
+    ],
+    "quote_zh": "1.2mol(28.8g)氢氧化锂"
+  },
+  {
+    "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+    "source_lines": [
+      173
+    ],
+    "quote_zh": "1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I)"
+  },
+  {
+    "identifier": "N,N-dimethylformamide",
+    "source_lines": [
+      173,
+      178
+    ],
+    "quote_zh": "1000mL N,N-二甲基甲酰胺加入到反应器"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      178,
+      180
+    ],
+    "quote_zh": "将残液加入300mL水中"
+  },
+  {
+    "identifier": "hydrochloric acid",
+    "source_lines": [
+      178
+    ],
+    "quote_zh": "用35％的盐酸调pH至弱酸性"
+  },
+  {
+    "identifier": "化合物II",
+    "source_lines": [
+      178,
+      180
+    ],
+    "quote_zh": "干燥得化合物II，称重得318.3g，收率92％"
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "source_lines": [
+      180
+    ],
+    "quote_zh": "1.1mol(106.7g)1，3-环己二酮(化合物III)"
+  },
+  {
+    "identifier": "CDI",
+    "source_lines": [
+      180
+    ],
+    "quote_zh": "1.8mol(291.6g)缩合剂CDI"
+  },
+  {
+    "identifier": "potassium carbonate",
+    "source_lines": [
+      180
+    ],
+    "quote_zh": "5mol(690g)碳酸钾"
+  },
+  {
+    "identifier": "cyclohexane",
+    "source_lines": [
+      180
+    ],
+    "quote_zh": "溶解在1000mL的环己烷中"
+  },
+  {
+    "identifier": "methanol",
+    "source_lines": [
+      180
+    ],
+    "quote_zh": "加甲醇打浆"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      171,
+      180
+    ],
+    "quote_zh": "干燥得到成品环磺酮(化合物IV)355.5g，纯度96.3％，收率83.9％"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      89,
+      93,
+      100,
+      103
+    ],
+    "quote_zh": "获得环磺酮（化合物IV）"
+  },
+  {
+    "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+    "source_lines": [
+      95,
+      98,
+      107,
+      112,
+      126
+    ],
+    "quote_zh": "2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯（化合物I）"
+  },
+  {
+    "identifier": "sodium trifluoroethoxide",
+    "source_lines": [
+      95,
+      107
+    ],
+    "quote_zh": "三氟乙醇钠"
+  },
+  {
+    "identifier": "2-chloro-3-trifluoroethoxymethyl-4-methylsulfonylbenzoic acid",
+    "source_lines": [
+      95,
+      98,
+      100,
+      103,
+      116,
+      126
+    ],
+    "quote_zh": "2-氯-3-三氟乙氧甲基-4-甲磺基苯甲酸（化合物II）"
+  },
+  {
+    "identifier": "1,3-cyclohexanedione",
+    "source_lines": [
+      100,
+      103,
+      116
+    ],
+    "quote_zh": "1,3-环己二酮（化合物III）"
+  },
+  {
+    "identifier": "sodium carbonate",
+    "source_lines": [
+      116,
+      118
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "potassium carbonate",
+    "source_lines": [
+      116,
+      118
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "calcium hydroxide",
+    "source_lines": [
+      116,
+      118
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "triethylamine",
+    "source_lines": [
+      116,
+      118
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "pyridine",
+    "source_lines": [
+      116,
+      118
+    ],
+    "quote_zh": "碱催化剂选自碳酸钠、碳酸钾、氢氧化钙、三乙胺、吡啶中的一种或多种"
+  },
+  {
+    "identifier": "N,N'-carbonyldiimidazole",
+    "source_lines": [
+      116,
+      120
+    ],
+    "quote_zh": "CDI为N,N’-羰基二咪唑"
+  },
+  {
+    "identifier": "O-benzotriazolyl-tetramethyluronium hexafluorophosphate",
+    "source_lines": [
+      116,
+      120
+    ],
+    "quote_zh": "HBTU为O-苯并三氮唑-四甲基脲六氟磷酸酯"
+  },
+  {
+    "identifier": "1-hydroxybenzotriazole",
+    "source_lines": [
+      116,
+      120
+    ],
+    "quote_zh": "HOBT为1-羟基苯并三唑"
+  },
+  {
+    "identifier": "1,8-diazabicycloundec-7-ene",
+    "source_lines": [
+      116,
+      120
+    ],
+    "quote_zh": "DBU为1,8-二氮杂二环十一碳-7-烯"
+  },
+  {
+    "identifier": "hexane",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "cyclohexane",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "N,N-dimethylformamide",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "benzene",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "toluene",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "xylene",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "dichloromethane",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "1,2-dichloroethane",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "chloroform",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "1,4-dioxane",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "diethyl ether",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "tetrahydrofuran",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "acetonitrile",
+    "source_lines": [
+      124,
+      126
+    ],
+    "quote_zh": "反应溶剂为己烷、环己烷、N,N-二甲基甲酰胺、苯、甲苯、二甲苯、二氯甲烷、1,2-二氯乙烷、氯仿、1,4-二氧六环、乙醚、四氢呋喃、乙腈中的一种或多种"
+  },
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      83
+    ],
+    "quote_zh": "具体涉及一种环磺酮的制备方法"
+  }
+]

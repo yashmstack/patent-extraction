@@ -1,0 +1,68 @@
+{
+  "page": "p35.png",
+  "page_label": "6/10",
+  "doc_part": "description",
+  "header": "6/10\nWO 2024/109718                    PCT/CN2023/132821",
+  "footer": "",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "［图 10］",
+      "en": "[Figure 10]",
+      "notes": "Figure caption printed at the top left of the drawing sheet. This is a drawings sheet of the PCT publication, not description prose; there are no [00NN] paragraph markers anywhere on the page. doc_part is recorded as \"description\" only because the schema offers no \"drawings\" value."
+    },
+    {
+      "marker": null,
+      "zh": "细则 26,\n26.12.2023",
+      "en": "Rule 26, 26.12.2023",
+      "notes": "Vertical replacement-sheet stamp in the right margin, beside a heavy vertical rule. A page artifact, not content."
+    },
+    {
+      "marker": null,
+      "zh": "f1（ppm）",
+      "en": "f1 (ppm)",
+      "notes": "Axis label under the spectrum. Printed in the low-resolution scan as \"f1 (ppm)\"; the parenthesis width cannot be judged from the scan."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "structure",
+      "between_markers": [],
+      "presented_as": "intermediate_structure",
+      "structures": [
+        {
+          "position_in_drawing": "1st, top-left of the sheet, drawn above the spectrum as the compound the spectrum belongs to",
+          "core": "benzene",
+          "substituents": [
+            "SO2CH3 at C1",
+            "CH2OCH2CF3 at C2",
+            "Cl at C3",
+            "Br at C4",
+            "H at C5",
+            "H at C6"
+          ],
+          "name": "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+          "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+          "confidence": "high"
+        }
+      ],
+      "arrows": [],
+      "notes": "Numbering above is read off the drawing only: the sulfonyl-bearing vertex is called C1 and the ring is walked toward the adjacent substituted vertex. As drawn, the four substituents occupy four consecutive ring vertices (SO2CH3, then CH2OCH2CF3, then Cl at the top vertex, then Br), leaving the two remaining vertices unsubstituted. The side chain is drawn ring-CH2-O-CH2-CF3: two apexes flank the labelled O, and the terminal label reads CF3. The sulfonyl group is drawn as S with two double-bonded O labels and a CH3 label. The top-vertex halogen label is a low-resolution two-glyph label read as \"Cl\"."
+    },
+    {
+      "kind": "structure",
+      "between_markers": [],
+      "presented_as": "intermediate_structure",
+      "structures": [],
+      "arrows": [],
+      "notes": "13C NMR spectrum occupying the middle of the sheet, captioned [图 10]. Horizontal axis runs left to right from about 160 ppm down to about 20 ppm in 10 ppm gridline steps, labelled f1 (ppm). Visible resonances, read by eye against the axis and therefore approximate: a cluster of aromatic lines between roughly 145 and 122 ppm (about six or seven lines, the tallest near 137 and 130), one line near 68 ppm, one near 45 ppm, and one very tall line near 30 ppm. No numeric peak labels are printed on the trace, so no shift is transcribed as a figure. This entry is recorded as a drawing with no chemical structures; the spectrum is not a scheme."
+    }
+  ],
+  "discrepancies": [],
+  "illegible": [
+    "The individual 13C peak positions carry no printed numeric labels; the ppm values given in the spectrum note are eyeball readings against the axis gridlines, not transcribed text.",
+    "The axis tick numbers (160, 150, ... 20) are rendered as broken dotted glyphs at this scan resolution; they are legible as a regular 10 ppm sequence but no single tick is crisply readable in isolation.",
+    "The top-vertex halogen label on the structure is two small glyphs in a degraded scan; it reads as \"Cl\" at 5x magnification but the letter shapes are broken."
+  ],
+  "page_confidence": "medium"
+}

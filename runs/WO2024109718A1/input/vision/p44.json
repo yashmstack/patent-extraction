@@ -1,0 +1,43 @@
+{
+  "page": "p44.png",
+  "page_label": "国际检索报告 / 国际申请号 PCT/CN2023/132821",
+  "doc_part": "front_page",
+  "header": "国际检索报告 | 国际申请号 PCT/CN2023/132821",
+  "footer": "PCT/ISA/210 表(第2页) (2022年7月)",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "C.\t相关文件",
+      "en": "C.\tDocuments considered to be relevant",
+      "notes": "Section heading of the Chinese-language PCT International Search Report continuation sheet. This page is an ISR form, not description or claims; doc_part is set to front_page because the enum has no search_report value."
+    },
+    {
+      "marker": null,
+      "zh": "类 型＊ | 引用文件，必要时，指明相关段落 | 相关的权利要求",
+      "en": "Category* | Citation of document, with indication, where appropriate, of the relevant passages | Relevant to claim No.",
+      "notes": "Column headings of the citation table. The asterisk is printed as a raised star after 类 型."
+    },
+    {
+      "marker": null,
+      "zh": "A | CN 106008290 A (安徽久易农业股份有限公司) 2016年10月12日 (2016 - 10 - 12)\n说明书实施例1 | 1-14",
+      "en": "A | CN 106008290 A (ANHUI JIUYI AGRICULTURE CO., LTD.) 12 October 2016 (2016-10-12)\ndescription, Example 1 | 1-14",
+      "notes": "First citation row. Category A (document defining the general state of the art)."
+    },
+    {
+      "marker": null,
+      "zh": "A | CN 109678767 A (浙江中山化工集团股份有限公司) 2019年4月26日 (2019 - 04 - 26)\n说明书第[0011]-[0029]段 | 1-14",
+      "en": "A | CN 109678767 A (ZHEJIANG ZHONGSHAN CHEMICAL INDUSTRY GROUP CO., LTD.) 26 April 2019 (2019-04-26)\ndescription, paragraphs [0011]-[0029] | 1-14",
+      "notes": "Second citation row. The bracketed markers [0011] and [0029] are paragraph references inside the cited document, not paragraph markers of this page."
+    },
+    {
+      "marker": null,
+      "zh": "A | CN 114560795 A (浙江先锋科技股份有限公司) 2022年5月31日 (2022 - 05 - 31)\n权利要求1-10 | 1-14",
+      "en": "A | CN 114560795 A (ZHEJIANG VANGUARD TECHNOLOGY CO., LTD.) 31 May 2022 (2022-05-31)\nclaims 1-10 | 1-14",
+      "notes": "Third citation row. Applicant name translated literally; 先锋 rendered as Vanguard."
+    }
+  ],
+  "drawings": [],
+  "discrepancies": [],
+  "illegible": [],
+  "page_confidence": "high"
+}

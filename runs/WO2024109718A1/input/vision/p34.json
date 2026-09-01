@@ -1,0 +1,65 @@
+{
+ "page": "p34.png",
+ "page_label": "5/10",
+ "doc_part": "drawings",
+ "header": "5/10 (centred, above the rule); WO 2024/109718 (left, bold); PCT/CN2023/132821 (right, bold); right margin, printed twice beside a heavy vertical bar, once next to each figure: 细则 26, 26.12.2023 (set on two lines) (Rule 26 replacement-sheet stamp)",
+ "footer": "",
+ "paragraphs": [],
+ "drawings": [
+  {
+   "kind": "structure",
+   "between_markers": [],
+   "presented_as": "intermediate_structure",
+   "structures": [
+    {
+     "position_in_drawing": "1st, top-left, inset above the [Figure 8] spectrum",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1 (lower-right ring vertex, drawn as S with two double-bonded O below and CH3 to the right)",
+      "CH2Br at C2 (upper-right ring vertex, drawn as a two-bond zig-zag ending in the label Br)",
+      "Cl at C3 (top ring vertex, drawn straight up)",
+      "Br at C4 (upper-left ring vertex, drawn up-left)",
+      "H at C5 (lower-left ring vertex)",
+      "H at C6 (bottom ring vertex)"
+     ],
+     "name": "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+     "smiles": "BrCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [],
+   "notes": "Labelled [图 8] (Figure 8). The figure is a 13C NMR spectrum with the structure drawn as an inset at the top left. Abscissa is labelled 'f1 (ppm)' running from about 160 on the left to about 20 on the right in steps of 10; the tick numerals are heavily broken up by the scan and were read from spacing as much as from the glyphs. Signals: a cluster of five lines in the aromatic region (roughly 140 down to 128, two of them tall), a tall line near the solvent region around 77, and two further tall lines to its right (roughly 45 and 25). No numeric peak labels, integrals or coupling data are printed on the figure, so no shift value on this page is transcribed from printed text. Ring numbering above takes the sulfonyl-bearing carbon as C1 and records only the drawn positions relative to one another."
+  },
+  {
+   "kind": "structure",
+   "between_markers": [],
+   "presented_as": "intermediate_structure",
+   "structures": [
+    {
+     "position_in_drawing": "1st, mid-left, inset above the [Figure 9] spectrum",
+     "core": "benzene",
+     "substituents": [
+      "SO2CH3 at C1 (lower-right ring vertex, drawn as S with two double-bonded O below and CH3 to the right)",
+      "CH2OCH2CF3 at C2 (upper-right ring vertex, drawn as CH2 up-right to an O, then CH2 up-right, then the label CF3)",
+      "Cl at C3 (top ring vertex, drawn straight up)",
+      "Br at C4 (upper-left ring vertex, drawn up-left)",
+      "H at C5 (lower-left ring vertex)",
+      "H at C6 (bottom ring vertex)"
+     ],
+     "name": "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+     "smiles": "FC(F)(F)COCc1c(Cl)c(Br)ccc1S(C)(=O)=O",
+     "confidence": "high"
+    }
+   ],
+   "arrows": [],
+   "notes": "Labelled [图 9] (Figure 9). The same ring as [图 8] but with the benzylic bromide replaced by a 2,2,2-trifluoroethyl ether, drawn as an inset above a 1H NMR spectrum. The terminal label was checked at high magnification and reads CF3 (C, F, subscript 3), with a single drawn O in the middle of the side chain. Abscissa is labelled 'f1 (ppm)' running from about 8.5 on the left to about 1.5 on the right in 0.5 steps; tick numerals are degraded and read only approximately. Signals: two tall close aromatic lines near 8.0-7.9, a tall line near 5.0, a line near 4.3 with a shoulder, a very tall line near 3.1 and a shorter line near 2.4. No numeric peak labels are printed on the figure."
+  }
+ ],
+ "discrepancies": [],
+ "illegible": [
+  "All x-axis tick numerals on both spectra are pixelated and only approximately readable; the ranges given (160 to 20 in steps of 10 for [图 8]; 8.5 to 1.5 in 0.5 steps for [图 9]) were reconstructed from tick spacing plus partial glyphs, not read cleanly digit by digit.",
+  "The axis titles beneath both plots are degraded; they are read as 'f1 (ppm)' from shape and position rather than character by character.",
+  "Peak positions quoted in the drawing notes are estimated by eye against the tick marks; no peak-picked numerals are printed anywhere on this page."
+ ],
+ "page_confidence": "medium"
+}

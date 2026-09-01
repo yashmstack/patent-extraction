@@ -1,0 +1,250 @@
+[
+  {
+    "page": "p01",
+    "kind": "structure",
+    "between_markers": [
+      "(57) abstract text, before formula",
+      "(57) abstract text, after formula"
+    ],
+    "presented_as": "invention_route",
+    "structures": [
+      {
+        "position_in_drawing": "1st and only, right column, centred between the two runs of abstract prose, with the formula label (II) printed in the upper right of the drawing area",
+        "core": "benzene, drawn as a Kekule hexagon with three inner double-bond lines; the hexagon sits with one vertex at the top and one at the bottom, and the three inner lines run along the top-right edge, the left vertical edge and the bottom-right edge, so the alternation is complete and unambiguous",
+        "substituents": [
+          "COOH at C1 (written as the label HOOC on a bond going up-left from the upper-left ring vertex; the carbon of HOOC is the atom bonded to the ring)",
+          "R1 at C2 (superscript 1; on a vertical bond going straight up from the top vertex of the ring, which is adjacent to the HOOC vertex)",
+          "CH2Br at C3 (an unlabelled CH2 vertex on a bond going up-right from the upper-right ring vertex, then a bond down-right to the label Br; the CH2 carbon is drawn as a plain apex with no atom label, i.e. an implicit carbon)",
+          "SO2R2 at C4 (superscript 2 on R; on a bond going down-right from the lower-right ring vertex to the label SO2R2, with the 2 of SO2 subscript; this vertex is adjacent to the CH2Br vertex and para to the HOOC vertex)",
+          "H at C5 (bottom vertex, drawn bare, no substituent)",
+          "H at C6 (lower-left vertex, drawn bare, no substituent)"
+        ],
+        "name": null,
+        "smiles": null,
+        "confidence": "high"
+      }
+    ],
+    "arrows": [],
+    "notes": "Markush generic. Formula II carries two variable substituents, R1 and R2, so the drawing does not determine a single compound and both name and smiles are null by rule 7. Ring numbering above is assigned by taking the carbon bearing HOOC as C1 and walking clockwise, which is the direction that reaches R1 next; every position is read off the drawn adjacencies, not inferred from what the compound ought to be. Stated as adjacencies alone, and independent of any numbering choice: HOOC and R1 are on adjacent vertices; R1 and CH2Br are on adjacent vertices; CH2Br and SO2R2 are on adjacent vertices; HOOC and SO2R2 are on opposite (para) vertices; the two remaining vertices are unsubstituted. Confidence is high because the page is born-digital and the ring, its three inner lines and all four substituent bonds are crisp at 8x zoom. The abstract text supplies the definitions R1 = fluorine, chlorine or bromine and R2 = (C1-C4)alkyl; those come from the prose, not from the drawing, and are not recorded as drawn substituent values. The drawing writes the R indices as SUPERSCRIPTS (R with a raised 1, R with a raised 2) while the abstract prose writes them as SUBSCRIPTS; see discrepancies. The label (II) to the right of the structure is the formula number, printed in the same right column at the level of the top of the drawing."
+  },
+  {
+    "page": "p02",
+    "kind": "structure",
+    "between_markers": [
+      "[0004]",
+      "[0005]"
+    ],
+    "presented_as": "invention_route",
+    "structures": [
+      {
+        "position_in_drawing": "1st and only, centred in the left column between [0004] and [0005]",
+        "core": "benzene",
+        "substituents": [
+          "HOOC at C1",
+          "R1 at C2",
+          "CH2Br at C3",
+          "SO2R2 at C4"
+        ],
+        "name": null,
+        "smiles": null,
+        "confidence": "high"
+      }
+    ],
+    "arrows": [],
+    "notes": "MARKUSH GENERIC, formula II. The formula label '(II)' is printed in small type at the right-hand margin, level with the top of the drawing. name and smiles are null and must stay null: R1 and R2 are undefined variables in the drawing itself ([0010] and [0011] give R1 as fluorine, chlorine or bromine and R2 as (C1-C4)alkyl, so the drawing stands for a set of compounds, not one compound), and no single structure is determined. Ring drawn as a pointy-top hexagon: a vertex at top centre, a vertex at bottom centre, and vertical bonds forming the left and right sides. Positions below are read off that drawing, not inferred from any name. Going clockwise from the top vertex the six ring carbons are: top centre, upper right, lower right, bottom centre, lower left, upper left. The numbering used in the substituent list anchors C1 on the carbon bearing HOOC (the upper-left vertex, the only ring carbon with a carboxyl drawn on it) and counts clockwise through the substituted side, which is the direction that gives the substituents the lowest locants. So: upper left = C1 = HOOC, top centre = C2 = R1, upper right = C3, lower right = C4 = SO2R2, bottom centre = C5 and lower left = C6, both of which carry no drawn substituent (no H is written on them). Aromatic double bonds are drawn on three alternating edges as inner parallel lines. C3 bears a bromomethyl group drawn explicitly as two bonds: a bond from the ring carbon up and to the right to an unlabelled apex vertex (the CH2), then a bond down and to the right to the atom label 'Br'. C4 bears the label 'SO2R2' (S, subscript 2 O, R with superscript 2) on a single bond going down and right. C2 bears the label 'R1' (superscript 1) on a single bond going straight up. C1 bears the label 'HOOC' on a single bond going up and left, written right to left so the acidic H reads leftmost. presented_as is invention_route: [0004] immediately above introduces it as 'the present invention therefore provides a process for preparing 3-bromomethylbenzoic acids of the formula II', so this is the PRODUCT of the invention's process, not prior art. The prior art in [0002] carries no drawing at all."
+  },
+  {
+    "page": "p02",
+    "kind": "structure",
+    "between_markers": [
+      "[0005]",
+      "[0006]"
+    ],
+    "presented_as": "invention_route",
+    "structures": [
+      {
+        "position_in_drawing": "1st and only, centred in the left column below [0005], at the foot of the column",
+        "core": "benzene",
+        "substituents": [
+          "HOOC at C1",
+          "R1 at C2",
+          "CH3 at C3",
+          "SO2R2 at C4"
+        ],
+        "name": null,
+        "smiles": null,
+        "confidence": "high"
+      }
+    ],
+    "arrows": [],
+    "notes": "MARKUSH GENERIC, formula I. The formula label '(I)' is printed in small type at the right-hand margin, level with the top of the drawing. name and smiles are null for the same reason as formula II: R1 and R2 are undefined variables in the drawing. Ring drawn as a pointy-top hexagon: a vertex at top centre, a vertex at bottom centre, and vertical bonds forming the left and right sides. Positions below are read off that drawing, not inferred from any name. Going clockwise from the top vertex the six ring carbons are: top centre, upper right, lower right, bottom centre, lower left, upper left. The numbering used in the substituent list anchors C1 on the carbon bearing HOOC (the upper-left vertex, the only ring carbon with a carboxyl drawn on it) and counts clockwise through the substituted side, which is the direction that gives the substituents the lowest locants. So: upper left = C1 = HOOC, top centre = C2 = R1, upper right = C3, lower right = C4 = SO2R2, bottom centre = C5 and lower left = C6, both of which carry no drawn substituent (no H is written on them). Aromatic double bonds are drawn on three alternating edges as inner parallel lines. It is drawn identically to formula II except at C3, which here bears the label 'CH3' (subscript 3) on a single bond going up and to the right, in place of formula II's drawn CH2-Br chain. C4 bears 'SO2R2', C2 bears 'R1', C1 bears 'HOOC', exactly as in formula II. Bracketing note on markers: [0005] sits above this drawing and [0006] is the next numbered paragraph in reading order, but [0006] is at the TOP OF THE RIGHT COLUMN, not underneath the drawing; the drawing is the last thing printed in the left column. presented_as is invention_route: [0005] immediately above reads 'by brominating 3-methylbenzoic acids of the formula I', so this is the STARTING MATERIAL of the invention's process, not prior art."
+  },
+  {
+    "page": "p03",
+    "kind": "structure",
+    "between_markers": [
+      "[0020]",
+      "[0021]"
+    ],
+    "presented_as": "intermediate_structure",
+    "structures": [
+      {
+        "position_in_drawing": "sole structure, centred in the left column",
+        "core": "benzene",
+        "substituents": [
+          "COOH at C1 (label drawn as HOOC, bond runs down-right from the label to the ring)",
+          "R1 at C2 (top apex, superscript 1)",
+          "CH2Br at C3 (drawn as a two-bond zigzag from the ring up-right then down-right to the label Br; the CH2 carbon is an unlabelled vertex)",
+          "SO2R2 at C4 (label drawn as SO2R2, subscript 2 on O, superscript 2 on R)",
+          "H at C5 (bottom apex, unsubstituted as drawn)",
+          "H at C6 (lower-left vertex, unsubstituted as drawn)"
+        ],
+        "name": null,
+        "smiles": null,
+        "confidence": "high"
+      }
+    ],
+    "arrows": [],
+    "notes": "Generic Markush formula labelled '(II)', the label printed flush right at the top of the drawing band. This is the invention's own product formula: [0020] introduces it with 'compounds of the formula II are novel. The present invention therefore further provides compounds of the formula II', so it is the invention, NOT prior art. name and smiles are null because R1 and R2 are undefined variables in the drawing and no single structure is determined. Ring numbering is read off the drawing, not inferred: the hexagon is drawn with a vertical left side and a vertical right side. The vertex bearing the bond to HOOC is taken as C1 and the ring is walked from there towards the top apex. Going that way the vertices in order are HOOC vertex, top apex, upper-right vertex, lower-right vertex, bottom apex, lower-left vertex. The bottom apex and the lower-left vertex carry no substituent as drawn. Inner double-bond lines are drawn on the top-right side, the left vertical side and the bottom-right side. The drawing agrees with the substitution pattern of the excluded compound named in [0024] once R1 = Cl and R2 = CH3."
+  },
+  {
+    "page": "p03",
+    "kind": "structure",
+    "between_markers": [
+      "[0034]",
+      "(the claims begin here and carry no paragraph markers)"
+    ],
+    "presented_as": "invention_route",
+    "structures": [
+      {
+        "position_in_drawing": "1st of the two claim drawings, centred in the right column, below claim 6's opening line",
+        "core": "benzene",
+        "substituents": [
+          "COOH at C1 (label drawn as HOOC, bond runs down-right from the label to the ring)",
+          "R1 at C2 (top apex, superscript 1)",
+          "CH2Br at C3 (drawn as a two-bond zigzag from the ring up-right then down-right to the label Br; the CH2 carbon is an unlabelled vertex)",
+          "SO2R2 at C4 (label drawn as SO2R2, subscript 2 on O, superscript 2 on R)",
+          "H at C5 (bottom apex, unsubstituted as drawn)",
+          "H at C6 (lower-left vertex, unsubstituted as drawn)"
+        ],
+        "name": null,
+        "smiles": null,
+        "confidence": "high"
+      }
+    ],
+    "arrows": [],
+    "notes": "Generic Markush formula labelled '(II)', label printed flush right. It sits INSIDE claim 6, between 'A process for preparing a 3-bromomethylbenzoic acid of formula II' above it and 'which comprises brominating a 3-methylbenzoic acid of formula I' below it. This is the PRODUCT of the claimed process. Identical as drawn to the formula (II) in the left column. Ring numbering is read off the drawing, not inferred: the hexagon is drawn with a vertical left side and a vertical right side. The vertex bearing the bond to HOOC is taken as C1 and the ring is walked from there towards the top apex. Going that way the vertices in order are HOOC vertex, top apex, upper-right vertex, lower-right vertex, bottom apex, lower-left vertex. The bottom apex and the lower-left vertex carry no substituent as drawn. Inner double-bond lines are drawn on the top-right side, the left vertical side and the bottom-right side. name and smiles are null: R1 and R2 are undefined in the drawing. between_markers records [0034], the last numbered paragraph above this drawing, and then prose: the claims follow and carry no [00NN] markers at all, so there is no second marker to name. The drawing sits BELOW [0034], inside claim 6."
+  },
+  {
+    "page": "p03",
+    "kind": "structure",
+    "between_markers": [
+      "[0034]",
+      "(the claims begin here and carry no paragraph markers)"
+    ],
+    "presented_as": "invention_route",
+    "structures": [
+      {
+        "position_in_drawing": "2nd of the two claim drawings, centred in the right column, lower",
+        "core": "benzene",
+        "substituents": [
+          "COOH at C1 (label drawn as HOOC)",
+          "R1 at C2 (top apex, superscript 1)",
+          "CH3 at C3 (single bond up-right from the ring to the label CH3, subscript 3)",
+          "SO2R2 at C4",
+          "H at C5 (bottom apex, unsubstituted as drawn)",
+          "H at C6 (lower-left vertex, unsubstituted as drawn)"
+        ],
+        "name": null,
+        "smiles": null,
+        "confidence": "high"
+      }
+    ],
+    "arrows": [],
+    "notes": "Generic Markush formula labelled '(I)', label printed flush right. It sits INSIDE claim 6, between 'which comprises brominating a 3-methylbenzoic acid of formula I' above it and 'with N-bromosuccimide in the presence of a radical initiator, where, in formulae I and II' below it. This is the STARTING MATERIAL of the claimed process. It differs from formula (II) in exactly one place: C3 carries CH3 here and CH2Br there; every other vertex is drawn identically. No arrow is drawn between formula (I) and formula (II): the transformation is carried entirely by the claim prose, so this is recorded as two separate single structures, not as a scheme. Ring numbering is read off the drawing, not inferred: the hexagon is drawn with a vertical left side and a vertical right side. The vertex bearing the bond to HOOC is taken as C1 and the ring is walked from there towards the top apex. Going that way the vertices in order are HOOC vertex, top apex, upper-right vertex, lower-right vertex, bottom apex, lower-left vertex. The bottom apex and the lower-left vertex carry no substituent as drawn. Inner double-bond lines are drawn on the top-right side, the left vertical side and the bottom-right side. name and smiles are null: R1 and R2 are undefined in the drawing. between_markers records [0034], the last numbered paragraph above this drawing, and then prose: the claims follow and carry no [00NN] markers at all, so there is no second marker to name. The drawing sits BELOW [0034], inside claim 6."
+  },
+  {
+    "page": "p04",
+    "kind": "structure",
+    "between_markers": [
+      "13.",
+      "13."
+    ],
+    "presented_as": "invention_route",
+    "structures": [
+      {
+        "position_in_drawing": "1st, left column, centred under the first line of claim 13; label (II) at the right margin",
+        "core": "benzene",
+        "substituents": [
+          "COOH at C1, drawn as the label HOOC bonded to the upper-left ring vertex",
+          "R1 at C2, top ring vertex, adjacent to the HOOC vertex",
+          "CH2Br at C3, upper-right ring vertex, drawn as a bond from the ring up to an unlabelled CH2 apex and then down to the label Br",
+          "SO2R2 at C4, lower-right ring vertex",
+          "H at C5, bottom ring vertex, unsubstituted",
+          "H at C6, lower-left ring vertex, unsubstituted"
+        ],
+        "name": null,
+        "smiles": null,
+        "confidence": "high"
+      }
+    ],
+    "arrows": [],
+    "notes": "Markush generic: R1 and R2 are undefined variables on the drawing, so name and smiles are null by rule. Positions were read off the hexagon as drawn, not inferred from the claim wording: the ring is drawn with one vertex at the top, and the four substituents occupy four consecutive vertices going clockwise from the upper-left (HOOC, R1, CH2Br, SO2R2), leaving the bottom and lower-left vertices bare. Alternating double bonds are drawn inside the ring on three of the six bonds. This is the product of the process of claim 13."
+  },
+  {
+    "page": "p04",
+    "kind": "structure",
+    "between_markers": [
+      "13.",
+      "13."
+    ],
+    "presented_as": "invention_route",
+    "structures": [
+      {
+        "position_in_drawing": "2nd, left column, below the line 'which comprises brominating a 3-methylbenzoic acid of formula I'; label (I) at the right margin",
+        "core": "benzene",
+        "substituents": [
+          "COOH at C1, drawn as the label HOOC bonded to the upper-left ring vertex",
+          "R1 at C2, top ring vertex, adjacent to the HOOC vertex",
+          "CH3 at C3, upper-right ring vertex",
+          "SO2R2 at C4, lower-right ring vertex",
+          "H at C5, bottom ring vertex, unsubstituted",
+          "H at C6, lower-left ring vertex, unsubstituted"
+        ],
+        "name": null,
+        "smiles": null,
+        "confidence": "high"
+      }
+    ],
+    "arrows": [],
+    "notes": "Markush generic: R1 and R2 undefined, so name and smiles are null. Same hexagon and same four occupied vertices as formula (II); the only difference read off the drawing is CH3 at the upper-right vertex where formula (II) carries CH2Br. This is the starting material of the process of claim 13. No arrow is drawn between formula (I) and formula (II): the transformation is stated only in the prose between them, so the two are recorded as separate structures rather than as one scheme."
+  },
+  {
+    "page": "p04",
+    "kind": "structure",
+    "between_markers": [
+      "19.",
+      "19."
+    ],
+    "presented_as": "invention_route",
+    "structures": [
+      {
+        "position_in_drawing": "3rd, right column, centred under the first line of claim 19; label (II) at the right margin",
+        "core": "benzene",
+        "substituents": [
+          "COOH at C1, drawn as the label HOOC bonded to the upper-left ring vertex",
+          "R1 at C2, top ring vertex, adjacent to the HOOC vertex",
+          "CH2Br at C3, upper-right ring vertex, drawn as a bond from the ring up to an unlabelled CH2 apex and then down to the label Br",
+          "SO2R2 at C4, lower-right ring vertex",
+          "H at C5, bottom ring vertex, unsubstituted",
+          "H at C6, lower-left ring vertex, unsubstituted"
+        ],
+        "name": null,
+        "smiles": null,
+        "confidence": "high"
+      }
+    ],
+    "arrows": [],
+    "notes": "Markush generic: R1 and R2 undefined, so name and smiles are null. Compared vertex by vertex against the formula (II) drawing in the left column and found identical in ring, in the four occupied vertices and in the placement of the drawn double bonds. Claim 19 is a compound claim, so this drawing is a claimed compound per se rather than a step in a route; presented_as is set to invention_route because it is the invention's own subject matter and is certainly not prior art."
+  }
+]

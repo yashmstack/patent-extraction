@@ -1,0 +1,283 @@
+{
+  "page": "p03.png",
+  "page_label": "US 2004/0236146 A1 | Nov. 25, 2004 | page 2",
+  "doc_part": "description",
+  "header": "US 2004/0236146 A1                                        Nov. 25, 2004\n2",
+  "footer": null,
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "A), it is appropriate to initially add sodium bisulfate solution and optionally solvents. The further workup then depends upon the solubility and purity of the product. In the case of process variant A), the reaction product may generally be directly filtered off with suction after cooling. In both cases, the reaction product is washed and, if necessary, further purified by recrystallization, for example from ethyl acetate or butyl acetate.",
+      "en": "A), it is appropriate to initially add sodium bisulfate solution and optionally solvents. The further workup then depends upon the solubility and purity of the product. In the case of process variant A), the reaction product may generally be directly filtered off with suction after cooling. In both cases, the reaction product is washed and, if necessary, further purified by recrystallization, for example from ethyl acetate or butyl acetate.",
+      "notes": "Unmarked block at the top of the left column. It is the tail of a paragraph that begins on the previous page, so no [00NN] marker is printed here. Reads 'sodium bisulfATE' as printed; both examples on this page use 'sodium bisulfITE'. Not corrected; see discrepancies. This page carries no printed [0019]; the first printed marker on it is [0020]."
+    },
+    {
+      "marker": "[0020]",
+      "zh": "With the exception of the compound 3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid which is disclosed by EP-A 0 292 944, compounds of the formula II are novel. The present invention therefore further provides compounds of the formula II",
+      "en": "With the exception of the compound 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid which is disclosed by EP-A 0 292 944, compounds of the formula II are novel. The present invention therefore further provides compounds of the formula II",
+      "notes": "As printed the name runs 'chloro4-' with NO hyphen between 'chloro' and '4'; the en field restores it. Line-break hyphens in the printed lines ('3-bromom-ethyl', 'dis-closed') are justification artifacts and have been closed up in both fields. 'EP-A 0 292 944' is printed with thin spaces inside the number."
+    },
+    {
+      "marker": "[0021]",
+      "zh": "where",
+      "en": "where",
+      "notes": null
+    },
+    {
+      "marker": "[0022]",
+      "zh": "R1 is fluorine, chlorine or bromine, and",
+      "en": "R1 is fluorine, chlorine or bromine, and",
+      "notes": "The 1 in R1 is printed as a superscript. Superscripts and subscripts are written as plain digits throughout this file (R1, R2, SO2R2, C1-C4); nothing else about those tokens is changed."
+    },
+    {
+      "marker": "[0023]",
+      "zh": "R2 is (C1-C4)alkyl,",
+      "en": "R2 is (C1-C4)alkyl,",
+      "notes": "Printed with superscript 2 on R and subscripts on C1 and C4."
+    },
+    {
+      "marker": "[0024]",
+      "zh": "excluding the compound 3-bromomethyl-2-chloro4-methylsulfonylbenzoic acid.",
+      "en": "excluding the compound 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid.",
+      "notes": "Again printed 'chloro4-' with no hyphen. The line break falls after '3-bromomethyl-2-', which is a real hyphen in the name, not a soft hyphen."
+    },
+    {
+      "marker": "[0025]",
+      "zh": "The inventive examples which follow illustrate the invention:",
+      "en": "The inventive examples which follow illustrate the invention:",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "EXAMPLE 1",
+      "en": "EXAMPLE 1",
+      "notes": "Centred heading, no paragraph marker."
+    },
+    {
+      "marker": null,
+      "zh": "Preparation of\n3-bromomethyl-2-chloro-4-methylsulfonylbenzoic\nAcid",
+      "en": "Preparation of 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic Acid",
+      "notes": "Centred three-line title, no paragraph marker. Printed with a capital A in 'Acid' on its own line. Note the hyphenation here is complete ('2-chloro-4-methylsulfonyl'), unlike [0020], [0024] and [0028]. In Example 1 this title prints BEFORE [0026] 'Process Variant A):'; in Example 2 the order is reversed (see [0032])."
+    },
+    {
+      "marker": "[0026]",
+      "zh": "Process Variant A):",
+      "en": "Process Variant A):",
+      "notes": null
+    },
+    {
+      "marker": "[0027]",
+      "zh": "In a 1 I stirred apparatus, 100g of 2-chloro-3-methyl4-sulfonylmethylbenzoic acid were suspended in 400 ml of chlorobenzene. At room temperature, 85.9 g of N-bromosuccinimide and 6.6 g of azoisobutyroniltrile were added and the mixture was subsequently heated to 60° C. Afterwards, 2.6 g of bromine were added and the reaction mixture was further heated gradually to 90° C. The mixture was stirred at 90° C. for 2 h; after this time, HPLC analysis indicated a conversion of more than 98%. After the reaction mixture had been cooled, 100 ml of a 2% sodium bisulfite solution and 400 ml of water were added in succession and stirred well. The suspension was filtered, and the solid was washed and dried at 60° C. under reduced pressure.",
+      "en": "In a 1 l (one litre) stirred apparatus, 100 g of 2-chloro-3-methyl-4-(methylsulfonyl)benzoic acid were suspended in 400 ml of chlorobenzene. At room temperature, 85.9 g of N-bromosuccinimide and 6.6 g of azoisobutyronitrile were added and the mixture was subsequently heated to 60° C. Afterwards, 2.6 g of bromine were added and the reaction mixture was further heated gradually to 90° C. The mixture was stirred at 90° C. for 2 h; after this time, HPLC analysis indicated a conversion of more than 98%. After the reaction mixture had been cooled, 100 ml of a 2% sodium bisulfite solution and 400 ml of water were added in succession and stirred well. The suspension was filtered, and the solid was washed and dried at 60° C. under reduced pressure.",
+      "notes": "Four things read off the pixels at 6x to 8x magnification, all verified glyph by glyph. (1) The vessel size is printed '1 I': a digit one, a space, then a CAPITAL I with full top and bottom serifs, plainly not the lowercase l used in 'ml' and 'chlorobenzene' two lines below and not a second digit one. It is the litre symbol set as a capital I in the published typesetting; en gives it as '1 l'. (2) '100g' is printed CLOSED UP, with no space between the number and the g, unlike every other quantity on the page ('85.9 g', '6.6 g', '2.6 g'). (3) The starting material is printed '2-chloro-3-methyl4-sulfonylmethylbenzoic acid': no hyphen between 'methyl' and '4', and the substituent written as 'sulfonylmethyl' rather than 'methylsulfonyl'. Recorded as printed; the chemistry mismatch is in discrepancies. (4) The initiator is printed 'azoisobutyroniltrile' - a-z-o-i-s-o-b-u-t-y-r-o-n-i-l-t-r-i-l-e, with an l between the n-i and the t. Claim 7 on this same page spells it correctly as 'azoisobutyronitrile'. en gives the correct spelling. Everything else matches: 400 ml chlorobenzene, 85.9 g NBS, 6.6 g initiator, 2.6 g bromine, 60° C then 90° C, 2 h, more than 98% conversion, 100 ml of 2% sodium bisulfite, 400 ml water, dried at 60° C. 'N-bro-mosuccinimide' is broken across a line; the soft hyphen has been closed up and the printed spelling there does carry the second n."
+    },
+    {
+      "marker": "[0028]",
+      "zh": "121.3 g (88.4% of theory) of 3-bromomethyl-2-chloro4-methylsulfonyl-benzoic acid were obtained.",
+      "en": "121.3 g (88.4% of theory) of 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid were obtained.",
+      "notes": "Printed 'chloro4-' with no hyphen, and 'methylsulfonyl-benzoic' WITH a hyphen that falls mid-line and is therefore printed, not a line-break artifact. 121.3 g and 88.4% both confirmed at 3x. The two numbers are self-consistent once the 96% purity of [0029] is applied: 121.3 g x 0.96 = 116.4 g of pure C9H8BrClO4S (327.6), which is 88.4% of the 0.402 mol charged as 100 g of C9H9ClO4S (248.7). No arithmetic problem here."
+    },
+    {
+      "marker": "[0029]",
+      "zh": "Purity: 96% (HPLC) Melting point: 207-208° C.",
+      "en": "Purity: 96% (HPLC) Melting point: 207-208° C.",
+      "notes": "Confirmed 96% and 207-208° C. The two facts are run together on one line with no separating punctuation, as printed."
+    },
+    {
+      "marker": "[0030]",
+      "zh": "Process Variant B):",
+      "en": "Process Variant B):",
+      "notes": null
+    },
+    {
+      "marker": "[0031]",
+      "zh": "A 250 ml glass flask was initially charged with 5 g of 2-chloro-3-methyl-4-sulfonylmethylbenzoic acid in 50 ml of methylene chloride and 50 ml of water. Under irradiation with a 300 W lamp, II g of bromine were gradually metered in over 3 h, and the mixture boiled under reflux. After a further 2 h of irradiation, the reaction mixture had been substantially decolorized. According to HPLC analysis, the reaction mixture contained 87% of product and 10% of reactant.",
+      "en": "A 250 ml glass flask was initially charged with 5 g of 2-chloro-3-methyl-4-(methylsulfonyl)benzoic acid in 50 ml of methylene chloride and 50 ml of water. Under irradiation with a 300 W lamp, [II] g of bromine were gradually metered in over 3 h, and the mixture boiled under reflux. After a further 2 h of irradiation, the reaction mixture had been substantially decolorized. According to HPLC analysis, the reaction mixture contained 87% of product and 10% of reactant.",
+      "notes": "THE BROMINE CHARGE IS NOT A READABLE NUMBER. Examined at 8x: the page prints two adjacent CAPITAL I glyphs, narrow uprights with symmetric full-width serifs top and bottom. They are not digit ones - the digit 1 elsewhere on this page ('121.3', '100g', '150', '103') has a diagonal top flag and a wider foot, and neither is present. So the page literally prints 'II g of bromine'. The intended value is almost certainly 11 g but the pixels do not say so, and it is NOT written out anywhere else on the page, so it is left as printed and NOT corrected. Any downstream mass balance on Example 1 variant B must treat this quantity as unresolved. Everything else confirmed exactly: 5 g starting material, 250 ml glass flask, 50 ml methylene chloride, 50 ml water, 300 W lamp, 3 h metering, further 2 h irradiation, 87% product, 10% reactant. Note the starting material name is FULLY hyphenated here ('2-chloro-3-methyl-4-sulfonylmethylbenzoic') unlike [0027], but still prints 'sulfonylmethyl'. The paragraph runs across the column break: it starts at the foot of the left column and finishes at the head of the right column."
+    },
+    {
+      "marker": null,
+      "zh": "EXAMPLE 2",
+      "en": "EXAMPLE 2",
+      "notes": "Centred heading, no paragraph marker."
+    },
+    {
+      "marker": "[0032]",
+      "zh": "Process Variant A):",
+      "en": "Process Variant A):",
+      "notes": "LAYOUT ODDITY, confirmed on the pixels: in Example 2 this 'Process Variant A):' paragraph prints BEFORE the centred 'Preparation of ...' title, which is the opposite of Example 1, where the title prints first and [0026] 'Process Variant A):' follows it. The printed order down the right column is: EXAMPLE 2, then [0032] Process Variant A):, then the Preparation title, then [0033]."
+    },
+    {
+      "marker": null,
+      "zh": "Preparation of\n3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic\nAcid",
+      "en": "Preparation of 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic Acid",
+      "notes": "Centred three-line title, no paragraph marker, printed AFTER [0032]. Fully hyphenated and reads 'ethylsulfonyl' the right way round, in contrast to [0033], which reads 'sulfonylethyl'."
+    },
+    {
+      "marker": "[0033]",
+      "zh": "In a 0.5 I stirred apparatus, 20 g of 2-chloro-3-methyl-4-sulfonylethylbenzoic acid were suspended in 150 ml of acetonitrile. At room temperature, 17.6 g of N-bromosuccinimide and 0.7 g of dibenzoyl peroxide were added and the mixture was subsequently heated to reflux. After in each case 1 h, further dibenzoyl peroxide was added in 3 portions each of 0.7 g and the mixture was stirred for a further 2 h after the last addition. After this time, HPLC analysis indicated complete conversion. After the reaction mixture had been cooled, 100 ml of a 2% sodium bisulfite solution and 300 ml of ethyl acetate were added in succession. The organic phase was removed, washed and concentrated under reduced pressure. The solid residue was suspended in 50 ml of diethyl ether and 20 ml of heptane, filtered off and dried. 28.2 g (95.6% of theory) of 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid were obtained.",
+      "en": "In a 0.5 l (half litre) stirred apparatus, 20 g of 2-chloro-3-methyl-4-(ethylsulfonyl)benzoic acid were suspended in 150 ml of acetonitrile. At room temperature, 17.6 g of N-bromosuccinimide and 0.7 g of dibenzoyl peroxide were added and the mixture was subsequently heated to reflux. After in each case 1 h, further dibenzoyl peroxide was added in 3 portions each of 0.7 g and the mixture was stirred for a further 2 h after the last addition. After this time, HPLC analysis indicated complete conversion. After the reaction mixture had been cooled, 100 ml of a 2% sodium bisulfite solution and 300 ml of ethyl acetate were added in succession. The organic phase was removed, washed and concentrated under reduced pressure. The solid residue was suspended in 50 ml of diethyl ether and 20 ml of heptane, filtered off and dried. 28.2 g (95.6% of theory) of 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid were obtained.",
+      "notes": "Read at 3x and the numbers spot-checked at 7x. The vessel size is printed '0.5 I' with the same CAPITAL I glyph as [0027], here at normal weight; en gives '0.5 l'. 'stirred' is lowercase s as printed. The starting material is printed '2-chloro-3-methyl-4-sulfonylethylbenzoic acid', i.e. 'sulfonylethyl' the wrong way round, while the title three lines above prints 'ethylsulfonyl'; recorded as printed, see discrepancies. Every quantity confirmed against the pixels and every one matches: 20 g starting material, 150 ml acetonitrile, 17.6 g N-bromosuccinimide, 0.7 g dibenzoyl peroxide initially, 3 further portions of 0.7 g each added after 1 h in each case, 2 h further stirring, 100 ml of 2% sodium bisulfite, 300 ml ethyl acetate, 50 ml diethyl ether, 20 ml heptane, 28.2 g, 95.6% of theory. The yield is self-consistent once the 88% purity of [0034] is applied: 28.2 g x 0.88 = 24.8 g of pure C10H10BrClO4S (341.6) = 0.0727 mol, which is 95.4% of the 0.0761 mol charged as 20 g of C10H11ClO4S (262.7). Uncorrected it would exceed 100%, so the stated yield is purity-corrected, as in [0028]. 'N-bro-mosuccinimide' is again broken across a line and closed up here; the printed spelling carries the second n."
+    },
+    {
+      "marker": "[0034]",
+      "zh": "Purity: 88% (HPLC) Melting point: 103° C.",
+      "en": "Purity: 88% (HPLC) Melting point: 103° C.",
+      "notes": "Confirmed 88% and 103° C. This is the last numbered paragraph on the page; the claims begin immediately below it."
+    },
+    {
+      "marker": null,
+      "zh": "1-5 (Canceled)",
+      "en": "1-5 (Canceled)",
+      "notes": "Yes, the page prints exactly '1-5 (Canceled)', with '1-5' in bold, '(Canceled)' in roman, US spelling with one l, capital C. It is indented as a first line, not set at the margin. NO 'What is claimed is:' or 'We claim:' heading is printed anywhere on this page - the claims begin abruptly after [0034] with this line, so the doc_part for this page is really description plus the start of the claims. doc_part is recorded as 'description' only because the field takes a single value."
+    },
+    {
+      "marker": null,
+      "zh": "6. A process for preparing a 3-bromomethylbenzoic acid of formula II",
+      "en": "6. A process for preparing a 3-bromomethylbenzoic acid of formula II",
+      "notes": "Claim 6, first part. Drawn formula (II) follows immediately below this line; see drawings."
+    },
+    {
+      "marker": null,
+      "zh": "which comprises brominating a 3-methylbenzoic acid of formula I",
+      "en": "which comprises brominating a 3-methylbenzoic acid of formula I",
+      "notes": "Claim 6, continued, printed between the formula (II) drawing and the formula (I) drawing. Set flush at the margin with no indent."
+    },
+    {
+      "marker": null,
+      "zh": "with N-bromosuccimide in the presence of a radical initiator, where, in formulae I and II",
+      "en": "with N-bromosuccinimide in the presence of a radical initiator, where, in formulae I and II",
+      "notes": "Claim 6, continued, printed below the formula (I) drawing. Read at 7x: the reagent is printed 'N-bromosuccimide', s-u-c-c-i-m-i-d-e, MISSING the n of 'succinimide'. The description spells it 'N-bromosuccinimide' correctly in [0027] and [0033]. en gives the corrected spelling; zh keeps the printed one."
+    },
+    {
+      "marker": null,
+      "zh": "R1 is fluorine, chlorine or bromine, and",
+      "en": "R1 is fluorine, chlorine or bromine, and",
+      "notes": "Claim 6, R1 definition. Indented. Superscript 1 written as a plain digit."
+    },
+    {
+      "marker": null,
+      "zh": "R2 is (C1-C4)alkyl.",
+      "en": "R2 is (C1-C4)alkyl.",
+      "notes": "Claim 6, R2 definition, ending with a full stop (the corresponding [0023] in the description ends with a comma). Superscript and subscripts written as plain digits."
+    },
+    {
+      "marker": null,
+      "zh": "7. The process as claimed in claim 6, wherein the radical initiator is azoisobutyronitrile or dibenzoyl peroxide.",
+      "en": "7. The process as claimed in claim 6, wherein the radical initiator is azoisobutyronitrile or dibenzoyl peroxide.",
+      "notes": "Claim 7, the last thing printed on this page. 'azoisobutyronitrile' is spelled CORRECTLY here, in contrast to 'azoisobutyroniltrile' in [0027]. The page ends here; claim 8 onwards is not on this page."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "structure",
+      "between_markers": [
+        "[0020]",
+        "[0021]"
+      ],
+      "presented_as": "intermediate_structure",
+      "structures": [
+        {
+          "position_in_drawing": "sole structure, centred in the left column",
+          "core": "benzene",
+          "substituents": [
+            "COOH at C1 (label drawn as HOOC, bond runs down-right from the label to the ring)",
+            "R1 at C2 (top apex, superscript 1)",
+            "CH2Br at C3 (drawn as a two-bond zigzag from the ring up-right then down-right to the label Br; the CH2 carbon is an unlabelled vertex)",
+            "SO2R2 at C4 (label drawn as SO2R2, subscript 2 on O, superscript 2 on R)",
+            "H at C5 (bottom apex, unsubstituted as drawn)",
+            "H at C6 (lower-left vertex, unsubstituted as drawn)"
+          ],
+          "name": null,
+          "smiles": null,
+          "confidence": "high"
+        }
+      ],
+      "arrows": [],
+      "notes": "Generic Markush formula labelled '(II)', the label printed flush right at the top of the drawing band. This is the invention's own product formula: [0020] introduces it with 'compounds of the formula II are novel. The present invention therefore further provides compounds of the formula II', so it is the invention, NOT prior art. name and smiles are null because R1 and R2 are undefined variables in the drawing and no single structure is determined. Ring numbering is read off the drawing, not inferred: the hexagon is drawn with a vertical left side and a vertical right side. The vertex bearing the bond to HOOC is taken as C1 and the ring is walked from there towards the top apex. Going that way the vertices in order are HOOC vertex, top apex, upper-right vertex, lower-right vertex, bottom apex, lower-left vertex. The bottom apex and the lower-left vertex carry no substituent as drawn. Inner double-bond lines are drawn on the top-right side, the left vertical side and the bottom-right side. The drawing agrees with the substitution pattern of the excluded compound named in [0024] once R1 = Cl and R2 = CH3."
+    },
+    {
+      "kind": "structure",
+      "between_markers": [
+        "[0034]",
+        "(the claims begin here and carry no paragraph markers)"
+      ],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "1st of the two claim drawings, centred in the right column, below claim 6's opening line",
+          "core": "benzene",
+          "substituents": [
+            "COOH at C1 (label drawn as HOOC, bond runs down-right from the label to the ring)",
+            "R1 at C2 (top apex, superscript 1)",
+            "CH2Br at C3 (drawn as a two-bond zigzag from the ring up-right then down-right to the label Br; the CH2 carbon is an unlabelled vertex)",
+            "SO2R2 at C4 (label drawn as SO2R2, subscript 2 on O, superscript 2 on R)",
+            "H at C5 (bottom apex, unsubstituted as drawn)",
+            "H at C6 (lower-left vertex, unsubstituted as drawn)"
+          ],
+          "name": null,
+          "smiles": null,
+          "confidence": "high"
+        }
+      ],
+      "arrows": [],
+      "notes": "Generic Markush formula labelled '(II)', label printed flush right. It sits INSIDE claim 6, between 'A process for preparing a 3-bromomethylbenzoic acid of formula II' above it and 'which comprises brominating a 3-methylbenzoic acid of formula I' below it. This is the PRODUCT of the claimed process. Identical as drawn to the formula (II) in the left column. Ring numbering is read off the drawing, not inferred: the hexagon is drawn with a vertical left side and a vertical right side. The vertex bearing the bond to HOOC is taken as C1 and the ring is walked from there towards the top apex. Going that way the vertices in order are HOOC vertex, top apex, upper-right vertex, lower-right vertex, bottom apex, lower-left vertex. The bottom apex and the lower-left vertex carry no substituent as drawn. Inner double-bond lines are drawn on the top-right side, the left vertical side and the bottom-right side. name and smiles are null: R1 and R2 are undefined in the drawing. between_markers records [0034], the last numbered paragraph above this drawing, and then prose: the claims follow and carry no [00NN] markers at all, so there is no second marker to name. The drawing sits BELOW [0034], inside claim 6."
+    },
+    {
+      "kind": "structure",
+      "between_markers": [
+        "[0034]",
+        "(the claims begin here and carry no paragraph markers)"
+      ],
+      "presented_as": "invention_route",
+      "structures": [
+        {
+          "position_in_drawing": "2nd of the two claim drawings, centred in the right column, lower",
+          "core": "benzene",
+          "substituents": [
+            "COOH at C1 (label drawn as HOOC)",
+            "R1 at C2 (top apex, superscript 1)",
+            "CH3 at C3 (single bond up-right from the ring to the label CH3, subscript 3)",
+            "SO2R2 at C4",
+            "H at C5 (bottom apex, unsubstituted as drawn)",
+            "H at C6 (lower-left vertex, unsubstituted as drawn)"
+          ],
+          "name": null,
+          "smiles": null,
+          "confidence": "high"
+        }
+      ],
+      "arrows": [],
+      "notes": "Generic Markush formula labelled '(I)', label printed flush right. It sits INSIDE claim 6, between 'which comprises brominating a 3-methylbenzoic acid of formula I' above it and 'with N-bromosuccimide in the presence of a radical initiator, where, in formulae I and II' below it. This is the STARTING MATERIAL of the claimed process. It differs from formula (II) in exactly one place: C3 carries CH3 here and CH2Br there; every other vertex is drawn identically. No arrow is drawn between formula (I) and formula (II): the transformation is carried entirely by the claim prose, so this is recorded as two separate single structures, not as a scheme. Ring numbering is read off the drawing, not inferred: the hexagon is drawn with a vertical left side and a vertical right side. The vertex bearing the bond to HOOC is taken as C1 and the ring is walked from there towards the top apex. Going that way the vertices in order are HOOC vertex, top apex, upper-right vertex, lower-right vertex, bottom apex, lower-left vertex. The bottom apex and the lower-left vertex carry no substituent as drawn. Inner double-bond lines are drawn on the top-right side, the left vertical side and the bottom-right side. name and smiles are null: R1 and R2 are undefined in the drawing. between_markers records [0034], the last numbered paragraph above this drawing, and then prose: the claims follow and carry no [00NN] markers at all, so there is no second marker to name. The drawing sits BELOW [0034], inside claim 6."
+    }
+  ],
+  "discrepancies": [
+    {
+      "what": "Both examples name the starting material with the sulfone substituent written backwards relative to the drawn formula, the example titles and the rest of the patent.",
+      "drawing_says": "Formulae (I) and (II) both draw SO2R2 attached to C4 through sulfur, with R2 an alkyl group carried on that sulfur. With R2 = CH3 that group is methylsulfonyl (CH3-SO2-); with R2 = C2H5 it is ethylsulfonyl (C2H5-SO2-).",
+      "text_says": "[0027] prints '2-chloro-3-methyl4-sulfonylmethylbenzoic acid', [0031] prints '2-chloro-3-methyl-4-sulfonylmethylbenzoic acid' and [0033] prints '2-chloro-3-methyl-4-sulfonylethylbenzoic acid'. 'sulfonylmethyl' and 'sulfonylethyl' name a divalent -SO2-CH2- / -SO2-C2H4- linker, which cannot be a terminal ring substituent, so these are transpositions of 'methylsulfonyl' and 'ethylsulfonyl'. The Example 1 title ('4-methylsulfonylbenzoic'), the Example 2 title ('4-ethylsulfonylbenzoic'), [0020], [0024] and [0028] all use the correct order. Left exactly as printed in every zh field; corrected only in en, and flagged here rather than fixed silently."
+    },
+    {
+      "what": "The workup reagent is named as a sulfate in one place and a sulfite everywhere else.",
+      "drawing_says": "Nothing is drawn for the workup; no drawing on this page depicts any reagent, so the drawings cannot settle it.",
+      "text_says": "The unmarked paragraph at the top of the left column (tail of the general workup description) prints 'sodium bisulfate solution'. [0027] and [0033] both print '100 ml of a 2% sodium bisulfite solution'. Sodium bisulfite is the reagent that makes chemical sense for quenching residual bromine, but the general description as printed says bisulfate. Both readings are recorded as printed."
+    },
+    {
+      "what": "N-bromosuccinimide is misspelled in claim 6 but spelled correctly in the description.",
+      "drawing_says": "Not drawn. NBS appears nowhere as a structure on this page.",
+      "text_says": "Claim 6 prints 'with N-bromosuccimide in the presence of a radical initiator' (no n before the -imide), while [0027] and [0033] both print 'N-bromosuccinimide'. Confirmed at 7x. The claim as printed names a different, non-existent reagent; recorded as printed and corrected only in en."
+    },
+    {
+      "what": "The radical initiator is misspelled in the description but spelled correctly in the claims.",
+      "drawing_says": "Not drawn.",
+      "text_says": "[0027] prints '6.6 g of azoisobutyroniltrile'; claim 7 on the same page prints 'azoisobutyronitrile'. Confirmed at 7x in both places. Recorded as printed in zh, corrected in en."
+    },
+    {
+      "what": "The bromine charge in Example 1 variant B is printed as letters, not digits, so it carries no numeric value.",
+      "drawing_says": "Not drawn. No quantity appears in any drawing on this page.",
+      "text_says": "[0031] prints 'Under irradiation with a 300 W lamp, II g of bromine were gradually metered in over 3 h'. Two capital-I letterforms with full serifs, unambiguously not digit ones at 8x magnification. No other passage on this page restates the quantity, so it cannot be recovered from this page. Recorded as printed; any mass balance over Example 1 variant B must treat it as unknown rather than assume 11 g."
+    }
+  ],
+  "illegible": [],
+  "page_confidence": "medium"
+}

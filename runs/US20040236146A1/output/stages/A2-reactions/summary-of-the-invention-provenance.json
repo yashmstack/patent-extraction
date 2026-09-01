@@ -1,0 +1,22 @@
+[
+  {
+    "reaction_id": "Summary of the Invention_Step 1",
+    "source_lines": [
+      57,
+      69
+    ],
+    "quote_zh": "[0007] A) N-bromosuccimide in the presence of a radical initiator, or",
+    "arithmetic_check": "Nothing to check. The section states no quantity of any kind: no charge, no mass, no volume, no mole count, no molar ratio, no yield and no purity. [0003] on line 57 says only in very good yields and in very high purities, which carries no number, so no mass balance, no molar mass and no yield reconciliation is possible or attempted here. This is generic process disclosure and the absence of numbers is the document, not a reading failure.",
+    "drawing_evidence": "The section carries two IMAGE_EXTRACT spans, at line 61 for formula II and line 65 for formula I. Both are single Markush structures with variable R1 and R2 and both carry an empty molecules list, so they support nothing: they give no SMILES, no reagent and no connectivity. This patent contains no drawn reaction scheme at all, so there is no arrow to corroborate the step boundary or to disagree with the prose, and drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear have no subject on this record."
+  },
+  {
+    "reaction_id": "Summary of the Invention_Step 2",
+    "source_lines": [
+      57,
+      71
+    ],
+    "quote_zh": "[0008] B) elemental bromine and irradiation with a photolamp,",
+    "arithmetic_check": "Nothing to check. The section states no quantity of any kind: no charge, no mass, no volume, no mole count, no molar ratio, no yield and no purity. [0003] on line 57 says only in very good yields and in very high purities, which carries no number, so no mass balance, no molar mass and no yield reconciliation is possible or attempted here. This is generic process disclosure and the absence of numbers is the document, not a reading failure.",
+    "drawing_evidence": "The section carries two IMAGE_EXTRACT spans, at line 61 for formula II and line 65 for formula I. Both are single Markush structures with variable R1 and R2 and both carry an empty molecules list, so they support nothing. This patent contains no drawn reaction scheme at all, so there is no arrow to corroborate the step boundary or to disagree with the prose, and drawing_text_conflict, reagent_drawn_not_written, reagent_written_not_drawn and route_attribution_unclear have no subject on this record."
+  }
+]

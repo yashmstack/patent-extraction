@@ -1,0 +1,67 @@
+{
+  "page": "p40.png",
+  "page_label": "INTERNATIONAL SEARCH REPORT / Form PCT/ISA/210 (second sheet) (July 2022)",
+  "doc_part": "front_page",
+  "header": "INTERNATIONAL SEARCH REPORT | International application No. PCT/CN2023/132821",
+  "footer": "Form PCT/ISA/210 (second sheet) (July 2022)",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "A. CLASSIFICATION OF SUBJECT MATTER\nC07C319/20(2006.01)i；C07C15/04(2006.01)i；C07C317/24(2006.01)i；C07C315/04(2006.01)i；C07C317/24(2006.01)i\nAccording to International Patent Classification (IPC) or to both national classification and IPC",
+      "en": "A. CLASSIFICATION OF SUBJECT MATTER\nC07C319/20(2006.01)i; C07C15/04(2006.01)i; C07C317/24(2006.01)i; C07C315/04(2006.01)i; C07C317/24(2006.01)i\nAccording to International Patent Classification (IPC) or to both national classification and IPC",
+      "notes": "Box A is printed in English only; the zh field carries it verbatim as printed. C07C317/24 is printed twice in the same list; transcribed as printed, not deduplicated. The separators between symbols are full-width semicolons as printed."
+    },
+    {
+      "marker": null,
+      "zh": "B. FIELDS SEARCHED\nMinimum documentation searched (classification system followed by classification symbols)\nIPC：C07C",
+      "en": "B. FIELDS SEARCHED\nMinimum documentation searched (classification system followed by classification symbols)\nIPC: C07C",
+      "notes": "Full-width colon after IPC as printed."
+    },
+    {
+      "marker": null,
+      "zh": "Documentation searched other than minimum documentation to the extent that such documents are included in the fields searched",
+      "en": "Documentation searched other than minimum documentation to the extent that such documents are included in the fields searched",
+      "notes": "The field below this heading is blank on the page."
+    },
+    {
+      "marker": null,
+      "zh": "Electronic data base consulted during the international search (name of data base and, where practicable, search terms used)\nREGISTRY(STN), CAPLUS(STN), MARPAT(STN), DWPI, CNKI, 百度, BAIDU: 兰升生物科技集团股份有限公司, 河北科技大学, 李柳柳, 赵亚冉, 郭庆春, 宋海文, 张越, 环磺酮, 除草剂, 三酮, 一氧化碳, CO, 结构和反应式检索",
+      "en": "Electronic data base consulted during the international search (name of data base and, where practicable, search terms used)\nREGISTRY(STN), CAPLUS(STN), MARPAT(STN), DWPI, CNKI, Baidu, BAIDU: Lansheng Biotech Group Co., Ltd., Hebei University of Science and Technology, Li Liuliu, Zhao Yaran, Guo Qingchun, Song Haiwen, Zhang Yue, tembotrione, herbicide, trione, carbon monoxide, CO, structure and reaction-formula search",
+      "notes": "环磺酮 is the Chinese common name for the herbicide tembotrione; translated to the common name here, the Chinese is preserved verbatim in zh. 三酮 translated literally as 'trione' (the compound class), not as a specific compound."
+    },
+    {
+      "marker": null,
+      "zh": "C. DOCUMENTS CONSIDERED TO BE RELEVANT\nCategory* | Citation of document, with indication, where appropriate, of the relevant passages | Relevant to claim No.\nY | CN 104292137 A (WUHAN INSTITUTE OF TECHNOLOGY) 21 January 2015 (2015-01-21) claim 1, and description, paragraphs [0030]-[0060] | 1-14\nY | CN 104271560 A (ISHIHARA SANGYO KAISHA) 07 January 2015 (2015-01-07) description, paragraphs [0009]-[0018] and [0123]-[0130] | 1-14\nX | US 4942246 A (NISSAN CHEMICAL INDUSTRIES LTD.) 17 July 1990 (1990-07-17) description, columns 8-9, embodiments 1-2 and 1-3 | 11, 12\nY | US 4942246 A (NISSAN CHEMICAL INDUSTRIES LTD.) 17 July 1990 (1990-07-17) description, columns 8-9, embodiments 1-2 and 1-3 | 5-10, 12-14\nA | CN 113845451 A (SINOCHEM CORPORATION et al.) 28 December 2021 (2021-12-28) description, embodiment 4 | 1-14\nA | US 2005282709 A1 (BAYER CROPSCIENCE GMBH) 22 December 2005 (2005-12-22) description, paragraphs 83-91 | 1-14\nA | CN 1968944 A (BAYER CROPSCIENCE GMBH) 23 May 2007 (2007-05-23) description, pages 18-20, embodiments | 1-14",
+      "en": "C. DOCUMENTS CONSIDERED TO BE RELEVANT\nCategory* | Citation of document, with indication, where appropriate, of the relevant passages | Relevant to claim No.\nY | CN 104292137 A (WUHAN INSTITUTE OF TECHNOLOGY) 21 January 2015 (2015-01-21) claim 1, and description, paragraphs [0030]-[0060] | 1-14\nY | CN 104271560 A (ISHIHARA SANGYO KAISHA) 07 January 2015 (2015-01-07) description, paragraphs [0009]-[0018] and [0123]-[0130] | 1-14\nX | US 4942246 A (NISSAN CHEMICAL INDUSTRIES LTD.) 17 July 1990 (1990-07-17) description, columns 8-9, embodiments 1-2 and 1-3 | 11, 12\nY | US 4942246 A (NISSAN CHEMICAL INDUSTRIES LTD.) 17 July 1990 (1990-07-17) description, columns 8-9, embodiments 1-2 and 1-3 | 5-10, 12-14\nA | CN 113845451 A (SINOCHEM CORPORATION et al.) 28 December 2021 (2021-12-28) description, embodiment 4 | 1-14\nA | US 2005282709 A1 (BAYER CROPSCIENCE GMBH) 22 December 2005 (2005-12-22) description, paragraphs 83-91 | 1-14\nA | CN 1968944 A (BAYER CROPSCIENCE GMBH) 23 May 2007 (2007-05-23) description, pages 18-20, embodiments | 1-14",
+      "notes": "Table transcribed row by row with pipe separators standing for the printed column rules. Box C is entirely in English. The paragraph markers [0030]-[0060], [0009]-[0018], [0123]-[0130] belong to the cited documents, not to this application."
+    },
+    {
+      "marker": null,
+      "zh": "☑ Further documents are listed in the continuation of Box C.    ☑ See patent family annex.",
+      "en": "[checked] Further documents are listed in the continuation of Box C.    [checked] See patent family annex.",
+      "notes": "Both checkboxes are ticked on the page."
+    },
+    {
+      "marker": null,
+      "zh": "* Special categories of cited documents:\n\"A\" document defining the general state of the art which is not considered to be of particular relevance\n\"D\" document cited by the applicant in the international application\n\"E\" earlier application or patent but published on or after the international filing date\n\"L\" document which may throw doubts on priority claim(s) or which is cited to establish the publication date of another citation or other special reason (as specified)\n\"O\" document referring to an oral disclosure, use, exhibition or other means\n\"P\" document published prior to the international filing date but later than the priority date claimed\n\"T\" later document published after the international filing date or priority date and not in conflict with the application but cited to understand the principle or theory underlying the invention\n\"X\" document of particular relevance; the claimed invention cannot be considered novel or cannot be considered to involve an inventive step when the document is taken alone\n\"Y\" document of particular relevance; the claimed invention cannot be considered to involve an inventive step when the document is combined with one or more other such documents, such combination being obvious to a person skilled in the art\n\"&\" document member of the same patent family",
+      "en": "* Special categories of cited documents:\n\"A\" document defining the general state of the art which is not considered to be of particular relevance\n\"D\" document cited by the applicant in the international application\n\"E\" earlier application or patent but published on or after the international filing date\n\"L\" document which may throw doubts on priority claim(s) or which is cited to establish the publication date of another citation or other special reason (as specified)\n\"O\" document referring to an oral disclosure, use, exhibition or other means\n\"P\" document published prior to the international filing date but later than the priority date claimed\n\"T\" later document published after the international filing date or priority date and not in conflict with the application but cited to understand the principle or theory underlying the invention\n\"X\" document of particular relevance; the claimed invention cannot be considered novel or cannot be considered to involve an inventive step when the document is taken alone\n\"Y\" document of particular relevance; the claimed invention cannot be considered to involve an inventive step when the document is combined with one or more other such documents, such combination being obvious to a person skilled in the art\n\"&\" document member of the same patent family",
+      "notes": "Standard printed legend of the form. The category letters are printed with curly double quotation marks; straight quotes used here for JSON legibility of the same characters."
+    },
+    {
+      "marker": null,
+      "zh": "Date of the actual completion of the international search\n05 February 2024\nDate of mailing of the international search report\n20 February 2024",
+      "en": "Date of the actual completion of the international search\n05 February 2024\nDate of mailing of the international search report\n20 February 2024",
+      "notes": null
+    },
+    {
+      "marker": null,
+      "zh": "Name and mailing address of the ISA/CN\nChina National Intellectual Property Administration (ISA/CN)\nChina No. 6, Xitucheng Road, Jimenqiao, Haidian District, Beijing 100088\nAuthorized officer\nTelephone No.",
+      "en": "Name and mailing address of the ISA/CN\nChina National Intellectual Property Administration (ISA/CN)\nChina No. 6, Xitucheng Road, Jimenqiao, Haidian District, Beijing 100088\nAuthorized officer\nTelephone No.",
+      "notes": "The 'Authorized officer' and 'Telephone No.' fields are printed labels with no value filled in on this page."
+    }
+  ],
+  "drawings": [],
+  "discrepancies": [],
+  "illegible": [],
+  "page_confidence": "high"
+}

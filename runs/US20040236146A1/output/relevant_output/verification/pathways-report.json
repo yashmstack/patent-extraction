@@ -1,0 +1,213 @@
+{
+  "artifact": "pathways.json",
+  "records_audited": 13,
+  "findings": [
+    {
+      "check": "schema",
+      "severity": "major",
+      "record": "Background_Step 1",
+      "field": "components",
+      "problem": "components carries three non-skeleton species, including the oxidizing agent that A3 rule 12 names explicitly as a thing components must not contain.",
+      "source_line": 55,
+      "quote": "WO 99/06339 discloses a process for preparing substituted benzyl bromides by brominating the corresponding methyl aromatics in the presence of azocarboxylic esters or azonitriles and in the presence of an oxidizing agent.",
+      "artifact_says": "[\"methyl aromatics\", \"azocarboxylic esters\", \"azonitriles\", \"oxidizing agent\", \"substituted benzyl bromides\"]",
+      "should_be": "[\"methyl aromatics\", \"substituted benzyl bromides\"] - the reaction record already carries azocarboxylic esters and azonitriles with role reagent and oxidizing agent with role oxidant on compounds[]",
+      "confidence": "high"
+    },
+    {
+      "check": "schema",
+      "severity": "major",
+      "record": "Background_Step 2",
+      "field": "components",
+      "problem": "components includes the radical initiator, which the reaction record itself gives role reagent, not reactant.",
+      "source_line": 55,
+      "quote": "EP-A 0 292 944 describes the preparation of methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate by radical initiator-induced bromination of methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate in carbon tetrachloride.",
+      "artifact_says": "[\"methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate\", \"radical initiator\", \"methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate\"]",
+      "should_be": "[\"methyl 2-chloro-3-methyl-4-methylsulfonylbenzoate\", \"methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate\"]",
+      "confidence": "high"
+    },
+    {
+      "check": "schema",
+      "severity": "major",
+      "record": "Claims_Step 1",
+      "field": "components",
+      "problem": "components includes N-bromosuccinimide and the radical initiator, both role reagent on the reaction record, neither contributing the carbon skeleton.",
+      "source_line": 154,
+      "quote": "with N-bromosuccimide in the presence of a radical initiator, where, in formulae I and II",
+      "artifact_says": "[\"3-methylbenzoic acid of formula I\", \"N-bromosuccinimide\", \"radical initiator\", \"3-bromomethylbenzoic acid of formula II\"]",
+      "should_be": "[\"3-methylbenzoic acid of formula I\", \"3-bromomethylbenzoic acid of formula II\"]",
+      "confidence": "high"
+    },
+    {
+      "check": "schema",
+      "severity": "major",
+      "record": "Claims_Step 2",
+      "field": "components",
+      "problem": "components includes elemental bromine, which the reaction record gives role reagent.",
+      "source_line": 175,
+      "quote": "which comprises brominating a 3-methylbenzoic acid of formula I [drawing, formula (I)] with elemental bromine and irradiation with a photolamp",
+      "artifact_says": "[\"3-methylbenzoic acid of formula I\", \"bromine\", \"3-bromomethylbenzoic acid of formula II\"]",
+      "should_be": "[\"3-methylbenzoic acid of formula I\", \"3-bromomethylbenzoic acid of formula II\"]",
+      "confidence": "high"
+    },
+    {
+      "check": "schema",
+      "severity": "major",
+      "record": "Process Conditions_Step 1",
+      "field": "components",
+      "problem": "components includes N-bromosuccinimide, the radical initiator and bromine, all role reagent on the reaction record.",
+      "source_line": 87,
+      "quote": "In process variant A), it is appropriate to initially charge a compound of the formula I with N-bromosuccinimide (NBS) and radical initiator in solvent, and then to heat gradually.",
+      "artifact_says": "[\"compound of the formula I\", \"N-bromosuccinimide\", \"radical initiator\", \"bromine\", \"compound of the formula II\"]",
+      "should_be": "[\"compound of the formula I\", \"compound of the formula II\"]",
+      "confidence": "high"
+    },
+    {
+      "check": "schema",
+      "severity": "major",
+      "record": "Process Conditions_Step 2",
+      "field": "components",
+      "problem": "components includes bromine, role reagent on the reaction record.",
+      "source_line": 89,
+      "quote": "In process variant B), it is appropriate to initially charge a compound of the formula I in solvent and then, after heating under irradiation with a photolamp, to add bromine dropwise.",
+      "artifact_says": "[\"compound of the formula I\", \"bromine\", \"compound of the formula II\"]",
+      "should_be": "[\"compound of the formula I\", \"compound of the formula II\"]",
+      "confidence": "high"
+    },
+    {
+      "check": "schema",
+      "severity": "major",
+      "record": "Summary of the Invention_Step 1",
+      "field": "components",
+      "problem": "components includes N-bromosuccinimide and the radical initiator, both role reagent on the reaction record.",
+      "source_line": 69,
+      "quote": "A) N-bromosuccimide in the presence of a radical initiator, or",
+      "artifact_says": "[\"3-methylbenzoic acids of the formula I\", \"N-bromosuccinimide\", \"radical initiator\", \"3-bromomethylbenzoic acids of the formula II\"]",
+      "should_be": "[\"3-methylbenzoic acids of the formula I\", \"3-bromomethylbenzoic acids of the formula II\"]",
+      "confidence": "high"
+    },
+    {
+      "check": "schema",
+      "severity": "major",
+      "record": "Summary of the Invention_Step 2",
+      "field": "components",
+      "problem": "components includes bromine, role reagent on the reaction record.",
+      "source_line": 71,
+      "quote": "B) elemental bromine and irradiation with a photolamp,",
+      "artifact_says": "[\"3-methylbenzoic acids of the formula I\", \"bromine\", \"3-bromomethylbenzoic acids of the formula II\"]",
+      "should_be": "[\"3-methylbenzoic acids of the formula I\", \"3-bromomethylbenzoic acids of the formula II\"]",
+      "confidence": "high"
+    },
+    {
+      "check": "fidelity",
+      "severity": "major",
+      "record": "Example 1_Step 2",
+      "field": "time_h",
+      "problem": "time_h is 2.0 for a run the text describes as 3 h of bromine metering under irradiation plus a further 2 h, while the parallel Example 2 step summed its stated intervals to 5.0, so the two examples are measured on different clocks.",
+      "source_line": 130,
+      "quote": "Under irradiation with a 300 W lamp, II g of bromine were gradually metered in over 3 h, and the mixture boiled under reflux. After a further 2 h of irradiation, the reaction mixture had been substantially decolorized.",
+      "artifact_says": "2.0",
+      "should_be": "5.0, or 2.0 kept with an explicit note that only the post-addition interval is counted, applied the same way to Example 2_Step 1. Root cause is conditions.time_h in reactions.json; pathways.json copies it faithfully.",
+      "confidence": "medium"
+    },
+    {
+      "check": "linkage",
+      "severity": "minor",
+      "record": "Background_Step 2 -> Background_Step 3",
+      "field": "precursor_step",
+      "problem": "precursor_step is the bare string \"Step 2\", which matches no reaction_id in reactions.json (the record is \"Background_Step 2\"), so under rule 15 the chain was built on a precursor that literally cannot be resolved, yet no unresolved_precursor flag is carried.",
+      "source_line": 56,
+      "quote": "The free acid, 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid is then obtained from this latter compound by hydrolysis.",
+      "artifact_says": "steps[1].precursor_step = \"Step 2\"; honest_uncertainty_flags has no unresolved_precursor",
+      "should_be": "The link itself is right (step 3's reactant is step 2's product, per line 56). Either write precursor_step as the full reaction_id \"Background_Step 2\", or add unresolved_precursor to record that section-local numbering was assumed.",
+      "confidence": "medium"
+    },
+    {
+      "check": "precision",
+      "severity": "minor",
+      "record": "Summary of the Invention_Step 2 (pathway index 11)",
+      "field": "honest_uncertainty_flags",
+      "problem": "This pathway presents as having conditions while its sibling built from the adjacent sentence does not: its whole conditions object is null except light_source.type, yet the step carries no validation_flags and the pathway carries no no_conditions_for_any_step, unlike Summary of the Invention_Step 1 built from the line directly above it.",
+      "source_line": 71,
+      "quote": "B) elemental bromine and irradiation with a photolamp,",
+      "artifact_says": "steps[0].validation_flags = []; honest_uncertainty_flags = [\"yield_missing_step\", \"ksm_is_a_class_term_not_a_discrete_substance\", \"section_states_two_alternative_variants_emitted_as_separate_pathways\"]",
+      "should_be": "Add no_conditions_for_any_step (and no_conditions on the reaction) so the pair of variants from lines 69 and 71 are described the same way. Rule 16 only propagates flags that exist, so an absent flag upstream silently makes this pathway look cleaner than pathway index 10.",
+      "confidence": "medium"
+    },
+    {
+      "check": "schema",
+      "severity": "minor",
+      "record": null,
+      "field": "scope",
+      "problem": "Twelve section-scope pathways were emitted for seven procedure-bearing sections, which follows rule 1 (one chain per terminal step) but not the literal wording of rule 7 (one pathway per section that has a terminal step).",
+      "source_line": 69,
+      "quote": "A) N-bromosuccimide in the presence of a radical initiator, or",
+      "artifact_says": "Abstract x1, Background x2, Claims x2, Example 1 x2, Example 2 x1, Process Conditions x2, Summary of the Invention x2",
+      "should_be": "No change to the data; rule 7 should be read as one pathway per terminal chain. Raised only because the two rules can be read against each other and a scorer comparing pathway counts will see 12 where the literal rule predicts 7. The artifact does record the split in honest_uncertainty_flags on every affected record.",
+      "confidence": "low"
+    }
+  ],
+  "checks_passed": [
+    {
+      "check": "provenance availability",
+      "what_was_verified": "There is no direct pathways provenance sidecar on disk. pathways.json is a projection of reactions.json, so output/reactions-provenance.json (13 entries, one per reaction_id, each with source_lines, quote, arithmetic_check and drawing_evidence) is the only provenance that grounds it. Every pathway step traces to a provenance entry through its reaction_id."
+    },
+    {
+      "check": "rule 11, verbatim projection",
+      "what_was_verified": "Diffed all 41 non-derived rule 11 fields for all 14 step instances across the 13 pathways against the matching record in reactions.json, mechanically, by exact equality on parsed JSON. Every field is byte-identical, including reaction_class, named_reaction, notes, procedure_text, procedure_summary, workup, purification, molar_ratio_text, scale, compounds, reactant_names, validation_flags and tags. No re-wording and no re-classification anywhere."
+    },
+    {
+      "check": "rule 11, derived flat fields",
+      "what_was_verified": "temperature_c equals conditions.temperature.value_c on all 14 step instances (null on the two range temperatures in Claims_Step 1/2 and the two in Process Conditions_Step 1/2, 90.0 on Example 1_Step 1). room_temperature equals conditions.temperature.type == room_temperature, and is false everywhere, correctly: line 122 and line 140 say reagents were added at room temperature but the reaction itself was heated. pressure equals conditions.pressure.value_kpa (null throughout), concentration equals conditions.concentration.text (null throughout), and time_h, atmosphere and reactor_type equal their conditions counterparts. yield_pct equals product_yield_pct and purity_pct equals product_purity_pct on every step."
+    },
+    {
+      "check": "rule 3, ksm is a skeleton contributor",
+      "what_was_verified": "Checked all 13. Every ksm is the aryl substrate whose benzene ring survives into the product, never a brominating agent or initiator. The rule 3 trap is genuinely avoided at Background_Step 1, where the source names only azocarboxylic esters, azonitriles and an oxidizing agent alongside the substrate (line 55): ksm is methyl aromatics, not the oxidizing agent. No ksm is null, and none needed to be, because every earliest step in every chain does name a skeleton-contributing reactant."
+    },
+    {
+      "check": "rule 9, overall_yield_pct",
+      "what_was_verified": "Recomputed all 13. Three pathways have a complete yield set and all three are single-step: 88.4 (Example 1_Step 1, line 124), 95.6 (Example 2_Step 1, line 140) and 95.6 again on the patent-scope record. The other ten are null and all ten carry yield_missing_step. Nothing was substituted, assumed at 100 percent or averaged; in particular the two-step Background chain, where neither step has a yield, is null rather than carrying either step's absent number."
+    },
+    {
+      "check": "rule 10, overall_purity_pct",
+      "what_was_verified": "Equals the terminal step's product_purity_pct on all 13: 96.0 for Example 1 variant A (line 126), 88.0 for Example 2 and for the patent-scope record (line 142), null elsewhere. Example 1 variant B is correctly null rather than 87, because line 130 gives an HPLC composition of the reaction mixture, not a purity of an isolated solid, and the pathway records that with product_not_isolated_hplc_composition_only."
+    },
+    {
+      "check": "rule 1 and rule 4, chain construction and coverage",
+      "what_was_verified": "All 13 reaction_ids in reactions.json appear in at least one section-scope pathway, so no reaction is silently lost. All seven sections that 00-sections.json marks contains_procedure (Abstract, Background, Summary of the Invention, Process Conditions, Example 1, Example 2, Claims) have at least one section-scope pathway. Exactly one chain has more than one step, Background_Step 2 then Background_Step 3, and its intermediates list is exactly the step 1 product, methyl 3-bromomethyl-2-chloro-4-methylsulfonylbenzoate, which line 56 confirms is hydrolysed to the free acid. All other pathways have intermediates: []. Every product is the terminal step's product."
+    },
+    {
+      "check": "rule 13, enrichment fields null",
+      "what_was_verified": "Every one of the 22 step-level enrichment fields (scores, counts, atom_mapped_rxn, atom_map_confident, template_r0/r1/r2 and their hashes, canonical_rxn, reactant_smiles, smiles_source, product_smiles, product_smiles_source) is null on all 14 step instances, and every one of the 11 pathway-level aggregates is null on all 13 records. All ksm, intermediate and product CompoundRef objects have smiles null. compound_uuid and pathway_uuid are populated, which is finalise.py's job, not A3's."
+    },
+    {
+      "check": "rule 14, tags",
+      "what_was_verified": "Recomputed the tag union for all 13 from scratch: step tags, then ksm plus intermediate plus product compound tags from compounds.json, then chain_length:N, branching:linear, convergence:linear and the lcl band, deduplicated in first-seen order. The recomputed list is identical to the artifact's on every record. branching:linear and convergence:linear are correct everywhere, including the two-step Background chain. All tags match the category:value pattern with lowercase snake_case ASCII values."
+    },
+    {
+      "check": "rule 16, flagged steps inherit",
+      "what_was_verified": "Five step instances carry validation_flags, all of them the single flag no_conditions: Abstract_Step 1, Background_Step 1, Background_Step 2, Background_Step 3 and Summary of the Invention_Step 1. Every pathway built from them (indices 0, 1, 2 and 10) carries no_conditions_for_any_step in honest_uncertainty_flags. No pathway assembled from a flagged step presents itself as clean. The Background pathways additionally carry prior_art_route_not_the_claimed_invention, which is the right treatment for a route the source is criticising rather than claiming."
+    },
+    {
+      "check": "rule 8, patent-scope target",
+      "what_was_verified": "Exactly one patent-scope record, section_label null, terminating in 3-bromomethyl-2-chloro-4-ethylsulfonylbenzoic acid. I judge this defensible and would have chosen the same. The title (line 16) names a genus, so no single compound is unarguable, but claim 19 (line 191) claims formula II while expressly excluding 3-bromomethyl-2-chloro-4-methylsulfonylbenzoic acid, which is Example 1's product and which line 100 concedes to EP-A 0 292 944, and claim 20 (line 195) then narrows to R1 chlorine and R2 (C2)alkyl, which is exactly Example 2's product. It is the only compound the patent both makes with a stated yield and purity and claims as novel in its own right. The alternative readings, the formula II genus and Example 1's product, are both recorded in honest_uncertainty_flags rather than discarded."
+    },
+    {
+      "check": "drawings",
+      "what_was_verified": "Opened p01 to p04. Nine drawn structures: formula II in the abstract on p01; formulae II and I at [0004] and [0005] on p02; formula II at [0020] and formulae II and I inside claim 6 on p03; formulae II and I inside claim 13 and formula II inside claim 19 on p04. The enriched markdown has exactly nine IMAGE_EXTRACT spans (lines 42, 61, 65, 102, 144, 146, 177, 179, 193) and their placement matches the drawings one for one. Every drawn structure is the same Markush benzene: HOOC at C1, R1 at C2, CH2Br (formula II) or CH3 (formula I) at C3, SO2R2 at C4. That substitution pattern is what the names used throughout the artifact assert, so no substituent position was inferred rather than read. All nine spans carry {\"molecules\": []}, which is correct for a generic with variable R1 and R2 rather than a lost read. There is no drawn reaction scheme anywhere in this patent, so there is no above-arrow versus below-arrow reagent merge to get wrong, and the two background pathways are labelled prior_art_route_not_the_claimed_invention rather than presented as the invention's route."
+    },
+    {
+      "check": "vocabulary and house style",
+      "what_was_verified": "Zero em dash characters in pathways.json. scope is section or patent only. All honest_uncertainty_flags are lowercase snake_case ASCII, including the ones invented beyond rule 15's list (ksm_is_a_class_term_not_a_discrete_substance, no_conditions_for_any_step, prior_art_route_not_the_claimed_invention, product_not_isolated_hplc_composition_only, reactant_charge_unreadable_in_source, the four patent_target_ codes), which rule 15 permits."
+    },
+    {
+      "check": "honesty on an unreadable source figure",
+      "what_was_verified": "Line 130 prints the bromine charge for Example 1 variant B as \"II g\" and the EN repair line 131 renders it \"[II] g\" rather than guessing 11. The pathway carries reactant_charge_unreadable_in_source and no invented mass. This is the right handling and the reason no arithmetic finding is filed against that step."
+    }
+  ],
+  "recall_estimate": {
+    "found_in_text": 12,
+    "present_in_artifact": 12,
+    "missing": []
+  }
+}

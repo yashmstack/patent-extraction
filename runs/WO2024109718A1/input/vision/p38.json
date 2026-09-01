@@ -1,0 +1,103 @@
+{
+  "page": "p38.png",
+  "page_label": "9/10",
+  "doc_part": "drawings",
+  "header": "9/10\nWO 2024/109718                    PCT/CN2023/132821",
+  "footer": "",
+  "paragraphs": [
+    {
+      "marker": null,
+      "zh": "［图 14］",
+      "en": "[Figure 14]",
+      "notes": "Figure caption printed at the top left of the sheet, above the first structure and its spectrum. This is a drawings sheet of the PCT publication, not description prose; there are no [00NN] paragraph markers anywhere on the page. The bracket glyphs are broken in the scan and full-width vs half-width cannot be judged; transcribed full-width to match sheet 8/10."
+    },
+    {
+      "marker": null,
+      "zh": "［图 15］",
+      "en": "[Figure 15]",
+      "notes": "Second figure caption, printed in the left margin roughly halfway down the sheet, above the second structure and its spectrum. Same bracket caveat as Figure 14."
+    },
+    {
+      "marker": null,
+      "zh": "细则 26,\n26.12.2023",
+      "en": "Rule 26, 26.12.2023",
+      "notes": "Replacement-sheet stamp in the right margin, beside a heavy vertical rule. It appears twice on this sheet, once beside each figure. A page artifact, not content."
+    },
+    {
+      "marker": null,
+      "zh": "f1（ppm）",
+      "en": "f1 (ppm)",
+      "notes": "Axis label under each of the two spectra. The glyphs are broken in the scan; the two-character token before the parenthesis and the three-letter token inside it are consistent with \"f1\" and \"ppm\" but no single letter is crisply readable in isolation, and the parenthesis width cannot be judged."
+    }
+  ],
+  "drawings": [
+    {
+      "kind": "structure",
+      "between_markers": [],
+      "presented_as": "intermediate_structure",
+      "structures": [
+        {
+          "position_in_drawing": "1st, top-left of the sheet, drawn above the upper spectrum as the compound that spectrum belongs to (Figure 14)",
+          "core": "benzene ring linked through an ester carbonyl and an ester oxygen to a cyclohex-2-en-1-one ring",
+          "substituents": [
+            "C(=O)O-(3-oxocyclohex-1-en-1-yl) at C1 of the benzene ring",
+            "[illegible] two-glyph label at C2 of the benzene ring, on a bond drawn straight up from the top vertex",
+            "CH2-O-CH2-[illegible] at C3 of the benzene ring",
+            "S(=O)(=O)-[illegible] at C4 of the benzene ring",
+            "H at C5 of the benzene ring",
+            "H at C6 of the benzene ring",
+            "O-ester at C1 of the cyclohexene ring",
+            "C1=C2 double bond in the cyclohexene ring",
+            "=O at C3 of the cyclohexene ring"
+          ],
+          "name": null,
+          "smiles": null,
+          "confidence": "low"
+        }
+      ],
+      "arrows": [],
+      "notes": "Connectivity is certain; three atom labels are not. Benzene numbering is read off the drawing only: the acyl-bearing vertex (upper-left of the hexagon) is called C1, then the top vertex C2, the upper-right vertex C3, the lower-right vertex C4; the bottom and lower-left vertices carry no label. The acyl carbon has a double-bonded O pointing up and a single bond to a labelled O on its left; that O connects down to the top vertex of the left-hand six-membered carbocycle. In that carbocycle the O-bearing vertex is C1, a double bond is drawn inside the ring from C1 to the adjacent vertex C2, and the next vertex C3 carries an exocyclic double bond to a labelled O; the remaining three vertices are unsubstituted CH2. The side chain at C3 of the benzene ring is drawn ring-CH2-O-CH2-label: an apex, then a labelled O, then a second apex, then a bond descending to a text label. The sulfonyl at C4 is drawn as S with two double-bonded O labels below and a text label to the upper right. The three text labels (C2 substituent, side-chain terminus, sulfonyl substituent) could not be resolved glyph by glyph at any magnification: the scan is a 300 dpi CCITT halftone and the letters are about 20 px tall with a 50 percent dither, so no single character is readable. What could be measured is ink width. Against the crisp Figure 12 drawing on sheet 8/10 (font scale 0.88 on this sheet, taken from the sulfonyl methyl label width 43 px here vs 49 px there): the C2 label is 23 px wide with no subscript, matching a scaled \"Cl\" (predicted 20 px) and far too narrow for a three-character label; the side-chain terminal label is two capitals of 32 px plus a subscript, slightly narrower than the 35 px measured for the \"CH\" of the sulfonyl methyl on this same sheet, which favours \"CF3\" over \"CH3\"; the sulfonyl label is two capitals plus a subscript and cross-correlates at 0.84 with the corresponding label in the Figure 15 drawing below, so the two are the same string. If those readings are right the compound is 3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate, the same compound drawn for Figure 13 on sheet 8/10, but this sheet's own pixels do not establish it, so name and smiles are left null. Vision model: Claude Opus 5. Above it the spectrum is a carbon trace: the axis runs from roughly 220 ppm at the left to 0 at the right in steps of 10, three-digit tick labels on the left and one-digit on the right, with the tallest line near 40 ppm."
+    },
+    {
+      "kind": "structure",
+      "between_markers": [],
+      "presented_as": "intermediate_structure",
+      "structures": [
+        {
+          "position_in_drawing": "2nd, upper-left of the lower half of the sheet, drawn above the lower spectrum as the compound that spectrum belongs to (Figure 15)",
+          "core": "cyclohexane-1,3-dione bearing an aroyl group at C2, the aroyl group carrying a benzene ring",
+          "substituents": [
+            "=O at C1 of the cyclohexane ring",
+            "C(=O)-aryl at C2 of the cyclohexane ring",
+            "=O at C3 of the cyclohexane ring",
+            "H2 at C4, C5 and C6 of the cyclohexane ring",
+            "C(=O)- link to the cyclohexanedione at C1 of the benzene ring",
+            "[illegible] two-glyph label at C2 of the benzene ring, on a bond drawn straight up from the top vertex",
+            "CH2-O-CH2-[illegible] at C3 of the benzene ring",
+            "S(=O)(=O)-[illegible] at C4 of the benzene ring",
+            "H at C5 of the benzene ring",
+            "H at C6 of the benzene ring"
+          ],
+          "name": null,
+          "smiles": null,
+          "confidence": "low"
+        }
+      ],
+      "arrows": [],
+      "notes": "This is the C-acylated diketone, not the enol ester of Figure 14: the bridging carbonyl carbon is bonded directly to a ring carbon of the cyclohexanedione, and that ring carbon sits between two vertices each carrying an exocyclic double bond to a labelled O. No enol OH and no C=C is drawn inside the cyclohexanedione ring. Benzene numbering is read off the drawing exactly as for Figure 14: acyl-bearing vertex C1, top vertex C2, upper-right vertex C3, lower-right vertex C4, the remaining two vertices unlabelled. The side chain is again ring-CH2-O-CH2-label with a labelled O between two apexes. The same three text labels are unresolved here for the same reason; the width measurements quoted in the Figure 14 note were taken mostly from this drawing, which is the larger and cleaner of the two on this sheet. If the labels read Cl, CF3 and CH3 the compound is 2-{2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl}cyclohexane-1,3-dione (tembotrione), which would make this the product corresponding to the ester of Figure 14; this sheet's own pixels do not establish the labels, so name and smiles are left null. Vision model: Claude Opus 5. Below it the spectrum is a proton trace: the axis runs from roughly 8.5 ppm at the left to 1.0 at the right in steps of 0.5, with the tallest line near 3.3 ppm."
+    }
+  ],
+  "discrepancies": [],
+  "illegible": [
+    "Figure 14 structure: the label on the bond rising from the top vertex of the benzene ring. Two glyphs, 23 px wide, no subscript. Not resolvable glyph by glyph; width matches a scaled \"Cl\" from the crisp Figure 12 drawing on sheet 8/10, but \"Br\" cannot be excluded on width alone.",
+    "Figure 14 structure: the terminal label of the side chain. Two capitals plus a subscript numeral; the subscript is a separate ink blob and its digit is not resolved. Width favours \"CF3\" over \"CH3\" but neither letter is readable.",
+    "Figure 14 structure: the label on the sulfonyl sulfur. Two capitals plus a subscript, consistent with \"CH3\" by width and by 0.84 cross-correlation with the same label in Figure 15, but no letter is readable.",
+    "Figure 15 structure: the same three labels (benzene C2 substituent, side-chain terminus, sulfonyl substituent) are unresolved for the same reason.",
+    "Upper spectrum (Figure 14) axis tick numbers: three-digit at the left falling to one-digit at the right, spacing consistent with 220 down to 0 in steps of 10, but no digit is individually readable.",
+    "Lower spectrum (Figure 15) axis tick numbers: two significant figures with a decimal point, consistent with 8.5 down to 1.0 in steps of 0.5, but no digit is individually readable.",
+    "Neither spectrum carries any printed peak position, integral or multiplicity label; there is nothing numeric on the traces themselves to transcribe.",
+    "The axis label under each trace is broken; transcribed as \"f1 (ppm)\" on shape alone.",
+    "The bracket characters in the two figure captions are broken; full-width vs half-width cannot be determined from the scan."
+  ],
+  "page_confidence": "low"
+}

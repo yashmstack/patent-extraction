@@ -1,0 +1,286 @@
+[
+  {
+    "page": "p02",
+    "kind": "scheme",
+    "between_markers": [
+      "步骤a",
+      "步骤b"
+    ],
+    "presented_as": "invention_route",
+    "structures": [
+      {
+        "position_in_drawing": "1st, left of the plus sign; labelled I beneath",
+        "core": "benzene",
+        "substituents": [
+          "C(=O)OCH3 at C1 (the methyl of the ester drawn as an unlabelled bond terminus)",
+          "Cl at C2",
+          "CH2Br at C3",
+          "SO2CH3 at C4"
+        ],
+        "name": "methyl 3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzoate",
+        "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+        "confidence": "high"
+      },
+      {
+        "position_in_drawing": "2nd, written as a line formula to the right of the plus sign, before the arrow; unlabelled",
+        "core": "none, acyclic; written as the line formula CF3CH2ONa, not drawn",
+        "substituents": [],
+        "name": "sodium 2,2,2-trifluoroethoxide",
+        "smiles": "[Na+].[O-]CC(F)(F)F",
+        "confidence": "high"
+      },
+      {
+        "position_in_drawing": "3rd, right of the arrow; labelled II beneath",
+        "core": "benzene",
+        "substituents": [
+          "C(=O)OH at C1, drawn as HO-C(=O) with the OH written out",
+          "Cl at C2",
+          "CH2OCH2CF3 at C3",
+          "SO2CH3 at C4"
+        ],
+        "name": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+        "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+        "confidence": "high"
+      },
+      {
+        "position_in_drawing": "4th, written as a line formula after the product; unlabelled",
+        "core": "none, acyclic; written as the line formula CH3OH",
+        "substituents": [],
+        "name": "methanol",
+        "smiles": "CO",
+        "confidence": "high"
+      },
+      {
+        "position_in_drawing": "5th, written as a line formula after CH3OH; unlabelled",
+        "core": "none; written as the formula NaBr",
+        "substituents": [],
+        "name": "sodium bromide",
+        "smiles": "[Na+].[Br-]",
+        "confidence": "high"
+      }
+    ],
+    "arrows": [
+      {
+        "from_structure": "1st (I) together with the written co-reactant CF3CH2ONa",
+        "to_structure": "3rd (II), plus the written byproducts CH3OH and NaBr",
+        "reagents_above": [
+          "MOH/M2CO3"
+        ],
+        "reagents_below": [],
+        "arrow_style": "solid",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Equation (1) of claim 1, step a. One arrow, single step. Nothing at all is written below the arrow; MOH/M2CO3 is above it, and the M2 is printed with a subscript 2 in the drawing (unlike the prose, which prints M2CO3 flat). CF3CH2ONa sits to the left of the arrow as a co-reactant on the substrate side, not above or below it, and is recorded as a structure rather than as an arrow reagent for that reason. The scheme converts the methyl ester to the free acid as well as displacing the bromide, which is why CH3OH appears as a byproduct. The two written byproducts and the co-reactant are line formulae, not drawn structures; they are recorded in structures so nothing on the page is lost. Compound labels I and II are printed in small roman numerals beneath the two drawn structures."
+  },
+  {
+    "page": "p02",
+    "kind": "scheme",
+    "between_markers": [
+      "步骤b",
+      "其中"
+    ],
+    "presented_as": "invention_route",
+    "structures": [
+      {
+        "position_in_drawing": "1st, leftmost; labelled II beneath",
+        "core": "benzene",
+        "substituents": [
+          "C(=O)OH at C1, drawn as HO-C(=O) with the OH written out",
+          "Cl at C2",
+          "CH2OCH2CF3 at C3",
+          "SO2CH3 at C4"
+        ],
+        "name": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+        "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+        "confidence": "high"
+      },
+      {
+        "position_in_drawing": "2nd, right of the plus sign; labelled III beneath",
+        "core": "cyclohexane-1,3-dione",
+        "substituents": [
+          "=O at C1",
+          "=O at C3",
+          "no other substituent drawn"
+        ],
+        "name": "cyclohexane-1,3-dione",
+        "smiles": "O=C1CCCC(=O)C1",
+        "confidence": "high"
+      },
+      {
+        "position_in_drawing": "3rd, right of the arrow; labelled IV beneath",
+        "core": "cyclohexane-1,3-dione ring joined through a ketone bridge to a benzene ring",
+        "substituents": [
+          "on the cyclohexanedione: =O at C1, =O at C3, and an aroyl group C(=O)-aryl at C2",
+          "on the benzene ring: the C(=O) bridge at C1",
+          "Cl at C2",
+          "CH2OCH2CF3 at C3",
+          "SO2CH3 at C4"
+        ],
+        "name": "2-[2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl]cyclohexane-1,3-dione",
+        "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+        "confidence": "high"
+      },
+      {
+        "position_in_drawing": "4th, written as a line formula after the product; unlabelled",
+        "core": "none; written as the formula H2O",
+        "substituents": [],
+        "name": "water",
+        "smiles": "O",
+        "confidence": "high"
+      }
+    ],
+    "arrows": [
+      {
+        "from_structure": "1st (II) together with 2nd (III)",
+        "to_structure": "3rd (IV), plus the written byproduct H2O",
+        "reagents_above": [
+          "缩合剂 (condensing agent)"
+        ],
+        "reagents_below": [
+          "碱催化剂 (base catalyst)"
+        ],
+        "arrow_style": "solid",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Equation (2) of claim 1, step b. One arrow, single step. Above and below the arrow are different: 缩合剂 above, 碱催化剂 below, separated by a horizontal rule drawn over the arrow shaft. Neither is named to a specific chemical here; claims 6 and 7 supply the lists. IV is drawn in the 2-acyl-1,3-diketone (keto) form: three separate C=O groups, no enol OH and no double bond drawn in the cyclohexanedione ring. The tautomer is therefore as drawn, not inferred. IV is the compound the claims call 环磺酮; the drawn skeleton is tembotrione."
+  },
+  {
+    "page": "p04",
+    "kind": "scheme",
+    "between_markers": [
+      "[0008]",
+      "[0009]"
+    ],
+    "presented_as": "invention_route",
+    "structures": [
+      {
+        "position_in_drawing": "1st, leftmost reactant of scheme (1)",
+        "core": "benzene",
+        "substituents": [
+          "C(=O)OCH3 at C1 (drawn as an ester, carbonyl O up, O-CH3 to the left)",
+          "Cl at C2",
+          "CH2Br at C3",
+          "SO2CH3 at C4"
+        ],
+        "name": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
+        "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+        "confidence": "high"
+      },
+      {
+        "position_in_drawing": "2nd, second reactant of scheme (1), written as a formula not a drawing",
+        "core": "not a ring system; written formula CF3CH2ONa",
+        "substituents": [],
+        "name": "sodium 2,2,2-trifluoroethoxide",
+        "smiles": "[Na+].[O-]CC(F)(F)F",
+        "confidence": "high"
+      },
+      {
+        "position_in_drawing": "3rd, product to the right of the arrow in scheme (1)",
+        "core": "benzene",
+        "substituents": [
+          "COOH at C1 (drawn HO-C(=O)-)",
+          "Cl at C2",
+          "CH2OCH2CF3 at C3",
+          "SO2CH3 at C4"
+        ],
+        "name": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
+        "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+        "confidence": "high"
+      },
+      {
+        "position_in_drawing": "4th and 5th, by-products written to the right of the product in scheme (1)",
+        "core": "not a ring system; written formulae CH3OH and NaBr",
+        "substituents": [],
+        "name": "methanol and sodium bromide",
+        "smiles": null,
+        "confidence": "high"
+      }
+    ],
+    "arrows": [
+      {
+        "from_structure": "1st (plus CF3CH2ONa)",
+        "to_structure": "3rd (plus CH3OH and NaBr)",
+        "reagents_above": [
+          "MOH/M2CO3"
+        ],
+        "reagents_below": [],
+        "arrow_style": "solid",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Equation number (1) is printed at the right margin. Small roman-numeral compound labels are printed under the reactant and the product; both are faint in the scan and read as I under the leftmost structure and II under the product, consistent with [0007]. Nothing is written below the arrow."
+  },
+  {
+    "page": "p04",
+    "kind": "scheme",
+    "between_markers": [
+      "[0010]",
+      "[0011]"
+    ],
+    "presented_as": "invention_route",
+    "structures": [
+      {
+        "position_in_drawing": "1st, leftmost reactant of scheme (2), labelled II",
+        "core": "benzene",
+        "substituents": [
+          "COOH at C1 (drawn HO-C(=O)-)",
+          "Cl at C2",
+          "CH2OCH2CF3 at C3",
+          "SO2CH3 at C4"
+        ],
+        "name": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
+        "smiles": "OC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+        "confidence": "high"
+      },
+      {
+        "position_in_drawing": "2nd, second reactant of scheme (2), after the plus sign, labelled III",
+        "core": "cyclohexane-1,3-dione",
+        "substituents": [
+          "=O at C1",
+          "=O at C3"
+        ],
+        "name": "cyclohexane-1,3-dione",
+        "smiles": "O=C1CCCC(=O)C1",
+        "confidence": "high"
+      },
+      {
+        "position_in_drawing": "3rd, product to the right of the arrow in scheme (2), labelled IV",
+        "core": "cyclohexane-1,3-dione linked through C2 by a C=O bridge to a benzene ring",
+        "substituents": [
+          "=O at C1 of the cyclohexanedione",
+          "=O at C3 of the cyclohexanedione",
+          "aroyl (C=O to the benzene ring) at C2 of the cyclohexanedione",
+          "the benzene ring bears the bridging C=O at its C1, Cl at C2, CH2OCH2CF3 at C3, SO2CH3 at C4"
+        ],
+        "name": "2-{2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoyl}cyclohexane-1,3-dione",
+        "smiles": "O=C1CCCC(=O)C1C(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+        "confidence": "medium"
+      },
+      {
+        "position_in_drawing": "4th, by-product written to the right of the product in scheme (2)",
+        "core": "not a ring system; written formula H2O",
+        "substituents": [],
+        "name": "water",
+        "smiles": "O",
+        "confidence": "high"
+      }
+    ],
+    "arrows": [
+      {
+        "from_structure": "1st and 2nd",
+        "to_structure": "3rd (plus H2O)",
+        "reagents_above": [
+          "缩合剂 (condensing agent)"
+        ],
+        "reagents_below": [
+          "碱催化剂 (basic catalyst)"
+        ],
+        "arrow_style": "solid",
+        "confidence": "high"
+      }
+    ],
+    "notes": "Equation number (2) is printed at the right margin. The two Chinese labels sit above and below the arrow line respectively and are small but legible. Product IV is drawn as the 2-aroyl-1,3-dione (keto form); no enol tautomer is drawn. Confidence on IV is medium because the drawn ring is small in the scan and the C2 attachment point of the dione, while the only reading consistent with the drawing, is not crisply resolved."
+  }
+]

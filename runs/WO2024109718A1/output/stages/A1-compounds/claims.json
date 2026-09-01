@@ -1,0 +1,1524 @@
+[
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "tembotrione",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "环磺酮",
+      "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "IUQAXCIUEPFPSF-UHFFFAOYSA-N"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": true,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:active_ingredient",
+      "chemical_family:cyclohexanedione",
+      "functional_group:ketone",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "The compound every process claim is directed to. Named in Chinese only, as 环磺酮, in the preambles of claims 1, 13 and 14; the EN lines render it tembotrione. Also drawn as the final product of the schemes at lines 612, 614, 618 and 620 (InChIKey IUQAXCIUEPFPSF-UHFFFAOYSA-N); that drawn SMILES is kept as an alias. One merged record. No quantity, yield or characterisation is printed in the claims."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "palladium",
+    "identifier_type": "iupac",
+    "aliases": [
+      "钯"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "rhodium",
+    "identifier_type": "iupac",
+    "aliases": [
+      "铑"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "ruthenium",
+    "identifier_type": "iupac",
+    "aliases": [
+      "钌"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "copper",
+    "identifier_type": "iupac",
+    "aliases": [
+      "铜"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "cobalt",
+    "identifier_type": "iupac",
+    "aliases": [
+      "钴"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "palladium(II) chloride",
+    "identifier_type": "iupac",
+    "aliases": [
+      "氯化钯",
+      "PdCl2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "Listed in claim 3 among the more preferred palladium catalysts for step (v-1)/(v'-1). Chinese name 氯化钯, formula PdCl2 as printed."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "palladium(II) carbonate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "碳酸钯",
+      "PdCO3"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Listed in claim 3 among the more preferred palladium catalysts for step (v-1)/(v'-1). Chinese name 碳酸钯, formula PdCO3 as printed."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "palladium(II) acetate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "醋酸钯",
+      "Pd(OAc)2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Listed in claim 3 among the more preferred palladium catalysts for step (v-1)/(v'-1). Chinese name 醋酸钯, formula Pd(OAc)2 as printed."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "palladium on carbon",
+    "identifier_type": "iupac",
+    "aliases": [
+      "钯/碳",
+      "Pd/C"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst"
+    ],
+    "notes": "Listed in claim 3 among the more preferred palladium catalysts for step (v-1)/(v'-1). Chinese name 钯/碳, formula Pd/C as printed."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "palladium(II) trifluoroacetate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "三氟乙酸钯",
+      "Pd(OTFA)2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "Listed in claim 3 among the more preferred palladium catalysts for step (v-1)/(v'-1). Chinese name 三氟乙酸钯, formula Pd(OTFA)2 as printed."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "bis(dibenzylideneacetone)palladium(0)",
+    "identifier_type": "iupac",
+    "aliases": [
+      "双二亚苄基丙酮钯",
+      "Pd(dba)2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst",
+      "functional_group:ketone"
+    ],
+    "notes": "Listed in claim 3 among the more preferred palladium catalysts for step (v-1)/(v'-1). Chinese name 双二亚苄基丙酮钯, formula Pd(dba)2 as printed."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1,3-bis(diphenylphosphino)propane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,3-(双二苯基膦)丙烷",
+      "dppp"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "ligand",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:ligand"
+    ],
+    "notes": "Named in claim 3 as a preferred 磷配体 (phosphine ligand) for the palladium catalysed step. Printed as 1,3-(双二苯基膦)丙烷; the bracket in the Chinese sits one character left of where the English name puts it, but the compound named is unambiguous."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1,4-bis(diphenylphosphino)butane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,4-双(二苯基膦)丁烷",
+      "dppb"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "ligand",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:ligand"
+    ],
+    "notes": "Named in claim 3 as a preferred 磷配体 (phosphine ligand) for the palladium catalysed step."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+    "identifier_type": "iupac",
+    "aliases": [
+      "双[(4-N,N-二甲氨基)苯基]二叔丁基膦"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "ligand",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:ligand"
+    ],
+    "notes": "Named in claim 3 as a preferred 磷配体 (phosphine ligand) for the palladium catalysed step. The full name runs through two bracket pairs; it is bis-aryl, not the mono-aryl di-tert-butyl(4-dimethylaminophenyl)phosphine."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "toluene",
+    "identifier_type": "iupac",
+    "aliases": [
+      "甲苯"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "chemical_family:toluene"
+    ],
+    "notes": "Listed in claim 4 among the reaction solvents, one or more of which may be used."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "1,4-dioxane",
+    "identifier_type": "iupac",
+    "aliases": [
+      "1,4-二氧六环"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:ether"
+    ],
+    "notes": "Listed in claim 4 among the reaction solvents, one or more of which may be used."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "ethylene glycol dimethyl ether",
+    "identifier_type": "iupac",
+    "aliases": [
+      "乙二醇二甲醚"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:ether"
+    ],
+    "notes": "Listed in claim 4 among the reaction solvents, one or more of which may be used."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "ethylene glycol diethyl ether",
+    "identifier_type": "iupac",
+    "aliases": [
+      "乙二醇二乙醚"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:ether"
+    ],
+    "notes": "Listed in claim 4 among the reaction solvents, one or more of which may be used."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "dimethyl sulfoxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "二甲基亚砜",
+      "DMSO"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Listed in claim 4 among the reaction solvents, one or more of which may be used."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "tetrahydrofuran",
+    "identifier_type": "iupac",
+    "aliases": [
+      "四氢呋喃",
+      "THF"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "functional_group:ether"
+    ],
+    "notes": "Listed in claim 4 among the reaction solvents, one or more of which may be used."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "N,N-dimethylformamide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "N,N-二甲基甲酰胺",
+      "DMF"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent"
+    ],
+    "notes": "Listed in claim 4 among the reaction solvents, one or more of which may be used."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "bromine",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "溴素",
+      "Br2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:corrosive",
+      "hazard:toxic"
+    ],
+    "notes": "Named in claims 6, 8 and 12 as the preferred 溴代试剂 (brominating reagent) for the benzylic bromination, and drawn as the condition Br2 over step (i)/(i') in the schemes at lines 580, 601 and 639. One merged record."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "N-bromosuccinimide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "N-溴代丁二酰亚胺",
+      "NBS"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Named in claims 6, 8 and 12 as an alternative 溴代试剂 to bromine."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "hydrogen bromide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "溴化氢"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:corrosive"
+    ],
+    "notes": "Named in claims 6, 8 and 12 as part of the alternative brominating combination 溴化氢与双氧水 (hydrogen bromide with hydrogen peroxide)."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "hydrogen peroxide",
+    "identifier_type": "iupac",
+    "aliases": [
+      "双氧水",
+      "H2O2"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "oxidant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "Two uses, merged into one record: named in claims 6, 8 and 12 as the peroxide of the 溴化氢与双氧水 brominating combination, and drawn as the condition H2O2 over the sulfide-to-sulfone step (ii)/(ii') in the schemes at lines 589, 601 and 641."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CF3CH2ONa",
+    "identifier_type": "formula",
+    "aliases": [
+      "sodium 2,2,2-trifluoroethoxide"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:alkoxide",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "Claims 6, 8 and 12 define CF3CH2OM of step (iv') as either CF3CH2ONa or CF3CH2OK. Identifier kept as the formula the claims print; no Chinese or English name is given."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CF3CH2OK",
+    "identifier_type": "formula",
+    "aliases": [
+      "potassium 2,2,2-trifluoroethoxide"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:alkoxide",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "The second of the two alternatives claims 6, 8 and 12 give for CF3CH2OM."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CF3CH2OM",
+    "identifier_type": "formula",
+    "aliases": [],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:trifluoromethyl"
+    ],
+    "notes": "The etherification reagent as printed in the schemes (lines 593, 601, 645) and in the prose of claims 6, 8 and 12. M is a variable, defined in the same claims as Na or K, so this string names no single compound; the two defined forms are separate records."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CO",
+    "identifier_type": "formula",
+    "aliases": [
+      "carbon monoxide"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "hazard:toxic"
+    ],
+    "notes": "DRAWING-ONLY: drawn as a condition over the carbonylation steps (v-1)/(v'-1) in the schemes at lines 561, 563, 618 and 620. The prose of the claims never names it. It supplies the carbonyl carbon, so the role is reactant."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "H2O",
+    "identifier_type": "formula",
+    "aliases": [
+      "water"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent"
+    ],
+    "notes": "DRAWING-ONLY: drawn with CO as a condition over the carbonylation to the benzoic acid in the schemes at lines 561 and 618. Named nowhere in the claim prose."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CSc1cccc(Cl)c1C",
+    "identifier_type": "smiles",
+    "aliases": [
+      "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+      "2-chloro-6-(methylthio)toluene",
+      "QNMYJMZVOFQIRD-UHFFFAOYSA-N"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:aryl_sulfide",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "DRAWING-ONLY: read from the [IMAGE_EXTRACT] schemes in this section as reactant of step (i)/(i'), the first material of the drawn route. The claim prose never names it. Identifier kept as the SMILES that was read, the name it corresponds to is carried as an alias."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CSc1ccc(Br)c(Cl)c1C",
+    "identifier_type": "smiles",
+    "aliases": [
+      "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+      "VEKIRHPKUFHYGT-UHFFFAOYSA-N"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:aryl_sulfide",
+      "functional_group:halide_bromo",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "DRAWING-ONLY: read from the [IMAGE_EXTRACT] schemes in this section as product of step (i)/(i') and reactant of step (ii)/(ii'). The claim prose never names it. Identifier kept as the SMILES that was read, the name it corresponds to is carried as an alias."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "identifier_type": "smiles",
+    "aliases": [
+      "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+      "KHLKTMJARYUXKF-UHFFFAOYSA-N"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:aryl_sulfone",
+      "functional_group:sulfone",
+      "functional_group:halide_bromo",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "DRAWING-ONLY: read from the [IMAGE_EXTRACT] schemes in this section as product of step (ii)/(ii') and reactant of step (iii)/(iii'). The claim prose never names it. Identifier kept as the SMILES that was read, the name it corresponds to is carried as an alias."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "identifier_type": "smiles",
+    "aliases": [
+      "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+      "GXQKMZQAWXBWBB-UHFFFAOYSA-N"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:aryl_sulfone",
+      "functional_group:sulfone",
+      "functional_group:halide_bromo",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "DRAWING-ONLY: read from the [IMAGE_EXTRACT] schemes in this section as product of step (iii)/(iii') and reactant of step (iv)/(iv'). The claim prose never names it. Identifier kept as the SMILES that was read, the name it corresponds to is carried as an alias."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "identifier_type": "smiles",
+    "aliases": [
+      "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+      "VHLAIVUXGGOCMJ-UHFFFAOYSA-N"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:aryl_sulfone",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_bromo",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "DRAWING-ONLY: read from the [IMAGE_EXTRACT] schemes in this section as product of step (iv)/(iv') and the substrate carbonylated in step (v)/(v'). The claim prose never names it. Identifier kept as the SMILES that was read, the name it corresponds to is carried as an alias."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "identifier_type": "smiles",
+    "aliases": [
+      "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+      "YGMJOCQCLVNPOD-UHFFFAOYSA-N"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoic_acid",
+      "functional_group:carboxylic_acid",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "DRAWING-ONLY: read from the [IMAGE_EXTRACT] schemes in this section as product of step (v)/(v-1), the hydroxycarbonylation. The claim prose never names it. Identifier kept as the SMILES that was read, the name it corresponds to is carried as an alias."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "identifier_type": "smiles",
+    "aliases": [
+      "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+      "YGWVWXIUXUSKSY-UHFFFAOYSA-N"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:benzoyl_chloride",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "DRAWING-ONLY: read from the [IMAGE_EXTRACT] schemes in this section as the acid chloride drawn between the benzoic acid and the enol ester in step (vi). The claim prose never names it. Identifier kept as the SMILES that was read, the name it corresponds to is carried as an alias."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "identifier_type": "smiles",
+    "aliases": [
+      "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+      "OBAMHTWSCBVWGB-UHFFFAOYSA-N",
+      "中间体酯化合物"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate",
+      "chemical_family:aryl_sulfone",
+      "functional_group:ester",
+      "functional_group:ketone",
+      "functional_group:sulfone",
+      "functional_group:ether",
+      "functional_group:trifluoromethyl",
+      "functional_group:halide_chloro"
+    ],
+    "notes": "DRAWING-ONLY: read from the [IMAGE_EXTRACT] schemes in this section as the enol ester that rearranges to tembotrione; this is the 中间体酯化合物 (intermediate ester compound) claims 9 and 10 say may be isolated or carried one-pot (lines 610, 622). The claim prose never names it. Identifier kept as the SMILES that was read, the name it corresponds to is carried as an alias."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "O=C1CCCC(=O)C1",
+    "identifier_type": "smiles",
+    "aliases": [
+      "cyclohexane-1,3-dione",
+      "HJSLFCCWAKVHIW-UHFFFAOYSA-N"
+    ],
+    "resolved": true,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:starting_material",
+      "chemical_family:cyclohexanedione",
+      "functional_group:ketone"
+    ],
+    "notes": "DRAWING-ONLY: read from the [IMAGE_EXTRACT] schemes in this section as the second reactant of the one-step carbonylative esterification (v'-1). The claim prose never names it. Identifier kept as the SMILES that was read, the name it corresponds to is carried as an alias."
+  },
+  {
+    "patent_id": "WO2024109718A1",
+    "identifier": "compound of formula (A)",
+    "identifier_type": "other",
+    "aliases": [
+      "式(A)所示的化合物"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:intermediate"
+    ],
+    "notes": "The compound claimed per se in claim 11 and prepared by claim 12. It is a Markush: the [IMAGE_EXTRACT] span at line 626 that should carry the formula (A) drawing read as an empty molecule list, so the parent scaffold is not available from this section, and the four R1/R2 pairs printed at lines 630, 632, 634 and 647 cannot be expanded into complete compound names. Left unresolved rather than guessed."
+  }
+]

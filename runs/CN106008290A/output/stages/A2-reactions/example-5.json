@@ -1,0 +1,501 @@
+[
+  {
+    "patent_id": "CN106008290A",
+    "reaction_id": "Example 5_Step a",
+    "section_label": "Example 5",
+    "section_type": "experimental_example",
+    "step_index": 1,
+    "step_label": "Step a",
+    "reaction_class": "nucleophilic_substitution",
+    "reaction_class_confidence": "high",
+    "named_reaction": "Williamson ether synthesis",
+    "mechanism_type": "ionic",
+    "scale": "pilot",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "exact",
+        "value_c": 30.0,
+        "min_c": null,
+        "max_c": null
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": 5.0,
+      "reactor_type": "reactor",
+      "concentration": {
+        "value": 35.0,
+        "unit": "%",
+        "reagent": "hydrochloric acid",
+        "text": "35% hydrochloric acid"
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": null,
+      "stirring": null,
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "distil the N,N-dimethylformamide out of the reaction liquid under reduced pressure",
+        "add the residual liquid into water",
+        "adjust pH to weakly acidic with 35% hydrochloric acid",
+        "cool to crystallise",
+        "filter",
+        "wash with water",
+        "dry"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "water"
+      ],
+      "drying_agent": null,
+      "filtration": "filtered",
+      "concentration_method": "distillation under reduced pressure",
+      "ph_target": null
+    },
+    "purification": "crystallised on cooling from the aqueous residue, filtered, washed with water and dried",
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "sodium trifluoroethoxide",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 134.2,
+          "volume_ml": null,
+          "mmol": 1100.0,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged into the reactor as part of the initial charge",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "lithium hydroxide",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 28.8,
+          "volume_ml": null,
+          "mmol": 1200.0,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged into the reactor as part of the initial charge",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 318.0,
+          "volume_ml": null,
+          "mmol": 1000.0,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged into the reactor as part of the initial charge",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "N,N-dimethylformamide",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 1000.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "charged into the reactor as part of the initial charge, then distilled out under reduced pressure in the workup",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "workup_agent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 300.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "the residual liquid was added into it after the solvent was distilled off",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "hydrochloric acid",
+        "role": "acid",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added as a 35% solution until the mixture was weakly acidic",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "化合物II",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": 318.3,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": 92.0
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "sodium trifluoroethoxide",
+      "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "化合物II",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": 92.0,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": null,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "步骤a:取1.1mol(134.2g)三氟乙醇钠,1.2mol(28.8g)氢氧化锂,1.0mol(318g)2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯(化合物I),1000mL N,N-二甲基甲酰胺加入到反应器中，然后30℃保温5小时后，将反应液中的N，N-二甲基甲酰胺减压蒸除后，将残液加入300mL水中，用35％的盐酸调pH至弱酸性，冷却结晶，过滤，水洗，干燥得化合物II，称重得318.3g，收率92％。",
+    "procedure_summary": "Sodium trifluoroethoxide, lithium hydroxide and the bromomethyl methanesulfonylbenzoate ester were charged into a reactor with N,N-dimethylformamide and held with warming. The solvent was distilled off under reduced pressure, the residue was taken into water and acidified, and the product crystallised on cooling and was filtered, washed with water and dried to give compound II.",
+    "precursor_step": null,
+    "linkage_confirmed": false,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "molar_mass_inconsistent"
+    ],
+    "tags": [
+      "transformation:etherification",
+      "mechanism:ionic",
+      "named_rxn:williamson_ether_synthesis",
+      "scale:pilot",
+      "solvent_class:aprotic_polar",
+      "catalyst_class:base",
+      "workup_type:distillation",
+      "workup_type:crystallisation",
+      "purification:recrystallisation",
+      "step_role:first_step",
+      "linkage:standalone",
+      "is_one_pot:false"
+    ],
+    "notes": "Chinese heading is 步骤a, so step_label follows the document's own marker. Step count agrees with the two steps A0 estimated. The charge runs across a page break: the first part is on line 173 and its continuation on line 178; line 178 opens with a stray literal token left by the page stitch, spelling the word none, which is not patent text and has been dropped from procedure_text, which is otherwise verbatim and unabridged. molar_mass_inconsistent: the printed 1.0mol(318g) pair for 2-氯-3-溴甲基-4-甲磺基苯甲酸甲酯 implies a molar mass lower than the C10H10BrClO4S the name implies; recorded exactly as printed, nothing corrected. The arithmetic is in the provenance sidecar. The printed mass/mole pairs for sodium trifluoroethoxide and lithium hydroxide both close against their names. The product mass and yield cannot be tested against a molar mass because this section never states what 化合物II is; the label is kept as A1 recorded it, and its printed mass and the mole figure taken forward in step b come from different steps and are not a printed pair, so mass_balance_implausible is not asserted here on the strength of what could not be checked. The printed Chinese writes methylsulfonyl as 甲磺基 without 酰. DMF is printed with halfwidth commas before the page break and with fullwidth commas after it; both spellings are aliases on the A1 record. The hydrochloric acid strength is a workup figure, but conditions.concentration is the only field that holds a stated strength, so it sits there. 减压蒸除 is a workup operation and sets concentration_method, not a reaction pressure. No stirrer, atmosphere or pH number is stated, so those objects are left null rather than guessed; the pH was adjusted only to 弱酸性 (weakly acidic) with no number, so ph_target is null. No 滴加 (dropwise) addition appears anywhere in this section. There is no IMAGE_EXTRACT span in these lines, so there is no drawing evidence and no drawing flag is raised. Sections are being annotated in parallel and no prior-section reaction registry exists, so cross-section linkage is left null; Examples 1 to 5 are alternative runs of one route, not a sequence, so no cross-example precursor is implied."
+  },
+  {
+    "patent_id": "CN106008290A",
+    "reaction_id": "Example 5_Step b",
+    "section_label": "Example 5",
+    "section_type": "experimental_example",
+    "step_index": 2,
+    "step_label": "Step b",
+    "reaction_class": "acylation",
+    "reaction_class_confidence": "high",
+    "named_reaction": null,
+    "mechanism_type": "ionic",
+    "scale": "pilot",
+    "is_one_pot": false,
+    "one_pot_steps": [],
+    "conditions": {
+      "temperature": {
+        "type": "range",
+        "value_c": null,
+        "min_c": 20.0,
+        "max_c": 30.0
+      },
+      "pressure": {
+        "type": "not_specified",
+        "value_kpa": null,
+        "qualitative_text": null
+      },
+      "atmosphere": null,
+      "time_h": 15.0,
+      "reactor_type": null,
+      "concentration": {
+        "value": null,
+        "unit": null,
+        "reagent": null,
+        "text": null
+      },
+      "heating_method": null,
+      "cooling_method": null,
+      "light_source": null,
+      "stirring": null,
+      "ph_value": null,
+      "ph_target_stage": null
+    },
+    "conditions_inherited": false,
+    "workup": {
+      "steps": [
+        "wash with water",
+        "concentrate under reduced pressure",
+        "add methanol and slurry",
+        "filter",
+        "dry"
+      ],
+      "quenching_agent": null,
+      "extraction_solvent": null,
+      "extraction_count": null,
+      "extraction_volume_ml": null,
+      "washes": [
+        "water"
+      ],
+      "drying_agent": null,
+      "filtration": "filtered",
+      "concentration_method": "concentration under reduced pressure",
+      "ph_target": null
+    },
+    "purification": "slurried with added methanol, filtered and dried",
+    "process_control": {
+      "method": null,
+      "target_compound": null,
+      "threshold_pct": null,
+      "criterion": null
+    },
+    "byproduct_recovery": null,
+    "safety_notes": [],
+    "molar_ratio_text": null,
+    "selectivity": {
+      "regio": null,
+      "stereo": null,
+      "chemo": null
+    },
+    "compounds": [
+      {
+        "identifier": "化合物II",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": 1000.0,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "taken from the preceding reaction and dissolved in cyclohexane before the other reagents were added",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "cyclohexane",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": 1000.0,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "used to dissolve compound II at the start of the step",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "1,3-cyclohexanedione",
+        "role": "reactant",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 106.7,
+          "volume_ml": null,
+          "mmol": 1100.0,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added over half an hour at 20 to 30 C as a mixture with CDI and potassium carbonate",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "CDI",
+        "role": "reagent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 291.6,
+          "volume_ml": null,
+          "mmol": 1800.0,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added over half an hour at 20 to 30 C as a mixture with 1,3-cyclohexanedione and potassium carbonate",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "potassium carbonate",
+        "role": "base",
+        "is_product": false,
+        "quantity": {
+          "mass_g": 690.0,
+          "volume_ml": null,
+          "mmol": 5000.0,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added over half an hour at 20 to 30 C as a mixture with 1,3-cyclohexanedione and CDI",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "water",
+        "role": "workup_agent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "used to wash the reaction mixture; no amount stated",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "methanol",
+        "role": "solvent",
+        "is_product": false,
+        "quantity": {
+          "mass_g": null,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": null
+        },
+        "addition_profile": "added to slurry the concentrated crude product; no amount stated",
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": null,
+        "purity_method": null
+      },
+      {
+        "identifier": "tembotrione",
+        "role": "product",
+        "is_product": true,
+        "quantity": {
+          "mass_g": 355.5,
+          "volume_ml": null,
+          "mmol": null,
+          "equivalents": null,
+          "yield_pct": 83.9
+        },
+        "addition_profile": null,
+        "ms_mz": null,
+        "ms_type": null,
+        "purity_pct": 96.3,
+        "purity_method": null
+      }
+    ],
+    "reactant_names": [
+      "化合物II",
+      "1,3-cyclohexanedione"
+    ],
+    "reactant_smiles": null,
+    "smiles_source": null,
+    "product_name": "tembotrione",
+    "product_smiles": null,
+    "product_smiles_source": null,
+    "product_yield_pct": 83.9,
+    "product_ms_mz": null,
+    "product_ms_type": null,
+    "product_purity_pct": 96.3,
+    "product_purity_method": null,
+    "canonical_rxn": null,
+    "procedure_text": "步骤b：取1mol上述反应所得的化合物II，溶解在1000mL的环己烷中，然后在20-30℃温度条件下，半小时内加入含1.1mol(106.7g)1，3-环己二酮(化合物III)和1.8mol(291.6g)缩合剂CDI以及5mol(690g)碳酸钾，再在20-30℃温度条件下搅拌反应15小时，然后经过水洗、减压浓缩、加甲醇打浆、过滤、干燥得到成品环磺酮(化合物IV)355.5g，纯度96.3％，收率83.9％。",
+    "procedure_summary": "Compound II from the preceding step was dissolved in cyclohexane, then the cyclohexanedione, the condensing agent CDI and potassium carbonate were added over a short period at the stated temperature and the mixture was stirred at that temperature. It was then washed with water, concentrated under reduced pressure, slurried with added methanol, filtered and dried to give tembotrione.",
+    "precursor_step": "Step a",
+    "linkage_confirmed": true,
+    "cross_reference_unresolved": false,
+    "non_synthetic": false,
+    "is_complete": false,
+    "validation_flags": [
+      "molar_mass_inconsistent",
+      "mass_balance_implausible"
+    ],
+    "tags": [
+      "transformation:acylation",
+      "mechanism:ionic",
+      "scale:pilot",
+      "solvent_class:hydrocarbon",
+      "catalyst_class:base",
+      "workup_type:filtration",
+      "workup_type:trituration",
+      "purification:trituration",
+      "step_role:final_step",
+      "linkage:precursor_linked",
+      "is_one_pot:false"
+    ],
+    "notes": "Chinese heading is 步骤b. Classed as acylation: the 1,3-dione is C-acylated by the carboxyl-bearing compound II activated with the condensing agent CDI, giving the 2-aroylcyclohexane-1,3-dione tembotrione. The activation and the acylation are not separated by any workup, and the prose describes one charge, one addition and one stirring period, so is_one_pot is false rather than a one-pot pair of transformations; the printed temperature range covers both the addition and the stirring that follows, so there is no question which transformation it describes. The half-hour addition is an addition time and sits in each added reagent's addition_profile, not in time_h; time_h is the stirring period the text gives in hours. Solvent read character by character: 环己烷 (cyclohexane) is the solvent and 环己二酮 (1,3-cyclohexanedione) is the reactant, and both appear on the same printed line. molar_mass_inconsistent: the printed 1.1mol(106.7g) pair for 1，3-环己二酮 implies a molar mass lower than C6H8O2; the printed pairs for CDI and potassium carbonate both close. mass_balance_implausible: the printed product mass and the printed yield disagree for tembotrione, C17H16ClF3O6S, on the stated one mol of compound II, and correcting for the printed purity moves them further apart. Both numbers are recorded exactly as printed and nothing is changed; the arithmetic is in the provenance sidecar. 环磺酮 is tembotrione, not sulcotrione (磺草酮), which is a different compound. 化合物II is a local label this section never defines; kept as A1 recorded it. Linkage is confirmed by the text itself, 上述反应所得的化合物II, and the identifier matches the step a product. No 滴加 (dropwise) addition appears in this step; the addition is 半小时内加入, within half an hour. No stirrer type, atmosphere, reactor or pH is stated. 减压浓缩 is a workup operation and sets concentration_method, not a reaction pressure. Purity is printed with no method, so product_purity_method is null. No IMAGE_EXTRACT span in these lines, so no drawing evidence and no drawing flag. No prior-section registry exists, so cross-section linkage is left null."
+  }
+]

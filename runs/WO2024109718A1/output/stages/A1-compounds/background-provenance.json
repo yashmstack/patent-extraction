@@ -1,0 +1,235 @@
+[
+  {
+    "identifier": "tembotrione",
+    "source_lines": [
+      61
+    ],
+    "quote_zh": "环磺酮是一种三酮类除草剂"
+  },
+  {
+    "identifier": "dichlorotoluene",
+    "source_lines": [
+      67
+    ],
+    "quote_zh": "上述方法中所用的原料二氯甲苯在反应时选择性不好"
+  },
+  {
+    "identifier": "3-chloro-2-methylaniline",
+    "source_lines": [
+      74
+    ],
+    "quote_zh": "\"smiles\": \"Cc1c(N)cccc1Cl\""
+  },
+  {
+    "identifier": "CH3SNa",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "{\"text\": \"CH3SNa\"}"
+  },
+  {
+    "identifier": "NaNO2",
+    "source_lines": [
+      74
+    ],
+    "quote_zh": "{\"text\": \"NaNO2\"}"
+  },
+  {
+    "identifier": "HCl",
+    "source_lines": [
+      74
+    ],
+    "quote_zh": "{\"text\": \"HCl\"}"
+  },
+  {
+    "identifier": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"CSc1cccc(Cl)c1C\""
+  },
+  {
+    "identifier": "acetyl chloride",
+    "source_lines": [
+      76
+    ],
+    "quote_zh": "乙酰氯发生的F-C反应刺激性大"
+  },
+  {
+    "identifier": "aluminium trichloride",
+    "source_lines": [
+      76
+    ],
+    "quote_zh": "产生大量含有催化剂三氯化铝的废水"
+  },
+  {
+    "identifier": "1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"CSc1ccc(C(C)=O)c(Cl)c1C\""
+  },
+  {
+    "identifier": "H2O2",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "{\"text\": \"H2O2\"}"
+  },
+  {
+    "identifier": "1-[2-chloro-4-(methanesulfonyl)-3-methylphenyl]ethan-1-one",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl\""
+  },
+  {
+    "identifier": "sodium hypochlorite",
+    "source_lines": [
+      76
+    ],
+    "quote_zh": "后面的次氯酸钠卤仿反应也是在水相进行"
+  },
+  {
+    "identifier": "2-chloro-4-(methanesulfonyl)-3-methylbenzoic acid",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl\""
+  },
+  {
+    "identifier": "CH3OH",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "{\"text\": \"CH3OH\"}"
+  },
+  {
+    "identifier": "methyl 2-chloro-4-(methanesulfonyl)-3-methylbenzoate",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl\""
+  },
+  {
+    "identifier": "NBS",
+    "source_lines": [
+      65
+    ],
+    "quote_zh": "{\"text\": \"NBS\"}"
+  },
+  {
+    "identifier": "Br2",
+    "source_lines": [
+      74
+    ],
+    "quote_zh": "{\"text\": \"Br2\"}"
+  },
+  {
+    "identifier": "methyl 3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzoate",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl\""
+  },
+  {
+    "identifier": "CF3CH2ONa",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "{\"text\": \"CF3CH2ONa\"}"
+  },
+  {
+    "identifier": "methyl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl\""
+  },
+  {
+    "identifier": "NaOH",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "{\"text\": \"NaOH\"}"
+  },
+  {
+    "identifier": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F\""
+  },
+  {
+    "identifier": "(COCl)2",
+    "source_lines": [
+      65
+    ],
+    "quote_zh": "{\"text\": \"(COCl)2\"}"
+  },
+  {
+    "identifier": "SOCl2",
+    "source_lines": [
+      74
+    ],
+    "quote_zh": "{\"text\": \"SOCl2\"}"
+  },
+  {
+    "identifier": "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F\""
+  },
+  {
+    "identifier": "cyclohexane-1,3-dione",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "cyclohexane-1,3-dione"
+  },
+  {
+    "identifier": "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+    "source_lines": [
+      65,
+      74
+    ],
+    "quote_zh": "\"smiles\": \"CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F\""
+  },
+  {
+    "identifier": "卤仿",
+    "source_lines": [
+      76
+    ],
+    "quote_zh": "反应过程中会生成卤仿"
+  },
+  {
+    "identifier": "sodium chloride",
+    "source_lines": [
+      76
+    ],
+    "quote_zh": "产生大量含有氯化钠的废水"
+  },
+  {
+    "identifier": "water",
+    "source_lines": [
+      76
+    ],
+    "quote_zh": "也是在水相进行"
+  }
+]
