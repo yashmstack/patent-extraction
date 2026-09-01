@@ -5,8 +5,7 @@
     "identifier_type": "iupac",
     "aliases": [
       "2-氯-3-烷氧基甲基-4-甲磺酰基苯甲酸",
-      "2-chloro-3-alkoxymethyl-4-methanesulfonylbenzoic acid",
-      "一种2-氯-3-烷氧基甲基-4-甲磺酰基苯甲酸的制备方法"
+      "2-chloro-3-alkoxymethyl-4-methanesulfonylbenzoic acid"
     ],
     "resolved": false,
     "unresolved_reference": false,
@@ -257,9 +256,9 @@
       },
       {
         "method": "hplc",
-        "value": null,
-        "unit": null,
-        "conditions": null,
+        "value": 97.1,
+        "unit": "%",
+        "conditions": "quantitative assay of the target compound content by HPLC",
         "raw_text": "HPLC定量得目标化合物2-氯-3-(2,2,2-三氟乙氧基)甲基-4-甲磺酰基苯甲酸含量为97.1％"
       },
       {
@@ -274,7 +273,7 @@
         "value": 95.8,
         "unit": "%",
         "conditions": "quantitative assay of the isolated product",
-        "raw_text": "HPLC assay gave a content of the target compound of 95.8%"
+        "raw_text": "HPLC定量得目标化合物2-氯-3-(2,2,2-三氟乙氧基)甲基-4-甲磺酰基苯甲酸含量为95.8％"
       },
       {
         "method": "hplc",
@@ -288,13 +287,13 @@
         "value": 98.2,
         "unit": "%",
         "conditions": "quantitative assay of the isolated product",
-        "raw_text": "HPLC assay gave a content of the target compound 2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid of 98.2 percent"
+        "raw_text": "HPLC定量得目标化合物2-氯-3-(2,2,2-三氟乙氧基)甲基-4-甲磺酰基苯甲酸含量为98.2％"
       },
       {
         "method": "hplc",
-        "value": null,
-        "unit": null,
-        "conditions": null,
+        "value": 96.0,
+        "unit": "%",
+        "conditions": "quantitative assay of the target compound content by HPLC",
         "raw_text": "HPLC定量得目标化合物2-氯-3-(2,2,2-三氟乙氧基)甲基-4-甲磺酰基苯甲酸含量为96.0％"
       },
       {
@@ -306,9 +305,9 @@
       },
       {
         "method": "hplc",
-        "value": null,
-        "unit": null,
-        "conditions": null,
+        "value": 98.2,
+        "unit": "%",
+        "conditions": "quantitative assay of the target compound content by HPLC",
         "raw_text": "HPLC定量得目标化合物2-氯-3-(2,2,2-三氟乙氧基)甲基-4-甲磺酰基苯甲酸含量为98.2％"
       },
       {
@@ -417,17 +416,24 @@
       },
       {
         "method": "hplc",
-        "value": null,
-        "unit": null,
+        "value": 97.0,
+        "unit": "%",
         "conditions": "quantification of the target compound content in the isolated product",
         "raw_text": "HPLC定量得目标化合物2-氯-3-[(RS)-四氢呋喃-2-基甲氧基甲基]-4-甲磺酰基苯甲酸含量为97.0％"
       },
       {
         "method": "hplc",
-        "value": null,
-        "unit": null,
+        "value": 95.5,
+        "unit": "%",
         "conditions": "quantification of the target compound content in the isolated product",
         "raw_text": "HPLC定量得目标化合物2-氯-3-[(RS)-四氢呋喃-2-基甲氧基甲基]-4-甲磺酰基苯甲酸含量为95.5％"
+      },
+      {
+        "method": "hplc",
+        "value": 97.0,
+        "unit": "%",
+        "conditions": "quantification of the target compound content in the isolated product",
+        "raw_text": "HPLC定量得目标化合物2-氯-3-[(RS)-四氢呋喃-2-基甲氧基甲基]-4-甲磺酰基苯甲酸含量为97.0％"
       }
     ],
     "purity_pct": 97.0,
@@ -467,7 +473,7 @@
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": null,
+    "analytics": [],
     "purity_pct": null,
     "purity_method": null,
     "tags": [
@@ -499,7 +505,7 @@
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": null,
+    "analytics": [],
     "purity_pct": null,
     "purity_method": null,
     "tags": [
@@ -531,7 +537,26 @@
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": [],
+    "analytics": [
+      {
+        "method": null,
+        "value": null,
+        "value_min": 3.0,
+        "value_max": 5.0,
+        "unit": "%",
+        "conditions": "normalised proportion of this impurity in the product of the PRIOR-ART route, where R is trifluoroethyl; the patent names no analytical method for this figure",
+        "raw_text": "当R为三氟乙基时该杂质归一比约3～5％"
+      },
+      {
+        "method": null,
+        "value": null,
+        "value_min": 8.0,
+        "value_max": 12.0,
+        "unit": "%",
+        "conditions": "normalised proportion of this impurity in the product of the PRIOR-ART route, where R is 2-tetrahydrofurylmethyl, stated as an upper reach; the patent names no analytical method for this figure",
+        "raw_text": "R为2-四氢呋喃甲基时该杂质归一比可达8～12％"
+      }
+    ],
     "purity_pct": null,
     "purity_method": null,
     "tags": [
@@ -568,7 +593,7 @@
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": null,
+    "analytics": [],
     "purity_pct": null,
     "purity_method": null,
     "tags": [
@@ -599,7 +624,7 @@
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": null,
+    "analytics": [],
     "purity_pct": null,
     "purity_method": null,
     "tags": [
@@ -632,7 +657,7 @@
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": null,
+    "analytics": [],
     "purity_pct": null,
     "purity_method": null,
     "tags": [
@@ -663,7 +688,7 @@
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": null,
+    "analytics": [],
     "purity_pct": null,
     "purity_method": null,
     "tags": [
@@ -1531,7 +1556,7 @@
         "value": 92.5,
         "unit": "%",
         "conditions": "in-process control",
-        "raw_text": "in-process HPLC control gave a normalised content of the sodium salt of 92.5%"
+        "raw_text": "液相色谱中控2-氯-3-溴甲基-4-甲磺酰基苯甲酸钠盐归一含量为92.5％"
       },
       {
         "method": "hplc",
@@ -1639,9 +1664,9 @@
     "analytics": [
       {
         "method": "hplc",
-        "value": null,
-        "unit": null,
-        "conditions": null,
+        "value": 98.2,
+        "unit": "%",
+        "conditions": "in-process liquid chromatography control, normalised content",
         "raw_text": "液相色谱中控2-氯-3-溴甲基-4-甲磺酰基苯甲酸钾盐归一含量为98.2％"
       },
       {
@@ -1656,20 +1681,20 @@
         "value": 98.3,
         "unit": "%",
         "conditions": "in-process control, normalised content",
-        "raw_text": "liquid chromatography in-process control gives a normalised content of 98.3 percent for the potassium 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate"
+        "raw_text": "液相色谱中控2-氯-3-溴甲基-4-甲磺酰基苯甲酸钾盐归一含量为98.3％"
       },
       {
         "method": "hplc",
-        "value": null,
-        "unit": null,
-        "conditions": null,
+        "value": 97.3,
+        "unit": "%",
+        "conditions": "in-process liquid chromatography control, normalised content",
         "raw_text": "液相色谱中控2-氯-3-溴甲基-4-甲磺酰基苯甲酸钾盐归一含量为97.3％"
       },
       {
         "method": "hplc",
-        "value": null,
-        "unit": null,
-        "conditions": null,
+        "value": 98.0,
+        "unit": "%",
+        "conditions": "in-process liquid chromatography control, normalised content",
         "raw_text": "液相色谱中控2-氯-3-溴甲基-4-甲磺酰基苯甲酸钾盐归一含量为98.0％"
       }
     ],
@@ -1816,7 +1841,7 @@
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": null,
+    "analytics": [],
     "purity_pct": null,
     "purity_method": null,
     "tags": [
@@ -1850,7 +1875,7 @@
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": null,
+    "analytics": [],
     "purity_pct": null,
     "purity_method": null,
     "tags": [
@@ -1883,7 +1908,7 @@
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": null,
+    "analytics": [],
     "purity_pct": null,
     "purity_method": null,
     "tags": [
@@ -1892,5 +1917,422 @@
     "notes": "Named in [0046] as an impurity that increases greatly, together with the benzyl alcohol impurity, if the step (2) addition order is reversed. The section never defines it or gives it a structure, so it is left unresolved and marked as an unresolved reference. It is kept as its own record and not merged with the dibenzyl ether type compounds of [0024]: the two are plausibly the same thing, but the patent nowhere says so and merging them would be an inference.",
     "id": "CN112645853A_double-attachment impurity",
     "compound_uuid": "9a1e5bac-1e3c-53b7-aeab-8393770f3057"
+  },
+  {
+    "patent_id": "CN112645853A",
+    "identifier": "alkali metal alkoxide",
+    "identifier_type": "other",
+    "aliases": [
+      "碱金属醇盐"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:alkali_metal_alkoxide",
+      "functional_group:alkoxide"
+    ],
+    "notes": "Claim 1 (line 47) gives step (2) two reagent systems: the benzoate salt with an alcohol in the presence of a basic substance, OR the benzoate salt with an alkali metal alkoxide. Claim 7 (lines 77-81) gives that second route its own molar ratio of 1:(1.2 to 1.5), says the alkoxide is obtained by reacting an alcohol with an alkali metal, and names the alkali metal as sodium or potassium. The phrase appears on 11 lines across the abstract, claims and summary. A class term, not one specific compound, so resolved is false - the four specific alkoxides this patent actually prepares are separate records. commercially_available false: claim 7 states it is prepared in situ from an alcohol and an alkali metal, and every example that uses this route makes it in the pot.",
+    "id": "CN112645853A_alkali metal alkoxide",
+    "compound_uuid": "e3610482-c4d2-5ed1-bfbd-84706690c3cd"
+  },
+  {
+    "patent_id": "CN112645853A",
+    "identifier": "alcohol",
+    "identifier_type": "other",
+    "aliases": [
+      "醇"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reactant",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:alcohol",
+      "functional_group:alcohol"
+    ],
+    "notes": "Claim 1 (line 47): the benzoate salt is reacted with an alcohol in the presence of a basic substance. Claim 5 (line 65) narrows it to 2,2,2-trifluoroethanol or 2-tetrahydrofuranmethanol and claim 5 para 2 gives the salt-to-alcohol molar ratio. Claim 7 (line 79) also uses it for the alkoxide preparation. A class term, so resolved is false; the two specific alcohols are separate records. commercially_available true: both alcohols claim 5 names are charged as bought material, no step of this patent prepares them.",
+    "id": "CN112645853A_alcohol",
+    "compound_uuid": "baad94da-93de-5bda-a348-61c7a8915189"
+  },
+  {
+    "patent_id": "CN112645853A",
+    "identifier": "alkali metal",
+    "identifier_type": "other",
+    "aliases": [
+      "碱金属"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Claims",
+    "section_type": "claims",
+    "is_section_product": false,
+    "commercially_available": true,
+    "role": "reagent",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "chemical_family:alkali_metal"
+    ],
+    "notes": "Claim 7 (line 81): the said alkali metal is sodium metal or potassium metal, used to make the alkali metal alkoxide from an alcohol. Both reaction schemes also carry it as the symbol M - line 167 says M represents an alkali metal for step (1) and line 179 repeats it for step (2). A class term, so resolved is false; sodium metal and potassium metal are separate records. commercially_available true: both metals are charged as bought material.",
+    "id": "CN112645853A_alkali metal",
+    "compound_uuid": "654a61d1-c188-56dd-bbe4-c96293755b6b"
+  },
+  {
+    "patent_id": "CN112645853A",
+    "identifier": "base",
+    "identifier_type": "other",
+    "aliases": [
+      "碱"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "base",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:base"
+    ],
+    "notes": "The bare character 碱 as the prior-art route prints it: [0007] at line 137 says the ester is reacted with the alcohol 在碱作用下, under the action of a base, and the scheme at line 143 draws it on both arrows - as the sole condition of arrow 1 and as stage 1 of arrow 2. The cited prior art names no specific base anywhere. Distinct from the record 'basic substance' (碱性物质), which is the phrase the claims and summary of THIS invention use. resolved false: no identity and no counter-ion is given. commercially_available false: it cannot be asserted for an unidentified base.",
+    "id": "CN112645853A_base",
+    "compound_uuid": "8563aa39-f682-5aa0-8762-f92d2a653c38"
+  },
+  {
+    "patent_id": "CN112645853A",
+    "identifier": "acid",
+    "identifier_type": "other",
+    "aliases": [
+      "酸"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "acid",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:acid",
+      "compound_class:workup_agent"
+    ],
+    "notes": "The bare character 酸 drawn as stage 2 of the second arrow of the prior-art scheme at line 143, which reads 1) 碱 2) 酸. The prose of [0007] does not mention an acid at all, which is why Background_Step 2 in reactions.json carries reagent_drawn_not_written. Left GENERIC deliberately: the hydrochloric acid this patent names at [0053] line 246 belongs to step (2) of the INVENTION, and writing it in here would import a condition the cited prior art never states. resolved false.",
+    "id": "CN112645853A_acid",
+    "compound_uuid": "4cb556d6-8be9-5345-8d87-bf32fd799ea8"
+  },
+  {
+    "patent_id": "CN112645853A",
+    "identifier": "ROH",
+    "identifier_type": "other",
+    "aliases": [
+      "ROH"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:alcohol"
+    ],
+    "notes": "The alcohol placeholder as drawn on the arrows: line 143 in the prior-art scheme and line 176 in the summary's step (2) equation, where the conditions read ROH、碱. R is defined at [0009] line 145 and at [0022] line 179 as 2,2,2-trifluoroethyl or 2-tetrahydrofurylmethyl, so the placeholder stands for one of the two specific alcohols without the drawing committing to either. A symbol rather than a named substance, so resolved is false and unresolved_reference is true.",
+    "id": "CN112645853A_ROH",
+    "compound_uuid": "67e7704e-77ef-54b5-b46c-5cdf89311f71"
+  },
+  {
+    "patent_id": "CN112645853A",
+    "identifier": "ROM",
+    "identifier_type": "other",
+    "aliases": [
+      "或ROM"
+    ],
+    "resolved": false,
+    "unresolved_reference": true,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "functional_group:alkoxide"
+    ],
+    "notes": "The alkali metal alkoxide placeholder drawn on the step (2) arrow at line 176, where the conditions read ROH、碱 or 或ROM - the two reagent systems of claim 1 shown as alternatives on one arrow. [0022] line 179 defines M as an alkali metal and R as 2,2,2-trifluoroethyl or 2-tetrahydrofurylmethyl, so ROM stands for any of the four specific alkoxides this patent prepares. A symbol rather than a named substance, so resolved is false and unresolved_reference is true.",
+    "id": "CN112645853A_ROM",
+    "compound_uuid": "eb32b2e4-7344-597b-b698-311e9485db20"
+  },
+  {
+    "patent_id": "CN112645853A",
+    "identifier": "HPPD",
+    "identifier_type": "abbreviation",
+    "aliases": [
+      "对羟基苯基丙酮酸双氧化酶",
+      "4-hy-droxyphenylpyruvate dioxygenase"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "other",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:enzyme"
+    ],
+    "notes": "[0002] at line 125 names HPPD as one of the most important herbicide targets, and says HPPD inhibitor herbicides account for 5.8 percent of the global herbicide market. An ENZYME, a protein, not a chemical compound - it is the biological target the herbicides act on, and it takes no part in any reaction in this patent. Recorded because the patent names it, but resolved is false and no structure applies. Whether an enzyme belongs in a compound file is a convention question the pipeline has no rule for; logged as C-008. The patent prints the English name with a typesetting hyphen inside the word, 4-hy-droxyphenylpyruvate dioxygenase; that is transcribed as printed and the corrected spelling is deliberately NOT added as an alias, because it appears nowhere in the document, not even in the translation line.",
+    "id": "CN112645853A_HPPD",
+    "compound_uuid": "54d31a2b-6a76-509e-af57-3872368a417e"
+  },
+  {
+    "patent_id": "CN112645853A",
+    "identifier": "4-hydroxyphenylpyruvate",
+    "identifier_type": "iupac",
+    "aliases": [
+      "对羟基苯基丙酮酸"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "other",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:other"
+    ],
+    "notes": "Appears at line 125 ONLY as part of the full name of the HPPD enzyme, 对羟基苯基丙酮酸双氧化酶, 4-hydroxyphenylpyruvate dioxygenase. It is a real compound - the enzyme's substrate - but this patent never mentions it as a substance in its own right, never charges it and never draws it. resolved false: not resolved here because the name is not used as a compound reference on the page.",
+    "id": "CN112645853A_4-hydroxyphenylpyruvate",
+    "compound_uuid": "a086ad32-7f15-5a42-a51e-d33c843bd151"
+  },
+  {
+    "patent_id": "CN112645853A",
+    "identifier": "benzyl bromide",
+    "identifier_type": "trivial_name",
+    "aliases": [
+      "苄溴",
+      "苄溴基团"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "other",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "chemical_family:benzyl_halide",
+      "functional_group:halide_bromo"
+    ],
+    "notes": "The patent calls this a GROUP, not a substance. [0010] at line 147 says the methanol reacts with 苄溴基团, the benzyl bromide group, of the starting material, and [0024] at line 182 calls it 活性基团苄溴, the active group benzyl bromide, that is sensitive to base. It is the CH2Br on the substrate ring, never a separate charge. Recorded because the patent names it, but resolved is false: resolving it to free benzyl bromide, C7H7Br, would assert a substance the patent never uses. Compare the sibling error on 'benzyl alcohol', where 苄醇 WAS resolved to the free molecule and is wrong for the same reason.",
+    "id": "CN112645853A_benzyl bromide",
+    "compound_uuid": "a37bed33-3379-54fc-becb-371f59bd41ec"
+  },
+  {
+    "patent_id": "CN112645853A",
+    "identifier": "triketones",
+    "identifier_type": "other",
+    "aliases": [
+      "三酮类"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "other",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:active_ingredient",
+      "chemical_family:triketone"
+    ],
+    "notes": "[0002] at line 125 lists the three structural families of HPPD inhibitor herbicides: 三酮类 triketones, 吡唑酮类 pyrazolones and 异噁唑酮类 isoxazolones, and says tembotrione and tefuryltrione are HPPD triketones. A structural family, not a compound, so resolved is false. Background context only - no member of this family other than the three named herbicides appears anywhere in the patent.",
+    "id": "CN112645853A_triketones",
+    "compound_uuid": "c0ccb0c2-ea6f-5c94-b6cd-2f1d19bf7769"
+  },
+  {
+    "patent_id": "CN112645853A",
+    "identifier": "pyrazolones",
+    "identifier_type": "other",
+    "aliases": [
+      "吡唑酮类"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "other",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:active_ingredient",
+      "chemical_family:pyrazolone"
+    ],
+    "notes": "[0002] at line 125, in the same sentence as triketones and isoxazolones, as one of the three structural families of HPPD inhibitor herbicides. A structural family, not a compound, so resolved is false. No member of this family appears anywhere in the patent.",
+    "id": "CN112645853A_pyrazolones",
+    "compound_uuid": "ac5c5705-3fbc-5002-a00f-41ef0d20d8f2"
+  },
+  {
+    "patent_id": "CN112645853A",
+    "identifier": "isoxazolones",
+    "identifier_type": "other",
+    "aliases": [
+      "异噁唑酮类"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "other",
+    "quantity": null,
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:active_ingredient",
+      "chemical_family:isoxazolone"
+    ],
+    "notes": "[0002] at line 125, in the same sentence as triketones and pyrazolones, as one of the three structural families of HPPD inhibitor herbicides. A structural family, not a compound, so resolved is false. No member of this family appears anywhere in the patent.",
+    "id": "CN112645853A_isoxazolones",
+    "compound_uuid": "f06cc363-497a-50bf-a61f-afb55d845184"
   }
 ]

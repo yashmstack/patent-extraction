@@ -5,6 +5,7 @@
       137,
       142,
       143,
+      145,
       147
     ],
     "quote_zh": "以2-氯-3-溴甲基-4-甲磺酰基苯甲酸甲酯为原料，在碱作用下与相应的醇或直接与相应的醇钠反应制备得到目标物甲酯",
@@ -23,6 +24,16 @@
     "quote_zh": "在进一步皂化制备得到2-氯-3-烷氧基甲基-4-甲磺酰基苯甲酸",
     "arithmetic_check": "Nothing to close, for the same reason as arrow one: no mass, no volume, no mole count, no equivalents and no yield is printed for this arrow, and an overview scheme carries none. No mass balance, molar mass or yield check is possible, so mass_balance_implausible, molar_mass_inconsistent and scale_discontinuity are not raised, and that is a measured absence and not a skipped check. The impurity proportions [0010] prints, about 3 to 5 percent where R is trifluoroethyl and up to 8 to 12 percent where R is 2-tetrahydrofurylmethyl, are normalised shares of the impurity inside the product of this route, not a charge, not a yield and not a purity of the product, so nothing about them can be closed or contradicted either.",
     "drawing_evidence": "IMAGE_EXTRACT reactions span at line 143, arrow step_id 2. Reactants empty, products empty, conditions a numbered pair, the base as stage one and an acid as stage two. The span therefore supplies no structure for this arrow; the connectivity comes from the arrow standing after arrow one plus the prose of [0007], which saponifies the methyl ester of arrow one to the acid, and the product identity comes from [0005] at line 132. Both drawn structures on this arrow carry a generic R, which is why the read could give them no SMILES and no name, and [0009] at line 145 leaves R generic too. The arrow agrees with the prose that a base takes the methyl ester to the acid. It disagrees by carrying an acid stage the prose never mentions, which is the reagent_drawn_not_written flag; that acid is recorded in workup and not as a reagent of the transformation."
+  },
+  {
+    "reaction_id": "Background_Side Reaction",
+    "source_lines": [
+      143,
+      147
+    ],
+    "quote_zh": "该杂质因碱性环境中原料中的酯碱断裂或发生酯交换而副产甲醇，甲醇进一步与原料中的苄溴基团反应而产生",
+    "arithmetic_check": "Nothing to close on the transformation itself. Line 147 prints no mass, no volume, no mole count, no equivalents and no yield for this side reaction, so no mass balance check, no molar mass check and no yield check is possible, and neither mass_balance_implausible nor molar_mass_inconsistent is raised. That is a measured absence of numbers and not a skipped check. The only figures the sentence carries are the normalised proportions of the impurity inside the product of the prior-art route, about 3 to 5 percent where R is trifluoroethyl and up to 8 to 12 percent where R is 2-tetrahydrofurylmethyl. They are neither a yield on this reaction nor a purity measured on its product by a named method, so they are not written into product_yield_pct, product_purity_pct or product_purity_method, and the schema has no impurity-level field to hold them.",
+    "drawing_evidence": "No drawing. No IMAGE_EXTRACT span in this patent covers this transformation. The span at line 143 draws the prior-art route only, one arrow for the etherification and one for the saponification, which are Background_Step 1 and Background_Step 2; neither arrow depicts methanol attacking the benzyl bromide group and no arrow carries the methoxymethyl impurity as a product. So there is no scheme either to corroborate or to contradict this record, and no drawing flag applies: drawing_text_conflict, reagent_drawn_not_written and reagent_written_not_drawn are all inapplicable rather than cleared. Line 143 is cited here so the reader can see the route this side reaction belongs to; line 147 is the evidence itself and is prose only."
   },
   {
     "reaction_id": "Claims_Step 1",
@@ -169,6 +180,10 @@
   {
     "reaction_id": "Example 13_Step 1",
     "source_lines": [
+      275,
+      280,
+      285,
+      286,
       497,
       502
     ],
@@ -189,6 +204,10 @@
   {
     "reaction_id": "Example 14_Step 1",
     "source_lines": [
+      275,
+      280,
+      285,
+      286,
       513
     ],
     "quote_zh": "(1)与实施例1所述步骤相同，得到含量为98.2％的2-氯-3-溴甲基-4-甲磺酰基苯甲酸钠盐；",
@@ -209,7 +228,10 @@
   {
     "reaction_id": "Example 15_Step 1",
     "source_lines": [
-      524,
+      275,
+      280,
+      285,
+      286,
       524
     ],
     "quote_zh": "(1)与实施例1所述步骤相同，得到含量为98.2％的2-氯-3-溴甲基-4-甲磺酰基苯甲酸钠盐；",
@@ -229,7 +251,10 @@
   {
     "reaction_id": "Example 16_Step 1",
     "source_lines": [
-      537,
+      275,
+      280,
+      285,
+      286,
       537
     ],
     "quote_zh": "(1)与实施例1所述步骤相同，得到含量为98.2％的2-氯-3-溴甲基-4-甲磺酰基苯甲酸钠盐；",
@@ -249,6 +274,10 @@
   {
     "reaction_id": "Example 17_Step 1",
     "source_lines": [
+      275,
+      280,
+      285,
+      286,
       547,
       548
     ],
@@ -279,7 +308,10 @@
   {
     "reaction_id": "Example 18_Step 1",
     "source_lines": [
-      564,
+      275,
+      280,
+      285,
+      286,
       564
     ],
     "quote_zh": "(1)与实施例1所述步骤相同，得到含量为98.2％的2-氯-3-溴甲基-4-甲磺酰基苯甲酸钠盐；",
@@ -297,7 +329,7 @@
     "drawing_evidence": "No arrow is drawn for this transformation. In the step (2) scheme on line 569 the alkoxide appears only as a condition on the arrow, described there as drawn as a structure rather than written as a name or formula, with only the letters OK lettered in. That agrees with the prose, which makes the potassium alkoxide of tetrahydrofurfuryl alcohol, so the counter ion in the drawing and the counter ion in the prose match. The scheme gives no charge, no temperature and no time for this preparation, which is why the record is built from the prose alone."
   },
   {
-    "reaction_id": "Example 18_Step 2",
+    "reaction_id": "Example 18_Step 2b",
     "source_lines": [
       566,
       573
@@ -309,6 +341,10 @@
   {
     "reaction_id": "Example 19_Step 1",
     "source_lines": [
+      275,
+      280,
+      285,
+      286,
       577,
       578
     ],
@@ -327,7 +363,7 @@
     "drawing_evidence": "No arrow is drawn for this transformation. In the step (2) scheme at line 582 the alkoxide appears only as a condition on the arrow, described there as sodium (tetrahydrofuran-2-yl)methoxide drawn as a structure rather than written as a name or formula, with only the letters ONa lettered in. That agrees with the prose, which makes the sodium alkoxide of tetrahydrofurfuryl alcohol, so the counter ion in the drawing and the counter ion in the prose match. The scheme gives no SMILES for it, and carries no charge, no temperature and no time for this preparation, which is why the record is built from the prose alone."
   },
   {
-    "reaction_id": "Example 19_Step 2",
+    "reaction_id": "Example 19_Step 2b",
     "source_lines": [
       579,
       592
@@ -348,7 +384,7 @@
     "drawing_evidence": "The reaction-scheme span at line 301 (step_id 1). Reactant COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl matches methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, the arrow condition reads NaOH, and the product CS(=O)(=O)c1ccc(C(=O)[O][Na])c(Cl)c1CBr is the sodium salt with the benzylic bromide intact. Agrees with the prose on substrate, base, alkali metal and product. Solvent and temperature are not drawn."
   },
   {
-    "reaction_id": "Example 2_Alkoxide Preparation",
+    "reaction_id": "Example 2_Step 2a",
     "source_lines": [
       310
     ],
@@ -357,7 +393,7 @@
     "drawing_evidence": "No scheme is drawn for this transformation. The only drawing support is indirect: the step (2) scheme span at line 308 names CF3CH2ONa as an arrow condition, which corroborates the identity of the alkoxide made here and its sodium counter-ion, and agrees with the prose 三氟乙醇醇钠. The absence of a drawn arrow is consistent with the patent printing this preparation inside step (2) rather than as a step of its own."
   },
   {
-    "reaction_id": "Example 2_Step 2",
+    "reaction_id": "Example 2_Step 2b",
     "source_lines": [
       305,
       308,
@@ -371,6 +407,10 @@
   {
     "reaction_id": "Example 20_Step 1",
     "source_lines": [
+      275,
+      280,
+      285,
+      286,
       595,
       596
     ],
@@ -389,7 +429,7 @@
     "drawing_evidence": "No arrow is drawn for this transformation. In the step (2) scheme at line 599 the alkoxide appears only as a condition on the arrow, described there as potassium (tetrahydrofuran-2-yl)methanolate drawn as a tetrahydrofuran ring carrying a CH2-OK group at its 2-position. That agrees with the prose, which makes the potassium alkoxide of tetrahydrofurfuryl alcohol, so the counter ion in the drawing and the counter ion in the prose match. The scheme carries no charge, no temperature and no time for this preparation, which is why the record is built from the prose alone."
   },
   {
-    "reaction_id": "Example 20_Step 2",
+    "reaction_id": "Example 20_Step 2b",
     "source_lines": [
       597,
       605
@@ -449,7 +489,7 @@
     "drawing_evidence": "The reaction scheme at line 356 (one arrow, step_id 1): reactant COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl, condition text KOH, product CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[K+]. Reactant, base and potassium counter-ion all agree with the prose of this step, so no conflict is raised. tert-butanol is in the prose only, which is ordinary for a solvent."
   },
   {
-    "reaction_id": "Example 5_Alkoxide Preparation",
+    "reaction_id": "Example 5_Step 2a",
     "source_lines": [
       365,
       366
@@ -459,7 +499,7 @@
     "drawing_evidence": "No arrow is drawn for this preparation. The only drawing evidence is the condition text CF3CH2OK on the single arrow of the step (2) scheme at line 363, which agrees with the prose on the alkoxide's identity and potassium counter-ion. Absence of an arrow is not treated as a drawing conflict."
   },
   {
-    "reaction_id": "Example 5_Step 2",
+    "reaction_id": "Example 5_Step 2b",
     "source_lines": [
       360,
       371
@@ -523,7 +563,7 @@
     "drawing_evidence": "[IMAGE_EXTRACT: {\"reactions\": [...]}] at line 412, a single-arrow scheme. Reactant COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl, C10H10BrClO4S, which is the methyl ester the prose charges. Arrow condition text C4H9OK, which is the potassium tert-butoxide the prose charges. Product CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[K+], C9H7BrClKO4S, the POTASSIUM benzoate the prose makes and assays. Reactant, reagent and product all agree with the prose, so no drawing_text_conflict is raised on this record. Read atom by atom the drawn product is 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate with a potassium counter-ion, that is, the compound the prose names, so this pass does not reproduce the SMILES_MISMATCH warning A1 left on the same compound; the two passes disagree and neither reading is silently dropped. tert-butanol is written in the procedure and drawn nowhere, but it is the solvent, not a reagent, so reagent_written_not_drawn is not raised. Nothing on this arrow is drawn and unwritten. The scheme of the NEXT step, at line 421, draws the SODIUM salt as the substrate of the etherification and therefore contradicts the potassium product drawn here; that conflict is flagged on Example 8_Step 3, where the contradicting drawing sits."
   },
   {
-    "reaction_id": "Example 8_Step 2",
+    "reaction_id": "Example 8_Step 2a",
     "source_lines": [
       423,
       424
@@ -533,7 +573,7 @@
     "drawing_evidence": "NONE. The patent draws no arrow for the alkoxide preparation. The only drawing in this half of the example is the single-arrow scheme at line 421, which is the etherification: it carries CF3CH2OK as a condition ABOVE its arrow, that is, as a reagent already in hand, and neither potassium metal nor trifluoroethanol appears anywhere in it. This transformation is therefore written and never drawn, and both of its reagents are in the procedure and on no arrow, which is the basis for reagent_written_not_drawn on this record. There is consequently nothing that could disagree with the prose, so no drawing_text_conflict is raised here."
   },
   {
-    "reaction_id": "Example 8_Step 3",
+    "reaction_id": "Example 8_Step 2b",
     "source_lines": [
       416,
       426

@@ -7485,8 +7485,8 @@
         "product_smiles_source": null
       },
       {
-        "reaction_uuid": "5bd9aaff-bc25-5bb6-9dc4-61efd7e091d6",
-        "reaction_id": "Example 18_Step 2",
+        "reaction_uuid": "c7f854bb-14c3-5f42-83f7-61054a8c2f65",
+        "reaction_id": "Example 18_Step 2b",
         "yield_pct": 92.2,
         "purity_pct": 97.0,
         "components": [
@@ -8287,8 +8287,8 @@
         "product_smiles_source": null
       },
       {
-        "reaction_uuid": "2ada93d0-e428-5d00-ab3b-2160ac9b03c0",
-        "reaction_id": "Example 19_Step 2",
+        "reaction_uuid": "ae1cab2d-14c6-592d-9d8b-c607fcc62c0e",
+        "reaction_id": "Example 19_Step 2b",
         "yield_pct": 91.5,
         "purity_pct": 95.5,
         "components": [
@@ -8630,8 +8630,8 @@
     },
     "steps": [
       {
-        "reaction_uuid": "cb932969-1080-58e4-a6a3-9ae01849b9a8",
-        "reaction_id": "Example 2_Alkoxide Preparation",
+        "reaction_uuid": "339d298c-6dc1-56eb-b764-3386a13f5c43",
+        "reaction_id": "Example 2_Step 2a",
         "yield_pct": null,
         "purity_pct": null,
         "components": [
@@ -9127,8 +9127,8 @@
         "product_smiles_source": null
       },
       {
-        "reaction_uuid": "feabfe6b-bac3-5760-bb9e-d3f084b7fc67",
-        "reaction_id": "Example 2_Step 2",
+        "reaction_uuid": "e0336ba4-c1fa-5e39-8983-5ece12d7a5a6",
+        "reaction_id": "Example 2_Step 2b",
         "yield_pct": 92.4,
         "purity_pct": 96.7,
         "components": [
@@ -9931,8 +9931,8 @@
         "product_smiles_source": null
       },
       {
-        "reaction_uuid": "67ff6551-b4d0-5175-a219-533a5c949b8f",
-        "reaction_id": "Example 20_Step 2",
+        "reaction_uuid": "dc2d3204-280c-51fb-91e0-548da1b19bbf",
+        "reaction_id": "Example 20_Step 2b",
         "yield_pct": 90.8,
         "purity_pct": 97.0,
         "components": [
@@ -11463,8 +11463,8 @@
     },
     "steps": [
       {
-        "reaction_uuid": "c5a12d5f-895f-5d8d-8fb2-54ba00e3812d",
-        "reaction_id": "Example 5_Alkoxide Preparation",
+        "reaction_uuid": "86da0b50-e0eb-5907-aa3b-a9c9cb5c6eba",
+        "reaction_id": "Example 5_Step 2a",
         "yield_pct": null,
         "purity_pct": null,
         "components": [
@@ -11959,8 +11959,8 @@
         "product_smiles_source": null
       },
       {
-        "reaction_uuid": "cff659e6-7e27-5824-bb65-5e3e324a69eb",
-        "reaction_id": "Example 5_Step 2",
+        "reaction_uuid": "11d16ff5-3872-5734-9188-874d2aa0eed3",
+        "reaction_id": "Example 5_Step 2b",
         "yield_pct": 93.5,
         "purity_pct": 98.2,
         "components": [
@@ -13432,8 +13432,8 @@
     },
     "steps": [
       {
-        "reaction_uuid": "1d9b2694-4b49-53fb-8fd2-c7b2dbb3c431",
-        "reaction_id": "Example 8_Step 2",
+        "reaction_uuid": "108387af-3ce4-531b-a67e-040c88fc97b6",
+        "reaction_id": "Example 8_Step 2a",
         "yield_pct": null,
         "purity_pct": null,
         "components": [
@@ -13930,8 +13930,8 @@
         "product_smiles_source": null
       },
       {
-        "reaction_uuid": "9ebf17d4-b45a-5536-a36d-470ad6f9d397",
-        "reaction_id": "Example 8_Step 3",
+        "reaction_uuid": "7aebb098-4ead-50d1-a9a1-b49f87a3d9cf",
+        "reaction_id": "Example 8_Step 2b",
         "yield_pct": 91.9,
         "purity_pct": 98.2,
         "components": [
