@@ -1,0 +1,93 @@
+{
+ "patent_id": "CN112645853A",
+ "identifiers": 56,
+ "resolved": 37,
+ "witnesses": {
+  "3": 7,
+  "1": 2,
+  "2": 28
+ },
+ "no_structure": {
+  "none:markush": 3,
+  "none:reference": 3,
+  "none:class_name": 11,
+  "none:unresolved": 2
+ },
+ "records": {
+  "compounds": [
+   37,
+   56
+  ],
+  "reaction_participants": [
+   316,
+   321
+  ],
+  "reaction_products": [
+   51,
+   55
+  ],
+  "pathway_refs": [
+   83,
+   88
+  ]
+ },
+ "disagreements": [
+  {
+   "identifier": "2-chloro-3-(methoxymethyl)-4-(methanesulfonyl)benzoic acid",
+   "answers": {
+    "opsin": "COCc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+    "pubchem": "[CH2]OC"
+   },
+   "chosen": "COCc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+   "chosen_source": "opsin",
+   "reason": "the name is systematic and OPSIN derived the whole structure from it. PubChem's name match is loose and returned a different molecule.",
+   "needs_human": false
+  },
+  {
+   "identifier": "sodium tert-butoxide",
+   "answers": {
+    "opsin": "CC(C)(C)[O-].[Na+]",
+    "pubchem": "CC(C)(C)O.[Na]"
+   },
+   "chosen": "CC(C)(C)[O-].[Na+]",
+   "chosen_source": "opsin",
+   "reason": "the record's own alias 'C4H9ONa' is a formula, and only opsin returned a structure with those atoms.",
+   "needs_human": false
+  },
+  {
+   "identifier": "4-hydroxyphenylpyruvate",
+   "answers": {
+    "opsin": "O=C([O-])C(=O)Cc1ccc(O)cc1",
+    "pubchem": "O=C(O)C(=O)Cc1ccc(O)cc1"
+   },
+   "chosen": "O=C([O-])C(=O)Cc1ccc(O)cc1",
+   "chosen_source": "opsin",
+   "reason": "the name ends in an anion suffix, so the substance is the salt. Kept opsin, the only reader that returned the charged form; the others returned the neutral acid or metal.",
+   "needs_human": false
+  }
+ ],
+ "unresolved": [
+  {
+   "identifier": "double-attachment impurity",
+   "tried": [
+    "double-attachment impurity",
+    "双接杂质"
+   ]
+  },
+  {
+   "identifier": "HPPD",
+   "tried": [
+    "HPPD",
+    "对羟基苯基丙酮酸双氧化酶",
+    "4-hy-droxyphenylpyruvate dioxygenase"
+   ]
+  }
+ ],
+ "pathway_renames": [],
+ "readers": [
+  "curated (human, this patent)",
+  "patent_drawing (vision pass, this patent)",
+  "opsin (OPSIN 2.9.0, pipeline/vendor/)",
+  "pubchem (PUG-REST)"
+ ]
+}

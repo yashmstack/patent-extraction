@@ -1,0 +1,141 @@
+{
+ "patent_id": "WO2024109718A1",
+ "identifiers": 171,
+ "resolved": 124,
+ "witnesses": {
+  "2": 69,
+  "1": 26,
+  "4": 9,
+  "3": 20
+ },
+ "no_structure": {
+  "none:class_name": 25,
+  "none:unresolved": 2,
+  "none:markush": 18,
+  "none:ambiguous": 2
+ },
+ "records": {
+  "compounds": [
+   97,
+   131
+  ],
+  "reaction_participants": [
+   361,
+   426
+  ],
+  "reaction_products": [
+   49,
+   69
+  ],
+  "pathway_refs": [
+   102,
+   173
+  ]
+ },
+ "disagreements": [
+  {
+   "identifier": "bromine",
+   "answers": {
+    "known": "BrBr",
+    "opsin": "[Br]",
+    "pubchem": "BrBr"
+   },
+   "chosen": "BrBr",
+   "chosen_source": "known",
+   "reason": "diatomic element: a patent charges bromine as the molecule, not the atom. The single-atom reading halves the molecular weight.",
+   "needs_human": false
+  },
+  {
+   "identifier": "CO",
+   "answers": {
+    "known": "[C-]#[O+]",
+    "opsin": "[C]=O",
+    "pubchem": "[C-]#[O+]"
+   },
+   "chosen": "[C-]#[O+]",
+   "chosen_source": "known",
+   "reason": "the record's own alias 'CO' is a formula, and only known returned a structure with those atoms.",
+   "needs_human": false
+  },
+  {
+   "identifier": "nitrogen",
+   "answers": {
+    "known": "N#N",
+    "opsin": "[N]",
+    "pubchem": "N#N"
+   },
+   "chosen": "N#N",
+   "chosen_source": "known",
+   "reason": "diatomic element: a patent charges nitrogen as the molecule, not the atom. The single-atom reading halves the molecular weight.",
+   "needs_human": false
+  },
+  {
+   "identifier": "triethylamine hydrobromide",
+   "answers": {
+    "opsin": "Br.CCN(CC)CC",
+    "pubchem": "CC[NH+](CC)CC.[Br-]"
+   },
+   "chosen": "Br.CCN(CC)CC",
+   "chosen_source": "opsin",
+   "reason": "same molecular formula C6H16BrN, written ionic by one reader and covalent by the other. One substance, not a disagreement. Kept opsin.",
+   "needs_human": false
+  },
+  {
+   "identifier": "saturated brine",
+   "answers": {
+    "known": "[Cl-].[Na+]",
+    "pubchem": "O.[Cl-].[Na+]",
+    "opsin": "[Cl-].[Na+]"
+   },
+   "chosen": "[Cl-].[Na+]",
+   "chosen_source": "known",
+   "reason": "2 readers agree (known, opsin) against pubchem. Majority, and the agreeing readers are unrelated.",
+   "needs_human": false
+  },
+  {
+   "identifier": "potassium phosphate",
+   "answers": {
+    "opsin": "O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+    "pubchem": "O=P([O-])(O)O.[K+]"
+   },
+   "chosen": "O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+   "chosen_source": "opsin",
+   "reason": "the record's own alias 'K3PO4' is a formula, and only opsin returned a structure with those atoms.",
+   "needs_human": false
+  },
+  {
+   "identifier": "carbon monoxide",
+   "answers": {
+    "known": "[C-]#[O+]",
+    "opsin": "[C]=O",
+    "pubchem": "[C-]#[O+]"
+   },
+   "chosen": "[C-]#[O+]",
+   "chosen_source": "known",
+   "reason": "2 readers agree (known, pubchem) against opsin. Majority, and the agreeing readers are unrelated.",
+   "needs_human": false
+  }
+ ],
+ "unresolved": [
+  {
+   "identifier": "CF3CH2OM",
+   "tried": [
+    "CF3CH2OM"
+   ]
+  },
+  {
+   "identifier": "metatungstate",
+   "tried": [
+    "metatungstate",
+    "偏钨酸盐"
+   ]
+  }
+ ],
+ "pathway_renames": [],
+ "readers": [
+  "curated (human, this patent)",
+  "patent_drawing (vision pass, this patent)",
+  "opsin (OPSIN 2.9.0, pipeline/vendor/)",
+  "pubchem (PUG-REST)"
+ ]
+}

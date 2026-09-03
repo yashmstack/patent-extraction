@@ -1,0 +1,402 @@
+{
+ "service": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/",
+ "what": "PubChem's answer for one exact name, so a re-run needs no network.",
+ "answers": {
+  "solvent": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "reaction solvent": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "crystallisation solvent": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "reaction": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "crystallisation": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "catalyst": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "cat": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "hydrobromic acid": {
+   "smiles": "Br",
+   "cid": 260,
+   "formula": "BrH",
+   "message": ""
+  },
+  "hydrogen peroxide": {
+   "smiles": "OO",
+   "cid": 784,
+   "formula": "H2O2",
+   "message": ""
+  },
+  "base 1": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2,2,2-trifluoroethanol": {
+   "smiles": "C(C(F)(F)F)O",
+   "cid": 6409,
+   "formula": "C2H3F3O",
+   "message": ""
+  },
+  "base 2": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "thionyl chloride": {
+   "smiles": "O=S(Cl)Cl",
+   "cid": 24386,
+   "formula": "Cl2OS",
+   "message": ""
+  },
+  "triethylamine": {
+   "smiles": "CCN(CC)CC",
+   "cid": 8471,
+   "formula": "C6H15N",
+   "message": ""
+  },
+  "acetone cyanohydrin": {
+   "smiles": "CC(C)(C#N)O",
+   "cid": 6406,
+   "formula": "C4H7NO",
+   "message": ""
+  },
+  "tembotrione": {
+   "smiles": "CS(=O)(=O)C1=C(C(=C(C=C1)C(=O)C2C(=O)CCCC2=O)Cl)COCC(F)(F)F",
+   "cid": 11556911,
+   "formula": "C17H16ClF3O6S",
+   "message": ""
+  },
+  "mesotrione": {
+   "smiles": "CS(=O)(=O)C1=CC(=C(C=C1)C(=O)C2C(=O)CCCC2=O)[N+](=O)[O-]",
+   "cid": 175967,
+   "formula": "C14H13NO7S",
+   "message": ""
+  },
+  "prenylquinones": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "sulcotrione": {
+   "smiles": "CS(=O)(=O)C1=CC(=C(C=C1)C(=O)C2C(=O)CCCC2=O)Cl",
+   "cid": 91760,
+   "formula": "C14H13ClO5S",
+   "message": ""
+  },
+  "benzobicyclon": {
+   "smiles": "CS(=O)(=O)C1=CC(=C(C=C1)C(=O)C2=C(C3CCC(C3)C2=O)SC4=CC=CC=C4)Cl",
+   "cid": 11236201,
+   "formula": "C22H19ClO4S2",
+   "message": ""
+  },
+  "isoxadifen": {
+   "smiles": "C1C(=NOC1(C2=CC=CC=C2)C3=CC=CC=C3)C(=O)O",
+   "cid": 6451156,
+   "formula": "C16H13NO3",
+   "message": ""
+  },
+  "thiencarbazone": {
+   "smiles": "CC1=C(C(=CS1)C(=O)O)S(=O)(=O)NC(=O)N2C(=O)N(C(=N2)OC)C",
+   "cid": 20056440,
+   "formula": "C11H12N4O7S2",
+   "message": ""
+  },
+  "2,6-dichlorotoluene": {
+   "smiles": "CC1=C(C=CC=C1Cl)Cl",
+   "cid": 8368,
+   "formula": "C7H6Cl2",
+   "message": ""
+  },
+  "N-bromosuccinimide": {
+   "smiles": "C1CC(=O)N(C1=O)Br",
+   "cid": 67184,
+   "formula": "C4H4BrNO2",
+   "message": ""
+  },
+  "3-chloro-2-methylaniline": {
+   "smiles": "CC1=C(C=CC=C1Cl)N",
+   "cid": 6894,
+   "formula": "C7H8ClN",
+   "message": ""
+  },
+  "2-chlorotoluene": {
+   "smiles": "CC1=CC=CC=C1Cl",
+   "cid": 7238,
+   "formula": "C7H7Cl",
+   "message": ""
+  },
+  "bromine": {
+   "smiles": "BrBr",
+   "cid": 24408,
+   "formula": "Br2",
+   "message": ""
+  },
+  "sodium 2,2,2-trifluoroethoxide": {
+   "smiles": "C(C(F)(F)F)[O-].[Na+]",
+   "cid": 23677971,
+   "formula": "C2H2F3NaO",
+   "message": ""
+  },
+  "cyanoacetone": {
+   "smiles": "CC(=O)CC#N",
+   "cid": 75579,
+   "formula": "C4H5NO",
+   "message": ""
+  },
+  "3-oxo-1-cyclohexen-1-yl 2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "sodium methoxide": {
+   "smiles": "C[O-].[Na+]",
+   "cid": 10942334,
+   "formula": "CH3NaO",
+   "message": ""
+  },
+  "methanol": {
+   "smiles": "CO",
+   "cid": 887,
+   "formula": "CH4O",
+   "message": ""
+  },
+  "sodium hydroxide": {
+   "smiles": "[OH-].[Na+]",
+   "cid": 14798,
+   "formula": "HNaO",
+   "message": ""
+  },
+  "water": {
+   "smiles": "O",
+   "cid": 962,
+   "formula": "H2O",
+   "message": ""
+  },
+  "acetonitrile": {
+   "smiles": "CC#N",
+   "cid": 6342,
+   "formula": "C2H3N",
+   "message": ""
+  },
+  "N,N-dimethylformamide": {
+   "smiles": "CN(C)C=O",
+   "cid": 6228,
+   "formula": "C3H7NO",
+   "message": ""
+  },
+  "hydrochloric acid": {
+   "smiles": "Cl",
+   "cid": 313,
+   "formula": "ClH",
+   "message": ""
+  },
+  "cyclohexane-1,3-dione": {
+   "smiles": "C1CC(=O)CC(=O)C1",
+   "cid": 10434,
+   "formula": "C6H8O2",
+   "message": ""
+  },
+  "azobisisobutyronitrile": {
+   "smiles": "CC(C)(C#N)N=NC(C)(C)C#N",
+   "cid": 6547,
+   "formula": "C8H12N4",
+   "message": ""
+  },
+  "dichloromethane": {
+   "smiles": "C(Cl)Cl",
+   "cid": 6344,
+   "formula": "CH2Cl2",
+   "message": ""
+  },
+  "1,2-dichloroethane": {
+   "smiles": "C(CCl)Cl",
+   "cid": 11,
+   "formula": "C2H4Cl2",
+   "message": ""
+  },
+  "chloroform": {
+   "smiles": "C(Cl)(Cl)Cl",
+   "cid": 6212,
+   "formula": "CHCl3",
+   "message": ""
+  },
+  "ethanol": {
+   "smiles": "CCO",
+   "cid": 702,
+   "formula": "C2H6O",
+   "message": ""
+  },
+  "isopropanol": {
+   "smiles": "CC(C)O",
+   "cid": 3776,
+   "formula": "C3H8O",
+   "message": ""
+  },
+  "n-butanol": {
+   "smiles": "CCCCO",
+   "cid": 263,
+   "formula": "C4H10O",
+   "message": ""
+  },
+  "potassium carbonate": {
+   "smiles": "C(=O)([O-])[O-].[K+].[K+]",
+   "cid": 11430,
+   "formula": "CK2O3",
+   "message": ""
+  },
+  "triethylenediamine": {
+   "smiles": "C1CN2CCN1CC2",
+   "cid": 9237,
+   "formula": "C6H12N2",
+   "message": ""
+  },
+  "2-methyltriethylenediamine": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-methyl-DABCO": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-methyl-1,4-diazabicyclo[2.2.2]octane": {
+   "smiles": "CC1CN2CCN1CC2",
+   "cid": 102575,
+   "formula": "C7H14N2",
+   "message": ""
+  },
+  "potassium hydroxide": {
+   "smiles": "[OH-].[K+]",
+   "cid": 14797,
+   "formula": "HKO",
+   "message": ""
+  },
+  "lithium hydroxide": {
+   "smiles": "[Li+].[OH-]",
+   "cid": 3939,
+   "formula": "HLiO",
+   "message": ""
+  },
+  "acetone": {
+   "smiles": "CC(=O)C",
+   "cid": 180,
+   "formula": "C3H6O",
+   "message": ""
+  },
+  "tetrahydrofuran": {
+   "smiles": "C1CCOC1",
+   "cid": 8028,
+   "formula": "C4H8O",
+   "message": ""
+  },
+  "methyl 2-chloro-3-methyl-4-(methylsulfonyl)benzoate": {
+   "smiles": "CC1=C(C=CC(=C1Cl)C(=O)OC)S(=O)(=O)C",
+   "cid": 15132838,
+   "formula": "C10H11ClO4S",
+   "message": ""
+  },
+  "carbon tetrachloride": {
+   "smiles": "C(Cl)(Cl)(Cl)Cl",
+   "cid": 5943,
+   "formula": "CCl4",
+   "message": ""
+  },
+  "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "methyl 2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "NOVXMMYMACDLHC-UHFFFAOYSA-N": {
+   "smiles": "COC(=O)C1=C(C(=C(C=C1)S(=O)(=O)C)COCC(F)(F)F)Cl",
+   "cid": 155775572,
+   "formula": "C12H12ClF3O5S",
+   "message": ""
+  },
+  "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoyl chloride": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "YGWVWXIUXUSKSY-UHFFFAOYSA-N": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "base": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate": {
+   "smiles": "COC(=O)C1=C(C(=C(C=C1)S(=O)(=O)C)CBr)Cl",
+   "cid": 10969914,
+   "formula": "C10H10BrClO4S",
+   "message": ""
+  },
+  "2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "methyl 2-chloro-3-methyl-4-(methanesulfonyl)benzoate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "3-chloroperoxybenzoic acid": {
+   "smiles": "C1=CC(=CC(=C1)Cl)C(=O)OO",
+   "cid": 70297,
+   "formula": "C7H5ClO3",
+   "message": ""
+  },
+  "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "3-oxo-1-cyclohexen-1-yl 2-chloro-3- methyl-4-methylsulfonylbenzoate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2,2,2-trifluoroethoxy": {
+   "smiles": "C(C(F)(F)F)O",
+   "cid": 6409,
+   "formula": "C2H3F3O",
+   "message": ""
+  },
+  "m-chloroperoxybenzoic acid": {
+   "smiles": "C1=CC(=CC(=C1)Cl)C(=O)OO",
+   "cid": 70297,
+   "formula": "C7H5ClO3",
+   "message": ""
+  }
+ }
+}

@@ -1,0 +1,824 @@
+{
+ "service": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/",
+ "what": "PubChem's answer for one exact name, so a re-run needs no network.",
+ "answers": {
+  "tembotrione": {
+   "smiles": "CS(=O)(=O)C1=C(C(=C(C=C1)C(=O)C2C(=O)CCCC2=O)Cl)COCC(F)(F)F",
+   "cid": 11556911,
+   "formula": "C17H16ClF3O6S",
+   "message": ""
+  },
+  "dichlorotoluene": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "Cc1c(Cl)cccc1Cl": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "DMEDNTFWIHCBRK-UHFFFAOYSA-N": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "3-chloro-2-methylaniline": {
+   "smiles": "CC1=C(C=CC=C1Cl)N",
+   "cid": 6894,
+   "formula": "C7H8ClN",
+   "message": ""
+  },
+  "sodium methanethiolate": {
+   "smiles": "C[S-].[Na+]",
+   "cid": 4378561,
+   "formula": "CH3NaS",
+   "message": ""
+  },
+  "sodium nitrite": {
+   "smiles": "N(=O)[O-].[Na+]",
+   "cid": 23668193,
+   "formula": "NNaO2",
+   "message": ""
+  },
+  "acetyl chloride": {
+   "smiles": "CC(=O)Cl",
+   "cid": 6367,
+   "formula": "C2H3ClO",
+   "message": ""
+  },
+  "aluminium trichloride": {
+   "smiles": "[Al](Cl)(Cl)Cl",
+   "cid": 24012,
+   "formula": "AlCl3",
+   "message": ""
+  },
+  "1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one": {
+   "smiles": "CC1=C(C=CC(=C1Cl)C(=O)C)SC",
+   "cid": 23213262,
+   "formula": "C10H11ClOS",
+   "message": ""
+  },
+  "1-[2-chloro-4-(methanesulfonyl)-3-methylphenyl]ethan-1-one": {
+   "smiles": "CC1=C(C=CC(=C1Cl)C(=O)C)S(=O)(=O)C",
+   "cid": 23213263,
+   "formula": "C10H11ClO3S",
+   "message": ""
+  },
+  "sodium hypochlorite": {
+   "smiles": "[O-]Cl.[Na+]",
+   "cid": 23665760,
+   "formula": "ClNaO",
+   "message": ""
+  },
+  "2-chloro-4-(methanesulfonyl)-3-methylbenzoic acid": {
+   "smiles": "CC1=C(C=CC(=C1Cl)C(=O)O)S(=O)(=O)C",
+   "cid": 14254476,
+   "formula": "C9H9ClO4S",
+   "message": ""
+  },
+  "methanol": {
+   "smiles": "CO",
+   "cid": 887,
+   "formula": "CH4O",
+   "message": ""
+  },
+  "methyl 2-chloro-4-(methanesulfonyl)-3-methylbenzoate": {
+   "smiles": "CC1=C(C=CC(=C1Cl)C(=O)OC)S(=O)(=O)C",
+   "cid": 15132838,
+   "formula": "C10H11ClO4S",
+   "message": ""
+  },
+  "methyl 3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzoate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "CF3CH2ONa": {
+   "smiles": "C(C(F)(F)F)[O-].[Na+]",
+   "cid": 23677971,
+   "formula": "C2H2F3NaO",
+   "message": ""
+  },
+  "methyl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "sodium hydroxide": {
+   "smiles": "[OH-].[Na+]",
+   "cid": 14798,
+   "formula": "HNaO",
+   "message": ""
+  },
+  "(COCl)2": {
+   "smiles": "C(=O)(C(=O)Cl)Cl",
+   "cid": 65578,
+   "formula": "C2Cl2O2",
+   "message": ""
+  },
+  "haloform": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "sodium chloride": {
+   "smiles": "[Na+].[Cl-]",
+   "cid": 5234,
+   "formula": "ClNa",
+   "message": ""
+  },
+  "water": {
+   "smiles": "O",
+   "cid": 962,
+   "formula": "H2O",
+   "message": ""
+  },
+  "palladium": {
+   "smiles": "[Pd]",
+   "cid": 23938,
+   "formula": "Pd",
+   "message": ""
+  },
+  "rhodium": {
+   "smiles": "[Rh]",
+   "cid": 23948,
+   "formula": "Rh",
+   "message": ""
+  },
+  "ruthenium": {
+   "smiles": "[Ru]",
+   "cid": 23950,
+   "formula": "Ru",
+   "message": ""
+  },
+  "copper": {
+   "smiles": "[Cu]",
+   "cid": 23978,
+   "formula": "Cu",
+   "message": ""
+  },
+  "cobalt": {
+   "smiles": "[Co]",
+   "cid": 104730,
+   "formula": "Co",
+   "message": ""
+  },
+  "palladium(II) chloride": {
+   "smiles": "Cl[Pd]Cl",
+   "cid": 24290,
+   "formula": "Cl2Pd",
+   "message": ""
+  },
+  "palladium(II) carbonate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "palladium carbonate": {
+   "smiles": "C(=O)([O-])[O-].[Pd+2]",
+   "cid": 10176294,
+   "formula": "CO3Pd",
+   "message": ""
+  },
+  "palladium(II) acetate": {
+   "smiles": "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
+   "cid": 167845,
+   "formula": "C4H6O4Pd",
+   "message": ""
+  },
+  "palladium on carbon": {
+   "smiles": "[Pd]",
+   "cid": 23938,
+   "formula": "Pd",
+   "message": ""
+  },
+  "palladium(II) trifluoroacetate": {
+   "smiles": "C(=O)(C(F)(F)F)[O-].C(=O)(C(F)(F)F)[O-].[Pd+2]",
+   "cid": 2733347,
+   "formula": "C4F6O4Pd",
+   "message": ""
+  },
+  "bis(dibenzylideneacetone)palladium(0)": {
+   "smiles": "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd]",
+   "cid": 6505921,
+   "formula": "C34H28O2Pd",
+   "message": ""
+  },
+  "1,3-bis(diphenylphosphino)propane": {
+   "smiles": "C1=CC=C(C=C1)P(CCCP(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4",
+   "cid": 81219,
+   "formula": "C27H26P2",
+   "message": ""
+  },
+  "1,4-bis(diphenylphosphino)butane": {
+   "smiles": "C1=CC=C(C=C1)P(CCCCP(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4",
+   "cid": 82124,
+   "formula": "C28H28P2",
+   "message": ""
+  },
+  "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "di-tert-butyl(4-dimethylaminophenyl)phosphine": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "toluene": {
+   "smiles": "CC1=CC=CC=C1",
+   "cid": 1140,
+   "formula": "C7H8",
+   "message": ""
+  },
+  "1,4-dioxane": {
+   "smiles": "C1COCCO1",
+   "cid": 31275,
+   "formula": "C4H8O2",
+   "message": ""
+  },
+  "ethylene glycol dimethyl ether": {
+   "smiles": "COCCOC",
+   "cid": 8071,
+   "formula": "C4H10O2",
+   "message": ""
+  },
+  "ethylene glycol diethyl ether": {
+   "smiles": "CCOCCOCC",
+   "cid": 12375,
+   "formula": "C6H14O2",
+   "message": ""
+  },
+  "dimethyl sulfoxide": {
+   "smiles": "CS(=O)C",
+   "cid": 679,
+   "formula": "C2H6OS",
+   "message": ""
+  },
+  "tetrahydrofuran": {
+   "smiles": "C1CCOC1",
+   "cid": 8028,
+   "formula": "C4H8O",
+   "message": ""
+  },
+  "N,N-dimethylformamide": {
+   "smiles": "CN(C)C=O",
+   "cid": 6228,
+   "formula": "C3H7NO",
+   "message": ""
+  },
+  "bromine": {
+   "smiles": "BrBr",
+   "cid": 24408,
+   "formula": "Br2",
+   "message": ""
+  },
+  "N-bromosuccinimide": {
+   "smiles": "C1CC(=O)N(C1=O)Br",
+   "cid": 67184,
+   "formula": "C4H4BrNO2",
+   "message": ""
+  },
+  "hydrogen bromide": {
+   "smiles": "Br",
+   "cid": 260,
+   "formula": "BrH",
+   "message": ""
+  },
+  "hydrogen peroxide": {
+   "smiles": "OO",
+   "cid": 784,
+   "formula": "H2O2",
+   "message": ""
+  },
+  "potassium 2,2,2-trifluoroethoxide": {
+   "smiles": "C(C(F)(F)F)[O-].[K+]",
+   "cid": 23675374,
+   "formula": "C2H2F3KO",
+   "message": ""
+  },
+  "carbon monoxide": {
+   "smiles": "[C-]#[O+]",
+   "cid": 281,
+   "formula": "CO",
+   "message": ""
+  },
+  "CSc1cccc(Cl)c1C": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "1-chloro-2-methyl-3-(methylsulfanyl)benzene": {
+   "smiles": "CC1=C(C=CC=C1Cl)SC",
+   "cid": 14801176,
+   "formula": "C8H9ClS",
+   "message": ""
+  },
+  "hydrochloric acid": {
+   "smiles": "Cl",
+   "cid": 313,
+   "formula": "ClH",
+   "message": ""
+  },
+  "diazonium salt": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "diazonium": {
+   "smiles": "[NH+]#N",
+   "cid": 5460527,
+   "formula": "HN2+",
+   "message": ""
+  },
+  "acetonitrile": {
+   "smiles": "CC#N",
+   "cid": 6342,
+   "formula": "C2H3N",
+   "message": ""
+  },
+  "formic acid": {
+   "smiles": "C(=O)O",
+   "cid": 284,
+   "formula": "CH2O2",
+   "message": ""
+  },
+  "chloroform-d": {
+   "smiles": "[2H]C(Cl)(Cl)Cl",
+   "cid": 71583,
+   "formula": "CHCl3",
+   "message": ""
+  },
+  "triethylamine": {
+   "smiles": "CCN(CC)CC",
+   "cid": 8471,
+   "formula": "C6H15N",
+   "message": ""
+  },
+  "nitrogen": {
+   "smiles": "N#N",
+   "cid": 947,
+   "formula": "N2",
+   "message": ""
+  },
+  "acetone cyanohydrin": {
+   "smiles": "CC(C)(C#N)O",
+   "cid": 6406,
+   "formula": "C4H7NO",
+   "message": ""
+  },
+  "triethylamine hydrobromide": {
+   "smiles": "CC[NH+](CC)CC.[Br-]",
+   "cid": 12493,
+   "formula": "C6H16BrN",
+   "message": ""
+  },
+  "1,3-cyclohexanedione": {
+   "smiles": "C1CC(=O)CC(=O)C1",
+   "cid": 10434,
+   "formula": "C6H8O2",
+   "message": ""
+  },
+  "2-dicyclohexylphosphino-2',6'-dimethoxybiphenyl": {
+   "smiles": "COC1=C(C(=CC=C1)OC)C2=CC=CC=C2P(C3CCCCC3)C4CCCCC4",
+   "cid": 11269872,
+   "formula": "C26H35O2P",
+   "message": ""
+  },
+  "4,5-bis(diphenylphosphino)-9,9-dimethylxanthene": {
+   "smiles": "CC1(C2=C(C(=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7)C",
+   "cid": 636044,
+   "formula": "C39H32OP2",
+   "message": ""
+  },
+  "dichloromethane": {
+   "smiles": "C(Cl)Cl",
+   "cid": 6344,
+   "formula": "CH2Cl2",
+   "message": ""
+  },
+  "sodium tungstate dihydrate": {
+   "smiles": "O.O.[O-][W](=O)(=O)[O-].[Na+].[Na+]",
+   "cid": 150191,
+   "formula": "H4Na2O6W",
+   "message": ""
+  },
+  "glacial acetic acid": {
+   "smiles": "CC(=O)O",
+   "cid": 176,
+   "formula": "C2H4O2",
+   "message": ""
+  },
+  "benzoyl peroxide": {
+   "smiles": "C1=CC=C(C=C1)C(=O)OOC(=O)C2=CC=CC=C2",
+   "cid": 7187,
+   "formula": "C14H10O4",
+   "message": ""
+  },
+  "1,2-dichloroethane": {
+   "smiles": "C(CCl)Cl",
+   "cid": 11,
+   "formula": "C2H4Cl2",
+   "message": ""
+  },
+  "carbon tetrachloride": {
+   "smiles": "C(Cl)(Cl)(Cl)Cl",
+   "cid": 5943,
+   "formula": "CCl4",
+   "message": ""
+  },
+  "ethanol": {
+   "smiles": "CCO",
+   "cid": 702,
+   "formula": "C2H6O",
+   "message": ""
+  },
+  "brominating reagent": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "brominating": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "sodium hydride": {
+   "smiles": "[H-].[Na+]",
+   "cid": 24758,
+   "formula": "HNa",
+   "message": ""
+  },
+  "2,2,2-trifluoroethanol": {
+   "smiles": "C(C(F)(F)F)O",
+   "cid": 6409,
+   "formula": "C2H3F3O",
+   "message": ""
+  },
+  "saturated brine": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "saturated aqueous sodium chloride": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "brine": {
+   "smiles": "O.[Na+].[Cl-]",
+   "cid": 57417360,
+   "formula": "ClH2NaO",
+   "message": ""
+  },
+  "PdCl₂": {
+   "smiles": "Cl[Pd]Cl",
+   "cid": 24290,
+   "formula": "Cl2Pd",
+   "message": ""
+  },
+  "thionyl chloride": {
+   "smiles": "O=S(Cl)Cl",
+   "cid": 24386,
+   "formula": "Cl2OS",
+   "message": ""
+  },
+  "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "Pd(Amphos)2Cl2": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "bis[di-tert-butyl(4-dimethylaminophenyl)phosphine]palladium dichloride": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "tungstate": {
+   "smiles": "[O-][W](=O)(=O)[O-]",
+   "cid": 24465,
+   "formula": "O4W-2",
+   "message": ""
+  },
+  "metatungstate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "vanadate": {
+   "smiles": "[O-][V](=O)=O",
+   "cid": 26218,
+   "formula": "O3V-",
+   "message": ""
+  },
+  "metavanadate": {
+   "smiles": "[O-][V](=O)=O",
+   "cid": 26218,
+   "formula": "O3V-",
+   "message": ""
+  },
+  "azobisisobutyronitrile": {
+   "smiles": "CC(C)(C#N)N=NC(C)(C)C#N",
+   "cid": 6547,
+   "formula": "C8H12N4",
+   "message": ""
+  },
+  "sodium 2,2,2-trifluoroethoxide": {
+   "smiles": "C(C(F)(F)F)[O-].[Na+]",
+   "cid": 23677971,
+   "formula": "C2H2F3NaO",
+   "message": ""
+  },
+  "diethyl ether": {
+   "smiles": "CCOCC",
+   "cid": 3283,
+   "formula": "C4H10O",
+   "message": ""
+  },
+  "potassium hydride": {
+   "smiles": "[H-].[K+]",
+   "cid": 82127,
+   "formula": "HK",
+   "message": ""
+  },
+  "sodium methoxide": {
+   "smiles": "C[O-].[Na+]",
+   "cid": 10942334,
+   "formula": "CH3NaO",
+   "message": ""
+  },
+  "potassium methoxide": {
+   "smiles": "C[O-].[K+]",
+   "cid": 23664618,
+   "formula": "CH3KO",
+   "message": ""
+  },
+  "potassium hydroxide": {
+   "smiles": "[OH-].[K+]",
+   "cid": 14797,
+   "formula": "HKO",
+   "message": ""
+  },
+  "potassium carbonate": {
+   "smiles": "C(=O)([O-])[O-].[K+].[K+]",
+   "cid": 11430,
+   "formula": "CK2O3",
+   "message": ""
+  },
+  "sodium carbonate": {
+   "smiles": "C(=O)([O-])[O-].[Na+].[Na+]",
+   "cid": 10340,
+   "formula": "CNa2O3",
+   "message": ""
+  },
+  "cesium carbonate": {
+   "smiles": "C(=O)([O-])[O-].[Cs+].[Cs+]",
+   "cid": 10796,
+   "formula": "CCs2O3",
+   "message": ""
+  },
+  "potassium phosphate": {
+   "smiles": "OP(=O)(O)[O-].[K+]",
+   "cid": 516951,
+   "formula": "H2KO4P",
+   "message": ""
+  },
+  "N,N-dimethylacetamide": {
+   "smiles": "CC(=O)N(C)C",
+   "cid": 31374,
+   "formula": "C4H9NO",
+   "message": ""
+  },
+  "N,N-diisopropylethylamine": {
+   "smiles": "CCN(C(C)C)C(C)C",
+   "cid": 81531,
+   "formula": "C8H19N",
+   "message": ""
+  },
+  "1,8-diazabicyclo[5.4.0]undec-7-ene": {
+   "smiles": "C1CCC2=NCCCN2CC1",
+   "cid": 81184,
+   "formula": "C9H16N2",
+   "message": ""
+  },
+  "triethylenediamine": {
+   "smiles": "C1CN2CCN1CC2",
+   "cid": 9237,
+   "formula": "C6H12N2",
+   "message": ""
+  },
+  "acid-binding agent": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "cyanide-type catalyst": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "phosphine ligand or a salt thereof": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "palladium catalyst": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "alkali solution": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "alkali": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "sodium salt of the tungstate/vanadate catalyst": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "sodium salt": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "sodium": {
+   "smiles": "[Na]",
+   "cid": 5360545,
+   "formula": "Na",
+   "message": ""
+  },
+  "potassium salt of the tungstate/vanadate catalyst": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "potassium salt": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "potassium": {
+   "smiles": "[K]",
+   "cid": 5462222,
+   "formula": "K",
+   "message": ""
+  },
+  "ammonium salt of the tungstate/vanadate catalyst": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "ammonium salt": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "ammonium": {
+   "smiles": "[NH4+]",
+   "cid": 223,
+   "formula": "H4N+",
+   "message": ""
+  },
+  "aromatic hydrocarbon solvent (class)": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "aromatic hydrocarbon": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "sulfoxide solvent (class)": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "sulfoxide": {
+   "smiles": "CCCCCCCCS(=O)C(C)CC1=CC2=C(C=C1)OCO2",
+   "cid": 8442,
+   "formula": "C18H28O3S",
+   "message": ""
+  },
+  "ether solvent (class)": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "ether": {
+   "smiles": "CCOCC",
+   "cid": 3283,
+   "formula": "C4H10O",
+   "message": ""
+  },
+  "amide solvent (class)": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "amide": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "ligand": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "triketone": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid": {
+   "smiles": "CS(=O)(=O)C1=C(C(=C(C=C1)C(=O)O)Cl)COCC(F)(F)F",
+   "cid": 15132895,
+   "formula": "C11H10ClF3O5S",
+   "message": ""
+  },
+  "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride": {
+   "smiles": "CS(=O)(=O)C1=C(C(=C(C=C1)C(=O)Cl)Cl)COCC(F)(F)F",
+   "cid": 91997521,
+   "formula": "C11H9Cl2F3O4S",
+   "message": ""
+  },
+  "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "cyclohexane-1,3-dione": {
+   "smiles": "C1CC(=O)CC(=O)C1",
+   "cid": 10434,
+   "formula": "C6H8O2",
+   "message": ""
+  },
+  "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "O=C1CCCC(=O)C1": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene": {
+   "smiles": "CC1=C(C=CC(=C1Cl)Br)SC",
+   "cid": 14801177,
+   "formula": "C8H8BrClS",
+   "message": ""
+  },
+  "CSc1ccc(Br)c(Cl)c1C": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "compound of formula": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "Cc1c(N)cccc1Cl": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "bis(dibenzylideneacetone)palladium": {
+   "smiles": "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]",
+   "cid": 9811564,
+   "formula": "C51H42O3Pd2",
+   "message": ""
+  },
+  "The phosphine ligand or a salt thereof is preferably 1,3- )propane, 1,4-bis butane, or bis di-tert-butylphosphine.": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "bis(diphenylphosphino": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "diphenylphosphino": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "phosphine ligand or a salt thereof is preferably 1,3- )propane, 1,4-bis butane, or bis di-tert-butylphosphine.": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "bis di-tert-butylphosphine palladium dichloride": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "C17H16ClF3O6S": {
+   "smiles": "CS(=O)(=O)C1=C(C(=C(C=C1)C(=O)C2C(=O)CCCC2=O)Cl)COCC(F)(F)F",
+   "cid": 11556911,
+   "formula": "C17H16ClF3O6S",
+   "message": ""
+  }
+ }
+}

@@ -1,0 +1,501 @@
+{
+ "reader": "OPSIN 2.9.0, pipeline/vendor/opsin-core-2.9.0.jar",
+ "what": "OPSIN's answer for one exact query string, so a re-run needs no jar.",
+ "answers": {
+  "(CH3CH2 )3N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "(CH3CH2 )3N is unparsable due to the following being uninterpretable: (CH3CH2)3N The following was not parseable: CH3CH2)3N"
+  },
+  "1, 3-cyclohexanedione": {
+   "status": "SUCCESS",
+   "smiles": "C1(CC(CCC1)=O)=O",
+   "message": ""
+  },
+  "1,2-dichloroethane": {
+   "status": "SUCCESS",
+   "smiles": "ClCCCl",
+   "message": ""
+  },
+  "1,3-cyclohexanedione": {
+   "status": "SUCCESS",
+   "smiles": "C1(CC(CCC1)=O)=O",
+   "message": ""
+  },
+  "2-(4-(methylsulfonyl)-2-nitrobenzoyl) cyclohexane-1, 3-dione": {
+   "status": "SUCCESS",
+   "smiles": "CS(=O)(=O)C1=CC(=C(C(=O)C2C(CCCC2=O)=O)C=C1)[N+](=O)[O-]",
+   "message": ""
+  },
+  "2-(4-(methylsulfonyl)-2-nitrobenzoyl) cyclohexane-1,3-dione": {
+   "status": "SUCCESS",
+   "smiles": "CS(=O)(=O)C1=CC(=C(C(=O)C2C(CCCC2=O)=O)C=C1)[N+](=O)[O-]",
+   "message": ""
+  },
+  "2-nitro-4-methylsulfonyl benzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "[N+](=O)([O-])C1=C(C(=O)O)C=CC(=C1)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-nitro-4-methylsulfonyl toluene": {
+   "status": "SUCCESS",
+   "smiles": "[N+](=O)([O-])C1=C(C)C=CC(=C1)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-nitro-4-methylsulfonylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "[N+](=O)([O-])C1=C(C(=O)O)C=CC(=C1)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-nitro-4-methylsulfonylbenzoyl benzoyl chloride": {
+   "status": "WARNING",
+   "smiles": "[N+](=O)([O-])C1=C(C(=O)C2=C(C(=O)Cl)C=CC=C2)C=CC(=C1)S(=O)(=O)C",
+   "message": "APPEARS_AMBIGUOUS: Connection of benz to benz"
+  },
+  "2-nitro-4-methylsulfonyltoluene": {
+   "status": "SUCCESS",
+   "smiles": "[N+](=O)([O-])C1=C(C)C=CC(=C1)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-nitro-4-methylsulphonyl benzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "[N+](=O)([O-])C1=C(C(=O)O)C=CC(=C1)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-nitro-4-methylsulphonyl benzoyl chloride": {
+   "status": "SUCCESS",
+   "smiles": "[N+](=O)([O-])C1=C(C(=O)Cl)C=CC(=C1)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-nitro-4-methylsulphonyl toluene": {
+   "status": "SUCCESS",
+   "smiles": "[N+](=O)([O-])C1=C(C)C=CC(=C1)S(=O)(=O)C",
+   "message": ""
+  },
+  "4-hydroxyphenylpyruvate dioxygenase": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "4-hydroxyphenylpyruvate dioxygenase is unparsable due to the following being uninterpretable: ase The following was not parseable: ase"
+  },
+  "Acetic acid": {
+   "status": "SUCCESS",
+   "smiles": "C(C)(=O)O",
+   "message": ""
+  },
+  "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1 is unparsable due to the following being uninterpretable: CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1 The following was not parseable: CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1"
+  },
+  "CS(=O)(=O)c1ccc(C(=O)Cl)c([N+](=O)[O-])c1": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CS(=O)(=O)c1ccc(C(=O)Cl)c([N+](=O)[O-])c1 is unparsable due to the following being uninterpretable: CS(=O)(=O)c1ccc(C(=O)Cl)c([N+](=O)[O-])c1 The following was not parseable: CS(=O)(=O)c1ccc(C(=O)Cl)c([N+](=O)[O-])c1"
+  },
+  "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1 is unparsable due to the following being uninterpretable: CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1 The following was not parseable: CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1"
+  },
+  "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-] is unparsable due to the following being uninterpretable: Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-] The following was not parseable: Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]"
+  },
+  "Cobalt (II) acetate tetrahydrate": {
+   "status": "SUCCESS",
+   "smiles": "O.O.O.O.C(C)(=O)[O-].[Co+2].C(C)(=O)[O-]",
+   "message": ""
+  },
+  "DCC": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "DCC is unparsable due to the following being uninterpretable: DCC The following was not parseable: CC"
+  },
+  "DIPEA": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "DIPEA is unparsable due to the following being uninterpretable: DIPEA The following was not parseable: PEA"
+  },
+  "Dichloromethane": {
+   "status": "SUCCESS",
+   "smiles": "ClCCl",
+   "message": ""
+  },
+  "Formula I": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Formula I is unparsable due to the following being uninterpretable: Formula I The following was not parseable: ula I"
+  },
+  "HPPD": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "HPPD is unparsable due to the following being uninterpretable: HPPD The following was not parseable: HPPD"
+  },
+  "MESOTRIONE": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "MESOTRIONE is unparsable due to the following being uninterpretable: MESOTRIONE The following was not parseable: MESOTRIONE"
+  },
+  "Mesotrione": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Mesotrione is unparsable due to the following being uninterpretable: Mesotrione The following was not parseable: Mesotrione"
+  },
+  "N, N’-dicyclohexylcarbodiimide": {
+   "status": "SUCCESS",
+   "smiles": "C1(CCCCC1)N=C=NC1CCCCC1",
+   "message": ""
+  },
+  "N, N’-dicyclohexylcarbodiimide (DCC)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "N, N'-dicyclohexylcarbodiimide (DCC) is unparsable due to the following being uninterpretable: (DCC) The following was not parseable: CC)"
+  },
+  "N, N′-dicyclohexylcarbodiimide": {
+   "status": "SUCCESS",
+   "smiles": "C1(CCCCC1)N=C=NC1CCCCC1",
+   "message": ""
+  },
+  "N,N'-dicyclohexylcarbodiimide": {
+   "status": "SUCCESS",
+   "smiles": "C1(CCCCC1)N=C=NC1CCCCC1",
+   "message": ""
+  },
+  "N,N-diisopropylamine": {
+   "status": "SUCCESS",
+   "smiles": "C(C)(C)NC(C)C",
+   "message": ""
+  },
+  "N,N-diisopropylethylamine": {
+   "status": "SUCCESS",
+   "smiles": "C(C)(C)N(C(C)C)CC",
+   "message": ""
+  },
+  "N,N’-dicyclohexylcarbodiimide": {
+   "status": "SUCCESS",
+   "smiles": "C1(CCCCC1)N=C=NC1CCCCC1",
+   "message": ""
+  },
+  "N-methylglucamine": {
+   "status": "SUCCESS",
+   "smiles": "CNC[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO",
+   "message": ""
+  },
+  "NMSBA": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "NMSBA is unparsable due to the following being uninterpretable: NMSBA The following was not parseable: NMSBA"
+  },
+  "NMSBC": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "NMSBC is unparsable due to the following being uninterpretable: NMSBC The following was not parseable: NMSBC"
+  },
+  "NMST": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "NMST is unparsable due to the following being uninterpretable: NMST The following was not parseable: NMST"
+  },
+  "NaOCl": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "NaOCl is unparsable due to the following being uninterpretable: NaOCl The following was not parseable: NaOCl"
+  },
+  "Nitric acid": {
+   "status": "SUCCESS",
+   "smiles": "[N+](=O)(O)[O-]",
+   "message": ""
+  },
+  "O2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "O2 is unparsable due to the following being uninterpretable: O2 The following was not parseable: "
+  },
+  "O=C1CCCC(=O)C1": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "O=C1CCCC(=O)C1 is unparsable due to the following being uninterpretable: O=C1CCCC(=O)C1 The following was not parseable: O=C1CCCC(=O)C1"
+  },
+  "RuO2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "RuO2 is unparsable due to the following being uninterpretable: RuO2 The following was not parseable: uO2"
+  },
+  "Sodium acetate": {
+   "status": "SUCCESS",
+   "smiles": "C(C)(=O)[O-].[Na+]",
+   "message": ""
+  },
+  "Sulphuric Acid": {
+   "status": "SUCCESS",
+   "smiles": "S(O)(O)(=O)=O",
+   "message": ""
+  },
+  "The compound of formula (I)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "The compound of formula (I) is unparsable due to the following being uninterpretable: The compound of formula (I) The following was not parseable: The compound of formula (I)"
+  },
+  "V2O5": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "V2O5 is unparsable due to the following being uninterpretable: V2O5 The following was not parseable: "
+  },
+  "Vanadium Pentoxide": {
+   "status": "SUCCESS",
+   "smiles": "[O-2].[O-2].[O-2].[O-2].[O-2].[V+5].[V+5]",
+   "message": ""
+  },
+  "a cobalt salt": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "a cobalt salt is unparsable due to the following being uninterpretable: a cobalt salt The following was not parseable: a cobalt salt"
+  },
+  "a salt or an oxide": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "a salt or an oxide is unparsable due to the following being uninterpretable: a salt or an oxide The following was not parseable: a salt or an oxide"
+  },
+  "acetate ion": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "acetate ion is unparsable due to the following being uninterpretable: ion The following was not parseable: ion"
+  },
+  "acetic acid": {
+   "status": "SUCCESS",
+   "smiles": "C(C)(=O)O",
+   "message": ""
+  },
+  "alkali metal hypochlorite": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "alkali metal hypochlorite is unparsable due to the following being uninterpretable: alkali metal hypochlorite The following was not parseable: alkali metal hypochlorite"
+  },
+  "aqueous caustic solution": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "aqueous caustic solution is unparsable due to the following being uninterpretable: aqueous caustic solution The following was not parseable: aqueous caustic solution"
+  },
+  "aqueous hydrochloric acid": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "aqueous hydrochloric acid is unparsable due to the following being uninterpretable: aqueous hydrochloric acid The following was not parseable: aqueous hydrochloric acid"
+  },
+  "benzoylcyclohexane-1, 3-dioneherbicides": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "benzoylcyclohexane-1, 3-dioneherbicides is unparsable due to the following being uninterpretable: 1, 3-dioneherbicides The following was not parseable: , 3-dioneherbicides"
+  },
+  "benzoylcyclohexane-1,3-dione herbicides": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "benzoylcyclohexane-1,3-dione herbicides is unparsable due to the following being uninterpretable: herbicides The following was not parseable: herbicides"
+  },
+  "caustic": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "caustic is unparsable due to the following being uninterpretable: caustic The following was not parseable: caustic"
+  },
+  "chlorine": {
+   "status": "SUCCESS",
+   "smiles": "[Cl]",
+   "message": ""
+  },
+  "chlorine gas": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "chlorine gas is unparsable due to the following being uninterpretable: gas The following was not parseable: gas"
+  },
+  "cobalt": {
+   "status": "SUCCESS",
+   "smiles": "[Co]",
+   "message": ""
+  },
+  "cobalt compounds": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "cobalt compounds is unparsable due to the following being uninterpretable: compounds The following was not parseable: compounds"
+  },
+  "cobalt(II) acetate tetra hydrate": {
+   "status": "SUCCESS",
+   "smiles": "O.O.O.O.C(C)(=O)[O-].[Co+2].C(C)(=O)[O-]",
+   "message": ""
+  },
+  "compound of formula (I)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "compound of formula (I) is unparsable due to the following being uninterpretable: compound of formula (I) The following was not parseable: compound of formula (I)"
+  },
+  "concentrated hydrochloric acid": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "concentrated hydrochloric acid is unparsable due to the following being uninterpretable: concentrated hydrochloric acid The following was not parseable: concentrated hydrochloric acid"
+  },
+  "cyclohexanedione": {
+   "status": "WARNING",
+   "smiles": "C1(C(CCCC1)=O)=O",
+   "message": "APPEARS_AMBIGUOUS: Addition of one suffix to: hex"
+  },
+  "dichloroethane": {
+   "status": "WARNING",
+   "smiles": "ClC(C)Cl",
+   "message": "APPEARS_AMBIGUOUS: Connection of chloro to eth"
+  },
+  "dichloromethane": {
+   "status": "SUCCESS",
+   "smiles": "ClCCl",
+   "message": ""
+  },
+  "diethanolamine": {
+   "status": "SUCCESS",
+   "smiles": "N(CCO)CCO",
+   "message": ""
+  },
+  "ethanolamine": {
+   "status": "SUCCESS",
+   "smiles": "C(O)CN",
+   "message": ""
+  },
+  "formula (I)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "formula (I) is unparsable due to the following being uninterpretable: formula (I) The following was not parseable: ula (I)"
+  },
+  "formula (III)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "formula (III) is unparsable due to the following being uninterpretable: formula (III) The following was not parseable: ula (III)"
+  },
+  "formula (IV)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "formula (IV) is unparsable due to the following being uninterpretable: formula (IV) The following was not parseable: ula (IV)"
+  },
+  "hydrochloric acid": {
+   "status": "SUCCESS",
+   "smiles": "Cl",
+   "message": ""
+  },
+  "hydrogen peroxide": {
+   "status": "SUCCESS",
+   "smiles": "OO",
+   "message": ""
+  },
+  "hypochlorite": {
+   "status": "SUCCESS",
+   "smiles": "Cl[O-]",
+   "message": ""
+  },
+  "mesotrione": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "mesotrione is unparsable due to the following being uninterpretable: mesotrione The following was not parseable: mesotrione"
+  },
+  "mesotrione of formula (I)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "mesotrione of formula (I) is unparsable due to the following being uninterpretable: mesotrione of formula (I) The following was not parseable: mesotrione of formula (I)"
+  },
+  "methyl sulfonyl benzoic acids": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "methyl sulfonyl benzoic acids is unparsable due to the following being uninterpretable: s The following was not parseable: s"
+  },
+  "nitric acid": {
+   "status": "SUCCESS",
+   "smiles": "[N+](=O)(O)[O-]",
+   "message": ""
+  },
+  "perruthenate": {
+   "status": "SUCCESS",
+   "smiles": "[Ru](=O)(=O)(=O)[O-]",
+   "message": ""
+  },
+  "ruthenate": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "ruthenate is unparsable due to the following being uninterpretable: ruthenate The following was not parseable: te"
+  },
+  "ruthenium (IV) oxide": {
+   "status": "SUCCESS",
+   "smiles": "[Ru](=O)=O",
+   "message": ""
+  },
+  "ruthenium dioxide": {
+   "status": "SUCCESS",
+   "smiles": "[Ru](=O)=O",
+   "message": ""
+  },
+  "ruthenium dioxide hydrate": {
+   "status": "SUCCESS",
+   "smiles": "O.[Ru](=O)=O",
+   "message": ""
+  },
+  "ruthenium oxide": {
+   "status": "SUCCESS",
+   "smiles": "[Ru]=O",
+   "message": ""
+  },
+  "ruthenium tetroxide": {
+   "status": "SUCCESS",
+   "smiles": "[Ru](=O)(=O)(=O)=O",
+   "message": ""
+  },
+  "ruthenium trichloride": {
+   "status": "SUCCESS",
+   "smiles": "[Ru](Cl)(Cl)Cl",
+   "message": ""
+  },
+  "salt or an oxide": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "salt or an oxide is unparsable due to the following being uninterpretable: or an oxide The following was not parseable: or an oxide"
+  },
+  "sodium cyanide": {
+   "status": "SUCCESS",
+   "smiles": "[C-]#N.[Na+]",
+   "message": ""
+  },
+  "sodium hypochlorite": {
+   "status": "SUCCESS",
+   "smiles": "Cl[O-].[Na+]",
+   "message": ""
+  },
+  "sulfuric acid": {
+   "status": "SUCCESS",
+   "smiles": "S(O)(O)(=O)=O",
+   "message": ""
+  },
+  "sulphuric acid": {
+   "status": "SUCCESS",
+   "smiles": "S(O)(O)(=O)=O",
+   "message": ""
+  },
+  "triethanolamine": {
+   "status": "SUCCESS",
+   "smiles": "N(CCO)(CCO)CCO",
+   "message": ""
+  },
+  "triethylamine": {
+   "status": "SUCCESS",
+   "smiles": "C(C)N(CC)CC",
+   "message": ""
+  },
+  "vanadium or cobalt compounds": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "vanadium or cobalt compounds is unparsable due to the following being uninterpretable: or cobalt compounds The following was not parseable: or cobalt compounds"
+  },
+  "vanadium pentoxide": {
+   "status": "SUCCESS",
+   "smiles": "[O-2].[O-2].[O-2].[O-2].[O-2].[V+5].[V+5]",
+   "message": ""
+  },
+  "water": {
+   "status": "SUCCESS",
+   "smiles": "O",
+   "message": ""
+  }
+ }
+}

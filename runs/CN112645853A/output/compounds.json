@@ -34,7 +34,11 @@
     ],
     "notes": "The compound this abstract is about and the product of the two step process it describes; named twice, once as the subject of the invention and once as the product of the second step. Identifier from the shared resolution registry. The printed Chinese name is generic because the alkoxymethyl group leaves the alkyl unspecified, so it does not identify one specific compound and resolved is false. compound_class:intermediate is supported by this section, which says the acid safeguards the final synthesis of tembotrione and tefuryltrione technical material. | Generic (Markush) name: the alkoxy group is not enumerated here, so resolved is false. Identifier string taken from the shared resolution registry so parallel sections spell it identically. No compound_class tag: the class of a generic family name is not supported by this section. Named as the subject of the invention's preparation method, not prepared in this section, which carries no procedure. | One record merged from [0005], which calls it the key intermediate of this series of compounds, [0007], where the cited prior art reaches it by saponifying the methyl ester, and [0011], which states that a new preparation of it is urgently needed. Identifier from the shared resolution registry. resolved is false because the alkoxymethyl substituent leaves the alkyl group unspecified, so the name does not identify one specific compound. is_section_product is true: the section closes on the need for a new route to it and it is the final product of the two step prior art scheme. [0009] states that R is trifluoroethyl for the tembotrione intermediate and 2-tetrahydrofurylmethyl for the tefuryltrione intermediate, but this section never names either specific acid, so neither is emitted. The structure span in [0006] that should carry this formula came back with an empty molecule list from the vision read, so no SMILES alias is available. | Named only as the title of the invention on line 35, as the target of the disclosed process, so recorded with role product and is_section_product true. Identifier taken from the shared resolution registry; the printed Chinese name is generic because 烷氧基甲基 (alkoxymethyl) leaves the alkyl group unspecified, so it does not identify one specific compound and resolved is false. No compound_class tag emitted: this section states nothing about whether the acid is an end product or an intermediate. | Target of the claimed process, named in claim 1 as the compound prepared and again as the product of step (2). One record merged across claim 1, claim 8 and claim 10. Identifier taken from the shared resolution registry. Resolved is false because the printed name is generic: 烷氧基甲基 (alkoxymethyl) leaves the alkyl group unspecified, so the name does not identify one specific compound. No compound_class tag because the claims do not say whether this acid is itself the active ingredient or an intermediate. | The target compound of the two-step process this section discloses, and the product of step (2). One record merged across [0012], [0014], [0019], [0023], [0052] and [0057] (rule 4). Identifier from the shared resolution registry. resolved is false because the printed name is generic: the alkoxymethyl alkyl group is left unspecified, and [0022] states only that R is 2,2,2-trifluoroethyl or 2-tetrahydrofurylmethyl, so the name does not identify one specific compound. compound_class:intermediate is supported by [0012], which says the acid safeguards the later preparation of tembotrione and tefuryltrione technical material. | Merged from two mentions in this section: the description title on line 117 and the general clause of [0001] on line 121. Identifier taken from the shared resolution registry. The printed Chinese name is generic because its alkoxymethyl substituent leaves the alkyl group unspecified, so the name does not identify one specific compound and resolved is false. is_section_product is true because the section is headed by this name and [0001] states the invention relates to its preparation; the two specific acids named later in [0001] are enumerated members of it and are kept as separate records with is_section_product false. compound_class:intermediate follows [0001], which places the invention in the field of fine chemical intermediate synthesis. That phrase is a field-of-art term, not a compound, so nothing is extracted from it. The section states no procedure, so no quantity, yield or characterisation is available.",
     "id": "CN112645853A_2-chloro-3-(alkoxymethyl)-4-(methanesulfonyl)benzoic acid",
-    "compound_uuid": "a2de44a5-a287-5b84-b4af-d969183ba494"
+    "compound_uuid": "a2de44a5-a287-5b84-b4af-d969183ba494",
+    "smiles": null,
+    "smiles_source": "none:markush",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -87,9 +91,13 @@
       "chemical_family:benzoate_ester",
       "compound_class:intermediate"
     ],
-    "notes": "Called the starting material in the abstract and consumed by the ester cleavage step. Identifier from the shared resolution registry. commercially_available left false: the section does not say it is purchased and it is not a bulk commodity reagent or solvent. | Called the starting material of the cited prior art in [0007] and drawn as the step 1 reactant of the reaction span in [0008]. That SMILES is C10H10BrClO4S with chloro, bromomethyl and methanesulfonyl at positions 2, 3 and 4 of a methyl benzoate, so it matches the name and is kept as an alias with the smiles field left null. Merged with [0010], which refers to the same material as the source of the ester that is cleaved and of the benzyl bromide group that the methanol then attacks; that group is a substituent, not a compound, so it is not extracted. Identifier from the shared resolution registry. commercially_available is false: this section does not say it is purchased and it is not a bulk commodity reagent. The other participants named in [0007] and in the conditions of the [0008] span are the corresponding alcohol, the corresponding sodium alkoxide, a base and an acid, written generically and including the ROH placeholder of the drawing; none of them names a compound, so none is emitted. | Called 原料 (starting material) of step (1) in claim 1 and claim 10. One record merged across claims 1, 2, 3 and 10. The claims give only ratios and ranges relative to 1 mol of this ester, never an absolute charge, so quantity is left empty. Marked not commercially available because the claims only call it a starting material and never state that it is bought. | Merged from two mentions in [0063]: the list of prior patents its preparation may follow, and the statement that the material used in the following examples was prepared by the CN105601548 method with a stated HPLC purity. The section is a preamble and prepares nothing itself, so it has no section product and the role is reactant, the starting material of the examples that follow. commercially_available is false because the text has it prepared by a referenced method rather than purchased. Resolved per the shared registry. | Charged in step (1) as 34.8 g (98%, 0.1 mol); mol converted to mmol only. The printed name is split across a page break, ending line 280 and resuming on line 285 after the page marker, where the enriched text also carries a stray None token. Line 294 prints the name in full as the basis of the two-step yield. SMILES alias is the reactant of the scheme drawn on line 277, which matches this name atom for atom. purity_method is null: the section gives 98% with no method. Identifier from the shared registry. | Substrate of the step (1) alkaline hydrolysis, 34.8 g of 98 percent grade, 0.1 mol, and the stated basis of the two-step yield quoted at the end of step (2); the two mentions are merged into one record. SMILES taken from the adjacent drawn scheme, which matches the printed name atom for atom. | Starting material of step (1), charged into the tert-butanol and sodium mixture, and named again in step (2) as the basis of the two step yield; one merged record. 98 percent is the strength printed with the charge, with no assay method. The drawn reactant at line 465 matches the name, so its SMILES is kept as an alias. | Starting material of step (1), charged into the tert-butanol and potassium mixture, and named again in step (2) as the basis of the two step yield; one merged record. 98 percent is the strength printed with the charge, with no assay method. The drawn reactant at line 484 matches the name, so its SMILES is kept as an alias. | Named in this section only as the basis for the 89.1 percent two-step yield. It is the starting material of step (1), which this section states is carried out as in Example 1, so no quantity is printed here. | Named in this section only as the basis for the 89.8 percent two-step yield. It is the starting material of step (1), which this section states is carried out as in Example 1, so no quantity is printed here. | Named in this section only as the basis for the 88.4 percent two-step yield. It is the starting material of step (1), which this section states is carried out as in Example 1, so no quantity is printed here. | Named in this section only as the basis of the two step yield calculation. It is the starting material of the step (1) procedure, which this section states only by reference to Example 1, so no quantity is given here. The yield stays on the product per rule 13. | Named in this section only as the basis of the two-step yield on line 560. It is the starting material of step (1), which this section does not write out, so no charge, purity or volume is stated for it here. Identifier from the shared resolution registry. | Named in this example only as the basis of the stated two step yield, and not charged in any step written here; it is the material the step (1) procedure of Example 1 consumes. No amount is given for it, and the yield is recorded on the section product rather than here. commercially_available left false: this section does not say it is purchased and it is not a bulk commodity reagent or solvent. Identifier from the shared resolution registry. | Named in this example only as the basis of the stated two step yield and not charged in any step written here; it is the material the step (1) procedure of Example 1 consumes. No amount is given for it, and the yield is recorded on the section product, not here. commercially_available left false: this section does not say it is purchased and it is not a bulk commodity reagent or solvent. Identifier from the shared resolution registry. | Substrate of the step (1) alkaline hydrolysis and the basis of the stated two-step yield. Drawn as the reactant of the step (1) scheme and the SMILES matches the name. commercially_available left false because the section does not state where it comes from. | Named in this example only as the basis of the stated two step yield, and not charged in any step written here; it is the material the step (1) procedure of Example 1 consumes. No amount is given for it, and the yield is recorded on the section product rather than here. commercially_available left false: this section does not say it is purchased and it is not a bulk commodity reagent or solvent. Identifier from the shared resolution registry. | Step (1) reactant for the alkaline hydrolysis, and the compound the 84.4% two-step yield is stated against. The structure drawn in the scheme on line 323 matches the name and is kept as an alias. | Substrate of the step (1) alkaline hydrolysis, and the stated basis of the two-step yield reported in step (2). purity_pct is the strength printed for the charged material. The aliased SMILES is the drawn reactant of the line 337 scheme, which matches the name. Identifier from the shared resolution registry. commercially_available left false: the section does not say it is purchased and it is not a bulk commodity reagent. | Charged as 98 percent material. SMILES alias is the drawn reactant of the step (1) scheme, which matches the name. Also the basis compound for the stated two-step yield. | Substrate of the step (1) alkaline hydrolysis and the stated basis of the two-step yield. SMILES taken from the adjacent drawn scheme, which matches the printed name atom for atom. | SMILES alias read from the drawn scheme reactant at line 396, which matches the name. Named again at line 405 as the basis of the two-step yield. Charged at 98 percent purity as printed. | Drawn as the reactant of the step 1 scheme on line 412 and that structure matches the name, so the SMILES is kept as an alias. The two-step yield in step 2 is calculated on this compound. | One record merged across its two mentions (rule 4): the charge to step (1), and the basis stated for the two-step yield at the end of step (2). The drawn reactant structure on line 431 matches the name and is kept as an alias. commercially_available left false: this section does not say the material is purchased. Identifier taken from the shared resolution registry. | Called the raw material of step (1) and consumed by the ester cleavage. One record merged across [0015], [0024], [0028] and [0056]. The reaction scheme at [0017] carries a drawn structure whose SMILES matches this name atom by atom, so the SMILES is kept as an alias and the smiles field is left unpopulated (rules 4b and 4c). [0024] identifies the benzyl bromide as the base-sensitive group that makes conventional ester hydrolysis unusable here. commercially_available is left false: the section does not say it is purchased and it is not a bulk commodity reagent. [0028] gives the solvent charge only as a range against 1 mol of this material, so no quantity is recorded.",
+    "notes": "Called the starting material in the abstract and consumed by the ester cleavage step. Identifier from the shared resolution registry. commercially_available left false: the section does not say it is purchased and it is not a bulk commodity reagent or solvent. | Called the starting material of the cited prior art in [0007] and drawn as the step 1 reactant of the reaction span in [0008]. That SMILES is C10H10BrClO4S with chloro, bromomethyl and methanesulfonyl at positions 2, 3 and 4 of a methyl benzoate, so it matches the name and is kept as an alias with the smiles field left null. Merged with [0010], which refers to the same material as the source of the ester that is cleaved and of the benzyl bromide group that the methanol then attacks; that group is a substituent, not a compound, so it is not extracted. Identifier from the shared resolution registry. commercially_available is false: this section does not say it is purchased and it is not a bulk commodity reagent. The other participants named in [0007] and in the conditions of the [0008] span are the corresponding alcohol, the corresponding sodium alkoxide, a base and an acid, written generically and including the ROH placeholder of the drawing; none of them names a compound, so none is emitted. | Called 原料 (starting material) of step (1) in claim 1 and claim 10. One record merged across claims 1, 2, 3 and 10. The claims give only ratios and ranges relative to 1 mol of this ester, never an absolute charge, so quantity is left empty. Marked not commercially available because the claims only call it a starting material and never state that it is bought. | Merged from two mentions in [0063]: the list of prior patents its preparation may follow, and the statement that the material used in the following examples was prepared by the CN105601548 method with a stated HPLC purity. The section is a preamble and prepares nothing itself, so it has no section product and the role is reactant, the starting material of the examples that follow. commercially_available is false because the text has it prepared by a referenced method rather than purchased. Resolved per the shared registry. | Charged in step (1) as 34.8 g (98%, 0.1 mol); mol converted to mmol only. The printed name is split across a page break, ending line 280 and resuming on line 285 after the page marker, where the enriched text also carries a stray None token. Line 294 prints the name in full as the basis of the two-step yield. SMILES alias is the reactant of the scheme drawn on line 277, which matches this name atom for atom. purity_method is null: the section gives 98% with no method. Identifier from the shared registry. | Substrate of the step (1) alkaline hydrolysis, 34.8 g of 98 percent grade, 0.1 mol, and the stated basis of the two-step yield quoted at the end of step (2); the two mentions are merged into one record. SMILES taken from the adjacent drawn scheme, which matches the printed name atom for atom. | Starting material of step (1), charged into the tert-butanol and sodium mixture, and named again in step (2) as the basis of the two step yield; one merged record. 98 percent is the strength printed with the charge, with no assay method. The drawn reactant at line 465 matches the name, so its SMILES is kept as an alias. | Starting material of step (1), charged into the tert-butanol and potassium mixture, and named again in step (2) as the basis of the two step yield; one merged record. 98 percent is the strength printed with the charge, with no assay method. The drawn reactant at line 484 matches the name, so its SMILES is kept as an alias. | Named in this section only as the basis for the 89.1 percent two-step yield. It is the starting material of step (1), which this section states is carried out as in Example 1, so no quantity is printed here. | Named in this section only as the basis for the 89.8 percent two-step yield. It is the starting material of step (1), which this section states is carried out as in Example 1, so no quantity is printed here. | Named in this section only as the basis for the 88.4 percent two-step yield. It is the starting material of step (1), which this section states is carried out as in Example 1, so no quantity is printed here. | Named in this section only as the basis of the two step yield calculation. It is the starting material of the step (1) procedure, which this section states only by reference to Example 1, so no quantity is given here. The yield stays on the product per rule 13. | Named in this section only as the basis of the two-step yield on line 560. It is the starting material of step (1), which this section does not write out, so no charge, purity or volume is stated for it here. Identifier from the shared resolution registry. | Named in this example only as the basis of the stated two step yield, and not charged in any step written here; it is the material the step (1) procedure of Example 1 consumes. No amount is given for it, and the yield is recorded on the section product rather than here. commercially_available left false: this section does not say it is purchased and it is not a bulk commodity reagent or solvent. Identifier from the shared resolution registry. | Named in this example only as the basis of the stated two step yield and not charged in any step written here; it is the material the step (1) procedure of Example 1 consumes. No amount is given for it, and the yield is recorded on the section product, not here. commercially_available left false: this section does not say it is purchased and it is not a bulk commodity reagent or solvent. Identifier from the shared resolution registry. | Substrate of the step (1) alkaline hydrolysis and the basis of the stated two-step yield. Drawn as the reactant of the step (1) scheme and the SMILES matches the name. commercially_available left false because the section does not state where it comes from. | Named in this example only as the basis of the stated two step yield, and not charged in any step written here; it is the material the step (1) procedure of Example 1 consumes. No amount is given for it, and the yield is recorded on the section product rather than here. commercially_available left false: this section does not say it is purchased and it is not a bulk commodity reagent or solvent. Identifier from the shared resolution registry. | Step (1) reactant for the alkaline hydrolysis, and the compound the 84.4% two-step yield is stated against. The structure drawn in the scheme on line 323 matches the name and is kept as an alias. | Substrate of the step (1) alkaline hydrolysis, and the stated basis of the two-step yield reported in step (2). purity_pct is the strength printed for the charged material. The aliased SMILES is the drawn reactant of the line 337 scheme, which matches the name. Identifier from the shared resolution registry. commercially_available left false: the section does not say it is purchased and it is not a bulk commodity reagent. | Charged as 98 percent material. SMILES alias is the drawn reactant of the step (1) scheme, which matches the name. Also the basis compound for the stated two-step yield. | Substrate of the step (1) alkaline hydrolysis and the stated basis of the two-step yield. SMILES taken from the adjacent drawn scheme, which matches the printed name atom for atom. | SMILES alias read from the drawn scheme reactant at line 396, which matches the name. Named again at line 405 as the basis of the two-step yield. Charged at 98 percent purity as printed. | Drawn as the reactant of the step 1 scheme on line 412 and that structure matches the name, so the SMILES is kept as an alias. The two-step yield in step 2 is calculated on this compound. | One record merged across its two mentions (rule 4): the charge to step (1), and the basis stated for the two-step yield at the end of step (2). The drawn reactant structure on line 431 matches the name and is kept as an alias. commercially_available left false: this section does not say the material is purchased. Identifier taken from the shared resolution registry. | Called the raw material of step (1) and consumed by the ester cleavage. One record merged across [0015], [0024], [0028] and [0056]. The reaction scheme at [0017] carries a drawn structure whose SMILES matches this name atom by atom, so the SMILES is kept as an alias and the smiles field is left unpopulated (rules 4b and 4c). [0024] identifies the benzyl bromide as the base-sensitive group that makes conventional ester hydrolysis unusable here. commercially_available is left false: the section does not say it is purchased and it is not a bulk commodity reagent. [0028] gives the solvent charge only as a range against 1 mol of this material, so no quantity is recorded. BLIND-REVIEW FIX (2026-09-01, adversarial pass): the note clause \"none of them names a compound, so none is emitted\" is superseded: the generic terms base (碱), acid (酸), ROH and ROM of [0007]/[0008] do have records in this file; the clause predates them. The [0007] mentions of 相应的醇 and 相应的醇钠 are the same generic identities as the existing alcohol and alkoxide class-term records and are not emitted as further records, consistent with identity-level deduplication.",
     "id": "CN112645853A_methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-    "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+    "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+    "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "molecular_formula": "C10H10BrClO4S",
+    "molecular_weight": 341.61
   },
   {
     "patent_id": "CN112645853A",
@@ -136,7 +144,11 @@
     ],
     "notes": "One record merged across its three mentions in this section (rule 4): it is obtained from the ester cleavage step, then reacted with an alcohol or with an alkali metal alkoxide. Role recorded as product, the role of its first appearance; it is also the reactant of the second step. resolved is false because the abstract writes only salt and never names the counter-ion. | One record merged across its two mentions (rule 4): [0060] calls it the product of this step and gives its liquid chromatography figure, [0061] has it going on to the etherification. Role product, the role of its first appearance; it is also the reactant of the second step. Identifier from the shared resolution registry. resolved false because the printed name ends in the word salt and never names the counter-ion. The intermediate whose quality [0060] says is improved is this same compound in the same sentence, so it is not emitted as a second record. The 98.3 figure is printed as a maximum normalised liquid chromatography ratio, not as a single measured purity. commercially_available false: a step of this document prepares it. | Product of step (1) and the substrate of step (2). One record merged over every claim that names it. Identifier taken from the shared resolution registry. Resolved is false because 盐 (salt) leaves the counter-ion unspecified; the claims enumerate both sodium and potassium bases without saying which salt forms, and that is not resolved here. is_section_product is false because it is an intermediate of the claimed two step process, not its final product. | Product of step (1) as the step heading names it. resolved is false because the heading prints only the generic word for the salt and never names the counter-ion. Identifier from the shared resolution registry. The prose of the same step and the drawn scheme both name the isolated product as the sodium salt, which is kept as a separate record with its own registry identifier; the generic heading name is not silently collapsed into it. | Product of step (1) as its heading names it. resolved is false because the heading prints the generic word for the salt and never names the counter-ion, so the name does not identify one specific compound. Identifier from the shared resolution registry. The prose of the same step and the drawn scheme both give the isolated product as the sodium salt, kept as its own record; the generic heading name is not collapsed into it. | Product of step (1) as its heading names it. resolved is false because the heading prints the generic word for the salt and never names the counter-ion, so the name does not identify one specific compound. Identifier from the shared resolution registry. The prose of the same step and the drawn scheme both give the isolated product as the potassium salt, kept as its own record; the generic heading name is not collapsed into it. | The step (1) heading names the salt without stating a counter-ion, so it is kept as printed and left unresolved. The scheme on line 323 and the prose on line 325 give the sodium salt of the same acid, which is emitted as its own record. | The step (1) heading names the product generically as the benzoate salt and does not give the counter-ion, so it does not identify one specific compound and resolved is false. Identifier from the shared resolution registry. The prose of the same step names the sodium salt; that is kept as its own record rather than an alias here, because the registry keeps the generic printed form and the printed sodium form apart. | Heading of step (1) names the salt without a counter-ion, so it does not identify one specific compound and is left unresolved. The prose of the same step names the potassium salt, which is a separate record. | The step (1) heading names the benzoate salt with no counter-ion, so it does not identify one specific compound and is left unresolved. The prose of the same step names the sodium salt, which is a separate record. | Title of step 1 names the salt with no counter-ion. The prose of the same step names the potassium salt, which is a separate record; the generic printed form is kept verbatim and left unresolved rather than merged into it. | Named as the heading of step (1) with no counter-ion given, so left unresolved. The prose of the same step names the product as the sodium salt, which is a separate record; the generic printed name is kept verbatim rather than merged into it. Identifier taken from the shared resolution registry. | One record merged across its many mentions in this section (rule 4): it is the product of the step (1) ester cleavage and then the substrate of step (2), by either the alcohol plus base route or the alkali metal alkoxide route. Role recorded as product, the role of its first appearance. resolved is false because the counter-ion is never named: the text writes only the salt, and [0018] and [0022] say M is an alkali metal. [0045] and [0050] describe it being added to the reaction system last and in batches, and [0046] states the addition order cannot be reversed.",
     "id": "CN112645853A_2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate salt",
-    "compound_uuid": "b4de0d31-09e7-5df9-97f5-2cae09a6a3cf"
+    "compound_uuid": "b4de0d31-09e7-5df9-97f5-2cae09a6a3cf",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr",
+    "smiles_source": "opsin",
+    "molecular_formula": "C9H7BrClO4S-",
+    "molecular_weight": 326.58
   },
   {
     "patent_id": "CN112645853A",
@@ -152,7 +164,7 @@
     "section_label": "Summary of the Invention",
     "section_type": "summary_of_invention",
     "is_section_product": false,
-    "commercially_available": false,
+    "commercially_available": true,
     "role": "other",
     "quantity": null,
     "ms_mz": null,
@@ -173,9 +185,13 @@
       "functional_group:trifluoromethyl",
       "functional_group:halide_chloro"
     ],
-    "notes": "Named only as a downstream target: the abstract says the process safeguards the final synthesis of high quality tembotrione technical material. No step of this section prepares or consumes it, so the role is other. No chemical_family or functional_group tags: the section gives only the common name and states nothing about the structure. | Named in [0002] as one of two HPPD triketone herbicides whose structural formulae follow, and drawn as the first molecule of the structure span in [0003]. That SMILES is C17H16ClF3O6S and carries the methanesulfonyl, chloro and 2,2,2-trifluoroethoxymethyl groups of tembotrione on a benzoyl cyclohexane-1,3-dione, so it matches the name and is kept as an alias with the smiles field left null. One record merged across [0002], [0004], [0010] and [0011], which add that it was developed by Bayer in 2007, is more active than mesotrione, is used in maize, and is the technical material whose quality the impurity harms. No step of this section prepares or consumes it, so the role is other, and commercially_available is true because it is a marketed herbicide that nothing in this patent prepares. Structure tags are supported here because this section draws the structure. HPPD itself, and the triketone, pyrazolone and isoxazolone class names of [0002], are an enzyme target and compound classes rather than compounds, so nothing is extracted from them. | Named only as a downstream target in the closing sentence of [0061]: the improved yield and quality of the target compound safeguard the final synthesis of high quality tembotrione technical material. No step of this section prepares or consumes it, so the role is other. Identifier from the shared resolution registry. No chemical_family or functional_group tags: the section gives only the common name and states nothing about the structure. | Named only as a downstream target in [0012]: the process safeguards the later preparation of high quality tembotrione technical material. No step of this section prepares or consumes it, so the role is other. No chemical_family or functional_group tags: the section gives the trivial name and nothing about the structure.",
+    "notes": "Named only as a downstream target: the abstract says the process safeguards the final synthesis of high quality tembotrione technical material. No step of this section prepares or consumes it, so the role is other. No chemical_family or functional_group tags: the section gives only the common name and states nothing about the structure. | Named in [0002] as one of two HPPD triketone herbicides whose structural formulae follow, and drawn as the first molecule of the structure span in [0003]. That SMILES is C17H16ClF3O6S and carries the methanesulfonyl, chloro and 2,2,2-trifluoroethoxymethyl groups of tembotrione on a benzoyl cyclohexane-1,3-dione, so it matches the name and is kept as an alias with the smiles field left null. One record merged across [0002], [0004], [0010] and [0011], which add that it was developed by Bayer in 2007, is more active than mesotrione, is used in maize, and is the technical material whose quality the impurity harms. No step of this section prepares or consumes it, so the role is other, and commercially_available is true because it is a marketed herbicide that nothing in this patent prepares. Structure tags are supported here because this section draws the structure. HPPD itself, and the triketone, pyrazolone and isoxazolone class names of [0002], are an enzyme target and compound classes rather than compounds, so nothing is extracted from them. | Named only as a downstream target in the closing sentence of [0061]: the improved yield and quality of the target compound safeguard the final synthesis of high quality tembotrione technical material. No step of this section prepares or consumes it, so the role is other. Identifier from the shared resolution registry. No chemical_family or functional_group tags: the section gives only the common name and states nothing about the structure. | Named only as a downstream target in [0012]: the process safeguards the later preparation of high quality tembotrione technical material. No step of this section prepares or consumes it, so the role is other. No chemical_family or functional_group tags: the section gives the trivial name and nothing about the structure. BLIND-REVIEW FIX (2026-09-01, adversarial pass): commercially_available false->true: this record's own note states it is true (a marketed herbicide nothing in this patent prepares; [0004], L130-131), and the sibling mesotrione record carries true in the identical situation. The stored field contradicted the record's own provenance.",
     "id": "CN112645853A_tembotrione",
-    "compound_uuid": "2bddf4b9-7126-5d6a-8e7b-0fbf29f0f7c8"
+    "compound_uuid": "2bddf4b9-7126-5d6a-8e7b-0fbf29f0f7c8",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "smiles_source": "patent_scheme+pubchem",
+    "molecular_formula": "C17H16ClF3O6S",
+    "molecular_weight": 440.82
   },
   {
     "patent_id": "CN112645853A",
@@ -191,7 +207,7 @@
     "section_label": "Summary of the Invention",
     "section_type": "summary_of_invention",
     "is_section_product": false,
-    "commercially_available": false,
+    "commercially_available": true,
     "role": "other",
     "quantity": null,
     "ms_mz": null,
@@ -211,9 +227,13 @@
       "functional_group:ether",
       "functional_group:halide_chloro"
     ],
-    "notes": "Named only as a downstream target, alongside tembotrione, in the closing sentence. No step of this section prepares or consumes it, so the role is other. The printed Chinese name resolves to tefuryltrione and not to fenquinotrione, per the shared conventions for this patent. No chemical_family or functional_group tags: the section gives only the common name. | Named in [0002] beside tembotrione and drawn as the second molecule of the structure span in [0003]. That SMILES is C20H23ClO7S and carries the methanesulfonyl, chloro and tetrahydrofurfuryloxymethyl groups on a benzoyl cyclohexane-1,3-dione, so it matches the name and is kept as an alias with the smiles field left null; the drawn tetrahydrofuran ring carries no stereo bond and this section prints no stereodescriptor, so none is added. The printed Chinese name resolves to tefuryltrione and not to fenquinotrione, per the shared conventions for this patent and supported by [0009], which states that R as 2-tetrahydrofurylmethyl gives the intermediate of this compound. One record merged across [0002], [0004], [0009], [0010] and [0011]. No step of this section prepares or consumes it, so the role is other, and commercially_available is true because [0004] has it launched in Japan in 2008 and nothing in this patent prepares it. | Named alongside tembotrione as a downstream target in the closing sentence of [0061]. No step of this section prepares or consumes it, so the role is other. TRANSLATION CONFLICT, recorded and not resolved silently: the EN line for [0061] renders the printed Chinese name as fenquinotrione. The Chinese is authoritative and its first two characters are furan, so the compound is tefuryltrione, per the shared conventions for this patent; fenquinotrione is a quinoxaline herbicide and a different compound. No chemical_family or functional_group tags: the section gives only the common name. | Named only as a downstream target in [0012], alongside tembotrione. No step of this section prepares or consumes it, so the role is other. The Chinese resolves to tefuryltrione and not to fenquinotrione, per the shared conventions for this patent. No chemical_family or functional_group tags: the section gives only the trivial name.",
+    "notes": "Named only as a downstream target, alongside tembotrione, in the closing sentence. No step of this section prepares or consumes it, so the role is other. The printed Chinese name resolves to tefuryltrione and not to fenquinotrione, per the shared conventions for this patent. No chemical_family or functional_group tags: the section gives only the common name. | Named in [0002] beside tembotrione and drawn as the second molecule of the structure span in [0003]. That SMILES is C20H23ClO7S and carries the methanesulfonyl, chloro and tetrahydrofurfuryloxymethyl groups on a benzoyl cyclohexane-1,3-dione, so it matches the name and is kept as an alias with the smiles field left null; the drawn tetrahydrofuran ring carries no stereo bond and this section prints no stereodescriptor, so none is added. The printed Chinese name resolves to tefuryltrione and not to fenquinotrione, per the shared conventions for this patent and supported by [0009], which states that R as 2-tetrahydrofurylmethyl gives the intermediate of this compound. One record merged across [0002], [0004], [0009], [0010] and [0011]. No step of this section prepares or consumes it, so the role is other, and commercially_available is true because [0004] has it launched in Japan in 2008 and nothing in this patent prepares it. | Named alongside tembotrione as a downstream target in the closing sentence of [0061]. No step of this section prepares or consumes it, so the role is other. BLIND-REVIEW FIX (2026-09-01, adversarial pass): a TRANSLATION CONFLICT claim that stood here was removed as factually wrong: the string fenquinotrione appears nowhere in the source file, and the EN line for [0061] (L266) reads \"tembotrione and tefuryltrione technical material\", agreeing with the Chinese. No conflict exists; 呋喃磺草酮 resolves to tefuryltrione. No chemical_family or functional_group tags: the section gives only the common name. | Named only as a downstream target in [0012], alongside tembotrione. No step of this section prepares or consumes it, so the role is other. The Chinese resolves to tefuryltrione and not to fenquinotrione, per the shared conventions for this patent. No chemical_family or functional_group tags: the section gives only the trivial name. BLIND-REVIEW FIX (2026-09-01, adversarial pass): commercially_available false->true: this record's own note states it is true (a marketed herbicide nothing in this patent prepares; [0004], L130-131), and the sibling mesotrione record carries true in the identical situation. The stored field contradicted the record's own provenance.",
     "id": "CN112645853A_tefuryltrione",
-    "compound_uuid": "e7de7e58-057b-523c-bc97-5053f3f38f34"
+    "compound_uuid": "e7de7e58-057b-523c-bc97-5053f3f38f34",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC1CCCO1",
+    "smiles_source": "patent_scheme+pubchem",
+    "molecular_formula": "C20H23ClO7S",
+    "molecular_weight": 442.92
   },
   {
     "patent_id": "CN112645853A",
@@ -225,12 +245,11 @@
       "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
       "目标化合物"
     ],
-    "smiles": null,
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Technical Field",
     "section_type": "technical_field",
-    "is_section_product": true,
+    "is_section_product": false,
     "commercially_available": false,
     "role": "product",
     "quantity": {
@@ -329,9 +348,13 @@
       "functional_group:trifluoromethyl",
       "functional_group:halide_chloro"
     ],
-    "notes": "Named as one of the two specific acids the examples prepare. This section states no procedure, quantity or characterisation, so is_section_product is false. | The compound the section ends with, so is_section_product is true. Isolated as 32.9 g by filtration, water rinsing and drying. The stated 93.8% is the two-step yield over steps (1) and (2) based on the methyl ester, not a single step yield; it is recorded here because it belongs to the product. Also called the target compound in the same sentence that names it in full, so no separate functional_ref record. SMILES alias is the product of the scheme drawn on line 290, which matches the name. No physical form or colour is stated. Identifier from the shared resolution registry. | The section product, named in the step (2) heading and isolated by filtration, water rinsing and drying as 32.5 g. The yield is printed as a two-step yield of 91.1 percent based on methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, not as a yield for step (2) alone, and is recorded here as printed. The same sentence calls it the target compound, which is this record and not a separate compound. Filtration and drying imply a solid but no physical form is printed, so physical_form is left null. SMILES from the adjacent drawn scheme, which matches the printed name. | Final product of the example: step (2) is headed by it and the end of the section calls it the target compound. The 92.4 percent is printed as a two-step yield based on the methyl ester, not as a yield for step (2) alone. Isolated by filtration, water rinse and drying; no physical form or colour is printed. Drawn as the product of the step (2) scheme and the SMILES matches the name. | Final product of the section, isolated by filtration, water rinsing and drying. The 84.4% figure is printed as a two-step yield based on the methyl ester, not as a step yield. The prose introduces it as the target compound. The structure drawn in the scheme on line 329 matches the name and is kept as an alias. No physical form or colour is stated, so those fields are null. | Product of the example, isolated by filtration, water rinsing and drying, and called the target compound in the same sentence. yield_pct 91.4 is printed as the two-step yield based on the methyl ester, not as a yield for step (2) alone. The aliased SMILES is the drawn product of the line 347 scheme, which matches the name. physical_form left null: the text prints no form for the isolated material. Identifier from the shared resolution registry. | Final product of the section, isolated by filtration, water rinsing and drying. The stated 93.5 percent is a two-step yield based on methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, not a yield for step (2) alone. SMILES alias is the drawn product of the step (2) scheme, which matches the name. | The section product, isolated by filtration, water rinsing and drying. The yield is printed as a two-step yield of 89.3 percent based on methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, not as a yield for step (2) alone. The same sentence calls it the target compound, which is the same record and not a separate compound. SMILES from the adjacent drawn scheme, which matches the printed name. | Final product of the example. SMILES alias read from the drawn scheme product at line 403, which matches the name. The alias is the functional reference the prose uses immediately before naming the compound. The stated yield is a two-step yield based on the methyl ester, not a single-step yield. | Final product of the section. Drawn as the product of the step 2 scheme and that structure matches the name, so the SMILES is an alias. The 91.9 percent yield is stated as a two-step yield calculated on the methyl ester. Also referred to as the target compound on line 425, merged into this record. No physical form is stated, so it is left null even though the product is filtered and dried. | The section product: named in the heading of step (2), isolated by filtration, water rinse and drying, and quantified by HPLC. The stated 89.7% is a yield over both steps calculated on the methyl ester, not a yield for step (2) alone. The drawn product structure on line 437 matches the name and is kept as an alias. No physical form and no colour are stated, so those fields are null. Identifier taken from the shared resolution registry. | Named in [0001] on line 121 as one of the two specific acids the invention prepares, so recorded with role product. Identifier taken from the shared resolution registry. is_section_product is false because the section is headed by the generic acid, which carries that flag. compound_class:intermediate follows [0001], which places the invention in the field of fine chemical intermediate synthesis. The section states no procedure, so no quantity, yield or characterisation is available.",
+    "notes": "Named as one of the two specific acids the examples prepare. This section states no procedure, quantity or characterisation, so is_section_product is false. | The compound the section ends with, so is_section_product is true. Isolated as 32.9 g by filtration, water rinsing and drying. The stated 93.8% is the two-step yield over steps (1) and (2) based on the methyl ester, not a single step yield; it is recorded here because it belongs to the product. Also called the target compound in the same sentence that names it in full, so no separate functional_ref record. SMILES alias is the product of the scheme drawn on line 290, which matches the name. No physical form or colour is stated. Identifier from the shared resolution registry. | The section product, named in the step (2) heading and isolated by filtration, water rinsing and drying as 32.5 g. The yield is printed as a two-step yield of 91.1 percent based on methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, not as a yield for step (2) alone, and is recorded here as printed. The same sentence calls it the target compound, which is this record and not a separate compound. Filtration and drying imply a solid but no physical form is printed, so physical_form is left null. SMILES from the adjacent drawn scheme, which matches the printed name. | Final product of the example: step (2) is headed by it and the end of the section calls it the target compound. The 92.4 percent is printed as a two-step yield based on the methyl ester, not as a yield for step (2) alone. Isolated by filtration, water rinse and drying; no physical form or colour is printed. Drawn as the product of the step (2) scheme and the SMILES matches the name. | Final product of the section, isolated by filtration, water rinsing and drying. The 84.4% figure is printed as a two-step yield based on the methyl ester, not as a step yield. The prose introduces it as the target compound. The structure drawn in the scheme on line 329 matches the name and is kept as an alias. No physical form or colour is stated, so those fields are null. | Product of the example, isolated by filtration, water rinsing and drying, and called the target compound in the same sentence. yield_pct 91.4 is printed as the two-step yield based on the methyl ester, not as a yield for step (2) alone. The aliased SMILES is the drawn product of the line 347 scheme, which matches the name. physical_form left null: the text prints no form for the isolated material. Identifier from the shared resolution registry. | Final product of the section, isolated by filtration, water rinsing and drying. The stated 93.5 percent is a two-step yield based on methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, not a yield for step (2) alone. SMILES alias is the drawn product of the step (2) scheme, which matches the name. | The section product, isolated by filtration, water rinsing and drying. The yield is printed as a two-step yield of 89.3 percent based on methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, not as a yield for step (2) alone. The same sentence calls it the target compound, which is the same record and not a separate compound. SMILES from the adjacent drawn scheme, which matches the printed name. | Final product of the example. SMILES alias read from the drawn scheme product at line 403, which matches the name. The alias is the functional reference the prose uses immediately before naming the compound. The stated yield is a two-step yield based on the methyl ester, not a single-step yield. | Final product of the section. Drawn as the product of the step 2 scheme and that structure matches the name, so the SMILES is an alias. The 91.9 percent yield is stated as a two-step yield calculated on the methyl ester. Also referred to as the target compound on line 425, merged into this record. No physical form is stated, so it is left null even though the product is filtered and dried. | The section product: named in the heading of step (2), isolated by filtration, water rinse and drying, and quantified by HPLC. The stated 89.7% is a yield over both steps calculated on the methyl ester, not a yield for step (2) alone. The drawn product structure on line 437 matches the name and is kept as an alias. No physical form and no colour are stated, so those fields are null. Identifier taken from the shared resolution registry. | Named in [0001] on line 121 as one of the two specific acids the invention prepares, so recorded with role product. Identifier taken from the shared resolution registry. is_section_product is false because the section is headed by the generic acid, which carries that flag. compound_class:intermediate follows [0001], which places the invention in the field of fine chemical intermediate synthesis. The section states no procedure, so no quantity, yield or characterisation is available. BLIND-REVIEW FIX (2026-09-01, adversarial pass): is_section_product true->false: this record is anchored at Technical Field, and its own Technical-Field note segment states the flag is false there because that section is headed by the generic acid, which carries it; three compounds were flagged product of one section. The example-section product status remains recorded in the per-section note segments and the yield data.",
     "id": "CN112645853A_2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
-    "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf"
+    "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "molecular_formula": "C11H10ClF3O5S",
+    "molecular_weight": 346.71
   },
   {
     "patent_id": "CN112645853A",
@@ -343,12 +366,11 @@
       "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC1CCCO1",
       "2-chloro-3-[(RS)-tetrahydrofuran-2-ylmethoxymethyl]-4-methylsulfonylbenzoic acid"
     ],
-    "smiles": null,
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Technical Field",
     "section_type": "technical_field",
-    "is_section_product": true,
+    "is_section_product": false,
     "commercially_available": false,
     "role": "product",
     "quantity": {
@@ -444,12 +466,15 @@
       "functional_group:carboxylic_acid",
       "functional_group:sulfone",
       "functional_group:ether",
-      "functional_group:halide_chloro",
-      "compound_class:active_ingredient"
+      "functional_group:halide_chloro"
     ],
-    "notes": "The (RS) descriptor is kept exactly as printed in the prose; no stereo bond is drawn in this section. Named as one of the two specific acids the examples prepare, not prepared here. | Final product of the section, named in the step (2) heading and again in the step (2) prose; one merged record. The printed yield is a two step figure stated on the methyl ester of step (1), not a yield on the sodium salt charged here, and it is consistent with the printed mass and content. The prose prints (RS) but the drawn structure at line 475 carries no stereo bond, so the descriptor comes from the prose only and none is taken from the drawing; the drawn constitution matches, so its SMILES is an alias. Isolated by filtration, water rinsing and drying, but no physical form or colour is printed, so those fields stay null. | Final product of the section, named in the step (2) heading and again in the step (2) prose; one merged record. The printed yield is a two step figure stated on the methyl ester of step (1), not a yield on the potassium salt charged here. The prose prints (RS) but the drawn structure at line 491 carries no stereo bond, so the descriptor comes from the prose only and none is taken from the drawing; the drawn constitution matches, so its SMILES is an alias. Isolated by filtration, water rinsing and drying, but no physical form or colour is printed, so those fields stay null. | Final product of the section, named on line 504 and again on line 509; one merged record. 89.1 percent is the two-step yield stated on the methyl ester of step (1), not a yield on the sodium salt charged here. The prose prints (RS) but the drawn structure carries no stereo bond, so the descriptor is taken from the prose only. Isolated by filtration, water rinsing and drying, but no physical form or colour is printed, so those fields stay null. | Final product of the section, named on line 515 and again on line 520; one merged record. 89.8 percent is the two-step yield stated on the methyl ester of step (1), not a yield on the sodium salt charged here. The prose prints (RS) but the drawn structure carries no stereo bond, so the descriptor is taken from the prose only. Isolated by filtration, water rinsing and drying, but no physical form or colour is printed, so those fields stay null. The same sentence calls it the target compound, which is this record and not a separate compound. | Final product of the section, named as the step (2) title on line 526 and again on line 533; one merged record. 88.4 percent is the two-step yield stated on the methyl ester of step (1), not a yield on the sodium salt charged here. The prose prints (RS) but the drawn structure on line 531 carries no stereo bond, so the descriptor is taken from the prose only. Tagged intermediate because the registry has this acid as the precursor to tefuryltrione rather than the herbicide itself. Isolated by filtration, water rinsing and drying, but no physical form or colour is printed, so those fields stay null. | Product of step (2) and of the section. 32.6 g isolated after filtration, water rinsing and drying. The 88.8 percent yield is stated for the two steps together and calculated on methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, not on the sodium salt actually charged in step (2). The prose names it 目标化合物 immediately before the full name, so the functional reference is merged here rather than kept as its own record. The product drawn in the reaction scheme matches the prose name, so the drawn SMILES is kept as an alias. (RS) is printed in the prose while the drawing carries no stereo bond; the printed descriptor is kept and none is added. | The compound the section is headed by in step (2) and ends with, so is_section_product is true. Isolated as 33.1 g by filtration, water rinsing and drying. The stated 92.5 percent is the two-step yield based on the methyl ester of step (1), not a yield on the sodium salt charged here; it is recorded on the product because it belongs to it. The same sentence calls it the target compound, which is this record and not a separate functional_ref. SMILES alias is the drawn product of the scheme on line 551, which matches the name atom for atom. The prose prints (RS) but the drawn structure carries no stereo bond, so the descriptor comes from the prose only. Filtration and drying imply a solid but no physical form or colour is printed, so those fields stay null. Identifier from the shared resolution registry. | The compound this example ends with: named as the subject of step (2) and again as the target compound in the sentence reporting 33.1 g of isolated product. The 92.2 percent figure is printed as a two step yield based on methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, not as a yield for step (2) alone, and is recorded as printed. SMILES alias from the product drawn in the step (2) scheme, which matches the printed name. No stereo bond is drawn there, so the (RS) descriptor is kept only because the prose prints it. Filtration, water rinsing and drying imply a solid but no physical form is printed, so physical_form is left null. Identifier from the shared resolution registry. | The product this example ends with, named as the subject of step (2) and again as the target compound, 目标化合物, in the sentence that reports it. The stated 91.5 percent yield is a two step yield based on methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, not a yield for step (2) alone. SMILES alias from the product drawn in the step (2) scheme. No stereo bond is drawn, so the (RS) descriptor is kept because the prose prints it, and no stereochemistry is read off the drawing. No physical form is stated for the isolated product. Identifier from the shared resolution registry. | The compound this example ends with, named as the subject of step (2) and again as the target compound in the sentence that reports the isolated product. The stated 90.8 percent yield is a two step yield based on methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, not a yield for step (2) alone. SMILES alias from the product drawn in the step (2) scheme. No stereo bond is drawn there, so the (RS) descriptor is kept only because the prose prints it. No physical form is stated for the isolated product. Identifier from the shared resolution registry. | Named in [0001] on line 121 as the second of the two specific acids the invention prepares, so recorded with role product. Identifier taken from the shared resolution registry. (RS) is kept because the text prints it; no structure is drawn in this section, so no stereodescriptor is added or removed. is_section_product is false because the section is headed by the generic acid, which carries that flag. compound_class:intermediate follows [0001], which places the invention in the field of fine chemical intermediate synthesis. The section states no procedure, so no quantity, yield or characterisation is available.",
+    "notes": "The (RS) descriptor is kept exactly as printed in the prose; no stereo bond is drawn in this section. Named as one of the two specific acids the examples prepare, not prepared here. | Final product of the section, named in the step (2) heading and again in the step (2) prose; one merged record. The printed yield is a two step figure stated on the methyl ester of step (1), not a yield on the sodium salt charged here, and it is consistent with the printed mass and content. The prose prints (RS) but the drawn structure at line 475 carries no stereo bond, so the descriptor comes from the prose only and none is taken from the drawing; the drawn constitution matches, so its SMILES is an alias. Isolated by filtration, water rinsing and drying, but no physical form or colour is printed, so those fields stay null. | Final product of the section, named in the step (2) heading and again in the step (2) prose; one merged record. The printed yield is a two step figure stated on the methyl ester of step (1), not a yield on the potassium salt charged here. The prose prints (RS) but the drawn structure at line 491 carries no stereo bond, so the descriptor comes from the prose only and none is taken from the drawing; the drawn constitution matches, so its SMILES is an alias. Isolated by filtration, water rinsing and drying, but no physical form or colour is printed, so those fields stay null. | Final product of the section, named on line 504 and again on line 509; one merged record. 89.1 percent is the two-step yield stated on the methyl ester of step (1), not a yield on the sodium salt charged here. The prose prints (RS) but the drawn structure carries no stereo bond, so the descriptor is taken from the prose only. Isolated by filtration, water rinsing and drying, but no physical form or colour is printed, so those fields stay null. | Final product of the section, named on line 515 and again on line 520; one merged record. 89.8 percent is the two-step yield stated on the methyl ester of step (1), not a yield on the sodium salt charged here. The prose prints (RS) but the drawn structure carries no stereo bond, so the descriptor is taken from the prose only. Isolated by filtration, water rinsing and drying, but no physical form or colour is printed, so those fields stay null. The same sentence calls it the target compound, which is this record and not a separate compound. | Final product of the section, named as the step (2) title on line 526 and again on line 533; one merged record. 88.4 percent is the two-step yield stated on the methyl ester of step (1), not a yield on the sodium salt charged here. The prose prints (RS) but the drawn structure on line 531 carries no stereo bond, so the descriptor is taken from the prose only. Tagged intermediate because the registry has this acid as the precursor to tefuryltrione rather than the herbicide itself. Isolated by filtration, water rinsing and drying, but no physical form or colour is printed, so those fields stay null. | Product of step (2) and of the section. 32.6 g isolated after filtration, water rinsing and drying. The 88.8 percent yield is stated for the two steps together and calculated on methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, not on the sodium salt actually charged in step (2). The prose names it 目标化合物 immediately before the full name, so the functional reference is merged here rather than kept as its own record. The product drawn in the reaction scheme matches the prose name, so the drawn SMILES is kept as an alias. (RS) is printed in the prose while the drawing carries no stereo bond; the printed descriptor is kept and none is added. | The compound the section is headed by in step (2) and ends with, so is_section_product is true. Isolated as 33.1 g by filtration, water rinsing and drying. The stated 92.5 percent is the two-step yield based on the methyl ester of step (1), not a yield on the sodium salt charged here; it is recorded on the product because it belongs to it. The same sentence calls it the target compound, which is this record and not a separate functional_ref. SMILES alias is the drawn product of the scheme on line 551, which matches the name atom for atom. The prose prints (RS) but the drawn structure carries no stereo bond, so the descriptor comes from the prose only. Filtration and drying imply a solid but no physical form or colour is printed, so those fields stay null. Identifier from the shared resolution registry. | The compound this example ends with: named as the subject of step (2) and again as the target compound in the sentence reporting 33.1 g of isolated product. The 92.2 percent figure is printed as a two step yield based on methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, not as a yield for step (2) alone, and is recorded as printed. SMILES alias from the product drawn in the step (2) scheme, which matches the printed name. No stereo bond is drawn there, so the (RS) descriptor is kept only because the prose prints it. Filtration, water rinsing and drying imply a solid but no physical form is printed, so physical_form is left null. Identifier from the shared resolution registry. | The product this example ends with, named as the subject of step (2) and again as the target compound, 目标化合物, in the sentence that reports it. The stated 91.5 percent yield is a two step yield based on methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, not a yield for step (2) alone. SMILES alias from the product drawn in the step (2) scheme. No stereo bond is drawn, so the (RS) descriptor is kept because the prose prints it, and no stereochemistry is read off the drawing. No physical form is stated for the isolated product. Identifier from the shared resolution registry. | The compound this example ends with, named as the subject of step (2) and again as the target compound in the sentence that reports the isolated product. The stated 90.8 percent yield is a two step yield based on methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, not a yield for step (2) alone. SMILES alias from the product drawn in the step (2) scheme. No stereo bond is drawn there, so the (RS) descriptor is kept only because the prose prints it. No physical form is stated for the isolated product. Identifier from the shared resolution registry. | Named in [0001] on line 121 as the second of the two specific acids the invention prepares, so recorded with role product. Identifier taken from the shared resolution registry. (RS) is kept because the text prints it; no structure is drawn in this section, so no stereodescriptor is added or removed. is_section_product is false because the section is headed by the generic acid, which carries that flag. compound_class:intermediate follows [0001], which places the invention in the field of fine chemical intermediate synthesis. The section states no procedure, so no quantity, yield or characterisation is available. BLIND-REVIEW FIX (2026-09-01, adversarial pass): is_section_product true->false: this record is anchored at Technical Field, and its own Technical-Field note segment states the flag is false there because that section is headed by the generic acid, which carries it; three compounds were flagged product of one section. The example-section product status remains recorded in the per-section note segments and the yield data. BLIND-REVIEW FIX (2026-09-01, adversarial pass): compound_class:active_ingredient removed: the patent calls this acid the key intermediate (L132), this record's own note says it is tagged intermediate as the precursor to tefuryltrione rather than the herbicide itself, and the sibling trifluoroethoxy acid carries no such tag.",
     "id": "CN112645853A_2-chloro-3-{[(RS)-tetrahydrofuran-2-yl]methoxymethyl}-4-(methanesulfonyl)benzoic_3607b6e9",
-    "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3"
+    "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC1CCCO1",
+    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "molecular_formula": "C14H17ClO6S",
+    "molecular_weight": 348.8
   },
   {
     "patent_id": "CN112645853A",
@@ -458,7 +483,6 @@
     "aliases": [
       "硝磺草酮"
     ],
-    "smiles": null,
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Background",
@@ -481,7 +505,11 @@
     ],
     "notes": "Named once in [0004], as the herbicide tembotrione is said to be more active than. The printed Chinese name is not in the shared resolution registry, which lists a different Chinese spelling for mesotrione; the form printed here is the other Chinese common name for the same compound and the EN line of [0004] also reads mesotrione, so it is resolved to mesotrione and the registry identifier string is used. No chemical_family or functional_group tags: this section gives only the common name and draws no structure for it. No step here prepares or consumes it, so the role is other, and it is a marketed herbicide this patent does not prepare.",
     "id": "CN112645853A_mesotrione",
-    "compound_uuid": "e3f2624f-92ba-515c-a947-70498bed1e92"
+    "compound_uuid": "e3f2624f-92ba-515c-a947-70498bed1e92",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
+    "smiles_source": "pubchem",
+    "molecular_formula": "C14H13NO7S",
+    "molecular_weight": 339.33
   },
   {
     "patent_id": "CN112645853A",
@@ -490,7 +518,6 @@
     "aliases": [
       "目标物甲酯"
     ],
-    "smiles": null,
     "resolved": false,
     "unresolved_reference": true,
     "section_label": "Background",
@@ -513,7 +540,11 @@
     ],
     "notes": "Functional reference in [0007]: the cited prior art reacts the starting material with the corresponding alcohol or sodium alkoxide to give this methyl ester, then saponifies it to 2-chloro-3-(alkoxymethyl)-4-(methanesulfonyl)benzoic acid. It is therefore the product of step 1 of the two step scheme drawn in [0008], whose product lists came back empty from the vision read. The section never prints a full chemical name for it, so the reference is kept as written and left unresolved rather than composed from the name of the target acid. is_section_product is false because the section ends on the acid, not on its ester. compound_class:intermediate because the next step consumes it; no chemical_family or functional_group tags, which a functional reference alone does not support.",
     "id": "CN112645853A_the methyl ester of the target compound",
-    "compound_uuid": "92dfd126-3ecb-5eaf-b645-49f5bef10992"
+    "compound_uuid": "92dfd126-3ecb-5eaf-b645-49f5bef10992",
+    "smiles": null,
+    "smiles_source": "none:reference",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -522,7 +553,6 @@
     "aliases": [
       "2-氯-3-甲氧基甲基-4-甲磺酰基苯甲酸"
     ],
-    "smiles": null,
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Summary of the Invention",
@@ -567,9 +597,13 @@
       "functional_group:ether",
       "functional_group:halide_chloro"
     ],
-    "notes": "[0010] names it as the impurity that makes up a large share of the product of the prior art process, formed when the methanol released by base cleavage or transesterification of the starting material ester reacts with the benzyl bromide group. Identifier from the shared resolution registry. The prose gives its normalised proportion as about 3 to 5% when R is trifluoroethyl and up to 8 to 12% when R is 2-tetrahydrofurylmethyl; those are proportions of this impurity in another compound rather than a purity measurement of it, and the section names no analytical method for them, so purity_pct, purity_method and analytics are left null. role by_product with compound_class:impurity, which is what the section calls it. | Named in [0060] as the main impurity of the prior art, whose formation this invention avoids by excising the methoxy group from the molecular structure. Identifier from the shared resolution registry. Role by_product: the text names it as an impurity co-formed by the superseded route, so it belongs to the prior art and is not formed here. The methoxy group itself is a substituent fragment and is not emitted as a compound (rule 8). | Named twice as an impurity, once in [0012] and once in [0023]; one merged record. It is the by-product the disclosed order of steps is designed to avoid, formed in the etherification when the methoxy group has not been removed first. No step of this section prepares it deliberately, so commercially_available is false.",
+    "notes": "[0010] names it as the impurity that makes up a large share of the product of the prior art process, formed when the methanol released by base cleavage or transesterification of the starting material ester reacts with the benzyl bromide group. Identifier from the shared resolution registry. The prose gives its normalised proportion as about 3 to 5% when R is trifluoroethyl and up to 8 to 12% when R is 2-tetrahydrofurylmethyl; those are proportions of this impurity in another compound rather than a purity measurement of it, and the section names no analytical method for them, so purity_pct, purity_method and analytics are left null. role by_product with compound_class:impurity, which is what the section calls it. | Named in [0060] as the main impurity of the prior art, whose formation this invention avoids by excising the methoxy group from the molecular structure. Identifier from the shared resolution registry. Role by_product: the text names it as an impurity co-formed by the superseded route, so it belongs to the prior art and is not formed here. The methoxy group itself is a substituent fragment and is not emitted as a compound (rule 8). | Named twice as an impurity, once in [0012] and once in [0023]; one merged record. It is the by-product the disclosed order of steps is designed to avoid, formed in the etherification when the methoxy group has not been removed first. No step of this section prepares it deliberately, so commercially_available is false. BLIND-REVIEW FIX (2026-09-01, adversarial pass): the earlier note clause stating purity_pct, purity_method and analytics are left null is superseded on the analytics point: the two [0010] impurity-proportion statements (L147, 3-5% and 8-12%, verbatim) are held as analytics entries on this record because they are the patent's only quantitative statements about this compound; they remain proportions of the impurity in the prior-art product, not purities of an isolated batch, which is why purity_pct and purity_method stay null.",
     "id": "CN112645853A_2-chloro-3-(methoxymethyl)-4-(methanesulfonyl)benzoic acid",
-    "compound_uuid": "e056e02b-48af-59e6-9b40-1d5fc2a38765"
+    "compound_uuid": "e056e02b-48af-59e6-9b40-1d5fc2a38765",
+    "smiles": "COCc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+    "smiles_source": "opsin",
+    "molecular_formula": "C10H11ClO5S",
+    "molecular_weight": 278.71
   },
   {
     "patent_id": "CN112645853A",
@@ -578,7 +612,6 @@
     "aliases": [
       "甲醇"
     ],
-    "smiles": null,
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Background",
@@ -601,7 +634,11 @@
     ],
     "notes": "[0010] names methanol as the byproduct given off when the ester of the starting material undergoes base cleavage or transesterification in the basic medium, and states that the methanol then reacts with the benzyl bromide group to give the methoxymethyl impurity, so the role is by_product. commercially_available is true because methanol is a bulk commodity solvent that no step of this patent prepares as a product; in this section it is never charged and arises in situ. No chemical_family or functional_group tag: the categories offered do not carry a value for a simple alcohol that is certain enough to emit.",
     "id": "CN112645853A_methanol",
-    "compound_uuid": "87198273-16d4-5204-82aa-3541557837d5"
+    "compound_uuid": "87198273-16d4-5204-82aa-3541557837d5",
+    "smiles": "CO",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CH4O",
+    "molecular_weight": 32.04
   },
   {
     "patent_id": "CN112645853A",
@@ -634,7 +671,11 @@
     ],
     "notes": "Named in [0060] as the solvent of the invention. The printed Chinese name, kept as an alias, unambiguously means tertiary alcohol, but that is a class name and not one specific compound, so resolved is false (rule 7). Not in the shared resolution registry, which lists only the individual tertiary alcohols tert-butanol, tert-amyl alcohol and 2-methyl-2-pentanol; this section names none of them, so the class term is kept as printed rather than narrowed to one of them. commercially_available true: a solvent that no step of this patent prepares.",
     "id": "CN112645853A_tertiary alcohol",
-    "compound_uuid": "f286ca1f-42c9-57bd-84b7-941c17e4c88c"
+    "compound_uuid": "f286ca1f-42c9-57bd-84b7-941c17e4c88c",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -665,7 +706,11 @@
     ],
     "notes": "Anaphoric reference in [0060]: the starting material undergoes the ester cleavage reaction in the presence of a basic substance. This section never names it, so per rule 6 it is left unresolved and unresolved_reference is true; it is not resolved from any other section of the document. commercially_available false: the section does not say it is purchased.",
     "id": "CN112645853A_starting material",
-    "compound_uuid": "203ea5b7-fcde-53b9-bbad-7c9a8b4735d0"
+    "compound_uuid": "203ea5b7-fcde-53b9-bbad-7c9a8b4735d0",
+    "smiles": null,
+    "smiles_source": "none:reference",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -696,7 +741,11 @@
     ],
     "notes": "Named in [0060] as the base the ester cleavage runs in the presence of. A class term, not one specific compound, so resolved is false (rule 7). No identity and no counter-ion is given here, so it is not narrowed to any of the hydroxides, alkoxides or hydrides in the shared registry. commercially_available false: it cannot be asserted for an unidentified base, and this document prepares some of its bases in situ.",
     "id": "CN112645853A_basic substance",
-    "compound_uuid": "270ee368-f0b4-5278-bdbd-d156292229b1"
+    "compound_uuid": "270ee368-f0b4-5278-bdbd-d156292229b1",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -741,7 +790,11 @@
     ],
     "notes": "Anaphoric reference in [0061]: the etherification of the benzoate salt forms the target compound. This section never names it, so per rule 6 it stays unresolved and unresolved_reference is true; it is not resolved from any other section. The 93.8 yield is printed as the maximum yield of the two step reaction of this method, not of one step, and 98.7 is an HPLC content figure also printed as a maximum. compound_class:intermediate is supported by this section, which says the yield and quality of the target compound safeguard the final synthesis of tembotrione and tefuryltrione technical material. is_section_product false: this section states beneficial effects, it contains no procedure and isolates no product of its own.",
     "id": "CN112645853A_target compound",
-    "compound_uuid": "0003b5b5-9822-53c6-bb79-80d40b2a0d74"
+    "compound_uuid": "0003b5b5-9822-53c6-bb79-80d40b2a0d74",
+    "smiles": null,
+    "smiles_source": "none:reference",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -780,7 +833,11 @@
     ],
     "notes": "One of the three tertiary alcohols claim 2 allows as the step (1) solvent, and the one stated as preferred. The amount is given only as a range of 700 to 3500 mL per mol of the ester, which is not a single volume, so volume_ml is null. | Reaction medium of step (1), 200 mL, stripped off under reduced pressure at the end of the step. Identifier from the shared resolution registry. | Step (1) reaction solvent, charged with tert-amyl alcohol and stripped off under reduced pressure before step (2). | Reaction solvent of step (1); the sodium metal is dissolved in it before the ester is charged, and it is stripped under reduced pressure at the end of the step. | Reaction solvent of step (1); the potassium metal is dissolved in it before the ester is charged, and it is stripped under reduced pressure at the end of the step. | Step (1) reaction solvent, stripped under reduced pressure at the end of the step. | Reaction solvent of step (1), stripped off under reduced pressure before the etherification. Identifier from the shared resolution registry. | Step (1) reaction solvent, stripped off under reduced pressure before step (2). | Step (1) reaction solvent, stripped off under reduced pressure before step (2). | Step (1) reaction solvent, stripped under reduced pressure at the end of the step. | Step 1 reaction solvent, stripped off under reduced pressure before step 2. | One of the three tertiary alcohols [0027] permits as the step (1) solvent, and the one it states as preferred. [0026] explains that the tertiary alcohol system lowers the reactivity of the benzyl bromide. [0028] gives the charge only as a range of 700 to 3500 mL per 1 mol of raw material, so quantity is left null (rule 12).",
     "id": "CN112645853A_tert-butanol",
-    "compound_uuid": "b630bbfb-b051-53f7-90e0-385f00371d1f"
+    "compound_uuid": "b630bbfb-b051-53f7-90e0-385f00371d1f",
+    "smiles": "CC(C)(C)O",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C4H10O",
+    "molecular_weight": 74.12
   },
   {
     "patent_id": "CN112645853A",
@@ -819,7 +876,11 @@
     ],
     "notes": "One of the three tertiary alcohols claim 2 allows as the step (1) solvent. Identifier taken from the shared resolution registry. | Step (1) reaction solvent, charged with tert-butanol and stripped off under reduced pressure before step (2). Identifier taken from the shared resolution registry. | Reaction medium of the step (1) alkaline hydrolysis; stripped off under reduced pressure before step (2). | One of the three tertiary alcohols [0027] permits as the step (1) solvent. The section does not say which is used in any given run, only that tert-butanol is preferred. [0028] gives the charge only as a range of 700 to 3500 mL per 1 mol of raw material, so quantity is left null (rule 12).",
     "id": "CN112645853A_tert-amyl alcohol",
-    "compound_uuid": "66624e54-de61-552f-a6f2-ca75e17dcd3c"
+    "compound_uuid": "66624e54-de61-552f-a6f2-ca75e17dcd3c",
+    "smiles": "CCC(C)(C)O",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C5H12O",
+    "molecular_weight": 88.15
   },
   {
     "patent_id": "CN112645853A",
@@ -858,7 +919,11 @@
     ],
     "notes": "One of the three tertiary alcohols claim 2 allows as the step (1) solvent. | Reaction medium of step (1), stripped off completely under negative pressure at the end of the step. Identifier taken from the shared resolution registry. | One of the three tertiary alcohols [0027] permits as the step (1) solvent. The section does not say which is used in any given run, only that tert-butanol is preferred. [0028] gives the charge only as a range of 700 to 3500 mL per 1 mol of raw material, so quantity is left null (rule 12).",
     "id": "CN112645853A_2-methyl-2-pentanol",
-    "compound_uuid": "ad92fe24-113e-5321-82ca-4e9e0f6b17af"
+    "compound_uuid": "ad92fe24-113e-5321-82ca-4e9e0f6b17af",
+    "smiles": "CCCC(C)(C)O",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C6H14O",
+    "molecular_weight": 102.18
   },
   {
     "patent_id": "CN112645853A",
@@ -898,7 +963,11 @@
     ],
     "notes": "Named as a basic substance option for step (1) in claim 3 and for step (2) in claim 6, and stated as preferred for step (1). Claims 3 and 6 give its mass concentration as a range of 30 to 96 percent, which is a range rather than a measured purity, so purity_pct stays null. | The base of the step (1) alkaline hydrolysis, 8.8 g (48%, 0.105 mol), added dropwise and then described as dispersing uniformly. The 48% strength implies a solution, but the section names no solvent for it, so none is recorded. NaOH alias is the condition text of the scheme drawn on line 277, which agrees with the prose. Identifier from the shared resolution registry. | Deprotonates the alcohol; charged as a 96 percent solid with no assay method given. The prose and the drawn scheme conditions on line 506 both say sodium, so there is no alkali metal conflict in this section. | Deprotonates the alcohol. Charged as 17.3 g of 30 percent sodium hydroxide solution, 0.13 mol, so the mass is the mass of the solution as printed and not of sodium hydroxide. The 30 percent figure is the concentration of the aqueous solution rather than a purity, so purity_pct is left null, and the water of that solution is not separately quantified. The prose and the drawn scheme conditions on line 531 both say sodium, so there is no alkali metal conflict in this section. | 48 percent is the strength printed with the charge and is consistent with 0.105 mol of sodium hydroxide contained in 8.8 g. Printed as added dropwise and then dispersed. Named NaOH in the conditions of the step (1) scheme, which agrees with the prose. | Merged across both steps of the section: step (1) charges 14 g of 30% sodium hydroxide, 0.105 mol, added dropwise; step (2) charges 17.3 g of 30% sodium hydroxide solution, 0.13 mol. The quantity field carries the step (1) charge. The 30% figure is the concentration of the aqueous solution rather than a purity, so purity_pct is left null. Also named as NaOH in the scheme conditions on lines 323 and 329. | Added dropwise as a solid at room temperature and dispersed before the ester is charged. Merged with the NaOH printed in the conditions of the line 337 scheme, the same compound named by formula. purity_pct is the strength printed for the charged material. Identifier from the shared resolution registry. | Drawing-only compound: it appears solely as the condition text NaOH in the scheme at line 396 and is never named in the prose. The prose of the same step gives sodium tert-butoxide as the base. Both are recorded and the disagreement is not resolved. Provenance quote is the scheme fragment, since this compound has no Chinese text. | Base of the etherification in step (2), charged at a stated 96% strength which is recorded as purity_pct. Also named as NaOH in the drawn scheme conditions on line 437. Identifier taken from the shared resolution registry. | One merged record. Listed as a permitted basic substance for step (1) in [0030], where it is also the preferred one, and for step (2) in [0037]. [0031] and [0038] say it is made up into an aqueous sodium hydroxide solution before use, of mass concentration 30 to 96 per cent; that is a range, so purity_pct is left null. Conflict recorded and not resolved: [0032] and [0039] both state that potassium hydroxide is likewise made up into an aqueous SODIUM hydroxide solution, which names the wrong metal for a potassium hydroxide solution. Both compounds are extracted and the conflict is left standing.",
     "id": "CN112645853A_sodium hydroxide",
-    "compound_uuid": "9a91a7e5-bbba-5562-be94-e32114ee612e"
+    "compound_uuid": "9a91a7e5-bbba-5562-be94-e32114ee612e",
+    "smiles": "[Na+].[OH-]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "HNaO",
+    "molecular_weight": 40.0
   },
   {
     "patent_id": "CN112645853A",
@@ -938,7 +1007,11 @@
     ],
     "notes": "Named as a basic substance option for step (1) in claim 3 and for step (2) in claim 6. Claims 3 and 6 give its mass concentration as a range of 30 to 96 percent, so purity_pct stays null. | Base for the step (2) etherification, 9.9 g of 85 percent grade, 0.15 mol. KOH is also the condition text of the step (2) drawn scheme, which agrees with the prose. | Deprotonates the alcohol; charged as an 85 percent solid with no assay method given. The prose base and the KOH of the scheme conditions on line 517 agree, and the drawn reactant is the sodium salt exactly as the prose has it, so there is no alkali metal conflict in this section: the substrate is the sodium salt and the base is the potassium hydroxide. | Deprotonates the alcohol. Charged as 26.1 g of 30 percent potassium hydroxide solution, 0.14 mol, so the mass is the mass of the solution as printed and not of potassium hydroxide. The 30 percent figure is the concentration of the solution rather than a purity, so purity_pct is left null, and the solvent of that solution is not named or quantified. The prose and the drawn scheme conditions on line 541 both say potassium, so there is no alkali metal conflict in this section. | Printed as 85 percent material added dropwise (滴入) with no solvent stated for it, and the next sentence has it dispersing rather than dissolving; transcribed as printed. KOH also appears as the condition text of the step (1) drawn scheme, which agrees with the prose. | Charged in both steps and merged into one record: 6.6 g of 85 percent grade in step (1) and 26.1 g of a 30 percent solution (0.14 mol) in step (2). The quantity fields carry the step (1) charge, which is the more completely specified of the two. Purity is left null because the two charges are different strengths. The 85 percent material is described as added dropwise, which does not fit a solid grade; transcribed as printed. KOH is also the condition text of both drawn schemes. | One merged record. Listed as a permitted basic substance for step (1) in [0030] and for step (2) in [0037]. Conflict recorded and not resolved: [0032] and [0039] state that this potassium hydroxide is first made up into an aqueous SODIUM hydroxide solution, while giving the mass concentration as that of the potassium hydroxide. The printed text is kept as it stands and both compounds are extracted. The concentration is a range of 30 to 96 per cent, so purity_pct is left null.",
     "id": "CN112645853A_potassium hydroxide",
-    "compound_uuid": "0e7ddb62-f823-513f-9e9e-af73a74e6115"
+    "compound_uuid": "0e7ddb62-f823-513f-9e9e-af73a74e6115",
+    "smiles": "[K+].[OH-]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "HKO",
+    "molecular_weight": 56.11
   },
   {
     "patent_id": "CN112645853A",
@@ -978,7 +1051,11 @@
     ],
     "notes": "Named as a basic substance option for step (1) in claim 3 and for step (2) in claim 6. | Base of step (2), charged with the alcohol before the sodium salt is added in portions. 98 percent is the strength printed with the charge, with no assay method. C4H9ONa in the scheme conditions at line 475 is the same base and agrees with the prose on the alkali metal. | Drawing only: named by the formula C4H9ONa in the conditions of the line 347 reaction scheme and never mentioned in the prose, which names potassium tert-butoxide for the same step. Extracted per rules 4e and 4f, with the conflict against the prose recorded rather than resolved. No quantity is printed for it. Identifier from the shared resolution registry. | Merged: used as the base in both steps. Quantity is the step (1) charge; step (2) charges 11.8g (0.12mol) of it. Alias C4H9ONa is the condition text of the drawn scheme at line 403. The step (1) scheme instead shows NaOH, recorded as its own drawing-only record. Added dropwise as printed, although it is a solid charge. | Listed as a permitted basic substance for step (1) in [0030] and for step (2) in [0037]; one merged record. The section does not say it is used in any particular run, and gives its amount only as a molar ratio range against the substrate, so quantity is left null.",
     "id": "CN112645853A_sodium tert-butoxide",
-    "compound_uuid": "029dbd7c-bd8e-5ac6-9046-244aee01ef62"
+    "compound_uuid": "029dbd7c-bd8e-5ac6-9046-244aee01ef62",
+    "smiles": "CC(C)(C)[O-].[Na+]",
+    "smiles_source": "opsin",
+    "molecular_formula": "C4H9NaO",
+    "molecular_weight": 96.1
   },
   {
     "patent_id": "CN112645853A",
@@ -1019,7 +1096,11 @@
     ],
     "notes": "Named as a basic substance option for step (1) in claim 3 and for step (2) in claim 6. | Base of step (2), charged with the alcohol before the potassium salt is added in portions. 95 percent is the strength printed with the charge, with no assay method. C4H9OK in the scheme conditions at line 491 is the same base and agrees with the prose on the alkali metal. | Base of the step (2) etherification, charged with the trifluoroethanol before the salt. purity_pct is the strength printed for the charged material. Conflict recorded and not resolved: the conditions of the line 347 scheme for this same step print C4H9ONa, the sodium alkoxide, while the prose names the potassium alkoxide. Both compounds are extracted. Identifier from the shared resolution registry. | Named in the prose and as the condition text on the step 1 scheme, merged. The text adds this 95 percent solid dropwise and then says it disperses, which is internally inconsistent; transcribed as printed. | Listed as a permitted basic substance for step (1) in [0030] and for step (2) in [0037]; one merged record. The section does not say it is used in any particular run, and gives its amount only as a molar ratio range against the substrate, so quantity is left null.",
     "id": "CN112645853A_potassium tert-butoxide",
-    "compound_uuid": "a400645b-36e3-5f48-a1ec-a8dd2e235a93"
+    "compound_uuid": "a400645b-36e3-5f48-a1ec-a8dd2e235a93",
+    "smiles": "CC(C)(C)[O-].[K+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C4H9KO",
+    "molecular_weight": 112.21
   },
   {
     "patent_id": "CN112645853A",
@@ -1058,7 +1139,11 @@
     ],
     "notes": "Named as a basic substance option for step (1) in claim 3 and for step (2) in claim 6. Hazard tag set because an alkali metal hydride is water reactive and flammable by its chemistry; the claims themselves give no warning. | 5.2 g (60%, 0.13 mol) charged into trifluoroethanol to form the alkoxide, so recorded as a base. The stated figures are self consistent for a 60% dispersion of NaH. Identifier from the shared resolution registry. | 5.2 g (60%, 0.13 mol) charged into the tetrahydrofurfuryl alcohol to form the alkoxide, so recorded as a base. The stated figures are self consistent for a 60% dispersion of NaH, and the 60% is a dispersion strength rather than an assay, so purity_method stays null. Identifier from the shared resolution registry. | Base for the alkaline cleavage of the methyl ester in step (1). The text prints the hydride as added dropwise and then as dissolving completely, neither of which fits a solid hydride; transcribed as printed and not reinterpreted. Also named as NaH in the drawn scheme conditions on line 431. The stated 60% strength is recorded as purity_pct. | Listed as a permitted basic substance for step (1) in [0030] and for step (2) in [0037]; one merged record. hazard:flammable is recorded because an alkali metal hydride is water reactive, not because the patent warns about it.",
     "id": "CN112645853A_sodium hydride",
-    "compound_uuid": "1a0d35de-031c-50cf-a4a3-60b904e47a4b"
+    "compound_uuid": "1a0d35de-031c-50cf-a4a3-60b904e47a4b",
+    "smiles": "[H-].[Na+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "HNa",
+    "molecular_weight": 24.0
   },
   {
     "patent_id": "CN112645853A",
@@ -1098,7 +1183,11 @@
     ],
     "notes": "Named as a basic substance option for step (1) in claim 3 and for step (2) in claim 6. Transcribed as printed. Hazard tag set because an alkali metal hydride is water reactive and flammable by its chemistry; the claims themselves give no warning. | Base for the step (1) alkaline hydrolysis, printed as 14.0 g of 30 percent potassium hydride, 0.105 mol. SOURCE CONFLICT: the patent has the hydride added dropwise and then dissolving completely in the tertiary alcohols, which a solid hydride does not do, and the 30 percent strength does not fit a hydride charge. Transcribed as printed and not reinterpreted as a solution of anything else. KH is also the condition text of the step (1) drawn scheme. | Printed as 20 g of 30 percent potassium hydride, 0.15 mol, charged at room temperature and stirred until completely dissolved, which a solid hydride does not do; it is consumed by deprotonating the alcohol. Transcribed as printed and not reinterpreted as a solution of anything else. The 30 percent strength is recorded as purity_pct with no method given. | Printed as 20 g of 30 percent potassium hydride, 0.15 mol, and described as stirred until completely dissolved, which a hydride does not do; it is consumed by deprotonating the alcohol. Transcribed as printed and not reinterpreted. | Listed as a permitted basic substance for step (1) in [0030] and for step (2) in [0037]; one merged record. hazard:flammable is recorded because an alkali metal hydride is water reactive, not because the patent warns about it.",
     "id": "CN112645853A_potassium hydride",
-    "compound_uuid": "183f427f-2dd8-5dae-963d-00b8856a8060"
+    "compound_uuid": "183f427f-2dd8-5dae-963d-00b8856a8060",
+    "smiles": "[H-].[K+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "HK",
+    "molecular_weight": 40.11
   },
   {
     "patent_id": "CN112645853A",
@@ -1137,7 +1226,11 @@
     ],
     "notes": "Claim 3 lists it among the basic substances for step (1), and claim 7 names it as an alkali metal that reacts with an alcohol to give the alkali metal alkoxide used in step (2). One record merged over both mentions; role follows claim 3, which classes it as a basic substance. | Dissolved in tert-butanol to generate the alkoxide that cleaves the methyl ester; recorded as reagent because it is not the carbon skeleton source. The prose never names the alkoxide itself, so none is recorded. 99 percent is the strength printed with the charge and no assay method is given. Na in the scheme conditions at line 465 is the same reagent and no structure is drawn for it. | Added at room temperature and stirred until dissolved, converting the alcohol into its sodium alkoxide, so recorded as a reagent. Charged at 99 percent, recorded as purity_pct with no method stated. The printed 0.12 mol is carried as 120 mmol, a unit change only. | Deprotonates trifluoroethanol to give the alkoxide; recorded as reagent because it is not the carbon skeleton source. 99 percent is the strength printed with the charge. | One merged record with two uses. [0030] lists it as a permitted basic substance for step (1); [0042] and [0043] name it as the alkali metal that is reacted with the alcohol to make the alkali metal alkoxide used in step (2). Role kept as base, the role of its first appearance; it is a reactant in the alkoxide preparation. The step (2) base list in [0037] does not include the metals. hazard:flammable is recorded because an alkali metal is water reactive, not because the patent warns about it.",
     "id": "CN112645853A_sodium metal",
-    "compound_uuid": "21cccd31-3316-5401-99a2-b211ab90fb3c"
+    "compound_uuid": "21cccd31-3316-5401-99a2-b211ab90fb3c",
+    "smiles": "[Na]",
+    "smiles_source": "curated+pubchem",
+    "molecular_formula": "Na",
+    "molecular_weight": 22.99
   },
   {
     "patent_id": "CN112645853A",
@@ -1176,7 +1269,11 @@
     ],
     "notes": "Claim 3 lists it among the basic substances for step (1), and claim 7 names it as an alkali metal that reacts with an alcohol to give the alkali metal alkoxide used in step (2). One record merged over both mentions; role follows claim 3, which classes it as a basic substance. | Dissolved in tert-butanol to generate the alkoxide that cleaves the methyl ester; recorded as reagent because it is not the carbon skeleton source. The prose never names the alkoxide itself, so none is recorded. 99 percent is the strength printed with the charge and no assay method is given. K in the scheme conditions at line 484 is the same reagent and no structure is drawn for it. | Added at room temperature and stirred until dissolved, converting the alcohol into its potassium alkoxide, so recorded as a reagent. Charged at 99 percent, recorded as purity_pct with no method given. | Dissolved in trifluoroethanol to give the potassium alkoxide. | One merged record with two uses. [0030] lists it as a permitted basic substance for step (1); [0042] and [0043] name it as the alkali metal that is reacted with the alcohol to make the alkali metal alkoxide used in step (2). Role kept as base, the role of its first appearance; it is a reactant in the alkoxide preparation. The step (2) base list in [0037] does not include the metals. hazard:flammable is recorded because an alkali metal is water reactive, not because the patent warns about it.",
     "id": "CN112645853A_potassium metal",
-    "compound_uuid": "81005893-30de-5efe-a01e-09d2b59160b3"
+    "compound_uuid": "81005893-30de-5efe-a01e-09d2b59160b3",
+    "smiles": "[K]",
+    "smiles_source": "curated+pubchem",
+    "molecular_formula": "K",
+    "molecular_weight": 39.1
   },
   {
     "patent_id": "CN112645853A",
@@ -1220,7 +1317,11 @@
     ],
     "notes": "One of the two alcohols claim 5 allows in step (2). It supplies the alkoxy group of the claimed product, so the role is reactant. Claim 5 gives only a molar ratio range of 1:(1.05 to 1.35) against the benzoate salt, so no quantity is recorded. | 50 mL charged first in step (2) and deprotonated by sodium hydride to give the alkoxide, so it is the source of the trifluoroethoxy group and recorded as a reactant. The excess also serves as the medium for that operation and is stripped off before the etherification. Identifier from the shared resolution registry. | Printed as trifluoroethanol and resolved to 2,2,2-trifluoroethanol per the shared resolution registry, supported by the drawn condition text and by the trifluoroethoxymethyl group of the product. Charged as 13.6 g of 99 percent grade, 0.135 mol. Supplies the ether oxygen and the trifluoroethyl group, so the role is reactant rather than reagent. | Charged as the medium in which the sodium metal dissolves and is converted into the alkoxide, so it is both the medium and the source of the trifluoroethoxy group; role recorded as reactant. Removed before the alkoxide is used. | Step (2) etherification reactant, resolved from the printed Chinese name per the shared registry. Also named in the scheme conditions on line 329 as CF3CH2OH. | Source of the trifluoroethoxy group of the product. Merged with the CF3CH2OH printed in the conditions of the line 347 scheme, the same compound named by formula. purity_pct is the strength printed for the charged material. Identifier from the shared resolution registry. | Charged by volume and also serves as the medium for the alkoxide preparation, but it is the compound converted into potassium 2,2,2-trifluoroethoxide, so the role is reactant. | Printed as trifluoroethanol and resolved to 2,2,2-trifluoroethanol per the shared registry, supported by the drawn condition text and by the trifluoroethoxymethyl group of the product. Supplies the ether oxygen and the trifluoroethyl group, so the role is reactant rather than reagent. | Supplies the trifluoroethoxy group of the product. Printed without the 2,2,2 locants and resolved per the shared registry. Alias CF3CH2OH is the condition text of the drawn scheme at line 403. | Charged as the medium in which potassium metal is dissolved and converted into the potassium alkoxide, so it is the source of the trifluoroethoxy group and not only a solvent. Printed as the short form of the name. | The etherifying alcohol of step (2) and the source of the trifluoroethoxy group in the section product. Printed in the short form and resolved per the shared resolution registry; the drawn scheme condition text on line 437 names the same compound as CF3CH2OH. | One of the two alcohols [0035] permits for step (2), the one that gives the trifluoroethoxymethyl product. It supplies the ether oxygen and its alkyl group, so the role is reactant. Its amount is given only as a molar ratio range against the benzoate salt in [0036], so quantity is left null. Consistent with [0022], which gives R as 2,2,2-trifluoroethyl or 2-tetrahydrofurylmethyl.",
     "id": "CN112645853A_2,2,2-trifluoroethanol",
-    "compound_uuid": "95fac303-a4cb-55a6-bd04-6d34e016fbf8"
+    "compound_uuid": "95fac303-a4cb-55a6-bd04-6d34e016fbf8",
+    "smiles": "OCC(F)(F)F",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H3F3O",
+    "molecular_weight": 100.04
   },
   {
     "patent_id": "CN112645853A",
@@ -1265,7 +1366,11 @@
     ],
     "notes": "The second of the two alcohols claim 5 allows in step (2), and a reactant because it supplies the alkoxy group of the product. The printed Chinese name 2-四氢呋喃甲醇 is malformed as written; it is resolved to tetrahydrofurfuryl alcohol per the shared resolution registry for this patent, and the printed form is kept as an alias. | The printed Chinese name is malformed as written; resolved to tetrahydrofurfuryl alcohol per the shared registry and kept verbatim as an alias. THFA in the scheme conditions at line 475 is the same compound and is an alias rather than a separate record. 99 percent is the strength printed with the charge, with no assay method. It supplies the ether oxygen and side chain of the product, so it is a reactant. | The printed Chinese name is malformed as written; resolved to tetrahydrofurfuryl alcohol per the shared registry and kept verbatim as an alias. THFA in the scheme conditions at line 491 is the same compound and is an alias rather than a separate record. 99 percent is the strength printed with the charge, with no assay method. | The printed Chinese name is malformed as written; resolved to tetrahydrofurfuryl alcohol per the document registry and kept verbatim as an alias. THFA in the scheme conditions on line 506 is the same compound and is kept as an alias rather than a separate record. Stated 99 percent content with no method given. | The printed Chinese name is malformed as written; resolved to tetrahydrofurfuryl alcohol per the document registry and kept verbatim as an alias. THFA in the scheme conditions on line 517 is the same compound and is kept as an alias rather than a separate record. Stated 99 percent content with no method given. Supplies the ether oxygen of the product, so the role is reactant rather than reagent. | The printed Chinese name is malformed as written; resolved to tetrahydrofurfuryl alcohol per the document registry and kept verbatim as an alias. THFA in the scheme conditions on line 531 is the same compound and is kept as an alias rather than a separate record. Stated 99 percent content with no method given. | Printed as 2-四氢呋喃甲醇, which is not a well formed name; resolved to tetrahydrofurfuryl alcohol, which the step (2) product name confirms. The printed form is kept as an alias. The drawn scheme names the same reagent THFA above the arrow. 99 percent is the reagent purity. | 50 mL charged first and deprotonated by sodium hydride to give the alkoxide, so it is the source of the tetrahydrofurfuryloxy group and recorded as a reactant. The excess also serves as the medium for that operation and is stripped off under high vacuum before the etherification. MALFORMED NAME AS PRINTED: 2-四氢呋喃甲醇 is not a well formed name; it is tetrahydrofurfuryl alcohol per the shared registry, confirmed by the step (2) product name. The printed form is kept as an alias and is not corrected in place. | Charged first, 150 mL, and used both as the medium in which the potassium hydride is taken up and as the alcohol consumed to form the potassium alkoxide, so recorded as a reactant rather than a solvent; the excess is stripped off under reduced pressure with a high vacuum oil pump. MALFORMED NAME AS PRINTED: the Chinese name kept in aliases is not well formed. It is tetrahydrofurfuryl alcohol per the shared registry, confirmed by the tetrahydrofuran-2-ylmethoxymethyl group of the step (2) product. The printed form is not corrected. | Charged first and used both as the medium in which the sodium metal dissolves and as the alcohol consumed to form the sodium alkoxide, so recorded as a reactant rather than a solvent. The excess is stripped off under vacuum. MALFORMED NAME AS PRINTED: 2-四氢呋喃甲醇 is not a well formed name; it is tetrahydrofurfuryl alcohol per the shared registry, confirmed by the step (2) product name. The printed form is kept as an alias and is not corrected in place. | Charged first and used both as the medium in which the potassium metal dissolves and as the alcohol consumed to form the potassium alkoxide, so recorded as a reactant rather than a solvent; the excess is stripped off under vacuum. MALFORMED NAME AS PRINTED: the Chinese name kept in aliases is not well formed. It is tetrahydrofurfuryl alcohol per the shared registry, confirmed by the step (2) product name. The printed form is not corrected. | The second of the two alcohols [0035] permits for step (2). The printed Chinese name is malformed as written; it is resolved to tetrahydrofurfuryl alcohol per the shared resolution registry and the printed form is kept as an alias. It supplies the ether oxygen and its alkyl group, so the role is reactant. Its amount is given only as a molar ratio range against the benzoate salt in [0036], so quantity is left null. No stereodescriptor is recorded: this section does not print one.",
     "id": "CN112645853A_tetrahydrofurfuryl alcohol",
-    "compound_uuid": "68871171-b11d-5c19-bcbd-a836a0e40728"
+    "compound_uuid": "68871171-b11d-5c19-bcbd-a836a0e40728",
+    "smiles": "OCC1CCCO1",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C5H10O2",
+    "molecular_weight": 102.13
   },
   {
     "patent_id": "CN112645853A",
@@ -1304,7 +1409,11 @@
     ],
     "notes": "One of the four step (2) reaction solvents claim 8 allows. The amount is given only as a range of 700 to 3500 mL per mol of the benzoate salt, so volume_ml is null. | Reaction solvent for step (2), added to dissolve the potassium alkoxide before the benzoate salt is charged. | Etherification solvent for step 2. | One of the four solvents [0047] permits for step (2). The section does not say which is used in any given run. [0048] gives the charge only as a range of 700 to 3500 mL per 1 mol of the benzoate salt, so quantity is left null (rule 12).",
     "id": "CN112645853A_acetonitrile",
-    "compound_uuid": "74811e33-98e6-5f4e-bd23-e24020e144cf"
+    "compound_uuid": "74811e33-98e6-5f4e-bd23-e24020e144cf",
+    "smiles": "CC#N",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H3N",
+    "molecular_weight": 41.05
   },
   {
     "patent_id": "CN112645853A",
@@ -1343,7 +1452,11 @@
     ],
     "notes": "Printed only as the abbreviation DMF in claim 8, as one of the four step (2) reaction solvents. Resolved per the shared resolution registry and the abbreviation kept as an alias. | Step (2) reaction solvent, 200 mL, printed only as the abbreviation DMF and resolved per the shared resolution registry. | Reaction solvent of step (2), printed only as the abbreviation DMF and resolved per the shared registry; stripped under reduced pressure before the aqueous workup. | Reaction solvent, charged to the kettle and stripped under reduced pressure at the end of the step. | Reaction solvent of step (2), charged to the kettle and stripped under reduced pressure at the end of the step. Printed with no space between the volume and the abbreviation, as 200mLDMF. | Reaction solvent of step (2), charged to the kettle and stripped under reduced pressure at the end of the step. | Reaction solvent of step (2), printed only as the abbreviation DMF. | Step (2) etherification solvent, printed as the abbreviation DMF and resolved per the shared registry. | Etherification solvent of step (2), stripped off under reduced pressure at the workup. Printed as the abbreviation DMF and resolved through the shared resolution registry. | Step (2) reaction solvent, removed under reduced pressure at the end of the step. | Reaction medium of step (2), printed only as the abbreviation DMF and resolved per the shared resolution registry. Removed by desolvation under negative pressure in the workup. | One of the four solvents [0047] permits for step (2), printed as the abbreviation DMF and resolved through the shared resolution registry; the abbreviation is kept as an alias. [0048] gives the charge only as a range of 700 to 3500 mL per 1 mol of the benzoate salt, so quantity is left null.",
     "id": "CN112645853A_N,N-dimethylformamide",
-    "compound_uuid": "ca19dc9e-b173-5f5f-be05-b793945279a5"
+    "compound_uuid": "ca19dc9e-b173-5f5f-be05-b793945279a5",
+    "smiles": "CN(C)C=O",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C3H7NO",
+    "molecular_weight": 73.09
   },
   {
     "patent_id": "CN112645853A",
@@ -1382,7 +1495,11 @@
     ],
     "notes": "Printed only as the abbreviation DMSO in claim 8, as one of the four step (2) reaction solvents. Resolved per the shared resolution registry and the abbreviation kept as an alias. | Reaction solvent for step (2), added to dissolve the sodium alkoxide before the kettle is cooled and the benzoate salt is charged. Printed as the abbreviation DMSO, resolved per the shared registry and the abbreviation kept as an alias. | Solvent of the step (2) etherification; the alkoxide is dissolved in it before the substrate is added. | One of the four solvents [0047] permits for step (2), printed as the abbreviation DMSO and resolved through the shared resolution registry; the abbreviation is kept as an alias. [0048] gives the charge only as a range of 700 to 3500 mL per 1 mol of the benzoate salt, so quantity is left null.",
     "id": "CN112645853A_dimethyl sulfoxide",
-    "compound_uuid": "17c4817e-1e83-5d46-9652-484ecff99b6d"
+    "compound_uuid": "17c4817e-1e83-5d46-9652-484ecff99b6d",
+    "smiles": "CS(C)=O",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H6OS",
+    "molecular_weight": 78.14
   },
   {
     "patent_id": "CN112645853A",
@@ -1422,7 +1539,11 @@
     ],
     "notes": "Printed only as the abbreviation THF in claim 8, as one of the four step (2) reaction solvents. Resolved per the shared resolution registry and the abbreviation kept as an alias. | 200 mL, the medium of the step (2) etherification, printed as THF in the Chinese text and stripped under reduced pressure at the end of the step. Identifier from the shared resolution registry. | Reaction solvent of step (2), stripped under reduced pressure before the aqueous workup. | 200 mL, the medium of the step (2) etherification, printed as THF in the Chinese text and stripped under reduced pressure at the end of the step. Identifier from the shared resolution registry. | Reaction solvent for step (2), 200 mL, added to dissolve the potassium alkoxide before the benzoate salt is charged. Printed only as the abbreviation THF and resolved per the shared resolution registry. | Printed only as the abbreviation THF; resolved per the shared registry. | Step (2) reaction solvent, printed as the abbreviation THF and resolved per the shared registry. | One of the four solvents [0047] permits for step (2), printed as the abbreviation THF and resolved through the shared resolution registry; the abbreviation is kept as an alias. [0048] gives the charge only as a range of 700 to 3500 mL per 1 mol of the benzoate salt, so quantity is left null.",
     "id": "CN112645853A_tetrahydrofuran",
-    "compound_uuid": "6e14573d-9a0f-546d-8ad7-841fc46f46a0"
+    "compound_uuid": "6e14573d-9a0f-546d-8ad7-841fc46f46a0",
+    "smiles": "C1CCOC1",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C4H8O",
+    "molecular_weight": 72.11
   },
   {
     "patent_id": "CN112645853A",
@@ -1457,7 +1578,11 @@
     ],
     "notes": "Claim 8 names it as the preferred acid for the acidification that follows the step (2) reaction and liberates the benzoic acid, with the system taken to pH 2 to 3. | Added dropwise in the step (2) workup to acidify the system to pH 2, which precipitates the free acid. The section states the concentrated form but no quantity. HCl alias is a condition text of the scheme drawn on line 290, which agrees with the prose. Identifier from the shared resolution registry. | Concentrated hydrochloric acid, added dropwise to acidify the system to pH 3 and precipitate the product. No quantity or strength is stated. HCl is also the condition text of the step (2) drawn scheme. | Printed as concentrated hydrochloric acid, added dropwise to acidify the system to pH 3 in the step (2) workup; no quantity is stated. HCl in the scheme conditions at line 475 is the same reagent and is kept as an alias. | Printed as concentrated hydrochloric acid, added dropwise to acidify the system to pH 3 in the step (2) workup; no quantity is stated. HCl in the scheme conditions at line 491 is the same reagent and is kept as an alias. | Printed as concentrated hydrochloric acid, added dropwise to acidify the system to pH 3; no quantity is stated. HCl in the scheme conditions on line 506 is the same reagent and is kept as an alias. | Printed as concentrated hydrochloric acid, added dropwise to acidify the system to pH 3; no quantity is stated. HCl in the scheme conditions on line 517 is the same reagent and is kept as an alias. | Printed as concentrated hydrochloric acid, added dropwise to acidify the system to pH 3; no quantity is stated. HCl in the scheme conditions on line 531 is the same reagent and is kept as an alias. | Printed as 浓盐酸, concentrated hydrochloric acid, added dropwise to bring the system to pH 2. No concentration and no amount are stated. The drawn scheme names HCl on the same step. | Added dropwise in the step (2) workup to acidify the system to pH 3, which precipitates the free acid. The section states the concentrated form but no quantity and no concentration. HCl alias is a condition text of the scheme drawn on line 551, which agrees with the prose. Identifier from the shared resolution registry. | Added dropwise to acidify the workup mixture to pH 3. Printed as the concentrated grade, with no amount or strength given. The step (2) scheme lists HCl as a condition of the same step, so HCl is kept as an alias rather than emitted as a second record. | Added dropwise to acidify the workup mixture to pH 3. Printed as the concentrated grade, 浓盐酸, with no amount given. The step (2) scheme lists HCl as a condition of the same step, so HCl is kept as an alias rather than emitted as a second record. Identifier from the shared resolution registry. | Added dropwise to acidify the aqueous kettle residue to pH 2 before filtration. Printed as concentrated hydrochloric acid with no amount given. Named HCl in the conditions of the step (2) scheme. | Added dropwise to acidify the workup mixture to pH 2. Printed as the concentrated grade, with no amount given. The step (2) scheme lists HCl as a condition of the same step, so HCl is kept as an alias rather than emitted as a second record. Identifier from the shared resolution registry. | Concentrated hydrochloric acid added dropwise in the step (2) workup to acidify the system to pH 3. No amount is stated. Also named in the scheme conditions on line 329 as HCl. | Added dropwise to acidify the step (2) workup to pH 2, which precipitates the free acid. Printed as concentrated hydrochloric acid with no quantity given. Merged with the HCl printed in the conditions of the line 347 scheme. Identifier from the shared resolution registry. | Printed as concentrated hydrochloric acid, added dropwise to acidify the system to pH 2; no amount stated. HCl also appears as a condition text of the step (2) drawn scheme. | Concentrated hydrochloric acid, added dropwise to acidify the system to pH 2 and precipitate the product. No quantity is stated. HCl is also the condition text of the step (2) drawn scheme. | Printed as concentrated hydrochloric acid, added dropwise to acidify the system to pH 2. Alias HCl is the condition text of the drawn scheme at line 403. No quantity is stated, only the target pH. | Printed as concentrated hydrochloric acid, added dropwise to acidify the workup to pH 3. Also named as a condition on the step 2 scheme, merged. | Added dropwise in the step (2) workup to acidify the system to pH 3. Printed as concentrated hydrochloric acid with no quantity given, so every quantity field is null. Also named as HCl in the drawn scheme conditions on line 437. Identifier taken from the shared resolution registry. | The acid [0053] names for the acidification that liberates the free benzoic acid after step (2). [0052] and [0057] place the acidification after the reaction and before filtration and drying; [0054] gives the pH of the acidified system as 2 to 3. No amount or concentration is stated, so quantity is left null.",
     "id": "CN112645853A_hydrochloric acid",
-    "compound_uuid": "36625600-8db0-5e7c-9f1a-93a0752793c1"
+    "compound_uuid": "36625600-8db0-5e7c-9f1a-93a0752793c1",
+    "smiles": "Cl",
+    "smiles_source": "known+opsin+pubchem",
+    "molecular_formula": "HCl",
+    "molecular_weight": 36.46
   },
   {
     "patent_id": "CN112645853A",
@@ -1496,7 +1621,11 @@
     ],
     "notes": "Claim 10 names dilution with water in the step (2) workup, between solvent removal and acidification. Extracted as a compound because a workup medium is a compound. | Workup only: 120 mL added to the reactor residue to dissolve it before acidification, and water again as the filter rinse. One record merged across both uses; the stated 120 mL is the charge to the residue. Identifier from the shared resolution registry. | Used twice in the step (2) workup and merged: 120 mL added to dissolve the kettle residue, then water to rinse the filtered solid. The volume is stated only for the dissolution charge. | Merged record for two uses in the step (2) workup: 120 mL added to dissolve the kettle residue before acidification, and water used again to rinse the filtered solid, where no volume is printed. | Merged record for two uses in the step (2) workup: 120 mL added to dissolve the kettle residue before acidification, and water used again to rinse the filtered solid, where no volume is printed. | Merged record: 120 mL added to dissolve the kettle residue before acidification, and water used again to rinse the filtered solid, where no volume is printed. | Merged record: 120 mL added to dissolve the kettle residue before acidification, and water used again to rinse the filtered solid, where no volume is printed. | Merged record: 120 mL added to dissolve the kettle residue before acidification, and water used again to rinse the filtered solid, where no volume is printed. | Merged: 120 mL added to the kettle residue to dissolve it before acidification, and water again as the rinse on the filtered product, where no volume is given. Workup only, never a reaction solvent in this section. | Workup only: 120 mL added to the reactor residue to dissolve it before acidification, and water again as the filter rinse. One record merged across both uses; the stated 120 mL is the charge to the residue. Identifier from the shared resolution registry. | Merged across the workup: 120 mL added to the kettle residue to dissolve it before acidification, and used again to rinse the filtered product, where no amount is given. | Merged across the workup: 120 mL added to the kettle residue to dissolve it before acidification, and used again to rinse the filtered product, where no amount is given. | Workup only: 120 mL added to the kettle residue to dissolve it before acidification, and water is also used to rinse the filtered product. Only the 120 mL charge carries a volume. | Merged across the workup: 120 mL added to the kettle residue to dissolve it before acidification, and used again to rinse the filtered product, where no amount is given. | One record for both workup uses: 120 mL added to the kettle residue to dissolve it, and water used to rinse the filtered product. The volume is stated only for the first use. | Merged across its two uses in the step (2) workup: 120 mL added to the kettle residue to dissolve it, and the rinse of the filtered product. volume_ml is the printed 120 mL; no volume is printed for the rinse. Identifier from the shared resolution registry. | Merged: 120 mL added to the kettle residue to dissolve it, and water again as the filter cake rinse, where no amount is given. | Used twice in the step (2) workup and merged: 120 mL added to dissolve the kettle residue, then water to rinse the filtered solid. The volume is stated only for the dissolution charge. | Merged: 120mL added to the kettle residue to dissolve it, and water again as the rinse of the filter cake. The volume is the dissolution charge; the rinse volume is not stated. | Added to the kettle residue to dissolve it before acidification, and used again to rinse the filtered product. Merged into one record. | One record merged across its two uses in the step (2) workup (rule 4): 120mL added to the kettle residue to dissolve it, and the rinse of the filtered product. The volume is stated for the addition only; no volume is given for the rinse. | Two uses, one merged record. It is the medium of the aqueous sodium hydroxide and potassium hydroxide solutions in [0031], [0032], [0038] and [0039], and the dilution water of the step (2) workup in [0057], which dilutes with water before acidification, filtration and drying. No volume is stated anywhere in this section.",
     "id": "CN112645853A_water",
-    "compound_uuid": "5507a801-6f00-56fd-ad64-521a8318eb7b"
+    "compound_uuid": "5507a801-6f00-56fd-ad64-521a8318eb7b",
+    "smiles": "O",
+    "smiles_source": "known+opsin+pubchem",
+    "molecular_formula": "H2O",
+    "molecular_weight": 18.02
   },
   {
     "patent_id": "CN112645853A",
@@ -1506,8 +1635,7 @@
       "2-氯-3-溴甲基-4-甲磺酰基苯甲酸钠盐",
       "sodium 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
       "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
-      "CS(=O)(=O)c1ccc(C(=O)[O][Na])c(Cl)c1CBr",
-      "2-氯-3-溴甲基-4-甲磺酰基苯甲酸盐"
+      "CS(=O)(=O)c1ccc(C(=O)[O][Na])c(Cl)c1CBr"
     ],
     "resolved": true,
     "unresolved_reference": false,
@@ -1582,18 +1710,22 @@
     ],
     "purity_pct": 97.8,
     "purity_method": "hplc",
-    "smiles": null,
     "tags": [
       "compound_class:intermediate",
       "chemical_family:benzoic_acid",
-      "functional_group:carboxylic_acid",
+      "functional_group:carboxylate",
       "functional_group:sulfone",
       "functional_group:halide_bromo",
-      "functional_group:halide_chloro"
+      "functional_group:halide_chloro",
+      "chemical_family:benzyl_halide"
     ],
-    "notes": "One record merged across both steps (rule 4): the product of step (1), not isolated but carried forward after the solvent was stripped, and the material charged to step (2) as (98.2%, 0.1 mol) in eight portions. Role kept as product. The quantity is the step (2) charge, the only one stated. Two SMILES aliases: the product drawn on line 277 and the reactant drawn on line 290. Both encode this sodium salt and both agree with the prose, so both are kept, although they differ in form, one an ion pair and one a covalent O-Na bond. Identifier from the shared resolution registry. | Product of step (1) and the reactant charged in step (2); one merged record kept at role product. Never isolated: the solvent is stripped under reduced pressure and the material goes straight into the etherification. The quantity is the step (2) charge, which is the only amount printed for it. The drawn product at line 465 and the drawn reactant at line 475 both carry the sodium counter-ion, so they agree with the prose and the SMILES is kept as an alias; there is no alkali metal conflict in this section. | Isolated product of step (1) and the reactant consumed in step (2); one merged record. The printed name is split across a page break between lines 497 and 502, where the continuation line carries a None page artifact. Stated content 98.2 percent with no method given. The drawn reactant in the scheme on line 506 is the same sodium salt as the prose, so its SMILES is kept as an alias. | Isolated product of step (1) and the reactant consumed in step (2); one merged record. Step (1) is given only as being the same as Example 1, so the 98.2 percent content is printed with no method and no mass, and the 0.1 mol is the charge stated in step (2), where it is added in eight portions over 3 h. The drawn reactant in the scheme on line 517 is the same sodium salt as the prose, so its SMILES is kept as an alias. | Isolated product of step (1), which the section states is run exactly as in Example 1, and the reactant consumed in step (2); one merged record. Stated content 98.2 percent with no method given, and 0.1 mol charged to step (2); no mass is printed. The drawn reactant in the scheme on line 531 is the same sodium salt as the prose, so its SMILES is kept as an alias and there is no alkali metal conflict here. | Merged: made in step (1) by the procedure of Example 1 at 98.2 percent content, then charged in eight portions as the substrate of step (2). No mass is given, only the 0.1 mol charge. The sole reactant drawn in the reaction scheme is the sodium salt, which agrees with the prose, so the drawn SMILES is kept as an alias. | One merged record (rule 4): the product of step (1) and the material charged in step (2) in eight portions. Step (1) is not written out here, only stated to be the same procedure as Example 1, so the only figures for it are the content of 98.2 percent and the 0.1 mol charged to step (2); mol converted to mmol only. No method is given for the 98.2 percent, so purity_method stays null. The reactant drawn in the scheme on line 551 is this same sodium salt, so its SMILES is kept as an alias. Identifier from the shared resolution registry. | Merged across the two steps of this example: made in step (1) by the procedure of Example 1 at 98.2 percent content, then charged in step (2) at 98.2 percent content and 0.1 mol in eight portions. Step (1) gives no mass, so only the step (2) molar charge is recorded. The stated content is recorded as purity_pct with no method given. The SMILES alias comes from the reactant drawn in the step (2) scheme, which carries the same sodium counter ion as the prose, so there is no counter ion conflict in this section. Identifier from the shared resolution registry. | Merged across the two steps of this example: obtained in step (1) by the procedure of Example 1 at 98.2 percent content, and charged in step (2) at 98.2 percent content and 0.1 mol in eight portions. Step (1) states no mass, so the step (2) charge is kept here. The content is recorded as purity_pct with no method stated. SMILES alias from the reactant drawn in the step (2) scheme, which carries the same sodium counter ion as the prose, so there is no counter ion conflict here. The sentence describing its use in step (2) is split by a page break after line 586, and the token None opening line 591 is a page artifact rather than text of the patent. Identifier from the shared resolution registry. | Merged: the step (1) heading prints the generic salt name and the prose of the same step names the sodium salt as the compound formed and assayed, so both printed forms are one record here. Isolated as the step (1) product, solvent stripped under reduced pressure and used directly as the reactant of step (2) at 0.1 mol; no mass is printed. The drawn structures in the step (1) and step (2) schemes carry sodium and agree with the prose. The sentence describing its use in step (2) is split by a page break at line 315, and the token 'None' opening line 317 is a page artifact rather than text of the patent. | Merged across the two steps of this example: obtained in step (1) by the procedure of Example 1 at 98.2 percent content, and charged in step (2) at 98.2 percent content and 0.1 mol. Step (1) states no mass, so the step (2) charge is kept here. The stated content is recorded as purity_pct with no method given. SMILES alias from the reactant drawn in the step (2) scheme, which carries the same sodium counter ion as the prose, so there is no counter ion conflict here. Identifier from the shared resolution registry. | One record for both appearances: the product of step (1) and the material charged to step (2). Not isolated; the solvent was stripped and the material used directly in the etherification. The scheme on line 323 draws the sodium salt and agrees with the prose, so that SMILES is kept as an alias. SMILES_MISMATCH: drawn structure does not match the compound name - verify the vision read. The scheme on line 329 draws the step (2) reactant as the potassium salt while the prose of both steps says sodium, so the drawn potassium SMILES is not recorded as an alias and the disagreement is left standing. | One record merged across its mentions (rule 4): the product of step (1), used directly in step (2) after the solvent is stripped, where it is charged in eight portions. Role recorded as product, the role of its first appearance. mmol is the 0.1 mol charged in step (2). The aliased SMILES is the drawn step (1) product on line 337, which matches the name. SMILES_MISMATCH: drawn structure does not match the compound name - verify the vision read. The line 347 scheme draws its reactant as the potassium salt (C9H7BrClKO4S) while the prose of that same step names the sodium salt prepared in step (1), so the line 347 SMILES is not aliased here. Identifier from the shared resolution registry. | Merged: product of step (1) and the material charged in step (2), one record. SMILES alias read from the drawn scheme at lines 396 and 403; the drawn alkali metal is sodium and agrees with the prose. Not isolated, the solvent is stripped and the material goes straight into the etherification, so no mass is given. The mmol is the step (2) charge. | One record merged across the two steps (rule 4): the product of step (1), carried forward without isolation and charged to step (2) in eight portions. Both drawn structures, on lines 431 and 437, carry sodium and agree with the prose, so this section shows no counter-ion conflict and the drawn SMILES is kept as an alias. Identifier taken from the shared resolution registry.",
+    "notes": "One record merged across both steps (rule 4): the product of step (1), not isolated but carried forward after the solvent was stripped, and the material charged to step (2) as (98.2%, 0.1 mol) in eight portions. Role kept as product. The quantity is the step (2) charge, the only one stated. Two SMILES aliases: the product drawn on line 277 and the reactant drawn on line 290. Both encode this sodium salt and both agree with the prose, so both are kept, although they differ in form, one an ion pair and one a covalent O-Na bond. Identifier from the shared resolution registry. | Product of step (1) and the reactant charged in step (2); one merged record kept at role product. Never isolated: the solvent is stripped under reduced pressure and the material goes straight into the etherification. The quantity is the step (2) charge, which is the only amount printed for it. The drawn product at line 465 and the drawn reactant at line 475 both carry the sodium counter-ion, so they agree with the prose and the SMILES is kept as an alias; there is no alkali metal conflict in this section. | Isolated product of step (1) and the reactant consumed in step (2); one merged record. The printed name is split across a page break between lines 497 and 502, where the continuation line carries a None page artifact. Stated content 98.2 percent with no method given. The drawn reactant in the scheme on line 506 is the same sodium salt as the prose, so its SMILES is kept as an alias. | Isolated product of step (1) and the reactant consumed in step (2); one merged record. Step (1) is given only as being the same as Example 1, so the 98.2 percent content is printed with no method and no mass, and the 0.1 mol is the charge stated in step (2), where it is added in eight portions over 3 h. The drawn reactant in the scheme on line 517 is the same sodium salt as the prose, so its SMILES is kept as an alias. | Isolated product of step (1), which the section states is run exactly as in Example 1, and the reactant consumed in step (2); one merged record. Stated content 98.2 percent with no method given, and 0.1 mol charged to step (2); no mass is printed. The drawn reactant in the scheme on line 531 is the same sodium salt as the prose, so its SMILES is kept as an alias and there is no alkali metal conflict here. | Merged: made in step (1) by the procedure of Example 1 at 98.2 percent content, then charged in eight portions as the substrate of step (2). No mass is given, only the 0.1 mol charge. The sole reactant drawn in the reaction scheme is the sodium salt, which agrees with the prose, so the drawn SMILES is kept as an alias. | One merged record (rule 4): the product of step (1) and the material charged in step (2) in eight portions. Step (1) is not written out here, only stated to be the same procedure as Example 1, so the only figures for it are the content of 98.2 percent and the 0.1 mol charged to step (2); mol converted to mmol only. No method is given for the 98.2 percent, so purity_method stays null. The reactant drawn in the scheme on line 551 is this same sodium salt, so its SMILES is kept as an alias. Identifier from the shared resolution registry. | Merged across the two steps of this example: made in step (1) by the procedure of Example 1 at 98.2 percent content, then charged in step (2) at 98.2 percent content and 0.1 mol in eight portions. Step (1) gives no mass, so only the step (2) molar charge is recorded. The stated content is recorded as purity_pct with no method given. The SMILES alias comes from the reactant drawn in the step (2) scheme, which carries the same sodium counter ion as the prose, so there is no counter ion conflict in this section. Identifier from the shared resolution registry. | Merged across the two steps of this example: obtained in step (1) by the procedure of Example 1 at 98.2 percent content, and charged in step (2) at 98.2 percent content and 0.1 mol in eight portions. Step (1) states no mass, so the step (2) charge is kept here. The content is recorded as purity_pct with no method stated. SMILES alias from the reactant drawn in the step (2) scheme, which carries the same sodium counter ion as the prose, so there is no counter ion conflict here. The sentence describing its use in step (2) is split by a page break after line 586, and the token None opening line 591 is a page artifact rather than text of the patent. Identifier from the shared resolution registry. | Merged: the step (1) heading prints the generic salt name and the prose of the same step names the sodium salt as the compound formed and assayed, so both printed forms are one record here. Isolated as the step (1) product, solvent stripped under reduced pressure and used directly as the reactant of step (2) at 0.1 mol; no mass is printed. The drawn structures in the step (1) and step (2) schemes carry sodium and agree with the prose. The sentence describing its use in step (2) is split by a page break at line 315, and the token 'None' opening line 317 is a page artifact rather than text of the patent. | Merged across the two steps of this example: obtained in step (1) by the procedure of Example 1 at 98.2 percent content, and charged in step (2) at 98.2 percent content and 0.1 mol. Step (1) states no mass, so the step (2) charge is kept here. The stated content is recorded as purity_pct with no method given. SMILES alias from the reactant drawn in the step (2) scheme, which carries the same sodium counter ion as the prose, so there is no counter ion conflict here. Identifier from the shared resolution registry. | One record for both appearances: the product of step (1) and the material charged to step (2). Not isolated; the solvent was stripped and the material used directly in the etherification. The scheme on line 323 draws the sodium salt and agrees with the prose, so that SMILES is kept as an alias. SMILES_MISMATCH: drawn structure does not match the compound name - verify the vision read. The scheme on line 329 draws the step (2) reactant as the potassium salt while the prose of both steps says sodium, so the drawn potassium SMILES is not recorded as an alias and the disagreement is left standing. | One record merged across its mentions (rule 4): the product of step (1), used directly in step (2) after the solvent is stripped, where it is charged in eight portions. Role recorded as product, the role of its first appearance. mmol is the 0.1 mol charged in step (2). The aliased SMILES is the drawn step (1) product on line 337, which matches the name. SMILES_MISMATCH: drawn structure does not match the compound name - verify the vision read. The line 347 scheme draws its reactant as the potassium salt (C9H7BrClKO4S) while the prose of that same step names the sodium salt prepared in step (1), so the line 347 SMILES is not aliased here. Identifier from the shared resolution registry. | Merged: product of step (1) and the material charged in step (2), one record. SMILES alias read from the drawn scheme at lines 396 and 403; the drawn alkali metal is sodium and agrees with the prose. Not isolated, the solvent is stripped and the material goes straight into the etherification, so no mass is given. The mmol is the step (2) charge. | One record merged across the two steps (rule 4): the product of step (1), carried forward without isolation and charged to step (2) in eight portions. Both drawn structures, on lines 431 and 437, carry sodium and agree with the prose, so this section shows no counter-ion conflict and the drawn SMILES is kept as an alias. Identifier taken from the shared resolution registry. BLIND-REVIEW FIX (2026-09-01, adversarial pass): the generic printed name 2-氯-3-溴甲基-4-甲磺酰基苯甲酸盐 removed from aliases: it is the identifier-level string of the generic salt record, whose own notes state the generic heading name is not collapsed into the specific salts, and the same string sat on three records at once; nothing joins through it (verified against the reaction gold). functional_group:carboxylic_acid corrected to functional_group:carboxylate — a carboxylate salt has no free acid — and chemical_family:benzyl_halide added, both matching the generic salt record for the same core structure, whose bromomethyl group this salt retains.",
     "id": "CN112645853A_sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-    "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+    "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "molecular_formula": "C9H7BrClNaO4S",
+    "molecular_weight": 349.56
   },
   {
     "patent_id": "CN112645853A",
@@ -1621,15 +1753,18 @@
     "analytics": [],
     "purity_pct": null,
     "purity_method": null,
-    "smiles": null,
     "tags": [
       "compound_class:intermediate",
       "chemical_family:alkoxide",
       "functional_group:trifluoromethyl"
     ],
-    "notes": "Prepared in step (2) from trifluoroethanol and sodium hydride, isolated as a solid after solvent removal and sealed for later use, then dissolved in THF and reacted with the sodium benzoate. Recorded as a reactant because its trifluoroethoxy group is carried into the product, although the drawn scheme on line 290 lists it as a condition. No quantity is stated for it. CF3CH2ONa alias is that condition text, which agrees with the prose. Identifier from the shared resolution registry. | Prepared in this section from trifluoroethanol and sodium metal, isolated as a solid after solvent removal and sealed for later use, then dissolved in DMSO and used as the etherification reagent of step (2). Named CF3CH2ONa in the conditions of the step (2) scheme, which agrees with the prose. No mass is printed for it.",
+    "notes": "Prepared in step (2) from trifluoroethanol and sodium hydride, isolated as a solid after solvent removal and sealed for later use, then dissolved in THF and reacted with the sodium benzoate. Recorded as a reactant because its trifluoroethoxy group is carried into the product, although the drawn scheme on line 290 lists it as a condition. No quantity is stated for it. CF3CH2ONa alias is that condition text, which agrees with the prose. Identifier from the shared resolution registry. | Prepared in this section from trifluoroethanol and sodium metal, isolated as a solid after solvent removal and sealed for later use, then dissolved in DMSO and used as the etherification reagent of step (2). Named CF3CH2ONa in the conditions of the step (2) scheme, which agrees with the prose. No mass is printed for it. BLIND-REVIEW FIX (2026-09-01, adversarial pass): the note clause \"Recorded as a reactant\" is superseded: the stored role is product, the first-appearance convention all four in-situ alkoxide records of this file share (they are prepared in step (1) and consumed in step (2), carried as compound_class:intermediate); the field is right and the clause was the stale side.",
     "id": "CN112645853A_sodium 2,2,2-trifluoroethoxide",
-    "compound_uuid": "503f6d1b-9ac2-5b2b-a812-4dc689180192"
+    "compound_uuid": "503f6d1b-9ac2-5b2b-a812-4dc689180192",
+    "smiles": "[Na+].[O-]CC(F)(F)F",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H2F3NaO",
+    "molecular_weight": 122.02
   },
   {
     "patent_id": "CN112645853A",
@@ -1637,10 +1772,8 @@
     "identifier_type": "iupac",
     "aliases": [
       "2-氯-3-溴甲基-4-甲磺酰基苯甲酸钾盐",
-      "2-氯-3-溴甲基-4-甲磺酰基苯甲酸盐",
       "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[K+]"
     ],
-    "smiles": null,
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Example 8",
@@ -1703,14 +1836,19 @@
     "tags": [
       "compound_class:intermediate",
       "chemical_family:benzoic_acid",
-      "functional_group:carboxylic_acid",
+      "functional_group:carboxylate",
       "functional_group:sulfone",
       "functional_group:halide_bromo",
-      "functional_group:halide_chloro"
+      "functional_group:halide_chloro",
+      "chemical_family:benzyl_halide"
     ],
-    "notes": "Product of step (1) and reactant of step (2), merged into one record. The step (1) heading names it generically as the benzoate salt while the prose of the same step names the potassium salt; both printed forms are kept as aliases. Never isolated: the solvent was stripped under reduced pressure and the material carried straight into the etherification, so no mass is given. Both drawn schemes agree with the prose on potassium, so the drawn SMILES is kept as an alias. The 0.1 mol figure is the charge stated in step (2). | Product of step (1) and the reactant charged in step (2); one merged record kept at role product. Never isolated: the solvent is stripped under reduced pressure and the material goes straight into the etherification. The quantity is the step (2) charge, which is the only amount printed for it. The drawn product at line 484 and the drawn reactant at line 491 both carry the potassium counter-ion, so they agree with the prose and the SMILES is kept as an alias; there is no alkali metal conflict in this section. | Merged from step (1), where it is the isolated product carried forward without isolation of a solid, and step (2), where it is charged at 98.3 percent and 0.1 mol as the reactant. SMILES_MISMATCH: the step (2) drawn scheme shows the SODIUM salt as its reactant while the prose of that step names the potassium salt; the drawn sodium SMILES is therefore not carried as an alias and the disagreement is left unresolved. The alias SMILES is the matching potassium salt drawn as the product of the step (1) scheme. | Product of step (1) and reactant of step (2), merged into one record. The step (1) heading names it generically as the benzoate salt while the prose of the same step names the potassium salt; both printed forms are kept as aliases. Never isolated: the solvent was stripped and the material carried straight into the etherification, so no mass is given. The drawn scheme and the prose agree on potassium here, so the drawn SMILES is kept as an alias. The 0.1 mol figure is the charge stated in step (2). | Step 1 product and the substrate of step 2, merged from lines 414 and 425. The step 1 scheme draws the potassium salt, matching the prose, so that SMILES is an alias. SMILES_MISMATCH: drawn structure does not match the compound name - verify the vision read. The step 2 scheme on line 421 draws the sodium salt while the prose of both steps names the potassium salt, so the drawn sodium structure is not recorded as an alias.",
+    "notes": "Product of step (1) and reactant of step (2), merged into one record. The step (1) heading names it generically as the benzoate salt while the prose of the same step names the potassium salt; both printed forms are kept as aliases. Never isolated: the solvent was stripped under reduced pressure and the material carried straight into the etherification, so no mass is given. Both drawn schemes agree with the prose on potassium, so the drawn SMILES is kept as an alias. The 0.1 mol figure is the charge stated in step (2). | Product of step (1) and the reactant charged in step (2); one merged record kept at role product. Never isolated: the solvent is stripped under reduced pressure and the material goes straight into the etherification. The quantity is the step (2) charge, which is the only amount printed for it. The drawn product at line 484 and the drawn reactant at line 491 both carry the potassium counter-ion, so they agree with the prose and the SMILES is kept as an alias; there is no alkali metal conflict in this section. | Merged from step (1), where it is the isolated product carried forward without isolation of a solid, and step (2), where it is charged at 98.3 percent and 0.1 mol as the reactant. SMILES_MISMATCH: the step (2) drawn scheme shows the SODIUM salt as its reactant while the prose of that step names the potassium salt; the drawn sodium SMILES is therefore not carried as an alias and the disagreement is left unresolved. The alias SMILES is the matching potassium salt drawn as the product of the step (1) scheme. | Product of step (1) and reactant of step (2), merged into one record. The step (1) heading names it generically as the benzoate salt while the prose of the same step names the potassium salt; both printed forms are kept as aliases. Never isolated: the solvent was stripped and the material carried straight into the etherification, so no mass is given. The drawn scheme and the prose agree on potassium here, so the drawn SMILES is kept as an alias. The 0.1 mol figure is the charge stated in step (2). | Step 1 product and the substrate of step 2, merged from lines 414 and 425. The step 1 scheme draws the potassium salt, matching the prose, so that SMILES is an alias. SMILES_MISMATCH: drawn structure does not match the compound name - verify the vision read. The step 2 scheme on line 421 draws the sodium salt while the prose of both steps names the potassium salt, so the drawn sodium structure is not recorded as an alias. BLIND-REVIEW FIX (2026-09-01, adversarial pass): the generic printed name 2-氯-3-溴甲基-4-甲磺酰基苯甲酸盐 removed from aliases: it is the identifier-level string of the generic salt record, whose own notes state the generic heading name is not collapsed into the specific salts, and the same string sat on three records at once; nothing joins through it (verified against the reaction gold). functional_group:carboxylic_acid corrected to functional_group:carboxylate — a carboxylate salt has no free acid — and chemical_family:benzyl_halide added, both matching the generic salt record for the same core structure, whose bromomethyl group this salt retains.",
     "id": "CN112645853A_potassium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-    "compound_uuid": "a13bbfd5-8892-5868-99fd-50a8962b0988"
+    "compound_uuid": "a13bbfd5-8892-5868-99fd-50a8962b0988",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[K+]",
+    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "molecular_formula": "C9H7BrClKO4S",
+    "molecular_weight": 365.67
   },
   {
     "patent_id": "CN112645853A",
@@ -1738,15 +1876,18 @@
     "analytics": [],
     "purity_pct": null,
     "purity_method": null,
-    "smiles": null,
     "tags": [
       "compound_class:intermediate",
       "chemical_family:alkoxide",
       "functional_group:ether"
     ],
-    "notes": "Merged across both paragraphs of step (2): prepared from tetrahydrofurfuryl alcohol and sodium hydride, isolated as a solid after the alcohol is stripped under high vacuum and sealed for later use, then dissolved in 200 mL THF and reacted with the sodium benzoate. Recorded as a reactant because its tetrahydrofurfuryloxy group is carried into the product, although the drawn scheme on line 551 lists it as a condition. No amount is stated for it. The scheme draws this reagent with a sodium counter ion, which agrees with the prose, but gives only a description of the drawn structure and no SMILES, so nothing was added to aliases. The sentence that isolates it is split by the page break: it ends with the sealing instruction on line 553 and resumes on line 558, where the enriched text also carries a stray None token. Identifier from the shared resolution registry. | Merged across the two paragraphs of step (2): isolated as a solid after the alcohol is stripped off under vacuum, then charged in DMSO as the reactant the benzoate salt is added to. No amount is stated for it in either paragraph. The step (2) scheme lists it as a condition and states that only the letters ONa are lettered in on the drawn structure, so the drawing carries a sodium counter ion and agrees with the prose. The scheme gives no SMILES for it, only a description of the drawn structure, so nothing was added to aliases. Identifier from the shared resolution registry.",
+    "notes": "Merged across both paragraphs of step (2): prepared from tetrahydrofurfuryl alcohol and sodium hydride, isolated as a solid after the alcohol is stripped under high vacuum and sealed for later use, then dissolved in 200 mL THF and reacted with the sodium benzoate. Recorded as a reactant because its tetrahydrofurfuryloxy group is carried into the product, although the drawn scheme on line 551 lists it as a condition. No amount is stated for it. The scheme draws this reagent with a sodium counter ion, which agrees with the prose, but gives only a description of the drawn structure and no SMILES, so nothing was added to aliases. The sentence that isolates it is split by the page break: it ends with the sealing instruction on line 553 and resumes on line 558, where the enriched text also carries a stray None token. Identifier from the shared resolution registry. | Merged across the two paragraphs of step (2): isolated as a solid after the alcohol is stripped off under vacuum, then charged in DMSO as the reactant the benzoate salt is added to. No amount is stated for it in either paragraph. The step (2) scheme lists it as a condition and states that only the letters ONa are lettered in on the drawn structure, so the drawing carries a sodium counter ion and agrees with the prose. The scheme gives no SMILES for it, only a description of the drawn structure, so nothing was added to aliases. Identifier from the shared resolution registry. BLIND-REVIEW FIX (2026-09-01, adversarial pass): the note clause \"Recorded as a reactant\" is superseded: the stored role is product, the first-appearance convention all four in-situ alkoxide records of this file share (they are prepared in step (1) and consumed in step (2), carried as compound_class:intermediate); the field is right and the clause was the stale side.",
     "id": "CN112645853A_sodium (tetrahydrofuran-2-yl)methoxide",
-    "compound_uuid": "5e3f6c5b-a9bf-5626-abab-228d6565d001"
+    "compound_uuid": "5e3f6c5b-a9bf-5626-abab-228d6565d001",
+    "smiles": "[Na+].[O-]CC1CCCO1",
+    "smiles_source": "patent_drawing+opsin",
+    "molecular_formula": "C5H9NaO2",
+    "molecular_weight": 124.11
   },
   {
     "patent_id": "CN112645853A",
@@ -1757,7 +1898,6 @@
       "potassium 2-tetrahydrofuranmethanolate",
       "potassium 2-tetrahydrofurfuryl alkoxide"
     ],
-    "smiles": null,
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Example 20",
@@ -1782,7 +1922,11 @@
     ],
     "notes": "Merged across the two paragraphs of step (2): isolated as a solid once the excess alcohol is stripped off under reduced pressure and sealed for later use, then dissolved in THF and used as the reactant the benzoate salt is added to. No amount is stated for it in either paragraph. The step (2) scheme carries it as a drawn structure with only the letters OK lettered in, so the drawing agrees with the prose on potassium; the scheme gives no SMILES for it, so nothing was added to aliases. Identifier from the shared resolution registry. | Merged across the two paragraphs of step (2): isolated as a solid once the excess alcohol is stripped off under vacuum, then charged as the reactant the benzoate salt is added to. No amount is stated for it in either paragraph. The step (2) scheme draws this reagent with a potassium counter ion, which agrees with the prose. The scheme gives no SMILES for it, only a description of the drawn structure, so nothing was added to aliases. Identifier from the shared resolution registry.",
     "id": "CN112645853A_potassium (tetrahydrofuran-2-yl)methoxide",
-    "compound_uuid": "db99085b-b7e0-53a7-b27b-805ae2d445a9"
+    "compound_uuid": "db99085b-b7e0-53a7-b27b-805ae2d445a9",
+    "smiles": "[K+].[O-]CC1CCCO1",
+    "smiles_source": "patent_drawing+opsin",
+    "molecular_formula": "C5H9KO2",
+    "molecular_weight": 140.22
   },
   {
     "patent_id": "CN112645853A",
@@ -1792,7 +1936,6 @@
       "三氟乙醇醇钾",
       "CF3CH2OK"
     ],
-    "smiles": null,
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Example 8",
@@ -1813,12 +1956,15 @@
     "tags": [
       "compound_class:intermediate",
       "functional_group:trifluoromethyl",
-      "compound_class:reagent",
-      "chemical_family:alkali_metal_alkoxide"
+      "chemical_family:alkoxide"
     ],
-    "notes": "Merged: prepared in situ as a solid from 2,2,2-trifluoroethanol and potassium hydride, then dissolved in THF and used as the etherification reagent. CF3CH2OK is the condition text of the step (2) drawn scheme, which agrees with the prose. | Prepared in the section from trifluoroethanol and potassium metal, isolated as a solid after desolvation, then used as the etherification reagent in step 2. Named in the prose and as the condition text on the step 2 scheme, merged.",
+    "notes": "Merged: prepared in situ as a solid from 2,2,2-trifluoroethanol and potassium hydride, then dissolved in THF and used as the etherification reagent. CF3CH2OK is the condition text of the step (2) drawn scheme, which agrees with the prose. | Prepared in the section from trifluoroethanol and potassium metal, isolated as a solid after desolvation, then used as the etherification reagent in step 2. Named in the prose and as the condition text on the step 2 scheme, merged. BLIND-REVIEW FIX (2026-09-01, adversarial pass): chemical_family:alkali_metal_alkoxide -> chemical_family:alkoxide and the extra compound_class:reagent removed, matching the three sibling in-situ alkoxides (sodium trifluoroethoxide, sodium and potassium tetrahydrofurfuryl alkoxides), which carry exactly chemical_family:alkoxide and compound_class:intermediate.",
     "id": "CN112645853A_potassium 2,2,2-trifluoroethoxide",
-    "compound_uuid": "087300cf-5759-5b97-a581-bcfd8984fa31"
+    "compound_uuid": "087300cf-5759-5b97-a581-bcfd8984fa31",
+    "smiles": "[K+].[O-]CC(F)(F)F",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H2F3KO",
+    "molecular_weight": 138.13
   },
   {
     "patent_id": "CN112645853A",
@@ -1827,7 +1973,7 @@
     "aliases": [
       "苄醇"
     ],
-    "resolved": true,
+    "resolved": false,
     "unresolved_reference": false,
     "section_label": "Summary of the Invention",
     "section_type": "summary_of_invention",
@@ -1849,9 +1995,13 @@
       "chemical_family:alcohol",
       "functional_group:alcohol"
     ],
-    "notes": "Named in [0024] as one of the products the benzyl bromide group would give under conventional alkaline ester hydrolysis, and again in [0046] as the benzyl alcohol impurity that increases greatly if the step (2) addition order is reversed; one merged record. The name is extracted as printed; the section gives no structure for it and does not state that it carries the rest of the aromatic ring.",
+    "notes": "Named in [0024] as one of the products the benzyl bromide group would give under conventional alkaline ester hydrolysis, and again in [0046] as the benzyl alcohol impurity that increases greatly if the step (2) addition order is reversed; one merged record. The name is extracted as printed; the section gives no structure for it and does not state that it carries the rest of the aromatic ring. BLIND-REVIEW FIX (2026-09-01, adversarial pass): resolved true->false: the 苄醇 of [0024] (L182) is the benzylic alcohol formed from the substrate's own bromomethyl group — the drawn companion by-product (L185, C18H16Cl2O9S2) is the dibenzyl-type ether of two substrate units, not (PhCH2)2O — so resolving 苄醇 to free benzyl alcohol, C7H8O, asserts a substance the patent never uses. This is exactly the reasoning the sibling record benzyl bromide applies to 苄溴, whose note already named this record's resolution an error. The identifier stays as the literal translation of the printed word; it now denotes the unresolved printed term, as on the sibling.",
     "id": "CN112645853A_benzyl alcohol",
-    "compound_uuid": "948c99b0-5588-56ab-a986-48c98b3a8578"
+    "compound_uuid": "948c99b0-5588-56ab-a986-48c98b3a8578",
+    "smiles": "OCc1ccccc1",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C7H8O",
+    "molecular_weight": 108.14
   },
   {
     "patent_id": "CN112645853A",
@@ -1885,7 +2035,11 @@
     ],
     "notes": "Named in [0024] as the second class of product the benzyl bromide group would give under conventional alkaline ester hydrolysis. resolved is false because the printed name is a class of compounds, not one compound. [0024] says the structural formula follows, and the drawn structure at [0025] immediately after it is the symmetrical ether of two 2-chloro-4-(methanesulfonyl)benzoic acid units joined through their 3-methylene groups, which is a member of the named class, so its SMILES is kept as an alias and the smiles field is left unpopulated (rules 4b and 4c).",
     "id": "CN112645853A_dibenzyl ether type compounds",
-    "compound_uuid": "6cc97b75-3ff0-5ffe-879d-0c1d82f70325"
+    "compound_uuid": "6cc97b75-3ff0-5ffe-879d-0c1d82f70325",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1916,7 +2070,11 @@
     ],
     "notes": "Named in [0046] as an impurity that increases greatly, together with the benzyl alcohol impurity, if the step (2) addition order is reversed. The section never defines it or gives it a structure, so it is left unresolved and marked as an unresolved reference. It is kept as its own record and not merged with the dibenzyl ether type compounds of [0024]: the two are plausibly the same thing, but the patent nowhere says so and merging them would be an inference.",
     "id": "CN112645853A_double-attachment impurity",
-    "compound_uuid": "9a1e5bac-1e3c-53b7-aeab-8393770f3057"
+    "compound_uuid": "9a1e5bac-1e3c-53b7-aeab-8393770f3057",
+    "smiles": null,
+    "smiles_source": "none:unresolved",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1949,7 +2107,11 @@
     ],
     "notes": "Claim 1 (line 47) gives step (2) two reagent systems: the benzoate salt with an alcohol in the presence of a basic substance, OR the benzoate salt with an alkali metal alkoxide. Claim 7 (lines 77-81) gives that second route its own molar ratio of 1:(1.2 to 1.5), says the alkoxide is obtained by reacting an alcohol with an alkali metal, and names the alkali metal as sodium or potassium. The phrase appears on 11 lines across the abstract, claims and summary. A class term, not one specific compound, so resolved is false - the four specific alkoxides this patent actually prepares are separate records. commercially_available false: claim 7 states it is prepared in situ from an alcohol and an alkali metal, and every example that uses this route makes it in the pot.",
     "id": "CN112645853A_alkali metal alkoxide",
-    "compound_uuid": "e3610482-c4d2-5ed1-bfbd-84706690c3cd"
+    "compound_uuid": "e3610482-c4d2-5ed1-bfbd-84706690c3cd",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -1982,7 +2144,11 @@
     ],
     "notes": "Claim 1 (line 47): the benzoate salt is reacted with an alcohol in the presence of a basic substance. Claim 5 (line 65) narrows it to 2,2,2-trifluoroethanol or 2-tetrahydrofuranmethanol and claim 5 para 2 gives the salt-to-alcohol molar ratio. Claim 7 (line 79) also uses it for the alkoxide preparation. A class term, so resolved is false; the two specific alcohols are separate records. commercially_available true: both alcohols claim 5 names are charged as bought material, no step of this patent prepares them.",
     "id": "CN112645853A_alcohol",
-    "compound_uuid": "baad94da-93de-5bda-a348-61c7a8915189"
+    "compound_uuid": "baad94da-93de-5bda-a348-61c7a8915189",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -2014,7 +2180,11 @@
     ],
     "notes": "Claim 7 (line 81): the said alkali metal is sodium metal or potassium metal, used to make the alkali metal alkoxide from an alcohol. Both reaction schemes also carry it as the symbol M - line 167 says M represents an alkali metal for step (1) and line 179 repeats it for step (2). A class term, so resolved is false; sodium metal and potassium metal are separate records. commercially_available true: both metals are charged as bought material.",
     "id": "CN112645853A_alkali metal",
-    "compound_uuid": "654a61d1-c188-56dd-bbe4-c96293755b6b"
+    "compound_uuid": "654a61d1-c188-56dd-bbe4-c96293755b6b",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -2045,7 +2215,11 @@
     ],
     "notes": "The bare character 碱 as the prior-art route prints it: [0007] at line 137 says the ester is reacted with the alcohol 在碱作用下, under the action of a base, and the scheme at line 143 draws it on both arrows - as the sole condition of arrow 1 and as stage 1 of arrow 2. The cited prior art names no specific base anywhere. Distinct from the record 'basic substance' (碱性物质), which is the phrase the claims and summary of THIS invention use. resolved false: no identity and no counter-ion is given. commercially_available false: it cannot be asserted for an unidentified base.",
     "id": "CN112645853A_base",
-    "compound_uuid": "8563aa39-f682-5aa0-8762-f92d2a653c38"
+    "compound_uuid": "8563aa39-f682-5aa0-8762-f92d2a653c38",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -2077,7 +2251,11 @@
     ],
     "notes": "The bare character 酸 drawn as stage 2 of the second arrow of the prior-art scheme at line 143, which reads 1) 碱 2) 酸. The prose of [0007] does not mention an acid at all, which is why Background_Step 2 in reactions.json carries reagent_drawn_not_written. Left GENERIC deliberately: the hydrochloric acid this patent names at [0053] line 246 belongs to step (2) of the INVENTION, and writing it in here would import a condition the cited prior art never states. resolved false.",
     "id": "CN112645853A_acid",
-    "compound_uuid": "4cb556d6-8be9-5345-8d87-bf32fd799ea8"
+    "compound_uuid": "4cb556d6-8be9-5345-8d87-bf32fd799ea8",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -2109,15 +2287,17 @@
     ],
     "notes": "The alcohol placeholder as drawn on the arrows: line 143 in the prior-art scheme and line 176 in the summary's step (2) equation, where the conditions read ROH、碱. R is defined at [0009] line 145 and at [0022] line 179 as 2,2,2-trifluoroethyl or 2-tetrahydrofurylmethyl, so the placeholder stands for one of the two specific alcohols without the drawing committing to either. A symbol rather than a named substance, so resolved is false and unresolved_reference is true.",
     "id": "CN112645853A_ROH",
-    "compound_uuid": "67e7704e-77ef-54b5-b46c-5cdf89311f71"
+    "compound_uuid": "67e7704e-77ef-54b5-b46c-5cdf89311f71",
+    "smiles": null,
+    "smiles_source": "none:markush",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
     "identifier": "ROM",
     "identifier_type": "other",
-    "aliases": [
-      "或ROM"
-    ],
+    "aliases": [],
     "resolved": false,
     "unresolved_reference": true,
     "section_label": "Summary of the Invention",
@@ -2139,9 +2319,13 @@
       "compound_class:reagent",
       "functional_group:alkoxide"
     ],
-    "notes": "The alkali metal alkoxide placeholder drawn on the step (2) arrow at line 176, where the conditions read ROH、碱 or 或ROM - the two reagent systems of claim 1 shown as alternatives on one arrow. [0022] line 179 defines M as an alkali metal and R as 2,2,2-trifluoroethyl or 2-tetrahydrofurylmethyl, so ROM stands for any of the four specific alkoxides this patent prepares. A symbol rather than a named substance, so resolved is false and unresolved_reference is true.",
+    "notes": "The alkali metal alkoxide placeholder drawn on the step (2) arrow at line 176, where the conditions read ROH、碱 or 或ROM - the two reagent systems of claim 1 shown as alternatives on one arrow. [0022] line 179 defines M as an alkali metal and R as 2,2,2-trifluoroethyl or 2-tetrahydrofurylmethyl, so ROM stands for any of the four specific alkoxides this patent prepares. A symbol rather than a named substance, so resolved is false and unresolved_reference is true. BLIND-REVIEW FIX (2026-09-01, adversarial pass): alias 或ROM removed: 或 is the Chinese conjunction \"or\" in the drawn condition text ROH、碱 / 或ROM (L176), not part of the substance token; the token itself, ROM, is the identifier.",
     "id": "CN112645853A_ROM",
-    "compound_uuid": "eb32b2e4-7344-597b-b698-311e9485db20"
+    "compound_uuid": "eb32b2e4-7344-597b-b698-311e9485db20",
+    "smiles": null,
+    "smiles_source": "none:markush",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -2173,7 +2357,11 @@
     ],
     "notes": "[0002] at line 125 names HPPD as one of the most important herbicide targets, and says HPPD inhibitor herbicides account for 5.8 percent of the global herbicide market. An ENZYME, a protein, not a chemical compound - it is the biological target the herbicides act on, and it takes no part in any reaction in this patent. Recorded because the patent names it, but resolved is false and no structure applies. Whether an enzyme belongs in a compound file is a convention question the pipeline has no rule for; logged as C-008. The patent prints the English name with a typesetting hyphen inside the word, 4-hy-droxyphenylpyruvate dioxygenase; that is transcribed as printed and the corrected spelling is deliberately NOT added as an alias, because it appears nowhere in the document, not even in the translation line.",
     "id": "CN112645853A_HPPD",
-    "compound_uuid": "54d31a2b-6a76-509e-af57-3872368a417e"
+    "compound_uuid": "54d31a2b-6a76-509e-af57-3872368a417e",
+    "smiles": null,
+    "smiles_source": "none:unresolved",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -2204,7 +2392,11 @@
     ],
     "notes": "Appears at line 125 ONLY as part of the full name of the HPPD enzyme, 对羟基苯基丙酮酸双氧化酶, 4-hydroxyphenylpyruvate dioxygenase. It is a real compound - the enzyme's substrate - but this patent never mentions it as a substance in its own right, never charges it and never draws it. resolved false: not resolved here because the name is not used as a compound reference on the page.",
     "id": "CN112645853A_4-hydroxyphenylpyruvate",
-    "compound_uuid": "a086ad32-7f15-5a42-a51e-d33c843bd151"
+    "compound_uuid": "a086ad32-7f15-5a42-a51e-d33c843bd151",
+    "smiles": "O=C([O-])C(=O)Cc1ccc(O)cc1",
+    "smiles_source": "opsin",
+    "molecular_formula": "C9H7O4-",
+    "molecular_weight": 179.15
   },
   {
     "patent_id": "CN112645853A",
@@ -2237,7 +2429,11 @@
     ],
     "notes": "The patent calls this a GROUP, not a substance. [0010] at line 147 says the methanol reacts with 苄溴基团, the benzyl bromide group, of the starting material, and [0024] at line 182 calls it 活性基团苄溴, the active group benzyl bromide, that is sensitive to base. It is the CH2Br on the substrate ring, never a separate charge. Recorded because the patent names it, but resolved is false: resolving it to free benzyl bromide, C7H7Br, would assert a substance the patent never uses. Compare the sibling error on 'benzyl alcohol', where 苄醇 WAS resolved to the free molecule and is wrong for the same reason.",
     "id": "CN112645853A_benzyl bromide",
-    "compound_uuid": "a37bed33-3379-54fc-becb-371f59bd41ec"
+    "compound_uuid": "a37bed33-3379-54fc-becb-371f59bd41ec",
+    "smiles": "BrCc1ccccc1",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C7H7Br",
+    "molecular_weight": 171.04
   },
   {
     "patent_id": "CN112645853A",
@@ -2269,7 +2465,11 @@
     ],
     "notes": "[0002] at line 125 lists the three structural families of HPPD inhibitor herbicides: 三酮类 triketones, 吡唑酮类 pyrazolones and 异噁唑酮类 isoxazolones, and says tembotrione and tefuryltrione are HPPD triketones. A structural family, not a compound, so resolved is false. Background context only - no member of this family other than the three named herbicides appears anywhere in the patent.",
     "id": "CN112645853A_triketones",
-    "compound_uuid": "c0ccb0c2-ea6f-5c94-b6cd-2f1d19bf7769"
+    "compound_uuid": "c0ccb0c2-ea6f-5c94-b6cd-2f1d19bf7769",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -2301,7 +2501,11 @@
     ],
     "notes": "[0002] at line 125, in the same sentence as triketones and isoxazolones, as one of the three structural families of HPPD inhibitor herbicides. A structural family, not a compound, so resolved is false. No member of this family appears anywhere in the patent.",
     "id": "CN112645853A_pyrazolones",
-    "compound_uuid": "ac5c5705-3fbc-5002-a00f-41ef0d20d8f2"
+    "compound_uuid": "ac5c5705-3fbc-5002-a00f-41ef0d20d8f2",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN112645853A",
@@ -2333,6 +2537,10 @@
     ],
     "notes": "[0002] at line 125, in the same sentence as triketones and pyrazolones, as one of the three structural families of HPPD inhibitor herbicides. A structural family, not a compound, so resolved is false. No member of this family appears anywhere in the patent.",
     "id": "CN112645853A_isoxazolones",
-    "compound_uuid": "f06cc363-497a-50bf-a61f-afb55d845184"
+    "compound_uuid": "f06cc363-497a-50bf-a61f-afb55d845184",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   }
 ]

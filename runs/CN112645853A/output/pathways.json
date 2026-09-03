@@ -5,20 +5,29 @@
     "section_label": "Background",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "the methyl ester of the target compound",
         "smiles": null,
-        "compound_uuid": "92dfd126-3ecb-5eaf-b645-49f5bef10992"
+        "compound_uuid": "92dfd126-3ecb-5eaf-b645-49f5bef10992",
+        "smiles_source": "none:reference",
+        "molecular_formula": null,
+        "molecular_weight": null
       }
     ],
     "product": {
       "identifier": "2-chloro-3-(alkoxymethyl)-4-(methanesulfonyl)benzoic acid",
       "smiles": null,
-      "compound_uuid": "a2de44a5-a287-5b84-b4af-d969183ba494"
+      "compound_uuid": "a2de44a5-a287-5b84-b4af-d969183ba494",
+      "smiles_source": "none:markush",
+      "molecular_formula": null,
+      "molecular_weight": null
     },
     "steps": [
       {
@@ -487,20 +496,29 @@
     "section_label": "Claims",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate salt",
-        "smiles": null,
-        "compound_uuid": "b4de0d31-09e7-5df9-97f5-2cae09a6a3cf"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr",
+        "compound_uuid": "b4de0d31-09e7-5df9-97f5-2cae09a6a3cf",
+        "smiles_source": "opsin",
+        "molecular_formula": "C9H7BrClO4S-",
+        "molecular_weight": 326.58
       }
     ],
     "product": {
       "identifier": "2-chloro-3-(alkoxymethyl)-4-(methanesulfonyl)benzoic acid",
       "smiles": null,
-      "compound_uuid": "a2de44a5-a287-5b84-b4af-d969183ba494"
+      "compound_uuid": "a2de44a5-a287-5b84-b4af-d969183ba494",
+      "smiles_source": "none:markush",
+      "molecular_formula": null,
+      "molecular_weight": null
     },
     "steps": [
       {
@@ -1404,14 +1422,20 @@
     "section_label": "Example 1",
     "ksm": {
       "identifier": "2,2,2-trifluoroethanol",
-      "smiles": null,
-      "compound_uuid": "95fac303-a4cb-55a6-bd04-6d34e016fbf8"
+      "smiles": "OCC(F)(F)F",
+      "compound_uuid": "95fac303-a4cb-55a6-bd04-6d34e016fbf8",
+      "smiles_source": "opsin+pubchem",
+      "molecular_formula": "C2H3F3O",
+      "molecular_weight": 100.04
     },
     "intermediates": [],
     "product": {
       "identifier": "sodium 2,2,2-trifluoroethoxide",
-      "smiles": null,
-      "compound_uuid": "503f6d1b-9ac2-5b2b-a812-4dc689180192"
+      "smiles": "[Na+].[O-]CC(F)(F)F",
+      "compound_uuid": "503f6d1b-9ac2-5b2b-a812-4dc689180192",
+      "smiles_source": "opsin+pubchem",
+      "molecular_formula": "C2H2F3NaO",
+      "molecular_weight": 122.02
     },
     "steps": [
       {
@@ -1664,20 +1688,29 @@
     "section_label": "Example 1",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C11H10ClF3O5S",
+      "molecular_weight": 346.71
     },
     "steps": [
       {
@@ -2228,20 +2261,29 @@
     "section_label": "Example 10",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "potassium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "a13bbfd5-8892-5868-99fd-50a8962b0988"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[K+]",
+        "compound_uuid": "a13bbfd5-8892-5868-99fd-50a8962b0988",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClKO4S",
+        "molecular_weight": 365.67
       }
     ],
     "product": {
       "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C11H10ClF3O5S",
+      "molecular_weight": 346.71
     },
     "steps": [
       {
@@ -2832,20 +2874,29 @@
     "section_label": "Example 11",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-{[(RS)-tetrahydrofuran-2-yl]methoxymethyl}-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC1CCCO1",
+      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C14H17ClO6S",
+      "molecular_weight": 348.8
     },
     "steps": [
       {
@@ -3430,20 +3481,29 @@
     "section_label": "Example 12",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "potassium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "a13bbfd5-8892-5868-99fd-50a8962b0988"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[K+]",
+        "compound_uuid": "a13bbfd5-8892-5868-99fd-50a8962b0988",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClKO4S",
+        "molecular_weight": 365.67
       }
     ],
     "product": {
       "identifier": "2-chloro-3-{[(RS)-tetrahydrofuran-2-yl]methoxymethyl}-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC1CCCO1",
+      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C14H17ClO6S",
+      "molecular_weight": 348.8
     },
     "steps": [
       {
@@ -4028,20 +4088,29 @@
     "section_label": "Example 13",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-{[(RS)-tetrahydrofuran-2-yl]methoxymethyl}-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC1CCCO1",
+      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C14H17ClO6S",
+      "molecular_weight": 348.8
     },
     "steps": [
       {
@@ -4574,20 +4643,29 @@
     "section_label": "Example 14",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-{[(RS)-tetrahydrofuran-2-yl]methoxymethyl}-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC1CCCO1",
+      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C14H17ClO6S",
+      "molecular_weight": 348.8
     },
     "steps": [
       {
@@ -5120,20 +5198,29 @@
     "section_label": "Example 15",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-{[(RS)-tetrahydrofuran-2-yl]methoxymethyl}-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC1CCCO1",
+      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C14H17ClO6S",
+      "molecular_weight": 348.8
     },
     "steps": [
       {
@@ -5667,20 +5754,29 @@
     "section_label": "Example 16",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-{[(RS)-tetrahydrofuran-2-yl]methoxymethyl}-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC1CCCO1",
+      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C14H17ClO6S",
+      "molecular_weight": 348.8
     },
     "steps": [
       {
@@ -6214,14 +6310,20 @@
     "section_label": "Example 17",
     "ksm": {
       "identifier": "tetrahydrofurfuryl alcohol",
-      "smiles": null,
-      "compound_uuid": "68871171-b11d-5c19-bcbd-a836a0e40728"
+      "smiles": "OCC1CCCO1",
+      "compound_uuid": "68871171-b11d-5c19-bcbd-a836a0e40728",
+      "smiles_source": "opsin+pubchem",
+      "molecular_formula": "C5H10O2",
+      "molecular_weight": 102.13
     },
     "intermediates": [],
     "product": {
       "identifier": "sodium (tetrahydrofuran-2-yl)methoxide",
-      "smiles": null,
-      "compound_uuid": "5e3f6c5b-a9bf-5626-abab-228d6565d001"
+      "smiles": "[Na+].[O-]CC1CCCO1",
+      "compound_uuid": "5e3f6c5b-a9bf-5626-abab-228d6565d001",
+      "smiles_source": "patent_drawing+opsin",
+      "molecular_formula": "C5H9NaO2",
+      "molecular_weight": 124.11
     },
     "steps": [
       {
@@ -6483,20 +6585,29 @@
     "section_label": "Example 17",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-{[(RS)-tetrahydrofuran-2-yl]methoxymethyl}-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC1CCCO1",
+      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C14H17ClO6S",
+      "molecular_weight": 348.8
     },
     "steps": [
       {
@@ -7016,14 +7127,20 @@
     "section_label": "Example 18",
     "ksm": {
       "identifier": "tetrahydrofurfuryl alcohol",
-      "smiles": null,
-      "compound_uuid": "68871171-b11d-5c19-bcbd-a836a0e40728"
+      "smiles": "OCC1CCCO1",
+      "compound_uuid": "68871171-b11d-5c19-bcbd-a836a0e40728",
+      "smiles_source": "opsin+pubchem",
+      "molecular_formula": "C5H10O2",
+      "molecular_weight": 102.13
     },
     "intermediates": [],
     "product": {
       "identifier": "potassium (tetrahydrofuran-2-yl)methoxide",
-      "smiles": null,
-      "compound_uuid": "db99085b-b7e0-53a7-b27b-805ae2d445a9"
+      "smiles": "[K+].[O-]CC1CCCO1",
+      "compound_uuid": "db99085b-b7e0-53a7-b27b-805ae2d445a9",
+      "smiles_source": "patent_drawing+opsin",
+      "molecular_formula": "C5H9KO2",
+      "molecular_weight": 140.22
     },
     "steps": [
       {
@@ -7285,20 +7402,29 @@
     "section_label": "Example 18",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-{[(RS)-tetrahydrofuran-2-yl]methoxymethyl}-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC1CCCO1",
+      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C14H17ClO6S",
+      "molecular_weight": 348.8
     },
     "steps": [
       {
@@ -7817,14 +7943,20 @@
     "section_label": "Example 19",
     "ksm": {
       "identifier": "tetrahydrofurfuryl alcohol",
-      "smiles": null,
-      "compound_uuid": "68871171-b11d-5c19-bcbd-a836a0e40728"
+      "smiles": "OCC1CCCO1",
+      "compound_uuid": "68871171-b11d-5c19-bcbd-a836a0e40728",
+      "smiles_source": "opsin+pubchem",
+      "molecular_formula": "C5H10O2",
+      "molecular_weight": 102.13
     },
     "intermediates": [],
     "product": {
       "identifier": "sodium (tetrahydrofuran-2-yl)methoxide",
-      "smiles": null,
-      "compound_uuid": "5e3f6c5b-a9bf-5626-abab-228d6565d001"
+      "smiles": "[Na+].[O-]CC1CCCO1",
+      "compound_uuid": "5e3f6c5b-a9bf-5626-abab-228d6565d001",
+      "smiles_source": "patent_drawing+opsin",
+      "molecular_formula": "C5H9NaO2",
+      "molecular_weight": 124.11
     },
     "steps": [
       {
@@ -8086,20 +8218,29 @@
     "section_label": "Example 19",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-{[(RS)-tetrahydrofuran-2-yl]methoxymethyl}-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC1CCCO1",
+      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C14H17ClO6S",
+      "molecular_weight": 348.8
     },
     "steps": [
       {
@@ -8619,14 +8760,20 @@
     "section_label": "Example 2",
     "ksm": {
       "identifier": "2,2,2-trifluoroethanol",
-      "smiles": null,
-      "compound_uuid": "95fac303-a4cb-55a6-bd04-6d34e016fbf8"
+      "smiles": "OCC(F)(F)F",
+      "compound_uuid": "95fac303-a4cb-55a6-bd04-6d34e016fbf8",
+      "smiles_source": "opsin+pubchem",
+      "molecular_formula": "C2H3F3O",
+      "molecular_weight": 100.04
     },
     "intermediates": [],
     "product": {
       "identifier": "sodium 2,2,2-trifluoroethoxide",
-      "smiles": null,
-      "compound_uuid": "503f6d1b-9ac2-5b2b-a812-4dc689180192"
+      "smiles": "[Na+].[O-]CC(F)(F)F",
+      "compound_uuid": "503f6d1b-9ac2-5b2b-a812-4dc689180192",
+      "smiles_source": "opsin+pubchem",
+      "molecular_formula": "C2H2F3NaO",
+      "molecular_weight": 122.02
     },
     "steps": [
       {
@@ -8883,20 +9030,29 @@
     "section_label": "Example 2",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C11H10ClF3O5S",
+      "molecular_weight": 346.71
     },
     "steps": [
       {
@@ -9461,14 +9617,20 @@
     "section_label": "Example 20",
     "ksm": {
       "identifier": "tetrahydrofurfuryl alcohol",
-      "smiles": null,
-      "compound_uuid": "68871171-b11d-5c19-bcbd-a836a0e40728"
+      "smiles": "OCC1CCCO1",
+      "compound_uuid": "68871171-b11d-5c19-bcbd-a836a0e40728",
+      "smiles_source": "opsin+pubchem",
+      "molecular_formula": "C5H10O2",
+      "molecular_weight": 102.13
     },
     "intermediates": [],
     "product": {
       "identifier": "potassium (tetrahydrofuran-2-yl)methoxide",
-      "smiles": null,
-      "compound_uuid": "db99085b-b7e0-53a7-b27b-805ae2d445a9"
+      "smiles": "[K+].[O-]CC1CCCO1",
+      "compound_uuid": "db99085b-b7e0-53a7-b27b-805ae2d445a9",
+      "smiles_source": "patent_drawing+opsin",
+      "molecular_formula": "C5H9KO2",
+      "molecular_weight": 140.22
     },
     "steps": [
       {
@@ -9730,20 +9892,29 @@
     "section_label": "Example 20",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-{[(RS)-tetrahydrofuran-2-yl]methoxymethyl}-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC1CCCO1",
+      "compound_uuid": "dd1a42fd-624c-5055-905f-3082bbe7c0c3",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C14H17ClO6S",
+      "molecular_weight": 348.8
     },
     "steps": [
       {
@@ -10263,20 +10434,29 @@
     "section_label": "Example 3",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C11H10ClF3O5S",
+      "molecular_weight": 346.71
     },
     "steps": [
       {
@@ -10855,20 +11035,29 @@
     "section_label": "Example 4",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C11H10ClF3O5S",
+      "molecular_weight": 346.71
     },
     "steps": [
       {
@@ -11452,14 +11641,20 @@
     "section_label": "Example 5",
     "ksm": {
       "identifier": "2,2,2-trifluoroethanol",
-      "smiles": null,
-      "compound_uuid": "95fac303-a4cb-55a6-bd04-6d34e016fbf8"
+      "smiles": "OCC(F)(F)F",
+      "compound_uuid": "95fac303-a4cb-55a6-bd04-6d34e016fbf8",
+      "smiles_source": "opsin+pubchem",
+      "molecular_formula": "C2H3F3O",
+      "molecular_weight": 100.04
     },
     "intermediates": [],
     "product": {
       "identifier": "potassium 2,2,2-trifluoroethoxide",
-      "smiles": null,
-      "compound_uuid": "087300cf-5759-5b97-a581-bcfd8984fa31"
+      "smiles": "[K+].[O-]CC(F)(F)F",
+      "compound_uuid": "087300cf-5759-5b97-a581-bcfd8984fa31",
+      "smiles_source": "opsin+pubchem",
+      "molecular_formula": "C2H2F3KO",
+      "molecular_weight": 138.13
     },
     "steps": [
       {
@@ -11717,20 +11912,29 @@
     "section_label": "Example 5",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "potassium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "a13bbfd5-8892-5868-99fd-50a8962b0988"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[K+]",
+        "compound_uuid": "a13bbfd5-8892-5868-99fd-50a8962b0988",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClKO4S",
+        "molecular_weight": 365.67
       }
     ],
     "product": {
       "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C11H10ClF3O5S",
+      "molecular_weight": 346.71
     },
     "steps": [
       {
@@ -12291,20 +12495,29 @@
     "section_label": "Example 6",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "potassium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "a13bbfd5-8892-5868-99fd-50a8962b0988"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[K+]",
+        "compound_uuid": "a13bbfd5-8892-5868-99fd-50a8962b0988",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClKO4S",
+        "molecular_weight": 365.67
       }
     ],
     "product": {
       "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C11H10ClF3O5S",
+      "molecular_weight": 346.71
     },
     "steps": [
       {
@@ -12854,20 +13067,29 @@
     "section_label": "Example 7",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C11H10ClF3O5S",
+      "molecular_weight": 346.71
     },
     "steps": [
       {
@@ -13421,14 +13643,20 @@
     "section_label": "Example 8",
     "ksm": {
       "identifier": "2,2,2-trifluoroethanol",
-      "smiles": null,
-      "compound_uuid": "95fac303-a4cb-55a6-bd04-6d34e016fbf8"
+      "smiles": "OCC(F)(F)F",
+      "compound_uuid": "95fac303-a4cb-55a6-bd04-6d34e016fbf8",
+      "smiles_source": "opsin+pubchem",
+      "molecular_formula": "C2H3F3O",
+      "molecular_weight": 100.04
     },
     "intermediates": [],
     "product": {
       "identifier": "potassium 2,2,2-trifluoroethoxide",
-      "smiles": null,
-      "compound_uuid": "087300cf-5759-5b97-a581-bcfd8984fa31"
+      "smiles": "[K+].[O-]CC(F)(F)F",
+      "compound_uuid": "087300cf-5759-5b97-a581-bcfd8984fa31",
+      "smiles_source": "opsin+pubchem",
+      "molecular_formula": "C2H2F3KO",
+      "molecular_weight": 138.13
     },
     "steps": [
       {
@@ -13686,20 +13914,29 @@
     "section_label": "Example 8",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "potassium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "a13bbfd5-8892-5868-99fd-50a8962b0988"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[K+]",
+        "compound_uuid": "a13bbfd5-8892-5868-99fd-50a8962b0988",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClKO4S",
+        "molecular_weight": 365.67
       }
     ],
     "product": {
       "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C11H10ClF3O5S",
+      "molecular_weight": 346.71
     },
     "steps": [
       {
@@ -14264,20 +14501,29 @@
     "section_label": "Example 9",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr.[Na+]",
+        "compound_uuid": "16255526-8f79-58f4-bfb0-79e1ea2f364e",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C9H7BrClNaO4S",
+        "molecular_weight": 349.56
       }
     ],
     "product": {
       "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
-      "smiles": null,
-      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "fb7de2a0-5cdb-57b0-b49d-753c2c725dbf",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C11H10ClF3O5S",
+      "molecular_weight": 346.71
     },
     "steps": [
       {
@@ -14851,20 +15097,29 @@
     "section_label": "Summary of the Invention",
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate salt",
-        "smiles": null,
-        "compound_uuid": "b4de0d31-09e7-5df9-97f5-2cae09a6a3cf"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr",
+        "compound_uuid": "b4de0d31-09e7-5df9-97f5-2cae09a6a3cf",
+        "smiles_source": "opsin",
+        "molecular_formula": "C9H7BrClO4S-",
+        "molecular_weight": 326.58
       }
     ],
     "product": {
       "identifier": "2-chloro-3-(alkoxymethyl)-4-(methanesulfonyl)benzoic acid",
       "smiles": null,
-      "compound_uuid": "a2de44a5-a287-5b84-b4af-d969183ba494"
+      "compound_uuid": "a2de44a5-a287-5b84-b4af-d969183ba494",
+      "smiles_source": "none:markush",
+      "molecular_formula": null,
+      "molecular_weight": null
     },
     "steps": [
       {
@@ -15759,20 +16014,29 @@
     "section_label": null,
     "ksm": {
       "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "701930d3-4fe0-59f9-83cc-59998990ce5e",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "intermediates": [
       {
         "identifier": "2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate salt",
-        "smiles": null,
-        "compound_uuid": "b4de0d31-09e7-5df9-97f5-2cae09a6a3cf"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)[O-])c(Cl)c1CBr",
+        "compound_uuid": "b4de0d31-09e7-5df9-97f5-2cae09a6a3cf",
+        "smiles_source": "opsin",
+        "molecular_formula": "C9H7BrClO4S-",
+        "molecular_weight": 326.58
       }
     ],
     "product": {
       "identifier": "2-chloro-3-(alkoxymethyl)-4-(methanesulfonyl)benzoic acid",
       "smiles": null,
-      "compound_uuid": "a2de44a5-a287-5b84-b4af-d969183ba494"
+      "compound_uuid": "a2de44a5-a287-5b84-b4af-d969183ba494",
+      "smiles_source": "none:markush",
+      "molecular_formula": null,
+      "molecular_weight": null
     },
     "steps": [
       {

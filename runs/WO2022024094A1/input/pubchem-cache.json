@@ -1,0 +1,302 @@
+{
+ "service": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/",
+ "what": "PubChem's answer for one exact name, so a re-run needs no network.",
+ "answers": {
+  "mesotrione": {
+   "smiles": "CS(=O)(=O)C1=CC(=C(C=C1)C(=O)C2C(=O)CCCC2=O)[N+](=O)[O-]",
+   "cid": 175967,
+   "formula": "C14H13NO7S",
+   "message": ""
+  },
+  "2-nitro-4-methylsulfonyl toluene": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-nitro-4-methylsulphonyl toluene": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-nitro-4-methylsulfonyltoluene": {
+   "smiles": "CC1=C(C=C(C=C1)S(=O)(=O)C)[N+](=O)[O-]",
+   "cid": 687125,
+   "formula": "C8H9NO4S",
+   "message": ""
+  },
+  "2-nitro-4-methylsulphonyl benzoic acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-nitro-4-methylsulfonyl benzoic acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-nitro-4-methylsulfonylbenzoic acid": {
+   "smiles": "CS(=O)(=O)C1=CC(=C(C=C1)C(=O)O)[N+](=O)[O-]",
+   "cid": 184292,
+   "formula": "C8H7NO6S",
+   "message": ""
+  },
+  "2-nitro-4-methylsulphonyl benzoyl chloride": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-nitro-4-methylsulfonylbenzoyl benzoyl chloride": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "acetic acid": {
+   "smiles": "CC(=O)O",
+   "cid": 176,
+   "formula": "C2H4O2",
+   "message": ""
+  },
+  "Sodium acetate": {
+   "smiles": "CC(=O)[O-].[Na+]",
+   "cid": 31372,
+   "formula": "C2H3NaO2",
+   "message": ""
+  },
+  "cobalt(II) acetate tetra hydrate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "Cobalt (II) acetate tetrahydrate": {
+   "smiles": "CC(=O)[O-].CC(=O)[O-].O.O.O.O.[Co+2]",
+   "cid": 61372,
+   "formula": "C4H14CoO8",
+   "message": ""
+  },
+  "sulfuric acid": {
+   "smiles": "OS(=O)(=O)O",
+   "cid": 1118,
+   "formula": "H2O4S",
+   "message": ""
+  },
+  "nitric acid": {
+   "smiles": "[N+](=O)(O)[O-]",
+   "cid": 944,
+   "formula": "HNO3",
+   "message": ""
+  },
+  "vanadium pentoxide": {
+   "smiles": "O=[V](=O)O[V](=O)=O",
+   "cid": 14814,
+   "formula": "O5V2",
+   "message": ""
+  },
+  "1,3-cyclohexanedione": {
+   "smiles": "C1CC(=O)CC(=O)C1",
+   "cid": 10434,
+   "formula": "C6H8O2",
+   "message": ""
+  },
+  "ruthenium oxide": {
+   "smiles": "O=[Ru]=O",
+   "cid": 82848,
+   "formula": "O2Ru",
+   "message": ""
+  },
+  "sodium hypochlorite": {
+   "smiles": "[O-]Cl.[Na+]",
+   "cid": 23665760,
+   "formula": "ClNaO",
+   "message": ""
+  },
+  "N,N’-dicyclohexylcarbodiimide": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "N, N′-dicyclohexylcarbodiimide": {
+   "smiles": "C1CCC(CC1)N=C=NC2CCCCC2",
+   "cid": 10868,
+   "formula": "C13H22N2",
+   "message": ""
+  },
+  "sodium cyanide": {
+   "smiles": "[C-]#N.[Na+]",
+   "cid": 8929,
+   "formula": "CNNa",
+   "message": ""
+  },
+  "dichloromethane": {
+   "smiles": "C(Cl)Cl",
+   "cid": 6344,
+   "formula": "CH2Cl2",
+   "message": ""
+  },
+  "1,2-dichloroethane": {
+   "smiles": "C(CCl)Cl",
+   "cid": 11,
+   "formula": "C2H4Cl2",
+   "message": ""
+  },
+  "alkali metal hypochlorite": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "hypochlorite": {
+   "smiles": "[O-]Cl",
+   "cid": 61739,
+   "formula": "ClO-",
+   "message": ""
+  },
+  "hydrogen peroxide": {
+   "smiles": "OO",
+   "cid": 784,
+   "formula": "H2O2",
+   "message": ""
+  },
+  "ruthenate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "perruthenate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "ruthenium tetroxide": {
+   "smiles": "O=[Ru](=O)(=O)=O",
+   "cid": 119079,
+   "formula": "O4Ru",
+   "message": ""
+  },
+  "ruthenium dioxide hydrate": {
+   "smiles": "O.O=[Ru]=O",
+   "cid": 16211523,
+   "formula": "H2O3Ru",
+   "message": ""
+  },
+  "ruthenium trichloride": {
+   "smiles": "Cl[Ru](Cl)Cl",
+   "cid": 61850,
+   "formula": "Cl3Ru",
+   "message": ""
+  },
+  "chlorine": {
+   "smiles": "ClCl",
+   "cid": 24526,
+   "formula": "Cl2",
+   "message": ""
+  },
+  "triethylamine": {
+   "smiles": "CCN(CC)CC",
+   "cid": 8471,
+   "formula": "C6H15N",
+   "message": ""
+  },
+  "N,N-diisopropylethylamine": {
+   "smiles": "CCN(C(C)C)C(C)C",
+   "cid": 81531,
+   "formula": "C8H19N",
+   "message": ""
+  },
+  "N,N-diisopropylamine": {
+   "smiles": "CC(C)NC(C)C",
+   "cid": 7912,
+   "formula": "C6H15N",
+   "message": ""
+  },
+  "ethanolamine": {
+   "smiles": "C(CO)N",
+   "cid": 700,
+   "formula": "C2H7NO",
+   "message": ""
+  },
+  "diethanolamine": {
+   "smiles": "C(CO)NCCO",
+   "cid": 8113,
+   "formula": "C4H11NO2",
+   "message": ""
+  },
+  "triethanolamine": {
+   "smiles": "C(CO)N(CCO)CCO",
+   "cid": 7618,
+   "formula": "C6H15NO3",
+   "message": ""
+  },
+  "N-methylglucamine": {
+   "smiles": "CNC[C@@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O",
+   "cid": 8567,
+   "formula": "C7H17NO5",
+   "message": ""
+  },
+  "concentrated hydrochloric acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "hydrochloric acid": {
+   "smiles": "Cl",
+   "cid": 313,
+   "formula": "ClH",
+   "message": ""
+  },
+  "water": {
+   "smiles": "O",
+   "cid": 962,
+   "formula": "H2O",
+   "message": ""
+  },
+  "aqueous hydrochloric acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "a salt or an oxide": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "salt or an oxide": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "a cobalt salt": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "cobalt": {
+   "smiles": "[Co]",
+   "cid": 104730,
+   "formula": "Co",
+   "message": ""
+  },
+  "vanadium or cobalt compounds": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "cobalt compounds": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "methyl sulfonyl benzoic acids": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "aqueous caustic solution": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "caustic": {
+   "smiles": "[N+](=O)([O-])[O-].[Ag+]",
+   "cid": 24470,
+   "formula": "AgNO3",
+   "message": ""
+  },
+  "benzoylcyclohexane-1,3-dione herbicides": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "benzoylcyclohexane-1, 3-dioneherbicides": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "4-hydroxyphenylpyruvate dioxygenase": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "N,N'-dicyclohexylcarbodiimide": {
+   "smiles": "C1CCC(CC1)N=C=NC2CCCCC2",
+   "cid": 10868,
+   "formula": "C13H22N2",
+   "message": ""
+  }
+ }
+}

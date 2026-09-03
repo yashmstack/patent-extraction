@@ -36,7 +36,11 @@
     ],
     "notes": "Merged from every appearance of the bare word 溶剂 in the section: charged in step 1), in step 2), twice in step 3) (as the reaction medium and again as the recrystallisation medium 加溶剂进行重结晶). identifier_type is functional_ref because the abstract names the material only by the function it performs and never by a chemical name. The abstract does not state that the four uses are the same solvent, and it identifies none of them, so the record is kept unresolved rather than filled in from any later section. commercially_available is false because no specific compound is identified, so no availability claim is supported. | Generic placeholder of claim 1, kept as its own unresolved record rather than merged into the enumerated members, because the dependent claims resolve it by enumeration and not by identity; merging would erase the Markush structure of the claim set. Each enumerated member is a separate record. Claim 1 writes 溶剂 for the step 1) reaction medium, the step 1) recrystallisation medium, the step 2) medium and both step 3) media. Claim 4 splits the step 1) uses into 反应溶剂 (二氯甲烷、1,2-二氯乙烷 or 氯仿) and 结晶溶剂 (甲醇、乙醇、异丙醇 or 正丁醇), claim 7 resolves the step 2) 溶剂 to 乙腈、DMF、丙酮 or 四氢呋喃, and claim 10 resolves the step 3) 结晶溶剂 to the same four alcohols as claim 4. No claim in this section resolves the step 3) reaction 溶剂, so that use stays unenumerated. The two qualified strings are kept as aliases of the one placeholder record. | Generic placeholder, merged across every step that charges one: the reaction solvent and the recrystallisation solvent of step 1) [0014], the reaction solvent of step 2) [0016], and the acid-chloride solvent, the cyclohexanedione solvent and the recrystallisation solvent of step 3) [0018]. The section enumerates what it may be ([0021] reaction solvent 二氯甲烷/1 ,2-二氯乙烷/氯仿 and crystallisation solvent 甲醇/乙醇/异丙醇/正丁醇; [0024] step 2) 乙腈/DMF/丙酮/四氢呋喃; [0027] step 3) crystallisation solvent 甲醇/乙醇/异丙醇/正丁醇), and each enumerated member is its own record, but the placeholder itself is left unresolved rather than resolved from the enumeration. The reaction solvent of step 3) is never enumerated anywhere in this section.",
     "id": "CN109678767A_溶剂",
-    "compound_uuid": "9ee11c71-8c5e-5f65-bdd4-1a5b5748571f"
+    "compound_uuid": "9ee11c71-8c5e-5f65-bdd4-1a5b5748571f",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN109678767A",
@@ -74,12 +78,16 @@
     ],
     "notes": "Merged from the three appearances of the bare word 催化剂, one in each of steps 1), 2) and 3). identifier_type is functional_ref because the abstract names the material only by the function it performs. The abstract does not state that the three are the same catalyst and identifies none of them, so the record is kept unresolved rather than filled in from any later section. commercially_available is false because no specific compound is identified. | Generic placeholder of claim 1, kept as its own unresolved record rather than merged into the enumerated members, because the dependent claims resolve it by enumeration and not by identity; merging would erase the Markush structure of the claim set. Each enumerated member is a separate record. Claim 1 writes 催化剂 in all three steps and claims 2, 5 and 8 carry it unresolved into their molar ratios. Claim 3 resolves the step 1) 催化剂 to 偶氮二异丁腈 or 间氯过氧苯甲酸, claim 6 resolves the step 2) 催化剂 to 三乙烯二胺 or 2-甲基三乙烯二胺, and claim 10 resolves the step 3) 催化剂 to DMF. | Generic placeholder, merged across the three steps that charge one: step 1) [0014] and [0019], step 2) [0016] and [0022], step 3) [0018] and [0025]. The section enumerates a different set for each step ([0020] step 1) 偶氮二异丁腈 or 间氯过氧苯甲酸; [0023] step 2) 三乙烯二胺 or 2-甲基三乙烯二胺; [0027] step 3) DMF), and each member is its own record, but the placeholder itself is left unresolved rather than resolved from the enumeration. The [image_extract] reaction scheme at line 152 draws the same placeholder on its step 1 arrow as the condition text cat, which is kept as an alias.",
     "id": "CN109678767A_催化剂",
-    "compound_uuid": "2e328aef-1ea2-5691-8097-feba6a9370ea"
+    "compound_uuid": "2e328aef-1ea2-5691-8097-feba6a9370ea",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN109678767A",
     "identifier": "hydrobromic acid",
-    "identifier_type": "iupac",
+    "identifier_type": "trivial_name",
     "aliases": [
       "氢溴酸",
       "HBr",
@@ -113,7 +121,7 @@
       "hazard:corrosive",
       "chemical_family:hydrogen_halide"
     ],
-    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. Charged in step 1) together with the benzoate ester, the solvent and the catalyst, before 双氧水 is added dropwise. 氢溴酸 is the standard Chinese name for aqueous hydrogen bromide and resolves unambiguously. role is reagent rather than acid: the abstract pairs it with the dropwise peroxide addition and the step yields the 溴代物, so the text supports it as the bromine source rather than as an acidifying agent. The abstract states no concentration. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. hazard:corrosive is emitted because a strong aqueous mineral acid plainly requires it. | Named in [0031] as 价格便宜的氢溴酸为溴化剂, the cheap brominating agent this process uses. role is reagent because the text names it 溴化剂 (brominating agent). Advantage 1 names no reagent that 氢溴酸 replaces, so no counterpart record is emitted for it. No hazard tag: the patent warns about no hazard here and instead says the change 降低了安全风险 (lowers the safety risk). Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. | Supplies the bromine of the benzylic bromide, so role reagent rather than acid. Merged from step 1) and claim 2, which puts it at 1-2 relative to the ester. No concentration is stated. | Named in [0090] as the brominating agent (溴化剂) used in place of 溴素. role and compound_class follow that stated function rather than its identity as an acid. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. hazard:corrosive follows from the chemistry of concentrated hydrobromic acid; the paragraph itself presents it as the 低毒性、低危险性 alternative and does not warn about it. | Supplies the bromine of the step 1 product, so recorded as reactant rather than acid. The 48％ is printed in the same parenthesis the section uses for purity, but it is an aqueous solution strength and the 46 g is the mass of that solution; the figure is recorded as printed and not corrected. | Supplies the bromine of the step 1 product, so recorded as reactant rather than reagent. The printed 48% sits in the same parenthesis slot as the 99% figures of the other charges but is the strength of the aqueous acid rather than a purity assay; it is recorded in purity_pct as printed and the paired 0.202 mol is consistent with that reading of the 34 g charge. | Bromine source for the step 1 benzylic bromination, used with hydrogen peroxide. The printed 48％ is the strength of the aqueous acid rather than a purity, but it is printed in the same parenthetical slot as every other purity in this section and is recorded there. | Bromine source for the benzylic bromination, so recorded as reactant rather than acid. The 48％ is the strength of the aqueous acid rather than a solid assay; it is kept in purity_pct because the patent prints it in the same slot as every other purity figure in the section. | Bromine source of step 1) [0014], charged with the substrate and used together with 双氧水; [0019] puts it in the step 1 molar ratio at 1～2 relative to the ester, a range, so quantity is left null. Drawn as a reactant of step 1 of the [IMAGE_EXTRACT] reaction scheme at line 152, read as SMILES \"Br\" with molecular formula HBr. The prose names the aqueous acid 氢溴酸 while the drawing carries the anhydrous hydrogen bromide of that acid; the drawn form is kept as an alias and the difference is recorded rather than resolved.",
+    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. Charged in step 1) together with the benzoate ester, the solvent and the catalyst, before 双氧水 is added dropwise. 氢溴酸 is the standard Chinese name for aqueous hydrogen bromide and resolves unambiguously. role is reagent rather than acid: the abstract pairs it with the dropwise peroxide addition and the step yields the 溴代物, so the text supports it as the bromine source rather than as an acidifying agent. The abstract states no concentration. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. hazard:corrosive is emitted because a strong aqueous mineral acid plainly requires it. | Named in [0031] as 价格便宜的氢溴酸为溴化剂, the cheap brominating agent this process uses. role is reagent because the text names it 溴化剂 (brominating agent). Advantage 1 names no reagent that 氢溴酸 replaces, so no counterpart record is emitted for it. No hazard tag: the patent warns about no hazard here and instead says the change 降低了安全风险 (lowers the safety risk). Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. | Supplies the bromine of the benzylic bromide, so role reagent rather than acid. Merged from step 1) and claim 2, which puts it at 1-2 relative to the ester. No concentration is stated. | Named in [0090] as the brominating agent (溴化剂) used in place of 溴素. role and compound_class follow that stated function rather than its identity as an acid. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. hazard:corrosive follows from the chemistry of concentrated hydrobromic acid; the paragraph itself presents it as the 低毒性、低危险性 alternative and does not warn about it. | Supplies the bromine of the step 1 product, so recorded as reactant rather than acid. The 48％ is printed in the same parenthesis the section uses for purity, but it is an aqueous solution strength and the 46 g is the mass of that solution; the figure is recorded as printed and not corrected. | Supplies the bromine of the step 1 product, so recorded as reactant rather than reagent. The printed 48% sits in the same parenthesis slot as the 99% figures of the other charges but is the strength of the aqueous acid rather than a purity assay; it is recorded in purity_pct as printed and the paired 0.202 mol is consistent with that reading of the 34 g charge. | Bromine source for the step 1 benzylic bromination, used with hydrogen peroxide. The printed 48％ is the strength of the aqueous acid rather than a purity, but it is printed in the same parenthetical slot as every other purity in this section and is recorded there. | Bromine source for the benzylic bromination, so recorded as reactant rather than acid. The 48％ is the strength of the aqueous acid rather than a solid assay; it is kept in purity_pct because the patent prints it in the same slot as every other purity figure in the section. | Bromine source of step 1) [0014], charged with the substrate and used together with 双氧水; [0019] puts it in the step 1 molar ratio at 1～2 relative to the ester, a range, so quantity is left null. Drawn as a reactant of step 1 of the [IMAGE_EXTRACT] reaction scheme at line 152, read as SMILES \"Br\" with molecular formula HBr. The prose names the aqueous acid 氢溴酸 while the drawing carries the anhydrous hydrogen bromide of that acid; the drawn form is kept as an alias and the difference is recorded rather than resolved. PROMPT-8 FINAL CHECK (2026-09-01): identifier_type corrected iupac->trivial_name: the identifier is the common name, not the systematic one. Grounding: hydrochloric acid is trivial_name in this file and in both sibling golds (hydrobromic acid is the same kind of name); for the organics the record itself carries the true IUPAC name among the aliases, the pattern this file labels trivial_name on chloroform and acetone cyanohydrin, and the sibling gold labels tert-butanol trivial_name for the same reason.",
     "id": "CN109678767A_hydrobromic acid",
     "compound_uuid": "99e2ec6b-44c8-554a-aafc-4b2cb3958a30",
     "quantities_by_section": [
@@ -145,7 +153,11 @@
         "mmol": 200,
         "purity_pct": 48
       }
-    ]
+    ],
+    "smiles": "Br",
+    "smiles_source": "patent_drawing+opsin+pubchem",
+    "molecular_formula": "HBr",
+    "molecular_weight": 80.91
   },
   {
     "patent_id": "CN109678767A",
@@ -216,7 +228,11 @@
         "mmol": 200,
         "purity_pct": 30
       }
-    ]
+    ],
+    "smiles": "OO",
+    "smiles_source": "patent_drawing+known+opsin+pubchem",
+    "molecular_formula": "H2O2",
+    "molecular_weight": 34.01
   },
   {
     "patent_id": "CN109678767A",
@@ -253,7 +269,11 @@
     ],
     "notes": "Charged in the first half of step 2) with the 溴代物, the catalyst, the solvent and 2,2,2-三氟乙醇. identifier_type is local_label rather than functional_ref because the numeral is a document-local index that distinguishes this base from 碱2 and carries meaning only inside this patent's own numbering. The abstract names no compound for it, so it is kept unresolved rather than filled in from any later section. commercially_available is false because no specific compound is identified. | Generic placeholder of claim 1, kept as its own unresolved record rather than merged into the enumerated members, because the dependent claims resolve it by enumeration and not by identity; merging would erase the Markush structure of the claim set. Each enumerated member is a separate record. Claim 1 writes 碱1 for the base charged at the start of step 2) and claim 5 carries it unresolved into the molar ratio. Claim 6 resolves it to 碳酸钾, a single member, so this enumeration has one element. | Generic label of step 2) [0016] and [0022]. [0023] states 所述碱1为碳酸钾, a single-member enumeration, and potassium carbonate is recorded separately; the label itself is kept unresolved rather than resolved from that enumeration, so that single-member and multi-member enumerations are treated alike. Prose only.",
     "id": "CN109678767A_碱1",
-    "compound_uuid": "4a47d9cc-68b2-5313-89e2-6cd57c0744a9"
+    "compound_uuid": "4a47d9cc-68b2-5313-89e2-6cd57c0744a9",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN109678767A",
@@ -328,7 +348,11 @@
         "mmol": 200,
         "purity_pct": 99
       }
-    ]
+    ],
+    "smiles": "OCC(F)(F)F",
+    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "molecular_formula": "C2H3F3O",
+    "molecular_weight": 100.04
   },
   {
     "patent_id": "CN109678767A",
@@ -365,7 +389,11 @@
     ],
     "notes": "Charged with water in the second half of step 2), after the first half has been filtered, washed and concentrated, and before the mixture is acidified to give the 醚化物. identifier_type is local_label rather than functional_ref because the numeral is a document-local index distinguishing it from 碱1. The abstract names no compound for it and does not say whether it differs from 碱1, so it is kept unresolved and is emitted as a record separate from 碱1 because the section itself writes them as two distinct labels. commercially_available is false because no specific compound is identified. | Generic placeholder of claim 1, kept as its own unresolved record rather than merged into the enumerated members, because the dependent claims resolve it by enumeration and not by identity; merging would erase the Markush structure of the claim set. Each enumerated member is a separate record. Claim 1 writes 碱2 for the base of the step 2) alkaline hydrolysis and claim 5 carries it unresolved into the molar ratio. Claim 6 resolves it to 氢氧化钠、氢氧化钾 or 氢氧化锂. | Generic label of the alkaline hydrolysis in step 2) [0016], charged with water, and of the molar ratio in [0022]. [0023] permits 氢氧化钠, 氢氧化钾 or 氢氧化锂, each of which is its own record; the label itself is left unresolved. Prose only.",
     "id": "CN109678767A_碱2",
-    "compound_uuid": "bf7be6f6-232b-59de-a94c-33533e4d8921"
+    "compound_uuid": "bf7be6f6-232b-59de-a94c-33533e4d8921",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN109678767A",
@@ -440,7 +468,11 @@
         "mass_g": 60,
         "mmol": 500
       }
-    ]
+    ],
+    "smiles": "O=S(Cl)Cl",
+    "smiles_source": "patent_scheme+patent_drawing+known+opsin+pubchem",
+    "molecular_formula": "Cl2OS",
+    "molecular_weight": 118.97
   },
   {
     "patent_id": "CN109678767A",
@@ -509,7 +541,11 @@
         "mmol": 300,
         "purity_pct": 99
       }
-    ]
+    ],
+    "smiles": "CCN(CC)CC",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C6H15N",
+    "molecular_weight": 101.19
   },
   {
     "patent_id": "CN109678767A",
@@ -525,7 +561,7 @@
     "section_type": "summary_of_invention",
     "is_section_product": false,
     "commercially_available": true,
-    "role": "reagent",
+    "role": "catalyst",
     "quantity": {
       "mass_g": 0.89,
       "volume_ml": null,
@@ -543,7 +579,6 @@
     "purity_pct": 95.0,
     "purity_method": null,
     "tags": [
-      "compound_class:reagent",
       "functional_group:nitrile",
       "hazard:cyanide_handling",
       "hazard:toxic",
@@ -551,7 +586,7 @@
       "chemical_family:cyanohydrin",
       "functional_group:alcohol"
     ],
-    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. Added in the last part of step 3) (反应后加入丙酮氰醇), before the water wash and the phase separation. The printed string is 丙酮氰醇, which is acetone cyanohydrin; it is not 氰基丙酮, which would be cyanoacetone, and the two are different compounds whose Chinese names differ by transposition. The EN line agrees with the Chinese here, so there is no conflict to record. role is reagent, not catalyst: the abstract states no charge amount and no function for it, so nothing in the section supports a sub-stoichiometric catalytic role. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. Hazard tags are emitted because a cyanohydrin plainly requires cyanide handling and is acutely toxic. No tag is emitted for the hydroxyl because the allowed functional_group vocabulary contains no alcohol value. | Printed 丙酮氰醇 and translated as printed: 丙酮氰醇 is acetone cyanohydrin and 氰基丙酮 is cyanoacetone, and the latter does not appear in this section. The section gives it no role word, but claim 8 puts it at 0.01-0.1 relative to the acid, a catalytic loading, which is what supports role catalyst. | QUANTITY NOT CONVERTIBLE: dosed as 4滴, four drops, which fixes no mass, no volume and no mole count, so every quantity field is null. The Chinese prints 丙酮氰醇, which is acetone cyanohydrin; the transposed string 氰基丙酮 would be cyanoacetone, a different compound, and is not what this section prints. Recorded as the catalyst for the ester to triketone rearrangement. | Charged at 1 g (0.011 mol) after the acylation to promote the rearrangement to the 2-aroyl dione. The Chinese prints 丙酮氰醇, acetone cyanohydrin, which is a different compound from 氰基丙酮 (cyanoacetone); the printed name is followed. It is the only charge in the section stated at 95％ rather than 99％ or better. | The Chinese prints 丙酮氰醇, which is acetone cyanohydrin, not the transposed 氰基丙酮 (cyanoacetone); translated as printed. Added after the acylation at 0.011 mol against a 0.086 mol substrate charge, so recorded as catalyst for the rearrangement to the C-acylated dione. It is the only charge in this section printed at 95% rather than 99% or better. | Charged at 0.09 g (0.001 mol) against a 0.1 mol substrate charge, i.e. catalytically, for the step 3 rearrangement of the enol ester to the C-acylated dione. The Chinese printed is 丙酮氰醇, acetone cyanohydrin, and not the transposed 氰基丙酮, cyanoacetone; translated as printed. | Added once the acylation is complete, at 0.01 mol against the 0.1 mol substrate charge, to catalyse the rearrangement to the 2-aroyl dione. The Chinese reads 丙酮氰醇, acetone cyanohydrin, and not the transposed 氰基丙酮, cyanoacetone; the two are different compounds and the printed one is translated here. | Added after the triethylamine stage of step 3) [0018]. [0025] puts it in the step 3 molar ratio at 0.01～0.1 relative to the acid, so it is charged sub-stoichiometrically, but the section never calls it 催化剂, so the role is left at reagent rather than catalyst. The printed name is 丙酮氰醇 (acetone cyanohydrin), not 氰基丙酮 (cyanoacetone); the two strings differ by transposition and name different compounds, and what is printed is what is recorded. Named in the drawn condition text 三乙胺/丙酮氰醇 of step 4 of the [IMAGE_EXTRACT] reaction scheme at line 152.",
+    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. Added in the last part of step 3) (反应后加入丙酮氰醇), before the water wash and the phase separation. The printed string is 丙酮氰醇, which is acetone cyanohydrin; it is not 氰基丙酮, which would be cyanoacetone, and the two are different compounds whose Chinese names differ by transposition. The EN line agrees with the Chinese here, so there is no conflict to record. role is reagent, not catalyst: the abstract states no charge amount and no function for it, so nothing in the section supports a sub-stoichiometric catalytic role. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. Hazard tags are emitted because a cyanohydrin plainly requires cyanide handling and is acutely toxic. No tag is emitted for the hydroxyl because the allowed functional_group vocabulary contains no alcohol value. | Printed 丙酮氰醇 and translated as printed: 丙酮氰醇 is acetone cyanohydrin and 氰基丙酮 is cyanoacetone, and the latter does not appear in this section. The section gives it no role word, but claim 8 puts it at 0.01-0.1 relative to the acid, a catalytic loading, which is what supports role catalyst. | QUANTITY NOT CONVERTIBLE: dosed as 4滴, four drops, which fixes no mass, no volume and no mole count, so every quantity field is null. The Chinese prints 丙酮氰醇, which is acetone cyanohydrin; the transposed string 氰基丙酮 would be cyanoacetone, a different compound, and is not what this section prints. Recorded as the catalyst for the ester to triketone rearrangement. | Charged at 1 g (0.011 mol) after the acylation to promote the rearrangement to the 2-aroyl dione. The Chinese prints 丙酮氰醇, acetone cyanohydrin, which is a different compound from 氰基丙酮 (cyanoacetone); the printed name is followed. It is the only charge in the section stated at 95％ rather than 99％ or better. | The Chinese prints 丙酮氰醇, which is acetone cyanohydrin, not the transposed 氰基丙酮 (cyanoacetone); translated as printed. Added after the acylation at 0.011 mol against a 0.086 mol substrate charge, so recorded as catalyst for the rearrangement to the C-acylated dione. It is the only charge in this section printed at 95% rather than 99% or better. | Charged at 0.09 g (0.001 mol) against a 0.1 mol substrate charge, i.e. catalytically, for the step 3 rearrangement of the enol ester to the C-acylated dione. The Chinese printed is 丙酮氰醇, acetone cyanohydrin, and not the transposed 氰基丙酮, cyanoacetone; translated as printed. | Added once the acylation is complete, at 0.01 mol against the 0.1 mol substrate charge, to catalyse the rearrangement to the 2-aroyl dione. The Chinese reads 丙酮氰醇, acetone cyanohydrin, and not the transposed 氰基丙酮, cyanoacetone; the two are different compounds and the printed one is translated here. | Added after the triethylamine stage of step 3) [0018]. [0025] puts it in the step 3 molar ratio at 0.01～0.1 relative to the acid, so it is charged sub-stoichiometrically, but the section never calls it 催化剂, so the role is left at reagent rather than catalyst. The printed name is 丙酮氰醇 (acetone cyanohydrin), not 氰基丙酮 (cyanoacetone); the two strings differ by transposition and name different compounds, and what is printed is what is recorded. Named in the drawn condition text 三乙胺/丙酮氰醇 of step 4 of the [IMAGE_EXTRACT] reaction scheme at line 152. PROMPT-8 FINAL CHECK (2026-09-01): role corrected reagent->catalyst and the duplicate compound_class:reagent tag removed: this record's own merged note states that claim 8 charges the cyanohydrin at 0.01-0.1 relative to the acid, a catalytic loading, \"which is what supports role catalyst\"; the reagent reading rested on the abstract alone. The reactions gold records acetone cyanohydrin as catalyst in every procedure. The absorbed fragment arguing reagent is preserved above as history.",
     "id": "CN109678767A_acetone cyanohydrin",
     "compound_uuid": "6ce22749-5fa5-5ee8-8469-6f209448e92c",
     "quantities_by_section": [
@@ -583,7 +618,11 @@
         "mmol": 10,
         "purity_pct": 95
       }
-    ]
+    ],
+    "smiles": "CC(C)(O)C#N",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C4H7NO",
+    "molecular_weight": 85.11
   },
   {
     "patent_id": "CN109678767A",
@@ -761,7 +800,11 @@
         "color": "yellow",
         "physical_form": "solid"
       }
-    ]
+    ],
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "smiles_source": "patent_scheme+pubchem",
+    "molecular_formula": "C17H16ClF3O6S",
+    "molecular_weight": 440.82
   },
   {
     "patent_id": "CN109678767A",
@@ -801,7 +844,11 @@
     ],
     "notes": "Merged from [0002] and [0003]. [0002] prints 硝磺酮 followed by the patent's own parenthetical gloss (硝磺草酮、甲基磺草酮); both glossed strings are standard Chinese common names for mesotrione, so the section itself supports the resolution and no outside knowledge is needed. [0003] names 硝磺草酮 again, both in the list of triketone-structure HPPD herbicides and as the comparator whose activity tembotrione exceeds, which is the same comparator role as in [0002], so the mentions are merged and all three printed strings are kept as aliases. The EN line renders 甲基磺草酮 as 'methyl sulcotrione', which names no standard compound; the Chinese is followed per the translation rule. chemical_family:triketone is taken from [0003], which states the class in the text. Marketed herbicide that no step of this patent prepares, so commercially_available is true.",
     "id": "CN109678767A_mesotrione",
-    "compound_uuid": "ce6d41e1-e830-59ad-981c-30ac5a384a9c"
+    "compound_uuid": "ce6d41e1-e830-59ad-981c-30ac5a384a9c",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
+    "smiles_source": "pubchem",
+    "molecular_formula": "C14H13NO7S",
+    "molecular_weight": 339.33
   },
   {
     "patent_id": "CN109678767A",
@@ -836,7 +883,11 @@
     ],
     "notes": "Named in [0002] as the plant metabolite whose biosynthesis tembotrione blocks: 可阻断植株体内异戊二烯基醌的生物合成 (can block the biosynthesis of prenyl quinones inside the plant). 异戊二烯基醌 is a class term for prenylated quinones and does not identify one specific compound, so it is kept exactly as printed with resolved false and no structural tags. It is extracted rather than dropped because the section names it as a chemical species. The enzyme named in the same sentence, HPPD(对羟基苯基丙酮酸双氧化酶), is a protein and not a small molecule, so it gets no compound record even though its Chinese name contains the name of its substrate.",
     "id": "CN109678767A_异戊二烯基醌",
-    "compound_uuid": "c6a03509-1cbe-5192-a34f-05b2ab4b42ce"
+    "compound_uuid": "c6a03509-1cbe-5192-a34f-05b2ab4b42ce",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN109678767A",
@@ -874,7 +925,11 @@
     ],
     "notes": "Named in [0003] as one of the triketone-structure HPPD herbicides developed so far. 磺草酮 is the standard Chinese common name for sulcotrione and resolves; the EN line agrees. It is a different compound from 甲基磺草酮 (mesotrione) in [0002], the two Chinese names differing only by the 甲基 prefix, and the two are deliberately kept as separate records. chemical_family:triketone is taken from the sentence's own 三酮结构 classification. Marketed herbicide that no step of this patent prepares, so commercially_available is true.",
     "id": "CN109678767A_sulcotrione",
-    "compound_uuid": "e786dc91-d6ed-5a59-9b5c-a5f6b91f79c7"
+    "compound_uuid": "e786dc91-d6ed-5a59-9b5c-a5f6b91f79c7",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1",
+    "smiles_source": "pubchem",
+    "molecular_formula": "C14H13ClO5S",
+    "molecular_weight": 328.77
   },
   {
     "patent_id": "CN109678767A",
@@ -912,7 +967,11 @@
     ],
     "notes": "Named in [0003] as one of the triketone-structure HPPD herbicides developed so far. 双环磺草酮 is the standard Chinese common name for benzobicyclon and resolves; the EN line agrees. chemical_family:triketone is taken from the sentence's own 三酮结构 classification. Marketed herbicide that no step of this patent prepares, so commercially_available is true.",
     "id": "CN109678767A_benzobicyclon",
-    "compound_uuid": "03bfd80d-865e-5561-b66b-cd50c112d9a3"
+    "compound_uuid": "03bfd80d-865e-5561-b66b-cd50c112d9a3",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)C2=C(Sc3ccccc3)C3CCC(C3)C2=O)c(Cl)c1",
+    "smiles_source": "pubchem",
+    "molecular_formula": "C22H19ClO4S2",
+    "molecular_weight": 446.98
   },
   {
     "patent_id": "CN109678767A",
@@ -949,7 +1008,11 @@
     ],
     "notes": "Named in [0004] as the 安全剂 (safener) 双苯噁唑酸(isoxadifen) added to the tembotrione product registered in Austria in 2007. The patent prints the English name itself, so the resolution needs no inference. compound_class is other rather than active_ingredient because the section describes it as a safener and not as a herbicidal active. No structure is given in the section, so no chemical_family or functional_group tags are emitted. Laudis, the trade name given in the same sentence, is a formulated product and not a compound, so it gets no record. Marketed product that no step of this patent prepares, so commercially_available is true.",
     "id": "CN109678767A_isoxadifen",
-    "compound_uuid": "f3741c04-c887-5c21-b4f3-c4236348ba90"
+    "compound_uuid": "f3741c04-c887-5c21-b4f3-c4236348ba90",
+    "smiles": "O=C(O)C1=NOC(c2ccccc2)(c2ccccc2)C1",
+    "smiles_source": "pubchem",
+    "molecular_formula": "C16H13NO3",
+    "molecular_weight": 267.28
   },
   {
     "patent_id": "CN109678767A",
@@ -986,7 +1049,11 @@
     ],
     "notes": "Named in [0004] as 噻酮磺隆(thiencarbazone), the herbicide co-formulated with tembotrione in the product launched in the United States in 2010. The patent prints the English name itself, so the resolution needs no inference. Capreno, the trade name given in the same sentence, is a formulated product and not a compound, so it gets no record. No structure is given in the section, and the Chinese suffix 磺隆 alone is not a safe basis for a scaffold tag, so no chemical_family tag is emitted. Marketed herbicide that no step of this patent prepares, so commercially_available is true.",
     "id": "CN109678767A_thiencarbazone",
-    "compound_uuid": "9fbf136e-d254-54f8-b5cf-7750af6c9519"
+    "compound_uuid": "9fbf136e-d254-54f8-b5cf-7750af6c9519",
+    "smiles": "COc1nn(C(=O)NS(=O)(=O)c2c(C(=O)O)csc2C)c(=O)n1C",
+    "smiles_source": "pubchem",
+    "molecular_formula": "C11H12N4O7S2",
+    "molecular_weight": 376.37
   },
   {
     "patent_id": "CN109678767A",
@@ -1025,7 +1092,11 @@
     ],
     "notes": "Named in [0005] as the 起始原料 (starting material) of the tembotrione process of Bayer's CN1323292A. 2,6-二氯甲苯 is unambiguous and resolves. The route is prior art discussed in the background and is not a step of this invention. Bulk commodity that no step of this patent prepares, so commercially_available is true.",
     "id": "CN109678767A_2,6-dichlorotoluene",
-    "compound_uuid": "654c9020-101d-54f1-804e-5fc3237347cf"
+    "compound_uuid": "654c9020-101d-54f1-804e-5fc3237347cf",
+    "smiles": "Cc1c(Cl)cccc1Cl",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C7H6Cl2",
+    "molecular_weight": 161.03
   },
   {
     "patent_id": "CN109678767A",
@@ -1064,7 +1135,11 @@
     ],
     "notes": "Merged from [0005] and [0006], where it is the 溴化剂 (brominating agent) of the Bayer and Heilongjiang University routes. The section prints the Latin-script abbreviation NBS and never spells the name out, so the identifier keeps the printed form, identifier_type is abbreviation, and the expansion is carried in aliases only. The abbreviation identifies one specific compound, so resolved is true. The section criticises it for producing 大量固废 (a large amount of solid waste) and, in [0006], for being 昂贵 (expensive). Bulk commodity reagent that no step of this patent prepares, so commercially_available is true.",
     "id": "CN109678767A_NBS",
-    "compound_uuid": "4a5d5189-83a3-5ca3-8254-c1832b81b754"
+    "compound_uuid": "4a5d5189-83a3-5ca3-8254-c1832b81b754",
+    "smiles": "O=C1CCC(=O)N1Br",
+    "smiles_source": "known+opsin+pubchem",
+    "molecular_formula": "C4H4BrNO2",
+    "molecular_weight": 177.99
   },
   {
     "patent_id": "CN109678767A",
@@ -1104,7 +1179,11 @@
     ],
     "notes": "Named in [0006] as the 起始原料 (starting material) of the tembotrione process of Heilongjiang University's CN105601548A. 3-氯-2-甲基苯胺 is unambiguous and resolves. The route is prior art discussed in the background and is not a step of this invention. Bulk commodity that no step of this patent prepares, so commercially_available is true.",
     "id": "CN109678767A_3-chloro-2-methylaniline",
-    "compound_uuid": "2b1cc933-f27f-5c3b-90ab-6bb91be6fa58"
+    "compound_uuid": "2b1cc933-f27f-5c3b-90ab-6bb91be6fa58",
+    "smiles": "Cc1c(N)cccc1Cl",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C7H8ClN",
+    "molecular_weight": 141.6
   },
   {
     "patent_id": "CN109678767A",
@@ -1143,7 +1222,11 @@
     ],
     "notes": "Named in [0007] as the 起始原料 (starting material) of the tembotrione process of Wuhan Institute of Technology's CN104292137A. 2-氯甲苯 is unambiguous and resolves. The route is prior art discussed in the background and is not a step of this invention. Bulk commodity that no step of this patent prepares, so commercially_available is true.",
     "id": "CN109678767A_2-chlorotoluene",
-    "compound_uuid": "e466c2fa-9ba1-5603-a53e-58d8718940e6"
+    "compound_uuid": "e466c2fa-9ba1-5603-a53e-58d8718940e6",
+    "smiles": "Cc1ccccc1Cl",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C7H7Cl",
+    "molecular_weight": 126.59
   },
   {
     "patent_id": "CN109678767A",
@@ -1154,8 +1237,8 @@
     ],
     "resolved": true,
     "unresolved_reference": false,
-    "section_label": "Concluding Comparison",
-    "section_type": "beneficial_effects",
+    "section_label": "Background",
+    "section_type": "background",
     "is_section_product": false,
     "commercially_available": true,
     "role": "reagent",
@@ -1180,9 +1263,13 @@
       "hazard:corrosive",
       "hazard:toxic"
     ],
-    "notes": "FIX C-003 (2026-09-01, annotator direction): comparative charge 8.8g(0.055mol) from L298 filled into quantity; verified verbatim against the patent. Merged from [0007] and [0009], where it is the 溴化剂 (brominating agent) of the CN104292137A route and of the 《农药》 route, described in both as 危险性较大 (comparatively hazardous). 溴素 is the industrial Chinese term for elemental bromine and resolves; the EN line reads it the same way. The hazard tags follow the section's own hazard statement. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. | Added dropwise at reflux and held 4 h. No radical initiator is named for this benzylic bromination. | Named in [0090] as the brominating agent that 氢溴酸 replaces, so it belongs to the superseded route and not to this process. 溴素 is the standard Chinese term for elemental bromine and resolves unambiguously. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. Hazard tags follow the standing rule for bromine.",
+    "notes": "FIX C-003 (2026-09-01, annotator direction): comparative charge 8.8g(0.055mol) from L298 filled into quantity; verified verbatim against the patent. Merged from [0007] and [0009], where it is the 溴化剂 (brominating agent) of the CN104292137A route and of the 《农药》 route, described in both as 危险性较大 (comparatively hazardous). 溴素 is the industrial Chinese term for elemental bromine and resolves; the EN line reads it the same way. The hazard tags follow the section's own hazard statement. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. | Added dropwise at reflux and held 4 h. No radical initiator is named for this benzylic bromination. | Named in [0090] as the brominating agent that 氢溴酸 replaces, so it belongs to the superseded route and not to this process. 溴素 is the standard Chinese term for elemental bromine and resolves unambiguously. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. Hazard tags follow the standing rule for bromine. PROMPT-8 FINAL CHECK (2026-09-01): section anchor corrected to Background/background: this record's own merged fragments come from [0007]/[0009] (background art), which precede the concluding paragraph [0090] in document order, and the file's merge rule anchors a record at the first section in document order; the prior-art brominating and alkoxide reagents NBS and sodium 2,2,2-trifluoroethoxide, the like-for-like siblings, are anchored the same way. The comparative-example charge kept in quantity is unaffected.",
     "id": "CN109678767A_bromine",
-    "compound_uuid": "bd3f5093-b291-5fb0-90f1-5b58e19edb9c"
+    "compound_uuid": "bd3f5093-b291-5fb0-90f1-5b58e19edb9c",
+    "smiles": "BrBr",
+    "smiles_source": "known",
+    "molecular_formula": "Br2",
+    "molecular_weight": 159.81
   },
   {
     "patent_id": "CN109678767A",
@@ -1221,7 +1308,11 @@
     ],
     "notes": "Merged from [0007] and [0008], where in both cases it is the material used to prepare 2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid. 2,2,2-三氟乙醇钠 is unambiguous and resolves. commercially_available is false on the section's own statement 目前无法大规模生产，买不到原料 (cannot at present be produced on a large scale, the raw material cannot be bought), which is the one case in this section where the text itself denies availability. The section calls it 原料 (raw material) and does not state its chemical function, so role follows the text. It is a different compound from 甲醇钠 (sodium methoxide) in [0009], and the two are kept as separate records.",
     "id": "CN109678767A_sodium 2,2,2-trifluoroethoxide",
-    "compound_uuid": "7e428444-c9ca-527a-b0e6-14dffac2eddd"
+    "compound_uuid": "7e428444-c9ca-527a-b0e6-14dffac2eddd",
+    "smiles": "[Na+].[O-]CC(F)(F)F",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H2F3NaO",
+    "molecular_weight": 122.02
   },
   {
     "patent_id": "CN109678767A",
@@ -1260,7 +1351,11 @@
     ],
     "notes": "Named in [0007] as the material used when preparing tembotrione in the CN104292137A route, criticised there as 价格过于昂贵 (too expensive). 氰基丙酮 reads literally as cyanoacetone and is translated exactly as printed; it is deliberately not read as 丙酮氰醇 (acetone cyanohydrin), a different compound whose Chinese name differs from this one by transposition. The EN line also reads cyanoacetone, so the Chinese and the English agree and there is no internal conflict to record. Functional group tags are taken from the printed name. No hazard tag is emitted because the section's complaint is price and it makes no hazard statement about this compound. commercially_available is true: the section's complaint about its price implies it is bought, and no step of this patent prepares it.",
     "id": "CN109678767A_cyanoacetone",
-    "compound_uuid": "389093f4-7fd6-57fb-9e61-df20a232665b"
+    "compound_uuid": "389093f4-7fd6-57fb-9e61-df20a232665b",
+    "smiles": "CC(=O)CC#N",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C4H5NO",
+    "molecular_weight": 83.09
   },
   {
     "patent_id": "CN109678767A",
@@ -1304,7 +1399,11 @@
     ],
     "notes": "Named in [0007] as the 中间态 (intermediate) that the CN104292137A route isolates and works up separately, which the section criticises for making the process cumbersome. The name is fully written out and resolves; the Chinese writes the ester in the Chinese acid-first order (酸...酯) and the identifier gives the standard English ester-first form. role is product because the section describes it as isolated. It is prepared by the route the section describes rather than bought, so commercially_available is false.",
     "id": "CN109678767A_3-oxo-1-cyclohexen-1-yl 2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfony_b803b8bc",
-    "compound_uuid": "75cf23ff-baad-5d98-93d3-e2862580f55a"
+    "compound_uuid": "75cf23ff-baad-5d98-93d3-e2862580f55a",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "smiles_source": "opsin",
+    "molecular_formula": "C17H16ClF3O6S",
+    "molecular_weight": 440.82
   },
   {
     "patent_id": "CN109678767A",
@@ -1315,8 +1414,8 @@
     ],
     "resolved": true,
     "unresolved_reference": false,
-    "section_label": "Concluding Comparison",
-    "section_type": "beneficial_effects",
+    "section_label": "Background",
+    "section_type": "background",
     "is_section_product": false,
     "commercially_available": true,
     "role": "base",
@@ -1346,9 +1445,13 @@
       "compound_class:base",
       "hazard:corrosive"
     ],
-    "notes": "FIX C-004 (2026-09-01): comparative charge 5.4g(0.1mol) from L305 filled in; verified. Named in [0009] as the 原料 (raw material) used to prepare 2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid in the 《农药》 route. 甲醇钠 is unambiguous and resolves. role follows the text, which calls it 原料 and does not state its chemical function, rather than the identity of sodium methoxide as a base. The hazard tags follow the section's own warning 易燃、易爆、对空气与湿气敏感 (flammable, explosive, sensitive to air and moisture); 对空气与湿气敏感 does not map onto any allowed hazard value and so adds no tag. It is a different compound from 2,2,2-三氟乙醇钠 (sodium 2,2,2-trifluoroethoxide) in [0007] and [0008], and the two are kept as separate records. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. | Named in [0034] as the 原料 this process does not use, because it is 易燃、易爆、易潮解 (flammable, explosive, readily deliquescent). hazard:flammable and hazard:explosive come from that sentence; 易潮解 (deliquescent) has no value in the hazard tag set and is recorded here only. role is reactant because the text names it 原料. Advantage 4 names no compound that takes its place. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. | Charged into DMF and cooled to 15 degrees C before the trifluoroethanol is added dropwise, so recorded as the base that generates the alkoxide rather than as a reactant. | Named in [0090] as one of the 危险化学品 this process avoids using, so it belongs to the compared route and not to this one. The paragraph states no function for it; role and compound_class are assigned from its identity as a strong alkoxide base. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. hazard:corrosive is supported by the paragraph calling it a 危险化学品 and by the chemistry of sodium methoxide; no further hazard value is emitted because the text supports none.",
+    "notes": "FIX C-004 (2026-09-01): comparative charge 5.4g(0.1mol) from L305 filled in; verified. Named in [0009] as the 原料 (raw material) used to prepare 2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid in the 《农药》 route. 甲醇钠 is unambiguous and resolves. role follows the text, which calls it 原料 and does not state its chemical function, rather than the identity of sodium methoxide as a base. The hazard tags follow the section's own warning 易燃、易爆、对空气与湿气敏感 (flammable, explosive, sensitive to air and moisture); 对空气与湿气敏感 does not map onto any allowed hazard value and so adds no tag. It is a different compound from 2,2,2-三氟乙醇钠 (sodium 2,2,2-trifluoroethoxide) in [0007] and [0008], and the two are kept as separate records. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. | Named in [0034] as the 原料 this process does not use, because it is 易燃、易爆、易潮解 (flammable, explosive, readily deliquescent). hazard:flammable and hazard:explosive come from that sentence; 易潮解 (deliquescent) has no value in the hazard tag set and is recorded here only. role is reactant because the text names it 原料. Advantage 4 names no compound that takes its place. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. | Charged into DMF and cooled to 15 degrees C before the trifluoroethanol is added dropwise, so recorded as the base that generates the alkoxide rather than as a reactant. | Named in [0090] as one of the 危险化学品 this process avoids using, so it belongs to the compared route and not to this one. The paragraph states no function for it; role and compound_class are assigned from its identity as a strong alkoxide base. Bulk commodity reagent that no step of this patent prepares, so commercially_available is true. hazard:corrosive is supported by the paragraph calling it a 危险化学品 and by the chemistry of sodium methoxide; no further hazard value is emitted because the text supports none. PROMPT-8 FINAL CHECK (2026-09-01): section anchor corrected to Background/background: this record's own merged fragments come from [0007]/[0009] (background art), which precede the concluding paragraph [0090] in document order, and the file's merge rule anchors a record at the first section in document order; the prior-art brominating and alkoxide reagents NBS and sodium 2,2,2-trifluoroethoxide, the like-for-like siblings, are anchored the same way. The comparative-example charge kept in quantity is unaffected.",
     "id": "CN109678767A_sodium methoxide",
-    "compound_uuid": "77e211f8-a9e8-522a-92c1-c38abcb133b6"
+    "compound_uuid": "77e211f8-a9e8-522a-92c1-c38abcb133b6",
+    "smiles": "C[O-].[Na+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CH3NaO",
+    "molecular_weight": 54.02
   },
   {
     "patent_id": "CN109678767A",
@@ -1388,7 +1491,11 @@
     ],
     "notes": "Named in [0009] only inside the hazard description of sodium methoxide: 遇水迅速分解成甲醇和氢氧化钠 (decomposes rapidly on contact with water into methanol and sodium hydroxide). 甲醇 is unambiguous and resolves. role is by_product because the section names it as a decomposition product and not as the product of a synthesis step. No step of this patent prepares it and it is a bulk commodity, so commercially_available is true. The section makes no hazard statement about methanol itself, so no hazard tag is emitted. | 结晶溶剂 alternative, split out of the claim 4 list for step 1) and the identical claim 10 list for step 3); one merged record. Claim 1 names only the generic 溶剂 for both recrystallisations. | Recrystallisation solvent for tembotrione in step 3; no amount given. | Recrystallisation solvent for the final product in step 3. No amount given. | One of the four crystallisation solvents permitted by [0021] for step 1) and again by [0027] for step 3); one record for both. Prose only.",
     "id": "CN109678767A_methanol",
-    "compound_uuid": "95678832-34e4-5dd7-8623-92bdd714ecf4"
+    "compound_uuid": "95678832-34e4-5dd7-8623-92bdd714ecf4",
+    "smiles": "CO",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CH4O",
+    "molecular_weight": 32.04
   },
   {
     "patent_id": "CN109678767A",
@@ -1427,7 +1534,7 @@
       "compound_class:base",
       "hazard:corrosive"
     ],
-    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. Named in [0009] only inside the hazard description of sodium methoxide: 遇水迅速分解成甲醇和氢氧化钠 (decomposes rapidly on contact with water into methanol and sodium hydroxide). 氢氧化钠 is unambiguous and resolves. role is by_product because the section names it as a decomposition product and not as a base used in any step, so compound_class follows the role rather than the identity. No step of this patent prepares it and it is a bulk commodity, so commercially_available is true. | 碱2 alternative for the step 2) alkaline hydrolysis, split out of the claim 6 list. | Charged as 40 mL of a 10％ solution to hydrolyse the ester; the recorded volume is the volume of the solution as printed, not of sodium hydroxide, and no mass or mole count is given. The stated 10％ is a solution strength rather than a purity, so purity_pct is left null. The section prints only the formula NaOH and never the Chinese name. | Charged with 200 ml water to hydrolyse the step 2 ester at 70 to 75 degrees C. | Charged into the concentrated filtrate with 200 ml water to hydrolyse the methyl ester in the second half of step 2. | Charged with 200 ml water to hydrolyse the ester intermediate at 70 to 75 degrees C in step 2. | Charged into the concentrated residue with 200 ml of water for the alkaline hydrolysis of the methyl ester at 70 to 75 degrees C. | One of the three bases permitted as 碱2 for the alkaline hydrolysis of step 2) by [0023]. The label 碱2 is kept as its own unresolved record. Prose only.",
+    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. Named in [0009] only inside the hazard description of sodium methoxide: 遇水迅速分解成甲醇和氢氧化钠 (decomposes rapidly on contact with water into methanol and sodium hydroxide). 氢氧化钠 is unambiguous and resolves. role is by_product because the section names it as a decomposition product and not as a base used in any step, so compound_class follows the role rather than the identity. No step of this patent prepares it and it is a bulk commodity, so commercially_available is true. | 碱2 alternative for the step 2) alkaline hydrolysis, split out of the claim 6 list. | Charged as 40 mL of a 10％ solution to hydrolyse the ester; the recorded volume is the volume of the solution as printed, not of sodium hydroxide, and no mass or mole count is given. The stated 10％ is a solution strength rather than a purity, so purity_pct is left null. The section prints only the formula NaOH and never the Chinese name. | Charged with 200 ml water to hydrolyse the step 2 ester at 70 to 75 degrees C. | Charged into the concentrated filtrate with 200 ml water to hydrolyse the methyl ester in the second half of step 2. | Charged with 200 ml water to hydrolyse the ester intermediate at 70 to 75 degrees C in step 2. | Charged into the concentrated residue with 200 ml of water for the alkaline hydrolysis of the methyl ester at 70 to 75 degrees C. | One of the three bases permitted as 碱2 for the alkaline hydrolysis of step 2) by [0023]. The label 碱2 is kept as its own unresolved record. Prose only. BLIND-REVIEW FIX (2026-09-01, prompt-8 adversarial pass): the Comparative batch entry now carries purity_pct 10.0, the printed strength of the 10％NaOH溶液 (L305), mirroring how the hydrobromic acid and hydrogen peroxide entries carry their printed aqueous strengths (48％, 30％) in the same slot; the solution strength is the same kind of fact regardless of whether the patent prints it in the parenthetical assay slot or inline.",
     "id": "CN109678767A_sodium hydroxide",
     "compound_uuid": "7d1b33aa-6618-5401-84a1-120b77b5be36",
     "quantities_by_section": [
@@ -1462,9 +1569,14 @@
       {
         "section_label": "Comparative Example",
         "source_line": 305,
-        "volume_ml": 40
+        "volume_ml": 40,
+        "purity_pct": 10.0
       }
-    ]
+    ],
+    "smiles": "[Na+].[OH-]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "HNaO",
+    "molecular_weight": 40.0
   },
   {
     "patent_id": "CN109678767A",
@@ -1475,7 +1587,7 @@
     ],
     "resolved": true,
     "unresolved_reference": false,
-    "section_label": "Abstract",
+    "section_label": "Summary of the Invention",
     "section_type": "summary_of_invention",
     "is_section_product": false,
     "commercially_available": true,
@@ -1502,7 +1614,7 @@
       "compound_class:solvent",
       "merged:duplicates-2026-09-01"
     ],
-    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. MERGED (2026-09-01, annotator direction): duplicate section records for one substance folded into this record; absorbed: 水 [Abstract, id=CN109678767A_水, uuid=e5a7204f-245b-54a9-8256-a7058c191d45]. section_label takes the first section in document order across the group; the structured quantity/purity/appearance are the single batch this record already carried, and every other batch remains in the per-section note fragments below. Role set to solvent; the absorbed records carried {'water': 'other', '水': 'solvent'}. [from water / Abstract] Named in [0009] only inside the hazard description of sodium methoxide, as 遇水 (on contact with water). It is extracted because the section names it as a chemical species, and role is other because no step described in this section uses it as a solvent, wash or reagent. The same sentence also says 对空气与湿气敏感 (sensitive to air and moisture): 湿气 is the same species in vapour form and gets no separate record, and 空气 (air) is a mixture rather than a compound and gets no record at all. | Merged from every mention in the section: 有机层水洗 in steps 1) and 2), 加入水进行水洗 in step 3), and 往剩余物里加碱2、水 in step 2), where it is also the medium of the alkaline hydrolysis rather than a wash. | Charged at 150 mL into the concentrated filtrate before the acidification, so it is the precipitation medium of the step 3 workup. Named only in step 3. | Merged across all three steps: the step 1 organic layer is water washed, step 2 charges 200 ml as the alkaline hydrolysis medium alongside sodium hydroxide and later washes the filter cake, and step 3 adds water for the wash. Only the step 2 charge states a volume. | Merged across steps 1, 2 and 3. Charged as 200 ml with sodium hydroxide as the medium for the step 2 alkaline hydrolysis, and used as wash water in steps 1 and 3 with no amount stated; the only stated volume is kept. | Merged across steps 1, 2 and 3. Charged as 200 ml in step 2, where with sodium hydroxide it is the alkaline hydrolysis medium, and used as wash water in steps 1 and 3 with no amount given; the stated volume is kept. | Merged across all three steps. Charged as 200 ml alongside sodium hydroxide for the step 2 alkaline hydrolysis, which is the only stated volume, and used as wash water for the organic layer in step 1 and for the step 3 workup. | Merged: the 水洗 (water wash) of the organic layer in steps 1) [0014] and 2) [0016], the water charged with 碱2 for the 碱解 (alkaline hydrolysis) of step 2) [0016], and the 加入水进行水洗 of step 3) [0018]. Role is left as other because the section uses it both as the medium of the hydrolysis and as a wash. No quantity is given anywhere in this section. 水 is unambiguous and is resolved to water, with the Chinese kept as an alias. || [from 水 / Abstract] Merged from every appearance in the section: the 水洗 washes in steps 1), 2) and 3), and the explicit charge 加入碱2、水 in the second half of step 2). Extracted because a compound used as a wash is still a compound. The identifier is kept as the printed 水 with the English as an alias. role is solvent as the medium common to all four appearances; compound_class is workup_agent because the dominant use in this abstract is washing, following the brine and drying agent mapping in the tagging rules. No role beyond medium is asserted for the 加入碱2、水 charge, because the abstract does not state what water does there.",
+    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. MERGED (2026-09-01, annotator direction): duplicate section records for one substance folded into this record; absorbed: 水 [Abstract, id=CN109678767A_水, uuid=e5a7204f-245b-54a9-8256-a7058c191d45]. section_label takes the first section in document order across the group; the structured quantity/purity/appearance are the single batch this record already carried, and every other batch remains in the per-section note fragments below. Role set to solvent; the absorbed records carried {'water': 'other', '水': 'solvent'}. [from water / Abstract] Named in [0009] only inside the hazard description of sodium methoxide, as 遇水 (on contact with water). It is extracted because the section names it as a chemical species, and role is other because no step described in this section uses it as a solvent, wash or reagent. The same sentence also says 对空气与湿气敏感 (sensitive to air and moisture): 湿气 is the same species in vapour form and gets no separate record, and 空气 (air) is a mixture rather than a compound and gets no record at all. | Merged from every mention in the section: 有机层水洗 in steps 1) and 2), 加入水进行水洗 in step 3), and 往剩余物里加碱2、水 in step 2), where it is also the medium of the alkaline hydrolysis rather than a wash. | Charged at 150 mL into the concentrated filtrate before the acidification, so it is the precipitation medium of the step 3 workup. Named only in step 3. | Merged across all three steps: the step 1 organic layer is water washed, step 2 charges 200 ml as the alkaline hydrolysis medium alongside sodium hydroxide and later washes the filter cake, and step 3 adds water for the wash. Only the step 2 charge states a volume. | Merged across steps 1, 2 and 3. Charged as 200 ml with sodium hydroxide as the medium for the step 2 alkaline hydrolysis, and used as wash water in steps 1 and 3 with no amount stated; the only stated volume is kept. | Merged across steps 1, 2 and 3. Charged as 200 ml in step 2, where with sodium hydroxide it is the alkaline hydrolysis medium, and used as wash water in steps 1 and 3 with no amount given; the stated volume is kept. | Merged across all three steps. Charged as 200 ml alongside sodium hydroxide for the step 2 alkaline hydrolysis, which is the only stated volume, and used as wash water for the organic layer in step 1 and for the step 3 workup. | Merged: the 水洗 (water wash) of the organic layer in steps 1) [0014] and 2) [0016], the water charged with 碱2 for the 碱解 (alkaline hydrolysis) of step 2) [0016], and the 加入水进行水洗 of step 3) [0018]. Role is left as other because the section uses it both as the medium of the hydrolysis and as a wash. No quantity is given anywhere in this section. 水 is unambiguous and is resolved to water, with the Chinese kept as an alias. || [from 水 / Abstract] Merged from every appearance in the section: the 水洗 washes in steps 1), 2) and 3), and the explicit charge 加入碱2、水 in the second half of step 2). Extracted because a compound used as a wash is still a compound. The identifier is kept as the printed 水 with the English as an alias. role is solvent as the medium common to all four appearances; compound_class is workup_agent because the dominant use in this abstract is washing, following the brine and drying agent mapping in the tagging rules. No role beyond medium is asserted for the 加入碱2、水 charge, because the abstract does not state what water does there. BLIND-REVIEW FIX (2026-09-01, prompt-8 adversarial pass): section anchor corrected Abstract/summary_of_invention -> Summary of the Invention/summary_of_invention: hydrobromic acid, hydrogen peroxide, trifluoroethanol, thionyl chloride, triethylamine and acetone cyanohydrin, first named in the same abstract sentence (L40), are all anchored at Summary of the Invention; the Abstract label was the only one in the file and already carried the summary type.",
     "id": "CN109678767A_water",
     "compound_uuid": "186b9995-167f-5fa9-b763-bfae3697a19e",
     "quantities_by_section": [
@@ -1531,7 +1643,11 @@
         "source_line": 312,
         "volume_ml": 150
       }
-    ]
+    ],
+    "smiles": "O",
+    "smiles_source": "known+opsin+pubchem",
+    "molecular_formula": "H2O",
+    "molecular_weight": 18.02
   },
   {
     "patent_id": "CN109678767A",
@@ -1572,7 +1688,11 @@
     ],
     "notes": "FIX C-005 (2026-09-01): comparative charge 150ml from L312 filled in; verified. Named in [0009] as what the 《农药》 route uses in the synthesis of tembotrione. 乙腈 is unambiguous and resolves. The section says only 使用了乙腈 and does not name its function, so role is taken from the identity of acetonitrile as a reaction solvent rather than from an explicit statement. hazard:toxic follows the section's own 管制类中等毒性化学品 (controlled, moderately toxic chemical) and 慢性中毒事故 (chronic poisoning accidents); the other complaint, 极易挥发 (extremely volatile), does not map onto any allowed hazard value, so no further hazard tag is emitted. Bulk commodity solvent that no step of this patent prepares, so commercially_available is true. | Named in [0033] as the chemical DMF replaces, and the same sentence calls the replaced half 高毒化学品 (high-toxicity chemical), which is what hazard:toxic records. role is solvent because 乙腈 is named as a 溶剂 everywhere else in this document and never in any other function. Two internal inconsistencies are recorded rather than fixed: [0033] presents 乙腈 as replaced, while [0024] still lists it as an acceptable step 2) solvent for this invention; and [0009] calls 乙腈 中等毒性 (moderate toxicity) where [0033] calls the replaced chemical 高毒 (high toxicity). Bulk commodity solvent that no step of this patent prepares, so commercially_available is true. | Step 2) 溶剂 alternative, split out of the claim 7 list. | Charged at 150 mL to dissolve the residue once the dichloromethane and the excess thionyl chloride are off. | Named in [0090] as one of the 危险化学品 this process avoids using, so it belongs to the compared route and not to this one. The paragraph states no function for it; role and compound_class are assigned from its identity as a common reaction solvent. Bulk commodity solvent that no step of this patent prepares, so commercially_available is true. The hazard tags are supported by the paragraph calling it a 危险化学品 and by the standard flammability and toxicity of acetonitrile. | One of the four solvents permitted for step 2) by [0024]. Prose only.",
     "id": "CN109678767A_acetonitrile",
-    "compound_uuid": "9b055783-4b52-583d-bc17-da5d2aab6a5d"
+    "compound_uuid": "9b055783-4b52-583d-bc17-da5d2aab6a5d",
+    "smiles": "CC#N",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H3N",
+    "molecular_weight": 41.05
   },
   {
     "patent_id": "CN109678767A",
@@ -1590,9 +1710,9 @@
     "commercially_available": true,
     "role": "catalyst",
     "quantity": {
-      "mass_g": 0.074,
+      "mass_g": 0.74,
       "volume_ml": null,
-      "mmol": 1.0,
+      "mmol": 10.0,
       "equivalents": null,
       "yield_pct": null
     },
@@ -1610,7 +1730,7 @@
       "compound_class:catalyst",
       "chemical_family:amide"
     ],
-    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. Printed in [0033] as the Latin-letter abbreviation DMF and kept in the form the text uses. The sentence 使用DMF代替乙腈 states only that DMF replaces 乙腈 in the tembotrione synthesis and never names DMF's function, and the document uses DMF in two different functions elsewhere, as a step 2) solvent option and as the step 3) catalyst, so role stays other and compound_class is skipped rather than guessed. No hazard tag: [0033] calls DMF the 低毒 (low-toxicity) half of the pair. Bulk commodity chemical that no step of this patent prepares, so commercially_available is true. | The source prints the Latin abbreviation DMF rather than a Chinese name, so the identifier is kept as written and the full name is carried as an alias. Charged at 0.074 g (0.001 mol) against a 0.1 mol substrate charge, i.e. catalytically, alongside thionyl chloride. | Two roles in one record per the merge rule: [0024] lists DMF as one of the four solvents permitted for step 2), and [0027] states 催化剂为DMF for step 3), where it is the catalyst charged with the acid and the thionyl chloride. Role is set to catalyst because that is the role the section names with the word 催化剂; the solvent use is recorded here rather than dropped. The section prints only the abbreviation DMF and never the Chinese full name, so the identifier is kept as written. Prose only.",
+    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. Printed in [0033] as the Latin-letter abbreviation DMF and kept in the form the text uses. The sentence 使用DMF代替乙腈 states only that DMF replaces 乙腈 in the tembotrione synthesis and never names DMF's function, and the document uses DMF in two different functions elsewhere, as a step 2) solvent option and as the step 3) catalyst, so role stays other and compound_class is skipped rather than guessed. No hazard tag: [0033] calls DMF the 低毒 (low-toxicity) half of the pair. Bulk commodity chemical that no step of this patent prepares, so commercially_available is true. | The source prints the Latin abbreviation DMF rather than a Chinese name, so the identifier is kept as written and the full name is carried as an alias. Charged at 0.074 g (0.001 mol) against a 0.1 mol substrate charge, i.e. catalytically, alongside thionyl chloride. | Two roles in one record per the merge rule: [0024] lists DMF as one of the four solvents permitted for step 2), and [0027] states 催化剂为DMF for step 3), where it is the catalyst charged with the acid and the thionyl chloride. Role is set to catalyst because that is the role the section names with the word 催化剂; the solvent use is recorded here rather than dropped. The section prints only the abbreviation DMF and never the Chinese full name, so the identifier is kept as written. Prose only. BLIND-REVIEW FIX (2026-09-01, prompt-8 adversarial pass): base quantity moved from the Example 3 batch (0.074g/0.001mol, L256) to the Example 4 batch (0.74g/0.01mol, L286): every other multi-batch record in this file holds the Example 4 batch in the base field by the stated convention, and this record was the lone deviation. All four batches remain in quantities_by_section.",
     "id": "CN109678767A_DMF",
     "compound_uuid": "f571d4bc-1d03-5ea4-b7c9-04286e205243",
     "quantities_by_section": [
@@ -1642,7 +1762,11 @@
         "mmol": 10,
         "purity_pct": 99
       }
-    ]
+    ],
+    "smiles": "CN(C)C=O",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C3H7NO",
+    "molecular_weight": 73.09
   },
   {
     "patent_id": "CN109678767A",
@@ -1682,7 +1806,11 @@
     ],
     "notes": "Added dropwise to acidify the step 2) hydrolysate before filtration. No concentration is stated. | Merged across steps 2 and 3, both acidifications. AS PRINTED: step 2 writes the formula HCL with a capital L, a misprint for HCl, kept verbatim in the aliases and not corrected. Step 3 prints 2mol/L盐酸 used to adjust to PH＝2, with PH for pH; a concentration with no volume, so every quantity field is null. Neither step states an amount. | Added dropwise to acidify the step 2 hydrolysate before filtration. No amount and no concentration are stated. | Added dropwise to acidify the step 2 hydrolysate before filtration. Neither an amount nor a solution strength is stated, and it is the only charge in this section printed without a quantity. | Added dropwise to acidify the step 2 hydrolysate before filtration. No amount or strength given. | Added dropwise to acidify the step 2 hydrolysis mixture and drop out the benzoic acid. No amount and no strength given. | Added dropwise in step 2) [0016] to acidify the hydrolysis mixture before filtration. No concentration and no quantity are given.",
     "id": "CN109678767A_hydrochloric acid",
-    "compound_uuid": "b92f58c1-6d63-5c4f-8498-721a2accc118"
+    "compound_uuid": "b92f58c1-6d63-5c4f-8498-721a2accc118",
+    "smiles": "Cl",
+    "smiles_source": "known+opsin+pubchem",
+    "molecular_formula": "HCl",
+    "molecular_weight": 36.46
   },
   {
     "patent_id": "CN109678767A",
@@ -1696,7 +1824,7 @@
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Summary of the Invention",
-    "section_type": "experimental_example",
+    "section_type": "summary_of_invention",
     "is_section_product": false,
     "commercially_available": true,
     "role": "reactant",
@@ -1722,7 +1850,7 @@
       "functional_group:ketone",
       "merged:duplicates-2026-09-01"
     ],
-    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. MERGED (2026-09-01, annotator direction): duplicate section records for one substance folded into this record; absorbed: 1,3-cyclohexanedione [Summary of the Invention, id=CN109678767A_1,3-cyclohexanedione, uuid=d24f0a57-dd06-5eeb-814a-4855fd6ec876]. section_label takes the first section in document order across the group; the structured quantity/purity/appearance are the single batch this record already carried, and every other batch remains in the per-section note fragments below. [from cyclohexane-1,3-dione / Summary of the Invention] Printed with its ring locants as 1,3-环己二酮, so the isomer is fixed by the text and no inference is needed. Supplies the cyclohexenyl ring of the product, hence role reactant. Merged from step 3) and claim 8, which puts it at 1-2 relative to the acid. | The Chinese prints the explicit 1,3- locant, so the isomer is fixed by the text and needs no inference from the stated mass and mole pair. | The section prints the locant itself as 1,3-环己二酮, so no isomer inference is needed. Supplies the dione ring of tembotrione. | The Chinese prints the locant itself as 1,3-环己二酮, so the dione is unambiguous and no inference from the mass and mole pair is needed. Charged with dichloromethane and acylated by the acid chloride made in the first half of step 3; supplies the cyclohexanedione ring of the final product. | The Chinese prints the locant itself as 1,3-环己二酮, so the dione is unambiguous and needs no inference. | The Chinese prints the locant itself as 1,3-环己二酮, so the dione is unambiguous and no inference from the charge is needed. Supplies the cyclohexanedione ring of the final product. || [from 1,3-cyclohexanedione / Summary of the Invention] Charged in the second half of step 3) with a solvent, before 三乙胺 is added dropwise. The abstract prints the ring locants itself (1,3-环己二酮), so the dione is fixed by the text and no inference from a mass and mole pair is needed; the bare form 环己二酮, which would be ambiguous, does not appear in this section. role is reactant because the dione ring is the second carbon fragment of the target. Bulk commodity material that no step of this patent prepares, so commercially_available is true. | Charged with solvent in the second stage of step 3) [0018]; [0025] puts it in the step 3 molar ratio at 1～2, a range, so quantity is left null. The section prints the locants itself as 1,3-环己二酮, so there is no ring-locant ambiguity to resolve. Drawn as a reactant of step 4 of the [IMAGE_EXTRACT] reaction scheme at line 152 (C6H8O2, InChIKey HJSLFCCWAKVHIW-UHFFFAOYSA-N); the drawn SMILES is kept as an alias.",
+    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. MERGED (2026-09-01, annotator direction): duplicate section records for one substance folded into this record; absorbed: 1,3-cyclohexanedione [Summary of the Invention, id=CN109678767A_1,3-cyclohexanedione, uuid=d24f0a57-dd06-5eeb-814a-4855fd6ec876]. section_label takes the first section in document order across the group; the structured quantity/purity/appearance are the single batch this record already carried, and every other batch remains in the per-section note fragments below. [from cyclohexane-1,3-dione / Summary of the Invention] Printed with its ring locants as 1,3-环己二酮, so the isomer is fixed by the text and no inference is needed. Supplies the cyclohexenyl ring of the product, hence role reactant. Merged from step 3) and claim 8, which puts it at 1-2 relative to the acid. | The Chinese prints the explicit 1,3- locant, so the isomer is fixed by the text and needs no inference from the stated mass and mole pair. | The section prints the locant itself as 1,3-环己二酮, so no isomer inference is needed. Supplies the dione ring of tembotrione. | The Chinese prints the locant itself as 1,3-环己二酮, so the dione is unambiguous and no inference from the mass and mole pair is needed. Charged with dichloromethane and acylated by the acid chloride made in the first half of step 3; supplies the cyclohexanedione ring of the final product. | The Chinese prints the locant itself as 1,3-环己二酮, so the dione is unambiguous and needs no inference. | The Chinese prints the locant itself as 1,3-环己二酮, so the dione is unambiguous and no inference from the charge is needed. Supplies the cyclohexanedione ring of the final product. || [from 1,3-cyclohexanedione / Summary of the Invention] Charged in the second half of step 3) with a solvent, before 三乙胺 is added dropwise. The abstract prints the ring locants itself (1,3-环己二酮), so the dione is fixed by the text and no inference from a mass and mole pair is needed; the bare form 环己二酮, which would be ambiguous, does not appear in this section. role is reactant because the dione ring is the second carbon fragment of the target. Bulk commodity material that no step of this patent prepares, so commercially_available is true. | Charged with solvent in the second stage of step 3) [0018]; [0025] puts it in the step 3 molar ratio at 1～2, a range, so quantity is left null. The section prints the locants itself as 1,3-环己二酮, so there is no ring-locant ambiguity to resolve. Drawn as a reactant of step 4 of the [IMAGE_EXTRACT] reaction scheme at line 152 (C6H8O2, InChIKey HJSLFCCWAKVHIW-UHFFFAOYSA-N); the drawn SMILES is kept as an alias. PROMPT-8 FINAL CHECK (2026-09-01): section_type corrected experimental_example->summary_of_invention to agree with section_label 'Summary of the Invention'; the duplicate-record merge moved the label to the first section in document order but left the surviving record's type behind, and every unmerged record in this file and both sibling golds pair label and type.",
     "id": "CN109678767A_cyclohexane-1,3-dione",
     "compound_uuid": "72241169-1a0a-54ab-9719-f387d5fb38eb",
     "quantities_by_section": [
@@ -1760,12 +1888,16 @@
         "mass_g": 13.44,
         "mmol": 120
       }
-    ]
+    ],
+    "smiles": "O=C1CCCC(=O)C1",
+    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "molecular_formula": "C6H8O2",
+    "molecular_weight": 112.13
   },
   {
     "patent_id": "CN109678767A",
     "identifier": "azobisisobutyronitrile",
-    "identifier_type": "iupac",
+    "identifier_type": "trivial_name",
     "aliases": [
       "偶氮二异丁腈",
       "AIBN",
@@ -1800,7 +1932,7 @@
       "functional_group:nitrile",
       "chemical_family:azo_nitrile"
     ],
-    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. First of the two step 1) 催化剂 alternatives enumerated in claim 3, split into one record each. The claim names it 催化剂, so role catalyst follows the text. | Charged at 1 g (0.006 mol) against the 0.152 mol substrate, i.e. the radical initiator for the benzylic bromination. | Radical initiator for the step 1 benzylic bromination, charged at 0.003 mol against a 0.152 mol substrate charge. Recorded as catalyst because it is charged sub-stoichiometrically, although an initiator is consumed rather than turned over. | Radical initiator for the step 1 benzylic bromination, charged at 0.01 mol against the 0.1 mol substrate charge, that is sub-stoichiometrically. Recorded as catalyst on that charge ratio; a radical initiator is consumed rather than turned over, so the role is the closest fit rather than an exact one. | One of the two catalysts permitted for step 1) by [0020], the other being 间氯过氧苯甲酸. Called 催化剂 in [0014] and [0019]; the placeholder 催化剂 is kept as its own unresolved record and is not resolved onto this member. Prose only: the [IMAGE_EXTRACT] reaction scheme at line 152 carries only the generic condition cat on its step 1.",
+    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. First of the two step 1) 催化剂 alternatives enumerated in claim 3, split into one record each. The claim names it 催化剂, so role catalyst follows the text. | Charged at 1 g (0.006 mol) against the 0.152 mol substrate, i.e. the radical initiator for the benzylic bromination. | Radical initiator for the step 1 benzylic bromination, charged at 0.003 mol against a 0.152 mol substrate charge. Recorded as catalyst because it is charged sub-stoichiometrically, although an initiator is consumed rather than turned over. | Radical initiator for the step 1 benzylic bromination, charged at 0.01 mol against the 0.1 mol substrate charge, that is sub-stoichiometrically. Recorded as catalyst on that charge ratio; a radical initiator is consumed rather than turned over, so the role is the closest fit rather than an exact one. | One of the two catalysts permitted for step 1) by [0020], the other being 间氯过氧苯甲酸. Called 催化剂 in [0014] and [0019]; the placeholder 催化剂 is kept as its own unresolved record and is not resolved onto this member. Prose only: the [IMAGE_EXTRACT] reaction scheme at line 152 carries only the generic condition cat on its step 1. PROMPT-8 FINAL CHECK (2026-09-01): identifier_type corrected iupac->trivial_name: the identifier is the common name, not the systematic one. Grounding: hydrochloric acid is trivial_name in this file and in both sibling golds (hydrobromic acid is the same kind of name); for the organics the record itself carries the true IUPAC name among the aliases, the pattern this file labels trivial_name on chloroform and acetone cyanohydrin, and the sibling gold labels tert-butanol trivial_name for the same reason.",
     "id": "CN109678767A_azobisisobutyronitrile",
     "compound_uuid": "7e5ab5b2-b926-5c07-a0a8-c25d73090423",
     "quantities_by_section": [
@@ -1825,7 +1957,11 @@
         "mmol": 10,
         "purity_pct": 99
       }
-    ]
+    ],
+    "smiles": "CC(C)(C#N)N=NC(C)(C)C#N",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C8H12N4",
+    "molecular_weight": 164.21
   },
   {
     "patent_id": "CN109678767A",
@@ -1886,7 +2022,11 @@
         "source_line": 312,
         "volume_ml": 200
       }
-    ]
+    ],
+    "smiles": "ClCCl",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CH2Cl2",
+    "molecular_weight": 84.93
   },
   {
     "patent_id": "CN109678767A",
@@ -1926,7 +2066,11 @@
     ],
     "notes": "Step 1) 反应溶剂 alternative, split out of the claim 4 list. Claim 1 names only the generic 溶剂 for this step. | The second reaction solvent permitted for step 1) by [0021]. The source prints it as 1 ,2-二氯乙烷, with a space between the locants; the string is kept verbatim as an alias and read as 1,2-dichloroethane, which is what the remaining characters name. Prose only.",
     "id": "CN109678767A_1,2-dichloroethane",
-    "compound_uuid": "0238fe35-4be6-51b3-8357-fd21da63254c"
+    "compound_uuid": "0238fe35-4be6-51b3-8357-fd21da63254c",
+    "smiles": "ClCCCl",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H4Cl2",
+    "molecular_weight": 98.96
   },
   {
     "patent_id": "CN109678767A",
@@ -1962,12 +2106,15 @@
     "tags": [
       "compound_class:solvent",
       "chemical_family:chloroalkane",
-      "functional_group:halide_chloro",
-      "hazard:toxic"
+      "functional_group:halide_chloro"
     ],
-    "notes": "Step 1) 反应溶剂 alternative, split out of the claim 4 list. Claim 1 names only the generic 溶剂 for this step. | Step 1 reaction solvent, charged as 200 ml. The charge is printed at the end of the line immediately before a page break and the rest of the step continues on the following page in the same paragraph. | The third reaction solvent permitted for step 1) by [0021]. Prose only.",
+    "notes": "Step 1) 反应溶剂 alternative, split out of the claim 4 list. Claim 1 names only the generic 溶剂 for this step. | Step 1 reaction solvent, charged as 200 ml. The charge is printed at the end of the line immediately before a page break and the rest of the step continues on the following page in the same paragraph. | The third reaction solvent permitted for step 1) by [0021]. Prose only. BLIND-REVIEW FIX (2026-09-01, prompt-8 adversarial pass): hazard:toxic removed: the patent states no hazard for chloroform, and the sibling chlorinated solvents dichloromethane and 1,2-dichloroethane carry no identity-derived hazard tag; hazard tags in this file follow the patent's own statements (bromine, sodium methoxide, acetonitrile) or a categorical rule (the cyanohydrin), neither of which covers chloroform.",
     "id": "CN109678767A_chloroform",
-    "compound_uuid": "495c3c9a-4bf7-5531-97ae-f88deb8b7e1d"
+    "compound_uuid": "495c3c9a-4bf7-5531-97ae-f88deb8b7e1d",
+    "smiles": "ClC(Cl)Cl",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CHCl3",
+    "molecular_weight": 119.38
   },
   {
     "patent_id": "CN109678767A",
@@ -2006,12 +2153,16 @@
     ],
     "notes": "FIX C-006 (2026-09-01): comparative charge 100mL from L305 filled in (the value was already stated in these notes but sat in prose only); verified. Its recrystallisation uses in Examples 2 and 4 carry no amounts, so nothing further is stored. 结晶溶剂 alternative, split out of the claim 4 list for step 1) and the identical claim 10 list for step 3); one merged record. Claim 1 names only the generic 溶剂 for both recrystallisations. | Charged at 100 mL after the DMF is distilled off, and is itself distilled off again after the hydrolysis. | Recrystallisation solvent. Merged across steps 1 and 3; no amount given in either. | Recrystallisation solvent. Merged across steps 1 and 3; no amount given in either. | One of the four crystallisation solvents permitted by [0021] for step 1) and again by [0027] for step 3); one record for both. Prose only.",
     "id": "CN109678767A_ethanol",
-    "compound_uuid": "dac1f028-4f40-5381-99ce-8af34af9e382"
+    "compound_uuid": "dac1f028-4f40-5381-99ce-8af34af9e382",
+    "smiles": "CCO",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H6O",
+    "molecular_weight": 46.07
   },
   {
     "patent_id": "CN109678767A",
     "identifier": "isopropanol",
-    "identifier_type": "iupac",
+    "identifier_type": "trivial_name",
     "aliases": [
       "异丙醇",
       "propan-2-ol"
@@ -2044,14 +2195,18 @@
       "functional_group:alcohol",
       "chemical_family:alcohol"
     ],
-    "notes": "结晶溶剂 alternative, split out of the claim 4 list for step 1) and the identical claim 10 list for step 3); one merged record. Claim 1 names only the generic 溶剂 for both recrystallisations. | Recrystallisation solvent for the step 1 product; no amount given. | Recrystallisation solvent for the step 1 product. No amount given. | One of the four crystallisation solvents permitted by [0021] for step 1) and again by [0027] for step 3); one record for both. Prose only.",
+    "notes": "结晶溶剂 alternative, split out of the claim 4 list for step 1) and the identical claim 10 list for step 3); one merged record. Claim 1 names only the generic 溶剂 for both recrystallisations. | Recrystallisation solvent for the step 1 product; no amount given. | Recrystallisation solvent for the step 1 product. No amount given. | One of the four crystallisation solvents permitted by [0021] for step 1) and again by [0027] for step 3); one record for both. Prose only. PROMPT-8 FINAL CHECK (2026-09-01): identifier_type corrected iupac->trivial_name: the identifier is the common name, not the systematic one. Grounding: hydrochloric acid is trivial_name in this file and in both sibling golds (hydrobromic acid is the same kind of name); for the organics the record itself carries the true IUPAC name among the aliases, the pattern this file labels trivial_name on chloroform and acetone cyanohydrin, and the sibling gold labels tert-butanol trivial_name for the same reason.",
     "id": "CN109678767A_isopropanol",
-    "compound_uuid": "4577f09b-5403-5876-a8a6-cbd00e551c4d"
+    "compound_uuid": "4577f09b-5403-5876-a8a6-cbd00e551c4d",
+    "smiles": "CC(C)O",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C3H8O",
+    "molecular_weight": 60.1
   },
   {
     "patent_id": "CN109678767A",
     "identifier": "n-butanol",
-    "identifier_type": "iupac",
+    "identifier_type": "trivial_name",
     "aliases": [
       "正丁醇",
       "butan-1-ol"
@@ -2081,11 +2236,16 @@
     "purity_method": null,
     "tags": [
       "compound_class:solvent",
-      "functional_group:alcohol"
+      "functional_group:alcohol",
+      "chemical_family:alcohol"
     ],
-    "notes": "结晶溶剂 alternative, split out of the claim 4 list for step 1) and the identical claim 10 list for step 3); one merged record. Claim 1 names only the generic 溶剂 for both recrystallisations. | One of the four crystallisation solvents permitted by [0021] for step 1) and again by [0027] for step 3); one record for both. Prose only.",
+    "notes": "结晶溶剂 alternative, split out of the claim 4 list for step 1) and the identical claim 10 list for step 3); one merged record. Claim 1 names only the generic 溶剂 for both recrystallisations. | One of the four crystallisation solvents permitted by [0021] for step 1) and again by [0027] for step 3); one record for both. Prose only. PROMPT-8 FINAL CHECK (2026-09-01): identifier_type corrected iupac->trivial_name: the identifier is the common name, not the systematic one. Grounding: hydrochloric acid is trivial_name in this file and in both sibling golds (hydrobromic acid is the same kind of name); for the organics the record itself carries the true IUPAC name among the aliases, the pattern this file labels trivial_name on chloroform and acetone cyanohydrin, and the sibling gold labels tert-butanol trivial_name for the same reason. BLIND-REVIEW FIX (2026-09-01, prompt-8 adversarial pass): chemical_family:alcohol added; methanol, ethanol and isopropanol, the sibling alcohols, all carry it.",
     "id": "CN109678767A_n-butanol",
-    "compound_uuid": "5264aab4-317c-5095-8aec-c1480f733135"
+    "compound_uuid": "5264aab4-317c-5095-8aec-c1480f733135",
+    "smiles": "CCCCO",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C4H10O",
+    "molecular_weight": 74.12
   },
   {
     "patent_id": "CN109678767A",
@@ -2153,12 +2313,16 @@
         "mmol": 200,
         "purity_pct": 99
       }
-    ]
+    ],
+    "smiles": "O=C([O-])[O-].[K+].[K+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CK2O3",
+    "molecular_weight": 138.2
   },
   {
     "patent_id": "CN109678767A",
     "identifier": "triethylenediamine",
-    "identifier_type": "iupac",
+    "identifier_type": "trivial_name",
     "aliases": [
       "三乙烯二胺",
       "1,4-diazabicyclo[2.2.2]octane",
@@ -2190,11 +2354,9 @@
     "tags": [
       "compound_class:catalyst",
       "functional_group:amine",
-      "chemical_family:diazabicycloalkane",
-      "chemical_family:diamine",
       "chemical_family:diazabicyclooctane"
     ],
-    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. FIX C-009 (2026-09-01): the stored batch is Example 4 (L279) and its printed mass and mole count CONTRADICT EACH OTHER: 2.26 g with 0.01 mol (2.26 g is about 0.02 mol). This is the patent's own misprint, kept exactly as printed per the never-repair rule and flagged molar_mass_inconsistent on the corresponding reaction record. A clean batch exists at 0.9 g / 0.0079 mol (Example 1, L188) and remains on its reaction record; the Example 4 batch is kept here for consistency with every other reagent record. First of the two step 2) 催化剂 alternatives enumerated in claim 6, split into one record each. 三乙烯二胺 is the common name of 1,4-diazabicyclo[2.2.2]octane (DABCO) and is resolved on that reading. The claim names it 催化剂, so role catalyst follows the text. | Charged at 0.9 g (0.0079 mol) against the 0.0869 mol substrate, i.e. catalytically. 三乙烯二胺 is the standard Chinese name for the bicyclic diamine also written DABCO, not for the linear triethylenetetramine; the printed name is kept. | 三乙烯二胺 is the bicyclic diamine 1,4-diazabicyclo[2.2.2]octane and not a linear polyamine; the literal English reading triethylenediamine is that compound's usual name and is kept as the identifier, with the bicyclic name as an alias. Charged at 0.008 mol against a 0.102 mol substrate charge, so recorded as catalyst rather than base, alongside the stoichiometric potassium carbonate. NUMBER CONFLICT: this is the one charge in the section whose three printed figures do not round together, since 1 g at 99% and 0.008 mol agree only if the mole figure is truncated rather than rounded. Left as printed. | Charged at 0.226 g (0.001 mol) against a 0.1 mol substrate charge, i.e. catalytically for the step 2 etherification. INTERNAL INCONSISTENCY: the printed mass and the printed mole count do not agree at the stated purity for the molecular weight of triethylenediamine. Recorded exactly as printed and not corrected. | Charged at 0.01 mol against the 0.1 mol bromide, that is sub-stoichiometrically, so recorded as catalyst. Secondary source conflict: at the molecular weight of triethylenediamine the printed mass is about double what the printed mole count gives. Both figures are recorded exactly as printed and neither is corrected. | One of the two catalysts permitted for step 2) by [0023], the other being 2-甲基三乙烯二胺. Called 催化剂 in [0016] and [0022]; the placeholder is kept unresolved as its own record. Prose only.",
+    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. FIX C-009 (2026-09-01): the stored batch is Example 4 (L279) and its printed mass and mole count CONTRADICT EACH OTHER: 2.26 g with 0.01 mol (2.26 g is about 0.02 mol). This is the patent's own misprint, kept exactly as printed per the never-repair rule and flagged molar_mass_inconsistent on the corresponding reaction record. A clean batch exists at 0.9 g / 0.0079 mol (Example 1, L188) and remains on its reaction record; the Example 4 batch is kept here for consistency with every other reagent record. First of the two step 2) 催化剂 alternatives enumerated in claim 6, split into one record each. 三乙烯二胺 is the common name of 1,4-diazabicyclo[2.2.2]octane (DABCO) and is resolved on that reading. The claim names it 催化剂, so role catalyst follows the text. | Charged at 0.9 g (0.0079 mol) against the 0.0869 mol substrate, i.e. catalytically. 三乙烯二胺 is the standard Chinese name for the bicyclic diamine also written DABCO, not for the linear triethylenetetramine; the printed name is kept. | 三乙烯二胺 is the bicyclic diamine 1,4-diazabicyclo[2.2.2]octane and not a linear polyamine; the literal English reading triethylenediamine is that compound's usual name and is kept as the identifier, with the bicyclic name as an alias. Charged at 0.008 mol against a 0.102 mol substrate charge, so recorded as catalyst rather than base, alongside the stoichiometric potassium carbonate. NUMBER CONFLICT: this is the one charge in the section whose three printed figures do not round together, since 1 g at 99% and 0.008 mol agree only if the mole figure is truncated rather than rounded. Left as printed. | Charged at 0.226 g (0.001 mol) against a 0.1 mol substrate charge, i.e. catalytically for the step 2 etherification. INTERNAL INCONSISTENCY: the printed mass and the printed mole count do not agree at the stated purity for the molecular weight of triethylenediamine. Recorded exactly as printed and not corrected. | Charged at 0.01 mol against the 0.1 mol bromide, that is sub-stoichiometrically, so recorded as catalyst. Secondary source conflict: at the molecular weight of triethylenediamine the printed mass is about double what the printed mole count gives. Both figures are recorded exactly as printed and neither is corrected. | One of the two catalysts permitted for step 2) by [0023], the other being 2-甲基三乙烯二胺. Called 催化剂 in [0016] and [0022]; the placeholder is kept unresolved as its own record. Prose only. PROMPT-8 FINAL CHECK (2026-09-01): identifier_type corrected iupac->trivial_name: the identifier is the common name, not the systematic one. Grounding: hydrochloric acid is trivial_name in this file and in both sibling golds (hydrobromic acid is the same kind of name); for the organics the record itself carries the true IUPAC name among the aliases, the pattern this file labels trivial_name on chloroform and acetone cyanohydrin, and the sibling gold labels tert-butanol trivial_name for the same reason. BLIND-REVIEW FIX (2026-09-01, prompt-8 adversarial pass): redundant chemical_family tags (diazabicycloalkane, diamine) pruned to the single diazabicyclooctane its twin 2-methyltriethylenediamine carries; the three were a merge union.",
     "id": "CN109678767A_triethylenediamine",
     "compound_uuid": "dce20588-a9ff-5ea7-b02d-b332f1ba8966",
     "quantities_by_section": [
@@ -2226,12 +2388,16 @@
         "mmol": 10,
         "purity_pct": 99
       }
-    ]
+    ],
+    "smiles": "C1CN2CCN1CC2",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C6H12N2",
+    "molecular_weight": 112.18
   },
   {
     "patent_id": "CN109678767A",
     "identifier": "2-methyltriethylenediamine",
-    "identifier_type": "iupac",
+    "identifier_type": "trivial_name",
     "aliases": [
       "2-甲基三乙烯二胺",
       "2-methyl-DABCO",
@@ -2265,9 +2431,13 @@
       "functional_group:amine",
       "chemical_family:diazabicyclooctane"
     ],
-    "notes": "Second of the two step 2) 催化剂 alternatives enumerated in claim 6, split into one record each. Read as the 2-methyl homologue of 三乙烯二胺, i.e. 2-methyl-1,4-diazabicyclo[2.2.2]octane. The claim names it 催化剂, so role catalyst follows the text. | The second catalyst permitted for step 2) by [0023], read as the 2-methyl derivative of 三乙烯二胺. Prose only.",
+    "notes": "Second of the two step 2) 催化剂 alternatives enumerated in claim 6, split into one record each. Read as the 2-methyl homologue of 三乙烯二胺, i.e. 2-methyl-1,4-diazabicyclo[2.2.2]octane. The claim names it 催化剂, so role catalyst follows the text. | The second catalyst permitted for step 2) by [0023], read as the 2-methyl derivative of 三乙烯二胺. Prose only. PROMPT-8 FINAL CHECK (2026-09-01): identifier_type corrected iupac->trivial_name: the identifier is the common name, not the systematic one. Grounding: hydrochloric acid is trivial_name in this file and in both sibling golds (hydrobromic acid is the same kind of name); for the organics the record itself carries the true IUPAC name among the aliases, the pattern this file labels trivial_name on chloroform and acetone cyanohydrin, and the sibling gold labels tert-butanol trivial_name for the same reason.",
     "id": "CN109678767A_2-methyltriethylenediamine",
-    "compound_uuid": "7e9dd6dd-47a0-5f7c-b640-700542ad77c6"
+    "compound_uuid": "7e9dd6dd-47a0-5f7c-b640-700542ad77c6",
+    "smiles": "CC1CN2CCN1CC2",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C7H14N2",
+    "molecular_weight": 126.2
   },
   {
     "patent_id": "CN109678767A",
@@ -2306,7 +2476,11 @@
     ],
     "notes": "碱2 alternative for the step 2) alkaline hydrolysis, split out of the claim 6 list. | One of the three bases permitted as 碱2 for the alkaline hydrolysis of step 2) by [0023]. The label 碱2 is kept as its own unresolved record. Prose only.",
     "id": "CN109678767A_potassium hydroxide",
-    "compound_uuid": "454448b1-2bb1-5a9c-ad4a-ed4d7268a2c0"
+    "compound_uuid": "454448b1-2bb1-5a9c-ad4a-ed4d7268a2c0",
+    "smiles": "[K+].[OH-]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "HKO",
+    "molecular_weight": 56.11
   },
   {
     "patent_id": "CN109678767A",
@@ -2345,7 +2519,11 @@
     ],
     "notes": "碱2 alternative for the step 2) alkaline hydrolysis, split out of the claim 6 list. | One of the three bases permitted as 碱2 for the alkaline hydrolysis of step 2) by [0023]. The label 碱2 is kept as its own unresolved record. Prose only.",
     "id": "CN109678767A_lithium hydroxide",
-    "compound_uuid": "82ca3b21-bd0b-57cb-9e75-5bbdcda4ba90"
+    "compound_uuid": "82ca3b21-bd0b-57cb-9e75-5bbdcda4ba90",
+    "smiles": "[Li+].[OH-]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "HLiO",
+    "molecular_weight": 23.95
   },
   {
     "patent_id": "CN109678767A",
@@ -2356,8 +2534,8 @@
     ],
     "resolved": true,
     "unresolved_reference": false,
-    "section_label": "Example 4",
-    "section_type": "experimental_example",
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
     "is_section_product": false,
     "commercially_available": true,
     "role": "solvent",
@@ -2378,12 +2556,11 @@
     "purity_pct": null,
     "purity_method": null,
     "tags": [
-      "compound_class:catalyst",
       "compound_class:solvent",
       "chemical_family:amide",
       "functional_group:amide"
     ],
-    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. FIX C-008 (2026-09-01): purity_pct set null. No DMF SOLVENT charge in the patent carries an assay (200ml DMF at L221/L279 and 120mLDMF at L305 are printed bare); the 99% assays belong to the DMF catalyst charges held on the twin record DMF. Merged from claim 7, where DMF is one of the four step 2) 溶剂 alternatives, and claim 10, where 催化剂为DMF names it the step 3) catalyst; role catalyst follows the explicit 催化剂 wording and the step 2) solvent use is recorded here. The section prints only the Latin abbreviation DMF, inside an otherwise Chinese list, and never the full name. | The section prints only the abbreviation DMF and never the Chinese or full name; resolved on the abbreviation. Printed as 120mLDMF, with no space between the volume and the name. Distilled off before the ethanol is charged. | The section prints only the abbreviation DMF, resolved to N,N-dimethylformamide. Charged at 0.2 g (0.0027 mol) against the 0.0788 mol acid, i.e. catalytically, alongside thionyl chloride. | Merged across steps 2 and 3, where its role differs. Step 2 charges 200 ml as the etherification solvent with no purity stated; step 3 charges 0.3 g (99%, 0.004 mol) catalytically alongside thionyl chloride. The step 3 charge is the more completely stated of the two and is kept here, so role and quantity describe that charge and the step 2 solvent use is recorded only in this note. The text writes the abbreviation DMF in both steps and never spells the name out. | Printed only as the Latin abbreviation DMF in both steps and resolved to the full name. Merged across steps 2 and 3: charged as 200 ml of step 2 reaction solvent and as 0.74 g (99％, 0.01 mol) of catalyst alongside thionyl chloride in step 3. The first stated charge is the one kept in quantity, so the second, catalytic role is recorded here rather than in role.",
+    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. FIX C-008 (2026-09-01): purity_pct set null. No DMF SOLVENT charge in the patent carries an assay (200ml DMF at L221/L279 and 120mLDMF at L305 are printed bare); the 99% assays belong to the DMF catalyst charges held on the twin record DMF. Merged from claim 7, where DMF is one of the four step 2) 溶剂 alternatives, and claim 10, where 催化剂为DMF names it the step 3) catalyst; role catalyst follows the explicit 催化剂 wording and the step 2) solvent use is recorded here. The section prints only the Latin abbreviation DMF, inside an otherwise Chinese list, and never the full name. | The section prints only the abbreviation DMF and never the Chinese or full name; resolved on the abbreviation. Printed as 120mLDMF, with no space between the volume and the name. Distilled off before the ethanol is charged. | The section prints only the abbreviation DMF, resolved to N,N-dimethylformamide. Charged at 0.2 g (0.0027 mol) against the 0.0788 mol acid, i.e. catalytically, alongside thionyl chloride. | Merged across steps 2 and 3, where its role differs. Step 2 charges 200 ml as the etherification solvent with no purity stated; step 3 charges 0.3 g (99%, 0.004 mol) catalytically alongside thionyl chloride. The step 3 charge is the more completely stated of the two and is kept here, so role and quantity describe that charge and the step 2 solvent use is recorded only in this note. The text writes the abbreviation DMF in both steps and never spells the name out. | Printed only as the Latin abbreviation DMF in both steps and resolved to the full name. Merged across steps 2 and 3: charged as 200 ml of step 2 reaction solvent and as 0.74 g (99％, 0.01 mol) of catalyst alongside thionyl chloride in step 3. The first stated charge is the one kept in quantity, so the second, catalytic role is recorded here rather than in role. PROMPT-8 FINAL CHECK (2026-09-01): compound_class:catalyst removed: the DMF twins were deliberately kept split so that this record holds the solvent identity and the record \"DMF\" holds the catalyst identity with the assayed catalyst charges; a catalyst class tag here blurred exactly the distinction the split preserves. The claim-10 catalyst wording remains quoted in the merged note fragments above and on the twin record. BLIND-REVIEW FIX (2026-09-01, prompt-8 adversarial pass): section anchor corrected Example 4/experimental_example -> Summary of the Invention/summary_of_invention: this record's own batches include claim 7 (L71) and Example 2 (L221), both earlier than Example 4, and DMF as a step-2 solvent alternative is invention-route material like the other claim-7 solvents, all anchored at Summary of the Invention.",
     "id": "CN109678767A_N,N-dimethylformamide",
     "compound_uuid": "504c597a-439e-56a3-8bfb-6fd9cf236fa6",
     "quantities_by_section": [
@@ -2402,7 +2579,11 @@
         "source_line": 305,
         "volume_ml": 120
       }
-    ]
+    ],
+    "smiles": "CN(C)C=O",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C3H7NO",
+    "molecular_weight": 73.09
   },
   {
     "patent_id": "CN109678767A",
@@ -2442,7 +2623,11 @@
     ],
     "notes": "Step 2) 溶剂 alternative, split out of the claim 7 list. Distinct from the 丙酮氰醇 (acetone cyanohydrin) of step 3). | Step 2 reaction solvent; the etherification is run in it at 0 to 5 degrees C. | One of the four solvents permitted for step 2) by [0024]. Prose only. Distinct from 丙酮氰醇 (acetone cyanohydrin) of step 3), which is its own record.",
     "id": "CN109678767A_acetone",
-    "compound_uuid": "90717f34-409b-5151-8bfb-fae591d92240"
+    "compound_uuid": "90717f34-409b-5151-8bfb-fae591d92240",
+    "smiles": "CC(C)=O",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C3H6O",
+    "molecular_weight": 58.08
   },
   {
     "patent_id": "CN109678767A",
@@ -2482,7 +2667,11 @@
     ],
     "notes": "Step 2) 溶剂 alternative, split out of the claim 7 list. | Step 2 etherification solvent; concentrated off from the filtrate before the alkaline hydrolysis. | One of the four solvents permitted for step 2) by [0024]. Prose only.",
     "id": "CN109678767A_tetrahydrofuran",
-    "compound_uuid": "68580bb1-c9ac-50b6-a45b-e1b18be07856"
+    "compound_uuid": "68580bb1-c9ac-50b6-a45b-e1b18be07856",
+    "smiles": "C1CCOC1",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C4H8O",
+    "molecular_weight": 72.11
   },
   {
     "patent_id": "CN109678767A",
@@ -2497,9 +2686,9 @@
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Summary of the Invention",
-    "section_type": "experimental_example",
+    "section_type": "summary_of_invention",
     "is_section_product": false,
-    "commercially_available": false,
+    "commercially_available": true,
     "role": "reactant",
     "quantity": {
       "mass_g": 26.43,
@@ -2525,7 +2714,7 @@
       "functional_group:halide_chloro",
       "merged:duplicates-2026-09-01"
     ],
-    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. MERGED (2026-09-01, annotator direction): duplicate section records for one substance folded into this record; absorbed: methyl 2-chloro-3-methyl-4-(methanesulfonyl)benzoate [Summary of the Invention, id=CN109678767A_methyl 2-chloro-3-methyl-4-(methanesulfonyl)benzoate, uuid=bdd5ca96-31e4-5feb-9289-06f0b408fc66]. section_label takes the first section in document order across the group; the structured quantity/purity/appearance are the single batch this record already carried, and every other batch remains in the per-section note fragments below. [from methyl 2-chloro-3-methyl-4-(methylsulfonyl)benzoate / Summary of the Invention] First charged material of the comparative route. No step of this section prepares it and the text does not state that it is purchased, so commercially_available is left false. Printed as 13.1g(0.05mol): every charge in this section is stated as mass and moles only, with no purity anywhere, so purity_pct is null throughout. | First charged carbon skeleton of the example. No step of this section prepares it, so it is recorded as commercially available. | First charged carbon skeleton of this example; its 3-methyl group is brominated in step 1. The section states no source for it and no step of this section prepares it, so commercial availability is not asserted. | First purchased carbon skeleton of the route; no step of this section prepares it. | First material charged in the example and the carbon skeleton the whole route is built on. No step of this section prepares it and the text does not say it is purchased, so commercial availability is left false. The 99.7％ printed with the charge is its stated assay. || [from methyl 2-chloro-3-methyl-4-(methanesulfonyl)benzoate / Summary of the Invention] The material charged first in step 1), so it is the entry point of the route the abstract describes. commercially_available is false: the abstract does not say it is purchased, and it is a specialty benzoate ester rather than a bulk commodity reagent or solvent, so neither limb of the rule is met. The English identifier follows the form used for the identical Chinese name in the reference run (甲磺酰基 rendered as methanesulfonyl); the EN line of this patent renders it methylsulfonyl instead, which is the same substituent under a different naming convention and not a source conflict. The abstract gives step-level narrative only, so no quantity, yield or characterisation is available. | Entry material of the route: no step of this section prepares it. The section does not say it is purchased and it is not a bulk commodity, so commercially_available stays false. Merged from step 1) and claim 2, which gives the molar ratio 2-氯-3-甲基-4-甲磺酰基苯甲酸甲酯 : 催化剂 : 氢溴酸 : 双氧水 as 1:0.01-0.1:1-2:1-2. The claim states a molar ratio range, which quantity.equivalents cannot hold, so the ratio is recorded here only. | Incoming material of the route, charged in step 1) [0014] and named again in the molar ratio of [0019]. Drawn as a reactant of step 1 of the [IMAGE_EXTRACT] reaction scheme at line 152 (C10H11ClO4S, InChIKey BBWCBPYXCNCYAT-UHFFFAOYSA-N); the drawn SMILES is kept as an alias. [0019] gives the ratio 1:0.01～0.1:1～2:1～2, which is a set of ranges rather than a stated equivalents value, so quantity is left null. No step of this section prepares it and the text nowhere says it is bought, and it is not a bulk commodity reagent or solvent, so commercially_available is left false.",
+    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. MERGED (2026-09-01, annotator direction): duplicate section records for one substance folded into this record; absorbed: methyl 2-chloro-3-methyl-4-(methanesulfonyl)benzoate [Summary of the Invention, id=CN109678767A_methyl 2-chloro-3-methyl-4-(methanesulfonyl)benzoate, uuid=bdd5ca96-31e4-5feb-9289-06f0b408fc66]. section_label takes the first section in document order across the group; the structured quantity/purity/appearance are the single batch this record already carried, and every other batch remains in the per-section note fragments below. [from methyl 2-chloro-3-methyl-4-(methylsulfonyl)benzoate / Summary of the Invention] First charged material of the comparative route. No step of this section prepares it and the text does not state that it is purchased, so commercially_available is left false. Printed as 13.1g(0.05mol): every charge in this section is stated as mass and moles only, with no purity anywhere, so purity_pct is null throughout. | First charged carbon skeleton of the example. No step of this section prepares it, so it is recorded as commercially available. | First charged carbon skeleton of this example; its 3-methyl group is brominated in step 1. The section states no source for it and no step of this section prepares it, so commercial availability is not asserted. | First purchased carbon skeleton of the route; no step of this section prepares it. | First material charged in the example and the carbon skeleton the whole route is built on. No step of this section prepares it and the text does not say it is purchased, so commercial availability is left false. The 99.7％ printed with the charge is its stated assay. || [from methyl 2-chloro-3-methyl-4-(methanesulfonyl)benzoate / Summary of the Invention] The material charged first in step 1), so it is the entry point of the route the abstract describes. commercially_available is false: the abstract does not say it is purchased, and it is a specialty benzoate ester rather than a bulk commodity reagent or solvent, so neither limb of the rule is met. The English identifier follows the form used for the identical Chinese name in the reference run (甲磺酰基 rendered as methanesulfonyl); the EN line of this patent renders it methylsulfonyl instead, which is the same substituent under a different naming convention and not a source conflict. The abstract gives step-level narrative only, so no quantity, yield or characterisation is available. | Entry material of the route: no step of this section prepares it. The section does not say it is purchased and it is not a bulk commodity, so commercially_available stays false. Merged from step 1) and claim 2, which gives the molar ratio 2-氯-3-甲基-4-甲磺酰基苯甲酸甲酯 : 催化剂 : 氢溴酸 : 双氧水 as 1:0.01-0.1:1-2:1-2. The claim states a molar ratio range, which quantity.equivalents cannot hold, so the ratio is recorded here only. | Incoming material of the route, charged in step 1) [0014] and named again in the molar ratio of [0019]. Drawn as a reactant of step 1 of the [IMAGE_EXTRACT] reaction scheme at line 152 (C10H11ClO4S, InChIKey BBWCBPYXCNCYAT-UHFFFAOYSA-N); the drawn SMILES is kept as an alias. [0019] gives the ratio 1:0.01～0.1:1～2:1～2, which is a set of ranges rather than a stated equivalents value, so quantity is left null. No step of this section prepares it and the text nowhere says it is bought, and it is not a bulk commodity reagent or solvent, so commercially_available is left false. PROMPT-8 FINAL CHECK (2026-09-01): section_type corrected experimental_example->summary_of_invention to agree with section_label 'Summary of the Invention'; the duplicate-record merge moved the label to the first section in document order but left the surviving record's type behind, and every unmerged record in this file and both sibling golds pair label and type. BLIND-REVIEW FIX (2026-09-01, prompt-8 adversarial pass): commercially_available false->true: the patent prepares this ester nowhere yet charges it in every example with a printed supplier-style assay (99.6-99.8%), the merged fragments themselves disagreed (one absorbed record read it as commercially available), and the sibling gold WO2022024094A1 marks its analogous purchased starting material commercially available. An externally sourced, assayed starting material is available by the file's own operative meaning of the field.",
     "id": "CN109678767A_methyl 2-chloro-3-methyl-4-(methylsulfonyl)benzoate",
     "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13",
     "quantities_by_section": [
@@ -2563,7 +2752,11 @@
         "mass_g": 13.1,
         "mmol": 50
       }
-    ]
+    ],
+    "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "molecular_formula": "C10H11ClO4S",
+    "molecular_weight": 262.71
   },
   {
     "patent_id": "CN109678767A",
@@ -2592,7 +2785,7 @@
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": null,
+    "analytics": [],
     "purity_pct": null,
     "purity_method": null,
     "tags": [
@@ -2603,7 +2796,11 @@
     ],
     "notes": "Step 1 bromination solvent, charged at 180 mL and taken to reflux.",
     "id": "CN109678767A_carbon tetrachloride",
-    "compound_uuid": "c87714f4-26c1-5730-a2f5-46cb4b94ffe9"
+    "compound_uuid": "c87714f4-26c1-5730-a2f5-46cb4b94ffe9",
+    "smiles": "ClC(Cl)(Cl)Cl",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CCl4",
+    "molecular_weight": 153.82
   },
   {
     "patent_id": "CN109678767A",
@@ -2619,7 +2816,7 @@
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Background",
-    "section_type": "experimental_example",
+    "section_type": "background",
     "is_section_product": false,
     "commercially_available": false,
     "role": "product",
@@ -2670,7 +2867,7 @@
       "functional_group:halide_chloro",
       "merged:duplicates-2026-09-01"
     ],
-    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. MERGED (2026-09-01, annotator direction): duplicate section records for one substance folded into this record; absorbed: methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate [Summary of the Invention, id=CN109678767A_methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, uuid=97ce4afc-7972-59fb-9740-29c621810a93]; methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate [Background, id=CN109678767A_methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate, uuid=530a21f2-f5ac-5d84-ae57-a5fd9d44d98b]. section_label takes the first section in document order across the group; the structured quantity/purity/appearance are the single batch this record already carried, and every other batch remains in the per-section note fragments below. [from methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate / Background] Merged across steps 1 and 2. Isolated in step 1 as 15 g at 88%; the step 1 prose never repeats the name, so the compound is identified by the step heading and the drawn structure. Charged again in step 2 with no quantity at all. No melting point, NMR or purity is given for it. SMILES alias from the structure drawn before step 1. | Merged across steps 1 and 2: isolated as the step 1 product (46.67 g, purity 99.0％, yield 89％) and charged as the step 2 reactant (30 g, 99.0％, 0.0869 mol); the isolation quantity is kept here. SMILES alias from the structure drawn before step 1. purity_method is left null because no purity method is stated; the LC recorded in analytics is in-process reaction monitoring. | Merged across steps 1 and 2: isolated as the step 1 product (46 g, purity 99.8%, yield 88.5%) and charged as the step 2 reactant (35 g, 99.8%, 0.102 mol); the isolation quantity is kept here. The purity is printed with no method stated, so purity_method is left null. SMILES alias from the structure drawn before step 1. | Merged across steps 1 and 2: isolated as the step 1 product (31.33 g, 98.0％, 90％) and charged as the step 2 reactant (34.5 g, 99.0％, 0.1 mol); the isolation quantity is kept here. The isolated purity 98.0％ and the charged purity 99.0％ disagree and are not reconciled. SMILES alias taken from the structure drawn before step 1. | Merged across steps 1 and 2: isolated as the step 1 product (30.66 g, purity 98.8％, yield 88.7％) and charged back as the step 2 reactant (34.2 g, 99.8％, 0.1 mol). The isolation quantity and the isolation purity are the ones kept here. SMILES alias taken from the structure drawn before step 1. || [from methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate / Summary of the Invention] Merged from two mentions: the isolated product of step 1), where the abstract glosses the local label inline in apposition (得到溴代物2-氯-3-溴甲基-4-甲磺酰基苯甲酸甲酯), and the first charge of step 2), where the same material is referred to by the bare label 溴代物. The section itself supplies the full name, so the label resolves inside the section and is kept as an alias rather than emitted as a second unresolved record. role is product and is_section_product is false because it is an intermediate step product, not the compound the abstract ends with. commercially_available is false because step 1) of this document prepares it. | Named in [0031] as the compound whose preparation is improved by using cheap 氢溴酸 as the brominating agent. The sentence says 提高了收率 (raised the yield) but prints no figure, so yield_pct stays null. is_section_product is false because the section is headed by 有益效果 and not by a compound. commercially_available is false because step 1) of this patent prepares it. | Product of step 1) and substrate of step 2) and of claim 5; one merged record kept at role product. LC跟踪至反应完全 recorded as in-process monitoring. | Product of step 1) and reactant of step 2); one record per the merge rule, from the step 1) heading [0013], [0014], [0016] and [0022]. Recrystallised from the crystallisation solvent and filtered in [0014]. LC跟踪至反应完全 in [0014] is recorded as in-process HPLC monitoring of the step 1) reaction. Also drawn as the product of step 1 and the reactant of step 2 of the [IMAGE_EXTRACT] reaction scheme at line 152 (C10H10BrClO4S, InChIKey YQYVOGFWLVVXMM-UHFFFAOYSA-N); the drawn SMILES is kept as an alias. || [from methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate / Background] Merged from four mentions, in [0005], [0006], [0007] and [0009], where it is the intermediate whose preparation is criticised in four separate prior-art routes. The name is fully written out and resolves. role is product because each mention describes it as the compound that preparation produces, and is_section_product is false because the background as a whole produces nothing. It is prepared by the routes the section describes rather than bought, so commercially_available is false. The yields the section attaches to those preparations belong to the prior-art steps and not to this compound record, so no yield_pct is recorded here.",
+    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. MERGED (2026-09-01, annotator direction): duplicate section records for one substance folded into this record; absorbed: methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate [Summary of the Invention, id=CN109678767A_methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate, uuid=97ce4afc-7972-59fb-9740-29c621810a93]; methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate [Background, id=CN109678767A_methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate, uuid=530a21f2-f5ac-5d84-ae57-a5fd9d44d98b]. section_label takes the first section in document order across the group; the structured quantity/purity/appearance are the single batch this record already carried, and every other batch remains in the per-section note fragments below. [from methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate / Background] Merged across steps 1 and 2. Isolated in step 1 as 15 g at 88%; the step 1 prose never repeats the name, so the compound is identified by the step heading and the drawn structure. Charged again in step 2 with no quantity at all. No melting point, NMR or purity is given for it. SMILES alias from the structure drawn before step 1. | Merged across steps 1 and 2: isolated as the step 1 product (46.67 g, purity 99.0％, yield 89％) and charged as the step 2 reactant (30 g, 99.0％, 0.0869 mol); the isolation quantity is kept here. SMILES alias from the structure drawn before step 1. purity_method is left null because no purity method is stated; the LC recorded in analytics is in-process reaction monitoring. | Merged across steps 1 and 2: isolated as the step 1 product (46 g, purity 99.8%, yield 88.5%) and charged as the step 2 reactant (35 g, 99.8%, 0.102 mol); the isolation quantity is kept here. The purity is printed with no method stated, so purity_method is left null. SMILES alias from the structure drawn before step 1. | Merged across steps 1 and 2: isolated as the step 1 product (31.33 g, 98.0％, 90％) and charged as the step 2 reactant (34.5 g, 99.0％, 0.1 mol); the isolation quantity is kept here. The isolated purity 98.0％ and the charged purity 99.0％ disagree and are not reconciled. SMILES alias taken from the structure drawn before step 1. | Merged across steps 1 and 2: isolated as the step 1 product (30.66 g, purity 98.8％, yield 88.7％) and charged back as the step 2 reactant (34.2 g, 99.8％, 0.1 mol). The isolation quantity and the isolation purity are the ones kept here. SMILES alias taken from the structure drawn before step 1. || [from methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate / Summary of the Invention] Merged from two mentions: the isolated product of step 1), where the abstract glosses the local label inline in apposition (得到溴代物2-氯-3-溴甲基-4-甲磺酰基苯甲酸甲酯), and the first charge of step 2), where the same material is referred to by the bare label 溴代物. The section itself supplies the full name, so the label resolves inside the section and is kept as an alias rather than emitted as a second unresolved record. role is product and is_section_product is false because it is an intermediate step product, not the compound the abstract ends with. commercially_available is false because step 1) of this document prepares it. | Named in [0031] as the compound whose preparation is improved by using cheap 氢溴酸 as the brominating agent. The sentence says 提高了收率 (raised the yield) but prints no figure, so yield_pct stays null. is_section_product is false because the section is headed by 有益效果 and not by a compound. commercially_available is false because step 1) of this patent prepares it. | Product of step 1) and substrate of step 2) and of claim 5; one merged record kept at role product. LC跟踪至反应完全 recorded as in-process monitoring. | Product of step 1) and reactant of step 2); one record per the merge rule, from the step 1) heading [0013], [0014], [0016] and [0022]. Recrystallised from the crystallisation solvent and filtered in [0014]. LC跟踪至反应完全 in [0014] is recorded as in-process HPLC monitoring of the step 1) reaction. Also drawn as the product of step 1 and the reactant of step 2 of the [IMAGE_EXTRACT] reaction scheme at line 152 (C10H10BrClO4S, InChIKey YQYVOGFWLVVXMM-UHFFFAOYSA-N); the drawn SMILES is kept as an alias. || [from methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate / Background] Merged from four mentions, in [0005], [0006], [0007] and [0009], where it is the intermediate whose preparation is criticised in four separate prior-art routes. The name is fully written out and resolves. role is product because each mention describes it as the compound that preparation produces, and is_section_product is false because the background as a whole produces nothing. It is prepared by the routes the section describes rather than bought, so commercially_available is false. The yields the section attaches to those preparations belong to the prior-art steps and not to this compound record, so no yield_pct is recorded here. PROMPT-8 FINAL CHECK (2026-09-01): section_type corrected experimental_example->background to agree with section_label 'Background'; the duplicate-record merge moved the label to the first section in document order but left the surviving record's type behind, and every unmerged record in this file and both sibling golds pair label and type.",
     "id": "CN109678767A_methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
     "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4",
     "quantities_by_section": [
@@ -2775,7 +2972,11 @@
         "color": "pale yellow",
         "physical_form": "solid"
       }
-    ]
+    ],
+    "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "molecular_formula": "C10H10BrClO4S",
+    "molecular_weight": 341.61
   },
   {
     "patent_id": "CN109678767A",
@@ -2793,7 +2994,7 @@
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Background",
-    "section_type": "experimental_example",
+    "section_type": "background",
     "is_section_product": false,
     "commercially_available": false,
     "role": "product",
@@ -2880,7 +3081,7 @@
       "functional_group:halide_chloro",
       "merged:duplicates-2026-09-01"
     ],
-    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. MERGED (2026-09-01, annotator direction): duplicate section records for one substance folded into this record; absorbed: 2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid [Summary of the Invention, id=CN109678767A_2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid, uuid=0eb0fcdb-3eb8-5aa9-9f14-05382dc76e15]; 2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid [Background, id=CN109678767A_2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid, uuid=6af23de6-af3a-50e0-9f25-a12ed949ddc2]. section_label takes the first section in document order across the group; the structured quantity/purity/appearance are the single batch this record already carried, and every other batch remains in the per-section note fragments below. [from 2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid / Background] Merged across steps 2 and 3. NO MASS BALANCE IS POSSIBLE FOR STEP 2: the step 2 prose gives a yield of 83.2% but states no product mass and never names the product, which is identified only by the step heading and the structure drawn before it. The mass and moles recorded here are therefore the step 3 charge, not a step 2 isolation. Appearance taken from 黄色固体析出 in step 2. No melting point, NMR or purity is given. SMILES alias from the structure drawn before step 2. | Merged across steps 2 and 3: isolated as the step 2 product (27.6 g, purity 99.7％, yield 91.3％) and charged as the step 3 reactant (27.4 g, 99.7％, 0.0788 mol); the isolation quantity is kept here. The isolation sentence is split by a page break, printed as 27.6g白色 on one page and 粉末，纯度99.7％，收率91.3％ on the next. SMILES alias from the structure drawn before step 2. | Merged across steps 2 and 3: isolated as the step 2 product (31.82 g, purity 99.8%, yield 89.6%) and charged as the step 3 reactant (30 g, 99.8%, 0.086 mol); the isolation quantity is kept here. Step 3 prints the name and its purity with stray internal spaces, as 2-氯-3- (2 ,2 ,2-三氟乙氧基)甲基-4-甲磺酰基苯甲酸 and (99 .8％、0.086mol); both spellings are kept as printed and neither is corrected. Made in one pot in step 2 by etherification of the benzylic bromide followed by hydrolysis of the methyl ester, so the isolated product is the free acid rather than the ester. The purity is printed with no method stated, so purity_method is left null. SMILES alias from the structure drawn before step 2. | Merged across steps 2 and 3: isolated as the step 2 product (31.58 g, 99.3％, 90.5％) and charged as the step 3 reactant (34.75 g, 99.7％, 0.1 mol); the isolation quantity is kept here. The isolated purity 99.3％ and the charged purity 99.7％ disagree and are not reconciled. Step 2 etherifies the bromide and then hydrolyses the ester in the same pot; the ester intermediate is never named or isolated, so no record is emitted for it. SMILES alias taken from the structure drawn before step 2. | Merged across steps 2 and 3: isolated as the step 2 product (31.1 g, purity 99.5％, yield 89.3％) and charged back as the step 3 reactant (34.72 g, 99.8％, 0.1 mol). The isolation quantity and the isolation purity are the ones kept here. Step 2 etherifies and then hydrolyses in one pot, and the intermediate methyl ester is never named or isolated. SMILES alias taken from the structure drawn before step 2. || [from 2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid / Summary of the Invention] Merged from two mentions: the dried product at the end of step 2), where the abstract glosses the local label inline in apposition (烘干得醚化物2-氯-3-(2,2,2-三氟乙氧基)甲基-4-甲磺酰基苯甲酸), and the first charge of step 3), where the same material is referred to by the bare label 醚化物. The section supplies the full name, so the label resolves inside the section and is kept as an alias rather than emitted as a second unresolved record. role is product with is_section_product false because it is an intermediate step product. commercially_available is false because step 2) of this document prepares it. | Named in [0032] as the compound whose preparation uses market-available 2,2,2-三氟乙醇 as the raw material. The English identifier keeps the locant order the Chinese prints. is_section_product is false because the section is headed by 有益效果. commercially_available is false because step 2) of this patent prepares it. | Product of step 2) and substrate of step 3) and of claim 8; one merged record kept at role product. Step 2) runs the trifluoroethoxylation and the alkaline hydrolysis in one sequence, so the methyl ester of the etherified intermediate is never named or isolated. LC跟踪至反应完全 recorded as in-process monitoring. | Product of step 2) and reactant of step 3); one record per the merge rule, from the step 2) heading [0015], [0016], [0018] and [0025]. Both LC跟踪至反应完全 checks of step 2) [0016] are recorded here, on the etherification stage and on the alkaline hydrolysis stage, because the acid is the product this step isolates. Also drawn as the product of step 3 and a reactant of step 5 of the [IMAGE_EXTRACT] reaction scheme at line 152 (C11H10ClF3O5S, InChIKey YGMJOCQCLVNPOD-UHFFFAOYSA-N); the drawn SMILES is kept as an alias. [0025] prints the name with stray spaces as 2-氯-3-(2 ,2 ,2-三氟乙氧基)甲基-4-甲磺酰基苯甲酸; that spacing is a typesetting artifact of the source and both forms are kept as aliases rather than corrected. || [from 2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid / Background] Merged from three mentions, in [0007], [0008] and [0009], where it is the intermediate whose preparation is criticised in three separate prior-art routes. The name is fully written out and resolves. role is product because each mention describes it as the compound that preparation produces, and is_section_product is false because the background as a whole produces nothing. It is prepared by the routes the section describes rather than bought, so commercially_available is false.",
+    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. MERGED (2026-09-01, annotator direction): duplicate section records for one substance folded into this record; absorbed: 2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid [Summary of the Invention, id=CN109678767A_2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid, uuid=0eb0fcdb-3eb8-5aa9-9f14-05382dc76e15]; 2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid [Background, id=CN109678767A_2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid, uuid=6af23de6-af3a-50e0-9f25-a12ed949ddc2]. section_label takes the first section in document order across the group; the structured quantity/purity/appearance are the single batch this record already carried, and every other batch remains in the per-section note fragments below. [from 2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid / Background] Merged across steps 2 and 3. NO MASS BALANCE IS POSSIBLE FOR STEP 2: the step 2 prose gives a yield of 83.2% but states no product mass and never names the product, which is identified only by the step heading and the structure drawn before it. The mass and moles recorded here are therefore the step 3 charge, not a step 2 isolation. Appearance taken from 黄色固体析出 in step 2. No melting point, NMR or purity is given. SMILES alias from the structure drawn before step 2. | Merged across steps 2 and 3: isolated as the step 2 product (27.6 g, purity 99.7％, yield 91.3％) and charged as the step 3 reactant (27.4 g, 99.7％, 0.0788 mol); the isolation quantity is kept here. The isolation sentence is split by a page break, printed as 27.6g白色 on one page and 粉末，纯度99.7％，收率91.3％ on the next. SMILES alias from the structure drawn before step 2. | Merged across steps 2 and 3: isolated as the step 2 product (31.82 g, purity 99.8%, yield 89.6%) and charged as the step 3 reactant (30 g, 99.8%, 0.086 mol); the isolation quantity is kept here. Step 3 prints the name and its purity with stray internal spaces, as 2-氯-3- (2 ,2 ,2-三氟乙氧基)甲基-4-甲磺酰基苯甲酸 and (99 .8％、0.086mol); both spellings are kept as printed and neither is corrected. Made in one pot in step 2 by etherification of the benzylic bromide followed by hydrolysis of the methyl ester, so the isolated product is the free acid rather than the ester. The purity is printed with no method stated, so purity_method is left null. SMILES alias from the structure drawn before step 2. | Merged across steps 2 and 3: isolated as the step 2 product (31.58 g, 99.3％, 90.5％) and charged as the step 3 reactant (34.75 g, 99.7％, 0.1 mol); the isolation quantity is kept here. The isolated purity 99.3％ and the charged purity 99.7％ disagree and are not reconciled. Step 2 etherifies the bromide and then hydrolyses the ester in the same pot; the ester intermediate is never named or isolated, so no record is emitted for it. SMILES alias taken from the structure drawn before step 2. | Merged across steps 2 and 3: isolated as the step 2 product (31.1 g, purity 99.5％, yield 89.3％) and charged back as the step 3 reactant (34.72 g, 99.8％, 0.1 mol). The isolation quantity and the isolation purity are the ones kept here. Step 2 etherifies and then hydrolyses in one pot, and the intermediate methyl ester is never named or isolated. SMILES alias taken from the structure drawn before step 2. || [from 2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid / Summary of the Invention] Merged from two mentions: the dried product at the end of step 2), where the abstract glosses the local label inline in apposition (烘干得醚化物2-氯-3-(2,2,2-三氟乙氧基)甲基-4-甲磺酰基苯甲酸), and the first charge of step 3), where the same material is referred to by the bare label 醚化物. The section supplies the full name, so the label resolves inside the section and is kept as an alias rather than emitted as a second unresolved record. role is product with is_section_product false because it is an intermediate step product. commercially_available is false because step 2) of this document prepares it. | Named in [0032] as the compound whose preparation uses market-available 2,2,2-三氟乙醇 as the raw material. The English identifier keeps the locant order the Chinese prints. is_section_product is false because the section is headed by 有益效果. commercially_available is false because step 2) of this patent prepares it. | Product of step 2) and substrate of step 3) and of claim 8; one merged record kept at role product. Step 2) runs the trifluoroethoxylation and the alkaline hydrolysis in one sequence, so the methyl ester of the etherified intermediate is never named or isolated. LC跟踪至反应完全 recorded as in-process monitoring. | Product of step 2) and reactant of step 3); one record per the merge rule, from the step 2) heading [0015], [0016], [0018] and [0025]. Both LC跟踪至反应完全 checks of step 2) [0016] are recorded here, on the etherification stage and on the alkaline hydrolysis stage, because the acid is the product this step isolates. Also drawn as the product of step 3 and a reactant of step 5 of the [IMAGE_EXTRACT] reaction scheme at line 152 (C11H10ClF3O5S, InChIKey YGMJOCQCLVNPOD-UHFFFAOYSA-N); the drawn SMILES is kept as an alias. [0025] prints the name with stray spaces as 2-氯-3-(2 ,2 ,2-三氟乙氧基)甲基-4-甲磺酰基苯甲酸; that spacing is a typesetting artifact of the source and both forms are kept as aliases rather than corrected. || [from 2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid / Background] Merged from three mentions, in [0007], [0008] and [0009], where it is the intermediate whose preparation is criticised in three separate prior-art routes. The name is fully written out and resolves. role is product because each mention describes it as the compound that preparation produces, and is_section_product is false because the background as a whole produces nothing. It is prepared by the routes the section describes rather than bought, so commercially_available is false. PROMPT-8 FINAL CHECK (2026-09-01): section_type corrected experimental_example->background to agree with section_label 'Background'; the duplicate-record merge moved the label to the first section in document order but left the surviving record's type behind, and every unmerged record in this file and both sibling golds pair label and type. BLIND-REVIEW FIX (2026-09-01, prompt-8 adversarial pass): the Comparative appearance entry trimmed to the printed form 黄色固体 (yellow solid); the interpretive clause about precipitation is commentary and every sibling entry is strictly the printed Chinese plus its gloss. ALSO documented: the Example 1 yield and appearance entries cite source_line 193, the page-break continuation; the mass 27.6g and the 白色 of that same batch are printed at L188, the two halves of one paragraph split across the page boundary ([0043]).",
     "id": "CN109678767A_2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
     "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6",
     "quantities_by_section": [
@@ -2986,11 +3187,15 @@
       {
         "section_label": "Comparative Example",
         "source_line": 305,
-        "appearance": "黄色固体 yellow solid, precipitated on acidification",
+        "appearance": "黄色固体 yellow solid",
         "color": "yellow",
         "physical_form": "solid"
       }
-    ]
+    ],
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "molecular_formula": "C11H10ClF3O5S",
+    "molecular_weight": 346.71
   },
   {
     "patent_id": "CN109678767A",
@@ -3001,7 +3206,7 @@
     ],
     "resolved": false,
     "unresolved_reference": false,
-    "section_label": "Example 4",
+    "section_label": "Example 1",
     "section_type": "experimental_example",
     "is_section_product": false,
     "commercially_available": true,
@@ -3027,7 +3232,7 @@
       "chemical_family:chloroalkane",
       "functional_group:halide_chloro"
     ],
-    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. The Chinese prints 二氯乙烷 with no locant in all three charges and the section gives no mass and mole pair that would fix the isomer, so the record is left unresolved rather than read as 1,2-dichloroethane. Merged across steps 1 and 3: step 1 charges 200 ml as the bromination solvent, step 3 charges 100 ml with thionyl chloride and a further 100 ml with the dione; the first stated volume is kept. | Reflux solvent for the acid chloride stage of step 3. The Chinese prints 二氯乙烷 with no locant, so the isomer is not fixed, and the section gives only a volume and no mass and mole pair that could settle it; left unresolved rather than read as the likelier neighbour. Kept as a record separate from the 二氯甲烷 charged in steps 1 and 3, which the text spells differently and which appears again later in this same step. | The Chinese prints 二氯乙烷 with no locant, so the isomer is not fixed by this section and the name is left unresolved rather than read as 1,2-dichloroethane. Merged across steps 1 and 3, which charge 200 ml and 100 ml; the step 1 volume is kept. In step 3 it is both the chlorination solvent and the solvent for the condensation, and it is stripped off between them. | The Chinese prints 二氯乙烷 with no locant, so the section does not say whether the 1,1- or the 1,2- isomer is meant, and there is no mass and mole pair that would fix the molecular weight. Left unresolved rather than read as whichever isomer is commoner. Kept separate from the 二氯甲烷 charged later in the same step.",
+    "notes": "FIX C-002 (2026-09-01, annotator direction): per-batch arrays added following the WO2022024094A1 gold convention (quantities_by_section / yields_by_section / appearances, each entry carrying section_label and source_line), so every printed batch of this compound is structured here, not only the single batch the base quantity field holds. Values transcribed from the verified prompt-5 charge tables and re-verified against the patent. The Chinese prints 二氯乙烷 with no locant in all three charges and the section gives no mass and mole pair that would fix the isomer, so the record is left unresolved rather than read as 1,2-dichloroethane. Merged across steps 1 and 3: step 1 charges 200 ml as the bromination solvent, step 3 charges 100 ml with thionyl chloride and a further 100 ml with the dione; the first stated volume is kept. | Reflux solvent for the acid chloride stage of step 3. The Chinese prints 二氯乙烷 with no locant, so the isomer is not fixed, and the section gives only a volume and no mass and mole pair that could settle it; left unresolved rather than read as the likelier neighbour. Kept as a record separate from the 二氯甲烷 charged in steps 1 and 3, which the text spells differently and which appears again later in this same step. | The Chinese prints 二氯乙烷 with no locant, so the isomer is not fixed by this section and the name is left unresolved rather than read as 1,2-dichloroethane. Merged across steps 1 and 3, which charge 200 ml and 100 ml; the step 1 volume is kept. In step 3 it is both the chlorination solvent and the solvent for the condensation, and it is stripped off between them. | The Chinese prints 二氯乙烷 with no locant, so the section does not say whether the 1,1- or the 1,2- isomer is meant, and there is no mass and mole pair that would fix the molecular weight. Left unresolved rather than read as whichever isomer is commoner. Kept separate from the 二氯甲烷 charged later in the same step. BLIND-REVIEW FIX (2026-09-01, prompt-8 adversarial pass): section anchor corrected Example 4/experimental_example -> Example 1/experimental_example: the unlocanted 二氯乙烷 appears only in the worked examples and its own first batch is Example 1 (L181); Example 4 is not first under any reading.",
     "id": "CN109678767A_dichloroethane",
     "compound_uuid": "081efc70-e232-5642-97d3-f34edff6601d",
     "quantities_by_section": [
@@ -3071,7 +3276,11 @@
         "source_line": 286,
         "volume_ml": 100
       }
-    ]
+    ],
+    "smiles": null,
+    "smiles_source": "none:ambiguous",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN109678767A",
@@ -3085,7 +3294,7 @@
     ],
     "resolved": true,
     "unresolved_reference": false,
-    "section_label": "Claims",
+    "section_label": "Summary of the Invention",
     "section_type": "summary_of_invention",
     "is_section_product": false,
     "commercially_available": true,
@@ -3114,9 +3323,13 @@
       "hazard:peroxide_former",
       "merged:duplicates-2026-09-01"
     ],
-    "notes": "MERGED (2026-09-01, annotator direction): duplicate section records for one substance folded into this record; absorbed: 3-chloroperoxybenzoic acid [Claims, id=CN109678767A_3-chloroperoxybenzoic acid, uuid=88c3defa-f785-5aa0-91e2-02b9cde5e9c7]. section_label takes the first section in document order across the group; the structured quantity/purity/appearance are the single batch this record already carried, and every other batch remains in the per-section note fragments below. [from m-chloroperoxybenzoic acid / Claims] Charged at 0.174 g (0.001 mol) against a 0.1 mol substrate charge, i.e. the initiator for the step 1 benzylic bromination. This section uses 间氯过氧苯甲酸 where other examples of the patent use 偶氮二异丁腈; recorded as printed here. | The second of the two catalysts permitted for step 1) by [0020]. Called 催化剂 in [0014] and [0019]; the placeholder is kept unresolved as its own record. Prose only: the [IMAGE_EXTRACT] reaction scheme at line 152 carries only the generic condition cat on its step 1. || [from 3-chloroperoxybenzoic acid / Claims] Second of the two step 1) 催化剂 alternatives enumerated in claim 3, split into one record each. The claim names it 催化剂 and role follows the text, although a peroxyacid at this position would ordinarily be an oxidant rather than a catalyst; recorded as printed and not corrected.",
+    "notes": "MERGED (2026-09-01, annotator direction): duplicate section records for one substance folded into this record; absorbed: 3-chloroperoxybenzoic acid [Claims, id=CN109678767A_3-chloroperoxybenzoic acid, uuid=88c3defa-f785-5aa0-91e2-02b9cde5e9c7]. section_label takes the first section in document order across the group; the structured quantity/purity/appearance are the single batch this record already carried, and every other batch remains in the per-section note fragments below. [from m-chloroperoxybenzoic acid / Claims] Charged at 0.174 g (0.001 mol) against a 0.1 mol substrate charge, i.e. the initiator for the step 1 benzylic bromination. This section uses 间氯过氧苯甲酸 where other examples of the patent use 偶氮二异丁腈; recorded as printed here. | The second of the two catalysts permitted for step 1) by [0020]. Called 催化剂 in [0014] and [0019]; the placeholder is kept unresolved as its own record. Prose only: the [IMAGE_EXTRACT] reaction scheme at line 152 carries only the generic condition cat on its step 1. || [from 3-chloroperoxybenzoic acid / Claims] Second of the two step 1) 催化剂 alternatives enumerated in claim 3, split into one record each. The claim names it 催化剂 and role follows the text, although a peroxyacid at this position would ordinarily be an oxidant rather than a catalyst; recorded as printed and not corrected. PROMPT-8 FINAL CHECK (2026-09-01): section_type corrected summary_of_invention->claims to agree with section_label 'Claims'; the duplicate-record merge moved the label to the first section in document order but left the surviving record's type behind, and every unmerged record in this file and both sibling golds pair label and type. BLIND-REVIEW FIX (2026-09-01, prompt-8 adversarial pass): section anchor corrected Claims/claims -> Summary of the Invention/summary_of_invention: azobisisobutyronitrile, named in the same claim-3 sentence (L63), and every other claim-enumerated alternative in this file are anchored at Summary of the Invention; the Claims anchor produced by the duplicate merge left this record the lone outlier, and the earlier PROMPT-8 type correction is superseded together with the label.",
     "id": "CN109678767A_m-chloroperoxybenzoic acid",
-    "compound_uuid": "2541716c-ec66-593e-a44a-f31dde69e207"
+    "compound_uuid": "2541716c-ec66-593e-a44a-f31dde69e207",
+    "smiles": "O=C(OO)c1cccc(Cl)c1",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C7H5ClO3",
+    "molecular_weight": 172.57
   },
   {
     "patent_id": "CN109678767A",
@@ -3133,17 +3346,22 @@
     "is_section_product": false,
     "commercially_available": false,
     "role": "product",
-    "quantity": null,
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
     "ms_mz": null,
     "nmr": null,
     "melting_point": null,
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": null,
+    "analytics": [],
     "purity_pct": null,
     "purity_method": null,
-    "smiles": null,
     "tags": [
       "compound_class:intermediate",
       "chemical_family:benzoate_ester",
@@ -3155,7 +3373,11 @@
     ],
     "notes": "DRAWING-ONLY: product of step 2 and reactant of step 3 of the [IMAGE_EXTRACT] reaction scheme at line 152. The prose of step 2) [0016] runs the etherification and the alkaline hydrolysis as one step and never names this ester; between the two stages it calls the material only 剩余物 (the residue). Identifier kept as the SMILES that was read, since the compound exists in this section only as a drawn structure. Molecular formula as read: C12H12ClF3O5S.",
     "id": "CN109678767A_COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
-    "compound_uuid": "e3545263-e144-5840-9f45-db2b742776d6"
+    "compound_uuid": "e3545263-e144-5840-9f45-db2b742776d6",
+    "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "molecular_formula": "C12H12ClF3O5S",
+    "molecular_weight": 360.74
   },
   {
     "patent_id": "CN109678767A",
@@ -3172,17 +3394,22 @@
     "is_section_product": false,
     "commercially_available": false,
     "role": "product",
-    "quantity": null,
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
     "ms_mz": null,
     "nmr": null,
     "melting_point": null,
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": null,
+    "analytics": [],
     "purity_pct": null,
     "purity_method": null,
-    "smiles": null,
     "tags": [
       "compound_class:intermediate",
       "chemical_family:benzoyl_chloride",
@@ -3194,7 +3421,11 @@
     ],
     "notes": "DRAWING-ONLY: product of step 5 and reactant of step 4 of the [IMAGE_EXTRACT] reaction scheme at line 152; the scheme numbers the acid chloride formation after the step that consumes it. The prose of step 3) [0018] forms it in situ, charging the acid with 氯化亚砜 and stripping the solvent, but names it only as an operation and never as a compound. Identifier kept as the SMILES that was read. Molecular formula as read: C11H9Cl2F3O4S.",
     "id": "CN109678767A_CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
-    "compound_uuid": "aca3af7a-7bc1-527a-bdf6-13b7267ff006"
+    "compound_uuid": "aca3af7a-7bc1-527a-bdf6-13b7267ff006",
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "molecular_formula": "C11H9Cl2F3O4S",
+    "molecular_weight": 365.16
   },
   {
     "patent_id": "CN109678767A",
@@ -3210,23 +3441,32 @@
     "is_section_product": false,
     "commercially_available": false,
     "role": "base",
-    "quantity": null,
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
     "ms_mz": null,
     "nmr": null,
     "melting_point": null,
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": null,
+    "analytics": [],
     "purity_pct": null,
     "purity_method": null,
-    "smiles": null,
     "tags": [
       "compound_class:base"
     ],
     "notes": "DRAWING-ONLY generic: the condition text of step 3 of the [IMAGE_EXTRACT] reaction scheme at line 152 is 碱/酸 (base/acid), and this is the base half of it. Positionally this is the hydrolysis that the prose of step 2) [0016] runs with 碱2, but the drawn label carries no number, so it is recorded as written and left unresolved rather than merged onto 碱1 or 碱2.",
     "id": "CN109678767A_碱",
-    "compound_uuid": "a055be92-3565-5318-9718-ff42757893df"
+    "compound_uuid": "a055be92-3565-5318-9718-ff42757893df",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "CN109678767A",
@@ -3242,22 +3482,31 @@
     "is_section_product": false,
     "commercially_available": false,
     "role": "acid",
-    "quantity": null,
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
     "ms_mz": null,
     "nmr": null,
     "melting_point": null,
     "appearance": null,
     "color": null,
     "physical_form": null,
-    "analytics": null,
+    "analytics": [],
     "purity_pct": null,
     "purity_method": null,
-    "smiles": null,
     "tags": [
       "compound_class:acid"
     ],
     "notes": "DRAWING-ONLY generic: the acid half of the 碱/酸 condition text of step 3 of the [IMAGE_EXTRACT] reaction scheme at line 152. The prose acidifies at this point with 盐酸 [0016], but the drawn label names no particular acid, so it is recorded as written and left unresolved rather than merged onto hydrochloric acid.",
     "id": "CN109678767A_酸",
-    "compound_uuid": "27594a13-4570-5fb3-aa86-c2190b9988e9"
+    "compound_uuid": "27594a13-4570-5fb3-aa86-c2190b9988e9",
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   }
 ]

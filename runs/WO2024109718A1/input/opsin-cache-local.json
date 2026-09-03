@@ -1,0 +1,1941 @@
+{
+ "reader": "OPSIN 2.9.0, pipeline/vendor/opsin-core-2.9.0.jar",
+ "what": "OPSIN's answer for one exact query string, so a re-run needs no jar.",
+ "answers": {
+  "(COCl)2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "(COCl)2 is unparsable due to the following being uninterpretable: (COCl)2 The following was not parseable: COCl)2"
+  },
+  "(VIII)酯化合物": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 酯"
+  },
+  "1,2-dichloroethane": {
+   "status": "SUCCESS",
+   "smiles": "ClCCCl",
+   "message": ""
+  },
+  "1,2-二氯乙烷": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 二"
+  },
+  "1,3-(bis(diphenylphosphino))propane": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Multiple locants without a multiplier: <locant>1,3</locant>"
+  },
+  "1,3-(双二苯基膦)丙烷": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 双"
+  },
+  "1,3-bis(diphenylphosphino)propane": {
+   "status": "SUCCESS",
+   "smiles": "C1(=CC=CC=C1)P(CCCP(C1=CC=CC=C1)C1=CC=CC=C1)C1=CC=CC=C1",
+   "message": ""
+  },
+  "1,3-cyclohexanedione": {
+   "status": "SUCCESS",
+   "smiles": "C1(CC(CCC1)=O)=O",
+   "message": ""
+  },
+  "1,3-双(二苯基膦)丙烷": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 双"
+  },
+  "1,3-环己二酮": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 环"
+  },
+  "1,4-bis(diphenylphosphino)butane": {
+   "status": "SUCCESS",
+   "smiles": "C1(=CC=CC=C1)P(CCCCP(C1=CC=CC=C1)C1=CC=CC=C1)C1=CC=CC=C1",
+   "message": ""
+  },
+  "1,4-diazabicyclo[2.2.2]octane": {
+   "status": "SUCCESS",
+   "smiles": "N12CCN(CC1)CC2",
+   "message": ""
+  },
+  "1,4-dioxane": {
+   "status": "SUCCESS",
+   "smiles": "O1CCOCC1",
+   "message": ""
+  },
+  "1,4-二氧六环": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 二"
+  },
+  "1,4-双(二苯基膦)丁烷": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 双"
+  },
+  "1,8-diazabicyclo[5.4.0]undec-7-ene": {
+   "status": "SUCCESS",
+   "smiles": "N12CCCCCC2=NCCC1",
+   "message": ""
+  },
+  "1,8-diazabicycloundec-7-ene": {
+   "status": "SUCCESS",
+   "smiles": "N1(CCCCCC=NCCC1)C1CCCCCCCCCC1",
+   "message": ""
+  },
+  "1,8-二氮杂二环十一碳-7-烯": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 二"
+  },
+  "1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C=CC(=C1C)SC)C(C)=O",
+   "message": ""
+  },
+  "1-[2-chloro-4-(methanesulfonyl)-3-methylphenyl]ethan-1-one": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C=CC(=C1C)S(=O)(=O)C)C(C)=O",
+   "message": ""
+  },
+  "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene": {
+   "status": "SUCCESS",
+   "smiles": "BrC1=C(C(=C(C=C1)S(=O)(=O)C)C)Cl",
+   "message": ""
+  },
+  "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene": {
+   "status": "SUCCESS",
+   "smiles": "BrC1=C(C(=C(C=C1)SC)C)Cl",
+   "message": ""
+  },
+  "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene": {
+   "status": "SUCCESS",
+   "smiles": "BrC1=C(C(=C(C=C1)S(=O)(=O)C)COCC(F)(F)F)Cl",
+   "message": ""
+  },
+  "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene": {
+   "status": "SUCCESS",
+   "smiles": "BrC1=C(C(=C(C=C1)S(=O)(=O)C)CBr)Cl",
+   "message": ""
+  },
+  "1-chloro-2-methyl-3-(methylsulfanyl)benzene": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=CC=C1)SC)C",
+   "message": ""
+  },
+  "2,2,2-trifluoroethanol": {
+   "status": "SUCCESS",
+   "smiles": "FC(CO)(F)F",
+   "message": ""
+  },
+  "2-[2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl]cyclohexane-1,3-dione": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)C2C(CCCC2=O)=O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)Cl)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-chloro-4-(methanesulfonyl)-3-methylbenzoic acid": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)O)C=CC(=C1C)S(=O)(=O)C",
+   "message": ""
+  },
+  "2-chloro-6-(methylthio)toluene": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C)C(=CC=C1)SC",
+   "message": ""
+  },
+  "2-dicyclohexylphosphino-2',6'-dimethoxybiphenyl": {
+   "status": "SUCCESS",
+   "smiles": "C1(CCCCC1)P(C1=C(C=CC=C1)C1=C(C=CC=C1OC)OC)C1CCCCC1",
+   "message": ""
+  },
+  "2-hydroxy-2-methylpropanenitrile": {
+   "status": "SUCCESS",
+   "smiles": "OC(C#N)(C)C",
+   "message": ""
+  },
+  "2-双环己基膦-2',6'-二甲氧基联苯": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 双"
+  },
+  "3-chloro-2-methylaniline": {
+   "status": "SUCCESS",
+   "smiles": "ClC=1C(=C(N)C=CC1)C",
+   "message": ""
+  },
+  "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)OC2=CC(CCC2)=O)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "message": ""
+  },
+  "3-氯-2-甲基苯胺": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 氯"
+  },
+  "4,5-bis(diphenylphosphino)-9,9-dimethylxanthene": {
+   "status": "SUCCESS",
+   "smiles": "C1(=CC=CC=C1)P(C1=CC=CC=2C(C3=CC=CC(=C3OC12)P(C1=CC=CC=C1)C1=CC=CC=C1)(C)C)C1=CC=CC=C1",
+   "message": ""
+  },
+  "4,5-双二苯基膦-9,9-二甲基氧杂蒽": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 双"
+  },
+  "AIBN": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "AIBN is unparsable due to the following being uninterpretable: AIBN The following was not parseable: AIBN"
+  },
+  "AlCl3": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "AlCl3 is unparsable due to the following being uninterpretable: AlCl3 The following was not parseable: AlCl3"
+  },
+  "Amphos": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Amphos is unparsable due to the following being uninterpretable: Amphos The following was not parseable: Amphos"
+  },
+  "BBWCBPYXCNCYAT-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "BBWCBPYXCNCYAT-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: BBWCBPYXCNCYAT-UHFFFAOYSA-N The following was not parseable: BBWCBPYXCNCYAT-UHFFFAOYSA-N"
+  },
+  "BPO": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "BPO is unparsable due to the following being uninterpretable: BPO The following was not parseable: BPO"
+  },
+  "Br2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Br2 is unparsable due to the following being uninterpretable: Br2 The following was not parseable: "
+  },
+  "C10H10BrClO4S": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C10H10BrClO4S is unparsable due to the following being uninterpretable: C10H10BrClO4S The following was not parseable: H10BrClO4S"
+  },
+  "C10H11ClO3S": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C10H11ClO3S is unparsable due to the following being uninterpretable: C10H11ClO3S The following was not parseable: H11ClO3S"
+  },
+  "C10H11ClO4S": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C10H11ClO4S is unparsable due to the following being uninterpretable: C10H11ClO4S The following was not parseable: H11ClO4S"
+  },
+  "C10H11ClOS": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C10H11ClOS is unparsable due to the following being uninterpretable: C10H11ClOS The following was not parseable: H11ClOS"
+  },
+  "C12H12ClF3O5S": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C12H12ClF3O5S is unparsable due to the following being uninterpretable: C12H12ClF3O5S The following was not parseable: H12ClF3O5S"
+  },
+  "C17H16ClF3O6S": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C17H16ClF3O6S is unparsable due to the following being uninterpretable: C17H16ClF3O6S The following was not parseable: H16ClF3O6S"
+  },
+  "C6H8O2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C6H8O2 is unparsable due to the following being uninterpretable: C6H8O2 The following was not parseable: H8O2"
+  },
+  "C7H6Cl2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C7H6Cl2 is unparsable due to the following being uninterpretable: C7H6Cl2 The following was not parseable: H6Cl2"
+  },
+  "C7H8ClN": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C7H8ClN is unparsable due to the following being uninterpretable: C7H8ClN The following was not parseable: H8ClN"
+  },
+  "C8H9ClS": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C8H9ClS is unparsable due to the following being uninterpretable: C8H9ClS The following was not parseable: H9ClS"
+  },
+  "C9H9ClO4S": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C9H9ClO4S is unparsable due to the following being uninterpretable: C9H9ClO4S The following was not parseable: H9ClO4S"
+  },
+  "CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl is unparsable due to the following being uninterpretable: CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl The following was not parseable: CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl"
+  },
+  "CCl4": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CCl4 is unparsable due to the following being uninterpretable: CCl4 The following was not parseable: CCl4"
+  },
+  "CDCl3": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CDCl3 is unparsable due to the following being uninterpretable: CDCl3 The following was not parseable: CDCl3"
+  },
+  "CF3CH2OK": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CF3CH2OK is unparsable due to the following being uninterpretable: CF3CH2OK The following was not parseable: CF3CH2OK"
+  },
+  "CF3CH2OM": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CF3CH2OM is unparsable due to the following being uninterpretable: CF3CH2OM The following was not parseable: CF3CH2OM"
+  },
+  "CF3CH2ONa": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CF3CH2ONa is unparsable due to the following being uninterpretable: CF3CH2ONa The following was not parseable: CF3CH2ONa"
+  },
+  "CH3COCl": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CH3COCl is unparsable due to the following being uninterpretable: CH3COCl The following was not parseable: CH3COCl"
+  },
+  "CH3OH": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CH3OH is unparsable due to the following being uninterpretable: CH3OH The following was not parseable: CH3OH"
+  },
+  "CH3SNa": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CH3SNa is unparsable due to the following being uninterpretable: CH3SNa The following was not parseable: CH3SNa"
+  },
+  "CO": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CO is unparsable due to the following being uninterpretable: CO The following was not parseable: CO"
+  },
+  "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl is unparsable due to the following being uninterpretable: COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl The following was not parseable: COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl"
+  },
+  "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl is unparsable due to the following being uninterpretable: COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl The following was not parseable: COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl"
+  },
+  "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl is unparsable due to the following being uninterpretable: COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl The following was not parseable: COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl"
+  },
+  "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr is unparsable due to the following being uninterpretable: CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr The following was not parseable: CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr"
+  },
+  "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F is unparsable due to the following being uninterpretable: CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F The following was not parseable: CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F"
+  },
+  "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F is unparsable due to the following being uninterpretable: CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F The following was not parseable: CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F"
+  },
+  "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F is unparsable due to the following being uninterpretable: CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F The following was not parseable: CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F"
+  },
+  "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F is unparsable due to the following being uninterpretable: CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F The following was not parseable: CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F"
+  },
+  "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F is unparsable due to the following being uninterpretable: CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F The following was not parseable: CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F"
+  },
+  "CSc1ccc(Br)c(Cl)c1C": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CSc1ccc(Br)c(Cl)c1C is unparsable due to the following being uninterpretable: CSc1ccc(Br)c(Cl)c1C The following was not parseable: CSc1ccc(Br)c(Cl)c1C"
+  },
+  "CSc1ccc(C(C)=O)c(Cl)c1C": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CSc1ccc(C(C)=O)c(Cl)c1C is unparsable due to the following being uninterpretable: CSc1ccc(C(C)=O)c(Cl)c1C The following was not parseable: CSc1ccc(C(C)=O)c(Cl)c1C"
+  },
+  "CSc1cccc(Cl)c1C": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CSc1cccc(Cl)c1C is unparsable due to the following being uninterpretable: CSc1cccc(Cl)c1C The following was not parseable: CSc1cccc(Cl)c1C"
+  },
+  "Cc1c(Cl)cccc1Cl": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Cc1c(Cl)cccc1Cl is unparsable due to the following being uninterpretable: Cc1c(Cl)cccc1Cl The following was not parseable: Cc1c(Cl)cccc1Cl"
+  },
+  "Cc1c(N)cccc1Cl": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Cc1c(N)cccc1Cl is unparsable due to the following being uninterpretable: Cc1c(N)cccc1Cl The following was not parseable: Cc1c(N)cccc1Cl"
+  },
+  "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl is unparsable due to the following being uninterpretable: Cc1c(S(C)(=O)=O)ccc(Br)c1Cl The following was not parseable: Cc1c(S(C)(=O)=O)ccc(Br)c1Cl"
+  },
+  "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl is unparsable due to the following being uninterpretable: Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl The following was not parseable: Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl"
+  },
+  "ClCCCl": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "ClCCCl is unparsable due to the following being uninterpretable: ClCCCl The following was not parseable: ClCCCl"
+  },
+  "CsCO₃": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CsCO3 is unparsable due to the following being uninterpretable: CsCO3 The following was not parseable: CsCO3"
+  },
+  "DABCO": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "DABCO is unparsable due to the following being uninterpretable: DABCO The following was not parseable: ABCO"
+  },
+  "DBU": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "DBU is unparsable due to the following being uninterpretable: DBU The following was not parseable: BU"
+  },
+  "DIPEA": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "DIPEA is unparsable due to the following being uninterpretable: DIPEA The following was not parseable: PEA"
+  },
+  "DMAC": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "DMAC is unparsable due to the following being uninterpretable: DMAC The following was not parseable: MAC"
+  },
+  "DME": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "DME is unparsable due to the following being uninterpretable: DME The following was not parseable: ME"
+  },
+  "DMEDNTFWIHCBRK-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "DMEDNTFWIHCBRK-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: DMEDNTFWIHCBRK-UHFFFAOYSA-N The following was not parseable: MEDNTFWIHCBRK-UHFFFAOYSA-N"
+  },
+  "DMF": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "DMF is unparsable due to the following being uninterpretable: DMF The following was not parseable: MF"
+  },
+  "DMSO": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "DMSO is unparsable due to the following being uninterpretable: DMSO The following was not parseable: MSO"
+  },
+  "Et3N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Et3N is unparsable due to the following being uninterpretable: Et3N The following was not parseable: t3N"
+  },
+  "H2O": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "H2O is unparsable due to the following being uninterpretable: H2O The following was not parseable: H2O"
+  },
+  "H2O2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "H2O2 is unparsable due to the following being uninterpretable: H2O2 The following was not parseable: H2O2"
+  },
+  "HBr": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Group expected to be part of a salt but only one component found. Could be a class of compound: hbr"
+  },
+  "HCl": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Group expected to be part of a salt but only one component found. Could be a class of compound: hcl"
+  },
+  "HJSLFCCWAKVHIW-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "HJSLFCCWAKVHIW-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: HJSLFCCWAKVHIW-UHFFFAOYSA-N The following was not parseable: HJSLFCCWAKVHIW-UHFFFAOYSA-N"
+  },
+  "I": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "I is unparsable due to the following being uninterpretable: I The following was not parseable: I"
+  },
+  "II": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "II is unparsable due to the following being uninterpretable: II The following was not parseable: II"
+  },
+  "III": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "III is unparsable due to the following being uninterpretable: III The following was not parseable: III"
+  },
+  "IUQAXCIUEPFPSF-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "IUQAXCIUEPFPSF-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: IUQAXCIUEPFPSF-UHFFFAOYSA-N The following was not parseable: IUQAXCIUEPFPSF-UHFFFAOYSA-N"
+  },
+  "IV": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "IV is unparsable due to the following being uninterpretable: IV The following was not parseable: IV"
+  },
+  "K2CO3": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "K2CO3 is unparsable due to the following being uninterpretable: K2CO3 The following was not parseable: CO3"
+  },
+  "K3PO4": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "K3PO4 is unparsable due to the following being uninterpretable: K3PO4 The following was not parseable: PO4"
+  },
+  "KLJPFWVJHXRIPL-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "KLJPFWVJHXRIPL-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: KLJPFWVJHXRIPL-UHFFFAOYSA-N The following was not parseable: KLJPFWVJHXRIPL-UHFFFAOYSA-N"
+  },
+  "N,N-diisopropylethylamine": {
+   "status": "SUCCESS",
+   "smiles": "C(C)(C)N(C(C)C)CC",
+   "message": ""
+  },
+  "N,N-dimethylacetamide": {
+   "status": "SUCCESS",
+   "smiles": "CN(C(C)=O)C",
+   "message": ""
+  },
+  "N,N-dimethylformamide": {
+   "status": "SUCCESS",
+   "smiles": "CN(C=O)C",
+   "message": ""
+  },
+  "N,N-二异丙基乙胺": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 二"
+  },
+  "N,N-二甲基乙酰胺": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 二"
+  },
+  "N,N-二甲基甲酰胺": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 二"
+  },
+  "N-bromosuccinimide": {
+   "status": "SUCCESS",
+   "smiles": "BrN1C(CCC1=O)=O",
+   "message": ""
+  },
+  "N-溴代丁二酰亚胺": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 溴"
+  },
+  "N2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "N2 is unparsable due to the following being uninterpretable: N2 The following was not parseable: "
+  },
+  "NBS": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "NBS is unparsable due to the following being uninterpretable: NBS The following was not parseable: NBS"
+  },
+  "NOVXMMYMACDLHC-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "NOVXMMYMACDLHC-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: NOVXMMYMACDLHC-UHFFFAOYSA-N The following was not parseable: NOVXMMYMACDLHC-UHFFFAOYSA-N"
+  },
+  "Na2CO3": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Na2CO3 is unparsable due to the following being uninterpretable: Na2CO3 The following was not parseable: CO3"
+  },
+  "NaClO": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "NaClO is unparsable due to the following being uninterpretable: NaClO The following was not parseable: NaClO"
+  },
+  "NaH": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "NaH is unparsable due to the following being uninterpretable: NaH The following was not parseable: NaH"
+  },
+  "NaNO2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "NaNO2 is unparsable due to the following being uninterpretable: NaNO2 The following was not parseable: NaNO2"
+  },
+  "NaOH": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "NaOH is unparsable due to the following being uninterpretable: NaOH The following was not parseable: NaOH"
+  },
+  "NaOH水溶液": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 水"
+  },
+  "O=C1CCCC(=O)C1": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "O=C1CCCC(=O)C1 is unparsable due to the following being uninterpretable: O=C1CCCC(=O)C1 The following was not parseable: O=C1CCCC(=O)C1"
+  },
+  "Pd(Amphos)2Cl2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Pd(Amphos)2Cl2 is unparsable due to the following being uninterpretable: Pd(Amphos)2Cl2 The following was not parseable: Pd(Amphos)2Cl2"
+  },
+  "Pd(OAc)2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Pd(OAc)2 is unparsable due to the following being uninterpretable: Pd(OAc)2 The following was not parseable: Pd(OAc)2"
+  },
+  "Pd(OTFA)2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Pd(OTFA)2 is unparsable due to the following being uninterpretable: Pd(OTFA)2 The following was not parseable: Pd(OTFA)2"
+  },
+  "Pd(dba)2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Pd(dba)2 is unparsable due to the following being uninterpretable: Pd(dba)2 The following was not parseable: Pd(dba)2"
+  },
+  "Pd/C": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Pd/C is unparsable due to the following being uninterpretable: Pd/C The following was not parseable: Pd/C"
+  },
+  "PdCO3": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "PdCO3 is unparsable due to the following being uninterpretable: PdCO3 The following was not parseable: PdCO3"
+  },
+  "PdCl2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "PdCl2 is unparsable due to the following being uninterpretable: PdCl2 The following was not parseable: PdCl2"
+  },
+  "PdCl2催化剂": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 催"
+  },
+  "PdCl₂": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "PdCl2 is unparsable due to the following being uninterpretable: PdCl2 The following was not parseable: PdCl2"
+  },
+  "QNMYJMZVOFQIRD-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "QNMYJMZVOFQIRD-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: QNMYJMZVOFQIRD-UHFFFAOYSA-N The following was not parseable: QNMYJMZVOFQIRD-UHFFFAOYSA-N"
+  },
+  "RRFGGUXLGOVPOP-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "RRFGGUXLGOVPOP-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: RRFGGUXLGOVPOP-UHFFFAOYSA-N The following was not parseable: RFGGUXLGOVPOP-UHFFFAOYSA-N"
+  },
+  "SOCl2": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "SOCl2 is unparsable due to the following being uninterpretable: SOCl2 The following was not parseable: SOCl2"
+  },
+  "SPhos": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "SPhos is unparsable due to the following being uninterpretable: SPhos The following was not parseable: SPhos"
+  },
+  "THF": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "THF is unparsable due to the following being uninterpretable: THF The following was not parseable: THF"
+  },
+  "V": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "V is unparsable due to the following being uninterpretable: V The following was not parseable: V"
+  },
+  "Xantphos": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Xantphos is unparsable due to the following being uninterpretable: Xantphos The following was not parseable: Xantphos"
+  },
+  "YQYVOGFWLVVXMM-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "YQYVOGFWLVVXMM-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: YQYVOGFWLVVXMM-UHFFFAOYSA-N The following was not parseable: YQYVOGFWLVVXMM-UHFFFAOYSA-N"
+  },
+  "ZSHNSXSONOHWNB-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "ZSHNSXSONOHWNB-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: ZSHNSXSONOHWNB-UHFFFAOYSA-N The following was not parseable: SHNSXSONOHWNB-UHFFFAOYSA-N"
+  },
+  "ZUVPLKVDZNDZCM-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "ZUVPLKVDZNDZCM-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: ZUVPLKVDZNDZCM-UHFFFAOYSA-N The following was not parseable: UVPLKVDZNDZCM-UHFFFAOYSA-N"
+  },
+  "acetic acid": {
+   "status": "SUCCESS",
+   "smiles": "C(C)(=O)O",
+   "message": ""
+  },
+  "acetone cyanohydrin": {
+   "status": "SUCCESS",
+   "smiles": "CC(C#N)(O)C",
+   "message": ""
+  },
+  "acetonitrile": {
+   "status": "SUCCESS",
+   "smiles": "C(C)#N",
+   "message": ""
+  },
+  "acetyl chloride": {
+   "status": "SUCCESS",
+   "smiles": "C(C)(=O)Cl",
+   "message": ""
+  },
+  "acid-binding agent": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "acid-binding agent is unparsable due to the following being uninterpretable: acid-binding agent The following was not parseable: acid-binding agent"
+  },
+  "alkali": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "alkali is unparsable due to the following being uninterpretable: alkali The following was not parseable: alkali"
+  },
+  "alkali solution": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "alkali solution is unparsable due to the following being uninterpretable: alkali solution The following was not parseable: alkali solution"
+  },
+  "aluminium trichloride": {
+   "status": "SUCCESS",
+   "smiles": "[Al](Cl)(Cl)Cl",
+   "message": ""
+  },
+  "amide": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "amide could be parsed but OPSIN was unsure of the meaning of the words. This error will occur, by default, if a name is just a substituent"
+  },
+  "amide solvent (class)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "amide solvent (class) is unparsable due to the following being uninterpretable: solvent (class) The following was not parseable: solvent (class)"
+  },
+  "ammonium": {
+   "status": "SUCCESS",
+   "smiles": "[NH4+]",
+   "message": ""
+  },
+  "ammonium salt": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "ammonium salt is apparently a salt, but the name only contained one component. The name could be describing a class of compounds"
+  },
+  "ammonium salt of the tungstate/vanadate catalyst": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "ammonium salt of the tungstate/vanadate catalyst is unparsable due to the following being uninterpretable: of the tungstate/vanadate catalyst The following was not parseable: of the tungstate/vanadate catalyst"
+  },
+  "aromatic hydrocarbon": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "aromatic hydrocarbon is unparsable due to the following being uninterpretable: aromatic hydrocarbon The following was not parseable: aromatic hydrocarbon"
+  },
+  "aromatic hydrocarbon solvent (class)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "aromatic hydrocarbon solvent (class) is unparsable due to the following being uninterpretable: aromatic hydrocarbon solvent (class) The following was not parseable: aromatic hydrocarbon solvent (class)"
+  },
+  "azobisisobutyronitrile": {
+   "status": "SUCCESS",
+   "smiles": "N(=NC(C#N)(C)C)C(C#N)(C)C",
+   "message": ""
+  },
+  "benzoyl peroxide": {
+   "status": "SUCCESS",
+   "smiles": "C(C1=CC=CC=C1)(=O)OOC(C1=CC=CC=C1)=O",
+   "message": ""
+  },
+  "bis(dibenzylideneacetone)palladium": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "bis(dibenzylideneacetone)palladium is unparsable due to the following being uninterpretable: palladium The following was not parseable: palladium"
+  },
+  "bis(dibenzylideneacetone)palladium(0)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "bis(dibenzylideneacetone)palladium(0) is unparsable due to the following being uninterpretable: palladium(0) The following was not parseable: palladium(0)"
+  },
+  "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Cannot find in scope fragment with atom with locant N4."
+  },
+  "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Cannot find in scope fragment with atom with locant N4."
+  },
+  "bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine": {
+   "status": "WARNING",
+   "smiles": "CN(C)C1=CC=C(C=C1)C(C(C)(C)PC(C)(C)C)C1=CC=C(C=C1)N(C)C",
+   "message": "APPEARS_AMBIGUOUS: Connection of phenyl to but"
+  },
+  "bis[di-tert-butyl(4-dimethylaminophenyl)phosphine]palladium dichloride": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "bis[di-tert-butyl(4-dimethylaminophenyl)phosphine]palladium dichloride is unparsable due to the following being uninterpretable: palladium dichloride The following was not parseable: palladium dichloride"
+  },
+  "brine": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "brine is unparsable due to the following being uninterpretable: brine The following was not parseable: brine"
+  },
+  "brominating": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "brominating is unparsable due to the following being uninterpretable: brominating The following was not parseable: inating"
+  },
+  "brominating reagent": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "brominating reagent is unparsable due to the following being uninterpretable: brominating reagent The following was not parseable: inating reagent"
+  },
+  "bromine": {
+   "status": "SUCCESS",
+   "smiles": "[Br]",
+   "message": ""
+  },
+  "carbon monoxide": {
+   "status": "SUCCESS",
+   "smiles": "[C]=O",
+   "message": ""
+  },
+  "carbon tetrachloride": {
+   "status": "SUCCESS",
+   "smiles": "C(Cl)(Cl)(Cl)Cl",
+   "message": ""
+  },
+  "cesium carbonate": {
+   "status": "SUCCESS",
+   "smiles": "C([O-])([O-])=O.[Cs+].[Cs+]",
+   "message": ""
+  },
+  "chloroform-d": {
+   "status": "SUCCESS",
+   "smiles": "C(Cl)(Cl)(Cl)[2H]",
+   "message": ""
+  },
+  "cobalt": {
+   "status": "SUCCESS",
+   "smiles": "[Co]",
+   "message": ""
+  },
+  "compound of formula": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "compound of formula is unparsable due to the following being uninterpretable: compound of formula The following was not parseable: compound of formula"
+  },
+  "compound of formula (VI)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "compound of formula (VI) is unparsable due to the following being uninterpretable: compound of formula (VI) The following was not parseable: compound of formula (VI)"
+  },
+  "copper": {
+   "status": "SUCCESS",
+   "smiles": "[Cu]",
+   "message": ""
+  },
+  "cyanide-type catalyst": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "cyanide-type catalyst is unparsable due to the following being uninterpretable: type catalyst The following was not parseable: type catalyst"
+  },
+  "cyclohexane-1,3-dione": {
+   "status": "SUCCESS",
+   "smiles": "C1(CC(CCC1)=O)=O",
+   "message": ""
+  },
+  "cyclosulfonone": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "cyclosulfonone is unparsable due to the following being uninterpretable: none The following was not parseable: e"
+  },
+  "deuterated chloroform": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "deuterated chloroform is unparsable due to the following being uninterpretable: deuterated chloroform The following was not parseable: euterated chloroform"
+  },
+  "di-tert-butyl(4-dimethylaminophenyl)phosphine": {
+   "status": "SUCCESS",
+   "smiles": "C(C)(C)(C)P(C1=CC=C(C=C1)N(C)C)C(C)(C)C",
+   "message": ""
+  },
+  "diazonium": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "diazonium is unparsable due to the following being uninterpretable: nium The following was not parseable: ium"
+  },
+  "diazonium salt": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "diazonium salt is unparsable due to the following being uninterpretable: nium salt The following was not parseable: ium salt"
+  },
+  "dichloroethane": {
+   "status": "WARNING",
+   "smiles": "ClC(C)Cl",
+   "message": "APPEARS_AMBIGUOUS: Connection of chloro to eth"
+  },
+  "dichloromethane": {
+   "status": "SUCCESS",
+   "smiles": "ClCCl",
+   "message": ""
+  },
+  "dichlorotoluene": {
+   "status": "WARNING",
+   "smiles": "ClC(C1=CC=CC=C1)Cl",
+   "message": "APPEARS_AMBIGUOUS: Connection of chloro to toluen"
+  },
+  "diethyl ether": {
+   "status": "SUCCESS",
+   "smiles": "C(C)OCC",
+   "message": ""
+  },
+  "dimethyl sulfoxide": {
+   "status": "SUCCESS",
+   "smiles": "CS(=O)C",
+   "message": ""
+  },
+  "dioxane": {
+   "status": "SUCCESS",
+   "smiles": "O1CCOCC1",
+   "message": ""
+  },
+  "dppb": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "dppb is unparsable due to the following being uninterpretable: dppb The following was not parseable: ppb"
+  },
+  "dppp": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "dppp is unparsable due to the following being uninterpretable: dppp The following was not parseable: ppp"
+  },
+  "ethanol": {
+   "status": "SUCCESS",
+   "smiles": "C(C)O",
+   "message": ""
+  },
+  "ether": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "ether could be parsed but OPSIN was unsure of the meaning of the words. This error will occur, by default, if a name is just a substituent"
+  },
+  "ether solvent (class)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "ether solvent (class) is unparsable due to the following being uninterpretable: solvent (class) The following was not parseable: solvent (class)"
+  },
+  "ethylene glycol diethyl ether": {
+   "status": "SUCCESS",
+   "smiles": "C(C)OCCOCC",
+   "message": ""
+  },
+  "ethylene glycol dimethyl ether": {
+   "status": "SUCCESS",
+   "smiles": "COCCOC",
+   "message": ""
+  },
+  "formic acid": {
+   "status": "SUCCESS",
+   "smiles": "C(=O)O",
+   "message": ""
+  },
+  "glacial acetic acid": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "glacial acetic acid is unparsable due to the following being uninterpretable: glacial acetic acid The following was not parseable: glacial acetic acid"
+  },
+  "haloform": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "haloform is unparsable due to the following being uninterpretable: haloform The following was not parseable: haloform"
+  },
+  "hydrochloric acid": {
+   "status": "SUCCESS",
+   "smiles": "Cl",
+   "message": ""
+  },
+  "hydrogen bromide": {
+   "status": "SUCCESS",
+   "smiles": "Br",
+   "message": ""
+  },
+  "hydrogen chloride": {
+   "status": "SUCCESS",
+   "smiles": "Cl",
+   "message": ""
+  },
+  "hydrogen peroxide": {
+   "status": "SUCCESS",
+   "smiles": "OO",
+   "message": ""
+  },
+  "ligand": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "ligand is unparsable due to the following being uninterpretable: ligand The following was not parseable: igand"
+  },
+  "metatungstate": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "metatungstate is unparsable due to the following being uninterpretable: metatungstate The following was not parseable: te"
+  },
+  "metavanadate": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "metavanadate is unparsable due to the following being uninterpretable: metavanadate The following was not parseable: te"
+  },
+  "methanol": {
+   "status": "SUCCESS",
+   "smiles": "CO",
+   "message": ""
+  },
+  "methyl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)OC)C=CC(=C1COCC(F)(F)F)S(=O)(=O)C",
+   "message": ""
+  },
+  "methyl 2-chloro-4-(methanesulfonyl)-3-methylbenzoate": {
+   "status": "SUCCESS",
+   "smiles": "ClC1=C(C(=O)OC)C=CC(=C1C)S(=O)(=O)C",
+   "message": ""
+  },
+  "methyl 3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzoate": {
+   "status": "SUCCESS",
+   "smiles": "BrCC=1C(=C(C(=O)OC)C=CC1S(=O)(=O)C)Cl",
+   "message": ""
+  },
+  "nitrogen": {
+   "status": "SUCCESS",
+   "smiles": "[N]",
+   "message": ""
+  },
+  "oxalyl chloride": {
+   "status": "SUCCESS",
+   "smiles": "C(C(=O)Cl)(=O)Cl",
+   "message": ""
+  },
+  "palladium": {
+   "status": "SUCCESS",
+   "smiles": "[Pd]",
+   "message": ""
+  },
+  "palladium carbonate": {
+   "status": "SUCCESS",
+   "smiles": "C([O-])([O-])=O.[Pd+2]",
+   "message": ""
+  },
+  "palladium catalyst": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "palladium catalyst is unparsable due to the following being uninterpretable: catalyst The following was not parseable: catalyst"
+  },
+  "palladium on carbon": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "palladium on carbon is unparsable due to the following being uninterpretable: on carbon The following was not parseable: on carbon"
+  },
+  "palladium(II) acetate": {
+   "status": "SUCCESS",
+   "smiles": "C(C)(=O)[O-].[Pd+2].C(C)(=O)[O-]",
+   "message": ""
+  },
+  "palladium(II) carbonate": {
+   "status": "SUCCESS",
+   "smiles": "C([O-])([O-])=O.[Pd+2]",
+   "message": ""
+  },
+  "palladium(II) chloride": {
+   "status": "SUCCESS",
+   "smiles": "[Pd](Cl)Cl",
+   "message": ""
+  },
+  "palladium(II) trifluoroacetate": {
+   "status": "SUCCESS",
+   "smiles": "FC(C(=O)[O-])(F)F.[Pd+2].FC(C(=O)[O-])(F)F",
+   "message": ""
+  },
+  "phosphine ligand or a salt thereof": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "phosphine ligand or a salt thereof is unparsable due to the following being uninterpretable: ligand or a salt thereof The following was not parseable: igand or a salt thereof"
+  },
+  "potassium": {
+   "status": "SUCCESS",
+   "smiles": "[K]",
+   "message": ""
+  },
+  "potassium 2,2,2-trifluoroethoxide": {
+   "status": "SUCCESS",
+   "smiles": "FC(C[O-])(F)F.[K+]",
+   "message": ""
+  },
+  "potassium carbonate": {
+   "status": "SUCCESS",
+   "smiles": "C([O-])([O-])=O.[K+].[K+]",
+   "message": ""
+  },
+  "potassium hydride": {
+   "status": "SUCCESS",
+   "smiles": "[H-].[K+]",
+   "message": ""
+  },
+  "potassium hydroxide": {
+   "status": "SUCCESS",
+   "smiles": "[OH-].[K+]",
+   "message": ""
+  },
+  "potassium methoxide": {
+   "status": "SUCCESS",
+   "smiles": "C[O-].[K+]",
+   "message": ""
+  },
+  "potassium phosphate": {
+   "status": "SUCCESS",
+   "smiles": "P(=O)([O-])([O-])[O-].[K+].[K+].[K+]",
+   "message": ""
+  },
+  "potassium salt": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "potassium salt is apparently a salt, but the name only contained one component. The name could be describing a class of compounds"
+  },
+  "potassium salt of the tungstate/vanadate catalyst": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "potassium salt of the tungstate/vanadate catalyst is unparsable due to the following being uninterpretable: of the tungstate/vanadate catalyst The following was not parseable: of the tungstate/vanadate catalyst"
+  },
+  "rhodium": {
+   "status": "SUCCESS",
+   "smiles": "[Rh]",
+   "message": ""
+  },
+  "ruthenium": {
+   "status": "SUCCESS",
+   "smiles": "[Ru]",
+   "message": ""
+  },
+  "saturated aqueous sodium chloride": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "saturated aqueous sodium chloride is unparsable due to the following being uninterpretable: saturated aqueous sodium chloride The following was not parseable: saturated aqueous sodium chloride"
+  },
+  "saturated brine": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "saturated brine is unparsable due to the following being uninterpretable: saturated brine The following was not parseable: saturated brine"
+  },
+  "sodium": {
+   "status": "SUCCESS",
+   "smiles": "[Na]",
+   "message": ""
+  },
+  "sodium 2,2,2-trifluoroethoxide": {
+   "status": "SUCCESS",
+   "smiles": "FC(C[O-])(F)F.[Na+]",
+   "message": ""
+  },
+  "sodium carbonate": {
+   "status": "SUCCESS",
+   "smiles": "C([O-])([O-])=O.[Na+].[Na+]",
+   "message": ""
+  },
+  "sodium chloride": {
+   "status": "SUCCESS",
+   "smiles": "[Cl-].[Na+]",
+   "message": ""
+  },
+  "sodium hydride": {
+   "status": "SUCCESS",
+   "smiles": "[H-].[Na+]",
+   "message": ""
+  },
+  "sodium hydroxide": {
+   "status": "SUCCESS",
+   "smiles": "[OH-].[Na+]",
+   "message": ""
+  },
+  "sodium hypochlorite": {
+   "status": "SUCCESS",
+   "smiles": "Cl[O-].[Na+]",
+   "message": ""
+  },
+  "sodium methanethiolate": {
+   "status": "SUCCESS",
+   "smiles": "C[S-].[Na+]",
+   "message": ""
+  },
+  "sodium methoxide": {
+   "status": "SUCCESS",
+   "smiles": "C[O-].[Na+]",
+   "message": ""
+  },
+  "sodium nitrite": {
+   "status": "SUCCESS",
+   "smiles": "N(=O)[O-].[Na+]",
+   "message": ""
+  },
+  "sodium salt": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "sodium salt is apparently a salt, but the name only contained one component. The name could be describing a class of compounds"
+  },
+  "sodium salt of the tungstate/vanadate catalyst": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "sodium salt of the tungstate/vanadate catalyst is unparsable due to the following being uninterpretable: of the tungstate/vanadate catalyst The following was not parseable: of the tungstate/vanadate catalyst"
+  },
+  "sodium thiomethoxide": {
+   "status": "SUCCESS",
+   "smiles": "C[S-].[Na+]",
+   "message": ""
+  },
+  "sodium tungstate dihydrate": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "sodium tungstate dihydrate is unparsable due to the following being uninterpretable: tungstate dihydrate The following was not parseable: te dihydrate"
+  },
+  "sulfoxide": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "sulfoxide could be parsed but OPSIN was unsure of the meaning of the words. This error will occur, by default, if a name is just a substituent"
+  },
+  "sulfoxide solvent (class)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "sulfoxide solvent (class) is unparsable due to the following being uninterpretable: solvent (class) The following was not parseable: solvent (class)"
+  },
+  "tembotrione": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "tembotrione is unparsable due to the following being uninterpretable: tembotrione The following was not parseable: tembotrione"
+  },
+  "tetrachloromethane": {
+   "status": "SUCCESS",
+   "smiles": "ClC(Cl)(Cl)Cl",
+   "message": ""
+  },
+  "tetrahydrofuran": {
+   "status": "SUCCESS",
+   "smiles": "O1CCCC1",
+   "message": ""
+  },
+  "thionyl chloride": {
+   "status": "SUCCESS",
+   "smiles": "S(=O)(Cl)Cl",
+   "message": ""
+  },
+  "toluene": {
+   "status": "SUCCESS",
+   "smiles": "CC1=CC=CC=C1",
+   "message": ""
+  },
+  "triethylamine": {
+   "status": "SUCCESS",
+   "smiles": "C(C)N(CC)CC",
+   "message": ""
+  },
+  "triethylamine hydrobromide": {
+   "status": "SUCCESS",
+   "smiles": "Br.C(C)N(CC)CC",
+   "message": ""
+  },
+  "triethylenediamine": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Invalid polyethylene amine!"
+  },
+  "trifluoroethanol": {
+   "status": "WARNING",
+   "smiles": "FC(CO)(F)F",
+   "message": "APPEARS_AMBIGUOUS: Connection of fluoro to eth"
+  },
+  "triketone": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "triketone could be parsed but OPSIN was unsure of the meaning of the words. This error will occur, by default, if a name is just a substituent"
+  },
+  "tungstate": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "tungstate is unparsable due to the following being uninterpretable: tungstate The following was not parseable: te"
+  },
+  "vanadate": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "vanadate is unparsable due to the following being uninterpretable: vanadate The following was not parseable: te"
+  },
+  "water": {
+   "status": "SUCCESS",
+   "smiles": "O",
+   "message": ""
+  },
+  "一氧化碳": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 一"
+  },
+  "三乙撑二胺": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 三"
+  },
+  "三乙胺": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 三"
+  },
+  "三乙胺氢溴酸盐": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 三"
+  },
+  "三氟乙酸钯": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 三"
+  },
+  "三氟乙酸钯[Pd(OTFA)₂]": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 三"
+  },
+  "三氟乙醇": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 三"
+  },
+  "三氟乙醇钠": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 三"
+  },
+  "三氟乙醇钾": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 三"
+  },
+  "三氯化铝": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 三"
+  },
+  "三酮类": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 三"
+  },
+  "丙酮氰醇": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 丙"
+  },
+  "乙二醇二乙醚": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 乙"
+  },
+  "乙二醇二甲醚": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 乙"
+  },
+  "乙腈": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 乙"
+  },
+  "乙酰氯": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 乙"
+  },
+  "乙醇": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 乙"
+  },
+  "乙醚": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 乙"
+  },
+  "二氧六环": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 二"
+  },
+  "二氯乙烷": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 二"
+  },
+  "二氯甲烷": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 二"
+  },
+  "二氯甲苯": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 二"
+  },
+  "二水合钨酸钠": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 二"
+  },
+  "二甲基亚砜": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 二"
+  },
+  "亚砜": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 亚"
+  },
+  "偏钒酸盐": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 偏"
+  },
+  "偏钨酸盐": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 偏"
+  },
+  "偶氮二异丁腈": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 偶"
+  },
+  "冰醋酸": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 冰"
+  },
+  "卤仿": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 卤"
+  },
+  "双[(4-N,N-二甲氨基)苯基]二叔丁基膦": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 双"
+  },
+  "双[(4-N,N-二甲氨基)苯基]二叔丁基膦二氯化钯": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 双"
+  },
+  "双二亚苄基丙酮钯": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 双"
+  },
+  "双二亚苄基丙酮钯[Pd(dba)₂]": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 双"
+  },
+  "双氧水": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 双"
+  },
+  "四氢呋喃": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 四"
+  },
+  "四氯化碳": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 四"
+  },
+  "式(I)化合物": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 式"
+  },
+  "式(II)化合物": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 式"
+  },
+  "式(III)化合物": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 式"
+  },
+  "式(IV)化合物": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 式"
+  },
+  "式(V)化合物": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 式"
+  },
+  "式(VI)化合物": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 式"
+  },
+  "式(VII)化合物": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 式"
+  },
+  "式(VIII)化合物": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 式"
+  },
+  "式(VIII)的酯化合物": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 式"
+  },
+  "次氯酸钠": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 次"
+  },
+  "氢化钠": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 氢"
+  },
+  "氢化钾": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 氢"
+  },
+  "氢氧化钠": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 氢"
+  },
+  "氢氧化钾": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 氢"
+  },
+  "氮气": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 氮"
+  },
+  "氯化亚砜": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 氯"
+  },
+  "氯化钠": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 氯"
+  },
+  "氯化钯": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 氯"
+  },
+  "氯化钯(PdCl₂)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 氯"
+  },
+  "氰类催化剂": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 氰"
+  },
+  "水": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 水"
+  },
+  "溴": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 溴"
+  },
+  "溴代试剂": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 溴"
+  },
+  "溴化氢": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 溴"
+  },
+  "溴素": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 溴"
+  },
+  "溶剂四氢呋喃": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 溶"
+  },
+  "环磺酮": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 环"
+  },
+  "甲苯": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 甲"
+  },
+  "甲酸": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 甲"
+  },
+  "甲醇": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 甲"
+  },
+  "甲醇钠": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 甲"
+  },
+  "甲醇钾": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 甲"
+  },
+  "盐酸": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 盐"
+  },
+  "碱液": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 碱"
+  },
+  "碳酸钠": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 碳"
+  },
+  "碳酸钯": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 碳"
+  },
+  "碳酸钯(PdCO₃)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 碳"
+  },
+  "碳酸钾": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 碳"
+  },
+  "碳酸铯": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 碳"
+  },
+  "磷配体或其盐": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 磷"
+  },
+  "磷酸钾": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 磷"
+  },
+  "缚酸剂": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 缚"
+  },
+  "芳烃": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 芳"
+  },
+  "过氧化苯甲酰": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 过"
+  },
+  "配体": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 配"
+  },
+  "配体1,3-双(二苯基膦)丙烷": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 配"
+  },
+  "酰胺类": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 酰"
+  },
+  "醋酸钯": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 醋"
+  },
+  "醋酸钯[Pd(OAc)₂]": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 醋"
+  },
+  "醚": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 醚"
+  },
+  "重氮盐": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 重"
+  },
+  "钌": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 钌"
+  },
+  "钒酸盐": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 钒"
+  },
+  "钠盐": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 钠"
+  },
+  "钨酸盐": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 钨"
+  },
+  "钯": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 钯"
+  },
+  "钯/碳": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 钯"
+  },
+  "钯/碳(Pd/C)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 钯"
+  },
+  "钯催化剂": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 钯"
+  },
+  "钴": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 钴"
+  },
+  "钾盐": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 钾"
+  },
+  "铑": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 铑"
+  },
+  "铜": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 铜"
+  },
+  "铵盐": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 铵"
+  },
+  "饱和食盐水": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 饱"
+  },
+  "1,3-bis propane": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unable to assign all locants. This locant was not assigned: 1,3 "
+  },
+  "1,8-diazabicyclo undec-7-ene": {
+   "status": "SUCCESS",
+   "smiles": "N1(CCCCCC=NCCC1)C1CCCCCCCCCC1",
+   "message": ""
+  },
+  "4,5-bis -9,9-dimethylxanthene": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "4,5-bis -9,9-dimethylxanthene is unparsable due to the following being uninterpretable: 4,5-bis -9,9-dimethylxanthene The following was not parseable:  -9,9-dimethylxanthene"
+  },
+  "In a more specific embodiment, a palladium catalyst is used; specific examples include but are not limited to palladium chloride , palladium carbonate , palladium acetate , palladium on carbon , palladium trifluoroacetate , bis palladium , and the like, preferably palladium chloride .": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "In a more specific embodiment, a palladium catalyst is used; specific examples include but are not limited to palladium chloride , palladium carbonate , palladium acetate , palladium on carbon , palladium trifluoroacetate , bis palladium , and the like, preferably palladium chloride . is unparsable due to the following being uninterpretable: In a more specific embodiment, a palladium catalyst is used; specific examples include but are not limited to palladium chloride , palladium carbonate , palladium acetate , palladium on carbon , palladium trifluoroacetate , bis palladium , and the like, preferably palladium chloride . The following was not parseable: In a more specific embodiment, a palladium catalyst is used; specific examples include but are not limited to palladium chloride , palladium carbonate , palladium acetate , palladium on carbon , palladium trifluoroacetate , bis palladium , and the like, preferably palladium chloride ."
+  },
+  "In a more specific embodiment, tetrahydrofuran, 1,4-dioxane or diethyl ether is used as the solvent in the above reaction, preferably anhydrous tetrahydrofuran is used as the": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "In a more specific embodiment, tetrahydrofuran, 1,4-dioxane or diethyl ether is used as the solvent in the above reaction, preferably anhydrous tetrahydrofuran is used as the is unparsable due to the following being uninterpretable: In a more specific embodiment, tetrahydrofuran, 1,4-dioxane or diethyl ether is used as the solvent in the above reaction, preferably anhydrous tetrahydrofuran is used as the The following was not parseable: In a more specific embodiment, tetrahydrofuran, 1,4-dioxane or diethyl ether is used as the solvent in the above reaction, preferably anhydrous tetrahydrofuran is used as the"
+  },
+  "In a more specific embodiment, tetrahydrofuran, 1,4-dioxane or diethyl ether is used as the solvent in the above reaction, preferably anhydrous tetrahydrofuran is used as the solvent.": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "In a more specific embodiment, tetrahydrofuran, 1,4-dioxane or diethyl ether is used as the solvent in the above reaction, preferably anhydrous tetrahydrofuran is used as the solvent. is unparsable due to the following being uninterpretable: In a more specific embodiment, tetrahydrofuran, 1,4-dioxane or diethyl ether is used as the solvent in the above reaction, preferably anhydrous tetrahydrofuran is used as the solvent. The following was not parseable: In a more specific embodiment, tetrahydrofuran, 1,4-dioxane or diethyl ether is used as the solvent in the above reaction, preferably anhydrous tetrahydrofuran is used as the solvent."
+  },
+  "Method 2: The solvent was replaced with 300 g of ethylene glycol diethyl ether, everything else being the same as Method 1, to give the ester compound, yield 71.63%.": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Method 2: The solvent was replaced with 300 g of ethylene glycol diethyl ether, everything else being the same as Method 1, to give the ester compound, yield 71.63%. is unparsable due to the following being uninterpretable: Method 2: The solvent was replaced with 300 g of ethylene glycol diethyl ether, everything else being the same as Method 1, to give the ester compound, yield 71.63%. The following was not parseable: d 2: The solvent was replaced with 300 g of ethylene glycol diethyl ether, everything else being the same as Method 1, to give the ester compound, yield 71.63%."
+  },
+  "The phosphine ligand or a salt thereof is preferably 1,3- )propane, 1,4-bis butane, or bis di-tert-butylphosphine.": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unmatched closing bracket found in :The phosphine ligand or a salt thereof is preferably 1,3- )propane, 1,4-bis butane, or bis di-tert-butylphosphine."
+  },
+  "The process according to claim 3, wherein the reaction solvent is one or two or more selected from toluene, 1,4-dioxane, ethylene glycol dimethyl ether, ethylene glycol diethyl ether, dimethyl sulfoxide , tetrahydrofuran , and N,N-dimethylformamide .": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "The process according to claim 3, wherein the reaction solvent is one or two or more selected from toluene, 1,4-dioxane, ethylene glycol dimethyl ether, ethylene glycol diethyl ether, dimethyl sulfoxide , tetrahydrofuran , and N,N-dimethylformamide . is unparsable due to the following being uninterpretable: The process according to claim 3, wherein the reaction solvent is one or two or more selected from toluene, 1,4-dioxane, ethylene glycol dimethyl ether, ethylene glycol diethyl ether, dimethyl sulfoxide , tetrahydrofuran , and N,N-dimethylformamide . The following was not parseable: The process according to claim 3, wherein the reaction solvent is one or two or more selected from toluene, 1,4-dioxane, ethylene glycol dimethyl ether, ethylene glycol diethyl ether, dimethyl sulfoxide , tetrahydrofuran , and N,N-dimethylformamide ."
+  },
+  "VI": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "VI is unparsable due to the following being uninterpretable: VI The following was not parseable: VI"
+  },
+  "VIII": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "VIII is unparsable due to the following being uninterpretable: VIII The following was not parseable: VIII"
+  },
+  "bis di-tert-butylphosphine palladium dichloride": {
+   "status": "SUCCESS",
+   "smiles": "[Pd](Cl)Cl.C(C)(C)(C)PC(C)(C)C.C(C)(C)(C)PC(C)(C)C",
+   "message": ""
+  },
+  "bis(diphenylphosphino": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unmatched opening bracket found in :bis(diphenylphosphino"
+  },
+  "dibenzylideneacetone": {
+   "status": "SUCCESS",
+   "smiles": "C(C1=CC=CC=C1)=CC(=O)C=CC1=CC=CC=C1",
+   "message": ""
+  },
+  "diphenylphosphino": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "diphenylphosphino could be parsed but OPSIN was unsure of the meaning of the words. This error will occur, by default, if a name is just a substituent"
+  },
+  "palladium acetate": {
+   "status": "SUCCESS",
+   "smiles": "C(C)(=O)[O-].[Pd+2].C(C)(=O)[O-]",
+   "message": ""
+  },
+  "palladium chloride": {
+   "status": "SUCCESS",
+   "smiles": "[Pd](Cl)Cl",
+   "message": ""
+  },
+  "palladium trifluoroacetate": {
+   "status": "SUCCESS",
+   "smiles": "FC(C(=O)[O-])(F)F.[Pd+2].FC(C(=O)[O-])(F)F",
+   "message": ""
+  },
+  "phosphine ligand or a salt thereof is preferably 1,3- )propane, 1,4-bis butane, or bis di-tert-butylphosphine.": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unmatched closing bracket found in :phosphine ligand or a salt thereof is preferably 1,3- )propane, 1,4-bis butane, or bis di-tert-butylphosphine."
+  },
+  "process according to claim 3, wherein the reaction solvent is one or two or more selected from toluene, 1,4-dioxane, ethylene glycol dimethyl ether, ethylene glycol diethyl ether, dimethyl sulfoxide , tetrahydrofuran , and N,N-dimethylformamide .": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "process according to claim 3, wherein the reaction solvent is one or two or more selected from toluene, 1,4-dioxane, ethylene glycol dimethyl ether, ethylene glycol diethyl ether, dimethyl sulfoxide , tetrahydrofuran , and N,N-dimethylformamide . is unparsable due to the following being uninterpretable: process according to claim 3, wherein the reaction solvent is one or two or more selected from toluene, 1,4-dioxane, ethylene glycol dimethyl ether, ethylene glycol diethyl ether, dimethyl sulfoxide , tetrahydrofuran , and N,N-dimethylformamide . The following was not parseable: process according to claim 3, wherein the reaction solvent is one or two or more selected from toluene, 1,4-dioxane, ethylene glycol dimethyl ether, ethylene glycol diethyl ether, dimethyl sulfoxide , tetrahydrofuran , and N,N-dimethylformamide ."
+  }
+ }
+}

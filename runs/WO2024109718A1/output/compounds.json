@@ -15,7 +15,7 @@
     "unresolved_reference": false,
     "section_label": "Technical Field",
     "section_type": "background",
-    "is_section_product": true,
+    "is_section_product": false,
     "commercially_available": true,
     "role": "product",
     "quantity": {
@@ -77,11 +77,15 @@
       "functional_group:ether",
       "chemical_family:triketone"
     ],
-    "notes": "Abstract states only that the invention provides a method for preparing this compound; no steps, quantities or conditions are given in this section. Chinese 环磺酮 is tembotrione (not 磺草酮 / sulcotrione). The machine EN lines render it character-by-character as \"cyclosulfonone\", which names no real compound; the Chinese is followed and the EN string is kept as an alias for traceability. | Named in the prose as 环磺酮 (a triketone herbicide) and as the target of the DE19846792A1 process. The final product of step 11 of both drawn schemes is the same structure and is added as a SMILES alias per rule 4b. is_section_product is true because both routes in this section end at it. commercially_available is false because the section describes processes that prepare it. | The compound every process claim is directed to. Named in Chinese only, as 环磺酮, in the preambles of claims 1, 13 and 14; the EN lines render it tembotrione. Also drawn as the final product of the schemes at lines 612, 614, 618 and 620 (InChIKey IUQAXCIUEPFPSF-UHFFFAOYSA-N); that drawn SMILES is kept as an alias. One merged record. No quantity, yield or characterisation is printed in the claims. | 环磺酮 is tembotrione (not sulcotrione, 磺草酮). Section product of the one-pot route. The drawn product SMILES on line 535 matches the name and is kept as an alias. NMR is reported only as references to Figures 15 and 16; no peak list is printed, so h1 and c13 are null. | Section product. The Chinese 环磺酮 is tembotrione; an earlier machine translation of these lines rendered it as sulcotrione (磺草酮), a different herbicide, and the Chinese is authoritative. Structure taken from the step 3 product of the drawing on line 510. | The target of every route in this section and the compound the section ends on. Chinese 环磺酮; not 磺草酮 (sulcotrione), a different herbicide. | The compound the whole section is about: [0008] states the invention provides a new route and new intermediates for preparing it, and [0011], [0029] and [0030] repeat it as the target. Merged from those prose mentions and from the drawn schemes at lines 141, 143, 151 and 153, whose final product SMILES CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F (read formula C17H16ClF3O6S) is tembotrione; that SMILES is carried as an alias per the drawing rule. The section states no quantity, yield or characterisation for it. | GOLD FIX 2026-09-02 (D1, isomer hazard): the molecular formula C17H16ClF3O6S is shared with the OTHER compound of the final step - the formula (VIII) enol ester and tembotrione are ISOMERS (O-acyl vs C-acyl), which is why the patent's drawings give 18 distinct SMILES but only 17 distinct formulas. The formula alias is factually correct but MUST NOT be used as a join key: joining on it merges the substrate and the product of the rearrangement into one compound. Join on the InChIKey, which differs (IUQAXCIUEPFPSF for tembotrione, OBAMHTWSCBVWGB for the ester). | GOLD SECTION 2026-09-03: section_label changed from 'Summary of the Invention' to 'Technical Field', the first place in the description body where this compound appears (L53). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to True. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (0 charge(s), 2 yield(s) exist for this compound; see reactions.json for the rest).",
+    "notes": "Abstract states only that the invention provides a method for preparing this compound; no steps, quantities or conditions are given in this section. Chinese 环磺酮 is tembotrione (not 磺草酮 / sulcotrione). The machine EN lines render it character-by-character as \"cyclosulfonone\", which names no real compound; the Chinese is followed and the EN string is kept as an alias for traceability. | Named in the prose as 环磺酮 (a triketone herbicide) and as the target of the DE19846792A1 process. The final product of step 11 of both drawn schemes is the same structure and is added as a SMILES alias per rule 4b. is_section_product is true because both routes in this section end at it. commercially_available is false because the section describes processes that prepare it. | The compound every process claim is directed to. Named in Chinese only, as 环磺酮, in the preambles of claims 1, 13 and 14; the EN lines render it tembotrione. Also drawn as the final product of the schemes at lines 612, 614, 618 and 620 (InChIKey IUQAXCIUEPFPSF-UHFFFAOYSA-N); that drawn SMILES is kept as an alias. One merged record. No quantity, yield or characterisation is printed in the claims. | 环磺酮 is tembotrione (not sulcotrione, 磺草酮). Section product of the one-pot route. The drawn product SMILES on line 535 matches the name and is kept as an alias. NMR is reported only as references to Figures 15 and 16; no peak list is printed, so h1 and c13 are null. | Section product. The Chinese 环磺酮 is tembotrione; an earlier machine translation of these lines rendered it as sulcotrione (磺草酮), a different herbicide, and the Chinese is authoritative. Structure taken from the step 3 product of the drawing on line 510. | The target of every route in this section and the compound the section ends on. Chinese 环磺酮; not 磺草酮 (sulcotrione), a different herbicide. | The compound the whole section is about: [0008] states the invention provides a new route and new intermediates for preparing it, and [0011], [0029] and [0030] repeat it as the target. Merged from those prose mentions and from the drawn schemes at lines 141, 143, 151 and 153, whose final product SMILES CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F (read formula C17H16ClF3O6S) is tembotrione; that SMILES is carried as an alias per the drawing rule. The section states no quantity, yield or characterisation for it. | GOLD FIX 2026-09-02 (D1, isomer hazard): the molecular formula C17H16ClF3O6S is shared with the OTHER compound of the final step - the formula (VIII) enol ester and tembotrione are ISOMERS (O-acyl vs C-acyl), which is why the patent's drawings give 18 distinct SMILES but only 17 distinct formulas. The formula alias is factually correct but MUST NOT be used as a join key: joining on it merges the substrate and the product of the rearrangement into one compound. Join on the InChIKey, which differs (IUQAXCIUEPFPSF for tembotrione, OBAMHTWSCBVWGB for the ester). | GOLD SECTION 2026-09-03: section_label changed from 'Summary of the Invention' to 'Technical Field', the first place in the description body where this compound appears (L53). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to True. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (0 charge(s), 2 yield(s) exist for this compound; see reactions.json for the rest). | GOLD BLIND-AUDIT 2026-09-03: is_section_product changed from true to false. The field is section-scoped everywhere else in the file (every other true record is a product drawn or made in its labelled section), and the Technical Field (L53-58) prepares nothing - it names tembotrione as the field of the invention. The compound's product-hood is carried by role=product; the old true was a relic of the record's pre-GOLD-SECTION label.",
     "id": "WO2024109718A1_tembotrione",
     "compound_uuid": "e8cb3600-df36-5736-bbac-aedbbafe2505",
     "first_seen_line": 53,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "smiles_source": "patent_scheme+pubchem",
+    "molecular_formula": "C17H16ClF3O6S",
+    "molecular_weight": 440.82
   },
   {
     "patent_id": "WO2024109718A1",
@@ -124,7 +128,11 @@
     "id": "WO2024109718A1_dichlorotoluene",
     "compound_uuid": "2ee2317f-9185-530c-a3c6-01a4d24c4d8a",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "Cc1c(Cl)cccc1Cl",
+    "smiles_source": "patent_scheme",
+    "molecular_formula": "C7H6Cl2",
+    "molecular_weight": 161.03
   },
   {
     "patent_id": "WO2024109718A1",
@@ -169,7 +177,11 @@
     "id": "WO2024109718A1_3-chloro-2-methylaniline",
     "compound_uuid": "9a5a977c-3f58-54fb-8b20-915726f5af13",
     "first_seen_line": 74,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "Cc1c(N)cccc1Cl",
+    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "molecular_formula": "C7H8ClN",
+    "molecular_weight": 141.6
   },
   {
     "patent_id": "WO2024109718A1",
@@ -210,7 +222,11 @@
     "id": "WO2024109718A1_CH3SNa",
     "compound_uuid": "28e44f42-df4b-56a5-b019-d542171cc90d",
     "first_seen_line": 65,
-    "concentration_pct": 20.0
+    "concentration_pct": 20.0,
+    "smiles": "C[S-].[Na+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CH3NaS",
+    "molecular_weight": 70.09
   },
   {
     "patent_id": "WO2024109718A1",
@@ -249,7 +265,11 @@
     "id": "WO2024109718A1_NaNO2",
     "compound_uuid": "ae82f3b2-a54e-5650-9912-0078847fd5be",
     "first_seen_line": 74,
-    "concentration_pct": 20.0
+    "concentration_pct": 20.0,
+    "smiles": "O=N[O-].[Na+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "NNaO2",
+    "molecular_weight": 69.0
   },
   {
     "patent_id": "WO2024109718A1",
@@ -290,7 +310,11 @@
     "id": "WO2024109718A1_acetyl chloride",
     "compound_uuid": "0861ce18-c35b-58bc-b38f-7b1a532f272f",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CC(=O)Cl",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H3ClO",
+    "molecular_weight": 78.5
   },
   {
     "patent_id": "WO2024109718A1",
@@ -330,7 +354,11 @@
     "id": "WO2024109718A1_aluminium trichloride",
     "compound_uuid": "e1e64399-d78e-5c6a-bd4e-2ff1db50d05c",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[Cl][Al]([Cl])[Cl]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "AlCl3",
+    "molecular_weight": 133.34
   },
   {
     "patent_id": "WO2024109718A1",
@@ -374,7 +402,11 @@
     "id": "WO2024109718A1_1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one",
     "compound_uuid": "f5543382-ca5c-5442-b2be-9c4daaad43cb",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CSc1ccc(C(C)=O)c(Cl)c1C",
+    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "molecular_formula": "C10H11ClOS",
+    "molecular_weight": 214.72
   },
   {
     "patent_id": "WO2024109718A1",
@@ -419,7 +451,11 @@
     "id": "WO2024109718A1_1-[2-chloro-4-(methanesulfonyl)-3-methylphenyl]ethan-1-one",
     "compound_uuid": "d29bdef4-c2ee-5eb5-9778-c1449739acb6",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "molecular_formula": "C10H11ClO3S",
+    "molecular_weight": 246.71
   },
   {
     "patent_id": "WO2024109718A1",
@@ -459,7 +495,11 @@
     "id": "WO2024109718A1_sodium hypochlorite",
     "compound_uuid": "86aa0f4b-eb8f-5a32-a42f-b345afb6336b",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[Na+].[O-]Cl",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "ClNaO",
+    "molecular_weight": 74.44
   },
   {
     "patent_id": "WO2024109718A1",
@@ -504,7 +544,11 @@
     "id": "WO2024109718A1_2-chloro-4-(methanesulfonyl)-3-methylbenzoic acid",
     "compound_uuid": "8cc4883e-e32c-594e-afe4-fcb3ab2eeb39",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "molecular_formula": "C9H9ClO4S",
+    "molecular_weight": 248.69
   },
   {
     "patent_id": "WO2024109718A1",
@@ -544,7 +588,11 @@
     "id": "WO2024109718A1_CH3OH",
     "compound_uuid": "d2b75bc1-5b86-5088-bd5a-a5f57e66a85b",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CO",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CH4O",
+    "molecular_weight": 32.04
   },
   {
     "patent_id": "WO2024109718A1",
@@ -589,7 +637,11 @@
     "id": "WO2024109718A1_methyl 2-chloro-4-(methanesulfonyl)-3-methylbenzoate",
     "compound_uuid": "2ff04b92-cc37-5b85-95d1-25a3337fd241",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "molecular_formula": "C10H11ClO4S",
+    "molecular_weight": 262.71
   },
   {
     "patent_id": "WO2024109718A1",
@@ -635,7 +687,11 @@
     "id": "WO2024109718A1_methyl 3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzoate",
     "compound_uuid": "ddd7f984-5f1c-52f2-bed6-052e515548e3",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "molecular_formula": "C10H10BrClO4S",
+    "molecular_weight": 341.61
   },
   {
     "patent_id": "WO2024109718A1",
@@ -674,11 +730,15 @@
       "chemical_family:alkoxide",
       "functional_group:ether"
     ],
-    "notes": "Over the arrow of step 7 in both prior-art schemes, installing the trifluoroethoxy ether. | Claims 6, 8 and 12 define CF3CH2OM of step (iv') as either CF3CH2ONa or CF3CH2OK. Identifier kept as the formula the claims print; no Chinese or English name is given. | Appears only in the drawn reaction scheme, as the condition over the arrow; the prose never names it. The prose generates it in situ from sodium hydride and trifluoroethanol rather than charging a pre-formed salt, so it is not recorded as commercially available. | Named in [0015] and repeated in [0018] as one of the two compounds CF3CH2OM may be in step (iv'), the etherification of the benzylic bromide. Identifier kept as the formula the text prints. | GOLD SECTION 2026-09-03: section_label changed from 'Summary of the Invention' to 'Background', the first place in the description body where this compound appears (L65). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array.",
+    "notes": "Over the arrow of step 7 in both prior-art schemes, installing the trifluoroethoxy ether. | Claims 6, 8 and 12 define CF3CH2OM of step (iv') as either CF3CH2ONa or CF3CH2OK. Identifier kept as the formula the claims print; no Chinese or English name is given. | Appears only in the drawn reaction scheme, as the condition over the arrow; the prose never names it. The prose generates it in situ from sodium hydride and trifluoroethanol rather than charging a pre-formed salt, so it is not recorded as commercially available. | Named in [0015] and repeated in [0018] as one of the two compounds CF3CH2OM may be in step (iv'), the etherification of the benzylic bromide. Identifier kept as the formula the text prints. | GOLD SECTION 2026-09-03: section_label changed from 'Summary of the Invention' to 'Background', the first place in the description body where this compound appears (L65). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD FINAL 2026-09-03: no value changed; note clarification. An earlier note sentence says this salt 'is not recorded as commercially available' because [0080]/Example 5 prepare it in situ, but the field is true. True is the deliberate final value under the file's availability convention (an ordinary catalogue chemical stays true even where the patent also makes it - the same priority that keeps tembotrione and sodium chloride true), and matches the GOLD AVAILABILITY decision recorded on the sibling records 'sodium 2,2,2-trifluoroethoxide' and 'potassium 2,2,2-trifluoroethoxide'. The field, not the superseded sentence, is authoritative.",
     "id": "WO2024109718A1_CF3CH2ONa",
     "compound_uuid": "d1429710-95e7-57bd-9284-eb4126b624a6",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[Na+].[O-]CC(F)(F)F",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H2F3NaO",
+    "molecular_weight": 122.02
   },
   {
     "patent_id": "WO2024109718A1",
@@ -725,7 +785,11 @@
     "id": "WO2024109718A1_methyl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
     "compound_uuid": "a726f127-ffc0-599a-8a5f-0e837a7db535",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+    "smiles_source": "patent_scheme+patent_drawing+opsin",
+    "molecular_formula": "C12H12ClF3O5S",
+    "molecular_weight": 360.74
   },
   {
     "patent_id": "WO2024109718A1",
@@ -761,11 +825,15 @@
       "compound_class:base",
       "hazard:corrosive"
     ],
-    "notes": "Over the arrow of step 8 in both prior-art schemes, hydrolysing the methyl ester. | Charged with the CH3SNa solution in the receiving flask. The printed 26.62 g is the mass of the 32% aqueous solution, not of NaOH. The patent charges this as a 32% aqueous solution; the strength is recorded here and in the quantity note rather than as an alias, because a solution of a substance is not another name for it. | GOLD SECTION 2026-09-03: section_label changed from 'Example 1' to 'Background', the first place in the description body where this compound appears (L65). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array.",
+    "notes": "Over the arrow of step 8 in both prior-art schemes, hydrolysing the methyl ester. | Charged with the CH3SNa solution in the receiving flask. The printed 26.62 g is the mass of the 32% aqueous solution, not of NaOH. The patent charges this as a 32% aqueous solution; the strength is recorded here and in the quantity note rather than as an alias, because a solution of a substance is not another name for it. | GOLD SECTION 2026-09-03: section_label changed from 'Example 1' to 'Background', the first place in the description body where this compound appears (L65). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD FINAL 2026-09-03: concentration_pct set to 32.0. The record's own note already states the 26.62 g is the mass of the 32% aqueous solution (L433), and every other solution-charged record (CH3SNa, NaNO2, H2O2, HCl, sodium hydroxide, NaH) carries the strength in this field; this record alone had left it null.",
     "id": "WO2024109718A1_NaOH",
     "compound_uuid": "359b690b-dfc0-51cf-aa28-ee8d3aed79c4",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": 32.0,
+    "smiles": "[Na+].[OH-]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "HNaO",
+    "molecular_weight": 40.0
   },
   {
     "patent_id": "WO2024109718A1",
@@ -805,7 +873,11 @@
     "id": "WO2024109718A1_(COCl)2",
     "compound_uuid": "522d6b1c-d1ea-56ad-adc7-bed3c98033dd",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "O=C(Cl)C(=O)Cl",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2Cl2O2",
+    "molecular_weight": 126.93
   },
   {
     "patent_id": "WO2024109718A1",
@@ -844,7 +916,11 @@
     "id": "WO2024109718A1_haloform",
     "compound_uuid": "ba3f8cd6-66e3-5670-9fd7-5dee6e05bf1d",
     "first_seen_line": 76,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -883,7 +959,11 @@
     "id": "WO2024109718A1_sodium chloride",
     "compound_uuid": "66afa23f-34c3-55c2-8210-8027ec69d5b8",
     "first_seen_line": 76,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[Cl-].[Na+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "ClNa",
+    "molecular_weight": 58.44
   },
   {
     "patent_id": "WO2024109718A1",
@@ -921,11 +1001,15 @@
       "compound_class:workup_agent",
       "compound_class:reagent"
     ],
-    "notes": "The prose states the sodium hypochlorite haloform reaction is run 在水相进行 (in the aqueous phase), which names water as the reaction medium. No quantity is given anywhere in the section. | HPLC mobile phase component, 20 parts by volume. Water is also the medium of the aqueous NaNO2, CH3SNa and NaOH solutions, but is named as a compound only in the mobile phase. | Merged: the aqueous component of the methanol/water dissolution on line 537 and the wash of the filter cake on line 542. | Wash solvent; 70 mL used twice, recorded as the single stated charge and not summed. | Used to wash the filter cake twice; no quantity is given. | Wash in the 方法1 workup, two portions of 50mL; the stated portion volume is recorded and no total is computed. | Merged: used to quench the reaction, and named again as the aqueous component of the HPLC mobile phase. No volume is printed for either use. | One record for two appearances: 20 g charged to the autoclave alongside CO, and the later filter-cake wash (水洗). The charged mass is kept; the wash gives no quantity. Listed in the scheme conditions as H2O. | One record for two appearances in the same section: charged to the autoclave (mass recorded) and used later to wash the filter cake (no quantity given). The drawn scheme also lists H2O as a condition of the step. | Added during workup after the solvent was removed; no amount printed. | Merged: charged as a reactant in the carbonylation to formula (V), and used as a wash and as a quench elsewhere in the section. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Background', the first place in the description body where this compound appears (L77). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD QUANTITY 2026-09-03: quantity now holds the FIRST charge in the patent (Example 2, L443) instead of an arbitrary one. Every charge, 3 for this compound, is in the charges array with its own Example and line. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (3 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest).",
+    "notes": "The prose states the sodium hypochlorite haloform reaction is run 在水相进行 (in the aqueous phase), which names water as the reaction medium. No quantity is given anywhere in the section. | HPLC mobile phase component, 20 parts by volume. Water is also the medium of the aqueous NaNO2, CH3SNa and NaOH solutions, but is named as a compound only in the mobile phase. | Merged: the aqueous component of the methanol/water dissolution on line 537 and the wash of the filter cake on line 542. | Wash solvent; 70 mL used twice, recorded as the single stated charge and not summed. | Used to wash the filter cake twice; no quantity is given. | Wash in the 方法1 workup, two portions of 50mL; the stated portion volume is recorded and no total is computed. | Merged: used to quench the reaction, and named again as the aqueous component of the HPLC mobile phase. No volume is printed for either use. | One record for two appearances: 20 g charged to the autoclave alongside CO, and the later filter-cake wash (水洗). The charged mass is kept; the wash gives no quantity. Listed in the scheme conditions as H2O. | One record for two appearances in the same section: charged to the autoclave (mass recorded) and used later to wash the filter cake (no quantity given). The drawn scheme also lists H2O as a condition of the step. | Added during workup after the solvent was removed; no amount printed. | Merged: charged as a reactant in the carbonylation to formula (V), and used as a wash and as a quench elsewhere in the section. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Background', the first place in the description body where this compound appears (L77). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD QUANTITY 2026-09-03: quantity now holds the FIRST charge in the patent (Example 2, L443) instead of an arbitrary one. Every charge, 3 for this compound, is in the charges array with its own Example and line. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (3 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest). | GOLD FINAL 2026-09-03: first_seen_line moved 77 -> 76. The Chinese sentence of [0006] that names the aqueous phase (在水相进行) is L76; L77 is its English translation line. The Chinese line is the authoritative text, as used on the other records.",
     "id": "WO2024109718A1_water",
     "compound_uuid": "47e96d4f-aebe-5bcc-8153-9f5b7a698532",
-    "first_seen_line": 77,
-    "concentration_pct": null
+    "first_seen_line": 76,
+    "concentration_pct": null,
+    "smiles": "O",
+    "smiles_source": "known+opsin+pubchem",
+    "molecular_formula": "H2O",
+    "molecular_weight": 18.02
   },
   {
     "patent_id": "WO2024109718A1",
@@ -960,11 +1044,15 @@
     "tags": [
       "compound_class:catalyst"
     ],
-    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred. | Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt.",
+    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred. | Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt. | GOLD FINAL 2026-09-03: first_seen_line moved 326 -> 325. L325 is the Chinese sentence of [0083] that names the metal (钯、铑、钌、铜、钴); 326 is its English translation line. Every other record points at the Chinese line, which is the authoritative text.",
     "id": "WO2024109718A1_palladium",
     "compound_uuid": "cf93c2cb-1746-5d15-b0f6-04d643db66d4",
-    "first_seen_line": 326,
-    "concentration_pct": null
+    "first_seen_line": 325,
+    "concentration_pct": null,
+    "smiles": "[Pd]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "Pd",
+    "molecular_weight": 106.42
   },
   {
     "patent_id": "WO2024109718A1",
@@ -999,11 +1087,15 @@
     "tags": [
       "compound_class:catalyst"
     ],
-    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred. | Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt.",
+    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred. | Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt. | GOLD FINAL 2026-09-03: first_seen_line moved 326 -> 325. L325 is the Chinese sentence of [0083] that names the metal (钯、铑、钌、铜、钴); 326 is its English translation line. Every other record points at the Chinese line, which is the authoritative text.",
     "id": "WO2024109718A1_rhodium",
     "compound_uuid": "40fd141b-c011-5ebc-8075-80120580ada1",
-    "first_seen_line": 326,
-    "concentration_pct": null
+    "first_seen_line": 325,
+    "concentration_pct": null,
+    "smiles": "[Rh]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "Rh",
+    "molecular_weight": 102.91
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1038,11 +1130,15 @@
     "tags": [
       "compound_class:catalyst"
     ],
-    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred. | Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt.",
+    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred. | Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt. | GOLD FINAL 2026-09-03: first_seen_line moved 326 -> 325. L325 is the Chinese sentence of [0083] that names the metal (钯、铑、钌、铜、钴); 326 is its English translation line. Every other record points at the Chinese line, which is the authoritative text.",
     "id": "WO2024109718A1_ruthenium",
     "compound_uuid": "7f24d620-bd6b-5aab-88d9-c52e91bbf7a3",
-    "first_seen_line": 326,
-    "concentration_pct": null
+    "first_seen_line": 325,
+    "concentration_pct": null,
+    "smiles": "[Ru]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "Ru",
+    "molecular_weight": 101.07
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1077,11 +1173,15 @@
     "tags": [
       "compound_class:catalyst"
     ],
-    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred. | Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt.",
+    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred. | Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt. | GOLD FINAL 2026-09-03: first_seen_line moved 326 -> 325. L325 is the Chinese sentence of [0083] that names the metal (钯、铑、钌、铜、钴); 326 is its English translation line. Every other record points at the Chinese line, which is the authoritative text.",
     "id": "WO2024109718A1_copper",
     "compound_uuid": "d422e49d-a0ee-5b0e-82bc-38c3b2c6a458",
-    "first_seen_line": 326,
-    "concentration_pct": null
+    "first_seen_line": 325,
+    "concentration_pct": null,
+    "smiles": "[Cu]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "Cu",
+    "molecular_weight": 63.55
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1116,11 +1216,15 @@
     "tags": [
       "compound_class:catalyst"
     ],
-    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred. | Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt.",
+    "notes": "Named in claim 3 as one of the 贵金属 (noble metals) the step (v-1)/(v'-1) catalyst may be selected from. The claim states palladium is preferred. | Named as one of the noble metal catalysts for the carbonylation; the metal is named, not a specific salt. | GOLD FINAL 2026-09-03: first_seen_line moved 326 -> 325. L325 is the Chinese sentence of [0083] that names the metal (钯、铑、钌、铜、钴); 326 is its English translation line. Every other record points at the Chinese line, which is the authoritative text.",
     "id": "WO2024109718A1_cobalt",
     "compound_uuid": "31d5eba4-41d4-56df-ab03-88302c7e3487",
-    "first_seen_line": 326,
-    "concentration_pct": null
+    "first_seen_line": 325,
+    "concentration_pct": null,
+    "smiles": "[Co]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "Co",
+    "molecular_weight": 58.93
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1163,7 +1267,11 @@
     "id": "WO2024109718A1_palladium(II) chloride",
     "compound_uuid": "d84797db-8ce5-5afb-bcf9-430abac08a0a",
     "first_seen_line": 327,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[Cl][Pd][Cl]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "Cl2Pd",
+    "molecular_weight": 177.33
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1205,7 +1313,11 @@
     "id": "WO2024109718A1_palladium(II) carbonate",
     "compound_uuid": "3474459b-28b7-53e5-a503-1e2567f83f2a",
     "first_seen_line": 327,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "O=C([O-])[O-].[Pd+2]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CO3Pd",
+    "molecular_weight": 166.43
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1246,7 +1358,11 @@
     "id": "WO2024109718A1_palladium(II) acetate",
     "compound_uuid": "e503d7af-8089-5376-9730-fde5f1431a3f",
     "first_seen_line": 327,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C4H6O4Pd",
+    "molecular_weight": 224.51
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1287,7 +1403,11 @@
     "id": "WO2024109718A1_palladium on carbon",
     "compound_uuid": "6832c092-a026-556e-952e-fb07b0864465",
     "first_seen_line": 327,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[Pd]",
+    "smiles_source": "known+pubchem",
+    "molecular_formula": "Pd",
+    "molecular_weight": 106.42
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1329,7 +1449,11 @@
     "id": "WO2024109718A1_palladium(II) trifluoroacetate",
     "compound_uuid": "cfe5c4e7-c526-5ab1-8360-61e87bf8aae1",
     "first_seen_line": 327,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "O=C([O-])C(F)(F)F.O=C([O-])C(F)(F)F.[Pd+2]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C4F6O4Pd",
+    "molecular_weight": 332.45
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1372,7 +1496,11 @@
     "id": "WO2024109718A1_bis(dibenzylideneacetone)palladium(0)",
     "compound_uuid": "4ab361fe-49ec-5b1b-80a5-d7ca8dfb4617",
     "first_seen_line": 327,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd]",
+    "smiles_source": "pubchem",
+    "molecular_formula": "C34H28O2Pd",
+    "molecular_weight": 575.02
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1416,7 +1544,11 @@
     "id": "WO2024109718A1_1,3-bis(diphenylphosphino)propane",
     "compound_uuid": "54315f30-5a1a-5efb-b65d-3fe73120f260",
     "first_seen_line": 329,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "c1ccc(P(CCCP(c2ccccc2)c2ccccc2)c2ccccc2)cc1",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C27H26P2",
+    "molecular_weight": 412.45
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1457,7 +1589,11 @@
     "id": "WO2024109718A1_1,4-bis(diphenylphosphino)butane",
     "compound_uuid": "f825b5dd-af2f-5faa-b104-2e0e22e26f65",
     "first_seen_line": 329,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "c1ccc(P(CCCCP(c2ccccc2)c2ccccc2)c2ccccc2)cc1",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C28H28P2",
+    "molecular_weight": 426.48
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1465,7 +1601,9 @@
     "identifier_type": "iupac",
     "aliases": [
       "双[(4-N,N-二甲氨基)苯基]二叔丁基膦",
-      "bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine"
+      "bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+      "Amphos",
+      "di-tert-butyl(4-dimethylaminophenyl)phosphine"
     ],
     "resolved": true,
     "unresolved_reference": false,
@@ -1493,11 +1631,15 @@
     "tags": [
       "compound_class:ligand"
     ],
-    "notes": "Named in claim 3 as a preferred 磷配体 (phosphine ligand) for the palladium catalysed step. The full name runs through two bracket pairs; it is bis-aryl, not the mono-aryl di-tert-butyl(4-dimethylaminophenyl)phosphine. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine' from section 'Preparation Routes and General Embodiments'. It held no data field this record lacks, the same role (ligand) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD SECTION 2026-09-03: section_label changed from 'Claims' to 'Preparation Routes and General Embodiments', the first place in the description body where this compound appears (L329). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array.",
+    "notes": "Named in claim 3 as a preferred 磷配体 (phosphine ligand) for the palladium catalysed step. The full name runs through two bracket pairs; it is bis-aryl, not the mono-aryl di-tert-butyl(4-dimethylaminophenyl)phosphine. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine' from section 'Preparation Routes and General Embodiments'. It held no data field this record lacks, the same role (ligand) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD SECTION 2026-09-03: section_label changed from 'Claims' to 'Preparation Routes and General Embodiments', the first place in the description body where this compound appears (L329). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD BLIND-AUDIT 2026-09-03: CHEMISTRY CORRECTION, identifier kept as printed per ruling. The earlier note's claim 'it is bis-aryl, not the mono-aryl' is WRONG: a neutral phosphine cannot carry two aryls AND two tert-butyls (four substituents on P). The patent's bracketing (双[(4-N,N-二甲氨基)苯基]二叔丁基膦) is sloppy; the real ligand is Amphos, di-tert-butyl(4-dimethylaminophenyl)phosphine, added as an alias. Independently corroborated: Example 9's derived catalyst charge (3 g, about 1.7 mol% as Pd(Amphos)Cl2) is a sensible loading.",
     "id": "WO2024109718A1_bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine",
     "compound_uuid": "064e896e-f7da-5443-91f2-0b3e381de814",
     "first_seen_line": 329,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CN(C)c1ccc(P(C(C)(C)C)C(C)(C)C)cc1",
+    "smiles_source": "opsin",
+    "molecular_formula": "C16H28NP",
+    "molecular_weight": 265.38
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1508,8 +1650,8 @@
     ],
     "resolved": true,
     "unresolved_reference": false,
-    "section_label": "Background",
-    "section_type": "background",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
     "is_section_product": false,
     "commercially_available": true,
     "role": "solvent",
@@ -1534,11 +1676,15 @@
       "chemical_family:toluene",
       "hazard:flammable"
     ],
-    "notes": "Listed in claim 4 among the reaction solvents, one or more of which may be used. | Listed among the preferred first solvents for the carbonylation. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Background', the first place in the description body where this compound appears (L67). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array.",
+    "notes": "Listed in claim 4 among the reaction solvents, one or more of which may be used. | Listed among the preferred first solvents for the carbonylation. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Background', the first place in the description body where this compound appears (L67). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD FINAL 2026-09-03: the earlier GOLD SECTION move to 'Background' (L67) was a substring error: 甲苯 at L67 is part of 二氯甲苯 (dichlorotoluene), not a mention of toluene. Toluene itself first appears at L333, in the [0087] first-solvent list, and in claim 4 (L572). section_label, section_type and first_seen_line restored to that reading.",
     "id": "WO2024109718A1_toluene",
     "compound_uuid": "e70af27d-65aa-523e-925a-a1a16ed952b7",
-    "first_seen_line": 67,
-    "concentration_pct": null
+    "first_seen_line": 333,
+    "concentration_pct": null,
+    "smiles": "Cc1ccccc1",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C7H8",
+    "molecular_weight": 92.14
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1581,7 +1727,11 @@
     "id": "WO2024109718A1_1,4-dioxane",
     "compound_uuid": "ae72edf7-f4f4-57a4-a7cd-f8e24eb266fe",
     "first_seen_line": 310,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "C1COCCO1",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C4H8O2",
+    "molecular_weight": 88.11
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1622,7 +1772,11 @@
     "id": "WO2024109718A1_ethylene glycol dimethyl ether",
     "compound_uuid": "3195a128-8319-574f-a2dd-7d77dfbbacc1",
     "first_seen_line": 333,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "COCCOC",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C4H10O2",
+    "molecular_weight": 90.12
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1662,7 +1816,11 @@
     "id": "WO2024109718A1_ethylene glycol diethyl ether",
     "compound_uuid": "7939f6c6-b3b8-5782-aebb-779e89337d8e",
     "first_seen_line": 333,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CCOCCOCC",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C6H14O2",
+    "molecular_weight": 118.18
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1702,7 +1860,11 @@
     "id": "WO2024109718A1_dimethyl sulfoxide",
     "compound_uuid": "ea7f39c3-afd2-59a0-b675-3c67975b7447",
     "first_seen_line": 333,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CS(C)=O",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H6OS",
+    "molecular_weight": 78.14
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1711,7 +1873,6 @@
     "aliases": [
       "四氢呋喃",
       "THF",
-      "anhydrous tetrahydrofuran",
       "溶剂四氢呋喃"
     ],
     "resolved": true,
@@ -1742,11 +1903,15 @@
       "functional_group:ether",
       "chemical_family:cyclic_ether"
     ],
-    "notes": "Listed in claim 4 among the reaction solvents, one or more of which may be used. | Merged across the three charges in the step: 80mL for the sodium hydride, 20mL for the trifluoroethanol solution and 400mL for the式(III)化合物 solution; the first stated volume is kept. Printed throughout as the anhydrous grade. The patent charges this as the anhydrous grade; the grade is recorded here and in the quantity note rather than as an alias, because a grade of a solvent is not another name for it. | Charged by mass (400g), not volume; explicitly labelled 溶剂 (solvent) and removed by rotary evaporation in the workup. | Merged: solvent for the trifluoroethoxide displacement, where anhydrous tetrahydrofuran is preferred, and also listed among the first solvents for the carbonylation. The patent charges this as the anhydrous grade; the grade is recorded here and in the quantity note rather than as an alias, because a grade of a solvent is not another name for it. | GOLD QUANTITY 2026-09-03: quantity now holds the FIRST charge in the patent (Example 5, L483) instead of an arbitrary one. Every charge, 2 for this compound, is in the charges array with its own Example and line. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (2 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest).",
+    "notes": "Listed in claim 4 among the reaction solvents, one or more of which may be used. | Merged across the three charges in the step: 80mL for the sodium hydride, 20mL for the trifluoroethanol solution and 400mL for the式(III)化合物 solution; the first stated volume is kept. Printed throughout as the anhydrous grade. The patent charges this as the anhydrous grade; the grade is recorded here and in the quantity note rather than as an alias, because a grade of a solvent is not another name for it. | Charged by mass (400g), not volume; explicitly labelled 溶剂 (solvent) and removed by rotary evaporation in the workup. | Merged: solvent for the trifluoroethoxide displacement, where anhydrous tetrahydrofuran is preferred, and also listed among the first solvents for the carbonylation. The patent charges this as the anhydrous grade; the grade is recorded here and in the quantity note rather than as an alias, because a grade of a solvent is not another name for it. | GOLD QUANTITY 2026-09-03: quantity now holds the FIRST charge in the patent (Example 5, L483) instead of an arbitrary one. Every charge, 2 for this compound, is in the charges array with its own Example and line. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (2 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest). | GOLD FINAL 2026-09-03: alias 'anhydrous tetrahydrofuran' removed. The record's own note states the anhydrous grade is recorded in the note rather than as an alias because a grade of a solvent is not another name for it - the same principle under which '20% aqueous solution' strings were refused as aliases on CH3SNa, NaNO2, H2O2 and NaOH - yet the grade string sat in aliases, contradicting it. No file joins on the removed string (verified against reactions.json). The literal role-prefixed span 溶剂四氢呋喃 stays: it is a printed span containing the name, kept for traceability like 配体1,3-双(二苯基膦)丙烷 and PdCl2催化剂.",
     "id": "WO2024109718A1_tetrahydrofuran",
     "compound_uuid": "d12d4531-cf34-5255-ad35-fddfdf0291e9",
     "first_seen_line": 310,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "C1CCOC1",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C4H8O",
+    "molecular_weight": 72.11
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1786,7 +1951,11 @@
     "id": "WO2024109718A1_N,N-dimethylformamide",
     "compound_uuid": "c405427a-8507-5feb-bb4e-6fbe84d91d53",
     "first_seen_line": 333,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CN(C)C=O",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C3H7NO",
+    "molecular_weight": 73.09
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1829,7 +1998,11 @@
     "id": "WO2024109718A1_bromine",
     "compound_uuid": "6dc3476a-cef3-5547-ae94-3550ebc7f3a3",
     "first_seen_line": 74,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "BrBr",
+    "smiles_source": "known",
+    "molecular_formula": "Br2",
+    "molecular_weight": 159.81
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1871,7 +2044,11 @@
     "id": "WO2024109718A1_N-bromosuccinimide",
     "compound_uuid": "a591cedc-624d-5737-a7e9-202b62233f09",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "O=C1CCC(=O)N1Br",
+    "smiles_source": "known+opsin+pubchem",
+    "molecular_formula": "C4H4BrNO2",
+    "molecular_weight": 177.99
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1912,7 +2089,11 @@
     "id": "WO2024109718A1_hydrogen bromide",
     "compound_uuid": "f0b9f770-30b6-5970-881f-041d98012bc3",
     "first_seen_line": 124,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "Br",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "HBr",
+    "molecular_weight": 80.91
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1946,14 +2127,17 @@
     "purity_pct": null,
     "purity_method": null,
     "tags": [
-      "compound_class:reagent",
-      "hazard:peroxide_former"
+      "compound_class:reagent"
     ],
-    "notes": "Two uses, merged into one record: named in claims 6, 8 and 12 as the peroxide of the 溴化氢与双氧水 brominating combination, and drawn as the condition H2O2 over the sulfide-to-sulfone step (ii)/(ii') in the schemes at lines 589, 601 and 641. | Charged as 224 g of 23％ hydrogen peroxide, added dropwise at 80℃; the 224 g is the mass of the aqueous solution as printed, not of contained H2O2, and no contained mass is stated. Merged with the H2O2 named in the conditions of the reaction-scheme span on line 451. The patent charges this as a 23% aqueous solution; the strength is recorded here and in the quantity note rather than as an alias, because a solution of a substance is not another name for it. | Merged: the oxidant for formula (II), and also one component of the alternative HBr/peroxide brominating reagent. The section states a molar ratio of the formula (I) compound to hydrogen peroxide of about 1-5, preferably 2-3; no absolute amount is given. | Merged from two mentions with two different roles: drawn as the condition H2O2 over step (ii')/(ii) at lines 118 and 135, where it oxidises the sulfide to the sulfone, and named in [0015] and [0018] as the partner of hydrogen bromide in the third alternative brominating reagent for step (iii'). Role recorded as oxidant, the role the drawn step supports. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'H2O2' from section 'Background'. It held no data field this record lacks, the same role (oxidant) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD SECTION 2026-09-03: section_label changed from 'Summary of the Invention' to 'Background', the first place in the description body where this compound appears (L65). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD CONCENTRATION 2026-09-03: the patent charges this as a solution of stated strength (23.0%), so the mass recorded is the mass of SOLUTION, not of the substance. Per-charge strengths are in the charges array. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest).",
+    "notes": "Two uses, merged into one record: named in claims 6, 8 and 12 as the peroxide of the 溴化氢与双氧水 brominating combination, and drawn as the condition H2O2 over the sulfide-to-sulfone step (ii)/(ii') in the schemes at lines 589, 601 and 641. | Charged as 224 g of 23％ hydrogen peroxide, added dropwise at 80℃; the 224 g is the mass of the aqueous solution as printed, not of contained H2O2, and no contained mass is stated. Merged with the H2O2 named in the conditions of the reaction-scheme span on line 451. The patent charges this as a 23% aqueous solution; the strength is recorded here and in the quantity note rather than as an alias, because a solution of a substance is not another name for it. | Merged: the oxidant for formula (II), and also one component of the alternative HBr/peroxide brominating reagent. The section states a molar ratio of the formula (I) compound to hydrogen peroxide of about 1-5, preferably 2-3; no absolute amount is given. | Merged from two mentions with two different roles: drawn as the condition H2O2 over step (ii')/(ii) at lines 118 and 135, where it oxidises the sulfide to the sulfone, and named in [0015] and [0018] as the partner of hydrogen bromide in the third alternative brominating reagent for step (iii'). Role recorded as oxidant, the role the drawn step supports. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'H2O2' from section 'Background'. It held no data field this record lacks, the same role (oxidant) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD SECTION 2026-09-03: section_label changed from 'Summary of the Invention' to 'Background', the first place in the description body where this compound appears (L65). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD CONCENTRATION 2026-09-03: the patent charges this as a solution of stated strength (23.0%), so the mass recorded is the mass of SOLUTION, not of the substance. Per-charge strengths are in the charges array. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest). | GOLD BLIND-AUDIT 2026-09-03: tag hazard:peroxide_former removed. That tag marks substances that FORM peroxides on storage (ethers); this compound IS a peroxide. The tag stays correct on diethyl ether and THF.",
     "id": "WO2024109718A1_hydrogen peroxide",
     "compound_uuid": "34e50a3b-1df8-59f2-8bcb-93d7eab11df4",
     "first_seen_line": 65,
-    "concentration_pct": 23.0
+    "concentration_pct": 23.0,
+    "smiles": "OO",
+    "smiles_source": "known+opsin+pubchem",
+    "molecular_formula": "H2O2",
+    "molecular_weight": 34.01
   },
   {
     "patent_id": "WO2024109718A1",
@@ -1995,7 +2179,11 @@
     "id": "WO2024109718A1_CF3CH2OK",
     "compound_uuid": "55dedbeb-4a72-5e31-abf0-b51c602d266a",
     "first_seen_line": 124,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[K+].[O-]CC(F)(F)F",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H2F3KO",
+    "molecular_weight": 138.13
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2036,7 +2224,11 @@
     "id": "WO2024109718A1_CF3CH2OM",
     "compound_uuid": "ced86454-9614-5014-a6bd-4ef43d9907d1",
     "first_seen_line": 122,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:unresolved",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2079,7 +2271,11 @@
     "id": "WO2024109718A1_CO",
     "compound_uuid": "973e7205-5a56-5076-bca5-93302e516067",
     "first_seen_line": 97,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[C-]#[O+]",
+    "smiles_source": "known",
+    "molecular_formula": "CO",
+    "molecular_weight": 28.01
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2094,7 +2290,7 @@
     "section_type": "background",
     "is_section_product": false,
     "commercially_available": true,
-    "role": "reagent",
+    "role": "reactant",
     "quantity": {
       "mass_g": null,
       "volume_ml": null,
@@ -2114,11 +2310,15 @@
     "tags": [
       "compound_class:reagent"
     ],
-    "notes": "DRAWING-ONLY: drawn with CO as a condition over the carbonylation to the benzoic acid in the schemes at lines 561 and 618. Named nowhere in the claim prose. | DRAWING-ONLY: read from the conditions of the drawn carbonylation step (v')/(vi) at lines 97 and 151, alongside CO. Supplies the hydroxyl of the benzoic acid product. Never named in the prose of this section. | GOLD SECTION 2026-09-03: section_label changed from 'Summary of the Invention' to 'Background', the first place in the description body where this compound appears (L77). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array.",
+    "notes": "DRAWING-ONLY: drawn with CO as a condition over the carbonylation to the benzoic acid in the schemes at lines 561 and 618. Named nowhere in the claim prose. | DRAWING-ONLY: read from the conditions of the drawn carbonylation step (v')/(vi) at lines 97 and 151, alongside CO. Supplies the hydroxyl of the benzoic acid product. Never named in the prose of this section. | GOLD SECTION 2026-09-03: section_label changed from 'Summary of the Invention' to 'Background', the first place in the description body where this compound appears (L77). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD FINAL 2026-09-03: first_seen_line moved 77 -> 76. The Chinese sentence of [0006] that names the aqueous phase (在水相进行) is L76; L77 is its English translation line. The Chinese line is the authoritative text, as used on the other records. | GOLD BLIND-AUDIT 2026-09-03: role changed from reagent to reactant, aligning with the 'water' record and with the reactions.json records of the hydroxycarbonylation, all of which now say reactant: the drawn H2O condition supplies the hydroxyl of the formula (V) acid and is consumed into the product. The two water records remain separate because reactions.json joins on both strings.",
     "id": "WO2024109718A1_H2O",
     "compound_uuid": "b0c3d2a9-21c8-5c67-a9a7-a5b9f4c1dd94",
-    "first_seen_line": 77,
-    "concentration_pct": null
+    "first_seen_line": 76,
+    "concentration_pct": null,
+    "smiles": "O",
+    "smiles_source": "known+opsin+pubchem",
+    "molecular_formula": "H2O",
+    "molecular_weight": 18.02
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2164,7 +2364,11 @@
     "id": "WO2024109718A1_CSc1cccc(Cl)c1C",
     "compound_uuid": "5e048784-bf9f-54f5-9ed1-57dae574a3cf",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CSc1cccc(Cl)c1C",
+    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "molecular_formula": "C8H9ClS",
+    "molecular_weight": 172.68
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2203,12 +2407,16 @@
     "id": "WO2024109718A1_compound of formula (A)",
     "compound_uuid": "42fcce3a-e6f1-5767-96a1-7655aa7b6449",
     "first_seen_line": 160,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:markush",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
     "identifier": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
-    "identifier_type": "local_label",
+    "identifier_type": "iupac",
     "aliases": [
       "式(VI)化合物",
       "CSc1cccc(Cl)c1C",
@@ -2271,11 +2479,15 @@
       "functional_group:thioether",
       "functional_group:halide_chloro"
     ],
-    "notes": "Section product, isolated by layer separation and distillation. The prose never names it beyond the label, so it is left unresolved; the SMILES alias is the product of the reaction scheme drawn immediately before the step and matches an aryl methyl sulfide bearing chloro and methyl. No mass, yield or melting point is printed. | GOLD MERGE 2026-09-02: absorbed the duplicate record '1-chloro-2-methyl-3-(methylsulfanyl)benzene' from section 'Background'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD LANGUAGE 2026-09-03: identifier changed from the label 'compound of formula (VI)' to the resolved chemical name this record already carried, so the label string could be given to the Preparation Routes record that the patent writes only as 式(VI)化合物. Nothing invented; both forms remain as aliases. | GOLD SECTION 2026-09-03: section_label changed from 'Example 1' to 'Background', the first place in the description body where this compound appears (L65). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD FLAGS 2026-09-03: unresolved_reference set false. Across the four other runs in this repo the two flags never hold together: unresolved_reference is true only for placeholders the patent never resolves (溶剂, 催化剂, ROH, ROM, 'starting material'), and those always have resolved=false. This compound's structure IS given, drawn and recorded, so the reference is resolved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from True to False. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals.",
+    "notes": "Section product, isolated by layer separation and distillation. The prose never names it beyond the label, so it is left unresolved; the SMILES alias is the product of the reaction scheme drawn immediately before the step and matches an aryl methyl sulfide bearing chloro and methyl. No mass, yield or melting point is printed. | GOLD MERGE 2026-09-02: absorbed the duplicate record '1-chloro-2-methyl-3-(methylsulfanyl)benzene' from section 'Background'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD LANGUAGE 2026-09-03: identifier changed from the label 'compound of formula (VI)' to the resolved chemical name this record already carried, so the label string could be given to the Preparation Routes record that the patent writes only as 式(VI)化合物. Nothing invented; both forms remain as aliases. | GOLD SECTION 2026-09-03: section_label changed from 'Example 1' to 'Background', the first place in the description body where this compound appears (L65). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD FLAGS 2026-09-03: unresolved_reference set false. Across the four other runs in this repo the two flags never hold together: unresolved_reference is true only for placeholders the patent never resolves (溶剂, 催化剂, ROH, ROM, 'starting material'), and those always have resolved=false. This compound's structure IS given, drawn and recorded, so the reference is resolved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from True to False. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals. | GOLD FINAL 2026-09-03: identifier_type changed from 'local_label' to 'iupac'. The GOLD LANGUAGE rename gave this record the chemical name 1-chloro-2-methyl-3-(methylsulfanyl)benzene as its identifier and moved the label to the record now called 'compound of formula (VI)', but identifier_type was left describing the old label. The identifier is an IUPAC name.",
     "id": "WO2024109718A1_1-chloro-2-methyl-3-(methylsulfanyl)benzene",
     "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CSc1cccc(Cl)c1C",
+    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "molecular_formula": "C8H9ClS",
+    "molecular_weight": 172.68
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2317,7 +2529,11 @@
     "id": "WO2024109718A1_hydrochloric acid",
     "compound_uuid": "5661ff6e-3238-543a-85bb-eb15a15d9417",
     "first_seen_line": 74,
-    "concentration_pct": 5.1
+    "concentration_pct": 5.1,
+    "smiles": "Cl",
+    "smiles_source": "known+opsin+pubchem",
+    "molecular_formula": "HCl",
+    "molecular_weight": 36.46
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2356,7 +2572,11 @@
     "id": "WO2024109718A1_diazonium salt",
     "compound_uuid": "f0f59b07-b5a7-5af6-9ae5-19c19627a10b",
     "first_seen_line": 433,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "N#[NH+]",
+    "smiles_source": "pubchem",
+    "molecular_formula": "HN2+",
+    "molecular_weight": 29.02
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2397,7 +2617,11 @@
     "id": "WO2024109718A1_acetonitrile",
     "compound_uuid": "5ce12351-e4ef-5dc1-9fc0-c604cf414fd3",
     "first_seen_line": 435,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CC#N",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H3N",
+    "molecular_weight": 41.05
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2436,11 +2660,15 @@
       "compound_class:acid",
       "compound_class:solvent"
     ],
-    "notes": "Used only to adjust the HPLC mobile phase to pH 3.7 to 4.1, not in the reaction. | Named only as the 0.1％ modifier in the aqueous HPLC mobile phase.",
+    "notes": "Used only to adjust the HPLC mobile phase to pH 3.7 to 4.1, not in the reaction. | Named only as the 0.1％ modifier in the aqueous HPLC mobile phase. | GOLD FINAL 2026-09-03: no value changed; note correction. The earlier note sentences say formic acid is 'used only to adjust the HPLC mobile phase' - that reading came from the Example sections, but [0064] (L268) also offers 甲酸 as a reaction solvent for the oxidation to formula (II), which is exactly the usage this record's role (solvent), section and first_seen_line 268 encode. Both usages exist: candidate reaction solvent at L268 and HPLC mobile-phase modifier at L435/485.",
     "id": "WO2024109718A1_formic acid",
     "compound_uuid": "c64f4da2-02d0-574e-8864-80e67f6ae705",
     "first_seen_line": 268,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "O=CO",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CH2O2",
+    "molecular_weight": 46.03
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2482,7 +2710,11 @@
     "id": "WO2024109718A1_CDCl3",
     "compound_uuid": "eec15018-808d-590c-8866-20a9db24c252",
     "first_seen_line": 437,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[2H]C(Cl)(Cl)Cl",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CHCl3",
+    "molecular_weight": 120.38
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2513,7 +2745,7 @@
     "nmr": {
       "h1": null,
       "c13": null,
-      "raw_text": "487 | [0126] 式(IV)化合物的¹HNMR(DMSO)谱图如图9所示，¹³CNMR(DMSO)谱图如图10所示。",
+      "raw_text": "式(IV)化合物的¹HNMR(DMSO)谱图如图9所示，¹³CNMR(DMSO)谱图如图10所示。",
       "solvent": "DMSO",
       "frequency_mhz": null
     },
@@ -2553,11 +2785,15 @@
       "functional_group:ether",
       "functional_group:trifluoromethyl"
     ],
-    "notes": "Named only by formula label; this section gives no chemical name. The reaction drawing on line 535 supplies the structure as the scheme reactant, so the SMILES is kept as an alias. | Bare formula label; this section does not state the structure of formula (IV), so it is left unresolved. Section heading disagreement: the patent prints 实施例11 (Example 11) but the step reports a yield below 10% described as unsatisfactory, and A0 typed the section comparative_example; both readings are recorded rather than resolved. | Product of the section. Named only by formula label; no isolated mass or yield is printed, only the melting point. The reaction drawing on line 478 gives the structure as the scheme product, so the SMILES is kept as an alias. NMR is reported only as figure references with no peak list printed, so nmr is null and the reference is recorded under analytics. | The section names this only by its formula label, so it is kept unresolved. The reaction scheme drawn immediately above the step gives it as the sole reactant, and that SMILES is carried as an alias. Whether it is purchased or made by an earlier example is not stated here. | Bare formula label; the section does not spell out a name, so it is left unresolved. The reaction scheme drawn immediately above the step reads this reactant as CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F, which is consistent with an aryl bromide undergoing carbonylation to the formula (V) acid, so the SMILES is kept as an alias. | Named only by formula label; the section gives no chemical name. The reaction drawing on line 523 supplies the structure as the scheme reactant, so the SMILES is kept as an alias. | Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Product of the trifluoroethoxide displacement and the substrate for both carbonylation routes; merged. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F' from section 'Summary of the Invention'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '式(IV)化合物' to 'compound of formula (IV)'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Summary of the Invention', the first place in the description body where this compound appears (L91). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD NMR 2026-09-03: the nmr field was empty while the patent gives 1H and 13C spectra for this compound at L487. Populated so all eight characterised compounds are visible in the same field. No shift values are printed anywhere in this patent, only figure references, so h1 and c13 stay null. | GOLD FLAGS 2026-09-03: unresolved_reference set false. Across the four other runs in this repo the two flags never hold together: unresolved_reference is true only for placeholders the patent never resolves (溶剂, 催化剂, ROH, ROM, 'starting material'), and those always have resolved=false. This compound's structure IS given, drawn and recorded, so the reference is resolved. | GOLD QUANTITY 2026-09-03: quantity now holds the FIRST charge in the patent (Example 6, L493) instead of an arbitrary one. Every charge, 5 for this compound, is in the charges array with its own Example and line. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (5 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest). | GOLD PHYSICAL FORM 2026-09-03: physical_form set to solid. L483 states 过滤，滤饼于60℃烘干: filtered, the FILTER CAKE dried at 60 C. Same basis as compound (II), and it carries a melting point of 80-82 C.",
+    "notes": "Named only by formula label; this section gives no chemical name. The reaction drawing on line 535 supplies the structure as the scheme reactant, so the SMILES is kept as an alias. | Bare formula label; this section does not state the structure of formula (IV), so it is left unresolved. Section heading disagreement: the patent prints 实施例11 (Example 11) but the step reports a yield below 10% described as unsatisfactory, and A0 typed the section comparative_example; both readings are recorded rather than resolved. | Product of the section. Named only by formula label; no isolated mass or yield is printed, only the melting point. The reaction drawing on line 478 gives the structure as the scheme product, so the SMILES is kept as an alias. NMR is reported only as figure references with no peak list printed, so nmr is null and the reference is recorded under analytics. | The section names this only by its formula label, so it is kept unresolved. The reaction scheme drawn immediately above the step gives it as the sole reactant, and that SMILES is carried as an alias. Whether it is purchased or made by an earlier example is not stated here. | Bare formula label; the section does not spell out a name, so it is left unresolved. The reaction scheme drawn immediately above the step reads this reactant as CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F, which is consistent with an aryl bromide undergoing carbonylation to the formula (V) acid, so the SMILES is kept as an alias. | Named only by formula label; the section gives no chemical name. The reaction drawing on line 523 supplies the structure as the scheme reactant, so the SMILES is kept as an alias. | Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Product of the trifluoroethoxide displacement and the substrate for both carbonylation routes; merged. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F' from section 'Summary of the Invention'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '式(IV)化合物' to 'compound of formula (IV)'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Summary of the Invention', the first place in the description body where this compound appears (L91). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD NMR 2026-09-03: the nmr field was empty while the patent gives 1H and 13C spectra for this compound at L487. Populated so all eight characterised compounds are visible in the same field. No shift values are printed anywhere in this patent, only figure references, so h1 and c13 stay null. | GOLD FLAGS 2026-09-03: unresolved_reference set false. Across the four other runs in this repo the two flags never hold together: unresolved_reference is true only for placeholders the patent never resolves (溶剂, 催化剂, ROH, ROM, 'starting material'), and those always have resolved=false. This compound's structure IS given, drawn and recorded, so the reference is resolved. | GOLD QUANTITY 2026-09-03: quantity now holds the FIRST charge in the patent (Example 6, L493) instead of an arbitrary one. Every charge, 5 for this compound, is in the charges array with its own Example and line. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (5 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest). | GOLD PHYSICAL FORM 2026-09-03: physical_form set to solid. L483 states 过滤，滤饼于60℃烘干: filtered, the FILTER CAKE dried at 60 C. Same basis as compound (II), and it carries a melting point of 80-82 C. | GOLD FINAL 2026-09-03: nmr.raw_text had the markdown line-number and paragraph prefix ('487 | [0126]...') glued to the quotation; a quotation field must hold the patent's sentence verbatim, as the sibling records (0, 52, 75) already did. Prefix stripped; the sentence itself is unchanged and verified verbatim on the page.",
     "id": "WO2024109718A1_compound of formula (IV)",
     "compound_uuid": "d90e989e-6132-5854-9a1b-372aa498c1fb",
     "first_seen_line": 91,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:markush",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2599,7 +2835,11 @@
     "id": "WO2024109718A1_triethylamine",
     "compound_uuid": "bf06465e-351a-588c-988d-7549a673740e",
     "first_seen_line": 331,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CCN(CC)CC",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C6H15N",
+    "molecular_weight": 101.19
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2635,11 +2875,15 @@
     "tags": [
       "compound_class:catalyst"
     ],
-    "notes": "Printed as a formula in the Chinese text and labelled 催化剂 (catalyst). | GOLD SECTION 2026-09-03: section_label changed from 'Example 7' to 'Preparation Routes and General Embodiments', the first place in the description body where this compound appears (L328). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array.",
+    "notes": "Printed as a formula in the Chinese text and labelled 催化剂 (catalyst). | GOLD SECTION 2026-09-03: section_label changed from 'Example 7' to 'Preparation Routes and General Embodiments', the first place in the description body where this compound appears (L328). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD FINAL 2026-09-03: first_seen_line moved 328 -> 327. L327 is the Chinese sentence of [0084] that first names this catalyst (氯化钯(PdCl₂)); 328 is its English translation line. The two sibling records for the same substance ('palladium(II) chloride', 'PdCl₂') already point at 327.",
     "id": "WO2024109718A1_PdCl2",
     "compound_uuid": "07df7254-e4cb-5ce6-a22f-6bd945830a1c",
-    "first_seen_line": 328,
-    "concentration_pct": null
+    "first_seen_line": 327,
+    "concentration_pct": null,
+    "smiles": "[Cl][Pd][Cl]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "Cl2Pd",
+    "molecular_weight": 177.33
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2679,7 +2923,11 @@
     "id": "WO2024109718A1_nitrogen",
     "compound_uuid": "0b31c5a3-f3d9-5a22-974e-e7dbce915022",
     "first_seen_line": 320,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "N#N",
+    "smiles_source": "known",
+    "molecular_formula": "N2",
+    "molecular_weight": 28.01
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2722,7 +2970,11 @@
     "id": "WO2024109718A1_acetone cyanohydrin",
     "compound_uuid": "ed4fa011-7993-56de-8032-8282c8f283d2",
     "first_seen_line": 348,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CC(C)(O)C#N",
+    "smiles_source": "patent_drawing+opsin+pubchem",
+    "molecular_formula": "C4H7NO",
+    "molecular_weight": 85.11
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2761,7 +3013,11 @@
     "id": "WO2024109718A1_triethylamine hydrobromide",
     "compound_uuid": "b4c3f1d4-64e6-5f33-92cc-af86b27ad881",
     "first_seen_line": 537,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "Br.CCN(CC)CC",
+    "smiles_source": "opsin",
+    "molecular_formula": "C6H16BrN",
+    "molecular_weight": 182.1
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2803,7 +3059,11 @@
     "id": "WO2024109718A1_methanol",
     "compound_uuid": "d8dbd441-9a28-5013-8fd9-1246cda3c0c3",
     "first_seen_line": 308,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CO",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CH4O",
+    "molecular_weight": 32.04
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2845,7 +3105,11 @@
     "id": "WO2024109718A1_sodium hydroxide",
     "compound_uuid": "cae9670f-4346-5555-a5bb-2017d886fdc0",
     "first_seen_line": 65,
-    "concentration_pct": 32.0
+    "concentration_pct": 32.0,
+    "smiles": "[Na+].[OH-]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "HNaO",
+    "molecular_weight": 40.0
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2891,7 +3155,11 @@
     "id": "WO2024109718A1_1,3-cyclohexanedione",
     "compound_uuid": "4383d183-b739-5786-84cc-f1d35ecb2741",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "O=C1CCCC(=O)C1",
+    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+    "molecular_formula": "C6H8O2",
+    "molecular_weight": 112.13
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2932,7 +3200,11 @@
     "id": "WO2024109718A1_2-dicyclohexylphosphino-2',6'-dimethoxybiphenyl",
     "compound_uuid": "56c0ccb6-d31b-5e7f-ba88-d573dc73d546",
     "first_seen_line": 548,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "COc1cccc(OC)c1-c1ccccc1P(C1CCCCC1)C1CCCCC1",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C26H35O2P",
+    "molecular_weight": 410.54
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2974,7 +3246,11 @@
     "id": "WO2024109718A1_4,5-bis(diphenylphosphino)-9,9-dimethylxanthene",
     "compound_uuid": "ec17acea-4b89-5f49-a585-430e0f33ba75",
     "first_seen_line": 548,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C39H32OP2",
+    "molecular_weight": 578.63
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2985,8 +3261,8 @@
       "CSc1cccc(Cl)c1C",
       "C8H9ClS"
     ],
-    "resolved": false,
-    "unresolved_reference": true,
+    "resolved": true,
+    "unresolved_reference": false,
     "section_label": "Background",
     "section_type": "background",
     "is_section_product": false,
@@ -3014,11 +3290,15 @@
       "chemical_family:aryl_sulfide",
       "functional_group:halide_chloro"
     ],
-    "notes": "Named only by formula label; the section gives no chemical name. The reaction drawing on line 441 supplies the structure as the scheme reactant, so the SMILES is kept as an alias. | Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Named as the starting material for formula (I); the section also gives its own preparation by known methods, so it is not treated as purchased. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '式(VI)化合物' to 'compound of formula (VI)'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Background', the first place in the description body where this compound appears (L65). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest).",
+    "notes": "Named only by formula label; the section gives no chemical name. The reaction drawing on line 441 supplies the structure as the scheme reactant, so the SMILES is kept as an alias. | Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Named as the starting material for formula (I); the section also gives its own preparation by known methods, so it is not treated as purchased. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '式(VI)化合物' to 'compound of formula (VI)'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Background', the first place in the description body where this compound appears (L65). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest). | GOLD FINAL 2026-09-03: resolved set true and unresolved_reference set false. The record carries the drawn structure (SMILES CSc1cccc(Cl)c1C, formula C8H9ClS) taken from the scheme the label heads - the same situation as the records for formulae (I)-(V), (VII) and (VIII), all of which the GOLD FLAGS pass set to resolved=true/unresolved_reference=false because the structure IS given and drawn. This record had been missed by that pass.",
     "id": "WO2024109718A1_compound of formula (VI)",
     "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:markush",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3058,7 +3338,11 @@
     "id": "WO2024109718A1_dichloromethane",
     "compound_uuid": "e1056861-2b1a-5f31-a58a-a05ad0505ce3",
     "first_seen_line": 250,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "ClCCl",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CH2Cl2",
+    "molecular_weight": 84.93
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3089,7 +3373,7 @@
     "nmr": {
       "h1": null,
       "c13": null,
-      "raw_text": "447 | [0113] 式(I)化合物的1HNMR(CDCl3)谱图如图3所示，13CNMR(CDCl3)谱图如图4所示。",
+      "raw_text": "式(I)化合物的1HNMR(CDCl3)谱图如图3所示，13CNMR(CDCl3)谱图如图4所示。",
       "solvent": "CDCl3",
       "frequency_mhz": null
     },
@@ -3123,11 +3407,15 @@
       "chemical_family:aryl_sulfide",
       "chemical_family:toluene"
     ],
-    "notes": "Named only by formula label; no isolated mass, yield or melting point is printed. The reaction drawing on line 441 gives the structure as the scheme product, so the SMILES is kept as an alias. NMR is reported only as figure references, with no peak list printed, so nmr is null and the reference is recorded under analytics. The HPLC conditions on line 445 are given by reference to Example 1, which is outside this section. | Bare formula label; this section does not spell out a name for it, so it is kept unresolved. The reaction-scheme span on line 451 draws the reactant of this step as CSc1ccc(Br)c(Cl)c1C (a methylthio arene, consistent with oxidation to the formula (II) sulfone), and that SMILES is carried as an alias. | Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Prepared by bromination of the compound of formula (VI) and consumed as the substrate for formula (II); merged from its several mentions in this section. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'CSc1ccc(Br)c(Cl)c1C' from section 'Summary of the Invention'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '式(I)化合物' to 'compound of formula (I)'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Summary of the Invention', the first place in the description body where this compound appears (L103). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD NMR 2026-09-03: the nmr field was empty while the patent gives 1H and 13C spectra for this compound at L447. Populated so all eight characterised compounds are visible in the same field. No shift values are printed anywhere in this patent, only figure references, so h1 and c13 stay null. | GOLD FLAGS 2026-09-03: unresolved_reference set false. Across the four other runs in this repo the two flags never hold together: unresolved_reference is true only for placeholders the patent never resolves (溶剂, 催化剂, ROH, ROM, 'starting material'), and those always have resolved=false. This compound's structure IS given, drawn and recorded, so the reference is resolved. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest).",
+    "notes": "Named only by formula label; no isolated mass, yield or melting point is printed. The reaction drawing on line 441 gives the structure as the scheme product, so the SMILES is kept as an alias. NMR is reported only as figure references, with no peak list printed, so nmr is null and the reference is recorded under analytics. The HPLC conditions on line 445 are given by reference to Example 1, which is outside this section. | Bare formula label; this section does not spell out a name for it, so it is kept unresolved. The reaction-scheme span on line 451 draws the reactant of this step as CSc1ccc(Br)c(Cl)c1C (a methylthio arene, consistent with oxidation to the formula (II) sulfone), and that SMILES is carried as an alias. | Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Prepared by bromination of the compound of formula (VI) and consumed as the substrate for formula (II); merged from its several mentions in this section. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'CSc1ccc(Br)c(Cl)c1C' from section 'Summary of the Invention'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '式(I)化合物' to 'compound of formula (I)'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Summary of the Invention', the first place in the description body where this compound appears (L103). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD NMR 2026-09-03: the nmr field was empty while the patent gives 1H and 13C spectra for this compound at L447. Populated so all eight characterised compounds are visible in the same field. No shift values are printed anywhere in this patent, only figure references, so h1 and c13 stay null. | GOLD FLAGS 2026-09-03: unresolved_reference set false. Across the four other runs in this repo the two flags never hold together: unresolved_reference is true only for placeholders the patent never resolves (溶剂, 催化剂, ROH, ROM, 'starting material'), and those always have resolved=false. This compound's structure IS given, drawn and recorded, so the reference is resolved. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest). | GOLD FINAL 2026-09-03: nmr.raw_text had the markdown line-number and paragraph prefix ('447 | [0113]...') glued to the quotation; a quotation field must hold the patent's sentence verbatim, as the sibling records (0, 52, 75) already did. Prefix stripped; the sentence itself is unchanged and verified verbatim on the page.",
     "id": "WO2024109718A1_compound of formula (I)",
     "compound_uuid": "b92e5a8b-ee00-5596-9025-dd7e024ed857",
     "first_seen_line": 103,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:markush",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3166,7 +3454,11 @@
     "id": "WO2024109718A1_sodium tungstate dihydrate",
     "compound_uuid": "1c862d94-e237-5cfd-bccc-c4a70bdcd084",
     "first_seen_line": 266,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "O.O.[Na+].[Na+].[O]=[W](=[O])([O-])[O-]",
+    "smiles_source": "pubchem",
+    "molecular_formula": "H4Na2O6W",
+    "molecular_weight": 329.85
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3206,7 +3498,11 @@
     "id": "WO2024109718A1_glacial acetic acid",
     "compound_uuid": "95741fae-7a59-57d6-b876-b763de6d728b",
     "first_seen_line": 268,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CC(=O)O",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H4O2",
+    "molecular_weight": 60.05
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3237,7 +3533,7 @@
     "nmr": {
       "h1": null,
       "c13": null,
-      "raw_text": "462 | [0117] 式(II)化合物的1HNMR(CDCl3)谱图如图5所示，13CNMR(CDCl3)谱图如图6所示。",
+      "raw_text": "式(II)化合物的1HNMR(CDCl3)谱图如图5所示，13CNMR(CDCl3)谱图如图6所示。",
       "solvent": "CDCl3",
       "frequency_mhz": null
     },
@@ -3273,13 +3569,18 @@
       "chemical_family:aryl_sulfone",
       "functional_group:sulfone",
       "functional_group:halide_bromo",
-      "functional_group:halide_chloro"
+      "functional_group:halide_chloro",
+      "chemical_family:toluene"
     ],
-    "notes": "Section product. Bare formula label, kept unresolved; the scheme on line 451 draws the product as Cc1c(S(C)(=O)=O)ccc(Br)c1Cl and that SMILES is carried as an alias. No isolated mass and no yield are printed for this step. 1H and 13C NMR are referred to only as Figures 5 and 6, so no spectral text exists to transcribe; the reference is recorded under analytics and nmr is left null. | Substrate of both 方法1 and 方法2; the same charge of 84g is printed in each, so the two mentions are merged into one record. The label is not expanded in this section, so it stays unresolved; the drawn structure on line 466 is the scheme reactant and is carried as a SMILES alias. Prepared earlier in this document rather than purchased. | Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Product of the peroxide oxidation and substrate for the benzylic bromination; merged. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'Cc1c(S(C)(=O)=O)ccc(Br)c1Cl' from section 'Summary of the Invention'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '式(II)化合物' to 'compound of formula (II)'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Summary of the Invention', the first place in the description body where this compound appears (L108). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD NMR 2026-09-03: the nmr field was empty while the patent gives 1H and 13C spectra for this compound at L462. Populated so all eight characterised compounds are visible in the same field. No shift values are printed anywhere in this patent, only figure references, so h1 and c13 stay null. | GOLD FLAGS 2026-09-03: unresolved_reference set false. Across the four other runs in this repo the two flags never hold together: unresolved_reference is true only for placeholders the patent never resolves (溶剂, 催化剂, ROH, ROM, 'starting material'), and those always have resolved=false. This compound's structure IS given, drawn and recorded, so the reference is resolved. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest). | GOLD PHYSICAL FORM 2026-09-03: physical_form set to solid. L458 states 滤饼用水洗涤两次，然后于60℃烘干: the FILTER CAKE is washed and dried to give the compound. A filter cake is a solid, and the record carries a melting point of 138-140 C, which only a solid has.",
+    "notes": "Section product. Bare formula label, kept unresolved; the scheme on line 451 draws the product as Cc1c(S(C)(=O)=O)ccc(Br)c1Cl and that SMILES is carried as an alias. No isolated mass and no yield are printed for this step. 1H and 13C NMR are referred to only as Figures 5 and 6, so no spectral text exists to transcribe; the reference is recorded under analytics and nmr is left null. | Substrate of both 方法1 and 方法2; the same charge of 84g is printed in each, so the two mentions are merged into one record. The label is not expanded in this section, so it stays unresolved; the drawn structure on line 466 is the scheme reactant and is carried as a SMILES alias. Prepared earlier in this document rather than purchased. | Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Product of the peroxide oxidation and substrate for the benzylic bromination; merged. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'Cc1c(S(C)(=O)=O)ccc(Br)c1Cl' from section 'Summary of the Invention'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '式(II)化合物' to 'compound of formula (II)'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Summary of the Invention', the first place in the description body where this compound appears (L108). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD NMR 2026-09-03: the nmr field was empty while the patent gives 1H and 13C spectra for this compound at L462. Populated so all eight characterised compounds are visible in the same field. No shift values are printed anywhere in this patent, only figure references, so h1 and c13 stay null. | GOLD FLAGS 2026-09-03: unresolved_reference set false. Across the four other runs in this repo the two flags never hold together: unresolved_reference is true only for placeholders the patent never resolves (溶剂, 催化剂, ROH, ROM, 'starting material'), and those always have resolved=false. This compound's structure IS given, drawn and recorded, so the reference is resolved. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest). | GOLD PHYSICAL FORM 2026-09-03: physical_form set to solid. L458 states 滤饼用水洗涤两次，然后于60℃烘干: the FILTER CAKE is washed and dried to give the compound. A filter cake is a solid, and the record carries a melting point of 138-140 C, which only a solid has. | GOLD FINAL 2026-09-03: nmr.raw_text had the markdown line-number and paragraph prefix ('462 | [0117]...') glued to the quotation; a quotation field must hold the patent's sentence verbatim, as the sibling records (0, 52, 75) already did. Prefix stripped; the sentence itself is unchanged and verified verbatim on the page. | GOLD BLIND-AUDIT 2026-09-03: chemical_family:toluene added. The compound is a ring-methyl arene like the structurally analogous records for CSc1cccc(Cl)c1C and compound (I), both of which carry the tag; this record alone lacked it. Compound (III) correctly does not (its methyl is brominated to CH2Br).",
     "id": "WO2024109718A1_compound of formula (II)",
     "compound_uuid": "7d9d933b-b727-579b-ab91-ec6a5baeb569",
     "first_seen_line": 108,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:markush",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3330,6 +3631,20 @@
         "unit": null,
         "conditions": "高效液相色谱条件：与实施例1相同。",
         "raw_text": "通过高效液相色谱监测反应完成后"
+      },
+      {
+        "method": "hplc",
+        "value": null,
+        "unit": null,
+        "conditions": "高效液相色谱条件：与实施例1相同。",
+        "raw_text": "通过高效液相色谱监测反应完成后"
+      },
+      {
+        "method": "nmr",
+        "value": null,
+        "unit": null,
+        "conditions": "CDCl3",
+        "raw_text": "式(III)化合物的1HNMR(CDCl3)谱图如图7所示，13CNMR(CDCl3)谱图如图8所示。"
       }
     ],
     "purity_pct": null,
@@ -3342,11 +3657,15 @@
       "functional_group:halide_chloro",
       "chemical_family:benzyl_halide"
     ],
-    "notes": "Section product, made by two alternative routes (方法1 bromine/benzoyl peroxide in 1,2-dichloroethane; 方法2 NBS/benzoyl peroxide in carbon tetrachloride) that are merged into this one record. The section names no isolated mass and no yield, so quantity is left empty. The label is never expanded to a chemical name inside this section, so it stays unresolved; the drawn structure on line 466 is the scheme product and is carried as a SMILES alias. Melting point is printed for 方法1 only. NMR is reported only as a reference to Figures 7 and 8, with no peak list. | Named only by formula label; the section gives no chemical name. The reaction drawing on line 478 supplies the structure as the scheme reactant, so the SMILES is kept as an alias. Charged as a solution in anhydrous tetrahydrofuran. | Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Product of the benzylic bromination and substrate for the trifluoroethoxide displacement; merged. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr' from section 'Summary of the Invention'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '式(III)化合物' to 'compound of formula (III)'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Summary of the Invention', the first place in the description body where this compound appears (L110). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD FLAGS 2026-09-03: unresolved_reference set false. Across the four other runs in this repo the two flags never hold together: unresolved_reference is true only for placeholders the patent never resolves (溶剂, 催化剂, ROH, ROM, 'starting material'), and those always have resolved=false. This compound's structure IS given, drawn and recorded, so the reference is resolved. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest).",
+    "notes": "Section product, made by two alternative routes (方法1 bromine/benzoyl peroxide in 1,2-dichloroethane; 方法2 NBS/benzoyl peroxide in carbon tetrachloride) that are merged into this one record. The section names no isolated mass and no yield, so quantity is left empty. The label is never expanded to a chemical name inside this section, so it stays unresolved; the drawn structure on line 466 is the scheme product and is carried as a SMILES alias. Melting point is printed for 方法1 only. NMR is reported only as a reference to Figures 7 and 8, with no peak list. | Named only by formula label; the section gives no chemical name. The reaction drawing on line 478 supplies the structure as the scheme reactant, so the SMILES is kept as an alias. Charged as a solution in anhydrous tetrahydrofuran. | Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Product of the benzylic bromination and substrate for the trifluoroethoxide displacement; merged. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr' from section 'Summary of the Invention'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '式(III)化合物' to 'compound of formula (III)'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Summary of the Invention', the first place in the description body where this compound appears (L110). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD FLAGS 2026-09-03: unresolved_reference set false. Across the four other runs in this repo the two flags never hold together: unresolved_reference is true only for placeholders the patent never resolves (溶剂, 催化剂, ROH, ROM, 'starting material'), and those always have resolved=false. This compound's structure IS given, drawn and recorded, so the reference is resolved. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest). | GOLD FINAL 2026-09-03: two analytics entries added. (1) Example 4 monitors this compound's formation by HPLC TWICE - once in 方法1 (L468) and once in 方法2 (L470) - and the record held only one entry; the second is added with the same conditions reference, since L472 (与实施例1相同) is printed once for the whole Example. This matches how the tembotrione and formula (V) records carry one hplc entry per monitored run. (2) An nmr analytics entry mirroring the nmr field (L474, figures 7/8) is added, as every other characterised compound's record carries one.",
     "id": "WO2024109718A1_compound of formula (III)",
     "compound_uuid": "686ea361-3ed2-5259-8171-c8a7c4d6d6b4",
     "first_seen_line": 110,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:markush",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3382,14 +3701,17 @@
     "tags": [
       "compound_class:reagent",
       "chemical_family:diacyl_peroxide",
-      "hazard:peroxide_former",
       "hazard:explosive"
     ],
-    "notes": "Radical initiator for the benzylic bromination. Charged at 3.58g in both 方法1 and 方法2, so the two mentions are merged into one record. | Named as a radical initiator; the role vocabulary has no initiator value, so additive is used. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest).",
+    "notes": "Radical initiator for the benzylic bromination. Charged at 3.58g in both 方法1 and 方法2, so the two mentions are merged into one record. | Named as a radical initiator; the role vocabulary has no initiator value, so additive is used. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest). | GOLD BLIND-AUDIT 2026-09-03: tag hazard:peroxide_former removed. That tag marks substances that FORM peroxides on storage (ethers); this compound IS a peroxide. The tag stays correct on diethyl ether and THF.",
     "id": "WO2024109718A1_benzoyl peroxide",
     "compound_uuid": "87279700-4eed-5f4b-b8d2-73187acfa8a4",
     "first_seen_line": 289,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "O=C(OOC(=O)c1ccccc1)c1ccccc1",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C14H10O4",
+    "molecular_weight": 242.23
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3432,7 +3754,11 @@
     "id": "WO2024109718A1_1,2-dichloroethane",
     "compound_uuid": "2fca8bbd-c38f-5a9e-a564-6b233984c234",
     "first_seen_line": 250,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "ClCCCl",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H4Cl2",
+    "molecular_weight": 98.96
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3475,7 +3801,11 @@
     "id": "WO2024109718A1_carbon tetrachloride",
     "compound_uuid": "8bffa532-ef84-5422-a6f2-6b3592ab7e4b",
     "first_seen_line": 291,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "ClC(Cl)(Cl)Cl",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CCl4",
+    "molecular_weight": 153.82
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3512,11 +3842,15 @@
       "chemical_family:alcohol",
       "hazard:flammable"
     ],
-    "notes": "Recrystallisation solvent for the residue in 方法2. | Recrystallisation solvent, printed as 120g 甲醇或乙醇 (methanol or ethanol); the text offers the two as alternatives and states one mass covering either, so the mass is recorded on both records. | Recrystallisation solvent for the rotary-dried mother liquor; charged by mass as printed. | Merged: recrystallisation solvent for the compound of formula (IV) and, later in the section, an example of the alcohol second solvent in the carbonylation workup. | GOLD QUANTITY 2026-09-03: quantity now holds the FIRST charge in the patent (Example 4, L470) instead of an arbitrary one. Every charge, 3 for this compound, is in the charges array with its own Example and line. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (3 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest).",
+    "notes": "Recrystallisation solvent for the residue in 方法2. | Recrystallisation solvent, printed as 120g 甲醇或乙醇 (methanol or ethanol); the text offers the two as alternatives and states one mass covering either, so the mass is recorded on both records. | Recrystallisation solvent for the rotary-dried mother liquor; charged by mass as printed. | Merged: recrystallisation solvent for the compound of formula (IV) and, later in the section, an example of the alcohol second solvent in the carbonylation workup. | GOLD QUANTITY 2026-09-03: quantity now holds the FIRST charge in the patent (Example 4, L470) instead of an arbitrary one. Every charge, 3 for this compound, is in the charges array with its own Example and line. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (3 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest). | GOLD FINAL 2026-09-03: first_seen_line moved 302 -> 308. 乙醇 at L302 is a substring of 三氟乙醇钠/三氟乙醇钾 (the trifluoroethoxide salts), not a mention of ethanol. Ethanol itself first appears at L308, in [0077] 用甲醇或乙醇重结晶. | GOLD BLIND-AUDIT 2026-09-03: note clarification, no value changed. An earlier sentence ('the mass is recorded on both records', about the 120 g 甲醇或乙醇 charge of Example 5) predates the GOLD QUANTITY first-charge rule; this record now holds 150 mL from Example 4 (L470), its first charge, and the shared 120 g alternative lives on the methanol record and in reactions.json, now marked with alternative_group.",
     "id": "WO2024109718A1_ethanol",
     "compound_uuid": "6b81bb59-180c-520b-b8bb-80e9cb9e661a",
-    "first_seen_line": 302,
-    "concentration_pct": null
+    "first_seen_line": 308,
+    "concentration_pct": null,
+    "smiles": "CCO",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H6O",
+    "molecular_weight": 46.07
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3530,7 +3864,7 @@
     "section_label": "Summary of the Invention",
     "section_type": "summary_of_invention",
     "is_section_product": false,
-    "commercially_available": true,
+    "commercially_available": null,
     "role": "reagent",
     "quantity": {
       "mass_g": null,
@@ -3551,11 +3885,15 @@
     "tags": [
       "compound_class:reagent"
     ],
-    "notes": "Drawing-only reagent label: it appears solely as the condition text of the reaction scheme on line 466 and never in the prose. It is a class term, not a compound name, so it is left unresolved; the prose fills it with bromine in 方法1 and N-bromosuccinimide in 方法2. | Generic placeholder used as the condition label on the scheme; the section defines it as bromine, N-bromosuccinimide, or hydrogen bromide with hydrogen peroxide, preferably bromine. Kept as its own record and not collapsed into any one of them. | GENERIC REFERENCE, left unresolved: drawn as the condition over step (iii') at lines 120 and 135 and defined in [0015] and [0018] as any of bromine, N-bromosuccinimide, or hydrogen bromide with hydrogen peroxide, preferably bromine. A class term covering three alternatives denotes no single compound, so it is kept as printed with resolved false. The three alternatives are extracted as their own records. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '溴代试剂' to 'brominating reagent'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to True. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals.",
+    "notes": "Drawing-only reagent label: it appears solely as the condition text of the reaction scheme on line 466 and never in the prose. It is a class term, not a compound name, so it is left unresolved; the prose fills it with bromine in 方法1 and N-bromosuccinimide in 方法2. | Generic placeholder used as the condition label on the scheme; the section defines it as bromine, N-bromosuccinimide, or hydrogen bromide with hydrogen peroxide, preferably bromine. Kept as its own record and not collapsed into any one of them. | GENERIC REFERENCE, left unresolved: drawn as the condition over step (iii') at lines 120 and 135 and defined in [0015] and [0018] as any of bromine, N-bromosuccinimide, or hydrogen bromide with hydrogen peroxide, preferably bromine. A class term covering three alternatives denotes no single compound, so it is kept as printed with resolved false. The three alternatives are extracted as their own records. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '溴代试剂' to 'brominating reagent'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to True. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals. | GOLD FINAL 2026-09-03: commercially_available changed from True to None. This is a class term, and the availability convention this file states on every availability note - null where the entry is a class term or a placeholder rather than a purchasable substance - was not applied here; the other class records (acid-binding agent, oxidant, alkali solution, the solvent classes, the salt-of-class records) are all null. Same kind, same label.",
     "id": "WO2024109718A1_brominating reagent",
     "compound_uuid": "40eceb49-c723-503e-946d-7d603a5f3e2b",
     "first_seen_line": 120,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3597,7 +3935,11 @@
     "id": "WO2024109718A1_sodium hydride",
     "compound_uuid": "05835ba5-98ea-55ac-9364-028740e64e10",
     "first_seen_line": 314,
-    "concentration_pct": 60.0
+    "concentration_pct": 60.0,
+    "smiles": "[H-].[Na+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "HNa",
+    "molecular_weight": 24.0
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3635,11 +3977,15 @@
       "chemical_family:alcohol",
       "functional_group:trifluoromethyl"
     ],
-    "notes": "Supplies the 2,2,2-trifluoroethoxy group of the product, so recorded as reactant. Deprotonated in situ by sodium hydride rather than charged as a pre-formed alkoxide salt. | Reacted with the listed bases to give the trifluoroethoxide. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest).",
+    "notes": "Supplies the 2,2,2-trifluoroethoxy group of the product, so recorded as reactant. Deprotonated in situ by sodium hydride rather than charged as a pre-formed alkoxide salt. | Reacted with the listed bases to give the trifluoroethoxide. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest). | GOLD FINAL 2026-09-03: first_seen_line moved 302 -> 314. 三氟乙醇 at L302 is a substring of 三氟乙醇钠/三氟乙醇钾 (the alkoxide salts), not a mention of the alcohol. Trifluoroethanol itself first appears at L314, in [0080] 与三氟乙醇反应制备.",
     "id": "WO2024109718A1_2,2,2-trifluoroethanol",
     "compound_uuid": "bfc5d3ce-a387-5445-8510-57c0e9fd37c1",
-    "first_seen_line": 302,
-    "concentration_pct": null
+    "first_seen_line": 314,
+    "concentration_pct": null,
+    "smiles": "OCC(F)(F)F",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H3F3O",
+    "molecular_weight": 100.04
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3679,7 +4025,11 @@
     "id": "WO2024109718A1_saturated brine",
     "compound_uuid": "0796650c-3225-56db-af22-094f07f0e593",
     "first_seen_line": 308,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[Cl-].[Na+]",
+    "smiles_source": "known",
+    "molecular_formula": "ClNa",
+    "molecular_weight": 58.44
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3719,7 +4069,11 @@
     "id": "WO2024109718A1_PdCl₂",
     "compound_uuid": "9546b8d5-378e-5973-88c6-4a5d9eeb6b51",
     "first_seen_line": 327,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[Cl][Pd][Cl]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "Cl2Pd",
+    "molecular_weight": 177.33
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3752,7 +4106,7 @@
     "nmr": {
       "h1": null,
       "c13": null,
-      "raw_text": "497 | [0130] 式(V)化合物的¹HNMR(DMSO)谱图如图11所示，¹³CNMR(DMSO)谱图如图12所示。",
+      "raw_text": "式(V)化合物的¹HNMR(DMSO)谱图如图11所示，¹³CNMR(DMSO)谱图如图12所示。",
       "solvent": "DMSO",
       "frequency_mhz": null
     },
@@ -3799,11 +4153,15 @@
       "functional_group:trifluoromethyl",
       "functional_group:halide_chloro"
     ],
-    "notes": "Named only by its formula label, so unresolved; the structure drawn as the scheme product is carried as an alias. The 1H and 13C NMR data are not printed here, only referred to as Figures 11 and 12, so nmr stays null and the reference is recorded under analytics. No isolated mass is printed, only the yield. | Section product; the heading calls it the 羧酸化合物 (carboxylic acid compound) of formula (V) but gives no systematic name, so the label is left unresolved. The drawn scheme reads the product as CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F, consistent with the heading and with loss of the bromide of formula (IV), so the SMILES is kept as an alias. Only a yield percentage is printed; no isolated mass is given, so mass_g is null. | Named only by formula label; this section gives no chemical name for it. The reaction drawing on line 510 supplies the structure as the step 1 reactant, so the SMILES is kept as an alias. | Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Product of the carbonylation route (v); the section also calls it the carboxylic acid compound of formula (V). | GOLD MERGE 2026-09-02: absorbed the duplicate record '2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid' from section 'Background'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F' from section 'Summary of the Invention'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '式(V)化合物' to 'compound of formula (V)'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Background', the first place in the description body where this compound appears (L65). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD NMR 2026-09-03: the nmr field was empty while the patent gives 1H and 13C spectra for this compound at L497. Populated so all eight characterised compounds are visible in the same field. No shift values are printed anywhere in this patent, only figure references, so h1 and c13 stay null. | GOLD FLAGS 2026-09-03: unresolved_reference set false. Across the four other runs in this repo the two flags never hold together: unresolved_reference is true only for placeholders the patent never resolves (溶剂, 催化剂, ROH, ROM, 'starting material'), and those always have resolved=false. This compound's structure IS given, drawn and recorded, so the reference is resolved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from True to False. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 2 yield(s) exist for this compound; see reactions.json for the rest).",
+    "notes": "Named only by its formula label, so unresolved; the structure drawn as the scheme product is carried as an alias. The 1H and 13C NMR data are not printed here, only referred to as Figures 11 and 12, so nmr stays null and the reference is recorded under analytics. No isolated mass is printed, only the yield. | Section product; the heading calls it the 羧酸化合物 (carboxylic acid compound) of formula (V) but gives no systematic name, so the label is left unresolved. The drawn scheme reads the product as CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F, consistent with the heading and with loss of the bromide of formula (IV), so the SMILES is kept as an alias. Only a yield percentage is printed; no isolated mass is given, so mass_g is null. | Named only by formula label; this section gives no chemical name for it. The reaction drawing on line 510 supplies the structure as the step 1 reactant, so the SMILES is kept as an alias. | Bare formula label; the section gives no chemical name for it. Structure taken from the drawn scheme it heads. Product of the carbonylation route (v); the section also calls it the carboxylic acid compound of formula (V). | GOLD MERGE 2026-09-02: absorbed the duplicate record '2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid' from section 'Background'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F' from section 'Summary of the Invention'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '式(V)化合物' to 'compound of formula (V)'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Background', the first place in the description body where this compound appears (L65). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD NMR 2026-09-03: the nmr field was empty while the patent gives 1H and 13C spectra for this compound at L497. Populated so all eight characterised compounds are visible in the same field. No shift values are printed anywhere in this patent, only figure references, so h1 and c13 stay null. | GOLD FLAGS 2026-09-03: unresolved_reference set false. Across the four other runs in this repo the two flags never hold together: unresolved_reference is true only for placeholders the patent never resolves (溶剂, 催化剂, ROH, ROM, 'starting material'), and those always have resolved=false. This compound's structure IS given, drawn and recorded, so the reference is resolved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from True to False. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 2 yield(s) exist for this compound; see reactions.json for the rest). | GOLD FINAL 2026-09-03: nmr.raw_text had the markdown line-number and paragraph prefix ('497 | [0130]...') glued to the quotation; a quotation field must hold the patent's sentence verbatim, as the sibling records (0, 52, 75) already did. Prefix stripped; the sentence itself is unchanged and verified verbatim on the page.",
     "id": "WO2024109718A1_compound of formula (V)",
     "compound_uuid": "4df6cfa0-7b62-5fe9-a4be-9aeb612c31cc",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:markush",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3844,7 +4202,11 @@
     "id": "WO2024109718A1_thionyl chloride",
     "compound_uuid": "4f7b2de2-d64b-5717-80ec-2667fcb08f06",
     "first_seen_line": 74,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "O=S(Cl)Cl",
+    "smiles_source": "known+opsin+pubchem",
+    "molecular_formula": "Cl2OS",
+    "molecular_weight": 118.97
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3901,14 +4263,20 @@
     "id": "WO2024109718A1_compound of formula (VII)",
     "compound_uuid": "a3de545f-9c05-5651-a34a-8e6d932fdec8",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:markush",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
     "identifier": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride",
     "identifier_type": "other",
     "aliases": [
-      "双[(4-N,N-二甲氨基)苯基]二叔丁基膦二氯化钯"
+      "双[(4-N,N-二甲氨基)苯基]二叔丁基膦二氯化钯",
+      "Pd(Amphos)2Cl2",
+      "bis[di-tert-butyl(4-dimethylaminophenyl)phosphine]palladium dichloride"
     ],
     "resolved": true,
     "unresolved_reference": false,
@@ -3936,11 +4304,15 @@
     "tags": [
       "compound_class:catalyst"
     ],
-    "notes": "Charged sub-stoichiometrically for the carbonylation. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest).",
+    "notes": "Charged sub-stoichiometrically for the carbonylation. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (1 charge(s), 0 yield(s) exist for this compound; see reactions.json for the rest). | GOLD BLIND-AUDIT 2026-09-03: CHEMISTRY CORRECTION, identifier kept as printed per ruling. The literal name encodes an impossible tetra-substituted phosphine; the real species is Pd(Amphos)2Cl2 - bis[di-tert-butyl(4-dimethylaminophenyl)phosphine]palladium dichloride - where the patent's 双 counts the TWO Amphos ligands on palladium, not two aryls on phosphorus. Both correct names added as aliases.",
     "id": "WO2024109718A1_bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride",
     "compound_uuid": "d940ea25-abec-5789-86cb-52aa8a934bfb",
     "first_seen_line": 525,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CC(C)(C)PC(C)(C)C.CC(C)(C)PC(C)(C)C.[Cl][Pd][Cl]",
+    "smiles_source": "opsin",
+    "molecular_formula": "C16H38Cl2P2Pd",
+    "molecular_weight": 469.75
   },
   {
     "patent_id": "WO2024109718A1",
@@ -3977,7 +4349,7 @@
     "nmr": {
       "h1": null,
       "c13": null,
-      "raw_text": "531 | [0141] 式(VIII)化合物的1HNMR(DMSO)谱图如图13所示，13CNMR(DMSO)谱图如图14所示。",
+      "raw_text": "式(VIII)化合物的1HNMR(DMSO)谱图如图13所示，13CNMR(DMSO)谱图如图14所示。",
       "solvent": "DMSO",
       "frequency_mhz": null
     },
@@ -3992,6 +4364,20 @@
         "unit": null,
         "conditions": "高效液相色谱条件：与实施例5相同。",
         "raw_text": "通过高效液相色谱监测反应完成后"
+      },
+      {
+        "method": "hplc",
+        "value": null,
+        "unit": null,
+        "conditions": "高效液相色谱条件：与实施例5相同。",
+        "raw_text": "通过高效液相色谱监测反应完成后"
+      },
+      {
+        "method": "nmr",
+        "value": null,
+        "unit": null,
+        "conditions": "DMSO",
+        "raw_text": "式(VIII)化合物的1HNMR(DMSO)谱图如图13所示，13CNMR(DMSO)谱图如图14所示。"
       }
     ],
     "purity_pct": null,
@@ -4009,11 +4395,15 @@
       "chemical_family:benzoate_ester",
       "chemical_family:enol_ester"
     ],
-    "notes": "Named only by formula label; the section gives no chemical name. The reaction drawing on line 523 supplies the structure as the scheme product, so the SMILES is kept as an alias. Two yields are printed for the same product by two solvent variants: 80% by Method 1 (line 525) and 71.63% by Method 2 (line 527); the Method 1 value is carried in quantity and both are recorded here. 1H NMR and 13C NMR (DMSO) are referred to figures 13 and 14 and no spectral data is printed in this section. | GOLD MERGE 2026-09-02: absorbed the duplicate record '3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate' from section 'Background'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F' from section 'Summary of the Invention'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD MERGE 2026-09-02: absorbed the duplicate record '式(VIII)化合物' from section 'Example 8'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD MERGE 2026-09-02: absorbed the duplicate record '式(VIII)的酯化合物' from section 'Preparation Routes and General Embodiments'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '(VIII)酯化合物' to 'ester compound of formula (VIII)'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD SECTION 2026-09-03: section_label changed from 'Example 9' to 'Background', the first place in the description body where this compound appears (L65). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD NMR 2026-09-03: the nmr field was empty while the patent gives 1H and 13C spectra for this compound at L531. Populated so all eight characterised compounds are visible in the same field. No shift values are printed anywhere in this patent, only figure references, so h1 and c13 stay null. | GOLD FLAGS 2026-09-03: unresolved_reference set false. Across the four other runs in this repo the two flags never hold together: unresolved_reference is true only for placeholders the patent never resolves (溶剂, 催化剂, ROH, ROM, 'starting material'), and those always have resolved=false. This compound's structure IS given, drawn and recorded, so the reference is resolved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from True to False. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (0 charge(s), 3 yield(s) exist for this compound; see reactions.json for the rest). | GOLD PHYSICAL FORM 2026-09-03: physical_form set to solid. L525 states 70℃烘干固体，得到(VIII)酯化合物: the solid is dried at 70 C to give the (VIII) ester. The patent calls it a solid directly.",
+    "notes": "Named only by formula label; the section gives no chemical name. The reaction drawing on line 523 supplies the structure as the scheme product, so the SMILES is kept as an alias. Two yields are printed for the same product by two solvent variants: 80% by Method 1 (line 525) and 71.63% by Method 2 (line 527); the Method 1 value is carried in quantity and both are recorded here. 1H NMR and 13C NMR (DMSO) are referred to figures 13 and 14 and no spectral data is printed in this section. | GOLD MERGE 2026-09-02: absorbed the duplicate record '3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate' from section 'Background'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD MERGE 2026-09-02: absorbed the duplicate record 'CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F' from section 'Summary of the Invention'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD MERGE 2026-09-02: absorbed the duplicate record '式(VIII)化合物' from section 'Example 8'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD MERGE 2026-09-02: absorbed the duplicate record '式(VIII)的酯化合物' from section 'Preparation Routes and General Embodiments'. It held no data field this record lacks, the same role (product) and no conflicting charge, so the union is lossless. Its identifier and aliases are retained above so a join on either string still succeeds. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '(VIII)酯化合物' to 'ester compound of formula (VIII)'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD SECTION 2026-09-03: section_label changed from 'Example 9' to 'Background', the first place in the description body where this compound appears (L65). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD NMR 2026-09-03: the nmr field was empty while the patent gives 1H and 13C spectra for this compound at L531. Populated so all eight characterised compounds are visible in the same field. No shift values are printed anywhere in this patent, only figure references, so h1 and c13 stay null. | GOLD FLAGS 2026-09-03: unresolved_reference set false. Across the four other runs in this repo the two flags never hold together: unresolved_reference is true only for placeholders the patent never resolves (溶剂, 催化剂, ROH, ROM, 'starting material'), and those always have resolved=false. This compound's structure IS given, drawn and recorded, so the reference is resolved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from True to False. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals. | GOLD STRUCTURE 2026-09-03: the per-Example charges and yields array was removed. reactions.json already records every one of them, per reaction step, with role and concentration, and a second copy here could only drift out of step with it. quantity keeps the FIRST value the patent states (0 charge(s), 3 yield(s) exist for this compound; see reactions.json for the rest). | GOLD PHYSICAL FORM 2026-09-03: physical_form set to solid. L525 states 70℃烘干固体，得到(VIII)酯化合物: the solid is dried at 70 C to give the (VIII) ester. The patent calls it a solid directly. | GOLD FINAL 2026-09-03: nmr.raw_text had the markdown line-number and paragraph prefix ('531 | [0141]...') glued to the quotation; a quotation field must hold the patent's sentence verbatim, as the sibling records (0, 52, 75) already did. Prefix stripped; the sentence itself is unchanged and verified verbatim on the page. | GOLD FINAL 2026-09-03: two analytics entries added. (1) The formation of this ester is HPLC-monitored twice - in Example 8's second stage (L512, giving the 式(V III)化合物 solution) and in Example 9 (L525) - and each Example prints its own 与实施例5相同 conditions line (L516, L529); the record held only the Example 9 entry. (2) An nmr analytics entry mirroring the nmr field (L531, figures 13/14) is added, as every other characterised compound's record carries one. | GOLD BLIND-AUDIT 2026-09-03: cross-file alignment: reactions.json's Example 11 record now carries this ester as its INFERRED product (the patent names no product for Example 11; the charge set is Example 9's reaction), so the three yields this record counts (80%, 71.63%, below-10% bound) all resolve to reaction records.",
     "id": "WO2024109718A1_ester compound of formula (VIII)",
     "compound_uuid": "69f81fcc-3571-5967-8ed6-6ef798a59884",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:markush",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4027,7 +4417,7 @@
     "section_label": "Preparation Routes and General Embodiments",
     "section_type": "summary_of_invention",
     "is_section_product": false,
-    "commercially_available": true,
+    "commercially_available": null,
     "role": "catalyst",
     "quantity": {
       "mass_g": null,
@@ -4048,11 +4438,15 @@
     "tags": [
       "compound_class:catalyst"
     ],
-    "notes": "A salt class, not a single compound: the section says the salts include the sodium, potassium and ammonium salts. Left unresolved. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '钨酸盐' to 'tungstate'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to True. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals.",
+    "notes": "A salt class, not a single compound: the section says the salts include the sodium, potassium and ammonium salts. Left unresolved. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '钨酸盐' to 'tungstate'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to True. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals. | GOLD FINAL 2026-09-03: commercially_available changed from True to None. This is a class term, and the availability convention this file states on every availability note - null where the entry is a class term or a placeholder rather than a purchasable substance - was not applied here; the other class records (acid-binding agent, oxidant, alkali solution, the solvent classes, the salt-of-class records) are all null. Same kind, same label.",
     "id": "WO2024109718A1_tungstate",
     "compound_uuid": "59bfcd33-1379-53a9-a53a-3badf55bc0d3",
     "first_seen_line": 266,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[O]=[W](=[O])([O-])[O-]",
+    "smiles_source": "pubchem",
+    "molecular_formula": "O4W-2",
+    "molecular_weight": 247.84
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4066,7 +4460,7 @@
     "section_label": "Preparation Routes and General Embodiments",
     "section_type": "summary_of_invention",
     "is_section_product": false,
-    "commercially_available": true,
+    "commercially_available": null,
     "role": "catalyst",
     "quantity": {
       "mass_g": null,
@@ -4087,11 +4481,15 @@
     "tags": [
       "compound_class:catalyst"
     ],
-    "notes": "A salt class, not a single compound: the section says the salts include the sodium, potassium and ammonium salts. Left unresolved. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '偏钨酸盐' to 'metatungstate'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to True. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals.",
+    "notes": "A salt class, not a single compound: the section says the salts include the sodium, potassium and ammonium salts. Left unresolved. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '偏钨酸盐' to 'metatungstate'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to True. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals. | GOLD FINAL 2026-09-03: commercially_available changed from True to None. This is a class term, and the availability convention this file states on every availability note - null where the entry is a class term or a placeholder rather than a purchasable substance - was not applied here; the other class records (acid-binding agent, oxidant, alkali solution, the solvent classes, the salt-of-class records) are all null. Same kind, same label.",
     "id": "WO2024109718A1_metatungstate",
     "compound_uuid": "2c8d63ac-cb5f-5d9e-96d6-a234e72f7f35",
     "first_seen_line": 266,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:unresolved",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4105,7 +4503,7 @@
     "section_label": "Preparation Routes and General Embodiments",
     "section_type": "summary_of_invention",
     "is_section_product": false,
-    "commercially_available": true,
+    "commercially_available": null,
     "role": "catalyst",
     "quantity": {
       "mass_g": null,
@@ -4126,11 +4524,15 @@
     "tags": [
       "compound_class:catalyst"
     ],
-    "notes": "A salt class, not a single compound: the section says the salts include the sodium, potassium and ammonium salts. Left unresolved. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '钒酸盐' to 'vanadate'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to True. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals.",
+    "notes": "A salt class, not a single compound: the section says the salts include the sodium, potassium and ammonium salts. Left unresolved. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '钒酸盐' to 'vanadate'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to True. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals. | GOLD FINAL 2026-09-03: commercially_available changed from True to None. This is a class term, and the availability convention this file states on every availability note - null where the entry is a class term or a placeholder rather than a purchasable substance - was not applied here; the other class records (acid-binding agent, oxidant, alkali solution, the solvent classes, the salt-of-class records) are all null. Same kind, same label.",
     "id": "WO2024109718A1_vanadate",
     "compound_uuid": "cc793956-d5d1-57bc-8eba-f000c97959ca",
     "first_seen_line": 266,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[O]=[V](=[O])[O-]",
+    "smiles_source": "pubchem",
+    "molecular_formula": "O3V-",
+    "molecular_weight": 98.94
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4144,7 +4546,7 @@
     "section_label": "Preparation Routes and General Embodiments",
     "section_type": "summary_of_invention",
     "is_section_product": false,
-    "commercially_available": true,
+    "commercially_available": null,
     "role": "catalyst",
     "quantity": {
       "mass_g": null,
@@ -4165,11 +4567,15 @@
     "tags": [
       "compound_class:catalyst"
     ],
-    "notes": "A salt class, not a single compound: the section says the salts include the sodium, potassium and ammonium salts. Left unresolved. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '偏钒酸盐' to 'metavanadate'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to True. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals.",
+    "notes": "A salt class, not a single compound: the section says the salts include the sodium, potassium and ammonium salts. Left unresolved. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '偏钒酸盐' to 'metavanadate'. The Chinese string the patent prints is kept as the first alias. reactions.json was renamed in the same commit so the join is preserved. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to True. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals. | GOLD FINAL 2026-09-03: commercially_available changed from True to None. This is a class term, and the availability convention this file states on every availability note - null where the entry is a class term or a placeholder rather than a purchasable substance - was not applied here; the other class records (acid-binding agent, oxidant, alkali solution, the solvent classes, the salt-of-class records) are all null. Same kind, same label.",
     "id": "WO2024109718A1_metavanadate",
     "compound_uuid": "007f9c20-a9b7-5d6e-b462-d78326506eba",
     "first_seen_line": 266,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[O]=[V](=[O])[O-]",
+    "smiles_source": "pubchem",
+    "molecular_formula": "O3V-",
+    "molecular_weight": 98.94
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4210,7 +4616,11 @@
     "id": "WO2024109718A1_azobisisobutyronitrile",
     "compound_uuid": "e0b5bde4-33ec-5755-bd41-e7c14a802b14",
     "first_seen_line": 289,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CC(C)(C#N)N=NC(C)(C)C#N",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C8H12N4",
+    "molecular_weight": 164.21
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4251,7 +4661,11 @@
     "id": "WO2024109718A1_sodium 2,2,2-trifluoroethoxide",
     "compound_uuid": "2f1fad1c-545b-500a-b634-2a50c3fbe290",
     "first_seen_line": 65,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[Na+].[O-]CC(F)(F)F",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H2F3NaO",
+    "molecular_weight": 122.02
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4292,7 +4706,11 @@
     "id": "WO2024109718A1_potassium 2,2,2-trifluoroethoxide",
     "compound_uuid": "054d37e6-83fd-5492-be99-b35be9c4b198",
     "first_seen_line": 124,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[K+].[O-]CC(F)(F)F",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C2H2F3KO",
+    "molecular_weight": 138.13
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4334,7 +4752,11 @@
     "id": "WO2024109718A1_diethyl ether",
     "compound_uuid": "f4434dce-ca9c-5bac-a289-71dd180591f7",
     "first_seen_line": 310,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CCOCC",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C4H10O",
+    "molecular_weight": 74.12
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4375,7 +4797,11 @@
     "id": "WO2024109718A1_potassium hydride",
     "compound_uuid": "b7b943f2-89a7-5f24-9217-16d629538d59",
     "first_seen_line": 314,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[H-].[K+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "HK",
+    "molecular_weight": 40.11
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4415,7 +4841,11 @@
     "id": "WO2024109718A1_sodium methoxide",
     "compound_uuid": "a10ff1a9-bd1f-580c-85b8-e9c313fb17dd",
     "first_seen_line": 314,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "C[O-].[Na+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CH3NaO",
+    "molecular_weight": 54.02
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4455,7 +4885,11 @@
     "id": "WO2024109718A1_potassium methoxide",
     "compound_uuid": "8f257664-f90d-5e0e-ac4c-480451f1c361",
     "first_seen_line": 314,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "C[O-].[K+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CH3KO",
+    "molecular_weight": 70.13
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4495,7 +4929,11 @@
     "id": "WO2024109718A1_potassium hydroxide",
     "compound_uuid": "063376d3-5012-5d9b-97c0-a3dc6e9bebc9",
     "first_seen_line": 314,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "[K+].[OH-]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "HKO",
+    "molecular_weight": 56.11
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4535,7 +4973,11 @@
     "id": "WO2024109718A1_potassium carbonate",
     "compound_uuid": "10a3bcf8-1eb3-5933-8545-00ea89d25dac",
     "first_seen_line": 331,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "O=C([O-])[O-].[K+].[K+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CK2O3",
+    "molecular_weight": 138.2
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4575,7 +5017,11 @@
     "id": "WO2024109718A1_sodium carbonate",
     "compound_uuid": "853f9f3e-7330-5fc0-9d83-42fdc8009d8b",
     "first_seen_line": 331,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "O=C([O-])[O-].[Na+].[Na+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CNa2O3",
+    "molecular_weight": 105.99
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4615,7 +5061,11 @@
     "id": "WO2024109718A1_cesium carbonate",
     "compound_uuid": "2ce2e781-284b-5103-b947-b9ed63731544",
     "first_seen_line": 331,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "O=C([O-])[O-].[Cs+].[Cs+]",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "CCs2O3",
+    "molecular_weight": 325.82
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4655,7 +5105,11 @@
     "id": "WO2024109718A1_potassium phosphate",
     "compound_uuid": "d3ccaffb-8ce4-530a-9899-167068b9addb",
     "first_seen_line": 331,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+    "smiles_source": "opsin",
+    "molecular_formula": "K3O4P",
+    "molecular_weight": 212.26
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4695,7 +5149,11 @@
     "id": "WO2024109718A1_N,N-dimethylacetamide",
     "compound_uuid": "33ca3292-5fb5-58ad-9cb0-086be9006a0e",
     "first_seen_line": 331,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CC(=O)N(C)C",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C4H9NO",
+    "molecular_weight": 87.12
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4735,7 +5193,11 @@
     "id": "WO2024109718A1_N,N-diisopropylethylamine",
     "compound_uuid": "dac03690-9739-57d1-bb18-d51bd79e2a08",
     "first_seen_line": 331,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "CCN(C(C)C)C(C)C",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C8H19N",
+    "molecular_weight": 129.25
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4776,7 +5238,11 @@
     "id": "WO2024109718A1_1,8-diazabicyclo[5_4_0]undec-7-ene_cde8b03d",
     "compound_uuid": "503cb4ae-669a-5047-8cdd-f0f59d32046a",
     "first_seen_line": 331,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "C1CCC2=NCCCN2CC1",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C9H16N2",
+    "molecular_weight": 152.24
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4817,7 +5283,11 @@
     "id": "WO2024109718A1_triethylenediamine",
     "compound_uuid": "c59a0050-a1cf-515f-93f9-b86e19c68e5c",
     "first_seen_line": 331,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": "C1CN2CCN1CC2",
+    "smiles_source": "opsin+pubchem",
+    "molecular_formula": "C6H12N2",
+    "molecular_weight": 112.18
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4856,7 +5326,11 @@
     "id": "WO2024109718A1_acid-binding agent",
     "compound_uuid": "c9ca2baf-1635-5449-9985-2dbfd7bc6d0c",
     "first_seen_line": 320,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4895,7 +5369,11 @@
     "id": "WO2024109718A1_cyanide-type catalyst",
     "compound_uuid": "f96e5542-a486-5ed6-a632-d3a3ac217bf0",
     "first_seen_line": 348,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4934,7 +5412,11 @@
     "id": "WO2024109718A1_phosphine ligand or a salt thereof",
     "compound_uuid": "4f4b55b9-f2c1-5801-a6bd-d14e61fc59ea",
     "first_seen_line": 329,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -4973,7 +5455,11 @@
     "id": "WO2024109718A1_noble metal catalyst",
     "compound_uuid": "7a836557-9880-5aa8-8099-5fff6ab3d1e9",
     "first_seen_line": 325,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5012,7 +5498,11 @@
     "id": "WO2024109718A1_palladium catalyst",
     "compound_uuid": "18403e73-4e3c-5244-a8d2-e265aba22daa",
     "first_seen_line": 327,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5051,7 +5541,11 @@
     "id": "WO2024109718A1_initiator",
     "compound_uuid": "c1aa2989-4770-5196-86cc-7b82ab82b08b",
     "first_seen_line": 285,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5090,7 +5584,11 @@
     "id": "WO2024109718A1_oxidant",
     "compound_uuid": "ab9aaf97-271d-5804-b6c9-07c6dc7e826e",
     "first_seen_line": 260,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5129,7 +5627,11 @@
     "id": "WO2024109718A1_alkali solution",
     "compound_uuid": "2ddee059-af4c-5570-809e-264ab562483c",
     "first_seen_line": 246,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5168,7 +5670,11 @@
     "id": "WO2024109718A1_alcohol solvent",
     "compound_uuid": "a5f4a2d5-545d-5557-aaa2-5c157b531ed3",
     "first_seen_line": 337,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5208,7 +5714,11 @@
     "id": "WO2024109718A1_sodium salt of the tungstate/vanadate catalyst",
     "compound_uuid": "b8f0d74a-dda5-5d85-acf2-d9a41bfe03de",
     "first_seen_line": 266,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5248,7 +5758,11 @@
     "id": "WO2024109718A1_potassium salt of the tungstate/vanadate catalyst",
     "compound_uuid": "ce7217ac-3d13-5223-a669-dcd25bfe12d5",
     "first_seen_line": 266,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5288,7 +5802,11 @@
     "id": "WO2024109718A1_ammonium salt of the tungstate/vanadate catalyst",
     "compound_uuid": "977b7257-09ac-5cf5-a7e5-7d6cfc0b4ba7",
     "first_seen_line": 266,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5328,7 +5846,11 @@
     "id": "WO2024109718A1_aromatic hydrocarbon solvent (class)",
     "compound_uuid": "9f046ef0-3114-52f3-9372-2a4bfaa282ca",
     "first_seen_line": 333,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5368,7 +5890,11 @@
     "id": "WO2024109718A1_sulfoxide solvent (class)",
     "compound_uuid": "20c2230a-56e8-59c5-9839-35e3329b8f39",
     "first_seen_line": 333,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5404,11 +5930,15 @@
     "tags": [
       "compound_class:generic"
     ],
-    "notes": "GENERIC SOLVENT CLASS, verified at line 333. One of the four first-solvent classes; dioxane, DME, DEE and THF are named species within it. See the 芳烃 record. Added 2026-09-02. | GOLD JOIN 2026-09-02: alias 'ether solvent (class)' added because reactions.json refers to this class by that exact string; without it the identifier join fails. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '醚' to 'ether solvent (class)', so a reviewer is not shown untranslated Chinese. The Chinese string the patent actually prints is kept as the first alias. Verified safe: no output file joins on '醚'. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to None. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals.",
+    "notes": "GENERIC SOLVENT CLASS, verified at line 333. One of the four first-solvent classes; dioxane, DME, DEE and THF are named species within it. See the 芳烃 record. Added 2026-09-02. | GOLD JOIN 2026-09-02: alias 'ether solvent (class)' added because reactions.json refers to this class by that exact string; without it the identifier join fails. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '醚' to 'ether solvent (class)', so a reviewer is not shown untranslated Chinese. The Chinese string the patent actually prints is kept as the first alias. Verified safe: no output file joins on '醚'. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to None. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals. | GOLD FINAL 2026-09-03: first_seen_line moved 311 -> 333. L311 is an English translation line and its 'ether' is part of 'diethyl ether'; the class term 醚 as a class appears at L333 in [0087] 选自芳烃、亚砜、醚、酰胺类, which is the line this record's own note already cites and the line its three sibling class records use.",
     "id": "WO2024109718A1_ether solvent (class)",
     "compound_uuid": "6ed5ef0d-b34a-563b-a225-bf61dffff08f",
-    "first_seen_line": 311,
-    "concentration_pct": null
+    "first_seen_line": 333,
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5448,7 +5978,11 @@
     "id": "WO2024109718A1_amide solvent (class)",
     "compound_uuid": "157196f9-bdf2-553e-941d-2a31717c952c",
     "first_seen_line": 333,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5459,8 +5993,8 @@
     ],
     "resolved": false,
     "unresolved_reference": true,
-    "section_label": "Background",
-    "section_type": "background",
+    "section_label": "Preparation Routes and General Embodiments",
+    "section_type": "summary_of_invention",
     "is_section_product": false,
     "commercially_available": null,
     "role": "catalyst",
@@ -5483,11 +6017,15 @@
     "tags": [
       "compound_class:generic"
     ],
-    "notes": "GENERIC CLASS TERM, verified at lines 264 and 320. [0062] mixes compound (I), solvent and 任选使用的催化剂 - an OPTIONALLY used catalyst; [0082] charges 催化剂 into the autoclave. The optionality at line 264 is a disclosure in its own right. Added 2026-09-02. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '催化剂' to 'catalyst', so a reviewer is not shown untranslated Chinese. The Chinese string the patent actually prints is kept as the first alias. Verified safe: no output file joins on '催化剂'. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Background', the first place in the description body where this compound appears (L76). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to None. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals.",
+    "notes": "GENERIC CLASS TERM, verified at lines 264 and 320. [0062] mixes compound (I), solvent and 任选使用的催化剂 - an OPTIONALLY used catalyst; [0082] charges 催化剂 into the autoclave. The optionality at line 264 is a disclosure in its own right. Added 2026-09-02. | GOLD LANGUAGE 2026-09-03: identifier changed from the Chinese '催化剂' to 'catalyst', so a reviewer is not shown untranslated Chinese. The Chinese string the patent actually prints is kept as the first alias. Verified safe: no output file joins on '催化剂'. | GOLD SECTION 2026-09-03: section_label changed from 'Preparation Routes and General Embodiments' to 'Background', the first place in the description body where this compound appears (L76). The old value did not point at a section where this compound's data is printed. Charges keep their own per-Example provenance in the charges array. | GOLD AVAILABILITY 2026-09-03: commercially_available changed from False to None. The patent never states availability for anything, so this is general knowledge, not a reading of the page: false where the patent or its cited prior art MAKES the compound, null where the entry is a class term or a placeholder rather than a purchasable substance, true for ordinary catalogue chemicals. | GOLD BLIND-AUDIT 2026-09-03: first_seen_line moved 76 -> 264 and section restored to Preparation Routes. At L76 催化剂 occurs only inside 催化剂三氯化铝 ('the catalyst aluminium trichloride'), a SPECIFIC compound already covered by its own record - not a use of the generic placeholder this record exists for. The generic 任选使用的催化剂 first appears at L264 ([0062]), exactly where this record's own verification note says it lives.",
     "id": "WO2024109718A1_catalyst",
     "compound_uuid": "4bb0c43e-9f38-52d3-a7d5-21e8f095d247",
-    "first_seen_line": 76,
-    "concentration_pct": null
+    "first_seen_line": 264,
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5526,7 +6064,11 @@
     "id": "WO2024109718A1_ligand",
     "compound_uuid": "9eb91f5b-6d37-57c9-9d68-90e74b0c6c22",
     "first_seen_line": 320,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5565,7 +6107,11 @@
     "id": "WO2024109718A1_triketone",
     "compound_uuid": "0313fbeb-b12d-58a8-a0e9-6f3d83789b01",
     "first_seen_line": 61,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5604,7 +6150,11 @@
     "id": "WO2024109718A1_first solvent",
     "compound_uuid": "6a6e4a35-25c2-52a1-a050-fd9c6eff0eba",
     "first_seen_line": 320,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
@@ -5643,6 +6193,10 @@
     "id": "WO2024109718A1_second solvent",
     "compound_uuid": "c45aeff7-706e-5d5d-882a-3d1a8bcdb2f3",
     "first_seen_line": 320,
-    "concentration_pct": null
+    "concentration_pct": null,
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   }
 ]

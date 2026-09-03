@@ -6,9 +6,12 @@
     "ksm": null,
     "intermediates": [],
     "product": {
-      "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
-      "smiles": null,
-      "compound_uuid": "530a21f2-f5ac-5d84-ae57-a5fd9d44d98b"
+      "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "steps": [
       {
@@ -244,9 +247,12 @@
     "ksm": null,
     "intermediates": [],
     "product": {
-      "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
-      "smiles": null,
-      "compound_uuid": "530a21f2-f5ac-5d84-ae57-a5fd9d44d98b"
+      "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+      "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C10H10BrClO4S",
+      "molecular_weight": 341.61
     },
     "steps": [
       {
@@ -482,20 +488,29 @@
     "ksm": null,
     "intermediates": [
       {
-        "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
-        "smiles": null,
-        "compound_uuid": "530a21f2-f5ac-5d84-ae57-a5fd9d44d98b"
+        "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+        "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C10H10BrClO4S",
+        "molecular_weight": 341.61
       },
       {
-        "identifier": "2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid",
-        "smiles": null,
-        "compound_uuid": "6af23de6-af3a-50e0-9f25-a12ed949ddc2"
+        "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       }
     ],
     "product": {
       "identifier": "tembotrione",
-      "smiles": null,
-      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb",
+      "smiles_source": "patent_scheme+pubchem",
+      "molecular_formula": "C17H16ClF3O6S",
+      "molecular_weight": 440.82
     },
     "steps": [
       {
@@ -1131,15 +1146,21 @@
     "ksm": null,
     "intermediates": [
       {
-        "identifier": "2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid",
-        "smiles": null,
-        "compound_uuid": "6af23de6-af3a-50e0-9f25-a12ed949ddc2"
+        "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       }
     ],
     "product": {
       "identifier": "tembotrione",
-      "smiles": null,
-      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb",
+      "smiles_source": "patent_scheme+pubchem",
+      "molecular_formula": "C17H16ClF3O6S",
+      "molecular_weight": 440.82
     },
     "steps": [
       {
@@ -1544,20 +1565,29 @@
     "ksm": null,
     "intermediates": [
       {
-        "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
-        "smiles": null,
-        "compound_uuid": "530a21f2-f5ac-5d84-ae57-a5fd9d44d98b"
+        "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+        "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C10H10BrClO4S",
+        "molecular_weight": 341.61
       },
       {
-        "identifier": "2-chloro-3-(2,2,2-trifluoroethoxy)methyl-4-methylsulfonylbenzoic acid",
-        "smiles": null,
-        "compound_uuid": "6af23de6-af3a-50e0-9f25-a12ed949ddc2"
+        "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       }
     ],
     "product": {
       "identifier": "tembotrione",
-      "smiles": null,
-      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb",
+      "smiles_source": "patent_scheme+pubchem",
+      "molecular_formula": "C17H16ClF3O6S",
+      "molecular_weight": 440.82
     },
     "steps": [
       {
@@ -2170,26 +2200,38 @@
     "scope": "section",
     "section_label": "Claims",
     "ksm": {
-      "identifier": "methyl 2-chloro-3-methyl-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "bdd5ca96-31e4-5feb-9289-06f0b408fc66"
+      "identifier": "methyl 2-chloro-3-methyl-4-(methylsulfonyl)benzoate",
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13",
+      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "molecular_formula": "C10H11ClO4S",
+      "molecular_weight": 262.71
     },
     "intermediates": [
       {
-        "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "97ce4afc-7972-59fb-9740-29c621810a93"
+        "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+        "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C10H10BrClO4S",
+        "molecular_weight": 341.61
       },
       {
-        "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
-        "smiles": null,
-        "compound_uuid": "0eb0fcdb-3eb8-5aa9-9f14-05382dc76e15"
+        "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       }
     ],
     "product": {
       "identifier": "tembotrione",
-      "smiles": null,
-      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb",
+      "smiles_source": "patent_scheme+pubchem",
+      "molecular_formula": "C17H16ClF3O6S",
+      "molecular_weight": 440.82
     },
     "steps": [
       {
@@ -3600,25 +3642,37 @@
     "section_label": "Comparative Example",
     "ksm": {
       "identifier": "methyl 2-chloro-3-methyl-4-(methylsulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13",
+      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "molecular_formula": "C10H11ClO4S",
+      "molecular_weight": 262.71
     },
     "intermediates": [
       {
         "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4"
+        "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C10H10BrClO4S",
+        "molecular_weight": 341.61
       },
       {
         "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
-        "smiles": null,
-        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       }
     ],
     "product": {
       "identifier": "tembotrione",
-      "smiles": null,
-      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb",
+      "smiles_source": "patent_scheme+pubchem",
+      "molecular_formula": "C17H16ClF3O6S",
+      "molecular_weight": 440.82
     },
     "steps": [
       {
@@ -4530,25 +4584,37 @@
     "section_label": "Example 1",
     "ksm": {
       "identifier": "methyl 2-chloro-3-methyl-4-(methylsulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13",
+      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "molecular_formula": "C10H11ClO4S",
+      "molecular_weight": 262.71
     },
     "intermediates": [
       {
         "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4"
+        "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C10H10BrClO4S",
+        "molecular_weight": 341.61
       },
       {
         "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
-        "smiles": null,
-        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       }
     ],
     "product": {
       "identifier": "tembotrione",
-      "smiles": null,
-      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb",
+      "smiles_source": "patent_scheme+pubchem",
+      "molecular_formula": "C17H16ClF3O6S",
+      "molecular_weight": 440.82
     },
     "steps": [
       {
@@ -5590,25 +5656,37 @@
     "section_label": "Example 2",
     "ksm": {
       "identifier": "methyl 2-chloro-3-methyl-4-(methylsulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13",
+      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "molecular_formula": "C10H11ClO4S",
+      "molecular_weight": 262.71
     },
     "intermediates": [
       {
         "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4"
+        "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C10H10BrClO4S",
+        "molecular_weight": 341.61
       },
       {
         "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
-        "smiles": null,
-        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       }
     ],
     "product": {
       "identifier": "tembotrione",
-      "smiles": null,
-      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb",
+      "smiles_source": "patent_scheme+pubchem",
+      "molecular_formula": "C17H16ClF3O6S",
+      "molecular_weight": 440.82
     },
     "steps": [
       {
@@ -6671,25 +6749,37 @@
     "section_label": "Example 3",
     "ksm": {
       "identifier": "methyl 2-chloro-3-methyl-4-(methylsulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13",
+      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "molecular_formula": "C10H11ClO4S",
+      "molecular_weight": 262.71
     },
     "intermediates": [
       {
         "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4"
+        "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C10H10BrClO4S",
+        "molecular_weight": 341.61
       },
       {
         "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
-        "smiles": null,
-        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       }
     ],
     "product": {
       "identifier": "tembotrione",
-      "smiles": null,
-      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb",
+      "smiles_source": "patent_scheme+pubchem",
+      "molecular_formula": "C17H16ClF3O6S",
+      "molecular_weight": 440.82
     },
     "steps": [
       {
@@ -7735,25 +7825,37 @@
     "section_label": "Example 4",
     "ksm": {
       "identifier": "methyl 2-chloro-3-methyl-4-(methylsulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13",
+      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "molecular_formula": "C10H11ClO4S",
+      "molecular_weight": 262.71
     },
     "intermediates": [
       {
         "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4"
+        "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C10H10BrClO4S",
+        "molecular_weight": 341.61
       },
       {
         "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
-        "smiles": null,
-        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       }
     ],
     "product": {
       "identifier": "tembotrione",
-      "smiles": null,
-      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb",
+      "smiles_source": "patent_scheme+pubchem",
+      "molecular_formula": "C17H16ClF3O6S",
+      "molecular_weight": 440.82
     },
     "steps": [
       {
@@ -8821,26 +8923,38 @@
     "scope": "section",
     "section_label": "Summary of the Invention",
     "ksm": {
-      "identifier": "methyl 2-chloro-3-methyl-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "bdd5ca96-31e4-5feb-9289-06f0b408fc66"
+      "identifier": "methyl 2-chloro-3-methyl-4-(methylsulfonyl)benzoate",
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13",
+      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "molecular_formula": "C10H11ClO4S",
+      "molecular_weight": 262.71
     },
     "intermediates": [
       {
-        "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "97ce4afc-7972-59fb-9740-29c621810a93"
+        "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+        "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C10H10BrClO4S",
+        "molecular_weight": 341.61
       },
       {
-        "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
-        "smiles": null,
-        "compound_uuid": "0eb0fcdb-3eb8-5aa9-9f14-05382dc76e15"
+        "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       }
     ],
     "product": {
       "identifier": "tembotrione",
-      "smiles": null,
-      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb",
+      "smiles_source": "patent_scheme+pubchem",
+      "molecular_formula": "C17H16ClF3O6S",
+      "molecular_weight": 440.82
     },
     "steps": [
       {
@@ -9792,36 +9906,54 @@
     "scope": "section",
     "section_label": "Summary of the Invention",
     "ksm": {
-      "identifier": "methyl 2-chloro-3-methyl-4-(methanesulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "bdd5ca96-31e4-5feb-9289-06f0b408fc66"
+      "identifier": "methyl 2-chloro-3-methyl-4-(methylsulfonyl)benzoate",
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13",
+      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "molecular_formula": "C10H11ClO4S",
+      "molecular_weight": 262.71
     },
     "intermediates": [
       {
-        "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "97ce4afc-7972-59fb-9740-29c621810a93"
+        "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
+        "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C10H10BrClO4S",
+        "molecular_weight": 341.61
       },
       {
         "identifier": "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
-        "smiles": null,
-        "compound_uuid": "e3545263-e144-5840-9f45-db2b742776d6"
+        "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+        "compound_uuid": "e3545263-e144-5840-9f45-db2b742776d6",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C12H12ClF3O5S",
+        "molecular_weight": 360.74
       },
       {
-        "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid",
-        "smiles": null,
-        "compound_uuid": "0eb0fcdb-3eb8-5aa9-9f14-05382dc76e15"
+        "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       },
       {
         "identifier": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
-        "smiles": null,
-        "compound_uuid": "aca3af7a-7bc1-527a-bdf6-13b7267ff006"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+        "compound_uuid": "aca3af7a-7bc1-527a-bdf6-13b7267ff006",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C11H9Cl2F3O4S",
+        "molecular_weight": 365.16
       }
     ],
     "product": {
       "identifier": "tembotrione",
-      "smiles": null,
-      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb",
+      "smiles_source": "patent_scheme+pubchem",
+      "molecular_formula": "C17H16ClF3O6S",
+      "molecular_weight": 440.82
     },
     "steps": [
       {
@@ -11000,25 +11132,37 @@
     "section_label": null,
     "ksm": {
       "identifier": "methyl 2-chloro-3-methyl-4-(methylsulfonyl)benzoate",
-      "smiles": null,
-      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13"
+      "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+      "compound_uuid": "d95a047c-3435-55ad-a055-fc93b3504f13",
+      "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+      "molecular_formula": "C10H11ClO4S",
+      "molecular_weight": 262.71
     },
     "intermediates": [
       {
         "identifier": "methyl 2-chloro-3-(bromomethyl)-4-(methylsulfonyl)benzoate",
-        "smiles": null,
-        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4"
+        "smiles": "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+        "compound_uuid": "a8c88ecc-e706-5eb5-90fc-03740fc387c4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C10H10BrClO4S",
+        "molecular_weight": 341.61
       },
       {
         "identifier": "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methylsulfonyl)benzoic acid",
-        "smiles": null,
-        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "compound_uuid": "be500d5a-38e6-504a-9f46-f98c953997b6",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       }
     ],
     "product": {
       "identifier": "tembotrione",
-      "smiles": null,
-      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+      "compound_uuid": "005f6684-b0dd-5d23-a194-9a7435048aeb",
+      "smiles_source": "patent_scheme+pubchem",
+      "molecular_formula": "C17H16ClF3O6S",
+      "molecular_weight": 440.82
     },
     "steps": [
       {

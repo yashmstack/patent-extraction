@@ -1,0 +1,88 @@
+{
+ "patent_id": "WO2022024094A1",
+ "identifiers": 52,
+ "resolved": 36,
+ "witnesses": {
+  "3": 10,
+  "2": 23,
+  "1": 2,
+  "4": 1
+ },
+ "no_structure": {
+  "none:markush": 1,
+  "none:class_name": 12,
+  "none:unresolved": 1,
+  "none:reference": 1,
+  "none:polymer": 1
+ },
+ "records": {
+  "compounds": [
+   36,
+   52
+  ],
+  "reaction_participants": [
+   82,
+   91
+  ],
+  "reaction_products": [
+   15,
+   20
+  ],
+  "pathway_refs": [
+   34,
+   43
+  ]
+ },
+ "disagreements": [
+  {
+   "identifier": "vanadium pentoxide",
+   "answers": {
+    "opsin": "[O-2].[O-2].[O-2].[O-2].[O-2].[V+5].[V+5]",
+    "pubchem": "[O]=[V](=[O])[O][V](=[O])=[O]"
+   },
+   "chosen": "[O-2].[O-2].[O-2].[O-2].[O-2].[V+5].[V+5]",
+   "chosen_source": "opsin",
+   "reason": "the record's own alias 'V2O5' is a formula, and only opsin returned a structure with those atoms.",
+   "needs_human": false
+  },
+  {
+   "identifier": "ruthenium oxide",
+   "answers": {
+    "curated": "[O]=[Ru]=[O]",
+    "opsin": "[O]=[Ru]",
+    "pubchem": "[O]=[Ru]=[O]"
+   },
+   "chosen": "[O]=[Ru]=[O]",
+   "chosen_source": "curated",
+   "reason": "the record's own alias 'RuO2' is a formula, and only curated returned a structure with those atoms.",
+   "needs_human": false
+  },
+  {
+   "identifier": "chlorine",
+   "answers": {
+    "known": "ClCl",
+    "opsin": "[Cl]",
+    "pubchem": "ClCl"
+   },
+   "chosen": "ClCl",
+   "chosen_source": "known",
+   "reason": "diatomic element: a patent charges chlorine as the molecule, not the atom. The single-atom reading halves the molecular weight.",
+   "needs_human": false
+  }
+ ],
+ "unresolved": [
+  {
+   "identifier": "ruthenate",
+   "tried": [
+    "ruthenate"
+   ]
+  }
+ ],
+ "pathway_renames": [],
+ "readers": [
+  "curated (human, this patent)",
+  "patent_drawing (vision pass, this patent)",
+  "opsin (OPSIN 2.9.0, pipeline/vendor/)",
+  "pubchem (PUG-REST)"
+ ]
+}

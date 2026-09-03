@@ -1,0 +1,332 @@
+{
+ "service": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/",
+ "what": "PubChem's answer for one exact name, so a re-run needs no network.",
+ "answers": {
+  "2-chloro-3-(alkoxymethyl)-4-(methanesulfonyl)benzoic acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-chloro-3-alkoxymethyl-4-methanesulfonylbenzoic acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "methyl 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate salt": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-chloro-3-bromomethyl-4-methylsulfonylbenzoate salt": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-chloro-3-bromomethyl-4-methylsulfonylbenzoate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "tembotrione": {
+   "smiles": "CS(=O)(=O)C1=C(C(=C(C=C1)C(=O)C2C(=O)CCCC2=O)Cl)COCC(F)(F)F",
+   "cid": 11556911,
+   "formula": "C17H16ClF3O6S",
+   "message": ""
+  },
+  "tefuryltrione": {
+   "smiles": "CS(=O)(=O)C1=C(C(=C(C=C1)C(=O)C2C(=O)CCCC2=O)Cl)COCC3CCCO3",
+   "cid": 11205154,
+   "formula": "C20H23ClO7S",
+   "message": ""
+  },
+  "2-chloro-3-[(2,2,2-trifluoroethoxy)methyl]-4-(methanesulfonyl)benzoic acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-chloro-3-{[(RS)-tetrahydrofuran-2-yl]methoxymethyl}-4-(methanesulfonyl)benzoic acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC1CCCO1": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-chloro-3-[(RS)-tetrahydrofuran-2-ylmethoxymethyl]-4-methylsulfonylbenzoic acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "mesotrione": {
+   "smiles": "CS(=O)(=O)C1=CC(=C(C=C1)C(=O)C2C(=O)CCCC2=O)[N+](=O)[O-]",
+   "cid": 175967,
+   "formula": "C14H13NO7S",
+   "message": ""
+  },
+  "the methyl ester of the target compound": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "methyl ester of the target compound": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-chloro-3-(methoxymethyl)-4-(methanesulfonyl)benzoic acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "methanol": {
+   "smiles": "CO",
+   "cid": 887,
+   "formula": "CH4O",
+   "message": ""
+  },
+  "tertiary alcohol": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "starting material": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "basic substance": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "target compound": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "tert-butanol": {
+   "smiles": "CC(C)(C)O",
+   "cid": 6386,
+   "formula": "C4H10O",
+   "message": ""
+  },
+  "tert-amyl alcohol": {
+   "smiles": "CCC(C)(C)O",
+   "cid": 6405,
+   "formula": "C5H12O",
+   "message": ""
+  },
+  "2-methyl-2-pentanol": {
+   "smiles": "CCCC(C)(C)O",
+   "cid": 11543,
+   "formula": "C6H14O",
+   "message": ""
+  },
+  "sodium hydroxide": {
+   "smiles": "[OH-].[Na+]",
+   "cid": 14798,
+   "formula": "HNaO",
+   "message": ""
+  },
+  "potassium hydroxide": {
+   "smiles": "[OH-].[K+]",
+   "cid": 14797,
+   "formula": "HKO",
+   "message": ""
+  },
+  "sodium tert-butoxide": {
+   "smiles": "CC(C)(C)O.[Na]",
+   "cid": 45051916,
+   "formula": "C4H10NaO",
+   "message": ""
+  },
+  "potassium tert-butoxide": {
+   "smiles": "CC(C)(C)[O-].[K+]",
+   "cid": 23665647,
+   "formula": "C4H9KO",
+   "message": ""
+  },
+  "sodium hydride": {
+   "smiles": "[H-].[Na+]",
+   "cid": 24758,
+   "formula": "HNa",
+   "message": ""
+  },
+  "potassium hydride": {
+   "smiles": "[H-].[K+]",
+   "cid": 82127,
+   "formula": "HK",
+   "message": ""
+  },
+  "sodium metal": {
+   "smiles": "[Na]",
+   "cid": 5360545,
+   "formula": "Na",
+   "message": ""
+  },
+  "potassium metal": {
+   "smiles": "[K]",
+   "cid": 5462222,
+   "formula": "K",
+   "message": ""
+  },
+  "2,2,2-trifluoroethanol": {
+   "smiles": "C(C(F)(F)F)O",
+   "cid": 6409,
+   "formula": "C2H3F3O",
+   "message": ""
+  },
+  "tetrahydrofurfuryl alcohol": {
+   "smiles": "C1CC(OC1)CO",
+   "cid": 7360,
+   "formula": "C5H10O2",
+   "message": ""
+  },
+  "acetonitrile": {
+   "smiles": "CC#N",
+   "cid": 6342,
+   "formula": "C2H3N",
+   "message": ""
+  },
+  "N,N-dimethylformamide": {
+   "smiles": "CN(C)C=O",
+   "cid": 6228,
+   "formula": "C3H7NO",
+   "message": ""
+  },
+  "dimethyl sulfoxide": {
+   "smiles": "CS(=O)C",
+   "cid": 679,
+   "formula": "C2H6OS",
+   "message": ""
+  },
+  "tetrahydrofuran": {
+   "smiles": "C1CCOC1",
+   "cid": 8028,
+   "formula": "C4H8O",
+   "message": ""
+  },
+  "hydrochloric acid": {
+   "smiles": "Cl",
+   "cid": 313,
+   "formula": "ClH",
+   "message": ""
+  },
+  "water": {
+   "smiles": "O",
+   "cid": 962,
+   "formula": "H2O",
+   "message": ""
+  },
+  "sodium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "sodium 2,2,2-trifluoroethoxide": {
+   "smiles": "C(C(F)(F)F)[O-].[Na+]",
+   "cid": 23677971,
+   "formula": "C2H2F3NaO",
+   "message": ""
+  },
+  "potassium 2-chloro-3-(bromomethyl)-4-(methanesulfonyl)benzoate": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "sodium (tetrahydrofuran-2-yl)methoxide": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "potassium (tetrahydrofuran-2-yl)methoxide": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "potassium 2,2,2-trifluoroethoxide": {
+   "smiles": "C(C(F)(F)F)[O-].[K+]",
+   "cid": 23675374,
+   "formula": "C2H2F3KO",
+   "message": ""
+  },
+  "benzyl alcohol": {
+   "smiles": "C1=CC=C(C=C1)CO",
+   "cid": 244,
+   "formula": "C7H8O",
+   "message": ""
+  },
+  "dibenzyl ether type compounds": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "double-attachment impurity": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "alkali metal alkoxide": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "alcohol": {
+   "smiles": "CCO",
+   "cid": 702,
+   "formula": "C2H6O",
+   "message": ""
+  },
+  "alkali metal": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "4-hy-droxyphenylpyruvate dioxygenase": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "4-hydroxyphenylpyruvate": {
+   "smiles": "C1=CC(=CC=C1CC(=O)C(=O)O)O",
+   "cid": 979,
+   "formula": "C9H8O4",
+   "message": ""
+  },
+  "benzyl bromide": {
+   "smiles": "C1=CC=C(C=C1)CBr",
+   "cid": 7498,
+   "formula": "C7H7Br",
+   "message": ""
+  },
+  "triketones": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "pyrazolones": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "isoxazolones": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "Preferably, in step the molar ratio of 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate salt to to the alcohol is 1": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "2-chloro-3-{ methoxymethyl}-4- benzoic acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "methanesulfonyl": {
+   "smiles": "CS(=O)[O]",
+   "cid": 57476620,
+   "formula": "CH3O2S",
+   "message": ""
+  },
+  "2-chloro-3- -4- benzoic acid": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "methoxymethyl": {
+   "smiles": "CO[CH2]",
+   "cid": 140104,
+   "formula": "C2H5O",
+   "message": ""
+  }
+ }
+}

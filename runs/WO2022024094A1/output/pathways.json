@@ -5,30 +5,45 @@
     "section_label": "Background of the Invention",
     "ksm": {
       "identifier": "2-nitro-4-methylsulfonyl toluene",
-      "smiles": null,
-      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd"
+      "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
+      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H9NO4S",
+      "molecular_weight": 215.23
     },
     "intermediates": [
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-        "smiles": null,
-        "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+        "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C8H7NO6S",
+        "molecular_weight": 245.21
       },
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoyl chloride",
-        "smiles": null,
-        "compound_uuid": "b68453c4-e087-55ca-969c-b883dd8a4dfa"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c([N+](=O)[O-])c1",
+        "compound_uuid": "b68453c4-e087-55ca-969c-b883dd8a4dfa",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C8H6ClNO5S",
+        "molecular_weight": 263.66
       },
       {
         "identifier": "enol ester of formula (II)",
         "smiles": null,
-        "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a"
+        "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
+        "smiles_source": "none:markush",
+        "molecular_formula": null,
+        "molecular_weight": null
       }
     ],
     "product": {
       "identifier": "mesotrione",
-      "smiles": null,
-      "compound_uuid": "d5e25d71-c6e7-5328-b2bb-f5271c24cdd6"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
+      "compound_uuid": "d5e25d71-c6e7-5328-b2bb-f5271c24cdd6",
+      "smiles_source": "patent_scheme+patent_drawing+pubchem",
+      "molecular_formula": "C14H13NO7S",
+      "molecular_weight": 339.33
     },
     "steps": [
       {
@@ -847,14 +862,20 @@
     "section_label": "Background of the Invention",
     "ksm": {
       "identifier": "2-nitro-4-methylsulfonyl toluene",
-      "smiles": null,
-      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd"
+      "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
+      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H9NO4S",
+      "molecular_weight": 215.23
     },
     "intermediates": [],
     "product": {
       "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-      "smiles": null,
-      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H7NO6S",
+      "molecular_weight": 245.21
     },
     "steps": [
       {
@@ -1140,14 +1161,20 @@
     "section_label": "Background of the Invention",
     "ksm": {
       "identifier": "2-nitro-4-methylsulfonyl toluene",
-      "smiles": null,
-      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd"
+      "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
+      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H9NO4S",
+      "molecular_weight": 215.23
     },
     "intermediates": [],
     "product": {
       "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-      "smiles": null,
-      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H7NO6S",
+      "molecular_weight": 245.21
     },
     "steps": [
       {
@@ -1433,14 +1460,20 @@
     "section_label": "Background of the Invention",
     "ksm": {
       "identifier": "2-nitro-4-methylsulfonyl toluene",
-      "smiles": null,
-      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd"
+      "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
+      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H9NO4S",
+      "molecular_weight": 215.23
     },
     "intermediates": [],
     "product": {
       "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-      "smiles": null,
-      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H7NO6S",
+      "molecular_weight": 245.21
     },
     "steps": [
       {
@@ -1744,14 +1777,20 @@
     "section_label": "Background of the Invention",
     "ksm": {
       "identifier": "2-nitro-4-methylsulfonyl toluene",
-      "smiles": null,
-      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd"
+      "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
+      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H9NO4S",
+      "molecular_weight": 215.23
     },
     "intermediates": [],
     "product": {
       "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-      "smiles": null,
-      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H7NO6S",
+      "molecular_weight": 245.21
     },
     "steps": [
       {
@@ -2017,25 +2056,37 @@
     "section_label": "Summary of the Invention",
     "ksm": {
       "identifier": "2-nitro-4-methylsulfonyl toluene",
-      "smiles": null,
-      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd"
+      "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
+      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H9NO4S",
+      "molecular_weight": 215.23
     },
     "intermediates": [
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-        "smiles": null,
-        "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+        "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C8H7NO6S",
+        "molecular_weight": 245.21
       },
       {
         "identifier": "enol ester of formula (II)",
         "smiles": null,
-        "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a"
+        "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
+        "smiles_source": "none:markush",
+        "molecular_formula": null,
+        "molecular_weight": null
       }
     ],
     "product": {
       "identifier": "mesotrione",
-      "smiles": null,
-      "compound_uuid": "d5e25d71-c6e7-5328-b2bb-f5271c24cdd6"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
+      "compound_uuid": "d5e25d71-c6e7-5328-b2bb-f5271c24cdd6",
+      "smiles_source": "patent_scheme+patent_drawing+pubchem",
+      "molecular_formula": "C14H13NO7S",
+      "molecular_weight": 339.33
     },
     "steps": [
       {
@@ -2681,25 +2732,37 @@
     "section_label": "Detailed Description of the Invention",
     "ksm": {
       "identifier": "2-nitro-4-methylsulfonyl toluene",
-      "smiles": null,
-      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd"
+      "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
+      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H9NO4S",
+      "molecular_weight": 215.23
     },
     "intermediates": [
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-        "smiles": null,
-        "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+        "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C8H7NO6S",
+        "molecular_weight": 245.21
       },
       {
         "identifier": "enol ester of formula (II)",
         "smiles": null,
-        "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a"
+        "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
+        "smiles_source": "none:markush",
+        "molecular_formula": null,
+        "molecular_weight": null
       }
     ],
     "product": {
       "identifier": "mesotrione",
-      "smiles": null,
-      "compound_uuid": "d5e25d71-c6e7-5328-b2bb-f5271c24cdd6"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
+      "compound_uuid": "d5e25d71-c6e7-5328-b2bb-f5271c24cdd6",
+      "smiles_source": "patent_scheme+patent_drawing+pubchem",
+      "molecular_formula": "C14H13NO7S",
+      "molecular_weight": 339.33
     },
     "steps": [
       {
@@ -3846,25 +3909,37 @@
     "section_label": "Claims",
     "ksm": {
       "identifier": "2-nitro-4-methylsulfonyl toluene",
-      "smiles": null,
-      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd"
+      "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
+      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H9NO4S",
+      "molecular_weight": 215.23
     },
     "intermediates": [
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-        "smiles": null,
-        "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+        "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C8H7NO6S",
+        "molecular_weight": 245.21
       },
       {
         "identifier": "enol ester of formula (II)",
         "smiles": null,
-        "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a"
+        "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
+        "smiles_source": "none:markush",
+        "molecular_formula": null,
+        "molecular_weight": null
       }
     ],
     "product": {
       "identifier": "mesotrione",
-      "smiles": null,
-      "compound_uuid": "d5e25d71-c6e7-5328-b2bb-f5271c24cdd6"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
+      "compound_uuid": "d5e25d71-c6e7-5328-b2bb-f5271c24cdd6",
+      "smiles_source": "patent_scheme+patent_drawing+pubchem",
+      "molecular_formula": "C14H13NO7S",
+      "molecular_weight": 339.33
     },
     "steps": [
       {
@@ -4658,14 +4733,20 @@
     "section_label": "Example 1",
     "ksm": {
       "identifier": "2-nitro-4-methylsulfonyl toluene",
-      "smiles": null,
-      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd"
+      "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
+      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H9NO4S",
+      "molecular_weight": 215.23
     },
     "intermediates": [],
     "product": {
       "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-      "smiles": null,
-      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H7NO6S",
+      "molecular_weight": 245.21
     },
     "steps": [
       {
@@ -4970,14 +5051,20 @@
     "section_label": "Example 2",
     "ksm": {
       "identifier": "2-nitro-4-methylsulfonyl toluene",
-      "smiles": null,
-      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd"
+      "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
+      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H9NO4S",
+      "molecular_weight": 215.23
     },
     "intermediates": [],
     "product": {
       "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-      "smiles": null,
-      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H7NO6S",
+      "molecular_weight": 245.21
     },
     "steps": [
       {
@@ -5276,14 +5363,20 @@
     "section_label": "Example 3",
     "ksm": {
       "identifier": "2-nitro-4-methylsulfonyl toluene",
-      "smiles": null,
-      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd"
+      "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
+      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H9NO4S",
+      "molecular_weight": 215.23
     },
     "intermediates": [],
     "product": {
       "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-      "smiles": null,
-      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H7NO6S",
+      "molecular_weight": 245.21
     },
     "steps": [
       {
@@ -5586,14 +5679,20 @@
     "section_label": "Example 4",
     "ksm": {
       "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-      "smiles": null,
-      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H7NO6S",
+      "molecular_weight": 245.21
     },
     "intermediates": [],
     "product": {
       "identifier": "enol ester of formula (II)",
       "smiles": null,
-      "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a"
+      "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
+      "smiles_source": "none:markush",
+      "molecular_formula": null,
+      "molecular_weight": null
     },
     "steps": [
       {
@@ -5914,14 +6013,20 @@
     "section_label": "Example 5",
     "ksm": {
       "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-      "smiles": null,
-      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H7NO6S",
+      "molecular_weight": 245.21
     },
     "intermediates": [],
     "product": {
       "identifier": "enol ester of formula (II)",
       "smiles": null,
-      "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a"
+      "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
+      "smiles_source": "none:markush",
+      "molecular_formula": null,
+      "molecular_weight": null
     },
     "steps": [
       {
@@ -6238,14 +6343,20 @@
     "section_label": "Example 6",
     "ksm": {
       "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-      "smiles": null,
-      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+      "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H7NO6S",
+      "molecular_weight": 245.21
     },
     "intermediates": [],
     "product": {
       "identifier": "enol ester of formula (II)",
       "smiles": null,
-      "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a"
+      "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
+      "smiles_source": "none:markush",
+      "molecular_formula": null,
+      "molecular_weight": null
     },
     "steps": [
       {
@@ -6561,13 +6672,19 @@
     "ksm": {
       "identifier": "enol ester of formula (II)",
       "smiles": null,
-      "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a"
+      "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
+      "smiles_source": "none:markush",
+      "molecular_formula": null,
+      "molecular_weight": null
     },
     "intermediates": [],
     "product": {
       "identifier": "mesotrione",
-      "smiles": null,
-      "compound_uuid": "d5e25d71-c6e7-5328-b2bb-f5271c24cdd6"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
+      "compound_uuid": "d5e25d71-c6e7-5328-b2bb-f5271c24cdd6",
+      "smiles_source": "patent_scheme+patent_drawing+pubchem",
+      "molecular_formula": "C14H13NO7S",
+      "molecular_weight": 339.33
     },
     "steps": [
       {
@@ -6913,25 +7030,37 @@
     "section_label": null,
     "ksm": {
       "identifier": "2-nitro-4-methylsulfonyl toluene",
-      "smiles": null,
-      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd"
+      "smiles": "Cc1ccc(S(C)(=O)=O)cc1[N+](=O)[O-]",
+      "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd",
+      "smiles_source": "patent_scheme+patent_drawing+opsin",
+      "molecular_formula": "C8H9NO4S",
+      "molecular_weight": 215.23
     },
     "intermediates": [
       {
         "identifier": "2-nitro-4-methylsulphonyl benzoic acid",
-        "smiles": null,
-        "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c([N+](=O)[O-])c1",
+        "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C8H7NO6S",
+        "molecular_weight": 245.21
       },
       {
         "identifier": "enol ester of formula (II)",
         "smiles": null,
-        "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a"
+        "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
+        "smiles_source": "none:markush",
+        "molecular_formula": null,
+        "molecular_weight": null
       }
     ],
     "product": {
       "identifier": "mesotrione",
-      "smiles": null,
-      "compound_uuid": "d5e25d71-c6e7-5328-b2bb-f5271c24cdd6"
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c([N+](=O)[O-])c1",
+      "compound_uuid": "d5e25d71-c6e7-5328-b2bb-f5271c24cdd6",
+      "smiles_source": "patent_scheme+patent_drawing+pubchem",
+      "molecular_formula": "C14H13NO7S",
+      "molecular_weight": 339.33
     },
     "steps": [
       {

@@ -1,0 +1,56 @@
+{
+ "patent_id": "CN109678767A",
+ "identifiers": 64,
+ "resolved": 56,
+ "witnesses": {
+  "3": 10,
+  "4": 4,
+  "5": 1,
+  "2": 35,
+  "1": 6
+ },
+ "no_structure": {
+  "none:class_name": 7,
+  "none:ambiguous": 1
+ },
+ "records": {
+  "compounds": [
+   50,
+   58
+  ],
+  "reaction_participants": [
+   220,
+   237
+  ],
+  "reaction_products": [
+   45,
+   45
+  ],
+  "pathway_refs": [
+   48,
+   48
+  ]
+ },
+ "disagreements": [
+  {
+   "identifier": "bromine",
+   "answers": {
+    "known": "BrBr",
+    "opsin": "[Br]",
+    "pubchem": "BrBr"
+   },
+   "chosen": "BrBr",
+   "chosen_source": "known",
+   "reason": "diatomic element: a patent charges bromine as the molecule, not the atom. The single-atom reading halves the molecular weight.",
+   "needs_human": false
+  }
+ ],
+ "unresolved": [],
+ "pathway_renames": [],
+ "readers": [
+  "curated (human, this patent)",
+  "patent_drawing (vision pass, this patent)",
+  "opsin (OPSIN 2.9.0, pipeline/vendor/)",
+  "pubchem (PUG-REST)"
+ ]
+}
