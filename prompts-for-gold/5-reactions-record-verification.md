@@ -110,6 +110,33 @@ Note that a value sitting in `notes`, `procedure_text` or `molar_ratio_text` is 
 captured. Nothing downstream reads prose. If it is only in prose, it is still a
 finding.
 
+### A range has to reach the JSON as two numbers
+
+A range is two facts and a single-valued field holds one. Do not let a range go
+missing just because the field is scalar: store it as a min and a max, and where no
+field can hold it, flag it like any other loss.
+
+`conditions.temperature` already carries `min_c` and `max_c`. `time_h`, `ph_value`,
+`product_yield_pct` and `product_purity_pct` do not, so every range and every open
+bound written into them loses half its meaning without anything looking wrong. Check
+each against the patent:
+
+- `6-8 hours` is min 6, max 8. A single float is a loss whichever end it holds.
+- `>95%` is min 95, max none. Inventing the other end is fabrication, and so is
+  storing 95 as though it were the measured value.
+- `pH < 3` is the inverted case: max 3, min none. A parser that reads the first
+  number as a minimum gets this exactly backwards.
+- A point value has min equal to max, and that is not a loss.
+- Nested tiers all count. "More than 2 hours", "preferably about 2 to about 8",
+  "more preferably about 6 to about 8" is three facts, not one.
+- Where the patent defines "about" but never says what it means numerically, keep
+  the phrase and do not compute an envelope from it.
+
+`SCHEMA-LOSS.md` measured this class on CN104292137A: 8 of the 12 lost quantities
+were ranges against a single-float `time_h`, and `time_h` is null on 25 of 33
+records. It is the largest known loss in this pipeline, so flag every instance
+rather than assuming it is already known.
+
 ## Rules for this pass
 
 - **Flag. Do not fix.** Reason out why the value is wrong or missing, record it, and

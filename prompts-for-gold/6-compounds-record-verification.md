@@ -113,6 +113,11 @@ fits. `analytics` on a compound takes any measurement: method, value, unit, cond
 raw_text. It has been wrongly called a schema gap before when the field was simply
 unused.
 
+A range is two facts. `melting_point` already holds one properly, with `min_c`,
+`max_c` and `range_text`, so a melting range there is not a gap. `purity_pct` and
+`analytics.value` are single scalars, so an open bound like ">95%" cannot go in
+either without losing the bound. Store what the field can hold and flag the rest.
+
 Note also that a value sitting only in `notes` is NOT captured. Nothing downstream
 reads prose. If it is only in prose, it is still a finding.
 

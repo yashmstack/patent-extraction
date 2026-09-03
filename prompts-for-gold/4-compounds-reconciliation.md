@@ -13,7 +13,7 @@ time**.
 Of the compounds you listed, how many are in `compounds.json`?
 
 **Check identity by identity, not by exact name.** The same substance appears under
-different names: `DMF` and `N,N-dimethylformamide`, `苄醇` and `benzyl alcohol`, a
+different names: `DMF` and `N,N-dimethylformamide`, `苄醇` and `benzyl alcohol`,
 Chinese name and its English translation. Look at the `aliases` on each record, not
 only the `identifier`. Two lists can hold the same chemistry and share almost no
 strings.

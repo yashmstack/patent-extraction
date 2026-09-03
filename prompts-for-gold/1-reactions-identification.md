@@ -8,7 +8,7 @@ is that it is independent.
 Read `input/<PATENT_ID>-enriched-numbered.md` line by line, in depth. Do not skip
 lines and do not skim the repetitive parts. Read carefully, as defined below under
 "What 'read carefully' actually means". Keep a running audit in your scratchpad as
-you read, so you have a reference you can point back to later.
+you read, so you have a reference you can point back to later. Important: write as you read so you understand what you are reading and will be helpful later.
 
 Your job in this pass is one thing only: **decide how many genuine reactions,
 transformations or steps this patent describes, and where each one is.**
@@ -18,13 +18,23 @@ transformations or steps this patent describes, and where each one is.**
 1. **Do not open `reactions.json` or any other extraction output.** The `.md` is the
    only source. Once you have seen what the extraction found you will find the same
    things, and your count is worthless. If you have already seen it, say so now.
-2. **One entry per genuine transformation.** A transformation mentioned in several
-   places is still one transformation. Repeat mentions contribute detail, they do not
-   multiply the count.
-3. **But the same reaction run twice is two entries.** Twenty worked examples running
-   one reaction under different conditions are twenty runs, because the conditions and
-   the yields are the patent's actual content. Merging them destroys the point of the
-   document.
+2. **Dedup on identity, never on data.** The test is described or performed.
+   - The same reaction **described** in the abstract, the summary, the description and
+     the claims is **one entry**. Repeat descriptions add detail, not count.
+   - The same reaction **performed** twice is **two entries**. Twenty worked examples of
+     one reaction are twenty runs, because the charges, conditions, yields and purities
+     are the patent's actual content. Merging them destroys the point of the document.
+   - Two descriptions using **different reagent systems**, or taken from **different
+     cited documents**, are separate entries. Five prior-art oxidations of one substrate
+     over cobalt, over vanadium and in nitric acid are five processes, not one.
+   Where the patent gives you data that tells two things apart, that data is the reason
+   the second entry exists.
+3. **Never merge condition values.** Dedup collapses entries, not fields. Where sections
+   differ, the entry carries every variant with the line it came from. A generic term in
+   a claim, a preferred list in the description and an actual charge in an example are
+   three rungs of one ladder: keep all three, because the top rung is claim breadth and
+   the bottom rung is what was really done. Where two sections genuinely disagree, record
+   both and say so. Never average, never overwrite.
 4. **Ground every count in line numbers.** A count with no line number cannot be
    checked and does not belong in the answer.
 5. **Preserve document order.**
