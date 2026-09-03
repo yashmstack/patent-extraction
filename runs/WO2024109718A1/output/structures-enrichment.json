@@ -1,34 +1,35 @@
 {
  "patent_id": "WO2024109718A1",
  "identifiers": 171,
- "resolved": 124,
+ "resolved": 132,
  "witnesses": {
-  "2": 69,
-  "1": 26,
-  "4": 9,
-  "3": 20
+  "2": 70,
+  "1": 27,
+  "4": 12,
+  "3": 21,
+  "5": 2
  },
  "no_structure": {
   "none:class_name": 25,
   "none:unresolved": 2,
-  "none:markush": 18,
+  "none:markush": 10,
   "none:ambiguous": 2
  },
  "records": {
   "compounds": [
-   97,
+   105,
    131
   ],
   "reaction_participants": [
-   361,
+   405,
    426
   ],
   "reaction_products": [
-   49,
+   51,
    69
   ],
   "pathway_refs": [
-   102,
+   172,
    173
   ]
  },
@@ -78,6 +79,20 @@
    "chosen": "Br.CCN(CC)CC",
    "chosen_source": "opsin",
    "reason": "same molecular formula C6H16BrN, written ionic by one reader and covalent by the other. One substance, not a disagreement. Kept opsin.",
+   "needs_human": false
+  },
+  {
+   "identifier": "compound of formula (II)",
+   "answers": {
+    "patent_scheme": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "pubchem": "COC1C(OC(C)=O)C(C)CCCCC(C(C)CC(C)C(=O)c2cc(O)c(C)c(O)c2)OC(=O)CC(O)C(C)C2OC3(CCC(O)C1O3)C(C)C(=O)C2C",
+    "curated": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "patent_drawing": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "opsin": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl"
+   },
+   "chosen": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+   "chosen_source": "patent_scheme",
+   "reason": "the record's own alias 'C8H8BrClO2S' is a formula, and only patent_scheme returned a structure with those atoms.",
    "needs_human": false
   },
   {
@@ -131,7 +146,18 @@
    ]
   }
  ],
- "pathway_renames": [],
+ "pathway_renames": [
+  {
+   "was": "式(VIII)化合物",
+   "now": "ester compound of formula (VIII)",
+   "molecule": "no structure, joined on the formula label"
+  },
+  {
+   "was": "式(VIII)化合物",
+   "now": "ester compound of formula (VIII)",
+   "molecule": "no structure, joined on the formula label"
+  }
+ ],
  "readers": [
   "curated (human, this patent)",
   "patent_drawing (vision pass, this patent)",

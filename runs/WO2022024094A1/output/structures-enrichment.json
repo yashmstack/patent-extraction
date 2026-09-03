@@ -1,15 +1,14 @@
 {
  "patent_id": "WO2022024094A1",
  "identifiers": 52,
- "resolved": 36,
+ "resolved": 37,
  "witnesses": {
   "3": 10,
+  "1": 3,
   "2": 23,
-  "1": 2,
   "4": 1
  },
  "no_structure": {
-  "none:markush": 1,
   "none:class_name": 12,
   "none:unresolved": 1,
   "none:reference": 1,
@@ -17,19 +16,19 @@
  },
  "records": {
   "compounds": [
-   36,
+   37,
    52
   ],
   "reaction_participants": [
-   82,
+   90,
    91
   ],
   "reaction_products": [
-   15,
+   20,
    20
   ],
   "pathway_refs": [
-   34,
+   43,
    43
   ]
  },

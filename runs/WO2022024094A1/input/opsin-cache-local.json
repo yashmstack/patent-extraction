@@ -496,6 +496,36 @@
    "status": "SUCCESS",
    "smiles": "O",
    "message": ""
+  },
+  "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1 is unparsable due to the following being uninterpretable: CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1 The following was not parseable: CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1"
+  },
+  "crude enol ester": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "crude enol ester is unparsable due to the following being uninterpretable: crude enol ester The following was not parseable: crude enol ester"
+  },
+  "enol ester": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "enol ester is unparsable due to the following being uninterpretable: enol ester The following was not parseable: nol ester"
+  },
+  "enol ester of formula (II)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "enol ester of formula (II) is unparsable due to the following being uninterpretable: enol ester of formula (II) The following was not parseable: nol ester of formula (II)"
+  },
+  "formula (II)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "formula (II) is unparsable due to the following being uninterpretable: formula (II) The following was not parseable: ula (II)"
+  },
+  "pure enol ester": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "pure enol ester is unparsable due to the following being uninterpretable: pure enol ester The following was not parseable: e enol ester"
   }
  }
 }

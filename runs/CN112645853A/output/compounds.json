@@ -2036,10 +2036,10 @@
     "notes": "Named in [0024] as the second class of product the benzyl bromide group would give under conventional alkaline ester hydrolysis. resolved is false because the printed name is a class of compounds, not one compound. [0024] says the structural formula follows, and the drawn structure at [0025] immediately after it is the symmetrical ether of two 2-chloro-4-(methanesulfonyl)benzoic acid units joined through their 3-methylene groups, which is a member of the named class, so its SMILES is kept as an alias and the smiles field is left unpopulated (rules 4b and 4c).",
     "id": "CN112645853A_dibenzyl ether type compounds",
     "compound_uuid": "6cc97b75-3ff0-5ffe-879d-0c1d82f70325",
-    "smiles": null,
-    "smiles_source": "none:class_name",
-    "molecular_formula": null,
-    "molecular_weight": null
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+    "smiles_source": "patent_scheme",
+    "molecular_formula": "C18H16Cl2O9S2",
+    "molecular_weight": 511.36
   },
   {
     "patent_id": "CN112645853A",

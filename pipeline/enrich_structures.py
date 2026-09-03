@@ -813,7 +813,14 @@ def resolve_all(identifiers: list[str], aliases: dict[str, list[str]],
     pubchem = PubChem(run / "input" / "pubchem-cache.json", offline)
 
     plan = {i: query_forms(i, aliases.get(i, []), english) for i in identifiers}
-    why_not = {i: no_structure_reason(i, plan[i]) for i in identifiers}
+    # A STRUCTURE ON THE RECORD BEATS ANY READING OF ITS NAME. WO2024109718A1
+    # carries `compound of formula (I)` with the alias `CSc1ccc(Br)c(Cl)c1C`: the
+    # name is Markush and the record is not, because the annotation wrote down
+    # which member of the family this row is. Eight records, and classifying them
+    # from the name alone threw away the answer the gold had already given.
+    why_not = {i: (None if any(looks_like_smiles(q) for q in plan[i])
+                   else no_structure_reason(i, plan[i]))
+               for i in identifiers}
     askable = [q for i, qs in plan.items() if not why_not[i] for q in qs]
     opsin.warm(askable)
 
@@ -979,9 +986,13 @@ def write_artifacts(run: Path, resolved: dict, check: bool) -> tuple[dict, list]
     # up naming one compound and pointing at another.
     authority: dict[str, dict] = {}
     for c in compounds:
-        key = canon((resolved.get(c.get("identifier")) or {}).get("smiles"))
-        if key and key not in authority:
-            authority[key] = c
+        keys = [canon((resolved.get(c.get("identifier")) or {}).get("smiles"))]
+        # and every alias that is itself a structure, which is how this gold
+        # records the concrete member behind a formula label
+        keys += [canon(a) for a in (c.get("aliases") or []) if looks_like_smiles(a)]
+        for key in keys:
+            if key and key not in authority:
+                authority[key] = c
     known = {c.get("identifier") for c in compounds}
 
     # A Markush reference has no structure, so the SMILES join above cannot reach
@@ -1033,7 +1044,14 @@ def write_artifacts(run: Path, resolved: dict, check: bool) -> tuple[dict, list]
                 elif ident not in known:
                     m = re.search(r"[(（]?([IVXivx]+|[A-Z])[)）]?\s*(酯)?化合物", ident)
                     if m:
-                        target = by_label.get((m.group(1).upper(), bool(m.group(2))))
+                        label = m.group(1).upper()
+                        target = by_label.get((label, bool(m.group(2))))
+                        # 式(VIII)化合物 omits the 酯 that `ester compound of formula
+                        # (VIII)` carries, and that label has only the one record.
+                        # Falling back is safe exactly while that stays true.
+                        if target is None:
+                            same = [c for (lab, _), c in by_label.items() if lab == label]
+                            target = same[0] if len(same) == 1 else None
                 if target:
                     renames.append({"was": ident, "now": target["identifier"],
                                     "molecule": key or "no structure, joined on the "

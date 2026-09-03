@@ -1936,6 +1936,156 @@
    "status": "FAILURE",
    "smiles": null,
    "message": "process according to claim 3, wherein the reaction solvent is one or two or more selected from toluene, 1,4-dioxane, ethylene glycol dimethyl ether, ethylene glycol diethyl ether, dimethyl sulfoxide , tetrahydrofuran , and N,N-dimethylformamide . is unparsable due to the following being uninterpretable: process according to claim 3, wherein the reaction solvent is one or two or more selected from toluene, 1,4-dioxane, ethylene glycol dimethyl ether, ethylene glycol diethyl ether, dimethyl sulfoxide , tetrahydrofuran , and N,N-dimethylformamide . The following was not parseable: process according to claim 3, wherein the reaction solvent is one or two or more selected from toluene, 1,4-dioxane, ethylene glycol dimethyl ether, ethylene glycol diethyl ether, dimethyl sulfoxide , tetrahydrofuran , and N,N-dimethylformamide ."
+  },
+  "C10H9BrClF3O3S": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C10H9BrClF3O3S is unparsable due to the following being uninterpretable: C10H9BrClF3O3S The following was not parseable: H9BrClF3O3S"
+  },
+  "C11H10ClF3O5S": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C11H10ClF3O5S is unparsable due to the following being uninterpretable: C11H10ClF3O5S The following was not parseable: H10ClF3O5S"
+  },
+  "C11H9Cl2F3O4S": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C11H9Cl2F3O4S is unparsable due to the following being uninterpretable: C11H9Cl2F3O4S The following was not parseable: H9Cl2F3O4S"
+  },
+  "C8H7Br2ClO2S": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C8H7Br2ClO2S is unparsable due to the following being uninterpretable: C8H7Br2ClO2S The following was not parseable: H7Br2ClO2S"
+  },
+  "C8H8BrClO2S": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C8H8BrClO2S is unparsable due to the following being uninterpretable: C8H8BrClO2S The following was not parseable: H8BrClO2S"
+  },
+  "C8H8BrClS": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "C8H8BrClS is unparsable due to the following being uninterpretable: C8H8BrClS The following was not parseable: H8BrClS"
+  },
+  "GXQKMZQAWXBWBB-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "GXQKMZQAWXBWBB-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: GXQKMZQAWXBWBB-UHFFFAOYSA-N The following was not parseable: GXQKMZQAWXBWBB-UHFFFAOYSA-N"
+  },
+  "KHLKTMJARYUXKF-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "KHLKTMJARYUXKF-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: KHLKTMJARYUXKF-UHFFFAOYSA-N The following was not parseable: KHLKTMJARYUXKF-UHFFFAOYSA-N"
+  },
+  "OBAMHTWSCBVWGB-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "OBAMHTWSCBVWGB-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: OBAMHTWSCBVWGB-UHFFFAOYSA-N The following was not parseable: OBAMHTWSCBVWGB-UHFFFAOYSA-N"
+  },
+  "VEKIRHPKUFHYGT-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "VEKIRHPKUFHYGT-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: VEKIRHPKUFHYGT-UHFFFAOYSA-N The following was not parseable: VEKIRHPKUFHYGT-UHFFFAOYSA-N"
+  },
+  "VHLAIVUXGGOCMJ-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "VHLAIVUXGGOCMJ-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: VHLAIVUXGGOCMJ-UHFFFAOYSA-N The following was not parseable: VHLAIVUXGGOCMJ-UHFFFAOYSA-N"
+  },
+  "YGMJOCQCLVNPOD-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "YGMJOCQCLVNPOD-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: YGMJOCQCLVNPOD-UHFFFAOYSA-N The following was not parseable: YGMJOCQCLVNPOD-UHFFFAOYSA-N"
+  },
+  "YGWVWXIUXUSKSY-UHFFFAOYSA-N": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "YGWVWXIUXUSKSY-UHFFFAOYSA-N is unparsable due to the following being uninterpretable: YGWVWXIUXUSKSY-UHFFFAOYSA-N The following was not parseable: YGWVWXIUXUSKSY-UHFFFAOYSA-N"
+  },
+  "carboxylic acid compound of formula": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "carboxylic acid compound of formula is unparsable due to the following being uninterpretable: ic acid compound of formula The following was not parseable: ic acid compound of formula"
+  },
+  "compound of formula (I)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "compound of formula (I) is unparsable due to the following being uninterpretable: compound of formula (I) The following was not parseable: compound of formula (I)"
+  },
+  "compound of formula (II)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "compound of formula (II) is unparsable due to the following being uninterpretable: compound of formula (II) The following was not parseable: compound of formula (II)"
+  },
+  "compound of formula (III)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "compound of formula (III) is unparsable due to the following being uninterpretable: compound of formula (III) The following was not parseable: compound of formula (III)"
+  },
+  "compound of formula (IV)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "compound of formula (IV) is unparsable due to the following being uninterpretable: compound of formula (IV) The following was not parseable: compound of formula (IV)"
+  },
+  "compound of formula (V)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "compound of formula (V) is unparsable due to the following being uninterpretable: compound of formula (V) The following was not parseable: compound of formula (V)"
+  },
+  "compound of formula (VII)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "compound of formula (VII) is unparsable due to the following being uninterpretable: compound of formula (VII) The following was not parseable: compound of formula (VII)"
+  },
+  "compound of formula (VIII)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "compound of formula (VIII) is unparsable due to the following being uninterpretable: compound of formula (VIII) The following was not parseable: compound of formula (VIII)"
+  },
+  "ester compound of formula": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "ester compound of formula is unparsable due to the following being uninterpretable: compound of formula The following was not parseable: compound of formula"
+  },
+  "ester compound of formula (VIII)": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "ester compound of formula (VIII) is unparsable due to the following being uninterpretable: compound of formula (VIII) The following was not parseable: compound of formula (VIII)"
+  },
+  "ester intermediate of formula": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "ester intermediate of formula is unparsable due to the following being uninterpretable: intermediate of formula The following was not parseable: intermediate of formula"
+  },
+  "intermediate ester compound": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "intermediate ester compound is unparsable due to the following being uninterpretable: intermediate ester compound The following was not parseable: intermediate ester compound"
+  },
+  "中间体酯化合物": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 中"
+  },
+  "式(V III)化合物": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 式"
+  },
+  "式(V)的羧酸化合物": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 式"
+  },
+  "式(V)羧酸化合物": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 式"
+  },
+  "式(VIII)酯中间体": {
+   "status": "FAILURE",
+   "smiles": null,
+   "message": "Unrecognised unicode character: 式"
   }
  }
 }

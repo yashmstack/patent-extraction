@@ -297,6 +297,30 @@
    "cid": 10868,
    "formula": "C13H22N2",
    "message": ""
+  },
+  "enol ester of formula (II)": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "enol ester": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "formula (II)": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "crude enol ester": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "pure enol ester": {
+   "smiles": null,
+   "message": "no entry"
   }
  }
 }

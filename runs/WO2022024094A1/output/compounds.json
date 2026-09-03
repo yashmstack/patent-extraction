@@ -840,10 +840,10 @@
       "Example 7",
       "Summary of the Invention"
     ],
-    "smiles": null,
-    "smiles_source": "none:markush",
-    "molecular_formula": null,
-    "molecular_weight": null
+    "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
+    "smiles_source": "patent_scheme",
+    "molecular_formula": "C14H13NO7S",
+    "molecular_weight": 339.33
   },
   {
     "patent_id": "WO2022024094A1",

@@ -7356,10 +7356,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CSc1cccc(Cl)c1C",
+        "smiles_source": "patent_scheme",
+        "molecular_formula": "C8H9ClS",
+        "molecular_weight": 172.68
       }
     ],
     "reactant_names": [
@@ -7373,14 +7373,14 @@
     "reactant_smiles": "Cc1c(N)cccc1Cl.N#[NH+]",
     "smiles_source": "joined_from_participants",
     "product_name": "compound of formula (VI)",
-    "product_smiles": null,
-    "product_smiles_source": "none:markush",
+    "product_smiles": "CSc1cccc(Cl)c1C",
+    "product_smiles_source": "patent_scheme",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
     "product_purity_pct": null,
     "product_purity_method": null,
-    "canonical_rxn": null,
+    "canonical_rxn": "Cc1c(N)cccc1Cl.N#[NH+]>>CSc1cccc(Cl)c1C",
     "procedure_text": "在20℃下将5.1％盐酸1165g加入到四口瓶中，滴加3-氯-2-甲基苯胺100g，滴加完毕后，在0℃进一步滴加20％NaNO2水溶液251.41g，滴加过程中控温不超过-5～10℃，搅拌，得到重氮盐溶液。称量20％CH3SNa水溶液273g和32％NaOH水溶液26.62g置于另一四口烧瓶中，将上述重氮盐溶液滴加到此烧瓶中，通过高效液相色谱监测反应。反应完成后，用盐酸调节至pH为2～3，分层，收集有机层，蒸馏，得到式(VI)化合物。",
     "procedure_summary": "3-Chloro-2-methylaniline is diazotised with aqueous sodium nitrite in aqueous hydrochloric acid, and the resulting diazonium salt solution is added to aqueous sodium methanethiolate and sodium hydroxide, giving the aryl methyl sulfide of formula (VI) after acidification, layer separation and distillation.",
     "precursor_step": null,
@@ -7557,10 +7557,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C10H9BrClF3O3S",
+        "molecular_weight": 381.6
       },
       {
         "identifier": "CO",
@@ -7841,7 +7841,7 @@
       "CO",
       "cyclohexane-1,3-dione"
     ],
-    "reactant_smiles": "[C-]#[O+].O=C1CCCC(=O)C1",
+    "reactant_smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F.[C-]#[O+].O=C1CCCC(=O)C1",
     "smiles_source": "joined_from_participants",
     "product_name": "tembotrione",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
@@ -7851,7 +7851,7 @@
     "product_ms_type": null,
     "product_purity_pct": null,
     "product_purity_method": null,
-    "canonical_rxn": "[C-]#[O+].O=C1CCCC(=O)C1>>CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "canonical_rxn": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F.[C-]#[O+].O=C1CCCC(=O)C1>>CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
     "procedure_text": "向高压釜中加入式(IV)化合物56.84g、三乙胺37.95g、PdCl2催化剂0.4g、配体1,4-双(二苯基膦)丁烷3.98g、溶剂1,4-二氧六环300g，抽真空，氮气置换3次，以约1～4MPa的压力通入CO，在80～85℃反应约8h后降温至70℃，加入2g丙酮氰醇，继续反应5h。通过高效液相色谱监测反应完成后，降至室温，卸去压力，打开反应釜，过滤，除去三乙胺氢溴酸盐，旋蒸除去溶剂二氧六环，加入甲醇水溶解，用氢氧化钠溶液调节pH至8～9，加热至50℃搅拌，过滤掉不溶物，调酸至pH为2～3，析出白色固体，将溶液冷却到室温并冰浴搅拌0.5h，过滤，水洗，过滤，60℃干燥，得到黄白色粉末状固体环磺酮，收率64.67％，熔点120～122℃。",
     "procedure_summary": "In one pot, the aryl bromide of formula (IV) is carbonylated under CO pressure over a palladium chloride catalyst with a bisphosphine ligand and triethylamine in dioxane, and the resulting ester is rearranged in the same vessel by adding acetone cyanohydrin without isolation. The triethylamine hydrobromide by-product is filtered off, the solvent stripped, and tembotrione recovered by dissolving in aqueous methanol, basifying, filtering off insolubles and reprecipitating with acid.",
     "precursor_step": "Example 5::Step 1",
@@ -7988,10 +7988,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C10H9BrClF3O3S",
+        "molecular_weight": 381.6
       },
       {
         "identifier": "1,3-cyclohexanedione",
@@ -8179,10 +8179,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C17H16ClF3O6S",
+        "molecular_weight": 440.82
       }
     ],
     "reactant_names": [
@@ -8190,17 +8190,17 @@
       "1,3-cyclohexanedione",
       "carbon monoxide"
     ],
-    "reactant_smiles": "O=C1CCCC(=O)C1.[C-]#[O+]",
+    "reactant_smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F.O=C1CCCC(=O)C1.[C-]#[O+]",
     "smiles_source": "joined_from_participants",
     "product_name": "ester compound of formula (VIII)",
-    "product_smiles": null,
-    "product_smiles_source": "none:markush",
+    "product_smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "product_smiles_source": "patent_scheme+patent_drawing+opsin",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
     "product_purity_pct": null,
     "product_purity_method": null,
-    "canonical_rxn": null,
+    "canonical_rxn": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F.O=C1CCCC(=O)C1.[C-]#[O+]>>CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
     "procedure_text": "向高压釜中加入式(IV)化合物56.84g、1,3-环己二酮21.84g、三乙胺37.95g、PdCl₂催化剂0.5g、配体2-双环己基膦-2',6'-二甲氧基联苯或4,5-双二苯基膦-9,9-二甲基氧杂蒽4g、溶剂1,4-二氧六环290g，抽真空，氮气置换3次，通入1～4MPa的CO，在85℃反应约10h。收率低于10％，不理想。",
     "procedure_summary": "A palladium-catalysed carbonylative coupling of the formula (IV) aryl bromide with 1,3-cyclohexanedione under carbon monoxide pressure in dioxane with triethylamine and a phosphine ligand, run in an autoclave after nitrogen purging. The text reports only that the yield was low and the result unsatisfactory; no product is isolated and no workup is described.",
     "precursor_step": "Example 5::Step 1",
@@ -8350,10 +8350,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CSc1cccc(Cl)c1C",
+        "smiles_source": "patent_scheme",
+        "molecular_formula": "C8H9ClS",
+        "molecular_weight": 172.68
       },
       {
         "identifier": "dichloromethane",
@@ -8456,18 +8456,18 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CSc1ccc(Br)c(Cl)c1C",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "molecular_formula": "C8H8BrClS",
+        "molecular_weight": 251.58
       }
     ],
     "reactant_names": [
       "式(VI)化合物",
       "bromine"
     ],
-    "reactant_smiles": null,
-    "smiles_source": null,
+    "reactant_smiles": "CSc1cccc(Cl)c1C",
+    "smiles_source": "joined_from_participants",
     "product_name": "式(I)化合物",
     "product_smiles": null,
     "product_smiles_source": "none:markush",
@@ -8619,10 +8619,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CSc1ccc(Br)c(Cl)c1C",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "molecular_formula": "C8H8BrClS",
+        "molecular_weight": 251.58
       },
       {
         "identifier": "sodium tungstate dihydrate",
@@ -8725,18 +8725,18 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+        "smiles_source": "patent_scheme",
+        "molecular_formula": "C8H8BrClO2S",
+        "molecular_weight": 283.57
       }
     ],
     "reactant_names": [
       "式(I)化合物",
       "hydrogen peroxide"
     ],
-    "reactant_smiles": null,
-    "smiles_source": null,
+    "reactant_smiles": "CSc1ccc(Br)c(Cl)c1C",
+    "smiles_source": "joined_from_participants",
     "product_name": "式(II)化合物",
     "product_smiles": null,
     "product_smiles_source": "none:markush",
@@ -8892,10 +8892,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+        "smiles_source": "patent_scheme",
+        "molecular_formula": "C8H8BrClO2S",
+        "molecular_weight": 283.57
       },
       {
         "identifier": "bromine",
@@ -9019,18 +9019,18 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C8H7Br2ClO2S",
+        "molecular_weight": 362.47
       }
     ],
     "reactant_names": [
       "式(II)化合物",
       "bromine"
     ],
-    "reactant_smiles": null,
-    "smiles_source": null,
+    "reactant_smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "smiles_source": "joined_from_participants",
     "product_name": "式(III)化合物",
     "product_smiles": null,
     "product_smiles_source": "none:markush",
@@ -9181,10 +9181,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+        "smiles_source": "patent_scheme",
+        "molecular_formula": "C8H8BrClO2S",
+        "molecular_weight": 283.57
       },
       {
         "identifier": "N-bromosuccinimide",
@@ -9286,18 +9286,18 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C8H7Br2ClO2S",
+        "molecular_weight": 362.47
       }
     ],
     "reactant_names": [
       "式(II)化合物",
       "N-bromosuccinimide"
     ],
-    "reactant_smiles": null,
-    "smiles_source": null,
+    "reactant_smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "smiles_source": "joined_from_participants",
     "product_name": "式(III)化合物",
     "product_smiles": null,
     "product_smiles_source": "none:markush",
@@ -9472,10 +9472,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C8H7Br2ClO2S",
+        "molecular_weight": 362.47
       },
       {
         "identifier": "2,2,2-trifluoroethanol",
@@ -9706,17 +9706,17 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C10H9BrClF3O3S",
+        "molecular_weight": 381.6
       }
     ],
     "reactant_names": [
       "式(III)化合物",
       "2,2,2-trifluoroethanol"
     ],
-    "reactant_smiles": "OCC(F)(F)F",
+    "reactant_smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr.OCC(F)(F)F",
     "smiles_source": "joined_from_participants",
     "product_name": "式(IV)化合物",
     "product_smiles": null,
@@ -9883,10 +9883,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C10H9BrClF3O3S",
+        "molecular_weight": 381.6
       },
       {
         "identifier": "CO",
@@ -10072,10 +10072,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+pubchem",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       }
     ],
     "reactant_names": [
@@ -10083,7 +10083,7 @@
       "CO",
       "water"
     ],
-    "reactant_smiles": "[C-]#[O+].O",
+    "reactant_smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F.[C-]#[O+].O",
     "smiles_source": "joined_from_participants",
     "product_name": "式(V)化合物",
     "product_smiles": null,
@@ -10239,10 +10239,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C10H9BrClF3O3S",
+        "molecular_weight": 381.6
       },
       {
         "identifier": "water",
@@ -10428,10 +10428,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+pubchem",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       }
     ],
     "reactant_names": [
@@ -10439,7 +10439,7 @@
       "CO",
       "water"
     ],
-    "reactant_smiles": "O.[C-]#[O+]",
+    "reactant_smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F.O.[C-]#[O+]",
     "smiles_source": "joined_from_participants",
     "product_name": "式(V)化合物",
     "product_smiles": null,
@@ -10609,10 +10609,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+pubchem",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       },
       {
         "identifier": "1,4-dioxane",
@@ -10672,18 +10672,18 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "molecular_formula": "C11H9Cl2F3O4S",
+        "molecular_weight": 365.16
       }
     ],
     "reactant_names": [
       "式(V)化合物",
       "thionyl chloride"
     ],
-    "reactant_smiles": null,
-    "smiles_source": null,
+    "reactant_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "smiles_source": "joined_from_participants",
     "product_name": "式(VII)化合物",
     "product_smiles": null,
     "product_smiles_source": "none:markush",
@@ -10829,10 +10829,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
+        "molecular_formula": "C11H9Cl2F3O4S",
+        "molecular_weight": 365.16
       },
       {
         "identifier": "1,3-cyclohexanedione",
@@ -10913,17 +10913,17 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C17H16ClF3O6S",
+        "molecular_weight": 440.82
       }
     ],
     "reactant_names": [
       "式(VII)化合物",
       "1,3-cyclohexanedione"
     ],
-    "reactant_smiles": "O=C1CCCC(=O)C1",
+    "reactant_smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F.O=C1CCCC(=O)C1",
     "smiles_source": "joined_from_participants",
     "product_name": "式(VIII)化合物",
     "product_smiles": null,
@@ -11080,10 +11080,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C17H16ClF3O6S",
+        "molecular_weight": 440.82
       },
       {
         "identifier": "acetone cyanohydrin",
@@ -11173,8 +11173,8 @@
     "reactant_names": [
       "式(VIII)化合物"
     ],
-    "reactant_smiles": null,
-    "smiles_source": null,
+    "reactant_smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "smiles_source": "joined_from_participants",
     "product_name": "tembotrione",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
     "product_smiles_source": "patent_scheme+pubchem",
@@ -11183,7 +11183,7 @@
     "product_ms_type": null,
     "product_purity_pct": null,
     "product_purity_method": null,
-    "canonical_rxn": null,
+    "canonical_rxn": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F>>CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
     "procedure_text": "往上述得到的式(VIII)化合物溶液中加入0.1mL丙酮氰醇，60℃反应4h，通过高效液相色谱监测反应完成后，过滤，滤液旋蒸除去溶剂，加入水，用盐酸调节pH为2～3，过滤得到的固体并干燥，得到环磺酮，收率76.59％。",
     "procedure_summary": "Acetone cyanohydrin is added to the solution of the enol ester and the mixture is heated until HPLC shows the reaction complete; after filtration, concentration, dilution with water and acidification, the solid is filtered off and dried to give tembotrione.",
     "precursor_step": "Step 2",
@@ -11328,10 +11328,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C10H9BrClF3O3S",
+        "molecular_weight": 381.6
       },
       {
         "identifier": "1,3-cyclohexanedione",
@@ -11496,10 +11496,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C17H16ClF3O6S",
+        "molecular_weight": 440.82
       }
     ],
     "reactant_names": [
@@ -11507,7 +11507,7 @@
       "1,3-cyclohexanedione",
       "CO"
     ],
-    "reactant_smiles": "O=C1CCCC(=O)C1.[C-]#[O+]",
+    "reactant_smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F.O=C1CCCC(=O)C1.[C-]#[O+]",
     "smiles_source": "joined_from_participants",
     "product_name": "(VIII)酯化合物",
     "product_smiles": null,
@@ -11666,10 +11666,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C10H9BrClF3O3S",
+        "molecular_weight": 381.6
       },
       {
         "identifier": "1,3-cyclohexanedione",
@@ -11855,10 +11855,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C17H16ClF3O6S",
+        "molecular_weight": 440.82
       }
     ],
     "reactant_names": [
@@ -11866,7 +11866,7 @@
       "1,3-cyclohexanedione",
       "CO"
     ],
-    "reactant_smiles": "O=C1CCCC(=O)C1.[C-]#[O+]",
+    "reactant_smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F.O=C1CCCC(=O)C1.[C-]#[O+]",
     "smiles_source": "joined_from_participants",
     "product_name": "(VIII)酯化合物",
     "product_smiles": null,
@@ -12010,10 +12010,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CSc1cccc(Cl)c1C",
+        "smiles_source": "patent_scheme",
+        "molecular_formula": "C8H9ClS",
+        "molecular_weight": 172.68
       },
       {
         "identifier": "bromine",
@@ -12136,18 +12136,18 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CSc1ccc(Br)c(Cl)c1C",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "molecular_formula": "C8H8BrClS",
+        "molecular_weight": 251.58
       }
     ],
     "reactant_names": [
       "式(VI)化合物",
       "bromine"
     ],
-    "reactant_smiles": null,
-    "smiles_source": null,
+    "reactant_smiles": "CSc1cccc(Cl)c1C",
+    "smiles_source": "joined_from_participants",
     "product_name": "式(I)化合物",
     "product_smiles": null,
     "product_smiles_source": "none:markush",
@@ -12360,10 +12360,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CSc1cccc(Cl)c1C",
+        "smiles_source": "patent_scheme",
+        "molecular_formula": "C8H9ClS",
+        "molecular_weight": 172.68
       }
     ],
     "reactant_names": [
@@ -12511,10 +12511,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CSc1ccc(Br)c(Cl)c1C",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin+pubchem",
+        "molecular_formula": "C8H8BrClS",
+        "molecular_weight": 251.58
       },
       {
         "identifier": "hydrogen peroxide",
@@ -12721,10 +12721,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+        "smiles_source": "patent_scheme",
+        "molecular_formula": "C8H8BrClO2S",
+        "molecular_weight": 283.57
       },
       {
         "identifier": "sodium salt of the tungstate/vanadate catalyst",
@@ -12797,8 +12797,8 @@
       "式(I)化合物",
       "hydrogen peroxide"
     ],
-    "reactant_smiles": null,
-    "smiles_source": null,
+    "reactant_smiles": "CSc1ccc(Br)c(Cl)c1C",
+    "smiles_source": "joined_from_participants",
     "product_name": "式(II)化合物",
     "product_smiles": null,
     "product_smiles_source": "none:markush",
@@ -12943,10 +12943,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+        "smiles_source": "patent_scheme",
+        "molecular_formula": "C8H8BrClO2S",
+        "molecular_weight": 283.57
       },
       {
         "identifier": "brominating reagent",
@@ -13220,18 +13220,18 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C8H7Br2ClO2S",
+        "molecular_weight": 362.47
       }
     ],
     "reactant_names": [
       "式(II)化合物",
       "溴代试剂"
     ],
-    "reactant_smiles": null,
-    "smiles_source": null,
+    "reactant_smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "smiles_source": "joined_from_participants",
     "product_name": "式(III)化合物",
     "product_smiles": null,
     "product_smiles_source": "none:markush",
@@ -13368,10 +13368,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C8H7Br2ClO2S",
+        "molecular_weight": 362.47
       },
       {
         "identifier": "sodium 2,2,2-trifluoroethoxide",
@@ -13599,17 +13599,17 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C10H9BrClF3O3S",
+        "molecular_weight": 381.6
       }
     ],
     "reactant_names": [
       "式(III)化合物",
       "CF3CH2OM"
     ],
-    "reactant_smiles": "[Na+].[O-]CC(F)(F)F.[K+].[O-]CC(F)(F)F",
+    "reactant_smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr.[Na+].[O-]CC(F)(F)F.[K+].[O-]CC(F)(F)F",
     "smiles_source": "joined_from_participants",
     "product_name": "式(IV)化合物",
     "product_smiles": null,
@@ -14087,10 +14087,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C10H9BrClF3O3S",
+        "molecular_weight": 381.6
       },
       {
         "identifier": "water",
@@ -14843,10 +14843,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+pubchem",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       },
       {
         "identifier": "phosphine ligand or a salt thereof",
@@ -14964,7 +14964,7 @@
       "CO",
       "water"
     ],
-    "reactant_smiles": "O.[C-]#[O+]",
+    "reactant_smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F.O.[C-]#[O+]",
     "smiles_source": "joined_from_participants",
     "product_name": "式(V)化合物",
     "product_smiles": null,
@@ -15098,10 +15098,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
+        "molecular_formula": "C10H9BrClF3O3S",
+        "molecular_weight": 381.6
       },
       {
         "identifier": "CO",
@@ -15161,10 +15161,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C17H16ClF3O6S",
+        "molecular_weight": 440.82
       }
     ],
     "reactant_names": [
@@ -15172,7 +15172,7 @@
       "CO",
       "cyclohexane-1,3-dione"
     ],
-    "reactant_smiles": "[C-]#[O+].O=C1CCCC(=O)C1",
+    "reactant_smiles": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F.[C-]#[O+].O=C1CCCC(=O)C1",
     "smiles_source": "joined_from_participants",
     "product_name": "式(VIII)的酯化合物",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
@@ -15182,7 +15182,7 @@
     "product_ms_type": null,
     "product_purity_pct": null,
     "product_purity_method": null,
-    "canonical_rxn": "[C-]#[O+].O=C1CCCC(=O)C1>>CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "canonical_rxn": "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F.[C-]#[O+].O=C1CCCC(=O)C1>>CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
     "procedure_text": "[0090] 在其他实施方式中，本发明的式(IV)化合物可以通过但不限于如下插羰反应直接制备式(VIII)的酯化合物。\n[0092] 在更具体的实施方式中，上述(v′－1)的反应的实施方法除了反应物中不加水之外，其它与前文所述(v-1)的反应的实施方法相同。\n[0093] 由式(IV)化合物制备式(VIII)的中间体酯化合物后，可以先分离该中间体酯化合物，分步制备环磺酮，也可以不分离该中间体酯化合物而通过一锅法直接制备环磺酮。\n[0094] 上述(v-1)和(v′－1)的反应中，列举了通过CO插羰的方式，但本发明不限于此，通过其它方式由式(IV)化合物制备式(V)所示的中间体酸化合物、或直接制备式(VIII)的中间体酯化合物的实施方式都包括在本发明范围内。",
     "procedure_summary": "In an alternative embodiment the compound of formula (IV) is carbonylated directly to the ester of formula (VIII); the procedure is stated to be the same as the carbonylation to the acid except that no water is charged.",
     "precursor_step": "Step 5",
@@ -15304,10 +15304,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C17H16ClF3O6S",
+        "molecular_weight": 440.82
       },
       {
         "identifier": "acetone cyanohydrin",
@@ -15377,8 +15377,8 @@
     "reactant_names": [
       "式(VIII)的酯化合物"
     ],
-    "reactant_smiles": null,
-    "smiles_source": null,
+    "reactant_smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "smiles_source": "joined_from_participants",
     "product_name": "tembotrione",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
     "product_smiles_source": "patent_scheme+pubchem",
@@ -15387,7 +15387,7 @@
     "product_ms_type": null,
     "product_purity_pct": null,
     "product_purity_method": null,
-    "canonical_rxn": null,
+    "canonical_rxn": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F>>CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
     "procedure_text": "[0091] 式(V)的羧酸化合物和式(VIII)的酯化合物是环磺酮的重要制备中间体，可以参照例如专利文献DE19846792A1等中公开的已知方法通过如下路线制备环磺酮。\nNone 由式(VIII)的酯化合物重排制备环磺酮时，优选使用氰类催化剂，特别优选使用丙酮氰醇作为催化剂。",
     "procedure_summary": "The ester of formula (VIII) is rearranged to tembotrione, preferably with a cyanide type catalyst and particularly with acetone cyanohydrin.",
     "precursor_step": "Step 8",
@@ -15510,10 +15510,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+pubchem",
+        "molecular_formula": "C11H10ClF3O5S",
+        "molecular_weight": 346.71
       },
       {
         "identifier": "SOCl2",
@@ -15562,8 +15562,8 @@
       "式(V)化合物",
       "SOCl2"
     ],
-    "reactant_smiles": null,
-    "smiles_source": null,
+    "reactant_smiles": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "smiles_source": "joined_from_participants",
     "product_name": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
     "product_smiles_source": "patent_scheme",
@@ -15572,7 +15572,7 @@
     "product_ms_type": null,
     "product_purity_pct": null,
     "product_purity_method": null,
-    "canonical_rxn": null,
+    "canonical_rxn": "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F>>CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
     "procedure_text": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
     "procedure_summary": "Drawn arrow converting the carboxylic acid of formula (V) into the corresponding acid chloride.",
     "precursor_step": "Step 7",
@@ -15734,10 +15734,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C17H16ClF3O6S",
+        "molecular_weight": 440.82
       }
     ],
     "reactant_names": [
@@ -15874,10 +15874,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+        "smiles_source": "patent_scheme+patent_drawing+opsin",
+        "molecular_formula": "C17H16ClF3O6S",
+        "molecular_weight": 440.82
       },
       {
         "identifier": "acetone cyanohydrin",
@@ -15925,8 +15925,8 @@
     "reactant_names": [
       "式(VIII)的酯化合物"
     ],
-    "reactant_smiles": null,
-    "smiles_source": null,
+    "reactant_smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "smiles_source": "joined_from_participants",
     "product_name": "tembotrione",
     "product_smiles": "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
     "product_smiles_source": "patent_scheme+pubchem",
@@ -15935,7 +15935,7 @@
     "product_ms_type": null,
     "product_purity_pct": null,
     "product_purity_method": null,
-    "canonical_rxn": null,
+    "canonical_rxn": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F>>CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
     "procedure_text": "[0102] 在更具体的实施方式中，本发明新方法包括如下步骤：",
     "procedure_summary": "Drawn arrow rearranging the enol ester of formula (VIII) into tembotrione.",
     "precursor_step": "Scheme Step 8",

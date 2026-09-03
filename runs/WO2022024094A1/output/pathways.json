@@ -30,11 +30,11 @@
       },
       {
         "identifier": "enol ester of formula (II)",
-        "smiles": null,
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
         "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles_source": "patent_scheme",
+        "molecular_formula": "C14H13NO7S",
+        "molecular_weight": 339.33
       }
     ],
     "product": {
@@ -2073,11 +2073,11 @@
       },
       {
         "identifier": "enol ester of formula (II)",
-        "smiles": null,
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
         "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles_source": "patent_scheme",
+        "molecular_formula": "C14H13NO7S",
+        "molecular_weight": 339.33
       }
     ],
     "product": {
@@ -2749,11 +2749,11 @@
       },
       {
         "identifier": "enol ester of formula (II)",
-        "smiles": null,
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
         "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles_source": "patent_scheme",
+        "molecular_formula": "C14H13NO7S",
+        "molecular_weight": 339.33
       }
     ],
     "product": {
@@ -3926,11 +3926,11 @@
       },
       {
         "identifier": "enol ester of formula (II)",
-        "smiles": null,
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
         "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles_source": "patent_scheme",
+        "molecular_formula": "C14H13NO7S",
+        "molecular_weight": 339.33
       }
     ],
     "product": {
@@ -5688,11 +5688,11 @@
     "intermediates": [],
     "product": {
       "identifier": "enol ester of formula (II)",
-      "smiles": null,
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
       "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
-      "smiles_source": "none:markush",
-      "molecular_formula": null,
-      "molecular_weight": null
+      "smiles_source": "patent_scheme",
+      "molecular_formula": "C14H13NO7S",
+      "molecular_weight": 339.33
     },
     "steps": [
       {
@@ -6022,11 +6022,11 @@
     "intermediates": [],
     "product": {
       "identifier": "enol ester of formula (II)",
-      "smiles": null,
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
       "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
-      "smiles_source": "none:markush",
-      "molecular_formula": null,
-      "molecular_weight": null
+      "smiles_source": "patent_scheme",
+      "molecular_formula": "C14H13NO7S",
+      "molecular_weight": 339.33
     },
     "steps": [
       {
@@ -6352,11 +6352,11 @@
     "intermediates": [],
     "product": {
       "identifier": "enol ester of formula (II)",
-      "smiles": null,
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
       "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
-      "smiles_source": "none:markush",
-      "molecular_formula": null,
-      "molecular_weight": null
+      "smiles_source": "patent_scheme",
+      "molecular_formula": "C14H13NO7S",
+      "molecular_weight": 339.33
     },
     "steps": [
       {
@@ -6671,11 +6671,11 @@
     "section_label": "Example 7",
     "ksm": {
       "identifier": "enol ester of formula (II)",
-      "smiles": null,
+      "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
       "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
-      "smiles_source": "none:markush",
-      "molecular_formula": null,
-      "molecular_weight": null
+      "smiles_source": "patent_scheme",
+      "molecular_formula": "C14H13NO7S",
+      "molecular_weight": 339.33
     },
     "intermediates": [],
     "product": {
@@ -7047,11 +7047,11 @@
       },
       {
         "identifier": "enol ester of formula (II)",
-        "smiles": null,
+        "smiles": "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c([N+](=O)[O-])c1",
         "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
-        "smiles_source": "none:markush",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles_source": "patent_scheme",
+        "molecular_formula": "C14H13NO7S",
+        "molecular_weight": 339.33
       }
     ],
     "product": {

@@ -819,6 +819,58 @@
    "cid": 11556911,
    "formula": "C17H16ClF3O6S",
    "message": ""
+  },
+  "compound of formula (IV)": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "C10H9BrClF3O3S": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "compound of formula (VI)": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "compound of formula (I)": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "C8H8BrClS": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "compound of formula (II)": {
+   "smiles": "CC1CCCCC(OC(=O)CC(C(C2C(C(=O)C(C3(O2)CCC(C(O3)C(C1OC(=O)C)OC)O)C)C)C)O)C(C)CC(C)C(=O)C4=CC(=C(C(=C4)O)C)O",
+   "cid": 130382774,
+   "formula": "C41H62O13",
+   "message": ""
+  },
+  "compound of formula (III)": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "C8H7Br2ClO2S": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "compound of formula (V)": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "C11H10ClF3O5S": {
+   "smiles": "CS(=O)(=O)C1=C(C(=C(C=C1)C(=O)O)Cl)COCC(F)(F)F",
+   "cid": 15132895,
+   "formula": "C11H10ClF3O5S",
+   "message": ""
+  },
+  "compound of formula (VII)": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "ester compound of formula (VIII)": {
+   "smiles": null,
+   "message": "no entry"
   }
  }
 }
