@@ -1,0 +1,1230 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "reactions.json - A2 output after finalise.py (extended for WO2024109718A1 gold: range pairs, per-stage conditions, per-compound concentration, alternative groups and genus terms)",
+  "type": "array",
+  "items": {
+    "type": [
+      "object",
+      "null"
+    ],
+    "properties": {
+      "id": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "patent_id": {
+        "type": "string"
+      },
+      "reaction_id": {
+        "type": "string"
+      },
+      "reaction_uuid": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "section_label": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "section_type": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "bibliographic",
+          "abstract",
+          "technical_field",
+          "background",
+          "summary_of_invention",
+          "beneficial_effects",
+          "formula_definitions",
+          "description_of_drawings",
+          "experimental_intermediate",
+          "experimental_example",
+          "comparative_example",
+          "assay_data",
+          "pharmaceutical_compositions",
+          "claims",
+          "search_report",
+          "other",
+          null
+        ]
+      },
+      "step_index": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "step_label": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "reaction_class": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "suzuki_coupling",
+          "heck_reaction",
+          "buchwald_hartwig",
+          "negishi_coupling",
+          "sonogashira_coupling",
+          "other_cross_coupling",
+          "amide_bond_formation",
+          "acylation",
+          "ester_formation",
+          "n_alkylation",
+          "nucleophilic_substitution",
+          "electrophilic_substitution",
+          "halogenation",
+          "n_oxidation",
+          "oxidation",
+          "reduction",
+          "hydrolysis",
+          "protection",
+          "deprotection",
+          "cyclisation",
+          "elimination",
+          "addition",
+          "salt_formation",
+          "resolution",
+          "recrystallisation",
+          "catalyst_preparation",
+          "heterogeneous_catalysis",
+          "formulation",
+          "biological_assay",
+          "other",
+          null
+        ]
+      },
+      "reaction_class_confidence": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "high",
+          "medium",
+          "low",
+          null
+        ]
+      },
+      "named_reaction": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "mechanism_type": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "radical",
+          "ionic",
+          "pericyclic",
+          "photochemical",
+          "catalytic",
+          "concerted",
+          "not_determinable",
+          null
+        ]
+      },
+      "scale": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "enum": [
+          "micro",
+          "lab",
+          "pilot",
+          "production",
+          "not_specified",
+          null
+        ]
+      },
+      "is_one_pot": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "one_pot_steps": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": "string"
+        }
+      },
+      "conditions": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "temperature": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "type": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "exact",
+                  "range",
+                  "room_temperature",
+                  "not_specified",
+                  null
+                ]
+              },
+              "value_c": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "min_c": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "max_c": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "preferred_min_c": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "description": "Lower bound of the preferred (优选) temperature tier. A nested tier such as 40-100℃，优选70-90℃ is TWO facts; min_c/max_c hold the claimed outer range and these hold the preferred one."
+              },
+              "preferred_max_c": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "description": "Upper bound of the preferred temperature tier."
+              },
+              "value_approximate": {
+                "type": [
+                  "boolean",
+                  "null"
+                ],
+                "description": "True when the patent qualifies the temperature with 约 or 左右 (about, around)."
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "pressure": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "type": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "atmospheric",
+                  "reduced",
+                  "elevated",
+                  "vacuum",
+                  "not_specified",
+                  null
+                ]
+              },
+              "value_kpa": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "qualitative_text": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "value_kpa_min": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "description": "Lower bound in kPa of a pressure the patent states as a range. value_kpa holds a single exact figure and stays null when a range is given, e.g. 1～4MPa becomes 1000-4000 here."
+              },
+              "value_kpa_max": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "description": "Upper bound in kPa of a pressure stated as a range."
+              },
+              "value_approximate": {
+                "type": [
+                  "boolean",
+                  "null"
+                ],
+                "description": "True only where the patent writes 约 next to the pressure. Some examples print 以约1～4MPa and others 通入1～4MPa flat; the marker must follow the page."
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "atmosphere": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "time_h": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "reactor_type": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "concentration": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "unit": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "M",
+                  "N",
+                  "%",
+                  "mol/L",
+                  "mg/mL",
+                  null
+                ]
+              },
+              "reagent": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "heating_method": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "cooling_method": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "light_source": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "type": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "LED",
+                  "UV",
+                  "mercury_lamp",
+                  "sunlight",
+                  "tungsten",
+                  "fluorescent",
+                  "other",
+                  null
+                ]
+              },
+              "color": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "wavelength_nm": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "power_w": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "stirring": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "type": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "stirred",
+                  "magnetic",
+                  "mechanical",
+                  "overhead",
+                  "vortex",
+                  "shaker",
+                  "none",
+                  null
+                ],
+                "description": "Stirring mechanism where the patent names one. 'stirred' means the patent states the mixture was stirred (搅拌) without naming a mechanism, which is the common case; the same convention is used in the CN109678767A gold run. Null means the patent does not mention stirring at all."
+              },
+              "rpm": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "ph_value": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "ph_target_stage": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "time_h_min": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Lower bound of a reaction time the patent states as a range. time_h stays null when a range is given."
+          },
+          "time_h_max": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Upper bound of a reaction time stated as a range."
+          },
+          "time_h_approximate": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "True when the patent qualifies the time with 约 (about). Set per VALUE: if 约 attaches to one stage only, it belongs on that stage in conditions.stages, not here."
+          },
+          "ph_value_min": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Lower bound of a pH the patent states as a range. ph_value stays null when a range is given."
+          },
+          "ph_value_max": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Upper bound of a pH stated as a range."
+          },
+          "stages": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "description": "Per-stage conditions for a multi-stage one-pot run, in order. The top-level conditions hold the FINAL stage per the one-pot rule; without this array every earlier stage's temperature and time would be lost to prose.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "label": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "What this stage is."
+                },
+                "temperature": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "properties": {
+                    "type": {
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "enum": [
+                        "exact",
+                        "range",
+                        "room_temperature",
+                        "not_specified",
+                        null
+                      ]
+                    },
+                    "value_c": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    },
+                    "min_c": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    },
+                    "max_c": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    }
+                  },
+                  "required": [],
+                  "additionalProperties": false
+                },
+                "time_h": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "description": "Duration of this stage."
+                },
+                "time_h_approximate": {
+                  "type": [
+                    "boolean",
+                    "null"
+                  ],
+                  "description": "True when 约 qualifies this stage's time."
+                },
+                "source_line": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "description": "Line in the enriched markdown that states this stage."
+                }
+              }
+            }
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "conditions_inherited": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "workup": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "steps": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "quenching_agent": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "extraction_solvent": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "extraction_count": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "extraction_volume_ml": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "washes": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "drying_agent": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "filtration": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "concentration_method": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ph_target": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "ph_target_min": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Lower bound of a work-up pH target stated as a range. ph_target stays null when a range is given."
+          },
+          "ph_target_max": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Upper bound of a work-up pH target stated as a range."
+          },
+          "ph_intermediate_min": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Lower bound of an EARLIER pH adjustment, where the work-up adjusts pH more than once."
+          },
+          "ph_intermediate_max": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Upper bound of an earlier pH adjustment."
+          },
+          "post_precipitation_hold_h": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Duration of a timed hold after precipitation, such as an ice-bath stir, which conditions.time_h cannot hold because that field carries the reaction time."
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "purification": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "process_control": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "method": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "target_compound": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "threshold_pct": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "criterion": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "nmr_solvent": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "NMR solvent the patent names for the referenced spectra, e.g. CDCl3 or DMSO."
+          },
+          "analytical_method": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": true,
+            "description": "The analytical method as printed, resolved when a section defers to another example. Null where the section states no method, even if a neighbouring section does."
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "byproduct_recovery": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "compound": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "mass_g": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "concentration_pct": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "recovery_method": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "reuse": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "safety_notes": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": "string"
+        }
+      },
+      "molar_ratio_text": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "selectivity": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "regio": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "stereo": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "type": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "enum": [
+                  "ee",
+                  "de",
+                  "dr",
+                  "syn/anti",
+                  null
+                ]
+              },
+              "value_pct": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "chemo": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "compounds": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "identifier": {
+              "type": "string"
+            },
+            "role": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "product",
+                "reactant",
+                "reagent",
+                "solvent",
+                "catalyst",
+                "ligand",
+                "base",
+                "acid",
+                "oxidant",
+                "reductant",
+                "by_product",
+                "additive",
+                "drying_agent",
+                "other",
+                null
+              ]
+            },
+            "is_product": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "quantity": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "properties": {
+                "mass_g": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "volume_ml": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "mmol": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "equivalents": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "yield_pct": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "addition_profile": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "ms_mz": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "ms_type": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "purity_pct": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "purity_method": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "concentration_pct": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Strength of this reagent as charged, e.g. 32 for 32% aqueous NaOH. Per compound, because one reaction can charge four reagents at four different strengths."
+            },
+            "alternative_group": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Marks compounds that are alternatives to one another rather than co-charged. Members sharing a group value form ONE option; two compounds sharing a group are a COMBINATION offered as a single alternative, such as hydrogen bromide with hydrogen peroxide."
+            },
+            "is_genus": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "description": "True when this identifier is a claim genus or class term rather than a specific substance, e.g. a phosphine ligand or a salt thereof. Present so claim breadth is not narrowed to the named species."
+            }
+          },
+          "required": [
+            "identifier",
+            "role"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "reactant_names": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": "string"
+        }
+      },
+      "product_name": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "product_yield_pct": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "product_ms_mz": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "product_ms_type": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "product_purity_pct": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "product_purity_method": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "procedure_text": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "procedure_summary": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "precursor_step": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "linkage_confirmed": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "cross_reference_unresolved": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "non_synthetic": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "is_complete": {
+        "type": [
+          "boolean",
+          "null"
+        ]
+      },
+      "validation_flags": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "missing_product",
+            "missing_reactant",
+            "no_conditions",
+            "no_procedure_summary",
+            "cross_reference_unresolved",
+            "conditions_unresolved",
+            "a1_missing_compound",
+            "mass_balance_implausible",
+            "scale_discontinuity",
+            "translation_conflict",
+            "drawing_text_conflict",
+            "reagent_drawn_not_written",
+            "reagent_written_not_drawn",
+            "route_attribution_unclear",
+            "molar_mass_inconsistent",
+            null
+          ]
+        }
+      },
+      "tags": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z_]+:[a-z0-9_/.+-]+$"
+        }
+      },
+      "notes": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "reactant_smiles": {
+        "type": "null"
+      },
+      "smiles_source": {
+        "type": "null"
+      },
+      "product_smiles": {
+        "type": "null"
+      },
+      "product_smiles_source": {
+        "type": "null"
+      },
+      "canonical_rxn": {
+        "type": "null"
+      },
+      "product_yield_pct_min": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "description": "Lower bound of a yield the patent states as a range or an open bound. Null when the bound is open below, as for 收率低于10％ (yield below 10%)."
+      },
+      "product_yield_pct_max": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "description": "Upper bound of a yield the patent states as a range or an open bound. product_yield_pct itself stays null whenever the patent gives a bound rather than a measured figure."
+      },
+      "molar_ratio_min": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "description": "Lower bound of a molar ratio the patent states as a range."
+      },
+      "molar_ratio_max": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "description": "Upper bound of a molar ratio the patent states as a range."
+      },
+      "molar_ratio_preferred_min": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "description": "Lower bound of the preferred (优选) molar-ratio tier, a separate fact from the outer range."
+      },
+      "molar_ratio_preferred_max": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "description": "Upper bound of the preferred molar-ratio tier."
+      },
+      "molar_ratio_approximate": {
+        "type": [
+          "boolean",
+          "null"
+        ],
+        "description": "True when the patent qualifies the ratio with 约 (about)."
+      },
+      "molar_ratio_basis": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "Which two substances the molar ratio relates, e.g. compound of formula (I) to hydrogen peroxide."
+      },
+      "one_pot_optional": {
+        "type": [
+          "boolean",
+          "null"
+        ],
+        "description": "True when the patent states the step MAY be run one-pot or stepwise. is_one_pot is a boolean and cannot express either/or, so a claimed alternative mode would otherwise be unrecoverable."
+      }
+    },
+    "required": [
+      "patent_id",
+      "reaction_id",
+      "section_label",
+      "step_index",
+      "reaction_class",
+      "compounds",
+      "validation_flags"
+    ],
+    "additionalProperties": false
+  }
+}

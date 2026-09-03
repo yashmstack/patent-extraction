@@ -42,13 +42,17 @@
     "analytics": [
       {
         "method": "hplc",
-        "value": 95.0,
+        "value": null,
+        "value_min": 95.0,
+        "value_max": null,
         "unit": "%",
-        "conditions": "purity printed as a lower bound",
+        "section_label": "Example 7",
+        "source_line": 331,
+        "conditions": "purity printed as a LOWER BOUND; value is null and value_min carries the bound so it is never read as an assayed equality",
         "raw_text": "HPLC purity >95%"
       }
     ],
-    "purity_pct": 95.0,
+    "purity_pct": null,
     "purity_method": "hplc",
     "tags": [
       "compound_class:active_ingredient",
@@ -57,9 +61,76 @@
       "functional_group:nitro",
       "chemical_family:cyclohexanedione"
     ],
-    "notes": "The only compound named in the (57) abstract. One record merged from the two mentions on line 40, both spelled 'mesotrione' in lower case, so there is no spelling variant to alias. The abstract prints no formula number, no systematic name and no structure span, so aliases is empty and no SMILES alias is added. 'intermediate compounds' and 'intermediates of mesotrione' are generic phrases naming no compound and are deliberately not recorded. is_section_product because the abstract ends on preparation of mesotrione and names nothing else. Not commercially available: this document's process prepares it. chemical_family is skipped rather than guessed, the abstract giving only the trivial name; the two sections annotated earlier disagree on it, Background choosing cyclohexanedione and Claims triketone. No quantity, temperature, time, ratio or analytical datum appears in this section. | The herbicide the whole document targets. One record merged from eleven mentions in [003], [004], [005], [0010] and [0011]; the sentence-initial capital 'Mesotrione' is kept as an alias and the printed chemical name as a second alias. SMILES alias is the structure span at line 57, which the prose introduces with 'has the structural formula given below', and it is also the step 2 product of the scheme span at line 68. Not marked is_section_product: this section synthesises nothing, it describes five cited processes. [004] prints 'Mesotrioneis useful', a missing space between the name and the following word, not a spelling of the compound. | Merged from the claim 1 preamble and step (iii), the preambles of claims 2 and 3, and both mentions in claim 4. Target of the claimed process, although the section physically ends with claim 10, whose product is the enol ester; is_section_product is false because every claims record in the reference run carries false, a section that synthesises nothing having no section product, so that conflict does not need resolving to set the field. SMILES alias taken from the scheme span that draws the enol ester converting to mesotrione; that span failed to anchor and was emitted at the top of p19, but its printed position is inside claim 1. Isomeric with the enol ester of formula (II), both C14H13NO7S in the spans, and a different compound. No quantity, temperature, time or ratio appears anywhere in the claim set. | The only compound this section names. [0030] defines the compound of formula (I) as mesotrione and gives its systematic name, which is kept as an alias exactly as printed, with the space after the comma in the locant: 'cyclohexane-1, 3-dione'. [003] at line 55 prints the same name closed up as 'cyclohexane-1,3-dione'; orthographic variation, one compound. SMILES alias is the structure span at line 177, captioned 'Formula I' at line 175, whose molecular formula and InChIKey in the span agree with the name; the SMILES was checked atom by atom against it, benzoyl at C1, nitro at C2, methylsulfonyl at C4, and the dione 2-substituted. The caption prints 'Formula I' without parentheses while the prose says 'formula (I)'; both forms are kept as aliases and neither is normalised. Not marked is_section_product: this is a term-definition block, it synthesises nothing. Isomeric with the enol ester of formula (II), also C14H13NO7S, and a different compound. [0029] at line 168 is claim-construction language and names no compound; the section defines no Markush group and no R-group fragment. | The final product of the three-step process and of this section: [0039] heads the three steps with it, [0041] calls it the final product, and the last substantive paragraph, [0044], is about purifying it. Named in [0039], [0041], [0042], [0043] and [0044]; the section never prints its chemical name, only the trivial name and the formula number. SMILES alias from the scheme span at line 226, the only span in this section that draws formula (I); its reactant is the enol ester and its arrow is bare. Isomeric with the enol ester of formula (II), both C14H13NO7S in the spans, and a different compound. [0044] says purification is optional and by a conventional procedure, naming no solvent or reagent, so no compound comes from it. | Product of the single step (iii) of this section, the rearrangement of the enol ester. SMILES alias is the product of the scheme span at line 327. Purity, yield and melting point come from the unmarked line 331, which belongs to paragraph [0053] above it; printed purity is '>95%', so purity_pct is the stated bound and not a measured value. Product and starting material share the molecular formula C14H13NO7S printed in the span, so the stated 85% is consistent with 17g out of 20g in and is not an arithmetic defect. | The only compound named in this section. One record merged from three mentions: the reprinted invention title at line 45 and twice in [001] at line 49. The all-caps 'MESOTRIONE' is the running title's casing, kept as an alias. No structure is drawn and no chemical name is printed in this section, so the identity rests on the trivial name alone; chemical_family is tagged from the trivial name, and no functional_group tag is emitted because nothing here states the structure. is_section_product follows the reference run's convention, where CN104292137A gives its target compound the flag in technical_field and withholds it in every other non-procedural section; this section states the technical field and synthesises nothing itself, but lines 45 and 49 both end on mesotrione as its subject. 'intermediates of mesotrione' at lines 45 and 49 is an unnamed plural class, not a compound, and is deliberately not a record. | One record merged from the two mentions in [0013] and [0014], the only compound this section names. Both print the name lower case and give no chemical name, formula number or structure span, so there is no alias to record and no SMILES: the section is purely a statement of aims. is_section_product is false. Both readings were available: mesotrione is the compound the section is about and the compound [0014] ends with, which argues for true, but the section synthesises nothing. False follows the reference run, where all 43 summary_of_invention records in runs/CN104292137A/output/compounds.json carry false and only technical_field sets true. [0013] also states an object for 'intermediate compounds for synthesis of mesotrione'; that phrase names no compound and is deliberately not recorded. No quantity, temperature, time, ratio or analytical datum appears in this section. | Merged from [0017] and its step (iii) at line 126. Target of the process this section recites, hence is_section_product, although the section physically ends with [0018], which names no compound. The prose binds it to formula (I) at both mentions. SMILES alias is the product of the scheme span at line 132, the third of the three route schemes drawn under the step list. Isomeric with the enol ester of formula (II), both C14H13NO7S in the spans, and a different compound. No quantity, temperature, time or ratio appears anywhere in this section.",
+    "notes": "The only compound named in the (57) abstract. One record merged from the two mentions on line 40, both spelled 'mesotrione' in lower case, so there is no spelling variant to alias. The abstract prints no formula number, no systematic name and no structure span, so aliases is empty and no SMILES alias is added. 'intermediate compounds' and 'intermediates of mesotrione' are generic phrases naming no compound and are deliberately not recorded. is_section_product because the abstract ends on preparation of mesotrione and names nothing else. Not commercially available: this document's process prepares it. chemical_family is skipped rather than guessed, the abstract giving only the trivial name; the two sections annotated earlier disagree on it, Background choosing cyclohexanedione and Claims triketone. No quantity, temperature, time, ratio or analytical datum appears in this section. | The herbicide the whole document targets. One record merged from eleven mentions in [003], [004], [005], [0010] and [0011]; the sentence-initial capital 'Mesotrione' is kept as an alias and the printed chemical name as a second alias. SMILES alias is the structure span at line 57, which the prose introduces with 'has the structural formula given below', and it is also the step 2 product of the scheme span at line 68. Not marked is_section_product: this section synthesises nothing, it describes five cited processes. [004] prints 'Mesotrioneis useful', a missing space between the name and the following word, not a spelling of the compound. | Merged from the claim 1 preamble and step (iii), the preambles of claims 2 and 3, and both mentions in claim 4. Target of the claimed process, although the section physically ends with claim 10, whose product is the enol ester; is_section_product is false because every claims record in the reference run carries false, a section that synthesises nothing having no section product, so that conflict does not need resolving to set the field. SMILES alias taken from the scheme span that draws the enol ester converting to mesotrione; that span failed to anchor and was emitted at the top of p19, but its printed position is inside claim 1. Isomeric with the enol ester of formula (II), both C14H13NO7S in the spans, and a different compound. No quantity, temperature, time or ratio appears anywhere in the claim set. | The only compound this section names. [0030] defines the compound of formula (I) as mesotrione and gives its systematic name, which is kept as an alias exactly as printed, with the space after the comma in the locant: 'cyclohexane-1, 3-dione'. [003] at line 55 prints the same name closed up as 'cyclohexane-1,3-dione'; orthographic variation, one compound. SMILES alias is the structure span at line 177, captioned 'Formula I' at line 175, whose molecular formula and InChIKey in the span agree with the name; the SMILES was checked atom by atom against it, benzoyl at C1, nitro at C2, methylsulfonyl at C4, and the dione 2-substituted. The caption prints 'Formula I' without parentheses while the prose says 'formula (I)'; both forms are kept as aliases and neither is normalised. Not marked is_section_product: this is a term-definition block, it synthesises nothing. Isomeric with the enol ester of formula (II), also C14H13NO7S, and a different compound. [0029] at line 168 is claim-construction language and names no compound; the section defines no Markush group and no R-group fragment. | The final product of the three-step process and of this section: [0039] heads the three steps with it, [0041] calls it the final product, and the last substantive paragraph, [0044], is about purifying it. Named in [0039], [0041], [0042], [0043] and [0044]; the section never prints its chemical name, only the trivial name and the formula number. SMILES alias from the scheme span at line 226, the only span in this section that draws formula (I); its reactant is the enol ester and its arrow is bare. Isomeric with the enol ester of formula (II), both C14H13NO7S in the spans, and a different compound. [0044] says purification is optional and by a conventional procedure, naming no solvent or reagent, so no compound comes from it. | Product of the single step (iii) of this section, the rearrangement of the enol ester. SMILES alias is the product of the scheme span at line 327. Purity, yield and melting point come from the unmarked line 331, which belongs to paragraph [0053] above it; printed purity is '>95%', so purity_pct is the stated bound and not a measured value. Product and starting material share the molecular formula C14H13NO7S printed in the span, so the stated 85% is consistent with 17g out of 20g in and is not an arithmetic defect. | The only compound named in this section. One record merged from three mentions: the reprinted invention title at line 45 and twice in [001] at line 49. The all-caps 'MESOTRIONE' is the running title's casing, kept as an alias. No structure is drawn and no chemical name is printed in this section, so the identity rests on the trivial name alone; chemical_family is tagged from the trivial name, and no functional_group tag is emitted because nothing here states the structure. is_section_product follows the reference run's convention, where CN104292137A gives its target compound the flag in technical_field and withholds it in every other non-procedural section; this section states the technical field and synthesises nothing itself, but lines 45 and 49 both end on mesotrione as its subject. 'intermediates of mesotrione' at lines 45 and 49 is an unnamed plural class, not a compound, and is deliberately not a record. | One record merged from the two mentions in [0013] and [0014], the only compound this section names. Both print the name lower case and give no chemical name, formula number or structure span, so there is no alias to record and no SMILES: the section is purely a statement of aims. is_section_product is false. Both readings were available: mesotrione is the compound the section is about and the compound [0014] ends with, which argues for true, but the section synthesises nothing. False follows the reference run, where all 43 summary_of_invention records in runs/CN104292137A/output/compounds.json carry false and only technical_field sets true. [0013] also states an object for 'intermediate compounds for synthesis of mesotrione'; that phrase names no compound and is deliberately not recorded. No quantity, temperature, time, ratio or analytical datum appears in this section. | Merged from [0017] and its step (iii) at line 126. Target of the process this section recites, hence is_section_product, although the section physically ends with [0018], which names no compound. The prose binds it to formula (I) at both mentions. SMILES alias is the product of the scheme span at line 132, the third of the three route schemes drawn under the step list. Isomeric with the enol ester of formula (II), both C14H13NO7S in the spans, and a different compound. No quantity, temperature, time or ratio appears anywhere in this section. [FIX C-001] The patent isolates and measures this compound 1 time(s). The single-valued melting_point, appearance, color and physical_form fields could each hold only one, and purity_pct held 95 with the '>' dropped, which asserted an assayed equality the patent never claims. Now: melting_points, appearances and yields_by_section record every measurement with its example and line; analytics carries one entry per batch with value null and value_min holding the printed lower bound; purity_pct is null and purity_pct_min carries the bound. Only one Example makes this compound, so nothing was lost here; the arrays are used anyway so every product record has the same shape. melting_point, appearance, color and physical_form remain populated with Example 7's values for backward compatibility, and are NOT the whole picture: read melting_points and appearances for that. [CORRECTION] The appearance source_line values first written on this record pointed at each Example's ANALYTICAL line, where the melting point and purity are printed. The appearance is printed one line earlier, at the end of the procedure paragraph, so every appearance source_line was moved to the procedure line and each phrase re-verified against it. Caught by a verbatim check rather than by review. [FIX C-008] role and section_label are each ONE string, but the patent gives this compound 6 sections and one role. role held 'product' and section_label held 'Summary of the Invention', which is one arbitrary location out of 6. roles_by_section now records every role with its section and line, and sections lists them all. The single-valued fields are left as they were for backward compatibility and are NOT the whole picture. This is item 3 of pipeline/contracts/SINGLE-VALUED-FIELDS.md, where the same defect is described as the location field being false while the line-level provenance is correct.",
     "id": "WO2022024094A1_mesotrione",
-    "compound_uuid": "d5e25d71-c6e7-5328-b2bb-f5271c24cdd6"
+    "compound_uuid": "d5e25d71-c6e7-5328-b2bb-f5271c24cdd6",
+    "melting_points": [
+      {
+        "section_label": "Example 7",
+        "source_line": 331,
+        "min_c": 155.0,
+        "max_c": 157.0,
+        "range_text": "Melting point of the solid was 155-157°C"
+      }
+    ],
+    "appearances": [
+      {
+        "section_label": "Example 7",
+        "source_line": 329,
+        "appearance": "yellow to tan colour solid",
+        "color": "yellow to tan",
+        "physical_form": "solid"
+      }
+    ],
+    "purity_pct_min": 95.0,
+    "purity_pct_max": null,
+    "yields_by_section": [
+      {
+        "section_label": "Example 7",
+        "source_line": 331,
+        "yield_pct": 85.0
+      }
+    ],
+    "roles_by_section": [
+      {
+        "section_label": "Abstract",
+        "role": "product",
+        "source_line": 40
+      },
+      {
+        "section_label": "Background of the Invention",
+        "role": "product",
+        "source_line": 64
+      },
+      {
+        "section_label": "Summary of the Invention",
+        "role": "product",
+        "source_line": 117
+      },
+      {
+        "section_label": "Detailed Description of the Invention",
+        "role": "product",
+        "source_line": 220
+      },
+      {
+        "section_label": "Claims",
+        "role": "product",
+        "source_line": 348
+      },
+      {
+        "section_label": "Example 7",
+        "role": "product",
+        "source_line": 329
+      }
+    ],
+    "sections": [
+      "Abstract",
+      "Background of the Invention",
+      "Claims",
+      "Detailed Description of the Invention",
+      "Example 7",
+      "Summary of the Invention"
+    ]
   },
   {
     "patent_id": "WO2022024094A1",
@@ -101,9 +172,81 @@
       "functional_group:sulfone",
       "functional_group:nitro"
     ],
-    "notes": "Starting material of all five cited routes; no step of this document prepares it. One record merged from four spellings in this section: 'methylsulphonyl toluene' in [005] and [007], 'methylsulfonyl toluene' in [006], 'methylsulfonyltoluene' in [008] and [009], and the abbreviation NMST six times. The 'sulphonyl' spaced form and the 'sulfonyl' closed form both appear twice in this section, so its own counts pick no winner. SMILES alias is the reactant of the scheme spans at lines 66, 75, 79, 83 and 90. [007] also prints the plural class 'methylsulfonyl toluenes' for the substrate family of US5424481; that is a class, not this molecule, so it is not an alias. The identifier is the document-wide canonical spelling, the 'sulfonyl' spaced form, and not this section's most frequent one; both spellings are printed here and the other is kept as an alias. | Merged from claims 1(i), 5 and 10, where claim 10 names it twice and calls it the starting material. Spelled with f (methylsulfonyl) on all four occurrences in this section, while the benzoic acid is spelled with ph; that split is the patent's own and is not normalised. Claim 1 prints no space after the verb: \"oxidizing2-nitro-4-methylsulfonyl toluene\". SMILES alias from the NMST-to-NMSBA scheme spans on these pages, all three of which were emitted at the top of their page rather than where they are printed. | The substrate of step (i) and the starting material of the whole process, named as such in [0038] and [0041]. One record merged from its mentions in [0031], [0035], [0038], [0039] and [0041]. Spelled with f and with a space before toluene on every occurrence in this section, the document-wide preferred form. SMILES alias from the oxidation scheme spans at lines 181, 196, 205 and 222. [0034] refers to it only as 'starting material' in the aqueous caustic solution sentence; that phrase is a role reference and is not recorded as an alias. No step of this document prepares it, so commercially_available is true. | Starting material of the route; no step of this patent prepares it. Merged from the section title, which gives the full name with the 'sulfonyl' spelling, and the procedure, which uses NMST only. SMILES alias is the reactant of the scheme span at line 256. | Starting material of the route; no step of this patent prepares it. Merged from the title line 270, which gives the full name with the 'sulfonyl' spelling, and the procedure, which uses NMST only. mmol is the printed 0.023mol as mmol. No scheme in this section, so no SMILES alias. | Starting material of the route; no step of this patent prepares it. Merged from the title line, which gives the full name with the 'sulfonyl' spelling, and the procedure, which uses NMST only. No SMILES alias: this section carries no scheme of its own, and the span at line 287 is Example 4's. | Merged from [0015] at line 109 and step (i) at line 122. Both occurrences spell it with f and a space, 2-nitro-4-methylsulfonyl toluene, so this section prints no variant of the name to record. Line 109 spells the toluene with f and the benzoic acid with ph in the same sentence; that split is the patent's own and is not normalised. SMILES alias is the reactant of the two oxidation scheme spans at lines 111 and 128. Nothing in this document prepares it, so commercially_available is true.",
+    "notes": "Starting material of all five cited routes; no step of this document prepares it. One record merged from four spellings in this section: 'methylsulphonyl toluene' in [005] and [007], 'methylsulfonyl toluene' in [006], 'methylsulfonyltoluene' in [008] and [009], and the abbreviation NMST six times. The 'sulphonyl' spaced form and the 'sulfonyl' closed form both appear twice in this section, so its own counts pick no winner. SMILES alias is the reactant of the scheme spans at lines 66, 75, 79, 83 and 90. [007] also prints the plural class 'methylsulfonyl toluenes' for the substrate family of US5424481; that is a class, not this molecule, so it is not an alias. The identifier is the document-wide canonical spelling, the 'sulfonyl' spaced form, and not this section's most frequent one; both spellings are printed here and the other is kept as an alias. | Merged from claims 1(i), 5 and 10, where claim 10 names it twice and calls it the starting material. Spelled with f (methylsulfonyl) on all four occurrences in this section, while the benzoic acid is spelled with ph; that split is the patent's own and is not normalised. Claim 1 prints no space after the verb: \"oxidizing2-nitro-4-methylsulfonyl toluene\". SMILES alias from the NMST-to-NMSBA scheme spans on these pages, all three of which were emitted at the top of their page rather than where they are printed. | The substrate of step (i) and the starting material of the whole process, named as such in [0038] and [0041]. One record merged from its mentions in [0031], [0035], [0038], [0039] and [0041]. Spelled with f and with a space before toluene on every occurrence in this section, the document-wide preferred form. SMILES alias from the oxidation scheme spans at lines 181, 196, 205 and 222. [0034] refers to it only as 'starting material' in the aqueous caustic solution sentence; that phrase is a role reference and is not recorded as an alias. No step of this document prepares it, so commercially_available is true. | Starting material of the route; no step of this patent prepares it. Merged from the section title, which gives the full name with the 'sulfonyl' spelling, and the procedure, which uses NMST only. SMILES alias is the reactant of the scheme span at line 256. | Starting material of the route; no step of this patent prepares it. Merged from the title line 270, which gives the full name with the 'sulfonyl' spelling, and the procedure, which uses NMST only. mmol is the printed 0.023mol as mmol. No scheme in this section, so no SMILES alias. | Starting material of the route; no step of this patent prepares it. Merged from the title line, which gives the full name with the 'sulfonyl' spelling, and the procedure, which uses NMST only. No SMILES alias: this section carries no scheme of its own, and the span at line 287 is Example 4's. | Merged from [0015] at line 109 and step (i) at line 122. Both occurrences spell it with f and a space, 2-nitro-4-methylsulfonyl toluene, so this section prints no variant of the name to record. Line 109 spells the toluene with f and the benzoic acid with ph in the same sentence; that split is the patent's own and is not normalised. SMILES alias is the reactant of the two oxidation scheme spans at lines 111 and 128. Nothing in this document prepares it, so commercially_available is true. [FIX C-006] The patent charges this compound 3 times, once per worked example, and the single-valued quantity block could hold only one of them: it previously held nothing, so all of them were absent. quantities_by_section now records every charge with its example and line number, and quantity is set null so no consumer reads one arbitrary example's number as the compound's charge. Same defect family as SINGLE-VALUED-FIELDS.md. Note that reactions.json already carried every one of these charges correctly on its own per-example records, so nothing was lost from the gold as a whole; it was compounds.json alone that misrepresented. [FIX C-008] role and section_label are each ONE string, but the patent gives this compound 7 sections and one role. role held 'reactant' and section_label held 'Summary of the Invention', which is one arbitrary location out of 7. roles_by_section now records every role with its section and line, and sections lists them all. The single-valued fields are left as they were for backward compatibility and are NOT the whole picture. This is item 3 of pipeline/contracts/SINGLE-VALUED-FIELDS.md, where the same defect is described as the location field being false while the line-level provenance is correct.",
     "id": "WO2022024094A1_2-nitro-4-methylsulfonyl toluene",
-    "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd"
+    "compound_uuid": "cf553696-4517-595e-8c28-8917aa6486dd",
+    "quantities_by_section": [
+      {
+        "section_label": "Example 1",
+        "source_line": 264,
+        "volume_ml": null,
+        "mass_g": 61.2,
+        "mmol": 278.0,
+        "role_in_that_example": "reactant"
+      },
+      {
+        "section_label": "Example 2",
+        "source_line": 272,
+        "volume_ml": null,
+        "mass_g": 5.0,
+        "mmol": 23.0,
+        "role_in_that_example": "reactant"
+      },
+      {
+        "section_label": "Example 3",
+        "source_line": 285,
+        "volume_ml": null,
+        "mass_g": 20.0,
+        "mmol": 88.0,
+        "role_in_that_example": "reactant"
+      }
+    ],
+    "roles_by_section": [
+      {
+        "section_label": "Background of the Invention",
+        "role": "reactant",
+        "source_line": 64
+      },
+      {
+        "section_label": "Summary of the Invention",
+        "role": "reactant",
+        "source_line": 109
+      },
+      {
+        "section_label": "Detailed Description of the Invention",
+        "role": "reactant",
+        "source_line": 179
+      },
+      {
+        "section_label": "Claims",
+        "role": "reactant",
+        "source_line": 348
+      },
+      {
+        "section_label": "Example 1",
+        "role": "reactant",
+        "source_line": 264
+      },
+      {
+        "section_label": "Example 2",
+        "role": "reactant",
+        "source_line": 272
+      },
+      {
+        "section_label": "Example 3",
+        "role": "reactant",
+        "source_line": 285
+      }
+    ],
+    "sections": [
+      "Background of the Invention",
+      "Claims",
+      "Detailed Description of the Invention",
+      "Example 1",
+      "Example 2",
+      "Example 3",
+      "Summary of the Invention"
+    ]
   },
   {
     "patent_id": "WO2022024094A1",
@@ -144,27 +287,39 @@
     "analytics": [
       {
         "method": "hplc",
-        "value": 95.0,
+        "value": null,
+        "value_min": 95.0,
+        "value_max": null,
         "unit": "%",
-        "conditions": "purity printed as a lower bound",
+        "section_label": "Example 1",
+        "source_line": 266,
+        "conditions": "purity printed as a LOWER BOUND; value is null and value_min carries the bound so it is never read as an assayed equality",
         "raw_text": "HPLC purity > 95%"
       },
       {
         "method": "hplc",
-        "value": 92.0,
+        "value": null,
+        "value_min": 92.0,
+        "value_max": null,
         "unit": "%",
-        "conditions": "purity printed as a lower bound",
+        "section_label": "Example 2",
+        "source_line": 279,
+        "conditions": "purity printed as a LOWER BOUND; value is null and value_min carries the bound so it is never read as an assayed equality",
         "raw_text": "HPLC purity > 92%"
       },
       {
         "method": "hplc",
-        "value": 95.0,
+        "value": null,
+        "value_min": 95.0,
+        "value_max": null,
         "unit": "%",
-        "conditions": "purity printed as a lower bound",
+        "section_label": "Example 3",
+        "source_line": 289,
+        "conditions": "purity printed as a LOWER BOUND; value is null and value_min carries the bound so it is never read as an assayed equality",
         "raw_text": "HPLC purity >95%"
       }
     ],
-    "purity_pct": 95.0,
+    "purity_pct": null,
     "purity_method": "hplc",
     "tags": [
       "compound_class:intermediate",
@@ -173,9 +328,174 @@
       "functional_group:sulfone",
       "functional_group:nitro"
     ],
-    "notes": "Product of the oxidation in all five cited routes and, in [005], the substrate of the conversion to the acid chloride; role recorded as product, the downstream use noted here rather than split into a second record. One record merged from three spellings, 'methylsulphonyl benzoic acid' in [005], 'methylsulfonyl benzoic acid' in [006] and [007], 'methylsulfonylbenzoic acid' in [008] and [009], plus the abbreviation NMSBA seven times. The spaced and closed 'sulfonyl' forms tie at two each in this section, so its own counts pick no winner. [007] also prints the plural class 'methyl sulfonyl benzoic acids', with a space between methyl and sulfonyl; that is the substrate class of US5424481 and not this molecule, so it is recorded here and not as an alias. SMILES alias is the product of the scheme spans at lines 66, 75, 79, 83 and 90. The identifier is the document-wide canonical spelling, the 'sulphonyl' spaced form, and not this section's most frequent one; both spellings are printed here and the other is kept as an alias. | One record for the product of step (i) in claims 1 and 10, the target of claim 5 and 6, and the reactant of step (ii) in claims 1, 3, 7 and 10; role product is the role of the step that makes it. Spelled with ph (methylsulphonyl) on all five occurrences in this section, never with f, and the abbreviation NMSBA carries it in claims 3 and 10. SMILES alias from the scheme spans, where it is both a product and a reactant. | Product of step (i) and reactant of step (ii); one record merged from its mentions in [0031], [0035], [0036], [0037], [0038], [0039] and [0040]. Spelled with ph on every occurrence in this section, which is the document-wide preferred form, while the toluene is spelled with f; that split is the patent's own and is not normalised. SMILES alias from the oxidation scheme spans at lines 181, 196, 205 and 222, which draw it as the product, and from the esterification spans at 200, 207 and 224, which draw it as a reactant. [0040] calls it an outlined intermediate that may be isolated if desired or carried forward without isolation, and [0041] adds that it need not be isolated at all. No quantity is attached to it anywhere in this section; the only conditions stated for step (i) are reflux and a time range, which belong to the step and not to this compound. | Product of the single step in this section. Named in the title as the 'sulphonyl' spelling and by the abbreviation NMSBA three times in the procedure; one record, the abbreviation kept as an alias. SMILES alias is the product of the scheme span at line 256, which A0 assigned to this section although build_enriched.py printed it above the EXAMPLES heading. Purity, yield and melting point come from the unmarked line 266, which belongs to paragraph [0047] above it. Printed purity is '> 95%', so purity_pct is the stated bound and not a measured value. | Product of the single step in this section, the same oxidation as Example 1 at 5.0g scale. Named in the title line 270 with the 'sulphonyl' spelling and twice by the abbreviation NMSBA in the procedure; one record, the abbreviation kept as an alias. This section prints no scheme, so no SMILES alias is added. Purity, yield and melting point come from the unmarked line 279, which belongs to paragraph [0048] whose text runs from line 272 to line 277. Printed purity is '> 92%', so purity_pct is the stated lower bound and not a measurement; the inequality is kept verbatim in analytics raw_text. | Product of the single oxidation step in this section. Named in full in the title line with the 'sulphonyl' spelling and by the abbreviation NMSBA in the procedure; one record, the abbreviation kept as an alias. Purity, yield and melting point come from the unmarked line 289, which belongs to paragraph [0049] above it. Printed purity is '>95%' with no space, so purity_pct is the stated bound and not a measured value. No SMILES alias: the only IMAGE_EXTRACT span inside this section, at line 287, is Example 4's scheme (NMSBA plus 1,3-cyclohexanedione to the enol ester); the vision read of p16 places that drawing between the Example 4 title line and paragraph [0050], and build_enriched.py anchored it on between_markers[0] = [0049]. Nothing in this section draws this compound. The purity and melting point reported here are the same figures Example 1 reports, differing only in yield; the vision pass flagged that as a possible copy-paste in the patent and did not resolve it, and it is not resolved here. | Carboxylic acid partner of the coupling. This section prints only the abbreviation NMSBA, in the heading with its formula number and once in the charge; the identifier is the document-wide canonical spelling and the abbreviation and formula number are aliases. Not commercially available: Examples 1 to 3 of this document prepare it from NMST. Charged 27g, 0.11mol, recorded as stated with mol converted to mmol. | This section prints only the abbreviation NMSBA, in the title with its formula number and in the procedure with its charge; the identifier is the document-wide spelled-out form, which this section never prints, and the abbreviation is kept as an alias. Prepared by Examples 1 to 3, so not commercially available. Charged as 0.004mol, recorded as 4.0 mmol, which is a unit change only. | Acid component of the coupling. This section prints only the abbreviation NMSBA, on the title line and in the procedure, and never spells the name out; the document-wide canonical name is used as the identifier so the record joins the same molecule extracted from the other sections, and the abbreviation and formula number are kept as aliases. Prepared by Examples 1 to 4 of this patent, so not commercially available. mmol is the printed 0.10mol as mmol. | Merged from [0015], [0016] and steps (i) and (ii) of [0017]: the product of the oxidation and the acylating reactant of the esterification, recorded once with role product and the second use noted. All four spellings in this section are ph with a space. SMILES alias is the product of the scheme spans at lines 111 and 128 and the first reactant of those at 115 and 130. [0016] and step (ii) name it by the abbreviation NMSBA alone, without repeating the full name.",
+    "notes": "Product of the oxidation in all five cited routes and, in [005], the substrate of the conversion to the acid chloride; role recorded as product, the downstream use noted here rather than split into a second record. One record merged from three spellings, 'methylsulphonyl benzoic acid' in [005], 'methylsulfonyl benzoic acid' in [006] and [007], 'methylsulfonylbenzoic acid' in [008] and [009], plus the abbreviation NMSBA seven times. The spaced and closed 'sulfonyl' forms tie at two each in this section, so its own counts pick no winner. [007] also prints the plural class 'methyl sulfonyl benzoic acids', with a space between methyl and sulfonyl; that is the substrate class of US5424481 and not this molecule, so it is recorded here and not as an alias. SMILES alias is the product of the scheme spans at lines 66, 75, 79, 83 and 90. The identifier is the document-wide canonical spelling, the 'sulphonyl' spaced form, and not this section's most frequent one; both spellings are printed here and the other is kept as an alias. | One record for the product of step (i) in claims 1 and 10, the target of claim 5 and 6, and the reactant of step (ii) in claims 1, 3, 7 and 10; role product is the role of the step that makes it. Spelled with ph (methylsulphonyl) on all five occurrences in this section, never with f, and the abbreviation NMSBA carries it in claims 3 and 10. SMILES alias from the scheme spans, where it is both a product and a reactant. | Product of step (i) and reactant of step (ii); one record merged from its mentions in [0031], [0035], [0036], [0037], [0038], [0039] and [0040]. Spelled with ph on every occurrence in this section, which is the document-wide preferred form, while the toluene is spelled with f; that split is the patent's own and is not normalised. SMILES alias from the oxidation scheme spans at lines 181, 196, 205 and 222, which draw it as the product, and from the esterification spans at 200, 207 and 224, which draw it as a reactant. [0040] calls it an outlined intermediate that may be isolated if desired or carried forward without isolation, and [0041] adds that it need not be isolated at all. No quantity is attached to it anywhere in this section; the only conditions stated for step (i) are reflux and a time range, which belong to the step and not to this compound. | Product of the single step in this section. Named in the title as the 'sulphonyl' spelling and by the abbreviation NMSBA three times in the procedure; one record, the abbreviation kept as an alias. SMILES alias is the product of the scheme span at line 256, which A0 assigned to this section although build_enriched.py printed it above the EXAMPLES heading. Purity, yield and melting point come from the unmarked line 266, which belongs to paragraph [0047] above it. Printed purity is '> 95%', so purity_pct is the stated bound and not a measured value. | Product of the single step in this section, the same oxidation as Example 1 at 5.0g scale. Named in the title line 270 with the 'sulphonyl' spelling and twice by the abbreviation NMSBA in the procedure; one record, the abbreviation kept as an alias. This section prints no scheme, so no SMILES alias is added. Purity, yield and melting point come from the unmarked line 279, which belongs to paragraph [0048] whose text runs from line 272 to line 277. Printed purity is '> 92%', so purity_pct is the stated lower bound and not a measurement; the inequality is kept verbatim in analytics raw_text. | Product of the single oxidation step in this section. Named in full in the title line with the 'sulphonyl' spelling and by the abbreviation NMSBA in the procedure; one record, the abbreviation kept as an alias. Purity, yield and melting point come from the unmarked line 289, which belongs to paragraph [0049] above it. Printed purity is '>95%' with no space, so purity_pct is the stated bound and not a measured value. No SMILES alias: the only IMAGE_EXTRACT span inside this section, at line 287, is Example 4's scheme (NMSBA plus 1,3-cyclohexanedione to the enol ester); the vision read of p16 places that drawing between the Example 4 title line and paragraph [0050], and build_enriched.py anchored it on between_markers[0] = [0049]. Nothing in this section draws this compound. The purity and melting point reported here are the same figures Example 1 reports, differing only in yield; the vision pass flagged that as a possible copy-paste in the patent and did not resolve it, and it is not resolved here. | Carboxylic acid partner of the coupling. This section prints only the abbreviation NMSBA, in the heading with its formula number and once in the charge; the identifier is the document-wide canonical spelling and the abbreviation and formula number are aliases. Not commercially available: Examples 1 to 3 of this document prepare it from NMST. Charged 27g, 0.11mol, recorded as stated with mol converted to mmol. | This section prints only the abbreviation NMSBA, in the title with its formula number and in the procedure with its charge; the identifier is the document-wide spelled-out form, which this section never prints, and the abbreviation is kept as an alias. Prepared by Examples 1 to 3, so not commercially available. Charged as 0.004mol, recorded as 4.0 mmol, which is a unit change only. | Acid component of the coupling. This section prints only the abbreviation NMSBA, on the title line and in the procedure, and never spells the name out; the document-wide canonical name is used as the identifier so the record joins the same molecule extracted from the other sections, and the abbreviation and formula number are kept as aliases. Prepared by Examples 1 to 4 of this patent, so not commercially available. mmol is the printed 0.10mol as mmol. | Merged from [0015], [0016] and steps (i) and (ii) of [0017]: the product of the oxidation and the acylating reactant of the esterification, recorded once with role product and the second use noted. All four spellings in this section are ph with a space. SMILES alias is the product of the scheme spans at lines 111 and 128 and the first reactant of those at 115 and 130. [0016] and step (ii) name it by the abbreviation NMSBA alone, without repeating the full name. [FIX C-006] The patent charges this compound 3 times, once per worked example, and the single-valued quantity block could hold only one of them: it previously held nothing, so all of them were absent. quantities_by_section now records every charge with its example and line number, and quantity is set null so no consumer reads one arbitrary example's number as the compound's charge. Same defect family as SINGLE-VALUED-FIELDS.md. Note that reactions.json already carried every one of these charges correctly on its own per-example records, so nothing was lost from the gold as a whole; it was compounds.json alone that misrepresented. [FIX C-001] The patent isolates and measures this compound 3 time(s). The single-valued melting_point, appearance, color and physical_form fields could each hold only one, and purity_pct held 95 with the '>' dropped, which asserted an assayed equality the patent never claims. Now: melting_points, appearances and yields_by_section record every measurement with its example and line; analytics carries one entry per batch with value null and value_min holding the printed lower bound; purity_pct is null. purity_pct_min is ALSO null here, deliberately: the three batches were measured at >95%, >92% and >95%, so there is no single bound for the compound and inventing one would mean either picking a batch or asserting the lowest as a property of the substance. The three bounds live in analytics, one entry per batch, each tagged with its example and line. The three melting points differ, 210-214, 207-210 and 210-214, so keeping one discarded Example 2's. melting_point, appearance, color and physical_form remain populated with Example 1's values for backward compatibility, and are NOT the whole picture: read melting_points and appearances for that. [CORRECTION] The appearance source_line values first written on this record pointed at each Example's ANALYTICAL line, where the melting point and purity are printed. The appearance is printed one line earlier, at the end of the procedure paragraph, so every appearance source_line was moved to the procedure line and each phrase re-verified against it. Caught by a verbatim check rather than by review. [FIX C-008] role and section_label are each ONE string, but the patent gives this compound 10 sections and TWO DIFFERENT ROLES, product and reactant. role held 'product' and section_label held 'Summary of the Invention', which is one arbitrary location out of 10. That made the record assert the wrong thing: it is the PRODUCT of one step and the REACTANT of the next, and only one of those was recorded. roles_by_section now records every role with its section and line, and sections lists them all. The single-valued fields are left as they were for backward compatibility and are NOT the whole picture. This is item 3 of pipeline/contracts/SINGLE-VALUED-FIELDS.md, where the same defect is described as the location field being false while the line-level provenance is correct. [CORRECTION] The Example 2 entry in roles_by_section cited line 272, which is where paragraph [0048] begins and is CUT OFF by the p15/p16 page boundary at the words 'This mixture was'. NMSBA is not named there; it appears at line 277, the unmarked continuation where the paragraph resumes. Citation moved to 277 and re-verified. Caught by checking that every cited line actually mentions the compound, not by review.",
     "id": "WO2022024094A1_2-nitro-4-methylsulphonyl benzoic acid",
-    "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4"
+    "compound_uuid": "53aed082-f153-58b6-9b40-d3d52f7278b4",
+    "quantities_by_section": [
+      {
+        "section_label": "Example 4",
+        "source_line": 295,
+        "volume_ml": null,
+        "mass_g": 27.0,
+        "mmol": 110.0,
+        "role_in_that_example": "product"
+      },
+      {
+        "section_label": "Example 5",
+        "source_line": 308,
+        "volume_ml": null,
+        "mass_g": 1.0,
+        "mmol": 4.0,
+        "role_in_that_example": "product"
+      },
+      {
+        "section_label": "Example 6",
+        "source_line": 316,
+        "volume_ml": null,
+        "mass_g": 25.0,
+        "mmol": 100.0,
+        "role_in_that_example": "product"
+      }
+    ],
+    "melting_points": [
+      {
+        "section_label": "Example 1",
+        "source_line": 266,
+        "min_c": 210.0,
+        "max_c": 214.0,
+        "range_text": "Melting point: 210-214°C"
+      },
+      {
+        "section_label": "Example 2",
+        "source_line": 279,
+        "min_c": 207.0,
+        "max_c": 210.0,
+        "range_text": "Melting point: 207-210°C"
+      },
+      {
+        "section_label": "Example 3",
+        "source_line": 289,
+        "min_c": 210.0,
+        "max_c": 214.0,
+        "range_text": "Melting point: 210-214°C"
+      }
+    ],
+    "appearances": [
+      {
+        "section_label": "Example 1",
+        "source_line": 264,
+        "appearance": "light yellow solid",
+        "color": "light yellow",
+        "physical_form": "solid"
+      },
+      {
+        "section_label": "Example 2",
+        "source_line": 277,
+        "appearance": "light yellow solid",
+        "color": "light yellow",
+        "physical_form": "solid"
+      },
+      {
+        "section_label": "Example 3",
+        "source_line": 285,
+        "appearance": "light yellow solid",
+        "color": "light yellow",
+        "physical_form": "solid"
+      }
+    ],
+    "purity_pct_min": null,
+    "purity_pct_max": null,
+    "yields_by_section": [
+      {
+        "section_label": "Example 1",
+        "source_line": 266,
+        "yield_pct": 70.0
+      },
+      {
+        "section_label": "Example 2",
+        "source_line": 279,
+        "yield_pct": 67.0
+      },
+      {
+        "section_label": "Example 3",
+        "source_line": 289,
+        "yield_pct": 68.0
+      }
+    ],
+    "roles_by_section": [
+      {
+        "section_label": "Background of the Invention",
+        "role": "product",
+        "source_line": 64
+      },
+      {
+        "section_label": "Summary of the Invention",
+        "role": "product",
+        "source_line": 109
+      },
+      {
+        "section_label": "Detailed Description of the Invention",
+        "role": "product",
+        "source_line": 179
+      },
+      {
+        "section_label": "Claims",
+        "role": "product",
+        "source_line": 348
+      },
+      {
+        "section_label": "Example 1",
+        "role": "product",
+        "source_line": 264
+      },
+      {
+        "section_label": "Example 2",
+        "role": "product",
+        "source_line": 277
+      },
+      {
+        "section_label": "Example 3",
+        "role": "product",
+        "source_line": 285
+      },
+      {
+        "section_label": "Example 4",
+        "role": "reactant",
+        "source_line": 295
+      },
+      {
+        "section_label": "Example 5",
+        "role": "reactant",
+        "source_line": 308
+      },
+      {
+        "section_label": "Example 6",
+        "role": "reactant",
+        "source_line": 316
+      },
+      {
+        "section_label": "Summary of the Invention",
+        "role": "reactant",
+        "source_line": 113
+      },
+      {
+        "section_label": "Claims",
+        "role": "reactant",
+        "source_line": 367
+      }
+    ],
+    "sections": [
+      "Background of the Invention",
+      "Claims",
+      "Detailed Description of the Invention",
+      "Example 1",
+      "Example 2",
+      "Example 3",
+      "Example 4",
+      "Example 5",
+      "Example 6",
+      "Summary of the Invention"
+    ]
   },
   {
     "patent_id": "WO2022024094A1",
@@ -222,45 +542,6 @@
   },
   {
     "patent_id": "WO2022024094A1",
-    "identifier": "cyclohexanedione",
-    "identifier_type": "other",
-    "aliases": [
-      "O=C1CCCC(=O)C1"
-    ],
-    "resolved": false,
-    "unresolved_reference": true,
-    "section_label": "Background of the Invention",
-    "section_type": "background",
-    "is_section_product": false,
-    "commercially_available": true,
-    "role": "reactant",
-    "quantity": {
-      "mass_g": null,
-      "volume_ml": null,
-      "mmol": null,
-      "equivalents": null,
-      "yield_pct": null
-    },
-    "ms_mz": null,
-    "nmr": null,
-    "melting_point": null,
-    "appearance": null,
-    "color": null,
-    "physical_form": null,
-    "analytics": null,
-    "purity_pct": null,
-    "purity_method": null,
-    "tags": [
-      "compound_class:starting_material",
-      "chemical_family:cyclohexanedione",
-      "functional_group:ketone"
-    ],
-    "notes": "[005] prints 'cyclohexanedione' with no locant, which does not say which dione, so the name is kept verbatim and left unresolved. The adjacent scheme span at line 68 draws the 1,3-dione and its SMILES is kept as an alias, so both readings are on the record: the prose omits the locant, the drawing fixes it. Nothing in this section states the locant in words, so the conflict is not resolved here. The 1,3-dione does appear inside the mesotrione name in [003], but as part of a name, not as a reagent mention.",
-    "id": "WO2022024094A1_cyclohexanedione",
-    "compound_uuid": "d1cdcfc7-7b02-5ffd-8bf2-f373a4a2b6f6"
-  },
-  {
-    "patent_id": "WO2022024094A1",
     "identifier": "enol ester of formula (II)",
     "identifier_type": "local_label",
     "aliases": [
@@ -298,20 +579,39 @@
     "analytics": [
       {
         "method": "hplc",
-        "value": 85.0,
+        "value": null,
+        "value_min": 85.0,
+        "value_max": null,
         "unit": "%",
-        "conditions": "purity printed as a lower bound",
+        "section_label": "Example 4",
+        "source_line": 302,
+        "conditions": "purity printed as a LOWER BOUND; value is null and value_min carries the bound so it is never read as an assayed equality",
         "raw_text": "HPLC purity >85%"
       },
       {
         "method": "hplc",
-        "value": 85.0,
+        "value": null,
+        "value_min": 85.0,
+        "value_max": null,
         "unit": "%",
-        "conditions": "purity printed as a lower bound",
+        "section_label": "Example 5",
+        "source_line": 310,
+        "conditions": "purity printed as a LOWER BOUND; value is null and value_min carries the bound so it is never read as an assayed equality",
+        "raw_text": "HPLC purity > 85%"
+      },
+      {
+        "method": "hplc",
+        "value": null,
+        "value_min": 85.0,
+        "value_max": null,
+        "unit": "%",
+        "section_label": "Example 6",
+        "source_line": 318,
+        "conditions": "purity printed as a LOWER BOUND; value is null and value_min carries the bound so it is never read as an assayed equality",
         "raw_text": "HPLC purity > 85%"
       }
     ],
-    "purity_pct": 85.0,
+    "purity_pct": null,
     "purity_method": "hplc",
     "tags": [
       "compound_class:intermediate",
@@ -321,9 +621,151 @@
       "functional_group:sulfone",
       "functional_group:nitro"
     ],
-    "notes": "[005] names it only as 'an enol ester', a compound class and not a name, so it is kept as printed, unresolved. The scheme span at line 68 encodes the structure as the step 1 product and the step 2 reactant, and that SMILES is kept as an alias; it is the only thing in this section that fixes which enol ester is meant. The identifier is the document-wide canonical form, which six of the seven sections recording this compound use; this section prints only the bare 'enol ester', kept as an alias, and prints no formula number for it at all. resolved stays false on this section's own evidence, so the two decisions are independent: the canonical key is a document-wide choice, the resolution is a statement about what lines 51 to 97 support. | The claims never give this compound a chemical name, only the class term plus its formula number, so the identifier is the label as printed; claims 8 and 9 print \"an enol ester\" bare. Resolved because the scheme spans on these same pages draw formula (II) as one structure, C14H13NO7S. Product of step (ii) in claims 1 and 10 and of claim 7; reactant of step (iii) in claims 1 and 4. Isomeric with mesotrione and a different compound. | The section names it only by its compound class plus its formula number and never gives it a chemical name; resolved because the scheme spans at lines 200, 207 and 224 draw formula (II) as one structure. Product of step (ii) in [0036], [0037] and [0038], reactant of step (iii) in [0039], [0042] and [0043], and named as an isolable intermediate in [0040] and [0041]. [0037] states floors rather than measurements, 'in high yields, e.g. at least 65%, with a purity of at least 85%', for a class of embodiments and not for any run, so quantity.yield_pct, purity_pct and purity_method are left null and the wording is recorded here instead. [0037] prints 'formula(III)with' and '1, 3-cyclohexanedionein' with words run together. Isomeric with mesotrione, both C14H13NO7S in the spans, and a different compound. | Product of the single step in this section, step (ii) of the invention: NMSBA plus 1,3-cyclohexanedione with DCC and no acid chloride. The section never gives it a chemical name, only the class term plus its formula number, so the identifier is the label as the heading prints it and the bare prose form is an alias. Resolved because the heading names both parents and the procedure charges only those two plus the coupling reagent, which fixes one structure. NO structure span falls in lines 291-303: the scheme drawing for this step is printed at line 287, inside Example 3's range, so no SMILES alias is recorded here and none was imported from it. Yield, purity and melting point come from the unmarked line 302, which belongs to paragraph [0050] above it. Printed purity is '>85%', so purity_pct is the stated bound and not a measured value. Isomeric with mesotrione of formula (I) and a different compound. | Product of the single esterification step in this section. Merged from the title line, which prints \"enol ester of formula (II)\", and the procedure, which prints \"enol ester\" bare; the section gives it no chemical name, so the formula-number label is the identifier, as in the Summary. No IMAGE_EXTRACT span falls inside lines 304-311, so no SMILES alias is recorded here even though the same compound is drawn elsewhere in the document. Yield, HPLC purity and melting point come from the unmarked line 310, which belongs to paragraph [0051] above it. Printed purity is \"> 85%\", so purity_pct is the stated bound and not a measured value. Melting point is printed without a colon after \"Melting point\", unlike Examples 1 to 4. physical_form recorded as crystals because the text says crystalline; the full phrase is kept in appearance. Isomeric with mesotrione and a different compound. | Product of the single step in this section, step (ii) of the invention, the same esterification as Example 5 at 25g rather than 1.0g scale and isolated by filtration to a wet cake instead of by aqueous quench. The section never gives the compound a chemical name, only the class term plus its formula number, so the identifier is the label as printed on the title line 314; 'crude enol ester' and 'pure enol ester' are the same material at two points of the workup and are kept as aliases, not as separate records. Resolved on the formula number, which the document uses for one specific compound; this section prints no scheme, so nothing inside it draws the structure and no SMILES alias is added. Purity, yield and melting point come from the unmarked line 318, which belongs to paragraph [0052] on line 316. Printed purity is '> 85%', so purity_pct is the stated lower bound and not a measurement; the inequality is kept verbatim in analytics raw_text. Printed yield is 66%. Recomputing 22.8g against the theoretical from the 0.10mol charge gives about 67%, one point higher; the printed 66% is recorded as it stands and is not corrected, and the 67 is a recomputation that appears nowhere in the patent. | Named in the title line 322 as 'enol ester of formula (II)' and in the procedure as 'enol ester'; one record. Prepared by Examples 3 to 6 of this document, so not commercially available here. SMILES alias is the reactant of the scheme span at line 327; it is an isomer of mesotrione, not the same compound. The span draws a completely bare arrow (conditions is an empty list), so the prose at line 329 is the only source in the document for this step's reagents and conditions. | Merged from [0016], where it is named three times, and steps (ii) and (iii) of [0017]. The prose never gives it a chemical name, only the class \"an enol ester\" bound to formula (II), so the formula-number label is the identifier. SMILES alias is the product of the scheme spans at lines 115 and 130 and the reactant of the one at 132, which is the only thing here that fixes which enol ester is meant. Isomeric with mesotrione, both C14H13NO7S in the spans, and a different compound.",
+    "notes": "[005] names it only as 'an enol ester', a compound class and not a name, so it is kept as printed, unresolved. The scheme span at line 68 encodes the structure as the step 1 product and the step 2 reactant, and that SMILES is kept as an alias; it is the only thing in this section that fixes which enol ester is meant. The identifier is the document-wide canonical form, which six of the seven sections recording this compound use; this section prints only the bare 'enol ester', kept as an alias, and prints no formula number for it at all. resolved stays false on this section's own evidence, so the two decisions are independent: the canonical key is a document-wide choice, the resolution is a statement about what lines 51 to 97 support. | The claims never give this compound a chemical name, only the class term plus its formula number, so the identifier is the label as printed; claims 8 and 9 print \"an enol ester\" bare. Resolved because the scheme spans on these same pages draw formula (II) as one structure, C14H13NO7S. Product of step (ii) in claims 1 and 10 and of claim 7; reactant of step (iii) in claims 1 and 4. Isomeric with mesotrione and a different compound. | The section names it only by its compound class plus its formula number and never gives it a chemical name; resolved because the scheme spans at lines 200, 207 and 224 draw formula (II) as one structure. Product of step (ii) in [0036], [0037] and [0038], reactant of step (iii) in [0039], [0042] and [0043], and named as an isolable intermediate in [0040] and [0041]. [0037] states floors rather than measurements, 'in high yields, e.g. at least 65%, with a purity of at least 85%', for a class of embodiments and not for any run, so quantity.yield_pct, purity_pct and purity_method are left null and the wording is recorded here instead. [0037] prints 'formula(III)with' and '1, 3-cyclohexanedionein' with words run together. Isomeric with mesotrione, both C14H13NO7S in the spans, and a different compound. | Product of the single step in this section, step (ii) of the invention: NMSBA plus 1,3-cyclohexanedione with DCC and no acid chloride. The section never gives it a chemical name, only the class term plus its formula number, so the identifier is the label as the heading prints it and the bare prose form is an alias. Resolved because the heading names both parents and the procedure charges only those two plus the coupling reagent, which fixes one structure. NO structure span falls in lines 291-303: the scheme drawing for this step is printed at line 287, inside Example 3's range, so no SMILES alias is recorded here and none was imported from it. Yield, purity and melting point come from the unmarked line 302, which belongs to paragraph [0050] above it. Printed purity is '>85%', so purity_pct is the stated bound and not a measured value. Isomeric with mesotrione of formula (I) and a different compound. | Product of the single esterification step in this section. Merged from the title line, which prints \"enol ester of formula (II)\", and the procedure, which prints \"enol ester\" bare; the section gives it no chemical name, so the formula-number label is the identifier, as in the Summary. No IMAGE_EXTRACT span falls inside lines 304-311, so no SMILES alias is recorded here even though the same compound is drawn elsewhere in the document. Yield, HPLC purity and melting point come from the unmarked line 310, which belongs to paragraph [0051] above it. Printed purity is \"> 85%\", so purity_pct is the stated bound and not a measured value. Melting point is printed without a colon after \"Melting point\", unlike Examples 1 to 4. physical_form recorded as crystals because the text says crystalline; the full phrase is kept in appearance. Isomeric with mesotrione and a different compound. | Product of the single step in this section, step (ii) of the invention, the same esterification as Example 5 at 25g rather than 1.0g scale and isolated by filtration to a wet cake instead of by aqueous quench. The section never gives the compound a chemical name, only the class term plus its formula number, so the identifier is the label as printed on the title line 314; 'crude enol ester' and 'pure enol ester' are the same material at two points of the workup and are kept as aliases, not as separate records. Resolved on the formula number, which the document uses for one specific compound; this section prints no scheme, so nothing inside it draws the structure and no SMILES alias is added. Purity, yield and melting point come from the unmarked line 318, which belongs to paragraph [0052] on line 316. Printed purity is '> 85%', so purity_pct is the stated lower bound and not a measurement; the inequality is kept verbatim in analytics raw_text. Printed yield is 66%. Recomputing 22.8g against the theoretical from the 0.10mol charge gives about 67%, one point higher; the printed 66% is recorded as it stands and is not corrected, and the 67 is a recomputation that appears nowhere in the patent. | Named in the title line 322 as 'enol ester of formula (II)' and in the procedure as 'enol ester'; one record. Prepared by Examples 3 to 6 of this document, so not commercially available here. SMILES alias is the reactant of the scheme span at line 327; it is an isomer of mesotrione, not the same compound. The span draws a completely bare arrow (conditions is an empty list), so the prose at line 329 is the only source in the document for this step's reagents and conditions. | Merged from [0016], where it is named three times, and steps (ii) and (iii) of [0017]. The prose never gives it a chemical name, only the class \"an enol ester\" bound to formula (II), so the formula-number label is the identifier. SMILES alias is the product of the scheme spans at lines 115 and 130 and the reactant of the one at 132, which is the only thing here that fixes which enol ester is meant. Isomeric with mesotrione, both C14H13NO7S in the spans, and a different compound. [FIX C-001] The patent isolates and measures this compound 3 time(s). The single-valued melting_point, appearance, color and physical_form fields could each hold only one, and purity_pct held 85 with the '>' dropped, which asserted an assayed equality the patent never claims. Now: melting_points, appearances and yields_by_section record every measurement with its example and line; analytics carries one entry per batch with value null and value_min holding the printed lower bound; purity_pct is null and purity_pct_min carries the bound. The three melting points differ, 158-163, 152-158 and 157-163, and so do the three appearances, white crystalline, off white crystalline and off white, so keeping one discarded two of each. melting_point, appearance, color and physical_form remain populated with Example 4's values for backward compatibility, and are NOT the whole picture: read melting_points and appearances for that. [CORRECTION] The appearance source_line values first written on this record pointed at each Example's ANALYTICAL line, where the melting point and purity are printed. The appearance is printed one line earlier, at the end of the procedure paragraph, so every appearance source_line was moved to the procedure line and each phrase re-verified against it. Caught by a verbatim check rather than by review. [FIX C-008] role and section_label are each ONE string, but the patent gives this compound 8 sections and TWO DIFFERENT ROLES, product and reactant. role held 'product' and section_label held 'Summary of the Invention', which is one arbitrary location out of 8. That made the record assert the wrong thing: it is the PRODUCT of one step and the REACTANT of the next, and only one of those was recorded. roles_by_section now records every role with its section and line, and sections lists them all. The single-valued fields are left as they were for backward compatibility and are NOT the whole picture. This is item 3 of pipeline/contracts/SINGLE-VALUED-FIELDS.md, where the same defect is described as the location field being false while the line-level provenance is correct.",
     "id": "WO2022024094A1_enol ester of formula (II)",
-    "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a"
+    "compound_uuid": "953df065-b231-54aa-88bd-f215b7ed668a",
+    "quantities_by_section": [
+      {
+        "section_label": "Example 7",
+        "source_line": 329,
+        "volume_ml": null,
+        "mass_g": 20.0,
+        "mmol": 60.0,
+        "role_in_that_example": "product"
+      }
+    ],
+    "melting_points": [
+      {
+        "section_label": "Example 4",
+        "source_line": 302,
+        "min_c": 158.0,
+        "max_c": 163.0,
+        "range_text": "Melting point: 158-163°C"
+      },
+      {
+        "section_label": "Example 5",
+        "source_line": 310,
+        "min_c": 152.0,
+        "max_c": 158.0,
+        "range_text": "Melting point 152-158°C"
+      },
+      {
+        "section_label": "Example 6",
+        "source_line": 318,
+        "min_c": 157.0,
+        "max_c": 163.0,
+        "range_text": "Melting point 157-163°C"
+      }
+    ],
+    "appearances": [
+      {
+        "section_label": "Example 4",
+        "source_line": 300,
+        "appearance": "white crystalline solid",
+        "color": "white",
+        "physical_form": "crystalline solid"
+      },
+      {
+        "section_label": "Example 5",
+        "source_line": 308,
+        "appearance": "off white crystalline solid",
+        "color": "off white",
+        "physical_form": "crystalline solid"
+      },
+      {
+        "section_label": "Example 6",
+        "source_line": 316,
+        "appearance": "off white colour solid",
+        "color": "off white",
+        "physical_form": "solid"
+      }
+    ],
+    "purity_pct_min": 85.0,
+    "purity_pct_max": null,
+    "yields_by_section": [
+      {
+        "section_label": "Example 4",
+        "source_line": 302,
+        "yield_pct": 68.0
+      },
+      {
+        "section_label": "Example 5",
+        "source_line": 310,
+        "yield_pct": 65.0
+      },
+      {
+        "section_label": "Example 6",
+        "source_line": 318,
+        "yield_pct": 66.0
+      }
+    ],
+    "roles_by_section": [
+      {
+        "section_label": "Background of the Invention",
+        "role": "product",
+        "source_line": 64
+      },
+      {
+        "section_label": "Summary of the Invention",
+        "role": "product",
+        "source_line": 113
+      },
+      {
+        "section_label": "Detailed Description of the Invention",
+        "role": "product",
+        "source_line": 198
+      },
+      {
+        "section_label": "Claims",
+        "role": "product",
+        "source_line": 367
+      },
+      {
+        "section_label": "Example 4",
+        "role": "product",
+        "source_line": 300
+      },
+      {
+        "section_label": "Example 5",
+        "role": "product",
+        "source_line": 308
+      },
+      {
+        "section_label": "Example 6",
+        "role": "product",
+        "source_line": 316
+      },
+      {
+        "section_label": "Summary of the Invention",
+        "role": "reactant",
+        "source_line": 126
+      },
+      {
+        "section_label": "Detailed Description of the Invention",
+        "role": "reactant",
+        "source_line": 245
+      },
+      {
+        "section_label": "Claims",
+        "role": "reactant",
+        "source_line": 361
+      },
+      {
+        "section_label": "Example 7",
+        "role": "reactant",
+        "source_line": 329
+      }
+    ],
+    "sections": [
+      "Background of the Invention",
+      "Claims",
+      "Detailed Description of the Invention",
+      "Example 4",
+      "Example 5",
+      "Example 6",
+      "Example 7",
+      "Summary of the Invention"
+    ]
   },
   {
     "patent_id": "WO2022024094A1",
@@ -367,7 +809,9 @@
     "patent_id": "WO2022024094A1",
     "identifier": "Sodium acetate",
     "identifier_type": "iupac",
-    "aliases": [],
+    "aliases": [
+      "acetate ion"
+    ],
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Background of the Invention",
@@ -394,7 +838,7 @@
     "tags": [
       "compound_class:reagent"
     ],
-    "notes": "Drawing only: named just on the arrow of the scheme span at line 75, in title case, which is why the identifier is capitalised. The prose of [006] names no salt, only 'acetate ion'; the drawing supplies the sodium counter ion. Both readings kept: 'acetate ion' is not recorded as a compound of its own and is not folded in as an alias, because the prose does not name this salt and the drawing does not print the ion.",
+    "notes": "Drawing only: named just on the arrow of the scheme span at line 75, in title case, which is why the identifier is capitalised. The prose of [006] names no salt, only 'acetate ion'; the drawing supplies the sodium counter ion. Both readings kept: 'acetate ion' is not recorded as a compound of its own and is not folded in as an alias, because the prose does not name this salt and the drawing does not print the ion. [FIX F-007, reactions pass] 'acetate ion' added as an alias. The prose at line 70 says the oxidation of US 5,591,890 is carried out 'in the presence of acetic acid and acetate ion' while the scheme at line 75 writes 'Sodium acetate'. Sodium acetate is a source of acetate ion, so the drawing is more specific than the prose rather than contradicting it, and both terms now join to one compound.",
     "id": "WO2022024094A1_Sodium acetate",
     "compound_uuid": "74ab20e4-1e8b-5792-b750-4a2db2e3cab7"
   },
@@ -587,46 +1031,12 @@
   },
   {
     "patent_id": "WO2022024094A1",
-    "identifier": "(CH3CH2 )3N",
-    "identifier_type": "formula",
-    "aliases": [],
-    "resolved": true,
-    "unresolved_reference": false,
-    "section_label": "Background of the Invention",
-    "section_type": "background",
-    "is_section_product": false,
-    "commercially_available": true,
-    "role": "base",
-    "quantity": {
-      "mass_g": null,
-      "volume_ml": null,
-      "mmol": null,
-      "equivalents": null,
-      "yield_pct": null
-    },
-    "ms_mz": null,
-    "nmr": null,
-    "melting_point": null,
-    "appearance": null,
-    "color": null,
-    "physical_form": null,
-    "analytics": null,
-    "purity_pct": null,
-    "purity_method": null,
-    "tags": [
-      "compound_class:base"
-    ],
-    "notes": "Drawing only. Printed as a condition on the arrow of the scheme span at line 68, with a space before the closing bracket, in the US 7,820,863 step (iii). The condensed formula is triethylamine; the identifier is left as the printed string because the section never prints the name. The prose of [005] names no base for this step. The same arrow also prints 'Solvent', which names no compound and is deliberately not recorded.",
-    "id": "WO2022024094A1_(CH3CH2 )3N",
-    "compound_uuid": "a0cbab11-eb5d-57e8-85cd-f61645496f47"
-  },
-  {
-    "patent_id": "WO2022024094A1",
     "identifier": "1,3-cyclohexanedione",
     "identifier_type": "iupac",
     "aliases": [
+      "1, 3-cyclohexanedione",
       "O=C1CCCC(=O)C1",
-      "1, 3-cyclohexanedione"
+      "cyclohexanedione"
     ],
     "resolved": true,
     "unresolved_reference": false,
@@ -657,9 +1067,81 @@
       "functional_group:ketone",
       "compound_class:starting_material"
     ],
-    "notes": "Merged from claims 1(ii), 3, 7 and 10(ii). Printed with its locants on every occurrence in this section, with no comma-space variant and no bare \"cyclohexanedione\", so nothing here is left unresolved. SMILES alias from the NMSBA plus 1,3-cyclohexanedione scheme spans. | Co-reactant of step (ii), named in [0036], [0037], [0038] and [0039]. One record merged from the two spellings this section prints, with and without a space after the comma; both appear inside [0037], which prints '1, 3-cyclohexanedionein presence' in its first sentence and '1,3-cyclohexanedione' in its second. The comma spacing is orthography, not a different molecule. The locants are printed on every occurrence, so nothing here is left unresolved. SMILES alias from the esterification scheme spans at lines 200, 207 and 224. compound_class is reagent rather than starting_material because [0038] and [0041] name NMST as the starting material of the process. | Supplies the cyclohexenyl half of the enol ester. Printed with its locants and with no space before the bracket, '1,3-cyclohexanedione(12g, 0.11mol)', so nothing here is left unresolved and no comma-space variant appears in this section. | Printed here with a space after the comma, \"1, 3-cyclohexanedione\"; that spacing is orthographic and the spaced form is kept as an alias, not as a second record. The locants are printed, so nothing is inferred. Added second, to the mixture of NMSBA and DCC; the sentence that introduces it prints \"Tothismixture,\" set solid as one word, which is kept verbatim in provenance. | Enol component of the coupling. Printed once, as '1, 3-cyclohexanedione' with a space after the comma; the comma spacing is orthography and not a second compound, so the closed-up form already used elsewhere in this patent is the identifier and the spaced form as printed here is the alias. The locants are printed, so nothing is inferred about which dione. mmol is the printed 0.11mol as mmol; it is the only charge in this step that is not 0.10mol. No scheme in this section, so no SMILES alias. | Merged from [0016] at line 113 and step (ii) at line 124. Line 113 closes the comma up and line 124 prints \"1, 3-cyclohexanedione\" with a space after it; same reagent, kept as an alias. The locant is printed both times, so nothing needs inferring. SMILES alias is the second reactant of the scheme spans at lines 115 and 130.",
+    "notes": "Merged from claims 1(ii), 3, 7 and 10(ii). Printed with its locants on every occurrence in this section, with no comma-space variant and no bare \"cyclohexanedione\", so nothing here is left unresolved. SMILES alias from the NMSBA plus 1,3-cyclohexanedione scheme spans. | Co-reactant of step (ii), named in [0036], [0037], [0038] and [0039]. One record merged from the two spellings this section prints, with and without a space after the comma; both appear inside [0037], which prints '1, 3-cyclohexanedionein presence' in its first sentence and '1,3-cyclohexanedione' in its second. The comma spacing is orthography, not a different molecule. The locants are printed on every occurrence, so nothing here is left unresolved. SMILES alias from the esterification scheme spans at lines 200, 207 and 224. compound_class is reagent rather than starting_material because [0038] and [0041] name NMST as the starting material of the process. | Supplies the cyclohexenyl half of the enol ester. Printed with its locants and with no space before the bracket, '1,3-cyclohexanedione(12g, 0.11mol)', so nothing here is left unresolved and no comma-space variant appears in this section. | Printed here with a space after the comma, \"1, 3-cyclohexanedione\"; that spacing is orthographic and the spaced form is kept as an alias, not as a second record. The locants are printed, so nothing is inferred. Added second, to the mixture of NMSBA and DCC; the sentence that introduces it prints \"Tothismixture,\" set solid as one word, which is kept verbatim in provenance. | Enol component of the coupling. Printed once, as '1, 3-cyclohexanedione' with a space after the comma; the comma spacing is orthography and not a second compound, so the closed-up form already used elsewhere in this patent is the identifier and the spaced form as printed here is the alias. The locants are printed, so nothing is inferred about which dione. mmol is the printed 0.11mol as mmol; it is the only charge in this step that is not 0.10mol. No scheme in this section, so no SMILES alias. | Merged from [0016] at line 113 and step (ii) at line 124. Line 113 closes the comma up and line 124 prints \"1, 3-cyclohexanedione\" with a space after it; same reagent, kept as an alias. The locant is printed both times, so nothing needs inferring. SMILES alias is the second reactant of the scheme spans at lines 115 and 130. [FIX C-002, duplicate merged] The record 'cyclohexanedione' was a SEPARATE record for this same substance. The prose at line 64 writes 'cyclohexanedione' with no locants, which is ambiguous between the 1,2-, 1,3- and 1,4-isomers. The drawing at line 68 shows the 1,3-isomer, C6H8O2, SMILES O=C1CCCC(=O)C1, and BOTH records carried that identical SMILES, which is the proof they are one substance. Merged as an alias so the compound joins across sections. [FIX C-006] The patent charges this compound 3 times, once per worked example, and the single-valued quantity block could hold only one of them: it previously held nothing, so all of them were absent. quantities_by_section now records every charge with its example and line number, and quantity is set null so no consumer reads one arbitrary example's number as the compound's charge. Same defect family as SINGLE-VALUED-FIELDS.md. Note that reactions.json already carried every one of these charges correctly on its own per-example records, so nothing was lost from the gold as a whole; it was compounds.json alone that misrepresented. [FIX C-008] role and section_label are each ONE string, but the patent gives this compound 7 sections and one role. role held 'reactant' and section_label held 'Summary of the Invention', which is one arbitrary location out of 7. roles_by_section now records every role with its section and line, and sections lists them all. The single-valued fields are left as they were for backward compatibility and are NOT the whole picture. This is item 3 of pipeline/contracts/SINGLE-VALUED-FIELDS.md, where the same defect is described as the location field being false while the line-level provenance is correct.",
     "id": "WO2022024094A1_1,3-cyclohexanedione",
-    "compound_uuid": "0ecea114-f062-5e82-877e-0d7ddbca11ac"
+    "compound_uuid": "0ecea114-f062-5e82-877e-0d7ddbca11ac",
+    "quantities_by_section": [
+      {
+        "section_label": "Example 4",
+        "source_line": 295,
+        "volume_ml": null,
+        "mass_g": 12.0,
+        "mmol": 110.0,
+        "role_in_that_example": "reactant"
+      },
+      {
+        "section_label": "Example 5",
+        "source_line": 308,
+        "volume_ml": null,
+        "mass_g": 0.45,
+        "mmol": 4.0,
+        "role_in_that_example": "reactant"
+      },
+      {
+        "section_label": "Example 6",
+        "source_line": 316,
+        "volume_ml": null,
+        "mass_g": 12.0,
+        "mmol": 110.0,
+        "role_in_that_example": "reactant"
+      }
+    ],
+    "roles_by_section": [
+      {
+        "section_label": "Background of the Invention",
+        "role": "reactant",
+        "source_line": 64
+      },
+      {
+        "section_label": "Summary of the Invention",
+        "role": "reactant",
+        "source_line": 113
+      },
+      {
+        "section_label": "Detailed Description of the Invention",
+        "role": "reactant",
+        "source_line": 209
+      },
+      {
+        "section_label": "Claims",
+        "role": "reactant",
+        "source_line": 348
+      },
+      {
+        "section_label": "Example 4",
+        "role": "reactant",
+        "source_line": 295
+      },
+      {
+        "section_label": "Example 5",
+        "role": "reactant",
+        "source_line": 308
+      },
+      {
+        "section_label": "Example 6",
+        "role": "reactant",
+        "source_line": 316
+      }
+    ],
+    "sections": [
+      "Background of the Invention",
+      "Claims",
+      "Detailed Description of the Invention",
+      "Example 4",
+      "Example 5",
+      "Example 6",
+      "Summary of the Invention"
+    ]
   },
   {
     "patent_id": "WO2022024094A1",
@@ -689,16 +1171,90 @@
     "melting_point": null,
     "appearance": null,
     "color": null,
-    "physical_form": null,
+    "physical_form": "insoluble solid",
     "analytics": [],
     "purity_pct": null,
     "purity_method": null,
     "tags": [
       "compound_class:catalyst"
     ],
-    "notes": "Named as the catalyst in claims 1(i), 5 and 10(i). The prose name gives no oxidation state or stoichiometry; the condition text of the three oxidation scheme spans on these pages prints RuO2, which is the only evidence in this section that fixes the oxide, and it is kept as an alias rather than substituted for the printed name. | The catalyst of step (i), named in [0031], [0033], [0035], [0038] and [0039]. One record merged from four forms this section prints for one compound: 'ruthenium (IV) oxide' three times, 'RuO2' eight times, and 'ruthenium oxide' and 'ruthenium dioxide' once each in [0033]. The identifier is the form the Claims and the Examples also print, so the record joins theirs, and the oxidation-state form is kept as an alias so the (IV) reading is not lost. [0033] says it is recovered as an insoluble solid in substantially the same amount as initially and can be filtered off and reused without treatment; the same sentence prints '(for >50 conversion)' with no unit and no percent sign, which is kept as printed and not interpreted. The phrase 'the ruthenium catalyst' in [0033] and [0034] covers this oxide, its hydrate and the trichloride together and names no one compound, so it is not recorded. Ruthenium dioxide hydrate and ruthenium trichloride are separate records. | The prose names an oxidation state for neither the metal nor the oxide. The scheme span at line 256, inside this section, prints 'RuO2' in its conditions, which is the only thing in this section that fixes which ruthenium oxide is meant; kept as an alias and the prose spelling kept as the identifier. | The prose names an oxidation state for neither the metal nor the oxide, and this section prints no scheme, so nothing here fixes which ruthenium oxide is meant. Identifier kept as printed; the 'RuO2' alias recorded in Example 1 came from a drawing that is not in this section and is not imported. | The prose names an oxidation state for neither the metal nor the oxide, and this section contains no drawing of its own that prints one, so no formula alias is recorded here. | Named as the oxidation catalyst in [0015] at line 109 and in step (i) at line 122, both times as \"ruthenium (IV) oxide (RuO2)\", which states the oxidation state in the prose itself. The condition text of the two oxidation scheme spans at lines 111 and 128 prints \"Oxidant / RuO2\" and agrees. The identifier is the document-wide canonical form, which is the bare name; the parenthesised form this section actually prints is kept as an alias so the two are not split into separate compounds. The oxidant itself is never named in this section, only called \"an oxidant\", so it is not a record.",
+    "notes": "Named as the catalyst in claims 1(i), 5 and 10(i). The prose name gives no oxidation state or stoichiometry; the condition text of the three oxidation scheme spans on these pages prints RuO2, which is the only evidence in this section that fixes the oxide, and it is kept as an alias rather than substituted for the printed name. | The catalyst of step (i), named in [0031], [0033], [0035], [0038] and [0039]. One record merged from four forms this section prints for one compound: 'ruthenium (IV) oxide' three times, 'RuO2' eight times, and 'ruthenium oxide' and 'ruthenium dioxide' once each in [0033]. The identifier is the form the Claims and the Examples also print, so the record joins theirs, and the oxidation-state form is kept as an alias so the (IV) reading is not lost. [0033] says it is recovered as an insoluble solid in substantially the same amount as initially and can be filtered off and reused without treatment; the same sentence prints '(for >50 conversion)' with no unit and no percent sign, which is kept as printed and not interpreted. The phrase 'the ruthenium catalyst' in [0033] and [0034] covers this oxide, its hydrate and the trichloride together and names no one compound, so it is not recorded. Ruthenium dioxide hydrate and ruthenium trichloride are separate records. | The prose names an oxidation state for neither the metal nor the oxide. The scheme span at line 256, inside this section, prints 'RuO2' in its conditions, which is the only thing in this section that fixes which ruthenium oxide is meant; kept as an alias and the prose spelling kept as the identifier. | The prose names an oxidation state for neither the metal nor the oxide, and this section prints no scheme, so nothing here fixes which ruthenium oxide is meant. Identifier kept as printed; the 'RuO2' alias recorded in Example 1 came from a drawing that is not in this section and is not imported. | The prose names an oxidation state for neither the metal nor the oxide, and this section contains no drawing of its own that prints one, so no formula alias is recorded here. | Named as the oxidation catalyst in [0015] at line 109 and in step (i) at line 122, both times as \"ruthenium (IV) oxide (RuO2)\", which states the oxidation state in the prose itself. The condition text of the two oxidation scheme spans at lines 111 and 128 prints \"Oxidant / RuO2\" and agrees. The identifier is the document-wide canonical form, which is the bare name; the parenthesised form this section actually prints is kept as an alias so the two are not split into separate compounds. The oxidant itself is never named in this section, only called \"an oxidant\", so it is not a record. [FIX C-006] The patent charges this compound 3 times, once per worked example, and the single-valued quantity block could hold only one of them: it previously held nothing, so all of them were absent. quantities_by_section now records every charge with its example and line number, and quantity is set null so no consumer reads one arbitrary example's number as the compound's charge. Same defect family as SINGLE-VALUED-FIELDS.md. Note that reactions.json already carried every one of these charges correctly on its own per-example records, so nothing was lost from the gold as a whole; it was compounds.json alone that misrepresented. [FIX C-008] role and section_label are each ONE string, but the patent gives this compound 6 sections and one role. role held 'catalyst' and section_label held 'Summary of the Invention', which is one arbitrary location out of 6. roles_by_section now records every role with its section and line, and sections lists them all. The single-valued fields are left as they were for backward compatibility and are NOT the whole picture. This is item 3 of pipeline/contracts/SINGLE-VALUED-FIELDS.md, where the same defect is described as the location field being false while the line-level provenance is correct. [FIX C-009] physical_form was null although [0033] at line 185 states plainly that 'the ruthenium oxide is an insoluble solid'. Set to 'insoluble solid', the patent's own words, because the insolubility is the whole reason it can be filtered off and reused. The same line states the recovery and reuse and the only number in the passage, '(for >50 conversion)', none of which had a field; a recovery block now holds them. The patent prints '>50' with no per-cent sign, and per cent is the only sensible reading of a conversion figure, which is stated here rather than hidden. Note the printed moles in Examples 1 to 3 fit ANHYDROUS RuO2 at 133.07 g/mol, not the hydrate that the same paragraph calls preferred: 1.5 g gives 0.0113 mol against the printed 0.011, where the monohydrate would give 0.0099.",
     "id": "WO2022024094A1_ruthenium oxide",
-    "compound_uuid": "630a1ded-ea08-5190-a757-c19ca28012ab"
+    "compound_uuid": "630a1ded-ea08-5190-a757-c19ca28012ab",
+    "quantities_by_section": [
+      {
+        "section_label": "Example 1",
+        "source_line": 264,
+        "volume_ml": null,
+        "mass_g": 1.5,
+        "mmol": 11.0,
+        "role_in_that_example": "catalyst"
+      },
+      {
+        "section_label": "Example 2",
+        "source_line": 272,
+        "volume_ml": null,
+        "mass_g": 0.5,
+        "mmol": 4.0,
+        "role_in_that_example": "catalyst"
+      },
+      {
+        "section_label": "Example 3",
+        "source_line": 285,
+        "volume_ml": null,
+        "mass_g": 0.5,
+        "mmol": 4.0,
+        "role_in_that_example": "catalyst"
+      }
+    ],
+    "roles_by_section": [
+      {
+        "section_label": "Summary of the Invention",
+        "role": "catalyst",
+        "source_line": 109
+      },
+      {
+        "section_label": "Detailed Description of the Invention",
+        "role": "catalyst",
+        "source_line": 179
+      },
+      {
+        "section_label": "Claims",
+        "role": "catalyst",
+        "source_line": 348
+      },
+      {
+        "section_label": "Example 1",
+        "role": "catalyst",
+        "source_line": 264
+      },
+      {
+        "section_label": "Example 2",
+        "role": "catalyst",
+        "source_line": 272
+      },
+      {
+        "section_label": "Example 3",
+        "role": "catalyst",
+        "source_line": 285
+      }
+    ],
+    "sections": [
+      "Claims",
+      "Detailed Description of the Invention",
+      "Example 1",
+      "Example 2",
+      "Example 3",
+      "Summary of the Invention"
+    ],
+    "recovery": {
+      "recovery_method": "filtration",
+      "reuse": "reused in another cycle, even without treatment",
+      "conversion_pct_min": 50.0,
+      "conversion_pct_max": null,
+      "source_line": 185,
+      "text": "the ruthenium oxide is an insoluble solid present in substantially the same amount as initially so it can be filtered off and reused (for >50 conversion), even without treatment, in another cycle"
+    }
   },
   {
     "patent_id": "WO2022024094A1",
@@ -716,8 +1272,8 @@
     "role": "oxidant",
     "quantity": {
       "mass_g": null,
-      "volume_ml": 150.0,
-      "mmol": 222.0,
+      "volume_ml": null,
+      "mmol": null,
       "equivalents": null,
       "yield_pct": null
     },
@@ -733,9 +1289,73 @@
     "tags": [
       "compound_class:reagent"
     ],
-    "notes": "Named as the oxidant in claim 2, which depends on claim 1, and again in claim 6, which depends on claim 5. Claims 1, 5 and 10 say only \"an oxidant\" and the scheme spans only \"Oxidant\", neither of which names a compound, so no record is made for those. Claim 2 prints \"sodium hypochloritein presence\" with no space before \"in\". | [0035] names it as the oxidant of step (i), 'cheap and readily available', and again in the mixture that is heated to reflux. The arrow of the scheme span at line 196 prints 'NaOCl / RuO2', the only scheme in this section that names the oxidant; the other three oxidation spans, at 181, 205 and 222, print only 'Oxidant'. It is one instance of the alkali metal hypochlorite class of [0032], which is recorded separately and not merged with it. No charge, volume or ratio is given here, only reflux and a time range. [0035] prints \"as an oxidant.In certain embodiments\" with no space after the full stop. | Charged as a solution, so the text gives a volume and a mole figure and no mass. The scheme span at line 256 labels this reagent only as 'Oxidant'; the prose names it. Recorded from the prose, with the drawing's generic label left unresolved rather than merged into a name the drawing does not print. | Charged as a solution, so the text gives a volume and a mole figure and no mass. | Charged as a solution, so the text gives a volume and a mole figure and no mass. Volume printed '150ml' in lower case, recorded as a number.",
+    "notes": "Named as the oxidant in claim 2, which depends on claim 1, and again in claim 6, which depends on claim 5. Claims 1, 5 and 10 say only \"an oxidant\" and the scheme spans only \"Oxidant\", neither of which names a compound, so no record is made for those. Claim 2 prints \"sodium hypochloritein presence\" with no space before \"in\". | [0035] names it as the oxidant of step (i), 'cheap and readily available', and again in the mixture that is heated to reflux. The arrow of the scheme span at line 196 prints 'NaOCl / RuO2', the only scheme in this section that names the oxidant; the other three oxidation spans, at 181, 205 and 222, print only 'Oxidant'. It is one instance of the alkali metal hypochlorite class of [0032], which is recorded separately and not merged with it. No charge, volume or ratio is given here, only reflux and a time range. [0035] prints \"as an oxidant.In certain embodiments\" with no space after the full stop. | Charged as a solution, so the text gives a volume and a mole figure and no mass. The scheme span at line 256 labels this reagent only as 'Oxidant'; the prose names it. Recorded from the prose, with the drawing's generic label left unresolved rather than merged into a name the drawing does not print. | Charged as a solution, so the text gives a volume and a mole figure and no mass. | Charged as a solution, so the text gives a volume and a mole figure and no mass. Volume printed '150ml' in lower case, recorded as a number. [FIX C-006] The patent charges this compound 3 times, once per worked example, and the single-valued quantity block could hold only one of them: it previously held volume_ml=150, mmol=222, which is Example 3's charge alone, so the other 2 were silently dropped. quantities_by_section now records every charge with its example and line number, and quantity is set null so no consumer reads one arbitrary example's number as the compound's charge. Same defect family as SINGLE-VALUED-FIELDS.md. Note that reactions.json already carried every one of these charges correctly on its own per-example records, so nothing was lost from the gold as a whole; it was compounds.json alone that misrepresented. [FIX C-008] role and section_label are each ONE string, but the patent gives this compound 5 sections and one role. role held 'oxidant' and section_label held 'Example 3', which is one arbitrary location out of 5. roles_by_section now records every role with its section and line, and sections lists them all. The single-valued fields are left as they were for backward compatibility and are NOT the whole picture. This is item 3 of pipeline/contracts/SINGLE-VALUED-FIELDS.md, where the same defect is described as the location field being false while the line-level provenance is correct. [FIX C-009] commercially_available was already true, but the patent's actual words at line 194, describing it as 'cheap and readily available', are a stated characterisation and not an inference. Recorded verbatim in commercial_note. This matters because it is the patent's argument for the invention: replacing the nitric-acid oxidations of the prior art with a cheap hypochlorite.",
     "id": "WO2022024094A1_sodium hypochlorite",
-    "compound_uuid": "531c0948-fed1-5e6e-984f-0278b892625d"
+    "compound_uuid": "531c0948-fed1-5e6e-984f-0278b892625d",
+    "quantities_by_section": [
+      {
+        "section_label": "Example 1",
+        "source_line": 264,
+        "volume_ml": 500.0,
+        "mass_g": null,
+        "mmol": 745.0,
+        "role_in_that_example": "oxidant"
+      },
+      {
+        "section_label": "Example 2",
+        "source_line": 272,
+        "volume_ml": 100.0,
+        "mass_g": null,
+        "mmol": 149.0,
+        "role_in_that_example": "oxidant"
+      },
+      {
+        "section_label": "Example 3",
+        "source_line": 285,
+        "volume_ml": 150.0,
+        "mass_g": null,
+        "mmol": 222.0,
+        "role_in_that_example": "oxidant"
+      }
+    ],
+    "roles_by_section": [
+      {
+        "section_label": "Detailed Description of the Invention",
+        "role": "oxidant",
+        "source_line": 194
+      },
+      {
+        "section_label": "Claims",
+        "role": "oxidant",
+        "source_line": 350
+      },
+      {
+        "section_label": "Example 1",
+        "role": "oxidant",
+        "source_line": 264
+      },
+      {
+        "section_label": "Example 2",
+        "role": "oxidant",
+        "source_line": 272
+      },
+      {
+        "section_label": "Example 3",
+        "role": "oxidant",
+        "source_line": 285
+      }
+    ],
+    "sections": [
+      "Claims",
+      "Detailed Description of the Invention",
+      "Example 1",
+      "Example 2",
+      "Example 3"
+    ],
+    "commercial_note": {
+      "text": "cheap and readily available",
+      "source_line": 194
+    }
   },
   {
     "patent_id": "WO2022024094A1",
@@ -756,9 +1376,9 @@
     "commercially_available": true,
     "role": "reagent",
     "quantity": {
-      "mass_g": 21.0,
+      "mass_g": null,
       "volume_ml": null,
-      "mmol": 100.0,
+      "mmol": null,
       "equivalents": null,
       "yield_pct": null
     },
@@ -776,9 +1396,69 @@
       "chemical_family:carbodiimide",
       "functional_group:carbodiimide"
     ],
-    "notes": "Made essential twice: in claim 3, for the coupling as a dependent of claim 1, and in claim 8, for the same coupling as a dependent of the standalone claim 7. That redundancy is the patent's own and is not collapsed. Both occurrences in this section print a space after the first comma and U+2032 PRIME; that printed form is kept as the alias, and the identifier is the closed-up U+2019 form that Examples 4, 5 and 6 key on, so the one reagent joins across sections. The document prints three prefixed spellings and no page settles it. Both claims also require \"a solvent\", unnamed there, so no solvent record comes from them. | The coupling reagent of step (ii), named once, in [0037], alongside 'and a solvent'. Line 209 prints it with no space after the first comma and with the ASCII apostrophe U+0027, which is a third prime character for this one reagent: other pages of this document print U+2019 and U+2032 for the same name. The identifier carries U+2019, the form the Claims and the Example sections also record, so the four files key on one string; the printed U+0027 form is kept as an alias and the provenance quote is the printed line. [0038] restates step (ii) without naming any coupling reagent, and the three esterification scheme spans at lines 200, 207 and 224 have bare arrows with no condition text at all, so this reagent exists in prose only. No charge or ratio is given. | The coupling reagent that makes step (ii) work without an acid chloride. Printed here with NO space after the comma and with U+2019 RIGHT SINGLE QUOTATION MARK for the prime, transcribed as printed; the claims section on p20 prints the same reagent as 'N, N′-dicyclohexylcarbodiimide' with a space and with U+2032 PRIME, kept as an alias so the two are recorded as one molecule and not two. The dicyclohexylurea by-product is nowhere named in this section, so no record is made for it. | Coupling agent for the esterification. This section prints \"N, N’-dicyclohexylcarbodiimide (DCC)\", with a space after the first comma and a space before the bracket, against Example 6's closed-up \"N,N’-dicyclohexylcarbodiimide(DCC)\"; the comma spacing and the bracket spacing are orthographic and both printed forms are kept as aliases rather than emitted as a second record. The prime here is U+2019; the document also prints U+2032 on the claims pages and a plain ASCII apostrophe at line 209, for the same reagent. Charged with the NMSBA before the 1,3-cyclohexanedione in this example, the reverse of Example 4's order. | Coupling agent. Printed once, on line 316, with no space after the first comma and with the name closed up against its abbreviation, 'N,N’-dicyclohexylcarbodiimide(DCC)', and with U+2019 RIGHT SINGLE QUOTATION MARK for the prime. Example 5 on the same page prints the opposite convention, 'N, N’-dicyclohexylcarbodiimide (DCC)' spaced, and the claims on p20 print 'N, N′-dicyclohexylcarbodiimide' with U+2032 PRIME. Same reagent throughout; the identifier here is the string this section prints, prime character included, and the punctuation variants are orthography, not different molecules. mmol is the printed 0.10mol as mmol. The dicyclohexylurea that a carbodiimide coupling co-produces is not named anywhere in this section and is not recorded.",
+    "notes": "Made essential twice: in claim 3, for the coupling as a dependent of claim 1, and in claim 8, for the same coupling as a dependent of the standalone claim 7. That redundancy is the patent's own and is not collapsed. Both occurrences in this section print a space after the first comma and U+2032 PRIME; that printed form is kept as the alias, and the identifier is the closed-up U+2019 form that Examples 4, 5 and 6 key on, so the one reagent joins across sections. The document prints three prefixed spellings and no page settles it. Both claims also require \"a solvent\", unnamed there, so no solvent record comes from them. | The coupling reagent of step (ii), named once, in [0037], alongside 'and a solvent'. Line 209 prints it with no space after the first comma and with the ASCII apostrophe U+0027, which is a third prime character for this one reagent: other pages of this document print U+2019 and U+2032 for the same name. The identifier carries U+2019, the form the Claims and the Example sections also record, so the four files key on one string; the printed U+0027 form is kept as an alias and the provenance quote is the printed line. [0038] restates step (ii) without naming any coupling reagent, and the three esterification scheme spans at lines 200, 207 and 224 have bare arrows with no condition text at all, so this reagent exists in prose only. No charge or ratio is given. | The coupling reagent that makes step (ii) work without an acid chloride. Printed here with NO space after the comma and with U+2019 RIGHT SINGLE QUOTATION MARK for the prime, transcribed as printed; the claims section on p20 prints the same reagent as 'N, N′-dicyclohexylcarbodiimide' with a space and with U+2032 PRIME, kept as an alias so the two are recorded as one molecule and not two. The dicyclohexylurea by-product is nowhere named in this section, so no record is made for it. | Coupling agent for the esterification. This section prints \"N, N’-dicyclohexylcarbodiimide (DCC)\", with a space after the first comma and a space before the bracket, against Example 6's closed-up \"N,N’-dicyclohexylcarbodiimide(DCC)\"; the comma spacing and the bracket spacing are orthographic and both printed forms are kept as aliases rather than emitted as a second record. The prime here is U+2019; the document also prints U+2032 on the claims pages and a plain ASCII apostrophe at line 209, for the same reagent. Charged with the NMSBA before the 1,3-cyclohexanedione in this example, the reverse of Example 4's order. | Coupling agent. Printed once, on line 316, with no space after the first comma and with the name closed up against its abbreviation, 'N,N’-dicyclohexylcarbodiimide(DCC)', and with U+2019 RIGHT SINGLE QUOTATION MARK for the prime. Example 5 on the same page prints the opposite convention, 'N, N’-dicyclohexylcarbodiimide (DCC)' spaced, and the claims on p20 print 'N, N′-dicyclohexylcarbodiimide' with U+2032 PRIME. Same reagent throughout; the identifier here is the string this section prints, prime character included, and the punctuation variants are orthography, not different molecules. mmol is the printed 0.10mol as mmol. The dicyclohexylurea that a carbodiimide coupling co-produces is not named anywhere in this section and is not recorded. [FIX C-006] The patent charges this compound 3 times, once per worked example, and the single-valued quantity block could hold only one of them: it previously held mass_g=21, mmol=100, which is Example 6's charge alone, so the other 2 were silently dropped. quantities_by_section now records every charge with its example and line number, and quantity is set null so no consumer reads one arbitrary example's number as the compound's charge. Same defect family as SINGLE-VALUED-FIELDS.md. Note that reactions.json already carried every one of these charges correctly on its own per-example records, so nothing was lost from the gold as a whole; it was compounds.json alone that misrepresented. [FIX C-008] role and section_label are each ONE string, but the patent gives this compound 5 sections and one role. role held 'reagent' and section_label held 'Example 6', which is one arbitrary location out of 5. roles_by_section now records every role with its section and line, and sections lists them all. The single-valued fields are left as they were for backward compatibility and are NOT the whole picture. This is item 3 of pipeline/contracts/SINGLE-VALUED-FIELDS.md, where the same defect is described as the location field being false while the line-level provenance is correct.",
     "id": "WO2022024094A1_N,N’-dicyclohexylcarbodiimide",
-    "compound_uuid": "8f60711b-ef96-51c5-b478-74275a82e35a"
+    "compound_uuid": "8f60711b-ef96-51c5-b478-74275a82e35a",
+    "quantities_by_section": [
+      {
+        "section_label": "Example 4",
+        "source_line": 295,
+        "volume_ml": null,
+        "mass_g": 24.0,
+        "mmol": 120.0,
+        "role_in_that_example": "reagent"
+      },
+      {
+        "section_label": "Example 5",
+        "source_line": 308,
+        "volume_ml": null,
+        "mass_g": 0.8,
+        "mmol": 4.0,
+        "role_in_that_example": "reagent"
+      },
+      {
+        "section_label": "Example 6",
+        "source_line": 316,
+        "volume_ml": null,
+        "mass_g": 21.0,
+        "mmol": 100.0,
+        "role_in_that_example": "reagent"
+      }
+    ],
+    "roles_by_section": [
+      {
+        "section_label": "Detailed Description of the Invention",
+        "role": "reagent",
+        "source_line": 209
+      },
+      {
+        "section_label": "Claims",
+        "role": "reagent",
+        "source_line": 359
+      },
+      {
+        "section_label": "Example 4",
+        "role": "reagent",
+        "source_line": 295
+      },
+      {
+        "section_label": "Example 5",
+        "role": "reagent",
+        "source_line": 308
+      },
+      {
+        "section_label": "Example 6",
+        "role": "reagent",
+        "source_line": 316
+      }
+    ],
+    "sections": [
+      "Claims",
+      "Detailed Description of the Invention",
+      "Example 4",
+      "Example 5",
+      "Example 6"
+    ]
   },
   {
     "patent_id": "WO2022024094A1",
@@ -813,9 +1493,41 @@
       "hazard:cyanide_handling",
       "hazard:toxic"
     ],
-    "notes": "Claim 4 only, as the reagent that converts the enol ester of formula (II) to mesotrione. The claim also requires \"a base and a solvent\"; neither is named, so neither is recorded. | Named once, in [0043], as the reagent that converts the enol ester of formula (II) to mesotrione, in presence of a base and a solvent. [0042] says the same conversion can be achieved by any method known in the art and names nothing. The step (iii) scheme span at line 226 has a bare arrow with no condition text, so this reagent, the base and the solvent list all exist in prose only. No charge, ratio, temperature or time is given for it here. | Added to the cooled mixture before the triethylamine. Sub-stoichiometric against the 0.06mol of enol ester; the text does not call it a catalyst, so the role is left as reagent. Named nowhere in any drawing of this step, whose arrow is bare.",
+    "notes": "Claim 4 only, as the reagent that converts the enol ester of formula (II) to mesotrione. The claim also requires \"a base and a solvent\"; neither is named, so neither is recorded. | Named once, in [0043], as the reagent that converts the enol ester of formula (II) to mesotrione, in presence of a base and a solvent. [0042] says the same conversion can be achieved by any method known in the art and names nothing. The step (iii) scheme span at line 226 has a bare arrow with no condition text, so this reagent, the base and the solvent list all exist in prose only. No charge, ratio, temperature or time is given for it here. | Added to the cooled mixture before the triethylamine. Sub-stoichiometric against the 0.06mol of enol ester; the text does not call it a catalyst, so the role is left as reagent. Named nowhere in any drawing of this step, whose arrow is bare. [FIX C-008] role and section_label are each ONE string, but the patent gives this compound 3 sections and one role. role held 'reagent' and section_label held 'Example 7', which is one arbitrary location out of 3. roles_by_section now records every role with its section and line, and sections lists them all. The single-valued fields are left as they were for backward compatibility and are NOT the whole picture. This is item 3 of pipeline/contracts/SINGLE-VALUED-FIELDS.md, where the same defect is described as the location field being false while the line-level provenance is correct.",
     "id": "WO2022024094A1_sodium cyanide",
-    "compound_uuid": "091e1ae0-bc25-5ca8-a75c-781461a619af"
+    "compound_uuid": "091e1ae0-bc25-5ca8-a75c-781461a619af",
+    "quantities_by_section": [
+      {
+        "section_label": "Example 7",
+        "source_line": 329,
+        "volume_ml": null,
+        "mass_g": 1.2,
+        "mmol": 25.0,
+        "role_in_that_example": "reagent"
+      }
+    ],
+    "roles_by_section": [
+      {
+        "section_label": "Detailed Description of the Invention",
+        "role": "reagent",
+        "source_line": 245
+      },
+      {
+        "section_label": "Claims",
+        "role": "reagent",
+        "source_line": 361
+      },
+      {
+        "section_label": "Example 7",
+        "role": "reagent",
+        "source_line": 329
+      }
+    ],
+    "sections": [
+      "Claims",
+      "Detailed Description of the Invention",
+      "Example 7"
+    ]
   },
   {
     "patent_id": "WO2022024094A1",
@@ -833,7 +1545,7 @@
     "role": "solvent",
     "quantity": {
       "mass_g": null,
-      "volume_ml": 60.0,
+      "volume_ml": null,
       "mmol": null,
       "equivalents": null,
       "yield_pct": null
@@ -852,15 +1564,130 @@
       "chemical_family:chloroalkane",
       "functional_group:halide_chloro"
     ],
-    "notes": "First of the five solvent alternatives in claim 9, which depends on claim 8; each alternative is recorded separately. Claim 9 also says \"and mixtures thereof\", which names no compound. This is the only claim in the set that names a solvent at all. | First of the five solvent alternatives offered for step (ii) in [0037] and again for step (iii) in [0043], and the preferred solvent in both; one record merged from the two paragraphs. Each alternative in the list is recorded separately, and 'and mixtures thereof' names no compound. Both paragraphs also say the process can produce 'solvent recovery of >85%', which is a recovery floor for the solvent charge and not a quantity of solvent used, so quantity stays empty; no volume is given anywhere in this section. Prose only: the esterification and step (iii) scheme spans all have bare arrows. | Reaction solvent, charged first at 160mL. The unmarked line 302 also prints 'Solvent recovery: >85%', which is a recovery figure for this solvent and not a purity, so it is recorded here in words only and no analytics entry is made for it. | Reaction solvent, charged first. The source prints no punctuation between the volume and the next reagent, \"dichloromethane (10mL) NMSBA\", which is kept as printed. | Reaction solvent, charged first. The unmarked analytical line 318 also reports 'Solvent recovery >85%', which can only refer to this solvent, but the written procedure isolates the product by vacuum filtration and never describes distilling or otherwise recovering the dichloromethane. Recorded as an observation about what the page states, not as a contradiction, and not carried into any quantity field. | Reaction solvent, 60mL. Later distilled off under reduced pressure at 35-45°C; the unmarked line 331 reports solvent recovery: > 85%. Capitalised as 'Dichloromethane' at the start of the distillation sentence, kept as an alias.",
+    "notes": "First of the five solvent alternatives in claim 9, which depends on claim 8; each alternative is recorded separately. Claim 9 also says \"and mixtures thereof\", which names no compound. This is the only claim in the set that names a solvent at all. | First of the five solvent alternatives offered for step (ii) in [0037] and again for step (iii) in [0043], and the preferred solvent in both; one record merged from the two paragraphs. Each alternative in the list is recorded separately, and 'and mixtures thereof' names no compound. Both paragraphs also say the process can produce 'solvent recovery of >85%', which is a recovery floor for the solvent charge and not a quantity of solvent used, so quantity stays empty; no volume is given anywhere in this section. Prose only: the esterification and step (iii) scheme spans all have bare arrows. | Reaction solvent, charged first at 160mL. The unmarked line 302 also prints 'Solvent recovery: >85%', which is a recovery figure for this solvent and not a purity, so it is recorded here in words only and no analytics entry is made for it. | Reaction solvent, charged first. The source prints no punctuation between the volume and the next reagent, \"dichloromethane (10mL) NMSBA\", which is kept as printed. | Reaction solvent, charged first. The unmarked analytical line 318 also reports 'Solvent recovery >85%', which can only refer to this solvent, but the written procedure isolates the product by vacuum filtration and never describes distilling or otherwise recovering the dichloromethane. Recorded as an observation about what the page states, not as a contradiction, and not carried into any quantity field. | Reaction solvent, 60mL. Later distilled off under reduced pressure at 35-45°C; the unmarked line 331 reports solvent recovery: > 85%. Capitalised as 'Dichloromethane' at the start of the distillation sentence, kept as an alias. [FIX C-006] The patent charges this compound 4 times, once per worked example, and the single-valued quantity block could hold only one of them: it previously held volume_ml=60, which is Example 7's charge alone, so the other 3 were silently dropped. quantities_by_section now records every charge with its example and line number, and quantity is set null so no consumer reads one arbitrary example's number as the compound's charge. Same defect family as SINGLE-VALUED-FIELDS.md. Note that reactions.json already carried every one of these charges correctly on its own per-example records, so nothing was lost from the gold as a whole; it was compounds.json alone that misrepresented. [FIX C-008] role and section_label are each ONE string, but the patent gives this compound 6 sections and one role. role held 'solvent' and section_label held 'Example 7', which is one arbitrary location out of 6. roles_by_section now records every role with its section and line, and sections lists them all. The single-valued fields are left as they were for backward compatibility and are NOT the whole picture. This is item 3 of pipeline/contracts/SINGLE-VALUED-FIELDS.md, where the same defect is described as the location field being false while the line-level provenance is correct. [FIX C-009] The patent states a solvent recovery of >85% five times, at lines 209, 245, 302, 318 and 331, and it is a property of THIS solvent. It existed only in this record's prose notes and in no field. solvent_recovery_pct_min now holds the bound with no upper bound invented, and solvent_recovery_by_section records all five statements. It is a recovery floor, not a quantity of solvent charged, so it is deliberately kept out of the quantity and quantities_by_section fields.",
     "id": "WO2022024094A1_dichloromethane",
-    "compound_uuid": "98047b5f-a6b3-5753-9838-a6aeeb6014b0"
+    "compound_uuid": "98047b5f-a6b3-5753-9838-a6aeeb6014b0",
+    "quantities_by_section": [
+      {
+        "section_label": "Example 4",
+        "source_line": 295,
+        "volume_ml": 160.0,
+        "mass_g": null,
+        "mmol": null,
+        "role_in_that_example": "solvent"
+      },
+      {
+        "section_label": "Example 5",
+        "source_line": 308,
+        "volume_ml": 10.0,
+        "mass_g": null,
+        "mmol": null,
+        "role_in_that_example": "solvent"
+      },
+      {
+        "section_label": "Example 6",
+        "source_line": 316,
+        "volume_ml": 100.0,
+        "mass_g": null,
+        "mmol": null,
+        "role_in_that_example": "solvent"
+      },
+      {
+        "section_label": "Example 7",
+        "source_line": 329,
+        "volume_ml": 60.0,
+        "mass_g": null,
+        "mmol": null,
+        "role_in_that_example": "solvent"
+      }
+    ],
+    "roles_by_section": [
+      {
+        "section_label": "Detailed Description of the Invention",
+        "role": "solvent",
+        "source_line": 209
+      },
+      {
+        "section_label": "Claims",
+        "role": "solvent",
+        "source_line": 378
+      },
+      {
+        "section_label": "Example 4",
+        "role": "solvent",
+        "source_line": 295
+      },
+      {
+        "section_label": "Example 5",
+        "role": "solvent",
+        "source_line": 308
+      },
+      {
+        "section_label": "Example 6",
+        "role": "solvent",
+        "source_line": 316
+      },
+      {
+        "section_label": "Example 7",
+        "role": "solvent",
+        "source_line": 329
+      }
+    ],
+    "sections": [
+      "Claims",
+      "Detailed Description of the Invention",
+      "Example 4",
+      "Example 5",
+      "Example 6",
+      "Example 7"
+    ],
+    "solvent_recovery_pct_min": 85.0,
+    "solvent_recovery_pct_max": null,
+    "solvent_recovery_by_section": [
+      {
+        "section_label": "Detailed Description of the Invention",
+        "source_line": 209,
+        "pct_min": 85.0,
+        "pct_max": null,
+        "raw_text": "the disclosed process can produce solvent recovery of >85%"
+      },
+      {
+        "section_label": "Detailed Description of the Invention",
+        "source_line": 245,
+        "pct_min": 85.0,
+        "pct_max": null,
+        "raw_text": "the disclosed process can produce solvent recovery of >85%"
+      },
+      {
+        "section_label": "Example 4",
+        "source_line": 302,
+        "pct_min": 85.0,
+        "pct_max": null,
+        "raw_text": "Solvent recovery: >85%"
+      },
+      {
+        "section_label": "Example 6",
+        "source_line": 318,
+        "pct_min": 85.0,
+        "pct_max": null,
+        "raw_text": "Solvent recovery >85%"
+      },
+      {
+        "section_label": "Example 7",
+        "source_line": 331,
+        "pct_min": 85.0,
+        "pct_max": null,
+        "raw_text": "solvent recovery: > 85%"
+      }
+    ]
   },
   {
     "patent_id": "WO2022024094A1",
     "identifier": "1,2-dichloroethane",
     "identifier_type": "iupac",
-    "aliases": [],
+    "aliases": [
+      "dichloroethane"
+    ],
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Claims",
@@ -889,7 +1716,7 @@
       "chemical_family:chloroalkane",
       "functional_group:halide_chloro"
     ],
-    "notes": "Second of the five solvent alternatives in claim 9, which depends on claim 8; each alternative is recorded separately. Claim 9 also says \"and mixtures thereof\", which names no compound.",
+    "notes": "Second of the five solvent alternatives in claim 9, which depends on claim 8; each alternative is recorded separately. Claim 9 also says \"and mixtures thereof\", which names no compound. [FIX C-002, duplicate merged] The record 'dichloroethane' was a SEPARATE record for this same substance. Three reasons these are one substance. (1) The three solvent lists at lines 209, 245 and claim 9 at 378 are the SAME five-item list in the same order, differing only in the second item's wording. (2) The patent writes dichloropropaneS, dichlorobutaneS and dichloropentaneS in the plural, acknowledging isomer sets, but writes dichloromethane and dichloroethane in the SINGULAR, and dichloromethane has no isomers; a singular name in a list that otherwise pluralises for isomers means one specific isomer, and claim 9 names it. (3) A claim cannot cover matter absent from the description, so claim 9's '1,2-dichloroethane' must be supported by the description's 'dichloroethane'. Merged as an alias, keeping the unambiguous name as the identifier.",
     "id": "WO2022024094A1_1,2-dichloroethane",
     "compound_uuid": "bfe7e564-f3f0-5799-80f3-6800531323f7"
   },
@@ -1292,46 +2119,11 @@
   },
   {
     "patent_id": "WO2022024094A1",
-    "identifier": "dichloroethane",
-    "identifier_type": "other",
-    "aliases": [],
-    "resolved": false,
-    "unresolved_reference": false,
-    "section_label": "Detailed Description of the Invention",
-    "section_type": "summary_of_invention",
-    "is_section_product": false,
-    "commercially_available": true,
-    "role": "solvent",
-    "quantity": {
-      "mass_g": null,
-      "volume_ml": null,
-      "mmol": null,
-      "equivalents": null,
-      "yield_pct": null
-    },
-    "ms_mz": null,
-    "nmr": null,
-    "melting_point": null,
-    "appearance": null,
-    "color": null,
-    "physical_form": null,
-    "analytics": [],
-    "purity_pct": null,
-    "purity_method": null,
-    "tags": [
-      "compound_class:solvent",
-      "chemical_family:chloroalkane",
-      "functional_group:halide_chloro"
-    ],
-    "notes": "Second of the five solvent alternatives, in the identical lists in [0037] for step (ii) and [0043] for step (iii); one record merged from the two paragraphs. Printed with no locants in both, so the name does not say which dichloroethane and resolved is false; it is not narrowed to one isomer here. The Claims section prints a locant form at the same position of the same list, so the two sections disagree about this solvent's identity; the disagreement is recorded and not resolved, and the locant form is not taken as an alias because this section never prints it.",
-    "id": "WO2022024094A1_dichloroethane",
-    "compound_uuid": "9f8673b8-9984-5da3-a677-cbdd318688a1"
-  },
-  {
-    "patent_id": "WO2022024094A1",
     "identifier": "triethylamine",
     "identifier_type": "iupac",
-    "aliases": [],
+    "aliases": [
+      "(CH3CH2 )3N"
+    ],
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Example 7",
@@ -1360,9 +2152,41 @@
       "chemical_family:trialkylamine",
       "functional_group:amine"
     ],
-    "notes": "First and preferred of the seven organic bases offered for step (iii) in [0043]: it opens the list and the paragraph then says more preferably the base can be triethylamine. The paragraph says the base 'includes organic and inorganic base' and names only organic ones; the generic phrases name no compound and no inorganic base is named anywhere in this section. Prose only: the step (iii) scheme span at line 226 has a bare arrow, so nothing in the drawings names a base. | Added slowly over 15-20mins at 10-15°C after the sodium cyanide. Named nowhere in any drawing of this step, whose arrow is bare.",
+    "notes": "First and preferred of the seven organic bases offered for step (iii) in [0043]: it opens the list and the paragraph then says more preferably the base can be triethylamine. The paragraph says the base 'includes organic and inorganic base' and names only organic ones; the generic phrases name no compound and no inorganic base is named anywhere in this section. Prose only: the step (iii) scheme span at line 226 has a bare arrow, so nothing in the drawings names a base. | Added slowly over 15-20mins at 10-15°C after the sodium cyanide. Named nowhere in any drawing of this step, whose arrow is bare. [FIX C-002, duplicate merged] The record '(CH3CH2 )3N' was a SEPARATE record for this same substance. The arrow at line 68 prints the base as '(CH3CH2 )3N', including a stray space before ')3N'. That is triethylamine, which the patent names in full at lines 245 and 329. The drawn string is malformed OCR and would never join to anything. Merged as an alias; the same fix was applied to reactions.json as F-005. [FIX C-008] role and section_label are each ONE string, but the patent gives this compound 3 sections and one role. role held 'base' and section_label held 'Example 7', which is one arbitrary location out of 3. roles_by_section now records every role with its section and line, and sections lists them all. The single-valued fields are left as they were for backward compatibility and are NOT the whole picture. This is item 3 of pipeline/contracts/SINGLE-VALUED-FIELDS.md, where the same defect is described as the location field being false while the line-level provenance is correct.",
     "id": "WO2022024094A1_triethylamine",
-    "compound_uuid": "38833545-6c0b-5951-abc0-50f69eeabf70"
+    "compound_uuid": "38833545-6c0b-5951-abc0-50f69eeabf70",
+    "quantities_by_section": [
+      {
+        "section_label": "Example 7",
+        "source_line": 329,
+        "volume_ml": null,
+        "mass_g": 6.6,
+        "mmol": 65.0,
+        "role_in_that_example": "base"
+      }
+    ],
+    "roles_by_section": [
+      {
+        "section_label": "Background of the Invention",
+        "role": "base",
+        "source_line": 68
+      },
+      {
+        "section_label": "Detailed Description of the Invention",
+        "role": "base",
+        "source_line": 245
+      },
+      {
+        "section_label": "Example 7",
+        "role": "base",
+        "source_line": 329
+      }
+    ],
+    "sections": [
+      "Background of the Invention",
+      "Detailed Description of the Invention",
+      "Example 7"
+    ]
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1580,7 +2404,9 @@
     "patent_id": "WO2022024094A1",
     "identifier": "concentrated hydrochloric acid",
     "identifier_type": "trivial_name",
-    "aliases": [],
+    "aliases": [
+      "hydrochloric acid"
+    ],
     "resolved": true,
     "unresolved_reference": false,
     "section_label": "Example 3",
@@ -1590,8 +2416,8 @@
     "role": "acid",
     "quantity": {
       "mass_g": null,
-      "volume_ml": 54.0,
-      "mmol": 510.0,
+      "volume_ml": null,
+      "mmol": null,
       "equivalents": null,
       "yield_pct": null
     },
@@ -1608,9 +2434,57 @@
       "compound_class:acid",
       "hazard:corrosive"
     ],
-    "notes": "Used to acidify the filtrate and precipitate the product. | Used to acidify the filtrate and precipitate the product. Quantity from the unmarked continuation line 277, where paragraph [0048] resumes after the p15/p16 page break. | Used to acidify the filtrate to pH < 3 and precipitate the product.",
+    "notes": "Used to acidify the filtrate and precipitate the product. | Used to acidify the filtrate and precipitate the product. Quantity from the unmarked continuation line 277, where paragraph [0048] resumes after the p15/p16 page break. | Used to acidify the filtrate to pH < 3 and precipitate the product. [FIX C-006] The patent charges this compound 3 times, once per worked example, and the single-valued quantity block could hold only one of them: it previously held volume_ml=54, mmol=510, which is Example 3's charge alone, so the other 2 were silently dropped. quantities_by_section now records every charge with its example and line number, and quantity is set null so no consumer reads one arbitrary example's number as the compound's charge. Same defect family as SINGLE-VALUED-FIELDS.md. Note that reactions.json already carried every one of these charges correctly on its own per-example records, so nothing was lost from the gold as a whole; it was compounds.json alone that misrepresented. [FIX C-005] KEPT AS A SEPARATE RECORD from the other hydrochloric acid entry, on the reviewer's rule that different quantities are stored differently: the concentrated acid is charged at 120, 18 and 54 mL across Examples 1 to 3, the aqueous acid at 5.4 mL in Example 7, and the patent prints the two descriptors distinctly. Both records now carry 'hydrochloric acid' as an alias so they still join to one substance for any consumer that needs the compound rather than the grade. [FIX C-008] role and section_label are each ONE string, but the patent gives this compound 3 sections and one role. role held 'acid' and section_label held 'Example 3', which is one arbitrary location out of 3. roles_by_section now records every role with its section and line, and sections lists them all. The single-valued fields are left as they were for backward compatibility and are NOT the whole picture. This is item 3 of pipeline/contracts/SINGLE-VALUED-FIELDS.md, where the same defect is described as the location field being false while the line-level provenance is correct.",
     "id": "WO2022024094A1_concentrated hydrochloric acid",
-    "compound_uuid": "06c9b235-f325-5077-ac75-4551ba475c90"
+    "compound_uuid": "06c9b235-f325-5077-ac75-4551ba475c90",
+    "quantities_by_section": [
+      {
+        "section_label": "Example 1",
+        "source_line": 264,
+        "volume_ml": 120.0,
+        "mass_g": null,
+        "mmol": 1230.0,
+        "role_in_that_example": "acid"
+      },
+      {
+        "section_label": "Example 2",
+        "source_line": 277,
+        "volume_ml": 18.0,
+        "mass_g": null,
+        "mmol": 170.0,
+        "role_in_that_example": "acid"
+      },
+      {
+        "section_label": "Example 3",
+        "source_line": 285,
+        "volume_ml": 54.0,
+        "mass_g": null,
+        "mmol": 510.0,
+        "role_in_that_example": "acid"
+      }
+    ],
+    "roles_by_section": [
+      {
+        "section_label": "Example 1",
+        "role": "acid",
+        "source_line": 264
+      },
+      {
+        "section_label": "Example 2",
+        "role": "acid",
+        "source_line": 277
+      },
+      {
+        "section_label": "Example 3",
+        "role": "acid",
+        "source_line": 285
+      }
+    ],
+    "sections": [
+      "Example 1",
+      "Example 2",
+      "Example 3"
+    ]
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1626,7 +2500,7 @@
     "role": "other",
     "quantity": {
       "mass_g": null,
-      "volume_ml": 100.0,
+      "volume_ml": null,
       "mmol": null,
       "equivalents": null,
       "yield_pct": null
@@ -1643,9 +2517,63 @@
     "tags": [
       "compound_class:workup_agent"
     ],
-    "notes": "Quench medium, 160mL, added after the 2 hour stir; the organic layer is then separated. Used in the workup only, never as a reaction solvent, hence role other. | Used to quench the reaction mixture before the organic layer is separated, so no reaction role more specific than other is supported by the text. | Used in the workup: the crude enol ester is taken up with water and filtered again to give the pure solid. No quantity, temperature or time is printed for it. Unlike Example 5, this example does not quench the reaction with water. | One record for two workup uses in the same step: the 100mL quench recorded here, and a second 60 mL portion used to wash the precipitated product.",
+    "notes": "Quench medium, 160mL, added after the 2 hour stir; the organic layer is then separated. Used in the workup only, never as a reaction solvent, hence role other. | Used to quench the reaction mixture before the organic layer is separated, so no reaction role more specific than other is supported by the text. | Used in the workup: the crude enol ester is taken up with water and filtered again to give the pure solid. No quantity, temperature or time is printed for it. Unlike Example 5, this example does not quench the reaction with water. | One record for two workup uses in the same step: the 100mL quench recorded here, and a second 60 mL portion used to wash the precipitated product. [FIX C-006] The patent charges this compound 3 times, once per worked example, and the single-valued quantity block could hold only one of them: it previously held volume_ml=100, which is Example 7's charge alone, so the other 2 were silently dropped. quantities_by_section now records every charge with its example and line number, and quantity is set null so no consumer reads one arbitrary example's number as the compound's charge. Same defect family as SINGLE-VALUED-FIELDS.md. Note that reactions.json already carried every one of these charges correctly on its own per-example records, so nothing was lost from the gold as a whole; it was compounds.json alone that misrepresented. [FIX C-008] role and section_label are each ONE string, but the patent gives this compound 4 sections and one role. role held 'other' and section_label held 'Example 7', which is one arbitrary location out of 4. roles_by_section now records every role with its section and line, and sections lists them all. The single-valued fields are left as they were for backward compatibility and are NOT the whole picture. This is item 3 of pipeline/contracts/SINGLE-VALUED-FIELDS.md, where the same defect is described as the location field being false while the line-level provenance is correct.",
     "id": "WO2022024094A1_water",
-    "compound_uuid": "f0ef4a39-455b-53a6-9e74-904017285670"
+    "compound_uuid": "f0ef4a39-455b-53a6-9e74-904017285670",
+    "quantities_by_section": [
+      {
+        "section_label": "Example 4",
+        "source_line": 300,
+        "volume_ml": 160.0,
+        "mass_g": null,
+        "mmol": null,
+        "role_in_that_example": "other"
+      },
+      {
+        "section_label": "Example 5",
+        "source_line": 308,
+        "volume_ml": 10.0,
+        "mass_g": null,
+        "mmol": null,
+        "role_in_that_example": "other"
+      },
+      {
+        "section_label": "Example 7",
+        "source_line": 329,
+        "volume_ml": 100.0,
+        "mass_g": null,
+        "mmol": null,
+        "role_in_that_example": "other"
+      }
+    ],
+    "roles_by_section": [
+      {
+        "section_label": "Example 4",
+        "role": "other",
+        "source_line": 300
+      },
+      {
+        "section_label": "Example 5",
+        "role": "other",
+        "source_line": 308
+      },
+      {
+        "section_label": "Example 6",
+        "role": "other",
+        "source_line": 316
+      },
+      {
+        "section_label": "Example 7",
+        "role": "other",
+        "source_line": 329
+      }
+    ],
+    "sections": [
+      "Example 4",
+      "Example 5",
+      "Example 6",
+      "Example 7"
+    ]
   },
   {
     "patent_id": "WO2022024094A1",
@@ -1681,8 +2609,470 @@
       "compound_class:acid",
       "hazard:corrosive"
     ],
-    "notes": "Used to acidify the aqueous mass to pH < 3 at 5-10°C and precipitate the product.",
+    "notes": "Used to acidify the aqueous mass to pH < 3 at 5-10°C and precipitate the product. [FIX C-005] KEPT AS A SEPARATE RECORD from the other hydrochloric acid entry, on the reviewer's rule that different quantities are stored differently: the concentrated acid is charged at 120, 18 and 54 mL across Examples 1 to 3, the aqueous acid at 5.4 mL in Example 7, and the patent prints the two descriptors distinctly. Both records now carry 'hydrochloric acid' as an alias so they still join to one substance for any consumer that needs the compound rather than the grade.",
     "id": "WO2022024094A1_aqueous hydrochloric acid",
-    "compound_uuid": "fd8aff09-26c0-5633-9a7a-9eaa50849324"
+    "compound_uuid": "fd8aff09-26c0-5633-9a7a-9eaa50849324",
+    "quantities_by_section": [
+      {
+        "section_label": "Example 7",
+        "source_line": 329,
+        "volume_ml": 5.4,
+        "mass_g": null,
+        "mmol": 54.0,
+        "role_in_that_example": "acid"
+      }
+    ]
+  },
+  {
+    "patent_id": "WO2022024094A1",
+    "identifier": "an oxidant",
+    "identifier_type": "other",
+    "aliases": [
+      "any oxidizing agent",
+      "oxidizing agent",
+      "Oxidant"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Summary of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "oxidant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "generic_term:true"
+    ],
+    "notes": "[NEW RECORD, FIX C-003] Generic class term, recorded because prompt 3 requires the class nouns the patent uses without naming a substance, and because CN112645853A set the precedent by adding all 13 of its missing generics, of which 'alkali metal alkoxide' was a reagent route inside claim 1. The patent uses this exact phrase as the reagent term at lines 109, 122, 179, 213, 228 and in claims 1, 5 and 10 at lines 348, 363 and 380, and [0032] at line 183 says it 'may be any oxidizing agent that can promote the target oxidation reaction'. The arrows at lines 111, 128, 181, 205, 222, 256, 340, 355 and 374 print only 'Oxidant'. It names no substance, which is why resolved is false. It MATTERS because it is the term the independent claims actually recite; the named instances are sodium hypochlorite, alkali metal hypochlorite and hydrogen peroxide, all recorded separately.",
+    "id": "WO2022024094A1_an oxidant",
+    "compound_uuid": "579f4a49-72bd-5f07-be3a-b278a87dfe0a"
+  },
+  {
+    "patent_id": "WO2022024094A1",
+    "identifier": "a base",
+    "identifier_type": "other",
+    "aliases": [
+      "organic and inorganic base",
+      "an organic base"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Detailed Description of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "base",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "generic_term:true"
+    ],
+    "notes": "[NEW RECORD, FIX C-003] Generic class term, recorded because prompt 3 requires the class nouns the patent uses without naming a substance, and because CN112645853A set the precedent by adding all 13 of its missing generics, of which 'alkali metal alkoxide' was a reagent route inside claim 1. [0043] at line 245 says the conversion is run 'with sodium cyanide in presence of a base and a solvent' and that 'The base that can be used for this purpose includes organic and inorganic base'. Claim 4 at line 361 recites 'a base'. Names no substance. The seven named organic bases are recorded separately; only triethylamine is ever used, in Example 7.",
+    "id": "WO2022024094A1_a base",
+    "compound_uuid": "04a2c2a8-ec2f-5a52-b366-c2f784128d1a"
+  },
+  {
+    "patent_id": "WO2022024094A1",
+    "identifier": "a solvent",
+    "identifier_type": "other",
+    "aliases": [
+      "any solvent",
+      "the solvent"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Detailed Description of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "solvent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:solvent",
+      "generic_term:true"
+    ],
+    "notes": "[NEW RECORD, FIX C-003] Generic class term, recorded because prompt 3 requires the class nouns the patent uses without naming a substance, and because CN112645853A set the precedent by adding all 13 of its missing generics, of which 'alkali metal alkoxide' was a reagent route inside claim 1. [0037] at line 209 and [0043] at line 245 both say 'a solvent' and then 'The solvent may be any solvent in which ... may be soluble'. Claims 3, 4, 8 and 9 at lines 359, 361, 369 and 378 recite 'a solvent'. Names no substance. The five named halogenated solvents are recorded separately, dichloromethane being the preferred one.",
+    "id": "WO2022024094A1_a solvent",
+    "compound_uuid": "50372ed7-ceba-5bff-b36c-aa28019ec4a5"
+  },
+  {
+    "patent_id": "WO2022024094A1",
+    "identifier": "peroxide",
+    "identifier_type": "other",
+    "aliases": [],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Detailed Description of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "oxidant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "generic_term:true"
+    ],
+    "notes": "[NEW RECORD, FIX C-003] Generic class term, recorded because prompt 3 requires the class nouns the patent uses without naming a substance, and because CN112645853A set the precedent by adding all 13 of its missing generics, of which 'alkali metal alkoxide' was a reagent route inside claim 1. [0032] at line 183 offers 'alkali metal hypochlorite and peroxide such as hydrogen peroxide'. 'peroxide' is the class and hydrogen peroxide the instance the same sentence gives for it. The extraction deliberately excluded this word, and said so in the notes of the alkali metal hypochlorite record: 'The bare class word peroxide in the same sentence names no compound and is not recorded'. That reasoning is sound on its own terms and is overridden here only because the gold is required to carry the class nouns.",
+    "id": "WO2022024094A1_peroxide",
+    "compound_uuid": "ad67fed1-d492-5e6d-9b92-1d4100e4906f"
+  },
+  {
+    "patent_id": "WO2022024094A1",
+    "identifier": "a salt or an oxide",
+    "identifier_type": "other",
+    "aliases": [],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Detailed Description of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst",
+      "generic_term:true"
+    ],
+    "notes": "[NEW RECORD, FIX C-003] Generic class term, recorded because prompt 3 requires the class nouns the patent uses without naming a substance, and because CN112645853A set the precedent by adding all 13 of its missing generics, of which 'alkali metal alkoxide' was a reagent route inside claim 1. [0033] at line 185: 'The ruthenium can be supplied to the reaction solution in the form of a salt or an oxide, ruthenium dioxide and ruthenium dioxide hydrate.' The phrase names the two FORMS the catalyst may be supplied in. The named instances, ruthenium oxide, ruthenium dioxide hydrate and ruthenium trichloride, are recorded separately.",
+    "id": "WO2022024094A1_a salt or an oxide",
+    "compound_uuid": "d2468792-bc45-5f92-bf19-1d85ad414d4b"
+  },
+  {
+    "patent_id": "WO2022024094A1",
+    "identifier": "a cobalt salt",
+    "identifier_type": "other",
+    "aliases": [],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background of the Invention",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst",
+      "generic_term:true"
+    ],
+    "notes": "[NEW RECORD, FIX C-003] Generic class term, recorded because prompt 3 requires the class nouns the patent uses without naming a substance, and because CN112645853A set the precedent by adding all 13 of its missing generics, of which 'alkali metal alkoxide' was a reagent route inside claim 1. [006] at line 70: US 5,591,890 oxidises NMST 'in the presence of a cobalt salt as a catalyst'. The specific salt is named later in the same paragraph as cobalt(II) acetate tetra hydrate, which is recorded separately, but the generic phrase comes first and is the broader disclosure.",
+    "id": "WO2022024094A1_a cobalt salt",
+    "compound_uuid": "a25231bb-1499-5e6f-a544-955925f9a99a"
+  },
+  {
+    "patent_id": "WO2022024094A1",
+    "identifier": "vanadium or cobalt compounds",
+    "identifier_type": "other",
+    "aliases": [
+      "cobalt compounds"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background of the Invention",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "catalyst",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:catalyst",
+      "generic_term:true"
+    ],
+    "notes": "[NEW RECORD, FIX C-003] Generic class term, recorded because prompt 3 requires the class nouns the patent uses without naming a substance, and because CN112645853A set the precedent by adding all 13 of its missing generics, of which 'alkali metal alkoxide' was a reagent route inside claim 1. [007] at line 77: US5424481 oxidises 'in the presence of vanadium or cobalt compounds'. This is the BROAD sentence, covering the whole substrate family. The 'In particular' sentence that follows narrows to NMST over vanadium pentoxide alone, so the patent never pairs cobalt with NMST. Recorded as the generic it is; the same point is on the reactions record Background Step 6 as F-008.",
+    "id": "WO2022024094A1_vanadium or cobalt compounds",
+    "compound_uuid": "223dd07b-79a6-5e13-9f0c-d755fc7f5e67"
+  },
+  {
+    "patent_id": "WO2022024094A1",
+    "identifier": "the corresponding methylsulfonyl toluenes",
+    "identifier_type": "other",
+    "aliases": [
+      "methylsulfonyl toluenes"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background of the Invention",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reactant",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reactant",
+      "generic_term:true"
+    ],
+    "notes": "[NEW RECORD, FIX C-003] Generic class term, recorded because prompt 3 requires the class nouns the patent uses without naming a substance, and because CN112645853A set the precedent by adding all 13 of its missing generics, of which 'alkali metal alkoxide' was a reagent route inside claim 1. [007] at line 77 describes US5424481 as 'oxidizing the corresponding methylsulfonyl toluenes'. A substrate FAMILY, of which NMST is the member this patent cares about. Plural in the source, and recorded as printed.",
+    "id": "WO2022024094A1_the corresponding methylsulfonyl toluenes",
+    "compound_uuid": "fb8ad108-8492-5919-83b0-a906cfdad81b"
+  },
+  {
+    "patent_id": "WO2022024094A1",
+    "identifier": "methyl sulfonyl benzoic acids",
+    "identifier_type": "other",
+    "aliases": [],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background of the Invention",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "product",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:product",
+      "generic_term:true"
+    ],
+    "notes": "[NEW RECORD, FIX C-003] Generic class term, recorded because prompt 3 requires the class nouns the patent uses without naming a substance, and because CN112645853A set the precedent by adding all 13 of its missing generics, of which 'alkali metal alkoxide' was a reagent route inside claim 1. [007] at line 77: US5424481 is 'a process for preparation of methyl sulfonyl benzoic acids'. The product FAMILY corresponding to the substrate family above, of which NMSBA is the member. Plural in the source, and the spacing 'methyl sulfonyl' is as printed.",
+    "id": "WO2022024094A1_methyl sulfonyl benzoic acids",
+    "compound_uuid": "4a3b200a-cd19-564e-b913-c390975ce70d"
+  },
+  {
+    "patent_id": "WO2022024094A1",
+    "identifier": "aqueous caustic solution",
+    "identifier_type": "other",
+    "aliases": [
+      "caustic"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Detailed Description of the Invention",
+    "section_type": "summary_of_invention",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "reagent",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:reagent",
+      "generic_term:true"
+    ],
+    "notes": "[NEW RECORD, FIX C-003] Generic class term, recorded because prompt 3 requires the class nouns the patent uses without naming a substance, and because CN112645853A set the precedent by adding all 13 of its missing generics, of which 'alkali metal alkoxide' was a reagent route inside claim 1. [0034], across the page break at lines 187 and 192: the RuO2 catalyst 'can be formed in situ in a reaction commencing with ruthenium trichloride in an aqueous caustic solution containing starting material and purging chlorine gas'. 'Caustic' conventionally means sodium or potassium hydroxide, but the patent names NEITHER, so nothing was narrowed and resolved is false. This is the medium of the in-situ catalyst preparation recorded in reactions.json as Detailed Description of the Invention_Step 4.",
+    "id": "WO2022024094A1_aqueous caustic solution",
+    "compound_uuid": "12f95b03-9038-585e-8a29-b9b2183f04c4"
+  },
+  {
+    "patent_id": "WO2022024094A1",
+    "identifier": "benzoylcyclohexane-1,3-dione herbicides",
+    "identifier_type": "other",
+    "aliases": [
+      "benzoylcyclohexane-1, 3-dioneherbicides"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background of the Invention",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "other",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:other",
+      "generic_term:true"
+    ],
+    "notes": "[NEW RECORD, FIX C-003] Generic class term, recorded because prompt 3 requires the class nouns the patent uses without naming a substance, and because CN112645853A set the precedent by adding all 13 of its missing generics, of which 'alkali metal alkoxide' was a reagent route inside claim 1. [003] at line 55: mesotrione 'is a member of the benzoylcyclohexane-1, 3-dioneherbicides'. A compound CLASS that the product belongs to, not a substance and not a reaction participant. Kept on the reviewer's decision. The source prints it closed up as 'dioneherbicides'; the identifier is regularised and the printed form is noted here.",
+    "id": "WO2022024094A1_benzoylcyclohexane-1,3-dione herbicides",
+    "compound_uuid": "b178db91-4cf3-534e-b7f5-07b0a0e7ec6a"
+  },
+  {
+    "patent_id": "WO2022024094A1",
+    "identifier": "4-hydroxyphenylpyruvate dioxygenase",
+    "identifier_type": "iupac",
+    "aliases": [
+      "HPPD"
+    ],
+    "resolved": false,
+    "unresolved_reference": false,
+    "section_label": "Background of the Invention",
+    "section_type": "background",
+    "is_section_product": false,
+    "commercially_available": false,
+    "role": "other",
+    "quantity": {
+      "mass_g": null,
+      "volume_ml": null,
+      "mmol": null,
+      "equivalents": null,
+      "yield_pct": null
+    },
+    "ms_mz": null,
+    "nmr": null,
+    "melting_point": null,
+    "appearance": null,
+    "color": null,
+    "physical_form": null,
+    "analytics": [],
+    "purity_pct": null,
+    "purity_method": null,
+    "tags": [
+      "compound_class:other",
+      "biological_target:true"
+    ],
+    "notes": "[NEW RECORD, FIX C-004] [003] at line 55: mesotrione is 'a potent and highly selective inhibitor of 4-hydroxyphenylpyruvate dioxygenase (HPPD)'. An ENZYME and the herbicide's biological target. It is not a reagent, not a product and takes part in no reaction in this patent; it is recorded on the reviewer's decision because the patent names it as a chemical entity. Kept out of every reaction record for that reason.",
+    "id": "WO2022024094A1_4-hydroxyphenylpyruvate dioxygenase",
+    "compound_uuid": "3e5c2d93-b973-514f-a043-91c9cbcd3a3c"
   }
 ]

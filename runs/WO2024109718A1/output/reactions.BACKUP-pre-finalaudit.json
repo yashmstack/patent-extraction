@@ -2654,7 +2654,7 @@
         "purity_method": null
       },
       {
-        "identifier": "haloform",
+        "identifier": "卤仿",
         "role": "by_product",
         "is_product": false,
         "quantity": {
@@ -6582,8 +6582,7 @@
         "detection_nm": 210.0,
         "injection_ul": 5.0,
         "stated_at_line": 435
-      },
-      "nmr_solvent": "CDCl3"
+      }
     },
     "byproduct_recovery": null,
     "safety_notes": [],
@@ -6648,7 +6647,7 @@
         "concentration_pct": 20.0
       },
       {
-        "identifier": "diazonium salt",
+        "identifier": "重氮盐",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -6697,8 +6696,7 @@
         "ms_mz": null,
         "ms_type": null,
         "purity_pct": null,
-        "purity_method": null,
-        "concentration_pct": 32.0
+        "purity_method": null
       },
       {
         "identifier": "compound of formula (VI)",
@@ -6763,7 +6761,7 @@
       "linkage:standalone",
       "is_one_pot:true"
     ],
-    "notes": "A0 estimated one step and this record agrees: the section is a single continuous operation with no workup between the diazotisation and the displacement, so it is one record with is_one_pot true. The document prints no N-marker headings inside this example, so step_label is assigned as Step 1. Per the one-pot rule the temperature is taken from the final transformation, the addition of the diazonium salt solution to the CH3SNa and NaOH flask, and no temperature is printed for it, so temperature is not_specified. The temperatures the text does print all belong to the first transformation and are kept on the relevant compounds' addition profiles: 20 degrees C for the hydrochloric acid charge and the aniline addition, 0 degrees C for the start of the NaNO2 addition, and control not exceeding -5 to 10 degrees C during that addition. Two four-necked flasks are used; no volume is printed for either. The text says stirred but does not say by what, so the stirring type is left null. Several charges are masses of solutions rather than of solutes: 5.1% hydrochloric acid, 20% aqueous NaNO2, 20% aqueous CH3SNa and 32% aqueous NaOH. Every mass_g here is the printed mass of the solution; no solute mass was computed. The pH 2 to 3 adjustment is a workup operation, so it is recorded in the workup narrative; workup.ph_target is left null because the text gives a range and picking a bound would invent a number. The IMAGE_EXTRACT reaction scheme immediately before the procedure agrees with the prose on the reactant (3-chloro-2-methylaniline), on the reagents NaNO2, CH3SNa and HCl, and on the product being an aryl methyl sulfide bearing chloro and methyl, which is what the prose calls the compound of formula (VI). The one difference is that the 32% aqueous NaOH charged with the CH3SNa appears in the prose but on no arrow, so reagent_written_not_drawn is raised; it is most likely drawing shorthand rather than a substantive conflict, and no drawing_text_conflict is raised because nothing in the scheme contradicts the procedure. The Chinese runs across a page break at the head of line 433, where the OCR emitted a stray token None before 过-5～10℃; that token is not part of the patent text and is excluded from procedure_text. No product mass, no product yield and no purity are printed anywhere in the section, so no mass balance can be checked and none is asserted. HPLC is used both for in-process monitoring and, in the following paragraph, with full instrument conditions; only the monitoring use is a process control here. 1H and 13C NMR are reported only as references to Figures 1 and 2, with no shift data. Linkage: this is the first step of the synthesis and nothing earlier in the document produces its starting material, so precursor_step is null. Its product is recorded here with the A1 identifier for this section, the English 'compound of formula (VI)'; Example 2 charges the same compound under the Chinese identifier 式(VI)化合物, which is the A1 identifier for that section. The two are the same substance, the label (VI) is the document's own, and the SMILES the drawings give for both is the same aryl methyl sulfide, so Example 2 links back to this step by identity and not merely by adjacency. | GOLD FIX 2026-09-02 (phase 2, ranges): ph_value_min/max = 2.0/3.0 from 调酸至pH为2～3 at line 433. ph_value stays null: a range is not a point. | GOLD FIX 2026-09-02 (phase 2, ranges): temperature set to range min_c/max_c = -5/10 from 控温不超过-5～10℃ at line 433; it was type=not_specified with every value null although the patent prints three temperatures. Record 51 already stores the identical 控温不超过 construction this way. The 20 C and 0 C charge temperatures remain in the compounds' addition_profile. | GOLD FIX 2026-09-02 (phase 2): compounds[].concentration_pct added: hydrochloric acid 5.1%, NaNO2 20.0%, CH3SNa 20.0%. The single conditions.concentration slot could hold only one of these. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Method as printed at line 435. | GOLD FIX 2026-09-02 (phase 2): BOTH READINGS RECORDED, is_one_pot kept true. Line 433 places the CH3SNa and NaOH in 另一四口烧瓶 (ANOTHER four-necked flask) and adds the diazonium solution to it, so by vessel count this is not one pot. is_one_pot is kept true because the diazonium salt is never isolated, which is what the field distinguishes, and the two stages are now explicit in conditions.stages. A reviewer who reads is_one_pot as one vessel should treat this record as two. | GOLD FIX 2026-09-02 (phase 2 final sweep): stirring.type set to stirred. Line 433: 过-5～10℃，搅拌，得到重氮盐溶液 (holding the temperature, stirred, to give the diazonium salt solution). No rate is given. | GOLD FIX 2026-09-02 (final audit): process_control.nmr_solvent = CDCl3, from line 437: the patent states the NMR solvent for every spectrum it references, here for the compound of formula (VI). A grep for CDCl3 across reactions.json previously returned zero hits, so this stated analytical detail was held nowhere in the file. | GOLD FIX 2026-09-02 (final audit): sodium hydroxide concentration_pct = 32.0 added, from line 433: 32％NaOH水溶液26.62g. My earlier concentration pass covered HCl, NaNO2 and CH3SNa on this record and skipped the NaOH.",
+    "notes": "A0 estimated one step and this record agrees: the section is a single continuous operation with no workup between the diazotisation and the displacement, so it is one record with is_one_pot true. The document prints no N-marker headings inside this example, so step_label is assigned as Step 1. Per the one-pot rule the temperature is taken from the final transformation, the addition of the diazonium salt solution to the CH3SNa and NaOH flask, and no temperature is printed for it, so temperature is not_specified. The temperatures the text does print all belong to the first transformation and are kept on the relevant compounds' addition profiles: 20 degrees C for the hydrochloric acid charge and the aniline addition, 0 degrees C for the start of the NaNO2 addition, and control not exceeding -5 to 10 degrees C during that addition. Two four-necked flasks are used; no volume is printed for either. The text says stirred but does not say by what, so the stirring type is left null. Several charges are masses of solutions rather than of solutes: 5.1% hydrochloric acid, 20% aqueous NaNO2, 20% aqueous CH3SNa and 32% aqueous NaOH. Every mass_g here is the printed mass of the solution; no solute mass was computed. The pH 2 to 3 adjustment is a workup operation, so it is recorded in the workup narrative; workup.ph_target is left null because the text gives a range and picking a bound would invent a number. The IMAGE_EXTRACT reaction scheme immediately before the procedure agrees with the prose on the reactant (3-chloro-2-methylaniline), on the reagents NaNO2, CH3SNa and HCl, and on the product being an aryl methyl sulfide bearing chloro and methyl, which is what the prose calls the compound of formula (VI). The one difference is that the 32% aqueous NaOH charged with the CH3SNa appears in the prose but on no arrow, so reagent_written_not_drawn is raised; it is most likely drawing shorthand rather than a substantive conflict, and no drawing_text_conflict is raised because nothing in the scheme contradicts the procedure. The Chinese runs across a page break at the head of line 433, where the OCR emitted a stray token None before 过-5～10℃; that token is not part of the patent text and is excluded from procedure_text. No product mass, no product yield and no purity are printed anywhere in the section, so no mass balance can be checked and none is asserted. HPLC is used both for in-process monitoring and, in the following paragraph, with full instrument conditions; only the monitoring use is a process control here. 1H and 13C NMR are reported only as references to Figures 1 and 2, with no shift data. Linkage: this is the first step of the synthesis and nothing earlier in the document produces its starting material, so precursor_step is null. Its product is recorded here with the A1 identifier for this section, the English 'compound of formula (VI)'; Example 2 charges the same compound under the Chinese identifier 式(VI)化合物, which is the A1 identifier for that section. The two are the same substance, the label (VI) is the document's own, and the SMILES the drawings give for both is the same aryl methyl sulfide, so Example 2 links back to this step by identity and not merely by adjacency. | GOLD FIX 2026-09-02 (phase 2, ranges): ph_value_min/max = 2.0/3.0 from 调酸至pH为2～3 at line 433. ph_value stays null: a range is not a point. | GOLD FIX 2026-09-02 (phase 2, ranges): temperature set to range min_c/max_c = -5/10 from 控温不超过-5～10℃ at line 433; it was type=not_specified with every value null although the patent prints three temperatures. Record 51 already stores the identical 控温不超过 construction this way. The 20 C and 0 C charge temperatures remain in the compounds' addition_profile. | GOLD FIX 2026-09-02 (phase 2): compounds[].concentration_pct added: hydrochloric acid 5.1%, NaNO2 20.0%, CH3SNa 20.0%. The single conditions.concentration slot could hold only one of these. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Method as printed at line 435. | GOLD FIX 2026-09-02 (phase 2): BOTH READINGS RECORDED, is_one_pot kept true. Line 433 places the CH3SNa and NaOH in 另一四口烧瓶 (ANOTHER four-necked flask) and adds the diazonium solution to it, so by vessel count this is not one pot. is_one_pot is kept true because the diazonium salt is never isolated, which is what the field distinguishes, and the two stages are now explicit in conditions.stages. A reviewer who reads is_one_pot as one vessel should treat this record as two. | GOLD FIX 2026-09-02 (phase 2 final sweep): stirring.type set to stirred. Line 433: 过-5～10℃，搅拌，得到重氮盐溶液 (holding the temperature, stirred, to give the diazonium salt solution). No rate is given.",
     "id": "WO2024109718A1_Example_1_Step_1",
     "reaction_uuid": "1b237771-ff10-57ed-bf18-490cc4425607"
   },
@@ -6845,7 +6843,8 @@
           "time_h": 5.0,
           "source_line": 537
         }
-      ]
+      ],
+      "time_h_approximate": true
     },
     "conditions_inherited": false,
     "workup": {
@@ -6873,7 +6872,7 @@
       "drying_agent": null,
       "filtration": "filtered to remove triethylamine hydrobromide, filtered again to remove insolubles at pH 8-9, and the precipitated product collected by filtration",
       "concentration_method": "rotary evaporation",
-      "ph_target": null,
+      "ph_target": 2.0,
       "ph_target_min": 2.0,
       "ph_target_max": 3.0,
       "ph_intermediate_min": 8.0,
@@ -6885,8 +6884,7 @@
       "method": "hplc",
       "target_compound": null,
       "threshold_pct": null,
-      "criterion": "reaction complete",
-      "nmr_solvent": "DMSO"
+      "criterion": "reaction complete"
     },
     "byproduct_recovery": null,
     "safety_notes": [],
@@ -6898,7 +6896,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (IV)",
+        "identifier": "式(IV)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -7183,7 +7181,7 @@
       "transformation:rearrangement",
       "workup_type:filtration"
     ],
-    "notes": "A0 estimated 2 steps for this section; this record is 1. The section carries no numbered step markers at all: it is a single continuous paragraph headed 一锅法 (one-pot method), and the two transformations A0 counted are the carbonylative esterification of 式(IV)化合物 with CO and the subsequent acetone-cyanohydrin-promoted rearrangement of that ester to tembotrione. There is no workup between them - the batch is only cooled from 80-85 C to 70 C and the acetone cyanohydrin is added to the same pot - so rule 5 makes it one record with is_one_pot true and the two transformations listed in one_pot_steps. reaction_class and the temperature are taken from the final transformation, per rules 5 and 9, so the structured temperature and time are the 70 C and 5 h of the rearrangement. Both stages are nonetheless recoverable from this record: one_pot_steps carries each stage in document order with its own conditions, the first stage running at 80 to 85 C for about 8 h under CO at about 1 to 4 MPa and the second at 70 C for 5 h after the acetone cyanohydrin was added, and conditions.pressure and the CO and acetone cyanohydrin addition profiles say which stage each belongs to. Reaction class: the carbonylation stage here is the same transformation that Examples 6, 7, 9 and 11 record as other_cross_coupling, but this record is one-pot and rule 5 assigns the class from the final transformation, so the class is acylation for the rearrangement and the carbonylation is carried in one_pot_steps and in the tags instead. Linkage: 式(IV)化合物 is the section product of Example 5 under the identical A1 identifier and the identical drawn SMILES, so the charge is matched by compound identity rather than by the sections being near each other; precursor_step is Example 5::Step 1 and linkage_confirmed is true. Drawing: the scheme on line 535 has one arrow, 式(IV)化合物 to tembotrione, and its conditions list CO, cyclohexane-1,3-dione and acetone cyanohydrin. Reactant, product and two of the three drawn reagents agree with the prose. Cyclohexane-1,3-dione is drawn on the arrow but never written in this section's procedure, which is why reagent_drawn_not_written is raised; it is chemically required for the drawn product and is carried as a reactant with no quantity. That single arrow also corroborates treating the paragraph as one record. Translation: 环磺酮 is tembotrione. The vision pass originally rendered it as sulcotrione (磺草酮) on these lines; the English was corrected during this run and the Chinese is authoritative, so no translation_conflict is raised. 丙酮氰醇 is acetone cyanohydrin, not cyanoacetone. Reactor: an autoclave (高压釜); no volume is printed. A stirrer is used in the workup (加热至50℃搅拌, 冰浴搅拌) but the type is never named, so stirring.type is left null. The page break between line 539 and line 542 splits the sentence 过|滤; procedure_text rejoins it and drops the vision pass's 'None' page-break artifact at the head of line 542. | GOLD FIX 2026-09-02 (phase 2, ranges): pressure value_kpa_min/max = 1000/4000 kPa, from 1～4MPa at line 537. value_kpa stays null because the patent gives a range, not a point. | GOLD FIX 2026-09-02 (phase 2, ranges): ph_value_min/max = 2.0/3.0 from 调酸至pH为2～3 at line 537. ph_value stays null: a range is not a point. | GOLD FIX 2026-09-02 (phase 2, ranges): workup ph_intermediate_min/max = 8/9 from 用氢氧化钠溶液调节pH至8～9 at line 537, the basification that precedes the final acidification to 2-3. Previously recorded nowhere. The pre-existing ph_target=2.0 kept the bottom of the 2-3 range only. | GOLD FIX 2026-09-02 (phase 2): conditions.stages added. Stage 1 (80-85 C, about 8 h) was previously only in one_pot_steps prose; the top-level conditions keep stage 2 per the one-pot rule. Total residence 13 h is now recoverable. | GOLD FIX 2026-09-02 (phase 2): approximate marker set on time_h, pressure: the patent writes 约 / 大约 / 左右 (about, around), so the stored figure is not an exact measurement. | GOLD FIX 2026-09-02 (phase 2): tag analytics:melting_point added. Line 542 prints 熔点120-122℃. | GOLD FIX 2026-09-02 (phase 2 final sweep): stirring.type set to stirred. Line 537 states stirring twice in the work-up: 加热至50℃搅拌 (heated to 50 C and stirred) and 冰浴搅拌0.5h (stirred in an ice bath for 0.5 h). No rate is given. | GOLD FIX 2026-09-02 (phase 2 final sweep): cooling_method added from line 537: 将溶液冷却到室温并冰浴搅拌0.5h (the solution was cooled to room temperature and stirred in an ice bath for 0.5 h). Previously recorded nowhere. | GOLD FIX 2026-09-02 (phase 2 final sweep): workup.post_precipitation_hold_h = 0.5 from 冰浴搅拌0.5h at line 537. The 0.5 h ice-bath hold after precipitation had no numeric home; conditions.time_h holds the 5 h of the second reaction stage. | GOLD FIX 2026-09-02 (phase 2 final sweep): conditions.ph_target_stage populated. Line 537 makes two pH adjustments in sequence and this is the only record in the file where the stage matters; the two values are held in ph_value_min/max (2-3, the final target) and workup.ph_intermediate_min/max (8-9). | GOLD FIX 2026-09-02 (final audit): top-level time_h_approximate REMOVED. Line 537 reads 反应约8h后降温至70℃...继续反应5h: 约 (about) qualifies the 8 h of stage 1 only, and the 5 h of stage 2 is printed flat. time_h holds stage 2, so the flag was wrong; conditions.stages already marks stage 1 approximate and stage 2 not. My earlier blanket application of the marker was the error. | GOLD FIX 2026-09-02 (final audit): workup.ph_target set to null. It held 2.0 for 调酸至pH为2～3, which is a range stored as its lower bound; records 32, 40, 41 and 44 correctly hold null for the identical phrase. The range lives in ph_target_min/max and ph_value_min/max. | GOLD FIX 2026-09-02 (final audit): process_control.nmr_solvent = DMSO, from line 544: the patent states the NMR solvent for every spectrum it references, here for the compound of formula (tembotrione). A grep for CDCl3 across reactions.json previously returned zero hits, so this stated analytical detail was held nowhere in the file.",
+    "notes": "A0 estimated 2 steps for this section; this record is 1. The section carries no numbered step markers at all: it is a single continuous paragraph headed 一锅法 (one-pot method), and the two transformations A0 counted are the carbonylative esterification of 式(IV)化合物 with CO and the subsequent acetone-cyanohydrin-promoted rearrangement of that ester to tembotrione. There is no workup between them - the batch is only cooled from 80-85 C to 70 C and the acetone cyanohydrin is added to the same pot - so rule 5 makes it one record with is_one_pot true and the two transformations listed in one_pot_steps. reaction_class and the temperature are taken from the final transformation, per rules 5 and 9, so the structured temperature and time are the 70 C and 5 h of the rearrangement. Both stages are nonetheless recoverable from this record: one_pot_steps carries each stage in document order with its own conditions, the first stage running at 80 to 85 C for about 8 h under CO at about 1 to 4 MPa and the second at 70 C for 5 h after the acetone cyanohydrin was added, and conditions.pressure and the CO and acetone cyanohydrin addition profiles say which stage each belongs to. Reaction class: the carbonylation stage here is the same transformation that Examples 6, 7, 9 and 11 record as other_cross_coupling, but this record is one-pot and rule 5 assigns the class from the final transformation, so the class is acylation for the rearrangement and the carbonylation is carried in one_pot_steps and in the tags instead. Linkage: 式(IV)化合物 is the section product of Example 5 under the identical A1 identifier and the identical drawn SMILES, so the charge is matched by compound identity rather than by the sections being near each other; precursor_step is Example 5::Step 1 and linkage_confirmed is true. Drawing: the scheme on line 535 has one arrow, 式(IV)化合物 to tembotrione, and its conditions list CO, cyclohexane-1,3-dione and acetone cyanohydrin. Reactant, product and two of the three drawn reagents agree with the prose. Cyclohexane-1,3-dione is drawn on the arrow but never written in this section's procedure, which is why reagent_drawn_not_written is raised; it is chemically required for the drawn product and is carried as a reactant with no quantity. That single arrow also corroborates treating the paragraph as one record. Translation: 环磺酮 is tembotrione. The vision pass originally rendered it as sulcotrione (磺草酮) on these lines; the English was corrected during this run and the Chinese is authoritative, so no translation_conflict is raised. 丙酮氰醇 is acetone cyanohydrin, not cyanoacetone. Reactor: an autoclave (高压釜); no volume is printed. A stirrer is used in the workup (加热至50℃搅拌, 冰浴搅拌) but the type is never named, so stirring.type is left null. The page break between line 539 and line 542 splits the sentence 过|滤; procedure_text rejoins it and drops the vision pass's 'None' page-break artifact at the head of line 542. | GOLD FIX 2026-09-02 (phase 2, ranges): pressure value_kpa_min/max = 1000/4000 kPa, from 1～4MPa at line 537. value_kpa stays null because the patent gives a range, not a point. | GOLD FIX 2026-09-02 (phase 2, ranges): ph_value_min/max = 2.0/3.0 from 调酸至pH为2～3 at line 537. ph_value stays null: a range is not a point. | GOLD FIX 2026-09-02 (phase 2, ranges): workup ph_intermediate_min/max = 8/9 from 用氢氧化钠溶液调节pH至8～9 at line 537, the basification that precedes the final acidification to 2-3. Previously recorded nowhere. The pre-existing ph_target=2.0 kept the bottom of the 2-3 range only. | GOLD FIX 2026-09-02 (phase 2): conditions.stages added. Stage 1 (80-85 C, about 8 h) was previously only in one_pot_steps prose; the top-level conditions keep stage 2 per the one-pot rule. Total residence 13 h is now recoverable. | GOLD FIX 2026-09-02 (phase 2): approximate marker set on time_h, pressure: the patent writes 约 / 大约 / 左右 (about, around), so the stored figure is not an exact measurement. | GOLD FIX 2026-09-02 (phase 2): tag analytics:melting_point added. Line 542 prints 熔点120-122℃. | GOLD FIX 2026-09-02 (phase 2 final sweep): stirring.type set to stirred. Line 537 states stirring twice in the work-up: 加热至50℃搅拌 (heated to 50 C and stirred) and 冰浴搅拌0.5h (stirred in an ice bath for 0.5 h). No rate is given. | GOLD FIX 2026-09-02 (phase 2 final sweep): cooling_method added from line 537: 将溶液冷却到室温并冰浴搅拌0.5h (the solution was cooled to room temperature and stirred in an ice bath for 0.5 h). Previously recorded nowhere. | GOLD FIX 2026-09-02 (phase 2 final sweep): workup.post_precipitation_hold_h = 0.5 from 冰浴搅拌0.5h at line 537. The 0.5 h ice-bath hold after precipitation had no numeric home; conditions.time_h holds the 5 h of the second reaction stage. | GOLD FIX 2026-09-02 (phase 2 final sweep): conditions.ph_target_stage populated. Line 537 makes two pH adjustments in sequence and this is the only record in the file where the stage matters; the two values are held in ph_value_min/max (2-3, the final target) and workup.ph_intermediate_min/max (8-9).",
     "id": "WO2024109718A1_Example_10_Step_1",
     "reaction_uuid": "7614c960-edb3-5e08-b304-f07e9f2ae025"
   },
@@ -7273,7 +7271,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (IV)",
+        "identifier": "式(IV)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -7565,8 +7563,7 @@
         "injection_ul": 5.0,
         "stated_at_line": 435,
         "override_note": "Example 2 states 除检测波长为254nm，其它与实施例1相同 at line 445: identical to Example 1 except the detection wavelength is 254 nm."
-      },
-      "nmr_solvent": "CDCl3"
+      }
     },
     "byproduct_recovery": null,
     "safety_notes": [],
@@ -7578,7 +7575,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (VI)",
+        "identifier": "式(VI)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -7664,7 +7661,7 @@
         "purity_method": null
       },
       {
-        "identifier": "compound of formula (I)",
+        "identifier": "式(I)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -7718,7 +7715,7 @@
       "linkage:cross_section_linked",
       "is_one_pot:false"
     ],
-    "notes": "The section carries no numbered step markers; it is one charge, one transformation and one workup, so it is annotated as a single step. That matches A0's estimate of 1. Ring bromination of the aryl methyl sulfide of formula (VI) to the aryl bromide of formula (I), consistent with the patent being about tembotrione. The reaction scheme on line 441 agrees with the prose: the same substrate skeleton, Br2 on the arrow, and a product bearing one new aromatic bromine, so no drawing/text conflict is raised. The arrow carries only Br2 while the prose also names dichloromethane as solvent and sodium hydroxide for the quench and washes; that is ordinary scheme abbreviation rather than a disagreement, so no reagent flag is raised. Temperature is printed as 10℃左右, i.e. approximately 10 C, and it is the only temperature given, so it is recorded as the step temperature as well as in the bromine addition profile. No reaction time is printed; the endpoint is set by HPLC. The starting material of formula (VI) is the product of Example 1. A1 records that product under the English identifier 'compound of formula (VI)' and records the reactant here under the Chinese identifier 式(VI)化合物; the two spellings name one substance, the label (VI) is the document's own, and the drawings give the same SMILES for both, so this is an identity match and not an inference from the sections being adjacent. precursor_step is therefore Example 1::Step 1 and linkage_confirmed is true. No isolated mass, yield or purity is printed for the product, so no mass balance can be computed and none is asserted. The 1H and 13C NMR spectra are given only as references to Figures 3 and 4. The HPLC conditions on line 445 are given by reference to Example 1, outside this section, and only the 254 nm detection wavelength is stated here. A stirrer is not mentioned, so stirring is left null; no reactor volume is printed. | GOLD FIX 2026-09-02 (phase 2): compounds[].concentration_pct added: sodium hydroxide 32.0%. The single conditions.concentration slot could hold only one of these. | GOLD FIX 2026-09-02 (phase 2): approximate marker set on temperature: the patent writes 约 / 大约 / 左右 (about, around), so the stored figure is not an exact measurement. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 445 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it. | GOLD FIX 2026-09-02 (final audit): process_control.nmr_solvent = CDCl3, from line 447: the patent states the NMR solvent for every spectrum it references, here for the compound of formula (I). A grep for CDCl3 across reactions.json previously returned zero hits, so this stated analytical detail was held nowhere in the file.",
+    "notes": "The section carries no numbered step markers; it is one charge, one transformation and one workup, so it is annotated as a single step. That matches A0's estimate of 1. Ring bromination of the aryl methyl sulfide of formula (VI) to the aryl bromide of formula (I), consistent with the patent being about tembotrione. The reaction scheme on line 441 agrees with the prose: the same substrate skeleton, Br2 on the arrow, and a product bearing one new aromatic bromine, so no drawing/text conflict is raised. The arrow carries only Br2 while the prose also names dichloromethane as solvent and sodium hydroxide for the quench and washes; that is ordinary scheme abbreviation rather than a disagreement, so no reagent flag is raised. Temperature is printed as 10℃左右, i.e. approximately 10 C, and it is the only temperature given, so it is recorded as the step temperature as well as in the bromine addition profile. No reaction time is printed; the endpoint is set by HPLC. The starting material of formula (VI) is the product of Example 1. A1 records that product under the English identifier 'compound of formula (VI)' and records the reactant here under the Chinese identifier 式(VI)化合物; the two spellings name one substance, the label (VI) is the document's own, and the drawings give the same SMILES for both, so this is an identity match and not an inference from the sections being adjacent. precursor_step is therefore Example 1::Step 1 and linkage_confirmed is true. No isolated mass, yield or purity is printed for the product, so no mass balance can be computed and none is asserted. The 1H and 13C NMR spectra are given only as references to Figures 3 and 4. The HPLC conditions on line 445 are given by reference to Example 1, outside this section, and only the 254 nm detection wavelength is stated here. A stirrer is not mentioned, so stirring is left null; no reactor volume is printed. | GOLD FIX 2026-09-02 (phase 2): compounds[].concentration_pct added: sodium hydroxide 32.0%. The single conditions.concentration slot could hold only one of these. | GOLD FIX 2026-09-02 (phase 2): approximate marker set on temperature: the patent writes 约 / 大约 / 左右 (about, around), so the stored figure is not an exact measurement. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 445 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it.",
     "id": "WO2024109718A1_Example_2_Step_1",
     "reaction_uuid": "29a8bb4d-705f-504c-bca7-61e1acb2e4b9"
   },
@@ -7810,8 +7807,7 @@
         "detection_nm": 210.0,
         "injection_ul": 5.0,
         "stated_at_line": 435
-      },
-      "nmr_solvent": "CDCl3"
+      }
     },
     "byproduct_recovery": null,
     "safety_notes": [],
@@ -7823,7 +7819,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (I)",
+        "identifier": "式(I)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -7909,7 +7905,7 @@
         "purity_method": null
       },
       {
-        "identifier": "compound of formula (II)",
+        "identifier": "式(II)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -7965,7 +7961,7 @@
       "linkage:cross_section_linked",
       "is_one_pot:false"
     ],
-    "notes": "Single transformation, matching A0's estimate of one step: the section charges the formula (I) sulfide once, adds peroxide, and works the product up once, so there is no second step to split off. Reactor is 四口烧瓶 (four-necked flask); no vessel volume is printed. 80℃ is the temperature the vessel is raised to and the temperature at which the peroxide is added dropwise, so it is recorded as the step temperature and also in the oxidant's addition_profile. 23％的双氧水224g is the mass of the aqueous peroxide solution as printed; the patent states no contained-H2O2 mass and none is derived here. The reaction-scheme span on line 451 agrees with the prose: it draws the methylthio arene going to the corresponding methanesulfonyl arene over H2O2, which is the oxidation the text describes, so no drawing_text_conflict is raised. The arrow does carry H2O2 alone, with no sodium tungstate and no acetic acid, both of which the prose charges, hence reagent_written_not_drawn. The formula (I) starting material is the section product of Example 2 in this same patent. Both sections carry it under the same A1 identifier 式(I)化合物 and the drawings give it the same SMILES, so the match is by compound identity rather than by the sections being adjacent; precursor_step is Example 2::Step 1 and linkage_confirmed is true. No isolated mass and no yield are printed for the formula (II) product, so there is nothing to check a mass balance against and no such flag is raised. HPLC conditions are deferred to Example 1 (与实施例1相同) and the NMR is referred to only as Figures 5 and 6, so neither is transcribed here. | GOLD FIX 2026-09-02 (phase 2): compounds[].concentration_pct added: hydrogen peroxide 23.0%. The single conditions.concentration slot could hold only one of these. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 460 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it. | GOLD FIX 2026-09-02 (phase 2): purification set to null and tag purification:none kept. Line 458 describes only filtration, washing and drying, which the workup field already carries in full; there is no purification operation in this example. The field previously duplicated workup while the tag said none, so the two contradicted each other. Removed text: filter cake washed twice with water and dried at 60 C | GOLD FIX 2026-09-02 (final audit): process_control.nmr_solvent = CDCl3, from line 462: the patent states the NMR solvent for every spectrum it references, here for the compound of formula (II). A grep for CDCl3 across reactions.json previously returned zero hits, so this stated analytical detail was held nowhere in the file.",
+    "notes": "Single transformation, matching A0's estimate of one step: the section charges the formula (I) sulfide once, adds peroxide, and works the product up once, so there is no second step to split off. Reactor is 四口烧瓶 (four-necked flask); no vessel volume is printed. 80℃ is the temperature the vessel is raised to and the temperature at which the peroxide is added dropwise, so it is recorded as the step temperature and also in the oxidant's addition_profile. 23％的双氧水224g is the mass of the aqueous peroxide solution as printed; the patent states no contained-H2O2 mass and none is derived here. The reaction-scheme span on line 451 agrees with the prose: it draws the methylthio arene going to the corresponding methanesulfonyl arene over H2O2, which is the oxidation the text describes, so no drawing_text_conflict is raised. The arrow does carry H2O2 alone, with no sodium tungstate and no acetic acid, both of which the prose charges, hence reagent_written_not_drawn. The formula (I) starting material is the section product of Example 2 in this same patent. Both sections carry it under the same A1 identifier 式(I)化合物 and the drawings give it the same SMILES, so the match is by compound identity rather than by the sections being adjacent; precursor_step is Example 2::Step 1 and linkage_confirmed is true. No isolated mass and no yield are printed for the formula (II) product, so there is nothing to check a mass balance against and no such flag is raised. HPLC conditions are deferred to Example 1 (与实施例1相同) and the NMR is referred to only as Figures 5 and 6, so neither is transcribed here. | GOLD FIX 2026-09-02 (phase 2): compounds[].concentration_pct added: hydrogen peroxide 23.0%. The single conditions.concentration slot could hold only one of these. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 460 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it. | GOLD FIX 2026-09-02 (phase 2): purification set to null and tag purification:none kept. Line 458 describes only filtration, washing and drying, which the workup field already carries in full; there is no purification operation in this example. The field previously duplicated workup while the tag said none, so the two contradicted each other. Removed text: filter cake washed twice with water and dried at 60 C",
     "id": "WO2024109718A1_Example_3_Step_1",
     "reaction_uuid": "ddfabc54-3bef-549c-9702-2af34d4b360a"
   },
@@ -8059,8 +8055,7 @@
         "detection_nm": 210.0,
         "injection_ul": 5.0,
         "stated_at_line": 435
-      },
-      "nmr_solvent": "CDCl3"
+      }
     },
     "byproduct_recovery": null,
     "safety_notes": [],
@@ -8072,7 +8067,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (II)",
+        "identifier": "式(II)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -8175,7 +8170,7 @@
         "purity_method": null
       },
       {
-        "identifier": "compound of formula (III)",
+        "identifier": "式(III)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -8230,7 +8225,7 @@
       "transformation:bromination",
       "workup_type:aqueous_extraction"
     ],
-    "notes": "Document marker is 方法1, so step_label keeps the document's own marker rather than being renumbered as Step 1. This section prints two alternative preparations of the same product, 方法1 here and 方法2 in the next record. They are recorded as two records because each carries its own charge of the same starting material, its own reagent set, its own solvent and its own workup, which is exactly the boundary rule; they are alternatives rather than a sequence, so neither is the precursor of the other and step_index only reflects document order. Reactor is a 四口圆底烧瓶 with no volume printed. 60℃ is the only reaction temperature stated; the 50℃ of the rotary evaporation and the 60℃ of the drying are workup, not reaction, temperatures. The scheme on line 466 shows one arrow from the drawn 式(II) structure to the drawn 式(III) structure with the condition text 溴代试剂, a class term rather than a named compound. The prose fills that placeholder with bromine here and with N-bromosuccinimide in 方法2, so the drawing and the prose agree and no drawing_text_conflict is raised; 溴代试剂 is deliberately not carried in compounds[] because it is a generic label, not a reagent charged in this procedure, and reagent_drawn_not_written is not raised for the same reason. HPLC conditions are given by reference on line 472 as the same as Example 1, which is a locatable section of this document. The starting material 式(II)化合物 is the section product of Example 3 and carries the same A1 identifier and the same drawn SMILES in both sections, so the match is by compound identity; precursor_step is Example 3::Step 1 and linkage_confirmed is true. No product mass and no yield are printed, so nothing constrains a mass balance here and no flag is raised. Melting point is printed for this method only. | GOLD FIX 2026-09-02 (phase 2): compounds[].concentration_pct added: sodium hydroxide 32.0%. The single conditions.concentration slot could hold only one of these. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 472 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it. | GOLD FIX 2026-09-02 (phase 2): tag analytics:nmr added. Line 474 gives 1H and 13C NMR figure references for the compound of formula (III), the product of this example. | GOLD FIX 2026-09-02 (final audit): process_control.nmr_solvent = CDCl3, from line 474: the patent states the NMR solvent for every spectrum it references, here for the compound of formula (III). A grep for CDCl3 across reactions.json previously returned zero hits, so this stated analytical detail was held nowhere in the file.",
+    "notes": "Document marker is 方法1, so step_label keeps the document's own marker rather than being renumbered as Step 1. This section prints two alternative preparations of the same product, 方法1 here and 方法2 in the next record. They are recorded as two records because each carries its own charge of the same starting material, its own reagent set, its own solvent and its own workup, which is exactly the boundary rule; they are alternatives rather than a sequence, so neither is the precursor of the other and step_index only reflects document order. Reactor is a 四口圆底烧瓶 with no volume printed. 60℃ is the only reaction temperature stated; the 50℃ of the rotary evaporation and the 60℃ of the drying are workup, not reaction, temperatures. The scheme on line 466 shows one arrow from the drawn 式(II) structure to the drawn 式(III) structure with the condition text 溴代试剂, a class term rather than a named compound. The prose fills that placeholder with bromine here and with N-bromosuccinimide in 方法2, so the drawing and the prose agree and no drawing_text_conflict is raised; 溴代试剂 is deliberately not carried in compounds[] because it is a generic label, not a reagent charged in this procedure, and reagent_drawn_not_written is not raised for the same reason. HPLC conditions are given by reference on line 472 as the same as Example 1, which is a locatable section of this document. The starting material 式(II)化合物 is the section product of Example 3 and carries the same A1 identifier and the same drawn SMILES in both sections, so the match is by compound identity; precursor_step is Example 3::Step 1 and linkage_confirmed is true. No product mass and no yield are printed, so nothing constrains a mass balance here and no flag is raised. Melting point is printed for this method only. | GOLD FIX 2026-09-02 (phase 2): compounds[].concentration_pct added: sodium hydroxide 32.0%. The single conditions.concentration slot could hold only one of these. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 472 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it. | GOLD FIX 2026-09-02 (phase 2): tag analytics:nmr added. Line 474 gives 1H and 13C NMR figure references for the compound of formula (III), the product of this example.",
     "id": "WO2024109718A1_Example_4_Method_1",
     "reaction_uuid": "8b3a6615-62fc-5cfd-b6db-e2387e63179a"
   },
@@ -8320,8 +8315,7 @@
         "detection_nm": 210.0,
         "injection_ul": 5.0,
         "stated_at_line": 435
-      },
-      "nmr_solvent": "CDCl3"
+      }
     },
     "byproduct_recovery": null,
     "safety_notes": [],
@@ -8333,7 +8327,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (II)",
+        "identifier": "式(II)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -8418,7 +8412,7 @@
         "purity_method": null
       },
       {
-        "identifier": "compound of formula (III)",
+        "identifier": "式(III)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -8473,7 +8467,7 @@
       "transformation:bromination",
       "workup_type:filtration"
     ],
-    "notes": "Document marker is 方法2, so step_label keeps the document's own marker. This is the alternative preparation of the same product as 方法1 and not a step that follows it: the same 84g charge of 式(II)化合物 is taken again, the reagent and solvent differ, and the workup is independent, so the two are recorded as two records rather than one. Only the brominating agent, the solvent and the isolation differ between the two methods; the substrate charge, the initiator charge, the reaction temperature and the HPLC monitoring are identical. NBS with a peroxide initiator in a halogenated solvent at moderate temperature is the classical Wohl-Ziegler bromination, which is why named_reaction is populated here and left null for the bromine variant. 60℃ is the only reaction temperature stated; the 50℃ rotary evaporation and the 60℃ drying of the filter cake are workup. The first filtration removes the succinimide by-product, though the text does not say so and no by-product recovery is described. The scheme on line 466 draws a single arrow labelled 溴代试剂, a class term that this method fills with N-bromosuccinimide, so drawing and prose agree and nothing is flagged. HPLC conditions are given by reference on line 472 as the same as Example 1. 式(II)化合物 is the section product of Example 3 and carries the same A1 identifier and the same drawn SMILES in both sections, so precursor_step is Example 3::Step 1 by identity and linkage_confirmed is true. Method 2 takes the same starting material as Method 1 and is an alternative to it, not a step following it, so it points back to Example 3 exactly as Method 1 does. No product mass and no yield are printed, so no mass balance can be checked and none is invented. No melting point is printed for this method. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 472 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it. | GOLD FIX 2026-09-02 (phase 2): tag analytics:nmr added. Line 474 gives 1H and 13C NMR figure references for the compound of formula (III), the product of this example. | GOLD FIX 2026-09-02 (final audit): process_control.nmr_solvent = CDCl3, from line 474: the patent states the NMR solvent for every spectrum it references, here for the compound of formula (III). A grep for CDCl3 across reactions.json previously returned zero hits, so this stated analytical detail was held nowhere in the file.",
+    "notes": "Document marker is 方法2, so step_label keeps the document's own marker. This is the alternative preparation of the same product as 方法1 and not a step that follows it: the same 84g charge of 式(II)化合物 is taken again, the reagent and solvent differ, and the workup is independent, so the two are recorded as two records rather than one. Only the brominating agent, the solvent and the isolation differ between the two methods; the substrate charge, the initiator charge, the reaction temperature and the HPLC monitoring are identical. NBS with a peroxide initiator in a halogenated solvent at moderate temperature is the classical Wohl-Ziegler bromination, which is why named_reaction is populated here and left null for the bromine variant. 60℃ is the only reaction temperature stated; the 50℃ rotary evaporation and the 60℃ drying of the filter cake are workup. The first filtration removes the succinimide by-product, though the text does not say so and no by-product recovery is described. The scheme on line 466 draws a single arrow labelled 溴代试剂, a class term that this method fills with N-bromosuccinimide, so drawing and prose agree and nothing is flagged. HPLC conditions are given by reference on line 472 as the same as Example 1. 式(II)化合物 is the section product of Example 3 and carries the same A1 identifier and the same drawn SMILES in both sections, so precursor_step is Example 3::Step 1 by identity and linkage_confirmed is true. Method 2 takes the same starting material as Method 1 and is an alternative to it, not a step following it, so it points back to Example 3 exactly as Method 1 does. No product mass and no yield are printed, so no mass balance can be checked and none is invented. No melting point is printed for this method. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 472 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it. | GOLD FIX 2026-09-02 (phase 2): tag analytics:nmr added. Line 474 gives 1H and 13C NMR figure references for the compound of formula (III), the product of this example.",
     "id": "WO2024109718A1_Example_4_Method_2",
     "reaction_uuid": "ccf449f0-9185-519f-9f75-8b63c4baa5df"
   },
@@ -8587,8 +8581,7 @@
         "detection_nm": 210.0,
         "injection_ul": 5.0,
         "stated_at_line": 485
-      },
-      "nmr_solvent": "DMSO"
+      }
     },
     "byproduct_recovery": null,
     "safety_notes": [],
@@ -8600,7 +8593,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (III)",
+        "identifier": "式(III)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -8788,7 +8781,7 @@
         "purity_method": null
       },
       {
-        "identifier": "compound of formula (IV)",
+        "identifier": "式(IV)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -8847,7 +8840,7 @@
       "linkage:cross_section_linked",
       "is_one_pot:true"
     ],
-    "notes": "One numbered example, one record, matching A0's estimate of one step. Treated as one pot: the alkoxide is generated in situ and the benzylic bromide is added to the same flask with no workup between the two transformations, so reaction_class is taken from the final O-alkylation. Temperature is taken from that final transformation, 不超过15℃ (not above 15 C) during the addition of 式(III)化合物, which is an upper bound only and so is recorded as a range with no lower limit; the -5 to 5 C printed earlier belongs to the sodium hydride and trifluoroethanol charge and is kept in those compounds' addition_profile. The prose states 将60％氢化钠9.2g溶于80mL无水四氢呋喃中, that the sodium hydride was dissolved in tetrahydrofuran; sodium hydride does not dissolve in tetrahydrofuran, and the wording is transcribed as printed rather than corrected. The drawn scheme on line 478 agrees with the prose on the transformation and on both structures, but gives CF3CH2ONa over the arrow, a pre-formed sodium trifluoroethoxide the prose never names, while the sodium hydride and trifluoroethanol the prose does charge appear nowhere on the arrow: hence reagent_drawn_not_written and reagent_written_not_drawn. CF3CH2ONa is carried in compounds as a drawing-only reagent and is deliberately absent from reactant_names, which follows the prose. No product mass and no yield are printed, only the melting point 80-82℃, so no mass balance can be computed. The reactant 式(III)化合物 is the section product of Example 4 under the identical A1 identifier and the identical drawn SMILES, so the link is by compound identity. Example 4 prints two alternative preparations of that same compound, labelled 方法1 and 方法2, and either could have supplied this charge; precursor_step names the first, Example 4::Method 1, and linkage_confirmed is true, with Example 4::Method 2 recorded here as an equally valid precursor that the document does not distinguish between. 搅拌 records that the mixture was stirred without naming a stirrer type, so stirring.type is null. No atmosphere, reaction time, reactor or pressure is stated. Tetrahydrofuran is charged in three separate portions and each is carried as its own compounds[] entry with its own printed volume and its own addition_profile: the portion the sodium hydride is taken up in, the portion carrying the trifluoroethanol added dropwise to it, and the portion carrying the 式(III)化合物 solution added dropwise last. The patent prints no combined charge and none is summed here, so recording a single entry would have had to pick one portion and drop the other two. | GOLD FIX 2026-09-02 (phase 2): conditions.stages added. Stage 1 at -5 to 5 C was only in compounds addition_profile prose. Stage 2 keeps the 不超过15℃ upper bound with no lower bound, as printed. | GOLD FIX 2026-09-02 (phase 2): compounds[].concentration_pct added: sodium hydride 60.0%. The single conditions.concentration slot could hold only one of these. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Method as printed at line 485. | GOLD FIX 2026-09-02 (phase 2): stirring.type set to stirred (no rate given). Line 484: 滴加完毕后，搅拌 (after the addition was complete, stirred). | GOLD FIX 2026-09-02 (phase 2): stoichiometry restated: 9.2 g of 60% sodium hydride is 5.52 g = 0.2300 mol and 24 g of trifluoroethanol is 0.2399 mol, against 0.2290 mol of compound (III) (83 g, MW 362.46). That is 1.004 and 1.048 equivalents, essentially stoichiometric. An earlier arithmetic note calling both charges an excess was wrong. | GOLD FIX 2026-09-02 (final audit): process_control.nmr_solvent = DMSO, from line 487: the patent states the NMR solvent for every spectrum it references, here for the compound of formula (IV). A grep for CDCl3 across reactions.json previously returned zero hits, so this stated analytical detail was held nowhere in the file.",
+    "notes": "One numbered example, one record, matching A0's estimate of one step. Treated as one pot: the alkoxide is generated in situ and the benzylic bromide is added to the same flask with no workup between the two transformations, so reaction_class is taken from the final O-alkylation. Temperature is taken from that final transformation, 不超过15℃ (not above 15 C) during the addition of 式(III)化合物, which is an upper bound only and so is recorded as a range with no lower limit; the -5 to 5 C printed earlier belongs to the sodium hydride and trifluoroethanol charge and is kept in those compounds' addition_profile. The prose states 将60％氢化钠9.2g溶于80mL无水四氢呋喃中, that the sodium hydride was dissolved in tetrahydrofuran; sodium hydride does not dissolve in tetrahydrofuran, and the wording is transcribed as printed rather than corrected. The drawn scheme on line 478 agrees with the prose on the transformation and on both structures, but gives CF3CH2ONa over the arrow, a pre-formed sodium trifluoroethoxide the prose never names, while the sodium hydride and trifluoroethanol the prose does charge appear nowhere on the arrow: hence reagent_drawn_not_written and reagent_written_not_drawn. CF3CH2ONa is carried in compounds as a drawing-only reagent and is deliberately absent from reactant_names, which follows the prose. No product mass and no yield are printed, only the melting point 80-82℃, so no mass balance can be computed. The reactant 式(III)化合物 is the section product of Example 4 under the identical A1 identifier and the identical drawn SMILES, so the link is by compound identity. Example 4 prints two alternative preparations of that same compound, labelled 方法1 and 方法2, and either could have supplied this charge; precursor_step names the first, Example 4::Method 1, and linkage_confirmed is true, with Example 4::Method 2 recorded here as an equally valid precursor that the document does not distinguish between. 搅拌 records that the mixture was stirred without naming a stirrer type, so stirring.type is null. No atmosphere, reaction time, reactor or pressure is stated. Tetrahydrofuran is charged in three separate portions and each is carried as its own compounds[] entry with its own printed volume and its own addition_profile: the portion the sodium hydride is taken up in, the portion carrying the trifluoroethanol added dropwise to it, and the portion carrying the 式(III)化合物 solution added dropwise last. The patent prints no combined charge and none is summed here, so recording a single entry would have had to pick one portion and drop the other two. | GOLD FIX 2026-09-02 (phase 2): conditions.stages added. Stage 1 at -5 to 5 C was only in compounds addition_profile prose. Stage 2 keeps the 不超过15℃ upper bound with no lower bound, as printed. | GOLD FIX 2026-09-02 (phase 2): compounds[].concentration_pct added: sodium hydride 60.0%. The single conditions.concentration slot could hold only one of these. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Method as printed at line 485. | GOLD FIX 2026-09-02 (phase 2): stirring.type set to stirred (no rate given). Line 484: 滴加完毕后，搅拌 (after the addition was complete, stirred). | GOLD FIX 2026-09-02 (phase 2): stoichiometry restated: 9.2 g of 60% sodium hydride is 5.52 g = 0.2300 mol and 24 g of trifluoroethanol is 0.2399 mol, against 0.2290 mol of compound (III) (83 g, MW 362.46). That is 1.004 and 1.048 equivalents, essentially stoichiometric. An earlier arithmetic note calling both charges an excess was wrong.",
     "id": "WO2024109718A1_Example_5_Step_1",
     "reaction_uuid": "56ca3a32-0959-5ecc-8133-0a1b034e6727"
   },
@@ -8948,8 +8941,7 @@
         "detection_nm": 210.0,
         "injection_ul": 5.0,
         "stated_at_line": 485
-      },
-      "nmr_solvent": "DMSO"
+      }
     },
     "byproduct_recovery": null,
     "safety_notes": [],
@@ -8961,7 +8953,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (IV)",
+        "identifier": "式(IV)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -9114,7 +9106,7 @@
         "purity_method": null
       },
       {
-        "identifier": "compound of formula (V)",
+        "identifier": "式(V)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -9173,7 +9165,7 @@
       "workup_type:filtration",
       "workup_type:precipitation"
     ],
-    "notes": "One step, matching A0's estimate of 1: a single charge, one transformation and one workup. Palladium-catalysed hydroxycarbonylation of the aryl bromide of formula (IV) with CO and water to the benzoic acid of formula (V); no listed reaction_class names carbonylation, so other_cross_coupling is used for the Pd-catalysed replacement of the C-Br bond. Pressure is recorded as a condition (elevated, about 1 to 4 MPa) and not as a quantity, and the qualitative text carries the printed range because no single kPa value is stated. The reaction temperature and time are the only ones printed. The drawn scheme immediately above the step agrees with the prose: one arrow, the formula (IV) bromide as sole drawn reactant, H2O and CO on the arrow, and the formula (V) benzoic acid as product; nothing is flagged. The compound of formula (IV) is the section product of Example 5 under the identical A1 identifier 式(IV)化合物 and the identical drawn SMILES, so the charge is matched by compound identity; precursor_step is Example 5::Step 1 and linkage_confirmed is true. This section's HPLC conditions are separately referred back to Example 5 as well. No isolated product mass is printed, only the yield and the melting point, so no mass balance can be checked against a printed mass. Reactor volume is not given. A stirrer is not mentioned, so stirring is left null. The 1H and 13C NMR are referred to as Figures 11 and 12 and carry no printed data. Reaction class across the carbonylations of this document: Examples 6 and 7 are the same transformation of the same substrate under CO, differing only in the phosphine ligand and the solvent, and Examples 9, 10 and 11 carbonylate the same aryl bromide as well. The class list has no carbonylation entry, so one value is chosen and used for all of them, other_cross_coupling: every one of them replaces a C-Br bond on an arene by a new carbon-carbon bond over a palladium/phosphine catalyst, which is the cross-coupling family, and other is reserved for transformations that fit no family at all. Using other for one of a matched pair and other_cross_coupling for the other would make two examples of one procedure look like two different reactions. Example 10 is the exception: it is one-pot and rule 5 takes its class from the final transformation, the rearrangement, not from its carbonylation stage. | GOLD FIX 2026-09-02: 'water' added to reactant_names; the charge list at line 493 includes 水20g and the sibling record Example 7_Step 1 already lists it. | GOLD FIX 2026-09-02 (phase 2, ranges): pressure value_kpa_min/max = 1000/4000 kPa, from 1～4MPa at line 493. value_kpa stays null because the patent gives a range, not a point. | GOLD FIX 2026-09-02 (phase 2, ranges): ph_value_min/max = 2.0/3.0 from 调酸至pH为2～3 at line 493. ph_value stays null: a range is not a point. | GOLD FIX 2026-09-02 (phase 2): approximate marker set on time_h, pressure: the patent writes 约 / 大约 / 左右 (about, around), so the stored figure is not an exact measurement. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 495 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it. | GOLD FIX 2026-09-02 (phase 2): tag analytics:melting_point added. Line 493 prints 熔点155-157℃. | GOLD FIX 2026-09-02 (phase 2): tag workup_type:precipitation added. Line 493 states 析出白色固体 (a white solid precipitates), exactly as its twin Example 7 records. | GOLD FIX 2026-09-02 (final audit): process_control.nmr_solvent = DMSO, from line 497: the patent states the NMR solvent for every spectrum it references, here for the compound of formula (V). A grep for CDCl3 across reactions.json previously returned zero hits, so this stated analytical detail was held nowhere in the file.",
+    "notes": "One step, matching A0's estimate of 1: a single charge, one transformation and one workup. Palladium-catalysed hydroxycarbonylation of the aryl bromide of formula (IV) with CO and water to the benzoic acid of formula (V); no listed reaction_class names carbonylation, so other_cross_coupling is used for the Pd-catalysed replacement of the C-Br bond. Pressure is recorded as a condition (elevated, about 1 to 4 MPa) and not as a quantity, and the qualitative text carries the printed range because no single kPa value is stated. The reaction temperature and time are the only ones printed. The drawn scheme immediately above the step agrees with the prose: one arrow, the formula (IV) bromide as sole drawn reactant, H2O and CO on the arrow, and the formula (V) benzoic acid as product; nothing is flagged. The compound of formula (IV) is the section product of Example 5 under the identical A1 identifier 式(IV)化合物 and the identical drawn SMILES, so the charge is matched by compound identity; precursor_step is Example 5::Step 1 and linkage_confirmed is true. This section's HPLC conditions are separately referred back to Example 5 as well. No isolated product mass is printed, only the yield and the melting point, so no mass balance can be checked against a printed mass. Reactor volume is not given. A stirrer is not mentioned, so stirring is left null. The 1H and 13C NMR are referred to as Figures 11 and 12 and carry no printed data. Reaction class across the carbonylations of this document: Examples 6 and 7 are the same transformation of the same substrate under CO, differing only in the phosphine ligand and the solvent, and Examples 9, 10 and 11 carbonylate the same aryl bromide as well. The class list has no carbonylation entry, so one value is chosen and used for all of them, other_cross_coupling: every one of them replaces a C-Br bond on an arene by a new carbon-carbon bond over a palladium/phosphine catalyst, which is the cross-coupling family, and other is reserved for transformations that fit no family at all. Using other for one of a matched pair and other_cross_coupling for the other would make two examples of one procedure look like two different reactions. Example 10 is the exception: it is one-pot and rule 5 takes its class from the final transformation, the rearrangement, not from its carbonylation stage. | GOLD FIX 2026-09-02: 'water' added to reactant_names; the charge list at line 493 includes 水20g and the sibling record Example 7_Step 1 already lists it. | GOLD FIX 2026-09-02 (phase 2, ranges): pressure value_kpa_min/max = 1000/4000 kPa, from 1～4MPa at line 493. value_kpa stays null because the patent gives a range, not a point. | GOLD FIX 2026-09-02 (phase 2, ranges): ph_value_min/max = 2.0/3.0 from 调酸至pH为2～3 at line 493. ph_value stays null: a range is not a point. | GOLD FIX 2026-09-02 (phase 2): approximate marker set on time_h, pressure: the patent writes 约 / 大约 / 左右 (about, around), so the stored figure is not an exact measurement. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 495 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it. | GOLD FIX 2026-09-02 (phase 2): tag analytics:melting_point added. Line 493 prints 熔点155-157℃. | GOLD FIX 2026-09-02 (phase 2): tag workup_type:precipitation added. Line 493 states 析出白色固体 (a white solid precipitates), exactly as its twin Example 7 records.",
     "id": "WO2024109718A1_Example_6_Step_1",
     "reaction_uuid": "a989fdfa-dea5-570c-a776-fc799e0d45f5"
   },
@@ -9265,7 +9257,16 @@
       "target_compound": null,
       "threshold_pct": null,
       "criterion": "reaction complete",
-      "analytical_method": null
+      "analytical_method": {
+        "instrument": "HPLC",
+        "column": "Kromasil C18 reverse phase",
+        "mobile_phase": "acetonitrile:water 60:40 (v/v) with 0.1% formic acid",
+        "flow_ml_min": 1.0,
+        "column_temp_c": 30.0,
+        "detection_nm": 210.0,
+        "injection_ul": 5.0,
+        "stated_at_line": 485
+      }
     },
     "byproduct_recovery": null,
     "safety_notes": [],
@@ -9277,7 +9278,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (IV)",
+        "identifier": "式(IV)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -9430,7 +9431,7 @@
         "purity_method": null
       },
       {
-        "identifier": "compound of formula (V)",
+        "identifier": "式(V)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -9488,7 +9489,7 @@
       "linkage:cross_section_linked",
       "is_one_pot:false"
     ],
-    "notes": "One step, matching the A0 estimate of one. Palladium catalysed hydroxycarbonylation of the formula (IV) aryl bromide with carbon monoxide and water; the class list has no carbonylation entry, so reaction_class is other_cross_coupling, the same value Example 6 carries for the identical transformation. The starting material 式(IV)化合物 is the section product of Example 5 under the identical A1 identifier and the identical drawn SMILES, so the charge is matched by compound identity; precursor_step is Example 5::Step 1 and linkage_confirmed is true. Pressure is recorded as an elevated condition with the printed range in qualitative_text, not as a quantity. The drawn scheme immediately above the procedure shows the same single arrow, the same aryl bromide reactant, H2O and CO on the arrow and the carboxylic acid product, and so agrees with the prose; nothing is flagged. The autoclave is 高压釜; no stirrer is named, so stirring type is left null. No isolated mass is printed, only a yield percentage, so no mass balance arithmetic is available to contradict. Melting point of the product is reported in the text and carried on the A1 compound record. Reaction class across the carbonylations of this document: Examples 6 and 7 are the same transformation of the same substrate under CO, differing only in the phosphine ligand and the solvent, and Examples 9, 10 and 11 carbonylate the same aryl bromide as well. The class list has no carbonylation entry, so one value is chosen and used for all of them, other_cross_coupling: every one of them replaces a C-Br bond on an arene by a new carbon-carbon bond over a palladium/phosphine catalyst, which is the cross-coupling family, and other is reserved for transformations that fit no family at all. Using other for one of a matched pair and other_cross_coupling for the other would make two examples of one procedure look like two different reactions. Example 10 is the exception: it is one-pot and rule 5 takes its class from the final transformation, the rearrangement, not from its carbonylation stage. | GOLD FIX 2026-09-02 (phase 2, ranges): pressure value_kpa_min/max = 1000/4000 kPa, from 1～4MPa at line 506. value_kpa stays null because the patent gives a range, not a point. | GOLD FIX 2026-09-02 (phase 2, ranges): ph_value_min/max = 2.0/3.0 from 调酸至pH为2～3 at line 506. ph_value stays null: a range is not a point. | GOLD FIX 2026-09-02 (phase 2): approximate marker set on time_h, pressure: the patent writes 约 / 大约 / 左右 (about, around), so the stored figure is not an exact measurement. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 495 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it. | GOLD FIX 2026-09-02 (final audit): process_control.analytical_method set to null. Example 7 ([0131]-[0132], lines 499-507) prints NO 高效液相色谱条件 paragraph; the nearest one at line 495 belongs to Example 6 ([0129]). Example 7 states only that the reaction was monitored by HPLC. Asserting Example 5's method here was my error: every other record's analytical_method cites a line inside its own section.",
+    "notes": "One step, matching the A0 estimate of one. Palladium catalysed hydroxycarbonylation of the formula (IV) aryl bromide with carbon monoxide and water; the class list has no carbonylation entry, so reaction_class is other_cross_coupling, the same value Example 6 carries for the identical transformation. The starting material 式(IV)化合物 is the section product of Example 5 under the identical A1 identifier and the identical drawn SMILES, so the charge is matched by compound identity; precursor_step is Example 5::Step 1 and linkage_confirmed is true. Pressure is recorded as an elevated condition with the printed range in qualitative_text, not as a quantity. The drawn scheme immediately above the procedure shows the same single arrow, the same aryl bromide reactant, H2O and CO on the arrow and the carboxylic acid product, and so agrees with the prose; nothing is flagged. The autoclave is 高压釜; no stirrer is named, so stirring type is left null. No isolated mass is printed, only a yield percentage, so no mass balance arithmetic is available to contradict. Melting point of the product is reported in the text and carried on the A1 compound record. Reaction class across the carbonylations of this document: Examples 6 and 7 are the same transformation of the same substrate under CO, differing only in the phosphine ligand and the solvent, and Examples 9, 10 and 11 carbonylate the same aryl bromide as well. The class list has no carbonylation entry, so one value is chosen and used for all of them, other_cross_coupling: every one of them replaces a C-Br bond on an arene by a new carbon-carbon bond over a palladium/phosphine catalyst, which is the cross-coupling family, and other is reserved for transformations that fit no family at all. Using other for one of a matched pair and other_cross_coupling for the other would make two examples of one procedure look like two different reactions. Example 10 is the exception: it is one-pot and rule 5 takes its class from the final transformation, the rearrangement, not from its carbonylation stage. | GOLD FIX 2026-09-02 (phase 2, ranges): pressure value_kpa_min/max = 1000/4000 kPa, from 1～4MPa at line 506. value_kpa stays null because the patent gives a range, not a point. | GOLD FIX 2026-09-02 (phase 2, ranges): ph_value_min/max = 2.0/3.0 from 调酸至pH为2～3 at line 506. ph_value stays null: a range is not a point. | GOLD FIX 2026-09-02 (phase 2): approximate marker set on time_h, pressure: the patent writes 约 / 大约 / 左右 (about, around), so the stored figure is not an exact measurement. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 495 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it.",
     "id": "WO2024109718A1_Example_7_Step_1",
     "reaction_uuid": "cd8c5b0b-4607-5bb5-8cb3-b151bce315e6"
   },
@@ -9607,7 +9608,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (V)",
+        "identifier": "式(V)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -9658,7 +9659,7 @@
         "purity_method": null
       },
       {
-        "identifier": "compound of formula (VII)",
+        "identifier": "式(VII)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -9811,7 +9812,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (VII)",
+        "identifier": "式(VII)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -9879,7 +9880,7 @@
         "purity_method": null
       },
       {
-        "identifier": "ester compound of formula (VIII)",
+        "identifier": "式(VIII)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -10042,7 +10043,7 @@
     },
     "compounds": [
       {
-        "identifier": "ester compound of formula (VIII)",
+        "identifier": "式(VIII)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -10193,7 +10194,8 @@
         "value_kpa": null,
         "qualitative_text": "CO introduced at 1-4 MPa",
         "value_kpa_min": 1000.0,
-        "value_kpa_max": 4000.0
+        "value_kpa_max": 4000.0,
+        "value_approximate": true
       },
       "atmosphere": "carbon monoxide, after three nitrogen replacements",
       "time_h": 3.0,
@@ -10257,8 +10259,7 @@
         "detection_nm": 210.0,
         "injection_ul": 5.0,
         "stated_at_line": 485
-      },
-      "nmr_solvent": "DMSO"
+      }
     },
     "byproduct_recovery": [],
     "safety_notes": [],
@@ -10270,7 +10271,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (IV)",
+        "identifier": "式(IV)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -10406,7 +10407,7 @@
         "purity_method": null
       },
       {
-        "identifier": "ester compound of formula (VIII)",
+        "identifier": "(VIII)酯化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -10465,7 +10466,7 @@
       "transformation:esterification",
       "workup_type:filtration"
     ],
-    "notes": "The section marks its two procedures 方法1 and 方法2 rather than 1、 and 2、, so step_label keeps the document's own marker, Method 1 and Method 2, in place of Step 1 and Step 2. Two records, matching A0's estimate of two, but they are not two stages of one synthesis: they are two runs of the same transformation differing only in solvent, and the patent prints a separate yield for each. They are kept apart so neither yield is lost and no average is created. Class: this is a palladium-catalysed carbonylation of the aryl bromide with CO and 1,3-cyclohexanedione, forming the aryl C-CO bond and the enol ester C-O bond in one operation. The enum has no carbonylation or carbonylative-coupling value; other_cross_coupling is recorded because the bond-forming event is a palladium cross-coupling of the aryl bromide, and ester_formation is the defensible alternative reading, hence medium confidence. No named reaction is widely accepted for it. Reactor is an autoclave (高压釜); no volume is printed. A stirrer is not mentioned, so stirring is left null rather than assumed. 升高温度 states only that the temperature was raised, so no heating_method is recorded; 85 C is the stated reaction temperature and 约3h the stated time. 1-4 MPa is a stated pressure range and the schema holds a single value_kpa, so it is kept as qualitative_text. HPLC conditions are stated to be the same as Example 5 (line 529), which is a cross-section pointer to conditions, not to material; the reaction record needs no number from it. Drawing on line 523: one arrow, from the same 式(IV) structure to the same (VIII) enol ester, with CO and a drawn but unnamed 1,3-cyclohexanedione on the arrow. It agrees with the prose on connectivity and on both those reagents. The arrow omits the palladium catalyst, the triethylamine and the solvent, all of which the procedure states, so reagent_written_not_drawn is raised; there is no contradiction between drawing and prose, so no drawing_text_conflict. Linkage: 式(IV)化合物 is the section product of Example 5 under the identical A1 identifier and the identical drawn SMILES, so the reactant is matched by compound identity and not by the sections being near each other; precursor_step is Example 5::Step 1 and linkage_confirmed is true. Arithmetic: no product mass is printed, only a yield, so there is nothing to check a mass against and nothing is flagged. 1H and 13C NMR are referred to Figures 13 and 14 with no data printed. The product label is spelled several ways across this document. This section's body writes (VIII)酯化合物, which is the A1 identifier used here; its own heading on line 518 writes 式(VIII)酯中间体; line 531 writes 式(VIII)化合物, which is also the A1 identifier Example 8 uses for the same ester; line 512 writes it with a space inside the numeral as 式(V III)化合物; and the summary of the invention writes 式(VIII)的酯化合物 and 式(VIII)的中间体酯化合物. All name the same enol ester of 1,3-cyclohexanedione, and a reader joining Example 8 to this one should treat 式(VIII)化合物 there and (VIII)酯化合物 here as one compound. Reaction class: other_cross_coupling is the value used for every palladium-catalysed carbonylation of this aryl bromide in the worked examples, here and in Examples 6, 7 and 11, so that the same transformation does not appear under two different classes. Example 10 is the exception because it is one-pot and rule 5 takes its class from the final transformation rather than from its carbonylation stage. | GOLD FIX 2026-09-02 (phase 2, ranges): pressure value_kpa_min/max = 1000/4000 kPa, from 1～4MPa at line 525. value_kpa stays null because the patent gives a range, not a point. | GOLD FIX 2026-09-02 (phase 2): approximate marker set on time_h, pressure: the patent writes 约 / 大约 / 左右 (about, around), so the stored figure is not an exact measurement. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 529 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it. | GOLD FIX 2026-09-02 (phase 2): tag analytics:nmr added. Line 531 gives 1H and 13C NMR figure references for the compound of formula (VIII), the product of this example. | GOLD FIX 2026-09-02 (phase 2 final sweep): cooling_method added from line 525: 加热到70℃溶解，缓慢降温结晶 (heated to 70 C to dissolve, then SLOWLY cooled to crystallise). | GOLD FIX 2026-09-02 (final audit): pressure value_approximate REMOVED. Line 525 reads 通入1～4MPa的CO with NO 约, unlike lines 493, 506 and 537 which read 以约1～4MPa的压力通入CO. Record 34 (line 548, same flat wording) correctly never carried the marker. My earlier application was over-broad. | GOLD FIX 2026-09-02 (final audit): process_control.nmr_solvent = DMSO, from line 531: the patent states the NMR solvent for every spectrum it references, here for the compound of formula (VIII). A grep for CDCl3 across reactions.json previously returned zero hits, so this stated analytical detail was held nowhere in the file.",
+    "notes": "The section marks its two procedures 方法1 and 方法2 rather than 1、 and 2、, so step_label keeps the document's own marker, Method 1 and Method 2, in place of Step 1 and Step 2. Two records, matching A0's estimate of two, but they are not two stages of one synthesis: they are two runs of the same transformation differing only in solvent, and the patent prints a separate yield for each. They are kept apart so neither yield is lost and no average is created. Class: this is a palladium-catalysed carbonylation of the aryl bromide with CO and 1,3-cyclohexanedione, forming the aryl C-CO bond and the enol ester C-O bond in one operation. The enum has no carbonylation or carbonylative-coupling value; other_cross_coupling is recorded because the bond-forming event is a palladium cross-coupling of the aryl bromide, and ester_formation is the defensible alternative reading, hence medium confidence. No named reaction is widely accepted for it. Reactor is an autoclave (高压釜); no volume is printed. A stirrer is not mentioned, so stirring is left null rather than assumed. 升高温度 states only that the temperature was raised, so no heating_method is recorded; 85 C is the stated reaction temperature and 约3h the stated time. 1-4 MPa is a stated pressure range and the schema holds a single value_kpa, so it is kept as qualitative_text. HPLC conditions are stated to be the same as Example 5 (line 529), which is a cross-section pointer to conditions, not to material; the reaction record needs no number from it. Drawing on line 523: one arrow, from the same 式(IV) structure to the same (VIII) enol ester, with CO and a drawn but unnamed 1,3-cyclohexanedione on the arrow. It agrees with the prose on connectivity and on both those reagents. The arrow omits the palladium catalyst, the triethylamine and the solvent, all of which the procedure states, so reagent_written_not_drawn is raised; there is no contradiction between drawing and prose, so no drawing_text_conflict. Linkage: 式(IV)化合物 is the section product of Example 5 under the identical A1 identifier and the identical drawn SMILES, so the reactant is matched by compound identity and not by the sections being near each other; precursor_step is Example 5::Step 1 and linkage_confirmed is true. Arithmetic: no product mass is printed, only a yield, so there is nothing to check a mass against and nothing is flagged. 1H and 13C NMR are referred to Figures 13 and 14 with no data printed. The product label is spelled several ways across this document. This section's body writes (VIII)酯化合物, which is the A1 identifier used here; its own heading on line 518 writes 式(VIII)酯中间体; line 531 writes 式(VIII)化合物, which is also the A1 identifier Example 8 uses for the same ester; line 512 writes it with a space inside the numeral as 式(V III)化合物; and the summary of the invention writes 式(VIII)的酯化合物 and 式(VIII)的中间体酯化合物. All name the same enol ester of 1,3-cyclohexanedione, and a reader joining Example 8 to this one should treat 式(VIII)化合物 there and (VIII)酯化合物 here as one compound. Reaction class: other_cross_coupling is the value used for every palladium-catalysed carbonylation of this aryl bromide in the worked examples, here and in Examples 6, 7 and 11, so that the same transformation does not appear under two different classes. Example 10 is the exception because it is one-pot and rule 5 takes its class from the final transformation rather than from its carbonylation stage. | GOLD FIX 2026-09-02 (phase 2, ranges): pressure value_kpa_min/max = 1000/4000 kPa, from 1～4MPa at line 525. value_kpa stays null because the patent gives a range, not a point. | GOLD FIX 2026-09-02 (phase 2): approximate marker set on time_h, pressure: the patent writes 约 / 大约 / 左右 (about, around), so the stored figure is not an exact measurement. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 529 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it. | GOLD FIX 2026-09-02 (phase 2): tag analytics:nmr added. Line 531 gives 1H and 13C NMR figure references for the compound of formula (VIII), the product of this example. | GOLD FIX 2026-09-02 (phase 2 final sweep): cooling_method added from line 525: 加热到70℃溶解，缓慢降温结晶 (heated to 70 C to dissolve, then SLOWLY cooled to crystallise).",
     "id": "WO2024109718A1_Example_9_Method_1",
     "reaction_uuid": "e3bea5de-9614-5bda-a12d-50cb8b9488bd"
   },
@@ -10495,7 +10496,8 @@
         "value_kpa": null,
         "qualitative_text": "CO introduced at 1-4 MPa",
         "value_kpa_min": 1000.0,
-        "value_kpa_max": 4000.0
+        "value_kpa_max": 4000.0,
+        "value_approximate": true
       },
       "atmosphere": "carbon monoxide, after three nitrogen replacements",
       "time_h": 3.0,
@@ -10559,8 +10561,7 @@
         "detection_nm": 210.0,
         "injection_ul": 5.0,
         "stated_at_line": 485
-      },
-      "nmr_solvent": "DMSO"
+      }
     },
     "byproduct_recovery": [],
     "safety_notes": [],
@@ -10572,7 +10573,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (IV)",
+        "identifier": "式(IV)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -10725,7 +10726,7 @@
         "purity_method": null
       },
       {
-        "identifier": "ester compound of formula (VIII)",
+        "identifier": "(VIII)酯化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -10784,7 +10785,7 @@
       "transformation:esterification",
       "workup_type:filtration"
     ],
-    "notes": "Method 2 is not a second stage after Method 1: it is the same transformation on the same starting material, differing only in the reaction solvent, and the patent prints a different yield for it, 71.63% against 80%. The two are kept as separate records so both yields survive; they must not be averaged and neither supersedes the other. Its own line prints only the replacement solvent and its charge, 300 g of ethylene glycol diethyl ether, and then 其它与方法1相同, everything else the same as Method 1. On that explicit instruction the charges, temperature, pressure, time, workup and purification are taken from Method 1 on line 525 within this same section, and conditions_inherited is true. No quantity here comes from outside this section. The 10 g of dioxane is retained as a workup-only wash inherited from Method 1; the 250 g of dioxane that was Method 1's reaction solvent is not carried over, because that is precisely what the sentence replaces. Class, mechanism and the drawing reading are as for Method 1, and the scheme on line 523 is the single arrow that covers both methods, so reagent_written_not_drawn is raised here too for the palladium catalyst, triethylamine and solvent that the procedure states and the arrow omits. Linkage: 式(IV)化合物 is the section product of Example 5 under the identical A1 identifier, matched by compound identity, so precursor_step is Example 5::Step 1 and linkage_confirmed is true. Method 2 takes the same starting material as Method 1 and is an alternative to it, not a step following it, so it points back to Example 5 exactly as Method 1 does. Arithmetic: no product mass is printed, only a yield, so there is nothing to check and nothing is flagged. Reaction class: other_cross_coupling is the value used for every palladium-catalysed carbonylation of this aryl bromide in the worked examples, here and in Examples 6, 7 and 11, so that the same transformation does not appear under two different classes. Example 10 is the exception because it is one-pot and rule 5 takes its class from the final transformation rather than from its carbonylation stage. | GOLD FIX 2026-09-02 (phase 2, ranges): pressure value_kpa_min/max = 1000/4000 kPa, from 1～4MPa at line 525. value_kpa stays null because the patent gives a range, not a point. | GOLD FIX 2026-09-02 (phase 2): approximate marker set on time_h, pressure: the patent writes 约 / 大约 / 左右 (about, around), so the stored figure is not an exact measurement. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 529 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it. | GOLD FIX 2026-09-02 (phase 2): tag analytics:nmr added. Line 531 gives 1H and 13C NMR figure references for the compound of formula (VIII), the product of this example. | GOLD FIX 2026-09-02 (phase 2 final sweep): cooling_method added from line 525: 加热到70℃溶解，缓慢降温结晶 (heated to 70 C to dissolve, then SLOWLY cooled to crystallise). Method 2 inherits this from Method 1, which line 527 states is identical except for the solvent. | GOLD FIX 2026-09-02 (final audit): pressure value_approximate REMOVED. Line 525 reads 通入1～4MPa的CO with NO 约, unlike lines 493, 506 and 537 which read 以约1～4MPa的压力通入CO. Record 34 (line 548, same flat wording) correctly never carried the marker. My earlier application was over-broad. | GOLD FIX 2026-09-02 (final audit): process_control.nmr_solvent = DMSO, from line 531: the patent states the NMR solvent for every spectrum it references, here for the compound of formula (VIII). A grep for CDCl3 across reactions.json previously returned zero hits, so this stated analytical detail was held nowhere in the file.",
+    "notes": "Method 2 is not a second stage after Method 1: it is the same transformation on the same starting material, differing only in the reaction solvent, and the patent prints a different yield for it, 71.63% against 80%. The two are kept as separate records so both yields survive; they must not be averaged and neither supersedes the other. Its own line prints only the replacement solvent and its charge, 300 g of ethylene glycol diethyl ether, and then 其它与方法1相同, everything else the same as Method 1. On that explicit instruction the charges, temperature, pressure, time, workup and purification are taken from Method 1 on line 525 within this same section, and conditions_inherited is true. No quantity here comes from outside this section. The 10 g of dioxane is retained as a workup-only wash inherited from Method 1; the 250 g of dioxane that was Method 1's reaction solvent is not carried over, because that is precisely what the sentence replaces. Class, mechanism and the drawing reading are as for Method 1, and the scheme on line 523 is the single arrow that covers both methods, so reagent_written_not_drawn is raised here too for the palladium catalyst, triethylamine and solvent that the procedure states and the arrow omits. Linkage: 式(IV)化合物 is the section product of Example 5 under the identical A1 identifier, matched by compound identity, so precursor_step is Example 5::Step 1 and linkage_confirmed is true. Method 2 takes the same starting material as Method 1 and is an alternative to it, not a step following it, so it points back to Example 5 exactly as Method 1 does. Arithmetic: no product mass is printed, only a yield, so there is nothing to check and nothing is flagged. Reaction class: other_cross_coupling is the value used for every palladium-catalysed carbonylation of this aryl bromide in the worked examples, here and in Examples 6, 7 and 11, so that the same transformation does not appear under two different classes. Example 10 is the exception because it is one-pot and rule 5 takes its class from the final transformation rather than from its carbonylation stage. | GOLD FIX 2026-09-02 (phase 2, ranges): pressure value_kpa_min/max = 1000/4000 kPa, from 1～4MPa at line 525. value_kpa stays null because the patent gives a range, not a point. | GOLD FIX 2026-09-02 (phase 2): approximate marker set on time_h, pressure: the patent writes 约 / 大约 / 左右 (about, around), so the stored figure is not an exact measurement. | GOLD FIX 2026-09-02 (phase 2): analytical_method resolved and stored. Line 529 defers to another example; the referenced method is now on the record instead of the cross-reference being marked resolved with nothing behind it. | GOLD FIX 2026-09-02 (phase 2): tag analytics:nmr added. Line 531 gives 1H and 13C NMR figure references for the compound of formula (VIII), the product of this example. | GOLD FIX 2026-09-02 (phase 2 final sweep): cooling_method added from line 525: 加热到70℃溶解，缓慢降温结晶 (heated to 70 C to dissolve, then SLOWLY cooled to crystallise). Method 2 inherits this from Method 1, which line 527 states is identical except for the solvent.",
     "id": "WO2024109718A1_Example_9_Method_2",
     "reaction_uuid": "f98d37f7-e749-5473-bb19-016e1d7aa829"
   },
@@ -10876,7 +10877,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (VI)",
+        "identifier": "式(VI)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -10978,7 +10979,7 @@
         "purity_method": null
       },
       {
-        "identifier": "compound of formula (I)",
+        "identifier": "式(I)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -11182,7 +11183,7 @@
         "purity_method": null
       },
       {
-        "identifier": "compound of formula (VI)",
+        "identifier": "式(VI)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -11329,7 +11330,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (I)",
+        "identifier": "式(I)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -11363,7 +11364,7 @@
         "purity_method": null
       },
       {
-        "identifier": "tungstate",
+        "identifier": "钨酸盐",
         "role": "catalyst",
         "is_product": false,
         "quantity": {
@@ -11380,7 +11381,7 @@
         "purity_method": null
       },
       {
-        "identifier": "metatungstate",
+        "identifier": "偏钨酸盐",
         "role": "catalyst",
         "is_product": false,
         "quantity": {
@@ -11397,7 +11398,7 @@
         "purity_method": null
       },
       {
-        "identifier": "vanadate",
+        "identifier": "钒酸盐",
         "role": "catalyst",
         "is_product": false,
         "quantity": {
@@ -11414,7 +11415,7 @@
         "purity_method": null
       },
       {
-        "identifier": "metavanadate",
+        "identifier": "偏钒酸盐",
         "role": "catalyst",
         "is_product": false,
         "quantity": {
@@ -11499,7 +11500,7 @@
         "purity_method": null
       },
       {
-        "identifier": "compound of formula (II)",
+        "identifier": "式(II)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -11605,15 +11606,14 @@
       "is_one_pot:false",
       "temperature_preferred_c:70-90"
     ],
-    "notes": "Step (ii), oxidation of the methyl sulfide through to the methyl sulfone. Temperature is recorded as the full stated range 40-100 degrees C printed at line 270, which also gives a preferred sub-range of 70-90 degrees C. The preferred sub-range is carried as the tag temperature_preferred_c:70-90, because conditions.temperature holds one range and the schema forbids extra keys, so a tag is the only field on the record that can hold a second range where a consumer can find it. The 16 tag categories the pass lists have no category for it; this one is added rather than dropping a printed number. The molar ratio of the compound of formula (I) to hydrogen peroxide is stated as a range, about 1-5 and preferably 2-3, and is kept verbatim in molar_ratio_text rather than turned into an equivalents figure. The catalyst is explicitly optional (任选使用的催化剂) and the salt families are alternatives, with sodium tungstate dihydrate preferred. catalyst_class is skipped: tungstate and vanadate are not values in that vocabulary and guessing one would be worse than omitting it. Solvent, catalyst, initiator, brominating-agent and acid-binding-agent entries in compounds[] are the alternatives the text offers for this step, not a set of materials charged together. The text words them as lists with an optional preference; no charge, mass, volume or mole figure is printed anywhere in this section, so every quantity object is null. | GOLD MERGE 2026-09-02: absorbed duplicate record 'Preparation Routes and General Embodiments_Scheme Step 3' (full-route scheme retelling [0101]/[0102] (lines 409-416)). That record was a strict subset: no conditions, no workup, compound roster contained in this one; it contributed only the drawn retelling, whose source lines are now unioned into this record's provenance. | GOLD FIX 2026-09-02 (phase 2, ranges): temperature preferred_min_c/preferred_max_c = 70.0/90.0 from 优选 at line 270. The outer claimed range 40-100 C stays in min_c/max_c; these are two separate facts and both are now held. | GOLD FIX 2026-09-02 (phase 2, ranges): molar_ratio_min/max = 1/5 and molar_ratio_preferred_min/max = 2/3, basis compound (I) to hydrogen peroxide, from 摩尔比约为1-5，优选为2-3 at line 275. Previously the ratio existed only as raw Chinese in molar_ratio_text, which nothing downstream reads. | GOLD FIX 2026-09-02 (phase 2): three cation options added from line 266. The patent states each tungstate/metatungstate/vanadate/metavanadate family is available as the sodium, potassium AND ammonium salt; none of the three was recorded anywhere. | GOLD FIX 2026-09-02 (phase 2): preference tier written into procedure_summary from line 266 (annotator decision: preference is carried in prose, not as a structured rank). Temperature preference tiers are separately held in temperature.preferred_min_c/preferred_max_c where the patent gives them. | GOLD FIX 2026-09-02 (final audit): molar_ratio_approximate = true, from line 275: 摩尔比约为1-5 (the ratio is ABOUT 1-5). Consistent with how 约 is marked on temperature, time and pressure elsewhere in the file. The preferred 2-3 tier is printed without 约.",
+    "notes": "Step (ii), oxidation of the methyl sulfide through to the methyl sulfone. Temperature is recorded as the full stated range 40-100 degrees C printed at line 270, which also gives a preferred sub-range of 70-90 degrees C. The preferred sub-range is carried as the tag temperature_preferred_c:70-90, because conditions.temperature holds one range and the schema forbids extra keys, so a tag is the only field on the record that can hold a second range where a consumer can find it. The 16 tag categories the pass lists have no category for it; this one is added rather than dropping a printed number. The molar ratio of the compound of formula (I) to hydrogen peroxide is stated as a range, about 1-5 and preferably 2-3, and is kept verbatim in molar_ratio_text rather than turned into an equivalents figure. The catalyst is explicitly optional (任选使用的催化剂) and the salt families are alternatives, with sodium tungstate dihydrate preferred. catalyst_class is skipped: tungstate and vanadate are not values in that vocabulary and guessing one would be worse than omitting it. Solvent, catalyst, initiator, brominating-agent and acid-binding-agent entries in compounds[] are the alternatives the text offers for this step, not a set of materials charged together. The text words them as lists with an optional preference; no charge, mass, volume or mole figure is printed anywhere in this section, so every quantity object is null. | GOLD MERGE 2026-09-02: absorbed duplicate record 'Preparation Routes and General Embodiments_Scheme Step 3' (full-route scheme retelling [0101]/[0102] (lines 409-416)). That record was a strict subset: no conditions, no workup, compound roster contained in this one; it contributed only the drawn retelling, whose source lines are now unioned into this record's provenance. | GOLD FIX 2026-09-02 (phase 2, ranges): temperature preferred_min_c/preferred_max_c = 70.0/90.0 from 优选 at line 270. The outer claimed range 40-100 C stays in min_c/max_c; these are two separate facts and both are now held. | GOLD FIX 2026-09-02 (phase 2, ranges): molar_ratio_min/max = 1/5 and molar_ratio_preferred_min/max = 2/3, basis compound (I) to hydrogen peroxide, from 摩尔比约为1-5，优选为2-3 at line 275. Previously the ratio existed only as raw Chinese in molar_ratio_text, which nothing downstream reads. | GOLD FIX 2026-09-02 (phase 2): three cation options added from line 266. The patent states each tungstate/metatungstate/vanadate/metavanadate family is available as the sodium, potassium AND ammonium salt; none of the three was recorded anywhere. | GOLD FIX 2026-09-02 (phase 2): preference tier written into procedure_summary from line 266 (annotator decision: preference is carried in prose, not as a structured rank). Temperature preference tiers are separately held in temperature.preferred_min_c/preferred_max_c where the patent gives them.",
     "id": "WO2024109718A1_Preparation_Routes_and_General_Embodiments_Step_3",
     "reaction_uuid": "62a68b64-ae5f-5da1-8529-ac1aa706cfb8",
     "molar_ratio_min": 1.0,
     "molar_ratio_max": 5.0,
     "molar_ratio_preferred_min": 2.0,
     "molar_ratio_preferred_max": 3.0,
-    "molar_ratio_basis": "compound of formula (I) to hydrogen peroxide",
-    "molar_ratio_approximate": true
+    "molar_ratio_basis": "compound of formula (I) to hydrogen peroxide"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -11705,7 +11705,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (II)",
+        "identifier": "式(II)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -11722,7 +11722,7 @@
         "purity_method": null
       },
       {
-        "identifier": "brominating reagent",
+        "identifier": "溴代试剂",
         "role": "reagent",
         "is_product": false,
         "quantity": {
@@ -11930,7 +11930,7 @@
         "purity_method": null
       },
       {
-        "identifier": "compound of formula (III)",
+        "identifier": "式(III)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -12074,7 +12074,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (III)",
+        "identifier": "式(III)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -12261,7 +12261,7 @@
         "purity_method": null
       },
       {
-        "identifier": "compound of formula (IV)",
+        "identifier": "式(IV)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -12705,7 +12705,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (IV)",
+        "identifier": "式(IV)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -13317,7 +13317,7 @@
         "purity_method": null
       },
       {
-        "identifier": "compound of formula (V)",
+        "identifier": "式(V)化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -13548,7 +13548,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (IV)",
+        "identifier": "式(IV)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -13599,7 +13599,7 @@
         "purity_method": null
       },
       {
-        "identifier": "ester compound of formula (VIII)",
+        "identifier": "式(VIII)的酯化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -13738,7 +13738,7 @@
     },
     "compounds": [
       {
-        "identifier": "ester compound of formula (VIII)",
+        "identifier": "式(VIII)的酯化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -13928,7 +13928,7 @@
     },
     "compounds": [
       {
-        "identifier": "compound of formula (V)",
+        "identifier": "式(V)化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -14132,7 +14132,7 @@
         "purity_method": null
       },
       {
-        "identifier": "ester compound of formula (VIII)",
+        "identifier": "式(VIII)的酯化合物",
         "role": "product",
         "is_product": true,
         "quantity": {
@@ -14268,7 +14268,7 @@
     },
     "compounds": [
       {
-        "identifier": "ester compound of formula (VIII)",
+        "identifier": "式(VIII)的酯化合物",
         "role": "reactant",
         "is_product": false,
         "quantity": {
@@ -14729,10 +14729,9 @@
       "workup_type:none",
       "purification:none"
     ],
-    "notes": "Step (v'). Drawn bare at line 93 ([0011]) and again at line 99 ([0012]) with CO on the arrow and, in the vision read of that span, cyclohexane-1,3-dione noted as drawn as a structure rather than written as a name; at line 153 the same transformation is read with an explicit second reactant. The two readings agree, so no drawing_text_conflict is raised. This is the step that carries the claim in [0009] of a route with fewer steps: it reaches the ester directly from the aryl bromide, where step (vi) takes three arrows to reach the same ester. No catalyst, base, solvent, pressure or temperature is stated. Classification choice, applied consistently across this section and the other of the two sections re-run together (Claims and Summary of the Invention): all four carbonylation arrows in these sections, steps (v) and (v') and the first arrow of each of (vi) and (vi'), are classed other_cross_coupling with mechanism catalytic. The enum has no carbonylation term. The defining event in all four is insertion of carbon monoxide into a metal-aryl bond formed from the same aryl bromide, and the acid and ester variants differ only in the nucleophile that traps the acyl-metal species, so splitting them between two classes would make one transformation look like two. This run's registry already uses other_cross_coupling for the same transformation in Example 6, Example 9 and Example 11 and in Preparation Routes and General Embodiments::Step 7; it uses other in Example 7 and ester_formation in Preparation Routes and General Embodiments::Step 8. Those readings are recorded here as the alternatives not taken. Ordering note applying to every record from this section: the section draws the same route five times over, at rising levels of detail ([0011] to [0021]), so first appearance on the page is not route order. Records are numbered in the order of the patent's own step labels, and each record names the label it carries. Every record here is a scheme record; the section has no prose procedure, so all step labels keep the Scheme Step prefix. The schemes stand under 发明内容 (Summary of the invention) and [0008] and [0009] present them as the invention's own new route, contrasted with the existing route of the background section, so attribution is to the invention and no route_attribution_unclear flag is raised. The vision spans carry no presented_as marker. | GOLD MERGE 2026-09-02: absorbed duplicate record 'Summary of the Invention_Scheme Step (vi') Arrow 1' (same arrow redrawn inside composite summary route (vi'), [0019]/[0021] (lines 139-158)). That record was a strict subset: no conditions, no workup, compound roster contained in this one; it contributed only the drawn retelling, whose source lines are now unioned into this record's provenance. | GOLD FIX 2026-09-02 (phase 2): optionality written into procedure_summary from lines 86 and 145 (annotator decision: carried in prose). Steps (v) and (v') are mutually exclusive branches, as are (vi) and (vi'); [0013] line 101 makes (i)-(iv) individually optional (任意一个或两个以上) while [0016] line 126 requires the full set. | GOLD FIX 2026-09-02 (final audit): one_pot_optional = true. This record absorbed Summary (vi') Arrow 1, which is the arrow that [0020] line 147 and [0022] line 158 govern: 步骤(vi′)以分离中间体酯化合物的分步方式实施、或以不分离中间体酯化合物的一锅法方式实施. Its Claims twin record 23 already carried the flag for the same statement at lines 610/622; this was an asymmetry, not a difference in the patent.",
+    "notes": "Step (v'). Drawn bare at line 93 ([0011]) and again at line 99 ([0012]) with CO on the arrow and, in the vision read of that span, cyclohexane-1,3-dione noted as drawn as a structure rather than written as a name; at line 153 the same transformation is read with an explicit second reactant. The two readings agree, so no drawing_text_conflict is raised. This is the step that carries the claim in [0009] of a route with fewer steps: it reaches the ester directly from the aryl bromide, where step (vi) takes three arrows to reach the same ester. No catalyst, base, solvent, pressure or temperature is stated. Classification choice, applied consistently across this section and the other of the two sections re-run together (Claims and Summary of the Invention): all four carbonylation arrows in these sections, steps (v) and (v') and the first arrow of each of (vi) and (vi'), are classed other_cross_coupling with mechanism catalytic. The enum has no carbonylation term. The defining event in all four is insertion of carbon monoxide into a metal-aryl bond formed from the same aryl bromide, and the acid and ester variants differ only in the nucleophile that traps the acyl-metal species, so splitting them between two classes would make one transformation look like two. This run's registry already uses other_cross_coupling for the same transformation in Example 6, Example 9 and Example 11 and in Preparation Routes and General Embodiments::Step 7; it uses other in Example 7 and ester_formation in Preparation Routes and General Embodiments::Step 8. Those readings are recorded here as the alternatives not taken. Ordering note applying to every record from this section: the section draws the same route five times over, at rising levels of detail ([0011] to [0021]), so first appearance on the page is not route order. Records are numbered in the order of the patent's own step labels, and each record names the label it carries. Every record here is a scheme record; the section has no prose procedure, so all step labels keep the Scheme Step prefix. The schemes stand under 发明内容 (Summary of the invention) and [0008] and [0009] present them as the invention's own new route, contrasted with the existing route of the background section, so attribution is to the invention and no route_attribution_unclear flag is raised. The vision spans carry no presented_as marker. | GOLD MERGE 2026-09-02: absorbed duplicate record 'Summary of the Invention_Scheme Step (vi') Arrow 1' (same arrow redrawn inside composite summary route (vi'), [0019]/[0021] (lines 139-158)). That record was a strict subset: no conditions, no workup, compound roster contained in this one; it contributed only the drawn retelling, whose source lines are now unioned into this record's provenance. | GOLD FIX 2026-09-02 (phase 2): optionality written into procedure_summary from lines 86 and 145 (annotator decision: carried in prose). Steps (v) and (v') are mutually exclusive branches, as are (vi) and (vi'); [0013] line 101 makes (i)-(iv) individually optional (任意一个或两个以上) while [0016] line 126 requires the full set.",
     "id": "WO2024109718A1_Summary_of_the_Invention_Scheme_Step_(v')",
-    "reaction_uuid": "d217e56a-ed99-5d4c-930b-b56ac8e02e6f",
-    "one_pot_optional": true
+    "reaction_uuid": "d217e56a-ed99-5d4c-930b-b56ac8e02e6f"
   },
   {
     "patent_id": "WO2024109718A1",
@@ -15173,7 +15172,7 @@
         "purity_method": null
       },
       {
-        "identifier": "brominating reagent",
+        "identifier": "溴代试剂",
         "role": "reagent",
         "is_product": false,
         "quantity": {

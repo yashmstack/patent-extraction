@@ -1,6 +1,579 @@
 {
+  "smiles:CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F": [
+    "2-[2-chloro-4-(methylsulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl]cyclohexane-1,3-dione",
+    "CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1COCC(F)(F)F",
+    "IUQAXCIUEPFPSF-UHFFFAOYSA-N",
+    "cyclosulfonone",
+    "tembotrione",
+    "环磺酮"
+  ],
+  "smiles:Cc1c(Cl)cccc1Cl": [
+    "Cc1c(Cl)cccc1Cl",
+    "DMEDNTFWIHCBRK-UHFFFAOYSA-N",
+    "dichlorotoluene",
+    "二氯甲苯"
+  ],
+  "smiles:Cc1c(N)cccc1Cl": [
+    "3-chloro-2-methylaniline",
+    "3-氯-2-甲基苯胺",
+    "Cc1c(N)cccc1Cl",
+    "ZUVPLKVDZNDZCM-UHFFFAOYSA-N"
+  ],
+  "sodiummethanethiolate": [
+    "sodium methanethiolate",
+    "sodium thiomethoxide"
+  ],
+  "acetylchloride": [
+    "acetyl chloride",
+    "乙酰氯"
+  ],
+  "aluminiumtrichloride": [
+    "aluminium trichloride",
+    "三氯化铝"
+  ],
+  "smiles:1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one": [
+    "1-[2-chloro-3-methyl-4-(methylsulfanyl)phenyl]ethan-1-one",
+    "CSc1ccc(C(C)=O)c(Cl)c1C",
+    "ZSHNSXSONOHWNB-UHFFFAOYSA-N"
+  ],
+  "smiles:1-[2-chloro-4-(methanesulfonyl)-3-methylphenyl]ethan-1-one": [
+    "1-[2-chloro-4-(methanesulfonyl)-3-methylphenyl]ethan-1-one",
+    "CC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+    "KLJPFWVJHXRIPL-UHFFFAOYSA-N"
+  ],
+  "sodiumhypochlorite": [
+    "sodium hypochlorite",
+    "次氯酸钠"
+  ],
+  "smiles:Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl": [
+    "2-chloro-4-(methanesulfonyl)-3-methylbenzoic acid",
+    "Cc1c(S(C)(=O)=O)ccc(C(=O)O)c1Cl",
+    "RRFGGUXLGOVPOP-UHFFFAOYSA-N"
+  ],
+  "methanol": [
+    "methanol",
+    "甲醇"
+  ],
+  "smiles:COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl": [
+    "BBWCBPYXCNCYAT-UHFFFAOYSA-N",
+    "COC(=O)c1ccc(S(C)(=O)=O)c(C)c1Cl",
+    "methyl 2-chloro-4-(methanesulfonyl)-3-methylbenzoate"
+  ],
+  "smiles:COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl": [
+    "COC(=O)c1ccc(S(C)(=O)=O)c(CBr)c1Cl",
+    "YQYVOGFWLVVXMM-UHFFFAOYSA-N",
+    "methyl 3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzoate"
+  ],
+  "sodium222trifluoroethoxide": [
+    "sodium 2,2,2-trifluoroethoxide",
+    "三氟乙醇钠"
+  ],
+  "smiles:COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl": [
+    "COC(=O)c1ccc(S(C)(=O)=O)c(COCC(F)(F)F)c1Cl",
+    "NOVXMMYMACDLHC-UHFFFAOYSA-N",
+    "methyl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate"
+  ],
+  "sodiumhydroxide": [
+    "NaOH水溶液",
+    "sodium hydroxide",
+    "氢氧化钠"
+  ],
+  "smiles:(COCl)2": [
+    "(COCl)2",
+    "oxalyl chloride"
+  ],
+  "haloform": [
+    "haloform",
+    "卤仿"
+  ],
+  "sodiumchloride": [
+    "sodium chloride",
+    "氯化钠"
+  ],
+  "water": [
+    "water",
+    "水"
+  ],
+  "palladium": [
+    "palladium",
+    "钯"
+  ],
+  "rhodium": [
+    "rhodium",
+    "铑"
+  ],
+  "ruthenium": [
+    "ruthenium",
+    "钌"
+  ],
+  "copper": [
+    "copper",
+    "铜"
+  ],
+  "cobalt": [
+    "cobalt",
+    "钴"
+  ],
+  "palladiumiichloride": [
+    "PdCl2催化剂",
+    "PdCl₂",
+    "palladium(II) chloride",
+    "氯化钯",
+    "氯化钯(PdCl₂)"
+  ],
+  "palladiumiicarbonate": [
+    "palladium carbonate",
+    "palladium(II) carbonate",
+    "碳酸钯",
+    "碳酸钯(PdCO₃)"
+  ],
+  "smiles:Pd(OAc)2": [
+    "Pd(OAc)2",
+    "palladium(II) acetate",
+    "醋酸钯",
+    "醋酸钯[Pd(OAc)₂]"
+  ],
+  "palladiumoncarbon": [
+    "Pd/C",
+    "palladium on carbon",
+    "钯/碳",
+    "钯/碳(Pd/C)"
+  ],
+  "smiles:Pd(OTFA)2": [
+    "Pd(OTFA)2",
+    "palladium(II) trifluoroacetate",
+    "三氟乙酸钯",
+    "三氟乙酸钯[Pd(OTFA)₂]"
+  ],
+  "smiles:bis(dibenzylideneacetone)palladium(0)": [
+    "Pd(dba)2",
+    "bis(dibenzylideneacetone)palladium",
+    "bis(dibenzylideneacetone)palladium(0)",
+    "双二亚苄基丙酮钯",
+    "双二亚苄基丙酮钯[Pd(dba)₂]"
+  ],
+  "13bisdiphenylphosphinopropane": [
+    "1,3-(bis(diphenylphosphino))propane",
+    "1,3-(双二苯基膦)丙烷",
+    "1,3-bis(diphenylphosphino)propane",
+    "1,3-双(二苯基膦)丙烷",
+    "dppp",
+    "配体1,3-双(二苯基膦)丙烷"
+  ],
+  "14bisdiphenylphosphinobutane": [
+    "1,4-bis(diphenylphosphino)butane",
+    "1,4-双(二苯基膦)丁烷",
+    "dppb"
+  ],
   "bis4nndimethylaminophenylditertbutylphosphine": [
     "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine",
-    "bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine"
+    "bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+    "双[(4-N,N-二甲氨基)苯基]二叔丁基膦"
+  ],
+  "toluene": [
+    "toluene",
+    "甲苯"
+  ],
+  "14dioxane": [
+    "1,4-dioxane",
+    "1,4-二氧六环",
+    "dioxane",
+    "二氧六环"
+  ],
+  "ethyleneglycoldimethylether": [
+    "ethylene glycol dimethyl ether",
+    "乙二醇二甲醚"
+  ],
+  "ethyleneglycoldiethylether": [
+    "ethylene glycol diethyl ether",
+    "乙二醇二乙醚"
+  ],
+  "dimethylsulfoxide": [
+    "dimethyl sulfoxide",
+    "二甲基亚砜"
+  ],
+  "tetrahydrofuran": [
+    "anhydrous tetrahydrofuran",
+    "tetrahydrofuran",
+    "四氢呋喃",
+    "溶剂四氢呋喃"
+  ],
+  "nndimethylformamide": [
+    "N,N-dimethylformamide",
+    "N,N-二甲基甲酰胺"
+  ],
+  "bromine": [
+    "Br2",
+    "bromine",
+    "溴",
+    "溴素"
+  ],
+  "nbromosuccinimide": [
+    "N-bromosuccinimide",
+    "N-溴代丁二酰亚胺"
+  ],
+  "hydrogenbromide": [
+    "hydrogen bromide",
+    "溴化氢"
+  ],
+  "hydrogenperoxide": [
+    "hydrogen peroxide",
+    "双氧水"
+  ],
+  "potassium222trifluoroethoxide": [
+    "potassium 2,2,2-trifluoroethoxide",
+    "三氟乙醇钾"
+  ],
+  "carbonmonoxide": [
+    "carbon monoxide",
+    "一氧化碳"
+  ],
+  "smiles:CSc1cccc(Cl)c1C": [
+    "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+    "2-chloro-6-(methylthio)toluene",
+    "CSc1cccc(Cl)c1C",
+    "QNMYJMZVOFQIRD-UHFFFAOYSA-N",
+    "compound of formula (VI)",
+    "式(VI)化合物"
+  ],
+  "compoundofformulaa": [
+    "compound of formula (A)",
+    "式(A)所示的化合物"
+  ],
+  "hydrochloricacid": [
+    "hydrochloric acid",
+    "hydrogen chloride",
+    "盐酸"
+  ],
+  "diazoniumsalt": [
+    "diazonium salt",
+    "重氮盐"
+  ],
+  "acetonitrile": [
+    "acetonitrile",
+    "乙腈"
+  ],
+  "formicacid": [
+    "formic acid",
+    "甲酸"
+  ],
+  "chloroformd": [
+    "chloroform-d",
+    "deuterated chloroform"
+  ],
+  "smiles:CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F": [
+    "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+    "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "VHLAIVUXGGOCMJ-UHFFFAOYSA-N",
+    "compound of formula (IV)",
+    "式(IV)化合物"
+  ],
+  "triethylamine": [
+    "triethylamine",
+    "三乙胺"
+  ],
+  "nitrogen": [
+    "N2",
+    "nitrogen",
+    "氮气"
+  ],
+  "acetonecyanohydrin": [
+    "2-hydroxy-2-methylpropanenitrile",
+    "acetone cyanohydrin",
+    "丙酮氰醇"
+  ],
+  "triethylaminehydrobromide": [
+    "triethylamine hydrobromide",
+    "三乙胺氢溴酸盐"
+  ],
+  "smiles:O=C1CCCC(=O)C1": [
+    "1,3-cyclohexanedione",
+    "1,3-环己二酮",
+    "HJSLFCCWAKVHIW-UHFFFAOYSA-N",
+    "O=C1CCCC(=O)C1",
+    "cyclohexane-1,3-dione"
+  ],
+  "2dicyclohexylphosphino26dimethoxybiphenyl": [
+    "2-dicyclohexylphosphino-2',6'-dimethoxybiphenyl",
+    "2-双环己基膦-2',6'-二甲氧基联苯",
+    "SPhos"
+  ],
+  "45bisdiphenylphosphino99dimethylxanthene": [
+    "4,5-bis(diphenylphosphino)-9,9-dimethylxanthene",
+    "4,5-双二苯基膦-9,9-二甲基氧杂蒽",
+    "Xantphos"
+  ],
+  "dichloromethane": [
+    "dichloromethane",
+    "二氯甲烷"
+  ],
+  "smiles:CSc1ccc(Br)c(Cl)c1C": [
+    "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+    "CSc1ccc(Br)c(Cl)c1C",
+    "VEKIRHPKUFHYGT-UHFFFAOYSA-N",
+    "compound of formula (I)",
+    "式(I)化合物"
+  ],
+  "sodiumtungstatedihydrate": [
+    "sodium tungstate dihydrate",
+    "二水合钨酸钠"
+  ],
+  "glacialaceticacid": [
+    "glacial acetic acid",
+    "冰醋酸"
+  ],
+  "smiles:Cc1c(S(C)(=O)=O)ccc(Br)c1Cl": [
+    "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+    "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "KHLKTMJARYUXKF-UHFFFAOYSA-N",
+    "compound of formula (II)",
+    "式(II)化合物"
+  ],
+  "smiles:CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr": [
+    "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+    "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "GXQKMZQAWXBWBB-UHFFFAOYSA-N",
+    "compound of formula (III)",
+    "式(III)化合物"
+  ],
+  "benzoylperoxide": [
+    "benzoyl peroxide",
+    "过氧化苯甲酰"
+  ],
+  "12dichloroethane": [
+    "1,2-dichloroethane",
+    "1,2-二氯乙烷",
+    "dichloroethane",
+    "二氯乙烷"
+  ],
+  "carbontetrachloride": [
+    "carbon tetrachloride",
+    "tetrachloromethane",
+    "四氯化碳"
+  ],
+  "ethanol": [
+    "ethanol",
+    "乙醇"
+  ],
+  "brominatingreagent": [
+    "brominating reagent",
+    "溴代试剂"
+  ],
+  "sodiumhydride": [
+    "sodium hydride",
+    "氢化钠"
+  ],
+  "222trifluoroethanol": [
+    "2,2,2-trifluoroethanol",
+    "trifluoroethanol",
+    "三氟乙醇"
+  ],
+  "saturatedbrine": [
+    "saturated aqueous sodium chloride",
+    "saturated brine",
+    "饱和食盐水"
+  ],
+  "smiles:CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F": [
+    "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+    "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "YGMJOCQCLVNPOD-UHFFFAOYSA-N",
+    "compound of formula (V)",
+    "式(V)化合物",
+    "式(V)的羧酸化合物",
+    "式(V)羧酸化合物"
+  ],
+  "thionylchloride": [
+    "thionyl chloride",
+    "氯化亚砜"
+  ],
+  "smiles:CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F": [
+    "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+    "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "YGWVWXIUXUSKSY-UHFFFAOYSA-N",
+    "compound of formula (VII)",
+    "式(VII)化合物"
+  ],
+  "bis4nndimethylaminophenylditertbutylphosphinepalladiumdichlo": [
+    "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine palladium dichloride",
+    "双[(4-N,N-二甲氨基)苯基]二叔丁基膦二氯化钯"
+  ],
+  "smiles:CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F": [
+    "(VIII)酯化合物",
+    "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+    "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "OBAMHTWSCBVWGB-UHFFFAOYSA-N",
+    "compound of formula (VIII)",
+    "ester compound of formula (VIII)",
+    "中间体酯化合物",
+    "式(V III)化合物",
+    "式(VIII)化合物",
+    "式(VIII)的酯化合物",
+    "式(VIII)酯中间体"
+  ],
+  "tungstate": [
+    "tungstate",
+    "钨酸盐"
+  ],
+  "metatungstate": [
+    "metatungstate",
+    "偏钨酸盐"
+  ],
+  "vanadate": [
+    "vanadate",
+    "钒酸盐"
+  ],
+  "metavanadate": [
+    "metavanadate",
+    "偏钒酸盐"
+  ],
+  "azobisisobutyronitrile": [
+    "azobisisobutyronitrile",
+    "偶氮二异丁腈"
+  ],
+  "diethylether": [
+    "diethyl ether",
+    "乙醚"
+  ],
+  "potassiumhydride": [
+    "potassium hydride",
+    "氢化钾"
+  ],
+  "sodiummethoxide": [
+    "sodium methoxide",
+    "甲醇钠"
+  ],
+  "potassiummethoxide": [
+    "potassium methoxide",
+    "甲醇钾"
+  ],
+  "potassiumhydroxide": [
+    "potassium hydroxide",
+    "氢氧化钾"
+  ],
+  "potassiumcarbonate": [
+    "potassium carbonate",
+    "碳酸钾"
+  ],
+  "sodiumcarbonate": [
+    "sodium carbonate",
+    "碳酸钠"
+  ],
+  "cesiumcarbonate": [
+    "CsCO₃",
+    "cesium carbonate",
+    "碳酸铯"
+  ],
+  "potassiumphosphate": [
+    "potassium phosphate",
+    "磷酸钾"
+  ],
+  "nndimethylacetamide": [
+    "N,N-dimethylacetamide",
+    "N,N-二甲基乙酰胺"
+  ],
+  "nndiisopropylethylamine": [
+    "N,N-diisopropylethylamine",
+    "N,N-二异丙基乙胺"
+  ],
+  "18diazabicyclo540undec7ene": [
+    "1,8-diazabicyclo[5.4.0]undec-7-ene",
+    "1,8-diazabicycloundec-7-ene",
+    "1,8-二氮杂二环十一碳-7-烯"
+  ],
+  "triethylenediamine": [
+    "1,4-diazabicyclo[2.2.2]octane",
+    "triethylenediamine",
+    "三乙撑二胺"
+  ],
+  "acidbindingagent": [
+    "acid-binding agent",
+    "缚酸剂"
+  ],
+  "cyanidetypecatalyst": [
+    "cyanide-type catalyst",
+    "氰类催化剂"
+  ],
+  "phosphineligandorasaltthereof": [
+    "phosphine ligand or a salt thereof",
+    "磷配体或其盐"
+  ],
+  "noblemetalcatalyst": [
+    "noble metal catalyst",
+    "贵金属催化剂"
+  ],
+  "palladiumcatalyst": [
+    "palladium catalyst",
+    "钯催化剂"
+  ],
+  "initiator": [
+    "initiator",
+    "引发剂"
+  ],
+  "oxidant": [
+    "oxidant",
+    "氧化剂"
+  ],
+  "alkalisolution": [
+    "alkali solution",
+    "碱液"
+  ],
+  "alcoholsolvent": [
+    "alcohol solvent",
+    "醇溶剂"
+  ],
+  "sodiumsaltofthetungstatevanadatecatalyst": [
+    "sodium salt",
+    "sodium salt of the tungstate/vanadate catalyst",
+    "钠盐"
+  ],
+  "potassiumsaltofthetungstatevanadatecatalyst": [
+    "potassium salt",
+    "potassium salt of the tungstate/vanadate catalyst",
+    "钾盐"
+  ],
+  "ammoniumsaltofthetungstatevanadatecatalyst": [
+    "ammonium salt",
+    "ammonium salt of the tungstate/vanadate catalyst",
+    "铵盐"
+  ],
+  "aromatichydrocarbonsolventclass": [
+    "aromatic hydrocarbon",
+    "aromatic hydrocarbon solvent (class)",
+    "芳烃"
+  ],
+  "sulfoxidesolventclass": [
+    "sulfoxide",
+    "sulfoxide solvent (class)",
+    "亚砜"
+  ],
+  "ethersolventclass": [
+    "ether",
+    "ether solvent (class)",
+    "醚"
+  ],
+  "amidesolventclass": [
+    "amide",
+    "amide solvent (class)",
+    "酰胺类"
+  ],
+  "catalyst": [
+    "catalyst",
+    "催化剂"
+  ],
+  "ligand": [
+    "ligand",
+    "配体"
+  ],
+  "triketone": [
+    "triketone",
+    "三酮类"
+  ],
+  "firstsolvent": [
+    "first solvent",
+    "第一溶剂"
+  ],
+  "secondsolvent": [
+    "second solvent",
+    "第二溶剂"
   ]
 }

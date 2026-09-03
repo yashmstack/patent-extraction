@@ -1,0 +1,115 @@
+{
+  "bis4nndimethylaminophenylditertbutylphosphine": [
+    "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+    "bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine"
+  ],
+  "smiles:CO": [
+    "CH3OH",
+    "methanol"
+  ],
+  "smiles:CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr": [
+    "1-bromo-3-(bromomethyl)-2-chloro-4-(methanesulfonyl)benzene",
+    "CS(=O)(=O)c1ccc(Br)c(Cl)c1CBr",
+    "式(III)化合物"
+  ],
+  "smiles:CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F": [
+    "1-bromo-2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzene",
+    "CS(=O)(=O)c1ccc(Br)c(Cl)c1COCC(F)(F)F",
+    "式(IV)化合物"
+  ],
+  "smiles:CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F": [
+    "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoyl chloride",
+    "CS(=O)(=O)c1ccc(C(=O)Cl)c(Cl)c1COCC(F)(F)F",
+    "式(VII)化合物"
+  ],
+  "smiles:CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F": [
+    "2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoic acid",
+    "CS(=O)(=O)c1ccc(C(=O)O)c(Cl)c1COCC(F)(F)F",
+    "式(V)化合物"
+  ],
+  "smiles:CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F": [
+    "(VIII)酯化合物",
+    "3-oxocyclohex-1-en-1-yl 2-chloro-4-(methanesulfonyl)-3-[(2,2,2-trifluoroethoxy)methyl]benzoate",
+    "CS(=O)(=O)c1ccc(C(=O)OC2=CC(=O)CCC2)c(Cl)c1COCC(F)(F)F",
+    "式(VIII)化合物",
+    "式(VIII)的酯化合物"
+  ],
+  "smiles:CSc1ccc(Br)c(Cl)c1C": [
+    "1-bromo-2-chloro-3-methyl-4-(methylsulfanyl)benzene",
+    "CSc1ccc(Br)c(Cl)c1C",
+    "式(I)化合物"
+  ],
+  "smiles:CSc1cccc(Cl)c1C": [
+    "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
+    "CSc1cccc(Cl)c1C",
+    "compound of formula (VI)",
+    "式(VI)化合物"
+  ],
+  "smiles:Cc1c(N)cccc1Cl": [
+    "3-chloro-2-methylaniline",
+    "Cc1c(N)cccc1Cl"
+  ],
+  "smiles:Cc1c(S(C)(=O)=O)ccc(Br)c1Cl": [
+    "1-bromo-2-chloro-3-methyl-4-(methanesulfonyl)benzene",
+    "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
+    "式(II)化合物"
+  ],
+  "smiles:Cl": [
+    "HCl",
+    "hydrochloric acid"
+  ],
+  "smiles:O": [
+    "H2O",
+    "water"
+  ],
+  "smiles:O=C([O-])[O-].[Pd+2]": [
+    "palladium carbonate",
+    "palladium(II) carbonate"
+  ],
+  "smiles:O=C1CCC(=O)N1Br": [
+    "N-bromosuccinimide",
+    "NBS"
+  ],
+  "smiles:O=C1CCCC(=O)C1": [
+    "1,3-cyclohexanedione",
+    "O=C1CCCC(=O)C1",
+    "cyclohexane-1,3-dione"
+  ],
+  "smiles:O=S(Cl)Cl": [
+    "SOCl2",
+    "thionyl chloride"
+  ],
+  "smiles:OO": [
+    "H2O2",
+    "hydrogen peroxide"
+  ],
+  "smiles:[Br]": [
+    "Br2",
+    "bromine"
+  ],
+  "smiles:[C]=O": [
+    "CO",
+    "carbon monoxide"
+  ],
+  "smiles:[Cl-].[Na+]": [
+    "saturated brine",
+    "sodium chloride"
+  ],
+  "smiles:[Cl][Pd][Cl]": [
+    "PdCl2",
+    "PdCl₂",
+    "palladium(II) chloride"
+  ],
+  "smiles:[K+].[O-]CC(F)(F)F": [
+    "CF3CH2OK",
+    "potassium 2,2,2-trifluoroethoxide"
+  ],
+  "smiles:[Na+].[O-]CC(F)(F)F": [
+    "CF3CH2ONa",
+    "sodium 2,2,2-trifluoroethoxide"
+  ],
+  "smiles:[Na+].[OH-]": [
+    "NaOH",
+    "sodium hydroxide"
+  ]
+}
