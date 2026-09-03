@@ -763,6 +763,32 @@
                 "string",
                 "null"
               ]
+            },
+            "smiles": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "smiles_source": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^((patent_scheme|curated|patent_drawing|known|opsin|pubchem)(\\+(patent_scheme|curated|patent_drawing|known|opsin|pubchem))*|none:(markush|reference|class_name|material|polymer|ambiguous|unresolved)|joined_from_participants)$"
+            },
+            "molecular_formula": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^[A-Za-z0-9+\\-()\\[\\]]+$"
+            },
+            "molecular_weight": {
+              "type": [
+                "number",
+                "null"
+              ]
             }
           },
           "required": [
@@ -906,19 +932,36 @@
         ]
       },
       "reactant_smiles": {
-        "type": "null"
+        "type": [
+          "string",
+          "null"
+        ]
       },
       "smiles_source": {
-        "type": "null"
+        "type": [
+          "string",
+          "null"
+        ],
+        "pattern": "^((patent_scheme|curated|patent_drawing|known|opsin|pubchem)(\\+(patent_scheme|curated|patent_drawing|known|opsin|pubchem))*|none:(markush|reference|class_name|material|polymer|ambiguous|unresolved)|joined_from_participants)$"
       },
       "product_smiles": {
-        "type": "null"
+        "type": [
+          "string",
+          "null"
+        ]
       },
       "product_smiles_source": {
-        "type": "null"
+        "type": [
+          "string",
+          "null"
+        ],
+        "pattern": "^((patent_scheme|curated|patent_drawing|known|opsin|pubchem)(\\+(patent_scheme|curated|patent_drawing|known|opsin|pubchem))*|none:(markush|reference|class_name|material|polymer|ambiguous|unresolved)|joined_from_participants)$"
       },
       "canonical_rxn": {
-        "type": "null"
+        "type": [
+          "string",
+          "null"
+        ]
       }
     },
     "required": [

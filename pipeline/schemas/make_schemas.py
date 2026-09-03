@@ -50,6 +50,20 @@ REACTION_CLASS = ENUM(
 
 TAG = {"type": "string", "pattern": "^[a-z_]+:[a-z0-9_/.+-]+$"}
 
+# Where a structure came from, or why there is not one. Written by
+# enrich_structures.py, and constrained rather than free text because the whole
+# value of the field is that a consumer can filter on it: `curated+patent_drawing`
+# is two readings of this document agreeing, `pubchem` alone is one database and
+# nobody else. `none:class_name` says no molecule exists to find, which is a
+# different fact from `none:unresolved`, and a bare `none` would erase it.
+READER = "patent_scheme|curated|patent_drawing|known|opsin|pubchem"
+NO_STRUCTURE = "markush|reference|class_name|material|polymer|ambiguous|unresolved"
+SMILES_SOURCE = {"type": ["string", "null"],
+                 "pattern": rf"^(({READER})(\+({READER}))*|none:({NO_STRUCTURE})"
+                            rf"|joined_from_participants)$"}
+SMILES = {"type": ["string", "null"]}
+FORMULA = {"type": ["string", "null"], "pattern": r"^[A-Za-z0-9+\-()\[\]]+$"}
+
 # --------------------------------------------------------------- compounds
 compound = OBJ({
     "id": S(), "patent_id": {"type": "string"},
@@ -74,10 +88,18 @@ compound = OBJ({
     "purity_pct": N(),
     "purity_method": ENUM("hplc", "gc", "nmr", "uv", "titration", "other"),
     "compound_uuid": S(), "tags": ARR(TAG), "notes": S(),
-    # present on the Java record but not produced by this annotation
-    "smiles": {"type": "null"}, "smiles_source": {"type": "null"},
-    "inchi_key": {"type": "null"}, "molecular_formula": {"type": "null"},
-    "molecular_weight": {"type": "null"},
+    # These were pinned null while the artifacts were a scoring key, because a
+    # SMILES is a lookup and not an extraction, so a reference carrying one would
+    # grade the enrichment service instead of the extractor. The four patents in
+    # goldenPatents are a GOLD DATASET now: a record that names a molecule and
+    # cannot say which molecule is an incomplete record. Written by
+    # enrich_structures.py, which puts the strength of the evidence in
+    # smiles_source rather than leaving a bare string nobody can weigh.
+    "smiles": SMILES, "smiles_source": SMILES_SOURCE,
+    "molecular_formula": FORMULA, "molecular_weight": N(),
+    # Still null. Nothing here computes an InChIKey, and a schema that permitted
+    # one would stop catching the day something starts guessing at them.
+    "inchi_key": {"type": "null"},
 }, required=["patent_id", "identifier", "identifier_type", "role", "section_label"])
 
 # --------------------------------------------------------------- reactions
@@ -107,7 +129,13 @@ workup = OBJ({"steps": ARR({"type": "string"}), "quenching_agent": S(),
 rxn_compound = OBJ({
     "identifier": {"type": "string"}, "role": ROLE, "is_product": B(),
     "quantity": QUANTITY, "addition_profile": S(), "ms_mz": N(), "ms_type": S(),
-    "purity_pct": N(), "purity_method": S()}, required=["identifier", "role"])
+    "purity_pct": N(), "purity_method": S(),
+    # The participants are where the chemistry is: 1075 rows across the four gold
+    # patents against 264 compound records. A mass balance is weighed here, so the
+    # formula and weight belong on the row that carries mass_g and mmol.
+    "smiles": SMILES, "smiles_source": SMILES_SOURCE,
+    "molecular_formula": FORMULA, "molecular_weight": N(),
+}, required=["identifier", "role"])
 
 VALIDATION_FLAG = ENUM(
     "missing_product", "missing_reactant", "no_conditions", "no_procedure_summary",
@@ -149,16 +177,21 @@ reaction = OBJ({
     "cross_reference_unresolved": B(), "non_synthetic": B(),
     "is_complete": B(), "validation_flags": ARR(VALIDATION_FLAG),
     "tags": ARR(TAG), "notes": S(),
-    # must stay null: structure resolution and enrichment are separate stages
-    "reactant_smiles": {"type": "null"}, "smiles_source": {"type": "null"},
-    "product_smiles": {"type": "null"}, "product_smiles_source": {"type": "null"},
-    "canonical_rxn": {"type": "null"},
+    # `reactant_smiles` is the reactants only, dot-joined, and `canonical_rxn` is
+    # reactants>>product. Reagents, catalysts and solvents are deliberately out of
+    # both: no reaction SMILES convention puts them left of the arrow, and a
+    # consumer that atom-maps this would be handed a mass balance that cannot close.
+    "reactant_smiles": SMILES, "smiles_source": SMILES_SOURCE,
+    "product_smiles": SMILES, "product_smiles_source": SMILES_SOURCE,
+    "canonical_rxn": S(),
 }, required=["patent_id", "reaction_id", "section_label", "step_index",
              "reaction_class", "compounds", "validation_flags"])
 
 # --------------------------------------------------------------- pathways
-cref = OBJ({"identifier": {"type": "string"}, "smiles": {"type": "null"},
-            "compound_uuid": S()}, required=["identifier"])
+cref = OBJ({"identifier": {"type": "string"}, "smiles": SMILES,
+            "smiles_source": SMILES_SOURCE, "molecular_formula": FORMULA,
+            "molecular_weight": N(), "compound_uuid": S()},
+           required=["identifier"])
 
 pathway = OBJ({
     "pathway_uuid": S(), "patent_id": {"type": "string"},
