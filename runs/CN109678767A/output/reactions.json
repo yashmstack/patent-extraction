@@ -98,9 +98,9 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=C1CCC(=O)N1Br",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "C4H4BrNO2",
-        "molecular_weight": 177.99
+        "molecular_weight": 177.98
       },
       {
         "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
@@ -262,9 +262,9 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=C1CCC(=O)N1Br",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "C4H4BrNO2",
-        "molecular_weight": 177.99
+        "molecular_weight": 177.98
       },
       {
         "identifier": "methyl 2-chloro-3-bromomethyl-4-methylsulfonylbenzoate",
@@ -428,7 +428,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "BrBr",
-        "smiles_source": "known",
+        "smiles_source": "pubchem",
         "molecular_formula": "Br2",
         "molecular_weight": 159.81
       },
@@ -1241,7 +1241,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "BrBr",
-        "smiles_source": "known",
+        "smiles_source": "pubchem",
         "molecular_formula": "Br2",
         "molecular_weight": 159.81
       },
@@ -1828,7 +1828,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "OO",
-        "smiles_source": "patent_drawing+known+opsin+pubchem",
+        "smiles_source": "patent_drawing+opsin+pubchem",
         "molecular_formula": "H2O2",
         "molecular_weight": 34.01
       },
@@ -2038,7 +2038,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -2732,7 +2732,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -2753,7 +2753,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "HCl",
         "molecular_weight": 36.46
       },
@@ -2989,7 +2989,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=S(Cl)Cl",
-        "smiles_source": "patent_scheme+patent_drawing+known+opsin+pubchem",
+        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
         "molecular_formula": "Cl2OS",
         "molecular_weight": 118.97
       },
@@ -3545,7 +3545,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -3762,7 +3762,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "BrBr",
-        "smiles_source": "known",
+        "smiles_source": "pubchem",
         "molecular_formula": "Br2",
         "molecular_weight": 159.81
       },
@@ -4217,7 +4217,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "HCl",
         "molecular_weight": 36.46
       },
@@ -4425,7 +4425,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=S(Cl)Cl",
-        "smiles_source": "patent_scheme+patent_drawing+known+opsin+pubchem",
+        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
         "molecular_formula": "Cl2OS",
         "molecular_weight": 118.97
       },
@@ -4677,7 +4677,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -4698,7 +4698,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "HCl",
         "molecular_weight": 36.46
       },
@@ -4960,7 +4960,7 @@
         "purity_pct": 30.0,
         "purity_method": null,
         "smiles": "OO",
-        "smiles_source": "patent_drawing+known+opsin+pubchem",
+        "smiles_source": "patent_drawing+opsin+pubchem",
         "molecular_formula": "H2O2",
         "molecular_weight": 34.01
       },
@@ -4981,7 +4981,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -5472,7 +5472,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -5493,7 +5493,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "HCl",
         "molecular_weight": 36.46
       },
@@ -5701,7 +5701,7 @@
         "purity_pct": 99.0,
         "purity_method": null,
         "smiles": "O=S(Cl)Cl",
-        "smiles_source": "patent_scheme+patent_drawing+known+opsin+pubchem",
+        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
         "molecular_formula": "Cl2OS",
         "molecular_weight": 118.97
       },
@@ -6164,7 +6164,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -6447,7 +6447,7 @@
         "purity_pct": 30.0,
         "purity_method": null,
         "smiles": "OO",
-        "smiles_source": "patent_drawing+known+opsin+pubchem",
+        "smiles_source": "patent_drawing+opsin+pubchem",
         "molecular_formula": "H2O2",
         "molecular_weight": 34.01
       },
@@ -6468,7 +6468,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -6961,7 +6961,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -6982,7 +6982,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "HCl",
         "molecular_weight": 36.46
       },
@@ -7190,7 +7190,7 @@
         "purity_pct": 99.0,
         "purity_method": null,
         "smiles": "O=S(Cl)Cl",
-        "smiles_source": "patent_scheme+patent_drawing+known+opsin+pubchem",
+        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
         "molecular_formula": "Cl2OS",
         "molecular_weight": 118.97
       },
@@ -7653,7 +7653,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -7936,7 +7936,7 @@
         "purity_pct": 30.0,
         "purity_method": null,
         "smiles": "OO",
-        "smiles_source": "patent_drawing+known+opsin+pubchem",
+        "smiles_source": "patent_drawing+opsin+pubchem",
         "molecular_formula": "H2O2",
         "molecular_weight": 34.01
       },
@@ -7957,7 +7957,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -8451,7 +8451,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -8472,7 +8472,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "HCl",
         "molecular_weight": 36.46
       },
@@ -8680,7 +8680,7 @@
         "purity_pct": 99.0,
         "purity_method": null,
         "smiles": "O=S(Cl)Cl",
-        "smiles_source": "patent_scheme+patent_drawing+known+opsin+pubchem",
+        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
         "molecular_formula": "Cl2OS",
         "molecular_weight": 118.97
       },
@@ -9145,7 +9145,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -9428,7 +9428,7 @@
         "purity_pct": 30.0,
         "purity_method": null,
         "smiles": "OO",
-        "smiles_source": "patent_drawing+known+opsin+pubchem",
+        "smiles_source": "patent_drawing+opsin+pubchem",
         "molecular_formula": "H2O2",
         "molecular_weight": 34.01
       },
@@ -9449,7 +9449,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -9943,7 +9943,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -9964,7 +9964,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "HCl",
         "molecular_weight": 36.46
       },
@@ -10174,7 +10174,7 @@
         "purity_pct": 99.0,
         "purity_method": null,
         "smiles": "O=S(Cl)Cl",
-        "smiles_source": "patent_scheme+patent_drawing+known+opsin+pubchem",
+        "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
         "molecular_formula": "Cl2OS",
         "molecular_weight": 118.97
       },
@@ -10639,7 +10639,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },

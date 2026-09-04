@@ -327,6 +327,10 @@
    "cid": 140104,
    "formula": "C2H5O",
    "message": ""
+  },
+  "HPPD": {
+   "smiles": null,
+   "message": "no entry"
   }
  }
 }

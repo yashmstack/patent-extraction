@@ -1,17 +1,17 @@
 {
  "patent_id": "WO2024109718A1",
  "identifiers": 171,
- "resolved": 130,
+ "resolved": 129,
  "witnesses": {
-  "2": 70,
-  "1": 25,
+  "2": 82,
+  "1": 23,
   "4": 12,
-  "3": 21,
+  "3": 10,
   "5": 2
  },
  "no_structure": {
   "none:class_name": 27,
-  "none:unresolved": 2,
+  "none:unresolved": 3,
   "none:markush": 10,
   "none:ambiguous": 2
  },
@@ -37,37 +37,34 @@
   {
    "identifier": "bromine",
    "answers": {
-    "known": "BrBr",
     "opsin": "[Br]",
     "pubchem": "BrBr"
    },
    "chosen": "BrBr",
-   "chosen_source": "known",
-   "reason": "diatomic element: a patent charges bromine as the molecule, not the atom. The single-atom reading halves the molecular weight.",
+   "chosen_source": "pubchem",
+   "reason": "diatomic element: a patent charges bromine as the molecule, not the atom. pubchem returned Br2; the single-atom reading halves the molecular weight.",
    "needs_human": false
   },
   {
    "identifier": "CO",
    "answers": {
-    "known": "[C-]#[O+]",
     "opsin": "[C]=O",
     "pubchem": "[C-]#[O+]"
    },
    "chosen": "[C-]#[O+]",
-   "chosen_source": "known",
-   "reason": "the record's own alias 'CO' is a formula, and only known returned a structure with those atoms.",
+   "chosen_source": "pubchem",
+   "reason": "same molecular formula CO: one substance drawn two ways, not a disagreement. Kept pubchem, the curated depiction.",
    "needs_human": false
   },
   {
    "identifier": "nitrogen",
    "answers": {
-    "known": "N#N",
     "opsin": "[N]",
     "pubchem": "N#N"
    },
    "chosen": "N#N",
-   "chosen_source": "known",
-   "reason": "diatomic element: a patent charges nitrogen as the molecule, not the atom. The single-atom reading halves the molecular weight.",
+   "chosen_source": "pubchem",
+   "reason": "diatomic element: a patent charges nitrogen as the molecule, not the atom. pubchem returned N2; the single-atom reading halves the molecular weight.",
    "needs_human": false
   },
   {
@@ -76,9 +73,20 @@
     "opsin": "Br.CCN(CC)CC",
     "pubchem": "CC[NH+](CC)CC.[Br-]"
    },
-   "chosen": "Br.CCN(CC)CC",
-   "chosen_source": "opsin",
-   "reason": "same molecular formula C6H16BrN, written ionic by one reader and covalent by the other. One substance, not a disagreement. Kept opsin.",
+   "chosen": "CC[NH+](CC)CC.[Br-]",
+   "chosen_source": "pubchem",
+   "reason": "same molecular formula C6H16BrN: one substance drawn two ways, not a disagreement. Kept pubchem, the curated depiction.",
+   "needs_human": false
+  },
+  {
+   "identifier": "compound of formula (VI)",
+   "answers": {
+    "patent_scheme": "CSc1cccc(Cl)c1C",
+    "pubchem": "ClCSCc1ccccc1"
+   },
+   "chosen": "ClCSCc1ccccc1",
+   "chosen_source": "pubchem",
+   "reason": "same molecular formula C8H9ClS: one substance drawn two ways, not a disagreement. Kept pubchem, the curated depiction.",
    "needs_human": false
   },
   {
@@ -92,20 +100,19 @@
    },
    "chosen": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
    "chosen_source": "patent_scheme",
-   "reason": "the record's own alias 'C8H8BrClO2S' is a formula, and only patent_scheme returned a structure with those atoms.",
+   "reason": "4 readers agree (curated, opsin, patent_drawing, patent_scheme) against pubchem. Majority, and the agreeing readers are unrelated.",
    "needs_human": false
   },
   {
    "identifier": "saturated brine",
    "answers": {
-    "known": "[Cl-].[Na+]",
     "pubchem": "O.[Cl-].[Na+]",
     "opsin": "[Cl-].[Na+]"
    },
    "chosen": "[Cl-].[Na+]",
-   "chosen_source": "known",
-   "reason": "2 readers agree (known, opsin) against pubchem. Majority, and the agreeing readers are unrelated.",
-   "needs_human": false
+   "chosen_source": "opsin",
+   "reason": "readers disagree and no rule settles it. Kept opsin by precedence. NEEDS A HUMAN.",
+   "needs_human": true
   },
   {
    "identifier": "potassium phosphate",
@@ -121,13 +128,12 @@
   {
    "identifier": "carbon monoxide",
    "answers": {
-    "known": "[C-]#[O+]",
     "opsin": "[C]=O",
     "pubchem": "[C-]#[O+]"
    },
    "chosen": "[C-]#[O+]",
-   "chosen_source": "known",
-   "reason": "2 readers agree (known, pubchem) against opsin. Majority, and the agreeing readers are unrelated.",
+   "chosen_source": "pubchem",
+   "reason": "same molecular formula CO: one substance drawn two ways, not a disagreement. Kept pubchem, the curated depiction.",
    "needs_human": false
   }
  ],
@@ -144,10 +150,22 @@
     "metatungstate",
     "偏钨酸盐"
    ]
+  },
+  {
+   "identifier": "NBS",
+   "tried": [
+    "NBS"
+   ]
   }
  ],
  "pathway_renames": [],
  "alias_inherited": [
+  {
+   "identifier": "NBS",
+   "from": "N-bromosuccinimide",
+   "was": null,
+   "now": "O=C1CCC(=O)N1Br"
+  },
   {
    "identifier": "dichloroethane",
    "from": "1,2-dichloroethane",

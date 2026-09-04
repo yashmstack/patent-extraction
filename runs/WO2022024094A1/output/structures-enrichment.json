@@ -3,9 +3,9 @@
  "identifiers": 52,
  "resolved": 36,
  "witnesses": {
-  "3": 10,
+  "3": 5,
   "1": 3,
-  "2": 22,
+  "2": 27,
   "4": 1
  },
  "no_structure": {
@@ -39,9 +39,9 @@
     "opsin": "[O-2].[O-2].[O-2].[O-2].[O-2].[V+5].[V+5]",
     "pubchem": "[O]=[V](=[O])[O][V](=[O])=[O]"
    },
-   "chosen": "[O-2].[O-2].[O-2].[O-2].[O-2].[V+5].[V+5]",
-   "chosen_source": "opsin",
-   "reason": "the record's own alias 'V2O5' is a formula, and only opsin returned a structure with those atoms.",
+   "chosen": "[O]=[V](=[O])[O][V](=[O])=[O]",
+   "chosen_source": "pubchem",
+   "reason": "same molecular formula O5V2: one substance drawn two ways, not a disagreement. Kept pubchem, the curated depiction.",
    "needs_human": false
   },
   {
@@ -53,19 +53,18 @@
    },
    "chosen": "[O]=[Ru]=[O]",
    "chosen_source": "curated",
-   "reason": "the record's own alias 'RuO2' is a formula, and only curated returned a structure with those atoms.",
+   "reason": "2 readers agree (curated, pubchem) against opsin. Majority, and the agreeing readers are unrelated.",
    "needs_human": false
   },
   {
    "identifier": "chlorine",
    "answers": {
-    "known": "ClCl",
     "opsin": "[Cl]",
     "pubchem": "ClCl"
    },
    "chosen": "ClCl",
-   "chosen_source": "known",
-   "reason": "diatomic element: a patent charges chlorine as the molecule, not the atom. The single-atom reading halves the molecular weight.",
+   "chosen_source": "pubchem",
+   "reason": "diatomic element: a patent charges chlorine as the molecule, not the atom. pubchem returned Cl2; the single-atom reading halves the molecular weight.",
    "needs_human": false
   }
  ],

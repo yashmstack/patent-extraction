@@ -1091,8 +1091,8 @@
     "notes": "Stated catalyst of the oxidation in [007], [008] and [009]. One record merged from the prose name three times, the title case 'Vanadium Pentoxide' on the arrows at lines 79 and 83, and the formula 'V2O5' on the arrow at line 90. Two drawing versus prose disagreements sit on these same arrows and neither is resolved here. First, [007] offers 'vanadium or cobalt compounds' as the catalyst class while the scheme at line 79 prints only Vanadium Pentoxide, dropping the cobalt option the prose allows. Second, the schemes carry temperatures that the prose never states anywhere in this section: '145 degree-C' at line 79, and '140-150 degree-C' at lines 83 and 90.",
     "id": "WO2022024094A1_vanadium pentoxide",
     "compound_uuid": "2b35d388-7d80-5d80-8b35-0d260b519225",
-    "smiles": "[O-2].[O-2].[O-2].[O-2].[O-2].[V+5].[V+5]",
-    "smiles_source": "opsin",
+    "smiles": "[O]=[V](=[O])[O][V](=[O])=[O]",
+    "smiles_source": "pubchem",
     "molecular_formula": "O5V2",
     "molecular_weight": 181.88
   },
@@ -1131,7 +1131,7 @@
     "id": "WO2022024094A1_O2",
     "compound_uuid": "4cf10a31-740c-5e66-a949-8a88b902531c",
     "smiles": "O=O",
-    "smiles_source": "known",
+    "smiles_source": "pubchem",
     "molecular_formula": "O2",
     "molecular_weight": 32.0
   },
@@ -1371,7 +1371,7 @@
       "text": "the ruthenium oxide is an insoluble solid present in substantially the same amount as initially so it can be filtered off and reused (for >50 conversion), even without treatment, in another cycle"
     },
     "smiles": "[O]=[Ru]=[O]",
-    "smiles_source": "curated",
+    "smiles_source": "curated+pubchem",
     "molecular_formula": "O2Ru",
     "molecular_weight": 133.07
   },
@@ -2123,7 +2123,7 @@
     "id": "WO2022024094A1_hydrogen peroxide",
     "compound_uuid": "2ef2c503-f14f-506a-a471-4e3ccd21d84f",
     "smiles": "OO",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "H2O2",
     "molecular_weight": 34.01
   },
@@ -2361,7 +2361,7 @@
     "id": "WO2022024094A1_chlorine",
     "compound_uuid": "4e46ca4d-be76-59f9-a29f-3cf384a7aa50",
     "smiles": "ClCl",
-    "smiles_source": "known",
+    "smiles_source": "pubchem",
     "molecular_formula": "Cl2",
     "molecular_weight": 70.91
   },
@@ -2762,7 +2762,7 @@
       "Example 3"
     ],
     "smiles": "Cl",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "HCl",
     "molecular_weight": 36.46
   },
@@ -2864,7 +2864,7 @@
       "Example 7"
     ],
     "smiles": "O",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "H2O",
     "molecular_weight": 18.02
   },
@@ -2916,7 +2916,7 @@
       }
     ],
     "smiles": "Cl",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "HCl",
     "molecular_weight": 36.46
   },

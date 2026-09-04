@@ -1580,7 +1580,7 @@
     "id": "CN112645853A_hydrochloric acid",
     "compound_uuid": "36625600-8db0-5e7c-9f1a-93a0752793c1",
     "smiles": "Cl",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "HCl",
     "molecular_weight": 36.46
   },
@@ -1623,7 +1623,7 @@
     "id": "CN112645853A_water",
     "compound_uuid": "5507a801-6f00-56fd-ad64-521a8318eb7b",
     "smiles": "O",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "H2O",
     "molecular_weight": 18.02
   },

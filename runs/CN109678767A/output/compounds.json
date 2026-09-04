@@ -230,7 +230,7 @@
       }
     ],
     "smiles": "OO",
-    "smiles_source": "patent_drawing+known+opsin+pubchem",
+    "smiles_source": "patent_drawing+opsin+pubchem",
     "molecular_formula": "H2O2",
     "molecular_weight": 34.01
   },
@@ -470,7 +470,7 @@
       }
     ],
     "smiles": "O=S(Cl)Cl",
-    "smiles_source": "patent_scheme+patent_drawing+known+opsin+pubchem",
+    "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
     "molecular_formula": "Cl2OS",
     "molecular_weight": 118.97
   },
@@ -1137,9 +1137,9 @@
     "id": "CN109678767A_NBS",
     "compound_uuid": "4a5d5189-83a3-5ca3-8254-c1832b81b754",
     "smiles": "O=C1CCC(=O)N1Br",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "C4H4BrNO2",
-    "molecular_weight": 177.99
+    "molecular_weight": 177.98
   },
   {
     "patent_id": "CN109678767A",
@@ -1267,7 +1267,7 @@
     "id": "CN109678767A_bromine",
     "compound_uuid": "bd3f5093-b291-5fb0-90f1-5b58e19edb9c",
     "smiles": "BrBr",
-    "smiles_source": "known",
+    "smiles_source": "pubchem",
     "molecular_formula": "Br2",
     "molecular_weight": 159.81
   },
@@ -1645,7 +1645,7 @@
       }
     ],
     "smiles": "O",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "H2O",
     "molecular_weight": 18.02
   },
@@ -1808,7 +1808,7 @@
     "id": "CN109678767A_hydrochloric acid",
     "compound_uuid": "b92f58c1-6d63-5c4f-8498-721a2accc118",
     "smiles": "Cl",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "HCl",
     "molecular_weight": 36.46
   },

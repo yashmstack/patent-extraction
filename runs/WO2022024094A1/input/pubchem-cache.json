@@ -321,6 +321,12 @@
   "pure enol ester": {
    "smiles": null,
    "message": "no entry"
+  },
+  "O2": {
+   "smiles": "O=O",
+   "cid": 977,
+   "formula": "O2",
+   "message": ""
   }
  }
 }

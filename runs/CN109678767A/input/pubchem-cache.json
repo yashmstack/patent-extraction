@@ -397,6 +397,18 @@
    "cid": 70297,
    "formula": "C7H5ClO3",
    "message": ""
+  },
+  "NBS": {
+   "smiles": null,
+   "cid": 67184,
+   "formula": "C4H4BrNO2",
+   "message": "the answer does not have the atoms the name spells out"
+  },
+  "DMF": {
+   "smiles": null,
+   "cid": 6228,
+   "formula": "C3H7NO",
+   "message": "the answer does not have the atoms the name spells out"
   }
  }
 }

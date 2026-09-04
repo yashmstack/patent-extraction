@@ -1007,7 +1007,7 @@
     "first_seen_line": 76,
     "concentration_pct": null,
     "smiles": "O",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "H2O",
     "molecular_weight": 18.02
   },
@@ -1405,7 +1405,7 @@
     "first_seen_line": 327,
     "concentration_pct": null,
     "smiles": "[Pd]",
-    "smiles_source": "known+pubchem",
+    "smiles_source": "pubchem",
     "molecular_formula": "Pd",
     "molecular_weight": 106.42
   },
@@ -1637,7 +1637,7 @@
     "first_seen_line": 329,
     "concentration_pct": null,
     "smiles": "CN(C)c1ccc(P(C(C)(C)C)C(C)(C)C)cc1",
-    "smiles_source": "opsin",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "C16H28NP",
     "molecular_weight": 265.38
   },
@@ -2000,7 +2000,7 @@
     "first_seen_line": 74,
     "concentration_pct": null,
     "smiles": "BrBr",
-    "smiles_source": "known",
+    "smiles_source": "pubchem",
     "molecular_formula": "Br2",
     "molecular_weight": 159.81
   },
@@ -2046,9 +2046,9 @@
     "first_seen_line": 65,
     "concentration_pct": null,
     "smiles": "O=C1CCC(=O)N1Br",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "C4H4BrNO2",
-    "molecular_weight": 177.99
+    "molecular_weight": 177.98
   },
   {
     "patent_id": "WO2024109718A1",
@@ -2135,7 +2135,7 @@
     "first_seen_line": 65,
     "concentration_pct": 23.0,
     "smiles": "OO",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "H2O2",
     "molecular_weight": 34.01
   },
@@ -2273,7 +2273,7 @@
     "first_seen_line": 97,
     "concentration_pct": null,
     "smiles": "[C-]#[O+]",
-    "smiles_source": "known",
+    "smiles_source": "pubchem",
     "molecular_formula": "CO",
     "molecular_weight": 28.01
   },
@@ -2316,7 +2316,7 @@
     "first_seen_line": 76,
     "concentration_pct": null,
     "smiles": "O",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "H2O",
     "molecular_weight": 18.02
   },
@@ -2531,7 +2531,7 @@
     "first_seen_line": 74,
     "concentration_pct": 5.1,
     "smiles": "Cl",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "HCl",
     "molecular_weight": 36.46
   },
@@ -2925,7 +2925,7 @@
     "first_seen_line": 320,
     "concentration_pct": null,
     "smiles": "N#N",
-    "smiles_source": "known",
+    "smiles_source": "pubchem",
     "molecular_formula": "N2",
     "molecular_weight": 28.01
   },
@@ -3014,8 +3014,8 @@
     "compound_uuid": "b4c3f1d4-64e6-5f33-92cc-af86b27ad881",
     "first_seen_line": 537,
     "concentration_pct": null,
-    "smiles": "Br.CCN(CC)CC",
-    "smiles_source": "opsin",
+    "smiles": "CC[NH+](CC)CC.[Br-]",
+    "smiles_source": "pubchem",
     "molecular_formula": "C6H16BrN",
     "molecular_weight": 182.1
   },
@@ -3295,8 +3295,8 @@
     "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
     "first_seen_line": 65,
     "concentration_pct": null,
-    "smiles": "CSc1cccc(Cl)c1C",
-    "smiles_source": "patent_scheme",
+    "smiles": "ClCSCc1ccccc1",
+    "smiles_source": "pubchem",
     "molecular_formula": "C8H9ClS",
     "molecular_weight": 172.68
   },
@@ -3578,7 +3578,7 @@
     "first_seen_line": 108,
     "concentration_pct": null,
     "smiles": "Cc1c(S(C)(=O)=O)ccc(Br)c1Cl",
-    "smiles_source": "patent_scheme",
+    "smiles_source": "patent_scheme+curated+patent_drawing+opsin",
     "molecular_formula": "C8H8BrClO2S",
     "molecular_weight": 283.57
   },
@@ -4027,7 +4027,7 @@
     "first_seen_line": 308,
     "concentration_pct": null,
     "smiles": "[Cl-].[Na+]",
-    "smiles_source": "known",
+    "smiles_source": "opsin",
     "molecular_formula": "ClNa",
     "molecular_weight": 58.44
   },
@@ -4204,7 +4204,7 @@
     "first_seen_line": 74,
     "concentration_pct": null,
     "smiles": "O=S(Cl)Cl",
-    "smiles_source": "known+opsin+pubchem",
+    "smiles_source": "opsin+pubchem",
     "molecular_formula": "Cl2OS",
     "molecular_weight": 118.97
   },

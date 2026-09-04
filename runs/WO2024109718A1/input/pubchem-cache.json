@@ -871,6 +871,110 @@
   "ester compound of formula (VIII)": {
    "smiles": null,
    "message": "no entry"
+  },
+  "C7H6Cl2": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "CH3SNa": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "NaNO2": {
+   "smiles": "N(=O)[O-].[Na+]",
+   "cid": 23668193,
+   "formula": "NNaO2",
+   "message": ""
+  },
+  "CH3OH": {
+   "smiles": "CO",
+   "cid": 887,
+   "formula": "CH4O",
+   "message": ""
+  },
+  "NaOH": {
+   "smiles": "[OH-].[Na+]",
+   "cid": 14798,
+   "formula": "HNaO",
+   "message": ""
+  },
+  "PdCO3": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "Amphos": {
+   "smiles": "CC(C)(C)P(C1=CC=C(C=C1)N(C)C)C(C)(C)C",
+   "cid": 11714598,
+   "formula": "C16H28NP",
+   "message": ""
+  },
+  "CF3CH2OK": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "CF3CH2OM": {
+   "smiles": null,
+   "message": "no entry"
+  },
+  "CO": {
+   "smiles": null,
+   "cid": 104730,
+   "formula": "Co",
+   "message": "the answer does not have the atoms the name spells out"
+  },
+  "H2O": {
+   "smiles": "O",
+   "cid": 962,
+   "formula": "H2O",
+   "message": ""
+  },
+  "CDCl3": {
+   "smiles": null,
+   "cid": 71583,
+   "formula": "CHCl3",
+   "message": "the answer does not have the atoms the name spells out"
+  },
+  "PdCl2": {
+   "smiles": "Cl[Pd]Cl",
+   "cid": 24290,
+   "formula": "Cl2Pd",
+   "message": ""
+  },
+  "C8H9ClS": {
+   "smiles": "C1=CC=C(C=C1)CSCCl",
+   "cid": 319930,
+   "formula": "C8H9ClS",
+   "message": ""
+  },
+  "H2O2": {
+   "smiles": "OO",
+   "cid": 784,
+   "formula": "H2O2",
+   "message": ""
+  },
+  "NBS": {
+   "smiles": null,
+   "cid": 67184,
+   "formula": "C4H4BrNO2",
+   "message": "the answer does not have the atoms the name spells out"
+  },
+  "HCl": {
+   "smiles": "Cl",
+   "cid": 313,
+   "formula": "ClH",
+   "message": ""
+  },
+  "Br2": {
+   "smiles": "BrBr",
+   "cid": 24408,
+   "formula": "Br2",
+   "message": ""
+  },
+  "SOCl2": {
+   "smiles": "O=S(Cl)Cl",
+   "cid": 24386,
+   "formula": "Cl2OS",
+   "message": ""
   }
  }
 }

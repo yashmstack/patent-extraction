@@ -56,7 +56,7 @@ TAG = {"type": "string", "pattern": "^[a-z_]+:[a-z0-9_/.+-]+$"}
 # is two readings of this document agreeing, `pubchem` alone is one database and
 # nobody else. `none:class_name` says no molecule exists to find, which is a
 # different fact from `none:unresolved`, and a bare `none` would erase it.
-READER = "patent_scheme|curated|patent_drawing|known|opsin|pubchem"
+READER = "patent_scheme|curated|patent_drawing|opsin|pubchem"
 NO_STRUCTURE = "markush|reference|class_name|material|polymer|ambiguous|unresolved"
 SMILES_SOURCE = {"type": ["string", "null"],
                  "pattern": rf"^(({READER})(\+({READER}))*|none:({NO_STRUCTURE})"

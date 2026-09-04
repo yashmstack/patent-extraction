@@ -1083,8 +1083,8 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": "[O-2].[O-2].[O-2].[O-2].[O-2].[V+5].[V+5]",
-        "smiles_source": "opsin",
+        "smiles": "[O]=[V](=[O])[O][V](=[O])=[O]",
+        "smiles_source": "pubchem",
         "molecular_formula": "O5V2",
         "molecular_weight": 181.88
       },
@@ -1323,7 +1323,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O=O",
-        "smiles_source": "known",
+        "smiles_source": "pubchem",
         "molecular_formula": "O2",
         "molecular_weight": 32.0
       },
@@ -1343,8 +1343,8 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": "[O-2].[O-2].[O-2].[O-2].[O-2].[V+5].[V+5]",
-        "smiles_source": "opsin",
+        "smiles": "[O]=[V](=[O])[O][V](=[O])=[O]",
+        "smiles_source": "pubchem",
         "molecular_formula": "O5V2",
         "molecular_weight": 181.88
       },
@@ -1550,8 +1550,8 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": "[O-2].[O-2].[O-2].[O-2].[O-2].[V+5].[V+5]",
-        "smiles_source": "opsin",
+        "smiles": "[O]=[V](=[O])[O][V](=[O])=[O]",
+        "smiles_source": "pubchem",
         "molecular_formula": "O5V2",
         "molecular_weight": 181.88
       },
@@ -1916,7 +1916,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "ClCl",
-        "smiles_source": "known",
+        "smiles_source": "pubchem",
         "molecular_formula": "Cl2",
         "molecular_weight": 70.91
       },
@@ -1958,7 +1958,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[O]=[Ru]=[O]",
-        "smiles_source": "curated",
+        "smiles_source": "curated+pubchem",
         "molecular_formula": "O2Ru",
         "molecular_weight": 133.07
       }
@@ -1971,7 +1971,7 @@
     "smiles_source": "joined_from_participants",
     "product_name": "ruthenium oxide",
     "product_smiles": "[O]=[Ru]=[O]",
-    "product_smiles_source": "curated",
+    "product_smiles_source": "curated+pubchem",
     "product_yield_pct": null,
     "product_ms_mz": null,
     "product_ms_type": null,
@@ -2196,7 +2196,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[O]=[Ru]=[O]",
-        "smiles_source": "curated",
+        "smiles_source": "curated+pubchem",
         "molecular_formula": "O2Ru",
         "molecular_weight": 133.07
       },
@@ -2217,7 +2217,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "HCl",
         "molecular_weight": 36.46
       },
@@ -2493,7 +2493,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[O]=[Ru]=[O]",
-        "smiles_source": "curated",
+        "smiles_source": "curated+pubchem",
         "molecular_formula": "O2Ru",
         "molecular_weight": 133.07
       },
@@ -2514,7 +2514,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "HCl",
         "molecular_weight": 36.46
       },
@@ -2787,7 +2787,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[O]=[Ru]=[O]",
-        "smiles_source": "curated",
+        "smiles_source": "curated+pubchem",
         "molecular_formula": "O2Ru",
         "molecular_weight": 133.07
       },
@@ -2808,7 +2808,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "HCl",
         "molecular_weight": 36.46
       },
@@ -3078,7 +3078,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -3351,7 +3351,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -3634,7 +3634,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -3950,7 +3950,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "O",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "H2O",
         "molecular_weight": 18.02
       },
@@ -3971,7 +3971,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "Cl",
-        "smiles_source": "known+opsin+pubchem",
+        "smiles_source": "opsin+pubchem",
         "molecular_formula": "HCl",
         "molecular_weight": 36.46
       },
@@ -4207,7 +4207,7 @@
         "purity_pct": null,
         "purity_method": null,
         "smiles": "[O]=[Ru]=[O]",
-        "smiles_source": "curated",
+        "smiles_source": "curated+pubchem",
         "molecular_formula": "O2Ru",
         "molecular_weight": 133.07
       },

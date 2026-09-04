@@ -449,11 +449,24 @@ class PubChem:
         self.answers: dict = doc.get("answers") or {}
 
     def askable(self, query: str) -> bool:
-        if not query or is_chinese(query) or len(query) > 180:
-            return False
-        if self.FORMULA_SHAPED.match(query) and " " not in query:
-            return False
-        return True
+        return bool(query) and not is_chinese(query) and len(query) <= 180
+
+    @staticmethod
+    def trustworthy(query: str, smiles: str) -> bool:
+        """An answer to a FORMULA must contain exactly the atoms that formula names.
+
+        PubChem answers `CO` with cobalt and `NBS` with N-bromosuccinimide, one of
+        which is wrong and one of which is right, and no amount of care in choosing
+        what to ask can tell them apart. Asking anyway and checking the arithmetic
+        can: `CO` names one carbon and one oxygen, cobalt is neither, so it is
+        refused. This replaced a hand-typed table of structures. Nothing here is
+        anybody's say-so any more; a name that spells out its own formula is made
+        to prove the answer against it.
+        """
+        want = as_formula(query)
+        if want is None:
+            return True                 # not a formula, nothing to check it against
+        return element_counts(smiles) == want
 
     def ask(self, query: str) -> tuple[str | None, str]:
         if not self.askable(query):
@@ -469,8 +482,13 @@ class PubChem:
             with urllib.request.urlopen(req, timeout=25) as r:
                 doc = json.load(r)
             p = doc["PropertyTable"]["Properties"][0]
-            ans = {"smiles": p.get("SMILES"), "cid": p.get("CID"),
-                   "formula": p.get("MolecularFormula"), "message": ""}
+            smi = p.get("SMILES")
+            if smi and not self.trustworthy(query, smi):
+                smi = None
+                p["refused"] = "the answer does not have the atoms the name spells out"
+            ans = {"smiles": smi, "cid": p.get("CID"),
+                   "formula": p.get("MolecularFormula"),
+                   "message": p.get("refused", "")}
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 ans = {"smiles": None, "message": "no entry"}
@@ -621,57 +639,12 @@ def load_english(run: Path) -> dict[str, str]:
 # Elements a patent charges as the diatomic molecule, whatever the prose calls them.
 # OPSIN parses the bare element name to a single ATOM, which halves the molecular
 # weight and therefore doubles every mole count computed from a mass.
-DIATOMIC = {
-    "hydrogen": "[H][H]", "nitrogen": "N#N", "oxygen": "O=O",
-    "fluorine": "FF", "chlorine": "ClCl", "bromine": "BrBr", "iodine": "II",
-}
-DIATOMIC_ALIAS = {"h2": "hydrogen", "n2": "nitrogen", "o2": "oxygen", "f2": "fluorine",
-                  "cl2": "chlorine", "br2": "bromine", "i2": "iodine"}
-
-# Species every chemist knows, that a grammar cannot parse and a name lookup gets
-# wrong. Hand-authored, so checked atom by atom against the name, as required.
-# Nothing patent-specific belongs here: that goes in the run's
-# input/structures-curated.json, where a reviewer looking at one patent will see it.
-#
-#   name                    SMILES              formula   checked
-#   NBS                     O=C1CCC(=O)N1Br     C4H4BrNO2 succinimide ring, N bears Br
-#   NCS                     O=C1CCC(=O)N1Cl     C4H4ClNO2 the same, chlorine
-#   hydrogen chloride       Cl                  ClH       one implicit H on chlorine
-#   hydrogen peroxide       OO                  H2O2      O-O single bond, one H each
-#   thionyl chloride        O=S(Cl)Cl           Cl2OS     S=O, two S-Cl
-#   phosphoryl chloride     O=P(Cl)(Cl)Cl       Cl3OP     P=O, three P-Cl
-#   carbon monoxide         [C-]#[O+]           CO        the accepted Lewis form;
-#                                                         OPSIN returns [C]=O, a
-#                                                         carbene, same formula
-#   brine                   [Na+].[Cl-]         ClNa      the SOLUTE. Water is the
-#                                                         bottle, and `saturated`
-#                                                         is already stripped as a
-#                                                         qualifier everywhere else
-#   palladium on carbon     [Pd]                Pd        the carbon is a support,
-#                                                         not part of the species
-KNOWN = {
-    "nbs": "O=C1CCC(=O)N1Br", "n-bromosuccinimide": "O=C1CCC(=O)N1Br",
-    "ncs": "O=C1CCC(=O)N1Cl", "n-chlorosuccinimide": "O=C1CCC(=O)N1Cl",
-    "hcl": "Cl", "hydrogen chloride": "Cl", "hydrochloric acid": "Cl",
-    "h2o2": "OO", "hydrogen peroxide": "OO",
-    "socl2": "O=S(Cl)Cl", "thionyl chloride": "O=S(Cl)Cl",
-    "pocl3": "O=P(Cl)(Cl)Cl", "phosphorus oxychloride": "O=P(Cl)(Cl)Cl",
-    "phosphoryl chloride": "O=P(Cl)(Cl)Cl",
-    "co": "[C-]#[O+]", "carbon monoxide": "[C-]#[O+]",
-    "brine": "[Na+].[Cl-]",
-    "palladium on carbon": "[Pd]", "pd/c": "[Pd]", "palladium/carbon": "[Pd]",
-    "water": "O", "h2o": "O",
-}
-
-
-def known_species(query: str) -> str | None:
-    """A diatomic element or a species from the hand-checked table above."""
-    n = normalise(query)
-    flat = n.replace(" ", "")
-    base = DIATOMIC_ALIAS.get(flat, n)
-    if base in DIATOMIC:
-        return DIATOMIC[base]
-    return KNOWN.get(n) or KNOWN.get(flat)
+DIATOMIC_ELEMENTS = {"hydrogen": "H", "nitrogen": "N", "oxygen": "O",
+                     "fluorine": "F", "chlorine": "Cl", "bromine": "Br",
+                     "iodine": "I"}
+DIATOMIC_ALIAS = {"h2": "hydrogen", "n2": "nitrogen", "o2": "oxygen",
+                  "f2": "fluorine", "cl2": "chlorine", "br2": "bromine",
+                  "i2": "iodine"}
 
 
 _ELEMENT = re.compile(r"([A-Z][a-z]?)(\d*)")
@@ -710,7 +683,7 @@ def element_counts(smiles: str) -> dict[str, int] | None:
     return out
 
 RANK = {"patent_scheme": 0, "curated": 1, "patent_drawing": 2,
-        "known": 3, "opsin": 4, "pubchem": 5}
+        "opsin": 3, "pubchem": 4}
 
 SALT_NAME = re.compile(r"(ate|ite|oxide|ide)$", re.I)
 
@@ -736,12 +709,14 @@ def adjudicate(identifier: str, answers: dict[str, str],
 
     n = normalise(identifier)
     base = DIATOMIC_ALIAS.get(n.replace(" ", ""), n)
-    if base in DIATOMIC:
-        want = canon(DIATOMIC[base])
-        src = sorted(by_canon.get(want, ["known"]), key=lambda s: RANK.get(s, 9))[0]
-        return DIATOMIC[base], src, (
-            f"diatomic element: a patent charges {base} as the molecule, not the "
-            f"atom. The single-atom reading halves the molecular weight.")
+    if base in DIATOMIC_ELEMENTS:
+        sym = DIATOMIC_ELEMENTS[base]
+        for src in sorted(answers, key=lambda s: RANK[s]):
+            if element_counts(answers[src]) == {sym: 2}:
+                return answers[src], src, (
+                    f"diatomic element: a patent charges {base} as the molecule, not "
+                    f"the atom. {src} returned {sym}2; the single-atom reading halves "
+                    f"the molecular weight.")
 
     # The record's OWN alias settles it. `potassium phosphate` is three different
     # salts and the gold carries `K3PO4` beside it, which says which one. That is
@@ -750,11 +725,15 @@ def adjudicate(identifier: str, answers: dict[str, str],
         want = as_formula(al)
         if not want:
             continue
-        for src in sorted(answers, key=lambda s: RANK[s]):
-            if element_counts(answers[src]) == want:
-                return answers[src], src, (
-                    f"the record's own alias {al!r} is a formula, and only {src} "
-                    f"returned a structure with those atoms.")
+        hit = [s for s in sorted(answers, key=lambda s: RANK[s])
+               if element_counts(answers[s]) == want]
+        # Only when it actually discriminates. `CO` names one carbon and one
+        # oxygen, and BOTH readers returned that, so the alias settles nothing and
+        # saying it did would be inventing a reason.
+        if len(hit) == 1:
+            return answers[hit[0]], hit[0], (
+                f"the record's own alias {al!r} is a formula, and only {hit[0]} "
+                f"returned a structure with those atoms.")
 
     # Two readers against one. Nothing about the ranking, just arithmetic: when
     # `known` and OPSIN both say brine is [Na+].[Cl-] and PubChem adds the water it
@@ -781,10 +760,15 @@ def adjudicate(identifier: str, answers: dict[str, str],
     # about charge, and say that nothing was actually in dispute.
     formulas = {formula_of(s) for s in answers.values()}
     if len(formulas) == 1 and None not in formulas:
-        src = sorted(answers, key=lambda s: RANK[s])[0]
+        # PubChem wins these, and only these. When two readers describe the SAME
+        # substance and differ only in how they draw it, a database entry is a
+        # depiction somebody curated, while OPSIN's is whatever its grammar
+        # mechanically produced. It is the difference between carbon monoxide as
+        # [C-]#[O+] and as [C]=O, which is a carbene with the right mass.
+        src = "pubchem" if "pubchem" in answers else sorted(answers, key=lambda s: RANK[s])[0]
         return answers[src], src, (
-            f"same molecular formula {formulas.pop()}, written ionic by one reader and "
-            f"covalent by the other. One substance, not a disagreement. Kept {src}.")
+            f"same molecular formula {formulas.pop()}: one substance drawn two ways, "
+            f"not a disagreement. Kept {src}, the curated depiction.")
 
     # An -ate, -ite or -oxide name IS the anion. PubChem routinely indexes the free
     # acid or the neutral metal under the salt's name (`sodium tert-butoxide` comes
@@ -857,14 +841,6 @@ def resolve_all(identifiers: list[str], aliases: dict[str, list[str]],
             if looks_like_smiles(q):
                 answers["patent_scheme"], used["patent_scheme"] = q, q
                 break
-        # An element in its standard state, or a species from the hand-checked
-        # table. OPSIN parses `bromine` to a single ATOM and PubChem is never asked
-        # about `Br2`, so without this the commonest reagents have no reader at all.
-        for q in plan[ident]:
-            hit = known_species(q)
-            if hit:
-                answers["known"], used["known"] = hit, q
-                break
         for q in plan[ident]:
             nq = normalise(q)
             for src, smi in (("curated", curated.get(nq)), ("patent_drawing", drawn.get(nq))):
@@ -911,7 +887,14 @@ def resolve_all(identifiers: list[str], aliases: dict[str, list[str]],
         else:
             smiles, src, reason = adjudicate(
                 ident, answers, [ident, *aliases.get(ident, [])])
-            source = src
+            # Name everyone who agreed with the answer that won, not just the one
+            # it was taken from. `ruthenium oxide` was decided in favour of the
+            # curated entry, but PubChem had said the same thing, and a bare
+            # `curated` reads as the weakest evidence in the set when it is
+            # actually among the strongest: a line of the patent AND a database.
+            agreed = [k for k in sorted(answers, key=lambda x: RANK[x])
+                      if canon(answers[k]) == canon(smiles)]
+            source = "+".join(agreed)
             disputes.append({
                 "identifier": ident,
                 "answers": {k: canon(v) for k, v in answers.items()},

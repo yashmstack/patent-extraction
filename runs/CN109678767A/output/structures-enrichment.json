@@ -3,10 +3,9 @@
  "identifiers": 64,
  "resolved": 56,
  "witnesses": {
-  "3": 10,
+  "3": 7,
   "4": 4,
-  "5": 1,
-  "2": 35,
+  "2": 39,
   "1": 6
  },
  "no_structure": {
@@ -35,13 +34,12 @@
   {
    "identifier": "bromine",
    "answers": {
-    "known": "BrBr",
     "opsin": "[Br]",
     "pubchem": "BrBr"
    },
    "chosen": "BrBr",
-   "chosen_source": "known",
-   "reason": "diatomic element: a patent charges bromine as the molecule, not the atom. The single-atom reading halves the molecular weight.",
+   "chosen_source": "pubchem",
+   "reason": "diatomic element: a patent charges bromine as the molecule, not the atom. pubchem returned Br2; the single-atom reading halves the molecular weight.",
    "needs_human": false
   }
  ],

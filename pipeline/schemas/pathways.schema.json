@@ -54,7 +54,7 @@
               "string",
               "null"
             ],
-            "pattern": "^((patent_scheme|curated|patent_drawing|known|opsin|pubchem)(\\+(patent_scheme|curated|patent_drawing|known|opsin|pubchem))*|none:(markush|reference|class_name|material|polymer|ambiguous|unresolved)|joined_from_participants)$"
+            "pattern": "^((patent_scheme|curated|patent_drawing|opsin|pubchem)(\\+(patent_scheme|curated|patent_drawing|opsin|pubchem))*|none:(markush|reference|class_name|material|polymer|ambiguous|unresolved)|joined_from_participants)$"
           },
           "molecular_formula": {
             "type": [
@@ -106,7 +106,7 @@
                 "string",
                 "null"
               ],
-              "pattern": "^((patent_scheme|curated|patent_drawing|known|opsin|pubchem)(\\+(patent_scheme|curated|patent_drawing|known|opsin|pubchem))*|none:(markush|reference|class_name|material|polymer|ambiguous|unresolved)|joined_from_participants)$"
+              "pattern": "^((patent_scheme|curated|patent_drawing|opsin|pubchem)(\\+(patent_scheme|curated|patent_drawing|opsin|pubchem))*|none:(markush|reference|class_name|material|polymer|ambiguous|unresolved)|joined_from_participants)$"
             },
             "molecular_formula": {
               "type": [
@@ -154,7 +154,7 @@
               "string",
               "null"
             ],
-            "pattern": "^((patent_scheme|curated|patent_drawing|known|opsin|pubchem)(\\+(patent_scheme|curated|patent_drawing|known|opsin|pubchem))*|none:(markush|reference|class_name|material|polymer|ambiguous|unresolved)|joined_from_participants)$"
+            "pattern": "^((patent_scheme|curated|patent_drawing|opsin|pubchem)(\\+(patent_scheme|curated|patent_drawing|opsin|pubchem))*|none:(markush|reference|class_name|material|polymer|ambiguous|unresolved)|joined_from_participants)$"
           },
           "molecular_formula": {
             "type": [
