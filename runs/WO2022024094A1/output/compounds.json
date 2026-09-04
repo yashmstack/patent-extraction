@@ -3226,10 +3226,10 @@
     "notes": "[NEW RECORD, FIX C-003] Generic class term, recorded because prompt 3 requires the class nouns the patent uses without naming a substance, and because CN112645853A set the precedent by adding all 13 of its missing generics, of which 'alkali metal alkoxide' was a reagent route inside claim 1. [006] at line 70: US 5,591,890 oxidises NMST 'in the presence of a cobalt salt as a catalyst'. The specific salt is named later in the same paragraph as cobalt(II) acetate tetra hydrate, which is recorded separately, but the generic phrase comes first and is the broader disclosure.",
     "id": "WO2022024094A1_a cobalt salt",
     "compound_uuid": "a25231bb-1499-5e6f-a544-955925f9a99a",
-    "smiles": "[Co]",
-    "smiles_source": "opsin+pubchem",
-    "molecular_formula": "Co",
-    "molecular_weight": 58.93
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2022024094A1",

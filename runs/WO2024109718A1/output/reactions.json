@@ -7291,10 +7291,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": "N#[NH+]",
-        "smiles_source": "pubchem",
-        "molecular_formula": "HN2+",
-        "molecular_weight": 29.02
+        "smiles": null,
+        "smiles_source": "none:class_name",
+        "molecular_formula": null,
+        "molecular_weight": null
       },
       {
         "identifier": "CH3SNa",
@@ -7370,7 +7370,7 @@
       "CH3SNa",
       "NaOH"
     ],
-    "reactant_smiles": "Cc1c(N)cccc1Cl.N#[NH+]",
+    "reactant_smiles": "Cc1c(N)cccc1Cl",
     "smiles_source": "joined_from_participants",
     "product_name": "compound of formula (VI)",
     "product_smiles": "CSc1cccc(Cl)c1C",
@@ -7380,7 +7380,7 @@
     "product_ms_type": null,
     "product_purity_pct": null,
     "product_purity_method": null,
-    "canonical_rxn": "Cc1c(N)cccc1Cl.N#[NH+]>>CSc1cccc(Cl)c1C",
+    "canonical_rxn": "Cc1c(N)cccc1Cl>>CSc1cccc(Cl)c1C",
     "procedure_text": "在20℃下将5.1％盐酸1165g加入到四口瓶中，滴加3-氯-2-甲基苯胺100g，滴加完毕后，在0℃进一步滴加20％NaNO2水溶液251.41g，滴加过程中控温不超过-5～10℃，搅拌，得到重氮盐溶液。称量20％CH3SNa水溶液273g和32％NaOH水溶液26.62g置于另一四口烧瓶中，将上述重氮盐溶液滴加到此烧瓶中，通过高效液相色谱监测反应。反应完成后，用盐酸调节至pH为2～3，分层，收集有机层，蒸馏，得到式(VI)化合物。",
     "procedure_summary": "3-Chloro-2-methylaniline is diazotised with aqueous sodium nitrite in aqueous hydrochloric acid, and the resulting diazonium salt solution is added to aqueous sodium methanethiolate and sodium hydroxide, giving the aryl methyl sulfide of formula (VI) after acidification, layer separation and distillation.",
     "precursor_step": null,
@@ -13136,10 +13136,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:ambiguous",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "ClCCCl",
+        "smiles_source": "opsin+pubchem",
+        "molecular_formula": "C2H4Cl2",
+        "molecular_weight": 98.96
       },
       {
         "identifier": "carbon tetrachloride",
@@ -14381,10 +14381,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": "O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd]",
+        "smiles": "O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd]",
         "smiles_source": "pubchem",
-        "molecular_formula": "C51H42O3Pd2",
-        "molecular_weight": 915.73
+        "molecular_formula": "C34H28O2Pd",
+        "molecular_weight": 575.02
       },
       {
         "identifier": "1,3-bis(diphenylphosphino)propane",
@@ -14444,10 +14444,10 @@
         "ms_type": null,
         "purity_pct": null,
         "purity_method": null,
-        "smiles": null,
-        "smiles_source": "none:ambiguous",
-        "molecular_formula": null,
-        "molecular_weight": null
+        "smiles": "CN(C)c1ccc(P(C(C)(C)C)C(C)(C)C)cc1",
+        "smiles_source": "opsin",
+        "molecular_formula": "C16H28NP",
+        "molecular_weight": 265.38
       },
       {
         "identifier": "triethylamine",

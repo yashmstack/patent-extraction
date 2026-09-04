@@ -47,6 +47,7 @@
  ],
  "unresolved": [],
  "pathway_renames": [],
+ "alias_inherited": [],
  "readers": [
   "curated (human, this patent)",
   "patent_drawing (vision pass, this patent)",

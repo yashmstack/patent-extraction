@@ -15,7 +15,7 @@
       {
         "identifier": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
         "smiles": "CSc1cccc(Cl)c1C",
-        "compound_uuid": "38bb5e03-77a5-515e-b697-b8a984626b75",
+        "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6",
         "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
         "molecular_formula": "C8H9ClS",
         "molecular_weight": 172.68
@@ -2429,7 +2429,7 @@
       {
         "identifier": "1-chloro-2-methyl-3-(methylsulfanyl)benzene",
         "smiles": "CSc1cccc(Cl)c1C",
-        "compound_uuid": "38bb5e03-77a5-515e-b697-b8a984626b75",
+        "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6",
         "smiles_source": "patent_scheme+patent_drawing+opsin+pubchem",
         "molecular_formula": "C8H9ClS",
         "molecular_weight": 172.68
@@ -24248,7 +24248,7 @@
       {
         "identifier": "compound of formula (VI)",
         "smiles": "CSc1cccc(Cl)c1C",
-        "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6",
+        "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
         "smiles_source": "patent_scheme",
         "molecular_formula": "C8H9ClS",
         "molecular_weight": 172.68
@@ -25430,7 +25430,7 @@
       {
         "identifier": "compound of formula (VI)",
         "smiles": "CSc1cccc(Cl)c1C",
-        "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6",
+        "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
         "smiles_source": "patent_scheme",
         "molecular_formula": "C8H9ClS",
         "molecular_weight": 172.68
@@ -27369,7 +27369,7 @@
       {
         "identifier": "compound of formula (VI)",
         "smiles": "CSc1cccc(Cl)c1C",
-        "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6",
+        "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
         "smiles_source": "patent_scheme",
         "molecular_formula": "C8H9ClS",
         "molecular_weight": 172.68
@@ -30049,7 +30049,7 @@
       {
         "identifier": "compound of formula (VI)",
         "smiles": "CSc1cccc(Cl)c1C",
-        "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6",
+        "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
         "smiles_source": "patent_scheme",
         "molecular_formula": "C8H9ClS",
         "molecular_weight": 172.68
@@ -31968,7 +31968,7 @@
       {
         "identifier": "compound of formula (VI)",
         "smiles": "CSc1cccc(Cl)c1C",
-        "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6",
+        "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
         "smiles_source": "patent_scheme",
         "molecular_formula": "C8H9ClS",
         "molecular_weight": 172.68
@@ -33904,7 +33904,7 @@
       {
         "identifier": "compound of formula (VI)",
         "smiles": "CSc1cccc(Cl)c1C",
-        "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6",
+        "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
         "smiles_source": "patent_scheme",
         "molecular_formula": "C8H9ClS",
         "molecular_weight": 172.68
@@ -35930,7 +35930,7 @@
       {
         "identifier": "compound of formula (VI)",
         "smiles": "CSc1cccc(Cl)c1C",
-        "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6",
+        "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
         "smiles_source": "patent_scheme",
         "molecular_formula": "C8H9ClS",
         "molecular_weight": 172.68
@@ -37834,7 +37834,7 @@
       {
         "identifier": "compound of formula (VI)",
         "smiles": "CSc1cccc(Cl)c1C",
-        "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6",
+        "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
         "smiles_source": "patent_scheme",
         "molecular_formula": "C8H9ClS",
         "molecular_weight": 172.68
@@ -40515,7 +40515,7 @@
       {
         "identifier": "compound of formula (VI)",
         "smiles": "CSc1cccc(Cl)c1C",
-        "compound_uuid": "b219ef98-2046-517a-923c-f9d6599b4eb6",
+        "compound_uuid": "1f72f774-2d4c-590a-b92d-d912773cdde5",
         "smiles_source": "patent_scheme",
         "molecular_formula": "C8H9ClS",
         "molecular_weight": 172.68

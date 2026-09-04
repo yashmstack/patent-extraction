@@ -1,27 +1,27 @@
 {
  "patent_id": "WO2024109718A1",
  "identifiers": 171,
- "resolved": 132,
+ "resolved": 130,
  "witnesses": {
   "2": 70,
-  "1": 27,
+  "1": 25,
   "4": 12,
   "3": 21,
   "5": 2
  },
  "no_structure": {
-  "none:class_name": 25,
+  "none:class_name": 27,
   "none:unresolved": 2,
   "none:markush": 10,
   "none:ambiguous": 2
  },
  "records": {
   "compounds": [
-   105,
+   104,
    131
   ],
   "reaction_participants": [
-   405,
+   406,
    426
   ],
   "reaction_products": [
@@ -146,16 +146,25 @@
    ]
   }
  ],
- "pathway_renames": [
+ "pathway_renames": [],
+ "alias_inherited": [
   {
-   "was": "式(VIII)化合物",
-   "now": "ester compound of formula (VIII)",
-   "molecule": "no structure, joined on the formula label"
+   "identifier": "dichloroethane",
+   "from": "1,2-dichloroethane",
+   "was": null,
+   "now": "ClCCCl"
   },
   {
-   "was": "式(VIII)化合物",
-   "now": "ester compound of formula (VIII)",
-   "molecule": "no structure, joined on the formula label"
+   "identifier": "bis(dibenzylideneacetone)palladium",
+   "from": "bis(dibenzylideneacetone)palladium(0)",
+   "was": "O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd].[Pd]",
+   "now": "O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd]"
+  },
+  {
+   "identifier": "bis[4-(N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+   "from": "bis[(4-N,N-dimethylamino)phenyl]di-tert-butylphosphine",
+   "was": null,
+   "now": "CN(C)c1ccc(P(C(C)(C)C)C(C)(C)C)cc1"
   }
  ],
  "readers": [

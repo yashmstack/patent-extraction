@@ -248,6 +248,14 @@ ROLE_TAIL = re.compile(
 SINGULAR_CLASS = {"haloform", "triketone", "diketone", "trione", "quinone",
                   "sulfonamide", "carbamate", "phenoxy", "sulfonylurea"}
 
+# `diazonium salt` names a charge type and the word salt, and nothing else. The
+# gold's own note says so: "The text names only the compound class, not a specific
+# salt". PubChem answers it with the bare diazonium ion, N#[NH+], mass 29, which is
+# a fragment of every member of the class and none of them.
+FUNCTIONAL_CATION = re.compile(
+    r"\b(diazonium|ammonium|sulfonium|phosphonium|oxonium|iminium|carbenium|"
+    r"pyridinium|imidazolium|azolium)\s+salts?$", re.I)
+
 # A bare plural of a chemical class, with no locants to pin an isomer down.
 # `triketones`, `pyrazolones`, `isoxazolones`. Patent prose names one molecule in
 # the singular, so the plural is the tell, and the no-digits test keeps
@@ -337,6 +345,10 @@ def no_structure_reason(identifier: str, english_forms: list[str] | None = None)
     head = n.split()
     if head and head[0] in ("compound", "compounds"):
         return "none:markush"
+    if FUNCTIONAL_CATION.search(n):
+        return "none:class_name"
+    if re.match(r"^(a|an|any|some)\s", n) and CLASS_HEAD.search(n):
+        return "none:class_name"
     if "(class)" in n or ROLE_TAIL.search(n):
         return "none:class_name"
     if n in SINGULAR_CLASS or n.split()[-1] in CLASS_TAIL:
@@ -969,6 +981,11 @@ def write_artifacts(run: Path, resolved: dict, check: bool) -> tuple[dict, list]
     def fill(record: dict, ident: str, bucket: str) -> None:
         counts[bucket][1] += 1
         entry = resolved.get(ident) or {}
+        owner = by_alias.get(ident) if bucket != "compounds" else None
+        if owner and canon(owner.get("smiles")) != canon(entry.get("smiles")):
+            inherited.append({"identifier": ident, "from": owner["identifier"],
+                              "was": entry.get("smiles"), "now": owner["smiles"]})
+            entry = {k: owner.get(k) for k in FIELDS}
         record.update(public(entry))
         if entry.get("smiles"):
             counts[bucket][0] += 1
@@ -994,6 +1011,19 @@ def write_artifacts(run: Path, resolved: dict, check: bool) -> tuple[dict, list]
             if key and key not in authority:
                 authority[key] = c
     known = {c.get("identifier") for c in compounds}
+
+    # compounds.json is the authority, so a row elsewhere that uses one of its
+    # ALIASES is that compound and takes its structure. PubChem answers
+    # `bis(dibenzylideneacetone)palladium` with Pd2(dba)3 at 915.73 and
+    # `bis(dibenzylideneacetone)palladium(0)` with Pd(dba)2 at 575.02, and this
+    # patent prints Pd(dba)2. Both spellings appear in reactions.json, so without
+    # this one reagent carried two masses 341 g/mol apart.
+    by_alias: dict[str, dict] = {}
+    for c in compounds:
+        for a in c.get("aliases") or []:
+            if a and a not in known and a not in by_alias and c.get("smiles"):
+                by_alias[a] = c
+    inherited: list[dict] = []
 
     # A Markush reference has no structure, so the SMILES join above cannot reach
     # it, and 58 of WO2024109718A1's pathway references are the Chinese for one:
@@ -1052,6 +1082,18 @@ def write_artifacts(run: Path, resolved: dict, check: bool) -> tuple[dict, list]
                         if target is None:
                             same = [c for (lab, _), c in by_label.items() if lab == label]
                             target = same[0] if len(same) == 1 else None
+                # compounds.json is the authority for the name, so it is the
+                # authority for the uuid that goes with it. Two of this patent's
+                # references named one compound and pointed at another's uuid,
+                # which no consumer joining on uuid could survive. Pre-existing:
+                # 11 references at 92bdc9a, before any of this ran.
+                if target is None and ident in known:
+                    c = next(x for x in compounds if x["identifier"] == ident)
+                    if c.get("compound_uuid") and ref.get("compound_uuid") != c["compound_uuid"]:
+                        renames.append({"was": ident, "now": ident,
+                                        "molecule": "uuid corrected to the "
+                                                    "compounds.json record for this name"})
+                        ref["compound_uuid"] = c["compound_uuid"]
                 if target:
                     renames.append({"was": ident, "now": target["identifier"],
                                     "molecule": key or "no structure, joined on the "
@@ -1066,7 +1108,7 @@ def write_artifacts(run: Path, resolved: dict, check: bool) -> tuple[dict, list]
         (out / "reactions.json").write_text(dump(reactions), encoding="utf-8")
         if pathways is not None:
             p.write_text(dump(pathways), encoding="utf-8")
-    return counts, renames
+    return counts, renames, inherited
 
 
 def main() -> int:
@@ -1090,7 +1132,7 @@ def main() -> int:
         print(f"{len(idents)} distinct identifiers across compounds, reactions and pathways")
 
         resolved, disputes, unresolved = resolve_all(idents, aliases, run, a.offline)
-        counts, renames = write_artifacts(run, resolved, a.check)
+        counts, renames, inherited = write_artifacts(run, resolved, a.check)
 
         got = sum(1 for e in resolved.values() if e.get("smiles"))
         wit = {}
@@ -1121,6 +1163,9 @@ def main() -> int:
             for src, smi in d["answers"].items():
                 print(f"      {src:15s} {smi}")
             print(f"      -> kept {d['chosen_source']}: {d['reason']}")
+        for i in inherited:
+            print(f"  ALIAS  {i['identifier']!r} takes the structure of "
+                  f"{i['from']!r}: {i['was']} -> {i['now']}")
         if renames:
             print(f"  {len(renames)} pathway reference(s) renamed to the compounds.json "
                   f"spelling, joined on canonical SMILES "
@@ -1133,6 +1178,7 @@ def main() -> int:
                   "witnesses": wit, "no_structure": reasons, "records": counts,
                   "disagreements": disputes, "unresolved": unresolved,
                   "pathway_renames": renames,
+                  "alias_inherited": inherited,
                   "readers": ["curated (human, this patent)",
                               "patent_drawing (vision pass, this patent)",
                               "opsin (OPSIN 2.9.0, pipeline/vendor/)",

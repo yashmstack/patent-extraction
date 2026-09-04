@@ -2573,10 +2573,10 @@
     "compound_uuid": "f0f59b07-b5a7-5af6-9ae5-19c19627a10b",
     "first_seen_line": 433,
     "concentration_pct": null,
-    "smiles": "N#[NH+]",
-    "smiles_source": "pubchem",
-    "molecular_formula": "HN2+",
-    "molecular_weight": 29.02
+    "smiles": null,
+    "smiles_source": "none:class_name",
+    "molecular_formula": null,
+    "molecular_weight": null
   },
   {
     "patent_id": "WO2024109718A1",
